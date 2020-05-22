@@ -432,133 +432,133 @@
   },
   "account-create": {
     "steps": [
-      "Your details",
-      "Country",
-      "Account details"
+      "Ihre Daten",
+      "Land",
+      "Kontodaten"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Haben Sie bereits ein Nash-Konto?",
+      "sign-in-now": "Jetzt einloggen"
     },
     "form": {
       "fields": {
         "optional": "(optional)"
       },
-      "continue": "Continue",
+      "continue": "Fortfahren",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Fehler bei der Erstellungs eines Kontos. Bitte versuchen Sie es erneut.",
+        "invalid-referral-code-can-continue": "Ungültiger Empfehlungs-Code.",
+        "invalid-referral-code": "Ungültiger Empfehlungs-Code. Bitte überprüfen Sie den Code und versuchen Sie es erneut.",
+        "invalid-email-domain": "Ihr E-Mail-Anbieter ist nicht erlaubt. Bitte nutzen Sie eine andere Adresse.",
+        "duplicate-email": "Es wurde bereits ein Konto mit dieser E-Mail-Adresse erstellt.",
+        "password-too-short": "Ihr Passwort sollte aus mindestens 8 Zeichen bestehen.",
+        "invalid-recaptcha": "Recaptcha-Verifikation ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+        "missing-us-state": "Falls Sie in den Vereinigten Staaten leben, müssen Sie Ihren Staat angeben."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Konto erstellen",
+      "subheader": "Ihre Details",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Hinweis für US-Kunden",
+        "desc": "Sie erstellen ein vorläufiges Konto, um am Empfehlungsprogramm teilnehmen zu können. Ihr Staat muss jedoch berechtigt sein, auf die Nash-Leistungen zuzugreifen. Falls Sie berechtigt sind, werden Sie aufgefordert, eine Nutzungsvereinbarung zu bestätigen."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Vollständiger Name"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Empfehlungscode (optional)",
+          "sub-label": "Was ist das?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Nash Empfehlungsprogramm",
+          "desc": "Dieses wird genutzt um Empfehlungen für künftige Nash-Aktinoen zu verfolgen."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Wir haben festgestellt, dass Sie ein VPN nutzen.",
+          "message": "Bitte deaktivieren Sie jegliche VPN oder Proxy-Dienste um fortzufahren. Nachdem Sie ein Konto erstellt haben, können Sie Ihre Idendität verifizieren, um VPN in Zukunft nutzen zu können."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "Erstellen Sie ein Konto",
+      "subheader": "Wo leben Sie?",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Aufenthaltsland"
         },
         "state": {
-          "label": "State"
+          "label": "Staat/Bundesland"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Ich bestätige, dass dies mein Aufenthaltsland ist."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Ich bestätige, dass dies mein Staat und mein Aufenthaltsland sind."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Erstellen Sie ein Konto",
+      "subheader": "Kontodaten",
+      "continue": "Konto erstellen",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Geben Sie eine E-Mail-Adresse ein",
+          "placeholder": "E-Mail-Adresse"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Erstellen Sie ein Passwort",
+          "placeholder": "Passwort",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Das ausgewählte Passwort ist zu schwach."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Bestätigen Sie Ihr Passwort",
+          "placeholder": "Passwort bestätigen",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Passwörter stimme nicht überein."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "title": "Tipps für ein starkes Passwort",
+          "desc": "Ein starkes Passwort ist essentiell für die Sicherheit Ihrer Mittel. Befolgen Sie diese Tipps um sicher zu gehen:",
+          "tip-index": "Tipp {{index}}",
+          "tip-1": "Verwenden Sie ein Passwort nicht mehrfach, selbst wenn Sie einzelne Zeichen oder Wörter abändern. Falls Sie gephisht oder gehackt werden, ist Ihr Nash-Konto sofort kompromitiert.",
+          "tip-2": "Verwenden Sie keine persönlichen Informationen wie Namen, Geburtstage oder Adressen in Ihrem Passwort. Diese sind leicht herauszufinden und sollten vermieden werden.",
+          "tip-3": "Das Passwort sollte aus mindestens 12 Zeichen bestehen und ein Mix aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen sein.",
+          "tip-4": "Überlegen Sie sich einen Passwort-Generator zu nutzen, um maximal sichere Passwörter zu generieren und zu speichern."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Nutzen Sie einen Mix aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen für ein starkes Passwort.",
+        "tips": "Tipps zur Passwort-Erstellung",
+        "password-strength": "Passwortstärke",
+        "weak": "Schwach",
+        "medium": "Mittel",
+        "strong": "Stark",
+        "very-strong": "Sehr stark"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "Wir haben Ihnen eine E-Mail gesendet!",
+      "desc-1": "Bitte überprüfen Sie Ihre E-Mails und bestätigen Sie Ihren Account.",
+      "desc-2": "Falls Sie die E-Mail nicht finden können, prüfen Sie auch Ihren Spam/Junk-Ordner.",
+      "resend": "Bestätigungs-E-Mail erneut senden",
+      "resend-delay": "Bitte warten Sie {{count}} Sekunde…",
+      "resend-delay_plural": "Bitte warten Sie {{count}} Sekunden…",
+      "back": "Zurück zum Login",
+      "success": "Bestätigungs-E-Mail erfolgreich ereut gesendet!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Beim erneuten versenden der Bestätigungs-E-Mail ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
       }
     }
   },
