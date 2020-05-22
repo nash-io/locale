@@ -1,4 +1,4 @@
-# Nash platform locale file
+# Nash platform localization files
 
 This is a open repository for the community to help translate and correct Nash locale files
 
