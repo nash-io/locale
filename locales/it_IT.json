@@ -17,23 +17,23 @@
   "finish": "Concludi",
   "price-each": "{{price}} each",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
-  "remaining": "Remaining",
+  "remaining": "Rimanente",
   "not-available-short": "N/A",
   "set-price": "Imposta un prezzo",
   "market": "Market",
   "market-price": "Market price",
   "exchange": "Exchange",
-  "receive": "Receive",
-  "wallet": "Account",
-  "upload": "Upload",
+  "receive": "Ricevi",
+  "wallet": "Conto",
+  "upload": "Carica",
   "processing": "Processing…",
-  "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opens in new tab",
-  "failed-update": "Failed to update",
-  "reported-errors": "Errors reported",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "over-file-limit": "Le dimensioni del file non devono superare {{maxAllowedSize}}{{unit}}.",
+  "opens-new-tab": "Si apre in una nuova scheda",
+  "failed-update": "Aggiornamento non riuscito",
+  "reported-errors": "Errori segnalati",
+  "credit-card-expiry-placeholder": "MM/AA",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
+    "no-addresses-whitelisted": "Non hai ancora inserito indirizzi in lista bianca.",
     "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
     "add-whitelisted": "Whitelisted addresses",
     "duplicate-address-in-form": "This address is already whitelisted.",
@@ -41,32 +41,32 @@
     "address-is-not-valid": "Address is not valid.",
     "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
+      "access": "Accesso",
+      "kyc": "Verifica dell'identità",
       "apitrade": "API trading",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Are you sure you want to revoke all your keys?",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "body": "Sei sicuro di voler revocare tutte le tue chiavi?",
+      "confirm-button-label": "Revoca definitivamente tutte le chiavi",
+      "cancel-button-label": "Torna indietro"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "Sei sicuro di voler revocare ‘<0></0>’?",
+      "confirm-button-label": "Revoca definitivamente",
+      "cancel-button-label": "Torna indietro"
     },
     "edit-whitelisted": {
       "title": "Address whitelist for {{name}}",
       "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "save-and-close": "Salva le modifiche e chiudi",
+      "continue": "Continua"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
+      "no-addresses-whitelisted": "Nessun indirizzo in lista bianca",
+      "title": "Gestisci chiavi API",
+      "revoke-button-label": "Revoca",
+      "table-header": "Le tue chiavi API",
       "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
       "name": "Name",
       "never-used": "Never used",
@@ -75,8 +75,8 @@
       "key-info": "Key information",
       "api-key": "API key",
       "blockchains": "Blockchains",
-      "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "whitelisted": "Lista bianca",
+      "view-whitelist": "Vedi lista bianca",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
       "blockchains-hint": "This API key can function with these blockchains.",
       "usable-for": "Usable for",
@@ -103,10 +103,10 @@
     },
     "step2": {
       "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
+      "two-fa-code": "Codice di autenticazione a due fattori",
       "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "incorrect-password": "La password inserita non è corretta.",
+      "incorrect-2fa": "Il codice inserito non è corretto."
     },
     "step3": {
       "generating-keys-message": "Generating your key…"
