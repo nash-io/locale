@@ -24,7 +24,7 @@
   "market-price": "Prezzo di mercato",
   "exchange": "Scambio",
   "receive": "Ricevi",
-  "wallet": "Conto",
+  "wallet": "Account",
   "upload": "Carica",
   "processing": "Elaborazione in corso…",
   "over-file-limit": "Le dimensioni del file non devono superare {{maxAllowedSize}}{{unit}}.",
@@ -148,8 +148,8 @@
   },
   "fee-information-modal": {
     "title": "Struttura delle commissioni",
-    "desc": "Nash calcola la media mobile su 30 giorni del volume di un utente utlizzando il volume degli scambi associati al suo conto come percentuale del volume totale della piattaforma.",
-    "30-day-volume": "Volume degli ultimi 30 giorni",
+    "desc": "Nash calcola la media mobile su 30 giorni del volume di un utente utlizzando il volume degli scambi associati al suo account come percentuale del volume totale della piattaforma.",
+    "30-day-volume": "Volume su 30 giorni",
     "taker-fee": "Commissione per i taker",
     "maker-fee": "Commissione per i maker",
     "learn-more": "Scopri di più sugli ordini da maker e da taker."
@@ -186,7 +186,7 @@
     "advanced-exchange": "Visualizzazione Pro",
     "advanced-exchange-short": "Pro",
     "markets": "Mercati",
-    "settings": "Il mio conto",
+    "settings": "Il mio account",
     "fiat-ramps": "Rampe fiat"
   },
   "top-nav": {
@@ -312,8 +312,8 @@
       "incorrect": "Il codice di autenticazione a due fattori inserito non è corretto. Hai un massimo di cinque tentativi.",
       "already-used": "Il codice di autenticazione a due fattori inserito è già stato usato. Per favore attendi e riprova.",
       "code-expired": "Il codice di autenticazione a due fattori inserito è scaduto. Per favore attendi e riprova.",
-      "too-many-failures": "Hai inserito un codice sbagliato troppe volte e ora il tuo conto è permanentemente bloccato. La sessione verrà chiusa ora.",
-      "too-many-failures-signout": "Hai inserito un codice sbagliato troppe volte e ora il tuo conto è permanentemente bloccato. La sessione verrà chiusa ora."
+      "too-many-failures": "Hai inserito un codice sbagliato troppe volte e ora il tuo account è permanentemente bloccato. La sessione verrà chiusa ora.",
+      "too-many-failures-signout": "Hai inserito un codice sbagliato troppe volte e ora il tuo account è permanentemente bloccato. La sessione verrà chiusa ora."
     },
     "cryptography": {
       "encryption-failed": "Crittazione fallita. Per favore esci e riprova.",
@@ -321,11 +321,11 @@
     },
     "account-not-found": {
       "pending": {
-        "title": "Elaborazione del conto in corso!",
+        "title": "Elaborazione dell'account in corso!",
         "message": "Per favore controlla di nuovo tra pochi minuti."
       },
       "not-found": {
-        "title": "Il tuo conto non è stato trovato."
+        "title": "Il tuo account non è stato trovato."
       }
     }
   },
@@ -333,9 +333,9 @@
   "yes": "sì",
   "no": "no",
   "account-types": {
-    "personal": "Conto personale",
+    "personal": "Account personale",
     "trading": "Contratto di trading",
-    "external": "Conto esterno"
+    "external": "Account esterno"
   },
   "query-errors": {
     "failed": "Caricamento non riuscito.",
@@ -389,42 +389,42 @@
           "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
         },
         "duplicate-ip": {
-          "title": "È già stato creato un conto con questo indirizzo IP.",
+          "title": "È già stato creato un account con questo indirizzo IP.",
           "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Non tutti i servizi Nash sono attualmente supportati in {{usState}}. Il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+          "title-no-state": "Non tutti i servizi Nash sono attualmente supportati nel tuo stato. Il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+          "message": "Ti notificheremo tramite email quando lo stato di {{usState}} sarà pienamente supportato. Per favore <0>contatta il nostro team di supporto</0> per qualsiasi domanda.",
+          "message-no-state": "Ti notificheremo tramite email quando il tuo stato sarà pienamente supportato. Per favore <0>contatta il nostro team di supporto</0> per qualsiasi domanda."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Non tutti i servizi Nash sono attualmente supportati nella tua località presente. Il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+          "message": "Per favore <0>contatta il nostro team di supporto</0> per qualsiasi domanda."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Il tuo livello attuale di verifica è Livello {{userTier}}. Pertanto, il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+        "message": "Per usare la piena gamma dei nostri servizi, per favore <0>passa a Livello {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Abbiamo notato che stai effettuando l'accesso da {{detectedCountry}}.",
+          "message": "Se non vivi più in {{accountCountry}}, per favore <0>contatta il nostro team di supporto</0> per aggiornare il tuo indirizzo."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Naviga da desktop per un'esperienza migliore.",
+          "message": "La visualizzazione ‘Pro’ è progettata per l'utilizzo da desktop. Se sei su smartphone o tablet, prova la <0>visualizzazione ‘Basic’</0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Non mostrare più questo messaggio."
   },
   "terms": {
     "user-agreement": "User Agreement",
@@ -437,8 +437,8 @@
       "Account details"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Hai già un account Nash?",
+      "sign-in-now": "Accedi ora"
     },
     "form": {
       "fields": {
@@ -446,106 +446,106 @@
       },
       "continue": "Continue",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
+        "generic-error": "Si è verificato un errore nella registrazione dell'account. Per favore riprova.",
+        "invalid-referral-code-can-continue": "Codice referral non valido.",
+        "invalid-referral-code": "Codice referral non valido. Per favore controlla il tuo codice e riprova.",
         "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "duplicate-email": "È già stato creato un account con questo indirizzo email.",
+        "password-too-short": "La tua password dovrebbe contenere almeno otto caratteri.",
+        "invalid-recaptcha": "Verifica recaptcha fallita. Per favore riprova.",
+        "missing-us-state": "Se vivi negli Stati Uniti, devi inserire il tuo stato."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Crea un account",
+      "subheader": "I tuoi dettagli",
       "disclaimer": {
         "title": "Notice for US customers",
         "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Nome e cognome"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Codice referral (opzionale)",
+          "sub-label": "Che cos'è?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
+          "title": "Programma di referral Nash",
           "desc": "This will be used to track referrals for future Nash promotions."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Abbiamo notato che stai utilizzando una VPN.",
+          "message": "Per favore disabilita qualsiasi VPN o servizio proxy per continuare. Una volta creato un account, potrai verificare la tua identità per utilizzare una VPN in futuro."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "Crea un account",
+      "subheader": "Dove vivi?",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Paese di residenza"
         },
         "state": {
-          "label": "State"
+          "label": "Stato"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Confermo che questo è il mio paese di residenza."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": Confermo che questi sono il mio paese e il mio stato di residenza."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
+      "header": "Crea un account",
       "subheader": "Account details",
-      "continue": "Create account",
+      "continue": "Crea account",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Inserisci un indirizzo email",
+          "placeholder": "Indirizzo email"
         },
         "password": {
-          "label": "Create a password",
+          "label": "Crea una password",
           "placeholder": "Password",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "La password che hai scelto è troppo debole."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Conferma la tua password",
+          "placeholder": "Conferma password",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Le password non corrispondono."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "title": "Suggerimenti per una password efficace",
+          "desc": "Una password efficace è essenziale per tenere al sicuro i tuoi fondi. Segui questi suggerimenti per stare al sicuro:",
+          "tip-index": "Suggerimento {{index}}",
+          "tip-1": "Non riutilizzare una password da altri siti web, anche se cambi singole parole o caratteri. Qualora tu cadessi vittima di phishing o hacking altrove, il tuo account Nash sarebbe immediatamente compromesso.",
+          "tip-2": "Non includere informazioni personali nella tua password. Nomi, compleanni e indirizzi sono facili da scoprire e dovrebbero essere evitati.",
+          "tip-3": "Per la tua password, utilizza almeno dodici caratteri e un misto di lettere maiuscole e minuscole, numeri e caratteri speciali.",
+          "tip-4": "Valuta di utilizzare un generatore di password per creare e conservare delle password che offrono massima sicurezza."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Utilizza un misto di lettere maiuscole e minuscole, numeri e caratteri speciali per una password più efficace.",
+        "tips": "Suggerimenti per la creazione della password",
+        "password-strength": "Efficacia della password",
+        "weak": "Debole",
+        "medium": "Media",
+        "strong": "Forte",
+        "very-strong": "Molto forte"
       }
     },
     "verify-email": {
