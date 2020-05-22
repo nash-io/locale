@@ -155,25 +155,25 @@
     "learn-more": "Erfahren Sie mehr über Maker- und Taker-Aufträge."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Gültigkeitsdauer",
+    "subtitle": "Spezifizieren Sie die Dauer, wie lange sich Ihr Auftrag im Auftragsbuch gültig bleibt.",
     "sections": {
       "gtc": {
         "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "desc": "Ihr Auftrag bleibt im Auftragsbuch bestehen, bis er ausgeführt wird oder Sie ihn stornieren."
       },
       "gtt": {
         "header": "Good ’til time",
         "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "desc": "Ihr Auftrag bleibt im Auftragsbuch bis zu der von Ihnen definierten Zeit bestehen. Wurde der Auftrag bis dahin nicht ausgeführt, wird er stoniert."
       },
       "fok": {
         "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "desc": "Wenn der Auftrag sofort komplett gefüllt werden kann, wird er das. Andernfalls wird der komplette Auftrag storniert."
       },
       "ioc": {
         "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "desc": "So viel wie möglich vom Auftrag gefüllt werden kann, wird gefüllt. Die restliche Menge die übrig bleibt, wird stoniert."
       }
     }
   },
