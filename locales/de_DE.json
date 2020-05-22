@@ -1,5 +1,5 @@
 {
-  "sandbox-warning": "Das ist eine Sandbox-Umgebung zum testen der API-Integration. Senden Sie niemals echtes Geld (Kryptowährung) hierher!",  
+  "sandbox-warning": "Das ist eine Sandbox-Umgebung zum testen der API-Integration. Senden Sie niemals echtes Guthaben hierher!",  
   "buy": "Kaufen",
   "sell": "Verkaufen",
   "continue": "Fortfahren",
@@ -33,91 +33,91 @@
   "reported-errors": "Fehler gemeldet",
   "credit-card-expiry-placeholder": "MM/YY",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
-    "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
-    "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
+    "no-addresses-whitelisted": "Du hast noch keine Adressen auf die Whitelist gesetzt",
+    "address-input-placeholder": "Geben Sie eine BTC-, NEO- oder ETH-Adresse in die Whitelist ein",
+    "add-whitelisted": "Adressen auf der Whitelist",
+    "duplicate-address-in-form": "Diese Adresse ist bereits auf der Whitelist.",
+    "add-address": "Adresse hinzufügen",
+    "address-is-not-valid": "Adresse ist ungültig",
+    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du nur Guthaben auf Adressen transfrieren die auf der Whitelist stehen. Sie können jederzeit Adressen auf der Whitelist hinzufügen und entfernen, sobald Ihr Schlüssel generiert wurde.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
+      "access": "Zugang",
+      "kyc": "Identitätsprüfung",
+      "apitrade": "API Handel",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Are you sure you want to revoke all your keys?",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "body": "Bist du sicher, dass du alle deine Schlüssel widerrufen möchten?",
+      "confirm-button-label": "Widerrufen Sie alle Schlüssel für immer",
+      "cancel-button-label": "Geh zurück"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "Sind Sie sicher, dass Sie widerrufen möchten? ‘<0></0>’?",
+      "confirm-button-label": "Für immer widerrufen",
+      "cancel-button-label": "Geh zurück"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "Adress Whitelist für {{name}}",
+      "add": "Neue hinzufügen",
+      "save-and-close": "Speichert Änderungen und schließt",
+      "continue": "Fortsetzen"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
+      "no-addresses-whitelisted": "Keine Adresse auf der Whitelist",
+      "title": "MAPI-Schlüssel verwalten",
+      "revoke-button-label": "Widerrufen",
+      "table-header": "Ihre API-Schlüssel",
+      "no-tokens-exp": "<0>Generiere meinen ersten Schlüssel</0> oder lese unsere <1>API Dokumentation</1>.",
       "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
+      "never-used": "Nie benutzt",
+      "last-used": "Zuletzt verwendeten {{when}}",
+      "subtitle": "Generieren und verwalten meine API-Schlüssel. Lerne mehr über <0>unsere APIs</0>.",
+      "key-info": "Schlüssel information",
+      "api-key": "API Schlüssel",
       "blockchains": "Blockchains",
       "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "view-whitelist": "whitelist anzeigen",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "This API key can function with these blockchains.",
-      "usable-for": "Usable for",
-      "revoke": "Revoke",
-      "created": "Created",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "blockchains-hint": "Dieser API-Schlüssel funktionieren mit diesen Blockchains.",
+      "usable-for": "Verwendbar für",
+      "revoke": "Widerrufen",
+      "created": "Erstellt",
+      "policy-trading": "Handeln",
+      "loading": "Token laden…",
+      "no-tokens": "Du hast noch keine API-Schlüssel generiert.",
+      "policy-withdrawals": "Auszahlungen und Einzahlungen. ",
+      "revoke-all-keys-button-label": "Widerrufe alle Schlüssel",
+      "generate-new-key-button-label": "Neuen Schlüssel generieren",
+      "plus-more": "+{{count}} mehr"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Benutzeranmeldeinformationen",
+      "whitelist-step": "Whitelist Adressen",
+      "name-step": "Gib deinen Schlüsseln einen Namen",
+      "last-step": "Speichere dein Geheimnis",
+      "title": "Generieren einen neuen API-Schlüssel"
     },
     "step1": {
       "name": "Name",
-      "continue-button-label": "Create key"
+      "continue-button-label": "Schlüssel erstellen"
     },
     "step2": {
-      "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "password": "Passwort",
+      "two-fa-code": "Zwei-Faktor-Authentifizierungscode",
+      "create-api-button-label": "Fortsetzen",
+      "incorrect-password": "Das eingegebene Passwort war falsch.",
+      "incorrect-2fa": "Der eingegebene Code war falsch."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Generiert deinen Schlüssel…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Dein Geheimnis",
+      "your-secret-warning": "Dies ist das einzige Mal, dass wir das zeigen.",
+      "api-key": "Dein API-Schlüssel",
+      "api-key-warning": "Dies ist das einzige Mal, dass wir das zeigen.",
+      "download-as-json-button-label": "API-Schlüssel und Geheimnis als JSON herunterladen "",
+      "i-saved-my-secret-button-label": "Ich habe mein Geheimnis gespeichert"
     }
   },
   "terse-periods": {
