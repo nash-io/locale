@@ -12,7 +12,7 @@ Locale files are of format JSON and organized as:
 
 Here "key" is the keyword used in the platform code to identify the text and should not be modified. The "content" text is the translation target and is what replaces occurences of "key" in the code. There are some coding specifics in certain keys, those are indentified by `{{}}` and should be kept as they are, only its textual content should be translated.
 
-Never used Github? After you create an account this is the easiest way to contribute:
+Never used Github? This is the easiest way to contribute:
 https://www.youtube.com/watch?v=5u0I0UX81tI
 
 | Locale name | Language           | Country/Territory           |
