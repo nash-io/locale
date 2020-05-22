@@ -3847,145 +3847,145 @@
         "title": "Create your stake",
         "amount-to-stake": "Amount of NEX to stake",
         "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
-        "available-balance": "Available balance to stake ⋅",
+        "available-balance": "Verfügbares Guthaben zum staken ⋅",
         "quick-fill-label": "Max",
-        "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅ ",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
-        "set-date-dividends-label": "Set a date to receive your dividends",
-        "set-date-dividends-value": "Date ⋅ {{date}} of every month",
-        "stake-details-title": "Your stake details",
-        "currency-to-stake": "NEX to stake",
-        "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
-        "fee-reward": "Staking rate",
-        "first-payment": "First payment",
-        "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
-        "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
-        "create-stake-button": "Create stake",
-        "create-stake-sending-button": "Sending data…",
-        "create-stake-sending-text": "Sending data. Please keep this window open. This can take up to one minute.",
-        "create-stake-error": "There was either an error or a delay while creating your stake. Please check again in five minutes and resubmit if your stake was not created.",
-        "create-stake-auth-error": "Authentication error. Please try again.",
-        "learn-more": "Learn more about",
-        "footer-desc": "staking NEX",
-        "amount-error-message": "This amount exceeds your available balance.",
+        "set-stake-duration-label": "Lege deine Staking dauer fest",
+        "selected-duration": "Ausgewählte Dauer ⋅ ",
+        "selected-duration-month": "<0>{{count}}</0> Monat",
+        "selected-duration-month_plural": "<0>{{count}}</0> Monat",
+        "set-date-dividends-label": "Legen Sie einen Datum für den Erhalt Ihrer Dividenden fest",
+        "set-date-dividends-value": "Datum ⋅ {{date}} jeden Monat",
+        "stake-details-title": "Deine Stake Details",
+        "currency-to-stake": "NEX zum staken",
+        "stake-duration": "Dauer des Stakes",
+        "duration-value": "<0>{{count}}</0> Monate",
+        "duration-value_plural": "<0>{{count}}</0> Monate",
+        "fee-reward": "Stakingrate",
+        "first-payment": "Erste Vergütung",
+        "agreed-to-non-cancellation-label": "Ich verstehe, dass ich diesen Stake nicht stornieren oder bearbeiten kann, sobald ich ihn erstellt habe.",
+        "agreed-to-locked-tokens-label": "Ich verstehe, dass meine NEX-Token mir nicht zu verfügung stehen bis der Zeitraum in dem Ich die NEX-Token gestacked habe verstrichen ist.",
+        "create-stake-button": "Erstelle einen Stake",
+        "create-stake-sending-button": "Daten senden…",
+        "create-stake-sending-text": "Daten senden. Bitte lasse dieses Fenster offen. Dies kann bis zu einer Minute dauern.",
+        "create-stake-error": "Beim Erstellen deines Stakes ist entweder ein Fehler oder eine Verzögerung aufgetreten. Bitte überprüfen Sie es in fünf Minuten erneut und reichen deinen Stake erneut ein, wenn dein Stake nicht erstellt wurde.",
+        "create-stake-auth-error": "Authentifizierungsfehler. Bitte versuche es erneut.",
+        "learn-more": "Lerne mehr darüber",
+        "footer-desc": "Staken von NEX",
+        "amount-error-message": "Dieser Betrag übersteigt Ihr verfügbares Guthaben.",
         "stake-success": {
           "header": "Stake created!",
-          "stake-details": "You created a stake of {{amount}} NEX for a period of {{count}} month. Your stake will appear in the dashboard shortly.",
-          "stake-details_plural": "You created a stake of {{amount}} NEX for a period of {{count}} months. Your stake will appear in the dashboard shortly.",
-          "stake-time-description": "You will receive your first dividends in:",
-          "finish-button-label": "Finish"
+          "stake-details": "Du hast einen Stake von {{amount}} NEX über eine Zeitraum von  {{count}} Monaten gestaked. Dein Stake wird bald im Dashboard angezeigt.",
+          "stake-details_plural": "Du hast einen Stake von {{amount}} NEX über einen Zeitraum von {{count}} Monaten gestaked. Dein Stake wird bald im Dashboard angezeigt.",
+          "stake-time-description": "Sie erhalten Ihre ersten Dividenden in:",
+          "finish-button-label": "Fertig"
         }
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
-      "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
-      "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
-      "description-modal-create-link": "Create your first stake"
+      "title": "Verdiene passives Einkommen, indem du NEX-Token stakest",
+      "description-desktop": "Neu beim Staking? Lerne mehr darüber <0>Staking NEX Tokens</0> and <1>Erstelle deinen ersten Stake</1>.",
+      "description-mobile": "Neu beim Staking? Lerne mehr darüber <0>Staking NEX Tokens</0>.",
+      "description-modal-create-link": "Erstellen Sie Ihren ersten stake"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Stakes in progress",
+      "stakes-in-progress": "Stakes in Bearbeitung",
       "completed-stakes": "Completed stakes",
-      "create-stake-button": "Create a new stake",
-      "learn-stake-button": "Learn about staking"
+      "create-stake-button": "Erstelle einen neuen Stake",
+      "learn-stake-button": "Erfahre mehr über das Staken "
     },
     "max-stakes": {
-      "message": "You have created {{amount}} out of a possible {{maxAmount}} stakes. The maximum you can create is {{maxAmount}}.",
-      "dismiss": "Dismiss"
+      "message": "Sie haben erstellt {{amount}} aus einem möglichen {{maxAmount}} Stakes. Das Maximum, das du erstellen kannst, ist {{maxAmount}}.",
+      "dismiss": "Entlassen"
     }
   },
   "contacts": {
-    "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "create-new": "Create new",
+    "title": "{{count}} Kontakt",
+    "title_plural": "{{count}} Kontakte",
+    "search-my-contacts": "Suche meine Kontakte…",
+    "no-contacts": "Du hast noch keine Kontakte hinzugefügt oder importiert.",
+    "create-new": "Erstelle neu",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Senden",
+      "send-disabled-tooltip": "Fügen bei deinen Kontakten eine Walletadresse hinzu, deinen Kontakten Guthaben zu senden.",
+      "request": "Anfrage",
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
     },
     "headers": {
       "name": "Name",
       "email": "Email",
-      "phone-number": "Phone number",
+      "phone-number": "Telefonummer",
       "wallets": "Wallets"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Kontakt erstellen",
+        "button": "Kontakt erstellen"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Bearbeite diesen Kontakt",
+        "button": "Änderungen speichern"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Senden Guthaben an {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Welches Asset?",
+          "wallet": "Ziel"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Sie können Assets nur von Ihrem persönlichen Konto aus senden."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Suchen nach einem Asset…",
+          "destination": "Suchen Sie nach einer Walletadress…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "Sind Sie sicher, dass Sie löschen möchten {{contactName}}?",
+        "notice-text": "Alle mit diesem Kontakt verbundenen Informationen werden dauerhaft entfernt.",
+        "button": "Ja, löschen",
+        "cancel": "Beenden,
+        "error": "Fehler beim Löschen des Kontakts. Bitte versuche es erneut.",
+        "success": "Kontakt gelöscht.",
+        "success-button": "Zurück zu den Kontakten"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Kontakt gespeichert! ",
+        "error": "Fehler beim Speichern des Kontakts. Bitte versuche es erneut.",
+        "invalid-input": "Ungültige Eingabe. Bitte versuche es erneut."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Vorname",
+          "placeholder": "Vorname"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Nachname",
+          "placeholder": "Nachname"
         },
         "email": {
           "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "placeholder": "Emailadresse",
+          "error": "Ungültige Emailadresse"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Telefon",
+          "error": "Gültige Telefonnummer für {{country}}"
         },
         "wallets": {
           "label": "Wallets",
-          "delete": "Delete",
+          "delete": "Löschen",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Walletadresse"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Walletname"
           },
-          "add": "Add another"
+          "add": "Füge eine andere hinzu"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Bitte füge eine Gültige {{blockchain}} adresse hinzu.",
+          "unique-address": "Du hast bereits einen anderen Kontakt mit dieser Walletadresse."
         }
       }
     }
