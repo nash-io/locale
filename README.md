@@ -2,6 +2,16 @@
 
 This is a open repository for the community to help translate and correct Nash locale files
 
+Locale files are of format JSON and organized as:
+
+```javascript
+{
+"key": "content"
+}
+```
+
+Here "key" is the keyword used in the platform code to identify the text and should not be modified. The "content" text is the translation target and is what replaces occurences of "key" in the code. There are some coding specifics in certain keys, those are indentified by `{{}}` and should be kept as they are, only its textual content should be translated.
+
 | Locale name | Language           | Country/Territory           |
 |-------------|--------------------|-----------------------------|
 | [en](./locales/en.json)          | English            | International (US standard) |
