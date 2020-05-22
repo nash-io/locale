@@ -504,48 +504,48 @@
       }
     },
     "account-details": {
-      "header": "Crea un account",
+      "header": "Create an account",
       "subheader": "Account details",
-      "continue": "Crea account",
+      "continue": "Create account",
       "fields": {
         "email": {
-          "label": "Inserisci un indirizzo email",
-          "placeholder": "Indirizzo email"
+          "label": "Enter an email address",
+          "placeholder": "Email address"
         },
         "password": {
-          "label": "Crea una password",
+          "label": "Create a password",
           "placeholder": "Password",
           "errors": {
-            "password-too-weak": "La password che hai scelto è troppo debole."
+            "password-too-weak": "The password you chose is too weak."
           }
         },
         "password-confirm": {
-          "label": "Conferma la tua password",
-          "placeholder": "Conferma password",
+          "label": "Confirm your password",
+          "placeholder": "Confirm password",
           "errors": {
-            "passwords-do-not-match": "Le password non corrispondono."
+            "passwords-do-not-match": "Passwords do not match."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Suggerimenti per una password efficace",
-          "desc": "Una password efficace è essenziale per tenere al sicuro i tuoi fondi. Segui questi suggerimenti per stare al sicuro:",
-          "tip-index": "Suggerimento {{index}}",
-          "tip-1": "Non riutilizzare una password da altri siti web, anche se cambi singole parole o caratteri. Qualora tu cadessi vittima di phishing o hacking altrove, il tuo account Nash sarebbe immediatamente compromesso.",
-          "tip-2": "Non includere informazioni personali nella tua password. Nomi, compleanni e indirizzi sono facili da scoprire e dovrebbero essere evitati.",
-          "tip-3": "Per la tua password, utilizza almeno dodici caratteri e un misto di lettere maiuscole e minuscole, numeri e caratteri speciali.",
-          "tip-4": "Valuta di utilizzare un generatore di password per creare e conservare delle password che offrono massima sicurezza."
+          "title": "Tips for a strong password",
+          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
+          "tip-index": "Tip {{index}}",
+          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
+          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
+          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
+          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
         }
       },
       "password": {
-        "desc": "Utilizza un misto di lettere maiuscole e minuscole, numeri e caratteri speciali per una password più efficace.",
-        "tips": "Suggerimenti per la creazione della password",
-        "password-strength": "Efficacia della password",
-        "weak": "Debole",
-        "medium": "Media",
-        "strong": "Forte",
-        "very-strong": "Molto forte"
+        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
+        "tips": "Password creation tips",
+        "password-strength": "Password strength",
+        "weak": "Weak",
+        "medium": "Medium",
+        "strong": "Strong",
+        "very-strong": "Very strong"
       }
     },
     "verify-email": {
@@ -553,8 +553,8 @@
       "desc-1": "Please check your email and verify your account.",
       "desc-2": "If you don’t see our email, check your junk folder.",
       "resend": "Resend verification email",
-      "resend-delay": "Per favore attendi {{count}} secondo…",
-      "resend-delay_plural": "Per favore attendi {{count}} secondi…",
+      "resend-delay": "Please wait {{count}} second…",
+      "resend-delay_plural": "Please wait {{count}} seconds…",
       "back": "Back to sign-in",
       "success": "Verification email resent successfully!",
       "errors": {
