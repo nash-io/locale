@@ -366,65 +366,65 @@
     "contact-support": "Bitte <0>kontaktieren Sie unser Support-Team</0>, falls Sie irgendwelche Fragen haben."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Etwas ist schief gelaufen.",
+    "go-back": "Zurück",
+    "go-back-retry": "Erneut versuchen und zurückgehen",
+    "contact-support": "Bitte <0>kontaktieren Sie unser Support-Team</0> für weitere Details.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Nicht verfügbar im Sandkasten!",
+        "content": "Diese Funktion wurde im Sandkasten-Modus deaktiviert."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Ihre IP-Adresse stimmt nicht mit dem von Ihnen ausgewählten Land überein.",
+          "message": "Benutzer mit einem Verifikationslevel der Stufe 0 könnten Nash nicht außerhalb Ihres Heimatlandes nutzen. Überlegen Sie sich auf <0>Stufe 1 zu erweitern</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Wir haben festgestellt, dass Sie ein VPN nutzen.",
+          "message": "Benutzer mit einem Verifikationslevel der Stufe 0 können nicht alle Nash-Leistungen nutzen, wenn Sie übe ein VPN oder Proxy verbunden sind. Bitte deaktiveren Sie solche Services, oder <0>erweitern Sie auf Stufe 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Ihr aktuelles Verifikationslevel ist Stufe 0. Daher werden einige Bereiche der Nash-Plattform nur eingeschränkt nutzbar sein.",
+          "message": "Um die volle Bandbreite unserer Services nutzen zu können, <0>erweitern Sie bitte auf Stufe 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Es wurde bereits ein Konto mit dieser IP erstellt.",
+          "message": "Um alle Nash-Services mit diesem Konto nutzen zu können, <0>erweitern Sie bitte auf Stufe 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Es sind aktuell nicht alle Nash-Leistungen verfügbar in {{usState}}. Daher werden einige Bereiche der Nash-Plattform nur eingeschränkt nutzbar sein.",
+          "title-no-state": "Es sind aktuell nicht alle Nash-Leistungen verfügbar in Ihrem Staat/Bundelsand. Daher werden einige Bereiche der Nash-Plattform nur eingeschränkt nutzbar sein.",
+          "message": "Wir werden Sie per E-Mail benachrichtigen, sobald {{usState}} vollständig unterstützt wird. Bitte <0>kontaktieren Sie unser Support-Team</0>, falls Sie irgendwelche Fragen haben.",
+          "message-no-state": "Wir werden Sie per E-Mail benachrichtigen, sobald Ihr Staat/Bundesland vollständig unterstützt wird. Bitte <0>kontaktieren Sie unser Support-Team</0>, falls Sie irgendwelche Fragen haben."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Nicht alle Nash-Leistungen sind an Ihrem aktuellen Standort verfügbar. Daher werden einige Bereiche der Nash-Plattform nur eingeschränkt nutzbar sein",
+          "message": "Bitte <0>kontaktieren Sie unser Support-Team</0>, falls Sie irgendwelche Fragen haben."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Ihr aktuelles Verifikationslevel ist Sufe {{userTier}}. Daher werden einige Bereiche der Nash-Plattform nur eingeschränkt nutzbar sein.",
+        "message": "Um alle Nash-Services mit diesem Konto nutzen zu können, <0>erweitern Sie bitte auf Stufe {{minTier}}</0>"
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Wir haben festgestellt dass Sie sich aus {{detectedCountry}} einloggen.",
+          "message": "Falls Sie nicht länger in {{accountCountry}} leben, <0>kontaktien Sie bitte unser Support-Team</0>, um Ihre Adresse zu aktualisieren."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Nutzen Sie einen Desktop-Browser für die optimale Erfahrung.",
+          "message": "Die ‘Pro’-Ansicht wurde für Desktop-Auflösungen optimiert. Wenn Sie auf einem Mobilgerät sind, versuchen Sie die <0>‘Einfache’ Ansicht</0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Nicht erneut anzeigen."
   },
   "terms": {
     "user-agreement": "User Agreement",
