@@ -15,7 +15,7 @@
   "try-again": "Erneut versuchen",
   "refresh": "Aktualisieren",
   "finish": "Abschließen",
-  "price-each": "{{price}} pro Stück",
+  "price-each": "jeweils {{price}}",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "Verbleibend",
   "not-available-short": "n.v.",
@@ -127,32 +127,32 @@
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "trading": "Handel",
+    "personal": "Privat",
+    "in-trades": "Im Handel",
+    "transfer-funds": "Senden/Erhalten",
+    "pending-transfer": "Sie haben eine ausstehende Überweisung über {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Sehen Sie sich Ihre Überweisungen hier an."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Geschätzte Gebühr: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Max.",
+    "use-last": "Letztes nutzen"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Unzureichende Mittel",
+  "amount-each": "jeweils {{amount}}",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Gesamtes tägliches Limit",
+    "link": "Meine Limits erhöhen",
+    "amount-of-max-amount": "{{amount}} von maximal {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
+    "title": "Gebührenstruktur",
     "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "30-day-volume": "30-Tage-Volumen",
+    "taker-fee": "Taker-Gebühr",
+    "maker-fee": "Maker-Gebühr",
+    "learn-more": "Erfahren Sie mehr über Maker- und Taker-Aufträge."
   },
   "time-in-force-modal": {
     "title": "Time in force",
