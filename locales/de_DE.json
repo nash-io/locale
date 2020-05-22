@@ -2,7 +2,7 @@
   "sandbox-warning": "Das ist eine Sandbox-Umgebung zum testen der API-Integration. Senden Sie niemals echtes Guthaben hierher!",  
   "buy": "Kaufen",
   "sell": "Verkaufen",
-  "continue": "Fortfahren",
+  "continue": "weiter",
   "ok": "OK",
   "back": "Zurück",
   "help": "Hilfe",
@@ -22,7 +22,7 @@
   "set-price": "Legen Sie einen Preis fest",
   "market": "Markt",
   "Market price": "Marktpreis",
-  "exchange": "Exchange",
+  "exchange": "Börse",
   "receive": "erhalten",
   "wallet": "Konto",
   "upload": "hochladen",
@@ -39,7 +39,7 @@
     "duplicate-address-in-form": "Diese Adresse ist bereits auf der Whitelist.",
     "add-address": "Adresse hinzufügen",
     "address-is-not-valid": "Adresse ist ungültig",
-    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du nur Guthaben auf Adressen transfrieren die auf der Whitelist stehen. Sie können jederzeit Adressen auf der Whitelist hinzufügen und entfernen, sobald Ihr Schlüssel generiert wurde.",
+    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du nur Guthaben auf Adressen Überweisen die auf der Whitelist stehen. Sie können jederzeit Adressen auf der Whitelist hinzufügen und entfernen, sobald Ihr Schlüssel generiert wurde.",
     "token-type": {
       "access": "Zugang",
       "kyc": "Identitätsprüfung",
@@ -64,7 +64,7 @@
     },
     "overview": {
       "no-addresses-whitelisted": "Keine Adresse auf der Whitelist",
-      "title": "MAPI-Schlüssel verwalten",
+      "title": "API-Schlüssel verwalten",
       "revoke-button-label": "Widerrufen",
       "table-header": "Ihre API-Schlüssel",
       "no-tokens-exp": "<0>Generiere meinen ersten Schlüssel</0> oder lese unsere <1>API Dokumentation</1>.",
@@ -127,66 +127,66 @@
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "trading": "Handeln",
+    "personal": "Privat",
+    "in-trades": "Im Handel",
+    "transfer-funds": "Senden/Empfangen",
+    "pending-transfer": "Du hast eine ausstehende Überweisung von {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Du kannst dir hier deine Überweisung ansehen"
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Geschätzte Gebühr: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
-    "use-last": "Use last"
+    "use-last": "Verwende das Letze"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Unzureichende Guthaben,
+  "amount-each": "{{amount}} pro Stück",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Gesamttageslimit",
+    "link": "Erhöhe mein Gesamttageslimit",
+    "amount-of-max-amount": "{{amount}} aus {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Gebührenstruktur",
+    "desc": "Nash berechnet das 30-Tage-Durchschnittsvolumen eines Benutzers anhand des mit seinem Konto verknüpften Handelsvolumens als Prozentsatz des gesamten Börsenvolumens.",
+    "30-day-volume": "30-Tagesvolumen,
+    "taker-fee": "Taker-Gebühr,
+    "maker-fee": "Maker-Gebühr",
+    "learn-more": "Lerne mehr über Maker und Taker Aufträge."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Gültig seit",
+    "subtitle": "Geben den Zeitraum an, für wie lange deine Auftrag im Auftragbuch verbleibt soll.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Gut bis zur Stonierung",
+        "desc": "Deine Aufträge bleibt auf unbestimmte Zeit im Auftragsbuch - entweder bis sie gefüllt ist oder bis der Auftrag stoniert wird."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Gut bis ein bestimmten Zeitpunkt",
+        "header-with-time": "Gut bis {{cancelAt}}",
+        "desc": "Deine Aufträge bleibt bis zu dem von Ihnen angegebenen Zeitpunkt im Auftragsbuch. Wenn der Auftrag zu diesem Zeitpunkt noch nicht gefüllt ist, wird es storniert."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Füllen oder Stonieren,
+        "desc": "Wenn deine gesamter Auftrag sofort ausgeführt werden kann und gefüllt wird oder wenn der Auftrag nicht vollständig gefüllt werden kann, wird die gesamte Bestellung storniert."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Sofort oder abbrechen",
+        "desc": "Ein Großteil deines Auftrages wird sofort ausgeführt. Was nicht gefüllt ist, wird storniert."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
+    "referrals": "Empfehlungen",
+    "funds": "Guthaben",
+    "exchange": "Börse",
+    "basic-exchange": "Basic Ansicht",
     "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
+    "advanced-exchange": "Pro Ansicht",
     "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
+    "markets": "Märkte",
+    "settings": "Dein Konto",
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
@@ -198,38 +198,38 @@
         "label": "Portfolio"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Benachrichtigungen",
+        "clear-all": "Alles Löschen
       },
       "transfers": {
-        "initializing": "Initializing",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "initializing": "Initialisieren",
+        "initialized": "Übertragung initialisiert",
+        "tooltip": "Du hast noch eine Übertragungsinitialisierung. Wenn du Nash schließen oder sich abmelden, wird es angehalten, bis du dich erneut anmeldest."
       },
       "general-menu": {
-        "settings": "My profile",
+        "settings": "Mein Profil",
         "support": "Support",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Tag Modus",
+          "dark": "Nacht Modus"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Auslogen",
+          "sign-in": "Einlogen",
+          "sign-in-create-account": "<1>Erstelle ein Konto</1> or <0>sich eintragen</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Algemeines"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Handel",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Börse",
+          "markets": "Märkte",
+          "orders": "Aufträge"
         },
         "exchange": {
           "switch": {
@@ -239,81 +239,81 @@
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Guthaben",
         "pages": {
           "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "transfers": "Übertragungen",
+          "assets": "Vermögenswerte",
+          "contacts": "Kontakte"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Empfehlungen
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Kaufen/Verkaufen",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Kaufen/Verkaufen,
+          "transactions": "Transaktionen",
+          "payment-methods": "Bezahlungs Methoden",
+          "profile": "Profil"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
+          "profile": "Profil",
+          "preferences": "Einstellungen",
+          "security": "Sicherheit",
+          "limits": "Limitierungen",
+          "accounts": "Konto",
           "apikeys": "API\u00A0keys"
         }
       },
       "staking": {
         "title": "Staking",
         "pages": {
-          "all-stakes": "All stakes",
-          "statements": "Statements"
+          "all-stakes": "Alle stakes",
+          "statements": "Erklärung
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Suchen…",
+  "loading": "Laden…",
+  "pending": "Anstehend…",
+  "cancelling": "Abbrechen…",
+  "authenticating": "Authentifizierung…",
+  "decrypting": "Entschlüsseln…",
+  "encrypting": "Verschlüsselung…",
+  "sending": "Senden…",
+  "submit": "Einreichen",
+  "retry": "Erneut Versuchen",
+  "sending-approval": "Genehmigung senden…",
+  "send-approval": "Genehmigung senden",
+  "submit-transfer": "Überweisung senden,
+  "no-longer-sufficient-balance-for-tx": "Ihr Guthaben reicht für diese Transaktion nicht mehr aus..",
+  "we-are-hiring": "Wir stellen ein!",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Zugang gesperrt",
+    "location-banned": "Leider kann Nash derzeit nicht in deinem Rechtssystem operieren.",
+    "invalid-clock-title": "Die Uhr Ihres Computers ist nicht genau.",
+    "permissions-issue-title": "Berechtigungsproblem",
+    "invalid-clock": "Um mit Nash zu handeln, muss Ihre Uhr genau sein. <0>Synchronisiere dein Uhr</0> then <1>Versuch es noch einmal</1>.",
+    "network-issue-title": "Netwerk Probleme",
+    "network-issue": "Es liegt ein vorübergehendes Netzwerkproblem vor. Bitte <0>Versuch es noch einmal</0>.",
+    "generic-error-title": "Fehler",
+    "generic-error": "Etwas ist schief gelaufen. Bitte versuche es erneut.",
+    "generic-error-signout": "Ein unerwarteter Fehler ist aufgetreten. Bitte abmelden und erneut versuchen.",
+    "within-waiting-period": "Du musst fünf Minuten warten, bevor du einen weiteren Versuch machen kannst. Ihr neuer Versuch wird in Kürze erscheinen.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Das Passwort was von dir eingeben wurde ist falsch."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Der von dir eingegebene Zwei-Faktor-Authentifizierungscode ist falsch. Du hast maximal fünf Versuche.",
+      "already-used": "Der von dir eingegebene Zwei-Faktor-Authentifizierungscode wurde bereits verwendet. Bitte warte bis du es erneut versuchen kannst.",
+      "code-expired": "Der von dir eingegebene Zwei-Faktor-Authentifizierungscode ist abgelaufen. Bitte versuchen es erneut.",
+      "too-many-failures": "Du hast zu oft einen falschen Code eingegeben und Dein Konto ist jetzt dauerhaft gesperrt. Bitte wenden dich an den Support.",
+      "too-many-failures-signout": "Du wirst jetzt ausgelogt."
     },
     "cryptography": {
       "encryption-failed": "Encryption failed. Please sign out and try again.",
