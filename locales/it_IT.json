@@ -148,14 +148,14 @@
   },
   "fee-information-modal": {
     "title": "Struttura delle commissioni",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
+    "desc": "Nash calcola la media mobile su 30 giorni del volume di un utente utlizzando il volume degli scambi associati al suo conto come percentuale del volume totale della piattaforma.",
     "30-day-volume": "Volume degli ultimi 30 giorni",
-    "taker-fee": "Commissione per taker",
-    "maker-fee": "Commissione per maker",
+    "taker-fee": "Commissione per i taker",
+    "maker-fee": "Commissione per i maker",
     "learn-more": "Scopri di più sugli ordini da maker e da taker."
   },
   "time-in-force-modal": {
-    "title": "Tempo imposto",
+    "title": "Limite di tempo",
     "subtitle": "Specifica il periodo di tempo per cui il tuo ordine resterà sul libro degli ordini.",
     "sections": {
       "gtc": {
@@ -295,93 +295,92 @@
   "we-are-hiring": "Lavora con noi",
   "errors": {
     "location-banned-title": "Accesso bloccato",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
+    "location-banned": "Sfortunatamente, Nash al momento non è in grado di operare nella tua giurisdizione.",
+    "invalid-clock-title": "L'orologio del tuo computer non è preciso.",
     "permissions-issue-title": "Problema di permessi",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
+    "invalid-clock": "Per scambiare su Nash il tuo orologio deve essere preciso. <0>Sincronizza il tuo orologio</0> e poi <1>riprova</1>.",
     "network-issue-title": "Problema di rete",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
+    "network-issue": "C'è un problema di rete temporaneo. Per favore <0>riprova</0>.",
+    "generic-error-title": "Errore",
+    "generic-error": "Qualcosa è andato storto. Per favore riprova.",
+    "generic-error-signout": "Si è verificato un errore imprevisto. Per favore esci e riprova.",
     "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "La password inserita non è corretta."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Il codice di autenticazione a due fattori inserito non è corretto. Hai un massimo di cinque tentativi.",
+      "already-used": "Il codice di autenticazione a due fattori inserito è già stato usato. Per favore attendi e riprova.",
+      "code-expired": "Il codice di autenticazione a due fattori inserito è scaduto. Per favore attendi e riprova.",
+      "too-many-failures": "Hai inserito un codice sbagliato troppe volte e ora il tuo conto è permanentemente bloccato. La sessione verrà chiusa ora."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Crittazione fallita. Per favore esci e riprova.",
+      "decryption-failed": "Decrittazione fallita. Per favore esci e riprova."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Elaborazione del conto in corso!",
+        "message": "Per favore controlla di nuovo tra pochi minuti."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Il tuo conto non è stato trovato."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
+  "no-results": "Nessun risultato trovato.",
+  "yes": "sì",
   "no": "no",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Conto personale",
+    "trading": "Contratto di trading",
+    "external": "Conto esterno"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Caricamento non riuscito.",
+    "failed-button": "Caricamento non riuscito",
+    "failed-please-try": "<0>Caricamento non riuscito. Per favore\u00A0</0><1>riprova</1>.",
+    "why-this-may-happening": "Scopri le possibili cause per cui ciò è accaduto <0>qui.</0>"
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> ora",
+    "time-in-hours_plural": "<0>{{count}}</0> ore",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "Gennaio",
+      "1": "Febbraio",
+      "2": "Marzo",
+      "3": "Aprile",
+      "4": "Maggio",
+      "5": "Giugno",
+      "6": "Luglio",
+      "7": "Agosto",
+      "8": "Settembre",
+      "9": "Ottobre",
+      "10": "Novembre",
+      "11": "Dicembre"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Sfortunatamente, Nash al momento non è in grado di operare nella tua regione.",
+    "contact-support": "Per favore <0>contatta il nostro team di supporto</0> per qualsiasi domanda."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Qualcosa è andato storto.",
+    "go-back": "Torna indietro",
+    "go-back-retry": "Riprova e torna indietro",
+    "contact-support": "Per favore <0>contatta il nostro team di supporto</0> per ulteriori dettagli.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Non disponibile nella sandbox!",
+        "content": "Questa funzionalità è stata disabilitata nella sandbox."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
+          "title": "Il tuo indirizzo IP non corrisponde al paese selezionato.",
           "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
+          "title": "Abbiamo notato che stai usando una VPN.",
           "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
         },
         "high-risk-country": {
@@ -389,7 +388,7 @@
           "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
+          "title": "È già stato creato un conto con questo indirizzo IP.",
           "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
         }
       },
