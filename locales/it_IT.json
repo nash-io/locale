@@ -115,7 +115,7 @@
       "your-secret": "Il tuo segreto",
       "your-secret-warning": "Questa è l'unica volta in cui ti mostreremo il tuo segreto.",
       "api-key": "La tua chiave API",
-      "api-key-warning": "Questa èl'unica volta in cui ti mostreremo la tua chiave API.",
+      "api-key-warning": "Questa è l'unica volta in cui ti mostreremo la tua chiave API.",
       "download-as-json-button-label": "Scarica la chiave API e il segreto come file JSON",
       "i-saved-my-secret-button-label": "Ho salvato una copia del mio segreto"
     }
@@ -136,8 +136,8 @@
   },
   "estimated-fee": "Commissione di rete stimata: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Massimo",
+    "use-last": "Usa l'ultimo"
   },
   "insufficient-funds": "Fondi insufficienti",
   "amount-each": "{{amount}} ciascuno",
@@ -155,25 +155,25 @@
     "learn-more": "Scopri di più sugli ordini da maker e da taker."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Tempo imposto",
+    "subtitle": "Specifica il periodo di tempo per cui il tuo ordine resterà sul libro degli ordini.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Valido finché cancellato",
+        "desc": "Il tuo ordine resterà sul libro degli ordini a tempo indefinito – finché sarà riempito oppure finché lo cancellerai."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Valido fino a una data",
+        "header-with-time": "Valido fino a {{cancelAt}}",
+        "desc": "Il tuo ordine resterà sul libro degli ordini fino alla data specificata. Se non sarà stato riempito entro tale data, l'ordine verrà cancellato."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Riempi o cancella",
+        "desc": "Se il tuo ordine può essere totalmente riempito subito, sarà riempito. Se non può essere riempito totalmente, l'intero ordine verrà cancellato."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Immediato o cancella",
+        "desc": "L'ordine sarà riempito subito il più possibile. L'eventuale porzione rimanente dell'ordine non riempita, verrà cancellata."
       }
     }
   },
