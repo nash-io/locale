@@ -204,7 +204,7 @@
       "transfers": {
         "initializing": "Avvio del transferimento in corso",
         "initialized": "Trasferimento avviato",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "tooltip": "Un tuo trasferimento si sta ancora avviando. Se chiudi Nash o esci, verrà messo in pausa finché non accedi nuovamente"
       },
       "general-menu": {
         "settings": "Il mio profilo",
@@ -216,20 +216,20 @@
         "auth": {
           "sign-out": "Esci",
           "sign-in": "Accedi",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-in-create-account": "<1>Crea un account</1> o <0>accedi</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Generale"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Scambia",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Scambio",
+          "markets": "Mercati",
+          "orders": "Ordini"
         },
         "exchange": {
           "switch": {
@@ -239,33 +239,33 @@
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Fondi",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "portfolio": "Portafoglio",
+          "transfers": "Trasferimenti",
+          "assets": "Risorse",
+          "contacts": "Contatti"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Referral"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Compra/Vendi",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Compra/Vendi",
+          "transactions": "Transazioni",
+          "payment-methods": "Metodi di pagamento",
+          "profile": "Profilo"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
+          "profile": "Profilo",
+          "preferences": "Preferenze",
+          "security": "Sicurezza",
+          "limits": "Limiti",
+          "accounts": "Conti",
           "apikeys": "API\u00A0keys"
         }
       },
@@ -279,22 +279,22 @@
     }
   },
   "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "loading": "Caricamento…",
+  "pending": "In attesa",
+  "cancelling": "Cancellazione in corso…",
+  "authenticating": "Autenticazione in corso…",
+  "decrypting": "Decrittazione in corso…",
+  "encrypting": "Crittazione in corso…",
+  "sending": "Invio in corso…",
+  "submit": "Invia",
+  "retry": "Riprova",
+  "sending-approval": "Convalida dell'invio in corso…",
+  "send-approval": "Convalida l'invio",
+  "submit-transfer": "Avvia trasferimento",
+  "no-longer-sufficient-balance-for-tx": "Il tuo bilancio non è più sufficiente per questa transazione.",
+  "we-are-hiring": "Lavora con noi",
   "errors": {
-    "location-banned-title": "Access blocked",
+    "location-banned-title": "Accesso bloccato",
     "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
     "invalid-clock-title": "Your computer’s clock is not accurate.",
     "permissions-issue-title": "Permissions Issue",
