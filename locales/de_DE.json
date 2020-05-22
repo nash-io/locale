@@ -15,7 +15,7 @@
   "try-again": "Erneut versuchen",
   "refresh": "Aktualisieren",
   "finish": "Beenden",
-  "price-each": "{{price}} pro Einheit",
+  "price-each": "{{price}} je Einheit",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "Verbleibend",
   "not-available-short": "N/A",
@@ -24,13 +24,13 @@
   "Market price": "Marktpreis",
   "exchange": "Börse",
   "receive": "Empfangen",
-  "wallet": "Konto",
+  "wallet": "Wallet",
   "upload": "hochladen",
   "processing": "Wird verarbeitet",
   "over-file-limit": "Die Dateigröße darf nicht überschritten werden {{maxAllowedSize}}{{unit}}.",
   "opens-new-tab": "Öffne neuen Tab",
   "failed-update": "Aktualisierung fehlgeschlagen",
-  "reported-errors": "Fehler gemeldet",
+  "reported-errors": "Fehler wurde gemeldet",
   "credit-card-expiry-placeholder": "MM/YY",
   "apikeys": {
     "no-addresses-whitelisted": "Du hast noch keine Adressen auf die Whitelist gesetzt",
@@ -39,7 +39,7 @@
     "duplicate-address-in-form": "Diese Adresse ist bereits auf der Whitelist.",
     "add-address": "Adresse hinzufügen",
     "address-is-not-valid": "Adresse ist ungültig",
-    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du nur Guthaben auf Adressen Überweisen die auf der Whitelist stehen. Sie können jederzeit Adressen auf der Whitelist hinzufügen und entfernen, sobald Ihr Schlüssel generiert wurde.",
+    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du nur Guthaben auf Adressen Überweisen die auf der Whitelist stehen. Sobald Sie Ihren Schlüssel generiert haben, kann die Whitelist jederzeit überarbeitet werden.",
     "token-type": {
       "access": "Zugang",
       "kyc": "Identitätsprüfung",
@@ -47,25 +47,25 @@
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Bist du sicher, dass du alle deine Schlüssel widerrufen möchten?",
-      "confirm-button-label": "Widerrufen Sie alle Schlüssel für immer",
-      "cancel-button-label": "Geh zurück"
+      "body": "Sind Sie sicher, dass Sie alle Ihre Schlüssel entfernen möchten?",
+      "confirm-button-label": "Alle Schlüssel für immer entfernen",
+      "cancel-button-label": "zurück"
     },
     "delete-token": {
-      "body": "Bist du sicher, dass du widerrufen möchten? ‘<0></0>’?",
-      "confirm-button-label": "Für immer widerrufen",
-      "cancel-button-label": "Geh zurück"
+      "body": "Sind Sie sicher, dass Sie den Vorgang rückgängig machen wollen? ‘<0></0>’?",
+      "confirm-button-label": "Für immer entfernen",
+      "cancel-button-label": "zurück"
     },
     "edit-whitelisted": {
-      "title": "Adress Whitelist für {{name}}",
-      "add": "Neue hinzufügen",
-      "save-and-close": "Speichert Änderungen und schließt",
-      "continue": "Fortsetzen"
+      "title": "Whitelist Adresse für {{name}}",
+      "add": "Neue Liste hinzufügen",
+      "save-and-close": "Änderungen speichern und schließen",
+      "continue": "fortsetzen"
     },
     "overview": {
       "no-addresses-whitelisted": "Keine Adresse auf der Whitelist",
       "title": "API-Schlüssel verwalten",
-      "revoke-button-label": "Widerrufen",
+      "revoke-button-label": "zurüknehmen",
       "table-header": "Ihre API-Schlüssel",
       "no-tokens-exp": "<0>Generiere meinen ersten Schlüssel</0> oder lese unsere <1>API Dokumentation</1>.",
       "name": "Name",
@@ -76,18 +76,18 @@
       "api-key": "API Schlüssel",
       "blockchains": "Blockchains",
       "whitelisted": "Whitelist",
-      "view-whitelist": "whitelist anzeigen",
+      "view-whitelist": "Whitelist anzeigen",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
       "blockchains-hint": "Dieser API-Schlüssel funktionieren mit diesen Blockchains.",
       "usable-for": "Verwendbar für",
-      "revoke": "Widerrufen",
+      "revoke": "Rückgängig",
       "created": "Erstellt",
       "policy-trading": "Handeln",
       "loading": "Token laden…",
       "no-tokens": "Du hast noch keine API-Schlüssel generiert.",
       "policy-withdrawals": "Auszahlungen und Einzahlungen. ",
-      "revoke-all-keys-button-label": "Widerrufe alle Schlüssel",
-      "generate-new-key-button-label": "Neuen Schlüssel generieren",
+      "revoke-all-keys-button-label": "Alle Schlüssel löschen",
+      "generate-new-key-button-label": "Neuen Schlüssel erstellen",
       "plus-more": "+{{count}} mehr"
     },
     "create-modal": {
@@ -139,8 +139,8 @@
     "max": "Max.",
     "use-last": "Letzter Preis"
   },
-  "insufficient-funds": "Mangelnde Deckung",
-  "amount-each": "{{amount}} pro Einheit",
+  "insufficient-funds": "Mangelnde Gelder",
+  "amount-each": "{{amount}} je Einheit",
   "daily-limit": {
     "title": "Handelslimit pro Tag",
     "link": "Handelslimits erhöhen",
@@ -168,8 +168,8 @@
         "desc": "Ihr Auftrag bleibt bis zu dem von Ihnen angegebenen Zeitpunkt im Orderbuch. Wenn er bis dahin nicht ausgeführt worden ist, wird er storniert."
       },
       "fok": {
-        "header": "Fill or Kill",
-        "desc": "Ihr Auftrag wird entweder sofort und vollständig ausgeführt oder – falls das nicht möglich ist – komplett storniert."
+        "header": "Füllen oder Abbruch",
+        "desc": "Ihr Auftrag wird entweder sofort und vollständig ausgeführt oder – falls dies nicht möglich ist – komplett storniert."
       },
       "ioc": {
         "header": "Sofort oder Abbruch",
@@ -243,7 +243,7 @@
         "pages": {
           "portfolio": "Portfolio",
           "transfers": "Überweisungen",
-          "assets": "Assets",
+          "assets": "Vermögenswerte",
           "contacts": "Kontakte"
         }
       },
@@ -266,7 +266,7 @@
           "security": "Sicherheit",
           "limits": "Handelslimits",
           "accounts": "Konten",
-          "apikeys": "API keys"
+          "apikeys": "API Schlüssel"
         }
       },
       "staking": {
@@ -295,10 +295,10 @@
   "we-are-hiring": "Wir stellen ein",
   "errors": {
     "location-banned-title": "Zugang gesperrt",
-    "location-banned": "Leider ist Nash im Moment nicht in Ihrer Region tätig.",
+    "location-banned": "Leider ist Nash im Moment nicht in Ihrer Region verfügbar.",
     "invalid-clock-title": "Die Uhr Ihres Computers ist nicht genau.",
     "permissions-issue-title": "Berechtigungsproblem",
-    "invalid-clock": "Um mit Nash zu handeln, muss Ihre Uhr genau sein. <0>Synchronisiere dein Uhr</0> then <1>Versuch es noch einmal</1>.",
+    "invalid-clock": "Um auf Nash zu handeln, muss Ihre Uhr genau sein. <0>Synchronisiere dein Uhr</0> then <1>Versuch es noch einmal</1>.",
     "network-issue-title": "Netwerk Probleme",
     "network-issue": "Es liegt ein vorübergehendes Netzwerkproblem vor. Bitte <0>Versuch es noch einmal</0>.",
     "generic-error-title": "Ein Fehler ist aufgetreten",
@@ -341,7 +341,7 @@
     "failed": "Laden fehlgeschlagen.",
     "failed-button": "Laden fehlgeschlagen",
     "failed-please-try": "Laden fehlgeschlagen. Bitte <0>erneut versuchen</0>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "why-this-may-happening": "Finden Sie heraus warum dies passiert ist <0>hier.</0>"
   },
   "datetime": {
     "time-in-hours": "<0>{{count}}</0> Stunde",
@@ -362,7 +362,7 @@
     }
   },
   "banned-country": {
-    "header": "Leider ist Nash derzeit nicht in Ihrer Region tätig.",
+    "header": "Leider ist Nash derzeit nicht in Ihrer Region verfügbar.",
     "contact-support": "Bitte <0>kontaktieren Sie unseren Kundenservice</0>, wenn Sie Fragen haben."
   },
   "user-messages": {
@@ -3985,7 +3985,7 @@
           "add": "Füge eine andere hinzu"
         },
         "validation": {
-          "address": "Bitte füge eine Gültige {{blockchain}} adresse hinzu.",
+          "address": "Bitte füge eine Gültige {{blockchain}} Adresse hinzu.",
           "unique-address": "Du hast bereits einen anderen Kontakt mit dieser Walletadresse."
         }
       }
