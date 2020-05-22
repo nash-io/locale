@@ -33,18 +33,18 @@
   "reported-errors": "Errores reportados",
   "credit-card-expiry-placeholder": "MM/YY",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
-    "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
-    "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
+    "no-addresses-whitelisted": "Todavia no has puesto ningna direccion en la lista blanca.",
+    "address-input-placeholder": "Introducir en la lista blanca una direccion de BTC, NEO o ETH",
+    "add-whitelisted": "Direcciones en lista blanca",
+    "duplicate-address-in-form": "Esta direccion ya esta en la lista blanca.",
+    "add-address": "añadir direccion",
+    "address-is-not-valid": "direccion no valida",
+    "whitelisting-explanation": "Solo puedes retirar fondos hacia las direcciones que tengas en la lista blanca con esta llave API. Puedes añadir y quitar direcciones de la lista blanca en cualquier momento una vez qur tu llave API ha sido generada.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
-      "twofa": "2FA"
+      "access": "acceso",
+      "kyc": "verification de identidad",
+      "apitrade": "comerciar con API",
+      "twofa": "doble factor de autentificacion"
     },
     "delete-all-tokens": {
       "body": "Are you sure you want to revoke all your keys?",
