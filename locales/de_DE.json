@@ -1,5 +1,5 @@
 {
-  "sandbox-warning": "Das ist eine Sandbox-Umgebung zum testen der API-Integration. Sende niemals echtes Guthaben hierher!",  
+  "sandbox-warning": "Das ist eine Sandbox-Umgebung zum testen der API-Integration. Sende niemals echtes Guthaben hierher!",
   "buy": "Kaufen",
   "sell": "Verkaufen",
   "continue": "weiter",
@@ -15,7 +15,7 @@
   "try-again": "Versuch es noch einmal",
   "refresh": "Aktualisieren",
   "finish": "Fertig",
-  "price-each": "{{price}} each", 
+  "price-each": "{{price}} each",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "Verbleibend",
   "not-available-short": "N/A",
@@ -116,7 +116,7 @@
       "your-secret-warning": "Dies ist das einzige Mal, dass wir das zeigen.",
       "api-key": "Dein API-Schlüssel",
       "api-key-warning": "Dies ist das einzige Mal, dass wir das zeigen.",
-      "download-as-json-button-label": "API-Schlüssel und Geheimnis als JSON herunterladen "",
+      "download-as-json-button-label": "API-Schlüssel und Geheimnis als JSON herunterladen:",
       "i-saved-my-secret-button-label": "Ich habe mein Geheimnis gespeichert"
     }
   },
@@ -139,7 +139,7 @@
     "max": "Max",
     "use-last": "Verwende das Letze"
   },
-  "insufficient-funds": "Unzureichende Guthaben,
+  "insufficient-funds": "Unzureichende Guthaben",
   "amount-each": "{{amount}} pro Stück",
   "daily-limit": {
     "title": "Gesamttageslimit",
@@ -149,8 +149,8 @@
   "fee-information-modal": {
     "title": "Gebührenstruktur",
     "desc": "Nash berechnet das 30-Tage-Durchschnittsvolumen eines Benutzers anhand des mit seinem Konto verknüpften Handelsvolumens als Prozentsatz des gesamten Börsenvolumens.",
-    "30-day-volume": "30-Tagesvolumen,
-    "taker-fee": "Taker-Gebühr,
+    "30-day-volume": "30-Tagesvolumen",
+    "taker-fee": "Taker-Gebühr",
     "maker-fee": "Maker-Gebühr",
     "learn-more": "Lerne mehr über Maker und Taker Aufträge."
   },
@@ -168,7 +168,7 @@
         "desc": "Deine Aufträge bleibt bis zu dem von Ihnen angegebenen Zeitpunkt im Auftragsbuch. Wenn der Auftrag zu diesem Zeitpunkt noch nicht gefüllt ist, wird es storniert."
       },
       "fok": {
-        "header": "Füllen oder Stonieren,
+        "header": "Füllen oder Stonieren",
         "desc": "Wenn deine gesamter Auftrag sofort ausgeführt werden kann und gefüllt wird oder wenn der Auftrag nicht vollständig gefüllt werden kann, wird die gesamte Bestellung storniert."
       },
       "ioc": {
@@ -199,7 +199,7 @@
       },
       "notifications": {
         "label": "Benachrichtigungen",
-        "clear-all": "Alles Löschen
+        "clear-all": "Alles Löschen"
       },
       "transfers": {
         "initializing": "Initialisieren",
@@ -248,12 +248,12 @@
         }
       },
       "referrals": {
-        "title": "Empfehlungen
+        "title": "Empfehlungen"
       },
       "fiat-ramps": {
         "title": "Kaufen/Verkaufen",
         "pages": {
-          "buy-sell": "Kaufen/Verkaufen,
+          "buy-sell": "Kaufen/Verkaufen",
           "transactions": "Transaktionen",
           "payment-methods": "Bezahlungs Methoden",
           "profile": "Profil"
@@ -273,7 +273,7 @@
         "title": "Staking",
         "pages": {
           "all-stakes": "Alle stakes",
-          "statements": "Erklärung
+          "statements": "Erklärung"
         }
       }
     }
@@ -290,7 +290,7 @@
   "retry": "Erneut Versuchen",
   "sending-approval": "Genehmigung senden…",
   "send-approval": "Genehmigung senden",
-  "submit-transfer": "Überweisung senden,
+  "submit-transfer": "Überweisung senden",
   "no-longer-sufficient-balance-for-tx": "Ihr Guthaben reicht für diese Transaktion nicht mehr aus..",
   "we-are-hiring": "Wir stellen ein!",
   "errors": {
@@ -3944,7 +3944,7 @@
         "confirm-text": "Sind Sie sicher, dass Sie löschen möchten {{contactName}}?",
         "notice-text": "Alle mit diesem Kontakt verbundenen Informationen werden dauerhaft entfernt.",
         "button": "Ja, löschen",
-        "cancel": "Beenden,
+        "cancel": "Beenden",
         "error": "Fehler beim Löschen des Kontakts. Bitte versuche es erneut.",
         "success": "Kontakt gelöscht.",
         "success-button": "Zurück zu den Kontakten"
