@@ -278,70 +278,70 @@
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Suche…",
+  "loading": "Wird geladen…",
+  "pending": "Ausstehend",
+  "cancelling": "Wird abgebrochen",
+  "authenticating": "Wird authentifiziert…",
+  "decrypting": "Entschlüsseln…",
+  "encrypting": "Verschlüsseln…",
+  "sending": "Wird gesendet…",
+  "submit": "Abschicken",
+  "retry": "Erneut veruschen",
+  "sending-approval": "Bestätigung wird gesendet…",
+  "send-approval": "Bestätigung senden",
+  "submit-transfer": "Überweisung abschicken",
+  "no-longer-sufficient-balance-for-tx": "Ihr Guthaben ist nicht länger ausreichend für diese Überweisung.",
+  "we-are-hiring": "Wir stellen ein",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Zugriff blockiert",
+    "location-banned": "Leider kann Nash derzeit nicht in Ihrer Gerichtsbarkeit operieren.",
+    "invalid-clock-title": "Die Uhr Ihres Computers ist nicht genau.",
+    "permissions-issue-title": "Berechtigungsproblem",
+    "invalid-clock": "Um auf Nash handeln zu können, muss Ihre Uhr genau sein. <0>Synchronisieren Sie Ihre Uhr</0>, dann <1>versuchen Sie es erneut</1>.",
+    "network-issue-title": "Netzwerkproblem",
+    "network-issue": "Es existiert ein temporäres Netzwerkproblem. Bitte <0>erneut versuchen</0>.",
+    "generic-error-title": "Fehler",
+    "generic-error": "Etwas ist schief gelaufen. Bitte versuchen Sie es noch einmal..",
+    "generic-error-signout": "Ein unerwarteter Fehler ist aufgetreten. Bitte ausloggen und erneut versuchen.",
+    "within-waiting-period": "Sie müssen fünf Minuten warten bevor Sie weitere Stakes erstellen können. Ihr neuer Stake wird in Kürze sichtbar sein.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Das eingegebene Passwort war nicht korrekt."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Der eingegebene Zwei-Faktor Authentifizierungscode ist nicht korrekt. Sie haben maximal 5 Versuche.",
+      "already-used": "Der eingegebene Zwei-Faktor Authentifizierungscode wurde bereits verwendet. Bitten warten und erneut veruschen.",
+      "code-expired": "Der eingegebene Zwei-Faktor Authentifizierungscode ist abgeaufen. Bitte warten und erneut veruschen.",
+      "too-many-failures": "Sie haben zu oft einen falschen Code eingegeben und Ihr Konto wurde permanent gesperrt. Bitte wenden Sie sich an den Kundenservice.",
+      "too-many-failures-signout": "Sie haben zu oft einen falschen Code eingegeben und Ihr Konto wurde permanent gesperrt. Sie werden nun ausgeloggt."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Verschlüsslung fehlgeschlagen. Bitte augloggen und erneut versuchen.",
+      "decryption-failed": "Entschlüsslung fehlgeschlagen. Bitte ausloggen udn erneut versuchen."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Ihr Konto befindet sich aktuell in der Bearbeitung!",
+        "message": "Bitte versuchen Sie es in wenigen Minuten erneut."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Ihr Konto konnte nicht gefunden werden."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Keine Ergebnisse gefunden.",
+  "yes": "ja",
+  "no": "nein",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Persönliches Konto",
+    "trading": "Handelsvertrag",
+    "external": "Externes Konto"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Konnte nicht geladen werden.",
+    "failed-button": "Konnte nicht geladen werden",
+    "failed-please-try": "<0>Konnte nicht geladen werden. Bitte\u00A0</0><1>erneut\u00A0versuchen</1>.",
+    "why-this-may-happening": "Finden Sie <0>hier</0> heraus, weshalb das passiert."
   },
   "datetime": {
     "time-in-hours": "<0>{{count}}</0> hour",
