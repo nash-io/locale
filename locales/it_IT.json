@@ -26,11 +26,11 @@
   "receive": "Ricevi",
   "wallet": "Conto",
   "upload": "Carica",
-  "processing": "Sto processando…",
+  "processing": "Elaborazione in corso…",
   "over-file-limit": "Le dimensioni del file non devono superare {{maxAllowedSize}}{{unit}}.",
   "opens-new-tab": "Si apre in una nuova scheda",
   "failed-update": "Aggiornamento non riuscito",
-  "reported-errors": "Errori segnalati",
+  "reported-errors": "Segnalazione degli errori effettuata",
   "credit-card-expiry-placeholder": "MM/AA",
   "apikeys": {
     "no-addresses-whitelisted": "Non hai ancora inserito indirizzi nella lista bianca.",
@@ -43,7 +43,7 @@
     "token-type": {
       "access": "Accesso",
       "kyc": "Verifica dell'identità",
-      "apitrade": "API trading",
+      "apitrade": "trading con API",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
@@ -58,7 +58,7 @@
     },
     "edit-whitelisted": {
       "title": "Lista bianca degli indirizzi per {{name}}",
-      "add": "Aggiungi un altro",
+      "add": "Aggiungi un altro indirizzo",
       "save-and-close": "Salva le modifiche e chiudi",
       "continue": "Continua"
     },
@@ -69,8 +69,8 @@
       "table-header": "Le tue chiavi API",
       "no-tokens-exp": "<0>Genera la tua prima chiave</0> o leggi la nostra <1>documentazione API</1>.",
       "name": "Nome",
-      "never-used": "Mai utilizzato",
-      "last-used": "Utilizzato l'ultima volta {{when}}",
+      "never-used": "Mai utilizzata",
+      "last-used": "Utilizzata l'ultima volta {{when}}",
       "subtitle": "Genera e gestisci chiavi API. Scopri di più sulle <0>nostre API</0>.",
       "key-info": "Informazioni della chiave",
       "api-key": "Chiave API",
@@ -88,7 +88,7 @@
       "policy-withdrawals": "Prelievi e depositi",
       "revoke-all-keys-button-label": "Revoca tutte le chiavi",
       "generate-new-key-button-label": "Genera una nuova chiave",
-      "plus-more": "+{{count}} more"
+      "plus-more": "+ altre {{count}}"
     },
     "create-modal": {
       "credentials-step": "Credenziali utente",
@@ -113,9 +113,9 @@
     },
     "step4": {
       "your-secret": "Il tuo segreto",
-      "your-secret-warning": "This is the only time we’ll show you this.",
+      "your-secret-warning": "Questa è l'unica volta in cui ti mostreremo il tuo segreto.",
       "api-key": "La tua chiave API",
-      "api-key-warning": "This is the only time we’ll show you this.",
+      "api-key-warning": "Questa èl'unica volta in cui ti mostreremo la tua chiave API.",
       "download-as-json-button-label": "Scarica la chiave API e il segreto come file JSON",
       "i-saved-my-secret-button-label": "Ho salvato una copia del mio segreto"
     }
@@ -129,12 +129,12 @@
   "transfer": {
     "trading": "Trading",
     "personal": "Personale",
-    "in-trades": "In trades",
+    "in-trades": "In scambi",
     "transfer-funds": "Invia/Ricevi",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
+    "pending-transfer": "Hai un trasferimento in attesa di {{amount}} {{currencySymbol}}.",
     "pending-transfer-link": "Visualizza i tuoi trasferimenti qui."
   },
-  "estimated-fee": "Commissione stimata: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Commissione di rete stimata: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
     "use-last": "Use last"
@@ -144,15 +144,15 @@
   "daily-limit": {
     "title": "Limite giornaliero totale",
     "link": "Aumenta i miei limiti",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "amount-of-max-amount": "{{amount}} su {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
+    "title": "Struttura delle commissioni",
     "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "30-day-volume": "Volume degli ultimi 30 giorni",
+    "taker-fee": "Commissione per taker",
+    "maker-fee": "Commissione per maker",
+    "learn-more": "Scopri di più sugli ordini da maker e da taker."
   },
   "time-in-force-modal": {
     "title": "Time in force",
