@@ -1,235 +1,235 @@
 {
-  "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
-  "buy": "buy",
-  "sell": "sell",
-  "continue": "Continue",
+  "sandbox-warning": "Questo è un ambiente sandbox per testare l'integrazione API. Non inviare mai fondi reali qui!",
+  "buy": "comprare",
+  "sell": "vendere",
+  "continue": "Continua",
   "ok": "OK",
-  "back": "Back",
-  "help": "Help",
-  "and": "and",
-  "from": "From",
-  "to": "To",
-  "or": "or",
-  "price": "Price",
-  "fee": "Fee",
-  "try-again": "Try again",
-  "refresh": "Refresh",
-  "finish": "Finish",
-  "price-each": "{{price}} each",
+  "back": "Indietro",
+  "help": "Aiuto",
+  "and": "e",
+  "from": "Da",
+  "to": "A",
+  "or": "o",
+  "price": "Prezzo",
+  "fee": "Commissione",
+  "try-again": "Riprova",
+  "refresh": "Aggiorna",
+  "finish": "Concludi",
+  "price-each": "{{price}} all'unità",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
-  "remaining": "Remaining",
+  "remaining": "Rimanente",
   "not-available-short": "N/A",
-  "set-price": "Set a price",
-  "market": "Market",
-  "market-price": "Market price",
-  "exchange": "Exchange",
-  "receive": "Receive",
+  "set-price": "Imposta un prezzo",
+  "market": "Mercato",
+  "market-price": "Prezzo di mercato",
+  "exchange": "Scambio",
+  "receive": "Ricevi",
   "wallet": "Account",
-  "upload": "Upload",
-  "processing": "Processing…",
-  "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opens in new tab",
-  "failed-update": "Failed to update",
-  "reported-errors": "Errors reported",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "upload": "Carica",
+  "processing": "Elaborazione in corso…",
+  "over-file-limit": "Le dimensioni del file non devono superare {{maxAllowedSize}}{{unit}}.",
+  "opens-new-tab": "Si apre in una nuova scheda",
+  "failed-update": "Aggiornamento non riuscito",
+  "reported-errors": "Segnalazione degli errori effettuata",
+  "credit-card-expiry-placeholder": "MM/AA",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
-    "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
-    "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
+    "no-addresses-whitelisted": "Non hai ancora inserito indirizzi nella lista bianca.",
+    "address-input-placeholder": "Inserisci un indirizzo BTC, NEO o ETH da aggiungere alla lista bianca",
+    "add-whitelisted": "Indirizzi nella lista bianca",
+    "duplicate-address-in-form": "Questo indirizzo è già nella lista bianca.",
+    "add-address": "Aggiungi indirizzo",
+    "address-is-not-valid": "L'indirizzo non è valido.",
+    "whitelisting-explanation": "Con questa chiave API, puoi prelevare fondi solo verso questi indirizzi della lista bianca. Una volta generata la tua chiave, potrai aggiungere e rimuovere indirizzi della lista bianca in qualsiasi momento.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
+      "access": "Accesso",
+      "kyc": "Verifica dell'identità",
+      "apitrade": "trading con API",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Are you sure you want to revoke all your keys?",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "body": "Sei sicuro di voler revocare tutte le tue chiavi?",
+      "confirm-button-label": "Revoca definitivamente tutte le chiavi",
+      "cancel-button-label": "Torna indietro"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "Sei sicuro di voler revocare ‘<0></0>’?",
+      "confirm-button-label": "Revoca definitivamente",
+      "cancel-button-label": "Torna indietro"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "Lista bianca degli indirizzi per {{name}}",
+      "add": "Aggiungi un altro indirizzo",
+      "save-and-close": "Salva le modifiche e chiudi",
+      "continue": "Continua"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
-      "blockchains": "Blockchains",
-      "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "no-addresses-whitelisted": "Nessun indirizzo nella lista bianca",
+      "title": "Gestisci chiavi API",
+      "revoke-button-label": "Revoca",
+      "table-header": "Le tue chiavi API",
+      "no-tokens-exp": "<0>Genera la tua prima chiave</0> o leggi la nostra <1>documentazione API</1>.",
+      "name": "Nome",
+      "never-used": "Mai utilizzata",
+      "last-used": "Utilizzata l'ultima volta {{when}}",
+      "subtitle": "Genera e gestisci chiavi API. Scopri di più sulle <0>nostre API</0>.",
+      "key-info": "Informazioni della chiave",
+      "api-key": "Chiave API",
+      "blockchains": "Blockchain",
+      "whitelisted": "Lista bianca",
+      "view-whitelist": "Visualizza la lista bianca",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "This API key can function with these blockchains.",
-      "usable-for": "Usable for",
-      "revoke": "Revoke",
-      "created": "Created",
+      "blockchains-hint": "Questa chiave API può operare con queste blockchain.",
+      "usable-for": "Utilizzabile per",
+      "revoke": "Revoca",
+      "created": "Creata",
       "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "loading": "Caricamento dei token…",
+      "no-tokens": "Non hai ancora generato delle chiavi API.",
+      "policy-withdrawals": "Prelievi e depositi",
+      "revoke-all-keys-button-label": "Revoca tutte le chiavi",
+      "generate-new-key-button-label": "Genera una nuova chiave",
+      "plus-more": "+ altre {{count}}"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Credenziali utente",
+      "whitelist-step": "Aggiungi indirizzi alla lista bianca",
+      "name-step": "Dai un nome alla tua chiave",
+      "last-step": "Salva una copia del segreto",
+      "title": "Genera una nuova chiave API"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "Nome",
+      "continue-button-label": "Crea chiave"
     },
     "step2": {
       "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "two-fa-code": "Codice di autenticazione a due fattori",
+      "create-api-button-label": "Continua",
+      "incorrect-password": "La password inserita non è corretta.",
+      "incorrect-2fa": "Il codice inserito non è corretto."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Generazione della chiave in corso…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Il tuo segreto",
+      "your-secret-warning": "Questa è l'unica volta in cui ti mostreremo il tuo segreto.",
+      "api-key": "La tua chiave API",
+      "api-key-warning": "Questa è l'unica volta in cui ti mostreremo la tua chiave API.",
+      "download-as-json-button-label": "Scarica la chiave API e il segreto come file JSON",
+      "i-saved-my-secret-button-label": "Ho salvato una copia del mio segreto"
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
-    "1w": "1w",
+    "1h": "1o",
+    "1d": "24o",
+    "1w": "1S",
     "1m": "1M"
   },
   "transfer": {
     "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "personal": "Personale",
+    "in-trades": "In scambi",
+    "transfer-funds": "Invia/Ricevi",
+    "pending-transfer": "Hai un trasferimento in attesa di {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Visualizza i tuoi trasferimenti qui."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Commissione di rete stimata: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Massimo",
+    "use-last": "Usa l'ultimo"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Fondi insufficienti",
+  "amount-each": "{{amount}} ciascuno",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Limite giornaliero totale",
+    "link": "Aumenta i miei limiti",
+    "amount-of-max-amount": "{{amount}} su {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Struttura delle commissioni",
+    "desc": "Nash calcola la media mobile su 30 giorni del volume di un utente utlizzando il volume degli scambi associati al suo account come percentuale del volume totale della piattaforma.",
+    "30-day-volume": "Volume su 30 giorni",
+    "taker-fee": "Commissione per i taker",
+    "maker-fee": "Commissione per i maker",
+    "learn-more": "Scopri di più sugli ordini da maker e da taker."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Limite di tempo",
+    "subtitle": "Specifica il periodo di tempo per cui il tuo ordine resterà sul libro degli ordini.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Valido finché cancellato",
+        "desc": "Il tuo ordine resterà sul libro degli ordini a tempo indefinito – finché sarà riempito oppure finché lo cancellerai."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Valido fino a una data",
+        "header-with-time": "Valido fino a {{cancelAt}}",
+        "desc": "Il tuo ordine resterà sul libro degli ordini fino alla data specificata. Se non sarà stato riempito entro tale data, l'ordine verrà cancellato."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Riempi o cancella",
+        "desc": "Se il tuo ordine può essere totalmente riempito subito, sarà riempito. Se non può essere riempito totalmente, l'intero ordine verrà cancellato."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Immediato o cancella",
+        "desc": "L'ordine sarà riempito subito il più possibile. L'eventuale porzione rimanente dell'ordine non riempita, verrà cancellata."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
+    "referrals": "Referral",
+    "funds": "Fondi",
+    "exchange": "Scambio",
+    "basic-exchange": "Visualizzazione Basic",
     "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
+    "advanced-exchange": "Visualizzazione Pro",
     "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
-    "fiat-ramps": "Fiat ramps"
+    "markets": "Mercati",
+    "settings": "Il mio account",
+    "fiat-ramps": "Rampe fiat"
   },
   "top-nav": {
     "accounts-main-menu": {
-      "title": "Services"
+      "title": "Servizi"
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Portafoglio"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Notifiche",
+        "clear-all": "Ripulisci tutte"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "initializing": "Avvio del transferimento in corso",
+        "initialized": "Trasferimento avviato",
+        "tooltip": "Un tuo trasferimento si sta ancora avviando. Se chiudi Nash o esci, verrà messo in pausa finché non accedi nuovamente"
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Il mio profilo",
+        "support": "Supporto",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Giorno",
+          "dark": "Notte"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Esci",
+          "sign-in": "Accedi",
+          "sign-in-create-account": "<1>Crea un account</1> o <0>accedi</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Generale"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Scambia",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Scambio",
+          "markets": "Mercati",
+          "orders": "Ordini"
         },
         "exchange": {
           "switch": {
@@ -239,33 +239,33 @@
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Fondi",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "portfolio": "Portafoglio",
+          "transfers": "Trasferimenti",
+          "assets": "Risorse",
+          "contacts": "Contatti"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Referral"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Compra/Vendi",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Compra/Vendi",
+          "transactions": "Transazioni",
+          "payment-methods": "Metodi di pagamento",
+          "profile": "Profilo"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
+          "profile": "Profilo",
+          "preferences": "Preferenze",
+          "security": "Sicurezza",
+          "limits": "Limiti",
+          "accounts": "Conti",
           "apikeys": "API\u00A0keys"
         }
       },
@@ -278,110 +278,110 @@
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Cerca…",
+  "loading": "Caricamento…",
+  "pending": "In attesa",
+  "cancelling": "Cancellazione in corso…",
+  "authenticating": "Autenticazione in corso…",
+  "decrypting": "Decrittazione in corso…",
+  "encrypting": "Crittazione in corso…",
+  "sending": "Invio in corso…",
+  "submit": "Invia",
+  "retry": "Riprova",
+  "sending-approval": "Convalida dell'invio in corso…",
+  "send-approval": "Convalida l'invio",
+  "submit-transfer": "Avvia trasferimento",
+  "no-longer-sufficient-balance-for-tx": "Il tuo bilancio non è più sufficiente per questa transazione.",
+  "we-are-hiring": "Lavora con noi",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
+    "location-banned-title": "Accesso bloccato",
+    "location-banned": "Sfortunatamente, Nash al momento non è in grado di operare nella tua giurisdizione.",
+    "invalid-clock-title": "L'orologio del tuo computer non è preciso.",
+    "permissions-issue-title": "Problema di permessi",
+    "invalid-clock": "Per scambiare su Nash il tuo orologio deve essere preciso. <0>Sincronizza il tuo orologio</0> e poi <1>riprova</1>.",
+    "network-issue-title": "Problema di rete",
+    "network-issue": "C'è un problema di rete temporaneo. Per favore <0>riprova</0>.",
+    "generic-error-title": "Errore",
+    "generic-error": "Qualcosa è andato storto. Per favore riprova.",
+    "generic-error-signout": "Si è verificato un errore imprevisto. Per favore esci e riprova.",
     "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "La password inserita non è corretta."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Il codice di autenticazione a due fattori inserito non è corretto. Hai un massimo di cinque tentativi.",
+      "already-used": "Il codice di autenticazione a due fattori inserito è già stato usato. Per favore attendi e riprova.",
+      "code-expired": "Il codice di autenticazione a due fattori inserito è scaduto. Per favore attendi e riprova.",
+      "too-many-failures": "Hai inserito un codice sbagliato troppe volte e ora il tuo account è permanentemente bloccato. La sessione verrà chiusa ora.",
+      "too-many-failures-signout": "Hai inserito un codice sbagliato troppe volte e ora il tuo account è permanentemente bloccato. La sessione verrà chiusa ora."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Crittazione fallita. Per favore esci e riprova.",
+      "decryption-failed": "Decrittazione fallita. Per favore esci e riprova."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Elaborazione dell'account in corso!",
+        "message": "Per favore controlla di nuovo tra pochi minuti."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Il tuo account non è stato trovato."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
+  "no-results": "Nessun risultato trovato.",
+  "yes": "sì",
   "no": "no",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Account personale",
+    "trading": "Contratto di trading",
+    "external": "Account esterno"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Caricamento non riuscito.",
+    "failed-button": "Caricamento non riuscito",
+    "failed-please-try": "<0>Caricamento non riuscito. Per favore\u00A0</0><1>riprova</1>.",
+    "why-this-may-happening": "Scopri le possibili cause per cui ciò è accaduto <0>qui.</0>"
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> ora",
+    "time-in-hours_plural": "<0>{{count}}</0> ore",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "Gennaio",
+      "1": "Febbraio",
+      "2": "Marzo",
+      "3": "Aprile",
+      "4": "Maggio",
+      "5": "Giugno",
+      "6": "Luglio",
+      "7": "Agosto",
+      "8": "Settembre",
+      "9": "Ottobre",
+      "10": "Novembre",
+      "11": "Dicembre"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Sfortunatamente, Nash al momento non è in grado di operare nella tua regione.",
+    "contact-support": "Per favore <0>contatta il nostro team di supporto</0> per qualsiasi domanda."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Qualcosa è andato storto.",
+    "go-back": "Torna indietro",
+    "go-back-retry": "Riprova e torna indietro",
+    "contact-support": "Per favore <0>contatta il nostro team di supporto</0> per ulteriori dettagli.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Non disponibile nella sandbox!",
+        "content": "Questa funzionalità è stata disabilitata nella sandbox."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
+          "title": "Il tuo indirizzo IP non corrisponde al paese selezionato.",
           "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
+          "title": "Abbiamo notato che stai usando una VPN.",
           "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
         },
         "high-risk-country": {
@@ -389,42 +389,42 @@
           "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
+          "title": "È già stato creato un account con questo indirizzo IP.",
           "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Non tutti i servizi Nash sono attualmente supportati in {{usState}}. Il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+          "title-no-state": "Non tutti i servizi Nash sono attualmente supportati nel tuo stato. Il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+          "message": "Ti notificheremo tramite email quando lo stato di {{usState}} sarà pienamente supportato. Per favore <0>contatta il nostro team di supporto</0> per qualsiasi domanda.",
+          "message-no-state": "Ti notificheremo tramite email quando il tuo stato sarà pienamente supportato. Per favore <0>contatta il nostro team di supporto</0> per qualsiasi domanda."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Non tutti i servizi Nash sono attualmente supportati nella tua località presente. Il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+          "message": "Per favore <0>contatta il nostro team di supporto</0> per qualsiasi domanda."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Il tuo livello attuale di verifica è Livello {{userTier}}. Pertanto, il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+        "message": "Per usare la piena gamma dei nostri servizi, per favore <0>passa a Livello {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Abbiamo notato che stai effettuando l'accesso da {{detectedCountry}}.",
+          "message": "Se non vivi più in {{accountCountry}}, per favore <0>contatta il nostro team di supporto</0> per aggiornare il tuo indirizzo."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Naviga da desktop per un'esperienza migliore.",
+          "message": "La visualizzazione ‘Pro’ è progettata per l'utilizzo da desktop. Se sei su smartphone o tablet, prova la <0>visualizzazione ‘Basic’</0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Non mostrare più questo messaggio."
   },
   "terms": {
     "user-agreement": "User Agreement",
@@ -437,115 +437,115 @@
       "Account details"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Hai già un account Nash?",
+      "sign-in-now": "Accedi ora"
     },
     "form": {
       "fields": {
-        "optional": "(optional)"
+        "optional": "(opzionale)"
       },
-      "continue": "Continue",
+      "continue": "Continua",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
+        "generic-error": "Si è verificato un errore nella registrazione dell'account. Per favore riprova.",
+        "invalid-referral-code-can-continue": "Codice referral non valido.",
+        "invalid-referral-code": "Codice referral non valido. Per favore controlla il tuo codice e riprova.",
         "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "duplicate-email": "È già stato creato un account con questo indirizzo email.",
+        "password-too-short": "La tua password dovrebbe contenere almeno otto caratteri.",
+        "invalid-recaptcha": "Verifica recaptcha fallita. Per favore riprova.",
+        "missing-us-state": "Se vivi negli Stati Uniti, devi inserire il tuo stato."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Crea un account",
+      "subheader": "I tuoi dettagli",
       "disclaimer": {
         "title": "Notice for US customers",
         "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Nome e cognome"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Codice referral (opzionale)",
+          "sub-label": "Che cos'è?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
+          "title": "Programma di referral Nash",
           "desc": "This will be used to track referrals for future Nash promotions."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Abbiamo notato che stai utilizzando una VPN.",
+          "message": "Per favore disabilita qualsiasi VPN o servizio proxy per continuare. Una volta creato un account, potrai verificare la tua identità per utilizzare una VPN in futuro."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "Crea un account",
+      "subheader": "Dove vivi?",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Paese di residenza"
         },
         "state": {
-          "label": "State"
+          "label": "Stato"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Confermo che questo è il mio paese di residenza."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": Confermo che questi sono il mio paese e il mio stato di residenza."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
+      "header": "Crea un account",
       "subheader": "Account details",
-      "continue": "Create account",
+      "continue": "Crea account",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Inserisci un indirizzo email",
+          "placeholder": "Indirizzo email"
         },
         "password": {
-          "label": "Create a password",
+          "label": "Crea una password",
           "placeholder": "Password",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "La password che hai scelto è troppo debole."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Conferma la tua password",
+          "placeholder": "Conferma password",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Le password non corrispondono."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "title": "Suggerimenti per una password efficace",
+          "desc": "Una password efficace è essenziale per tenere al sicuro i tuoi fondi. Segui questi suggerimenti per stare al sicuro:",
+          "tip-index": "Suggerimento {{index}}",
+          "tip-1": "Non riutilizzare una password da altri siti web, anche se cambi singole parole o caratteri. Qualora tu cadessi vittima di phishing o hacking altrove, il tuo account Nash sarebbe immediatamente compromesso.",
+          "tip-2": "Non includere informazioni personali nella tua password. Nomi, compleanni e indirizzi sono facili da scoprire e dovrebbero essere evitati.",
+          "tip-3": "Per la tua password, utilizza almeno dodici caratteri e un misto di lettere maiuscole e minuscole, numeri e caratteri speciali.",
+          "tip-4": "Valuta di utilizzare un generatore di password per creare e conservare delle password che offrono massima sicurezza."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Utilizza un misto di lettere maiuscole e minuscole, numeri e caratteri speciali per una password più efficace.",
+        "tips": "Suggerimenti per la creazione della password",
+        "password-strength": "Efficacia della password",
+        "weak": "Debole",
+        "medium": "Media",
+        "strong": "Forte",
+        "very-strong": "Molto forte"
       }
     },
     "verify-email": {
@@ -553,8 +553,8 @@
       "desc-1": "Please check your email and verify your account.",
       "desc-2": "If you don’t see our email, check your junk folder.",
       "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
+      "resend-delay": "Per favore attendi {{count}} secondo…",
+      "resend-delay_plural": "Per favore attendi {{count}} secondi…",
       "back": "Back to sign-in",
       "success": "Verification email resent successfully!",
       "errors": {
