@@ -25,10 +25,10 @@
   "exchange": "Börse",
   "receive": "Empfangen",
   "wallet": "Wallet",
-  "upload": "hochladen",
+  "upload": "Hochladen",
   "processing": "Wird verarbeitet",
   "over-file-limit": "Die Dateigröße darf nicht überschritten werden {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Öffne neuen Tab",
+  "opens-new-tab": "Öffnet neuen Tab",
   "failed-update": "Aktualisierung fehlgeschlagen",
   "reported-errors": "Fehler wurde gemeldet",
   "credit-card-expiry-placeholder": "MM/YY",
@@ -39,7 +39,7 @@
     "duplicate-address-in-form": "Diese Adresse ist bereits auf der Whitelist.",
     "add-address": "Adresse hinzufügen",
     "address-is-not-valid": "Adresse ist ungültig",
-    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du nur Guthaben auf Adressen Überweisen die auf der Whitelist stehen. Du kannstjederzeit Adressen auf der Whitelist hinzufügen und entfernen, sobald Ihr Schlüssel generiert wurde.",
+    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du dein Guthaben nur auf Adressen überweisen, die auf der Whitelist stehen. Du kannst jederzeit Adressen auf der Whitelist hinzufügen und entfernen, sobald dein Schlüssel generiert wurde.",
     "token-type": {
       "access": "Zugang",
       "kyc": "Identitätsprüfung",
@@ -52,12 +52,12 @@
       "cancel-button-label": "Geh zurück"
     },
     "delete-token": {
-      "body": "Sind Sie sicher, dass Sie den Vorgang rückgängig machen wollen? ‘<0></0>’?",
+      "body": "Bist du dir sicher, dass du diesen Vorgang rückgängig machen möchtest? ‘<0></0>’?",
       "confirm-button-label": "Für immer entfernen",
-      "cancel-button-label": "zurück"
+      "cancel-button-label": "Zurück"
     },
     "edit-whitelisted": {
-      "title": "Adress Whitelist für {{name}}",
+      "title": "Whitelist Adressen für {{name}}",
       "add": "Neue Adresse hinzufügen",
       "save-and-close": "Speichert Änderungen und schließt",
       "continue": "Fortsetzen"
@@ -65,7 +65,7 @@
     "overview": {
       "no-addresses-whitelisted": "Keine Adresse auf der Whitelist",
       "title": "API-Schlüssel verwalten",
-      "revoke-button-label": "zurüknehmen",
+      "revoke-button-label": "Zurücknehmen",
       "table-header": "Ihre API-Schlüssel",
       "no-tokens-exp": "<0>Generiere meinen ersten Schlüssel</0> oder lese unsere <1>API Dokumentation</1>.",
       "name": "Name",
@@ -78,7 +78,7 @@
       "whitelisted": "Whitelist",
       "view-whitelist": "Whitelist anzeigen",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "Dieser API-Schlüssel funktionieren mit diesen Blockchains.",
+      "blockchains-hint": "Dieser API-Schlüssel funktioniert mit diesen Blockchains.",
       "usable-for": "Verwendbar für",
       "revoke": "Rückgängig",
       "created": "Erstellt",
@@ -93,7 +93,7 @@
     "create-modal": {
       "credentials-step": "Benutzeranmeldeinformationen",
       "whitelist-step": "Whitelist Adressen",
-      "name-step": "Gib deinen Schlüsseln einen Namen",
+      "name-step": "Gib deinem Schlüssel einen Namen",
       "last-step": "Speichere dein Geheimnis",
       "title": "Generiere einen neuen API-Schlüssel"
     },
@@ -105,8 +105,8 @@
       "password": "Passwort",
       "two-fa-code": "Zwei-Faktor-Authentifizierungscode",
       "create-api-button-label": "Fortsetzen",
-      "incorrect-password": "Das eingegebene Passwort war falsch.",
-      "incorrect-2fa": "Der eingegebene Code war falsch."
+      "incorrect-password": "Das eingegebene Passwort ist falsch.",
+      "incorrect-2fa": "Der eingegebene Code ist falsch."
     },
     "step3": {
       "generating-keys-message": "Generiert deinen Schlüssel..."
@@ -129,9 +129,9 @@
   "transfer": {
     "trading": "Trading Contract",
     "personal": "Persönliches Konto",
-    "in-trades": "In Aufträgen",
+    "in-trades": "Im Handel",
     "transfer-funds": "Senden/Empfangen",
-    "pending-transfer": "Sie haben eine ausstehende Überweisung von {{amount}} {{currencySymbol}}.",
+    "pending-transfer": "Du hast eine ausstehende Überweisung von {{amount}} {{currencySymbol}}.",
     "pending-transfer-link": "Überweisungen hier ansehen."
   },
   "estimated-fee": "Geschätzte Gebühr: {{fee}} {{currencySymbol}}",
@@ -139,7 +139,7 @@
     "max": "Max.",
     "use-last": "Letzter Preis"
   },
-  "insufficient-funds": "Mangelnde Gelder",
+  "insufficient-funds": "Unzureichende Mittel",
   "amount-each": "{{amount}} je Einheit",
   "daily-limit": {
     "title": "Handelslimit pro Tag",
@@ -148,7 +148,7 @@
   },
   "fee-information-modal": {
     "title": "Gebührenstruktur",
-    "desc": "Nash ermittelt das 30-tägige gleitende Durchschnittsvolumen eines Benutzers, indem der Anteil des Handelsvolumens auf seinem Konto am gesamten Börsenvolumen errechnet wird.",
+    "desc": "Nash ermittelt das 30-tägige gleitende Durchschnittsvolumen eines Benutzers, indem der Anteil seines Handelsvolumens am gesamten Börsenvolumen prozentual errechnet wird.",
     "30-day-volume": "30-tägiges Volumen",
     "taker-fee": "Taker-Gebühr",
     "maker-fee": "Maker-Gebühr",
@@ -165,11 +165,11 @@
       "gtt": {
         "header": "Gut bis zu eineme bestimmten Zeitpunkt",
         "header-with-time": "Gut bis {{cancelAt}}",
-        "desc": "Deine Aufträge beliben bis zu dem von dir angegebenen Zeitpunkt im Auftragsbuch. Wenn der Auftrag zu diesem Zeitpunkt noch nicht gefüllt ist, wird er storniert."
+        "desc": "Deine Aufträge bleiben bis zu dem von dir angegebenen Zeitpunkt im Auftragsbuch. Wenn der Auftrag zu diesem Zeitpunkt noch nicht gefüllt ist, wird dieser storniert."
       },
       "fok": {
         "header": "Füllen oder Stonieren",
-        "desc": "Wenn dein gesamter Auftrag sofort gefüllt wird oder wenn der Auftrag nicht vollständig gefüllt werden kann, wird der gesamte Auftrag storniert."
+        "desc": "Wenn dein gesamter Auftrag sofort gefüllt wird, wird dieser ausgeführt. Wenn der Auftrag nicht vollständig gefüllt werden kann, wird der gesamte Auftrag storniert."
       },
       "ioc": {
         "header": "Sofort oder abbrechen",
@@ -291,20 +291,20 @@
   "sending-approval": "Genehmigung senden…",
   "send-approval": "Genehmigung senden",
   "submit-transfer": "Überweisung senden",
-  "no-longer-sufficient-balance-for-tx": "Dein Guthaben reicht für diese Transaktion aus..",
+  "no-longer-sufficient-balance-for-tx": "Dein Guthaben reicht für diese Transaktion nicht aus.",
   "we-are-hiring": "Wir stellen ein!",
   "errors": {
     "location-banned-title": "Zugang gesperrt",
     "location-banned": "Leider kann Nash derzeit nicht in deinem Rechtssystem operieren.",
-    "invalid-clock-title": "Die Systemuhrzeit Ihres Computers ist nicht genau.",
+    "invalid-clock-title": "Die Systemzeit Ihres Computers ist nicht synchronisiert.",
     "permissions-issue-title": "Berechtigungsproblem",
-    "invalid-clock": "Um mit Nash zu handeln, muss Ihre Systemuhrzeit genau sein. <0>Synchronisiere dein Uhr</0> then <1>Versuch es noch einmal</1>.",
-    "network-issue-title": "Netwerk Probleme",
+    "invalid-clock": "Um auf Nash zu handeln, muss deine Systemzeit synchronisiert und aktuell sein. <0>Synchronisiere dein Uhr</0> und <1>Versuch es erneut</1>.",
+    "network-issue-title": "Netzwerk Probleme",
     "network-issue": "Es liegt ein vorübergehendes Netzwerkproblem vor. Bitte <0>Versuch es noch einmal</0>.",
     "generic-error-title": "Ein Fehler ist aufgetreten",
-    "generic-error": "Etwas ist schiefgelaufen. Bitte erneut versuchen.",
+    "generic-error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
     "generic-error-signout": "Ein unerwarteter Fehler ist aufgetreten. Bitte abmelden und erneut versuchen.",
-    "within-waiting-period": "Du musst fünf Minuten warten, bevor du einen weiteren Versuch starten kannst. Ihr neuer Versuch wird in Kürze erscheinen.",
+    "within-waiting-period": "Es dauert fünf Minuten, bis du deinen nächsten Stake erstellen kannst. Dein neuer Stake wird in Kürze erscheinen.",
     "password": {
       "incorrect": "Das eingegebene Passwort ist falsch."
     },
@@ -312,20 +312,20 @@
       "incorrect": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist falsch. Sie haben maximal fünf Versuche.",
       "already-used": "Der eingegebene Zwei-Faktor-Authentifizierungscode wurde bereits verwendet. Bitte warten und erneut versuchen.",
       "code-expired": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist abgelaufen. Bitte warten und erneut versuchen.",
-      "too-many-failures": "Sie haben zu oft einen falschen Code eingegeben. Wir haben deshalb Ihr Konto gesperrt. Bitte wenden Sie sich an unseren Kundenservice.",
-      "too-many-failures-signout": "Sie haben zu oft einen falschen Code eingegeben. Wir haben Ihr Konto deshalb gesperrt. Sie werden nun abgemeldet."
+      "too-many-failures": "Sie haben zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Wende dich bitte an unseren Kundenservice",
+      "too-many-failures-signout": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Du wirst nun abgemeldet."
     },
     "cryptography": {
-      "encryption-failed": "Verschlüsselung fehlgeschlagen. Bitte melden Sie sich ab und versuchen Sie es noch einmal.",
-      "decryption-failed": "Entschlüsselung fehlgeschlagen. Bitte melden Sie sich ab und versuchen Sie es noch einmal."
+      "encryption-failed": "Verschlüsselung fehlgeschlagen. Bitte melde dich ab und versuche es erneut.",
+      "decryption-failed": "Entschlüsselung fehlgeschlagen. Bitte melde dich ab und versuche es erneut."
     },
     "account-not-found": {
       "pending": {
         "title": "Ihr Konto ist in Bearbeitung!",
-        "message": "Bitte schauen Sie in ein paar Minuten wieder vorbei."
+        "message": "Bitte schaue in ein paar Minuten wieder vorbei."
       },
       "not-found": {
-        "title": "Ihr Konto konnte nicht gefunden werden."
+        "title": "Dein Konto konnte nicht gefunden werden."
       }
     }
   },
@@ -341,7 +341,7 @@
     "failed": "Laden fehlgeschlagen.",
     "failed-button": "Laden fehlgeschlagen",
     "failed-please-try": "Laden fehlgeschlagen. Bitte <0>erneut versuchen</0>.",
-    "why-this-may-happening": "Finden Sie heraus warum dies passiert ist <0>hier.</0>"
+    "why-this-may-happening": "Finde heraus, warum dies möglicherweise passiert ist <0>hier</0>"
   },
   "datetime": {
     "time-in-hours": "<0>{{count}}</0> Stunde",
@@ -362,14 +362,14 @@
     }
   },
   "banned-country": {
-    "header": "Leider ist Nash derzeit nicht in Ihrer Region verfügbar.",
-    "contact-support": "Bitte <0>kontaktieren Sie unseren Kundenservice</0>, wenn Sie Fragen haben."
+    "header": "Leider ist Nash derzeit nicht in deiner Region verfügbar.",
+    "contact-support": "Bitte <0>kontaktiere unseren Kundenservice</0>, wenn Fragen bestehen."
   },
   "user-messages": {
     "something-wrong": "Etwas ist schiefgelaufen.",
     "go-back": "Zurück",
     "go-back-retry": "Erneut versuchen und zurückgehen",
-    "contact-support": "Bitte <0>kontaktieren Sie unseren Kundenservice</0> für weitere Informationen.",
+    "contact-support": "Bitte <0>kontaktiere unseren Kundenservice</0> für weitere Informationen.",
     "permissions": {
       "sandbox": {
         "title": "In der Sandbox nicht verfügbar!",
@@ -377,50 +377,50 @@
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Ihre IP-Adresse entspricht nicht dem von Ihnen gewählten Land.",
-          "message": "Benutzer mit einer Verifizierungsstufe von 0 können nicht auf alle Nash-Dienste zugreifen, es sei denn, sie verbinden sich vom Land ihres Wohnsitzes aus. Überlegen Sie, ob Sie <0>auf Stufe 1 aufsteigen</0> möchten."
+          "title": "Die IP-Adresse deines Systems entspricht nicht deinem angegebenen Standort.",
+          "message": "Benutzer, die sich außerhalb des angegebenen Landes ihres Wohnsitzes befinden und die Verifizierungsstufe 0 besitzen, haben keinen Zugriff auf alle Nash-Dienste. Hierfür ist es notwendig <0>die nächst höhere Verifizierungstufe 1 freizuschalten</0>."
         },
         "untrusted-ip": {
-          "title": "Wir haben festgestellt, dass Sie ein VPN verwenden.",
-          "message": "Benutzer mit einer Verifizierungsstufe von 0 können nicht auf alle Nash-Dienste zugreifen, wenn sie sich über VPN oder Proxy verbinden. Bitte deaktivieren Sie solche Dienste oder <0>steigen Sie auf Stufe 1 auf</0>."
+          "title": "Wir haben festgestellt, dass du ein VPN verwendest.",
+          "message": "Benutzer mit einer Verifizierungsstufe von 0 können nicht auf alle Nash-Dienste zugreifen, wenn sie sich über VPN oder Proxy verbinden. Bitte deaktiviere solche Dienste oder <0>steige auf Verifizierungsstufe 1 auf</0>."
         },
         "high-risk-country": {
-          "title": "Ihre aktuelle Verifizierungsstufe ist 0. Daher ist Ihr Zugriff auf einige Bereiche der Nash-Plattform eingeschränkt.",
-          "message": "Um unser gesamtes Dienstleistungsportfolio zu nutzen, müssen Sie <0>auf Verifizierungsstufe 1 aufsteigen</0>."
+          "title": "Deine aktuelle Verifizierungsstufe ist 0. Daher ist dein Zugriff auf einige Bereiche der Nash-Plattform eingeschränkt.",
+          "message": "Um unser gesamtes Dienstleistungsportfolio zu nutzen, musst du <0>auf Verifizierungsstufe 1 aufsteigen</0>."
         },
         "duplicate-ip": {
           "title": "Mit dieser IP-Adresse wurde bereits ein Konto angelegt.",
-          "message": "Um auf alle Nash-Dienste über dieses Konto zuzugreifen, müssen Sie <0>auf Verifizierungsstufe 1 aufsteigen</0>."
+          "message": "Um auf alle Nash-Dienste über dieses Konto zuzugreifen, musst du <0>auf Verifizierungsstufe 1 aufsteigen</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Nicht alle Nash-Dienste sind derzeit in {{usState}} verfügbar. Ihr Zugriff auf einige Bereiche der Nash-Plattform wird eingeschränkt.",
-          "title-no-state": "Nicht alle Nash-Dienste sind derzeit in Ihrem Land verfügbar. Ihr Zugriff auf einige Bereiche der Nash-Plattform wird eingeschränkt.",
-          "message": "Wir werden Sie per E-Mail benachrichtigen, sobald Nash in {{usState}} vollständig verfügbar ist. Bitte <0>kontaktieren Sie unseren Kundenservice</0>, wenn Sie Fragen haben.",
-          "message-no-state": "Wir werden Sie per E-Mail benachrichtigen, sobald Nash in Ihrem Staat vollständig verfügbar ist. Bitte <0>kontaktieren Sie unseren Kundenservice</0>, wenn Sie Fragen haben."
+          "title": "Nicht alle Nash-Dienste sind derzeit in {{usState}} verfügbar. Dein Zugriff auf einige Bereiche der Nash-Plattform wird eingeschränkt.",
+          "title-no-state": "Nicht alle Nash-Dienste sind derzeit in deinem Land verfügbar. Dein Zugriff auf einige Bereiche der Nash-Plattform wird eingeschränkt.",
+          "message": "Wir werden dich per E-Mail benachrichtigen, sobald Nash in {{usState}} vollständig verfügbar ist. Bitte <0>kontaktiere unseren Kundenservice</0>, wenn Fragen bestehen.",
+          "message-no-state": "Wir werden dich per E-Mail benachrichtigen, sobald Nash in deinem Staat vollständig verfügbar ist. Bitte <0>kontaktiere unseren Kundenservice</0>, wenn Fragen bestehen."
         },
         "generic": {
-          "title": "Nicht alle Nash-Dienste sind derzeit an Ihrem aktuellen Standort verfügbar. Ihr Zugriff auf einige Bereiche der Nash-Plattform wird eingeschränkt.",
-          "message": "Bitte <0>kontaktieren Sie unseren Kundenservice</0>wenn Sie Fragen haben."
+          "title": "Nicht alle Nash-Dienste sind derzeit an deinem aktuellen Standort verfügbar. Dein Zugriff auf einige Bereiche der Nash-Plattform wird eingeschränkt.",
+          "message": "Bitte <0>kontaktiere unseren Kundenservice</0>, wenn Fragen bestehen."
         }
       },
       "tier-too-low": {
-        "title": "Ihre aktuelle Verifizierungsstufe ist {{userTier}}. Daher ist Ihr Zugriff auf einige Bereiche der Nash-Plattform eingeschränkt.",
-        "message": "Um unser gesamtes Dienstleistungsportfolio zu nutzen, müssen Sie <0>auf die Stufe {{minTier}} aufsteigen</0>."
+        "title": "Deine aktuelle Verifizierungsstufe ist {{userTier}}. Daher ist dein Zugriff auf einige Bereiche der Nash-Plattform eingeschränkt.",
+        "message": "Um unser gesamtes Dienstleistungsportfolio zu nutzen, musst du <0>auf die Stufe {{minTier}} aufsteigen</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "Wir haben festgestellt, dass Sie sich aus {{detectedCountry}} anmelden.",
-          "message": "Wenn Sie nicht mehr in {{accountCountry}} wohnen, <0>kontaktieren Sie bitte unseren Kundenservice</0>, um Ihre Adresse zu aktualisieren."
+          "title": "Wir haben festgestellt, dass du dich aus {{detectedCountry}} anmeldest.",
+          "message": "Wenn du nicht mehr in {{accountCountry}} wohnst, <0>kontaktiere bitte unseren Kundenservice</0>, um deine Adresse zu aktualisieren."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Benutzen Sie Ihren Desktop-Browser für ein besseres Erlebnis.",
-          "message": "Die Profi-Ansicht ist für die Verwendung auf dem Desktop konzipiert. Wenn Sie von Ihrem Handy aus zugreifen, wählen Sie lieber die <0>Einsteiger-Ansicht</0>."
+          "title": "Benutze einen Desktop-Browser für ein besseres Erlebnis.",
+          "message": "Die Profi-Ansicht ist für die Verwendung auf dem Desktop konzipiert. Wenn du von deinem Handy aus zugreifen möchtest, wähle lieber die <0>Einsteiger-Ansicht</0>."
         }
       }
     },
@@ -437,7 +437,7 @@
       "Kontodetails"
     ],
     "signin": {
-      "desc": "Haben Sie bereits ein Konto bei Nash?",
+      "desc": "Hast du bereits ein Konto bei Nash?",
       "sign-in-now": "Jetzt anmelden"
     },
     "form": {
@@ -448,20 +448,20 @@
       "errors": {
         "generic-error": "Fehler bei der Kontoerstellung. Bitte erneut versuchen.",
         "invalid-referral-code-can-continue": "Ungültiger Empfehlungscode.",
-        "invalid-referral-code": "Ungültiger Empfehlungscode. Bitte überprüfen Sie Ihren Code und versuchen Sie es noch einmal.",
-        "invalid-email-domain": "Ihr E-Mail-Anbieter ist unbekannt. Bitte verwenden Sie eine andere Adresse.",
+        "invalid-referral-code": "Ungültiger Empfehlungscode. Bitte überprüfe deinen Code und versuche es erneut.",
+        "invalid-email-domain": "Dein E-Mail-Anbieter ist unbekannt. Bitte verwende eine andere Adresse.",
         "duplicate-email": "Für diese E-Mail-Adresse wurde bereits ein Konto angelegt.",
-        "password-too-short": "Ihr Passwort sollte mindestens acht Zeichen lang sein.",
+        "password-too-short": "Dein Passwort sollte mindestens acht Zeichen lang sein.",
         "invalid-recaptcha": "Recaptcha-Verifizierung fehlgeschlagen. Bitte erneut versuchen.",
-        "missing-us-state": "Wenn Sie in den Vereinigten Staaten wohnen, müssen Sie Ihren Bundesstaat eingeben."
+        "missing-us-state": "Wenn du in den Vereinigten Staaten wohnst, musst du deinen Bundesstaat eingeben."
       }
     },
     "your-details": {
       "header": "Konto erstellen",
-      "subheader": "Ihre Daten",
+      "subheader": "Deine Daten",
       "disclaimer": {
         "title": "Hinweis für US-Kunden",
-        "desc": "Sie erstellen ein vorläufiges Nash-Konto, um am Empfehlungsprogramm teilzunehmen, aber Ihr Bundesstaat muss berechtigt sein, auf einige Nash-Dienstleistungen zuzugreifen. Falls Sie dazu berechtigt sind, werden Sie später gebeten, eine Nutzungsvereinbarung zu unterzeichnen."
+        "desc": "Du erstellt ein vorläufiges Nash-Konto, um am Empfehlungsprogramm teilzunehmen, aber dein Bundesstaat muss berechtigt sein, auf einige Nash-Dienstleistungen zuzugreifen. Falls du hierzu berechtigt bist, wirst du später gebeten, eine Nutzungsvereinbarung zu unterzeichnen."
       },
       "fields": {
         "full-name": {
@@ -475,19 +475,19 @@
       "modals": {
         "referrals": {
           "title": "Nash Empfehlungsprogramm",
-          "desc": "Dies ermöglicht Ihnen die Teilnahme an unserem <0>Empfehlungsprogramm</0>."
+          "desc": "Dies ermöglicht dir die Teilnahme an unserem <0>Empfehlungsprogramm</0>."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "Wir haben festgestellt, dass Sie ein VPN verwenden.",
-          "message": "Bitte deaktivieren Sie alle VPN- oder Proxy-Dienste, um fortzufahren."
+          "title": "Wir haben festgestellt, dass du eine VPN verwendest.",
+          "message": "Bitte deaktiviere alle VPN- oder Proxy-Dienste, um fortzufahren."
         }
       }
     },
     "country-details": {
       "header": "Konto erstellen",
-      "subheader": "Wo wohnen Sie?",
+      "subheader": "Wo wohnst du?",
       "fields": {
         "country": {
           "label": "Wohnsitz"
