@@ -3036,25 +3036,25 @@
             "trade": "Handeln"
           }
         },
-        "no-results-problem": "Ihr Nash-Konto ist derzeit leer.",
+        "no-results-problem": "Dein Nash-Konto ist derzeit leer.",
         "no-results-solution": "Assets <0>senden/empfangen</0>, um loszulegen."
       },
       "balances": {
         "header": {
           "title": "Portfolio",
-          "hint": "Gesamtwert Ihrer Assets und Preisänderungen über 24 Stunden."
+          "hint": "Gesamtwert deiner Assets und Preisänderungen über 24 Stunden."
         },
         "total": "Gesamt",
         "available": {
           "title": "Verfügbar",
-          "hint": "Sie können diese Assets überweisen. Sie befinden sich auf Ihrem persönlichen Konto oder im Trading Contract. Nicht verfügbare Assets sind entweder in Ihren nicht ausgeführten Aufträgen oder NEX-Stakes gesperrt oder werden derzeit überwiesen."
+          "hint": "Du kannst diese Assets überweisen. Die Assets befinden sich in deinem persönlichen Konto oder im Trading Contract. Nicht verfügbare Assets sind entweder in deinen nicht abgeschlossenen Aufträgen, im NEX-Stake gesperrt oder werden derzeit überwiesen."
         },
         "transfer-funds": "Senden/Empfangen"
       },
       "chart": {
         "header": {
           "title": "Gesamtwert",
-          "hint": "Schauen Sie mal, wie sich der Wert Ihres Portfolios im Laufe der Zeit verändert hat."
+          "hint": "So hat sich der Wert deines Portfolios im Laufe der Zeit verändert."
         },
         "period": {
           "6M": "6 Mo.",
@@ -3070,7 +3070,7 @@
       "total-balance": {
         "header": {
           "title": "Salden",
-          "hint": "Sie haben die volle Kontrolle über diese Assets."
+          "hint": "Du hast die volle Kontrolle über diese Assets."
         },
         "available-assets": "Available assets",
         "in-personal": "Persönliches Konto",
@@ -3155,7 +3155,7 @@
       "send-funds": "Assets überweisen",
       "withdrawal-details": "Überweisungsdaten",
       "to-external-address": "An externes Konto",
-      "request-sent-to-blockchain": "Ihr Überweisungsauftrag wurde an die Blockchain gesendet."
+      "request-sent-to-blockchain": "Dein Überweisungsauftrag wurde an die Blockchain gesendet."
     },
     "receive-funds": {
       "asset-to-receive": "Sie erhalten",
@@ -3184,9 +3184,9 @@
       "confirmations-count": "Dieses Asset benötigt {{confirmationsCount}} Bestätigungen, um auf Ihrem Konto gutgeschrieben zu werden. Den Status Ihrer Überweisung können Sie unter ‘Wallet & Portfolio > Überweisungen’ ansehen."
     },
     "send-confirmation-box": {
-      "only-send-one-asset": "Senden Sie nur {{currency}} an diese Adresse.",
-      "only-send-multiple-asset": "Senden Sie nur {{currenciesWithoutLast}}- oder {{lastCurrency}}-Assets an diese Adresse.",
-      "you-can-lose-funds": "Wenn Sie Assets an die falsche Adresse überweisen, gehen sie unwiederbringlich verloren."
+      "only-send-one-asset": "Sende {{currency}} an diese Adresse.",
+      "only-send-multiple-asset": "Sende nur {{currenciesWithoutLast}}- oder {{lastCurrency}}-Assets an diese Adresse.",
+      "you-can-lose-funds": "Wenn du Assets an die falsche Adresse überweisen, gehen die Assets unwiederbringlich verloren."
     },
     "password": {
       "title": "Anmeldedaten eingeben"
@@ -3201,7 +3201,7 @@
         "desc": "Bitte lesen und akzeptieren Sie unsere aktuelle {{termsName}}.",
         "message": "Ich akzeptiere die aktuelle <0>{{termsName}}</0>."
       },
-      "confirm-notice": "Wenn Sie die allgemeinen Geschäftsbedingungen nicht akzeptieren, können Sie Nash-Dienste nicht weiter nutzen.",
+      "confirm-notice": "Wenn du die allgemeinen Geschäftsbedingungen nicht akzeptieren, kannst du Nash-Dienste nicht weiter nutzen.",
       "confirm-button": "Bestätigen",
       "sign-out-link": "Abmelden",
       "errors": {
@@ -3210,8 +3210,8 @@
     },
     "search-contact": {
       "empty-list": "Sie haben keine Kontakte zur Auswahl!",
-      "wallet": "{{count}} Brieftasche",
-      "wallet_plural": "{{count}} Brieftaschen"
+      "wallet": "{{count}} Wallet",
+      "wallet_plural": "{{count}} Wallets"
     }
   },
   "orders": {
@@ -3226,7 +3226,7 @@
     "title": "Empfehlungsprogramm",
     "referrals": {
       "header": "Freunde werben und Gewinnlose erhalten",
-      "desc": "Je mehr Lose Sie haben, desto höher ist Ihre Gewinnchance. <Mehr erfahren</0>.",
+      "desc": "Je mehr Lose du hast, desto höher ist deine Gewinnchance. <Mehr erfahren</0>.",
       "cards": {
         "social-share": {
           "label": "Empfehlungscode teilen:",
@@ -3238,7 +3238,7 @@
         },
         "invited-users": {
           "label": "Ihre Einladungen",
-          "desc": "Das sind die Personen, die Sie direkt geworben haben. Wir können Ihnen nicht zeigen, wen diese wiederum angeworben haben, aber Sie können die Gewinnlose sehen, die Sie durch diese indirekten Einladungen verdient haben.",
+          "desc": "Das sind die Personen, die du direkt geworben hast. Wir können dir nicht zeigen, wen diese wiederum angeworben haben, aber du kannst die Gewinnlose sehen, die du durch diese indirekten Einladungen verdient hast.",
           "header": "Alle Tickets",
           "col-name": "Name",
           "col-pending": "Ausstehend (‘pending’)",
@@ -3254,47 +3254,47 @@
     "kyc": {
       "state-label": "Staat",
       "rejected": "Verifizierungsstufe 1 abgelehnt",
-      "rejected-subtitle": "Leider können Sie nicht fortfahren. Wenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie bitte unseren <0>Kundenservice</0>.",
+      "rejected-subtitle": "Leider kannst du nicht fortfahren. Wenn du glaubst, dass dies ein Fehler ist, kontaktieren bitte unseren <0>Kundenservice</0>.",
       "details": {
         "missing_signature": {
           "title": "Unterschrift fehlt",
-          "content": "Ihr Ausweisdokument muss von Ihnen unterschrieben sein."
+          "content": "Ihr Ausweisdokument muss von dir unterschrieben sein."
         },
         "digital_copy": {
           "title": "Originalexemplar erforderlich",
-          "content": "Wir haben eine digitale Kopie Ihres Ausweisdokuments erkannt. Bitte versuchen Sie es erneut mit dem Originaldokument."
+          "content": "Wir haben eine digitale Kopie deines Ausweisdokuments erkannt. Bitte versuchen es erneut mit dem Originaldokument."
         },
         "ip_address_is_proxy": {
           "title": "Proxy erkannt",
-          "content": "Sie dürfen Ihre Dokumente nicht über eine Proxy-IP-Adresse übermitteln. Bitte deaktivieren Sie Proxy/VPN-Dienste."
+          "content": "Du darfst deine Dokumente nicht über eine Proxy-IP-Adresse übermitteln. Bitte deaktivieren deine Proxy/VPN-Dienste."
         },
         "birthdate_invalid_on_id": {
           "title": "Ungültiges Geburtsdatum",
-          "content": "Das Geburtsdatum auf Ihrem Ausweisdokument ist ungültig."
+          "content": "Das Geburtsdatum auf deinem Ausweisdokument ist ungültig."
         },
         "no_face_present": {
           "title": "Das Gesicht ist nicht erkennbar",
-          "content": "Wir konnten Ihr Gesicht auf dem von Ihnen übermittelten Bild nicht erkennen."
+          "content": "Wir konnten dein Gesicht auf dem von dir übermittelten Bild nicht erkennen."
         },
         "photocopy_black_white": {
           "title": "Originalexemplar erforderlich",
-          "content": "Wir haben eine Fotokopie Ihres Ausweisdokuments erkannt. Bitte versuchen Sie es erneut mit dem Originaldokument."
+          "content": "Wir haben eine Fotokopie deines Ausweisdokuments erkannt. Bitte versuchen es erneut mit dem Originaldokument."
         },
         "wrong_document_page": {
           "title": "Falsche Seite",
-          "content": "Ihr Ausweisdokument wird nicht auf der richtigen Seite angezeigt."
+          "content": "Dein Ausweisdokument wird nicht auf der richtigen Seite angezeigt."
         },
         "different_persons_shown": {
           "title": "Unterschiedliche Personen",
-          "content": "Ihr Identitätsdokument und das Selfie zeigen unterschiedliche Personen."
+          "content": "Dein Identitätsdokument und das Selfie zeigen unterschiedliche Personen."
         },
         "damaged_document": {
           "title": "Beschädigtes Dokument",
-          "content": "Ihr Ausweisdokument ist beschädigt."
+          "content": "Dein Ausweisdokument ist beschädigt."
         },
         "identity_verification_too_many_attempts": {
           "title": "Zu viele Versuche",
-          "content": "Sie haben zu viele Verifizierungsversuche gemacht."
+          "content": "Du hast zu viele Verifizierungsversuche gemacht."
         },
         "unknown_error": {
           "title": "Etwas ist schiefgelaufen!",
@@ -3302,71 +3302,71 @@
         },
         "no_document": {
           "title": "Dokument nicht gefunden",
-          "content": "Wir konnten in dem von Ihnen übermittelten Bild kein Ausweisdokument erkennen."
+          "content": "Wir konnten in dem von dir übermittelten Bild kein Ausweisdokument erkennen."
         },
         "multiple_people": {
           "title": "Mehrere Personen erkannt",
-          "content": "Wir haben mehrere Personen in dem von Ihnen übermittelten Bild erkannt. Sie müssen die einzige Person auf dem Bild sein."
+          "content": "Wir haben mehrere Personen in dem von dir übermittelten Bild erkannt. Du musst die einzige Person auf dem Bild sein."
         },
         "BLURRED": {
           "title": "Unscharfes Bild",
-          "content": "Das von Ihnen übermittelte Bild ist unscharf."
+          "content": "Das von dir übermittelte Bild ist unscharf."
         },
         "sample_document": {
           "title": "Originalexemplar erforderlich",
-          "content": "Wir haben festgestellt, dass Ihr Ausweisdokument nur ein Musterexemplar ist. Bitte versuchen Sie es erneut mit einem Originaldokument."
+          "content": "Wir haben festgestellt, dass deine Ausweisdokument nur ein Musterexemplar ist. Bitte versuchen es erneut mit einem Originaldokument."
         },
         "photocopy_color": {
           "title": "Originalexemplar erforderlich",
-          "content": "Wir haben eine Fotokopie lhres Ausweisdokuments erkannt. Bitte versuchen Sie es erneut mit dem Originaldokument."
+          "content": "Wir haben eine Fotokopie deines Ausweisdokuments erkannt. Bitte versuche es erneut mit dem Originaldokument."
         },
         "liveness_failed": {
           "title": "Lebendigkeitstest fehlgeschlagen",
-          "content": "Wir konnten nicht feststellen, dass eine reale Person auf dem von Ihnen übermittelten Bild zu sehen ist."
+          "content": "Wir konnten nicht feststellen, dass eine reale Person auf dem von dir übermittelten Bild zu sehen ist."
         },
         "ip_address_is_crawler": {
           "title": "Crawler erkannt",
-          "content": "Wir haben Ihre IP-Adresse als Web-Crawler identifiziert. Bitte versuchen Sie es erneut von einer anderen IP aus."
+          "content": "Wir haben deine IP-Adresse als Web-Crawler identifiziert. Bitte versuchen es erneut von einer anderen IP aus."
         },
         "missing_part_document": {
           "title": "Unvollständiges Dokument",
-          "content": "Ein Teil Ihres Ausweisdokuments fehlt."
+          "content": "Ein Teil deines Ausweisdokuments fehlt."
         },
         "ip_address_and_address_mismatch": {
           "title": "IP-Unstimmigkeit",
-          "content": "Ihre IP-Adresse muss dem von Ihnen gewählten Land entsprechen."
+          "content": "Ihre IP-Adresse muss deinem gewählten Standort entsprechen."
         },
         "ip_address_is_tor": {
           "title": "TOR erkannt",
-          "content": "Sie dürfen Ihre Dokumente nicht über eine Proxy-IP-Adresse übermitteln. Bitte deaktivieren Sie Proxy/VPN-Dienste."
+          "content": "Du darfst deine Dokumente nicht über eine Proxy-IP-Adresse übermitteln. Bitte deaktivieren deine Proxy/VPN-Dienste."
         },
         "bad_quality": {
           "title": "Schlechte Qualität",
-          "content": "Die Qualität des von Ihnen übermittelten Bildes ist nicht ausreichend."
+          "content": "Die Qualität des von deinem übermittelten Bildes ist nicht ausreichend."
         },
         "camera_black_white": {
           "title": "Schwarz-Weiß",
-          "content": "Ihre Kamera scheint auf Schwarz-Weiß eingestellt zu sein. Bitte auf Farbe umstellen."
+          "content": "Deine Kamera scheint auf Schwarz-Weiß eingestellt zu sein. Bitte auf Farbe umstellen."
         },
         "not_readable_document": {
           "title": "Dokument nicht lesbar",
-          "content": "Das von Ihnen übermittelte Dokument ist nicht lesbar."
+          "content": "Das von dir übermittelte Dokument ist nicht lesbar."
         },
         "black_and_white": {
           "title": "Schwarz-Weiß",
-          "content": "Ihre Kamera scheint auf Schwarz-Weiß eingestellt zu sein. Bitte auf Farbe umstellen."
+          "content": "Deine Kamera scheint auf Schwarz-Weiß eingestellt zu sein. Bitte auf Farbe umstellen."
         },
         "hidden_part_document": {
           "title": "Dokument verdeckt",
-          "content": "Ein Teil Ihres Ausweisdokuments ist verdeckt."
+          "content": "Ein Teil deines Ausweisdokuments ist verdeckt."
         },
         "missing_back": {
           "title": "Dokumentenrückseite erforderlich",
-          "content": "Sie haben kein Bild von der Rückseite Ihres Dokuments bereitgestellt."
+          "content": "Du hast kein Bild von der Rückseite Ihres Dokuments bereitgestellt."
         },
         "face_not_fully_visible": {
           "title": "Gesicht verdeckt",
-          "content": "Ihr Gesicht ist in dem von Ihnen bereitgestellten Bild nicht vollständig sichtbar."
+          "content": "Ihr Gesicht ist in dem von dir bereitgestellten Bild nicht vollständig sichtbar."
         }
       },
       "steps": [
@@ -3374,20 +3374,20 @@
         "Adressdaten",
         "Daten bestätigen"
       ],
-      "invalid-age-error": "Sie müssen ein gültiges Geburtsdatum eingeben.",
-      "missing-age-error": "Sie müssen Ihr Geburtsdatum eingeben.",
-      "age-restriction-error": "Sie müssen mindestens 18 Jahre alt sein.",
-      "name-error": "Sie müssen einen Namen eingeben.",
+      "invalid-age-error": "Du musst ein gültiges Geburtsdatum eingeben.",
+      "missing-age-error": "SDu musst ein Geburtsdatum eingeben.",
+      "age-restriction-error": "Du musst mindestens 18 Jahre alt sein.",
+      "name-error": "Du musst einen Namen eingeben.",
       "title": "Wir brauchen einige Details von Ihnen.",
       "topnav-back-button": "Zurück zu Handelslimits",
       "country": "Land",
       "waiting": "Wird verifiziert …",
-      "waiting-subtitle": "Dieser Vorgang kann einige Minuten dauern. Sie können diese Seite verlassen.",
+      "waiting-subtitle": "Dieser Vorgang kann einige Minuten dauern. Du kannst diese Seite verlassen.",
       "topnav-title": "Verifizierungsstufe 1",
       "contact-support-label": "<0>Kundenservice kontaktieren</0>, um die Verifizierungsstufe zu ändern",
       "confirm-button-label": "Details bestätigen",
       "name-step": {
-        "warning": "Der von Ihnen eingegebene Name muss mit dem Namen auf dem übermittelten Ausweisdokument übereinstimmen.",
+        "warning": "Der von dir eingegebene Name muss mit dem Namen auf dem übermittelten Ausweisdokument übereinstimmen.",
         "date-of-birth-label": "Geburtsdatum",
         "full-name-label": "Vollständiger Name",
         "continue-button-label": "Weiter zur Adresseingabe"
