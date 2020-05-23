@@ -39,7 +39,7 @@
     "duplicate-address-in-form": "Diese Adresse ist bereits auf der Whitelist.",
     "add-address": "Adresse hinzufügen",
     "address-is-not-valid": "Adresse ist ungültig",
-    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du nur Guthaben auf Adressen Überweisen die auf der Whitelist stehen. Sobald Sie Ihren Schlüssel generiert haben, kann die Whitelist jederzeit überarbeitet werden.",
+    "whitelisting-explanation": "Mit diesem API-Schlüssel kannst du nur Guthaben auf Adressen Überweisen die auf der Whitelist stehen. Du kannstjederzeit Adressen auf der Whitelist hinzufügen und entfernen, sobald Ihr Schlüssel generiert wurde.",
     "token-type": {
       "access": "Zugang",
       "kyc": "Identitätsprüfung",
@@ -47,9 +47,9 @@
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Sind Sie sicher, dass Sie alle Ihre Schlüssel entfernen möchten?",
-      "confirm-button-label": "Alle Schlüssel für immer entfernen",
-      "cancel-button-label": "zurück"
+      "body": "Bist du sicher, dass du alle deine Schlüssel widerrufen möchtest?",
+      "confirm-button-label": "Widerrufe alle deine Schlüssel für immer",
+      "cancel-button-label": "Geh zurück"
     },
     "delete-token": {
       "body": "Sind Sie sicher, dass Sie den Vorgang rückgängig machen wollen? ‘<0></0>’?",
@@ -57,10 +57,10 @@
       "cancel-button-label": "zurück"
     },
     "edit-whitelisted": {
-      "title": "Whitelist Adresse für {{name}}",
-      "add": "Neue Liste hinzufügen",
-      "save-and-close": "Änderungen speichern und schließen",
-      "continue": "fortsetzen"
+      "title": "Adress Whitelist für {{name}}",
+      "add": "Neue Adresse hinzufügen",
+      "save-and-close": "Speichert Änderungen und schließt",
+      "continue": "Fortsetzen"
     },
     "overview": {
       "no-addresses-whitelisted": "Keine Adresse auf der Whitelist",
@@ -71,7 +71,7 @@
       "name": "Name",
       "never-used": "Nie benutzt",
       "last-used": "Zuletzt verwendeten {{when}}",
-      "subtitle": "Generieren und verwalten meine API-Schlüssel. Lerne mehr über <0>unsere APIs</0>.",
+      "subtitle": "Generiere und verwalte meine API-Schlüssel. Lerne mehr über <0>unsere APIs</0>.",
       "key-info": "Schlüssel information",
       "api-key": "API Schlüssel",
       "blockchains": "Blockchains",
@@ -85,9 +85,9 @@
       "policy-trading": "Handeln",
       "loading": "Token laden…",
       "no-tokens": "Du hast noch keine API-Schlüssel generiert.",
-      "policy-withdrawals": "Auszahlungen und Einzahlungen. ",
-      "revoke-all-keys-button-label": "Alle Schlüssel löschen",
-      "generate-new-key-button-label": "Neuen Schlüssel erstellen",
+      "policy-withdrawals": "Auszahlungen und Einzahlungen.",
+      "revoke-all-keys-button-label": "Widerrufe alle Schlüssel",
+      "generate-new-key-button-label": "Neuen Schlüssel generieren",
       "plus-more": "+{{count}} mehr"
     },
     "create-modal": {
@@ -155,25 +155,25 @@
     "learn-more": "Mehr über Maker- und Taker-Aufträge erfahren."
   },
   "time-in-force-modal": {
-    "title": "Gültigkeitsdauer",
-    "subtitle": "Geben Sie an, über welchen Zeitraum Ihr Auftrag im Orderbuch bleiben soll.",
+    "title": "Gültig seit",
+    "subtitle": "Geben den Zeitraum an, für wie lange deine Auftrag im Auftragsbuch verbleiben soll.",
     "sections": {
       "gtc": {
-        "header": "Gültig bis Stornierung",
-        "desc": "Ihr Auftrag bleibt bis zu dem von Ihnen angegebenen Zeitpunkt im Orderbuch. Wenn er bis dahin nicht ausgeführt worden ist, wird er storniert."
+        "header": "Gut bis zur Stonierung",
+        "desc": "Deine Aufträge bleiben auf unbestimmte Zeit im Auftragsbuch - entweder bis sie gefüllt oder stoniert werden."
       },
       "gtt": {
-        "header": "Gültig bis Datum",
-        "header-with-time": "Gültig bis {{cancelAt}}",
-        "desc": "Ihr Auftrag bleibt bis zu dem von Ihnen angegebenen Zeitpunkt im Orderbuch. Wenn er bis dahin nicht ausgeführt worden ist, wird er storniert."
+        "header": "Gut bis zu eineme bestimmten Zeitpunkt",
+        "header-with-time": "Gut bis {{cancelAt}}",
+        "desc": "Deine Aufträge beliben bis zu dem von dir angegebenen Zeitpunkt im Auftragsbuch. Wenn der Auftrag zu diesem Zeitpunkt noch nicht gefüllt ist, wird er storniert."
       },
       "fok": {
-        "header": "Füllen oder Abbruch",
-        "desc": "Ihr Auftrag wird entweder sofort und vollständig ausgeführt oder – falls dies nicht möglich ist – komplett storniert."
+        "header": "Füllen oder Stonieren",
+        "desc": "Wenn dein gesamter Auftrag sofort gefüllt wird oder wenn der Auftrag nicht vollständig gefüllt werden kann, wird der gesamte Auftrag storniert."
       },
       "ioc": {
-        "header": "Sofort oder Abbruch",
-        "desc": "Falls möglich, werden Teile Ihres Auftrags sofort ausgeführt. Der Rest wird storniert."
+        "header": "Sofort oder abbrechen",
+        "desc": "Ein Großteil deines Auftrages wird sofort ausgeführt. Was nicht gefüllt wurde, wird storniert."
       }
     }
   },
@@ -204,7 +204,7 @@
       "transfers": {
         "initializing": "Initialisieren",
         "initialized": "Übertragung initialisiert",
-        "tooltip": "Du hast noch eine Übertragungsinitialisierung. Wenn du Nash schließen oder sich abmelden, wird es angehalten, bis du dich erneut anmeldest."
+        "tooltip": "Du hast noch eine Übertragungsinitialisierung. Wenn du Nash schließt oder dich abmeldest, wird diese angehalten, bis du dich erneut anmeldest."
       },
       "general-menu": {
         "settings": "Mein Profil",
@@ -278,33 +278,33 @@
       }
     }
   },
-  "search": "Suchen …",
-  "loading": "Wird geladen …",
-  "pending": "Ausstehend",
-  "cancelling": "Wird storniert …",
-  "authenticating": "Authentifizierung läuft …",
-  "decrypting": "Wird entschlüsselt …",
-  "encrypting": "Wird verschlüsselt …",
-  "sending": "Wird gesendet …",
-  "submit": "Senden",
-  "retry": "Noch einmal versuchen",
-  "sending-approval": "Genehmigung wird gesendet …",
-  "send-approval": "Genehmigen",
-  "submit-transfer": "Überweisung tätigen",
-  "no-longer-sufficient-balance-for-tx": "Ihr Saldo ist für diese Transaktion nicht mehr ausreichend.",
-  "we-are-hiring": "Wir stellen ein",
+  "search": "Suchen…",
+  "loading": "Laden…",
+  "pending": "Anstehend…",
+  "cancelling": "Abbrechen…",
+  "authenticating": "Authentifizierung…",
+  "decrypting": "Entschlüsseln…",
+  "encrypting": "Verschlüsselung…",
+  "sending": "Senden…",
+  "submit": "Einreichen",
+  "retry": "Erneut Versuchen",
+  "sending-approval": "Genehmigung senden…",
+  "send-approval": "Genehmigung senden",
+  "submit-transfer": "Überweisung senden",
+  "no-longer-sufficient-balance-for-tx": "Dein Guthaben reicht für diese Transaktion aus..",
+  "we-are-hiring": "Wir stellen ein!",
   "errors": {
     "location-banned-title": "Zugang gesperrt",
-    "location-banned": "Leider ist Nash im Moment nicht in Ihrer Region verfügbar.",
-    "invalid-clock-title": "Die Uhr Ihres Computers ist nicht genau.",
+    "location-banned": "Leider kann Nash derzeit nicht in deinem Rechtssystem operieren.",
+    "invalid-clock-title": "Die Systemuhrzeit Ihres Computers ist nicht genau.",
     "permissions-issue-title": "Berechtigungsproblem",
-    "invalid-clock": "Um auf Nash zu handeln, muss Ihre Uhr genau sein. <0>Synchronisiere dein Uhr</0> then <1>Versuch es noch einmal</1>.",
+    "invalid-clock": "Um mit Nash zu handeln, muss Ihre Systemuhrzeit genau sein. <0>Synchronisiere dein Uhr</0> then <1>Versuch es noch einmal</1>.",
     "network-issue-title": "Netwerk Probleme",
     "network-issue": "Es liegt ein vorübergehendes Netzwerkproblem vor. Bitte <0>Versuch es noch einmal</0>.",
     "generic-error-title": "Ein Fehler ist aufgetreten",
     "generic-error": "Etwas ist schiefgelaufen. Bitte erneut versuchen.",
     "generic-error-signout": "Ein unerwarteter Fehler ist aufgetreten. Bitte abmelden und erneut versuchen.",
-    "within-waiting-period": "Sie müssen fünf Minuten warten, bevor Sie einen weiteren Stake erstellen können.",
+    "within-waiting-period": "Du musst fünf Minuten warten, bevor du einen weiteren Versuch starten kannst. Ihr neuer Versuch wird in Kürze erscheinen.",
     "password": {
       "incorrect": "Das eingegebene Passwort ist falsch."
     },
