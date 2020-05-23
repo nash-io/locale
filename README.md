@@ -15,6 +15,8 @@ Here "key" is the keyword used in the platform code to identify the text and sho
 Never used Github? This is the easiest way to contribute:
 https://www.youtube.com/watch?v=5u0I0UX81tI
 
+If you are facing issues using Github for the first time there is a desktop app that might make your life easier: https://desktop.github.com/
+
 We have a simple contributions policy, see it [here](./CONTRIBUTING.md)
 
 | Locale name | Language           | Country/Territory           |
