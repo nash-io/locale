@@ -25,105 +25,105 @@
   "exchange": "Burza",
   "receive": "Receive",
   "wallet": "Účet",
-  "upload": "Upload",
-  "processing": "Processing…",
-  "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opens in new tab",
-  "failed-update": "Failed to update",
-  "reported-errors": "Errors reported",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "upload": "Nahrát",
+  "processing": "Procesuji…",
+  "over-file-limit": "Velikost souboru nesmí překročit {{maxAllowedSize}}{{unit}}.",
+  "opens-new-tab": "Otevřít v nové záložce",
+  "failed-update": "Nahrávání selhalo",
+  "reported-errors": "Chyby byly reportovány",
+  "credit-card-expiry-placeholder": "MM/RR",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
-    "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
-    "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
+    "no-addresses-whitelisted": "Na whitelist jste zatím nepřidali žádnou adresu.",
+    "address-input-placeholder": "Vložte BTC, NEO nebo ETH adresu na whitelist",
+    "add-whitelisted": "Adresy na whitelistu",
+    "duplicate-address-in-form": "Tato adresa se již nachází na whitelistu.",
+    "add-address": "Přidejte adresu",
+    "address-is-not-valid": "Neplatná adresa.",
+    "whitelisting-explanation": "S tímto API kíčem můžete posílat finanční zdroje pouze na adresy z whitelistu. Na whitelist můžete přidat a odebrat adresy kdykoliv jakmile vám bude vygenerován API klíč.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
+      "access": "Přístup",
+      "kyc": "Ověření identity",
+      "apitrade": "Obchodování přes API",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Are you sure you want to revoke all your keys?",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "body": "Jste si jistí, že chcete znehodnotit všechny vaše klíče?",
+      "confirm-button-label": "Navždy znehodnotit všechny vaše klíče",
+      "cancel-button-label": "Zpět"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "Jste si jistí, že chcete znehodnotit všechny vaše klíče?‘<0></0>’?",
+      "confirm-button-label": "Navždy znehodnotit všechny vaše klíče",
+      "cancel-button-label": "Zpět"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "Adresa na whitelistu pro {{name}}",
+      "add": "Přidat další",
+      "save-and-close": "Uložit a zavřít",
+      "continue": "Pokračovat"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
-      "blockchains": "Blockchains",
+      "no-addresses-whitelisted": "Žádná adresa na whitelistu",
+      "title": "Spravovat API klíče",
+      "revoke-button-label": "Znehodnotit",
+      "table-header": "Vaše API klíče",
+      "no-tokens-exp": "<0>Vygenerujte váš první klíčy</0> nebo si přečtěte naší <1>API dokumentaci</1>.",
+      "name": "Jméno",
+      "never-used": "Nikdy nepoužité",
+      "last-used": "Naposledy použité {{when}}",
+      "subtitle": "Vygenerovat a spravovat API klíče. Zjistěte více o<0> našem API</0>.",
+      "key-info": "Klíčové informace",
+      "api-key": "API klíč",
+      "blockchains": "Blockchainy",
       "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "view-whitelist": "Zobrazit whitelist",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "This API key can function with these blockchains.",
-      "usable-for": "Usable for",
-      "revoke": "Revoke",
-      "created": "Created",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "blockchains-hint": "Tento API klíč může fungovat s těmito blockchainy.",
+      "usable-for": "Použitelné pro",
+      "revoke": "Znehodnotit",
+      "created": "Vytvořeno",
+      "policy-trading": "Obchodovat",
+      "loading": "Tokeny se načítají…",
+      "no-tokens": "Nevygenerovali jste zatím žádné API klíče.",
+      "policy-withdrawals": "Vklady a výbery",
+      "revoke-all-keys-button-label": "Znehodnotit všechny klíče",
+      "generate-new-key-button-label": "vygenerovat nový klíč",
+      "plus-more": "+{{count}} více"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Uživatelské údaje",
+      "whitelist-step": "Adresy na whitelistu",
+      "name-step": "Uveďte váš klíč",
+      "last-step": "Zálohovat klíče",
+      "title": "Vygenerovat nový API klíč"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "Jméno",
+      "continue-button-label": "Vytvořit klíč"
     },
     "step2": {
-      "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "password": "Heslo",
+      "two-fa-code": "Kód dvoufázového ověření",
+      "create-api-button-label": "Pokračovat",
+      "incorrect-password": "Heslo, které jste vložili je nesprávné.",
+      "incorrect-2fa": "Kód, který jste vložili je nesprávný."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Generuji vaše klíče…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Váš klíč",
+      "your-secret-warning": "Toto je jediný okamžik, kdy vám klíč ukážeme.",
+      "api-key": "Váš API klíč",
+      "api-key-warning": "Toto je jediný okamžik, kdy vám klíč ukážeme.",
+      "download-as-json-button-label": "Stáhnout API klíč ve formátu JSON",
+      "i-saved-my-secret-button-label": "Bezpečně jsem si uložil svůj klíč"
     }
   },
   "terse-periods": {
     "1h": "1h",
     "1d": "24h",
-    "1w": "1w",
+    "1w": "1t",
     "1m": "1M"
   },
   "transfer": {
