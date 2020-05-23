@@ -3504,8 +3504,8 @@
           "success": "Dein Passwort wurde geändert.",
           "errors": {
             "password-must-change": "Dein neues Passwort sollte sich von deinem alten Passwort unterscheiden.",
-            "password-already-used": "Das Passwort wird schon einmal benutzt. Bitte verwende ein anders.",
-            "missing-key": "Fehlender Signaturschlüssel. Bitte aktualisiere diese Seite und versuchen es erneut."
+            "password-already-used": "Das Passwort wurde schon einmal benutzt. Bitte verwende ein anderes.",
+            "missing-key": "Fehlender Signaturschlüssel. Bitte aktualisiere diese Seite und versuche es erneut."
           }
         }
       }
@@ -3611,8 +3611,8 @@
       "title": "Konten",
       "header": "Informationen über meine Konten",
       "wallets-header": "Konten, die durch meine zwölf Geheimwörter generiert wurden.",
-      "show-all-private-keys-button-label": "Alle privaten Schlüssel zeigen",
-      "hide-all-private-keys-button-label": "Verstecke alle Privater Schlüssel",
+      "show-all-private-keys-button-label": "Alle Privaten Schlüssel zeigen",
+      "hide-all-private-keys-button-label": "Alle Privaten Schlüssel verstecken",
       "desc": "Nash hat keinen Zugriff auf deine Kontoinformationen.",
       "search-assets-placeholder": "Asset nach Name oder Token suchen …",
       "public-address-label": "Öffentliche Adresse",
@@ -3621,9 +3621,9 @@
       "public-address-sub-label": "Welche Assets kann ich hierhin schicken?",
       "public-address-tooltip": "Die Blockchain-Adresse, unter der deine Assets gespeichert sind.",
       "private-key-label": "Privater Schlüssel",
-      "private-key-sub-label-show": "Zeige Privater Schlüssel",
-      "private-key-sub-label-hide": "Verstecke Privater Schlüssel",
-      "private-key-tooltip": "Dieser kann verwendet werden, um auf deine Assets außerhalb von Nash zuzugreifen zu können. Halten Sie ihn geheim.",
+      "private-key-sub-label-show": "Privater Schlüssel zeige",
+      "private-key-sub-label-hide": "Privater Schlüssel verstecken",
+      "private-key-tooltip": "Dieser kann verwendet werden, um auf deine Assets außerhalb von Nash zugriff zu erhalten. Halten Sie ihn geheim.",
       "unknown-blockchain": "Unknown blockchain",
       "wallets": {
         "eth": {
@@ -3710,7 +3710,7 @@
           "website": "Website",
           "tin": "TIN",
           "corporate-formation-documents": "Gründungsunterlagen",
-          "processing-time": "Wenn deine Verifizierung innerhalb der nächsten 24 Stunden nicht abgeschlossen wurde, bitte <0>Kontaktiere unseren Kundenservice</0>."
+          "processing-time": "Wenn deine Verifizierung innerhalb der nächsten 24 Stunden nicht abgeschlossen wird, bitte <0>kontaktiere unseren Kundenservice</0>."
         },
         "tier-1": {
           "get-verified-button": "Identität verifizieren",
@@ -3789,12 +3789,12 @@
       "paid-dividend-days": "Aktive Tage ({{date}})",
       "all-dividends-table": "Dividendenliste",
       "till-ended_plural": "{{count}} verbleibende Tage",
-      "till-ended": "{{count}} verbleibende Tage",
+      "till-ended": "{{count}} verbleibender Tag",
       "till-ended_today": "Endet heute",
-      "from-active-stakes": "Von <0>{{count}}</0> laufende Stakes",
-      "from-active-stakes_plural": "Von <0>{{count}}</0> laufende Stakes",
+      "from-active-stakes": "Von <0>{{count}}</0> laufendem Stake",
+      "from-active-stakes_plural": "Von <0>{{count}}</0> laufenden Stakes",
       "period-description": "Deine in diesem Zeitraum",
-      "dividends-received": "erhaltene Dividenden",
+      "dividends-received": "erhaltenen Dividenden",
       "is-ended": "Abgeschlossen",
       "no-statements": "Du hast noch keine Dividendenauszüge."
     },
@@ -3803,7 +3803,7 @@
         "title": "Nash Exchange Tokens (NEX) staken",
         "header": {
           "title": "Was ist NEX-Staking?",
-          "desc": "Das Staking von Nash Exchange Tokens (NEX) ist eine Möglichkeit, passive Einkünfte zu erzielen. Solange dein Stake aktiv ist, bekommst du von uns einen Teil der Nash-Exchange-Handelsgebühren."
+          "desc": "Das Staking von Nash Exchange Tokens (NEX) ist eine Möglichkeit, passive Einkünfte zu erzielen. Solange dein Stake aktiv ist, erhältst du von uns einen Teil der Nash-Exchange-Handelsgebühren."
         },
         "paragraphs": {
           "par-1": {
@@ -3812,19 +3812,19 @@
           },
           "par-2": {
             "title": "Wie werden die Dividenden berechnet?",
-            "desc": "Dividenden sind abhängig: (1) von der Anzahl der NEX-Tokens, die du stakest, als Prozentsatz der gesamten 50 Millionen Tokens und (2) von der Laufzeit deiner Stakes. Je mehr Tokens du stakest, desto höher sind Ihre Dividenden. Je länger du deine Token stakst, desto höher ist der Prozentsatz der Gebühren, die du bekommst (Dein ‘Dividendensatz’)."
+            "desc": "Dividenden sind abhängig: (1) von der Anzahl der NEX-Tokens, die du stakest, als Prozentsatz der gesamten 50 Millionen Tokens und (2) von der Laufzeit deiner Stakes. Je mehr Tokens du stakest, desto höher sind Ihre Dividenden. Je länger du deine Token stakst, desto höher ist der Prozentsatz der Gebühren, die du bekommst (dein ‘Dividendensatz’)."
           },
           "par-3": {
             "title": "Für wie lange kann ich staken?",
-            "desc": "Die minimale Laufzeit beträgt einen Monat. Dafür erhaltest du einen Dividendensatz von 25 %. Wenn du einen höheren Anteil der Börsengebühren bekommen möchtest, kannst du die Tokens maximal 24 Monate lang staken, für einen Dividendensatz von 75 %."
+            "desc": "Die minimale Laufzeit beträgt einen Monat. Dafür erhältst du einen Dividendensatz von 25 %. Wenn du einen höheren Anteil der Börsengebühren bekommen möchtest, kannst du die Tokens maximal 24 Monate lang staken, für einen Dividendensatz von 75 %."
           },
           "par-4": {
             "title": "Wie erhalte ich meine Dividenden?",
-            "desc": "Dividenden werden deinem Trading-Contract-Saldo automatisch gutgeschrieben. Sie werden täglich kurz nach Mitternacht UTC ausgezahlt. Nash stellt monatliche Staking-Auszüge zur Verfügung, die diese Zahlungen für Buchhaltungszwecke in einem einzigen Betrag kumuliert. Da die Handelsgebühren in den zu tauschenden Assets berechnet werden, erhaltest du Dividenden für jedes Asset, das derzeit auf Nash gehandelt wird."
+            "desc": "Dividenden werden deinem Trading-Contract-Saldo automatisch gutgeschrieben. Sie werden täglich kurz nach Mitternacht UTC ausgezahlt. Nash stellt monatliche Staking-Auszüge zur Verfügung, die diese Zahlungen für Buchhaltungszwecke in einem einzigen Betrag kumulieren. Da die Handelsgebühren in den zu tauschenden Assets berechnet werden, erhältst du Dividenden für jedes Asset, das derzeit auf Nash gehandelt wird."
           },
           "par-5": {
             "title": "Kann ich meine Dividenden in einem einzelnen Asset erhalten?",
-            "desc": "Nein. Aus rechtlichen Gründen kannst du deine Dividende nicht in einem einzelnen Asset erhalten. Wir entwickeln jedoch ein Tool, mit dem du mit einem Klick deine Dividende selbst in ein Asset umwandeln kannst."
+            "desc": "Nein. Aus rechtlichen Gründen dürfen wir deine Dividende nicht in ein einzelnes Asset umrechnen. Wir entwickeln jedoch ein Tool, mit dem du mit einem Klick deine Dividende selbst in ein Asset umrechnen kannst."
           },
           "par-6": {
             "title": "Kann ich meinen Stake nach der Erstellung bearbeiten oder stornieren?",
@@ -3874,7 +3874,7 @@
           "header": "Stake erstellt!",
           "stake-details": "Du hast einen Stake von {{Anzahl}} NEX für eine Laufzeit von {{count}} Monat erstellt. Dein Stake wird in Kürze im Dashboard angezeigt.",
           "stake-details_plural": "Du hast einen Stake von {{Anzahl}} NEX für eine Laufzeit von {{count}} Monaten erstellt. Dein Stake wird in Kürze im Dashboard angezeigt.",
-          "stake-time-description": "Du erhälst deine ersten Dividenden in:",
+          "stake-time-description": "Du erhältst deine ersten Dividenden in:",
           "finish-button-label": "Beenden"
         }
       }
@@ -3883,7 +3883,7 @@
       "title": "Passive Einkünfte durch NEX-Staking verdienen",
       "description-desktop": "Neu beim Staking? Erfahre mehr über <0>NEX-Staking</0> und <1>erstellen deinen ersten Stake</1>.",
       "description-mobile": "Neu beim Staking? Erfahre mehr über <0>NEX-Staking</0>.",
-      "description-modal-create-link": "Erstelle deinen ersten Stake"
+      "description-modal-create-link": "erstelle deinen ersten Stake"
     },
     "staking-view-header": {
       "stakes-in-progress": "Laufende Stakes",
@@ -3899,7 +3899,7 @@
   "contacts": {
     "title": "{{count}} Kontakt",
     "title_plural": "{{count}} Kontakte",
-    "search-my-contacts": "Suche meine Kontakte…",
+    "search-my-contacts": "Suche meine Kontakte …",
     "no-contacts": "Du hast noch keine Kontakte hinzugefügt oder importiert.",
     "create-new": "Erstelle neu",
     "buttons": {
@@ -3934,8 +3934,8 @@
           "currency": "Du kannst Assets nur von deinem persönlichen Konto aus senden."
         },
         "placeholders": {
-          "currency": "Suche nach einem Asset…",
-          "destination": "Suche nach einer Walletadress…"
+          "currency": "Suche nach einem Asset …",
+          "destination": "Suche nach einer Walletadresse …"
         }
       },
       "delete": {
