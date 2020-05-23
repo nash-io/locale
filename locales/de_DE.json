@@ -243,7 +243,7 @@
         "pages": {
           "portfolio": "Portfolio",
           "transfers": "Überweisungen",
-          "assets": "Vermögenswerte",
+          "assets": "Assets",
           "contacts": "Kontakte"
         }
       },
@@ -341,7 +341,7 @@
     "failed": "Laden fehlgeschlagen.",
     "failed-button": "Laden fehlgeschlagen",
     "failed-please-try": "Laden fehlgeschlagen. Bitte <0>erneut versuchen</0>.",
-    "why-this-may-happening": "Finde heraus, warum dies möglicherweise passiert ist <0>hier</0>"
+    "why-this-may-happening": "Finde heraus, warum dies möglicherweise passiert ist <0>hier</0>."
   },
   "datetime": {
     "time-in-hours": "<0>{{count}}</0> Stunde",
@@ -509,18 +509,18 @@
       "continue": "Konto erstellen",
       "fields": {
         "email": {
-          "label": "Geben Sie eine E-Mail-Adresse ein",
+          "label": "Gebe deine E-Mail-Adresse ein",
           "placeholder": "E-Mail-Adresse"
         },
         "password": {
           "label": "Erstellen Sie ein Passwort",
           "placeholder": "Passwort",
           "errors": {
-            "password-too-weak": "Das von Ihnen gewählte Passwort ist zu schwach."
+            "password-too-weak": "Das von dir gewählte Passwort ist zu schwach."
           }
         },
         "password-confirm": {
-          "label": "Bestätigen Sie Ihr Passwort",
+          "label": "Bestätige dein Passwort",
           "placeholder": "Passwort bestätigen",
           "errors": {
             "passwords-do-not-match": "Die Passwörter stimmen nicht überein."
@@ -530,16 +530,16 @@
       "modals": {
         "password-tips": {
           "title": "Tipps für ein sicheres Passwort",
-          "desc": "Ein sicheres Passwort ist unerlässlich, um Ihre Gelder zu schützen. Befolgen Sie diese Tipps, um abgesichert zu sein:",
+          "desc": "Ein sicheres Passwort ist unerlässlich, um dein Guthaben zu schützen. Befolge diese Tipps, um abgesichert zu sein:",
           "tip-index": "Tipp {{index}}",
-          "tip-1": "Verwenden Sie kein Passwort, das Sie auch auf anderen Websites nutzen, selbst wenn Sie einzelne Wörter oder Zeichen ändern. Wenn Sie von Phishing betroffen sind oder gehackt werden, ist Ihr Nash-Konto unmittelbar gefährdet.",
-          "tip-2": "Geben Sie in Ihrem Passwort keine persönlichen Daten an. Namen, Geburtstage und Adressen lassen sich leicht herausfinden. Deshalb sollten Sie sie meiden.",
-          "tip-3": "Ihr Passwort sollte mindestens zwölf Zeichen lang sein und sowohl Groß- und Kleinbuchstaben als auch Zahlen und Sonderzeichen enthalten.",
-          "tip-4": "Verwenden Sie einen Passwort-Generator, um maximal sichere Passwörter zu erstellen und zu speichern."
+          "tip-1": "Verwenden kein Passwort, das du auch auf anderen Websites nutzen, selbst wenn du einzelne Wörter oder Zeichen änderst. Wenn du von Phishing betroffen bist oder gehackt wurdest, ist dein Nash-Konto unmittelbar gefährdet.",
+          "tip-2": "Gebe in deinem Passwort keine persönlichen Daten an. Namen, Geburtstage und Adressen lassen sich leicht herausfinden. Deshalb solltest du sie meiden.",
+          "tip-3": "Dein Passwort sollte mindestens zwölf Zeichen lang sein und sowohl Groß- und Kleinbuchstaben als auch Zahlen und Sonderzeichen enthalten.",
+          "tip-4": "Verwende einen Passwort-Generator, um maximal sichere Passwörter zu erstellen und zu speichern."
         }
       },
       "password": {
-        "desc": "Verwenden Sie sowohl  Groß- und Kleinbuchstaben als auch Zahlen und Sonderzeichen für ein möglichst sicheres Passwort.",
+        "desc": "Verwende sowohl  Groß- und Kleinbuchstaben als auch Zahlen und Sonderzeichen für ein möglichst sicheres Passwort.",
         "tips": "Tipps zur Passwort-Erstellung",
         "password-strength": "Passwortstärke",
         "weak": "Schwach",
@@ -549,21 +549,21 @@
       }
     },
     "verify-email": {
-      "header": "Wir haben Ihnen eine E-Mail geschickt!",
-      "desc-1": "Bitte rufen Sie Ihre E-Mail ab und verifizieren Sie Ihr Konto.",
-      "desc-2": "Wenn Sie unsere E-Mail nicht finden, überprüfen Sie Ihren Spam-Ordner.",
+      "header": "Wir haben dir eine E-Mail geschickt!",
+      "desc-1": "Bitte rufe deine E-Mail ab und verifiziere dein Konto.",
+      "desc-2": "Wenn du unsere E-Mail nicht finden kannst, überprüfen deinen Spam-Ordner.",
       "resend": "E-Mail erneut versenden",
-      "resend-delay": "Bitte warten Sie {{count}} Sekunde …",
-      "resend-delay_plural": "Bitte warten Sie {{count}} Sekunden …",
+      "resend-delay": "Bitte warte {{count}} Sekunde …",
+      "resend-delay_plural": "Bitte warte {{count}} Sekunden …",
       "back": "Zurück zur Anmeldung",
       "success": "E-Mail versendet!",
       "errors": {
-        "generic-error": "Fehler bei der Versendung. Bitte versuchen Sie es noch einmal."
+        "generic-error": "Fehler bei der Versendung. Bitte versuche es erneut."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Konto einrichten",
     "steps": [
       "Allgemeine Informationen",
       "Zwölf Geheimwörter",
@@ -571,30 +571,30 @@
     ],
     "general-information": {
       "title": "Allgemeine Informationen",
-      "header": "Erstellen wir Ihr persönliches Konto",
-      "desc-1": "Ihr persönliches Konto wird auf Basis von zwölf Geheimwörtern erstellt. Wenn Sie Ihr Passwort verlieren, können Sie auf Ihr Konto zugreifen und es mit diesen Wörtern wiederherstellen. Deshalb müssen Sie die Wörter unbedingt richtig sichern.",
+      "header": "Erstellen wir dein persönliches Konto",
+      "desc-1": "Dein persönliches Konto wird auf Basis von zwölf Geheimwörtern erstellt. Wenn du dein Passwort verlierst, kannst du mittels dieser Wörtern auf dein Konto zugreifen und wiederherstellen. Deshalb solltest du diese Wörter unbedingt richtig sichern.",
       "continue": "Zwölf Geheimwörter anfordern",
-      "skip2Fa": "Set up it later",
+      "skip2Fa": "Später einrichten",
       "chart": {
         "card-top": "Zwölf Geheimwörter",
-        "card-top-right": "der Wiederherstellung Ihres Nash-Kontos, wenn Sie Ihr Passwort vergessen haben.",
+        "card-top-right": "Wiederherstellung deines Nash-Kontos, wenn du dein Passwort vergessen hast.",
         "diamond-one": "werden verwendet bei",
-        "diamond-two": "generieren Ihr persönliches Konto, das folgende Konten enthält …",
-        "card-btc": "Bitcoin-Konto",
-        "card-neo": "NEO-Konto",
-        "card-eth": "Ethereum-Konto",
-        "card-future": "Zukünftige Konten"
+        "diamond-two": "generiert dein persönliches Konto, das folgende Konten enthält …",
+        "card-btc": "Bitcoin-Wallet",
+        "card-neo": "NEO-Wallet",
+        "card-eth": "Ethereum-Wallet",
+        "card-future": "Zukünftige Wallet"
       }
     },
     "secret-words": {
       "title": "Geheimwörter",
-      "header": "Schreiben Sie Ihre zwölf Geheimwörter in der richtigen Reihenfolge ab.",
-      "desc": "Diese Wörter können missbraucht werden, um auf Ihre Gelder zuzugreifen. Sie müssen sie schützen.",
-      "popup-error": "Wenn Sie Ihre Geheimwörter drucken möchten, deaktivieren Sie bitte alle Pop-up-Blocker und erlauben Sie Nash, Pop-ups zu öffnen.",
-      "continue": "Ich habe meine Wörter abgeschrieben.",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "header": "Schreibe deine zwölf Geheimwörter in der richtigen Reihenfolge auf.",
+      "desc": "Diese Wörter können missbraucht werden, um auf dein Guthaben zuzugreifen. Du solltest diese schützen.",
+      "popup-error": "Wenn du deine Geheimwörter drucken möchtest, deaktiviere bitte alle Pop-up-Blocker und erlaube Nash, Pop-ups zu öffnen.",
+      "continue": "Ich habe meine Wörter aufgeschrieben.",
+      "go-back": "Zurück",
+      "written-down": "Ich habe meine Wörter aufgeschrieben.",
+      "check-my-backup": "Kontrolliere deine wörter",
       "tips": {
         "do": "Sicher",
         "dont": "Unsicher"
@@ -602,36 +602,36 @@
       "modals": {
         "print-warning": {
           "title": "Zwölf Geheimwörter drucken",
-          "header": "Bitte vergewissern Sie sich, dass Ihr Drucker sicher ist!",
-          "body-desc": "Wenn Sie Ihre Wörter drucken möchten, stellen Sie sicher:",
-          "body-tips-0": "Ihr Drucker ist über ein USB-Kabel direkt an Ihren Computer angeschlossen.",
-          "body-tips-1": "Ihr Drucker ist nicht mit einem Netzwerk jeglicher Art verbunden.",
-          "body-tips-2": "Es ist unmöglich, dass sich andere Personen über Bluetooth, WLAN o. Ä. mit Ihrem Drucker verbinden.",
+          "header": "Bitte vergewissere dich, dass dein Drucker sicher ist!",
+          "body-desc": "Wenn du deine Wörter drucken möchtest, stelle sicher:",
+          "body-tips-0": "Dein Drucker ist über ein USB-Kabel direkt an deinem Computer angeschlossen.",
+          "body-tips-1": "Dein Drucker ist nicht mit einem Netzwerk jeglicher Art verbunden.",
+          "body-tips-2": "Es ist unmöglich, dass sich andere Personen über Bluetooth, WLAN o. Ä. mit deinem Drucker verbinden.",
           "button": "Ich verstehe. Meine Wörter drucken!"
         }
       },
       "print-window-title": "Nash | Geheimwörter",
       "backup-print": {
         "header": "Geheimwörter",
-        "desc-1": "Ihre zwölf Geheimwörter können für den Zugriff auf Ihre ETH-, NEO- und anderen Konten verwendet werden, wenn Sie Ihr Nash-Passwort verlieren.",
-        "desc-2": "Denken Sie daran: Wenn jemand Zugang zu Ihren Wörtern hat, sind Ihre Assets in Gefahr.",
-        "desc-3": "Schneiden Sie die Zettel unten aus. Am besten ist es, sie zu laminieren und an zwei verschiedenen Orten aufzubewahren."
+        "desc-1": "Deine zwölf Geheimwörter können für den Zugriff auf ETH-, NEO- und andere Konten verwendet werden, wenn du dein Nash-Passwort verlierst.",
+        "desc-2": "Denke daran: Wenn jemand Zugang zu deinen Wörtern hat, sind deine Assets in Gefahr.",
+        "desc-3": "Schneide den Zettel an der entsprechenden Stelle auseinander. Am besten ist es, sie zu laminieren und an zwei verschiedenen Orten aufzubewahren."
       },
       "repeat-secret-words": {
-        "header": "Wiederholen Sie Ihre zwölf Geheimwörter.",
-        "desc": "Wir wollen sicherstellen, dass Sie Ihre Geheimwörter abgeschrieben haben.",
+        "header": "Wiederholen die zwölf Geheimwörter.",
+        "desc": "Wir wollen sicherstellen, dass du deine Geheimwörter aufgeschrieben hast.",
         "input-placeholder": "{{index}}. Wort",
         "case-sensitive": "Alle Wörter sind kleingeschrieben",
         "create-my-wallet": "Mein Konto erstellen",
-        "generating-your-wallet": "Ihr Nash-Konto wird eingerichtet …",
+        "generating-your-wallet": "Dein Nash-Konto wird eingerichtet …",
         "errors": {
-          "create-wallet-failed": "Fehler bei der Kontoerstellung. Bitte <0>melden Sie sich ab</0> und versuchen Sie es noch einmal."
+          "create-wallet-failed": "Fehler bei der Kontoerstellung. Bitte <0>melde dich ab</0> und versuche es erneut."
         }
       },
       "wallet-created": {
-        "header": "Ihr Nash-Konto wurde erstellt!",
-        "desc": "Ihre zwölf Geheimwörter und individuellen Kontodetails finden Sie unter ‘Mein Profil > Konten’.",
-        "warning": "<0>Wir speichern Ihre Geheimwörter nicht.</0> Wenn Sie Ihr Passwort vergessen haben, können Sie ohne diese Wörter nicht auf Ihre Gelder zugreifen.",
+        "header": "Dein Nash-Konto wurde erstellt!",
+        "desc": "Deine zwölf Geheimwörter und individuellen Kontodetails findest du unter ‘Mein Profil > Konten’.",
+        "warning": "<0>Wir speichern deine Geheimwörter nicht.</0> Wenn du dein Passwort vergisst, kannst du ohne diese Wörter nicht auf dein Guthaben zugreifen.",
         "continue": "Zwei-Faktor-Authentifizierung einrichten",
         "continue-location": "Wohnsitz angeben"
       }
@@ -640,26 +640,26 @@
       "title": "Zwei-Faktor-Authentifizierung",
       "header": "Zwei-Faktor-Authentifizierung aktivieren",
       "skip": "Skip",
-      "desc": "Die Zwei-Faktor-Authentifizierung (2FA) bietet Ihrem Konto eine zusätzliche Sicherheitsebene. Wir empfehlen Ihnen, sie zu aktivieren.",
+      "desc": "Die Zwei-Faktor-Authentifizierung (2FA) bietet deinem Konto eine zusätzliche Sicherheitsebene. Wir empfehlen, sie zu aktivieren.",
       "cards": {
         "1": {
           "header": "Authentifizierungs-App installieren",
           "desc": "Wir empfehlen <0>LastPass Authenticator</0>, <1>Authy</1> oder <2>Google Authenticator</2>."
         },
         "2": {
-          "header": "Diesen QR-Code mit Ihrer App scannen",
+          "header": "Diesen QR-Code mit deiner App scannen",
           "manual-2fa": "Manueller 2FA-Eingabeschlüssel"
         },
         "3": {
-          "header": "Den von Ihrer App generierten Code eingeben",
+          "header": "Den von deiner App generierten Code eingeben",
           "input-placeholder": "Authentifizierungscode",
-          "input-error": "Der von Ihnen eingegebene Code war falsch."
+          "input-error": "Der von dir eingegebene Code war falsch."
         }
       },
       "confirm": {
         "header": "Zwei-Faktor-Authentifizierung wurde aktiviert!",
-        "desc": "Ihre Einstellungen zur Zwei-Faktor-Authentifizierung finden Sie unter ‘Mein Profil > Sicherheit’ auf der Nash-Webplattform.",
-        "action": "Was möchten Sie jetzt machen?",
+        "desc": "Deine Einstellungen zur Zwei-Faktor-Authentifizierung findest du unter ‘Mein Profil > Sicherheit’ auf der Nash-Webplattform.",
+        "action": "Was möchtest du jetzt machen?",
         "continue-deposit": "Assets einzahlen",
         "continue-explore": "Nash erkunden"
       }
@@ -674,11 +674,11 @@
         "day": "Tag",
         "month": "Monat",
         "year": "Jahr",
-        "spend-of-limit": "of"
+        "spend-of-limit": "von"
       }
     },
     "messages": {
-      "create-order-blocked": "Sie können keine Aufträge an der Börse für diesen Markt in Ihrer Region anlegen."
+      "create-order-blocked": "Du kannst keine Aufträge an der Börse für diesen Markt in deiner Region erstellen."
     }
   },
   "advanced-exchange": {
@@ -695,7 +695,7 @@
       "my-portfolio": "Mein Portfolio"
     },
     "tips": {
-      "balance": "<0>Tipp</0> <1>Mittel zum Handelskontrakt hier senden.</1> <2 />"
+      "balance": "<0>Tipp</0> <1>Mittel zum Trading Contract hier senden.</1> <2 />"
     },
     "no-markets": "Derzeit sind keine Märkte verfügbar.",
     "auth": {
@@ -706,7 +706,7 @@
     },
     "market-selection": {
       "no-results": "Keine Ergebnisse für <0>{{searchTerm}}</0> gefunden.",
-      "no-favorites": "You have no favorite markets yet.",
+      "no-favorites": "Du hast noch keine favorisierten Märkte.",
       "pair": "Paar",
       "24hvol": "Volumen (24 St.)",
       "24hprice": "Preis (24 St.)",
@@ -716,8 +716,8 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0> appear as links here.",
-      "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
+      "empty": "<0>Deine favorisierten Märkte</0> erscheinen hier als Links.",
+      "tips": "<0>Tip</0> <1>Füge hier deine favoriten Markt als Link hinzu.</1> <2 />"
     },
     "market-graphs": {
       "title": "Charts",
@@ -767,7 +767,7 @@
         "edit-study-modal": {
           "tabs": {
             "inputs": {
-              "label": "Eingaben"
+              "label": "Eingabe"
             },
             "outputs": {
               "label": "Stil"
@@ -800,12 +800,12 @@
       "sell": "{{currencySymbol}} verkaufen",
       "locked-trading-session": {
         "information": "Ihre Handelssitzung ist gesperrt. <0 />",
-        "information-tooltip": "Sitzungen werden gesperrt, wenn Sie die Seite aktualisieren oder 15 Minuten lang im Leerlauf sind.",
+        "information-tooltip": "Sitzung wird gesperrt, wenn du die Seite aktualisierst oder 15 Minuten lang abwesend warst.",
         "enter-credentials-to-unlock": "<0>Jetzt freischalten</0>"
       },
       "market-orders-disabled": {
         "header": "Unzureichende Markttiefe",
-        "desc": "Derzeit liegen nicht genügend Aufträge vor, um Marktaufträge zu bearbeiten."
+        "desc": "Derzeit liegen nicht genügend Order vor, um deine Market Order zu füllen."
       },
       "order-type-tab": {
         "market": "Markt",
@@ -822,32 +822,32 @@
             "pending": "Ausstehend"
           },
           "current-market": "Aktueller Markt",
-          "other-tradable-assets": "Andere handelbare Vermögenswerte"
+          "other-tradable-assets": "Andere handelbare Assets"
         }
       },
       "trading-limits": "Handels-Limits",
       "fields": {
         "amount": {
           "label": "Menge",
-          "sub-label-market-buy": "Bei einem Marktauftrag können wir nur schätzen, wie viel {{currencyA}} Sie kaufen werden.",
-          "sub-label-market-sell": "Bei einem Marktauftrag können wir nur schätzen, wie viel {{currencyB}} Sie erhalten werden.",
-          "sub-label-limit-buy": "Wie viel {{currencySymbol}} möchten Sie kaufen?",
-          "sub-label-limit-sell": "Wie viel {{currencySymbol}} möchten Sie verkaufen?",
+          "sub-label-market-buy": "Bei einer Market Order können wir nur schätzen, wie viel {{currencyA}} gekauft werden.",
+          "sub-label-market-sell": "Bei einer Market Order können wir nur schätzen, wie viel {{currencyB}} Sie erhalten werden.",
+          "sub-label-limit-buy": "Wie viel {{currencySymbol}} möchtest du kaufen?",
+          "sub-label-limit-sell": "Wie viel {{currencySymbol}} möchtest du verkaufen?",
           "estimate": "(Schätzung)",
           "errors": {
-            "insufficient-funds": "Mangelnde Deckung.",
-            "maybe-insufficient-funds": "Es kann sein, dass Ihre Deckung für diesen Marktauftrag nicht ausreicht.",
+            "insufficient-funds": "Unzureichende Mittel.",
+            "maybe-insufficient-funds": "Es kann sein, dass deine Mittel für diese Market Order nicht ausreichen.",
             "order-too-small": "Die Gesamtsumme muss {{orderSize}} {{currencySymbol}} überschreiten.",
-            "limit-breached": "Dieser Auftrag überschreitet Ihre Handelslimits."
+            "limit-breached": "Diese Order überschreitet dein Handelslimit."
           }
         },
         "cancel-at": {
           "label": "Stornieren am",
-          "expires": "Expires",
+          "expires": "Läuft aus",
           "modal": {
-            "label-no-selection": "Wählen Sie ein Datum aus …",
+            "label-no-selection": "Wähle ein Datum aus …",
             "errors": {
-              "is-past": "Sie können keine Zeit in der Vergangenheit eingeben"
+              "is-past": "Du kannst keine Zeit in der Vergangenheit eingeben"
             }
           }
         },
@@ -856,7 +856,7 @@
         },
         "market-price": {
           "label": "Marktpreis",
-          "sub-label": "Wenn Sie zum Marktpreis kaufen oder verkaufen, wird Ihr Auftrag den anderen Aufträgen im Orderbuch zugeordnet."
+          "sub-label": "Wenn Sie zum Marktpreis kaufen oder verkaufen, wird deine Order den anderen Ordnern im Orderbuch zugeordnet."
         },
         "show-limit": {
           "label-hide": "Stop-Markt",
@@ -867,16 +867,16 @@
         },
         "limit-price": {
           "label": "Limitpreis",
-          "sub-label": "Ihr Auftrag wird anderen Aufträgen zu diesem oder einem besseren Preis zugeordnet.",
+          "sub-label": "Deine Order wird anderen Ordern zu diesem oder einem besseren Preis zugeordnet.",
           "errors": {
-            "maker-match": "‘Post only’-Aufträge, die im aktuellen Orderbuch ausgeführt werden können, werden storniert."
+            "maker-match": "‘Post only’-Order, die im aktuellen Orderbuch ausgeführt werden können, werden storniert."
           }
         },
         "stop-price": {
           "label": "Stop-Preis",
           "sub-label": "Der Stop-Preis löst einen weiteren Auftrag aus.",
           "errors": {
-            "stop-trigger-immediately": "Dieser Stop-Preis wird Ihren Auftrag sofort auslösen."
+            "stop-trigger-immediately": "Dieser Stop-Preis wird deine Order sofort auslösen."
           }
         },
         "shared": {
@@ -888,7 +888,7 @@
         },
         "maker-only": {
           "label": "Post only",
-          "sub-label": "‘Post only’ gilt nur für Ihre Aufträge als Maker, nicht als Taker. Es kann sein, dass ein Auftrag nicht ausgeführt wird."
+          "sub-label": "‘Post only’ gilt nur für Order als Maker, nicht als Taker. Es kann sein, dass ein Auftrag nicht ausgeführt wird."
         },
         "cancellation-policy": {
           "label": "Gültigkeitsdauer",
@@ -904,22 +904,22 @@
         "placing": "Auftrag wird erteilt …"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Ihr Auftrag wurde wegen mangelnder Deckung abgelehnt.",
-        "order-rejected-daily-limit-reached": "Ihr Auftrag wurde abgelehnt, weil Sie Ihr tägliches Handelslimit erreicht haben.",
+        "order-rejected-insufficient-funds": "Deine Order wurde wegen mangelnder Mittel abgelehnt.",
+        "order-rejected-daily-limit-reached": "Deine Order wurde abgelehnt, da dein tägliches Handelslimit erreicht wurde.",
         "generic": "Fehler bei der Auftragserteilung. Bitte erneut versuchen."
       },
       "signin-or-create-an-account": "<0>Anmelden</0> oder <1>Konto anlegen</1> um eine Bestellung aufzugeben."
     },
     "my-orders": {
-      "auth": "Melden Sie sich an, um Ihre Aufträge anzusehen.",
+      "auth": "Melde dich an, um alle Order anzusehen.",
       "signed-out": {
-        "title": "<0>Get started</0><1> with Nash</1>",
-        "subtitle": "Create an account in under a minute – no KYC required!"
+        "title": "<0>Get started</0><1> mit Nash</1>",
+        "subtitle": "Erstelle einen Account in weniger als einer Minute - kein KYC nötig!"
       },
       "no-results": {
-        "date-range": "Sie haben keine Aufträge in der angegebenen Zeitspanne.",
-        "active": "Sie haben keine offenen oder ausgeführten Aufträge.",
-        "active-open-only": "Sie haben keine offenen Aufträge.",
+        "date-range": "Du hast keine Order in der angegebenen Zeitspanne.",
+        "active": "Sie haben keine offenen oder ausgeführten Order.",
+        "active-open-only": "Sie haben keine offenen Order.",
         "trades": "Sie haben keine Handelshistorie."
       },
       "tabs": {
@@ -934,19 +934,19 @@
         "clear": "Löschen",
         "select-action": "Auswählen",
         "popup": {
-          "no-selection": "Wählen Sie eine Zeitspanne aus.",
+          "no-selection": "Wähle eine Zeitspanne aus.",
           "clear": "Löschen",
           "apply": "Weiter"
         }
       },
-      "open-only-checkbox": "Nur offene Aufträge",
+      "open-only-checkbox": "Nur offene Order",
       "pairs-checkbox": "Alle Paare",
       "export": "Historie exportieren",
-      "export-trades": "Export trade history",
-      "export-your-trades": "Export your trades",
-      "no-trades": "You have no trades to export",
+      "export-trades": "Exportiere Handelshistorie",
+      "export-your-trades": "Exportiere deine Handelshistorie",
+      "no-trades": "Du hast keine Handelshistorie zum exportieren",
       "trade-history-times": {
-        "header": "Wählen Sie einen bestimmten Zeitrahmen für den Export",
+        "header": "Wähle einen bestimmten Zeitrahmen für den Export",
         "custom": "Benutzerdefinierter Zeitrahmen",
         "months": "{count}} Monat",
         "months_plural": "{count}} Monate",
@@ -983,20 +983,20 @@
       "cancel-col": {
         "header-title": "Alle stornieren",
         "partial-fill": "Partial fill",
-        "cancelled-partial-fill": "Canceled: Partial fill",
-        "cancelled-order": "Order canceled"
+        "cancelled-partial-fill": "Abbrechen: Partial fill",
+        "cancelled-order": "Order abbrechen"
       },
       "cancelled-unfilled-col": {
-        "header-title": "Nicht ausgeführt",
-        "header-title-with-currency": "{{currency}} unfilled amount"
+        "header-title": "Nicht gefüllt",
+        "header-title-with-currency": "{{currency}} Nicht gefüllte Menge"
       },
       "cancelled-filled-col": {
-        "header-title": "Ausgeführt",
-        "header-title-with-currency": "{{currency}} filled amount"
+        "header-title": "Gefüllt",
+        "header-title-with-currency": "{{currency}} gefüllte Menge"
       },
       "status-col": {
         "header-title": "Stand",
-        "open": "Öffnen Sie",
+        "open": "Öffnen",
         "cancelled": "Annulliert",
         "filled": "Gefüllt",
         "pending": "Ausstehend"
