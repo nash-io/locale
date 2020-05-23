@@ -378,19 +378,19 @@
       "tier-0": {
         "location-mismatch": {
           "title": "Il tuo indirizzo IP non corrisponde al paese selezionato.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "message": "Gli utenti verificati fino a Livello 0 non possono accedere a tutti i servizi Nash a meno che non si connettano dal proprio paese di residenza. Valuta l'opzione di <0>passare a Livello 1</0>."
         },
         "untrusted-ip": {
           "title": "Abbiamo notato che stai usando una VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "message": "Gli utenti verificati fino a Livello 0 non possono accedere a tutti i servizi Nash se si connettono tramite VPN o proxy. Per favore disabilita tali servizi o <0>passa a Livello 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Attualmente sei verificato a Livello 0. Pertanto, il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+          "message": "Per usufruire di tutta la nostra gamma di servizi, per favore <0>passa a Livello 1</0>."
         },
         "duplicate-ip": {
           "title": "È già stato creato un account con questo indirizzo IP.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "message": "Per ottenere l'accesso a tutti i servizi Nash su questo account, per favore <0>passa a Livello 1</0>."
         }
       },
       "restricted": {
@@ -407,7 +407,7 @@
       },
       "tier-too-low": {
         "title": "Il tuo livello attuale di verifica è Livello {{userTier}}. Pertanto, il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
-        "message": "Per usare la piena gamma dei nostri servizi, per favore <0>passa a Livello {{minTier}}</0>."
+        "message": "Per usufruire di tutta la nostra gamma di servizi, per favore <0>passa a Livello {{minTier}}</0>."
       }
     },
     "info": {
