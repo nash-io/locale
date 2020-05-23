@@ -3038,25 +3038,25 @@
             "trade": "Handeln"
           }
         },
-        "no-results-problem": "Ihr Nash-Konto ist derzeit leer.",
+        "no-results-problem": "Dein Nash-Konto ist derzeit leer.",
         "no-results-solution": "Assets <0>senden/empfangen</0>, um loszulegen."
       },
       "balances": {
         "header": {
           "title": "Portfolio",
-          "hint": "Gesamtwert Ihrer Assets und Preisänderungen über 24 Stunden."
+          "hint": "Gesamtwert deiner Assets und Preisänderungen über 24 Stunden."
         },
         "total": "Gesamt",
         "available": {
           "title": "Verfügbar",
-          "hint": "Sie können diese Assets überweisen. Sie befinden sich auf Ihrem persönlichen Konto oder im Trading Contract. Nicht verfügbare Assets sind entweder in Ihren nicht ausgeführten Aufträgen oder NEX-Stakes gesperrt oder werden derzeit überwiesen."
+          "hint": "Du kannst diese Assets überweisen. Die Assets befinden sich in deinem persönlichen Konto oder im Trading Contract. Nicht verfügbare Assets sind entweder in deinen nicht abgeschlossenen Aufträgen, im NEX-Stake gesperrt oder werden derzeit überwiesen."
         },
         "transfer-funds": "Senden/Empfangen"
       },
       "chart": {
         "header": {
           "title": "Gesamtwert",
-          "hint": "Schauen Sie mal, wie sich der Wert Ihres Portfolios im Laufe der Zeit verändert hat."
+          "hint": "So hat sich der Wert deines Portfolios im Laufe der Zeit verändert."
         },
         "period": {
           "6M": "6 Mo.",
@@ -3072,7 +3072,7 @@
       "total-balance": {
         "header": {
           "title": "Salden",
-          "hint": "Sie haben die volle Kontrolle über diese Assets."
+          "hint": "Du hast die volle Kontrolle über diese Assets."
         },
         "available-assets": "Available assets",
         "in-personal": "Persönliches Konto",
@@ -3157,7 +3157,7 @@
       "send-funds": "Assets überweisen",
       "withdrawal-details": "Überweisungsdaten",
       "to-external-address": "An externes Konto",
-      "request-sent-to-blockchain": "Ihr Überweisungsauftrag wurde an die Blockchain gesendet."
+      "request-sent-to-blockchain": "Dein Überweisungsauftrag wurde an die Blockchain gesendet."
     },
     "receive-funds": {
       "asset-to-receive": "Sie erhalten",
@@ -3186,9 +3186,9 @@
       "confirmations-count": "Dieses Asset benötigt {{confirmationsCount}} Bestätigungen, um auf Ihrem Konto gutgeschrieben zu werden. Den Status Ihrer Überweisung können Sie unter ‘Wallet & Portfolio > Überweisungen’ ansehen."
     },
     "send-confirmation-box": {
-      "only-send-one-asset": "Senden Sie nur {{currency}} an diese Adresse.",
-      "only-send-multiple-asset": "Senden Sie nur {{currenciesWithoutLast}}- oder {{lastCurrency}}-Assets an diese Adresse.",
-      "you-can-lose-funds": "Wenn Sie Assets an die falsche Adresse überweisen, gehen sie unwiederbringlich verloren."
+      "only-send-one-asset": "Sende {{currency}} an diese Adresse.",
+      "only-send-multiple-asset": "Sende nur {{currenciesWithoutLast}}- oder {{lastCurrency}}-Assets an diese Adresse.",
+      "you-can-lose-funds": "Wenn du Assets an die falsche Adresse überweisen, gehen die Assets unwiederbringlich verloren."
     },
     "password": {
       "title": "Anmeldedaten eingeben"
@@ -3203,7 +3203,7 @@
         "desc": "Bitte lesen und akzeptieren Sie unsere aktuelle {{termsName}}.",
         "message": "Ich akzeptiere die aktuelle <0>{{termsName}}</0>."
       },
-      "confirm-notice": "Wenn Sie die allgemeinen Geschäftsbedingungen nicht akzeptieren, können Sie Nash-Dienste nicht weiter nutzen.",
+      "confirm-notice": "Wenn du die allgemeinen Geschäftsbedingungen nicht akzeptieren, kannst du Nash-Dienste nicht weiter nutzen.",
       "confirm-button": "Bestätigen",
       "sign-out-link": "Abmelden",
       "errors": {
@@ -3212,8 +3212,8 @@
     },
     "search-contact": {
       "empty-list": "Sie haben keine Kontakte zur Auswahl!",
-      "wallet": "{{count}} Brieftasche",
-      "wallet_plural": "{{count}} Brieftaschen"
+      "wallet": "{{count}} Wallet",
+      "wallet_plural": "{{count}} Wallets"
     }
   },
   "orders": {
@@ -3228,7 +3228,7 @@
     "title": "Empfehlungsprogramm",
     "referrals": {
       "header": "Freunde werben und Gewinnlose erhalten",
-      "desc": "Je mehr Lose Sie haben, desto höher ist Ihre Gewinnchance. <Mehr erfahren</0>.",
+      "desc": "Je mehr Lose du hast, desto höher ist deine Gewinnchance. <Mehr erfahren</0>.",
       "cards": {
         "social-share": {
           "label": "Empfehlungscode teilen:",
@@ -3240,7 +3240,7 @@
         },
         "invited-users": {
           "label": "Ihre Einladungen",
-          "desc": "Das sind die Personen, die Sie direkt geworben haben. Wir können Ihnen nicht zeigen, wen diese wiederum angeworben haben, aber Sie können die Gewinnlose sehen, die Sie durch diese indirekten Einladungen verdient haben.",
+          "desc": "Das sind die Personen, die du direkt geworben hast. Wir können dir nicht zeigen, wen diese wiederum angeworben haben, aber du kannst die Gewinnlose sehen, die du durch diese indirekten Einladungen verdient hast.",
           "header": "Alle Tickets",
           "col-name": "Name",
           "col-pending": "Ausstehend (‘pending’)",
@@ -3256,47 +3256,47 @@
     "kyc": {
       "state-label": "Staat",
       "rejected": "Verifizierungsstufe 1 abgelehnt",
-      "rejected-subtitle": "Leider können Sie nicht fortfahren. Wenn Sie glauben, dass dies ein Fehler ist, kontaktieren Sie bitte unseren <0>Kundenservice</0>.",
+      "rejected-subtitle": "Leider kannst du nicht fortfahren. Wenn du glaubst, dass dies ein Fehler ist, kontaktieren bitte unseren <0>Kundenservice</0>.",
       "details": {
         "missing_signature": {
           "title": "Unterschrift fehlt",
-          "content": "Ihr Ausweisdokument muss von Ihnen unterschrieben sein."
+          "content": "Ihr Ausweisdokument muss von dir unterschrieben sein."
         },
         "digital_copy": {
           "title": "Originalexemplar erforderlich",
-          "content": "Wir haben eine digitale Kopie Ihres Ausweisdokuments erkannt. Bitte versuchen Sie es erneut mit dem Originaldokument."
+          "content": "Wir haben eine digitale Kopie deines Ausweisdokuments erkannt. Bitte versuchen es erneut mit dem Originaldokument."
         },
         "ip_address_is_proxy": {
           "title": "Proxy erkannt",
-          "content": "Sie dürfen Ihre Dokumente nicht über eine Proxy-IP-Adresse übermitteln. Bitte deaktivieren Sie Proxy/VPN-Dienste."
+          "content": "Du darfst deine Dokumente nicht über eine Proxy-IP-Adresse übermitteln. Bitte deaktivieren deine Proxy/VPN-Dienste."
         },
         "birthdate_invalid_on_id": {
           "title": "Ungültiges Geburtsdatum",
-          "content": "Das Geburtsdatum auf Ihrem Ausweisdokument ist ungültig."
+          "content": "Das Geburtsdatum auf deinem Ausweisdokument ist ungültig."
         },
         "no_face_present": {
           "title": "Das Gesicht ist nicht erkennbar",
-          "content": "Wir konnten Ihr Gesicht auf dem von Ihnen übermittelten Bild nicht erkennen."
+          "content": "Wir konnten dein Gesicht auf dem von dir übermittelten Bild nicht erkennen."
         },
         "photocopy_black_white": {
           "title": "Originalexemplar erforderlich",
-          "content": "Wir haben eine Fotokopie Ihres Ausweisdokuments erkannt. Bitte versuchen Sie es erneut mit dem Originaldokument."
+          "content": "Wir haben eine Fotokopie deines Ausweisdokuments erkannt. Bitte versuchen es erneut mit dem Originaldokument."
         },
         "wrong_document_page": {
           "title": "Falsche Seite",
-          "content": "Ihr Ausweisdokument wird nicht auf der richtigen Seite angezeigt."
+          "content": "Dein Ausweisdokument wird nicht auf der richtigen Seite angezeigt."
         },
         "different_persons_shown": {
           "title": "Unterschiedliche Personen",
-          "content": "Ihr Identitätsdokument und das Selfie zeigen unterschiedliche Personen."
+          "content": "Dein Identitätsdokument und das Selfie zeigen unterschiedliche Personen."
         },
         "damaged_document": {
           "title": "Beschädigtes Dokument",
-          "content": "Ihr Ausweisdokument ist beschädigt."
+          "content": "Dein Ausweisdokument ist beschädigt."
         },
         "identity_verification_too_many_attempts": {
           "title": "Zu viele Versuche",
-          "content": "Sie haben zu viele Verifizierungsversuche gemacht."
+          "content": "Du hast zu viele Verifizierungsversuche gemacht."
         },
         "unknown_error": {
           "title": "Etwas ist schiefgelaufen!",
@@ -3304,71 +3304,71 @@
         },
         "no_document": {
           "title": "Dokument nicht gefunden",
-          "content": "Wir konnten in dem von Ihnen übermittelten Bild kein Ausweisdokument erkennen."
+          "content": "Wir konnten in dem von dir übermittelten Bild kein Ausweisdokument erkennen."
         },
         "multiple_people": {
           "title": "Mehrere Personen erkannt",
-          "content": "Wir haben mehrere Personen in dem von Ihnen übermittelten Bild erkannt. Sie müssen die einzige Person auf dem Bild sein."
+          "content": "Wir haben mehrere Personen in dem von dir übermittelten Bild erkannt. Du musst die einzige Person auf dem Bild sein."
         },
         "BLURRED": {
           "title": "Unscharfes Bild",
-          "content": "Das von Ihnen übermittelte Bild ist unscharf."
+          "content": "Das von dir übermittelte Bild ist unscharf."
         },
         "sample_document": {
           "title": "Originalexemplar erforderlich",
-          "content": "Wir haben festgestellt, dass Ihr Ausweisdokument nur ein Musterexemplar ist. Bitte versuchen Sie es erneut mit einem Originaldokument."
+          "content": "Wir haben festgestellt, dass deine Ausweisdokument nur ein Musterexemplar ist. Bitte versuchen es erneut mit einem Originaldokument."
         },
         "photocopy_color": {
           "title": "Originalexemplar erforderlich",
-          "content": "Wir haben eine Fotokopie lhres Ausweisdokuments erkannt. Bitte versuchen Sie es erneut mit dem Originaldokument."
+          "content": "Wir haben eine Fotokopie deines Ausweisdokuments erkannt. Bitte versuche es erneut mit dem Originaldokument."
         },
         "liveness_failed": {
           "title": "Lebendigkeitstest fehlgeschlagen",
-          "content": "Wir konnten nicht feststellen, dass eine reale Person auf dem von Ihnen übermittelten Bild zu sehen ist."
+          "content": "Wir konnten nicht feststellen, dass eine reale Person auf dem von dir übermittelten Bild zu sehen ist."
         },
         "ip_address_is_crawler": {
           "title": "Crawler erkannt",
-          "content": "Wir haben Ihre IP-Adresse als Web-Crawler identifiziert. Bitte versuchen Sie es erneut von einer anderen IP aus."
+          "content": "Wir haben deine IP-Adresse als Web-Crawler identifiziert. Bitte versuchen es erneut von einer anderen IP aus."
         },
         "missing_part_document": {
           "title": "Unvollständiges Dokument",
-          "content": "Ein Teil Ihres Ausweisdokuments fehlt."
+          "content": "Ein Teil deines Ausweisdokuments fehlt."
         },
         "ip_address_and_address_mismatch": {
           "title": "IP-Unstimmigkeit",
-          "content": "Ihre IP-Adresse muss dem von Ihnen gewählten Land entsprechen."
+          "content": "Ihre IP-Adresse muss deinem gewählten Standort entsprechen."
         },
         "ip_address_is_tor": {
           "title": "TOR erkannt",
-          "content": "Sie dürfen Ihre Dokumente nicht über eine Proxy-IP-Adresse übermitteln. Bitte deaktivieren Sie Proxy/VPN-Dienste."
+          "content": "Du darfst deine Dokumente nicht über eine Proxy-IP-Adresse übermitteln. Bitte deaktivieren deine Proxy/VPN-Dienste."
         },
         "bad_quality": {
           "title": "Schlechte Qualität",
-          "content": "Die Qualität des von Ihnen übermittelten Bildes ist nicht ausreichend."
+          "content": "Die Qualität des von deinem übermittelten Bildes ist nicht ausreichend."
         },
         "camera_black_white": {
           "title": "Schwarz-Weiß",
-          "content": "Ihre Kamera scheint auf Schwarz-Weiß eingestellt zu sein. Bitte auf Farbe umstellen."
+          "content": "Deine Kamera scheint auf Schwarz-Weiß eingestellt zu sein. Bitte auf Farbe umstellen."
         },
         "not_readable_document": {
           "title": "Dokument nicht lesbar",
-          "content": "Das von Ihnen übermittelte Dokument ist nicht lesbar."
+          "content": "Das von dir übermittelte Dokument ist nicht lesbar."
         },
         "black_and_white": {
           "title": "Schwarz-Weiß",
-          "content": "Ihre Kamera scheint auf Schwarz-Weiß eingestellt zu sein. Bitte auf Farbe umstellen."
+          "content": "Deine Kamera scheint auf Schwarz-Weiß eingestellt zu sein. Bitte auf Farbe umstellen."
         },
         "hidden_part_document": {
           "title": "Dokument verdeckt",
-          "content": "Ein Teil Ihres Ausweisdokuments ist verdeckt."
+          "content": "Ein Teil deines Ausweisdokuments ist verdeckt."
         },
         "missing_back": {
           "title": "Dokumentenrückseite erforderlich",
-          "content": "Sie haben kein Bild von der Rückseite Ihres Dokuments bereitgestellt."
+          "content": "Du hast kein Bild von der Rückseite Ihres Dokuments bereitgestellt."
         },
         "face_not_fully_visible": {
           "title": "Gesicht verdeckt",
-          "content": "Ihr Gesicht ist in dem von Ihnen bereitgestellten Bild nicht vollständig sichtbar."
+          "content": "Ihr Gesicht ist in dem von dir bereitgestellten Bild nicht vollständig sichtbar."
         }
       },
       "steps": [
@@ -3376,20 +3376,20 @@
         "Adressdaten",
         "Daten bestätigen"
       ],
-      "invalid-age-error": "Sie müssen ein gültiges Geburtsdatum eingeben.",
-      "missing-age-error": "Sie müssen Ihr Geburtsdatum eingeben.",
-      "age-restriction-error": "Sie müssen mindestens 18 Jahre alt sein.",
-      "name-error": "Sie müssen einen Namen eingeben.",
+      "invalid-age-error": "Du musst ein gültiges Geburtsdatum eingeben.",
+      "missing-age-error": "Du musst ein Geburtsdatum eingeben.",
+      "age-restriction-error": "Du musst mindestens 18 Jahre alt sein.",
+      "name-error": "Du musst einen Namen eingeben.",
       "title": "Wir brauchen einige Details von Ihnen.",
       "topnav-back-button": "Zurück zu Handelslimits",
       "country": "Land",
       "waiting": "Wird verifiziert …",
-      "waiting-subtitle": "Dieser Vorgang kann einige Minuten dauern. Sie können diese Seite verlassen.",
+      "waiting-subtitle": "Dieser Vorgang kann einige Minuten dauern. Du kannst diese Seite verlassen.",
       "topnav-title": "Verifizierungsstufe 1",
       "contact-support-label": "<0>Kundenservice kontaktieren</0>, um die Verifizierungsstufe zu ändern",
       "confirm-button-label": "Details bestätigen",
       "name-step": {
-        "warning": "Der von Ihnen eingegebene Name muss mit dem Namen auf dem übermittelten Ausweisdokument übereinstimmen.",
+        "warning": "Der von dir eingegebene Name muss mit dem Namen auf dem übermittelten Ausweisdokument übereinstimmen.",
         "date-of-birth-label": "Geburtsdatum",
         "full-name-label": "Vollständiger Name",
         "continue-button-label": "Weiter zur Adresseingabe"
@@ -3408,10 +3408,10 @@
         "title": "Gefundene Adressen",
         "manual-entry-label": "Adresse manuell eingeben",
         "select-label": "Auswählen",
-        "no-results-found-title": "Wir konnten Ihre Adresse nicht finden.",
-        "no-results-found-body": "Bitte vergessen Sie nicht, Ihre Postleitzahl anzugeben.",
+        "no-results-found-title": "Wir konnten deine Adresse nicht finden.",
+        "no-results-found-body": "Bitte vergiss nicht, deine Postleitzahl anzugeben.",
         "error-title": "Ein Fehler ist aufgetreten",
-        "error-body": "Versuchen Sie es erneut oder verwenden Sie den unten stehenden Link.",
+        "error-body": "Versuche es erneut oder verwenden den unten stehenden Link.",
         "go-back-label": "Zurück"
       },
       "confirm-details": {
@@ -3419,13 +3419,13 @@
         "your-details": "Personaldaten",
         "address-details": "Adressdaten",
         "edit-label": "Bearbeiten",
-        "submission-error": "Ein Fehler ist bei der Übermittlung Ihrer Daten aufgetreten."
+        "submission-error": "Ein Fehler ist bei der Übermittlung deiner Daten aufgetreten."
       }
     },
     "profile": {
       "title": "Profil",
       "header": "Profileinstellungen",
-      "desc-1": "Sie können Ihre Profileinstellungen unten bearbeiten.",
+      "desc-1": "Du kannst deine Profileinstellungen unten bearbeiten.",
       "desc-2": "",
       "cards": {
         "your-details": {
@@ -3446,33 +3446,33 @@
           "password": "Passwort",
           "update-password": "Passwort ändern",
           "two-factor": "Zwei-Faktor-Authentifizierung kann unter <0>Sicherheit</0> deaktiviert werden.",
-          "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
+          "two-factor-enable": "Zwei-Faktor-Authentifizierung kann unter <0>Sicherheit</0> aktiviert werden."
         }
       },
       "modals": {
         "update-name": {
           "title": "Name ändern",
           "label": "Name",
-          "tier0-summary": "Um Ihren Namen zu aktualisieren, beantragen Sie bitte <0>Verifizierungsstufe 1</0>.",
-          "tier0-details": "Wenn Ihr Antrag für Stufe 1 genehmigt wird, aktualisieren wir Ihren Namen entsprechend den Dokumenten, die Sie uns übermittelt haben.",
+          "tier0-summary": "Um deinen Namen zu aktualisieren, beantrage bitte <0>Verifizierungsstufe 1</0>.",
+          "tier0-details": "Wenn dein Antrag für Stufe 1 genehmigt wird, aktualisieren wir deinen Namen entsprechend den Dokumenten, die du uns übermittelt hast.",
           "tier1-summary": "Wenn sich Ihr Name geändert hat und Sie ihn aktualisieren möchten, <0>kontaktieren Sie bitte unseren Kundenservice</0>.",
-          "tier1-details": "Wir setzen Ihre Verifizierungsstufe zurück und bitten Sie, den Verifizierungsvorgang mit Ihren neuen Dokumenten zu wiederholen. Wenn Ihr Antrag genehmigt wird, aktualisieren wir Ihren Namen entsprechend den von Ihnen bereitgestellten Dokumenten."
+          "tier1-details": "Wir setzen deine Verifizierungsstufe zurück und bitten dich, den Verifizierungsvorgang mit deinen neuen Dokumenten zu wiederholen. Wenn dein Antrag genehmigt wird, aktualisieren wir deinen Namen entsprechend den von dir bereitgestellten Dokumenten."
         },
         "update-country": {
           "title": "Land ändern",
           "label": "Land",
           "tier0": "Wenn sich Ihr Wohnsitz geändert hat und Sie ihn aktualisieren möchten, <0>kontaktieren Sie bitte unseren Kundenservice</0>.",
-          "tier1": "Wir setzen Ihre Verifizierungsstufe zurück und bitten Sie, den Verifizierungsvorgang mit Ihren neuen Dokumenten zu wiederholen. Wenn Ihr Antrag genehmigt wird, aktualisieren wir Ihren Wohnsitz entsprechend den von Ihnen bereitgestellten Dokumenten."
+          "tier1": "Wir setzen deine Verifizierungsstufe zurück und bitten dich, den Verifizierungsvorgang mit deinen neuen Dokumenten zu wiederholen. Wenn dein Antrag genehmigt wird, aktualisieren wir deinen Wohnsitz entsprechend den von dir bereitgestellten Dokumenten."
         },
         "update-email": {
-          "success-header": "Wir haben Ihnen eine E-Mail geschickt!",
-          "success-description": "Wir haben Ihnen eine Bestätigungs-E-Mail geschickt, um den Prozess der Adressaktualisierung zu starten. Wenn Sie unsere E-Mail nicht finden, überprüfen Sie Ihren Spam-Ordner.",
+          "success-header": "Wir haben dir eine E-Mail geschickt!",
+          "success-description": "Wir haben dir eine Bestätigungs-E-Mail geschickt, um den Prozess der Adressaktualisierung zu starten. Wenn du unsere E-Mail nicht finden kannst. Bitte, überprüfe auch deinen Spam-Ordner.",
           "success-back": "Verstanden!",
           "title": "E-Mail-Adresse ändern",
-          "current-email-label": "Ihre aktuelle E-Mail-Adresse",
+          "current-email-label": "Deine aktuelle E-Mail-Adresse",
           "current-email": "E-Mail-Adresse",
           "new-email-label": "Neue E-Mail-Adresse",
-          "new-email-placeholder": "Geben Sie Ihre neue E-Mail-Adresse ein",
+          "new-email-placeholder": "Gib deine neue E-Mail-Adresse ein",
           "twofa-label": "Zwei-Faktor-Authentifizierung",
           "twofa-label-placeholder": "Zwei-Faktor-Authentifizierungscode",
           "request-email-change-button-label": "Adressänderung beantragen"
@@ -3482,7 +3482,7 @@
           "fields": {
             "password": {
               "label": "Aktuelles Passwort",
-              "placeholder": "Geben Sie Ihr Kontopasswort ein"
+              "placeholder": "Gib dein Kontopasswort ein"
             },
             "code": {
               "label": "Zwei-Faktor-Authentifizierung",
@@ -3490,9 +3490,9 @@
             },
             "new-password": {
               "label": "Neues Passwort",
-              "placeholder": "Geben Sie ein neues Passwort ein",
+              "placeholder": "Gib ein neues Passwort ein",
               "errors": {
-                "password-too-weak": "Das von Ihnen gewählte Passwort ist zu schwach."
+                "password-too-weak": "Das von dir gewählte Passwort ist zu schwach."
               }
             },
             "new-password-confirm": {
@@ -3503,11 +3503,11 @@
               }
             }
           },
-          "success": "Ihr Passwort wurde geändert.",
+          "success": "Dein Passwort wurde geändert.",
           "errors": {
-            "password-must-change": "Ihr neues Passwort sollte sich von Ihrem alten Passwort unterscheiden.",
-            "password-already-used": "You used this password already. Please pick another one.",
-            "missing-key": "Missing signature keys. Please refresh this page and try again."
+            "password-must-change": "Dein neues Passwort sollte sich von deinem alten Passwort unterscheiden.",
+            "password-already-used": "Das Passwort wurde schon einmal benutzt. Bitte verwende ein anderes.",
+            "missing-key": "Fehlender Signaturschlüssel. Bitte aktualisiere diese Seite und versuche es erneut."
           }
         }
       }
@@ -3515,7 +3515,7 @@
     "preferences": {
       "title": "Einstellungen",
       "header": "Einstellungen",
-      "desc-1": "Bearbeiten Sie Ihre Einstellungen für Zeitzone, Währung, Sprache und Benachrichtigungen.",
+      "desc-1": "Bearbeite deine Einstellungen für Zeitzone, Währung, Sprache und Benachrichtigungen.",
       "desc-2": "",
       "cards": {
         "general-settings": {
@@ -3526,7 +3526,7 @@
           "save-settings": "Einstellungen speichern"
         },
         "email": {
-          "label": "Schicken Sie mir eine E-Mail, wenn …",
+          "label": "Schicke mir eine E-Mail, wenn …",
           "news": "… es Neuigkeiten und Updates von Nash gibt.",
           "actions": "… es empfohlene Aktionen für mein Konto gibt.",
           "withdrawal": "… eine Auszahlung von meinem Konto erfolgt.",
@@ -3542,7 +3542,7 @@
         "2fa": {
           "label": "Zwei-Faktor-Authentifizierung",
           "header": "Zwei-Faktor-Authentifizierung ist:",
-          "desc": "Wir empfehlen Ihnen, Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Sie bietet Ihrem Konto eine zusätzliche Sicherheitsebene.",
+          "desc": "Wir empfehlen dir, Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. 2FA bietet deinem Konto eine zusätzliche Sicherheitsebene.",
           "enabled": "Aktiviert",
           "disabled": "Deaktiviert",
           "enable": "Aktivieren",
@@ -3587,18 +3587,18 @@
             "desc": "Wir empfehlen <0>LastPass Authenticator</0>, <1>Authy</1> oder <2>Google Authenticator</2>."
           },
           "2": {
-            "header": "Diesen QR-Code mit Ihrer App scannen",
-            "desc": "Alternativ können Sie ihn auch manuell hinzufügen.",
+            "header": "Diesen QR-Code in deiner App scannen",
+            "desc": "Alternativ kannst du den Code auch manuell hinzufügen.",
             "manual-2fa": "Manueller 2FA-Eingabeschlüssel"
           },
           "3": {
-            "header": "Den Code von Ihrer App eingeben",
+            "header": "Den Code von deiner App eingeben",
             "input-placeholder": "Authentifizierungscode"
           }
         },
         "disable-2fa": {
           "title": "Zwei-Faktor-Authentifizierung deaktivieren",
-          "warning": "Wir empfehlen Ihnen, Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. Sie bietet Ihrem Konto eine zusätzliche Sicherheitsebene.",
+          "warning": "Wir empfehlen dir, Zwei-Faktor-Authentifizierung (2FA) zu aktivieren. 2FA bietet deinem Konto eine zusätzliche Sicherheitsebene.",
           "disable": "Deaktivieren"
         },
         "success": {
@@ -3613,19 +3613,19 @@
       "title": "Konten",
       "header": "Informationen über meine Konten",
       "wallets-header": "Konten, die durch meine zwölf Geheimwörter generiert wurden.",
-      "show-all-private-keys-button-label": "Alle privaten Schlüssel zeigen",
-      "hide-all-private-keys-button-label": "Hide all private keys",
-      "desc": "Nash hat keinen Zugriff auf Ihre Kontoinformationen.",
-      "search-assets-placeholder": "Asset nach Name oder Ticker suchen …",
+      "show-all-private-keys-button-label": "Alle Privaten Schlüssel zeigen",
+      "hide-all-private-keys-button-label": "Alle Privaten Schlüssel verstecken",
+      "desc": "Nash hat keinen Zugriff auf deine Kontoinformationen.",
+      "search-assets-placeholder": "Asset nach Name oder Token suchen …",
       "public-address-label": "Öffentliche Adresse",
-      "info-title": "Einige Blockchains unterstützen mehrere Assets",
-      "info-body": "ERC-20- und NEP-5-Assets sind Tokens, die auf den Ethereum- und NEO-Blockchains ausgegeben werden. GAS ist auch ein Asset, das auf der NEO-Blockchain gespeichert ist. Sie benötigen nur ein Ethereum-Konto für die Speicherung von ETH und ERC-20-Tokens und ein NEO-Konto für die Speicherung von NEO, GAS und NEP-5-Tokens.",
+      "info-title": "Einige Blockchains unterstützen mehrere Tokens",
+      "info-body": "ERC-20- und NEP-5-Assets sind Tokens, die auf den Ethereum- und NEO-Blockchains ausgegeben werden. GAS ist auch ein Asset, das auf der NEO-Blockchain gespeichert ist. Du benötigst ein Ethereum-Wallet für die Speicherung von ETH und ERC-20-Tokens und ein NEO-Wallet für die Speicherung von NEO, GAS und NEP-5-Tokens.",
       "public-address-sub-label": "Welche Assets kann ich hierhin schicken?",
-      "public-address-tooltip": "Die Blockchain-Adresse, unter der Ihre Assets gespeichert sind.",
+      "public-address-tooltip": "Die Blockchain-Adresse, unter der deine Assets gespeichert sind.",
       "private-key-label": "Privater Schlüssel",
-      "private-key-sub-label-show": "Show private key",
-      "private-key-sub-label-hide": "Hide private key",
-      "private-key-tooltip": "Dieser kann verwendet werden, um auf Ihre Assets außerhalb von Nash zuzugreifen. Halten Sie ihn geheim.",
+      "private-key-sub-label-show": "Privater Schlüssel zeige",
+      "private-key-sub-label-hide": "Privater Schlüssel verstecken",
+      "private-key-tooltip": "Dieser kann verwendet werden, um auf deine Assets außerhalb von Nash zugriff zu erhalten. Halten Sie ihn geheim.",
       "unknown-blockchain": "Unknown blockchain",
       "wallets": {
         "eth": {
@@ -3667,7 +3667,7 @@
     "my-limits": {
       "title": "Handelslimits",
       "header": "Handelslimits",
-      "desc-1": "Aus rechtlichen Gründen müssen wir Ihre Identität überprüfen, wenn Sie über bestimmte Limits hinaus handeln möchten.",
+      "desc-1": "Aus rechtlichen Gründen müssen wir deine Identität überprüfen, wenn du über bestimmte Limits hinaus handeln möchtest.",
       "desc-2": "Verifizierungsstufe 0 erhalten Sie automatisch.",
       "cards": {
         "tiers": {
@@ -3681,7 +3681,7 @@
           "year": "Jahr"
         },
         "limits": {
-          "header": "Maximales tägliches Handelsvolumen",
+          "header": "Maximales tägliches handelbares Volumen",
           "percentage-net-worth": "Angepasstes Limit",
           "unlimited": "Kein Limit",
           "tier-verified": "Stufe {{tier}} verifiziert",
@@ -3693,7 +3693,7 @@
         },
         "information": {
           "header": "Erforderliche Informationen",
-          "desc": "Sie haben diese Stufe automatisch erhalten, als Sie Ihr Nash-Konto erstellt haben.",
+          "desc": "Du hast diese Stufe automatisch erhalten, als du dein Nash-Konto erstellt hast.",
           "email": "E-Mail-Adresse",
           "name": "Name",
           "address": "Adresse",
@@ -3712,13 +3712,13 @@
           "website": "Website",
           "tin": "TIN",
           "corporate-formation-documents": "Gründungsunterlagen",
-          "processing-time": "If your verification is not processed within 24 hours, please <0>contact support</0>."
+          "processing-time": "Wenn deine Verifizierung innerhalb der nächsten 24 Stunden nicht abgeschlossen wird, bitte <0>kontaktiere unseren Kundenservice</0>."
         },
         "tier-1": {
           "get-verified-button": "Identität verifizieren",
           "continue-verification-button": "Weiter",
           "verification": {
-            "header": "Wie möchten Sie sich identifizieren lassen?",
+            "header": "Wie möchtest du dich identifizieren lassen?",
             "mobile": {
               "header": "Mobile App",
               "desc": "Erfordert hochwertige Haupt- und Frontkameras.",
@@ -3727,12 +3727,12 @@
                 "QR-Code scannen"
               ],
               "download": {
-                "header": "Verifizierungsstufe 1 können Sie mit unserer Mobile App beantragen.",
+                "header": "Verifizierungsstufe 1 kannst du mit unserer Mobile App freischalten.",
                 "downloaded-app": "Ich habe die App heruntergeladen"
               },
               "scan-code": {
                 "header": "Scannen Sie diesen QR-Code mit der Nash-App:",
-                "desc": "Wenn Sie den Verifizierungsprozess abgeschlossen haben, erscheint Ihr Ergebnis innerhalb einer Minute hier."
+                "desc": "Wenn du den Verifizierungsprozess abgeschlossen hast, erscheint dein Ergebnis innerhalb einer Minute hier."
               }
             },
             "web": {
@@ -3764,11 +3764,11 @@
         "duration-month": "<0>{{count}}</0> Monat",
         "duration-month_plural": "<0>{{count}}</0> Monate",
         "redeem-button": {
-          "label": "NEX freischalten",
-          "submitting": "Wird freigeschaltet …",
+          "label": "NEX entsperrt",
+          "submitting": "Wird entsperrt …",
           "error": "Fehlgeschlagen! Bitte erneut versuchen.",
-          "success": "Vorgang abgeschlossen. Tokens werden freigeschaltet …",
-          "released": "NEX freigeschaltet"
+          "success": "Vorgang abgeschlossen. Tokens werden entsperrt …",
+          "released": "NEX entsperrt"
         }
       }
     },
@@ -3793,69 +3793,69 @@
       "till-ended_plural": "{{count}} verbleibende Tage",
       "till-ended": "{{count}} verbleibender Tag",
       "till-ended_today": "Endet heute",
-      "from-active-stakes": "Von <0>{{count}}</0> laufenden Stake",
+      "from-active-stakes": "Von <0>{{count}}</0> laufendem Stake",
       "from-active-stakes_plural": "Von <0>{{count}}</0> laufenden Stakes",
-      "period-description": "In diesem Zeitraum",
-      "dividends-received": "In erhaltenen Dividenden",
+      "period-description": "Deine in diesem Zeitraum",
+      "dividends-received": "erhaltenen Dividenden",
       "is-ended": "Abgeschlossen",
-      "no-statements": "Sie haben noch keine Dividendenauszüge."
+      "no-statements": "Du hast noch keine Dividendenauszüge."
     },
     "modals": {
       "staking-info": {
         "title": "Nash Exchange Tokens (NEX) staken",
         "header": {
           "title": "Was ist NEX-Staking?",
-          "desc": "Das Staking von Nash Exchange Tokens (NEX) ist eine Möglichkeit, passive Einkünfte zu erzielen. Solange Ihr Stake aktiv ist, erlassen wir Ihnen einen Teil der Nash-Exchange-Handelsgebühren."
+          "desc": "Das Staking von Nash Exchange Tokens (NEX) ist eine Möglichkeit, passive Einkünfte zu erzielen. Solange dein Stake aktiv ist, erhältst du von uns einen Teil der Nash-Exchange-Handelsgebühren."
         },
         "paragraphs": {
           "par-1": {
             "title": "Wie funktioniert es?",
-            "desc": "Sie sperren beliebig viele Ihrer NEX-Tokens in einem Staking Contract. Diese Tokens können Sie dann weder überweisen noch verkaufen. Solange Ihr Stake aktiv ist, erhalten Sie täglich Dividenden."
+            "desc": "Du sperrst beliebig viele deiner NEX-Tokens in einem Staking Contract. Diese Tokens kannst du dann weder überweisen noch verkaufen. Solange dein Stake aktiv ist, erhaltest du täglich Dividenden."
           },
           "par-2": {
             "title": "Wie werden die Dividenden berechnet?",
-            "desc": "Dividenden sind abhängig: (1) von der Anzahl der NEX-Tokens, die Sie staken, als Prozentsatz der gesamten 50 Millionen Tokens und (2) von der Laufzeit Ihres Stakes. Je mehr Tokens Sie staken, desto höher sind Ihre Dividenden. Je länger Sie Ihre Tokens staken, desto höher ist der Prozentsatz der Gebühren, die Sie bekommen (Ihr ‘Dividendensatz’)."
+            "desc": "Dividenden sind abhängig: (1) von der Anzahl der NEX-Tokens, die du stakest, als Prozentsatz der gesamten 50 Millionen Tokens und (2) von der Laufzeit deiner Stakes. Je mehr Tokens du stakest, desto höher sind Ihre Dividenden. Je länger du deine Token stakst, desto höher ist der Prozentsatz der Gebühren, die du bekommst (dein ‘Dividendensatz’)."
           },
           "par-3": {
             "title": "Für wie lange kann ich staken?",
-            "desc": "Die minimale Laufzeit beträgt einen Monat. Dafür erhalten Sie einen Dividendensatz von 25 %. Wenn Sie einen höheren Anteil der Börsengebühren bekommen möchten, können Sie die Tokens maximal 24 Monate lang staken, für einen Dividendensatz von 75 %."
+            "desc": "Die minimale Laufzeit beträgt einen Monat. Dafür erhältst du einen Dividendensatz von 25 %. Wenn du einen höheren Anteil der Börsengebühren bekommen möchtest, kannst du die Tokens maximal 24 Monate lang staken, für einen Dividendensatz von 75 %."
           },
           "par-4": {
             "title": "Wie erhalte ich meine Dividenden?",
-            "desc": "Dividenden werden Ihrem Trading-Contract-Saldo automatisch gutgeschrieben. Sie werden täglich kurz nach Mitternacht UTC ausgezahlt. Nash stellt monatliche Staking-Auszüge zur Verfügung, die diese Zahlungen für Buchhaltungszwecke in einem einzigen Betrag aggregieren. Da die Handelsgebühren in den zu tauschenden Assets berechnet werden, erhalten Sie Dividenden für jedes Asset, das derzeit auf Nash gehandelt wird."
+            "desc": "Dividenden werden deinem Trading-Contract-Saldo automatisch gutgeschrieben. Sie werden täglich kurz nach Mitternacht UTC ausgezahlt. Nash stellt monatliche Staking-Auszüge zur Verfügung, die diese Zahlungen für Buchhaltungszwecke in einem einzigen Betrag kumulieren. Da die Handelsgebühren in den zu tauschenden Assets berechnet werden, erhältst du Dividenden für jedes Asset, das derzeit auf Nash gehandelt wird."
           },
           "par-5": {
             "title": "Kann ich meine Dividenden in einem einzelnen Asset erhalten?",
-            "desc": "Nein. Aus rechtlichen Gründen können wir Ihre Dividende nicht für Sie umrechnen. Wir entwickeln jedoch ein Tool, mit dem Sie das selbst mit einem einzigen Klick erledigen können."
+            "desc": "Nein. Aus rechtlichen Gründen dürfen wir deine Dividende nicht in ein einzelnes Asset umrechnen. Wir entwickeln jedoch ein Tool, mit dem du mit einem Klick deine Dividende selbst in ein Asset umrechnen kannst."
           },
           "par-6": {
             "title": "Kann ich meinen Stake nach der Erstellung bearbeiten oder stornieren?",
-            "desc": "Nein. Sobald Sie einen Stake erstellt haben, können Sie ihn nicht mehr bearbeiten oder stornieren."
+            "desc": "Nein. Sobald du einen Stake erstellt hast, kann der Stake nicht mehr bearbeitet oder storniert werden."
           },
           "par-7": {
             "title": "Kann ich mehrere Stakes erstellen?",
-            "desc": "Ja. Wenn Sie auf Ihrem persönlichen Konto NEX-Tokens haben, die nicht bereits in einem Stake gesperrt sind, können Sie damit einen neuen Stake erstellen."
+            "desc": "Ja. Wenn auf deinem persönlichen Konto NEX-Tokens hast, die nicht bereits in einem Stake gesperrt sind, kannst du damit einen neuen Stake erstellen."
           },
           "par-8": {
             "title": "Wie viele Stakes kann ich erstellen?",
-            "desc": "Die Anzahl der Stakes, die Sie erstellen können, ist nicht limitiert."
+            "desc": "Die Anzahl der Stakes, die Sie erstellen können, ist begrenzt."
           }
         }
       },
       "create-stake": {
         "create-stake-disclaimer-label": "Ich verstehe, dass gestakte NEX-Tokens keine Dividenden ausschütten, wenn die Nash Exchange keine Einnahmen erzielt.",
         "title": "Stake erstellen",
-        "amount-to-stake": "Wie viele NEX-Tokens möchten Sie staken?",
-        "amount-to-stake-tooltip": "Der Dividendensatz spiegelt Ihren proportionalen Anteil am Einkommen der Nash Exchange. Je länger Sie Ihre NEX staken, desto höher ist Ihrer Dividendensatz, bei einem Höchstsatz von 75 % für einen zweijährigen Stake.\n\n<0>Beispieldividende</0>\nDividenden werden täglich ausgezahlt. Beispiel: Nash hat in den letzten 24 Stunden Gebühren in Höhe von einer Million US-Dollar generiert. Ein Benutzer besitzt 1.000 NEX-Tokens von insgesamt 50 Millionen. Wenn er seine NEX mit dem zweijährigen Dividendensatz von 75 % gestakt hat, erhält er eine Dividende in Höhe von 1.000.000 $ ∗ 1.000 / 50.000.000 ∗ 0,75 = 15 $.",
+        "amount-to-stake": "Wie viele NEX-Tokens möchtest du staken?",
+        "amount-to-stake-tooltip": "Der Dividendensatz spiegelt deinen proportionalen Anteil an den Einnahmen der vom Nash Exchange erzielt wird. Je länger du NEX stakest, desto höher ist dein Dividendensatz, bei einem Höchstsatz von 75 % für einen zweijährigen Stake.\n\n<0>Beispieldividende</0>\nDividenden werden täglich ausgezahlt. Beispiel: Nash hat in den letzten 24 Stunden Gebühren in Höhe von einer Million US-Dollar eingenommen. Ein Benutzer besitzt 1.000 NEX-Tokens von insgesamt 50 Millionen. Wenn er seine NEX mit dem zweijährigen Dividendensatz von 75 % gestakt hat, erhält er eine Dividende in Höhe von 1.000.000 €  ∗ 1.000 / 50.000.000 ∗ 0,75 = 15 €.",
         "available-balance": "Verfügbare NEX-Tokens ⋅",
         "quick-fill-label": "Max.",
         "set-stake-duration-label": "Laufzeit festlegen",
         "selected-duration": "Ausgewählte Laufzeit ⋅ ",
         "selected-duration-month": "<0>{{count}}</0> Monat",
         "selected-duration-month_plural": "<0>{{count}}</0> Monate",
-        "set-date-dividends-label": "Setzen Sie ein Datum fest, an dem Sie Ihre Dividenden erhalten wollen.",
+        "set-date-dividends-label": "Lege ein Datum fest, an dem du deine Dividende erhalten willst.",
         "set-date-dividends-value": "Datum ⋅ Am {{date}} jedes Monats",
-        "stake-details-title": "Ihre Stakeangaben",
+        "stake-details-title": "Deine Stakeangaben",
         "currency-to-stake": "Stakegröße (NEX)",
         "stake-duration": "Laufzeit",
         "duration-value": "<0>{{count}}</0> Monat",
@@ -3866,26 +3866,26 @@
         "agreed-to-locked-tokens-label": "Ich verstehe, dass meine NEX-Tokens gesperrt werden, bis dieser Stake abgeschlossen ist.",
         "create-stake-button": "Stake erstellen",
         "create-stake-sending-button": "Daten werden gesendet …",
-        "create-stake-sending-text": "Daten werden gesendet. Bitte lassen Sie dieses Fenster offen. Dieser Vorgang kann bis zu einer Minute dauern.",
-        "create-stake-error": "Es gab entweder einen Fehler oder eine Verzögerung bei der Erstellung Ihres Stakes. Bitte schauen Sie in fünf Minuten noch einmal nach und versuchen Sie es noch einmal, wenn Ihr Stake nicht erstellt wurde.",
+        "create-stake-sending-text": "Daten werden gesendet. Bitte lasse dieses Fenster offen. Dieser Vorgang kann bis zu einer Minute dauern.",
+        "create-stake-error": "Es gab entweder einen Fehler oder eine Verzögerung bei der Erstellung deines Stakes. Bitte schaue in fünf Minuten noch einmal nach und versuchen es noch einmal, wenn dein Stake nicht erstellt wurde.",
         "create-stake-auth-error": "Authentifizierungsfehler. Bitte erneut versuchen.",
         "learn-more": "",
         "footer-desc": "Mehr über NEX-Staking erfahren.",
-        "amount-error-message": "Dieser Betrag übersteigt Ihren verfügbaren Saldo.",
+        "amount-error-message": "Dieser Betrag übersteigt deinen verfügbaren Saldo.",
         "stake-success": {
           "header": "Stake erstellt!",
-          "stake-details": "Sie haben einen Stake von {{Anzahl}} NEX für eine Laufzeit von {{count}} Monat erstellt. Ihr Stake wird in Kürze im Dashboard angezeigt.",
-          "stake-details_plural": "Sie haben einen Stake von {{Anzahl}} NEX für eine Laufzeit von {{count}} Monaten erstellt. Ihr Stake wird in Kürze im Dashboard angezeigt.",
-          "stake-time-description": "Sie erhalten Ihre ersten Dividenden in:",
+          "stake-details": "Du hast einen Stake von {{Anzahl}} NEX für eine Laufzeit von {{count}} Monat erstellt. Dein Stake wird in Kürze im Dashboard angezeigt.",
+          "stake-details_plural": "Du hast einen Stake von {{Anzahl}} NEX für eine Laufzeit von {{count}} Monaten erstellt. Dein Stake wird in Kürze im Dashboard angezeigt.",
+          "stake-time-description": "Du erhältst deine ersten Dividenden in:",
           "finish-button-label": "Beenden"
         }
       }
     },
     "no-stakes": {
       "title": "Passive Einkünfte durch NEX-Staking verdienen",
-      "description-desktop": "Neu beim Staking? Erfahren Sie mehr über <0>NEX-Staking</0> und <1>erstellen Sie Ihren ersten Stake</1>.",
-      "description-mobile": "Neu beim Staking? Erfahren Sie mehr über <0>NEX-Staking</0>.",
-      "description-modal-create-link": "Erstellen Sie Ihren ersten Stake"
+      "description-desktop": "Neu beim Staking? Erfahre mehr über <0>NEX-Staking</0> und <1>erstelle deinen ersten Stake</1>.",
+      "description-mobile": "Neu beim Staking? Erfahre mehr über <0>NEX-Staking</0>.",
+      "description-modal-create-link": "erstelle deinen ersten Stake"
     },
     "staking-view-header": {
       "stakes-in-progress": "Laufende Stakes",
@@ -3894,19 +3894,19 @@
       "learn-stake-button": "Mehr über Staking erfahren"
     },
     "max-stakes": {
-      "message": "Sie haben {{amount}} Stakes erstellt. Das Maximum, das Sie erstellen können, ist {{maxAmount}}.",
+      "message": "Du hast {{amount}} Stakes erstellt. Das Maximum, das du erstellen kannst, ist {{maxAmount}}.",
       "dismiss": "Ausblenden"
     }
   },
   "contacts": {
     "title": "{{count}} Kontakt",
     "title_plural": "{{count}} Kontakte",
-    "search-my-contacts": "Suche meine Kontakte…",
+    "search-my-contacts": "Suche meine Kontakte …",
     "no-contacts": "Du hast noch keine Kontakte hinzugefügt oder importiert.",
     "create-new": "Erstelle neu",
     "buttons": {
       "send": "Senden",
-      "send-disabled-tooltip": "Fügen bei deinen Kontakten eine Walletadresse hinzu, deinen Kontakten Guthaben zu senden.",
+      "send-disabled-tooltip": "Fügen bei deinen Kontakten eine Walletadresse hinzu, um deinen Kontakten Guthaben senden zu können.",
       "request": "Anfrage",
       "edit": "Bearbeiten",
       "delete": "Löschen"
@@ -3927,21 +3927,21 @@
         "button": "Änderungen speichern"
       },
       "send": {
-        "title": "Senden Guthaben an {{contactName}}",
+        "title": "Sende Guthaben an {{contactName}}",
         "labels": {
           "currency": "Welches Asset?",
           "wallet": "Ziel"
         },
         "sublabels": {
-          "currency": "Sie können Assets nur von Ihrem persönlichen Konto aus senden."
+          "currency": "Du kannst Assets nur von deinem persönlichen Konto aus senden."
         },
         "placeholders": {
-          "currency": "Suchen nach einem Asset…",
-          "destination": "Suchen Sie nach einer Walletadress…"
+          "currency": "Suche nach einem Asset …",
+          "destination": "Suche nach einer Walletadresse …"
         }
       },
       "delete": {
-        "confirm-text": "Sind Sie sicher, dass Sie löschen möchten {{contactName}}?",
+        "confirm-text": "Bist du sicher, dass du {{contactName}} löschen möchtest?",
         "notice-text": "Alle mit diesem Kontakt verbundenen Informationen werden dauerhaft entfernt.",
         "button": "Ja, löschen",
         "cancel": "Beenden",
@@ -3984,7 +3984,7 @@
           "add": "Füge eine andere hinzu"
         },
         "validation": {
-          "address": "Bitte füge eine Gültige {{blockchain}} Adresse hinzu.",
+          "address": "Bitte füge eine gültige {{blockchain}}-Adresse hinzu.",
           "unique-address": "Du hast bereits einen anderen Kontakt mit dieser Walletadresse."
         }
       }
