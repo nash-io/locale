@@ -2293,10 +2293,10 @@
           "provided": "ID carregada"
         },
         "phone": {
-          "edit": "Editar número de telefone",
-          "label": "Telefone de Contato",
-          "add": "Adicionar número de telefone",
-          "save": "Submeter número de telefone",
+          "edit": "Editar telefone",
+          "label": "Telefone",
+          "add": "Adicionar telefone",
+          "save": "Submeter telefone",
           "placeholder": "+1 000-123-1234"
         },
         "dob": {
@@ -2384,9 +2384,9 @@
       "date-of-birth": "Data de nascimento",
       "create-date-of-birth": "Adicionar data de nascimento",
       "edit-date-of-birth": "Editar data de nascimento",
-      "cell-phone": "Telefone de Contato",
-      "create-cell-phone": "Adicionar número de telefone",
-      "edit-cell-phone": "Editar número de telefone",
+      "cell-phone": "Telefone",
+      "create-cell-phone": "Adicionar telefone",
+      "edit-cell-phone": "Editar telefone",
       "government-id": "Documento de identidade",
       "append-government-id": "Adicionar outro documento de identidade",
       "create-government-id": "Carregar documento de identidade",
@@ -2583,7 +2583,7 @@
         "birth-date": "Editar minha data de nascimento",
         "status-and-process": "Status e processo",
         "initial-account-creation": "Criação de conta",
-        "cellphone-and-email": "Confirmar e-mail e número de telefone",
+        "cellphone-and-email": "Confirmar e-mail e telefone",
         "complete-profile": "Perfil",
         "buy-limits": "Limite de compra",
         "sell-limits": "Limite de venda"
@@ -2637,7 +2637,7 @@
         "edit": "Editar"
       },
       "heading": {
-        "add-phone-number": "Adicione seu número de telefone",
+        "add-phone-number": "Adicione seu telefone",
         "add-residential-address": "Adicione seu endereço residencial",
         "government-id-or-passport": "Carregar documento de identidade",
         "utility-bill": "Upload da conta de serviços públicos",
@@ -3914,7 +3914,7 @@
     "headers": {
       "name": "Nome",
       "email": "Email",
-      "phone-number": "Telefone de Contato",
+      "phone-number": "Telefone",
       "wallets": "Carteiras"
     },
     "modals": {
@@ -3933,10 +3933,10 @@
           "wallet": "Destino"
         },
         "sublabels": {
-          "currency": "Você só pode enviar ativos de sua carteira pessoal."
+          "currency": "Você só pode enviar de sua carteira pessoal."
         },
         "placeholders": {
-          "currency": "Procure um bem...",
+          "currency": "Procurar...",
           "destination": "Procure por um endereço de carteira..."
         }
       },
@@ -3981,10 +3981,10 @@
           "name": {
             "placeholder": "Nome da carteira"
           },
-          "add": "Adicione outro"
+          "add": "Adicionar"
         },
         "validation": {
-          "address": "Por favor, digite um endereço válido {{blockchain}}.",
+          "address": "Por favor, digite um endereço {{blockchain}} válido.",
           "unique-address": "Você já tem outro contato com este endereço de carteira."
         }
       }
