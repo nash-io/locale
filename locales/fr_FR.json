@@ -1,19 +1,19 @@
 {
-  "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
-  "buy": "buy",
-  "sell": "sell",
-  "continue": "Continue",
+  "sandbox-warning": "Ceci est un environnement sandbox destiné aux tests d'intégration de l'API. N'envoyez jamais de fonds réels ici!",
+  "buy": "acheter",
+  "sell": "vendre",
+  "continue": "Continuer",
   "ok": "OK",
-  "back": "Back",
-  "help": "Help",
-  "and": "and",
-  "from": "From",
-  "to": "To",
-  "or": "or",
-  "price": "Price",
-  "fee": "Fee",
-  "try-again": "Try again",
-  "refresh": "Refresh",
+  "back": "Retour",
+  "help": "Aide",
+  "and": "et",
+  "from": "Depuis",
+  "to": "Vers",
+  "or": "ou",
+  "price": "Prix",
+  "fee": "Frais",
+  "try-again": "Réessayer",
+  "refresh": "Rafraîchir",
   "finish": "Finish",
   "price-each": "{{price}} each",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
@@ -26,7 +26,7 @@
   "receive": "Receive",
   "wallet": "Account",
   "upload": "Upload",
-  "processing": "Processing…",
+  "processing": "En cours…",
   "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
   "opens-new-tab": "Opens in new tab",
   "failed-update": "Failed to update",
@@ -37,8 +37,8 @@
     "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
     "add-whitelisted": "Whitelisted addresses",
     "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
+    "add-address": "Ajouter une adresse",
+    "address-is-not-valid": "Adresse non valide.",
     "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
     "token-type": {
       "access": "Access",
@@ -60,7 +60,7 @@
       "title": "Address whitelist for {{name}}",
       "add": "Add another",
       "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "continue": "Continuer"
     },
     "overview": {
       "no-addresses-whitelisted": "No addresses whitelisted",
@@ -123,7 +123,7 @@
   "terse-periods": {
     "1h": "1h",
     "1d": "24h",
-    "1w": "1w",
+    "1w": "1S",
     "1m": "1M"
   },
   "transfer": {
@@ -347,18 +347,18 @@
     "time-in-hours": "<0>{{count}}</0> hour",
     "time-in-hours_plural": "<0>{{count}}</0> hours",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "Janvier",
+      "1": "Février",
+      "2": "Mars",
+      "3": "Avril",
+      "4": "Mai",
+      "5": "Juin",
+      "6": "Juillet",
+      "7": "Août",
+      "8": "Septembre",
+      "9": "Octobre",
+      "10": "Novembre",
+      "11": "Décembre"
     }
   },
   "banned-country": {
@@ -513,24 +513,24 @@
           "placeholder": "Email address"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Créer un mot de passe",
+          "placeholder": "Mot de passe",
           "errors": {
             "password-too-weak": "The password you chose is too weak."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
+          "label": "Confirmez votre mot de passe",
           "placeholder": "Confirm password",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Les mots de passe ne sont pas identiques."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
+          "title": "Conseils pour un mot de passe fort",
+          "desc": "Un mot de passe fort est essentiel afin de garder vos fonds en sécurité. Suivez ces conseils afin de préserver et protéger vos fonds:",
           "tip-index": "Tip {{index}}",
           "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
           "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
@@ -549,16 +549,16 @@
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
+      "header": "Nous vous avons envoyé un e-mail!",
       "desc-1": "Please check your email and verify your account.",
       "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
+      "resend": "Renvoyer un e-mail de vérification",
+      "resend-delay": "Patientez {{count}} second…",
       "resend-delay_plural": "Please wait {{count}} seconds…",
       "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "success": "E-mail de vérification envoyé avec succès!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Erreur lors du renvoi de l'e-mail de vérification. Réessayez de nouveau."
       }
     }
   },
@@ -652,7 +652,7 @@
         "3": {
           "header": "Enter the verification code generated by your authenticator app",
           "input-placeholder": "Authentication code",
-          "input-error": "The code you entered was incorrect."
+          "input-error": "Le code que vous avez entré est incorrect."
         }
       },
       "confirm": {
@@ -670,9 +670,9 @@
       "title-balances-and-limits": "Balances and limits",
       "increase-my-limits": "Increase my limits",
       "limits": {
-        "day": "Day",
-        "month": "Month",
-        "year": "Year",
+        "day": "Jour",
+        "month": "Mois",
+        "year": "Année",
         "spend-of-limit": "of"
       }
     },
@@ -755,8 +755,8 @@
           "1h": "1h",
           "6h": "6h",
           "12h": "12h",
-          "1d": "1d",
-          "1w": "1w",
+          "1d": "1J",
+          "1w": "1S",
           "1M": "1M"
         },
         "study-overlay-menu": {
@@ -862,7 +862,7 @@
           "label-show": "Stop-limit"
         },
         "price": {
-          "label": "Price"
+          "label": "Prix"
         },
         "limit-price": {
           "label": "Limit",
@@ -894,7 +894,7 @@
           "footer": "Learn more"
         },
         "trading-balance": {
-          "label": "Available {{currency}}: "
+          "label": "Disponible {{currency}}: "
         }
       },
       "submit": {
@@ -954,8 +954,8 @@
       "reset-filters": "Reset",
       "side-col": {
         "filter": {
-          "buy": "Buy",
-          "sell": "Sell",
+          "buy": "Acheter",
+          "sell": "Vendre",
           "both": "Both"
         }
       },
@@ -1017,8 +1017,8 @@
         "header-title-with-currency": "{{currency}} amount"
       },
       "price-col": {
-        "header-title": "Price",
-        "header-title-with-currency": "{{currency}} price"
+        "header-title": "Prix",
+        "header-title-with-currency": "{{currency}} prix"
       },
       "pair-col": {
         "header-title": "Pair"
@@ -1028,8 +1028,8 @@
         "header-title-with-currency": "{{currency}} amount filled"
       },
       "fee-col": {
-        "header-title": "Fee",
-        "header-title-with-currency": "{{currency}} fee",
+        "header-title": "Frais",
+        "header-title-with-currency": "{{currency}} frais",
         "no-fee": "No fee"
       },
       "condition-col": {
@@ -1072,16 +1072,16 @@
     "sign-out": "Sign out",
     "password-strength": {
       "label": "Password strength",
-      "0": "Very weak",
-      "1": "Weak",
-      "2": "Medium",
-      "3": "Strong",
-      "4": "Very strong"
+      "0": "Très faible",
+      "1": "Faible",
+      "2": "Moyen",
+      "3": "Fort",
+      "4": "Très fort"
     },
     "password-form": {
       "password": {
-        "label": "Password",
-        "placeholder": "Enter your password"
+        "label": "Mot de passe",
+        "placeholder": "Entrez votre mot de passe"
       },
       "code": {
         "label": "Two-factor authentication",
@@ -1112,9 +1112,9 @@
     },
     "missing-country": {
       "header": "Before you continue…",
-      "subheader": "Where do you live?",
+      "subheader": "Où vivez-vous?",
       "messages": {
-        "vpn-warning-title": "We noticed you’re using a VPN.",
+        "vpn-warning-title": "Nous avons remarqué que vous utilisez un VPN.",
         "vpn-warning-body": "Please disable any VPN or proxy services to continue.",
         "update-country": {
           "failed": "We could not update your country of residence. Please try again later or contact support."
@@ -1122,13 +1122,13 @@
       },
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Pays de résidence"
         },
         "state": {
           "label": "State"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Je confirme que c'est mon pays de résidence."
         },
         "confirm-country-and-state": {
           "label": "I confirm that these are my country and state of residence."
@@ -1140,13 +1140,13 @@
       "header-2fa": "Two-factor authentication",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "Adresse e-mail",
+          "placeholder": "Adresse e-mail"
         },
         "password": {
-          "label": "Password",
-          "sub-label": "Forgotten password?",
-          "placeholder": "Password"
+          "label": "Mot de passe",
+          "sub-label": "Mot de passe oublié?",
+          "placeholder": "Mot de passe"
         },
         "remember-me": {
           "label": "Remember me"
@@ -1179,8 +1179,8 @@
       "desc": "Enter your email address below and we’ll get you back\u00A0on\u00A0track.",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "Adresse e-mail",
+          "placeholder": "Adresse e-mail"
         }
       },
       "submit": "Request reset link",
@@ -1238,17 +1238,17 @@
         "desc-success-reset": "You will be able to set up new wallets the next time you sign in.",
         "fields": {
           "password": {
-            "label": "New password",
-            "placeholder": "New password",
+            "label": "Nouveau mot de passe",
+            "placeholder": "Nouveau mot de passe",
             "errors": {
-              "password-too-weak": "The password you chose is too weak."
+              "password-too-weak": "Le mot de passe que vous avez choisi est trop faible."
             }
           },
           "password-confirm": {
-            "label": "Confirm new password",
-            "placeholder": "Confirm new password",
+            "label": "Confirmez le nouveau mot de passe",
+            "placeholder": "Confirmez le nouveau mot de passe",
             "errors": {
-              "passwords-do-not-match": "Passwords do not match."
+              "passwords-do-not-match": "Les mots de passe ne sont pas identiques."
             }
           },
           "code": {
