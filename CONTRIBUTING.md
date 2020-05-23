@@ -12,7 +12,7 @@ Please send a [GitHub Pull Request to Nash locale](https://github.com/nash-io/lo
 
 ## Licensing
 
-When you contribute to this repository you are transfering any clain over the contributed material to Neon Exchange AG.
+When you contribute to this repository you are transfering any rights claim over the contributed material to Neon Exchange AG. Neon Exchange AG is free to re-license this material as needed for its usage in the Nash platform.
 
 Thanks,
 Fabio C. Canesin
