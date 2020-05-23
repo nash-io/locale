@@ -2100,50 +2100,50 @@
       "accept-new-quote": "Neuen Wechselkurs akzeptieren",
       "expires-in": "Automatisch abgelehnt in {{timeout}}",
       "decline-and-refund": "<0>Ablehnen</0> und Rückerstattung erhalten",
-      "message": "Wenn die Webseite oder Sitzung vor der Annahme des neuen Tarifs geschlossen wird, wird sie automatisch abgelehnt und Ihre Zahlung wird zurückerstattet."
+      "message": "Wenn die Webseite oder die Sitzung vor der Annahme des neuen Wechselkurses geschlossen wird, wird die Überweisung automatisch abgelehnt und deine Zahlung zurückerstattet."
     },
     "reconfirm-expire": {
-      "review-header": "Ihr Zitat wurde automatisch abgelehnt",
-      "no-action": "<0> Es sind keine weiteren Aktionen von Ihnen erforderlich.</0> Sie können diese Seite jetzt schließen.",
+      "review-header": "Dein Angebot wurde automatisch abgelehnt",
+      "no-action": "<0>Es sind keine weiteren Aktionen von dir erforderlich.</0> Du kannst diese Seite jetzt schließen.",
       "days": "1-3 Tage",
       "we-refund": "Wir erstatten",
       "destination": "Reiseziel",
       "refund-time": "Rückerstattungszeit",
-      "message": "Der Kostenvoranschlag ist abgelaufen, bevor Sie eine Entscheidung getroffen haben, oder die Webseite wurde geschlossen, ohne den neuen Betrag und die neue Preisangabe zu akzeptieren oder abzulehnen."
+      "message": "Das Angebot ist abgelaufen, bevor du eine Entscheidung getroffen hast, oder die Webseite wurde geschlossen, ohne den neuen Betrag und den neuen Wechselkurs zu akzeptieren oder abzulehnen."
     },
     "reconfirm-accept": {
-      "review-header": "Sie haben das neue Zitat akzeptiert",
-      "you-recieve": "Sie erhalten",
-      "destination": "Nash-Handelskontrakt",
-      "destination-label": "Reiseziel",
+      "review-header": "Du hast das neue Angebot akzeptiert",
+      "you-recieve": "Du erhälst",
+      "destination": "Nash Trading Contract",
+      "destination-label": "Ziel",
       "arrival-label": "Geschätzte Ankunftszeit",
       "arrival": "So bald wie möglich",
-      "no-action": "<0> Es sind keine weiteren Aktionen von Ihnen erforderlich.</0> Sie können diese Seite jetzt schließen."
+      "no-action": "<0>Es sind keine weiteren Aktionen von dir erforderlich.</0> Du kannst diese Seite jetzt schließen."
     },
     "reconfirm-decline": {
-      "review-header": "Sie haben das neue Zitat abgelehnt",
+      "review-header": "Du hast das neue Angebot abgelehnt",
       "days": "1-3 Tage",
       "we-refund": "Wir erstatten",
-      "destination": "Reiseziel",
+      "destination": "Ziel",
       "refund-time": "Rückerstattungszeit",
-      "no-action": "<0> Es sind keine weiteren Aktionen von Ihnen erforderlich.</0> Sie können diese Seite jetzt schließen."
+      "no-action": "<0>Es sind keine weiteren Aktionen von dir erforderlich.</0> Du kannst diese Seite jetzt schließen."
     },
     "profile": {
       "carbon": {
-        "2fa": "Kohlenstoff-Zwei-Faktor-Authentifizierung",
+        "2fa": "Carbon Zwei-Faktor-Authentifizierung",
         "create-2fa": "Aktivieren Sie",
         "replace-2fa": "Deaktivieren Sie",
-        "kyc-form": "Persönliche Angaben",
-        "create-kyc-form": "Persönliche Details hinzufügen",
+        "kyc-form": "Persönliche Daten",
+        "create-kyc-form": "Persönliche Daten hinzufügen",
         "edit-kyc-form": "Persönliche Daten bearbeiten",
         "verification-pending": "Die Identitätsprüfung steht noch aus.",
         "verification-succeeded": "Identitätsprüfung erfolgreich.",
-        "verification-failed": "Identitätsprüfung fehlgeschlagen. Bitte aktualisieren Sie Ihre Informationen und reichen Sie sie erneut ein.",
-        "verification-failed-permanently": "Identitätsprüfung fehlgeschlagen. Bitte <0>Kontakt Carbon</0>.",
-        "enable-2fa-before-proceeding": "Sie müssen <0>Zwei-Faktor-Authentifizierung für Carbon</0> aktivieren, um diesen Kauf zu tätigen."
+        "verification-failed": "Identitätsprüfung fehlgeschlagen. Bitte aktualisiere deine persönlichen Daten und reiche diese erneut ein.",
+        "verification-failed-permanently": "Identitätsprüfung fehlgeschlagen. Bitte <0>kontaktiere Carbon</0>.",
+        "enable-2fa-before-proceeding": "Du musst <0>die Zwei-Faktor-Authentifizierung für Carbon</0> aktivieren, um diesen Kauf zu tätigen."
       },
       "submit-kyc": {
-        "required-incomplete": "Sie müssen alle Pflichtfelder ausfüllen.",
+        "required-incomplete": "Du musst alle Pflichtfelder ausfüllen.",
         "required-complete": "",
         "button": "Details zur Überprüfung senden"
       },
@@ -2155,7 +2155,7 @@
           "placeholder": "",
           "save": "Vollständigen Namen einreichen",
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meines Namens noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
-          "field": "Vollständiger rechtlicher Name"
+          "field": "Vollständiger Name"
         },
         "email": {
           "edit": "E-Mail-Adresse bearbeiten",
@@ -2163,19 +2163,19 @@
           "label": "E-Mail-Adresse",
           "placeholder": "",
           "save": "E-Mail-Adresse einreichen",
-          "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meiner E-Mail-Adresse noch einmal überprüft werden muss  und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
+          "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meiner E-Mail-Adresse noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
           "field": "E-Mail-Adresse"
         },
         "occupation": {
           "placeholder": "Kundenbetreuer, Unternehmensleiter, Krankenschwester usw.",
-          "save": "Besetzung deklarieren",
+          "save": "Beruf deklarieren",
           "field": "Beruf"
         },
         "source-of-funds": {
           "placeholder": "Ersparnisse von 1.000 Dollar pro Monat durch meinen Job in den letzten zwei Jahren",
-          "detailed-declaration-50-chars": "Machen Sie eine detaillierte Erklärung mit mehr als 50 Zeichen.",
-          "save": "Quelle der Mittel deklarieren",
-          "field": "Was ist Ihre Finanzierungsquelle?",
+          "detailed-declaration-50-chars": "Beschreibe deine Mittelherkunft so detailliert wie möglich. Es werden mindestens 50 Zeichen benötigt.",
+          "save": "Mittelherkunft deklarieren",
+          "field": "Woher stammen deine finanziellen Mittel?",
           "slash": "{{currentChars}}/{{minChars}}"
         },
         "kyc-form": {
@@ -2193,9 +2193,9 @@
           "add": "Adresse hinzufügen",
           "save": "Adresse einreichen",
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meiner Adresse noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
-          "building-number-label": "Building number",
-          "house-label": "House name/number",
-          "street-name-label": "Street name",
+          "building-number-label": "Hausnummer",
+          "house-label": "Straße / Hausnummer",
+          "street-name-label": "Straße",
           "street1-label": "Adresszeile 1",
           "street2-label": "Adresszeile 2",
           "city-label": "Stadt",
