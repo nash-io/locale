@@ -31,93 +31,93 @@
   "opens-new-tab": "Abre nueva pestaña",
   "failed-update": "Fallo en la actualizacion",
   "reported-errors": "Errores reportados",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "credit-card-expiry-placeholder": "MM/AA",
   "apikeys": {
     "no-addresses-whitelisted": "Todavia no has puesto ningna direccion en la lista blanca.",
     "address-input-placeholder": "Introducir en la lista blanca una direccion de BTC, NEO o ETH",
     "add-whitelisted": "Direcciones en lista blanca",
     "duplicate-address-in-form": "Esta direccion ya esta en la lista blanca.",
-    "add-address": "añadir direccion",
-    "address-is-not-valid": "direccion no valida",
+    "add-address": "Añadir direccion",
+    "address-is-not-valid": "Direccion no valida",
     "whitelisting-explanation": "Solo puedes retirar fondos hacia las direcciones que tengas en la lista blanca con esta llave API. Puedes añadir y quitar direcciones de la lista blanca en cualquier momento una vez qur tu llave API ha sido generada.",
     "token-type": {
-      "access": "acceso",
-      "kyc": "verification de identidad",
-      "apitrade": "comerciar con API",
-      "twofa": "doble factor de autentificacion"
+      "access": "Acceso",
+      "kyc": "Verification de identidad",
+      "apitrade": "Tradear con API",
+      "twofa": "Doble factor de autentificacion"
     },
     "delete-all-tokens": {
-      "body": "Are you sure you want to revoke all your keys?",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "body": "Estas seguro de que quieres anular todas tus llaves?",
+      "confirm-button-label": "Anular todas tus llaves para siempre",
+      "cancel-button-label": "Volver atras"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "Estas seguro que quieres anular ‘<0></0>’?",
+      "confirm-button-label": "Anular para siempre",
+      "cancel-button-label": "Volver atras"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "Direccion en la lista blanca para {{name}}",
+      "add": "Añade otra",
+      "save-and-close": "Guardar los cambios y cerrar",
+      "continue": "Continuar"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
+      "no-addresses-whitelisted": "No hay direcciones en la lista blanca",
+      "title": "Gestionhar las llaves API",
+      "revoke-button-label": "Anular",
+      "table-header": "Tus llaves API",
+      "no-tokens-exp": "<0>Genera tu primera llave</0> o lee nuestra <1> documentacion API </1>.",
+      "name": "Nombre",
+      "never-used": "Nunca usada",
+      "last-used": "Ultimo uso {{when}}",
+      "subtitle": "Generar y gestionar las llaves API. Aprender mas sobre <0>nuestras API</0>.",
+      "key-info": "Informacion de la llave",
+      "api-key": "llave API",
       "blockchains": "Blockchains",
-      "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "whitelisted": "En lista blanca",
+      "view-whitelist": "Ver lista blanca",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "This API key can function with these blockchains.",
-      "usable-for": "Usable for",
-      "revoke": "Revoke",
-      "created": "Created",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "blockchains-hint": "Esta llave API puede funcionar con estas blockchains.",
+      "usable-for": "Utilizable para",
+      "revoke": "Anular",
+      "created": "Creada",
+      "policy-trading": "Politica de trading",
+      "loading": "Cargando tokens…",
+      "no-tokens": "Todavia no has creado ningunas llaves API.",
+      "policy-withdrawals": "Retiradas y depositos",
+      "revoke-all-keys-button-label": "Anular todas las llaves",
+      "generate-new-key-button-label": "Crear nueva llave",
+      "plus-more": "+{{count}} mas"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Credenciales de ususario",
+      "whitelist-step": "Direcciones en la lista blanca",
+      "name-step": "Da nombre a tu llave",
+      "last-step": "copia de seguridad del codigo secreto",
+      "title": "Crear nuevas llaves API"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "Nombre",
+      "continue-button-label": "Crear llave"
     },
     "step2": {
       "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "two-fa-code": "Codigo de doble autentificacion",
+      "create-api-button-label": "Continuar",
+      "incorrect-password": "La contraseña que has introducido es incorrecta.",
+      "incorrect-2fa": "El codigo de doble autentificacion que has introducido es incorrecto."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Creando tu llave…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Tu codigo secreto",
+      "your-secret-warning": "Este es el unico momento en el que te enseñaremos esto.",
+      "api-key": "Tu llave API",
+      "api-key-warning": "Este es el unico memento en el que te enseñaremos esto.",
+      "download-as-json-button-label": "Descarga la llave API y el codigo secreto como JSON",
+      "i-saved-my-secret-button-label": "He guardado mi codigo secreto"
     }
   },
   "terse-periods": {
@@ -129,77 +129,77 @@
   "transfer": {
     "trading": "Trading",
     "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "in-trades": "En trades",
+    "transfer-funds": "Enviar/Recibir",
+    "pending-transfer": "Tienes pendiente una transferencia de {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Mira tus transferencias aqui."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Coste estimado: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
-    "use-last": "Use last"
+    "use-last": "Usar ultimo"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "No hay fondos suficientes",
+  "amount-each": "{{amount}} cada",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Limite diario total",
+    "link": "Incrementar mis limites",
+    "amount-of-max-amount": "{{amount}} de {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Tarifa de costes",
+    "desc": "Nash calcula el volumen medio del usuario con la media movil de los ultimos 30 dias utilizando el volumen de los trades de la cuenta del usuario como porcentaje sobre el volumen total del exchange.",
+    "30-day-volume": "Volumen ultimos 30 dias",
+    "taker-fee": "Comision por comprar una orden",
+    "maker-fee": "Comision por poner una orden",
+    "learn-more": "Aprender mas sobre poner y comprar ordenes."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Duracion de la orden",
+    "subtitle": "Especifica el periodo de tiempo que tu orden permanecera activa.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Valida hasta que se cancele",
+        "desc": "Tu orden permanecera activa indefinidamente, bien hasta que se empareje o bien hasta que la canceles."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Valida hasta un determinado tiempo",
+        "header-with-time": "Valida hasta {{cancelAt}}",
+        "desc": "Tu orden permanecera activa hasta el tiempo que especifiques. Si no ha sido emparejada para entonces, sera cancelada."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Emparejar totalmente o se elimina",
+        "desc": "Si tu orden puede ser emparejada inmediatamente ,entonces lo sera. Si no puede ser emparejada en su totalidad, entonces toda la orden sera cancelada."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Ejecutar inmediatamente o se cancela"
+        "desc": "Si tu orden puede ser emparejada inmediatamente se hara asi.Cualquier porcion de la orden que no se empareje se eliminara."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
+    "referrals": "Referidos",
+    "funds": "Recursos",
     "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
-    "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
-    "fiat-ramps": "Fiat ramps"
+    "basic-exchange": "Vista basica",
+    "basic-exchange-short": "Basica",
+    "advanced-exchange": "Vista profesional",
+    "advanced-exchange-short": "Profesional",
+    "markets": "Mercados",
+    "settings": "Mi cuenta",
+    "fiat-ramps": "Intercambio de dinero de curso legal con crypto"
   },
   "top-nav": {
     "accounts-main-menu": {
-      "title": "Services"
+      "title": "Servicios"
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Cartera"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Notificaciones",
+        "clear-all": "Eliminar todo"
       },
       "transfers": {
         "initializing": "Initializing",
