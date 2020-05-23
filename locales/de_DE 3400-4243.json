@@ -3407,7 +3407,7 @@
         "manual-entry-label": "Adresse manuell eingeben",
         "select-label": "Auswählen",
         "no-results-found-title": "Wir konnten deine Adresse nicht finden.",
-        "no-results-found-body": "Bitte vergesse nicht, deine Postleitzahl anzugeben.",
+        "no-results-found-body": "Bitte vergiss nicht, deine Postleitzahl anzugeben.",
         "error-title": "Ein Fehler ist aufgetreten",
         "error-body": "Versuche es erneut oder verwenden den unten stehenden Link.",
         "go-back-label": "Zurück"
@@ -3452,7 +3452,7 @@
           "title": "Name ändern",
           "label": "Name",
           "tier0-summary": "Um deinen Namen zu aktualisieren, beantrage bitte <0>Verifizierungsstufe 1</0>.",
-          "tier0-details": "Wenn dein Antrag für Stufe 1 genehmigt wird, aktualisieren wir deinen Namen entsprechend den Dokumenten, die du uns übermittelt habest.",
+          "tier0-details": "Wenn dein Antrag für Stufe 1 genehmigt wird, aktualisieren wir deinen Namen entsprechend den Dokumenten, die du uns übermittelt hast.",
           "tier1-summary": "Wenn sich Ihr Name geändert hat und Sie ihn aktualisieren möchten, <0>kontaktieren Sie bitte unseren Kundenservice</0>.",
           "tier1-details": "Wir setzen deine Verifizierungsstufe zurück und bitten dich, den Verifizierungsvorgang mit deinen neuen Dokumenten zu wiederholen. Wenn dein Antrag genehmigt wird, aktualisieren wir deinen Namen entsprechend den von dir bereitgestellten Dokumenten."
         },
@@ -3464,13 +3464,13 @@
         },
         "update-email": {
           "success-header": "Wir haben dir eine E-Mail geschickt!",
-          "success-description": "Wir haben dir eine Bestätigungs-E-Mail geschickt, um den Prozess der Adressaktualisierung zu starten. Wenn du unsere E-Mail nicht findest, überprüfen deinen Spam-Ordner.",
+          "success-description": "Wir haben dir eine Bestätigungs-E-Mail geschickt, um den Prozess der Adressaktualisierung zu starten. Wenn du unsere E-Mail nicht finden kannst. Bitte, überprüfe auch deinen Spam-Ordner.",
           "success-back": "Verstanden!",
           "title": "E-Mail-Adresse ändern",
           "current-email-label": "Deine aktuelle E-Mail-Adresse",
           "current-email": "E-Mail-Adresse",
           "new-email-label": "Neue E-Mail-Adresse",
-          "new-email-placeholder": "Geben deine neue E-Mail-Adresse ein",
+          "new-email-placeholder": "Gib deine neue E-Mail-Adresse ein",
           "twofa-label": "Zwei-Faktor-Authentifizierung",
           "twofa-label-placeholder": "Zwei-Faktor-Authentifizierungscode",
           "request-email-change-button-label": "Adressänderung beantragen"
@@ -3480,7 +3480,7 @@
           "fields": {
             "password": {
               "label": "Aktuelles Passwort",
-              "placeholder": "Geben dein Kontopasswort ein"
+              "placeholder": "Gib dein Kontopasswort ein"
             },
             "code": {
               "label": "Zwei-Faktor-Authentifizierung",
@@ -3488,9 +3488,9 @@
             },
             "new-password": {
               "label": "Neues Passwort",
-              "placeholder": "Geben Sie ein neues Passwort ein",
+              "placeholder": "Gib ein neues Passwort ein",
               "errors": {
-                "password-too-weak": "Das von Ihnen gewählte Passwort ist zu schwach."
+                "password-too-weak": "Das von dir gewählte Passwort ist zu schwach."
               }
             },
             "new-password-confirm": {
@@ -3939,17 +3939,17 @@
         }
       },
       "delete": {
-        "confirm-text": "Bist du sicher, dass du es löschen möchten {{contactName}}?",
+        "confirm-text": "Bist du sicher, dass du {{contactName}} löschen möchtest?",
         "notice-text": "Alle mit diesem Kontakt verbundenen Informationen werden dauerhaft entfernt.",
         "button": "Ja, löschen",
         "cancel": "Beenden",
-        "error": "Fehler beim löschen des Kontakts. Bitte versuche es erneut.",
+        "error": "Fehler beim Löschen des Kontakts. Bitte versuche es erneut.",
         "success": "Kontakt gelöscht.",
         "success-button": "Zurück zu den Kontakten"
       },
       "results": {
         "success": "Kontakt gespeichert!",
-        "error": "Fehler beim speichern des Kontakts. Bitte versuche es erneut.",
+        "error": "Fehler beim Speichern des Kontakts. Bitte versuche es erneut.",
         "invalid-input": "Ungültige Eingabe. Bitte versuche es erneut."
       },
       "fields": {
@@ -3982,7 +3982,7 @@
           "add": "Füge eine andere hinzu"
         },
         "validation": {
-          "address": "Bitte füge eine gültige {{blockchain}} Adresse hinzu.",
+          "address": "Bitte füge eine gültige {{blockchain}}-Adresse hinzu.",
           "unique-address": "Du hast bereits einen anderen Kontakt mit dieser Walletadresse."
         }
       }
