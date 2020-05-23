@@ -378,19 +378,19 @@
       "tier-0": {
         "location-mismatch": {
           "title": "Il tuo indirizzo IP non corrisponde al paese selezionato.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "message": "Gli utenti verificati fino a Livello 0 non possono accedere a tutti i servizi Nash a meno che non si connettano dal proprio paese di residenza. Valuta l'opzione di <0>passare a Livello 1</0>."
         },
         "untrusted-ip": {
           "title": "Abbiamo notato che stai usando una VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "message": "Gli utenti verificati fino a Livello 0 non possono accedere a tutti i servizi Nash se si connettono tramite VPN o proxy. Per favore disabilita tali servizi o <0>passa a Livello 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Attualmente sei verificato a Livello 0. Pertanto, il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
+          "message": "Per usufruire di tutta la nostra gamma di servizi, per favore <0>passa a Livello 1</0>."
         },
         "duplicate-ip": {
           "title": "È già stato creato un account con questo indirizzo IP.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "message": "Per ottenere l'accesso a tutti i servizi Nash su questo account, per favore <0>passa a Livello 1</0>."
         }
       },
       "restricted": {
@@ -407,7 +407,7 @@
       },
       "tier-too-low": {
         "title": "Il tuo livello attuale di verifica è Livello {{userTier}}. Pertanto, il tuo accesso ad alcune parti della piattaforma Nash sarà limitato.",
-        "message": "Per usare la piena gamma dei nostri servizi, per favore <0>passa a Livello {{minTier}}</0>."
+        "message": "Per usufruire di tutta la nostra gamma di servizi, per favore <0>passa a Livello {{minTier}}</0>."
       }
     },
     "info": {
@@ -427,8 +427,8 @@
     "dismiss-message": "Non mostrare più questo messaggio."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Accordo per gli utenti",
+    "privacy-notice": "Informativa sulla privacy"
   },
   "account-create": {
     "steps": [
@@ -449,7 +449,7 @@
         "generic-error": "Si è verificato un errore nella registrazione dell'account. Per favore riprova.",
         "invalid-referral-code-can-continue": "Codice referral non valido.",
         "invalid-referral-code": "Codice referral non valido. Per favore controlla il tuo codice e riprova.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
+        "invalid-email-domain": "Il tuo provider di email non è consentito. Per favore utilizza un altro indirizzo.",
         "duplicate-email": "È già stato creato un account con questo indirizzo email.",
         "password-too-short": "La tua password dovrebbe contenere almeno otto caratteri.",
         "invalid-recaptcha": "Verifica recaptcha fallita. Per favore riprova.",
@@ -460,7 +460,7 @@
       "header": "Crea un account",
       "subheader": "I tuoi dettagli",
       "disclaimer": {
-        "title": "Notice for US customers",
+        "title": "Informativa per i clienti statunitensi",
         "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
       },
       "fields": {
@@ -1695,17 +1695,17 @@
     "ZW": "Zimbabwe"
   },
   "fiat-currencies": {
-    "AUD": "Australian dollar (AUD)",
-    "CAD": "Canadian dollar (CAD)",
-    "CHF": "Swiss franc (CHF)",
-    "CNY": "Chinese yuan (CNY)",
+    "AUD": "Dollaro australiano (AUD)",
+    "CAD": "Dollaro canadese (CAD)",
+    "CHF": "Franco svizzero (CHF)",
+    "CNY": "Yuan cinese (CNY)",
     "EUR": "Euro (EUR)",
-    "GBP": "British pound sterling (GBP)",
-    "INR": "Indian rupee (INR)",
-    "JPY": "Japanese yen (JPY)",
-    "RUB": "Russian ruble (RUB)",
-    "SGD": "Singaporean dollar (SGD)",
-    "USD": "US dollar (USD)"
+    "GBP": "Sterlina britannica (GBP)",
+    "INR": "Rupia indiana (INR)",
+    "JPY": "Yen giapponese (JPY)",
+    "RUB": "Rublo russo (RUB)",
+    "SGD": "Dollaro di Singapore (SGD)",
+    "USD": "Dollaro statunitense (USD)"
   },
   "fiat-ramps": {
     "all-providers": "All providers",
