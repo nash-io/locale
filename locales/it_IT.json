@@ -520,7 +520,7 @@
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
+          "label": "Conferma la tua password",
           "placeholder": "Confirm password",
           "errors": {
             "passwords-do-not-match": "Passwords do not match."
@@ -529,36 +529,36 @@
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "title": "Suggerimenti per una password sicura",
+          "desc": "Una password complessa è essenziale per proteggere i tuoi fondi. Segui questi suggerimenti per stare al sicuro:",
+          "tip-index": "Suggerimento {{index}}",
+          "tip-1": "Non riutilizzare una password da altri siti Web, anche se si modificano singole parole o caratteri. Se sei phishing o hackerato altrove, il tuo account Nash sarà immediatamente compromesso.",
+          "tip-2": "Non includere informazioni personali nella password. Nomi, compleanni e indirizzi sono facili da scoprire e dovrebbero essere evitati.",
+          "tip-3": "Rendi la tua password lunga almeno dodici caratteri e usa una combinazione di lettere maiuscole e minuscole, numeri e caratteri speciali.",
+          "tip-4": "Prendi in considerazione l'utilizzo di un generatore di password per creare e archiviare password con la massima sicurezza."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Usa una combinazione di lettere maiuscole e minuscole, numeri e caratteri speciali per una password più forte.",
+        "tips": "Suggerimenti per la creazione di password",
+        "password-strength": "Sicurezza della password",
+        "weak": "Debole",
+        "medium": "Media",
+        "strong": "Forte",
+        "very-strong": "Molto sicura"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "Ti abbiamo inviato una email!",
+      "desc-1": "Controlla la tua e-mail e verifica il tuo account.",
+      "desc-2": "Se non vedi la nostra email, controlla la cartella della posta spam.",
+      "resend": "Invia nuovamente email di verifica",
+      "resend-delay": "Attendere prego {{count}} secondo…",
+      "resend-delay_plural": "Attendere prego {{count}} secondi…",
+      "back": "Torna all'accesso",
+      "success": "Email di verifica rinviata correttamente!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Errore durante il reinvio dell'email di verifica. Per favore riprova."
       }
     }
   },
