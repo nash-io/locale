@@ -3022,7 +3022,7 @@
           },
           "total-balance": {
             "title": "Gesamt",
-            "hint": "Summe über alle Konten, Aufträge und Stakes."
+            "hint": "Summe über alle Konten, Ordern und Stakes."
           },
           "fiat-value": {
             "title": "Wert ({{fiatCurrency}})"
@@ -3032,7 +3032,7 @@
           },
           "allocation-percent": {
             "title": "Prozentsatz",
-            "hint": "Anteil eines Assets an Ihrem Portfolio (in Prozent)."
+            "hint": "Anteil eines Assets in deinem Portfolio (in Prozent)."
           },
           "action-buttons": {
             "trade": "Handeln"
@@ -3049,7 +3049,7 @@
         "total": "Gesamt",
         "available": {
           "title": "Verfügbar",
-          "hint": "Du kannst diese Assets überweisen. Die Assets befinden sich in deinem persönlichen Konto oder im Trading Contract. Nicht verfügbare Assets sind entweder in deinen nicht abgeschlossenen Aufträgen, im NEX-Stake gesperrt oder werden derzeit überwiesen."
+          "hint": "Du kannst diese Assets überweisen. Die Assets befinden sich in deinem persönlichen Konto oder im Trading Contract. Nicht verfügbare Assets sind entweder in deinen nicht abgeschlossenen Ordern, im NEX-Stake gesperrt oder werden derzeit überwiesen."
         },
         "transfer-funds": "Senden/Empfangen"
       },
@@ -3065,7 +3065,7 @@
           "1D": "24 Std."
         },
         "empty": {
-          "heading": "Ihr Portfolio ist derzeit leer.",
+          "heading": "Dein Portfolio ist derzeit leer.",
           "body": "Assets <0>senden/empfangen</0> oder <1>von unseren Partnern kaufen</1>, um loszulegen."
         }
       },
@@ -3074,10 +3074,10 @@
           "title": "Salden",
           "hint": "Du hast die volle Kontrolle über diese Assets."
         },
-        "available-assets": "Available assets",
+        "available-assets": "Verfügbare Assets",
         "in-personal": "Persönliches Konto",
         "in-trading": "Trading Contract",
-        "in-unfilled-orders": "Nicht ausgeführte Aufträge",
+        "in-unfilled-orders": "Nicht ausgeführte Ordern",
         "in-stake": "NEX in Stakes",
         "learn-more": "Mehr erfahren"
       }
