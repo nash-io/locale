@@ -15,6 +15,8 @@ Here "key" is the keyword used in the platform code to identify the text and sho
 Never used Github? This is the easiest way to contribute:
 https://www.youtube.com/watch?v=5u0I0UX81tI
 
+We have a simple contributions policy, see it [here](./CONTRIBUTING.md)
+
 | Locale name | Language           | Country/Territory           |
 |-------------|--------------------|-----------------------------|
 | [en](./locales/en.json)             | English            | International (US standard) |
