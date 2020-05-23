@@ -6,7 +6,7 @@ Locale files are of format JSON and organized as:
 
 ```javascript
 {
-"key": "content"
+  "key": "content"
 }
 ```
 

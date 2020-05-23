@@ -83,7 +83,7 @@
       "revoke": "Revogar",
       "created": "Criado em",
       "policy-trading": "Negociação",
-      "loading": "Carregando fichas...",
+      "loading": "Carregando tokens...",
       "no-tokens": "Você ainda não gerou nenhuma chave API.",
       "policy-withdrawals": "Saques e depósitos",
       "revoke-all-keys-button-label": "Revogar todas as chaves",
@@ -103,7 +103,7 @@
     },
     "step2": {
       "password": "Senha",
-      "two-fa-code": "Código de autenticação de dois fatores",
+      "two-fa-code": "Código de autenticação forte",
       "create-api-button-label": "Continuar",
       "incorrect-password": "A senha que você digitou estava incorreta.",
       "incorrect-2fa": "O código que você digitou estava incorreto."
@@ -270,9 +270,9 @@
         }
       },
       "staking": {
-        "title": "Estacionamento",
+        "title": "Stake",
         "pages": {
-          "all-stakes": "Todas as estacas",
+          "all-stakes": "Todas os stakes",
           "statements": "Depoimentos"
         }
       }
@@ -298,20 +298,20 @@
     "location-banned": "Infelizmente, a Nash não pode operar em sua jurisdição no momento.",
     "invalid-clock-title": "O relógio do seu computador não é preciso.",
     "permissions-issue-title": "Emissão de Permissões",
-    "invalid-clock": "Para negociar com Nash o seu relógio deve ser preciso. <0>Sync your clock</0> then <1>try again</1>.",
+    "invalid-clock": "Para negociar na Nash o seu relógio deve ser preciso. <0>Sincronize o relógio do seu computador</0> e <1>tente novamente</1>.",
     "network-issue-title": "Questão de rede",
-    "network-issue": "Há um problema temporário na rede. Por favor, <0>traduz novamente</0>.",
+    "network-issue": "Há um problema temporário na rede. Por favor, <0>tente novamente</0>.",
     "generic-error-title": "Erro",
     "generic-error": "Alguma coisa deu errado. Por favor, tente novamente.",
     "generic-error-signout": "Ocorreu um erro inesperado. Por favor, faça o sign out e tente novamente.",
-    "within-waiting-period": "Você deve esperar cinco minutos antes de criar outra estaca. Sua nova estaca aparecerá em breve.",
+    "within-waiting-period": "Você deve esperar cinco minutos antes de criar outro stake. Seu novo stake aparecerá em breve.",
     "password": {
       "incorrect": "A senha que você digitou estava incorreta."
     },
     "2fa": {
-      "incorrect": "O código de autenticação de dois fatores que você digitou está incorreto. Você tem um máximo de cinco tentativas.",
-      "already-used": "O código de autenticação de dois fatores que você inseriu já foi utilizado. Por favor, espere e tente novamente.",
-      "code-expired": "O código de autenticação de dois fatores que você inseriu expirou. Por favor, espere e tente novamente.",
+      "incorrect": "O código de autenticação forte que você digitou está incorreto. Você tem um máximo de cinco tentativas.",
+      "already-used": "O código de autenticação forte que você inseriu já foi utilizado. Por favor, espere e tente novamente.",
+      "code-expired": "O código de autenticação forte que você inseriu expirou. Por favor, espere e tente novamente.",
       "too-many-failures": "Você inseriu um código incorreto muitas vezes e sua conta agora está permanentemente bloqueada. Favor entrar em contato com o suporte.",
       "too-many-failures-signout": "Você inseriu um código incorreto muitas vezes e sua conta agora está permanentemente bloqueada. Agora você estará inscrito."
     },
@@ -431,7 +431,11 @@
     "privacy-notice": "Nota de Privacidade"
   },
   "account-create": {
-    "steps": "['Seus dados', 'País', 'Dados da conta']",
+    "steps": [
+      "Seus dados",
+      "País",
+      "Dados da conta"
+    ],
     "signin": {
       "desc": "Já tem uma conta Nash?",
       "sign-in-now": "Entre agora"
@@ -560,7 +564,10 @@
   },
   "account-setup": {
     "tab-title": "Criar uma conta",
-    "steps": "['Doze palavras secretas', 'autenticação de dois fatores'].",
+    "steps": [
+      "Doze palavras secretas",
+      "autenticação forte"
+      ],
     "general-information": {
       "title": "Informações gerais",
       "header": "Vamos criar a sua conta pessoal",
@@ -624,15 +631,15 @@
         "header": "Sua conta Nash foi criada com sucesso!",
         "desc": "Você pode encontrar suas doze palavras secretas e detalhes individuais de conta em 'Meu perfil > Contas'.",
         "warning": "<0>Não armazenamos suas palavras secretas em nenhum lugar.</0> Se você esquecer sua senha, você não poderá acessar seus fundos sem estas palavras.",
-        "continue": "Configurar autenticação de dois fatores",
+        "continue": "Configurar autenticação forte",
         "continue-location": "Local de residência definido"
       }
     },
     "2fa": {
-      "title": "Autenticação de dois fatores",
-      "header": "Recomendado: Habilitar autenticação de dois fatores",
+      "title": "Autenticação forte",
+      "header": "Recomendado: Habilitar autenticação forte",
       "skip": "Pular",
-      "desc": "A autenticação de dois fatores (2FA) adiciona uma camada extra de segurança à sua conta.",
+      "desc": "A autenticação forte (2FA) adiciona uma camada extra de segurança à sua conta.",
       "cards": {
         "1": {
           "header": "Baixe e instale um aplicativo autenticador",
@@ -649,8 +656,8 @@
         }
       },
       "confirm": {
-        "header": "A autenticação de dois fatores foi configurada!",
-        "desc": "Você pode encontrar suas preferências de autenticação de dois fatores em 'Meu perfil > Segurança' dentro da plataforma web Nash.",
+        "header": "A autenticação forte foi configurada!",
+        "desc": "Você pode encontrar suas preferências de autenticação forte em 'Meu perfil > Segurança' dentro da plataforma web Nash.",
         "action": "O que você quer fazer agora?",
         "continue-deposit": "Fundos de depósito",
         "continue-explore": "Explore"
@@ -861,7 +868,7 @@
           "label": "Limite",
           "sub-label": "O seu pedido pode combinar com pedidos a este preço ou melhor.",
           "errors": {
-            "maker-match": "Os pedidos 'Post only' que coincidirem no livro de pedidos atual serão cancelados."
+            "maker-match": "Os pedidos 'Post only' que coincidirem no livro de ordens atual serão cancelados."
           }
         },
         "stop-price": {
@@ -903,14 +910,14 @@
       "signin-or-create-an-account": "<0>assinar em</0> ou <1>criar uma conta</1> para fazer um pedido."
     },
     "my-orders": {
-      "auth": "Entre para ver os seus pedidos.",
+      "auth": "Entre para ver os suas ordens.",
       "signed-out": {
         "title": "<0>Comecemos</0><1> com Nash</1>",
         "subtitle": "Crie uma conta em menos de um minuto - não é necessário KYC!"
       },
       "no-results": {
         "date-range": "Você não tem ordens no intervalo de datas determinado.",
-        "active": "Você não tem pedidos abertos ou preenchidos.",
+        "active": "Você não tem ordens abertas ou preenchidas.",
         "active-open-only": "Você não tem ordens em aberto.",
         "trades": "Você não tem histórico comercial."
       },
@@ -1077,8 +1084,8 @@
         "placeholder": "Digite sua senha"
       },
       "code": {
-        "label": "Autenticação de dois fatores",
-        "placeholder": "Digite seu código de autenticação de dois fatores"
+        "label": "Autenticação forte",
+        "placeholder": "Digite seu código de autenticação forte"
       }
     },
     "new-wallets": {
@@ -1130,7 +1137,7 @@
     },
     "signin": {
       "header": "Entrar para Nash",
-      "header-2fa": "Autenticação de dois fatores",
+      "header-2fa": "Autenticação forte",
       "fields": {
         "email": {
           "label": "Endereço de e-mail",
@@ -1182,7 +1189,10 @@
     "reset-password": {
       "missing-email": "Alguma coisa deu errado. Por favor, clique novamente no link do seu e-mail.",
       "expired-code": "Esta sessão não é mais válida. Por favor, clique novamente no link do seu e-mail.",
-      "steps": "['Confirmar palavras secretas', 'Nova senha'].",
+      "steps": [
+        "Confirmar palavras secretas",
+        "Nova senha"
+      ],
       "secret-words": {
         "home": {
           "header": "Você ainda tem suas doze palavras secretas?",
@@ -1213,8 +1223,8 @@
           "submit": "Resetar minha conta",
           "sub-bullet-1": "Todos os ativos da sua conta pessoal.",
           "sub-bullet-2": "Todos os ativos do contrato comercial.",
-          "sub-bullet-3": "Todos os tokens NEX apostados.",
-          "sub-bullet-4": "Todos os dividendos das fichas NEX apostadas.",
+          "sub-bullet-3": "Todos os tokens NEX stakados.",
+          "sub-bullet-4": "Todos os dividendos das tokens NEX stakados.",
           "unauthorized": "Uma vez que redefinir sua conta tem sérias implicações, você deve primeiro entrar em contato com nossa equipe de suporte para ativá-la.",
           "contact-support": "Contato com o suporte"
         }
@@ -1238,12 +1248,12 @@
             "label": "Confirmar nova senha",
             "placeholder": "Confirmar nova senha",
             "errors": {
-              "passwords-do-not-match": "As senhas não combinam."
+              "passwords-do-not-match": "As senhas não são iguais."
             }
           },
           "code": {
-            "label": "Autenticação de dois fatores",
-            "placeholder": "Digite seu código de autenticação de dois fatores"
+            "label": "Autenticação forte",
+            "placeholder": "Digite seu código de autenticação forte"
           }
         },
         "errors": {
@@ -1268,7 +1278,7 @@
       },
       "create-account": {
         "title": "Crie sua conta na Comunidade Nash",
-        "description": "Para postar mensagens na Comunidade, você precisará apostar pelo menos 1 NEX por 24 meses.",
+        "description": "Para postar mensagens na Comunidade, você precisará stakar pelo menos 1 NEX por 24 meses.",
         "username-label": "Nome de usuário da comunidade",
         "username-placeholder": "Escolha um nome...",
         "button-create": "Criar conta na Comunidade",
@@ -1309,7 +1319,7 @@
       },
       "modals": {
         "exchange-info": {
-          "title": "Como trocar fichas",
+          "title": "Como trocar tokens",
           "desc": "Primeiro, selecione os tokens que você deseja trocar.",
           "price-options-header": "Você tem duas opções para escolher o seu preço:",
           "average-market-price": {
@@ -1318,7 +1328,7 @@
           },
           "set-a-price": {
             "header": "Estabeleça um preço",
-            "desc": "Seu pedido pode combinar com pedidos a este preço ou melhor, mas não irá além dele. Esta opção significa que o seu pedido pode não ser preenchido de uma só vez."
+            "desc": "Sua orden pode combinar com ordens a este preço ou melhor, mas não irá além dele. Esta opção significa que o seu pedido pode não ser preenchido de uma só vez."
           },
           "balances": {
             "header": "Saldos",
@@ -1327,8 +1337,8 @@
         },
         "select-token": {
           "title": {
-            "sell": "Eu quero negociar",
-            "buy": "Eu quero receber"
+            "sell": "Comprar",
+            "buy": "Vender"
           },
           "header": {
             "sell": "Selecione o token que você deseja trocar",
@@ -1350,7 +1360,7 @@
         }
       },
       "exchange-tokens": {
-        "header": "Troca de fichas",
+        "header": "Troca de tokens",
         "fields": {
           "buy": {
             "label": "Eu quero receber",
@@ -1391,21 +1401,21 @@
         "submit": "Revisar comércio"
       },
       "review-order": {
-        "header": "Reveja o seu pedido",
+        "header": "Revisar ordem",
         "columns": {
           "market-price": "Preço por {{currencyBuy}}",
-          "limit-price": "Preço definido por {{currencyBuy}}",
+          "limit-price": "Preço limite por {{currencyBuy}}",
           "fee": "Taxa máxima de negociação",
           "fiat-total": "Estimativa de moedaFiat"
         },
-        "desc": "Seu pedido permanecerá no livro até que seja preenchido, você o cancela, ou 24 horas se tenham passado.",
+        "desc": "Sua orden permanecerá no livro até que seja preenchida, cancelada, ou 24 horas se tenham passado.",
         "submit": "Criar ordem",
         "submit-placing": "Colocando ordem..."
       },
       "order-success": {
         "header": "Sucesso!",
-        "desc": "Seu pedido {{currencySell}}/{currencyBuy}} foi colocado com sucesso.",
-        "view-my-order": "Ver meu pedido",
+        "desc": "Sua ordem {{currencySell}}/{currencyBuy}} foi colocada com sucesso.",
+        "view-my-order": "Ver minha ordem",
         "create-another-trade": "Criar outra profissão"
       },
       "order-failure": {
@@ -1416,8 +1426,8 @@
         },
         "desc": {
           "insufficient-funds": {
-            "0": "O saldo do seu contrato comercial não é mais suficiente para cobrir esta ordem. Isto pode acontecer se você estiver criando ordens em várias abas do navegador ao mesmo tempo.",
-            "1": "Para uma experiência de negociação mais suave, por favor use Nash em uma única aba do navegador.",
+            "0": "Seu saldo no contrato de negociação não é suficiente para cobrir esta ordem. Isto pode acontecer se você estiver criando ordens em várias abas do navegador ao mesmo tempo.",
+            "1": "Para uma experiência melhor, por favor use Nash em uma única aba do navegador.",
             "2": "<0>Enviar/Receber</0> fundos se você deseja colocar esta ordem novamente."
           },
           "daily-limit-reached": {
@@ -1425,7 +1435,7 @@
             "1": "Para aumentar seu volume máximo diário de negociação, por favor, visite <0>Limites</0>."
           },
           "generic": {
-            "0": "Erro ao fazer seu pedido. Por favor, tente novamente."
+            "0": "Erro ao colocar ordem. Por favor, tente novamente."
           }
         }
       }
@@ -1705,7 +1715,10 @@
       "title": "Selecione um provedor",
       "verify-identity": "<0>Verifiquem sua identidade</0> para começar.",
       "subtitle": "Os provedores de ativos digitais são empresas terceirizadas parceiras da Nash que permitem que você compre e venda ativos digitais usando moedas nacionais.",
-      "steps": "['Dados pessoais', 'Dados de endereço']",
+      "steps": [
+        "Dados pessoais",
+        "Dados de endereço"
+      ],
       "assets-available": "Ativos disponíveis",
       "payments-methods": "Formas de pagamento",
       "general-details": "Limites e taxas",
@@ -1762,7 +1775,7 @@
       "street-name-input-label": "Rua",
       "city-input-label": "Cidade",
       "county-input-label": "Município/Estado",
-      "postcode-input-label": "Código Postal/ZIP",
+      "postcode-input-label": "CEP",
       "country-of-residence-input-label": "País de residência",
       "submit-btn": "Configuração completa da conta"
     },
@@ -1796,17 +1809,17 @@
       "under-eighteen": "Menos de dezoito anos",
       "plaid-not-ready": "Wyre está tendo dificuldades de comunicação com o seu banco",
       "transfer": "Problema de transferência de fundos",
-      "carbon-timeout-header": "Tempo limite para solicitação de API de carbono",
-      "carbon-timeout-body": "Sua transação falhou por causa de um timeout de requisição de API. O carbono foi notificado deste erro",
+      "carbon-timeout-header": "Tempo limite para solicitação de API da Carbon",
+      "carbon-timeout-body": "Sua transação falhou por causa de um timeout de requisição de API. A Carbon foi notificado deste erro",
       "generic-fourhundred": "Erro",
       "nash": {
         "order-book-cache-empty": {
-          "title": "O cache do livro de pedidos está vazio",
+          "title": "O cache do livro de ordens está vazio",
           "body": "Não foi possível gerar um preço. Por favor, tente novamente mais tarde."
         },
         "not-enough-liquidity": {
           "title": "Insuficiente liquidez para ordem",
-          "body": "Seu pedido é muito grande para ser processado agora mesmo. Por favor, tente novamente mais tarde."
+          "body": "Sua ordem é muito grande para ser processado agora. Por favor, tente novamente mais tarde."
         },
         "not-translated": {
           "title": "Erro",
@@ -1856,7 +1869,7 @@
       "no-limit": "Ilimitado",
       "current-exchange-info": "<0>Esta cotação é baseada em nossa taxa de câmbio atual.</0> Se o preço {{asset}} estiver acima de <1 /> quando sua transferência bancária for liberada, nós ofereceremos uma nova taxa.",
       "nash-unsupported": "Este recurso está chegando em breve!",
-      "carbon-unsupported": "Este recurso ainda não está disponível com o Carbono.",
+      "carbon-unsupported": "Este recurso ainda não está disponível com a Carbon.",
       "provider-unsupported": "Este recurso ainda não está disponível com {{providerName}}.",
       "daily-remaining": "<0 /> restante",
       "limit-exceeded": "<0 /> limite excedido",
@@ -1866,7 +1879,7 @@
       "fiat-provider-warning-message": "Você precisa completar seu <0>{{providerName}} perfil</0> antes de poder {{buy}}. {{asset}}.",
       "profile-pending-warning-message": "Seu perfil <0>{{providerName}} está sob revisão.",
       "submit-btn": "Revise antes de comprar",
-      "purchase-btn": "Reveja minha citação",
+      "purchase-btn": "Reveja minha cotação",
       "buy": "compre",
       "sell": "vender",
       "purchase-failure": {
@@ -1879,8 +1892,8 @@
         "ecode-declined": "O seu banco recusou a transação.",
         "ecode-only-visa-mastercard": "Somente Visa e Mastercard são aceitos atualmente pela Carbon.money.",
         "ecode-3ds-auth-fail": "Falha na autenticação do 3DS.",
-        "ecode-3ds-could-not-be-performed": "O 3DS não está disponível no Carbono neste momento.",
-        "ecode-3ds-performed-not-completed": "A 3DS foi realizada, mas não pôde ser concluída pela Carbono no momento.",
+        "ecode-3ds-could-not-be-performed": "O 3DS não está disponível na Carbon neste momento.",
+        "ecode-3ds-performed-not-completed": "A 3DS foi realizada, mas não pôde ser concluída pela Carbon no momento.",
         "ecode-unknown": "Problema desconhecido com o código {{ecode}}."
       },
       "purchase-requires-confirm": {
@@ -1907,7 +1920,7 @@
       "complete": "Completo",
       "completed": "Completo",
       "incomplete": "Incompleto",
-      "quote-status": "Status da citação",
+      "quote-status": "Status da cotação",
       "error": "Falha",
       "pending": "Pendente",
       "of": "de",
@@ -1993,10 +2006,10 @@
         "refund-status-label": "Status do Reembolso",
         "detailed-quote-status": {
           "pending-user-confirmation": "Você deve rever seu orçamento",
-          "cancelled-by-user": "Você recusou esta citação",
+          "cancelled-by-user": "Você recusou esta cotação",
           "failed-expired-on-bank-transfer": "Pagamento não recebido",
           "failed-expired-on-bank-transfer-reason": "Sua cotação expirou antes de recebermos seu pagamento",
-          "failed-expired-on-confirmation": "Citação vencida",
+          "failed-expired-on-confirmation": "cotação vencida",
           "failed-expired-on-confirmation-reason": "Você não aceitou a sua cotação a tempo e ela expirou",
           "reconfirmation-expired": "A reconfirmação expirou",
           "reconfirmation-rejected": "Reconfirmação rejeitada",
@@ -2009,7 +2022,7 @@
         },
         "quote-status": {
           "pending-user-confirmation": "Não confirmado",
-          "cancelled-by-user": "Citação recusada",
+          "cancelled-by-user": "cotação recusada",
           "failed-expired-on-bank-transfer": "Falha",
           "failed-expired-on-confirmation": "Falha",
           "reconfirmation-expired": "Expirado",
@@ -2049,7 +2062,7 @@
       "credit-card": {
         "continue-billing": "Continuar para detalhes de faturamento",
         "enter-details": "Digite os dados do seu cartão de crédito",
-        "carbon-accepts-3d-secure": "Carbono aceita apenas cartões de crédito 3-D Seguros de",
+        "carbon-accepts-3d-secure": "A Carbon aceita apenas cartões com segurança 3-D",
         "select-currency-placeholder": "Selecione a moeda",
         "card-currency": "Moeda do cartão",
         "name-on-card": "Nome no cartão",
@@ -2117,8 +2130,8 @@
     },
     "profile": {
       "carbon": {
-        "2fa": "Autenticação de dois fatores Carbon",
-        "create-2fa": "Habilite",
+        "2fa": "Autenticação forte Carbon",
+        "create-2fa": "Ativar",
         "replace-2fa": "Desativar",
         "kyc-form": "Dados pessoais",
         "create-kyc-form": "Adicionar dados pessoais",
@@ -2127,7 +2140,7 @@
         "verification-succeeded": "Verificação de identidade bem sucedida.",
         "verification-failed": "Falha na verificação da identidade. Por favor, atualize e reapresente suas informações.",
         "verification-failed-permanently": "Falha na verificação da identidade. Por favor <0>contacto Carbon</0>.",
-        "enable-2fa-before-proceeding": "Você deve <0>ativar a autenticação de dois fatores para o Carbon</0> para fazer esta compra."
+        "enable-2fa-before-proceeding": "Você deve <0>ativar a autenticação forte para o Carbon</0> para fazer esta compra."
       },
       "submit-kyc": {
         "required-incomplete": "Você deve preencher todos os campos obrigatórios.",
@@ -2192,16 +2205,16 @@
           "country-label": "País de residência"
         },
         "2fa": {
-          "edit": "Editar autenticação de dois fatores",
-          "add": "Habilitar autenticação de dois fatores",
-          "disable": "Desativar autenticação de dois fatores",
-          "disable-button": "Desativar autenticação de dois fatores",
-          "disable-warning": "Digite seu código Carbon 2FA abaixo para desativar a autenticação de dois fatores. Você não poderá fazer compras enquanto a autenticação de dois fatores estiver desativada.",
+          "edit": "Editar autenticação forte",
+          "add": "Habilitar autenticação forte",
+          "disable": "Desativar autenticação forte",
+          "disable-button": "Desativar autenticação forte",
+          "disable-warning": "Digite seu código Carbon 2FA abaixo para desativar a autenticação forte. Você não poderá fazer compras enquanto a autenticação forte estiver desativada.",
           "not-set-up": "Não instalado",
           "to-set-up": "Digitalize este código QR com um aplicativo autenticador. Digite seu código de verificação abaixo:",
-          "enable-button": "Habilitar autenticação de dois fatores",
-          "enabled": "Habilitado",
-          "disabled": "Portador de deficiência"
+          "enable-button": "Habilitar autenticação forte",
+          "enabled": "Ativado",
+          "disabled": "Desativado"
         },
         "live-photo": {
           "add": "Tire foto ao vivo",
@@ -2415,7 +2428,7 @@
       "proof-of-address-payment-method": "Você pode <0>add uma forma de pagamento</0> para satisfazer este requisito."
     },
     "confirmed-transaction": {
-      "order-created": "O seu pedido foi criado",
+      "order-created": "Sua ordem foi colocada",
       "title": "Ordem criada",
       "deposit": "Nós depositaremos seus ativos em sua conta pessoal Nash assim que seu pagamento for compensado.",
       "delay": "Isto pode levar até {{days}} dias úteis. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
@@ -2447,7 +2460,7 @@
       "complete": "Completo",
       "completed-on": "Concluído em",
       "confirm-btn": "Terminar",
-      "cancel-quote": "Declinar esta citação",
+      "cancel-quote": "Declinar esta cotação",
       "cost": "Vai custar",
       "currency-unavailable-status": "Não disponível para compra neste momento",
       "current-exchange-rate": "Taxa de câmbio atual",
@@ -2489,7 +2502,7 @@
       "total-cost": "Custo total",
       "total-with-provider-fee": "Total com taxas",
       "trading-contract": "Contrato comercial",
-      "transaction-details": "Resumo do pedido",
+      "transaction-details": "Resumo da transação",
       "transaction-details-link": "Veja",
       "warning-msg": "Autorizo {{providerName}} a debitar a conta indicada para o valor acima na data de hoje. Não vou contestar {{providerName}} debitar minha conta, desde que a transação corresponda aos termos deste formulário online e meu acordo com {providerName}}."
     },
@@ -2528,7 +2541,7 @@
       "street": "Endereço residencial",
       "city": "Cidade",
       "country": "País",
-      "zip": "Código Postal",
+      "zip": "CEP",
       "phone": "Telefone de Contato",
       "not-uploaded": "Não carregado",
       "document": "Documento",
@@ -2768,7 +2781,7 @@
           },
           "pending": {
             "title": "Pendente",
-            "hint": "Transferências em processamento pela cadeia de bloqueios."
+            "hint": "Transferências em processamento pela blockchain."
           },
           "tradeable": {
             "hint": "Este ativo não é negociado atualmente na Nash, mas você ainda pode se retirar se você tiver um saldo no contrato de negociação."
@@ -2880,7 +2893,7 @@
             }
           },
           "confirming-balance": "Por favor aguarde enquanto confirmamos seu saldo.",
-          "waiting-for-sync": "Seu equilíbrio está atualmente em sincronia com a cadeia de bloqueios. Este processo pode demorar até duas horas. Por favor, envie sua transferência novamente dentro de alguns instantes.",
+          "waiting-for-sync": "Seu equilíbrio está atualmente em sincronia com a blockchain. Este processo pode demorar até duas horas. Por favor, envie sua transferência novamente dentro de alguns instantes.",
           "errors": {
             "send": "Falha no envio. Por favor, tente novamente mais tarde.",
             "syncing": "Sua última transferência requer até dois minutos para ser concluída. Por favor, espere e tente novamente.",
@@ -2894,13 +2907,24 @@
         },
         "hints": {
           "btc-gas-hint": "Uma pequena taxa de rede é necessária para a realização de transações.",
-          "eth-gas-hint": "Uma pequena taxa de rede é necessária para a realização de transações. As taxas para as fichas baseadas em Ethereum são pagas usando ETH.",
-          "neo-gas-hint": "Uma pequena taxa de rede é normalmente necessária para a realização de transações. As taxas para fichas baseadas em NEO são pagas usando GAS.",
+          "eth-gas-hint": "Uma pequena taxa de rede é necessária para a realização de transações. As taxas para as tokens baseadas em Ethereum são pagas usando ETH.",
+          "neo-gas-hint": "Uma pequena taxa de rede é normalmente necessária para a realização de transações. As taxas para tokens baseadas em NEO são pagas usando GAS.",
           "eth-transfer-hint": "Enquanto as transferências estiverem pendentes, o saldo aqui mostrado pode não ser exato."
         },
-        "steps": "['Criar uma transferência', 'Rever e iniciar transferência'].",
-        "maybe-approval-steps": "['Criar uma transferência', 'Aprovação (se necessário)', 'Rever e iniciar transferência'].",
-        "approval-steps": "['Criar uma transferência', 'Aprovação', 'Rever e iniciar transferência'].",
+        "steps": [
+          "Criar uma transferência",
+          "Rever e iniciar transferência"
+        ],
+        "maybe-approval-steps": [
+          "Criar uma transferência",
+          "Aprovação (se necessário)",
+          "Rever e iniciar transferência"
+        ],
+        "approval-steps": [
+          "Criar uma transferência",
+          "Aprovação",
+          "Rever e iniciar transferência"
+        ],
         "erc-20": {
           "approving": "Aprovação",
           "title": "Aprovar transferência",
@@ -3011,7 +3035,7 @@
             "hint": "O percentual da sua carteira detida em cada ativo."
           },
           "action-buttons": {
-            "trade": "Comércio"
+            "trade": "Negociar"
           }
         },
         "no-results-problem": "Sua conta Nash está vazia no momento.",
@@ -3025,7 +3049,7 @@
         "total": "Total",
         "available": {
           "title": "Disponível em",
-          "hint": "Você é capaz de mover esses fundos. Eles estão ou em sua conta pessoal ou no contrato de negociação. Os fundos que não estão disponíveis ou estão bloqueados em ordens não preenchidas ou em apostas NEX, ou estão atualmente em processo de transferência."
+          "hint": "Você é capaz de mover esses fundos. Eles estão ou em sua conta pessoal ou no contrato de negociação. Os fundos que não estão disponíveis, bloqueados em ordens não preenchidas, NEX stakes ou estão atualmente em processo de transferência."
         },
         "transfer-funds": "Enviar/Receber"
       },
@@ -3054,7 +3078,7 @@
         "in-personal": "Conta pessoal",
         "in-trading": "Contrato comercial",
         "in-unfilled-orders": "Pedidos não atendidos",
-        "in-stake": "NEXO Estacado",
+        "in-stake": "NEX Stakados",
         "learn-more": "Saiba mais"
       }
     }
@@ -3119,7 +3143,7 @@
       "transfer-details": "Detalhes da transferência",
       "you-are-transfering": "Você está transferindo",
       "you-are-sending": "Você está enviando",
-      "enter-2fa-code": "Digite seu código de autenticação de dois fatores",
+      "enter-2fa-code": "Digite seu código de autenticação forte",
       "transfer-funds": "Enviar/Receber",
       "create-transfer": "Criar transferência",
       "review-and-start-transfer": "Revisão e início da transferência",
@@ -3133,7 +3157,7 @@
       "send-funds": "Enviar fundos",
       "withdrawal-details": "Detalhes da retirada",
       "to-external-address": "Para endereço externo",
-      "request-sent-to-blockchain": "Seu pedido de transferência foi enviado para a cadeia de bloqueios."
+      "request-sent-to-blockchain": "Seu pedido de transferência foi enviado para a blockchain."
     },
     "receive-funds": {
       "asset-to-receive": "Ativo a receber",
@@ -3347,7 +3371,11 @@
           "content": "O seu rosto não é totalmente visível na imagem que você forneceu."
         }
       },
-      "steps": "['Dados pessoais', 'Dados de endereço', 'Confirmar dados']",
+      "steps": [
+        "Dados pessoais",
+        "Endereço",
+        "Confirmar dados"
+      ],
       "invalid-age-error": "Você deve inserir uma data de nascimento válida.",
       "missing-age-error": "Você deve informar sua data de nascimento.",
       "age-restriction-error": "Você deve ter pelo menos dezoito anos de idade.",
@@ -3374,7 +3402,7 @@
         "line1": "Linha de endereço 1",
         "line2": "Endereço linha 2",
         "city": "Cidade",
-        "zipCode": "Código Postal/ZIP"
+        "zipCode": "CEP"
       },
       "select-address-step": {
         "title": "Endereços encontrados",
@@ -3417,8 +3445,8 @@
           "update-email": "Alterar endereço de e-mail",
           "password": "Senha",
           "update-password": "Alterar senha",
-          "two-factor": "Recomendamos que você habilite a autenticação de dois fatores em <0>Segurança</0>.",
-          "two-factor-enable": "A autenticação de dois fatores pode ser desabilitada em <0>Segurança</0>."
+          "two-factor": "Recomendamos que você ativar a autenticação forte em <0>Segurança</0>.",
+          "two-factor-enable": "A autenticação forte pode ser desabilitada em <0>Segurança</0>."
         }
       },
       "modals": {
@@ -3445,8 +3473,8 @@
           "current-email": "Endereço de e-mail atual",
           "new-email-label": "Novo endereço de e-mail",
           "new-email-placeholder": "Digite seu novo endereço de e-mail",
-          "twofa-label": "Autenticação de dois fatores",
-          "twofa-label-placeholder": "Digite seu código de autenticação de dois fatores (2FA)",
+          "twofa-label": "Autenticação forte",
+          "twofa-label-placeholder": "Digite seu código de autenticação forte (2FA)",
           "request-email-change-button-label": "Solicitar mudança de endereço"
         },
         "update-password": {
@@ -3457,8 +3485,8 @@
               "placeholder": "Digite sua senha"
             },
             "code": {
-              "label": "Autenticação de dois fatores",
-              "placeholder": "Digite seu código de autenticação de dois fatores"
+              "label": "Autenticação forte",
+              "placeholder": "Digite seu código de autenticação forte"
             },
             "new-password": {
               "label": "Nova senha",
@@ -3509,15 +3537,15 @@
     "security": {
       "title": "Segurança",
       "header": "Segurança da conta",
-      "desc": "Habilite aqui a autenticação de dois fatores.",
+      "desc": "Ative aqui a autenticação forte.",
       "cards": {
         "2fa": {
-          "label": "Autenticação de dois fatores",
-          "header": "A autenticação de dois fatores é:",
-          "desc": "Aconselhamos a manter a autenticação de dois fatores (2FA) ativada. Ele adiciona uma camada extra de segurança à sua conta.",
-          "enabled": "Habilitado",
-          "disabled": "Portador de deficiência",
-          "enable": "Habilite",
+          "label": "Autenticação forte",
+          "header": "A autenticação forte é:",
+          "desc": "Aconselhamos a manter a autenticação forte (2FA) ativada. Ele adiciona uma camada extra de segurança à sua conta.",
+          "enabled": "Ativado",
+          "disabled": "Desativado",
+          "enable": "Ativar",
           "disable": "Desativar (não recomendado)"
         },
         "all-account-activity": {
@@ -3553,7 +3581,7 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Configurar autenticação de dois fatores",
+          "title": "Configurar autenticação forte",
           "1": {
             "header": "Baixe e instale um aplicativo autenticador",
             "desc": "Recomendamos <0>LastPass Authenticator</0>, <1>Authy</1> ou <2>Google Authenticator</2>."
@@ -3569,14 +3597,14 @@
           }
         },
         "disable-2fa": {
-          "title": "Desativar autenticação de dois fatores",
-          "warning": "Aconselhamos a manter a autenticação de dois fatores (2FA) ativada. Ele adiciona uma camada extra de segurança à sua conta.",
+          "title": "Desativar autenticação forte",
+          "warning": "Aconselhamos a manter a autenticação forte (2FA) ativada. Ele adiciona uma camada extra de segurança à sua conta.",
           "disable": "Desativar"
         },
         "success": {
           "header": "Sucesso!",
-          "enabled": "A autenticação de dois fatores foi habilitada.",
-          "disabled": "A autenticação de dois fatores foi desativada.",
+          "enabled": "A autenticação forte foi habilitada.",
+          "disabled": "A autenticação forte foi desativada.",
           "back": "Consegui!"
         }
       }
@@ -3591,21 +3619,21 @@
       "search-assets-placeholder": "Procure por um nome de ativo ou um ticker...",
       "public-address-label": "Endereço público",
       "info-title": "Alguns bloqueios suportam múltiplos ativos",
-      "info-body": "Os ativos ERC-20 e NEP-5 são fichas emitidas nos bloqueios Ethereum e NEO, respectivamente. O GAS também é um ativo armazenado na cadeia de bloqueio do NEO. Você só precisa de uma conta Ethereum para armazenar as fichas ETH e ERC-20, e uma conta NEO para armazenar as fichas NEO, GAS e NEP-5.",
+      "info-body": "Os ativos ERC-20 e NEP-5 são tokens emitidas nos bloqueios Ethereum e NEO, respectivamente. O GAS também é um ativo armazenado na cadeia de bloqueio do NEO. Você só precisa de uma conta Ethereum para armazenar as tokens ETH e ERC-20, e uma conta NEO para armazenar as tokens NEO, GAS e NEP-5.",
       "public-address-sub-label": "Que bens posso enviar aqui?",
       "public-address-tooltip": "Este é o endereço da cadeia de bloqueio onde seus bens são armazenados.",
       "private-key-label": "Chave particular",
       "private-key-sub-label-show": "Mostrar chave privada",
       "private-key-sub-label-hide": "Esconder chave privada",
       "private-key-tooltip": "Isto pode ser usado para acessar seus fundos fora de Nash. Mantenha o segredo.",
-      "unknown-blockchain": "Cadeia de bloqueios desconhecida",
+      "unknown-blockchain": "Blockchain desconhecida",
       "wallets": {
         "eth": {
-          "link-label": "Inclui fichas ERC-20",
+          "link-label": "Inclui tokens ERC-20",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Inclui fichas de GAS e NEP-5",
+          "link-label": "Inclui tokens de GAS e NEP-5",
           "name": "NEO"
         },
         "btc": {
@@ -3694,13 +3722,16 @@
             "mobile": {
               "header": "Aplicação Smartphone",
               "desc": "Requer câmeras de alta qualidade, tanto frontais como traseiras.",
-              "steps": "['Baixe o aplicativo', 'Digitalize o código QR']",
+              "steps": [
+                "Baixe o aplicativo",
+                "Escaneie o código QR"
+              ],
               "download": {
                 "header": "A verificação Tier 1 é possível utilizando o nosso aplicativo móvel.",
                 "downloaded-app": "Eu fiz o download do aplicativo"
               },
               "scan-code": {
-                "header": "Digitalize o seguinte código QR com o aplicativo Nash:",
+                "header": "Escaneie o seguinte código QR com o aplicativo Nash:",
                 "desc": "Quando você tiver concluído a verificação Tier 1, seu resultado aparecerá aqui dentro de um minuto."
               }
             },
@@ -3716,14 +3747,14 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total de tokens NEX apostadas",
-      "s-stakes-in-progress": "Estacas em andamento",
-      "s-total-dividends": "Total de dividendos (todos os tempos)",
-      "s-next-payment": "Próximo pagamento de dividendos em",
-      "s-completed-stakes": "Estacas concluídas"
+      "s-current-stakes": "Total de tokens NEX stakados",
+      "s-stakes-in-progress": "Stakes em andamento",
+      "s-total-dividends": "Total de dividendos",
+      "s-next-payment": "Próximos dividendos em",
+      "s-completed-stakes": "Stakes concluídas"
     },
     "stakes": {
-      "amount-staked-col": "Quantia apostada",
+      "amount-staked-col": "Quantia stakada",
       "duration-col": "Duração",
       "fee-reward-col": "Taxa de participação",
       "dates-active-col": "Datas ativas",
@@ -3737,13 +3768,13 @@
           "submitting": "Liberando...",
           "error": "Falhou! Por favor, tente novamente.",
           "success": "Sucesso. Liberando o NEX...",
-          "released": "NEX lançado"
+          "released": "NEX liberado"
         }
       }
     },
     "staking": {
-      "title": "Estacionamento",
-      "tabs-info-button": "Saiba mais sobre piquetagem"
+      "title": "Stake",
+      "tabs-info-button": "Saiba mais sobre stake"
     },
     "statements": {
       "view-statement-button": "Ver declaração",
@@ -3771,23 +3802,23 @@
     },
     "modals": {
       "staking-info": {
-        "title": "Ficha de troca de Nash (NEX)",
+        "title": "Tokens da plataforma Nash (NEX)",
         "header": {
-          "title": "O que é a estaca NEX?",
-          "desc": "Staking Nash Exchange tokens (NEX) é uma forma de ganhar renda passiva. Você recebe uma parte das taxas de negociação da bolsa todos os dias em que sua participação está ativa."
+          "title": "O que é NEX stake?",
+          "desc": "Nash Exchange tokens (NEX) é uma forma de ganhar renda passiva. Você recebe uma parte das taxas de negociação da bolsa todos os dias em que sua participação está ativa."
         },
         "paragraphs": {
           "par-1": {
             "title": "Como funciona?",
-            "desc": "Você tranca quantas fichas do seu NEX quiser em um contrato de apostas. Você não poderá mover ou vender seus tokens enquanto eles estiverem fechados no contrato. Todos os dias em que sua participação estiver ativa você receberá dividendos."
+            "desc": "Você tranca quantas tokens do seu NEX quiser em um contrato. Você não poderá mover ou vender seus tokens enquanto eles estiverem fechados no contrato. Todos os dias em que sua participação estiver ativa você receberá dividendos."
           },
           "par-2": {
             "title": "Como são calculados os dividendos?",
-            "desc": "Dividendos dependem: (1) o número de fichas NEX que você aposta como proporção do total de 50.000.000 de fornecimento, e (2) o período de tempo para o qual você os aposta. Quanto mais fichas você apostar, maior será o seu dividendo. Quanto mais tempo você apostar seus tokens, maior será a proporção de taxas que você receberá (sua \"taxa de apostas\")."
+            "desc": "Dividendos dependem: (1) o número de tokens NEX que você stake como proporção do total de 50.000.000 de fornecimento, e (2) o período de tempo para o qual você os trava. Quanto mais tokens você travar, maior será o seu dividendo. Quanto mais tempo você travar seus tokens, maior será a proporção de taxas que você receberá (sua \"taxa de stake\")."
           },
           "par-3": {
-            "title": "Por quanto tempo eu posso apostar?",
-            "desc": "O período mínimo de piquetagem é de um mês, que oferece uma taxa de piquetagem de 25%. No entanto, se você quiser uma proporção maior das taxas de câmbio, você pode apostar por qualquer número inteiro de meses até um máximo de 24, o que oferece uma taxa de aposta de 75%."
+            "title": "Por quanto tempo eu posso stakar?",
+            "desc": "O período mínimo de stake é de um mês, que oferece uma taxa de piquetagem de 25%. No entanto, se você quiser uma proporção maior das taxas de câmbio, você pode stakar por qualquer número inteiro de meses até um máximo de 24, o que oferece uma taxa de dividendos de 75%."
           },
           "par-4": {
             "title": "Como eu recebo meus dividendos?",
@@ -3798,69 +3829,69 @@
             "desc": "Não. Por razões legais, não podemos converter seus dividendos para você. No entanto, estamos desenvolvendo uma ferramenta para que você mesmo possa converter dividendos com um único clique."
           },
           "par-6": {
-            "title": "Posso editar ou cancelar minha aposta uma vez que ela foi criada?",
-            "desc": "Não. Uma vez que você tenha criado uma estaca você não poderá editá-la ou cancelá-la."
+            "title": "Posso editar ou cancelar meu stake uma vez que ele foi criado?",
+            "desc": "Não. Uma vez que você tenha criado um stake você não poderá editá-lo ou cancelá-lo."
           },
           "par-7": {
-            "title": "Posso criar várias estacas?",
-            "desc": "Sim. Se você tem fichas NEX em sua conta pessoal que ainda não estão bloqueadas em uma estaca, você pode usá-las para criar uma nova."
+            "title": "Posso criar vários stakes?",
+            "desc": "Sim. Se você tem tokens NEX em sua conta pessoal que ainda não estão bloqueadas em um stake, você pode usá-los para criar um novo."
           },
           "par-8": {
-            "title": "Quantas estacas eu posso criar?",
-            "desc": "Não há limite para o número de estacas que você pode criar."
+            "title": "Quantos stakes eu posso criar?",
+            "desc": "Não há limite para o número de stakes que você pode criar."
           }
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "Entendo que a NEX só paga dividendos se a Bolsa Nash gerar receita.",
-        "title": "Crie sua aposta",
-        "amount-to-stake": "Quantidade de NEX a apostar",
-        "amount-to-stake-tooltip": "A taxa de participação determina o tamanho da sua participação proporcional na receita da Bolsa de Valores de Nash. Quanto mais tempo você apostar no seu NEX, maior será a sua taxa de participação, com uma taxa máxima de 75% para uma participação de dois anos.\n\n<0>Um exemplo de dividendo</0>\nDividends são pagos diariamente. Digamos que a Nash gerou taxas equivalentes a $1.000.000 nas últimas 24 horas e que um usuário possui 1.000 fichas NEX do total de 50.000.000 de fornecimento. Se o usuário apostou no NEX à taxa de 75% por dois anos, ele é elegível para um dividendo no valor de: $1.000.000 ∗ 1.000 / 50.000.000 ∗ 0,75 = $15.",
-        "available-balance": "Saldo disponível para apostar ⋅",
+        "create-stake-disclaimer-label": "Entendo que a NEX só paga dividendos se a Nash gerar receita.",
+        "title": "Crie seu stake",
+        "amount-to-stake": "Quantidade de NEX a stakar",
+        "amount-to-stake-tooltip": "A taxa de participação determina o tamanho da sua participação proporcional na receita da Bolsa de Valores de Nash. Quanto mais tempo você stakar no seu NEX, maior será a sua taxa de participação, com uma taxa máxima de 75% para uma participação de dois anos.\n\n<0>Um exemplo de dividendo</0>\nDividends são pagos diariamente. Digamos que a Nash gerou taxas equivalentes a $1.000.000 nas últimas 24 horas e que um usuário possui 1.000 tokens NEX do total de 50.000.000 de fornecimento. Se o usuário apostou no NEX à taxa de 75% por dois anos, ele é elegível para um dividendo no valor de: $1.000.000 ∗ 1.000 / 50.000.000 ∗ 0,75 = $15.",
+        "available-balance": "Saldo disponível para stakar ⋅",
         "quick-fill-label": "Max",
-        "set-stake-duration-label": "Definir a duração da aposta",
+        "set-stake-duration-label": "Definir a duração do stake",
         "selected-duration": "Duração selecionada ⋅",
         "selected-duration-month": "<0>{{count}}</0> mês",
         "selected-duration-month_plural": "<0>{{count}}</0> meses",
         "set-date-dividends-label": "Defina uma data para receber seus dividendos",
         "set-date-dividends-value": "Data ⋅ {{date}} de cada mês",
         "stake-details-title": "Detalhes de sua participação",
-        "currency-to-stake": "NEX para apostar",
-        "stake-duration": "Duração da aposta",
+        "currency-to-stake": "NEX para stakar",
+        "stake-duration": "Duração do stake",
         "duration-value": "<0>{{count}}</0> mês",
         "duration-value_plural": "<0>{{count}}</0> meses",
         "fee-reward": "Taxa de participação",
         "first-payment": "Primeiro pagamento",
-        "agreed-to-non-cancellation-label": "Eu entendo que não posso cancelar ou editar esta esta estaca depois de tê-la criado.",
-        "agreed-to-locked-tokens-label": "Entendo que as minhas fichas NEX ficarão trancadas até esta esta estaca estar completa.",
-        "create-stake-button": "Criar estaca",
+        "agreed-to-non-cancellation-label": "Eu entendo que não posso cancelar ou editar este stake depois de criado.",
+        "agreed-to-locked-tokens-label": "Entendo que meus tokens NEX ficarão trancadas até este stake terminar.",
+        "create-stake-button": "Criar stake",
         "create-stake-sending-button": "Envio de dados...",
         "create-stake-sending-text": "Envio de dados. Por favor, mantenha esta janela aberta. Isto pode demorar até um minuto.",
-        "create-stake-error": "Houve ou um erro ou um atraso na criação da sua estaca. Por favor, verifique novamente em cinco minutos e reapresentar se a sua estaca não foi criada.",
+        "create-stake-error": "Houve ou um erro ou um atraso na criação do stake. Por favor, verifique novamente em cinco minutos se a seu stake não foi criado.",
         "create-stake-auth-error": "Erro de autenticação. Por favor, tente novamente.",
         "learn-more": "Saiba mais sobre",
-        "footer-desc": "NEXO de estacas",
+        "footer-desc": "NEX stakados",
         "amount-error-message": "Este valor excede o seu saldo disponível.",
         "stake-success": {
-          "header": "Estaca criada!",
-          "stake-details": "Você criou uma estaca de {{amount}} NEX por um período de {{count}} mês. Sua estaca aparecerá em breve no painel de controle.",
-          "stake-details_plural": "Você criou uma estaca de {{amount}} NEX por um período de {{count}} meses. Sua estaca aparecerá em breve no painel de controle.",
-          "stake-time-description": "Você receberá seus primeiros dividendos dentro:",
-          "finish-button-label": "Terminar"
+          "header": "Stake criado!",
+          "stake-details": "Você criou um stake de {{amount}} NEX por um período de {{count}} mês. Seu stake aparecerá em breve no painel.",
+          "stake-details_plural": "Você criou um stake de {{amount}} NEX por um período de {{count}} meses. Seu stake aparecerá em breve no painel.",
+          "stake-time-description": "Primeiros dividendos em:",
+          "finish-button-label": "Concluir"
         }
       }
     },
     "no-stakes": {
-      "title": "Ganhe renda passiva com a aposta em fichas NEX",
-      "description-desktop": "É novo na estaca? Saiba mais sobre <0>assumir fichas NEX</0> e <1>criar sua primeira estaca</1>.",
-      "description-mobile": "É novo na estaca? Saiba mais sobre <0>assumir fichas NEX</0>.",
-      "description-modal-create-link": "Crie sua primeira estaca"
+      "title": "Ganhe renda passiva com tokens NEX",
+      "description-desktop": "É novo no stake? Saiba mais sobre <0>os tokens NEX</0> e <1>crie seu primeiro stake</1>.",
+      "description-mobile": "É novo no stake? Saiba mais sobre <0>os tokens NEX</0>.",
+      "description-modal-create-link": "Crie seu primeiro stake"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Estacas em andamento",
-      "completed-stakes": "Estacas concluídas",
-      "create-stake-button": "Criar uma nova estaca",
-      "learn-stake-button": "Saiba mais sobre piquetagem"
+      "stakes-in-progress": "Stakes em andamento",
+      "completed-stakes": "Stakes concluídas",
+      "create-stake-button": "Criar novo stake",
+      "learn-stake-button": "Saiba mais stake"
     },
     "max-stakes": {
       "message": "Você criou {{amount}} a partir de um possível {maxAmount}} stakes. O máximo que você pode criar é {{maxAmount}}.",
