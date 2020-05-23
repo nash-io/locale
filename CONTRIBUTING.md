@@ -4,7 +4,7 @@ I'm really glad you're reading this, because we need our community to help this 
 
 ## Submitting changes
 
-Please send a [GitHub Pull Request to Nash locale](https://github.com/nash-io/locale/pull/new/master) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). When you send a pull request, we will love you forever if it is small. Incremental improvements accumulate fast.
+Please send a [GitHub Pull Request to Nash locale](https://github.com/nash-io/locale/pull/new/master) with a clear list of what you've done (read more about [pull requests](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)). When you send a pull request, we will love you forever if it is small. Incremental improvements accumulate fast.
 
 ## Coding conventions
 
