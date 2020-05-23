@@ -115,323 +115,323 @@
       "generating-keys-message": "Anahtarınız oluşturuluyor…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Gizli bilginiz",
+      "your-secret-warning": "Bu bilgiyi tekrar görmeyeceksiniz.",
+      "api-key": "API anahtarınız",
+      "api-key-warning": "Bu bilgiyi tekrar görmeyeceksiniz.",
+      "download-as-json-button-label": "API anahtarınızı indirin ve JSON formatında saklayın",
+      "i-saved-my-secret-button-label": "Gizli bilgimi kaydettim"
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
-    "1w": "1w",
-    "1m": "1M"
+    "1h": "1s",
+    "1d": "24s",
+    "1w": "1h",
+    "1m": "1a"
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "trading": "Ticaret",
+    "personal": "Kişisel",
+    "in-trades": "İşlemlerde",
+    "transfer-funds": "Gönder/Al",
+    "pending-transfer": "{{amount}} {{currencySymbol}} bekleyen transferiniz var.",
+    "pending-transfer-link": "Transferi buradan görebilirsiniz."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Tahmini ücret: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Maks.",
+    "use-last": "Son işlemi kullan"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Yetersiz bakiye",
+  "amount-each": "{{miktar}} her biri",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Toplam günlük limit",
+    "link": "Limitinizi arttırın",
+    "amount-of-max-amount": "{{amount}} dışında {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Ücret yapısı",
+    "desc": "Nash kullanıcının 30 günlük ortalama hacmini,hesabından yapılan işlemlerin toplam işlemlere oranlayarak belirler.",
+    "30-day-volume": "30 günlük hacim",
+    "taker-fee": "Piyasa alıcı ücreti",
+    "maker-fee": "Piyasa yapıcı ücreti",
+    "learn-more": "Piyasa alıcı ve satıcı ücretleri hakkında daha fazla bilgi"
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Etkin zaman",
+    "subtitle": "Siparişinizin defterde kalacağı süreyi belirleyin",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "İptal edilene kadar",
+        "desc": "Siparişiniz gerçekleşene kadar siz iptal etmediğiniz sürece defterde kalır."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Belli bir zamana kadar",
+        "header-with-time": "Şu zamana kadar {{cancelAt}}",
+        "desc": "Emriniz belirlediğiniz zamana kadar defterde aktif kalır. Eğer gerçekleşmemiş ise belirlediğiniz zamanda iptal olur."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Hepsini karşıla yada iptal et",
+        "desc": "Siparişinizin tamamı hemen gerçekleşebilirse,gerçekleşecek.Eğer tamamı gerçekleşmeyecekse iptal olacaktır."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Anında ve kalanı iptal et",
+        "desc": "Siparişinizin büyük bir kısmı karşılanır ve kalan kısmı iptal edilir."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
-    "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
-    "fiat-ramps": "Fiat ramps"
+    "referrals": "Yönlendirmeler",
+    "funds": "Fonlar",
+    "exchange": "Borsa",
+    "basic-exchange": "Basit arayüz",
+    "basic-exchange-short": "Basit",
+    "advanced-exchange": "Gelişmiş arayüz",
+    "advanced-exchange-short": "Gelişmiş",
+    "markets": "Piyasalar",
+    "settings": "Hesabım",
+    "fiat-ramps": "Fiyat rampaları"
   },
   "top-nav": {
     "accounts-main-menu": {
-      "title": "Services"
+      "title": "Servisler"
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Portföy"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Bildirimler",
+        "clear-all": "Hepsini temizle"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "initializing": "Gerçekleştiriliyor",
+        "initialized": "Gerçekleşen transferler",
+        "tooltip": "Transfer işleminiz devam ediyor. Eğer Nash'i kapatır veya çıkış yaparsanız,tekrar giriş yapana kadar bekletilecektir"
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Profilim",
+        "support": "Destek",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Açık",
+          "dark": "Koyu"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Çıkış yap",
+          "sign-in": "Giriş yap",
+          "sign-in-create-account": "<1>Hesap oluştur</1> yada <0>giriş yap</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Genel"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Ticaret",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Borsa",
+          "markets": "Piyasalar",
+          "orders": "Emirler"
         },
         "exchange": {
           "switch": {
-            "pro": "Pro",
-            "simple": "Basic"
+            "pro": "Gelişmiş",
+            "simple": "Basit"
           }
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Fonlar",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "portfolio": "Portföy",
+          "transfers": "Transferler",
+          "assets": "Cüzdanlar",
+          "contacts": "Adres defteri"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Yönlendirmeler"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Al/Sat",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Al/Sat",
+          "transactions": "İşlemler",
+          "payment-methods": "Ödeme yöntemleri",
+          "profile": "Profil"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
-          "apikeys": "API\u00A0keys"
+          "profile": "Profil",
+          "preferences": "Tercihler",
+          "security": "Güvenlik",
+          "limits": "Limitler",
+          "accounts": "Hesaplar",
+          "apikeys": "API\u00A0 anahtarları"
         }
       },
       "staking": {
-        "title": "Staking",
+        "title": "Kilitleme",
         "pages": {
-          "all-stakes": "All stakes",
-          "statements": "Statements"
+          "all-stakes": "Tüm kilitlemeler",
+          "statements": "Gelir tabloları"
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Ara…",
+  "loading": "Yükleniyor…",
+  "pending": "Bekliyor",
+  "cancelling": "İptal ediliyor…",
+  "authenticating": "Doğrulanıyor…",
+  "decrypting": "Şifre çözülüyor…",
+  "encrypting": "Şifreleniyor…",
+  "sending": "Gönderiliyor…",
+  "submit": "Uygula",
+  "retry": "yeniden dene",
+  "sending-approval": "Gönderme onaylanıyor…",
+  "send-approval": "Gönderme onaylandı",
+  "submit-transfer": "Transferi uygula",
+  "no-longer-sufficient-balance-for-tx": "bu işlem için yeterli bakiyeniz yok.",
+  "we-are-hiring": "Çalışma arkadaşları arıyoruz",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Erişim engellendi",
+    "location-banned": "Maalesef,Nash şu anda bulunduğunuz alanda hizmet vermiyor.",
+    "invalid-clock-title": "Bilgisayarınızın saati doğru değil.",
+    "permissions-issue-title": "İzin problemi",
+    "invalid-clock": "Nash'te ticaret yapabilmek için saatiniz doğru olmalı <0>saatinizi güncelleyin</0> ve <1>tekrar deneyin</1>.",
+    "network-issue-title": "Bağlantı sorunu",
+    "network-issue": "Bağlantı sorunu yaşandı. Lütfen <0>tekrar deneyin</0>.",
+    "generic-error-title": "Hata",
+    "generic-error": "Birşeyler ters gitti. Tekrar deneyin.",
+    "generic-error-signout": "Beklenmedik bir hata oluştu. Lütfen çıkış yapın ve tekrar deneyin.",
+    "within-waiting-period": "Yeni bir kilitleme başlatmadan önce beş dakika beklemelisiniz. Yeni kilitlemeniz en kısa sürede gösterilecektir,
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Girdiğiniz parola yanlış."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Girdiğiniz doğrulama kodu yanlış. En fazla 5 kez deneyebilirsiniz.",
+      "already-used": "Doğrulama kodunuz kullanıldı. Lütfen bekleyin ve tekrar deneyin.",
+      "code-expired": "Girdiğiniz doğrulama kodunun süresi doldu. Lütfen bekleyin ve tekrar deneyin.",
+      "too-many-failures": "Doğrulama kodunu çok kez yanlış girdiniz ve hesabınız kalıcı olarak kilitlendi. Lütfen Destek ile iletişime geçin.",
+      "too-many-failures-signout": "Doğrulama kodunu çok kez yanlış girdiniz ve hesabınız kalı olarak kilitlendi. Şimdi çıkış yapacaksınız."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Şifreleme başarısız. Lütfen çıkış yapın ve tekrar deneyin.",
+      "decryption-failed": "Şifre çözme başarısız. Lütfen çıkış yapın ve tekrar deneyin."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Hesabınız işleniyor!",
+        "message": "Lütfen bir kaç dakika sonra tekrar kontrol ediniz."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Hesabınız bulunamadı."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Sonuç bulunamadı.",
+  "yes": "evet",
+  "no": "hayır",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Kişisel hesap",
+    "trading": "Ticaret hesabı",
+    "external": "Harici hesap"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Yükleme başarısız.",
+    "failed-button": "Yükleme başarısız",
+    "failed-please-try": "<0>Yükleme başarısız. Lütfen\u00A0</0><1>tekrar deneyin</1>.",
+    "why-this-may-happening": "Neden olabileceğini <0>buradan</0> öğrenin."
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> saat",
+    "time-in-hours_plural": "<0>{{count}}</0> saatler",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "Ocak",
+      "1": "Şubat",
+      "2": "Mart",
+      "3": "Nisan",
+      "4": "Mayıs",
+      "5": "Haziran",
+      "6": "Temmuz",
+      "7": "Ağustos",
+      "8": "Eylül",
+      "9": "Ekim",
+      "10": "Kasım",
+      "11": "Aralık"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Maalesef, Nash şu anda bölgenizde faaliyet gösteremiyor.",
+    "contact-support": "Lütfen sorularınız için <0>destek ile iletişim kurun</0>."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Birşeyler yanlış gitti.",
+    "go-back": "Geri dön",
+    "go-back-retry": "Geri dön ve tekrar dene",
+    "contact-support": "Lütfen daha fazla bilgi için <0>destek ile iletişim kurun</0>.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Test modunda aktif değil!",
+        "content": "Bu özellik test modunda devre dışı bırakıldı."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "IP adresiniz seçtiğiniz bölge ile eşleşmedi.",
+          "message": "Doğrulama seviyesi 0 olan kullanıcılar,ikamet ettikleri ülkeden bağlanmadıkça Nash'in hizmetlerinden faydalanamazlar. Gözden geçirin <0>doğrulama seviyesini 1'e yükseltmek için</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "VPN kullandığınızı fark ettik.",
+          "message": "Doğrulama seviyesi 0 olan kullanıcılar,VPN veya proxy üzerinden bağlanırlarsa Nash'in hizmetlerinden faydalanamazlar. Lütfen bu servisleri iptal edin yada <0>doğrulama seviyenizi 1'e yükseltin</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Doğrulama seviyeniz şu anda 0. Bu nedenle,Nash platformunun bazı bölümlerine erişiminiz kısıtlanacak.",
+          "message": "Tüm hizmetlerimizi kullanabilmek için, lütfen <0>doğrulama seviyenizi 1'e yükseltin</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Bu IP adresi kullanılarak zaten bir hesap oluşturuldu.",
+          "message": "Bu hesap ile tüm Nash hizmetlerinden faydalanmak için, lütfen <0>doğrulama seviyenizi 1'e yükseltin</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Nash platformunun tüm hizmetleri {{usState}}da desteklenmemektedir. Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
+          "title-no-state": "Eyaletinizde şu anda Nash platformunun tüm hizmetleri desteklenmemektedir. Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
+          "message": "{{usState}} ile çalışmaya başladığımızda sizi mail yoluyla bilgilendireceğiz. Lütfen <0>destek ile iletişim kurun</0> sorularınız için.",
+          "message-no-state": "Eyaletiniz ile çalışmaya başladığımızda sizi mail yoluyla bilgilendireceğiz.Lütfen <0>destek ile iletişim kurun</0> sorularınız için."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Bulunduğunuz alanda şu anda Nash platformunun tüm hizmetleri desteklenmemektedir. Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
+          "message": "Lütfen <0>destek ile iletişim kurun</0> sorularınız için."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Doğrulama seviyeniz şu anda {{userTier}}. Bu nedenle,Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
+        "message": "Tüm Nash hizmetlerinden faydalanmak için, lütfen <0>doğrulama seviyenizi yükseltin{{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": " {{detectedCountry}}dan giriş yaptığınızı farkettik.",
+          "message": "Eğer artık {{accountCountry}} da yaşamıyorsanız, lütfen adresinizi güncellemek için <0>destek ile iletişim kurun/0>."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Daha iyi bir deneyim için masaüstü versiyona göz atın.",
+          "message": " 'Gelişmiş' görünüm masaüstü versiyon için tasarlanmıştır. Mobilde iseniz, <0>‘Basit’ arayüz</0> deneyin."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Bunu bir daha gösterme."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Kullanıcı sözleşmesi",
+    "privacy-notice": "Gzililik bildirimi"
   },
   "account-create": {
     "steps": [
@@ -440,45 +440,45 @@
       "Account details"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Nash hesabınız mı var ?",
+      "sign-in-now": "Şimdi giriş yap"
     },
     "form": {
       "fields": {
-        "optional": "(optional)"
+        "optional": "(isteğe bağlı)"
       },
-      "continue": "Continue",
+      "continue": "Devam et",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Bir hesap oluşturulurken hata oluştu. Lütfen tekrar deneyin.",
+        "invalid-referral-code-can-continue": "Geçersiz yönlendirme kodu",
+        "invalid-referral-code": "Geçersiz yönlendirme kodu. Lütfen kodunuzu kontrol edip tekrar deneyin.",
+        "invalid-email-domain": "E-posta sağlayıcınıza izin verilmiyor. Lütfen farklı bir adres kullanın.",
+        "duplicate-email": "Bu e-posta adresi için zaten bir hesap oluşturuldu.",
+        "password-too-short": "Şifreniz en az sekiz karakter uzunluğunda olmalıdır.",
+        "invalid-recaptcha": "Recaptcha doğrulaması başarısız oldu. Lütfen tekrar deneyin.",
+        "missing-us-state": "Amerika Birleşik Devletleri'nde yaşıyorsanız, eyaletinizi girmelisiniz."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Hesap oluştur",
+      "subheader": "Detaylar",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "ABD'li kullanıcılar için uyarı",
+        "desc": "Tavsiye programına katılmak için bir başlangıç seviye Nash hesabı oluşturuyorsunuz, ancak eyaletinizin bazı Nash hizmetlerine erişmeye uygun olması gerekir. Uygunsa, daha sonra bir kullanıcı sözleşmesi imzalamanız istenir."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Ad soyad"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Yönlendirme kodu (isteğe bağlı)",
+          "sub-label": "Bu nedir?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Nash yönlendirme programı",
+          "desc": "Bu, gelecekteki Nash promosyonlarına yönelik yönlendirmeleri izlemek için kullanılacaktır."
         }
       },
       "user-messages": {
