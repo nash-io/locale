@@ -1111,95 +1111,95 @@
       "continue": "Pokračovat"
     },
     "missing-country": {
-      "header": "Before you continue…",
-      "subheader": "Where do you live?",
+      "header": "Než budete pokračovat…",
+      "subheader": "Kde žijete?",
       "messages": {
-        "vpn-warning-title": "We noticed you’re using a VPN.",
-        "vpn-warning-body": "Please disable any VPN or proxy services to continue.",
+        "vpn-warning-title": "Všimli jsme si, že používáte VPN.",
+        "vpn-warning-body": "Abyste mohli pokračovat, prosím vypněte všechny VPN nebo proxy.",
         "update-country": {
-          "failed": "We could not update your country of residence. Please try again later or contact support."
+          "failed": "Nemohli jsme aktualizovat údaj o zemi trvalého pobytu. Zkuste to prosím později nebo kontaktujte support."
         }
       },
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Země trvalého pobytu"
         },
         "state": {
-          "label": "State"
+          "label": "Stát"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Potvrzuji, že toto je země mého trvalého pobytu."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Potvrzuji, že toto jsou moje země a stát trvalého pobytu."
         }
       }
     },
     "signin": {
-      "header": "Sign in to Nash",
-      "header-2fa": "Two-factor authentication",
+      "header": "Příhlísi se do Nash",
+      "header-2fa": "Dvoufázové ověření",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "Emailová adresa",
+          "placeholder": "Emailová adresa"
         },
         "password": {
-          "label": "Password",
-          "sub-label": "Forgotten password?",
-          "placeholder": "Password"
+          "label": "Heslo",
+          "sub-label": "Zapomněli jste heslo?",
+          "placeholder": "Heslo"
         },
         "remember-me": {
-          "label": "Remember me"
+          "label": "Pamatovat si mě"
         }
       },
       "messages": {
         "password-change": {
-          "success": "If the email address you provide matches an account already in our database, we’ll send you instructions on how to reset your password."
+          "success": "Pokud se vámi zadaná emailová adresa shoduje s adresou účtu v naší databázi, pošleme vám email s instrukcemi jak resetovat vaše heslo."
         },
         "update-email": {
-          "validation-success": "We have sent a verification email to your new email address. Please click the link in that email to confirm your new address.",
-          "updated-success": "Your email address has been updated. You can now sign in using your new address."
+          "validation-success": "Právě jsme vám zaslali ověřovací email na vaši novou emailovou adresu. Klikněte prosím na link v tomto emailu a potvrďte vaší novou emailovou adresu.",
+          "updated-success": "Vaše emailová adresa byla zaktualizována. Nyní se můžete s pomocí této nové emailové adresy přihlásit."
         },
         "verify-email": {
-          "success": "Your email address has been verified. Please sign in to set up your account.",
-          "error": "Could not verify email address. The verification code may have expired. Please log in and request another verification email."
+          "success": "Vaše emailová adresa byla ověřena. Prosím přihlašte se a dokončete tím nastavení účtu.",
+          "error": "Nemohli jsme ověřit vaši emailovou adresu. Ověřovacímu kódu vypršela platnost. Prosím přihlašte se a vyžádejte si nový ověřovací email."
         }
       },
       "errors": {
-        "invalid-email": "The email address you provided is invalid.",
-        "invalid-password": "You must provide a password.",
-        "signin-failed": "It appears your email or password is incorrect.",
-        "locked": "Your account is temporarily locked. Please try again later.",
-        "revoked": "Your account is permanently locked. Please contact support."
+        "invalid-email": "Emailová adresa kterou jste vložili je neplatná.",
+        "invalid-password": "Musíte zadat heslo.",
+        "signin-failed": "Vámi zadaný email nebo heslo jsou nesprávné.",
+        "locked": "Váš účet je dočasně zablokován. Prosím, zkuste to později.",
+        "revoked": "Váš účet byl zablokován. Prosím, kontaktujte support."
       }
     },
     "forgot-password": {
-      "tab-title": "Forgotten password",
-      "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back\u00A0on\u00A0track.",
+      "tab-title": "Zapomenuté heslo",
+      "header": "Zapomněli jste heslo?",
+      "desc": "Zadejte vaši emailovou adresu níže a my vám\u00A0s\u00A0tím\u00A0pomůžeme.",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "Emailová adresa",
+          "placeholder": "Emailová adresa"
         }
       },
-      "submit": "Request reset link",
-      "success": "We’ve sent you a password reset email. If you don’t see our email, check your junk folder."
+      "submit": "Vyžádat odkaz na reset",
+      "success": "Právě jsme vám zaslali email s odkazem na reset hesla. Pokud email nevidíte ve složce doručené, zkontrolujte složku pro nevyžádané emaily."
     },
     "reset-password": {
-      "missing-email": "Something went wrong. Please click the link in your email again.",
-      "expired-code": "This session is no longer valid. Please click the link in your email again.",
+      "missing-email": "Někde nastala chyba. Prosím klikněte ještě jednou na odkaz ve vašem emailu.",
+      "expired-code": "Tato relace je již neplatná. Prosím klikněte ještě jednou na odkaz ve vašem emailu.",
       "steps": [
-        "Confirm secret words",
-        "New password"
+        "Potvrďte uschovaná slova",
+        "Nové heslo"
       ],
       "secret-words": {
         "home": {
-          "header": "Do you still have your twelve secret words?",
-          "sub-header": "When you first set up your Nash account, we asked you to write these words down and keep them safe.",
-          "button-have-words": "Yes, I still have my secret words",
-          "button-lost-words": "No, I have lost my secret words",
-          "desc": "Unfortunately, if you have lost both your old password and your twelve secret words, you will be unable to recover your funds."
+          "header": "Máte stále vašich 12 uschovaných slov?",
+          "sub-header": "Když jste poprvé nastavovali účet na Nash, žádali jsme vás o zapsání si a uschování těchto tajných slov někam na bezpečné místo.",
+          "button-have-words": "Ano, mám svá uschovaná slova k dispozici",
+          "button-lost-words": "Ne, ztratil jsem 12 tajných slov",
+          "desc": "Je nám líto, ale pokud jste zapomněli vaše heslo a zároveň ztratili 12 tajných slov, není možné obnovit přístup k vašim prostředkům."
         },
         "edit": {
           "header": "Enter your twelve secret words",
