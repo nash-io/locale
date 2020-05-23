@@ -2005,10 +2005,10 @@
         "status": "Stand",
         "refund-status-label": "Status der Rückerstattung",
         "detailed-quote-status": {
-          "pending-user-confirmation": "Du musst Dein Angebot überprüfen",
+          "pending-user-confirmation": "Du musst dein Angebot überprüfen",
           "cancelled-by-user": "Du hast dieses Angebot abgelehnt",
           "failed-expired-on-bank-transfer": "Zahlung nicht erhalten",
-          "failed-expired-on-bank-transfer-reason": "Dein Angebot ist abgelaufen, bevor wir Deine Zahlung erhalten haben",
+          "failed-expired-on-bank-transfer-reason": "Dein Angebot ist abgelaufen, bevor wir deine Zahlung erhalten haben",
           "failed-expired-on-confirmation": "Angebot abgelaufen",
           "failed-expired-on-confirmation-reason": "Du hast das Angebot nicht rechtzeitig akzeptiert und es ist abgelaufen",
           "reconfirmation-expired": "Rückbestätigung abgelaufen",
@@ -2017,7 +2017,7 @@
           "pending-refund": "Rückerstattung ausstehend",
           "pending-user-rate-reconfirmation": "Rückbestätigung des Wechselkurses ausstehend",
           "processing": "Überweisung in Bearbeitung",
-          "refunded": "Rückerstattung",
+          "refunded": "Rückerstattet",
           "completed": "Abgeschlossen"
         },
         "quote-status": {
@@ -2031,7 +2031,7 @@
           "pending-refund": "Ausstehend",
           "pending-user-rate-reconfirmation": "Wechselkurs geändert",
           "processing": "Wird bearbeitet",
-          "refunded": "Rückerstattung",
+          "refunded": "Rückerstattet",
           "completed": "Abgeschlossen"
         }
       }
@@ -2040,7 +2040,7 @@
       "tab-title": "Zahlungsart",
       "title": "Zahlungsart, die mit {{providerName}} verbunden sind.",
       "link-new-account": "Zahlungsart hinzufügen",
-      "link-new-bank-account": "Ein Bankkonto verbinden",
+      "link-new-bank-account": "Bankkonto verbinden",
       "card-header": "{{currency}}-Konto",
       "new-card-header": "Neue Karte",
       "new-bank-account-header": "Neues Bankkonto",
@@ -2090,14 +2090,14 @@
       }
     },
     "reconfirm": {
-      "review-header": "Überprüfen Sie Ihr neues {{currency}} Angebot",
+      "review-header": "Überprüfen Sie Ihr neues {{currency}}-Angebot",
       "received-transfer": "Wir haben Ihre Überweisung von <0 />",
       "new-rate-in": "Neuer Wechselkurs in",
       "at": "bei <0/>",
       "new-quote-secs": "{{count}}",
       "original-quote": "Ursprüngliches Angebot",
       "new-quote": "Ihr neues Angebot",
-      "accept-new-quote": "Neuer Wechselkurs akzeptieren",
+      "accept-new-quote": "Neuen Wechselkurs akzeptieren",
       "expires-in": "Automatisch abgelehnt in {{timeout}}",
       "decline-and-refund": "<0>Ablehnen</0> und Rückerstattung erhalten",
       "message": "Wenn die Webseite oder Sitzung vor der Annahme des neuen Tarifs geschlossen wird, wird sie automatisch abgelehnt und Ihre Zahlung wird zurückerstattet."
