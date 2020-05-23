@@ -30,6 +30,7 @@ We have a simple contributions policy, see it [here](./CONTRIBUTING.md)
 | [fr_FR](./locales/fr_FR.json)       | French             | International (FR standard) |
 | [he_IL](./locales/he_IL.json)       | Hebrew             | Israel                      |
 | [hi_IN](./locales/hi_IN.json)       | Hindi              | Hindi                       |
+| [hr_HR](./locales/hr_HR.json)       | Serbo-Croatian     | International (HR standard) |
 | [it_IT](./locales/it_IT.json)       | Italian            | Italy                       |
 | [ja_JP](./locales/ja_JP.json)       | Japanese           | Japan                       |
 | [ko_KR](./locales/ko_KR.json)       | Korean             | Korea                       |
