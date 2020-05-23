@@ -1,4 +1,4 @@
-# Nash platform locale file
+# Nash platform localization files
 
 This is a open repository for the community to help translate and correct Nash locale files
 
@@ -21,7 +21,8 @@ https://www.youtube.com/watch?v=5u0I0UX81tI
 | [ar_AA](./locales/ar_AA.json)       | Arabic             | International (AA standard) |
 | [cs_CZ](./locales/cs_CZ.json)       | Czech              | Czech Republic              |
 | [da_DK](./locales/da_DK.json)       | Danish             | Denmark                     |
-| [de_DE](./locales/de_DE.json)       | German             | D-A-CH                      |
+| [de_DE](./locales/de_DE.json)       | German             | International (DE standard) |
+| [nl_NL](./locales/nl_NL.json)       | Dutch              | Netherlands and Belgium     |
 | [el_GR](./locales/el_GR.json)       | Greek              | Greece                      |
 | [es_ES](./locales/es_ES.json)       | Spanish            | International (ES standard) |
 | [fr_FR](./locales/fr_FR.json)       | French             | International (FR standard) |
