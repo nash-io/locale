@@ -2,6 +2,37 @@
 import argparse
 import json
 
+def casematch(basejson, newjson):
+    # This function makes the casing of the first work of each item on basejson
+    # be matched on the corresponding entry on newjson.
+
+    debase = json.load(open("./{}".format(basejson)))
+    dewip = json.load(open("./{}".format(newjson)))
+
+    def match(lhs, rhs):
+        if (len(lhs) == 0) or (not lhs[0].isalpha()): return rhs
+        if lhs[0].islower():
+            return rhs[0].lower() + rhs[1:]
+        else:
+            return rhs[0].upper() + rhs[1:]
+
+    def traverse(key, base, wip):
+        if key in wip.keys():
+            if type(base[key]) is dict:
+                for subkey in base[key]:
+                    traverse(subkey, base[key], wip[key])
+            elif type(base[key]) is list:
+                for idx, item in enumerate(base[key]):
+                    wip[key][idx] = match(item, wip[key][idx])
+            else:
+                wip[key] = match(base[key], wip[key])
+
+    for key in debase:
+        traverse(key, debase, dewip)
+
+    with open('casematch_{}'.format(newjson), 'w', encoding='utf8') as json_file:
+        json.dump(dewip, json_file, ensure_ascii=False, indent=2)
+
 def merge(basejson, newjson):
     # This function replaces the contents of keys in the basejson with content
     # from newjson. It can handle missing keys in newjson.
@@ -89,6 +120,7 @@ parser = argparse.ArgumentParser(description='Simple toolbox to manage locale fi
 parser.add_argument('-m', '--merge', nargs=2, type=str, help='merge changes from new into base: merge base.json new.json')
 parser.add_argument('-s', '--split', nargs=1, type=str, help='split JSON into translation keys and content: split en.json')
 parser.add_argument('-f', '--forge', nargs=2, type=str, help='forge JSON from keys and content files: forge keys.txt content.txt')
+parser.add_argument('-c', '--case', nargs=2, type=str, help='Match case of leading word in items from ref.json to new.json')
 
 # Parse arguments
 args = parser.parse_args()
@@ -101,3 +133,6 @@ if args.split:
 
 if args.forge:
     forge(args.forge[0], args.forge[1])
+
+if args.case:
+    casematch(args.case[0], args.case[1])
