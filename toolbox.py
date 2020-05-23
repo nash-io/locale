@@ -1,7 +1,10 @@
+#!/usr/bin/env python3
 import argparse
 import json
 
 def merge(basejson, newjson):
+    # This function replaces the contents of keys in the basejson with content
+    # from newjson. It can handle missing keys in newjson.
 
     debase = json.load(open("./{}".format(basejson)))
     dewip = json.load(open("./{}".format(newjson)))
@@ -21,6 +24,11 @@ def merge(basejson, newjson):
         json.dump(debase, json_file, ensure_ascii=False, indent=2)
 
 def split(filejson):
+    # This function splits filejson in two files, keys_file.txt and
+    # content_file.txt. This makes possible to translate content without
+    # having to worry about changes in keys. Order is preserved by line
+    # number, so content nor keys entries can change positions.
+
     debase = json.load(open("./{}".format(filejson)))
 
     mapping = []
@@ -45,6 +53,9 @@ def split(filejson):
     open('content_{}.txt'.format(filejson.replace('.json', '')), 'w', encoding='utf8').writelines(content)
 
 def forge(keysfile, contentfile):
+    # This function is make to work together with split. It receives a keysfile
+    # and a contentfile and reconstruct a unified JSON file for use as locale.
+
     mapping = open(keysfile, 'r').readlines()
     content = open(contentfile, 'r').readlines()
 
