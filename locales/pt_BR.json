@@ -22,9 +22,9 @@
   "set-price": "Estabeleça um preço",
   "market": "Mercado",
   "market-price": "Preço de mercado",
-  "exchange": "Troca",
+  "exchange": "negociar",
   "receive": "Receba",
-  "wallet": "Conta",
+  "wallet": "Carteira",
   "upload": "Upload",
   "processing": "Processamento...",
   "over-file-limit": "O tamanho do arquivo não deve exceder {{maxAllowedSize}}{{unit}}.",
@@ -148,7 +148,7 @@
   },
   "fee-information-modal": {
     "title": "Estrutura das taxas",
-    "desc": "Nash calcula o volume médio móvel de 30 dias de um usuário utilizando o volume de negócios associado à sua conta como um percentual do volume total de trocas.",
+    "desc": "Nash calcula o volume médio móvel de 30 dias de um usuário utilizando o volume de negócios associado à sua conta como um percentual do volume total de negociação.",
     "30-day-volume": "Volume de 30 dias",
     "taker-fee": "Taxa do portador",
     "maker-fee": "Taxa do fabricante",
@@ -180,14 +180,14 @@
   "main-navigation": {
     "referrals": "Referências",
     "funds": "Fundos",
-    "exchange": "Troca",
-    "basic-exchange": "Vista básica",
-    "basic-exchange-short": "Básico",
-    "advanced-exchange": "Vista Pro",
+    "exchange": "Bolsa de negócios",
+    "basic-exchange": "Simples",
+    "basic-exchange-short": "Interface simples",
+    "advanced-exchange": "Interface Pro",
     "advanced-exchange-short": "Pro",
     "markets": "Mercados",
-    "settings": "Minha conta",
-    "fiat-ramps": "Rampas Fiat"
+    "settings": "Configurações",
+    "fiat-ramps": "Compra e venda"
   },
   "top-nav": {
     "accounts-main-menu": {
@@ -210,13 +210,13 @@
         "settings": "Meu perfil",
         "support": "Suporte",
         "theme": {
-          "light": "Luz",
-          "dark": "Escuro"
+          "light": "Dia",
+          "dark": "Noite"
         },
         "auth": {
           "sign-out": "Sair",
           "sign-in": "Entrar no site",
-          "sign-in-create-account": "<1>Criar uma conta</1> ou <0>sign in</0>"
+          "sign-in-create-account": "<1>Criar uma conta</1> ou <0>entrar</0>"
         },
         "tabs": {
           "general": "Geral"
@@ -225,16 +225,16 @@
     },
     "main-menu": {
       "trade": {
-        "title": "Comércio",
+        "title": "Negociar",
         "pages": {
-          "exchange": "Troca",
+          "exchange": "Bolsa",
           "markets": "Mercados",
-          "orders": "Encomendas"
+          "orders": "Ordens"
         },
         "exchange": {
           "switch": {
             "pro": "Pro",
-            "simple": "Básico"
+            "simple": "Simples"
           }
         }
       },
@@ -333,9 +333,9 @@
   "yes": "sim",
   "no": "não",
   "account-types": {
-    "personal": "Conta pessoal",
-    "trading": "Contrato comercial",
-    "external": "Conta Externa"
+    "personal": "Carteira pessoal",
+    "trading": "Contrato de negociação",
+    "external": "Carteira Externa"
   },
   "query-errors": {
     "failed": "Falha no carregamento.",
@@ -420,7 +420,7 @@
       "browser": {
         "use-desktop-for-advanced-exchange": {
           "title": "Navegue na área de trabalho para uma melhor experiência.",
-          "message": "A visualização 'Pro' foi projetada para uso em desktop. Se você estiver no celular, tente a visão <0>'Básica'</0>."
+          "message": "A visualização 'Pro' foi projetada para uso em desktop. Se você estiver no celular, tente a visão <0>'Simples'</0>."
         }
       }
     },
@@ -570,19 +570,19 @@
       ],
     "general-information": {
       "title": "Informações gerais",
-      "header": "Vamos criar a sua conta pessoal",
-      "desc-1": "Sua conta pessoal é gerada usando doze palavras secretas. Se você perder sua senha, você pode acessar sua conta e redefini-la usando estas palavras. Por esta razão, você deve absolutamente apoiar suas doze palavras secretas corretamente.",
+      "header": "Vamos criar a sua carteira pessoal",
+      "desc-1": "Sua carteira pessoal é gerada usando doze palavras secretas. Se você perder sua senha, você pode acessar sua conta e redefini-la usando estas palavras. Por esta razão, você deve absolutamente apoiar suas doze palavras secretas corretamente.",
       "continue": "Pegue minhas doze palavras secretas",
       "skip2Fa": "Configure-o mais tarde",
       "chart": {
         "card-top": "Doze palavras secretas",
         "card-top-right": "Recuperação de conta Nash se a senha for esquecida",
         "diamond-one": "Utilizado em",
-        "diamond-two": "Crie a sua conta pessoal, que contém...",
-        "card-btc": "Conta Bitcoin",
-        "card-neo": "Conta NEO",
-        "card-eth": "Conta Ethereum",
-        "card-future": "Qualquer conta futura"
+        "diamond-two": "Crie a sua carteira pessoal, que contém...",
+        "card-btc": "Carteira Bitcoin",
+        "card-neo": "Carteira NEO",
+        "card-eth": "Carteira Ethereum",
+        "card-future": "Qualquer carteira futura"
       }
     },
     "secret-words": {
@@ -681,7 +681,7 @@
     }
   },
   "advanced-exchange": {
-    "title": "Vista Pro",
+    "title": "Interface Pro",
     "header": {
       "switch-to-simplified": "Mudar para a visualização básica",
       "current-market": "Mercado",
@@ -694,7 +694,7 @@
       "my-portfolio": "Meu portfólio"
     },
     "tips": {
-      "balance": "<0>Tip</0> <1>Envie fundos para o contrato comercial aqui.</1> <2 />"
+      "balance": "<0>Tip</0> <1>Envie fundos para o contrato de negociação aqui.</1> <2 />"
     },
     "no-markets": "Nenhum mercado está disponível atualmente.",
     "auth": {
@@ -1221,8 +1221,8 @@
           "checkbox-1": "Perdi tanto minha senha quanto minhas doze palavras secretas.",
           "checkbox-2": "Eu entendo que perderei todo o acesso aos meus fundos se eu reiniciar minha conta.",
           "submit": "Resetar minha conta",
-          "sub-bullet-1": "Todos os ativos da sua conta pessoal.",
-          "sub-bullet-2": "Todos os ativos do contrato comercial.",
+          "sub-bullet-1": "Todos os ativos da sua carteira pessoal.",
+          "sub-bullet-2": "Todos os ativos do contrato de negociação.",
           "sub-bullet-3": "Todos os tokens NEX stakados.",
           "sub-bullet-4": "Todos os dividendos das tokens NEX stakados.",
           "unauthorized": "Uma vez que redefinir sua conta tem sérias implicações, você deve primeiro entrar em contato com nossa equipe de suporte para ativá-la.",
@@ -1307,9 +1307,9 @@
     }
   },
   "basic-exchange": {
-    "title": "Vista básica",
-    "title-short": "Básico",
-    "switch-to-advanced": "Mudar para a visão profissional",
+    "title": "Interface simples",
+    "title-short": "Simples",
+    "switch-to-advanced": "Mudar para a interface profissional",
     "create-order": {
       "change-markets": "Mudar mercados",
       "errors": {
@@ -1319,8 +1319,8 @@
       },
       "modals": {
         "exchange-info": {
-          "title": "Como trocar tokens",
-          "desc": "Primeiro, selecione os tokens que você deseja trocar.",
+          "title": "Como negociar tokens",
+          "desc": "Primeiro, selecione os tokens que você deseja negociar.",
           "price-options-header": "Você tem duas opções para escolher o seu preço:",
           "average-market-price": {
             "header": "Preço atual de mercado",
@@ -1332,7 +1332,7 @@
           },
           "balances": {
             "header": "Saldos",
-            "desc": "Nós lhe diremos se o seu saldo é insuficiente para fazer uma troca. Escolha 'Saldos' para verificar o estado da sua conta e enviar/receber fundos."
+            "desc": "Nós lhe diremos se o seu saldo é insuficiente para fazer uma negociação. Escolha 'Saldos' para verificar o estado da sua conta e enviar/receber fundos."
           }
         },
         "select-token": {
@@ -1341,8 +1341,8 @@
             "buy": "Vender"
           },
           "header": {
-            "sell": "Selecione o token que você deseja trocar",
-            "buy": "Selecione o token que você deseja receber"
+            "sell": "Selecione o token que você deseja vender",
+            "buy": "Selecione o token que você deseja comprar"
           },
           "ignore-low-balances": "Esconder pequenos saldos",
           "search": {
@@ -1360,7 +1360,7 @@
         }
       },
       "exchange-tokens": {
-        "header": "Troca de tokens",
+        "header": "Negociar tokens",
         "fields": {
           "buy": {
             "label": "Eu quero receber",
@@ -1906,7 +1906,7 @@
       },
       "purchase-success": {
         "title": "Sucesso!",
-        "amount-debit": "O valor mais taxas será debitado do seu cartão {{card}}. Em breve você receberá {{asset}} em sua conta pessoal Nash.",
+        "amount-debit": "O valor mais taxas será debitado do seu cartão {{card}}. Em breve você receberá {{asset}} em sua carteira pessoal.",
         "view": "Você pode ver o status da sua transação <0>aqui</0>.",
         "button": "Terminar"
       }
@@ -1940,7 +1940,7 @@
         "details-title": "Dados bancários do beneficiário",
         "amount-asset": "Valor adquirido",
         "status": "Status da Transação",
-        "personal-account": "Sua conta pessoal Nash",
+        "personal-account": "Sua carteira pessoal",
         "deposit-account": "Ativo depositado a",
         "withdraw-account": "Pago por conta",
         "created-on": "Criado em",
@@ -2114,7 +2114,7 @@
     "reconfirm-accept": {
       "review-header": "Você aceitou a nova cotação",
       "you-recieve": "Você receberá",
-      "destination": "Contrato comercial da Nash",
+      "destination": "contrato de negociação da Nash",
       "destination-label": "Destino",
       "arrival-label": "Horário estimado de chegada",
       "arrival": "O mais rápido possível",
@@ -2183,7 +2183,7 @@
           "add": "Adicione seus dados",
           "save": "Envie seus dados",
           "dob-label": "Data de nascimento",
-          "first-name-label": "Primeiro nome",
+          "first-name-label": "Nome",
           "last-name-label": "Sobrenome",
           "country-label": "País",
           "state-label": "Estado"
@@ -2320,7 +2320,7 @@
         "share-details": "Compartilhe seus dados com {{providerName}}",
         "share-details-sub": "Compartilhe as informações da sua conta Nash com {{providerName}} para configurar a sua conta.",
         "name": "Denominação legal completa",
-        "first-name": "Primeiro nome",
+        "first-name": "Nome",
         "last-name": "Sobrenome",
         "email": "Endereço de e-mail",
         "dob": "Data de nascimento",
@@ -2430,13 +2430,13 @@
     "confirmed-transaction": {
       "order-created": "Sua ordem foi colocada",
       "title": "Ordem criada",
-      "deposit": "Nós depositaremos seus ativos em sua conta pessoal Nash assim que seu pagamento for compensado.",
+      "deposit": "Nós depositaremos seus ativos em sua carteira pessoal assim que seu pagamento for compensado.",
       "delay": "Isto pode levar até {{days}} dias úteis. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
       "dismiss": "Veja a transação"
     },
     "review-sell-transaction": {
       "title": "Cotação de venda",
-      "send-asset-title": "Envie {{assetName}} para o endereço abaixo a partir de sua conta pessoal Nash.",
+      "send-asset-title": "Envie {{assetName}} para o endereço abaixo a partir de sua carteira pessoal.",
       "send-asset-body-1": "O que você enviar será convertido para {{currencyCode}} e creditado na sua conta. Utilizaremos a taxa de câmbio do mercado no momento em que recebermos sua transação.",
       "send-asset-body-2": "",
       "transactions-details": "Enviar",
@@ -2501,7 +2501,7 @@
       "title": "Aquisição de ativos digitais",
       "total-cost": "Custo total",
       "total-with-provider-fee": "Total com taxas",
-      "trading-contract": "Contrato comercial",
+      "trading-contract": "contrato de negociação",
       "transaction-details": "Resumo da transação",
       "transaction-details-link": "Veja",
       "warning-msg": "Autorizo {{providerName}} a debitar a conta indicada para o valor acima na data de hoje. Não vou contestar {{providerName}} debitar minha conta, desde que a transação corresponda aos termos deste formulário online e meu acordo com {providerName}}."
@@ -2575,8 +2575,8 @@
       },
       "order-created": {
         "title": "O seu pedido foi criado",
-        "description": "Nós depositaremos seus ativos em sua conta pessoal Nash assim que seu pagamento for compensado. Isto pode levar até {{account}} um dia útil. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
-        "description_plural": "Nós depositaremos seus ativos em sua conta pessoal Nash assim que seu pagamento for compensado. Isto pode levar até {{account}} dias úteis. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
+        "description": "Nós depositaremos seus ativos em sua carteira pessoal assim que seu pagamento for compensado. Isto pode levar até {{account}} um dia útil. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
+        "description_plural": "Nós depositaremos seus ativos em sua carteira pessoal assim que seu pagamento for compensado. Isto pode levar até {{account}} dias úteis. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
         "button": "Terminar"
       },
       "profile-details": {
@@ -2598,8 +2598,8 @@
         "unhandled-error": "Ocorreu um erro sem soltar as mãos. Por favor, recarregue e tente novamente."
       },
       "validation": {
-        "first-name-required": "O primeiro nome é obrigatório.",
-        "first-name-characters-invalid": "O primeiro nome deve conter apenas letras e hífens.",
+        "first-name-required": "O nome é obrigatório.",
+        "first-name-characters-invalid": "O Nome deve conter apenas letras e hífens.",
         "last-name-required": "O sobrenome é obrigatório.",
         "last-name-characters-invalid": "O sobrenome deve conter apenas letras e hífens.",
         "email-required": "O e-mail é obrigatório.",
@@ -2714,7 +2714,7 @@
     "deposit-currency": "Depósito {{currencySymbol}}",
     "your-currency-balances": "Seu {{currencySymbol}} balança",
     "resetting-account": {
-      "title": "Resyncnc o saldo do seu contrato comercial.",
+      "title": "Resyncnc o saldo do seu contrato de negociação.",
       "desc": "Isto irá liberar fundos presos em um estado 'Pendente'. Este processo irá cancelar as ordens de negociação em aberto.",
       "button": "Conta Resync",
       "resyncing": "Resyncing...",
@@ -2746,7 +2746,7 @@
       },
       "transferring-funds": {
         "title": "Envio e recebimento de fundos",
-        "desc": "<0> Se você quiser negociar, terá que enviar fundos para o contrato de negociação.</0> <1> Você só pode enviar fundos para o contrato de negociação a partir de sua conta pessoal.</1>",
+        "desc": "<0> Se você quiser negociar, terá que enviar fundos para o contrato de negociação.</0> <1> Você só pode enviar fundos para o contrato de negociação a partir de sua carteira pessoal.</1>",
         "learn-more-never-show": "<0>Saiba mais</0> ou <1>nunca me mostre isso novamente</1>.",
         "learn-more": "Saiba mais",
         "never-show": "Nunca mais me mostre isso de novo."
@@ -2771,13 +2771,13 @@
             "title": "Ativo"
           },
           "personal-account": {
-            "title": "Conta pessoal"
+            "title": "Carteira pessoal"
           },
           "trading-account": {
-            "title": "Contrato comercial"
+            "title": "Contrato de negociação"
           },
           "in-orders": {
-            "title": "Em encomendas"
+            "title": "Em ordens"
           },
           "pending": {
             "title": "Pendente",
@@ -2787,7 +2787,7 @@
             "hint": "Este ativo não é negociado atualmente na Nash, mas você ainda pode se retirar se você tiver um saldo no contrato de negociação."
           },
           "action-buttons": {
-            "trade": "Comércio",
+            "trade": "Negociar",
             "transfer-funds": "Enviar/Receber"
           }
         },
@@ -2845,9 +2845,9 @@
             "network-transaction-fee": "taxa máxima de rede",
             "loading-fee": "Taxa de carregamento...",
             "errors": {
-              "gas-shortage": "Você precisa de pelo menos {{amount}} {{currencySymbol}} em sua conta pessoal para pagar taxas de rede.",
+              "gas-shortage": "Você precisa de pelo menos {{amount}} {{currencySymbol}} em sua carteira pessoal para pagar taxas de rede.",
               "fee-shortage": "Você deve salvar {{amount}} ETH para a taxa da rede Ethereum.",
-              "fee-shortage-trading": "Você precisa de {{amount}} ETH em sua conta pessoal para taxas da rede Ethereum."
+              "fee-shortage-trading": "Você precisa de {{amount}} ETH em sua carteira pessoal para taxas da rede Ethereum."
             }
           },
           "btc": {
@@ -2863,7 +2863,7 @@
             }
           },
           "fees": {
-            "eth-recommended-message": "Mantenha {{amount}} ETH na minha conta pessoal para futuras taxas de rede."
+            "eth-recommended-message": "Mantenha {{amount}} ETH na minha carteira pessoal para futuras taxas de rede."
           },
           "precision": {
             "neo-trading": "Você não pode enviar ou retirar quantidades fracionárias de NEO."
@@ -2872,7 +2872,7 @@
             "amount": "Equilíbrio insuficiente."
           },
           "deposit": {
-            "label": "Dados de sua conta pessoal",
+            "label": "Dados de sua carteira pessoal",
             "currency-address": "Endereço",
             "currency-address-qrcode": "{{currency}} endereço QR code",
             "currency-send-warning": "Quaisquer bens que não sejam {{currency}} enviados para este endereço serão perdidos!"
@@ -2929,7 +2929,7 @@
           "approving": "Aprovação",
           "title": "Aprovar transferência",
           "pre-deposit-info": "Antes de depositar {{symbol}} no contrato de negociação, você deve primeiro aprovar uma transferência de sua conta.",
-          "current-approval": "Sua aprovação atual para o contrato comercial é: {{currentErc20Approved}}"
+          "current-approval": "Sua aprovação atual para o contrato de negociação é: {{currentErc20Approved}}"
         },
         "started": {
           "title": "Transferência em andamento...",
@@ -2946,9 +2946,9 @@
         "title": "Os fundos podem ser transferidos da seguinte forma",
         "notice": "Você só pode negociar na Bolsa Nash depois de ter enviado fundos para o contrato de negociação.",
         "actions": {
-          "action-1": "Você <0> pode</0> movimentar fundos entre a sua conta pessoal e contas externas.",
-          "action-2": "Da mesma forma, você <0> pode</0> movimentar fundos para frente e para trás entre a sua conta pessoal e o contrato de negociação.",
-          "action-3": "Você <0>cannot</0> move fundos entre o contrato de negociação e contas externas sem passar pela sua conta pessoal. Isso nos ajuda a manter os fundos utilizados para negociação segura: é sempre você depositando e sacando."
+          "action-1": "Você <0> pode</0> movimentar fundos entre a sua carteira pessoal e carteira externas.",
+          "action-2": "Da mesma forma, você <0> pode</0> movimentar fundos para frente e para trás entre a sua carteira pessoal e o contrato de negociação.",
+          "action-3": "Você <0>cannot</0> move fundos entre o contrato de negociação e carteira externas sem passar pela sua carteira pessoal. Isso nos ajuda a manter os fundos utilizados para negociação segura: é sempre você depositando e sacando."
         },
         "continue-button": "OK, continuar",
         "dismiss-link": "Despedir-se para sempre e continuar"
@@ -2987,14 +2987,14 @@
         "destination": {
           "title": "Destino",
           "to": {
-            "trading-account": "Contrato comercial",
-            "personal-account": "Conta pessoal",
-            "staking-account": "Contrato de estaqueamento NEX",
+            "trading-account": "contrato de negociação",
+            "personal-account": "Carteira pessoal",
+            "staking-account": "Contrato de stakar NEX",
             "fees": "Taxas"
           },
           "from": {
-            "trading-account": "Do contrato comercial",
-            "personal-account": "A partir da minha conta pessoal",
+            "trading-account": "Do contrato de negociação",
+            "personal-account": "A partir da minha carteira pessoal",
             "nash-fiat-ramp": "Compra na Nash",
             "external-address": "De {{address}}"
           }
@@ -3049,7 +3049,7 @@
         "total": "Total",
         "available": {
           "title": "Disponível em",
-          "hint": "Você é capaz de mover esses fundos. Eles estão ou em sua conta pessoal ou no contrato de negociação. Os fundos que não estão disponíveis, bloqueados em ordens não preenchidas, NEX stakes ou estão atualmente em processo de transferência."
+          "hint": "Você é capaz de mover esses fundos. Eles estão ou em sua carteira pessoal ou no contrato de negociação. Os fundos que não estão disponíveis, bloqueados em ordens não preenchidas, NEX stakes ou estão atualmente em processo de transferência."
         },
         "transfer-funds": "Enviar/Receber"
       },
@@ -3075,8 +3075,8 @@
           "hint": "Você está em total controle de todos esses fundos."
         },
         "available-assets": "Ativos disponíveis",
-        "in-personal": "Conta pessoal",
-        "in-trading": "Contrato comercial",
+        "in-personal": "Carteira pessoal",
+        "in-trading": "Contrato de negociação",
         "in-unfilled-orders": "Pedidos não atendidos",
         "in-stake": "NEX Stakados",
         "learn-more": "Saiba mais"
@@ -3166,7 +3166,7 @@
     },
     "wallet-type": {
       "personal": "Minha carteira pessoal",
-      "trading": "Contrato comercial",
+      "trading": "contrato de negociação",
       "external": "Uma carteira externa"
     },
     "common": {
@@ -3822,7 +3822,7 @@
           },
           "par-4": {
             "title": "Como eu recebo meus dividendos?",
-            "desc": "Dividendos são automaticamente adicionados ao saldo do seu contrato comercial. Eles são pagos diariamente, pouco depois da meia-noite UTC. A Nash fornece declarações mensais que agregam esses pagamentos em um único valor para fins contábeis. Como as taxas de uma negociação são cobradas na moeda que está sendo trocada, você receberá dividendos em cada ativo atualmente negociado em Nash."
+            "desc": "Dividendos são automaticamente adicionados ao saldo do seu contrato de negociação. Eles são pagos diariamente, pouco depois da meia-noite UTC. A Nash fornece declarações mensais que agregam esses pagamentos em um único valor para fins contábeis. Como as taxas de uma negociação são cobradas na moeda que está sendo taker, você receberá dividendos em cada ativo atualmente negociado em Nash."
           },
           "par-5": {
             "title": "Posso receber meus dividendos em uma única moeda?",
@@ -3834,7 +3834,7 @@
           },
           "par-7": {
             "title": "Posso criar vários stakes?",
-            "desc": "Sim. Se você tem tokens NEX em sua conta pessoal que ainda não estão bloqueadas em um stake, você pode usá-los para criar um novo."
+            "desc": "Sim. Se você tem tokens NEX em sua carteira pessoal que ainda não estão bloqueadas em um stake, você pode usá-los para criar um novo."
           },
           "par-8": {
             "title": "Quantos stakes eu posso criar?",
@@ -3933,7 +3933,7 @@
           "wallet": "Destino"
         },
         "sublabels": {
-          "currency": "Você só pode enviar ativos de sua conta pessoal."
+          "currency": "Você só pode enviar ativos de sua carteira pessoal."
         },
         "placeholders": {
           "currency": "Procure um bem...",
@@ -3956,11 +3956,11 @@
       },
       "fields": {
         "first-name": {
-          "label": "Primeiro nome",
-          "placeholder": "Primeiro nome"
+          "label": "Nome",
+          "placeholder": "Nome"
         },
         "last-name": {
-          "label": "Sobrenome",
+          "label": "Sobre",
           "placeholder": "Sobrenome"
         },
         "email": {
