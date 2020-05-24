@@ -510,7 +510,7 @@
       "fields": {
         "email": {
           "label": "Inserisci un indirizzo email",
-          "placeholder": "indirizzo email"
+          "placeholder": "Indirizzo email"
         },
         "password": {
           "label": "Crea una password",
@@ -563,10 +563,10 @@
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Imposta account",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Frase segreta",
+      "Autenticazione a due fattori"
     ],
     "general-information": {
       "title": "Informazioni generali",
@@ -1097,10 +1097,10 @@
       }
     },
     "session-expiry-modal": {
-      "title": "Your session is about to expire",
-      "info": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} second.",
-      "info_plural": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} seconds.",
-      "stay-signed-in": "Stay signed in",
+      "title": "La tua sessione sta per scadere",
+      "info": "La tua sessione sta per scadere a causa di inattività. La sessione verrà chiusa in {{count}} secondo.",
+      "info_plural": "La tua sessione sta per scadere a causa di inattività. La sessione verrà chiusa in {{count}} secondi.",
+      "stay-signed-in": "Rimani dentro",
       "signing-out": "({{count}}s) Signing out…"
     },
     "signup": {
@@ -1111,27 +1111,27 @@
       "continue": "Continue"
     },
     "missing-country": {
-      "header": "Before you continue…",
-      "subheader": "Where do you live?",
+      "header": "Prima di continuare…",
+      "subheader": "Dove vivi?",
       "messages": {
-        "vpn-warning-title": "We noticed you’re using a VPN.",
-        "vpn-warning-body": "Please disable any VPN or proxy services to continue.",
+        "vpn-warning-title": "Abbiamo notato che stai utilizzando una VPN.",
+        "vpn-warning-body": "Per favore disabilita qualsiasi VPN o servizio proxy per continuare.",
         "update-country": {
-          "failed": "We could not update your country of residence. Please try again later or contact support."
+          "failed": "Non è stato possibile aggiornare il tuo paese di residenza. Per favore riprova più tardi o contatta il supporto."
         }
       },
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Paese di residenza"
         },
         "state": {
-          "label": "State"
+          "label": "Stato"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Confermo che questo è il mio paese di residenza."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Confermo che questi sono il mio paese e il mio stato di residenza."
         }
       }
     },
@@ -1230,30 +1230,30 @@
         }
       },
       "new-password": {
-        "tab-title": "Set password",
-        "header": "Set a new password",
-        "desc": "Create a new password for your Nash account.",
-        "header-success": "Success!",
-        "desc-success": "Your password was changed successfully.",
-        "desc-success-reset": "You will be able to set up new wallets the next time you sign in.",
+        "tab-title": "Imposta password",
+        "header": "Imposta una nuova password",
+        "desc": "Crea una nuova password per il tuo account Nash.",
+        "header-success": "Operazione riuscita!",
+        "desc-success": "La tua password è stata cambiata con successo.",
+        "desc-success-reset": "Potrai impostare nuovi wallet la prossima volta che accedi.",
         "fields": {
           "password": {
-            "label": "New password",
-            "placeholder": "New password",
+            "label": "Nuova password",
+            "placeholder": "Nuova password",
             "errors": {
-              "password-too-weak": "The password you chose is too weak."
+              "password-too-weak": "La password che hai scelto è troppo debole."
             }
           },
           "password-confirm": {
-            "label": "Confirm new password",
-            "placeholder": "Confirm new password",
+            "label": "Conferma password",
+            "placeholder": "Conferma nuova password",
             "errors": {
-              "passwords-do-not-match": "Passwords do not match."
+              "passwords-do-not-match": "Le password non corrispondono."
             }
           },
           "code": {
-            "label": "Two-factor authentication",
-            "placeholder": "Enter your two-factor authentication code"
+            "label": "Autenticazione a due fattori",
+            "placeholder": "Inserisci il tuo codice di autenticazione a due fattori"
           }
         },
         "errors": {
@@ -3423,30 +3423,30 @@
       }
     },
     "profile": {
-      "title": "Profile",
-      "header": "Profile settings",
-      "desc-1": "You can edit your profile settings below.",
+      "title": "Profilo",
+      "header": "Impostazioni profilo",
+      "desc-1": "Qui sotto puoi modificare le impostazioni del tuo profilo.",
       "desc-2": "",
       "cards": {
         "your-details": {
-          "label": "Personal details",
-          "legal-name": "Legal name",
-          "update-name": "I want to update my name",
-          "update-country": "I want to update my country of residence",
-          "gender": "Gender",
-          "male": "Male",
-          "female": "Female",
-          "other": "Other",
-          "country-of-residence": "Country of residence"
+          "label": "Dati personali",
+          "legal-name": "Nome legale",
+          "update-name": "Voglio aggiornare il mio nome",
+          "update-country": "Voglio aggiornare il mio paese di residenza",
+          "gender": "Genere",
+          "male": "Maschio",
+          "female": "Femmina",
+          "other": "Altro",
+          "country-of-residence": "Paese di residenza"
         },
         "account-settings": {
-          "label": "Account settings",
-          "email-address": "Email address",
-          "update-email": "Change email address",
+          "label": "Impostazioni account",
+          "email-address": "Indirizzo email",
+          "update-email": "Cambia indirizzo email",
           "password": "Password",
-          "update-password": "Change password",
-          "two-factor": "We recommend you to enable two-factor authentication in <0>Security</0>.",
-          "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
+          "update-password": "Cambia password",
+          "two-factor": "Ti consigliamo di abilitare l'autenticazione a due fattori nella pagina <0>Sicurezza</0>.",
+          "two-factor-enable": "L'autenticazione a due fattori può essere disabilita alla pagina <0>Sicurezza</0>."
         }
       },
       "modals": {
@@ -3513,17 +3513,17 @@
       }
     },
     "preferences": {
-      "title": "Preferences",
-      "header": "Preferences",
-      "desc-1": "Edit your preferences for timezone, currency, language and notifications below.",
+      "title": "Preferenze",
+      "header": "Preferenze",
+      "desc-1": "Modifica le tue preferenze di fuso orario, valuta, lingua e notifiche qui sotto.",
       "desc-2": "",
       "cards": {
         "general-settings": {
-          "label": "General settings",
-          "timezone": "Timezone",
-          "fiat": "Currency",
-          "language": "Language",
-          "save-settings": "Save settings"
+          "label": "Impostazioni generali",
+          "timezone": "Fuso orario",
+          "fiat": "Valuta",
+          "language": "Lingua",
+          "save-settings": "Salva impostazioni"
         },
         "email": {
           "label": "Email me when…",
@@ -3973,19 +3973,19 @@
           "error": "Invalid phone number for {{country}}"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Portafogli",
+          "delete": "Elimina",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Indirizzo portafoglio"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Nome portafoglio"
           },
-          "add": "Add another"
+          "add": "Aggiungi un altro"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Per favore inserisci un indirizzo {{blockchain}} valido.",
+          "unique-address": "Hai già un altro contatto con questo indirizzo."
         }
       }
     }

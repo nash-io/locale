@@ -1,8 +1,8 @@
 {
-  "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
+  "sandbox-warning": "एपीआई एकीकरण के परीक्षण के लिए यह सैंडबॉक्स वातावरण है. यहां कभी वास्तविक धनराशि न भेजें!",
   "buy": "खरीदें",
   "sell": "बेचें",
-  "continue": "Continue",
+  "continue": "आगे बढ़ें",
   "ok": "ठीक",
   "back": "वापस",
   "help": "मदद",
@@ -11,25 +11,25 @@
   "to": "To",
   "or": "या",
   "price": "मूल्य",
-  "fee": "Fee",
-  "try-again": "Try again",
-  "refresh": "Refresh",
+  "fee": "शुल्क",
+  "try-again": "फिर से कोशिश कीजिये",
+  "refresh": "फिर से वेबसाइट लोड करें",
   "finish": "समाप्त",
   "price-each": "{{price}} each",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
-  "remaining": "Remaining",
-  "not-available-short": "N/A",
-  "set-price": "Set a price",
-  "market": "Market",
-  "market-price": "Market price",
+  "remaining": "शेष संख्या",
+  "not-available-short": "लागू नहीं",
+  "set-price": "एक मूल्य निर्धारित करें",
+  "market": "मार्केट",
+  "market-price": "मार्केट मूल्",
   "exchange": "Exchange",
-  "receive": "Receive",
+  "receive": "प्राप्त करें",
   "wallet": "खाता",
   "upload": "Upload",
   "processing": "Processing…",
   "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opens in new tab",
-  "failed-update": "Failed to update",
+  "opens-new-tab": "नए टैब में खुलता है",
+  "failed-update": "अपडेट करने में विफल",
   "reported-errors": "Errors reported",
   "credit-card-expiry-placeholder": "MM/YY",
   "apikeys": {
@@ -38,12 +38,12 @@
     "add-whitelisted": "Whitelisted addresses",
     "duplicate-address-in-form": "This address is already whitelisted.",
     "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
+    "address-is-not-valid": "पता मान्य नहीं है",
     "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
+      "access": "प्रवेश",
+      "kyc": "पहचान की जाँच",
+      "apitrade": "एपीआई ट्रेडिंग",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
@@ -83,9 +83,9 @@
       "revoke": "Revoke",
       "created": "Created",
       "policy-trading": "Trading",
-      "loading": "Loading tokens…",
+      "loading": "टोकन लोड हो रहे हैं…",
       "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
+      "policy-withdrawals": "निकासी और जमा",
       "revoke-all-keys-button-label": "Revoke all keys",
       "generate-new-key-button-label": "Generate new key",
       "plus-more": "+{{count}} more"
@@ -102,7 +102,7 @@
       "continue-button-label": "Create key"
     },
     "step2": {
-      "password": "Password",
+      "password": "पासवर्ड",
       "two-fa-code": "Two-factor authentication code",
       "create-api-button-label": "Continue",
       "incorrect-password": "The password you entered was incorrect.",
@@ -278,35 +278,35 @@
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
+  "search": "खोजें…",
+  "loading": "लोड हो रहा है…",
+  "pending": "आगामी",
+  "cancelling": "रद्द हो रहा है…",
   "authenticating": "Authenticating…",
   "decrypting": "Decrypting…",
   "encrypting": "Encrypting…",
-  "sending": "Sending…",
+  "sending": "भेजा जा रहा है…",
   "submit": "Submit",
-  "retry": "Retry",
+  "retry": "कृपया फिर से प्रयास करें",
   "sending-approval": "Sending approval…",
   "send-approval": "Send approval",
   "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
+  "no-longer-sufficient-balance-for-tx": "इस लेन-देन के लिए आपका शेष अब पर्याप्त नहीं है",
   "we-are-hiring": "We’re hiring",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
+    "location-banned-title": "पहुंच अवरुद्ध",
+    "location-banned": "दुर्भाग्य से, नैश इस समय आपके अधिकार क्षेत्र में काम करने में असमर्थ है",
+    "invalid-clock-title": "आपके कंप्यूटर की घड़ी सटीक नहीं है",
     "permissions-issue-title": "Permissions Issue",
     "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
+    "network-issue-title": "नेटवर्क समस्या",
     "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
     "generic-error-title": "Error",
     "generic-error": "Something went wrong. Please try again.",
     "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
     "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "आपका लिखा पासवर्ड गलत है"
     },
     "2fa": {
       "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
@@ -347,27 +347,27 @@
     "time-in-hours": "<0>{{count}}</0> hour",
     "time-in-hours_plural": "<0>{{count}}</0> hours",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "जनवरी",
+      "1": "फरवरी",
+      "2": "मार्च",
+      "3": "अप्रैल",
+      "4": "मई",
+      "5": "जून",
+      "6": "जुलाई",
+      "7": "अगस्त",
+      "8": "सितंबर",
+      "9": "अक्टूबर",
+      "10": "नवंबर",
+      "11": "दिसंबर"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
+    "header": "दुर्भाग्य से, नैश इस समय आपके क्षेत्र में काम करने में असमर्थ है.",
     "contact-support": "Please <0>contact our support team</0> with any questions."
   },
   "user-messages": {
     "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
+    "go-back": "कृपया वापस जाएं",
     "go-back-retry": "Retry and go back",
     "contact-support": "Please <0>contact our support team</0> for more details.",
     "permissions": {
@@ -377,11 +377,11 @@
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
+          "title": "आपका आईपी पता आपके द्वारा चयनित देश से मेल नहीं खाता है",
           "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
+          "title": "आप एक वीपीएन का उपयोग कर रहे हैं",
           "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
         },
         "high-risk-country": {
@@ -457,15 +457,15 @@
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "खाता बनाएं",
+      "subheader": "आपका विवरण",
       "disclaimer": {
-        "title": "Notice for US customers",
+        "title": "अमेरिकी ग्राहकों के लिए नोटिस",
         "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "पूरा नाम"
         },
         "referral-code": {
           "label": "Referral code (optional)",
@@ -486,14 +486,14 @@
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "खाता बनाएं",
+      "subheader": "आप कहाँ रहते हैं?",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "निवास का देश"
         },
         "state": {
-          "label": "State"
+          "label": "राज्य"
         },
         "confirm-country": {
           "label": "I confirm that this is my country of residence."
@@ -509,7 +509,7 @@
       "continue": "Create account",
       "fields": {
         "email": {
-          "label": "Enter an email address",
+          "label": "कृपया अपना ईमेल एड्रेस डालें",
           "placeholder": "Email address"
         },
         "password": {

@@ -127,145 +127,145 @@
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "trading": "Търгуване",
+    "personal": "Персонален",
+    "in-trades": "Постъпили сделки",
+    "transfer-funds": "Изпрати/Получи",
+    "pending-transfer": "Имате чакащ трансфер в размер на {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Погледнете вашите трансфери тук."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Приблизителна такса: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Максимум",
+    "use-last": "Използвай последната"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Недостатъчни средства",
+  "amount-each": "{{amount}} всяко",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Тотален дневен лимит",
+    "link": "Увеличи моито лимити",
+    "amount-of-max-amount": "{{amount}} от {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Ценообразуване",
+    "desc": "Nash калкулира 30 дневният среден обем от трейдове на потребителя използвайки обема от трейдове асоцирани с техния акаунт като процент от целия обем на борсата.",
+    "30-day-volume": "30-дневен обем",
+    "taker-fee": "Taker такса",
+    "maker-fee": "Maker такса",
+    "learn-more": "Научи повече за maker и taker поръчка."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Времето за изпълнение",
+    "subtitle": "Обоснови време, в което вашата поръчка ще остане в книгата с поръчки.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Валидно докато не се отмени",
+        "desc": "Вашата поръчка ще остане в книгата с поръчки до неопределено време - докато не се напълни или докато не я откажете."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Валидна докато има време",
+        "header-with-time": "Валидна до {{cancelAt}}",
+        "desc": "Вашата поръчка ще остане в книгата с поръчки до определеното от вас време. Ако не се напълни до това време ще бъде отказана."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Напълни или убий",
+        "desc": "Ако цялата ваша поръчка може да бъде запълнена незабавно, тогава ще се. Ако не може да бъде запълнена изцяло, тогава цялата поръчката ще бъде отказана."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Веднага или отказана",
+        "desc": "Колкото е възможно от вашата поръчка ще бъде запълнена незабавно. Останалата порция, която остане незапълнена ще бъде отказана."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
-    "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
+    "referrals": "Рефeрали",
+    "funds": "Финансови средства",
+    "exchange": "Борса",
+    "basic-exchange": "Опростена визия",
+    "basic-exchange-short": "Проста",
+    "advanced-exchange": "Професионална визия",
+    "advanced-exchange-short": "Про",
+    "markets": "Пазари",
+    "settings": "Моят акаунт",
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
     "accounts-main-menu": {
-      "title": "Services"
+      "title": "Услуги"
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Портфолио"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Нотификации",
+        "clear-all": "Изчисти всичко"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "initializing": "Инициализиране",
+        "initialized": "Трансферът започна",
+        "tooltip": "Имате започнат трансфер. Ако затворите Nash или излезете от профила си, ще бъде паузиран докато не влезете отново в профила си."
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Моят профил",
+        "support": "Поддръжка",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Светъл",
+          "dark": "Тъмен"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Излез от профила си",
+          "sign-in": "Влез в профила си",
+          "sign-in-create-account": "<1>Създай нов акаунт</1> или <0>Влез в профила си</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Общ"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Търгувай",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Борса",
+          "markets": "Пазари",
+          "orders": "Поръчки"
         },
         "exchange": {
           "switch": {
-            "pro": "Pro",
-            "simple": "Basic"
+            "pro": "Про",
+            "simple": "Опростена"
           }
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Финансови средства",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "portfolio": "Портфолио",
+          "transfers": "Трансфери",
+          "assets": "Активи",
+          "contacts": "Контакти"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Рефeрали"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Купи/Продай",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Купи/Продай",
+          "transactions": "Транзакции",
+          "payment-methods": "Платежни методи",
+          "profile": "Профил"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
+          "profile": "Профил",
+          "preferences": "Преференции",
+          "security": "Сигурност",
+          "limits": "Лимити",
+          "accounts": "Акаунти",
           "apikeys": "API\u00A0keys"
         }
       },
