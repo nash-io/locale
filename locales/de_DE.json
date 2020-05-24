@@ -2425,13 +2425,13 @@
       "per-month": "<0>{{value}}</0> pro Monat",
       "proof-of-address": "Nachweis der Adresse",
       "append-proof-of-address": "Einen weiteren Adressnachweis hinzufügen",
-      "proof-of-address-payment-method": "Du kannst <0>einen Zahlungsweg</0> hinzufügen, um diese Anforderung zu erfüllen."
+      "proof-of-address-payment-method": "Du kannst <0>einen Zahlungsart</0> hinzufügen, um diese Anforderung zu erfüllen."
     },
     "confirmed-transaction": {
       "order-created": "Deine Order wurde erstellt",
       "title": "Auftrag erstellt",
       "deposit": "Wir werden deine Assets auf dein persönliches Nash-Konto einzahlen, sobald deine Zahlung freigegeben ist.",
-      "delay": "Dies kann bis zu {{days}} Arbeitstage in Anspruch nehmen. Du kannst den Status deiner Einzahlung auf der Registerkarte <0>Transaktionen</0> einsehen.",
+      "delay": "Dies kann bis zu {{days}} Arbeitstage in Anspruch nehmen. Du kannst den Status deiner Einzahlung unter dem Tap <0>Transaktionen</0> einsehen.",
       "dismiss": "Die Transaktion anzeigen"
     },
     "review-sell-transaction": {
@@ -2472,12 +2472,12 @@
       "deposited-to": "Hinterlegt bei",
       "asset-deposited-to": "Assets hinterlegt bei",
       "expired": "Dieses Angebot ist vor {{value}} abgelaufen.",
-      "expired-message-1": "Dein garantierter Wechselkurs ist abgelaufen!",
-      "expired-message-2": "Eine veränderung kann deinen Wechselkurs aktualisieren.",
+      "expired-message-1": "Dein garantierter Wechselkurs ist nicht mehr gültig!",
+      "expired-message-2": "Eine veränderung des Preises kann deinen Wechselkurs aktualisieren.",
       "expires": "Dieses Angebot verfällt in {{value}}.",
       "happy-btn": "Angebot akzeptieren und Überweisung vornehmen",
       "original-cost": "",
-      "user-iban-label": "Verwendete IBAN"
+      "user-iban-label": "Verwendete IBAN",
       "payment-needed": "Zahlung erforderlich",
       "payment-status": "Zahlungsstatus",
       "payment-status-paid": "Bezahlt",
@@ -2489,7 +2489,7 @@
       "reason-for-failure": "Grund für das Scheitern",
       "recipient-details": "Wenn du deine Zahlung bereits abgeschickt hast, brauchst du nichts mehr zu tun. Wenn du deine Zahlung nicht sendest oder der erhaltene Betrag nicht mit dem oben genannten Gesamtbetrag übereinstimmt, stornieren wir deine Bestellung und erstatten den Betrag zurück.",
       "recipient-details-link": "Bankverbindung des Empfängers",
-      "get-or-cancel": "<0>Bankverbindung des Empfängers abrufen</0> oder <1>Dieses Zitat ablehnen</1>.",
+      "get-or-cancel": "<0>Bankverbindung des Empfängers abrufen</0> oder <1>dieses Angebot ablehnen</1>.",
       "refresh-btn": "Aktualisieren",
       "status": "Status der Währung",
       "step-payment": "Nehme deine Überweisung vor",
