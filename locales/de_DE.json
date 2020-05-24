@@ -139,7 +139,7 @@
     "max": "Max.",
     "use-last": "Letzter Preis"
   },
-  "insufficient-funds": "Unzureichende Mittel",
+  "insufficient-funds": "Unzureichendes Guthaben",
   "amount-each": "{{amount}} je Einheit",
   "daily-limit": {
     "title": "Handelslimit pro Tag",
@@ -152,28 +152,28 @@
     "30-day-volume": "30-tägiges Volumen",
     "taker-fee": "Taker-Gebühr",
     "maker-fee": "Maker-Gebühr",
-    "learn-more": "Mehr über Maker- und Taker-Aufträge erfahren."
+    "learn-more": "Mehr über Maker- und Taker-Orders erfahren."
   },
   "time-in-force-modal": {
     "title": "Gültig seit",
-    "subtitle": "Geben den Zeitraum an, für wie lange deine Auftrag im Auftragsbuch verbleiben soll.",
+    "subtitle": "Geben den Zeitraum an, für wie lange deine Order im Orderbuch verbleiben soll.",
     "sections": {
       "gtc": {
         "header": "Gut bis zur Stonierung",
-        "desc": "Deine Aufträge bleiben auf unbestimmte Zeit im Auftragsbuch - entweder bis sie gefüllt oder stoniert werden."
+        "desc": "Deine Order bleibt auf unbestimmte Zeit im Orderbuch - entweder bis sie gefüllt oder stoniert wird."
       },
       "gtt": {
         "header": "Gut bis zu eineme bestimmten Zeitpunkt",
         "header-with-time": "Gut bis {{cancelAt}}",
-        "desc": "Deine Aufträge bleiben bis zu dem von dir angegebenen Zeitpunkt im Auftragsbuch. Wenn der Auftrag zu diesem Zeitpunkt noch nicht gefüllt ist, wird dieser storniert."
+        "desc": "Deine Order bleibt bis zu dem von dir angegebenen Zeitpunkt im Orderbuch. Wenn die Order zu diesem Zeitpunkt noch nicht gefüllt ist, wird diese storniert."
       },
       "fok": {
         "header": "Füllen oder Stonieren",
-        "desc": "Wenn dein gesamter Auftrag sofort gefüllt wird, wird dieser ausgeführt. Wenn der Auftrag nicht vollständig gefüllt werden kann, wird der gesamte Auftrag storniert."
+        "desc": "Wenn deine gesamte Order sofort gefüllt wird, wird diese ausgeführt. Wenn die Order nicht vollständig gefüllt werden kann, wird die gesamte Order storniert."
       },
       "ioc": {
         "header": "Sofort oder abbrechen",
-        "desc": "Ein Großteil deines Auftrages wird sofort ausgeführt. Was nicht gefüllt wurde, wird storniert."
+        "desc": "Ein Großteil deiner Order wird sofort ausgeführt. Was nicht gefüllt wurde, wird storniert."
       }
     }
   },
@@ -229,7 +229,7 @@
         "pages": {
           "exchange": "Börse",
           "markets": "Märkte",
-          "orders": "Aufträge"
+          "orders": "Orders"
         },
         "exchange": {
           "switch": {
@@ -278,14 +278,14 @@
       }
     }
   },
-  "search": "Suchen…",
-  "loading": "Laden…",
-  "pending": "Anstehend…",
-  "cancelling": "Abbrechen…",
-  "authenticating": "Authentifizierung…",
-  "decrypting": "Entschlüsseln…",
-  "encrypting": "Verschlüsselung…",
-  "sending": "Senden…",
+  "search": "Suchen …",
+  "loading": "Laden …",
+  "pending": "Anstehend …",
+  "cancelling": "Abbrechen …",
+  "authenticating": "Authentifizierung …",
+  "decrypting": "Entschlüsseln …",
+  "encrypting": "Verschlüsselung …",
+  "sending": "Senden …",
   "submit": "Einreichen",
   "retry": "Erneut Versuchen",
   "sending-approval": "Genehmigung senden…",
@@ -312,7 +312,7 @@
       "incorrect": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist falsch. Sie haben maximal fünf Versuche.",
       "already-used": "Der eingegebene Zwei-Faktor-Authentifizierungscode wurde bereits verwendet. Bitte warten und erneut versuchen.",
       "code-expired": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist abgelaufen. Bitte warten und erneut versuchen.",
-      "too-many-failures": "Sie haben zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Wende dich bitte an unseren Kundenservice",
+      "too-many-failures": "Sie haben zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Wende dich bitte an unseren Kundenservice.",
       "too-many-failures-signout": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Du wirst nun abgemeldet."
     },
     "cryptography": {
@@ -532,7 +532,7 @@
           "title": "Tipps für ein sicheres Passwort",
           "desc": "Ein sicheres Passwort ist unerlässlich, um dein Guthaben zu schützen. Befolge diese Tipps, um abgesichert zu sein:",
           "tip-index": "Tipp {{index}}",
-          "tip-1": "Verwenden kein Passwort, das du auch auf anderen Websites nutzen, selbst wenn du einzelne Wörter oder Zeichen änderst. Wenn du von Phishing betroffen bist oder gehackt wurdest, ist dein Nash-Konto unmittelbar gefährdet.",
+          "tip-1": "Verwende kein Passwort, das du auch auf anderen Websites nutzen, selbst wenn du einzelne Wörter oder Zeichen änderst. Wenn du von Phishing betroffen bist oder gehackt wurdest, ist dein Nash-Konto unmittelbar gefährdet.",
           "tip-2": "Gebe in deinem Passwort keine persönlichen Daten an. Namen, Geburtstage und Adressen lassen sich leicht herausfinden. Deshalb solltest du sie meiden.",
           "tip-3": "Dein Passwort sollte mindestens zwölf Zeichen lang sein und sowohl Groß- und Kleinbuchstaben als auch Zahlen und Sonderzeichen enthalten.",
           "tip-4": "Verwende einen Passwort-Generator, um maximal sichere Passwörter zu erstellen und zu speichern."
@@ -551,7 +551,7 @@
     "verify-email": {
       "header": "Wir haben dir eine E-Mail geschickt!",
       "desc-1": "Bitte rufe deine E-Mail ab und verifiziere dein Konto.",
-      "desc-2": "Wenn du unsere E-Mail nicht finden kannst, überprüfen deinen Spam-Ordner.",
+      "desc-2": "Wenn du unsere E-Mail nicht finden kannst, überprüfe deinen Spam-Ordner.",
       "resend": "E-Mail erneut versenden",
       "resend-delay": "Bitte warte {{count}} Sekunde …",
       "resend-delay_plural": "Bitte warte {{count}} Sekunden …",
@@ -579,11 +579,11 @@
         "card-top": "Zwölf Geheimwörter",
         "card-top-right": "Wiederherstellung deines Nash-Kontos, wenn du dein Passwort vergessen hast.",
         "diamond-one": "werden verwendet bei",
-        "diamond-two": "generiert dein persönliches Konto, das folgende Konten enthält …",
+        "diamond-two": "generieren dein persönliches Konto, das folgende Wallets enthält …",
         "card-btc": "Bitcoin-Wallet",
         "card-neo": "NEO-Wallet",
         "card-eth": "Ethereum-Wallet",
-        "card-future": "Zukünftige Wallet"
+        "card-future": "Zukünftige Wallets"
       }
     },
     "secret-words": {
@@ -594,7 +594,7 @@
       "continue": "Ich habe meine Wörter aufgeschrieben.",
       "go-back": "Zurück",
       "written-down": "Ich habe meine Wörter aufgeschrieben.",
-      "check-my-backup": "Kontrolliere deine wörter",
+      "check-my-backup": "Kontrolliere deine Wörter",
       "tips": {
         "do": "Sicher",
         "dont": "Unsicher"
@@ -618,7 +618,7 @@
         "desc-3": "Schneide den Zettel an der entsprechenden Stelle auseinander. Am besten ist es, sie zu laminieren und an zwei verschiedenen Orten aufzubewahren."
       },
       "repeat-secret-words": {
-        "header": "Wiederholen die zwölf Geheimwörter.",
+        "header": "Wiederhole die zwölf Geheimwörter.",
         "desc": "Wir wollen sicherstellen, dass du deine Geheimwörter aufgeschrieben hast.",
         "input-placeholder": "{{index}}. Wort",
         "case-sensitive": "Alle Wörter sind kleingeschrieben",
@@ -695,7 +695,7 @@
       "my-portfolio": "Mein Portfolio"
     },
     "tips": {
-      "balance": "<0>Tipp</0> <1>Mittel zum Trading Contract hier senden.</1> <2 />"
+      "balance": "<0>Tipp</0> <1>Guthaben zum Trading Contract hier senden.</1> <2 />"
     },
     "no-markets": "Derzeit sind keine Märkte verfügbar.",
     "auth": {
@@ -800,7 +800,7 @@
       "sell": "{{currencySymbol}} verkaufen",
       "locked-trading-session": {
         "information": "Ihre Handelssitzung ist gesperrt. <0 />",
-        "information-tooltip": "Sitzung wird gesperrt, wenn du die Seite aktualisierst oder 15 Minuten lang abwesend warst.",
+        "information-tooltip": "Deine Sitzung wird gesperrt, wenn du die Seite aktualisierst oder 15 Minuten lang abwesend bist.",
         "enter-credentials-to-unlock": "<0>Jetzt freischalten</0>"
       },
       "market-orders-disabled": {
@@ -818,7 +818,7 @@
             "asset": "Vermögen",
             "personal": "Persönlich",
             "trading": "Handel",
-            "in-orders": "In Aufträgen",
+            "in-orders": "Im Handel",
             "pending": "Ausstehend"
           },
           "current-market": "Aktueller Markt",
@@ -829,25 +829,25 @@
       "fields": {
         "amount": {
           "label": "Menge",
-          "sub-label-market-buy": "Bei einer Market Order können wir nur schätzen, wie viel {{currencyA}} gekauft werden.",
-          "sub-label-market-sell": "Bei einer Market Order können wir nur schätzen, wie viel {{currencyB}} Sie erhalten werden.",
+          "sub-label-market-buy": "Bei einer Market Buy Order können wir nur schätzen, wie viel {{currencyA}} gekauft werden.",
+          "sub-label-market-sell": "Bei einer Market Sell Order können wir nur schätzen, wie viel {{currencyB}} erhalten werden.",
           "sub-label-limit-buy": "Wie viel {{currencySymbol}} möchtest du kaufen?",
           "sub-label-limit-sell": "Wie viel {{currencySymbol}} möchtest du verkaufen?",
           "estimate": "(Schätzung)",
           "errors": {
-            "insufficient-funds": "Unzureichende Mittel.",
-            "maybe-insufficient-funds": "Es kann sein, dass deine Mittel für diese Market Order nicht ausreichen.",
+            "insufficient-funds": "Unzureichendes Guthaben.",
+            "maybe-insufficient-funds": "Es kann sein, dass dein Guthaben für diese Market Order nicht ausreicht.",
             "order-too-small": "Die Gesamtsumme muss {{orderSize}} {{currencySymbol}} überschreiten.",
             "limit-breached": "Diese Order überschreitet dein Handelslimit."
           }
         },
         "cancel-at": {
-          "label": "Stornieren am",
+          "label": "Abbrechen am",
           "expires": "Läuft aus",
           "modal": {
             "label-no-selection": "Wähle ein Datum aus …",
             "errors": {
-              "is-past": "Du kannst keine Zeit in der Vergangenheit eingeben"
+              "is-past": "Du kannst keine Zeit in der Vergangenheit eingeben."
             }
           }
         },
@@ -866,7 +866,7 @@
           "label": "Preis"
         },
         "limit-price": {
-          "label": "Limitpreis",
+          "label": "Limit-Preis",
           "sub-label": "Deine Order wird anderen Order zu diesem oder einem besseren Preis zugeordnet.",
           "errors": {
             "maker-match": "‘Post only’-Order, die im aktuellen Orderbuch ausgeführt werden können, werden storniert."
@@ -874,7 +874,7 @@
         },
         "stop-price": {
           "label": "Stop-Preis",
-          "sub-label": "Der Stop-Preis löst einen weiteren Auftrag aus.",
+          "sub-label": "Der Stop-Preis löst eine weitere Order aus.",
           "errors": {
             "stop-trigger-immediately": "Dieser Stop-Preis wird deine Order sofort auslösen."
           }
@@ -888,7 +888,7 @@
         },
         "maker-only": {
           "label": "Post only",
-          "sub-label": "‘Post only’ gilt nur für Order als Maker, nicht als Taker. Es kann sein, dass ein Auftrag nicht ausgeführt wird."
+          "sub-label": "‘Post only’ gilt nur für Order als Maker, nicht als Taker. Es kann sein, dass eine Order nicht ausgeführt wird."
         },
         "cancellation-policy": {
           "label": "Gültigkeitsdauer",
@@ -901,29 +901,29 @@
       "submit": {
         "buy": "Kaufauftrag erteilen",
         "sell": "Verkaufsauftrag erteilen",
-        "placing": "Auftrag wird erteilt …"
+        "placing": "Order wird erteilt …"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Deine Order wurde wegen mangelnder Mittel abgelehnt.",
+        "order-rejected-insufficient-funds": "Deine Order wurde wegen mangelnden Guthabens abgelehnt.",
         "order-rejected-daily-limit-reached": "Deine Order wurde abgelehnt, da dein tägliches Handelslimit erreicht wurde.",
-        "generic": "Fehler bei der Auftragserteilung. Bitte erneut versuchen."
+        "generic": "Fehler bei der Ordererteilung. Bitte erneut versuchen."
       },
       "signin-or-create-an-account": "<0>Anmelden</0> oder <1>Konto anlegen</1> um eine Bestellung aufzugeben."
     },
     "my-orders": {
       "auth": "Melde dich an, um alle Order anzusehen.",
       "signed-out": {
-        "title": "<0>Get started</0><1> mit Nash</1>",
-        "subtitle": "Erstelle einen Account in weniger als einer Minute - kein KYC nötig!"
+        "title": "<0>Lege los</0><1> mit Nash</1>",
+        "subtitle": "Erstelle ein Konto in weniger als einer Minute - kein KYC nötig!"
       },
       "no-results": {
         "date-range": "Du hast keine Order in der angegebenen Zeitspanne.",
         "active": "Du hast keine offenen oder ausgeführten Orders.",
-        "active-open-only": "Sie haben keine offenen Order.",
-        "trades": "Sie haben keine Handelshistorie."
+        "active-open-only": "Du hast keine offenen Orders.",
+        "trades": "Du hast keine Handelshistorie."
       },
       "tabs": {
-        "orders": "Aufträge",
+        "orders": "Orders",
         "trades": "Handelshistorie"
       },
       "date-range-selection": {
@@ -964,9 +964,9 @@
         "header-title": "Typ",
         "header-title-with-currency": "{{currency}} type",
         "filter": {
-          "market": "Markt",
+          "market": "Market",
           "limit": "Limit",
-          "stop-market": "Stop-Markt",
+          "stop-market": "Stop-Market",
           "stop-limit": "Stop-Limit"
         },
         "cell-text": {
@@ -981,14 +981,14 @@
         }
       },
       "cancel-col": {
-        "header-title": "Alle stornieren",
-        "partial-fill": "Partial fill",
-        "cancelled-partial-fill": "Abbrechen: Partial fill",
+        "header-title": "Alle abbrechen",
+        "partial-fill": "Teilfüllung",
+        "cancelled-partial-fill": "Abgebrochen: Teilfüllung",
         "cancelled-order": "Order abbrechen"
       },
       "cancelled-unfilled-col": {
         "header-title": "Nicht gefüllt",
-        "header-title-with-currency": "{{currency}} Nicht gefüllte Menge"
+        "header-title-with-currency": "{{currency}} nicht gefüllte Menge"
       },
       "cancelled-filled-col": {
         "header-title": "Gefüllt",
@@ -996,7 +996,7 @@
       },
       "status-col": {
         "header-title": "Stand",
-        "open": "Öffnen",
+        "open": "Offen",
         "cancelled": "Annulliert",
         "filled": "Gefüllt",
         "pending": "Ausstehend"
