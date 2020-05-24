@@ -504,26 +504,26 @@
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Crea un account",
+      "subheader": "Dettagli account",
+      "continue": "Crea account",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Inserisci un indirizzo email",
+          "placeholder": "Indirizzo email"
         },
         "password": {
-          "label": "Create a password",
+          "label": "Crea una password",
           "placeholder": "Password",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "La password che hai scelto è troppo debole."
           }
         },
         "password-confirm": {
           "label": "Conferma la tua password",
-          "placeholder": "Confirm password",
+          "placeholder": "Conferma password",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Le password non corrispondono."
           }
         }
       },
