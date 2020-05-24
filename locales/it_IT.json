@@ -1230,30 +1230,30 @@
         }
       },
       "new-password": {
-        "tab-title": "Set password",
-        "header": "Set a new password",
-        "desc": "Create a new password for your Nash account.",
-        "header-success": "Success!",
-        "desc-success": "Your password was changed successfully.",
-        "desc-success-reset": "You will be able to set up new wallets the next time you sign in.",
+        "tab-title": "Imposta password",
+        "header": "Imposta una nuova password",
+        "desc": "Crea una nuova password per il tuo account Nash.",
+        "header-success": "Operazione riuscita!",
+        "desc-success": "La tua password è stata cambiata con successo.",
+        "desc-success-reset": "Potrai impostare nuovi wallet la prossima volta che accedi.",
         "fields": {
           "password": {
-            "label": "New password",
-            "placeholder": "New password",
+            "label": "Nuova password",
+            "placeholder": "Nuova password",
             "errors": {
-              "password-too-weak": "The password you chose is too weak."
+              "password-too-weak": "La password che hai scelto è troppo debole."
             }
           },
           "password-confirm": {
-            "label": "Confirm new password",
-            "placeholder": "Confirm new password",
+            "label": "Conferma password",
+            "placeholder": "Conferma nuova password",
             "errors": {
-              "passwords-do-not-match": "Passwords do not match."
+              "passwords-do-not-match": "Le password non corrispondono."
             }
           },
           "code": {
-            "label": "Two-factor authentication",
-            "placeholder": "Enter your two-factor authentication code"
+            "label": "Autenticazione a due fattori",
+            "placeholder": "Inserisci il tuo codice di autenticazione a due fattori"
           }
         },
         "errors": {
