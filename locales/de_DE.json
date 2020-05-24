@@ -678,7 +678,7 @@
       }
     },
     "messages": {
-      "create-order-blocked": "Du kannst keine Aufträge an der Börse für diesen Markt in deiner Region erstellen."
+      "create-order-blocked": "Du kannst keine Order an der Börse für diesen Markt in deiner Region erstellen."
     }
   },
   "advanced-exchange": {
@@ -717,7 +717,7 @@
     },
     "favorite-bar": {
       "empty": "<0>Deine favorisierten Märkte</0> erscheinen hier als Links.",
-      "tips": "<0>Tip</0> <1>Füge hier deine favoriten Markt als Link hinzu.</1> <2 />"
+      "tips": "<0>Tip</0> <1>Füge hier deine favorisierten Markt als Link hinzu.</1> <2 />"
     },
     "market-graphs": {
       "title": "Charts",
@@ -805,7 +805,7 @@
       },
       "market-orders-disabled": {
         "header": "Unzureichende Markttiefe",
-        "desc": "Derzeit liegen nicht genügend Order vor, um deine Market Order zu füllen."
+        "desc": "Derzeit liegt nicht genug Liquidität vor, um deine Market Order zu füllen."
       },
       "order-type-tab": {
         "market": "Markt",
@@ -856,7 +856,7 @@
         },
         "market-price": {
           "label": "Marktpreis",
-          "sub-label": "Wenn Sie zum Marktpreis kaufen oder verkaufen, wird deine Order den anderen Ordnern im Orderbuch zugeordnet."
+          "sub-label": "Wenn du zum Marktpreis kaufen oder verkaufen möchtest, wird deine Order den anderen Orders im Orderbuch zugeordnet."
         },
         "show-limit": {
           "label-hide": "Stop-Markt",
@@ -867,7 +867,7 @@
         },
         "limit-price": {
           "label": "Limitpreis",
-          "sub-label": "Deine Order wird anderen Ordern zu diesem oder einem besseren Preis zugeordnet.",
+          "sub-label": "Deine Order wird anderen Order zu diesem oder einem besseren Preis zugeordnet.",
           "errors": {
             "maker-match": "‘Post only’-Order, die im aktuellen Orderbuch ausgeführt werden können, werden storniert."
           }
@@ -939,7 +939,7 @@
           "apply": "Weiter"
         }
       },
-      "open-only-checkbox": "Nur offene Order",
+      "open-only-checkbox": "Nur offene Orders",
       "pairs-checkbox": "Alle Paare",
       "export": "Historie exportieren",
       "export-trades": "Exportiere Handelshistorie",
