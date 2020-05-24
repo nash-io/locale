@@ -2777,7 +2777,7 @@
             "title": "Trading Contract"
           },
           "in-orders": {
-            "title": "In Auftrag"
+            "title": "Im Handel"
           },
           "pending": {
             "title": "Ausstehend",
@@ -2797,10 +2797,10 @@
     "modals": {
       "verify-mnemonic": {
         "or": "oder",
-        "remindme": "Erinnere mich später noch einmal",
-        "dismiss": "Erinnere mich nicht noch einmal",
+        "remindme": "Erinnere mich später",
+        "dismiss": "Verstecken für immer",
         "havent-checked": "Du hast deine Zwölf-Wort-Datensicherung nicht überprüft",
-        "will-need": "Du benötigst diese Wörter, um auf deine Assets zuzugreifen zu können, wenn du dein Passwort zu deinen Nash Konto verlierst."
+        "will-need": "Du benötigst diese Wörter, um auf deine Assets zugreifen zu können, wenn du dein Passwort für dein Nash Konto verlierst."
       },
       "transfer-funds": {
         "title": "Senden/Empfangen",
@@ -2814,12 +2814,12 @@
             "to": "An"
           },
           "contacts": {
-            "label": "Ziel Adresse",
+            "label": "Ziel",
             "placeholder": "Einen Kontakt suchen oder an eine neue Adresse senden...",
             "wallet-address": "Senden an ‘{{address}}‘",
             "button-contacts": "Ansprechpartner",
             "select-contact": {
-              "no-options": "Gib mindestens drei Zeichen ein, um nach einem Kontakt oder einer gültige Walletadresse zu suchen",
+              "no-options": "Gib mindestens drei Zeichen ein, um nach einem Kontakt oder einer gültigen Walletadresse zu suchen",
               "no-results": "Keine Kontakte gefunden. Dies ist keine gültige Adresse.",
               "option": {
                 "no-email": "Keine E-Mail",
@@ -2829,7 +2829,7 @@
             }
           },
           "destination-address": {
-            "label": "Ziel Adresse",
+            "label": "Ziel",
             "placeholder": "Nur {{currency}} an diese Adresse senden",
             "errors": {
               "invalid-wallet": "Ungültige Adresse"
@@ -2842,28 +2842,28 @@
           },
           "transfer-amount": {
             "label": "Menge",
-            "network-transaction-fee": "maximale Transaktionsgebühr",
-            "loading-fee": "Lade Gebühr…",
+            "network-transaction-fee": "maximale Netzwerkgebühr",
+            "loading-fee": "Gebühr wird geladen…",
             "errors": {
-              "gas-shortage": "Du benötigst mindestens {{amount}} {{currencySymbol}} auf auf deinem persönlichen Konto, um Transaktionsgebühren zu bezahlen.",
+              "gas-shortage": "Du benötigst mindestens {{amount}} {{currencySymbol}} auf auf deinem persönlichen Konto, um die Netzwerkgebühr zu bezahlen.",
               "fee-shortage": "Du benötigst mindestens {{amount}} ETH für die Ethereum Transaktionsgebühr.",
-              "fee-shortage-trading": "Du benötigst mindestens {{amount}} ETH in deinem persönlichen Konto für die Ethereum Transaktionsgebühren."
+              "fee-shortage-trading": "Du benötigst mindestens {{amount}} ETH in deinem persönlichen Konto für die Ethereum Netzwerkgebühr."
             }
           },
           "btc": {
-            "funds-not-confirmed": "Ihr Bitcoin-Guthaben erfordert sechs Bestätigungen des Bitcoin Netwerks, bevor es auf dein Trading Contract übertragen werden kann. Bitte warte, bis die letzten Überweisungen bestätigt werden.",
+            "funds-not-confirmed": "Dein Bitcoin-Guthaben erfordert sechs Bestätigungen im Bitcoin-Netwerks, bevor die Bitcoin auf dein Trading Contract übertragen werden können. Bitte warte, auf die sechs Bestätigungen.",
             "wait-until-external-transfer-completes": "Bitte warte, bis deine letzte externe Überweisung abgeschlossen ist, bevor du eine Einzahlung vornimmst.",
             "temporary-limit": "Ein- und Auszahlungen von Bitcoin müssen größer als 0,001 BTC sein, während wir diesen neuen Markt testen. Die Beschränkung wird in naher Zukunft aufgehoben."
           },
           "async": {
-            "title": "Ihre Transaktion",
+            "title": "Ihre Überweisung",
             "errors": {
               "syncing": "Wir synchronisieren deine {{currencySymbol}}-Assets in unserem System. Bitte warte eine Minute und versuche es noch einmal.",
-              "transaction-failed": "Deine letzte {{currencySymbol}}-Transaktion ist fehlgeschlagen. Bitte versuche es noch einmal."
+              "transaction-failed": "Deine letzte {{currencySymbol}}-Überweisung ist fehlgeschlagen. Bitte versuche es noch einmal."
             }
           },
           "fees": {
-            "eth-recommended-message": "Wir empfehlen dir, auf deinen persönlichen Konto immer einen kleinen Betrag (~{{amount}} ETH) für Ethereum-Transaktionsgebühren bereitzustellen. ‘Max.’ wird diesen Betrag einbehalten. Du kannst dein gesamten Saldo trotzdem manuell eingeben."
+            "eth-recommended-message": "Wir empfehlen dir, auf deinen persönlichen Konto immer einen kleinen Betrag (~{{amount}} ETH) für Ethereum-Netzwerkgebühr bereitzustellen. ‘Max.’ wird diesen Betrag einbehalten. Du kannst dein gesamtes Guthaben trotzdem manuell eingeben."
           },
           "precision": {
             "neo-trading": "Du kannst keine Teilbeträge (z.b. 0,1 NEO) von NEO versenden oder abheben."
@@ -2893,7 +2893,7 @@
             }
           },
           "confirming-balance": "Bitte warte, während wir deine Guthaben bestätigen.",
-          "waiting-for-sync": "Dein Guthaben wird derzeit mit der Blockchain synchronisiert. Dieser Vorgang kann bis zu fünf Minuten dauern. Bitte tätige deine Überweisung in wenigen Augenblicken noch einmal.",
+          "waiting-for-sync": "Dein Guthaben wird derzeit mit der Blockchain synchronisiert. Dieser Vorgang kann bis zu fünf Minuten dauern. Bitte tätige dein Überweisung in wenigen Augenblicken noch einmal.",
           "errors": {
             "send": "Überweisung fehlgeschlagen. Bitte versuche es später noch einmal.",
             "syncing": "Deine letzte Überweisung wird noch verarbeitet. Das kann bis zu zwei Minuten dauern. Bitte warte kurz und versuche es noch einmal.",
