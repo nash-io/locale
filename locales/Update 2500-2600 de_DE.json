@@ -2512,14 +2512,14 @@
       "name-registered": "Das Bankkonto, über das du bezahlst, muss auf den gleichen Namen wie dein Nash-Konto registriert sein.",
       "make-transfer-soon": "Bitte nehme deine Überweisung so schnell wie möglich vor. Wenn wir deine Überweisung nicht innerhalb von fünf Tagen erhalten, wird deine Bestellung storniert. Das Bankkonto, über das du bezahlst, muss auf den gleichen Namen wie dein Nash-Konto registriert sein.",
       "reference": "Referenz",
-      "need-to-include": "Das musst du mit einbeziehen.",
+      "need-to-include": "Muss immer im Verwendungszweck angegeben werden!",
       "iban": "IBAN",
       "bank-swift": "Bank SWIFT",
       "bank-country": "Land der Bank",
       "decline-this-quote": "Dieses Angebot ablehnen",
       "bank-name": "Name der Bank",
       "recipient-name": "Name des Empfängers",
-      "must-make-payment": "Bitte nehmen die Überweisung so schnell wie möglich vor. Wenn wir deine Überweisung nicht innerhalb von fünf Tagen erhalten, wird deine Bestellung storniert. Du hast die Möglichkeit, diesen Kauf zu stornieren und eine Rückerstattung zu erhalten, bevor deine Banküberweisung freigegeben wird.",
+      "must-make-payment": "Bitte nehme die Überweisung so schnell wie möglich vor. Wenn wir deine Überweisung nicht innerhalb von fünf Tagen erhalten, wird deine Bestellung storniert. Du hast die Möglichkeit, diesen Kauf zu stornieren und eine Rückerstattung zu erhalten, bevor deine Banküberweisung freigegeben wird.",
       "btn-cancel-quote": "Angebot ablehnen",
       "btn-close-quote": "schließen",
       "btn-made-payment": "Ich habe die Überweisung getätigt"
@@ -2560,7 +2560,7 @@
       "include-reference": "Das musst du mit einbeziehen.",
       "proof-of-payment": "Zahlungsnachweis",
       "transfer-instructions-singular": "Überweise <0>{{amount}}</0> auf das folgende Bankkonto:",
-      "transfer-instructions-plural": "Überweise <0>{{amount}}</0> auf eines der folgenden Bankkonten:",
+      "transfer-instructions-plural": "Überweise <0>{{amount}}</0> auf eins der folgenden Bankkonten:",
       "include-payment-reference": "Um deinen Kauf abzuschließen, lade einen Screenshot Ihrer Überweisung als Zahlungsnachweis hoch.",
       "reference": "Referenz",
       "bank-name": "Name der Bank",
@@ -2569,14 +2569,14 @@
       "bank-address": "Anschrift der Bank",
       "bank-iban": "IBAN",
       "upload-proof-of-payment": "Bitte lade einen Zahlungsnachweis, z.B. einen Transaktions-Screenshot von deiner Online-Banking-Plattform hoch.",
-      "proof-of-payment-file-formats": "Das Bild muss im BMP-, JPEG-, PDF- oder PNG-Format haben.",
+      "proof-of-payment-file-formats": "Das Bild muss im BMP-, JPEG-, PDF- oder PNG-Format sein.",
       "create-account": {
-        "enter-registration-code": "Gebe deinen Registrierungscode ein"
+        "enter-registration-code": "Gib deinen Registrierungscode ein"
       },
       "order-created": {
         "title": "Ihr Auftrag wurde erstellt",
-        "description": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald Ihre Überweisung freigegeben ist. Dies kann bis zu einem Arbeitstag dauern. Du kannst den Status deiner Einzahlung auf dem Tab <0>Transaktionen</0> einsehen.",
-        "description_plural": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald Ihre Überweisung freigegeben ist. Dies kann bis zu {{count}} Werktage dauern. Du kannst den Status deiner Einzahlung auf dem Tab <0>Transaktionen</0> einsehen.",
+        "description": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald Ihre Überweisung freigegeben ist. Dies kann bis zu einem Arbeitstag dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
+        "description_plural": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald deine Überweisung freigegeben ist. Dies kann bis zu {{count}} Werktage dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
         "button": "Beenden"
       },
       "profile-details": {
@@ -2589,13 +2589,13 @@
         "sell-limits": "Verkaufs-Limit"
       },
       "buy-steps": {
-        "review-quote": "Überprüfen dein Angebot",
-        "make-payment": "Mache deine Überweisung",
+        "review-quote": "Angebot überprüfen",
+        "make-payment": "Überweisung tätigen",
         "upload-proof-of-payment": "Zahlungsnachweis hochladen"
       },
       "error": {
         "invalid-data": "Ungültige Daten.",
-        "unhandled-error": "Es ist ein unbekannter Fehler aufgetreten. Bitte lade erneut und versuche es dann erneut."
+        "unhandled-error": "Ein unbekannter Fehler ist aufgetreten. Bitte lade deine Dokumente hoch und versuche es dann erneut."
       },
       "validation": {
         "first-name-required": "Vorname ist erforderlich.",
