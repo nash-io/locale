@@ -47,13 +47,13 @@
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Jste si jistí, že chcete zneplatnit všechny vaše klíče?",
-      "confirm-button-label": "Navždy zneplatnit všechny vaše klíče",
+      "body": "Jste si jistí, že chcete znehodnotit všechny vaše klíče?",
+      "confirm-button-label": "Navždy znehodnotit všechny vaše klíče",
       "cancel-button-label": "Zpět"
     },
     "delete-token": {
-      "body": "Jste si jistí, že chcete znehodnotit ‘<0></0>’?",
-      "confirm-button-label": "Navždy znehodnotit",
+      "body": "Jste si jistí, že chcete znehodnotit všechny vaše klíče?‘<0></0>’?",
+      "confirm-button-label": "Navždy znehodnotit všechny vaše klíče",
       "cancel-button-label": "Zpět"
     },
     "edit-whitelisted": {
@@ -127,176 +127,176 @@
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Obchodovací účet",
-    "personal": "Osobní účet",
-    "in-trades": "V příkazech",
-    "transfer-funds": "Poslat/Přijmout",
-    "pending-transfer": "Máte čekající transfer o velikosti {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "Náhled transakcí zde."
+    "trading": "Trading",
+    "personal": "Personal",
+    "in-trades": "In trades",
+    "transfer-funds": "Send/Receive",
+    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "View your transfers here."
   },
-  "estimated-fee": "Očekávané poplatky: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
-    "use-last": "Použít poslední"
+    "use-last": "Use last"
   },
-  "insufficient-funds": "Nedosatek prostředků",
-  "amount-each": "{{amount}} každý",
+  "insufficient-funds": "Insufficient funds",
+  "amount-each": "{{amount}} each",
   "daily-limit": {
-    "title": "Denní limit",
-    "link": "Zvýšit mé limity",
-    "amount-of-max-amount": "{{amount}} z {{maxAmount}}"
+    "title": "Total daily limit",
+    "link": "Increase my limits",
+    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Poplatková struktura",
-    "desc": "Nash počítá váš objem pro výpočet poplatků dle 30 denního klouzavého průměru vašeho obchodovaného objemu v poměru k celkovému obchodovanému objemu na burze.",
-    "30-day-volume": "30 denní objemy",
+    "title": "Fee structure",
+    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
+    "30-day-volume": "30-day volume",
     "taker-fee": "Taker fee",
     "maker-fee": "Maker fee",
-    "learn-more": "Zjistěte více o maker a taker příkazech."
+    "learn-more": "Learn more about maker and taker orders."
   },
   "time-in-force-modal": {
-    "title": "Čas platnosti příkazu",
-    "subtitle": "Specifikujte čas, po který bude váš příkaz platný.",
+    "title": "Time in force",
+    "subtitle": "Specify the time period for which your order will remain on the book.",
     "sections": {
       "gtc": {
         "header": "Good ’til canceled",
-        "desc": "Váš příkaz zůstane platný navždy - do doby než bude vypořádán nebo ho zrušíte."
+        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
       },
       "gtt": {
         "header": "Good ’til time",
         "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Váš příkaz bude platný do doby, kterou specifikujete. Pokud nebude vypořádán do té doby, bude zrušený."
+        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
       },
       "fok": {
         "header": "Fill or kill",
-        "desc": "Pokud váš příkaz může být vypořádán kompletně a v plné své výši, tak bude. Pokud ne, tak bude zrušený."
+        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
       },
       "ioc": {
         "header": "Immediate or cancel",
-        "desc": "Tolik, kolik z vašeho příkazu může být vypořádáno tak bude, zbytek příkazu bude zrušený."
+        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Vaše doporučení",
-    "funds": "Finanční zdroje",
-    "exchange": "Burza",
-    "basic-exchange": "Jednoduchá směnárna",
-    "basic-exchange-short": "Základní",
-    "advanced-exchange": "Profesionální zobrazení",
+    "referrals": "Referrals",
+    "funds": "Funds",
+    "exchange": "Exchange",
+    "basic-exchange": "Basic view",
+    "basic-exchange-short": "Basic",
+    "advanced-exchange": "Pro view",
     "advanced-exchange-short": "Pro",
-    "markets": "Trhy",
-    "settings": "Můj účet",
-    "fiat-ramps": "Poslání fiat peněz"
+    "markets": "Markets",
+    "settings": "My account",
+    "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
     "accounts-main-menu": {
-      "title": "Služby"
+      "title": "Services"
     },
     "user-menus": {
       "portfolio": {
         "label": "Portfolio"
       },
       "notifications": {
-        "label": "Notifikace",
-        "clear-all": "Zrušit všechny"
+        "label": "Notifications",
+        "clear-all": "Clear all"
       },
       "transfers": {
-        "initializing": "Posílám",
-        "initialized": "Transfer započal",
-        "tooltip": "Stále započínáte transfer. Pokud Nash zavřete, transfer bude pozastaven do doby, než se znovu přihlásíte."
+        "initializing": "Initializing",
+        "initialized": "Transfer initialized",
+        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
       },
       "general-menu": {
-        "settings": "Můj účet",
-        "support": "Podpora",
+        "settings": "My profile",
+        "support": "Support",
         "theme": {
-          "light": "Světlé",
-          "dark": "Tmavé"
+          "light": "Light",
+          "dark": "Dark"
         },
         "auth": {
-          "sign-out": "Odhlásit se",
-          "sign-in": "Přihlásit se",
-          "sign-in-create-account": "<1>Vytvořit účet</1> nebo se <0>přihlásit</0>"
+          "sign-out": "Sign out",
+          "sign-in": "Sign in",
+          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
         },
         "tabs": {
-          "general": "Obecné"
+          "general": "General"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Obchod",
+        "title": "Trade",
         "pages": {
-          "exchange": "Burza",
-          "markets": "Trhy",
-          "orders": "Příkazy"
+          "exchange": "Exchange",
+          "markets": "Markets",
+          "orders": "Orders"
         },
         "exchange": {
           "switch": {
             "pro": "Pro",
-            "simple": "Základní"
+            "simple": "Basic"
           }
         }
       },
       "funds": {
-        "title": "Finanční prostředky",
+        "title": "Funds",
         "pages": {
           "portfolio": "Portfolio",
-          "transfers": "Transfery",
-          "assets": "Aktiva",
-          "contacts": "Kontakty"
+          "transfers": "Transfers",
+          "assets": "Assets",
+          "contacts": "Contacts"
         }
       },
       "referrals": {
-        "title": "Doporučení"
+        "title": "Referrals"
       },
       "fiat-ramps": {
-        "title": "Koupit/Prodat",
+        "title": "Buy/Sell",
         "pages": {
-          "buy-sell": "Koupit/Prodat",
-          "transactions": "Transakce",
-          "payment-methods": "Platební metody",
-          "profile": "Profil"
+          "buy-sell": "Buy/Sell",
+          "transactions": "Transactions",
+          "payment-methods": "Payment methods",
+          "profile": "Profile"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profil",
-          "preferences": "Preference",
-          "security": "Bezpečnost",
-          "limits": "Limity",
-          "accounts": "Účty",
+          "profile": "Profile",
+          "preferences": "Preferences",
+          "security": "Security",
+          "limits": "Limits",
+          "accounts": "Accounts",
           "apikeys": "API\u00A0keys"
         }
       },
       "staking": {
         "title": "Staking",
         "pages": {
-          "all-stakes": "Všechny staky",
-          "statements": "Výkazy"
+          "all-stakes": "All stakes",
+          "statements": "Statements"
         }
       }
     }
   },
-  "search": "Hledat…",
-  "loading": "Nahrávám…",
-  "pending": "Čeká na vyřízení",
-  "cancelling": "Ruším…",
-  "authenticating": "Ověřuji…",
-  "decrypting": "Rozšifrovávám…",
-  "encrypting": "Zašifrovávám…",
-  "sending": "Posílám…",
-  "submit": "Odeslat",
-  "retry": "Zkusit znovu",
-  "sending-approval": "Odesáílám žádost…",
-  "send-approval": "Poslat žádost",
-  "submit-transfer": "Započít transferr",
-  "no-longer-sufficient-balance-for-tx": "Váš balance není dostatečný na tuto transakci.",
-  "we-are-hiring": "Nabíráme zaměstnance",
+  "search": "Search…",
+  "loading": "Loading…",
+  "pending": "Pending",
+  "cancelling": "Canceling…",
+  "authenticating": "Authenticating…",
+  "decrypting": "Decrypting…",
+  "encrypting": "Encrypting…",
+  "sending": "Sending…",
+  "submit": "Submit",
+  "retry": "Retry",
+  "sending-approval": "Sending approval…",
+  "send-approval": "Send approval",
+  "submit-transfer": "Submit transfer",
+  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
+  "we-are-hiring": "We’re hiring",
   "errors": {
-    "location-banned-title": "Přístup odepřen",
-    "location-banned": "Bohužel Nash zatím nemůže fungovat ve vaší jurisdikci.",
-    "invalid-clock-title": "Hodiny vašeho počítače nejsou synchronizovny s časem internetu.",
+    "location-banned-title": "Access blocked",
+    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
+    "invalid-clock-title": "Your computer’s clock is not accurate.",
     "permissions-issue-title": "Permissions Issue",
     "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
     "network-issue-title": "Network issue",
@@ -504,224 +504,224 @@
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Vytvořit účet",
+      "subheader": "Informace o účtu",
+      "continue": "Vytvořit účet",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Napište vaší emailovou adresu",
+          "placeholder": "Emailová adresa"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Zvolte si heslo",
+          "placeholder": "Heslo",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Heslo, které jste si zvolili je moc slabé."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Potvrďte vaše heslo",
+          "placeholder": "Potvrdit heslo",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Hesla nejsou stejná."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
+          "title": "Tipy pro silné heslo",
+          "desc": "Silné heslo je velmi důležité pro ochránění vašich finančních prostředků. Následujte tyto kroky abyste adekvátně ochránili vaše finance:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "tip-1": "Nepoužívejte stejné heslo jako u vašich jiných účtů i pokud změníte pouze pár jednotlivých znaků. Pokud útočník zjistí vaše heslo z jiných webových stránek a použije ho zde, bude váš účet zneužit.",
+          "tip-2": "Nepoužívejte osobní údaje v heslu jako například jména, narozeniy, adresy. Útočník je lehce zjistí a tudíž byste se jich v heslu měli vyvarovat.",
+          "tip-3": "Zvolte si heslo, které je minimálně 12 znaků dlouhé a obsahuje mix velkých a malých písmen, čísel a speciálnních znaků.",
+          "tip-4": "Zvažte využití ověřených generátorů hesel pro vygenerování a uložení hesel."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Pro silné heslo požijte mix velkých a malých písmen, čísel a speciálnních znaků.",
+        "tips": "Tipy pro zvolení silného hesla",
+        "password-strength": "Bezpečnost hesla",
+        "weak": "Slabé",
+        "medium": "Střední",
+        "strong": "Silné",
+        "very-strong": "Velmi silné"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "Poslali jsme vám email!",
+      "desc-1": "Prosím zkontrolujte si váš email a ověřte si váš účet.",
+      "desc-2": "Pokud nevidíte náš email zkontrolujte si prosím vaší spamovou složku.",
+      "resend": "Zaslat znovu ověřovací email",
+      "resend-delay": "Prosím vyčkejte {{count}} vteřinu…",
+      "resend-delay_plural": "Prosím vyčkejte {{count}} vteřin…",
+      "back": "Zpátky k přihlášení",
+      "success": "Ověřovací email vám byl úspěšně zaslaný!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Chyba při znovuu zasílání ověřovacího emailu. Prosím zkuste to znovu."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Vytvořit účet",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "12 tajných slov",
+      "Dvoufázové ověření"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "Obecné informace",
+      "header": "Jdeme vytvořit váš osobní účet",
+      "desc-1": "Váš osobní účet je vygenerován použitím vašich 12 tajných slov. Pokud ztratíte heslo, můžete se přihlásit k vašemu účtu a resetovat vaše heslo použitím vašich 12 tajných slov. Z tohoto důvodu je velmi důležité abyste si správně zálohovali a bezpečně uložili těchto vašich 12 tajných slov.",
+      "continue": "Získat mých 12 tajných slov",
+      "skip2Fa": "Nastavit později",
       "chart": {
-        "card-top": "Twelve secret words",
-        "card-top-right": "Nash account recovery if password is forgotten",
-        "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
-        "card-btc": "Bitcoin account",
-        "card-neo": "NEO account",
-        "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "card-top": "12 tajných slov",
+        "card-top-right": "Obnovení Nash účtu při zapomenutí hesla",
+        "diamond-one": "Použito v",
+        "diamond-two": "Generovat váš osobní účet, který obsahuje…",
+        "card-btc": "Bitcoin účet",
+        "card-neo": "NEO účet",
+        "card-eth": "Ethereum účet",
+        "card-future": "Všechny další budoucí účty"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "title": "Tajná slova",
+      "header": "Důsledně si zapište vašich 12 tajných slov",
+      "desc": "tyto slova jsou použitá k získání přístupu k vašim finančním zdrojům. Budete je také potřebovat pro případné obnovení hesla.",
+      "popup-error": "POkud si přejete vytisknout vaše tajná slova vypnětesi prosím blokaci popup oken a dovolte Nashi otevřít popup okno.",
+      "continue": "Pokračovat",
+      "go-back": "Jít zpět",
+      "written-down": "Důsledně jsem si napsal svá tajná slova.",
+      "check-my-backup": "Zkontrolovat mojí zálohu",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Napište si vaše tajná slova rukuo na papír.",
+        "dont": "Nevytvářejte screenshoty obrazovky a ani si neukládejte slova v jiné digitální podobě."
       },
       "modals": {
         "print-warning": {
-          "title": "Print your twelve secret words",
-          "header": "Please make sure your printer is secure!",
-          "body-desc": "If you choose to print your words, make sure:",
-          "body-tips-0": "Your printer is connected to your computer directly with a USB cable.",
-          "body-tips-1": "Your printer is not connected to a network of any kind.",
-          "body-tips-2": "It is impossible for others to connect to your printer via Bluetooth, WLAN, etc.",
-          "button": "I understand - print my words"
+          "title": "Vytisknout vašich 12 tajných slov",
+          "header": "Prosím ujistěte se, že vaše tiskárna je bezpečná!",
+          "body-desc": "Pokud se rozhodnete tisknout vaše tajná slova ujistěte se, že:",
+          "body-tips-0": "Vaše tiskárna je přímo připojená do vašeho počítače použitím USB kabelu.",
+          "body-tips-1": "Vaše tiskárna není připojená do žádné sítě.",
+          "body-tips-2": "Pro kohokoliv jiného je nemožné se připojit k vaší tiskárně použitím například Bluetooth, Wi-Fi, atd.",
+          "button": "Rozumím - Vytisknout má slova"
         }
       },
-      "print-window-title": "Nash | Secret word backup",
+      "print-window-title": "Nash | Záloha 12 tajných slov",
       "backup-print": {
-        "header": "Secret word backup",
-        "desc-1": "Your twelve secret words can be used to access your ETH, NEO and other accounts if you lose your Nash password.",
-        "desc-2": "Remember: if anyone gains access to your words, your funds are in danger.",
-        "desc-3": "Cut out the slips below. Consider laminating them and storing them in two separate locations."
+        "header": "Záloha tajných slov",
+        "desc-1": "Vašich 12 tajných slov může být použito k získání přístupu k vašim ETH, NEO a dalším účtům pokud ztratíte přístup ke svému heslu.",
+        "desc-2": "Nezapomeňte: pokud někdo získá přístup k vašim 12 tajným slovům, budou vaše finanční prostředky v ohrožení.",
+        "desc-3": "Roztříhněte papír se zálohou na dvě části, zavžte jestli je nezalaminovat a neuložit na dvě různá bezpečná místa." 
       },
       "repeat-secret-words": {
-        "header": "Repeat your twelve secret words",
-        "desc": "We want to make sure you wrote down your secret words.",
-        "input-placeholder": "Word {{index}}",
-        "case-sensitive": "All words are lowercase",
-        "create-my-wallet": "Create my account",
-        "generating-your-wallet": "Generating your Nash account…",
+        "header": "Znovu napsání vašich 12 tajných slov.",
+        "desc": "Chceme se ujistit, že jste si vaše tajná slova napsal správně.",
+        "input-placeholder": "Slovo {{index}}",
+        "case-sensitive": "Všechna slova jsou napsána malými písmeny",
+        "create-my-wallet": "Vytvořit účet",
+        "generating-your-wallet": "Generujeme váš Nash účet…",
         "errors": {
-          "create-wallet-failed": "There was an error when creating your account. Please <0>sign out</0> and try again."
+          "create-wallet-failed": "Je nám líto. Nastala chyba při vytváření vašeho účtu. Prosím <0>odhlašte se</0> a zkuste to znovu."
         }
       },
       "wallet-created": {
-        "header": "Your Nash account was created successfully!",
-        "desc": "You can find your twelve secret words and individual account details under ‘My profile > Accounts’.",
-        "warning": "<0>We do not store your secret words in any location.</0> If you forget your password, you will not be able to access your funds without these words.",
-        "continue": "Set up two-factor authentication",
-        "continue-location": "Set location of residence"
+        "header": "Gratulujeme! Váš Nash účet byl úspěšně vytvořen!",
+        "desc": "Vašich 12 tajných slov a informace o vašem osobním účtu můžete najít v sekci ‘Můj účet > Účty’.",
+        "warning": "<0>Nash neukládá žádná vaše tajná slova na žádném místě.</0> Pokud zapomenete vaše heslo nebude možné získat přístup k vašemu účtu bez těchto tajných slov.",
+        "continue": "Nastavit dvoufázové ověření",
+        "continue-location": "Nastavit místo bydliště"
       }
     },
     "2fa": {
-      "title": "Two-factor authentication",
-      "header": "Recommended: Enable two-factor authentication",
-      "skip": "Skip",
-      "desc": "Two-factor authentication (2FA) adds an extra layer of security to your account.",
+      "title": "Dvoufázové ověření",
+      "header": "Doporučujeme nastvavit dvoufázové ověření",
+      "skip": "Přeskočit",
+      "desc": "Dvoufázové ověření (2FA) dodá vašemu účtu další úroveň zabezpečení.",
       "cards": {
         "1": {
-          "header": "Download and install an authenticator app",
-          "desc": "Such as <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+          "header": "Stáhnout a nainstalovat ověřovací aplikaci",
+          "desc": "Napřklad <0>LastPass Authenticator</0>, <1>Authy</1> nebo <2>Google Authenticator</2>."
         },
         "2": {
-          "header": "Scan this QR code with your chosen downloaded app",
-          "manual-2fa": "Write down your 2FA backup code"
+          "header": "Naskenujte tento QR kód vaší vybranou a stáhnutou aplikací",
+          "manual-2fa": "Napište si váš zálohovací kód dvoufázového ověření."
         },
         "3": {
-          "header": "Enter the verification code generated by your authenticator app",
-          "input-placeholder": "Authentication code",
-          "input-error": "The code you entered was incorrect."
+          "header": "Napište váš ověřovací kód vygenerovaný vaší ověřovací aplikací",
+          "input-placeholder": "ověřovací kód",
+          "input-error": "Vložený kód byl nesprávný."
         }
       },
       "confirm": {
-        "header": "Two-factor authentication has been set up!",
-        "desc": "You can find your two-factor authentication preferences under ‘My profile > Security’ within the Nash web platform.",
-        "action": "What do you want to do now?",
-        "continue-deposit": "Deposit funds",
-        "continue-explore": "Explore"
+        "header": "Dvoufázové ověření bylo úspěšně nastavené!",
+        "desc": "Vaše preference dvoufázového ověření naleznete pod ‘Můj účet > Bezpečnost’ uvnitř Nash webové platformy.",
+        "action": "Co byste chtěl udělat nyní?",
+        "continue-deposit": "Zaslat finance",
+        "continue-explore": "Prozkoumat Nash"
       }
     }
   },
   "trade": {
     "footer": {
-      "title-limits": "Limits",
-      "title-balances-and-limits": "Balances and limits",
-      "increase-my-limits": "Increase my limits",
+      "title-limits": "Limity",
+      "title-balances-and-limits": "Zůstatky a limity",
+      "increase-my-limits": "Zvýšit mé limity",
       "limits": {
-        "day": "Day",
-        "month": "Month",
-        "year": "Year",
-        "spend-of-limit": "of"
+        "day": "Denní",
+        "month": "Měsíční",
+        "year": "Roční",
+        "spend-of-limit": "z"
       }
     },
     "messages": {
-      "create-order-blocked": "You are unable to create orders on the exchange for this market in your region."
+      "create-order-blocked": "Nemůžete vytvořit příkaz pro tento trh ve vašem regionu."
     }
   },
   "advanced-exchange": {
-    "title": "Pro view",
+    "title": "Pro zobrazení",
     "header": {
-      "switch-to-simplified": "Switch to basic view",
-      "current-market": "Market",
-      "last-price": "Last traded price",
-      "last-24h": "Last 24h",
-      "24h-change": "change",
-      "24h-high": "High",
-      "24h-low": "Low",
-      "24h-volume": "Volume",
-      "my-portfolio": "My portfolio"
+      "switch-to-simplified": "Změnit na jednoduché zobrazení",
+      "current-market": "Trh",
+      "last-price": "Poslední obchodovaná cena",
+      "last-24h": "Poslendí 24h",
+      "24h-change": "změna",
+      "24h-high": "Nejvyšší",
+      "24h-low": "Nejnižší",
+      "24h-volume": "Objemy",
+      "my-portfolio": "Mé portfolio"
     },
     "tips": {
-      "balance": "<0>Tip</0> <1>Send funds to the trading contract here.</1> <2 />"
+      "balance": "<0>Tip</0> <1>Pošlete si finance na váš obchodovací účet zde.</1> <2 />"
     },
-    "no-markets": "No markets are currently available.",
+    "no-markets": "Žádné trhy nejsou nyní k dispozici.",
     "auth": {
-      "to-start-trading": "To start trading"
+      "to-start-trading": "Začít obchodovat"
     },
     "balances": {
-      "title": "Accounts"
+      "title": "Účty"
     },
     "market-selection": {
-      "no-results": "We couldn’t find any results for <0>{{searchTerm}}</0>.",
-      "no-favorites": "You have no favorite markets yet.",
-      "pair": "Pair",
-      "24hvol": "24h volume",
-      "24hprice": "24h change",
+      "no-results": "Nenašli jsme žádné výsledky pro <0>{{searchTerm}}</0>.",
+      "no-favorites": "Zatím nemáte nastavené oblíbené trhy.",
+      "pair": "Pár",
+      "24hvol": "24h objemy",
+      "24hprice": "24h změna",
       "tabs": {
-        "all": "All",
-        "favorites": "Favorites"
+        "all": "Vše",
+        "favorites": "Oblíbené"
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0>\u00A0appear as links here.",
-      "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
+      "empty": "<0>Vaše oblíbené trhy se</0>\u00A0zobrazí jako odkyza zde.",
+      "tips": "<0>Tip</0> <1>Přidejte si sem vaše oblíbené trhy.</1> <2 />"
     },
     "market-graphs": {
-      "title": "Graphs",
+      "title": "Grafy",
       "price-chart": {
-        "title": "Price",
+        "title": "Cena",
         "heads-up-display": {
           "ohlc": {
             "o": "O",
@@ -729,24 +729,24 @@
             "l": "L",
             "c": "C"
           },
-          "vol": "Volume"
+          "vol": "Objemy"
         },
         "chart-types": {
           "bars": "Bars",
-          "candles": "Candles",
-          "hollow-candles": "Hollow candles",
+          "candles": "Svícový",
+          "hollow-candles": "Prázné svíce",
           "heikin-ashi": "Heikin-Ashi",
-          "line": "Line",
-          "area": "Area"
+          "line": "Linie",
+          "area": "Plocha"
         },
         "studies": {
-          "title": "Indicators",
-          "search": "Search",
-          "no-results": "No results for your criteria"
+          "title": "Indikátory",
+          "search": "hledat",
+          "no-results": "Žádné výsledky pro vaše kritéria"
         },
         "price-chart-selector": {
-          "chart-iq": "Standard chart",
-          "trading-view": "TradingView chart"
+          "chart-iq": "Standardní graf",
+          "trading-view": "TradingView graf"
         },
         "candle-frequency": {
           "1m": "1m",
@@ -756,47 +756,47 @@
           "6h": "6h",
           "12h": "12h",
           "1d": "1d",
-          "1w": "1w",
+          "1w": "1t",
           "1M": "1M"
         },
         "study-overlay-menu": {
-          "edit-study": "Edit settings",
-          "remove-study": "Remove indicator"
+          "edit-study": "Upravit nastavení",
+          "remove-study": "Odebrat indikátor"
         },
         "edit-study-modal": {
           "tabs": {
             "inputs": {
-              "label": "Inputs"
+              "label": "Vstupní parametry"
             },
             "outputs": {
-              "label": "Style"
+              "label": "Styl"
             },
             "parameters": {
-              "label": "Settings"
+              "label": "Nastavení"
             }
           },
           "buttons": {
             "update": {
-              "label": "Update"
+              "label": "Změnit"
             },
             "cancel": {
-              "label": "Cancel"
+              "label": "Zrušit"
             }
           }
         }
       },
       "depth-chart": {
-        "title": "Depth",
+        "title": "Hloubka",
         "tooltip": {
-          "price": "Price: <0>{{price}}</0>",
-          "volume": "Volume: <0>{{volume}}</0>"
+          "price": "Cena: <0>{{price}}</0>",
+          "volume": "Objemy: <0>{{volume}}</0>"
         }
       },
-      "clear-studies-button-label": "Clear all indicators"
+      "clear-studies-button-label": "Smazat všechny indikátory"
     },
     "create-order": {
-      "buy": "Buy {{currencySymbol}}",
-      "sell": "Sell {{currencySymbol}}",
+      "buy": "Koupit {{currencySymbol}}",
+      "sell": "Prodat {{currencySymbol}}",
       "locked-trading-session": {
         "information": "Your trading session is locked. <0 />",
         "information-tooltip": "Sessions are locked when you refresh the page or are idle for 15 minutes.",
@@ -1111,95 +1111,95 @@
       "continue": "Pokračovat"
     },
     "missing-country": {
-      "header": "Before you continue…",
-      "subheader": "Where do you live?",
+      "header": "Než budete pokračovat…",
+      "subheader": "Kde žijete?",
       "messages": {
-        "vpn-warning-title": "We noticed you’re using a VPN.",
-        "vpn-warning-body": "Please disable any VPN or proxy services to continue.",
+        "vpn-warning-title": "Všimli jsme si, že používáte VPN.",
+        "vpn-warning-body": "Abyste mohli pokračovat, prosím vypněte všechny VPN nebo proxy.",
         "update-country": {
-          "failed": "We could not update your country of residence. Please try again later or contact support."
+          "failed": "Nemohli jsme aktualizovat údaj o zemi trvalého pobytu. Zkuste to prosím později nebo kontaktujte support."
         }
       },
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Země trvalého pobytu"
         },
         "state": {
-          "label": "State"
+          "label": "Stát"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Potvrzuji, že toto je země mého trvalého pobytu."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Potvrzuji, že toto jsou moje země a stát trvalého pobytu."
         }
       }
     },
     "signin": {
-      "header": "Sign in to Nash",
-      "header-2fa": "Two-factor authentication",
+      "header": "Příhlísi se do Nash",
+      "header-2fa": "Dvoufázové ověření",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "Emailová adresa",
+          "placeholder": "Emailová adresa"
         },
         "password": {
-          "label": "Password",
-          "sub-label": "Forgotten password?",
-          "placeholder": "Password"
+          "label": "Heslo",
+          "sub-label": "Zapomněli jste heslo?",
+          "placeholder": "Heslo"
         },
         "remember-me": {
-          "label": "Remember me"
+          "label": "Pamatovat si mě"
         }
       },
       "messages": {
         "password-change": {
-          "success": "If the email address you provide matches an account already in our database, we’ll send you instructions on how to reset your password."
+          "success": "Pokud se vámi zadaná emailová adresa shoduje s adresou účtu v naší databázi, pošleme vám email s instrukcemi jak resetovat vaše heslo."
         },
         "update-email": {
-          "validation-success": "We have sent a verification email to your new email address. Please click the link in that email to confirm your new address.",
-          "updated-success": "Your email address has been updated. You can now sign in using your new address."
+          "validation-success": "Právě jsme vám zaslali ověřovací email na vaši novou emailovou adresu. Klikněte prosím na link v tomto emailu a potvrďte vaší novou emailovou adresu.",
+          "updated-success": "Vaše emailová adresa byla zaktualizována. Nyní se můžete s pomocí této nové emailové adresy přihlásit."
         },
         "verify-email": {
-          "success": "Your email address has been verified. Please sign in to set up your account.",
-          "error": "Could not verify email address. The verification code may have expired. Please log in and request another verification email."
+          "success": "Vaše emailová adresa byla ověřena. Prosím přihlašte se a dokončete tím nastavení účtu.",
+          "error": "Nemohli jsme ověřit vaši emailovou adresu. Ověřovacímu kódu vypršela platnost. Prosím přihlašte se a vyžádejte si nový ověřovací email."
         }
       },
       "errors": {
-        "invalid-email": "The email address you provided is invalid.",
-        "invalid-password": "You must provide a password.",
-        "signin-failed": "It appears your email or password is incorrect.",
-        "locked": "Your account is temporarily locked. Please try again later.",
-        "revoked": "Your account is permanently locked. Please contact support."
+        "invalid-email": "Emailová adresa kterou jste vložili je neplatná.",
+        "invalid-password": "Musíte zadat heslo.",
+        "signin-failed": "Vámi zadaný email nebo heslo jsou nesprávné.",
+        "locked": "Váš účet je dočasně zablokován. Prosím, zkuste to později.",
+        "revoked": "Váš účet byl zablokován. Prosím, kontaktujte support."
       }
     },
     "forgot-password": {
-      "tab-title": "Forgotten password",
-      "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back\u00A0on\u00A0track.",
+      "tab-title": "Zapomenuté heslo",
+      "header": "Zapomněli jste heslo?",
+      "desc": "Zadejte vaši emailovou adresu níže a my vám\u00A0s\u00A0tím\u00A0pomůžeme.",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "Emailová adresa",
+          "placeholder": "Emailová adresa"
         }
       },
-      "submit": "Request reset link",
-      "success": "We’ve sent you a password reset email. If you don’t see our email, check your junk folder."
+      "submit": "Vyžádat odkaz na reset",
+      "success": "Právě jsme vám zaslali email s odkazem na reset hesla. Pokud email nevidíte ve složce doručené, zkontrolujte složku pro nevyžádané emaily."
     },
     "reset-password": {
-      "missing-email": "Something went wrong. Please click the link in your email again.",
-      "expired-code": "This session is no longer valid. Please click the link in your email again.",
+      "missing-email": "Někde nastala chyba. Prosím klikněte ještě jednou na odkaz ve vašem emailu.",
+      "expired-code": "Tato relace je již neplatná. Prosím klikněte ještě jednou na odkaz ve vašem emailu.",
       "steps": [
-        "Confirm secret words",
-        "New password"
+        "Potvrďte uschovaná slova",
+        "Nové heslo"
       ],
       "secret-words": {
         "home": {
-          "header": "Do you still have your twelve secret words?",
-          "sub-header": "When you first set up your Nash account, we asked you to write these words down and keep them safe.",
-          "button-have-words": "Yes, I still have my secret words",
-          "button-lost-words": "No, I have lost my secret words",
-          "desc": "Unfortunately, if you have lost both your old password and your twelve secret words, you will be unable to recover your funds."
+          "header": "Máte stále vašich 12 uschovaných slov?",
+          "sub-header": "Když jste poprvé nastavovali účet na Nash, žádali jsme vás o zapsání si a uschování těchto tajných slov někam na bezpečné místo.",
+          "button-have-words": "Ano, mám svá uschovaná slova k dispozici",
+          "button-lost-words": "Ne, ztratil jsem 12 tajných slov",
+          "desc": "Je nám líto, ale pokud jste zapomněli vaše heslo a zároveň ztratili 12 tajných slov, není možné obnovit přístup k vašim prostředkům."
         },
         "edit": {
           "header": "Enter your twelve secret words",
@@ -1443,147 +1443,147 @@
   },
   "countries": {
     "AD": "Andorra",
-    "AE": "Spojené arabské emiráty",
-    "AF": "Afghánistán",
-    "AG": "Antigua a Barbuda",
+    "AE": "United Arab Emirates",
+    "AF": "Afghanistan",
+    "AG": "Antigua and Barbuda",
     "AI": "Anguilla",
-    "AL": "Albánie",
-    "AM": "Arménie",
+    "AL": "Albania",
+    "AM": "Armenia",
     "AO": "Angola",
-    "AQ": "Antarktida",
+    "AQ": "Antarctica",
     "AR": "Argentina",
-    "AS": "Americká Samoa",
-    "AT": "Rakousko",
-    "AU": "Austrálie",
+    "AS": "American Samoa",
+    "AT": "Austria",
+    "AU": "Australia",
     "AW": "Aruba",
-    "AX": "Ålandské ostrovy",
-    "AZ": "Ázerbájdžán",
-    "BA": "Bosna and Hercegovina",
+    "AX": "Åland Islands",
+    "AZ": "Azerbaijan",
+    "BA": "Bosnia and Herzegovina",
     "BB": "Barbados",
-    "BD": "Bangladéš",
-    "BE": "Belgie",
+    "BD": "Bangladesh",
+    "BE": "Belgium",
     "BF": "Burkina Faso",
-    "BG": "Bulharsko",
-    "BH": "Bahrajn",
+    "BG": "Bulgaria",
+    "BH": "Bahrain",
     "BI": "Burundi",
     "BJ": "Benin",
-    "BL": "Svatý Bartoloměj",
-    "BM": "Bermudy",
-    "BN": "Brunei",
-    "BO": "Bolívie",
-    "BQ": "Bonaire, Saba a Svatý Eustach",
-    "BR": "Brazílie",
-    "BS": "Bahamy",
-    "BT": "Bhútán",
-    "BV": "Bouvetův ostrov",
+    "BL": "Saint Barthélemy",
+    "BM": "Bermuda",
+    "BN": "Brunei Darussalam",
+    "BO": "Bolivia (Plurinational State of)",
+    "BQ": "Bonaire, Sint Eustatius and Saba",
+    "BR": "Brazil",
+    "BS": "Bahamas",
+    "BT": "Bhutan",
+    "BV": "Bouvet Island",
     "BW": "Botswana",
-    "BY": "Bělorusko",
+    "BY": "Belarus",
     "BZ": "Belize",
-    "CA": "Kanada",
-    "CC": "Kokosové ostrovy",
-    "CD": "Kongo (Kinshasa)",
-    "CF": "Středoafrická republika",
-    "CG": "Kongo",
-    "CH": "Švýcarsko",
-    "CI": "Pobřeží slonoviny",
-    "CK": "Cookovy ostrovy",
+    "CA": "Canada",
+    "CC": "Cocos (Keeling) Islands",
+    "CD": "Congo (Democratic Republic of the)",
+    "CF": "Central African Republic",
+    "CG": "Congo",
+    "CH": "Switzerland",
+    "CI": "Côte d’Ivoire",
+    "CK": "Cook Islands",
     "CL": "Chile",
-    "CM": "Kamerun",
-    "CN": "Čína",
-    "CO": "Kolumbie",
-    "CR": "Kostarika",
-    "CU": "Kuba",
-    "CV": "Kapverdy",
+    "CM": "Cameroon",
+    "CN": "China",
+    "CO": "Colombia",
+    "CR": "Costa Rica",
+    "CU": "Cuba",
+    "CV": "Cabo Verde",
     "CW": "Curaçao",
-    "CX": "Vánoční ostrov",
-    "CY": "Kypr",
-    "CZ": "Česká republika",
-    "DE": "Německo",
-    "DJ": "Džibutsko",
-    "DK": "Dánsko",
-    "DM": "Dominika",
-    "DO": "Dominikánská republika",
-    "DZ": "Alžírsko",
-    "EC": "Ekvádor",
-    "EE": "Estonsko",
+    "CX": "Christmas Island",
+    "CY": "Cyprus",
+    "CZ": "Czech Republic",
+    "DE": "Germany",
+    "DJ": "Djibouti",
+    "DK": "Denmark",
+    "DM": "Dominica",
+    "DO": "Dominican Republic",
+    "DZ": "Algeria",
+    "EC": "Ecuador",
+    "EE": "Estonia",
     "EG": "Egypt",
-    "EH": "Západní Sahara",
+    "EH": "Western Sahara",
     "ER": "Eritrea",
-    "ES": "Španělsko",
-    "ET": "Etiopie",
-    "FI": "Finsko",
-    "FJ": "Fidži",
-    "FK": "Falklandy",
-    "FM": "Mikronésie",
-    "FO": "Faerské Ostrovy",
-    "FR": "Francie",
+    "ES": "Spain",
+    "ET": "Ethiopia",
+    "FI": "Finland",
+    "FJ": "Fiji",
+    "FK": "Falkland Islands (Malvinas)",
+    "FM": "Micronesia (Federated States of)",
+    "FO": "Faroe Islands",
+    "FR": "France",
     "GA": "Gabon",
-    "GB": "Spojené království Velké Británie a Severního Irska",
+    "GB": "United Kingdom of Great Britain and Northern Ireland",
     "GD": "Grenada",
-    "GE": "Gruzie",
-    "GF": "Francouzská Guyana",
+    "GE": "Georgia",
+    "GF": "French Guiana",
     "GG": "Guernsey",
     "GH": "Ghana",
     "GI": "Gibraltar",
-    "GL": "Grónsko",
+    "GL": "Greenland",
     "GM": "Gambia",
     "GN": "Guinea",
     "GP": "Guadeloupe",
-    "GQ": "Rovníková Guinea",
-    "GR": "Řecko",
-    "GS": "Jižní Georgie a Jižní Sandwichovy ostrovy",
+    "GQ": "Equatorial Guinea",
+    "GR": "Greece",
+    "GS": "South Georgia and the South Sandwich Islands",
     "GT": "Guatemala",
     "GU": "Guam",
     "GW": "Guinea-Bissau",
     "GY": "Guyana",
-    "HK": "Hongkong",
-    "HM": "Heardův ostrov a McDonaldovy ostrovy",
+    "HK": "Hong Kong",
+    "HM": "Heard Island and McDonald Islands",
     "HN": "Honduras",
-    "HR": "Chorvatsko",
+    "HR": "Croatia",
     "HT": "Haiti",
-    "HU": "Maďarsko",
-    "ID": "Indonésie",
-    "IE": "Irsko",
-    "IL": "Izrael",
-    "IM": "Man",
-    "IN": "Indie",
-    "IO": "Britské indickooceánské území",
-    "IQ": "Irák",
-    "IR": "Irán",
-    "IS": "Island",
-    "IT": "Itálie",
+    "HU": "Hungary",
+    "ID": "Indonesia",
+    "IE": "Ireland",
+    "IL": "Israel",
+    "IM": "Isle of Man",
+    "IN": "India",
+    "IO": "British Indian Ocean Territory",
+    "IQ": "Iraq",
+    "IR": "Iran (Islamic Republic of)",
+    "IS": "Iceland",
+    "IT": "Italy",
     "JE": "Jersey",
-    "JM": "Jamajka",
-    "JO": "Jordánsko",
-    "JP": "Japonsko",
-    "KE": "Keňa",
-    "KG": "Kyrgyzstán",
-    "KH": "Kambodža",
+    "JM": "Jamaica",
+    "JO": "Jordan",
+    "JP": "Japan",
+    "KE": "Kenya",
+    "KG": "Kyrgyzstan",
+    "KH": "Cambodia",
     "KI": "Kiribati",
-    "KM": "Komory",
-    "KN": "Svatý Kryštof a Nevis",
-    "KP": "Severní Korea",
-    "KR": "Jižní Korea",
-    "KW": "Kuvajt",
-    "KY": "Kajmanské ostrovy",
-    "KZ": "Kazachstán",
-    "LA": "Laoská lidově demokratická republika",
-    "LB": "Libanon",
-    "LC": "Svatá Lucie",
-    "LI": "Lichtenštejnsko",
-    "LK": "Srí Lanka",
-    "LR": "Libérie",
+    "KM": "Comoros",
+    "KN": "Saint Kitts and Nevis",
+    "KP": "North Korea",
+    "KR": "South Korea",
+    "KW": "Kuwait",
+    "KY": "Cayman Islands",
+    "KZ": "Kazakhstan",
+    "LA": "Lao People’s Democratic Republic",
+    "LB": "Lebanon",
+    "LC": "Saint Lucia",
+    "LI": "Liechtenstein",
+    "LK": "Sri Lanka",
+    "LR": "Liberia",
     "LS": "Lesotho",
-    "LT": "Litva",
-    "LU": "Lucembursko",
-    "LV": "Lotyšsko",
-    "LY": "Libye",
-    "MA": "Maroko",
-    "MC": "Monako",
-    "MD": "Moldavsko",
-    "ME": "Černá Hora",
-    "MF": "Svatý Martin (Francouzská část)",
-    "MG": "Madagaskar",
+    "LT": "Lithuania",
+    "LU": "Luxembourg",
+    "LV": "Latvia",
+    "LY": "Libya",
+    "MA": "Morocco",
+    "MC": "Monaco",
+    "MD": "Moldova (Republic of)",
+    "ME": "Montenegro",
+    "MF": "Saint Martin (French part)",
+    "MG": "Madagascar",
     "MH": "Marshall Islands",
     "MK": "Macedonia (the former Yugoslav Republic of)",
     "ML": "Mali",
