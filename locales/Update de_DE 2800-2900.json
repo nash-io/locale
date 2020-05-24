@@ -2777,7 +2777,7 @@
             "title": "Trading Contract"
           },
           "in-orders": {
-            "title": "In Aufträgen"
+            "title": "In Auftrag"
           },
           "pending": {
             "title": "Ausstehend",
@@ -2797,10 +2797,10 @@
     "modals": {
       "verify-mnemonic": {
         "or": "oder",
-        "remindme": "Erinnern Sie mich später daran",
-        "dismiss": "Für immer entlassen",
-        "havent-checked": "Sie haben Ihre Zwölf-Wort-Datensicherung nicht überprüft",
-        "will-need": "Sie benötigen diese Worte, um auf Ihre Gelder zuzugreifen, wenn Sie Ihr Passwort verlieren."
+        "remindme": "Erinnere mich später noch einmal",
+        "dismiss": "Erinnere mich nicht noch einmal",
+        "havent-checked": "Du hast deine Zwölf-Wort-Datensicherung nicht überprüft",
+        "will-need": "Du benötigst diese Wörter, um auf deine Assets zuzugreifen zu können, wenn du dein Passwort zu deinen Nash Konto verlierst."
       },
       "transfer-funds": {
         "title": "Senden/Empfangen",
@@ -2814,62 +2814,62 @@
             "to": "An"
           },
           "contacts": {
-            "label": "Reiseziel",
+            "label": "Ziel Adresse",
             "placeholder": "Einen Kontakt suchen oder an eine neue Adresse senden...",
             "wallet-address": "Senden an ‘{{address}}‘",
             "button-contacts": "Ansprechpartner",
             "select-contact": {
-              "no-options": "Geben Sie mindestens drei Zeichen ein, um nach einem Kontakt oder einer gültigen Brieftaschenadresse zu suchen",
+              "no-options": "Gib mindestens drei Zeichen ein, um nach einem Kontakt oder einer gültige Walletadresse zu suchen",
               "no-results": "Keine Kontakte gefunden. Dies ist keine gültige Adresse.",
               "option": {
                 "no-email": "Keine E-Mail",
-                "no-wallet-name": "Kein Name der Brieftasche",
-                "no-wallet-address": "Keine Brieftaschenadresse"
+                "no-wallet-name": "Kein Walletname",
+                "no-wallet-address": "Keine Walletadresse"
               }
             }
           },
           "destination-address": {
-            "label": "Empfängeradresse",
+            "label": "Ziel Adresse",
             "placeholder": "Nur {{currency}} an diese Adresse senden",
             "errors": {
               "invalid-wallet": "Ungültige Adresse"
             }
           },
           "movement": {
-            "error": "Bitte warten Sie, bis Ihre letzte Ethereum-Überweisung abgeschlossen ist.",
-            "pending-error": "Bitte warten Sie, bis Ihre ausstehende Ethereum-Überweisung abgeschlossen ist.",
+            "error": "Bitte warte, bis deine letzte Ethereum-Überweisung abgeschlossen ist.",
+            "pending-error": "Bitte warte, bis deine ausstehende Ethereum-Überweisung abgeschlossen ist.",
             "token-requires-approval": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieser Token in den Trading Contract überwiesen werden kann."
           },
           "transfer-amount": {
             "label": "Menge",
             "network-transaction-fee": "maximale Transaktionsgebühr",
-            "loading-fee": "Loading fee…",
+            "loading-fee": "Lade Gebühr…",
             "errors": {
-              "gas-shortage": "Sie benötigen mindestens {{amount}} {{currencySymbol}} auf Ihrem persönlichen Konto, um Transaktionsgebühren zu bezahlen.",
-              "fee-shortage": "You must save {{amount}} ETH for the Ethereum network fee.",
-              "fee-shortage-trading": "You need {{amount}} ETH in your personal account for Ethereum network fees."
+              "gas-shortage": "Du benötigst mindestens {{amount}} {{currencySymbol}} auf auf deinem persönlichen Konto, um Transaktionsgebühren zu bezahlen.",
+              "fee-shortage": "Du benötigst mindestens {{amount}} ETH für die Ethereum Transaktionsgebühr.",
+              "fee-shortage-trading": "Du benötigst mindestens {{amount}} ETH in deinem persönlichen Konto für die Ethereum Transaktionsgebühren."
             }
           },
           "btc": {
-            "funds-not-confirmed": "Ihr Bitcoin-Guthaben erfordert sechs Netzbestätigungen, bevor Sie auf den Handelskontrakt übertragen können. Bitte warten Sie, bis die letzten Überweisungen bestätigt werden.",
-            "wait-until-external-transfer-completes": "Bitte warten Sie, bis Ihre letzte externe Überweisung abgeschlossen ist, bevor Sie eine Einzahlung vornehmen.",
-            "temporary-limit": "Ein- und Auszahlungen von Bitcoin müssen größer als 0,001 BTC sein, während wir diesen neuen Markt testen. Die Beschränkung wird in naher Zukunft aufgehoben werden."
+            "funds-not-confirmed": "Ihr Bitcoin-Guthaben erfordert sechs Bestätigungen des Bitcoin Netwerks, bevor es auf dein Trading Contract übertragen werden kann. Bitte warte, bis die letzten Überweisungen bestätigt werden.",
+            "wait-until-external-transfer-completes": "Bitte warte, bis deine letzte externe Überweisung abgeschlossen ist, bevor du eine Einzahlung vornimmst.",
+            "temporary-limit": "Ein- und Auszahlungen von Bitcoin müssen größer als 0,001 BTC sein, während wir diesen neuen Markt testen. Die Beschränkung wird in naher Zukunft aufgehoben."
           },
           "async": {
             "title": "Ihre Transaktion",
             "errors": {
-              "syncing": "Wir synchronisieren Ihre {{currencySymbol}}-Assets in unserem System. Bitte warten Sie eine Minute und versuchen Sie es noch einmal.",
-              "transaction-failed": "Ihre letzte {{currencySymbol}}-Transaktion ist fehlgeschlagen. Bitte versuchen Sie es noch einmal."
+              "syncing": "Wir synchronisieren deine {{currencySymbol}}-Assets in unserem System. Bitte warte eine Minute und versuche es noch einmal.",
+              "transaction-failed": "Deine letzte {{currencySymbol}}-Transaktion ist fehlgeschlagen. Bitte versuche es noch einmal."
             }
           },
           "fees": {
-            "eth-recommended-message": "Wir empfehlen Ihnen, auf Ihrem persönlichen Konto immer einen kleinen Betrag (~{{amount}} ETH) für Ethereum-Transaktionsgebühren bereitzustellen. ‘Max.’ wird diesen Betrag einbehalten. Sie können Ihren gesamten Saldo trotzdem manuell eingeben."
+            "eth-recommended-message": "Wir empfehlen dir, auf deinen persönlichen Konto immer einen kleinen Betrag (~{{amount}} ETH) für Ethereum-Transaktionsgebühren bereitzustellen. ‘Max.’ wird diesen Betrag einbehalten. Du kannst dein gesamten Saldo trotzdem manuell eingeben."
           },
           "precision": {
-            "neo-trading": "Sie können keine Teilbeträge von NEO versenden oder abheben."
+            "neo-trading": "Du kannst keine Teilbeträge (z.b. 0,1 NEO) von NEO versenden oder abheben."
           },
           "maximum": {
-            "amount": "Unzureichendes Gleichgewicht."
+            "amount": "Unzureichendes Guthaben."
           },
           "deposit": {
             "label": "Ihr persönliches Konto",
@@ -2886,18 +2886,18 @@
           "transfer-details": {
             "title": "Überweisungsdetails",
             "rows": {
-              "amount-label": "Sie überweisen",
+              "amount-label": "Du überweist",
               "from-label": "Von",
               "to-label": "An",
               "fee-label": "Transaktionsgebühr"
             }
           },
-          "confirming-balance": "Bitte warten Sie, während wir Ihren Saldo bestätigen.",
-          "waiting-for-sync": "Ihr Saldo wird derzeit mit der Blockchain synchronisiert. Dieser Vorgang kann bis zu fünf Minuten dauern. Bitte tätigen Sie die Überweisung in wenigen Augenblicken noch einmal.",
+          "confirming-balance": "Bitte warte, während wir deine Guthaben bestätigen.",
+          "waiting-for-sync": "Dein Guthaben wird derzeit mit der Blockchain synchronisiert. Dieser Vorgang kann bis zu fünf Minuten dauern. Bitte tätige deine Überweisung in wenigen Augenblicken noch einmal.",
           "errors": {
-            "send": "Überweisung fehlgeschlagen. Bitte versuchen Sie es später noch einmal.",
-            "syncing": "Ihre letzte Überweisung wird noch verarbeitet. Das kann bis zu zwei Minuten dauern. Bitte warten Sie kurz und versuchen Sie es noch einmal.",
-            "insufficient-funds": "Your current balance is insufficient for this transfer or you currently have a transfer in progress. Please wait and try again."
+            "send": "Überweisung fehlgeschlagen. Bitte versuche es später noch einmal.",
+            "syncing": "Deine letzte Überweisung wird noch verarbeitet. Das kann bis zu zwei Minuten dauern. Bitte warte kurz und versuche es noch einmal.",
+            "insufficient-funds": "Deine derzeitiges Guthaben ist nicht ausreichend für diese Überweisung oder du tätigst gerade eine andere Überweisung. Bitte, warte und versuche es später noch einmal."
           },
           "buttons": {
             "back": "Zurück",
