@@ -829,8 +829,8 @@
       "fields": {
         "amount": {
           "label": "Menge",
-          "sub-label-market-buy": "Bei einer Market Buy Order können wir nur schätzen, wie viel {{currencyA}} gekauft werden.",
-          "sub-label-market-sell": "Bei einer Market Sell Order können wir nur schätzen, wie viel {{currencyB}} erhalten werden.",
+          "sub-label-market-buy": "Bei einer Buy Order können wir nur schätzen, wie viel {{currencyA}} gekauft werden.",
+          "sub-label-market-sell": "Bei einer Sell Order können wir nur schätzen, wie viel {{currencyB}} erhalten werden.",
           "sub-label-limit-buy": "Wie viel {{currencySymbol}} möchtest du kaufen?",
           "sub-label-limit-sell": "Wie viel {{currencySymbol}} möchtest du verkaufen?",
           "estimate": "(Schätzung)",
@@ -838,7 +838,7 @@
             "insufficient-funds": "Unzureichendes Guthaben.",
             "maybe-insufficient-funds": "Es kann sein, dass dein Guthaben für diese Market Order nicht ausreicht.",
             "order-too-small": "Die Gesamtsumme muss {{orderSize}} {{currencySymbol}} überschreiten.",
-            "limit-breached": "Diese Order überschreitet dein Handelslimit."
+            "limit-breached": "Diese Market Order überschreitet dein Handelslimit."
           }
         },
         "cancel-at": {
@@ -856,7 +856,7 @@
         },
         "market-price": {
           "label": "Marktpreis",
-          "sub-label": "Wenn du zum Marktpreis kaufen oder verkaufen möchtest, wird deine Order den anderen Orders im Orderbuch zugeordnet."
+          "sub-label": "Wenn du zum Marktpreis kaufen oder verkaufen möchtest, wird deine Market Order den anderen Order im Orderbuch zugeordnet."
         },
         "show-limit": {
           "label-hide": "Stop-Markt",
@@ -867,7 +867,7 @@
         },
         "limit-price": {
           "label": "Limit-Preis",
-          "sub-label": "Deine Order wird anderen Order zu diesem oder einem besseren Preis zugeordnet.",
+          "sub-label": "Deine Market Order wird anderen Order zu diesem oder einem besseren Preis zugeordnet.",
           "errors": {
             "maker-match": "‘Post only’-Order, die im aktuellen Orderbuch ausgeführt werden können, werden storniert."
           }
@@ -876,7 +876,7 @@
           "label": "Stop-Preis",
           "sub-label": "Der Stop-Preis löst eine weitere Order aus.",
           "errors": {
-            "stop-trigger-immediately": "Dieser Stop-Preis wird deine Order sofort auslösen."
+            "stop-trigger-immediately": "Dieser Stop-Preis wird deine Market Order sofort auslösen."
           }
         },
         "shared": {
@@ -888,7 +888,7 @@
         },
         "maker-only": {
           "label": "Post only",
-          "sub-label": "‘Post only’ gilt nur für Order als Maker, nicht als Taker. Es kann sein, dass eine Order nicht ausgeführt wird."
+          "sub-label": "‘Post only’ gilt nur für Market Order als Maker, nicht als Taker. Es kann sein, dass eine Market Order nicht ausgeführt wird."
         },
         "cancellation-policy": {
           "label": "Gültigkeitsdauer",
@@ -904,22 +904,22 @@
         "placing": "Order wird erteilt …"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Deine Order wurde wegen mangelnden Guthabens abgelehnt.",
-        "order-rejected-daily-limit-reached": "Deine Order wurde abgelehnt, da dein tägliches Handelslimit erreicht wurde.",
+        "order-rejected-insufficient-funds": "Deine Market Order wurde wegen mangelnden Guthabens abgelehnt.",
+        "order-rejected-daily-limit-reached": "Deine Market Order wurde abgelehnt, da dein tägliches Handelslimit erreicht wurde.",
         "generic": "Fehler bei der Ordererteilung. Bitte erneut versuchen."
       },
       "signin-or-create-an-account": "<0>Anmelden</0> oder <1>Konto anlegen</1> um eine Bestellung aufzugeben."
     },
     "my-orders": {
-      "auth": "Melde dich an, um alle Order anzusehen.",
+      "auth": "Melde dich an, um alle Market Order anzusehen.",
       "signed-out": {
         "title": "<0>Lege los</0><1> mit Nash</1>",
         "subtitle": "Erstelle ein Konto in weniger als einer Minute - kein KYC nötig!"
       },
       "no-results": {
-        "date-range": "Du hast keine Order in der angegebenen Zeitspanne.",
-        "active": "Du hast keine offenen oder ausgeführten Orders.",
-        "active-open-only": "Du hast keine offenen Orders.",
+        "date-range": "Du hast keine Market Order in der angegebenen Zeitspanne.",
+        "active": "Du hast keine offenen oder ausgeführten Market Order.",
+        "active-open-only": "Du hast keine offenen Market Order.",
         "trades": "Du hast keine Handelshistorie."
       },
       "tabs": {
@@ -939,7 +939,7 @@
           "apply": "Weiter"
         }
       },
-      "open-only-checkbox": "Nur offene Orders",
+      "open-only-checkbox": "Nur offene Order",
       "pairs-checkbox": "Alle Paare",
       "export": "Historie exportieren",
       "export-trades": "Exportiere Handelshistorie",
