@@ -32,7 +32,7 @@ You can view our simple contributions policy [here](./CONTRIBUTING.md).
 
 ## Ask for help!
 
-If you don't understand a phrase in the English file, don't guess! Ask for help. Our writer is available on GitHub as `@lexipenia` and Telegram as `@cstfenwick`, and will be able to clarify issues for you. 
+If you don't understand a phrase in the English file, don't guess! Ask for help. Our writer is available on GitHub as `@lexipenia` and Telegram as `@cstfenwick` and will be able to clarify issues for you. 
 
 ## Locales list
 
