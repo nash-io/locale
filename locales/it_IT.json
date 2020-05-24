@@ -563,40 +563,40 @@
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Imposta account",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Frase segreta",
+      "Autenticazione a due fattori"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "Informazioni generali",
+      "header": "Crea il tuo account personale",
+      "desc-1": "Il tuo account personale viene generato utilizzando dodici parole segrete. Se perdi la tua password, potrai accedere al tuo account e reimpostarlo utilizzando queste parole. Per questo motivo, devi assolutamente tenere al sicuro una copia della tua frase segreta.",
+      "continue": "Ottieni la mia frase segreta",
+      "skip2Fa": "Imposta più tardi",
       "chart": {
-        "card-top": "Twelve secret words",
-        "card-top-right": "Nash account recovery if password is forgotten",
-        "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
-        "card-btc": "Bitcoin account",
-        "card-neo": "NEO account",
-        "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "card-top": "Frase segreta",
+        "card-top-right": "Ripristina l'account Nash se hai dimenticato la password",
+        "diamond-one": "Utilizzato per",
+        "diamond-two": "Generare il tuo account personale, che contiene…",
+        "card-btc": "Account Bitcoin",
+        "card-neo": "Account NEO",
+        "card-eth": "Account Ethereum",
+        "card-future": "Qualsiasi account futuro"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "title": "Frase segreta",
+      "header": "Prendi nota della tua frase segreta",
+      "desc": "Queste parole servono ad accedere ai tuoi fondi. Inoltre, ti serviranno se vorrai reimpostare la password.",
+      "popup-error": "Se desideri stampare la tua frase segreta, per favore disabilita qualsiasi blocco dei popup e consenti a Nash di aprire dei popup.",
+      "continue": "Continua",
+      "go-back": "Torna indietro",
+      "written-down": "Ho preso nota della mia frase segreta.",
+      "check-my-backup": "Verifica la mia copia di backup",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Trascrivi a mano la tua frase segreta.",
+        "dont": "Non fare uno screenshot e non conservare la tua frase segreta su un supporto digitale."
       },
       "modals": {
         "print-warning": {
