@@ -563,57 +563,57 @@
     }
   },
   "account-setup": {
-    "tab-title": "Imposta account",
+    "tab-title": "Set up account",
     "steps": [
-      "Frase segreta",
-      "Autenticazione a due fattori"
+      "Twelve secret words",
+      "Two-factor authentication"
     ],
     "general-information": {
-      "title": "Informazioni generali",
-      "header": "Crea il tuo account personale",
-      "desc-1": "Il tuo account personale viene generato utilizzando dodici parole segrete. Se perdi la tua password, potrai accedere al tuo account e reimpostarlo utilizzando queste parole. Per questo motivo, devi assolutamente tenere al sicuro una copia della tua frase segreta.",
-      "continue": "Ottieni la mia frase segreta",
-      "skip2Fa": "Imposta più tardi",
+      "title": "General information",
+      "header": "Let’s create your personal account",
+      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
+      "continue": "Get my twelve secret words",
+      "skip2Fa": "Set up it later",
       "chart": {
-        "card-top": "Frase segreta",
-        "card-top-right": "Ripristina l'account Nash se hai dimenticato la password",
-        "diamond-one": "Utilizzato per",
-        "diamond-two": "Generare il tuo account personale, che contiene…",
-        "card-btc": "Account Bitcoin",
-        "card-neo": "Account NEO",
-        "card-eth": "Account Ethereum",
-        "card-future": "Qualsiasi account futuro"
+        "card-top": "Twelve secret words",
+        "card-top-right": "Nash account recovery if password is forgotten",
+        "diamond-one": "Used in",
+        "diamond-two": "Generate your personal account, which contains…",
+        "card-btc": "Bitcoin account",
+        "card-neo": "NEO account",
+        "card-eth": "Ethereum account",
+        "card-future": "Any future accounts"
       }
     },
     "secret-words": {
-      "title": "Frase segreta",
-      "header": "Prendi nota della tua frase segreta",
-      "desc": "Queste parole servono ad accedere ai tuoi fondi. Inoltre, ti serviranno se vorrai reimpostare la password.",
-      "popup-error": "Se desideri stampare la tua frase segreta, per favore disabilita qualsiasi blocco dei popup e consenti a Nash di aprire dei popup.",
-      "continue": "Continua",
-      "go-back": "Torna indietro",
-      "written-down": "Ho preso nota della mia frase segreta.",
-      "check-my-backup": "Verifica la mia copia di backup",
+      "title": "Secret words",
+      "header": "Write down your twelve secret words",
+      "desc": "These words are used to access your funds. You will also need them to reset your password.",
+      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
+      "continue": "Continue",
+      "go-back": "Go back",
+      "written-down": "I’ve written down my words.",
+      "check-my-backup": "Check my backup",
       "tips": {
-        "do": "Trascrivi a mano la tua frase segreta.",
-        "dont": "Non fare uno screenshot e non conservare la tua frase segreta su un supporto digitale."
+        "do": "Do write down your words by hand.",
+        "dont": "Don’t screengrab or store your words digitally."
       },
       "modals": {
         "print-warning": {
-          "title": "Stampa la tua frase segreta",
-          "header": "Per favore assicurati che la tua stampante sia sicura!",
-          "body-desc": "Se decidi di stampare la tua frase segreta, assicurati che:",
-          "body-tips-0": "La tua stampante sia connessa al tuo computer direttamente tramite un cavo USB.",
-          "body-tips-1": "La tua stampante non sia connessa ad una rete di alcun tipo.",
-          "body-tips-2": "Sia impossibile per altri connettersi alla tua stampante tramite Bluetooth, WLAN, ecc.",
-          "button": "Ho capito - stampa la mia frase segreta"
+          "title": "Print your twelve secret words",
+          "header": "Please make sure your printer is secure!",
+          "body-desc": "If you choose to print your words, make sure:",
+          "body-tips-0": "Your printer is connected to your computer directly with a USB cable.",
+          "body-tips-1": "Your printer is not connected to a network of any kind.",
+          "body-tips-2": "It is impossible for others to connect to your printer via Bluetooth, WLAN, etc.",
+          "button": "I understand - print my words"
         }
       },
-      "print-window-title": "Nash | Backup della frase segreta",
+      "print-window-title": "Nash | Secret word backup",
       "backup-print": {
-        "header": "Backup della frase segreta",
-        "desc-1": "La tua frase segreta può essere utilizzata per accedere ai tuoi account ETH, NEO ed altri, nel caso tu perda la tua password di Nash.",
-        "desc-2": "Ricorda: se qualcuno entra in possesso della tua frase segreta, i tuoi fondi saranno in pericolo.",
+        "header": "Secret word backup",
+        "desc-1": "Your twelve secret words can be used to access your ETH, NEO and other accounts if you lose your Nash password.",
+        "desc-2": "Remember: if anyone gains access to your words, your funds are in danger.",
         "desc-3": "Cut out the slips below. Consider laminating them and storing them in two separate locations."
       },
       "repeat-secret-words": {
@@ -639,7 +639,7 @@
       "title": "Autenticazione a due fattori",
       "header": "Raccomandato: Abilita l'autenticazione a due fattori",
       "skip": "Salta",
-      "desc": "L'autenticazione a due fattori (2FA) aggiunge un ulteriorealivello di sicurezza al tuo account.",
+      "desc": "L'autenticazione a due fattori (2FA) aggiunge un ulteriore livello di sicurezza al tuo account.",
       "cards": {
         "1": {
           "header": "Scarica e installa un'app di autenticazione",
