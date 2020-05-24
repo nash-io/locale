@@ -2698,11 +2698,11 @@
           "upload-label-format": "Dateierweiterungen akzeptiert: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale Dateigröße: 10MB."
         },
         "selfie-with-id": {
-          "upload-label": "Laden Sie ein Foto von sich selbst hoch, auf dem Sie sowohl ein Blatt Papier mit der Aufschrift \"cryptocoin.pro\" als auch Ihren Reisepass oder Ihren Personalausweis in der Hand halten.",
+          "upload-label": "Lade ein Foto von dir selbst hoch, auf dem du sowohl ein Blatt Papier mit der Aufschrift \"cryptocoin.pro\" als auch deinen Reisepass oder Personalausweis in der Hand hälst.",
           "upload-label-format": "Dateierweiterungen akzeptiert: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale Dateigröße: 10MB."
         },
         "bank-account": {
-          "bank-name-placeholder": "Geben Sie den Namen Ihrer Bank ein",
+          "bank-name-placeholder": "Gib den Namen deiner Bank ein",
           "iban-placeholder": "z.B. DE89 3704 0044 0532 0130 00",
           "swift-placeholder": "z.B. CLBABU7S"
         }
@@ -2715,11 +2715,11 @@
     "your-currency-balances": "Ihre {{currencySymbol}}-Salden",
     "resetting-account": {
       "title": "Trading-Contract-Saldo neu synchronisieren.",
-      "desc": "Dieser Prozess wird ausstehende Assets freigeben. Dabei werden offene Handelsaufträge storniert.",
+      "desc": "Dieser Prozess wird ausstehende Assets freigeben. Dabei werden offene Orders storniert.",
       "button": "Konto neu synchronisieren",
       "resyncing": "Wird neu synchronisiert …",
       "error": "Erneute Synchronisierung fehlgeschlagen. Bitte <0>unseren Kundenservice kontaktieren</0>.",
-      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
+      "wait-error": "Bitte warte mindestens 2 Stunden nach deiner letzten Einzahlung, bevor du diese Seite benutzt.",
       "success": "Erneute Synchronisierung abgeschlossen!"
     },
     "transaction-retry": {
@@ -2729,13 +2729,13 @@
       "button-title": "Erneut versuchen",
       "button-sending": "Wird gesendet …",
       "button-sent": "Erneut gesendet",
-      "nothing-to-retry": "Sie haben keine ausstehenden Überweisungen.",
+      "nothing-to-retry": "Du hast keine ausstehenden Überweisungen.",
       "status": {
         "title": "Status",
         "created": "Erstellt",
         "pending": "Ausstehend"
       },
-      "fetch-movements-error": "Fehler beim Abrufen Ihrer Daten. Bitte aktualisieren Sie die Seite."
+      "fetch-movements-error": "Fehler beim Abrufen deiner Daten. Bitte aktualisiere die Seite."
     },
     "assets": {
       "title": "Assets",
@@ -2746,7 +2746,7 @@
       },
       "transferring-funds": {
         "title": "Assets senden und empfangen",
-        "desc": "<0>Wenn Sie handeln möchten, sollten Sie Assets an den Trading Contract senden.</0> <1>Sie dürfen nur von Ihrem persönlichen Konto aus Assets an den Trading Contract senden.</1>",
+        "desc": "<0>Wenn du handeln möchtest, solltest du Assets an den Trading Contract senden.</0> <1>Du darfst nur von deinem persönlichen Konto aus Assets an den Trading Contract senden.</1>",
         "learn-more-never-show": "<0>Mehr erfahren</0> oder <1>nie wieder zeigen</1>.",
         "learn-more": "Mehr erfahren",
         "never-show": "Diese Meldung nicht wieder anzeigen."
@@ -2761,14 +2761,14 @@
         "claim-gas": {
           "claiming": "Ich behaupte...",
           "claim": "Anspruch GAS",
-          "gas-to-claim": "Sie haben {{amount}} GAS zu beanspruchen.",
-          "claiming-now": "Sie beanspruchen derzeit GAS.",
-          "claiming-locked": "Sie können die GAS in ~{{count}} Minute erneut beanspruchen.",
-          "claiming-locked_plural": "Sie können die GAS in ~{{count}} Minuten erneut beanspruchen."
+          "gas-to-claim": "Du hast {{amount}} GAS zu beanspruchen.",
+          "claiming-now": "Du beanspruchst derzeit GAS.",
+          "claiming-locked": "Du kannst das GAS in ~{{count}} Minute erneut beanspruchen.",
+          "claiming-locked_plural": "Du kannst das GAS in ~{{count}} Minuten erneut beanspruchen."
         },
         "columns": {
           "asset": {
-            "title": "Vermögen"
+            "title": "Asset"
           },
           "personal-account": {
             "title": "Persönliches Konto"
@@ -2781,23 +2781,23 @@
           },
           "pending": {
             "title": "Ausstehend",
-            "hint": "Überweisungen, die von der Blockchain verarbeitet werden."
+            "hint": "Transaktionen, die von der Blockchain verarbeitet werden."
           },
           "tradeable": {
-            "hint": "Dieses Asset wird derzeit nicht auf Nash gehandelt. Sie können es trotzdem überweisen oder aufbewahren."
+            "hint": "Dieses Asset wird derzeit nicht auf Nash gehandelt. Du kannst es trotzdem transferieren oder aufbewahren."
           },
           "action-buttons": {
             "trade": "Handeln",
             "transfer-funds": "Senden/Empfangen"
           }
         },
-        "no-results": "Sie haben noch keine Assets auf Ihrem Nash-Konto."
+        "no-results": "Du hast noch keine Assets auf deinem Nash-Konto."
       }
     },
     "modals": {
       "verify-mnemonic": {
         "or": "oder",
-        "remindme": "Erinnern Sie mich später daran",
+        "remindme": "Erinnere mich später daran",
         "dismiss": "Für immer entlassen",
         "havent-checked": "Sie haben Ihre Zwölf-Wort-Datensicherung nicht überprüft",
         "will-need": "Sie benötigen diese Worte, um auf Ihre Gelder zuzugreifen, wenn Sie Ihr Passwort verlieren."
