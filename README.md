@@ -12,7 +12,7 @@ Locale files are in JSON format and organized like this:
 
 Here "key" is the keyword used in the platform code to identify the text and should not be modified. The "content" text is the translation target and is what replaces occurences of "key" in the code.
 
-There are some coding specifics in certain keys. These indentified by `{{}}`,  e.g. `Hello, {{userName}}!`, and should be kept as they are. Only translate the text around these elements and move them to match appropriate word order in your language.
+There are some coding specifics in certain keys. These are indentified by `{{}}`,  e.g. `Hello, {{userName}}!`, and should be kept as they are. Only translate the text around these elements and move them to match appropriate word order in your language.
 
 You will also notice links denoted by numbered tags, e.g. `View your transaction under the <0>Transfers</0> tab.` In this case, you should translate the text within the tags.
 
