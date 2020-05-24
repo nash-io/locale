@@ -28,88 +28,91 @@
   "upload": "yükle",
   "processing": "işleniyor…",
   "over-file-limit": "Dosya boyutu aşılmamallıdır {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opens in new tab",
-  "failed-update": "Failed to update",
-  "reported-errors": "Errors reported",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "opens-new-tab": "Yeni sekmede aç",
+  "failed-update": "Yükleme hatası",
+  "reported-errors": "Hatalar bildirildi",
+  "credit-card-expiry-placeholder": "AA/YY",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
-    "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
-    "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
+    "no-addresses-whitelisted": "Hiç beyaz adres listesi yüklemediniz.",
+    "address-input-placeholder": "Beyaz listeye BTC,NEO veya ETH adresi ekleyiniz",
+    "add-whitelisted": "Beyaz listeye eklenen adresler",
+    "duplicate-address-in-form": "Bu adres beyaz listeye eklenmiş.",
+    "add-address": "Adres ekle",
+    "address-is-not-valid": "Geçersiz adres.",
+    "whitelisting-explanation": "API anahtarlarınız ile yalnızca bu adreslere fonlarınızı alabilirsiniz. Anahtarınız oluşturulduktan sonra, beyaz listeye alınmış adresleri istediğiniz zaman ekleyebilir veya çıkarabilirsiniz.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
+      "access": "Giriş",
+      "kyc": "Kimlik doğrulaması",
+      "apitrade": "API ticareti",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Are you sure you want to revoke all your keys?",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "body": "Tüm anahtarlarınızı iptal etmek istediğinizden emin misiniz?",
+      "confirm-button-label": "Tüm anahtarları iptal et",
+      "cancel-button-label": "Geri git"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "İptal etmek istediğinizden emin misiniz?
+ ‘<0></0>’?",
+      "confirm-button-label": "İptal et",
+      "cancel-button-label": "Geri git"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "{{name}} için beyaz listeye eklenmiş adres listesi",
+      "add": "Ekle",
+      "save-and-close": "Değişiklikleri kaydet ve kapat",
+      "continue": "Devam et"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
-      "blockchains": "Blockchains",
-      "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "no-addresses-whitelisted": "Beyaz listede henüz adres yok",
+      "title": "API anahtarlarını yönet",
+      "revoke-button-label": "Kaldır",
+      "table-header": "API anahtarların",
+      "no-tokens-exp": "<0>İlk anahtarını oluştur</0> yada oku <1>API dökümanını</1>.",
+      "name": "İsim",
+      "never-used": "Henüz kullanılmamış",
+      "last-used": "En son kullanılan {{when}}",
+      "subtitle": "API anahtarlarını oluştur veya yönet. Daha fazlasını öğrenmek için <0>API anahtarlarımız</0>.",
+      "key-info": "Anahtar bilgisi",
+      "api-key": "API anahtarı",
+      "blockchains": "Blok zincirler",
+      "whitelisted": "Beyaz liste",
+      "view-whitelist": "Beyaz listeyi göster",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "This API key can function with these blockchains.",
-      "usable-for": "Usable for",
-      "revoke": "Revoke",
-      "created": "Created",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "blockchains-hint": "Bu API anahtarı bu blok zincirleriyle çalışabilir
+",
+      "usable-for": "için kullanılabilir",
+      "revoke": "Kaldır",
+      "created": "Oluşturuldu",
+      "policy-trading": "Ticaret",
+      "loading": "Tokenler yükleniyor…",
+      "no-tokens": "Henüz herhangi bir API anahtarı oluşturulmadı.",
+      "policy-withdrawals": "Yükleme ve çekmeler",
+      "revoke-all-keys-button-label": "Tüm anahtarları kaldır",
+      "generate-new-key-button-label": "Yeni anahtar oluştur",
+      "plus-more": "+{{count}} daha fazla"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Kullanıcı kimlik bilgileri
+",
+      "whitelist-step": "Beyaz liste adresleri",
+      "name-step": "Anahtarınızın ismi",
+      "last-step": "Şifreni yedekle",
+      "title": "Yeni API anahtarı oluştur"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "İsim",
+      "continue-button-label": "Anahtar oluştur"
     },
     "step2": {
-      "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "password": "Şifre",
+      "two-fa-code": "2FA doğrulama kodu",
+      "create-api-button-label": "Devam et",
+      "incorrect-password": "Girdiğiniz şifre yanlış.",
+      "incorrect-2fa": "Girdiğiniz doğrulama kodu yanlış"
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Anahtarınız oluşturuluyor…"
     },
     "step4": {
       "your-secret": "Your secret",
