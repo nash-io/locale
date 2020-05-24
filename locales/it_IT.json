@@ -181,8 +181,8 @@
     "referrals": "Referral",
     "funds": "Fondi",
     "exchange": "Scambio",
-    "basic-exchange": "Visualizzazione Basic",
-    "basic-exchange-short": "Basic",
+    "basic-exchange": "Visualizzazione Base",
+    "basic-exchange-short": "Base",
     "advanced-exchange": "Visualizzazione Pro",
     "advanced-exchange-short": "Pro",
     "markets": "Mercati",
@@ -204,7 +204,7 @@
       "transfers": {
         "initializing": "Avvio del transferimento in corso",
         "initialized": "Trasferimento avviato",
-        "tooltip": "Un tuo trasferimento si sta ancora avviando. Se chiudi Nash o esci, verrà messo in pausa finché non accedi nuovamente"
+        "tooltip": "Il tuo trasferimento è stato avviato. Se chiudi Nash o esci, verrà messo in pausa finché non accedi nuovamente"
       },
       "general-menu": {
         "settings": "Il mio profilo",
@@ -234,7 +234,7 @@
         "exchange": {
           "switch": {
             "pro": "Pro",
-            "simple": "Basic"
+            "simple": "Base"
           }
         }
       },
@@ -272,7 +272,7 @@
       "staking": {
         "title": "Staking",
         "pages": {
-          "all-stakes": "Tutte le stake",
+          "all-stakes": "Tutti gli stake",
           "statements": "Resoconti"
         }
       }
@@ -291,7 +291,7 @@
   "sending-approval": "Convalida dell'invio in corso…",
   "send-approval": "Convalida l'invio",
   "submit-transfer": "Avvia trasferimento",
-  "no-longer-sufficient-balance-for-tx": "Il tuo bilancio non è più sufficiente per questa transazione.",
+  "no-longer-sufficient-balance-for-tx": "Il tuo bilancio non è sufficiente per questa transazione.",
   "we-are-hiring": "Lavora con noi",
   "errors": {
     "location-banned-title": "Accesso bloccato",
@@ -304,7 +304,7 @@
     "generic-error-title": "Errore",
     "generic-error": "Qualcosa è andato storto. Per favore riprova.",
     "generic-error-signout": "Si è verificato un errore imprevisto. Per favore esci e riprova.",
-    "within-waiting-period": "Devi attendere cinque minuti prima di creare un'altra stake. La tua nuova stake comparirà a breve.",
+    "within-waiting-period": "Devi attendere cinque minuti prima di creare un altro stake. Il tuo nuovo stake comparirà a breve.",
     "password": {
       "incorrect": "La password inserita non è corretta."
     },
@@ -312,8 +312,8 @@
       "incorrect": "Il codice di autenticazione a due fattori inserito non è corretto. Hai un massimo di cinque tentativi.",
       "already-used": "Il codice di autenticazione a due fattori inserito è già stato usato. Per favore attendi e riprova.",
       "code-expired": "Il codice di autenticazione a due fattori inserito è scaduto. Per favore attendi e riprova.",
-      "too-many-failures": "Hai inserito un codice sbagliato troppe volte e ora il tuo account è permanentemente bloccato. La sessione verrà chiusa ora.",
-      "too-many-failures-signout": "Hai inserito un codice sbagliato troppe volte e ora il tuo account è permanentemente bloccato. La sessione verrà chiusa ora."
+      "too-many-failures": "Hai inserito un codice sbagliato troppe volte e ora il tuo account è permanentemente bloccato. La sessione verrà subito chiusa.",
+      "too-many-failures-signout": "Hai inserito un codice sbagliato troppe volte e ora il tuo account è permanentemente bloccato. La sessione verrà subito chiusa."
     },
     "cryptography": {
       "encryption-failed": "Crittazione fallita. Per favore esci e riprova.",
@@ -420,7 +420,7 @@
       "browser": {
         "use-desktop-for-advanced-exchange": {
           "title": "Naviga da desktop per un'esperienza migliore.",
-          "message": "La visualizzazione ‘Pro’ è progettata per l'utilizzo da desktop. Se sei su smartphone o tablet, prova la <0>visualizzazione ‘Basic’</0>."
+          "message": "La visualizzazione ‘Pro’ è progettata per l'utilizzo da desktop. Se sei su smartphone o tablet, prova la <0>visualizzazione ‘Base’</0>."
         }
       }
     },
@@ -442,7 +442,7 @@
     },
     "form": {
       "fields": {
-        "optional": "(opzionale)"
+        "optional": "(facoltativo)"
       },
       "continue": "Continua",
       "errors": {
@@ -468,14 +468,14 @@
           "label": "Nome e cognome"
         },
         "referral-code": {
-          "label": "Codice referral (opzionale)",
+          "label": "Codice referral (facoltativo)",
           "sub-label": "Che cos'è?"
         }
       },
       "modals": {
         "referrals": {
           "title": "Programma di referral Nash",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "desc": "Questo sarà utilizzato per tracciare i referral per le future promozioni di Nash."
         }
       },
       "user-messages": {
@@ -523,7 +523,7 @@
           "label": "Conferma la tua password",
           "placeholder": "Conferma password",
           "errors": {
-            "passwords-do-not-match": "Le password non corrispondono."
+            "passwords-do-not-match": "Le password non coincidono."
           }
         }
       },
@@ -571,94 +571,94 @@
     "general-information": {
       "title": "Informazioni generali",
       "header": "Crea il tuo account personale",
-      "desc-1": "Il tuo account personale viene generato utilizzando dodici parole segrete. Se perdi la tua password, potrai accedere al tuo account e reimpostarlo utilizzando queste parole. Per questo motivo, devi assolutamente tenere al sicuro una copia della tua frase segreta.",
-      "continue": "Ottieni la mia frase segreta",
-      "skip2Fa": "Imposta più tardi",
+      "desc-1": "Il tuo account personale viene generato usando dodici parole segrete. Se perdi la password, puoi accedere al tuo account e ripristinarlo usando queste parole. Per questo motivo, devi assolutamente eseguire correttamente il backup delle dodici parole segrete.",
+      "continue": "Ottieni le mie dodici parole segrete",
+      "skip2Fa": "Configuralo più tardi",
       "chart": {
-        "card-top": "Frase segreta",
-        "card-top-right": "Ripristina l'account Nash se hai dimenticato la password",
-        "diamond-one": "Utilizzato per",
-        "diamond-two": "Generare il tuo account personale, che contiene…",
+        "card-top": "Dodici parole segrete",
+        "card-top-right": "Ripristino dell'account Nash se la password viene dimenticata",
+        "diamond-one": "Used in",
+        "diamond-two": "Genera il tuo account personale, che contiene…",
         "card-btc": "Account Bitcoin",
         "card-neo": "Account NEO",
         "card-eth": "Account Ethereum",
-        "card-future": "Qualsiasi account futuro"
+        "card-future": "Eventuali account futuri"
       }
     },
     "secret-words": {
-      "title": "Frase segreta",
-      "header": "Prendi nota della tua frase segreta",
-      "desc": "Queste parole servono ad accedere ai tuoi fondi. Inoltre, ti serviranno se vorrai reimpostare la password.",
-      "popup-error": "Se desideri stampare la tua frase segreta, per favore disabilita qualsiasi blocco dei popup e consenti a Nash di aprire dei popup.",
+      "title": "Parole segrete",
+      "header": "Scrivi le tue dodici parole segrete",
+      "desc": "Queste parole servono per accedere ai tuoi fondi. Ti serviranno anche per reimpostare la password.",
+      "popup-error": "Se desideri stampare le tue parole segrete, disattiva eventuali blocchi popup e consenti a Nash di aprire i popup.",
       "continue": "Continua",
       "go-back": "Torna indietro",
-      "written-down": "Ho preso nota della mia frase segreta.",
-      "check-my-backup": "Verifica la mia copia di backup",
+      "written-down": "Ho scritto le mie parole.",
+      "check-my-backup": "Controlla il mio backup",
       "tips": {
-        "do": "Trascrivi a mano la tua frase segreta.",
-        "dont": "Non fare uno screenshot e non conservare la tua frase segreta su un supporto digitale."
+        "do": "Scrivi le tue parole a mano.",
+        "dont": "Non eseguire screenshot e non archiviare le tue parole in modo digitale."
       },
       "modals": {
         "print-warning": {
-          "title": "Stampa la tua frase segreta",
-          "header": "Per favore assicurati che la tua stampante sia sicura!",
-          "body-desc": "Se decidi di stampare la tua frase segreta, assicurati che:",
-          "body-tips-0": "La tua stampante sia connessa al tuo computer direttamente tramite un cavo USB.",
-          "body-tips-1": "La tua stampante non sia connessa ad una rete di alcun tipo.",
-          "body-tips-2": "Sia impossibile per altri connettersi alla tua stampante tramite Bluetooth, WLAN, ecc.",
-          "button": "Ho capito - stampa la mia frase segreta"
+          "title": "Stampa le tue dodici parole segrete",
+          "header": "Assicurati che la tua stampante sia sicura!",
+          "body-desc": "Se scegli di stampare le tue parole, assicurati di:",
+          "body-tips-0": "La stampante è collegata al computer direttamente con un cavo USB.",
+          "body-tips-1": "La stampante non è connessa a una rete di alcun tipo.",
+          "body-tips-2": "Per altri è impossibile connettersi alla stampante tramite Bluetooth, WLAN, ecc.",
+          "button": "Ho capito - stampa le mie parole"
         }
       },
-      "print-window-title": "Nash | Backup della frase segreta",
+      "print-window-title": "Nash | Backup delle parole segrete",
       "backup-print": {
-        "header": "Backup della frase segreta",
-        "desc-1": "La tua frase segreta può essere utilizzata per accedere ai tuoi account ETH, NEO ed altri, nel caso tu perda la tua password di Nash.",
-        "desc-2": "Ricorda: se qualcuno entra in possesso della tua frase segreta, i tuoi fondi saranno in pericolo.",
-        "desc-3": "Cut out the slips below. Consider laminating them and storing them in two separate locations."
+        "header": "Backup parole segrete",
+        "desc-1": "Le tue dodici parole segrete possono essere utilizzate per accedere a ETH, NEO e altri account se perdi la password di Nash.",
+        "desc-2": "Remember: Ricorda: se qualcuno accede alle tue parole, i tuoi fondi sono in pericolo.",
+        "desc-3": "Ritaglia il versante sotto. Prendi in considerazione la possibilità di separarle e conservarle in due posizioni separate."
       },
       "repeat-secret-words": {
-        "header": "Repeat your twelve secret words",
-        "desc": "We want to make sure you wrote down your secret words.",
-        "input-placeholder": "Word {{index}}",
-        "case-sensitive": "All words are lowercase",
-        "create-my-wallet": "Create my account",
-        "generating-your-wallet": "Generating your Nash account…",
+        "header": "Ripeti le tue dodici parole segrete",
+        "desc": "Vogliamo assicurarci che tu abbia scritto le tue parole segrete.",
+        "input-placeholder": "Parola {{index}}",
+        "case-sensitive": "Tutte le parole sono minuscole",
+        "create-my-wallet": "Crea il mio account",
+        "generating-your-wallet": "Creazione del tuo account Nash…",
         "errors": {
-          "create-wallet-failed": "There was an error when creating your account. Please <0>sign out</0> and try again."
+          "create-wallet-failed": "Si è verificato un errore durante la creazione del tuo account. Per favore <0>disconnettiti</0> e riprova."
         }
       },
       "wallet-created": {
-        "header": "Your Nash account was created successfully!",
-        "desc": "You can find your twelve secret words and individual account details under ‘My profile > Accounts’.",
-        "warning": "<0>We do not store your secret words in any location.</0> If you forget your password, you will not be able to access your funds without these words.",
-        "continue": "Set up two-factor authentication",
-        "continue-location": "Set location of residence"
+        "header": "Il tuo account Nash è stato creato con successo!",
+        "desc": "Puoi trovare le tue dodici parole segrete e i dettagli dell'account individuale sotto ‘Il mio profilo > Accounts’.",
+        "warning": "<0>Non memorizziamo le tue parole segrete in nessun posto.</0> Se dimentichi la password, non potrai accedere ai tuoi fondi senza queste parole.",
+        "continue": "Imposta l’autenticazione a due fattori",
+        "continue-location": "Imposta il luogo di residenza"
       }
     },
     "2fa": {
       "title": "Autenticazione a due fattori",
-      "header": "Raccomandato: Abilita l'autenticazione a due fattori",
+      "header": "Consiglio: abilita l'autenticazione a due fattori",
       "skip": "Salta",
       "desc": "L'autenticazione a due fattori (2FA) aggiunge un ulteriore livello di sicurezza al tuo account.",
       "cards": {
         "1": {
-          "header": "Scarica e installa un'app di autenticazione",
-          "desc": "Come <0>LastPass Authenticator</0>, <1>Authy</1> o <2>Google Authenticator</2>."
+          "header": "Scarica e installa l’app di autenticazione",
+          "desc": "Ad esempio <0>LastPass Authenticator</0>, <1>Authy</1> o <2>Google Authenticator</2>."
         },
         "2": {
-          "header": "Inquadra questo codice QR con l'app scaricata di tua preferenza",
-          "manual-2fa": "Prendi nota del tuo codice 2FA di backup"
+          "header": "Scannerizza questo codice QR con l'app scaricata scelta",
+          "manual-2fa": "Scrivi il tuo codice di backup 2FA"
         },
         "3": {
-          "header": "Inserisci il codice di verifica generato dalla tua app di autenticazione",
+          "header": "Inserisci il codice di verifica generato dall'app di autenticazione",
           "input-placeholder": "Codice di autenticazione",
           "input-error": "Il codice inserito non è corretto."
         }
       },
       "confirm": {
-        "header": "Hai impostato l'autenticazione a due fattori!",
-        "desc": "Puoi trovare le tue preferenze di autenticazione a due fattori alla voce ‘Il mio profilo > Sicurezza’ nella piattaforma web di Nash.",
-        "action": "Che cosa vuoi fare ora?",
+        "header": "L'autenticazione a due fattori è stata impostata!",
+        "desc": "Puoi trovare le tue preferenze di autenticazione a due fattori in ‘ Il mio profilo > Sicurezza’ all'interno della piattaforma web di Nash.",
+        "action": "Cosa vuoi fare adesso?",
         "continue-deposit": "Deposita fondi",
         "continue-explore": "Esplora"
       }
@@ -666,62 +666,62 @@
   },
   "trade": {
     "footer": {
-      "title-limits": "Limits",
-      "title-balances-and-limits": "Balances and limits",
-      "increase-my-limits": "Increase my limits",
+      "title-limits": "Limiti",
+      "title-balances-and-limits": "Saldi e limiti",
+      "increase-my-limits": "Aumenta i miei limiti",
       "limits": {
-        "day": "Day",
-        "month": "Month",
-        "year": "Year",
-        "spend-of-limit": "of"
+        "day": "Giorno",
+        "month": "Mese",
+        "year": "Anno",
+        "spend-of-limit": "di"
       }
     },
     "messages": {
-      "create-order-blocked": "You are unable to create orders on the exchange for this market in your region."
+      "create-order-blocked": "Non è possibile creare ordini sullo scambio per questo mercato nella propria regione."
     }
   },
   "advanced-exchange": {
-    "title": "Pro view",
+    "title": "Visualizzazione Pro",
     "header": {
-      "switch-to-simplified": "Switch to basic view",
-      "current-market": "Market",
-      "last-price": "Last traded price",
-      "last-24h": "Last 24h",
-      "24h-change": "change",
+      "switch-to-simplified": "Passa alla visualizzazione base",
+      "current-market": "Mercati",
+      "last-price": "Ultimo prezzo scambiato",
+      "last-24h": "Ultime 24h",
+      "24h-change": "Alto",
       "24h-high": "High",
-      "24h-low": "Low",
-      "24h-volume": "Volume",
-      "my-portfolio": "My portfolio"
+      "24h-low": "Basso",
+      "24h-volume": "Volumi",
+      "my-portfolio": "Il mio portafoglio"
     },
     "tips": {
-      "balance": "<0>Tip</0> <1>Send funds to the trading contract here.</1> <2 />"
+      "balance": "<0>Tip</0> <1>Invia qui i fondi al contratto di trading.</1> <2 />"
     },
-    "no-markets": "No markets are currently available.",
+    "no-markets": "Nessun mercato è attualmente disponibile.",
     "auth": {
-      "to-start-trading": "To start trading"
-    },
+     "to-start-trading": "Per iniziare il trading"
+   },
     "balances": {
       "title": "Accounts"
     },
     "market-selection": {
-      "no-results": "We couldn’t find any results for <0>{{searchTerm}}</0>.",
-      "no-favorites": "You have no favorite markets yet.",
-      "pair": "Pair",
-      "24hvol": "24h volume",
-      "24hprice": "24h change",
+      "no-results": "Non abbiamo trovato risultati per <0>{{searchTerm}}</0>.",
+      "no-favorites": "Non hai ancora mercati preferiti.",
+      "pair": "Coppie",
+      "24hvol": "24h volumi",
+      "24hprice": "24h cambio",
       "tabs": {
-        "all": "All",
-        "favorites": "Favorites"
+        "all": "Tutti",
+        "favorites": "Favoriti"
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0>\u00A0appear as links here.",
-      "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
+      "empty": "<0>I tuoi mercati preferiti</0>\u00A0appear come link qui.",
+      "tips": "<0>Tip</0> <1>Aggiungi i mercati preferiti come link qui.</1> <2 />"
     },
     "market-graphs": {
-      "title": "Graphs",
+      "title": "Grafici",
       "price-chart": {
-        "title": "Price",
+        "title": "Prezzo",
         "heads-up-display": {
           "ohlc": {
             "o": "O",
@@ -729,24 +729,24 @@
             "l": "L",
             "c": "C"
           },
-          "vol": "Volume"
+          "vol": "Volumi"
         },
         "chart-types": {
-          "bars": "Bars",
-          "candles": "Candles",
-          "hollow-candles": "Hollow candles",
+          "bars": "Barre",
+          "candles": "Candele",
+          "hollow-candles": "Candele vuote",
           "heikin-ashi": "Heikin-Ashi",
-          "line": "Line",
+          "line": "Linee",
           "area": "Area"
         },
         "studies": {
-          "title": "Indicators",
-          "search": "Search",
-          "no-results": "No results for your criteria"
+          "title": "Indicatori",
+          "search": "Cerca",
+          "no-results": "Nessun risultato per i tuoi criteri"
         },
         "price-chart-selector": {
-          "chart-iq": "Standard chart",
-          "trading-view": "TradingView chart"
+          "chart-iq": "Grafico standard",
+          "trading-view": "Grafico TradingView"
         },
         "candle-frequency": {
           "1m": "1m",
@@ -769,30 +769,30 @@
               "label": "Inputs"
             },
             "outputs": {
-              "label": "Style"
+              "label": "Stile"
             },
             "parameters": {
-              "label": "Settings"
+              "label": "Impostazioni"
             }
           },
           "buttons": {
             "update": {
-              "label": "Update"
+              "label": "Aggiorna"
             },
             "cancel": {
-              "label": "Cancel"
+              "label": "Cancella"
             }
           }
         }
       },
       "depth-chart": {
-        "title": "Depth",
+        "title": "Profondità",
         "tooltip": {
-          "price": "Price: <0>{{price}}</0>",
-          "volume": "Volume: <0>{{volume}}</0>"
+          "price": "Prezzo: <0>{{price}}</0>",
+          "volume": "Volumi: <0>{{volume}}</0>"
         }
       },
-      "clear-studies-button-label": "Clear all indicators"
+      "clear-studies-button-label": "Pulisci tutti gli indicatori"
     },
     "create-order": {
       "buy": "Compra {{currencySymbol}}",
@@ -803,127 +803,127 @@
         "enter-credentials-to-unlock": "<0>Sblocca ora</0>"
       },
       "market-orders-disabled": {
-        "header": "Insufficient market depth",
-        "desc": "There are currently not enough orders on the book for market orders to be processed."
+        "header": "Profondità di mercato insufficiente",
+        "desc": "Al momento non ci sono abbastanza ordini sul libro per l'elaborazione degli ordini di mercato."
       },
       "order-type-tab": {
-        "market": "Market",
-        "limit": "Limit",
+        "market": "Mercati",
+        "limit": "Limiti",
         "stop": "Stop",
         "stop-limit": "Stop-limit",
-        "balances": "Balances",
+        "balances": "Bilanci",
         "balances-table": {
           "header": {
             "asset": "Asset",
-            "personal": "Personal",
+            "personal": "Personale",
             "trading": "Trading",
-            "in-orders": "In orders",
-            "pending": "Pending"
+            "in-orders": "In ordine",
+            "pending": "In sospeso"
           },
-          "current-market": "Current market",
-          "other-tradable-assets": "Other tradable assets"
+          "current-market": "Mercato attuale",
+          "other-tradable-assets": "Altri asset tradabili"
         }
       },
-      "trading-limits": "Trading limits",
+      "trading-limits": "Limiti di trading",
       "fields": {
         "amount": {
-          "label": "Amount",
-          "sub-label-market-buy": "This is a market order, so we can only estimate the amount of {{currencyA}} you will buy.",
-          "sub-label-market-sell": "This is a market order, so we can only estimate of the total {{currencyB}} you will receive.",
-          "sub-label-limit-buy": "Enter the amount of {{currencySymbol}} you wish to receive.",
-          "sub-label-limit-sell": "Enter the amount of {{currencySymbol}} you wish to sell.",
+          "label": "Quantità",
+          "sub-label-market-buy": "Questo è un ordine di mercato, quindi possiamo solo stimare l'importo di {{currencyA}} che acquisterai.",
+          "sub-label-market-sell": "Questo è un ordine di mercato, quindi possiamo solo stimare il totale {{currencyB}} che riceverai.",
+          "sub-label-limit-buy": "Inserisci la quantità di {{currencySymbol}} che desideri acquistare.",
+          "sub-label-limit-sell": "Inserisci la quantità di {{currencySymbol}} che desideri vendere.",
           "estimate": "(estimate)",
           "errors": {
-            "insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "maybe-insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "order-too-small": "Min size {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "This exceeds your trading limits."
+            "insufficient-funds": "Insufficiente {{currencySymbol}}.",
+            "maybe-insufficient-funds": "Insufficiente {{currencySymbol}}.",
+            "order-too-small": "Quantità minima {{orderSize}} {{currencySymbol}}.",
+            "limit-breached": "Questo supera i tuoi limiti di trading."
           }
         },
         "cancel-at": {
-          "label": "Cancel on",
-          "expires": "Expires",
+          "label": "Annulla",
+          "expires": "Scade",
           "modal": {
-            "label-no-selection": "Select a date to continue…",
+            "label-no-selection": "Seleziona una data per continuare…",
             "errors": {
-              "is-past": "You cannot enter a time in the past"
+              "is-past": "Non è possibile inserire un'ora del passato"
             }
           }
         },
         "with-currency": {
-          "label": "Total"
+          "label": "Totale"
         },
         "market-price": {
-          "label": "Market",
-          "sub-label": "When you buy or sell at market price your order will match with orders currently on the book."
+          "label": "Mercati",
+          "sub-label": "Quando acquisti o vendi al prezzo di mercato, il tuo ordine corrisponderà agli ordini attualmente sul libro."
         },
         "show-limit": {
           "label-hide": "Stop-market",
           "label-show": "Stop-limit"
         },
         "price": {
-          "label": "Price"
+          "label": "Prezzo"
         },
         "limit-price": {
-          "label": "Limit",
-          "sub-label": "Your order can match with orders at this price or better.",
+          "label": "Limiti",
+          "sub-label": "Il tuo ordine può essere abbinato con ordini a questo prezzo o meglio.",
           "errors": {
-            "maker-match": "‘Post only’ orders that match in the current order book will be canceled."
+            "maker-match": "Gli ordini 'Pubblica solo' corrispondenti al portafoglio ordini corrente verranno annullati."
           }
         },
         "stop-price": {
           "label": "Stop",
-          "sub-label": "Stop price acts as a trigger for another order.",
+          "sub-label": "Stop price funge da fattore scatenante per un altro ordine.",
           "errors": {
-            "stop-trigger-immediately": "This stop price will trigger your order immediately."
+            "stop-trigger-immediately": "Questo prezzo di stop attiverà immediatamente il tuo ordine."
           }
         },
         "shared": {
           "errors": {
-            "20-above": "20% above the market price.",
-            "20-below": "20% below the market price.",
-            "price-too-high": "Cannot process prices over {{maxPrice}}."
+            "20-above": "20% al di sopra del prezzo di mercato.",
+            "20-below": "20% al di sotto del prezzo di mercato.",
+            "price-too-high": "Impossibile elaborare i prezzi oltre {{maxPrice}}."
           }
         },
         "maker-only": {
           "label": "Post only",
-          "sub-label": "‘Post only’ will place your order as a maker only, not a taker. It may not fill."
+          "sub-label": "'Pubblica solo' effettuerà il tuo ordine solo come produttore, non come acquirente. Potrebbe non riempirlo."
         },
         "cancellation-policy": {
-          "label": "Time in force",
-          "footer": "Learn more"
+          "label": "Tempo in vigore",
+          "footer": "Per saperne di più"
         },
         "trading-balance": {
-          "label": "Available {{currency}}: "
+          "label": "Disponibile {{currency}}: "
         }
       },
       "submit": {
-        "buy": "Create buy order",
-        "sell": "Create sell order",
-        "placing": "Placing order…"
+        "buy": "Crea ordine di acquisto",
+        "sell": "Crea ordine di vendita",
+        "placing": "Piazzamento ordine…"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Your order was rejected because you lack sufficient funds.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds": "Il tuo ordine è stato rifiutato perché non disponi di fondi sufficienti.",
+        "order-rejected-daily-limit-reached": "Il tuo ordine è stato rifiutato perché hai raggiunto il limite di trading giornaliero.",
+        "generic": "Errore durante il piazzamento dell'ordine. Per favore riprova."
       },
-      "signin-or-create-an-account": "<0>Sign in</0> or <1>create an account</1> to place an order."
+      "signin-or-create-an-account": "<0>Accedi</0> o <1>crea un account</1> per piazzare un ordine."
     },
     "my-orders": {
-      "auth": "Sign in to view your orders.",
+      "auth": "Accedi per visualizzare i tuoi ordini.",
       "signed-out": {
-        "title": "<0>Get started</0><1>\u00A0with Nash</1>",
-        "subtitle": "Create an account in under a minute – no KYC required!"
+        "title": "<0>Iniziare</0><1>\u00A0with Nash</1>",
+        "subtitle": "Crea un account in meno di un minuto – non è richiesto KYC!"
       },
       "no-results": {
-        "date-range": "You have no orders in the given date range.",
-        "active": "You have no open or filled orders.",
-        "active-open-only": "You have no open orders.",
-        "trades": "You have no trade history."
+        "date-range": "Non hai ordini nell'intervallo di date indicato.",
+        "active": "Non hai ordini aperti o compilati.",
+        "active-open-only": "Non hai ordini aperti.",
+        "trades": "Non hai uno storico di trading."
       },
       "tabs": {
-        "orders": "Orders",
-        "trades": "Trade history"
+        "orders": "Ordini",
+        "trades": "Storico trading"
       },
       "date-range-selection": {
         "days": "{{range}}d",
