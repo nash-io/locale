@@ -28,7 +28,7 @@ If you are facing issues using GitHub for the first time there is a desktop app 
 1) Make multiple sets of small changes. Keep your pull requests to 100 lines at most.
 2) Always ensure you are making changes against the latest version of the `master` branch.
 
-You can view our simple contributions policy [here](./CONTRIBUTING.md)
+You can view our simple contributions policy [here](./CONTRIBUTING.md).
 
 ## Ask for help!
 
