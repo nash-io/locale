@@ -296,139 +296,139 @@
   "errors": {
     "location-banned-title": "Access blocked",
     "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "invalid-clock-title": "Čas vašeho počítače není přesný.",
+    "permissions-issue-title": "Problémy s povolením",
+    "invalid-clock": "Vaše hodiny musí být řesné, bbyste mohli obchodovat na Nashi. <0>Synchronizujte si vaše hotiny</0> poté <1>zkuste znovu.</1>.",
+    "network-issue-title": "Problémy s připojením do sítě",
+    "network-issue": "Objevliy se dočasné problémy s připojením do sítě. Prosím <0>zkuste to znovu</0>.",
+    "generic-error-title": "Chyba",
+    "generic-error": "Něco se pokazilo. Prosím zkuste to znovu.",
+    "generic-error-signout": "Nastala neočekávaná chyba. Prosím odhlašte se a poté to zkuste znovu.",
+    "within-waiting-period": "Musíte vydržet 5 minut před vytvořením nového staku. Váš nový stake se objeví během chvíle.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Heslo, které jste napsali bylo nesprávné."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Napsaný kód dvoufázového ověření byl nesprávný. Máte maximum 5 pokusů, poté bude váš účet zablokován.",
+      "already-used": "Napsaný kód dvoufázového ověření byl již použitý. Prosím počkejte chvíli a zkuste to znovu.",
+      "code-expired": "Platnost napsaného kódu dvoufázového ověření vypršela. Prosím počkejte chvíli a zkuste to znovu.",
+      "too-many-failures": "Napsali jste kód dvouázového ověření vícekrát nesprávně. Váš účet je nyní zablokován. Kontaktujte prosím podporu.",
+      "too-many-failures-signout": "Napsali jste kód dvouázového ověření vícekrát nesprávně. Váš účet je nyní zablokován. Nyní budete odhlášen."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Zašifrování selhalo. Odhlašte se a zkuste to prosím znovu.",
+      "decryption-failed": "Rozšifrování selhalo. Odhlašte se a zkuste to prosím znovu."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Váš účet je nyný zpracováván!",
+        "message": "Prosím vraťte se za pár minut."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Váš účet nnebyl nalezen."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Nebylo nic nalezeno.",
+  "yes": "ano",
+  "no": "ne",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Osobní účet",
+    "trading": "Obchodovací účet",
+    "external": "Externí účet"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Nahrání selhalo.",
+    "failed-button": "Nahrání selhalo.",
+    "failed-please-try": "<0>Nahrání selhalo. Prosím\u00A0</0><1>zkuste to znovu</1>.",
+    "why-this-may-happening": "Zjistěte prosč se to mohlo stát <0>zde.</0>"
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> hodin",
+    "time-in-hours_plural": "<0>{{count}}</0> hodin",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "leden",
+      "1": "únor",
+      "2": "březen",
+      "3": "duben",
+      "4": "květen",
+      "5": "červen",
+      "6": "červenec",
+      "7": "srpen",
+      "8": "září",
+      "9": "říjen",
+      "10": "listopad",
+      "11": "prosinec"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Bohužel Nash v tuto cvhíli není dostupný ve vašem regionu.",
+    "contact-support": "Prosím <0>kontaktujte naší podporu</0> s jakoukoliv otázkou."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Něco se pokazilo.",
+    "go-back": "Jít zpět",
+    "go-back-retry": "Zkusit znovu a jít zpět",
+    "contact-support": "Prosím pro zjištění více detailů <0>kontaktujte naší podporu</0>.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Toto není dostupné v testovacím rozhraní!",
+        "content": "Tato funkce byla vypnutá v testovacím rozhraní."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Vaše IP adresa se neshoduje s vybraným státem.",
+          "message": "Uživatelé s ověřením na úrovni 0 nemají přístup ke všem službám Nashe pokud se nepřihlásí ze země bydliště. Zvažte <0>ověření na úrovni 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Všimli jsme si, že používáte VPN.",
+          "message": "Uživatelé s ověřením na úrovni 0 nemají přístup ke všem službám Nashe pokud jsou přihlášení přes VPN nebo proxy. Prosím vypněte tyto služby nebo <0>získejte ověření na úrovni 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Váše aktuálnlí ověření dosahuje úrovně 1. Z tohoto důvodu bude váš přístup k některým službám Nashe omezen.",
+          "message": "Pro využití všech služeb prosím <0>získejte ověření na úrovni 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Na této IP adrese již byl vytovřený účet.",
+          "message": "Pro získání přístupu ke všem službám Nashe prosím <0>získejte ověření na úrovni 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Ne všechny naše služby jsou dostupné v těchto státech {{usState}}. Váš přístup k některým službám na naší platformě bude omezen.",
+          "title-no-state": "Ne všechny naše služby jsou dostupné ve vašem státě. Váš přístup k některým službám na naší platformě bude omezen.",
+          "message": "Kontaktujeme vás emailem až budou služby v {{usState}} plně funkční. Prosím <0>kontaktujte naší podporu</0> s jakoukoliv otázkou.",
+          "message-no-state": "Kontaktujeme vás emailem až budou naše služby plně dostupné ve vašem státě. Prosím <0>kontaktujte naší podporu</0> s jakoukoliv otázkou."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Ne všechny naše služby jsou dostupné ve vaší stávající lokaci. Váš přístup k některým službám na naší platformě bude omezen.",
+          "message": "Prosím <0>kontaktujte naší podporu</0> s jakoukoliv otázkou."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Vaše  úroveň ověření je na úrovni {{userTier}}. Z tohoto důvodu bude váš přístup k některým službám na naší platformě omezen.",
+        "message": "Pro získání přístupu ke všem našim službám získejte prosím ověření na <0>úrovni {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Všimli jsme si, že jste přihlášený z {{detectedCountry}}.",
+          "message": "Pokud již nežijete v {{accountCountry}}, prosím <0>kontaktujte naší podporu</0> a aktualizujte si vaší adresu."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Pro lepší zážitek doporučujeme přihlášení z osobního počítače.",
+          "message": "‘Pro’ verze je navržená pro osobní počítače. Pokud jste na mobilním zařízení zkuste <0>‘Základní’ zobrazení</0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Tuto zprávu již nikdy nezobrazovat."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Smluvní podmínky",
+    "privacy-notice": "Ochrana údajů"
   },
   "account-create": {
     "steps": [
@@ -437,74 +437,74 @@
       "Account details"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Máte již vytvořený Nash účet?",
+      "sign-in-now": "Přihlásit se nyní"
     },
     "form": {
       "fields": {
-        "optional": "(optional)"
+        "optional": "(dobrovolné)"
       },
-      "continue": "Continue",
+      "continue": "Pokračovat",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Chyba při vytváření účtu. Prosím zkuste to znovu.",
+        "invalid-referral-code-can-continue": "Nesprávný kód doporučení.",
+        "invalid-referral-code": "Nesprávný kód doporučení. Prosím zkontrolujte váš kód a zkuste to znovu.",
+        "invalid-email-domain": "Váš poskytovatel emailové schránky není podporován. Prosím použijte jinou emailovou adresu.",
+        "duplicate-email": "Účet pro tuto emailovou aadresu byl již vytvořený.",
+        "password-too-short": "Vaše heslo musí být alespoň 8 znaků dlouhé.",
+        "invalid-recaptcha": "Recaptcha ověření selhalo. Prosím zkuste to znovu.",
+        "missing-us-state": "Pokud žijete v USA, musíte vybrat váš stát."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Vytvořit účet",
+      "subheader": "Vaše údaje",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Poznámka pro uživatele z USA",
+        "desc": "Vytváříte předběžný účet pro participaci na propagační kampani, ale  ve vašem státe musí být být podporovány některé Nash služby. Pokud bude později nutné budete požádán o schválení uživatelských podmínek."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Celé jméno"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Kód doporučení (dobrovolné)",
+          "sub-label": "Co to je?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Propagační kampaň Nashe",
+          "desc": "Toto bude použité pro sledování doporučení v dalších propagačních kampaních Nashe."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Všimli jsme si, že používáte VPN.",
+          "message": "Abyste mohli pokračovat, prosím vypněte všechny služby VPN a proxy. Jakmile si vytvoříte účet, můžete si ověřit vaší identitu a tyto služby znovu začít používat."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "Vytvořit účet",
+      "subheader": "Kde bydlíte?",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Místo bydliště"
         },
         "state": {
-          "label": "State"
+          "label": "Region"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Potvrzuji, že toto je můj stát trvalého bydliště."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Potvrzuji, že toto je můj stát a region trvalého bydliště."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
+      "header": "vytvořit účet",
       "subheader": "Account details",
       "continue": "Create account",
       "fields": {
