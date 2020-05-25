@@ -398,105 +398,105 @@
           "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
           "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
           "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "message-no-state": "We laten je per e-mail weten wanneer je status volledig wordt ondersteund. Neem bij vragen <0> contact op met ons ondersteuningsteam </0>."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Niet alle Nash-services worden momenteel ondersteund op uw huidige locatie. Uw toegang tot sommige delen van het Nash-platform is beperkt.",
+          "message": "Neem bij vragen <0> contact op met ons ondersteuningsteam </0>."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Uw huidige verificatieniveau is niveau {{userTier}}. Als gevolg hiervan is uw toegang tot sommige delen van het Nash-platform beperkt. ",
+         "message": "Om ons volledige dienstenportfolio te gebruiken, moet u <0> upgraden naar Tier {{minTier}} </0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "We merken dat u zich aanmeldt vanuit {{detectedCountry}}.",
+          "message": "Als u niet langer in {{accountCountry}} woont, neem dan <0> contact op met ons ondersteuningsteam </0> om uw woonplaats bij te werken."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Gebruik een desktop voor een betere ervaring.",
+          "message": "De ‘Pro’ -weergave is ontworpen voor desktopgebruik. Als u op uw mobiel bent, probeer dan de <0> ‘Basis’ weergave </0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Vertel mij dit niet nog een keer."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Gebruikersovereenkomst",
+    "privacy-notice": "Privacyverklaring"
   },
   "account-create": {
     "steps": [
-      "Your details",
-      "Country",
-      "Account details"
+      "Jouw details",
+      "Land",
+      "Accountgegevens"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Al een Nash account?",
+      "sign-in-now": "Meld u nu aan"
     },
     "form": {
       "fields": {
-        "optional": "(optional)"
+        "optional": "(optioneel)"
       },
-      "continue": "Continue",
+      "continue": "Verder gaan",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Fout bij het aanmelden voor een account. Probeer het alstublieft opnieuw.",
+        "invalid-referral-code-can-continue": "Ongeldige verwijzingscode.",
+        "invalid-referral-code": "Ongeldige verwijzingscode. Controleer uw code en probeer het opnieuw.",
+        "invalid-email-domain": "Uw e-mailprovider is niet toegestaan. Gebruik een ander adres.",
+        "duplicate-email": "Er is al een account aangemaakt voor dit e-mailadres.",
+        "password-too-short": "Uw wachtwoord moet minimaal acht tekens lang zijn.",
+        "invalid-recaptcha": "Recaptcha verificatie is mislukt. Probeer het alstublieft opnieuw.",
+        "missing-us-state": "Als u in de Verenigde Staten woont, moet u uw staat invoeren."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Account aanmaken",
+      "subheader": "Jouw details",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Kennisgeving voor Amerikaanse klanten",
+        "desc": "U maakt een voorlopig Nash account aan om deel te nemen aan het verwijzingsprogramma, maar uw staat moet in aanmerking komen voor toegang tot sommige Nash services. Als u hiervoor in aanmerking komt, wordt u later gevraagd een gebruikersovereenkomst te ondertekenen."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Voor-en achternaam"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Verwijzingscode (optioneel)",
+          "sub-label": "Wat is dit?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Nash verwijzingsprogramma",
+          "desc": "Dit zal worden gebruikt om verwijzingen voor toekomstige Nash promoties bij te houden."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "We hebben gemerkt dat u een VPN gebruikt.",
+          "message": "Schakel alle VPN- of proxyservices uit om door te gaan. Nadat u een account hebt aangemaakt, kunt u uw identiteit verifiëren om in de toekomst een VPN te gebruiken."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "Account aanmaken",
+      "subheader": "Waar woon je?",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Land van verblijf"
         },
         "state": {
-          "label": "State"
+          "label": "Staat"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Ik bevestig dat dit mijn land van verblijf is."
         },
         "confirm-country-and-state": {
           "label": "I confirm that these are my country and state of residence."
