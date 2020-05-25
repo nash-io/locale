@@ -94,30 +94,30 @@
       "credentials-step": "Identifiants utilisateur",
       "whitelist-step": "Adresses sur liste blanche",
       "name-step": "Nommer votre clé",
-      "last-step": "Sauvegarder votre clé privé",
+      "last-step": "Sauvegarder votre secret",
       "title": "Générer une nouvelle clé API"
     },
     "step1": {
-      "name": "Name",
+      "name": "Nom",
       "continue-button-label": "Créer clé"
     },
     "step2": {
       "password": "Mot de passe",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
+      "two-fa-code": "Code d’authentification à deux facteurs",
+      "create-api-button-label": "Continuer",
       "incorrect-password": "Mot de passe incorrect.",
       "incorrect-2fa": "Code incorrect."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Génération de votre clé…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Votre secret",
+      "your-secret-warning": "C’est la seule fois que nous vous montrerons cela.",
+      "api-key": "Votre clé API",
+      "api-key-warning": "C’est la seule fois que nous vous montrerons cela.",
+      "download-as-json-button-label": "Télécharger la clé API et le secret au format JSON",
+      "i-saved-my-secret-button-label": "J’ai bien sauvegardé mon secret"
     }
   },
   "terse-periods": {
@@ -128,26 +128,26 @@
   },
   "transfer": {
     "trading": "Trading",
-    "personal": "Personal",
+    "personal": "Personnel",
     "in-trades": "In trades",
     "transfer-funds": "Envoyer/Recevoir",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "pending-transfer": "Vous avez un transfert en attente de {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Consultez vos transferts ici."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Frais estimé: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
     "use-last": "Use last"
   },
   "insufficient-funds": "Fonds insuffisant",
-  "amount-each": "{{amount}} each",
+  "amount-each": "{{amount}} chaque",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Limite quotidienne totale",
+    "link": "Augmenter mes limites",
+    "amount-of-max-amount": "{{amount}} sur {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
+    "title": "Calcul des frais",
     "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
     "30-day-volume": "30-day volume",
     "taker-fee": "Taker fee",
