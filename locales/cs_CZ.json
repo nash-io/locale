@@ -903,100 +903,100 @@
         "placing": "Vytvářím příkaz…"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Your order was rejected because you lack sufficient funds.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds": "Váš obchodní příkaz byl odmítnut, kvůli nedostatku prostředků.",
+        "order-rejected-daily-limit-reached": "Váš obchodní příkaz byl odmítnut, kvůli dosažení obchodovacích limitů.",
+        "generic": "Chyby při odesílání obchodního příkazu. Prosím zkuste novu."
       },
-      "signin-or-create-an-account": "<0>Sign in</0> or <1>create an account</1> to place an order."
+      "signin-or-create-an-account": "Pro zadání obchodního příkazu je nutné se <0>přihlásit</0> nebo <1>vytvořit účet</1>."
     },
     "my-orders": {
-      "auth": "Sign in to view your orders.",
+      "auth": "Pro zobrazení vašich obchodních příkazů se přihlašte.",
       "signed-out": {
-        "title": "<0>Get started</0><1>\u00A0with Nash</1>",
-        "subtitle": "Create an account in under a minute – no KYC required!"
+        "title": "<0>Vyzkoušet</0><1>\u00A0Nash</1>",
+        "subtitle": "Během miuty si vytvořte účet – žádné KYC není ptřeba!"
       },
       "no-results": {
-        "date-range": "You have no orders in the given date range.",
-        "active": "You have no open or filled orders.",
-        "active-open-only": "You have no open orders.",
-        "trades": "You have no trade history."
+        "date-range": "V zadaném čase nemáte zadané žádné obchodní pokyny.",
+        "active": "Neáte žádné otevřené nebo vypořádané pokyny.",
+        "active-open-only": "Nemáta žádné zadané obchodní pokyny.",
+        "trades": "Nemáte žádnou obchodní historii."
       },
       "tabs": {
-        "orders": "Orders",
-        "trades": "Trade history"
+        "orders": "Pokyny",
+        "trades": "Obchodní historie"
       },
       "date-range-selection": {
         "days": "{{range}}d",
-        "weeks": "{{range}}w",
+        "weeks": "{{range}}t",
         "months": "{{range}}M",
-        "years": "{{range}}Y",
-        "clear": "Clear",
-        "select-action": "Custom",
+        "years": "{{range}}R",
+        "clear": "Smazat",
+        "select-action": "Jiné",
         "popup": {
-          "no-selection": "Select a date range to continue",
-          "clear": "Clear",
-          "apply": "Apply"
+          "no-selection": "Pro pokračování vyberte časový interval",
+          "clear": "Smazat",
+          "apply": "Použít"
         }
       },
-      "open-only-checkbox": "Open only",
-      "pairs-checkbox": "All pairs",
-      "export": "Export history",
-      "export-trades": "Export trade history",
-      "export-your-trades": "Export your trades",
-      "no-trades": "You have no trades to export",
+      "open-only-checkbox": "Otevřené",
+      "pairs-checkbox": "Všechny páry",
+      "export": "Exportovat historii",
+      "export-trades": "Exportovat obchodní historii",
+      "export-your-trades": "Exportovat vaše obchody",
+      "no-trades": "Nemáte žádné realizované obchody k exportování.",
       "trade-history-times": {
-        "header": "Select a set timeframe to export",
-        "custom": "Custom timeframe",
-        "months": "{{count}} month",
-        "months_plural": "{{count}} months",
-        "year": "{{count}} year"
+        "header": "Vyberte časový interval pro export",
+        "custom": "Jiný časový interval",
+        "months": "{{count}} měsíc",
+        "months_plural": "{{count}} měsíců",
+        "year": "{{count}} let"
       },
-      "reset-filters": "Reset",
+      "reset-filters": "Obnovit",
       "side-col": {
         "filter": {
-          "buy": "Buy",
-          "sell": "Sell",
-          "both": "Both"
+          "buy": "Koupeno",
+          "sell": "Prodáné",
+          "both": "Vše"
         }
       },
       "type-col": {
-        "header-title": "Type",
-        "header-title-with-currency": "{{currency}} type",
+        "header-title": "Typ",
+        "header-title-with-currency": "{{currency}} typ",
         "filter": {
-          "market": "Market",
-          "limit": "Limit",
+          "market": "Tržní příkaz",
+          "limit": "Limitní příkaz",
           "stop-market": "Stop-market",
           "stop-limit": "Stop-limit"
         },
         "cell-text": {
-          "market-buy": "Market buy",
-          "market-sell": "Market sell",
-          "limit-buy": "Limit buy",
-          "limit-sell": "Limit sell",
-          "stop_limit-buy": "Stop-limit buy at <0></0>",
-          "stop_limit-sell": "Stop-limit sell at <0></0>",
-          "stop_market-buy": "Stop-market buy at <0></0>",
-          "stop_market-sell": "Stop-market sell at <0></0>"
+          "market-buy": "Kupní tržní příkaz",
+          "market-sell": "Prodejní tržní příkaz",
+          "limit-buy": "Kupní limitní příkaz",
+          "limit-sell": "Prodejní limitní příkaz",
+          "stop_limit-buy": "Kupní stop-limit za <0></0>",
+          "stop_limit-sell": "Prodejní stop-limit za <0></0>",
+          "stop_market-buy": "Kupní stop-market za <0></0>",
+          "stop_market-sell": "Prodejní stop-market za <0></0>"
         }
       },
       "cancel-col": {
-        "header-title": "Cancel all",
-        "partial-fill": "Partial fill",
-        "cancelled-partial-fill": "Canceled: Partial fill",
-        "cancelled-order": "Order canceled"
+        "header-title": "Zrušit vše",
+        "partial-fill": "Částečné vypořádání",
+        "cancelled-partial-fill": "Zrušené: Částečné vypořádání",
+        "cancelled-order": "Zrušené obchodní pokyny"
       },
       "cancelled-unfilled-col": {
-        "header-title": "Unfilled amount",
-        "header-title-with-currency": "{{currency}} unfilled amount"
+        "header-title": "Nevypořádané množství",
+        "header-title-with-currency": "{{currency}} unfinevypořádané množství"
       },
       "cancelled-filled-col": {
-        "header-title": "Filled amount",
-        "header-title-with-currency": "{{currency}} filled amount"
+        "header-title": "Vypořádané množství",
+        "header-title-with-currency": "{{currency}} vypořádané množství"
       },
       "status-col": {
         "header-title": "Status",
-        "open": "Open",
-        "cancelled": "Canceled",
+        "open": "Otevřené",
+        "cancelled": "Zrušené",
         "filled": "Filled",
         "pending": "Pending"
       },
