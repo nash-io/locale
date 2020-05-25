@@ -1098,27 +1098,27 @@
       }
     },
     "session-expiry-modal": {
-      "title": "Ihre Sitzung läuft gleich ab.",
-      "info": "Ihre Sitzung läuft ab, weil sie zu lange nicht aktiv waren. Sie werden in {{secondsRestining}} Sekunden abgemeldet.",
-      "info_plural": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} seconds.",
+      "title": "Deine Sitzung läuft gleich ab.",
+      "info": "Deine Sitzung läuft ab, weil du zu lange nicht aktiv warst. Du wirst in {{secondsRestining}} Sekunden abgemeldet.",
+      "info_plural": "Deine Sitzung läuft ab, weil du zu lange nicht aktiv warst. Du wirst in {{count}} Sekunden abgemeldet.",
       "stay-signed-in": "Angemeldet bleiben",
-      "signing-out": "({{count}}s) Signing out…"
+      "signing-out": "({{count}}s) Abgemeldet…"
     },
     "signup": {
-      "desc": "Haben Sie noch kein Konto?",
+      "desc": "Hast du noch kein Konto?",
       "sign-up": "Konto erstellen"
     },
     "form": {
       "continue": "Weiter"
     },
     "missing-country": {
-      "header": "Bevor Sie fortfahren …",
-      "subheader": "Wo wohnen Sie?",
+      "header": "Bevor du fortfährst …",
+      "subheader": "Wo wohnst du?",
       "messages": {
-        "vpn-warning-title": "Wir haben festgestellt, dass Sie ein VPN verwenden.",
-        "vpn-warning-body": "Bitte deaktivieren Sie alle VPN- oder Proxy-Dienste, um fortzufahren.",
+        "vpn-warning-title": "Wir haben festgestellt, dass du eine VPN verwendest.",
+        "vpn-warning-body": "Bitte deaktiviere alle VPN- oder Proxy-Dienste, um fortzufahren.",
         "update-country": {
-          "failed": "Wir konnten das Land Ihres Wohnsitzes nicht aktualisieren. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie unseren Kundenservice."
+          "failed": "Wir konnten das Land deines Wohnsitzes nicht aktualisieren. Bitte versuchen es später noch einmal oder kontaktiere unseren Kundenservice."
         }
       },
       "fields": {
@@ -1150,34 +1150,34 @@
           "placeholder": "Passwort"
         },
         "remember-me": {
-          "label": "Erinnern Sie sich an mich"
+          "label": "Erinnere mich daran"
         }
       },
       "messages": {
         "password-change": {
-          "success": "Wenn die von Ihnen angegebene E-Mail-Adresse zu einem Konto in unserer Datenbank gehört, senden wir Ihnen Anweisungen, damit Sie Ihr Passwort zurücksetzen können."
+          "success": "Wenn die von dir angegebene E-Mail-Adresse zu einem Konto in unserer Datenbank gehört, senden wir dir eine Anweisungen, damit du dein Passwort zurücksetzen kannst."
         },
         "update-email": {
-          "validation-success": "Wir haben eine Bestätigungs-E-Mail an Ihre neue E-Mail-Adresse geschickt. Bitte klicken Sie auf den Link in dieser E-Mail, um Ihre neue Adresse zu bestätigen.",
-          "updated-success": "Ihre E-Mail-Adresse wurde aktualisiert. Sie können sich nun mit Ihrer neuen Adresse anmelden."
+          "validation-success": "Wir haben eine Bestätigungs-E-Mail an deine neue E-Mail-Adresse geschickt. Bitte klicke auf den Link in dieser E-Mail, um deine neue Adresse zu bestätigen.",
+          "updated-success": "Deine E-Mail-Adresse wurde aktualisiert. Du kannst dich nur noch mit deiner neuen Adresse anmelden."
         },
         "verify-email": {
-          "success": "Ihre E-Mail-Adresse wurde verifiziert. Bitte melden Sie sich an, um Ihr Konto einzurichten.",
-          "error": "Die E-Mail-Adresse konnte nicht verifiziert werden. Der Verifizierungscode ist möglicherweise abgelaufen. Bitte melden Sie sich an und beantragen Sie eine weitere Bestätigungs-E-Mail."
+          "success": "Deine E-Mail-Adresse wurde verifiziert. Bitte melde dich an, um dein Konto einzurichten.",
+          "error": "Die E-Mail-Adresse konnte nicht verifiziert werden. Der Verifizierungscode ist möglicherweise abgelaufen. Bitte melde dich an und beantrage eine weitere Bestätigungs-E-Mail."
         }
       },
       "errors": {
-        "invalid-email": "Die von Ihnen angegebene E-Mail-Adresse ist ungültig.",
-        "invalid-password": "Sie müssen ein Passwort angeben.",
-        "signin-failed": "Ihr Benutzername oder Passwort ist falsch.",
-        "locked": "Ihr Konto ist vorübergehend gesperrt. Bitte versuchen Sie es später noch einmal.",
-        "revoked": "Ihr Konto ist gesperrt. Bitte wenden Sie sich an unseren Kundenservice."
+        "invalid-email": "Die von dir angegebene E-Mail-Adresse ist ungültig.",
+        "invalid-password": "Du musst ein Passwort angeben.",
+        "signin-failed": "Dein Benutzername oder Passwort ist falsch.",
+        "locked": "Dein Konto ist vorübergehend gesperrt. Bitte versuche es später noch einmal.",
+        "revoked": "Dein Konto ist gesperrt. Bitte wende dich an unseren Kundenservice."
       }
     },
     "forgot-password": {
-      "tab-title": "Forgotten password",
-      "header": "Haben Sie Ihr Passwort vergessen?",
-      "desc": "Geben Sie unten Ihre E-Mail-Adresse ein und wir bringen Sie wieder auf Kurs.",
+      "tab-title": "Passwort vergessen",
+      "header": "Habst du dein Passwort vergessen?",
+      "desc": "Gebe unten deine E-Mail-Adresse ein und wir setzen das\u00A0Passwort\u00A0zurück.",
       "fields": {
         "email": {
           "label": "E-Mail-Adresse",
@@ -1185,11 +1185,11 @@
         }
       },
       "submit": "Passwort zurücksetzen",
-      "success": "Wir haben Ihnen eine E-Mail zum Zurücksetzen des Passworts geschickt. Wenn Sie unsere E-Mail nicht finden, überprüfen Sie Ihren Spam-Ordner."
+      "success": "Wir haben dir eine E-Mail zum Zurücksetzen des Passworts geschickt. Wenn du unsere E-Mail nicht findest, überprüfe deinen Spam-Ordner."
     },
     "reset-password": {
-      "missing-email": "Something went wrong. Please click the link in your email again.",
-      "expired-code": "This session is no longer valid. Please click the link in your email again.",
+      "missing-email": "Etwas ist schief gelaufen. Bitte klicke erneut auf den link in deiner Email.",
+      "expired-code": "Diese Sitzung ist nicht mehr länger gültig. Bitte klicke erneut auf den link in deiner Email.",
       "steps": [
         "Geheimwörter bestätigen",
         "Neues Passwort"
