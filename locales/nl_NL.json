@@ -499,104 +499,104 @@
           "label": "I confirm that this is my country of residence."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Hierbij bevestig ik dat ik in dit land woonachtig ben."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Een account aanmaken",
+      "subheader": "Accountgegevens",
+      "continue": "Account aanmaken",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Voer een e-mailadres in",
+          "placeholder": "E-mailadres"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Een wachtwoord aanmaken",
+          "placeholder": "Wachtwoord",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Het door u gekozen wachtwoord is te zwak."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Bevestig je wachtwoord",
+          "placeholder": "Bevestig wachtwoord",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Wachtwoorden komen niet overeen."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
+          "title": "Tips voor een sterk wachtwoord",
+          "desc": "Een sterk wachtwoord is essentieel om uw geld veilig te houden. Volg deze tips om veilig te blijven:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "tip-1": "Gebruik geen wachtwoord dat je op andere websites gebruikt, ook niet als je individuele woorden of karakters verandert. Als u gephisht of gehackt bent, loopt uw Nash account risico.",
+          "tip-2": "Neem geen persoonlijke informatie op in uw wachtwoord. Namen, verjaardagen en adressen zijn gemakkelijk te achterhalen en zijn het beste te vermijden.",
+          "tip-3": "Maak uw wachtwoord minimaal twaalf tekens lang en gebruik een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens.",
+          "tip-4": "Overweeg een wachtwoordgenerator te gebruiken om zeer sterke wachtwoorden aan te maken en op te slaan."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Gebruik een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens voor een sterker wachtwoord.",
+        "tips": "Tips voor het maken van wachtwoorden",
+        "password-strength": "Wachtwoord sterkte",
+        "weak": "Zwak",
+        "medium": "Gemiddeld",
+        "strong": "Sterk",
+        "very-strong": "Zeer sterk"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "We hebben je een e-mail gestuurd!",
+      "desc-1": "Controleer uw e-mail en verifieer uw account.",
+      "desc-2": "Als u onze e-mail niet ziet, controleer dan uw ongewenste map.",
+      "resend": "Verzend verificatie-e-mail opnieuw",
+      "resend-delay": "Wacht alsjeblieft {{count}} seconde…",
+      "resend-delay_plural": "Wacht alsjeblieft {{count}} seconden…",
+      "back": "Terug naar inloggen",
+      "success": "Verificatie-e-mail opnieuw verzonden!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Fout bij opnieuw verzenden van verificatie-e-mail. Probeer het alstublieft opnieuw."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Account aanmaken",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Twaalf geheime woorden",
+      "Twee-factor-authenticatie"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "Algemene informatie",
+      "header": "Laten we uw persoonlijke account maken",
+      "desc-1": "Uw persoonlijke account wordt gegenereerd met twaalf geheime woorden. Als u uw wachtwoord kwijtraakt, heeft u toegang tot uw account en kunt u uw wachtwoord met deze woorden resetten. Om deze reden moet je absoluut een back-up maken van je twaalf geheime woorden.",
+      "continue": "Genereer mijn twaalf geheime woorden",
+      "skip2Fa": "Stel het later in",
       "chart": {
-        "card-top": "Twelve secret words",
-        "card-top-right": "Nash account recovery if password is forgotten",
-        "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
+        "card-top": "Twaalf geheime woorden",
+        "card-top-right": "Nash accountherstel als wachtwoord vergeten is",
+        "diamond-one": "Gebruikt in",
+        "diamond-two": "Genereer uw persoonlijke account, die bevat ...",
         "card-btc": "Bitcoin account",
         "card-neo": "NEO account",
         "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "card-future": "Alle toekomstige accounts"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "title": "Geheime woorden",
+      "header": "Schrijf je twaalf geheime woorden op",
+      "desc": "Deze woorden worden gebruikt om toegang te krijgen tot uw geld. Je hebt ze ook nodig om je wachtwoord opnieuw in te stellen.",
+      "popup-error": "Als u uw geheime woorden wilt afdrukken, schakel dan alle pop-upblokkeringen uit en laat Nash pop-ups openen..",
+      "continue": "Ga verder",
+      "go-back": "Ga terug",
+      "written-down": "Ik heb mijn woorden opgeschreven.",
+      "check-my-backup": "Controleer mijn back-up",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Schrijf uw woorden met de hand op.",
+        "dont": "Grijp of bewaar uw woorden niet digitaal."
       },
       "modals": {
         "print-warning": {
