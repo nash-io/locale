@@ -131,8 +131,8 @@
     "personal": "Persönliches Konto",
     "in-trades": "Im Handel",
     "transfer-funds": "Senden/Empfangen",
-    "pending-transfer": "Du hast eine ausstehende Überweisung von {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "Überweisungen hier ansehen."
+    "pending-transfer": "Du hast eine ausstehende Transaktion von {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Transaktionen hier ansehen."
   },
   "estimated-fee": "Geschätzte Gebühr: {{fee}} {{currencySymbol}}",
   "quick-fill": {
@@ -242,7 +242,7 @@
         "title": "Wallet & Portfolio",
         "pages": {
           "portfolio": "Portfolio",
-          "transfers": "Überweisungen",
+          "transfers": "Transaktionen",
           "assets": "Assets",
           "contacts": "Kontakte"
         }
@@ -290,7 +290,7 @@
   "retry": "Erneut Versuchen",
   "sending-approval": "Genehmigung senden…",
   "send-approval": "Genehmigung senden",
-  "submit-transfer": "Überweisung senden",
+  "submit-transfer": "Transaktion senden",
   "no-longer-sufficient-balance-for-tx": "Dein Guthaben reicht für diese Transaktion nicht aus.",
   "we-are-hiring": "Wir stellen ein!",
   "errors": {
@@ -2561,7 +2561,7 @@
       "proof-of-payment": "Zahlungsnachweis",
       "transfer-instructions-singular": "Überweise <0>{{amount}}</0> auf das folgende Bankkonto:",
       "transfer-instructions-plural": "Überweise <0>{{amount}}</0> auf eins der folgenden Bankkonten:",
-      "include-payment-reference": "Um deinen Kauf abzuschließen, lade einen Screenshot Ihrer Überweisung als Zahlungsnachweis hoch.",
+      "include-payment-reference": "Um deinen Kauf abzuschließen, lade einen Screenshot deiner Überweisung als Zahlungsnachweis hoch.",
       "reference": "Referenz",
       "bank-name": "Name der Bank",
       "bank-swift": "Bank SWIFT/BIC",
@@ -2575,7 +2575,7 @@
       },
       "order-created": {
         "title": "Ihr Auftrag wurde erstellt",
-        "description": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald Ihre Überweisung freigegeben ist. Dies kann bis zu einem Arbeitstag dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
+        "description": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald deine Überweisung freigegeben ist. Dies kann bis zu einem Arbeitstag dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
         "description_plural": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald deine Überweisung freigegeben ist. Dies kann bis zu {{count}} Werktage dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
         "button": "Beenden"
       },
@@ -2724,12 +2724,12 @@
     },
     "transaction-retry": {
       "title": "Transaktionen wiederholen",
-      "subtitle": "Alle ausstehenden oder fehlgeschlagenen Überweisungen",
+      "subtitle": "Alle ausstehenden oder fehlgeschlagenen Transaktionen",
       "actions-title": "Aktionen",
       "button-title": "Erneut versuchen",
       "button-sending": "Wird gesendet …",
       "button-sent": "Erneut gesendet",
-      "nothing-to-retry": "Du hast keine ausstehenden Überweisungen.",
+      "nothing-to-retry": "Du hast keine ausstehenden Transaktionen.",
       "status": {
         "title": "Status",
         "created": "Erstellt",
@@ -2800,7 +2800,7 @@
         "remindme": "Erinnere mich später",
         "dismiss": "Für immer verstecken",
         "havent-checked": "Du hast deine Zwölf-Wort-Datensicherung nicht überprüft",
-        "will-need": "Du benötigst diese Wörter, um auf deine Assets zugreifen zu können, wenn du dein Passwort für dein Nash Konto verlierst."
+        "will-need": "Du benötigst diese Wörter, um auf deine Assets zugreifen zu können, wenn du dein Passwort für dein Nash Konto verloren hast."
       },
       "transfer-funds": {
         "title": "Senden/Empfangen",
@@ -2836,8 +2836,8 @@
             }
           },
           "movement": {
-            "error": "Bitte warte, bis deine letzte Ethereum-Überweisung abgeschlossen ist.",
-            "pending-error": "Bitte warte, bis deine ausstehende Ethereum-Überweisung abgeschlossen ist.",
+            "error": "Bitte warte, bis deine letzte Ethereum-Transaktion abgeschlossen ist.",
+            "pending-error": "Bitte warte, bis deine ausstehende Ethereum-Transaktion abgeschlossen ist.",
             "token-requires-approval": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieser Token in den Trading Contract überwiesen werden kann."
           },
           "transfer-amount": {
@@ -2851,15 +2851,15 @@
             }
           },
           "btc": {
-            "funds-not-confirmed": "Deine Bitcoin-Transaktion erfordert sechs Bestätigungen des Bitcoin Netzwerks, bevor sie in deinen Trading Contract ankommt. Bitte warte, bis die letzte Transaktion bestätigt wird.",
-            "wait-until-external-transfer-completes": "Bitte warte, bis deine letzte externe Überweisung abgeschlossen ist, bevor du eine Einzahlung vornimmst.",
+            "funds-not-confirmed": "Deine Bitcoin-Transaktion erfordert sechs Bestätigungen des Bitcoin Netzwerks, bevor sie in deinen Trading Contract ankommt. Bitte warte, bis die letzte Transaktion bestätigt wurde.",
+            "wait-until-external-transfer-completes": "Bitte warte, bis deine letzte externe Transaktion abgeschlossen ist, bevor du eine Einzahlung vornimmst.",
             "temporary-limit": "Ein- und Auszahlungen von Bitcoin müssen größer als 0,001 BTC sein, während wir diesen neuen Markt testen. Die Beschränkung wird in naher Zukunft aufgehoben."
           },
           "async": {
-            "title": "Ihre Überweisung",
+            "title": "Deine Transaktion",
             "errors": {
               "syncing": "Wir synchronisieren deine {{currencySymbol}}-Assets in unserem System. Bitte warte eine Minute und versuche es noch einmal.",
-              "transaction-failed": "Deine letzte {{currencySymbol}}-Überweisung ist fehlgeschlagen. Bitte versuche es noch einmal."
+              "transaction-failed": "Deine letzte {{currencySymbol}}-Transaktion ist fehlgeschlagen. Bitte versuche es noch einmal."
             }
           },
           "fees": {
@@ -2872,7 +2872,7 @@
             "amount": "Unzureichendes Guthaben."
           },
           "deposit": {
-            "label": "Ihr persönliches Konto",
+            "label": "Dein persönliches Konto",
             "currency-address": "{{currency}}-Adresse",
             "currency-address-qrcode": "{{currency}}-Adresse QR-Code",
             "currency-send-warning": "Andere Assets als {{currency}}, die an diese Adresse gesendet werden, gehen verloren!"
@@ -2884,7 +2884,7 @@
         },
         "review": {
           "transfer-details": {
-            "title": "Überweisungsdetails",
+            "title": "Transaktionsdetails",
             "rows": {
               "amount-label": "Du überweist",
               "from-label": "Von",
@@ -2893,11 +2893,11 @@
             }
           },
           "confirming-balance": "Bitte warte, während wir dein Guthaben bestätigen.",
-          "waiting-for-sync": "Dein Guthaben wird derzeit mit der Blockchain synchronisiert. Dieser Vorgang kann bis zu fünf Minuten dauern. Bitte tätige dein Überweisung in wenigen Augenblicken noch einmal.",
+          "waiting-for-sync": "Dein Guthaben wird derzeit mit der Blockchain synchronisiert. Dieser Vorgang kann bis zu fünf Minuten dauern. Bitte tätige dein Transaktion in wenigen Augenblicken noch einmal.",
           "errors": {
-            "send": "Überweisung fehlgeschlagen. Bitte versuche es später noch einmal.",
-            "syncing": "Deine letzte Überweisung wird noch verarbeitet. Das kann bis zu zwei Minuten dauern. Bitte warte kurz und versuche es noch einmal.",
-            "insufficient-funds": "Deine derzeitiges Guthaben ist nicht ausreichend für diese Überweisung oder du tätigst gerade eine andere Überweisung. Bitte, warte und versuche es später noch einmal."
+            "send": "Transaktion fehlgeschlagen. Bitte versuche es später noch einmal.",
+            "syncing": "Deine letzte Transaktion wird noch verarbeitet. Das kann bis zu zwei Minuten dauern. Bitte warte kurz und versuche es noch einmal.",
+            "insufficient-funds": "Deine derzeitiges Guthaben ist nicht ausreichend für diese Transaktion oder du tätigst gerade eine andere Transaktion. Bitte, warte und versuche es später noch einmal."
           },
           "buttons": {
             "back": "Zurück",
@@ -2906,36 +2906,36 @@
           }
         },
         "hints": {
-          "btc-gas-hint": "Für Überweisungen fällt eine geringe Transaktionsgebühr an.",
-          "eth-gas-hint": "Für Überweisungen fällt eine geringe Transaktionsgebühr an. Die Gebühren für Ethereum-basierte Assets werden in ETH bezahlt.",
-          "neo-gas-hint": "Für Überweisungen fällt in der Regel eine geringe Transaktionsgebühr an. Die Gebühren für NEO-basierte Assets werden in GAS bezahlt.",
-          "eth-transfer-hint": "Solange noch Überweisungen ausstehen, ist der hier angezeigte Saldo möglicherweise nicht korrekt."
+          "btc-gas-hint": "Für Transaktionen fällt eine geringe Transaktionsgebühr an.",
+          "eth-gas-hint": "Für Transaktionen fällt eine geringe Transaktionsgebühr an. Die Gebühren für Ethereum-basierte Assets werden in ETH bezahlt.",
+          "neo-gas-hint": "Für Transaktionen fällt in der Regel eine geringe Transaktionsgebühr an. Die Gebühren für NEO-basierte Assets werden in GAS bezahlt.",
+          "eth-transfer-hint": "Solange noch Transaktionen ausstehen, ist der hier angezeigte Saldo möglicherweise nicht korrekt."
         },
         "steps": [
-          "Überweisungsdaten eingeben",
-          "Überweisung prüfen und bestätigen"
+          "Transaktionsdaten eingeben",
+          "Transaktion prüfen und bestätigen"
         ],
         "maybe-approval-steps": [
-          "Überweisungsdaten eingeben",
+          "Transaktionsdaten eingeben",
           "Genehmigung (falls erforderlich)",
-          "Überweisung prüfen und bestätigen"
+          "Transaktion prüfen und bestätigen"
         ],
         "approval-steps": [
-          "Überweisungsdaten eingeben",
+          "Transaktionsdaten eingeben",
           "Genehmigung",
-          "Überweisung prüfen und bestätigen"
+          "Transaktion prüfen und bestätigen"
         ],
         "erc-20": {
           "approving": "Wird genehmigt …",
-          "title": "Überweisung genehmigen",
-          "pre-deposit-info": "Um {{symbol}} auf den Trading Contract zu senden, müssen Sie eine Überweisung von Ihrem Konto genehmigen.",
-          "current-approval": "Ihre aktuelle Genehmigung für den Trading Contract ist: {{currentErc20Approved}}"
+          "title": "Transaktion genehmigen",
+          "pre-deposit-info": "Um {{symbol}} auf den Trading Contract zu senden, musst du dein Transaktion von deinem Konto genehmigen.",
+          "current-approval": "Deine aktuelle Genehmigung für den Trading Contract ist: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Überweisung gestartet …",
+          "title": "Transaktion gestartet …",
           "title-initializing": "Transfer initializing…",
-          "desc": "Besuchen Sie <0>Überweisungen</0>, um ihren Status zu verfolgen.",
-          "warning": "This can take up to one hour.",
+          "desc": "Besuche <0>Transaktionen</0>, um den Status zu verfolgen.",
+          "warning": "Das ganz bis zu einer Stunde dauern.",
           "remain-opened": "",
           "buttons": {
             "finish": "Verstanden!"
@@ -2943,25 +2943,25 @@
         }
       },
       "transfer-info": {
-        "title": "Sie können Assets wie folgt überweisen",
-        "notice": "Sie können erst an der Nash Exchange handeln, wenn Sie Assets an den Trading Contract geschickt haben.",
+        "title": "Du kannst Assets wie folgt überweisen",
+        "notice": "Du kannst erst an der Nash Exchange handeln, wenn du deine Assets an den Trading Contract geschickt hast.",
         "actions": {
-          "action-1": "Sie <0>können</0> Assets zwischen Ihrem persönlichen Konto und externen Konten hin und her überweisen.",
-          "action-2": "Ebenso <0>können</0> Sie Assets zwischen Ihrem persönlichen Konto und dem Trading Contract hin und her überweisen.",
-          "action-3": "Sie <0>können keine Assets</0> zwischen dem Trading Contract und externen Konten hin und her überweisen. Diese Transaktionen müssen über Ihr persönliches Konto laufen. Dadurch können wir Assets, die für den Handel verwendet werden, sicher schützen: Sie sind die einzige Person, die diese überweisen kann."
+          "action-1": "Du <0>kannst</0> Assets zwischen deinem persönlichen Konto und externen Wallets hin und her überweisen.",
+          "action-2": "Ebenso <0>kannst</0> du Assets zwischen deinem persönlichen Konto und dem Trading Contract hin und her überweisen.",
+          "action-3": "Du <0>kannst keine Assets</0> zwischen dem Trading Contract und externen Wallets hin und her überweisen. Diese Transaktionen müssen über dein persönliches Konto laufen. Dadurch können wir Assets, die für den Handel verwendet werden, sicher schützen: Du bist die einzige Person, die diese überweisen kann."
         },
         "continue-button": "OK, weiter",
         "dismiss-link": "Endgültig ausblenden und weitermachen"
       }
     },
     "transactions": {
-      "title": "Überweisungen",
-      "show-more-transactions": "Mehr Überweisungen zeigen",
-      "search-my-transactions": "Meine Überweisungen durchsuchen …",
-      "no-transactions": "Sie haben noch keine Überweisungen vorgenommen.",
+      "title": "Transaktionen",
+      "show-more-transactions": "Mehr Transaktionen zeigen",
+      "search-my-transactions": "Meine Transaktionen durchsuchen …",
+      "no-transactions": "Du hast noch keine Transaktionen vorgenommen.",
       "table": {
         "header": {
-          "title": "Alle Einzahlungen, Auszahlungen und Trading-Contract-Überweisungen"
+          "title": "Alle Einzahlungen, Auszahlungen und Trading-Contract-Transaktionen"
         },
         "when": {
           "title": "Datum"
@@ -2972,20 +2972,20 @@
             "completed": "Abgeschlossen",
             "pending": "Ausstehend"
           },
-          "view-transaction": "View transaction",
-          "retry-pending": "Retry sending transaction",
-          "cancel-intent": "Cancel transfer",
-          "clear-intent": "Clear transfer",
-          "contact-support": "Please contact support",
+          "view-transaction": "Transaktion zeigen",
+          "retry-pending": "Transaktion erneut senden",
+          "cancel-intent": "Transaktion abbrechen",
+          "clear-intent": "Ausblenden",
+          "contact-support": "Bitte kontaktiere den Kundenservice",
           "received-currency": "{{currencySymbol}} wurde empfangen",
           "receiving-currency": "{{currencySymbol}} wird noch empfangen",
           "transferred-currency": "{{currencySymbol}} wurde überwiesen",
           "transferring-currency": "{{currencySymbol}} wird noch überwiesen",
-          "initializing-currency": "Initializing {{currencySymbol}} transfer",
-          "failed-permanently": "{{currencySymbol}} transfer failed"
+          "initializing-currency": "Initialisiere {{currencySymbol}}-Transaktion",
+          "failed-permanently": "{{currencySymbol}}-Transaktion fehlgeschlagen"
         },
         "destination": {
-          "title": "Überweisung an",
+          "title": "Transaktion an",
           "to": {
             "trading-account": "Trading Contract",
             "personal-account": "Persönliches Konto",
@@ -2995,7 +2995,7 @@
           "from": {
             "trading-account": "Vom Trading Contract",
             "personal-account": "Von meinem persönlichen Konto",
-            "nash-fiat-ramp": "Purchase from Nash",
+            "nash-fiat-ramp": "Kauf von Nash",
             "external-address": "Von {{address}}"
           }
         },
@@ -3140,24 +3140,24 @@
       "transfer-from": "Von",
       "to-destination": "An",
       "send-only-currency": "Nur {{currency}} an diese Adresse überweisen",
-      "transfer-details": "Überweisungsdaten",
+      "transfer-details": "Transaktionsdaten",
       "you-are-transfering": "Du überweist",
       "you-are-sending": "Du sendest",
       "enter-2fa-code": "Zwei-Faktor-Authentifizierungscode eingeben",
       "transfer-funds": "Senden/Empfangen",
-      "create-transfer": "Überweisungsdaten eingeben",
-      "review-and-start-transfer": "Überweisung prüfen und bestätigen",
-      "transfer-has-started": "Überweisungen gestartet …",
-      "check-tranfer-info-part1": "Du kannst den Status deiner Überweisung im Bereich",
-      "check-tranfer-info-link": "Überweisungen",
+      "create-transfer": "Transaktionsdaten eingeben",
+      "review-and-start-transfer": "Transaktion prüfen und bestätigen",
+      "transfer-has-started": "Transaktionen gestartet …",
+      "check-tranfer-info-part1": "Du kannst den Status deiner Transaktion im Bereich",
+      "check-tranfer-info-link": "Transaktionen",
       "check-tranfer-info-part2": "unter ‘Wallet & Portfolio’ ansehen.",
       "external-address": "Externes Konto",
       "asset-to-transfer": "Dieses Asset überweisen",
       "transfer-funds-to-external": "Assets an eine externe Adresse senden",
       "send-funds": "Assets senden",
-      "withdrawal-details": "Überweisungsdaten",
+      "withdrawal-details": "Transaktionsdaten",
       "to-external-address": "An externes Konto",
-      "request-sent-to-blockchain": "Dein Überweisungsauftrag wurde an die Blockchain gesendet."
+      "request-sent-to-blockchain": "Dein Transaktionsauftrag wurde an die Blockchain gesendet."
     },
     "receive-funds": {
       "asset-to-receive": "Du erhälst",
