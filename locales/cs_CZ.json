@@ -798,205 +798,205 @@
       "buy": "Koupit {{currencySymbol}}",
       "sell": "Prodat {{currencySymbol}}",
       "locked-trading-session": {
-        "information": "Vaše časové okno pro obchodování je uzamčeno.<0 />",
-        "information-tooltip": "Časové okno por obchodování se uzamkne, když obnovíte stránku nebo jste 15 minut neaktivní.",
-        "enter-credentials-to-unlock": "<0>Odemknout nyní</0>"
+        "information": "Your trading session is locked. <0 />",
+        "information-tooltip": "Sessions are locked when you refresh the page or are idle for 15 minutes.",
+        "enter-credentials-to-unlock": "<0>Unlock now</0>"
       },
       "market-orders-disabled": {
-        "header": "Nedostatek hloubky trhu",
-        "desc": "V tuto chvíli není dostatečná hloubka trhu na to, aby byl tržní příkaz vypořádán."
+        "header": "Insufficient market depth",
+        "desc": "There are currently not enough orders on the book for market orders to be processed."
       },
       "order-type-tab": {
-        "market": "Trh",
+        "market": "Market",
         "limit": "Limit",
         "stop": "Stop",
         "stop-limit": "Stop-limit",
-        "balances": "Zůstatky",
+        "balances": "Balances",
         "balances-table": {
           "header": {
             "asset": "Asset",
-            "personal": "Osobní účet",
-            "trading": "Obchodovací účet",
-            "in-orders": "V příkazech",
-            "pending": "Čeká na vyřízení"
+            "personal": "Personal",
+            "trading": "Trading",
+            "in-orders": "In orders",
+            "pending": "Pending"
           },
-          "current-market": "Aktuální trh",
-          "other-tradable-assets": "Ostatní aktiva k obchodování"
+          "current-market": "Current market",
+          "other-tradable-assets": "Other tradable assets"
         }
       },
-      "trading-limits": "Obchodovací liity",
+      "trading-limits": "Trading limits",
       "fields": {
         "amount": {
-          "label": "Množství",
-          "sub-label-market-buy": "Toto je obchodní příkaz za tržní cenu, proto můžeme jen odhadnout množství {{currencyA}}, které koupíte.",
-          "sub-label-market-sell": "Toto je obchodní příkaz za tržní cenu, proto můžeme jen odhadnout množství {{currencyB}}, které získáte.",
-          "sub-label-limit-buy": "Napište množství {{currencySymbol}}, které chcete získat.",
-          "sub-label-limit-sell": "Napište množství{{currencySymbol}}, které chcete prodat.",
-          "estimate": "(odhad)",
+          "label": "Amount",
+          "sub-label-market-buy": "This is a market order, so we can only estimate the amount of {{currencyA}} you will buy.",
+          "sub-label-market-sell": "This is a market order, so we can only estimate of the total {{currencyB}} you will receive.",
+          "sub-label-limit-buy": "Enter the amount of {{currencySymbol}} you wish to receive.",
+          "sub-label-limit-sell": "Enter the amount of {{currencySymbol}} you wish to sell.",
+          "estimate": "(estimate)",
           "errors": {
-            "insufficient-funds": "Nedostatek {{currencySymbol}}.",
-            "maybe-insufficient-funds": "Nedostatek {{currencySymbol}}.",
-            "order-too-small": "Minimální velikost je {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "Překračujete obchodní limity."
+            "insufficient-funds": "Insufficient {{currencySymbol}}.",
+            "maybe-insufficient-funds": "Insufficient {{currencySymbol}}.",
+            "order-too-small": "Min size {{orderSize}} {{currencySymbol}}.",
+            "limit-breached": "This exceeds your trading limits."
           }
         },
         "cancel-at": {
-          "label": "Zrušit dne",
-          "expires": "Vyprší dne",
+          "label": "Cancel on",
+          "expires": "Expires",
           "modal": {
-            "label-no-selection": "Nejdříve vyberte datum…",
+            "label-no-selection": "Select a date to continue…",
             "errors": {
-              "is-past": "Nemůžete vybrat historické datum"
+              "is-past": "You cannot enter a time in the past"
             }
           }
         },
         "with-currency": {
-          "label": "Celkem"
+          "label": "Total"
         },
         "market-price": {
-          "label": "Tržní příkaz",
-          "sub-label": "Pokud vyberete obchodní příkaz za tržní cenu, váš příkaz bude spárován s limitními příkazy čekajícími na vypořádání."
+          "label": "Market",
+          "sub-label": "When you buy or sell at market price your order will match with orders currently on the book."
         },
         "show-limit": {
           "label-hide": "Stop-market",
           "label-show": "Stop-limit"
         },
         "price": {
-          "label": "Cena"
+          "label": "Price"
         },
         "limit-price": {
-          "label": "Limitní příkaz",
-          "sub-label": "Váš příkaz bude vypořádán za tuto cenu nebo lépe.",
+          "label": "Limit",
+          "sub-label": "Your order can match with orders at this price or better.",
           "errors": {
-            "maker-match": "‘Post only’ příkazy, které se mohou spárovat s limitními příkazy čekající na vypořádání nebudou aktivní a samy budou čekat na vypořádání."
+            "maker-match": "‘Post only’ orders that match in the current order book will be canceled."
           }
         },
         "stop-price": {
           "label": "Stop",
-          "sub-label": "Stop cena funguje jako spouštěč pro další příkaz.",
+          "sub-label": "Stop price acts as a trigger for another order.",
           "errors": {
-            "stop-trigger-immediately": "Tato stop cena okamžitě spustí váš jiný příkaz."
+            "stop-trigger-immediately": "This stop price will trigger your order immediately."
           }
         },
         "shared": {
           "errors": {
-            "20-above": "20% nad aktuální tržní cenou.",
-            "20-below": "20% pod aktuální tržní cenou.",
-            "price-too-high": "Není možné zprocesovat příkaz s cenou nad {{maxPrice}}."
+            "20-above": "20% above the market price.",
+            "20-below": "20% below the market price.",
+            "price-too-high": "Cannot process prices over {{maxPrice}}."
           }
         },
         "maker-only": {
           "label": "Post only",
-          "sub-label": "Díky‘Post only’ vložíte váš příkaz jako tvůrce trhu a ne jako odběratel likvidity. Příkaz se ale nemusí vypořádat."
+          "sub-label": "‘Post only’ will place your order as a maker only, not a taker. It may not fill."
         },
         "cancellation-policy": {
-          "label": "Čas v platnosti",
-          "footer": "Zjistit více"
+          "label": "Time in force",
+          "footer": "Learn more"
         },
         "trading-balance": {
-          "label": "Dostupné množství {{currency}}: "
+          "label": "Available {{currency}}: "
         }
       },
       "submit": {
-        "buy": "Vytvořit kupní příkaz",
-        "sell": "Vytvořit prodejní příkaz",
-        "placing": "Vytvářím příkaz…"
+        "buy": "Create buy order",
+        "sell": "Create sell order",
+        "placing": "Placing order…"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Váš obchodní příkaz byl odmítnut, kvůli nedostatku prostředků.",
-        "order-rejected-daily-limit-reached": "Váš obchodní příkaz byl odmítnut, kvůli dosažení obchodovacích limitů.",
-        "generic": "Chyby při odesílání obchodního příkazu. Prosím zkuste novu."
+        "order-rejected-insufficient-funds": "Your order was rejected because you lack sufficient funds.",
+        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
+        "generic": "Error placing your order. Please try again."
       },
-      "signin-or-create-an-account": "Pro zadání obchodního příkazu je nutné se <0>přihlásit</0> nebo <1>vytvořit účet</1>."
+      "signin-or-create-an-account": "<0>Sign in</0> or <1>create an account</1> to place an order."
     },
     "my-orders": {
-      "auth": "Pro zobrazení vašich obchodních příkazů se přihlašte.",
+      "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Vyzkoušet</0><1>\u00A0Nash</1>",
-        "subtitle": "Během miuty si vytvořte účet – žádné KYC není ptřeba!"
+        "title": "<0>Get started</0><1>\u00A0with Nash</1>",
+        "subtitle": "Create an account in under a minute – no KYC required!"
       },
       "no-results": {
-        "date-range": "V zadaném čase nemáte zadané žádné obchodní pokyny.",
-        "active": "Neáte žádné otevřené nebo vypořádané pokyny.",
-        "active-open-only": "Nemáta žádné zadané obchodní pokyny.",
-        "trades": "Nemáte žádnou obchodní historii."
+        "date-range": "You have no orders in the given date range.",
+        "active": "You have no open or filled orders.",
+        "active-open-only": "You have no open orders.",
+        "trades": "You have no trade history."
       },
       "tabs": {
-        "orders": "Pokyny",
-        "trades": "Obchodní historie"
+        "orders": "Orders",
+        "trades": "Trade history"
       },
       "date-range-selection": {
         "days": "{{range}}d",
-        "weeks": "{{range}}t",
+        "weeks": "{{range}}w",
         "months": "{{range}}M",
-        "years": "{{range}}R",
-        "clear": "Smazat",
-        "select-action": "Jiné",
+        "years": "{{range}}Y",
+        "clear": "Clear",
+        "select-action": "Custom",
         "popup": {
-          "no-selection": "Pro pokračování vyberte časový interval",
-          "clear": "Smazat",
-          "apply": "Použít"
+          "no-selection": "Select a date range to continue",
+          "clear": "Clear",
+          "apply": "Apply"
         }
       },
-      "open-only-checkbox": "Otevřené",
-      "pairs-checkbox": "Všechny páry",
-      "export": "Exportovat historii",
-      "export-trades": "Exportovat obchodní historii",
-      "export-your-trades": "Exportovat vaše obchody",
-      "no-trades": "Nemáte žádné realizované obchody k exportování.",
+      "open-only-checkbox": "Open only",
+      "pairs-checkbox": "All pairs",
+      "export": "Export history",
+      "export-trades": "Export trade history",
+      "export-your-trades": "Export your trades",
+      "no-trades": "You have no trades to export",
       "trade-history-times": {
-        "header": "Vyberte časový interval pro export",
-        "custom": "Jiný časový interval",
-        "months": "{{count}} měsíc",
-        "months_plural": "{{count}} měsíců",
-        "year": "{{count}} let"
+        "header": "Select a set timeframe to export",
+        "custom": "Custom timeframe",
+        "months": "{{count}} month",
+        "months_plural": "{{count}} months",
+        "year": "{{count}} year"
       },
-      "reset-filters": "Obnovit",
+      "reset-filters": "Reset",
       "side-col": {
         "filter": {
-          "buy": "Koupeno",
-          "sell": "Prodáné",
-          "both": "Vše"
+          "buy": "Buy",
+          "sell": "Sell",
+          "both": "Both"
         }
       },
       "type-col": {
-        "header-title": "Typ",
-        "header-title-with-currency": "{{currency}} typ",
+        "header-title": "Type",
+        "header-title-with-currency": "{{currency}} type",
         "filter": {
-          "market": "Tržní příkaz",
-          "limit": "Limitní příkaz",
+          "market": "Market",
+          "limit": "Limit",
           "stop-market": "Stop-market",
           "stop-limit": "Stop-limit"
         },
         "cell-text": {
-          "market-buy": "Kupní tržní příkaz",
-          "market-sell": "Prodejní tržní příkaz",
-          "limit-buy": "Kupní limitní příkaz",
-          "limit-sell": "Prodejní limitní příkaz",
-          "stop_limit-buy": "Kupní stop-limit za <0></0>",
-          "stop_limit-sell": "Prodejní stop-limit za <0></0>",
-          "stop_market-buy": "Kupní stop-market za <0></0>",
-          "stop_market-sell": "Prodejní stop-market za <0></0>"
+          "market-buy": "Market buy",
+          "market-sell": "Market sell",
+          "limit-buy": "Limit buy",
+          "limit-sell": "Limit sell",
+          "stop_limit-buy": "Stop-limit buy at <0></0>",
+          "stop_limit-sell": "Stop-limit sell at <0></0>",
+          "stop_market-buy": "Stop-market buy at <0></0>",
+          "stop_market-sell": "Stop-market sell at <0></0>"
         }
       },
       "cancel-col": {
-        "header-title": "Zrušit vše",
-        "partial-fill": "Částečné vypořádání",
-        "cancelled-partial-fill": "Zrušené: Částečné vypořádání",
-        "cancelled-order": "Zrušené obchodní pokyny"
+        "header-title": "Cancel all",
+        "partial-fill": "Partial fill",
+        "cancelled-partial-fill": "Canceled: Partial fill",
+        "cancelled-order": "Order canceled"
       },
       "cancelled-unfilled-col": {
-        "header-title": "Nevypořádané množství",
-        "header-title-with-currency": "{{currency}} unfinevypořádané množství"
+        "header-title": "Unfilled amount",
+        "header-title-with-currency": "{{currency}} unfilled amount"
       },
       "cancelled-filled-col": {
-        "header-title": "Vypořádané množství",
-        "header-title-with-currency": "{{currency}} vypořádané množství"
+        "header-title": "Filled amount",
+        "header-title-with-currency": "{{currency}} filled amount"
       },
       "status-col": {
         "header-title": "Status",
-        "open": "Otevřené",
-        "cancelled": "Zrušené",
+        "open": "Open",
+        "cancelled": "Canceled",
         "filled": "Filled",
         "pending": "Pending"
       },
@@ -1584,114 +1584,114 @@
     "ME": "Černá Hora",
     "MF": "Svatý Martin (Francouzská část)",
     "MG": "Madagaskar",
-    "MH": "Marshall Islands",
-    "MK": "Macedonia (the former Yugoslav Republic of)",
+    "MH": "Marshallovy ostrovy",
+    "MK": "Severní Makedonie",
     "ML": "Mali",
-    "MM": "Myanmar",
-    "MN": "Mongolia",
+    "MM": "Myanmar (Barma)",
+    "MN": "Mongolsko",
     "MO": "Macao",
-    "MP": "Northern Mariana Islands",
-    "MQ": "Martinique",
-    "MR": "Mauritania",
+    "MP": "Severní Mariany",
+    "MQ": "Martinik",
+    "MR": "Mauritánie",
     "MS": "Montserrat",
     "MT": "Malta",
-    "MU": "Mauritius",
-    "MV": "Maldives",
+    "MU": "Mauricius",
+    "MV": "Maledivy",
     "MW": "Malawi",
-    "MX": "Mexico",
-    "MY": "Malaysia",
-    "MZ": "Mozambique",
-    "NA": "Namibia",
-    "NC": "New Caledonia",
+    "MX": "Mexiko",
+    "MY": "Malajsie",
+    "MZ": "Mosambik",
+    "NA": "Namibie",
+    "NC": "Nová Kaledonie",
     "NE": "Niger",
-    "NF": "Norfolk Island",
-    "NG": "Nigeria",
-    "NI": "Nicaragua",
-    "NL": "Netherlands",
-    "NO": "Norway",
-    "NP": "Nepal",
+    "NF": "Norfolk",
+    "NG": "Nigérie",
+    "NI": "Nikaragua",
+    "NL": "Nizozemsko",
+    "NO": "Norsko",
+    "NP": "Nepál",
     "NR": "Nauru",
     "NU": "Niue",
-    "NZ": "New Zealand",
-    "OM": "Oman",
+    "NZ": "Nový Zéland",
+    "OM": "Omán",
     "PA": "Panama",
     "PE": "Peru",
-    "PF": "French Polynesia",
-    "PG": "Papua New Guinea",
-    "PH": "Philippines",
-    "PK": "Pakistan",
-    "PL": "Poland",
-    "PM": "Saint Pierre and Miquelon",
-    "PN": "Pitcairn",
-    "PR": "Puerto Rico",
-    "PS": "Palestine, State of",
-    "PT": "Portugal",
+    "PF": "Francouzská Polynésie",
+    "PG": "Papua Nová Guinea",
+    "PH": "Filipíny",
+    "PK": "Pakistán",
+    "PL": "Polsko",
+    "PM": "Saint Pierre a Miquelon",
+    "PN": "Pitcairnovy ostrovy",
+    "PR": "Portoriko",
+    "PS": "Palestina",
+    "PT": "Portugalsko",
     "PW": "Palau",
     "PY": "Paraguay",
-    "QA": "Qatar",
+    "QA": "Katar",
     "RE": "Réunion",
-    "RO": "Romania",
-    "RS": "Serbia",
-    "RU": "Russian Federation",
+    "RO": "Rumunsko",
+    "RS": "Srbsko",
+    "RU": "Rusko",
     "RW": "Rwanda",
-    "SA": "Saudi Arabia",
-    "SB": "Solomon Islands",
-    "SC": "Seychelles",
-    "SD": "Sudan",
-    "SE": "Sweden",
-    "SG": "Singapore",
-    "SH": "Saint Helena, Ascension and Tristan da Cunha",
-    "SI": "Slovenia",
-    "SJ": "Svalbard and Jan Mayen",
-    "SK": "Slovakia",
+    "SA": "Saudská Arábie",
+    "SB": "Šalomounovy ostrovy",
+    "SC": "Seychely",
+    "SD": "Súdán",
+    "SE": "Švédsko",
+    "SG": "Singapur",
+    "SH": "Svatá Helena, Ascension a Tristan da Cunha",
+    "SI": "Slovinsko",
+    "SJ": "Špicberky a Jan Mayen",
+    "SK": "Slovensko",
     "SL": "Sierra Leone",
     "SM": "San Marino",
     "SN": "Senegal",
-    "SO": "Somalia",
+    "SO": "Somálsko",
     "SR": "Suriname",
-    "SS": "South Sudan",
-    "ST": "Sao Tome and Principe",
-    "SV": "El Salvador",
-    "SX": "Sint Maarten (Dutch part)",
-    "SY": "Syrian Arab Republic",
-    "SZ": "Swaziland",
-    "TC": "Turks and Caicos Islands",
-    "TD": "Chad",
-    "TF": "French Southern Territories",
+    "SS": "Jižní Súdán",
+    "ST": "Svatý Tomáš a Princův ostrov",
+    "SV": "Salvador",
+    "SX": "Svatý Martin (nizozemská část)",
+    "SY": "Sýrie",
+    "SZ": "Svazijsko",
+    "TC": "Turks a Caicos",
+    "TD": "Čad",
+    "TF": "Francouzská jižní a antarktická území",
     "TG": "Togo",
-    "TH": "Thailand",
-    "TJ": "Tajikistan",
+    "TH": "Thajsko",
+    "TJ": "Tádžikistán",
     "TK": "Tokelau",
-    "TL": "Timor-Leste",
-    "TM": "Turkmenistan",
-    "TN": "Tunisia",
+    "TL": "Východní Timor",
+    "TM": "Turkmenistán",
+    "TN": "Tunisko",
     "TO": "Tonga",
-    "TR": "Turkey",
-    "TT": "Trinidad and Tobago",
+    "TR": "Turecko",
+    "TT": "Trinidad a Tobago",
     "TV": "Tuvalu",
-    "TW": "Taiwan",
-    "TZ": "Tanzania, United Republic of",
-    "UA": "Ukraine",
+    "TW": "Tchaj-wan",
+    "TZ": "Tanzanie",
+    "UA": "Ukrajina",
     "UG": "Uganda",
-    "UM": "United States Minor Outlying Islands",
-    "US": "United States of America",
+    "UM": "Nezačleněná území Spojených států amerických",
+    "US": "Spojené státy americké",
     "UY": "Uruguay",
-    "UZ": "Uzbekistan",
-    "VA": "Holy See",
-    "VC": "Saint Vincent and the Grenadines",
-    "VE": "Venezuela (Bolivarian Republic of)",
-    "VG": "Virgin Islands (British)",
-    "VI": "Virgin Islands (U.S.)",
+    "UZ": "Uzbekistán",
+    "VA": "Vatikán",
+    "VC": "Svatý Vincenc a Grenadiny",
+    "VE": "Venezuela",
+    "VG": "Britské Panenské ostrovy",
+    "VI": "Americké Panenské ostrovy",
     "VN": "Vietnam",
     "VU": "Vanuatu",
-    "WF": "Wallis and Futuna",
+    "WF": "Wallis a Futuna",
     "WS": "Samoa",
-    "XK": "Republic of Kosovo",
-    "XX": "Unspecified nationality",
-    "YE": "Yemen",
+    "XK": "Kosovo",
+    "XX": "Národnost nespecifikována",
+    "YE": "Jemen",
     "YT": "Mayotte",
-    "ZA": "South Africa",
-    "ZM": "Zambia",
+    "ZA": "Jihoafrická republika",
+    "ZM": "Zambie",
     "ZW": "Zimbabwe"
   },
   "fiat-currencies": {
