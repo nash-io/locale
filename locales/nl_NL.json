@@ -104,55 +104,55 @@
     "step2": {
       "password": "Wachtwoord",
       "two-fa-code": "Twee stappen authenticatie code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "create-api-button-label": "Ga verder",
+      "incorrect-password": "De wachtwoord die je invoerde is fout.",
+      "incorrect-2fa": "De code die je invoerde is fout."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Sleutel wordt gegenereerd…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Jouw geheim",
+      "your-secret-warning": "Dit is de enige keer dat we je dit laten zien.",
+      "api-key": "Jouw API-sleutel",
+      "api-key-warning": "Dit is de enige keer dat we je dit laten zien.",
+      "download-as-json-button-label": "Download API-sleutel en geheim als JSON",
+      "i-saved-my-secret-button-label": "Ik heb mijn geheim opgeslagen"
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
+    "1h": "1u",
+    "1d": "24u",
     "1w": "1w",
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
+    "trading": "Handelen",
+    "personal": "Persoonlijk",
     "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "transfer-funds": "Verzend/Ontvang",
+    "pending-transfer": "Je hebt een transfer in behandeling van {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Bekijk je transfers hier."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Geschatte commissie: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
-    "use-last": "Use last"
+    "use-last": "Gebruik laatste"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Onvoldoende fondsen",
+  "amount-each": "{{amount}} per stuk",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Totaal dagelijkse limieten",
+    "link": "Verhoog mijn limieten",
+    "amount-of-max-amount": "{{amount}} van de {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Commissie structuur",
+    "desc": "Nash berekent het voortschrijdend gemiddelde (moving average) volume van een gebruiker gedurende 30 dagen aan de hand van het handelsvolume dat aan zijn account is gekoppeld als een percentage van het totale handelsvolume.",
+    "30-day-volume": "30-dagen volume",
+    "taker-fee": "Taker commissie",
+    "maker-fee": "Maker commissie",
+    "learn-more": "Leer meer over maker en taker orders."
   },
   "time-in-force-modal": {
     "title": "Time in force",
