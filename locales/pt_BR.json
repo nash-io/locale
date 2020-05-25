@@ -1,7 +1,7 @@
 {
   "sandbox-warning": "Este é um ambiente sandbox para testes de integração API. Nunca envie fundos de verdade aqui!",
-  "buy": "Comprar",
-  "sell": "Vender",
+  "buy": "comprar",
+  "sell": "vender",
   "continue": "Continuar",
   "ok": "OK",
   "back": "Voltar",
@@ -22,11 +22,11 @@
   "set-price": "Estabeleça um preço",
   "market": "Mercado",
   "market-price": "Preço de mercado",
-  "exchange": "negociar",
+  "exchange": "Negociar",
   "receive": "Receba",
   "wallet": "Carteira",
   "upload": "Upload",
-  "processing": "Processamento...",
+  "processing": "Processando...",
   "over-file-limit": "O tamanho do arquivo não deve exceder {{maxAllowedSize}}{{unit}}.",
   "opens-new-tab": "Abre em nova aba",
   "failed-update": "Falha na atualização",
@@ -378,19 +378,19 @@
       "tier-0": {
         "location-mismatch": {
           "title": "O seu endereço IP não corresponde ao país que você selecionou.",
-          "message": "Usuários com um nível de verificação do Tier 0 não podem acessar todos os serviços da Nash a menos que se conectem a partir de seu país de residência. Considere <0>upgrading to Tier 1</0>."
+          "message": "Usuários com um nível de verificação do Nível 0 não podem acessar todos os serviços da Nash a menos que se conectem a partir de seu país de residência. Considere <0>upgrading to Nível 1</0>."
         },
         "untrusted-ip": {
           "title": "Notamos que você está usando uma VPN.",
-          "message": "Usuários com um nível de verificação de Tier 0 não podem acessar todos os serviços da Nash se eles se conectarem via VPN ou proxy. Por favor, desabilite qualquer um desses serviços ou <0>upgrade para Tier 1</0>."
+          "message": "Usuários com um nível de verificação de Nível 0 não podem acessar todos os serviços da Nash se eles se conectarem via VPN ou proxy. Por favor, desabilite qualquer um desses serviços ou <0>upgrade para Nível 1</0>."
         },
         "high-risk-country": {
-          "title": "Seu nível de verificação atual é Tier 0. Como resultado, seu acesso a algumas partes da plataforma Nash será restrito.",
-          "message": "Para utilizar nosso portfólio completo de serviços, por favor <0>upgrade para Tier 1</0>."
+          "title": "Seu nível de verificação atual é Nível 0. Como resultado, seu acesso a algumas partes da plataforma Nash será restrito.",
+          "message": "Para utilizar nosso portfólio completo de serviços, por favor <0>upgrade para Nível 1</0>."
         },
         "duplicate-ip": {
           "title": "Uma conta já foi criada usando este endereço IP.",
-          "message": "Para acessar todos os serviços da Nash nesta conta, por favor <0>upgrade para Tier 1</0>."
+          "message": "Para acessar todos os serviços da Nash nesta conta, por favor <0>upgrade para Nível 1</0>."
         }
       },
       "restricted": {
@@ -406,8 +406,8 @@
         }
       },
       "tier-too-low": {
-        "title": "Seu nível de verificação atual é Tier {{userTier}}. Como resultado, o seu acesso a algumas partes da plataforma Nash será restrito.",
-        "message": "Para utilizar nosso portfólio completo de serviços, por favor <0>upgrade para Tier {{minTier}}</0>."
+        "title": "Seu nível de verificação atual é Nível {{userTier}}. Como resultado, o seu acesso a algumas partes da plataforma Nash será restrito.",
+        "message": "Para utilizar nosso portfólio completo de serviços, por favor <0>upgrade para Nível {{minTier}}</0>."
       }
     },
     "info": {
@@ -566,8 +566,8 @@
     "tab-title": "Criar uma conta",
     "steps": [
       "Doze palavras secretas",
-      "autenticação forte"
-      ],
+      "Autenticação forte"
+    ],
     "general-information": {
       "title": "Informações gerais",
       "header": "Vamos criar a sua carteira pessoal",
@@ -1698,11 +1698,11 @@
     "AUD": "Dólar australiano (AUD)",
     "CAD": "Dólar canadense (CAD)",
     "CHF": "Franco Suíço (CHF)",
-    "CNY": "yuan chinês (CNY)",
+    "CNY": "Yuan chinês (CNY)",
     "EUR": "Euro (EUR)",
     "GBP": "Libra esterlina britânica (GBP)",
-    "INR": "rupia indiana (INR)",
-    "JPY": "iene japonês (JPY)",
+    "INR": "Rupia indiana (INR)",
+    "JPY": "Iene japonês (JPY)",
     "RUB": "Rublo russo (RUB)",
     "SGD": "Dólar Cingapuriano (SGD)",
     "USD": "Dólar americano (USD)"
@@ -2009,7 +2009,7 @@
           "cancelled-by-user": "Você recusou esta cotação",
           "failed-expired-on-bank-transfer": "Pagamento não recebido",
           "failed-expired-on-bank-transfer-reason": "Sua cotação expirou antes de recebermos seu pagamento",
-          "failed-expired-on-confirmation": "cotação vencida",
+          "failed-expired-on-confirmation": "Cotação vencida",
           "failed-expired-on-confirmation-reason": "Você não aceitou a sua cotação a tempo e ela expirou",
           "reconfirmation-expired": "A reconfirmação expirou",
           "reconfirmation-rejected": "Reconfirmação rejeitada",
@@ -2022,7 +2022,7 @@
         },
         "quote-status": {
           "pending-user-confirmation": "Não confirmado",
-          "cancelled-by-user": "cotação recusada",
+          "cancelled-by-user": "Cotação recusada",
           "failed-expired-on-bank-transfer": "Falha",
           "failed-expired-on-confirmation": "Falha",
           "reconfirmation-expired": "Expirado",
@@ -2030,7 +2030,7 @@
           "confirmed-waiting-for-payment": "Pagamento necessário",
           "pending-refund": "Pendente",
           "pending-user-rate-reconfirmation": "Taxa alterada",
-          "processing": "Processamento",
+          "processing": "Processando",
           "refunded": "Reembolso",
           "completed": "Completo"
         }
@@ -2044,7 +2044,7 @@
       "card-header": "conta",
       "new-card-header": "Novo cartão",
       "new-bank-account-header": "Nova conta bancária",
-      "processing": "Processamento...",
+      "processing": "Processando...",
       "verified": "Verificado",
       "unverified-method": "Verificação de identidade não completa",
       "verified-method": "Identidade verificada",
@@ -2114,7 +2114,7 @@
     "reconfirm-accept": {
       "review-header": "Você aceitou a nova cotação",
       "you-recieve": "Você receberá",
-      "destination": "contrato de negociação da Nash",
+      "destination": "Contrato de negociação da Nash",
       "destination-label": "Destino",
       "arrival-label": "Horário estimado de chegada",
       "arrival": "O mais rápido possível",
@@ -2293,10 +2293,10 @@
           "provided": "ID carregada"
         },
         "phone": {
-          "edit": "Editar número de telefone",
-          "label": "Telefone de Contato",
-          "add": "Adicionar número de telefone",
-          "save": "Submeter número de telefone",
+          "edit": "Editar telefone",
+          "label": "Telefone",
+          "add": "Adicionar telefone",
+          "save": "Submeter telefone",
           "placeholder": "+1 000-123-1234"
         },
         "dob": {
@@ -2349,14 +2349,14 @@
       "profile-approved-info-message": "A edição de qualquer detalhe de perfil significa que sua conta deverá ser revisada novamente. Sua capacidade de comprar e vender ativos digitais diretamente será congelada até que esta revisão esteja completa e seus dados sejam aprovados.",
       "limits-requirements": "Requisitos",
       "limits-header": "Limites anuais de compra",
-      "limits-complete": "Plataforma Nash Fiat Tier 1",
+      "limits-complete": "Plataforma Nash Fiat Nível 1",
       "limits-not-complete": "Declarar ocupação e fonte de recursos",
       "limits-no-occupation": "Declarar ocupação",
       "limits-no-source-of-funds": "Declare fonte de recursos",
       "limits-no-level-1": "Deve ser verificado o tier-1",
       "add-occupation": "Declarar ocupação",
       "add-source-of-funds": "Declare fonte de recursos",
-      "header": "Informações do perfil Tier 1",
+      "header": "Informações do perfil Nível 1",
       "contact-support-to-edit": "<0>Suporte de contato</0> para editar",
       "source-of-funds": "Origem dos fundos",
       "occupation": "Ocupação",
@@ -2384,9 +2384,9 @@
       "date-of-birth": "Data de nascimento",
       "create-date-of-birth": "Adicionar data de nascimento",
       "edit-date-of-birth": "Editar data de nascimento",
-      "cell-phone": "Telefone de Contato",
-      "create-cell-phone": "Adicionar número de telefone",
-      "edit-cell-phone": "Editar número de telefone",
+      "cell-phone": "Telefone",
+      "create-cell-phone": "Adicionar telefone",
+      "edit-cell-phone": "Editar telefone",
       "government-id": "Documento de identidade",
       "append-government-id": "Adicionar outro documento de identidade",
       "create-government-id": "Carregar documento de identidade",
@@ -2501,7 +2501,7 @@
       "title": "Aquisição de ativos digitais",
       "total-cost": "Custo total",
       "total-with-provider-fee": "Total com taxas",
-      "trading-contract": "contrato de negociação",
+      "trading-contract": "Contrato de negociação",
       "transaction-details": "Resumo da transação",
       "transaction-details-link": "Veja",
       "warning-msg": "Autorizo {{providerName}} a debitar a conta indicada para o valor acima na data de hoje. Não vou contestar {{providerName}} debitar minha conta, desde que a transação corresponda aos termos deste formulário online e meu acordo com {providerName}}."
@@ -2583,7 +2583,7 @@
         "birth-date": "Editar minha data de nascimento",
         "status-and-process": "Status e processo",
         "initial-account-creation": "Criação de conta",
-        "cellphone-and-email": "Confirmar e-mail e número de telefone",
+        "cellphone-and-email": "Confirmar e-mail e telefone",
         "complete-profile": "Perfil",
         "buy-limits": "Limite de compra",
         "sell-limits": "Limite de venda"
@@ -2637,7 +2637,7 @@
         "edit": "Editar"
       },
       "heading": {
-        "add-phone-number": "Adicione seu número de telefone",
+        "add-phone-number": "Adicione seu telefone",
         "add-residential-address": "Adicione seu endereço residencial",
         "government-id-or-passport": "Carregar documento de identidade",
         "utility-bill": "Upload da conta de serviços públicos",
@@ -2987,7 +2987,7 @@
         "destination": {
           "title": "Destino",
           "to": {
-            "trading-account": "contrato de negociação",
+            "trading-account": "Contrato de negociação",
             "personal-account": "Carteira pessoal",
             "staking-account": "Contrato de stakar NEX",
             "fees": "Taxas"
@@ -3166,7 +3166,7 @@
     },
     "wallet-type": {
       "personal": "Minha carteira pessoal",
-      "trading": "contrato de negociação",
+      "trading": "Contrato de negociação",
       "external": "Uma carteira externa"
     },
     "common": {
@@ -3255,7 +3255,7 @@
     "save-settings": "Salvar configurações",
     "kyc": {
       "state-label": "Estado",
-      "rejected": "Tier 1 status negado",
+      "rejected": "Nível 1 status negado",
       "rejected-subtitle": "Infelizmente, você não poderá prosseguir mais. Se você acredita que isso é um erro, entre em contato com nossa equipe de <0>suporte.</0>",
       "details": {
         "missing_signature": {
@@ -3385,7 +3385,7 @@
       "country": "País",
       "waiting": "Verificando...",
       "waiting-subtitle": "Isto pode demorar alguns minutos. Você pode sair desta página.",
-      "topnav-title": "Verificação Tier 1",
+      "topnav-title": "Verificação Nível 1",
       "contact-support-label": "<0>Apoio ao contato</0> to mudança",
       "confirm-button-label": "Confirme seus dados",
       "name-step": {
@@ -3454,7 +3454,7 @@
           "title": "Nome da atualização",
           "label": "Nome",
           "tier0-summary": "Para atualizar seu nome, por favor complete <0>Verificação de nível 1</0>.",
-          "tier0-details": "Quando a sua solicitação para o Tier 1 tiver sido aprovada, atualizaremos seu nome para o nome legal nos documentos que você forneceu.",
+          "tier0-details": "Quando a sua solicitação para o Nível 1 tiver sido aprovada, atualizaremos seu nome para o nome legal nos documentos que você forneceu.",
           "tier1-summary": "Se o seu nome legal mudou e você gostaria de atualizá-lo, por favor <0>contacto suporte</0>.",
           "tier1-details": "Nós iremos redefinir o seu nível de verificação e pedir-lhe para repetir o procedimento de verificação usando os seus novos documentos. Quando sua solicitação for aprovada, atualizaremos seu nome para o nome legal nos documentos que você nos forneceu."
         },
@@ -3668,7 +3668,7 @@
       "title": "Limites",
       "header": "Limites",
       "desc-1": "Por razões legais, temos que verificar sua identidade se você deseja negociar acima de certos limites.",
-      "desc-2": "A verificação Tier 0 está disponível automaticamente.",
+      "desc-2": "A verificação Nível 0 está disponível automaticamente.",
       "cards": {
         "tiers": {
           "header": "Nível {{tier}}",
@@ -3704,7 +3704,7 @@
           "date-of-birth": "Data de nascimento",
           "net-worth": "Patrimônio líquido",
           "contact-number": "Número de contato",
-          "tier1-info-net-worth": "Informações Tier 1 + Patrimônio Líquido",
+          "tier1-info-net-worth": "Informações Nível 1 + Patrimônio Líquido",
           "source-of-funds": "Origem dos fundos",
           "name-manager": "Representante da empresa",
           "email-institution": "Endereço de e-mail",
@@ -3727,12 +3727,12 @@
                 "Escaneie o código QR"
               ],
               "download": {
-                "header": "A verificação Tier 1 é possível utilizando o nosso aplicativo móvel.",
+                "header": "A verificação Nível 1 é possível utilizando o nosso aplicativo móvel.",
                 "downloaded-app": "Eu fiz o download do aplicativo"
               },
               "scan-code": {
                 "header": "Escaneie o seguinte código QR com o aplicativo Nash:",
-                "desc": "Quando você tiver concluído a verificação Tier 1, seu resultado aparecerá aqui dentro de um minuto."
+                "desc": "Quando você tiver concluído a verificação Nível 1, seu resultado aparecerá aqui dentro de um minuto."
               }
             },
             "web": {
@@ -3870,7 +3870,7 @@
         "create-stake-error": "Houve ou um erro ou um atraso na criação do stake. Por favor, verifique novamente em cinco minutos se a seu stake não foi criado.",
         "create-stake-auth-error": "Erro de autenticação. Por favor, tente novamente.",
         "learn-more": "Saiba mais sobre",
-        "footer-desc": "NEX stakados",
+        "footer-desc": "nEX stakados",
         "amount-error-message": "Este valor excede o seu saldo disponível.",
         "stake-success": {
           "header": "Stake criado!",
@@ -3914,7 +3914,7 @@
     "headers": {
       "name": "Nome",
       "email": "Email",
-      "phone-number": "Telefone de Contato",
+      "phone-number": "Telefone",
       "wallets": "Carteiras"
     },
     "modals": {
@@ -3933,11 +3933,11 @@
           "wallet": "Destino"
         },
         "sublabels": {
-          "currency": "Você só pode enviar ativos de sua carteira pessoal."
+          "currency": "Você só pode enviar de sua carteira pessoal."
         },
         "placeholders": {
-          "currency": "Procure um bem...",
-          "destination": "Procure por um endereço de carteira..."
+          "currency": "Procurar...",
+          "destination": "Procure por uma carteira..."
         }
       },
       "delete": {
@@ -3951,7 +3951,7 @@
       },
       "results": {
         "success": "Contato salvo!",
-        "error": "Contato de salvamento de erros. Por favor, tente novamente.",
+        "error": "Erro ao salvar contato. Por favor, tente novamente.",
         "invalid-input": "Entrada inválida. Por favor, tente novamente."
       },
       "fields": {
@@ -3981,10 +3981,10 @@
           "name": {
             "placeholder": "Nome da carteira"
           },
-          "add": "Adicione outro"
+          "add": "Adicionar"
         },
         "validation": {
-          "address": "Por favor, digite um endereço válido {{blockchain}}.",
+          "address": "Por favor, digite um endereço {{blockchain}} válido.",
           "unique-address": "Você já tem outro contato com este endereço de carteira."
         }
       }

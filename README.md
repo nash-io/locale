@@ -1,8 +1,8 @@
 # Nash platform localization files
 
-This is a open repository for the community to help translate and correct Nash locale files
+This is an open repository for the community to help translate and correct Nash locale files.
 
-Locale files are of format JSON and organized as:
+Locale files are in JSON format and organized like this:
 
 ```javascript
 {
@@ -10,12 +10,31 @@ Locale files are of format JSON and organized as:
 }
 ```
 
-Here "key" is the keyword used in the platform code to identify the text and should not be modified. The "content" text is the translation target and is what replaces occurences of "key" in the code. There are some coding specifics in certain keys, those are indentified by `{{}}` and should be kept as they are, only its textual content should be translated.
+Here "key" is the keyword used in the platform code to identify the text and should not be modified. The "content" text is the translation target and is what replaces occurences of "key" in the code.
 
-Never used Github? This is the easiest way to contribute:
+There are some coding specifics in certain keys. These are indentified by `{{}}`,  e.g. `Hello, {{userName}}!`, and should be kept as they are. Only translate the text around these elements and move them to match appropriate word order in your language.
+
+You will also notice links denoted by numbered tags, e.g. `View your transaction under the <0>Transfers</0> tab.` In this case, you should translate the text within the tags.
+
+## Using GitHub
+
+Never used GitHub? This is the easiest way to contribute:
 https://www.youtube.com/watch?v=5u0I0UX81tI
 
-We have a simple contributions policy, see it [here](./CONTRIBUTING.md)
+If you are facing issues using GitHub for the first time there is a desktop app that might make your life easier: https://desktop.github.com/
+
+## Tips for contributors
+
+1) Make multiple sets of small changes. Keep your pull requests to 100 lines at most.
+2) Always ensure you are making changes against the latest version of the `master` branch.
+
+You can view our simple contributions policy [here](./CONTRIBUTING.md).
+
+## Ask for help!
+
+If you don't understand a phrase in the English file, don't guess! Ask for help. Our writer is available on GitHub as `@lexipenia` and Telegram as `@cstfenwick` and will be able to clarify issues for you. 
+
+## Locales list
 
 | Locale name | Language           | Country/Territory           |
 |-------------|--------------------|-----------------------------|
@@ -30,6 +49,7 @@ We have a simple contributions policy, see it [here](./CONTRIBUTING.md)
 | [fr_FR](./locales/fr_FR.json)       | French             | International (FR standard) |
 | [he_IL](./locales/he_IL.json)       | Hebrew             | Israel                      |
 | [hi_IN](./locales/hi_IN.json)       | Hindi              | Hindi                       |
+| [hr_HR](./locales/hr_HR.json)       | Serbo-Croatian     | International (HR standard) |
 | [it_IT](./locales/it_IT.json)       | Italian            | Italy                       |
 | [ja_JP](./locales/ja_JP.json)       | Japanese           | Japan                       |
 | [ko_KR](./locales/ko_KR.json)       | Korean             | Korea                       |
