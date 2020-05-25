@@ -2798,7 +2798,7 @@
       "verify-mnemonic": {
         "or": "oder",
         "remindme": "Erinnere mich später",
-        "dismiss": "Verstecken für immer",
+        "dismiss": "Für immer verstecken",
         "havent-checked": "Du hast deine Zwölf-Wort-Datensicherung nicht überprüft",
         "will-need": "Du benötigst diese Wörter, um auf deine Assets zugreifen zu können, wenn du dein Passwort für dein Nash Konto verlierst."
       },
@@ -2846,12 +2846,12 @@
             "loading-fee": "Gebühr wird geladen…",
             "errors": {
               "gas-shortage": "Du benötigst mindestens {{amount}} {{currencySymbol}} auf auf deinem persönlichen Konto, um die Netzwerkgebühr zu bezahlen.",
-              "fee-shortage": "Du benötigst mindestens {{amount}} ETH für die Ethereum Transaktionsgebühr.",
-              "fee-shortage-trading": "Du benötigst mindestens {{amount}} ETH in deinem persönlichen Konto für die Ethereum Netzwerkgebühr."
+              "fee-shortage": "Du benötigst mindestens {{amount}} ETH für die Ethereum-Netzwerkgebühr.",
+              "fee-shortage-trading": "Du benötigst mindestens {{amount}} ETH in deinem persönlichen Konto für die Ethereum-Netzwerkgebühr."
             }
           },
           "btc": {
-            "funds-not-confirmed": "Dein Bitcoin-Guthaben erfordert sechs Bestätigungen im Bitcoin-Netwerks, bevor die Bitcoin auf dein Trading Contract übertragen werden können. Bitte warte, auf die sechs Bestätigungen.",
+            "funds-not-confirmed": "Deine Bitcoin-Transaktion erfordert sechs Bestätigungen des Bitcoin Netzwerks, bevor sie in deinen Trading Contract ankommt. Bitte warte, bis die letzte Transaktion bestätigt wird.",
             "wait-until-external-transfer-completes": "Bitte warte, bis deine letzte externe Überweisung abgeschlossen ist, bevor du eine Einzahlung vornimmst.",
             "temporary-limit": "Ein- und Auszahlungen von Bitcoin müssen größer als 0,001 BTC sein, während wir diesen neuen Markt testen. Die Beschränkung wird in naher Zukunft aufgehoben."
           },
@@ -2892,7 +2892,7 @@
               "fee-label": "Transaktionsgebühr"
             }
           },
-          "confirming-balance": "Bitte warte, während wir deine Guthaben bestätigen.",
+          "confirming-balance": "Bitte warte, während wir dein Guthaben bestätigen.",
           "waiting-for-sync": "Dein Guthaben wird derzeit mit der Blockchain synchronisiert. Dieser Vorgang kann bis zu fünf Minuten dauern. Bitte tätige dein Überweisung in wenigen Augenblicken noch einmal.",
           "errors": {
             "send": "Überweisung fehlgeschlagen. Bitte versuche es später noch einmal.",
