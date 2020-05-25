@@ -2759,39 +2759,39 @@
           }
         },
         "claim-gas": {
-          "claiming": "Claiming…",
-          "claim": "Claim GAS",
-          "gas-to-claim": "You have {{amount}} GAS to claim.",
-          "claiming-now": "You are currently claiming GAS.",
-          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
-          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
+          "claiming": "Riscossione in corso…",
+          "claim": "Riscuoti GAS",
+          "gas-to-claim": "Hai {{amount}} GAS da riscuotere.",
+          "claiming-now": "Stai riscuotendo GAS.",
+          "claiming-locked": "Puoi riscuotere GAS di nuovo tra ~{{count}} minuto.",
+          "claiming-locked_plural": "Puoi riscuotere GAS di nuovo tra ~{{count}} minuti."
         },
         "columns": {
           "asset": {
             "title": "Asset"
           },
           "personal-account": {
-            "title": "Personal account"
+            "title": "Account personale"
           },
           "trading-account": {
-            "title": "Trading contract"
+            "title": "Contratto di trading"
           },
           "in-orders": {
-            "title": "In orders"
+            "title": "In ordini"
           },
           "pending": {
-            "title": "Pending",
-            "hint": "Transfers being processed by the blockchain."
+            "title": "In attesa",
+            "hint": "Trasferimenti in elaborazione sulla blockchain."
           },
           "tradeable": {
-            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
+            "hint": "Al momento questo asset non viene scambiato su Nash, ma puoi comunque prelevarlo se hai un saldo nel contratto di trading."
           },
           "action-buttons": {
-            "trade": "Trade",
-            "transfer-funds": "Send/Receive"
+            "trade": "Scambia",
+            "transfer-funds": "Invia/Ricevi"
           }
         },
-        "no-results": "There are not yet any assets in your Nash account."
+        "no-results": "Non ci sono ancora asset nel tuo account Nash."
       }
     },
     "modals": {
