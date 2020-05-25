@@ -798,205 +798,205 @@
       "buy": "Koupit {{currencySymbol}}",
       "sell": "Prodat {{currencySymbol}}",
       "locked-trading-session": {
-        "information": "Your trading session is locked. <0 />",
-        "information-tooltip": "Sessions are locked when you refresh the page or are idle for 15 minutes.",
-        "enter-credentials-to-unlock": "<0>Unlock now</0>"
+        "information": "Vaše časové okno pro obchodování je uzamčeno.<0 />",
+        "information-tooltip": "Časové okno por obchodování se uzamkne, když obnovíte stránku nebo jste 15 minut neaktivní.",
+        "enter-credentials-to-unlock": "<0>Odemknout nyní</0>"
       },
       "market-orders-disabled": {
-        "header": "Insufficient market depth",
-        "desc": "There are currently not enough orders on the book for market orders to be processed."
+        "header": "Nedostatek hloubky trhu",
+        "desc": "V tuto chvíli není dostatečná hloubka trhu na to, aby byl tržní příkaz vypořádán."
       },
       "order-type-tab": {
-        "market": "Market",
+        "market": "Trh",
         "limit": "Limit",
         "stop": "Stop",
         "stop-limit": "Stop-limit",
-        "balances": "Balances",
+        "balances": "Zůstatky",
         "balances-table": {
           "header": {
             "asset": "Asset",
-            "personal": "Personal",
-            "trading": "Trading",
-            "in-orders": "In orders",
-            "pending": "Pending"
+            "personal": "Osobní účet",
+            "trading": "Obchodovací účet",
+            "in-orders": "V příkazech",
+            "pending": "Čeká na vyřízení"
           },
-          "current-market": "Current market",
-          "other-tradable-assets": "Other tradable assets"
+          "current-market": "Aktuální trh",
+          "other-tradable-assets": "Ostatní aktiva k obchodování"
         }
       },
-      "trading-limits": "Trading limits",
+      "trading-limits": "Obchodovací liity",
       "fields": {
         "amount": {
-          "label": "Amount",
-          "sub-label-market-buy": "This is a market order, so we can only estimate the amount of {{currencyA}} you will buy.",
-          "sub-label-market-sell": "This is a market order, so we can only estimate of the total {{currencyB}} you will receive.",
-          "sub-label-limit-buy": "Enter the amount of {{currencySymbol}} you wish to receive.",
-          "sub-label-limit-sell": "Enter the amount of {{currencySymbol}} you wish to sell.",
-          "estimate": "(estimate)",
+          "label": "Množství",
+          "sub-label-market-buy": "Toto je obchodní příkaz za tržní cenu, proto můžeme jen odhadnout množství {{currencyA}}, které koupíte.",
+          "sub-label-market-sell": "Toto je obchodní příkaz za tržní cenu, proto můžeme jen odhadnout množství {{currencyB}}, které získáte.",
+          "sub-label-limit-buy": "Napište množství {{currencySymbol}}, které chcete získat.",
+          "sub-label-limit-sell": "Napište množství{{currencySymbol}}, které chcete prodat.",
+          "estimate": "(odhad)",
           "errors": {
-            "insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "maybe-insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "order-too-small": "Min size {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "This exceeds your trading limits."
+            "insufficient-funds": "Nedostatek {{currencySymbol}}.",
+            "maybe-insufficient-funds": "Nedostatek {{currencySymbol}}.",
+            "order-too-small": "Minimální velikost je {{orderSize}} {{currencySymbol}}.",
+            "limit-breached": "Překračujete obchodní limity."
           }
         },
         "cancel-at": {
-          "label": "Cancel on",
-          "expires": "Expires",
+          "label": "Zrušit dne",
+          "expires": "Vyprší dne",
           "modal": {
-            "label-no-selection": "Select a date to continue…",
+            "label-no-selection": "Nejdříve vyberte datum…",
             "errors": {
-              "is-past": "You cannot enter a time in the past"
+              "is-past": "Nemůžete vybrat historické datum"
             }
           }
         },
         "with-currency": {
-          "label": "Total"
+          "label": "Celkem"
         },
         "market-price": {
-          "label": "Market",
-          "sub-label": "When you buy or sell at market price your order will match with orders currently on the book."
+          "label": "Tržní příkaz",
+          "sub-label": "Pokud vyberete obchodní příkaz za tržní cenu, váš příkaz bude spárován s limitními příkazy čekajícími na vypořádání."
         },
         "show-limit": {
           "label-hide": "Stop-market",
           "label-show": "Stop-limit"
         },
         "price": {
-          "label": "Price"
+          "label": "Cena"
         },
         "limit-price": {
-          "label": "Limit",
-          "sub-label": "Your order can match with orders at this price or better.",
+          "label": "Limitní příkaz",
+          "sub-label": "Váš příkaz bude vypořádán za tuto cenu nebo lépe.",
           "errors": {
-            "maker-match": "‘Post only’ orders that match in the current order book will be canceled."
+            "maker-match": "‘Post only’ příkazy, které se mohou spárovat s limitními příkazy čekající na vypořádání nebudou aktivní a samy budou čekat na vypořádání."
           }
         },
         "stop-price": {
           "label": "Stop",
-          "sub-label": "Stop price acts as a trigger for another order.",
+          "sub-label": "Stop cena funguje jako spouštěč pro další příkaz.",
           "errors": {
-            "stop-trigger-immediately": "This stop price will trigger your order immediately."
+            "stop-trigger-immediately": "Tato stop cena okamžitě spustí váš jiný příkaz."
           }
         },
         "shared": {
           "errors": {
-            "20-above": "20% above the market price.",
-            "20-below": "20% below the market price.",
-            "price-too-high": "Cannot process prices over {{maxPrice}}."
+            "20-above": "20% nad aktuální tržní cenou.",
+            "20-below": "20% pod aktuální tržní cenou.",
+            "price-too-high": "Není možné zprocesovat příkaz s cenou nad {{maxPrice}}."
           }
         },
         "maker-only": {
           "label": "Post only",
-          "sub-label": "‘Post only’ will place your order as a maker only, not a taker. It may not fill."
+          "sub-label": "Díky‘Post only’ vložíte váš příkaz jako tvůrce trhu a ne jako odběratel likvidity. Příkaz se ale nemusí vypořádat."
         },
         "cancellation-policy": {
-          "label": "Time in force",
-          "footer": "Learn more"
+          "label": "Čas v platnosti",
+          "footer": "Zjistit více"
         },
         "trading-balance": {
-          "label": "Available {{currency}}: "
+          "label": "Dostupné množství {{currency}}: "
         }
       },
       "submit": {
-        "buy": "Create buy order",
-        "sell": "Create sell order",
-        "placing": "Placing order…"
+        "buy": "Vytvořit kupní příkaz",
+        "sell": "Vytvořit prodejní příkaz",
+        "placing": "Vytvářím příkaz…"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Your order was rejected because you lack sufficient funds.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds": "Váš obchodní příkaz byl odmítnut, kvůli nedostatku prostředků.",
+        "order-rejected-daily-limit-reached": "Váš obchodní příkaz byl odmítnut, kvůli dosažení obchodovacích limitů.",
+        "generic": "Chyby při odesílání obchodního příkazu. Prosím zkuste novu."
       },
-      "signin-or-create-an-account": "<0>Sign in</0> or <1>create an account</1> to place an order."
+      "signin-or-create-an-account": "Pro zadání obchodního příkazu je nutné se <0>přihlásit</0> nebo <1>vytvořit účet</1>."
     },
     "my-orders": {
-      "auth": "Sign in to view your orders.",
+      "auth": "Pro zobrazení vašich obchodních příkazů se přihlašte.",
       "signed-out": {
-        "title": "<0>Get started</0><1>\u00A0with Nash</1>",
-        "subtitle": "Create an account in under a minute – no KYC required!"
+        "title": "<0>Vyzkoušet</0><1>\u00A0Nash</1>",
+        "subtitle": "Během miuty si vytvořte účet – žádné KYC není ptřeba!"
       },
       "no-results": {
-        "date-range": "You have no orders in the given date range.",
-        "active": "You have no open or filled orders.",
-        "active-open-only": "You have no open orders.",
-        "trades": "You have no trade history."
+        "date-range": "V zadaném čase nemáte zadané žádné obchodní pokyny.",
+        "active": "Neáte žádné otevřené nebo vypořádané pokyny.",
+        "active-open-only": "Nemáta žádné zadané obchodní pokyny.",
+        "trades": "Nemáte žádnou obchodní historii."
       },
       "tabs": {
-        "orders": "Orders",
-        "trades": "Trade history"
+        "orders": "Pokyny",
+        "trades": "Obchodní historie"
       },
       "date-range-selection": {
         "days": "{{range}}d",
-        "weeks": "{{range}}w",
+        "weeks": "{{range}}t",
         "months": "{{range}}M",
-        "years": "{{range}}Y",
-        "clear": "Clear",
-        "select-action": "Custom",
+        "years": "{{range}}R",
+        "clear": "Smazat",
+        "select-action": "Jiné",
         "popup": {
-          "no-selection": "Select a date range to continue",
-          "clear": "Clear",
-          "apply": "Apply"
+          "no-selection": "Pro pokračování vyberte časový interval",
+          "clear": "Smazat",
+          "apply": "Použít"
         }
       },
-      "open-only-checkbox": "Open only",
-      "pairs-checkbox": "All pairs",
-      "export": "Export history",
-      "export-trades": "Export trade history",
-      "export-your-trades": "Export your trades",
-      "no-trades": "You have no trades to export",
+      "open-only-checkbox": "Otevřené",
+      "pairs-checkbox": "Všechny páry",
+      "export": "Exportovat historii",
+      "export-trades": "Exportovat obchodní historii",
+      "export-your-trades": "Exportovat vaše obchody",
+      "no-trades": "Nemáte žádné realizované obchody k exportování.",
       "trade-history-times": {
-        "header": "Select a set timeframe to export",
-        "custom": "Custom timeframe",
-        "months": "{{count}} month",
-        "months_plural": "{{count}} months",
-        "year": "{{count}} year"
+        "header": "Vyberte časový interval pro export",
+        "custom": "Jiný časový interval",
+        "months": "{{count}} měsíc",
+        "months_plural": "{{count}} měsíců",
+        "year": "{{count}} let"
       },
-      "reset-filters": "Reset",
+      "reset-filters": "Obnovit",
       "side-col": {
         "filter": {
-          "buy": "Buy",
-          "sell": "Sell",
-          "both": "Both"
+          "buy": "Koupeno",
+          "sell": "Prodáné",
+          "both": "Vše"
         }
       },
       "type-col": {
-        "header-title": "Type",
-        "header-title-with-currency": "{{currency}} type",
+        "header-title": "Typ",
+        "header-title-with-currency": "{{currency}} typ",
         "filter": {
-          "market": "Market",
-          "limit": "Limit",
+          "market": "Tržní příkaz",
+          "limit": "Limitní příkaz",
           "stop-market": "Stop-market",
           "stop-limit": "Stop-limit"
         },
         "cell-text": {
-          "market-buy": "Market buy",
-          "market-sell": "Market sell",
-          "limit-buy": "Limit buy",
-          "limit-sell": "Limit sell",
-          "stop_limit-buy": "Stop-limit buy at <0></0>",
-          "stop_limit-sell": "Stop-limit sell at <0></0>",
-          "stop_market-buy": "Stop-market buy at <0></0>",
-          "stop_market-sell": "Stop-market sell at <0></0>"
+          "market-buy": "Kupní tržní příkaz",
+          "market-sell": "Prodejní tržní příkaz",
+          "limit-buy": "Kupní limitní příkaz",
+          "limit-sell": "Prodejní limitní příkaz",
+          "stop_limit-buy": "Kupní stop-limit za <0></0>",
+          "stop_limit-sell": "Prodejní stop-limit za <0></0>",
+          "stop_market-buy": "Kupní stop-market za <0></0>",
+          "stop_market-sell": "Prodejní stop-market za <0></0>"
         }
       },
       "cancel-col": {
-        "header-title": "Cancel all",
-        "partial-fill": "Partial fill",
-        "cancelled-partial-fill": "Canceled: Partial fill",
-        "cancelled-order": "Order canceled"
+        "header-title": "Zrušit vše",
+        "partial-fill": "Částečné vypořádání",
+        "cancelled-partial-fill": "Zrušené: Částečné vypořádání",
+        "cancelled-order": "Zrušené obchodní pokyny"
       },
       "cancelled-unfilled-col": {
-        "header-title": "Unfilled amount",
-        "header-title-with-currency": "{{currency}} unfilled amount"
+        "header-title": "Nevypořádané množství",
+        "header-title-with-currency": "{{currency}} unfinevypořádané množství"
       },
       "cancelled-filled-col": {
-        "header-title": "Filled amount",
-        "header-title-with-currency": "{{currency}} filled amount"
+        "header-title": "Vypořádané množství",
+        "header-title-with-currency": "{{currency}} vypořádané množství"
       },
       "status-col": {
         "header-title": "Status",
-        "open": "Open",
-        "cancelled": "Canceled",
+        "open": "Otevřené",
+        "cancelled": "Zrušené",
         "filled": "Filled",
         "pending": "Pending"
       },
