@@ -1316,119 +1316,119 @@
         "order-rejected-insufficient-funds": "Insufficiente {{currencySell}} nel contratto di trading. Invia fondi per continuare.",
         "order-rejected-daily-limit-reached": "Il tuo ordine è stato rifiutato perché hai raggiunto il limite di trading giornaliero.",
         "generic": "Errore durante l'ordine. Per favore riprova."
-      },
+       },
       "modals": {
         "exchange-info": {
-          "title": "How to exchange tokens",
-          "desc": "First, select the tokens you want to exchange.",
-          "price-options-header": "You have two options for choosing your price:",
+          "title": "Come scambiare i token",
+          "desc": "Prima, seleziona i token che desideri scambiare.",
+          "price-options-header": "Hai due opzioni per scegliere il tuo prezzo:",
           "average-market-price": {
-            "header": "Current market price",
-            "desc": "Place your order at current market price so that it fills sooner. Unfilled portions will cancel automatically after 24 hours."
+            "header": "Prezzo di mercato attuale",
+            "desc": "Effettua il tuo ordine al prezzo di mercato corrente in modo che si riempia subito. Le porzioni non riempite si annullano automaticamente dopo 24 ore."
           },
           "set-a-price": {
-            "header": "Set a price",
-            "desc": "Your order can match with orders at this price or better, but will not go beyond it. This option means your order might not all fill at once."
+            "header": "Imposta un prezzo",
+            "desc": "Il tuo ordine può corrispondere con ordini a questo prezzo o megliore, ma non andrà oltre. Questa opzione indica che il tuo ordine potrebbe non essere completato in una volta sola."
           },
           "balances": {
-            "header": "Balances",
-            "desc": "We will tell you if your balance is insufficient for making a trade. Choose ‘Balances’ to check your account status and send/receive funds."
+            "header": "Saldi",
+            "desc": "Ti diremo se il tuo saldo non è sufficiente per fare uno scambio. Scegli 'Saldi' per controllare lo stato del tuo account e inviare / ricevere fondi."
           }
         },
         "select-token": {
           "title": {
-            "sell": "I want to trade",
-            "buy": "I want to receive"
+            "sell": "Voglio negoziare",
+            "buy": "Voglio ricevere"
           },
           "header": {
-            "sell": "Select the token you want to trade",
-            "buy": "Select the token you want to receive"
+            "sell": "Seleziona il token che vuoi negoziare",
+            "buy": "Seleziona il token che vuoi ricevere"
           },
-          "ignore-low-balances": "Hide small balances",
+          "ignore-low-balances": "Nascondi i saldi piccoli",
           "search": {
-            "placeholder": "Search for a token name or ticker…",
-            "no-results": "We couldn’t find any results for <0>{{search}}</0>.",
-            "no-results-no-query": "We couldn’t find any matching currencies"
+            "placeholder": "Cerca un token per nome o ticker…",
+            "no-results": "Non abbiamo trovato risultati per <0>{{search}}</0>.",
+            "no-results-no-query": "Non è stato possibile trovare valute corrispondenti"
           },
           "disabled": {
-            "maintenance": "This token is under scheduled maintenance.",
-            "deposits-withdrawals-suspended": "Deposits and withdrawals are suspended until further notice."
+            "maintenance": "Questo token è in manutenzione programmata.",
+            "deposits-withdrawals-suspended": "Depositi e prelievi sono sospesi fino a nuovo avviso."
           },
           "trading": "Trading",
-          "personal": "Personal",
-          "24-hours": "24 hours"
+          "personal": "Personale",
+          "24-hours": "24 ore"
         }
       },
       "exchange-tokens": {
-        "header": "Exchange tokens",
+        "header": "Scambio token",
         "fields": {
           "buy": {
-            "label": "I want to receive",
+            "label": "Voglio ricevere",
             "inner-label": "~{{fiatAmount}} per {{currencyBuy}}",
             "label-estimate": "(estimate)",
-            "label-button": "Select a token to receive",
+            "label-button": "Seleziona un token da ricevere",
             "errors": {
-              "order-too-small": "Total must exceed {{orderSize}} {{currencyBuy}}."
+              "order-too-small": "Il totale deve superare {{orderSize}} {{currencyBuy}}."
             }
           },
           "sell": {
-            "label": "I want to trade",
-            "sub-label": "{{currencySell}} available",
-            "label-button": "Select a token to trade",
+            "label": "Voglio negoziare",
+            "sub-label": "{{currencySell}} disponibile",
+            "label-button": "Seleziona un token da negoziare",
             "errors": {
-              "insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-              "limit-breached": "This order exceeds your trading limits.",
-              "order-too-small": "Total must exceed {{orderSize}} {{currencySell}}.",
-              "transfer": "Send/Receive"
+              "insufficient-funds": "Insufficiente {{currencySell}} nel contratto di trading. Invia fondi per continuare.",
+              "limit-breached": "Questo ordine supera i tuoi limiti di trading.",
+              "order-too-small": "Il totale deve superare {{orderSize}} {{currencySell}}.",
+              "transfer": "Invia/Ricevi"
             }
           },
           "set-limit": {
-            "fixed-price-label": "Your price for {{currencyBuy}} (in {{currencySell}})",
-            "floating-price-label": "Market price of {{currencyBuy}} (in {{currencySell}})",
-            "fixed-price-on": "Set fixed price",
+            "fixed-price-label": "Il tuo prezzo per {{currencyBuy}} (in {{currencySell}})",
+            "floating-price-label": "Prezzo di mercato di {{currencyBuy}} (in {{currencySell}})",
+            "fixed-price-on": "Imposta prezzo fisso",
             "errors": {
-              "price-too-high": "Cannot process prices over {{maxPrice}}."
+              "price-too-high": "Impossibile elaborare i prezzi {{maxPrice}}."
             },
             "warnings": {
-              "20-below": "The specified price is more than 20% below the current market price."
+              "20-below": "Il prezzo specificato è inferiore di oltre il 20% all'attuale prezzo di mercato."
             }
           }
         },
-        "toggle-limit": "Set a price for this trade",
-        "above-limit": "{{percent}}% above market",
-        "below-limit": "{{percent}}% below market",
-        "reset": "Reset",
-        "submit": "Review trade"
+        "toggle-limit": "Imposta un prezzo per questo trade",
+        "above-limit": "{{percent}}% sopra il mercato",
+        "below-limit": "{{percent}}% sotto il mercato",
+        "reset": "Ripristina",
+        "submit": "Rivedi il trade"
       },
       "review-order": {
-        "header": "Review your order",
+        "header": "Rivedi il tuo ordine",
         "columns": {
-          "market-price": "Price per {{currencyBuy}}",
-          "limit-price": "Set price per {{currencyBuy}}",
-          "fee": "Maximum trading fee",
-          "fiat-total": "{{currencyFiat}} estimate"
+          "market-price": "Prezzo per {{currencyBuy}}",
+          "limit-price": "Imposta prezzo per {{currencyBuy}}",
+          "fee": "Commissioni massime di trading",
+          "fiat-total": "{{currencyFiat}} stimata"
         },
-        "desc": "Your order will remain on the book until it is filled, you cancel it, or 24 hours have passed.",
-        "submit": "Create order",
-        "submit-placing": "Placing order…"
+        "desc": "Il tuo ordine rimarrà sul libro fino a quando non verrà completato, annullato o trascorse le 24 ore.",
+        "submit": "Crea un ordine",
+        "submit-placing": "Piazza un ordine…"
       },
       "order-success": {
-        "header": "Success!",
-        "desc": "Your {{currencySell}}/{{currencyBuy}} order was placed successfully.",
-        "view-my-order": "View my order",
-        "create-another-trade": "Create another trade"
+        "header": "Effettuato!",
+        "desc": "Il tuo ordine {{currencySell}}/{{currencyBuy}} è stato effettuato correttamente.",
+        "view-my-order": "Visualizza il mio ordine",
+        "create-another-trade": "Crea un altro trade"
       },
       "order-failure": {
         "header": {
-          "insufficient-funds": "Insufficient funds",
-          "daily-limit-reached": "Daily limit reached",
-          "generic": "Something went wrong!"
+          "insufficient-funds": "Fondi insufficienti",
+          "daily-limit-reached": "Limite giornaliero raggiunto",
+          "generic": "Qualcosa è andato storto!"
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Your trading contract balance is no longer sufficient to cover this order. This can happen if you are creating orders in multiple browser tabs at the same time.",
-            "1": "For a smoother trading experience, please use Nash in a single browser tab.",
-            "2": "<0>Send/Receive</0> funds if you wish to place this order again."
+            "0": "Il saldo del contratto di trading non è più sufficiente per coprire questo ordine. Questo può accadere se si stanno creando ordini contemporaneamente in più schede del browser.",
+            "1": "Per un'esperienza di trading più fluida, utilizza Nash in una singola scheda del browser.",
+            "2": "<0>Send/Receive</0> fondi se desideri effettuare nuovamente questo ordine."
           },
           "daily-limit-reached": {
             "0": "Your order has been rejected because you have reached your daily trading limit.",
