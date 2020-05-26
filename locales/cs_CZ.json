@@ -997,72 +997,72 @@
         "header-title": "Status",
         "open": "Otevřené",
         "cancelled": "Zrušené",
-        "filled": "Filled",
-        "pending": "Pending"
+        "filled": "Vypořádaný",
+        "pending": "Čekající"
       },
       "executed-col": {
-        "header-title": "Filled",
-        "header-title-with-currency": "{{currency}} filled"
+        "header-title": "Vypořádáno",
+        "header-title-with-currency": "{{currency}} vypořádáno"
       },
       "order-total-col": {
-        "header-title": "Total",
-        "header-title-with-currency": "{{currency}} total"
+        "header-title": "Suma",
+        "header-title-with-currency": "{{currency}} celkem"
       },
       "trade-total-col": {
-        "header-title": "Trade total",
-        "header-title-with-currency": "{{currency}} trade total"
+        "header-title": "Obchodováno celkem",
+        "header-title-with-currency": "{{currency}} obchodováno celkem"
       },
       "size-col": {
-        "header-title": "Amount",
-        "header-title-with-currency": "{{currency}} amount"
+        "header-title": "Množství",
+        "header-title-with-currency": "{{currency}} množství"
       },
       "price-col": {
-        "header-title": "Price",
-        "header-title-with-currency": "{{currency}} price"
+        "header-title": "Cena",
+        "header-title-with-currency": "{{currency}} cena"
       },
       "pair-col": {
-        "header-title": "Pair"
+        "header-title": "Pár"
       },
       "filled-col": {
-        "header-title": "Amount filled",
-        "header-title-with-currency": "{{currency}} amount filled"
+        "header-title": "Vypořádaný počet",
+        "header-title-with-currency": "{{currency}} vypořádaný počet"
       },
       "fee-col": {
-        "header-title": "Fee",
-        "header-title-with-currency": "{{currency}} fee",
-        "no-fee": "No fee"
+        "header-title": "Poplatky",
+        "header-title-with-currency": "{{currency}} poplatky",
+        "no-fee": "Bez poplatků"
       },
       "condition-col": {
-        "header-title": "Stop price",
-        "header-title-with-currency": "{{currency}} stop price"
+        "header-title": "Uzavírací cena",
+        "header-title-with-currency": "{{currency}} uzavírací cena"
       },
       "time-col": {
-        "header-title": "Executed"
+        "header-title": "Provedeno"
       },
       "time-filled-col": {
-        "header-title": "Executed"
+        "header-title": "Provedeno"
       }
     },
     "recent-trades": {
-      "title": "Recent trades",
-      "order-size-col": "{{symbol}} size",
-      "price-col": "{{symbol}} price",
-      "time-col": "Time"
+      "title": "Nedávné obchody",
+      "order-size-col": "{{symbol}} velikost",
+      "price-col": "{{symbol}} cena",
+      "time-col": "Čas"
     },
     "orderbook": {
       "title": "USD",
-      "title-no-fiat": "Order book",
-      "order-size-col": "{{symbol}} size",
-      "my-size-col": "My size",
-      "price-col": "{{symbol}} price",
-      "average": "Avg. price",
-      "sum-size": "{{symbol}} sum",
-      "num-decimals": "{{decimals}} decimal",
-      "num-decimals_plural": "{{decimals}} decimals",
+      "title-no-fiat": "Seznam příkazů",
+      "order-size-col": "{{symbol}} velikost",
+      "my-size-col": "Moje velikost",
+      "price-col": "{{symbol}} cena",
+      "average": "Prům. cena",
+      "sum-size": "{{symbol}} suma",
+      "num-decimals": "{{decimals}} desetin",
+      "num-decimals_plural": "{{decimals}} desetiny",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Learn more about our <1>fees<1>."
+    "learn-about-our-fees": "Dozvědět se více o našich <1>poplatcích<1>."
   },
   "auth": {
     "create-an-account": "Vytvořit účet",
