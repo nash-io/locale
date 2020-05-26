@@ -1202,108 +1202,108 @@
           "desc": "Je nám líto, ale pokud jste zapomněli vaše heslo a zároveň ztratili 12 tajných slov, není možné obnovit přístup k vašim prostředkům."
         },
         "edit": {
-          "header": "Enter your twelve secret words",
-          "desc-1": "We use your secret words to regenerate your master seed and individual asset accounts.",
-          "desc-2": "If you cannot provide the twelve words for your existing accounts, <0>your funds will be lost.</0>",
-          "card-title": "All words are lowercase",
-          "card-reset": "Clear all words",
-          "mnemonic-invalid": "This combination of words is not valid. Please double-check and try again.",
-          "mnemonic-valid": "This combination of words is valid. You may now reset your password."
+          "header": "Zadejte vaších 12 tajných slov",
+          "desc-1": "Vašich 12 tajných slov použijeme k tomu, abychom obnovili veškeré vaše účty a přístupy k nim.",
+          "desc-2": "Pokud neposkytnete vašich 12 tajných slov, <0>všechny vaše prostředky budou ztraceny navždy.</0>",
+          "card-title": "Všechny tajná slova jsou psaná malými pismeny",
+          "card-reset": "Vymazat všechna slova",
+          "mnemonic-invalid": "Tato kombinace slov není správná. Prosím o kontrolu a zkuste to znovu.",
+          "mnemonic-valid": "Tato kombinace slov je správná. Nyní můžete obnovit heslo."
         },
         "skip": {
-          "header": "You will lose access to your funds",
-          "desc-1": "If you have lost both your old password and your twelve secret words, <0>you will be unable to recover your funds.</0>",
-          "desc-2": "Nash is a non-custodial platform that uses decentralized technology. It is impossible for us to access your funds and we cannot recover them.",
-          "desc-3": "You can reset your old account and choose a new set of secret words. This will be like setting up a brand new account with a new password.",
-          "desc-4": "If you choose to reset your account, you will lose all access to your funds, including:",
-          "desc-5": "Please double-check and see if you can locate either your secret words or your password.",
-          "go-back": "Go back",
-          "checkbox-1": "I have lost both my password and my twelve secret words.",
-          "checkbox-2": "I understand that I will lose all access to my funds if I reset my account.",
-          "submit": "Reset my account",
-          "sub-bullet-1": "All assets in your personal account.",
-          "sub-bullet-2": "All assets in the trading contract.",
-          "sub-bullet-3": "All staked NEX tokens.",
-          "sub-bullet-4": "All dividends from staked NEX tokens.",
-          "unauthorized": "Since resetting your account has serious implications, you must first contact our support team to enable it.",
-          "contact-support": "Contact support"
+          "header": "Ytratíte přístup k vašim finančním prostředkům",
+          "desc-1": "Je nám líto, ale pokud jste zapomněli vaše heslo a zároveň ztratili 12 tajných slov, <0>není možné obnovit přístup k vašim prostředkům.</0>",
+          "desc-2": "Nash platforma je tzv. non-custodial a využívá technologie, které jsou decentralizované. Z toho důvodu je nemožné, aby Nash obnovil přístup k vašim finančním prostředkům.",
+          "desc-3": "Váš tarý účet můžete resetovat a vybrat si novou množinu 12 tajných slov. Ve skutečnosti se vytvoří kompletně nový účet včetně hesla.",
+          "desc-4": "Pokud se rozhodnete resetovat váš účet, ztratíte přístup k vašim finančním prostředkům, včetně:",
+          "desc-5": "Prosíme ubezpečte se, zda skutečně nemůžete najít vašich 12 tajných slov nebo alespoň vaše původní heslo.",
+          "go-back": "Jít zpět",
+          "checkbox-1": "Ztratil jsem 12 tajných slov včetně původního hesla.",
+          "checkbox-2": "Rozumím tomu, že ztratím nadobro přístup k mým finačním prostředkům pokud provedu reset mého účtu.",
+          "submit": "Resetovat můj účet",
+          "sub-bullet-1": "Všechny aktiva ve vašem osobním účtu.",
+          "sub-bullet-2": "Všechny aktiva v obchodním účtu.",
+          "sub-bullet-3": "Všechny tzv. staked NEX tokeny.",
+          "sub-bullet-4": "Všechny dividendy díky tzn. staked NEX tokenům.",
+          "unauthorized": "Jelikož je resetování hesla nevratná akce a má zásadní následky, musíte nejdříve kontaktovat naši podporu a ta vám tuto akci zpřístupní.",
+          "contact-support": "Kontaktovat podporu"
         }
       },
       "new-password": {
-        "tab-title": "Set password",
-        "header": "Set a new password",
-        "desc": "Create a new password for your Nash account.",
-        "header-success": "Success!",
-        "desc-success": "Your password was changed successfully.",
-        "desc-success-reset": "You will be able to set up new wallets the next time you sign in.",
+        "tab-title": "Nastavit heslo",
+        "header": "nastavit nové heslo",
+        "desc": "Vytvořit nové heslo k vašemu Nash účtu.",
+        "header-success": "Úspěšně provedeno!",
+        "desc-success": "Vaše heslo bylo úspěšně změněno.",
+        "desc-success-reset": "Nastavení nových peněženek bude možné po opětovném přihlášení.",
         "fields": {
           "password": {
-            "label": "New password",
-            "placeholder": "New password",
+            "label": "Nové heslo",
+            "placeholder": "Nové heslo",
             "errors": {
-              "password-too-weak": "The password you chose is too weak."
+              "password-too-weak": "Heslo které jste zadali je příliš slabé."
             }
           },
           "password-confirm": {
-            "label": "Confirm new password",
-            "placeholder": "Confirm new password",
+            "label": "Podvrďte nové heslo",
+            "placeholder": "Podvrďte nové heslo",
             "errors": {
-              "passwords-do-not-match": "Passwords do not match."
+              "passwords-do-not-match": "Hesla se neshodují."
             }
           },
           "code": {
-            "label": "Two-factor authentication",
-            "placeholder": "Enter your two-factor authentication code"
+            "label": "Doufázové ověření",
+            "placeholder": "Vložte kód dvoufázového ověření"
           }
         },
         "errors": {
-          "reset-wallets-locked": "Account resetting is currently locked. Please contact support.",
-          "reset-locked": "Password resetting is currently locked. Please contact support.",
-          "incorrect-keys": "The public key derived from the twelve words you submitted does not match our records. This indicates that the twelve words you submitted are not from your Nash account. Please double-check your backup. Contact support if you still have issues.",
-          "generic-error": "Something went wrong and your password was not reset. Your password reset link may have expired. Please request a new reset link and try again."
+          "reset-wallets-locked": "Možnost resetovat účet je momentálně nedostupná. Prosím, kontaktujte podporu.",
+          "reset-locked": "Možnost resetovat heslo je momentálně nedostupná. Prosím, kontaktujte podporu.",
+          "incorrect-keys": "Veřejný klíč odvozený z 12 tajných slov, které jste poskytli, neodpovídá záznamům v naší databázi. To může znamenat např. to, že tajna slova, která jste poskytnuli nejsou z vašeho Nash účtu. Prosím, zkontrolujte ještě jednou vaši zálohu a v případě, že potíže přetrvávají, neváhejte kontaktovat podporu.",
+          "generic-error": "Někde nastala chyba a vaše heslo nemohlo být resetováno. Je možné, že odkazu na reset vypršela platnost. Prosím vyžádejte si nový odkaz na reset hesla. "
         },
-        "submit": "Set new password"
+        "submit": "Nastavit nové heslo"
       }
     },
-    "verify-email": "Verifying email address…",
+    "verify-email": "Ověřování emailové adresy…",
     "secret-word-list-edit": {
-      "placeholder": "Word {{index}}"
+      "placeholder": "Slovo {{index}}"
     },
     "discourse-sso": {
       "login": {
-        "title": "Log in to the Nash Community",
-        "description": "You’ll need a Nash account to log in to the Nash Community.",
-        "button-login": "Log in with Nash account",
-        "link-create": "<0>Create a Nash account</0>"
+        "title": "Přihlásit se do Nash komunity",
+        "description": "K přihlášení do Nash komunity potřebujete účet na Nash.",
+        "button-login": "Přihlásit se přes Nash účet",
+        "link-create": "<0>Vytvořit Nash účet</0>"
       },
       "create-account": {
-        "title": "Create your Nash Community account",
-        "description": "To post messages on the Community, you’ll need to stake at least 1 NEX for 24 months.",
-        "username-label": "Community username",
-        "username-placeholder": "Choose a name…",
-        "button-create": "Create Community account",
-        "migrate-description": "If you’re using the Nash Extension to log in to the Community, you can <0>migrate your account</0>.",
-        "username-exits": "‘{{username}}’ is already taken. Please choose another username."
+        "title": "Vytvořit účet do Nash komunity",
+        "description": "1 NEX token 'stakenutý' na 24 měsíců je vyžadován pro možnost komentovat a vytvářet nové přízpěvky na fóru komunity.",
+        "username-label": "Uživatelské jméno na Nash komunitě",
+        "username-placeholder": "Vyberte jméno…",
+        "button-create": "Vytvořit účet do Nash komunity",
+        "migrate-description": "Pokud používáte Nash rozšíření na přihlašování do Nash komunity, nyní můžete <0>přejít a použít klasický Nash účet</0>.",
+        "username-exits": "‘{{username}}’ je již obsazené. Prosím zvolte jiné přihlašovací jméno."
       },
       "migrate-account": {
-        "title": "Migrate your Nash Community account",
-        "migration-step1": "Log in with the Nash Extension.",
-        "migration-step2": "Change your Community email address to the address used by your Nash account.",
-        "migration-step3": "That’s it! Once your email address is changed, you’ll be able to log in using your Nash account.",
-        "button-migrate": "Log in with the Nash Extension",
-        "link-back": "Back",
+        "title": "Převěďte váš Nash komunity účet",
+        "migration-step1": "Přihlásit se přes Nash rozšíření.",
+        "migration-step2": "Změnte vaši emailovou adresu na Nash komunitě aby odpovídala adrese na Nash účtu.",
+        "migration-step3": "Tak a je to! Jakmile bude email adresa změnena, budete moci pro přihlášení použít Nash účet.",
+        "button-migrate": "Přihlásit se přes Nash rozšíření",
+        "link-back": "Zpět",
         "faq-change-email": {
-          "title": "How do I change my Community email address?",
-          "step1": "Once you’ve logged in to the Community, click on your avatar in the top right-hand corner of the screen.",
-          "step2": "Click on your username and select ‘Preferences’.",
-          "step3": "Click the pencil icon to edit your email address.",
-          "step4": "Enter a new email address and click ‘Change’.",
-          "step5": "You’ll receive two confirmation emails, one at your old email address and one at your new address. You’ll need to confirm both addresses to complete the change."
+          "title": "Jak mohu změnit emailovou adresu na Nash komunitě?",
+          "step1": "Jakmile se přihlásíte do Nash komunity, klikněte na vašem avataru v pravém rohu obrazovky.",
+          "step2": "Klikněte na vašem uživatelském jméně a zvolte ‘Vlastnosti’.",
+          "step3": "Pro změnu emailové adresy použijte ikonu tužky.",
+          "step4": "Vložte novou emailovou adresu a klikněte ‘Změnit’.",
+          "step5": "Zašleme vám dva potvrzovací emaily. Jeden na původní a druhý na novou emailovou adresu. Pro potvrzení změny je nutné použít odkazy v obou emailech."
         }
       },
-      "get-token": "Authenticating…",
-      "log-you-in": "Logging in…",
-      "unknow-error-message": "Something went wrong, please try again."
+      "get-token": "Ověřování…",
+      "log-you-in": "Přihlašování…",
+      "unknow-error-message": "Někde nastala chyba, prosím zkuste to později."
     }
   },
   "basic-exchange": {
