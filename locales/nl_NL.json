@@ -22,7 +22,7 @@
   "set-price": "Stel een prijs in",
   "market": "Markt",
   "market-price": "Marktprijs",
-  "exchange": "Markt",
+  "exchange": "Handelsmarkt",
   "receive": "Ontvang",
   "wallet": "Account",
   "upload": "Upload",
@@ -156,42 +156,42 @@
   },
   "time-in-force-modal": {
     "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "subtitle": "Geef het tijdsbestek door waarin je order in het orderboek moet blijven.",
     "sections": {
       "gtc": {
         "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "desc": "Jouw order blijft voor onbepaalde tijd in het orderboek staan - totdat het is gevuld of totdat je het annuleert."
       },
       "gtt": {
         "header": "Good ’til time",
         "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "desc": "Jouw order blijft in het orderboek staan tot de tijd die je opgeeft. Als het op dat moment niet vervuld is, wordt het geannuleerd."
       },
       "fok": {
         "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "desc": "Als uw hele order direct kan worden vervuld, dan zal dit gebeuren. Kan dit niet, dan wordt de hele order geannuleerd."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Onmiddelijk of annuleer",
+        "desc": "Jouw order wordt zoveel mogelijk vervuld. Het gedeelte dat niet kan worden gevuld, wordt geannuleerd."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
+    "referrals": "Doorverwijzingen",
+    "funds": "Fondsen",
+    "exchange": "Handelsmarkt",
+    "basic-exchange": "Standaard weergave",
+    "basic-exchange-short": "Standaard",
+    "advanced-exchange": "Pro weergave",
     "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
+    "markets": "Markten",
+    "settings": "Mijn account",
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
     "accounts-main-menu": {
-      "title": "Services"
+      "title": "Diensten"
     },
     "user-menus": {
       "portfolio": {
