@@ -1303,8 +1303,8 @@
         }
       },
       "get-token": "Authentifizierung...",
-      "log-you-in": "Ich logge mich ein...",
-      "unknow-error-message": "Etwas ist schief gelaufen, bitte versuchen Sie es noch einmal."
+      "log-you-in": "Logge ein...",
+      "unknow-error-message": "Etwas ist schief gelaufen, bitte versuche es noch einmal."
     }
   },
   "basic-exchange": {
@@ -1314,26 +1314,26 @@
     "create-order": {
       "change-markets": "Markt ändern",
       "errors": {
-        "order-rejected-insufficient-funds": "Sie haben nicht genug {{currencySell}} im Trading Contract. Überweisen Sie Assets, um fortzufahren.",
-        "order-rejected-daily-limit-reached": "Ihr Auftrag wurde abgelehnt, weil Sie Ihr tägliches Handelslimit erreicht haben.",
-        "generic": "Fehler bei der Auftragserteilung. Bitte erneut versuchen."
+        "order-rejected-insufficient-funds": "Du hast nicht genug {{currencySell}} im Trading Contract. Überweise Assets, um fortzufahren.",
+        "order-rejected-daily-limit-reached": "Deine Order wurde abgelehnt, weil du dein tägliches Handelslimit erreicht hast.",
+        "generic": "Fehler bei der Ordererstellung. Bitte erneut versuchen."
       },
       "modals": {
         "exchange-info": {
           "title": "Wie man Assets tauscht",
-          "desc": "Wählen Sie zunächst das Asset aus, das Sie eintauschen möchten.",
-          "price-options-header": "Sie haben zwei mögliche Preise zur Auswahl:",
+          "desc": "Wähle zunächst das Asset aus, das du eintauschen möchtest.",
+          "price-options-header": "Du hast zwei mögliche Preise zur Auswahl:",
           "average-market-price": {
             "header": "Aktueller Marktpreis",
-            "desc": "Erteilen Sie Ihren Auftrag zum aktuellen Marktpreis, damit er schneller ausgeführt wird. Nicht ausgeführte Teile des Auftrags werden nach 24 Stunden automatisch storniert."
+            "desc": "Erteile eine Order zum aktuellen Marktpreis, damit diese schneller ausgeführt wird. Nicht ausgeführte Teile der Order werden nach 24 Stunden automatisch storniert."
           },
           "set-a-price": {
             "header": "Festgelegter Preis",
-            "desc": "Ihr Auftrag kann Aufträgen zu diesem oder einem besseren Preis, nicht aber Aufträgen zu einem schlechteren Preis zugeordnet werden. Ihr Auftrag wird demnach möglicherweise nicht sofort vollständig ausgeführt."
+            "desc": "Deine Order kann Orders zu diesem oder einem besseren Preis, nicht aber Orders zu einem schlechteren Preis zugeordnet werden. Deine Order wird demnach möglicherweise nicht sofort vollständig ausgeführt."
           },
           "balances": {
             "header": "Salden",
-            "desc": "Wir teilen Ihnen mit, falls Ihre Deckung für einen Auftrag nicht ausreicht. Wählen Sie ‘Salden’, um Ihre Konten zu überprüfen und Assets zu senden/empfangen."
+            "desc": "Wir teilen dir mit, falls deine Deckung für eine Order nicht ausreicht. Wählen ‘Salden’, um dein Konto zu überprüfen und Assets zu senden/empfangen."
           }
         },
         "select-token": {
@@ -1342,18 +1342,18 @@
             "buy": "Ich möchte erhalten"
           },
           "header": {
-            "sell": "Wählen Sie das Asset aus, das Sie eintauschen möchten",
-            "buy": "Wählen Sie das Asset aus, das Sie erhalten möchten"
+            "sell": "Wähle das Asset aus, das du eintauschen möchtest",
+            "buy": "Wähle das Asset aus, das du erhalten möchtest"
           },
           "ignore-low-balances": "Geringe Beträge nicht anzeigen",
           "search": {
             "placeholder": "Asset nach Name oder Ticker suchen …",
             "no-results": "Keine Ergebnisse für <0>{{search}}</0> gefunden.",
-            "no-results-no-query": "We couldn’t find any matching currencies"
+            "no-results-no-query": "Wir konnten kein passendes Asset finden"
           },
           "disabled": {
             "maintenance": "Dieses Asset befindet sich in der turnusmäßigen Wartung.",
-            "deposits-withdrawals-suspended": "Überweisungen werden bis auf Weiteres gesperrt."
+            "deposits-withdrawals-suspended": "Transaktionen werden bis auf Weiteres gesperrt."
           },
           "trading": "Trading Contract",
           "personal": "Persönliches Konto",
@@ -1367,7 +1367,7 @@
             "label": "Ich möchte erhalten",
             "inner-label": "~{{fiatAmount}} pro {{currencyBuy}}",
             "label-estimate": "(Schätzung)",
-            "label-button": "Welches Asset möchten Sie erhalten?",
+            "label-button": "Welches Asset möchtest du erhalten?",
             "errors": {
               "order-too-small": "Auftragswert muss {{orderSize}} {{currencyBuy}} überschreiten."
             }
@@ -1375,16 +1375,16 @@
           "sell": {
             "label": "Ich möchte eintauschen",
             "sub-label": "{{currencySell}} verfügbar",
-            "label-button": "Welches Asset möchten Sie eintauschen?",
+            "label-button": "Welches Asset möchtest du eintauschen?",
             "errors": {
-              "insufficient-funds": "Sie haben nicht genug {{currencySell}} im Trading Contract. Überweisen Sie Assets, um fortzufahren.",
-              "limit-breached": "Dieser Auftrag überschreitet Ihre Handelslimits.",
+              "insufficient-funds": "Du hast nicht genug {{currencySell}} im Trading Contract. Transferiere deine Assets, um fortzufahren.",
+              "limit-breached": "Diese Order überschreitet dein Handelslimits.",
               "order-too-small": "Auftragswert muss {{orderSize}} {{currencySell}} überschreiten.",
               "transfer": "Senden/Empfangen"
             }
           },
           "set-limit": {
-            "fixed-price-label": "Ihr Preis für {{currencyBuy}} (in {{currencySell}})",
+            "fixed-price-label": "Dein Preis für {{currencyBuy}} (in {{currencySell}})",
             "floating-price-label": "Marktpreis von {{currencyBuy}} (in {{currencySell}})",
             "fixed-price-on": "Festpreis festlegen",
             "errors": {
@@ -1395,7 +1395,7 @@
             }
           }
         },
-        "toggle-limit": "Legen Sie einen Preis fest",
+        "toggle-limit": "Lege einen Preis fest",
         "above-limit": "{{percent}}% above market",
         "below-limit": "{{percent}}% below market",
         "reset": "Zurücksetzen",
@@ -1409,14 +1409,14 @@
           "fee": "Maximale Handelsgebühr",
           "fiat-total": "{{currencyFiat}} Schätzung"
         },
-        "desc": "Ihr Auftrag bleibt im Orderbuch, bis er ausgeführt wird, Sie ihn stornieren oder 24 Stunden vergangen sind.",
+        "desc": "Deine Order bleibt im Orderbuch, bis sie ausgeführt wurde, du sie stornierst oder 24 Stunden vergangen sind.",
         "submit": "Auftrag erteilen",
         "submit-placing": "Auftrag wird erteilt …"
       },
       "order-success": {
         "header": "Vorgang abgeschlossen!",
-        "desc": "Ihr {{currencySell}}/{{currencyBuy}}-Auftrag wurde erteilt.",
-        "view-my-order": "Meinen Auftrag ansehen",
+        "desc": "Dein {{currencySell}}/{{currencyBuy}}-Auftrag wurde erteilt.",
+        "view-my-order": "Auftrag ansehen",
         "create-another-trade": "Weiteren Auftrag erteilen"
       },
       "order-failure": {
@@ -1427,13 +1427,13 @@
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Ihr Saldo im Trading Contract reicht nicht mehr aus, um diesen Auftrag auszuführen. Das kann passieren, wenn Sie in mehreren Browser-Tabs gleichzeitig Aufträge erteilen.",
-            "1": "Für einen reibungslosen Handel verwenden Sie bitte Nash in einem einzigen Browser-Tab.",
-            "2": "Assets <0>senden/empfangen</0>, wenn Sie den Auftrag erneut erteilen möchten."
+            "0": "Dein Saldo im Trading Contract reicht nicht mehr aus, um diese Oder auszuführen. Das kann passieren, wenn du in mehreren Browser-Tabs gleichzeitig Orders erteilst.",
+            "1": "Für einen reibungslosen Handel verwenden bitte Nash in einem einzigen Browser-Tab.",
+            "2": "Assets <0>senden/empfangen</0>, wenn du den Order erneut erteilen möchtest."
           },
           "daily-limit-reached": {
-            "0": "Ihr Auftrag wurde abgelehnt, weil Sie Ihr tägliches Handelslimit erreicht haben.",
-            "1": "Um Ihr maximales tägliches Handelsvolumen zu erhöhen, besuchen Sie bitte <0>Handelslimits</0>."
+            "0": "Deine Order wurde abgelehnt, weil dein tägliches Handelslimit erreicht wurde.",
+            "1": "Um dein maximales tägliches Handelsvolumen zu erhöhen, besuche bitte <0>Handelslimits</0>."
           },
           "generic": {
             "0": "Fehler bei der Auftragserteilung. Bitte erneut versuchen."
