@@ -1302,9 +1302,9 @@
           "step5": "Sie erhalten zwei Bestätigungs-E-Mails, eine an Ihre alte E-Mail-Adresse und eine an Ihre neue Adresse. Sie müssen beide Adressen bestätigen, um die Änderung abzuschließen."
         }
       },
-      "get-token": "Authentifizierung...",
-      "log-you-in": "Logge ein...",
-      "unknow-error-message": "Etwas ist schief gelaufen, bitte versuche es noch einmal."
+      "get-token": "Authentifizierung …",
+      "log-you-in": "Wird angemeldet …",
+      "unknow-error-message": "Etwas ist schiefgelaufen, bitte versuche es noch einmal."
     }
   },
   "basic-exchange": {
@@ -1333,7 +1333,7 @@
           },
           "balances": {
             "header": "Salden",
-            "desc": "Wir teilen dir mit, falls deine Deckung für eine Order nicht ausreicht. Wählen ‘Salden’, um dein Konto zu überprüfen und Assets zu senden/empfangen."
+            "desc": "Wir teilen dir mit, falls dein Guthaben für eine Order nicht ausreicht. Wählen ‘Salden’, um dein Konto zu überprüfen und Assets zu senden/empfangen."
           }
         },
         "select-token": {
@@ -1377,8 +1377,8 @@
             "sub-label": "{{currencySell}} verfügbar",
             "label-button": "Welches Asset möchtest du eintauschen?",
             "errors": {
-              "insufficient-funds": "Du hast nicht genug {{currencySell}} im Trading Contract. Transferiere deine Assets, um fortzufahren.",
-              "limit-breached": "Diese Order überschreitet dein Handelslimits.",
+              "insufficient-funds": "Du hast nicht genug {{currencySell}} im Trading Contract. Transferiere Assets, um fortzufahren.",
+              "limit-breached": "Diese Order überschreitet dein Handelslimit.",
               "order-too-small": "Auftragswert muss {{orderSize}} {{currencySell}} überschreiten.",
               "transfer": "Senden/Empfangen"
             }
@@ -1416,7 +1416,7 @@
       "order-success": {
         "header": "Vorgang abgeschlossen!",
         "desc": "Dein {{currencySell}}/{{currencyBuy}}-Auftrag wurde erteilt.",
-        "view-my-order": "Auftrag ansehen",
+        "view-my-order": "Order ansehen",
         "create-another-trade": "Weiteren Auftrag erteilen"
       },
       "order-failure": {
@@ -1428,7 +1428,7 @@
         "desc": {
           "insufficient-funds": {
             "0": "Dein Saldo im Trading Contract reicht nicht mehr aus, um diese Oder auszuführen. Das kann passieren, wenn du in mehreren Browser-Tabs gleichzeitig Orders erteilst.",
-            "1": "Für einen reibungslosen Handel verwenden bitte Nash in einem einzigen Browser-Tab.",
+            "1": "Für einen reibungslosen Handel verwende bitte Nash in einem einzigen Browser-Tab.",
             "2": "Assets <0>senden/empfangen</0>, wenn du den Order erneut erteilen möchtest."
           },
           "daily-limit-reached": {
