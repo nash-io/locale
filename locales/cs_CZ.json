@@ -1307,135 +1307,135 @@
     }
   },
   "basic-exchange": {
-    "title": "Basic view",
-    "title-short": "Basic",
-    "switch-to-advanced": "Switch to pro view",
+    "title": "Základní verze",
+    "title-short": "Základní",
+    "switch-to-advanced": "Přepnout do profesionální verze",
     "create-order": {
-      "change-markets": "Change markets",
+      "change-markets": "Změnit trhy",
       "errors": {
-        "order-rejected-insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds": "Nedostatečné prostředky {{currencySell}} na obchodovacím účtě. Převeďte finanční prostředky a budete moci pokračovat.",
+        "order-rejected-daily-limit-reached": "Váš příkaz byl zamítnut, protože jste dosáhli maximálního denního limitu.",
+        "generic": "Nastala chyba při přípravě vašeho příkazu. Prosím, zkuste to později."
       },
       "modals": {
         "exchange-info": {
-          "title": "How to exchange tokens",
-          "desc": "First, select the tokens you want to exchange.",
-          "price-options-header": "You have two options for choosing your price:",
+          "title": "Jak směnit tokeny",
+          "desc": "První krok, vyberte si tokeny které chcete směnit.",
+          "price-options-header": "Máte dvě možnosti jak si vybrat vaši cenu:",
           "average-market-price": {
-            "header": "Current market price",
-            "desc": "Place your order at current market price so that it fills sooner. Unfilled portions will cancel automatically after 24 hours."
+            "header": "Aktuální cena na trhu",
+            "desc": "Nastavte váš příkaz tak, že se použije aktuální cena na trhu a vám to zaručí rychlé provedení příkazu. Nevypořádané zbytek bude automaticky stornován po uplynutí 24 hodin."
           },
           "set-a-price": {
-            "header": "Set a price",
-            "desc": "Your order can match with orders at this price or better, but will not go beyond it. This option means your order might not all fill at once."
+            "header": "Nastavit cenu",
+            "desc": "Váš příkaz bude proveden poté co vaše cena bude odpovídat ceně ostatních příkazů (popřípadě výhodnějších pro vás), ale nikdy se příkaz neprovede za dražší než vámi nastavenou cenu. Tato volba může vést k tomu, že se bude provádět po delší dobu na více kroků."
           },
           "balances": {
-            "header": "Balances",
-            "desc": "We will tell you if your balance is insufficient for making a trade. Choose ‘Balances’ to check your account status and send/receive funds."
+            "header": "Zůstatky",
+            "desc": "Jakmile zjistíme, že váš zůstatek je nedostatečný k provedení obchodu, oznámíme vám to. Vyberte si volbu ‘Zůstatky’, abyste zjistili stav vašeho účtu a poslaných/přijmutých finančních prostředků."
           }
         },
         "select-token": {
           "title": {
-            "sell": "I want to trade",
-            "buy": "I want to receive"
+            "sell": "Chci obchodovat",
+            "buy": "Chci přijmout"
           },
           "header": {
-            "sell": "Select the token you want to trade",
-            "buy": "Select the token you want to receive"
+            "sell": "Vyberte si token, který chcete obchodovat",
+            "buy": "Vyberte si token, který chcete přijmout"
           },
-          "ignore-low-balances": "Hide small balances",
+          "ignore-low-balances": "Schovat aktiva s malými zůstatky",
           "search": {
-            "placeholder": "Search for a token name or ticker…",
-            "no-results": "We couldn’t find any results for <0>{{search}}</0>.",
-            "no-results-no-query": "We couldn’t find any matching currencies"
+            "placeholder": "Vyhledejte název tokenu nebo ticker (burzovní symbol)…",
+            "no-results": "Pro hledaný výraz  <0>{{search}}</0> jsme nemohli najít žádné výsledky.",
+            "no-results-no-query": "Nenašli jsme žádné shodující se měny"
           },
           "disabled": {
-            "maintenance": "This token is under scheduled maintenance.",
-            "deposits-withdrawals-suspended": "Deposits and withdrawals are suspended until further notice."
+            "maintenance": "Na tomto tokenu právě probíhá udržba.",
+            "deposits-withdrawals-suspended": "Vklady a výběry jsou pozastaveny až do dalšího upozornění."
           },
-          "trading": "Trading",
-          "personal": "Personal",
-          "24-hours": "24 hours"
+          "trading": "Obchodování",
+          "personal": "Osobní",
+          "24-hours": "24 hodin"
         }
       },
       "exchange-tokens": {
-        "header": "Exchange tokens",
+        "header": "Burzovní tokeny",
         "fields": {
           "buy": {
-            "label": "I want to receive",
-            "inner-label": "~{{fiatAmount}} per {{currencyBuy}}",
-            "label-estimate": "(estimate)",
-            "label-button": "Select a token to receive",
+            "label": "Chci přijmout",
+            "inner-label": "~{{fiatAmount}} za {{currencyBuy}}",
+            "label-estimate": "(předběžný odhad)",
+            "label-button": "Vybrat token jaký si přejete přijmout",
             "errors": {
-              "order-too-small": "Total must exceed {{orderSize}} {{currencyBuy}}."
+              "order-too-small": "Celková částka musí překročit {{orderSize}} {{currencyBuy}}."
             }
           },
           "sell": {
-            "label": "I want to trade",
-            "sub-label": "{{currencySell}} available",
-            "label-button": "Select a token to trade",
+            "label": "Chci obchodovat",
+            "sub-label": "{{currencySell}} k dispozici",
+            "label-button": "Vybrat token jaký si přejete obchodovat",
             "errors": {
-              "insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-              "limit-breached": "This order exceeds your trading limits.",
-              "order-too-small": "Total must exceed {{orderSize}} {{currencySell}}.",
-              "transfer": "Send/Receive"
+              "insufficient-funds": "Nedostatek {{currencySell}} na obchodovacím účtě. Doplňte finanční prostředky abyste mohli pokračovat.",
+              "limit-breached": "Tento příkaz překračuje vaše obchodovací limity.",
+              "order-too-small": "Celková částka musí překročit {{orderSize}} {{currencySell}}.",
+              "transfer": "Poslat/Přijmout"
             }
           },
           "set-limit": {
-            "fixed-price-label": "Your price for {{currencyBuy}} (in {{currencySell}})",
-            "floating-price-label": "Market price of {{currencyBuy}} (in {{currencySell}})",
-            "fixed-price-on": "Set fixed price",
+            "fixed-price-label": "Vaše cena je {{currencyBuy}} (v {{currencySell}})",
+            "floating-price-label": "Trhová cena je {{currencyBuy}} (v {{currencySell}})",
+            "fixed-price-on": "Nastavit pevnou cenu",
             "errors": {
-              "price-too-high": "Cannot process prices over {{maxPrice}}."
+              "price-too-high": "Ceny nad {{maxPrice}} nelze zpracovat."
             },
             "warnings": {
-              "20-below": "The specified price is more than 20% below the current market price."
+              "20-below": "Nastavená cena je více než 20% pod aktuální tržní cenou."
             }
           }
         },
-        "toggle-limit": "Set a price for this trade",
-        "above-limit": "{{percent}}% above market",
-        "below-limit": "{{percent}}% below market",
+        "toggle-limit": "Nastavit cenu pro tento obchod",
+        "above-limit": "{{percent}}% nad trhem",
+        "below-limit": "{{percent}}% pod trhem",
         "reset": "Reset",
-        "submit": "Review trade"
+        "submit": "Zkontrolovat obchod"
       },
       "review-order": {
-        "header": "Review your order",
+        "header": "Zkontrolovat příkaz",
         "columns": {
-          "market-price": "Price per {{currencyBuy}}",
-          "limit-price": "Set price per {{currencyBuy}}",
-          "fee": "Maximum trading fee",
-          "fiat-total": "{{currencyFiat}} estimate"
+          "market-price": "Cena za {{currencyBuy}}",
+          "limit-price": "Nastavit cenu za {{currencyBuy}}",
+          "fee": "Maximální poplatek pro obchod",
+          "fiat-total": "{{currencyFiat}} předběžný odhad"
         },
-        "desc": "Your order will remain on the book until it is filled, you cancel it, or 24 hours have passed.",
-        "submit": "Create order",
-        "submit-placing": "Placing order…"
+        "desc": "Váš příkaz zůstane platný po dobu 24 hodin, nebo do doby než bude vypořádán případně vámi stornován.",
+        "submit": "Vytvořit příkaz",
+        "submit-placing": "Zasílání příkazu…"
       },
       "order-success": {
-        "header": "Success!",
-        "desc": "Your {{currencySell}}/{{currencyBuy}} order was placed successfully.",
-        "view-my-order": "View my order",
-        "create-another-trade": "Create another trade"
+        "header": "Úspěšně provedeno!",
+        "desc": "Váš {{currencySell}}/{{currencyBuy}} byl úspěšně zpracován.",
+        "view-my-order": "Prohlédnout si můj příkaz",
+        "create-another-trade": "Vytvořit další obchod"
       },
       "order-failure": {
         "header": {
-          "insufficient-funds": "Insufficient funds",
-          "daily-limit-reached": "Daily limit reached",
-          "generic": "Something went wrong!"
+          "insufficient-funds": "Nedostatečné finanční prostředky",
+          "daily-limit-reached": "Dosažen denní limit",
+          "generic": "Někde nastala chyba!"
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Your trading contract balance is no longer sufficient to cover this order. This can happen if you are creating orders in multiple browser tabs at the same time.",
-            "1": "For a smoother trading experience, please use Nash in a single browser tab.",
-            "2": "<0>Send/Receive</0> funds if you wish to place this order again."
+            "0": "Váš obchodovací zůstatek není dostačující pro uskutečnění tohoto příkazu. Může se to stát například když obchodujete ve vašem prohlížeči ve více záložkách najednou.",
+            "1": "Pro nejlepší a bezchybné obchodování na Nash je doporučeno mít otevřen Nash ve webovém prohlížeči pouze jedenkrát.",
+            "2": "<0>Poslat/Přijmout</0> finanční prostředky pokud si přejete tento příkay provést znovu."
           },
           "daily-limit-reached": {
-            "0": "Your order has been rejected because you have reached your daily trading limit.",
-            "1": "To increase your maximum daily trading volume, please visit <0>Limits</0>."
+            "0": "Váš příkaz byl zamítnut, protože jste naplnili váš denní obchodovací limit.",
+            "1": "Přejete-li si navýšit maximální denní obchodovací limit, prosím navštivte <0>Limity</0>."
           },
           "generic": {
-            "0": "Error placing your order. Please try again."
+            "0": "Nastala chyba při přípravě vašeho příkazu. Prosím, zkuste to později."
           }
         }
       }
