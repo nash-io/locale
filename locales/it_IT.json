@@ -33,13 +33,13 @@
   "reported-errors": "Segnalazione degli errori effettuata",
   "credit-card-expiry-placeholder": "MM/AA",
   "apikeys": {
-    "no-addresses-whitelisted": "Non hai ancora inserito indirizzi nella lista bianca.",
-    "address-input-placeholder": "Inserisci un indirizzo BTC, NEO o ETH da aggiungere alla lista bianca",
-    "add-whitelisted": "Indirizzi nella lista bianca",
-    "duplicate-address-in-form": "Questo indirizzo è già nella lista bianca.",
+    "no-addresses-whitelisted": "Non hai ancora inserito indirizzi nella whitelist.",
+    "address-input-placeholder": "Inserisci un indirizzo BTC, NEO o ETH da aggiungere alla whitelist",
+    "add-whitelisted": "Indirizzi nella whitelist",
+    "duplicate-address-in-form": "Questo indirizzo è già nella whitelist.",
     "add-address": "Aggiungi indirizzo",
     "address-is-not-valid": "L'indirizzo non è valido.",
-    "whitelisting-explanation": "Con questa chiave API, puoi prelevare fondi solo verso questi indirizzi della lista bianca. Una volta generata la tua chiave, potrai aggiungere e rimuovere indirizzi della lista bianca in qualsiasi momento.",
+    "whitelisting-explanation": "Con questa chiave API, puoi prelevare fondi solo verso questi indirizzi della whitelist. Una volta generata la tua chiave, potrai aggiungere e rimuovere indirizzi della whitelist in qualsiasi momento.",
     "token-type": {
       "access": "Accesso",
       "kyc": "Verifica dell'identità",
@@ -63,7 +63,7 @@
       "continue": "Continua"
     },
     "overview": {
-      "no-addresses-whitelisted": "Nessun indirizzo nella lista bianca",
+      "no-addresses-whitelisted": "Nessun indirizzo nella whitelist",
       "title": "Gestisci chiavi API",
       "revoke-button-label": "Revoca",
       "table-header": "Le tue chiavi API",
@@ -76,7 +76,7 @@
       "api-key": "Chiave API",
       "blockchains": "Blockchain",
       "whitelisted": "Lista bianca",
-      "view-whitelist": "Visualizza la lista bianca",
+      "view-whitelist": "Visualizza la whitelist",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
       "blockchains-hint": "Questa chiave API può operare con queste blockchain.",
       "usable-for": "Utilizzabile per",
@@ -92,7 +92,7 @@
     },
     "create-modal": {
       "credentials-step": "Credenziali utente",
-      "whitelist-step": "Aggiungi indirizzi alla lista bianca",
+      "whitelist-step": "Aggiungi indirizzi whitelist",
       "name-step": "Dai un nome alla tua chiave",
       "last-step": "Salva una copia del segreto",
       "title": "Genera una nuova chiave API"
@@ -1190,8 +1190,8 @@
       "missing-email": "Qualcosa è andato storto. Fare di nuovo clic sul collegamento nell'e-mail.",
       "expired-code": "Questa sessione non è più valida. Fare di nuovo clic sul collegamento nell'e-mail.",
       "steps": [
-        "Confirm secret words",
-        "New password"
+        "Conferma le parole segrete",
+        "Nuova password"
       ],
       "secret-words": {
         "home": {
@@ -2626,136 +2626,136 @@
         "failed": "Verifica dell'identità non riuscita."
       },
       "field-status": {
-        "incomplete": "Incomplete",
-        "pending": "Pending",
-        "rejected": "Rejected",
-        "accepted": "Verified",
-        "completed": "Complete"
+        "incomplete": "Non completo",
+        "pending": "In sospeso",
+        "rejected": "Rifiutato",
+        "accepted": "Verificato",
+        "completed": "Completo"
       },
       "link": {
-        "add": "Add",
-        "edit": "Edit"
+        "add": "Aggiungi",
+        "edit": "Modifica"
       },
       "heading": {
-        "add-phone-number": "Add your phone number",
-        "add-residential-address": "Add your residential address",
-        "government-id-or-passport": "Upload identity document",
-        "utility-bill": "Upload utility bill",
-        "selfie-with-id": "Upload selfie with ID",
-        "upload-proof-of-payment": "Upload proof of payment",
-        "success": "Success!"
+        "add-phone-number": "Aggiungi il tuo numero di telefono",
+        "add-residential-address": "Aggiungi il tuo indirizzo di residenza",
+        "government-id-or-passport": "Carica il tuo documento d'identità",
+        "utility-bill": "Carica una bolletta",
+        "selfie-with-id": "Carica un selfie con la carta d'identità",
+        "upload-proof-of-payment": "Carica una prova del pagamento",
+        "success": "Riuscito!"
       },
       "button": {
-        "cancel": "Cancel",
-        "continue": "Continue",
-        "submit": "Submit",
-        "submit-verification-code": "Submit verification code",
-        "transfer-initiated": "I’ve made this transfer",
-        "submit-proof-of-payment": "Submit proof"
+        "cancel": "Cancella",
+        "continue": "Continua",
+        "submit": "Invia",
+        "submit-verification-code": "Invia codice di verifica",
+        "transfer-initiated": "Ho effettuato questo trasferimento",
+        "submit-proof-of-payment": "Invia prova"
       },
       "details-shared": {
-        "title": "{{ccpro}} has sent you an email!",
-        "desc": "Please check your email and verify your account with {{ccpro}}.<0 />If you don’t see their email, check your junk folder.",
-        "button": "Resend verification email"
+        "title": "{{ccpro}} ti ha inviato una email",
+        "desc": "Controlla la tua e-mail e verifica il tuo account con {{ccpro}}.<0 />Se non vedi la loro email, controlla la cartella della posta indesiderata.",
+        "button": "Invia nuovamente l'email di verifica"
       },
       "transactions": {
-        "order-id": "Order ID",
-        "date-created": "Created",
-        "action": "Action",
-        "cost": "Cost",
-        "amount": "Amount",
-        "no-transactions": "You haven’t bought or sold any digital assets yet."
+        "order-id": "ID ordine",
+        "date-created": "Creato",
+        "action": "Azione",
+        "cost": "Costo",
+        "amount": "Importo",
+        "no-transactions": "Non hai ancora acquistato o venduto alcun asset digitale."
       },
       "payment-methods": {
-        "currency": "Currency",
-        "bank-name": "Bank name",
+        "currency": "Moneta",
+        "bank-name": "Nome della Banca",
         "iban": "IBAN",
         "swift": "SWIFT/BIC",
-        "remove-bank-account": "Remove {{iban}}?"
+        "remove-bank-account": "Rimuovi {{iban}}?"
       },
       "editor": {
         "phone": {
-          "enter-phone-number": "Enter phone number",
-          "verify-phone-number": "Verify phone number",
-          "label": "Enter your phone number",
-          "desc": "A ten-digit code will be sent via SMS to verify your phone number.",
-          "code-not-received": "Didn’t receive a code via SMS? <0>Resend it</0>.",
-          "resending-code": "Resending verification code…",
-          "code-label": "Enter the verification code sent to your phone.",
-          "back": "Back",
-          "verify": "Verify"
+          "enter-phone-number": "Inserisci il tuo numero di telefono",
+          "verify-phone-number": "Verifica il tuo numero di telefono",
+          "label": "Inserisci il tuo numero di telefono",
+          "desc": "Un codice di dieci cifre verrà inviato via SMS per verificare il tuo numero di telefono.",
+          "code-not-received": "Non hai ricevuto il codice via SMS? <0>Rinvialo</0>.",
+          "resending-code": "Rinvio del codice di verifica…",
+          "code-label": "Inserisci il codice di verifica inviato al tuo telefono.",
+          "back": "Indietro",
+          "verify": "Verifica"
         },
         "national-id": {
-          "upload-label": "Upload two <0>separate photographs</0> of your national ID, one of the front and one of the back.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Carica due <0>fotografie separate</0> del tuo documento di identità, uno anteriore e uno posteriore.",
+          "upload-label-format": "Estensioni del file accettate: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Dimensione massima del file: 10MB."
         },
         "passport": {
-          "upload-label": "Upload one photograph of your passport information.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Carica una fotografia delle informazioni sul passaporto.",
+          "upload-label-format": "Estensioni del file accettate: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Dimensione massima del file: 10MB."
         },
         "utility-bill": {
-          "upload-label": "Upload one photograph of a recent utility bill.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Carica la foto di una bolletta recente.",
+          "upload-label-format": "Estensioni del file accettate: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Dimensione massima del file: 10MB."
         },
         "selfie-with-id": {
-          "upload-label": "Upload one photograph of yourself holding both a piece of paper with ‘cryptocoin.pro’ written on it and your passport or national ID.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Carica una tua foto con un foglio con scritto ‘cryptocoin.pro’ e il passaporto o documento di identità.",
+          "upload-label-format": "Estensioni del file accettate: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Dimensione massima del file: 10MB."
         },
         "bank-account": {
-          "bank-name-placeholder": "Enter your bank’s name",
-          "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
-          "swift-placeholder": "e.g. CLBABU7S"
+          "bank-name-placeholder": "Inserisci il nome della tua Banca",
+          "iban-placeholder": "e.g. IT89 3704 0044 0532 0130 00",
+          "swift-placeholder": "e.g. SWITFT7S"
         }
       }
     }
   },
   "funds": {
-    "title": "Funds",
-    "deposit-currency": "Deposit {{currencySymbol}}",
-    "your-currency-balances": "Your {{currencySymbol}} balances",
+    "title": "Fondi",
+    "deposit-currency": "Deposita {{currencySymbol}}",
+    "your-currency-balances": "Il tuo {{currencySymbol}} saldo",
     "resetting-account": {
-      "title": "Resync your trading contract balance.",
-      "desc": "This will release funds stuck in a ‘Pending’ state. This process will cancel open trade orders.",
-      "button": "Resync account",
-      "resyncing": "Resyncing…",
-      "error": "Resync failed. Please <0>contact support.</0>",
-      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
-      "success": "Resync successful!"
+      "title": "Risincronizza il saldo del tuo contratto di trading.",
+      "desc": "Ciò rilascerà fondi bloccati in uno stato 'In sospeso'. Questo processo annullerà i trade aperti.",
+      "button": "Risincronizza account",
+      "resyncing": "Risincronizzando…",
+      "error": "Risincronizzazione fallita. Per favore <0>contatta il supporto.</0>",
+      "wait-error": "Attendi almeno 2 ore dopo l'ultimo deposito prima di utilizzare questa pagina.",
+      "success": "Risincronizzazione riuscita!"
     },
     "transaction-retry": {
-      "title": "Retry transactions",
-      "subtitle": "All pending or failed deposits or withdrawals",
-      "actions-title": "Actions",
-      "button-title": "Retry",
-      "button-sending": "Sending…",
-      "button-sent": "Resent",
-      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
+      "title": "Riprova transazioni",
+      "subtitle": "Tutti i depositi o prelievi in sospeso o non riusciti",
+      "actions-title": "Azioni",
+      "button-title": "Riprova",
+      "button-sending": "Inviando…",
+      "button-sent": "Invia nuovamente",
+      "nothing-to-retry": "Non hai depositi o prelievi in sospeso.",
       "status": {
-        "title": "Status",
-        "created": "Created",
-        "pending": "Pending"
+        "title": "Stato",
+        "created": "Creato",
+        "pending": "In sospeso"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page."
+      "fetch-movements-error": "Errore durante il recupero dei dati. Si prega di aggiornare la pagina."
     },
     "assets": {
-      "title": "Assets",
-      "tabs-info-button": "Learn about sending and receiving funds",
+      "title": "Asset",
+      "tabs-info-button": "Scopri come inviare e ricevere fondi",
       "header": {
-        "title": "Assets",
-        "search-placeholder": "Search over 3,000 assets…"
+        "title": "Asset",
+        "search-placeholder": "Cerca oltre 3,000 asset…"
       },
       "transferring-funds": {
-        "title": "Sending and receiving funds",
-        "desc": "<0>If you want to trade, you’ll have to send funds to the trading contract.</0> <1>You may only send funds to the trading contract from your personal account.</1>",
-        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
-        "learn-more": "Learn more",
-        "never-show": "Never show me this again."
+        "title": "Invio e ricezione di fondi",
+        "desc": "<0>Se vuoi fare trading, dovrai inviare fondi al contratto di trading.</0> <1>Puoi inviare fondi al contratto di trading solo dal tuo account personale.</1>",
+        "learn-more-never-show": "<0>Per saperne di più</0> o <1>non mostrarmelo più</1>.",
+        "learn-more": "Per saperne di più",
+        "never-show": "Non mostrarmelo più."
       },
       "table": {
         "header": {
-          "title": "Balances",
+          "title": "Saldi",
           "actions": {
-            "hide-zero-balances": "Hide zero balances"
+            "hide-zero-balances": "Nascondi i saldi a zero"
           }
         },
         "claim-gas": {
@@ -2777,7 +2777,7 @@
             "title": "Contratto di trading"
           },
           "in-orders": {
-            "title": "In ordini"
+            "title": "In ordine"
           },
           "pending": {
             "title": "In attesa",
@@ -2797,10 +2797,10 @@
     "modals": {
       "verify-mnemonic": {
         "or": "or",
-        "remindme": "remind me later",
-        "dismiss": "Dismiss forever",
-        "havent-checked": "You haven’t checked your twelve word backup",
-        "will-need": "You’ll need these words to access your funds if you lose your password."
+        "remindme": "Ricordamelo dopo",
+        "dismiss": "Rimuovi per sempre",
+        "havent-checked": "Non hai controllato il tuo backup di dodici parole",
+        "will-need": "Avrai bisogno di queste parole per accedere ai tuoi fondi se perdi la password."
       },
       "transfer-funds": {
         "title": "Invia/ricevi",
@@ -2822,32 +2822,32 @@
               "no-options": "Digita almeno tre caratteri per cercare un contatto o inserisci un indirizzo wallet valido",
               "no-results": "Nessun contatto trovato. Questo non è un indirizzo valido.",
               "option": {
-                "no-email": "No email",
-                "no-wallet-name": "No wallet name",
-                "no-wallet-address": "No wallet address"
+                "no-email": "Nessuna email",
+                "no-wallet-name": "Nessun nome dell portafoglio",
+                "no-wallet-address": "Nessun indirizzo del portafoglio"
               }
             }
           },
           "destination-address": {
-            "label": "Destination address",
-            "placeholder": "Send only {{currency}} to this address",
+            "label": "Indirizzo di destinazione",
+            "placeholder": "Invia solo {{currency}} a questo indirizzo",
             "errors": {
-              "invalid-wallet": "Invalid address"
+              "invalid-wallet": "Indirizzo non valido"
             }
           },
           "movement": {
-            "error": "Please wait until your last Ethereum transfer finishes.",
-            "pending-error": "Please wait until your pending Ethereum transfer completes.",
-            "token-requires-approval": "Approval of {{ amount }} {{ currency }} is required for this token to be transferred to the trading contract."
+            "error": "Attendere il completamento dell'ultimo trasferimento di Ethereum.",
+            "pending-error": "Attendere il completamento del trasferimento di Ethereum in sospeso.",
+            "token-requires-approval": "L'approvazione di {{ amount }} {{ currency }} è necessaria per trasferire questo token al contratto commerciale."
           },
           "transfer-amount": {
-            "label": "Amount to transfer",
-            "network-transaction-fee": "maximum network fee",
-            "loading-fee": "Loading fee…",
+            "label": "Importo da trasferire",
+            "network-transaction-fee": "Commissioni massime di rete",
+            "loading-fee": "Caricamento commissioni…",
             "errors": {
               "gas-shortage": "You need at least {{amount}} {{currencySymbol}} in your personal account to pay network fees.",
               "fee-shortage": "You must save {{amount}} ETH for the Ethereum network fee.",
-              "fee-shortage-trading": "You need {{amount}} ETH in your personal account for Ethereum network fees."
+              "fee-shortage-trading": "Necessiti di {{amount}} ETH nel tuo account personale per le commissioni di rete Ethereum."
             }
           },
           "btc": {
