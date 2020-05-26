@@ -1369,7 +1369,7 @@
             "label-estimate": "(Schätzung)",
             "label-button": "Welches Asset möchtest du erhalten?",
             "errors": {
-              "order-too-small": "Auftragswert muss {{orderSize}} {{currencyBuy}} überschreiten."
+              "order-too-small": "Orderwert muss {{orderSize}} {{currencyBuy}} überschreiten."
             }
           },
           "sell": {
@@ -1379,7 +1379,7 @@
             "errors": {
               "insufficient-funds": "Du hast nicht genug {{currencySell}} im Trading Contract. Transferiere Assets, um fortzufahren.",
               "limit-breached": "Diese Order überschreitet dein Handelslimit.",
-              "order-too-small": "Auftragswert muss {{orderSize}} {{currencySell}} überschreiten.",
+              "order-too-small": "Orderwert muss {{orderSize}} {{currencySell}} überschreiten.",
               "transfer": "Senden/Empfangen"
             }
           },
@@ -1399,10 +1399,10 @@
         "above-limit": "{{percent}}% above market",
         "below-limit": "{{percent}}% below market",
         "reset": "Zurücksetzen",
-        "submit": "Auftrag überprüfen"
+        "submit": "Order überprüfen"
       },
       "review-order": {
-        "header": "Auftrag überprüfen",
+        "header": "Order überprüfen",
         "columns": {
           "market-price": "Preis pro {{currencyBuy}}",
           "limit-price": "Preis pro {{currencyBuy}} festlegen",
@@ -1410,14 +1410,14 @@
           "fiat-total": "{{currencyFiat}} Schätzung"
         },
         "desc": "Deine Order bleibt im Orderbuch, bis sie ausgeführt wurde, du sie stornierst oder 24 Stunden vergangen sind.",
-        "submit": "Auftrag erteilen",
-        "submit-placing": "Auftrag wird erteilt …"
+        "submit": "Order erteilen",
+        "submit-placing": "Order wird erteilt …"
       },
       "order-success": {
         "header": "Vorgang abgeschlossen!",
-        "desc": "Dein {{currencySell}}/{{currencyBuy}}-Auftrag wurde erteilt.",
+        "desc": "Dein {{currencySell}}/{{currencyBuy}}-Order wurde erteilt.",
         "view-my-order": "Order ansehen",
-        "create-another-trade": "Weiteren Auftrag erteilen"
+        "create-another-trade": "Weitere Order erteilen"
       },
       "order-failure": {
         "header": {
@@ -1436,7 +1436,7 @@
             "1": "Um dein maximales tägliches Handelsvolumen zu erhöhen, besuche bitte <0>Handelslimits</0>."
           },
           "generic": {
-            "0": "Fehler bei der Auftragserteilung. Bitte erneut versuchen."
+            "0": "Fehler bei der Ordererteilung. Bitte erneut versuchen."
           }
         }
       }
@@ -1812,7 +1812,7 @@
       "generic-fourhundred": "Fehler",
       "nash": {
         "order-book-cache-empty": {
-          "title": "Auftragsbuch-Cache ist leer",
+          "title": "Orderbuch-Cache ist leer",
           "body": "Konnte keinen Preis erzielen. Bitte versuchen Sie es später noch einmal."
         },
         "not-enough-liquidity": {
@@ -2429,7 +2429,7 @@
     },
     "confirmed-transaction": {
       "order-created": "Deine Order wurde erstellt",
-      "title": "Auftrag erstellt",
+      "title": "Order erstellt",
       "deposit": "Wir werden deine Assets auf dein persönliches Nash-Konto einzahlen, sobald deine Zahlung freigegeben ist.",
       "delay": "Dies kann bis zu {{days}} Arbeitstage in Anspruch nehmen. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
       "dismiss": "Die Transaktion anzeigen"
