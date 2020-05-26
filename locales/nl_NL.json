@@ -198,73 +198,73 @@
         "label": "Portfolio"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Meldingen",
+        "clear-all": "Wis alles"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "initializing": "Initialiseren",
+        "initialized": "Transfer is geïnitialiseerd",
+        "tooltip": "Je hebt nog een transfer die wordt geïnitialiseerd. Als je Nash afsluit of uitlogt, wordt dit gepauzeerd totdat je weer inlogt."
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Mijn profiel",
+        "support": "Ondersteuning",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Helder",
+          "dark": "Donker"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Uitloggent",
+          "sign-in": "Inloggen",
+          "sign-in-create-account": "<1>Maak een account aan</1> of <0>log in</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Algemeen"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Handelen",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
+          "exchange": "Handelsmarkt",
+          "markets": "Markten",
           "orders": "Orders"
         },
         "exchange": {
           "switch": {
             "pro": "Pro",
-            "simple": "Basic"
+            "simple": "Basis"
           }
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Bezittingen",
         "pages": {
           "portfolio": "Portfolio",
           "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "assets": "Bezittingen",
+          "contacts": "Contacten"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Verwijzingen"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Kopen/Verkopen",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Kopen/Verkopen",
+          "transactions": "Transacties",
+          "payment-methods": "Betaalmogelijkheden",
+          "profile": "Profiel"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
+          "profile": "Profiel",
+          "preferences": "Voorkeuren",
+          "security": "Beveiliging",
+          "limits": "Grenzen",
           "accounts": "Accounts",
           "apikeys": "API\u00A0keys"
         }
@@ -272,133 +272,133 @@
       "staking": {
         "title": "Staking",
         "pages": {
-          "all-stakes": "All stakes",
-          "statements": "Statements"
+          "all-stakes": "Alle stakes",
+          "statements": "Uittreksels"
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Zoeken…",
+  "loading": "Aan het laden…",
+  "pending": "In afwachting",
+  "cancelling": "Aan het annuleren…",
+  "authenticating": "Aan het verifiëren…",
+  "decrypting": "Aan het ontsleutelen…",
+  "encrypting": "Aan het versleutelen…",
+  "sending": "Aan het versturen…",
+  "submit": "Indienen",
+  "retry": "Opnieuw proberen",
+  "sending-approval": "Goedkeuring aan het verzenden…",
+  "send-approval": "Verstuur goedkeuring",
+  "submit-transfer": "Dien de transfer in",
+  "no-longer-sufficient-balance-for-tx": "Jouw balans is niet genoeg meer voor deze transactie.",
+  "we-are-hiring": "Wij zoeken personeel",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Toegang geblokkeerd",
+    "location-banned": "Helaas, Nash kan op dit moment niet opereren in jouw rechtsgebied.",
+    "invalid-clock-title": "De klok van jouw computer is niet correct.",
+    "permissions-issue-title": "Machtigings probleem",
+    "invalid-clock": "Om te handelen op Nash moet je klok correct zijn. <0>Synchroniseer je klok</0> Dan <1>Probeer opnieuw</1>.",
+    "network-issue-title": "Netwerk probleem",
+    "network-issue": "Er is een tijdelijk netwerk probleem. <0>Probeer opnieuw</0>.",
+    "generic-error-title": "Foutmelding",
+    "generic-error": "Er is iets verkeerd gegaan. Probeer het alsjeblieft opnieuw.",
+    "generic-error-signout": "Een onverwacht probleem heeft zich voorgedaan. Log alsjeblieft uit en probeer opnieuw.",
+    "within-waiting-period": "Je moet vijf minuten wachten voordat je nog een stake kunt aanmaken. Je nieuwe stake zal elk moment verschijnen.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Het wachtwoord dat je hebt ingevuld klopt niet."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "De two-factor authenticatie code die je hebt ingevuld klopt niet. Je kunt het maximaal vijf keer proberen.",
+      "already-used": "De two-factor authenticatie code die je hebt ingevoerd is al gebruikt. Wacht alsjeblieft en probeer het opnieuw.",
+      "code-expired": "De two-factor authenticatie code die je hebt ingevuld is verlopen. Wacht alsjeblieft en probeer het opnieuw.",
+      "too-many-failures": "Je hebt te vaak een incorrecte code ingevoerd en je account is nu permanent vergrendeld. Neem alsjeblieft contact op met support.",
+      "too-many-failures-signout": "Je hebt te vaak een incorrecte code ingevoerd en je account is nu permanent vergrendeld. Je wordt nu uitgelogd."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Versleuteling is mislukt. Log alsjeblieft uit en probeer het opnieuw.",
+      "decryption-failed": "Ontsleuteling is mislukt. Log alsjeblieft uit en probeer het opnieuw."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Je account wordt op dit moment verwerkt!",
+        "message": "Probeer het over een paar minuten nog eens."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Je account kon niet worden gevonden."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Geen resultaten gevonden.",
+  "yes": "ja",
+  "no": "nee",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Persoonlijk account",
+    "trading": "Handels contract",
+    "external": "Extern account",
   },
   "query-errors": {
     "failed": "Failed to load.",
     "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed-please-try": "<0>Het laden is mislukt. \u00A0</0><1>Probeer het opnieuw</1>",
+    "why-this-may-happening": "Kom er <0>hier</0> achter waarom dit heeft kunnen gebeuren."
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> uur",
+    "time-in-hours_plural": "<0>{{count}}</0> uur",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "januari",
+      "1": "februari",
+      "2": "maart",
+      "3": "april",
+      "4": "mei",
+      "5": "juni",
+      "6": "juli",
+      "7": "augustus",
+      "8": "september",
+      "9": "october",
+      "10": "november",
+      "11": "december"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Helaas, Nash kan op dit moment niet opereren in jouw regio.",
+    "contact-support": "Neem alsjeblieft <0>Contact op met ons support team</0> als je vragen hebt."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Er is iets verkeerd gegaan.",
+    "go-back": "Ga terug",
+    "go-back-retry": "Probeer het opnieuw en ga terug",
+    "contact-support": "Neem alsjeblieft <0>contact op met ons support team</0> voor meer details.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Niet beschikbaar in de sandbox!",
+        "content": "Deze functie is uitgeschakeld in de sandbox."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Jouw IP adres komt niet overeen met het land dat je hebt geselecteerd.",
+          "message": "Gebruikers met een verificatielevel van tier 0 hebben geen toegang tot alle Nash-services tenzij dat ze verbinding maken vanuit het land waar ze woonachtig zijn. Denk erover na <0>om te upgraden naar Tier 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "We zien dat je een VPN gebruikt.",
+          "message": "Gebruikers met een verificatie level van Tier 0 hebben geen toegang tot alle Nash-services h als ze verbinding maken via een VPN of proxy. Sluit zulke diensten alsjeblieft af of <0>upgrade naar Tier 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Je huidige verificatie level is Tier 0. Het gevolg is dat sommige delen van het platform niet toegankelijk zijn voor jou.",
+          "message": "Om ons hele productaanbod te gebruiken, <0>upgrade naar Tier 0</0> alsjeblieft."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Er is al een account aangemaakt via dit IP adres.",
+          "message": "Om toegang te hebben tot alle Nash-services op dit account, <0>upgrade naar Tier 1</0> alsjeblieft."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We laten je per e-mail weten wanneer je land volledig wordt ondersteund. Neem bij vragen <0> contact op met ons ondersteuningsteam </0>."
+          "title": "Niet alle Nash-services worden momenteel ondersteund in {{usState}}. Je toegang tot sommige delen van het Nash-platform is beperkt.",
+          "title-no-state": "Niet alle Nash-serives worden momenteel ondersteund in jouw plaats. Je toegang tot sommige delen van het Nash-platform is beperkt.",
+          "message": "We sturen een melding via de mail wanneer {{usState}} volledig ondersteund is. <0>Neem alsjeblieft contact op met ons support team</0> voor elke vraag.",
+          "message-no-state": "We laten je per e-mail weten wanneer je land volledig wordt ondersteund. Neem bij vragen <0>contact op met ons ondersteuningsteam </0>."
         },
         "generic": {
           "title": "Niet alle Nash-services worden momenteel ondersteund op uw huidige locatie. Uw toegang tot sommige delen van het Nash-platform is beperkt.",
