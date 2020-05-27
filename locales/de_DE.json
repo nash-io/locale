@@ -2206,8 +2206,8 @@
         },
         "2fa": {
           "edit": "Zwei-Faktor-Authentifizierung bearbeiten",
-          "add": "Aktivieren der Zwei-Faktor-Authentifizierung",
-          "disable": "Deaktivieren der Zwei-Faktor-Authentifizierung",
+          "add": "Zwei-Faktor-Authentifizierung aktivieren",
+          "disable": "Zwei-Faktor-Authentifizierung deaktivieren",
           "disable-button": "Deaktivieren der Zwei-Faktor-Authentifizierung",
           "disable-warning": "Gib unten den Carbon 2FA-Code ein, um die Zwei-Faktor-Authentifizierung zu deaktivieren. Du kannst keine Einkäufe tätigen, solange die Zwei-Faktor-Authentifizierung deaktiviert ist.",
           "not-set-up": "Nicht eingerichtet",
@@ -2217,14 +2217,14 @@
           "disabled": "Deaktiviert"
         },
         "live-photo": {
-          "add": "Foto hinzufügen",
+          "add": "Foto aufnehmen",
           "edit": "Foto bearbeiten",
           "provided": "Foto hochgeladen",
           "missing": "",
           "capture-button": "Foto machen",
           "reset-button": "Foto zurücknehmen",
-          "use-button": "Foto verwenden",
-          "instructions": "Mach ein Foto von deinem Gesicht. Es muss gut ausgeleuchtet und sichtbar sein, ohne Sonnenbrille und ohne Veränderungen Deines schönen Aussehens. Stell auch sicher, dass das Foto klar ist, ohne Blendung oder Unschärfe."
+          "use-button": "Dieses Foto verwenden",
+          "instructions": "Mach ein Foto von deinem Gesicht. Es muss gut ausgeleuchtet und sichtbar sein, ohne Sonnenbrille und ohne Veränderungen deines Aussehens. Stelle auch sicher, dass das Foto klar ist, ohne Blendung oder Unschärfe."
         },
         "sin": {
           "edit": "Soz.vers.nr. bearbeiten",
@@ -2236,14 +2236,14 @@
         },
         "proof": {
           "add": "Adressnachweis hochladen",
-          "edit": "Adressnachweis bearbeiten",
+          "edit": "Adressnachweis hochladen",
           "save": "Dokument speichern",
           "type": [
             "Strom-, Gas- oder Wasserrechnung",
             "Kontoauszug"
           ],
           "select-label": "Welches Dokument möchtest du zur Adressverifizierung hochladen?",
-          "upload-label": "Ein Foto für deine Informationen hochladen.",
+          "upload-label": "Ein Foto mit deinen Informationen hochladen.",
           "upload-label-format": "Nur JPG- oder PNG-Format, maximale Dateigröße: 3 MB.",
           "upload-policy-label": "Weitere Informationen zur richtigen Digitalisierung der Dokumente findest du unter <0>Richtlinien zur Dokumentenerfassung</0>.",
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung der Dokumente noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
@@ -2255,7 +2255,7 @@
         },
         "id": {
           "add": "Ausweisdokument hochladen",
-          "edit": "Ausweisdokument bearbeiten",
+          "edit": "Ausweisdokument hochladen",
           "save": "Dokument speichern",
           "passport": {
             "label": "Reisepass"
@@ -2322,7 +2322,7 @@
         "name": "Vollständiger Name",
         "first-name": "Vorname",
         "last-name": "Nachname",
-        "email": "Email-Adresse",
+        "email": "E-Mail-Adresse",
         "dob": "Geburtsdatum",
         "submit": "Details freigeben und {{providerName}} Konto erstellen"
       },
@@ -2338,7 +2338,7 @@
         "pending": "Wird überprüft"
       },
       "title": "Profil",
-      "profile-details": "Profil Details",
+      "profile-details": "Profil-Details",
       "profile-status-no-completed": "Profil nicht abgeschlossen",
       "profile-status-in-review": "Profil wird derzeit überprüft",
       "profile-status-completed": "Profil vollständig",
@@ -2349,17 +2349,17 @@
       "profile-approved-info-message": "Wenn du irgendwelche Profildaten bearbeitest, muss dein Konto erneut überprüft werden. Die Möglichkeit, digitale Vermögenswerte direkt zu kaufen und zu verkaufen, wird ausgesetzt, bis diese Überprüfung abgeschlossen ist und deine Angaben genehmigt wurden.",
       "limits-requirements": "Anforderungen",
       "limits-header": "Jährliches Kauflimit",
-      "limits-complete": "Nash-Plattform Fiat Stufe 1",
-      "limits-not-complete": "Erkläre deine Tätigkeit und die Herkunft deiner Assets",
-      "limits-no-occupation": "Erkläre deine Tätigkeit",
+      "limits-complete": "Nash-Plattform Fiat-Stufe 1",
+      "limits-not-complete": "Erkläre deinen Beruf und die Herkunft deiner Assets",
+      "limits-no-occupation": "Erkläre deinen Beruf",
       "limits-no-source-of-funds": "Erkläre die Quelle deiner Assets",
-      "limits-no-level-1": "Muss Stufe 1 verifiziert sein",
-      "add-occupation": "Erkläre deine Tätigkeit",
+      "limits-no-level-1": "Du musst Stufe 1 verifiziert sein",
+      "add-occupation": "Erkläre deinen Beruf",
       "add-source-of-funds": "Erkläre die Quelle deiner Assets",
       "header": "Stufe-1-Profil-Informationen",
       "contact-support-to-edit": "<0>Kontaktunterstützung</0> zum Bearbeiten",
       "source-of-funds": "Quelle deiner Assets",
-      "occupation": "Tätigkeit",
+      "occupation": "Beruf",
       "my-limits-tab": "Begrenzungen",
       "account-id": "Kontonummer",
       "created": "Erstellt",
