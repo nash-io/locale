@@ -266,7 +266,7 @@
           "security": "Sicurezza",
           "limits": "Limiti",
           "accounts": "Conti",
-          "apikeys": "API\u00A0keys"
+          "apikeys": "API keys"
         }
       },
       "staking": {
@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Caricamento non riuscito.",
     "failed-button": "Caricamento non riuscito",
-    "failed-please-try": "<0>Caricamento non riuscito. Per favore\u00A0</0><1>riprova</1>.",
+    "failed-please-try": "<0>Caricamento non riuscito. Per favore </0><1>riprova</1>.",
     "why-this-may-happening": "Scopri le possibili cause per cui ciò è accaduto <0>qui.</0>"
   },
   "datetime": {
@@ -698,8 +698,8 @@
     },
     "no-markets": "Nessun mercato è attualmente disponibile.",
     "auth": {
-     "to-start-trading": "Per iniziare il trading"
-   },
+      "to-start-trading": "Per iniziare il trading"
+    },
     "balances": {
       "title": "Accounts"
     },
@@ -715,7 +715,7 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>I tuoi mercati preferiti</0>\u00A0appear come link qui.",
+      "empty": "<0>I tuoi mercati preferiti</0> appear come link qui.",
       "tips": "<0>Tip</0> <1>Aggiungi i mercati preferiti come link qui.</1> <2 />"
     },
     "market-graphs": {
@@ -912,7 +912,7 @@
     "my-orders": {
       "auth": "Accedi per visualizzare i tuoi ordini.",
       "signed-out": {
-        "title": "<0>Iniziare</0><1>\u00A0with Nash</1>",
+        "title": "<0>Iniziare</0><1> with Nash</1>",
         "subtitle": "Crea un account in meno di un minuto – non è richiesto KYC!"
       },
       "no-results": {
@@ -1071,12 +1071,12 @@
     "sign-in": "Accedi",
     "sign-out": "Esci",
     "password-strength": {
-      "label": "Password strength",
       "0": "Molto debole",
       "1": "Debole",
       "2": "Media",
       "3": "Forte",
-      "4": "Molto forte"
+      "4": "Molto forte",
+      "label": "Password strength"
     },
     "password-form": {
       "password": {
@@ -1176,7 +1176,7 @@
     "forgot-password": {
       "tab-title": "Password dimenticata",
       "header": "Hai dimenticato la tua password?",
-      "desc": "Inserisci il tuo indirizzo email di seguito e ti ricontatteremo\u00A0on\u00A0track.",
+      "desc": "Inserisci il tuo indirizzo email di seguito e ti ricontatteremo on track.",
       "fields": {
         "email": {
           "label": "Indirizzo email",
@@ -1316,7 +1316,7 @@
         "order-rejected-insufficient-funds": "Insufficiente {{currencySell}} nel contratto di trading. Invia fondi per continuare.",
         "order-rejected-daily-limit-reached": "Il tuo ordine è stato rifiutato perché hai raggiunto il limite di trading giornaliero.",
         "generic": "Errore durante l'ordine. Per favore riprova."
-       },
+      },
       "modals": {
         "exchange-info": {
           "title": "Come scambiare i token",
@@ -3581,7 +3581,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Imposta l'autenticazione a due fattori",
           "1": {
             "header": "Scarica e installa un'app di autenticazione",
             "desc": "Raccomandiamo <0>LastPass Authenticator</0>, <1>Authy</1> o <2>Google Authenticator</2>."
@@ -3594,7 +3593,8 @@
           "3": {
             "header": "Inserisci il codice generato dalla tua app di autenticazione",
             "input-placeholder": "Codice di autenticazione"
-          }
+          },
+          "title": "Imposta l'autenticazione a due fattori"
         },
         "disable-2fa": {
           "title": "Disabilita l'autenticazione a due fattori",
@@ -3818,7 +3818,7 @@
           },
           "par-3": {
             "title": "Per quanto tempo posso mettere in stake?",
-            "desc": "Il periodo minimo di staking è di un mese, che offre un tasso di staking del 25%. Tuttavia, se desideri una percentuale più elevata delle commissioni di scambio, puoi mettere in stake per qualsiasi numero intero di mesi fino a un massimo di 24, il che offre un tasso di staking del 75% ".
+            "desc": "Il periodo minimo di staking è di un mese, che offre un tasso di staking del 25%. Tuttavia, se desideri una percentuale più elevata delle commissioni di scambio, puoi mettere in stake per qualsiasi numero intero di mesi fino a un massimo di 24, il che offre un tasso di staking del 75%"
           },
           "par-4": {
             "title": "Come ricevo i miei dividendi?",
@@ -3886,6 +3886,7 @@
       "description-desktop": "Nuovo allo staking? Impara di più riguardo lo <0>staking dei token NEX</0> e <1>crea il tuo primo stake</1>.",
       "description-mobile": "Nuovo allo staking? Impara di più riguardo lo <0>staking dei token NEX</0>.",
       "description-modal-create-link": "Crea il tuo primo stake"
+    },
     "staking-view-header": {
       "stakes-in-progress": "Stake in corso",
       "completed-stakes": "Stake completati",
