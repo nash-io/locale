@@ -3665,81 +3665,81 @@
       }
     },
     "my-limits": {
-      "title": "Limits",
-      "header": "Limits",
-      "desc-1": "For legal reasons, we have to verify your identity if you wish to trade above certain limits.",
-      "desc-2": "Tier 0 verification is available automatically.",
+      "title": "Limiti",
+      "header": "Limiti",
+      "desc-1": "Per ragioni legali, dobbiamo verificare la tua identità se desideri scambiare oltre certi limiti.",
+      "desc-2": "La verifica di Livello 0 è disponibile automaticamente.",
       "cards": {
         "tiers": {
-          "header": "Tier {{tier}}",
-          "personal": "Personal",
-          "institutional": "Institutional"
+          "header": "Livello {{tier}}",
+          "personal": "Individuale",
+          "institutional": "Istituzionale"
         },
         "periods": {
-          "day": "day",
-          "month": "month",
-          "year": "year"
+          "day": "giorno",
+          "month": "mese",
+          "year": "anno"
         },
         "limits": {
-          "header": "Maximum daily trading volume",
-          "percentage-net-worth": "Custom limit",
-          "unlimited": "Unlimited",
-          "tier-verified": "Tier {{tier}} verified",
-          "get-tier-verified": "Get tier {{tier}} verified",
-          "pending": "Pending",
-          "denied": "Denied",
-          "try-again": "Try again",
-          "contact-us": "Contact support"
+          "header": "Volume di trading massimo giornaliero",
+          "percentage-net-worth": "Limite personalizzato",
+          "unlimited": "Illimitato",
+          "tier-verified": "Livello {{tier}} verificato",
+          "get-tier-verified": "Ottieni la verifica di Livello {{tier}}",
+          "pending": "In attesa",
+          "denied": "Rifiutato",
+          "try-again": "Riprova",
+          "contact-us": "Contatta il supporto"
         },
         "information": {
-          "header": "Information required",
-          "desc": "This tier was automatically set when you created your Nash account.",
-          "email": "Email address",
-          "name": "Name",
-          "address": "Address",
-          "proof-of-address": "Proof of address",
-          "pep-check": "PEP check",
-          "photo-id": "Photo ID",
+          "header": "Informazioni richieste",
+          "desc": "Questo livello di verifica è stato impostato automaticamente quando hai creato il tuo account Nash.",
+          "email": "Indirizzo email",
+          "name": "Nome",
+          "address": "Indirizzo",
+          "proof-of-address": "Prova di indirizzo",
+          "pep-check": "Controllo PEP",
+          "photo-id": "Foto documento d'identità",
           "selfie": "Selfie",
-          "date-of-birth": "Date of birth",
-          "net-worth": "Net worth",
-          "contact-number": "Contact number",
-          "tier1-info-net-worth": "Tier 1 information + Net worth",
-          "source-of-funds": "Source of funds",
-          "name-manager": "Company representative",
-          "email-institution": "Email address",
-          "name-company": "Company name",
-          "website": "Website",
+          "date-of-birth": "Data di nascita",
+          "net-worth": "Patrimonio netto",
+          "contact-number": "Recapito telefonico",
+          "tier1-info-net-worth": "Informazioni per Livello 1 + Patrimonio netto",
+          "source-of-funds": "Provenienza dei fondi",
+          "name-manager": "Rappresentante di una società",
+          "email-institution": "Indirizzo email",
+          "name-company": "Nome della società",
+          "website": "Sito web",
           "tin": "TIN",
-          "corporate-formation-documents": "Corporate formation documents",
-          "processing-time": "If your verification is not processed within 24 hours, please <0>contact support</0>."
+          "corporate-formation-documents": "Documenti di formazione aziendale",
+          "processing-time": "Se la tua verifica non viene processata entro 24 ore, per favore <0>contatta il supporto</0>."
         },
         "tier-1": {
-          "get-verified-button": "Get verified",
-          "continue-verification-button": "Continue verification",
+          "get-verified-button": "Verifica",
+          "continue-verification-button": "Continua verifica",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "Come vuoi essere verificato?",
             "mobile": {
-              "header": "Smartphone app",
-              "desc": "Requires both high-quality front-facing and back-facing cameras.",
+              "header": "App smartphone",
+              "desc": "Richiede fotocamera anteriore e fotocamera posteriore, entrambe di alta qualità.",
               "steps": [
                 "Download the app",
                 "Scan QR code"
               ],
               "download": {
-                "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "header": "È possibile verificarsi a Livello 1 tramite la nostra app per smartphone.",
+                "downloaded-app": "Ho scaricato l'app"
               },
               "scan-code": {
-                "header": "Scan the following QR code with the Nash app:",
-                "desc": "When you have completed Tier 1 verification, your result will appear here within one minute."
+                "header": "Inquadra il seguente codice QR con l'app Nash:",
+                "desc": "Quando avrai completato la verifica a Livello 1, l'esito apparirà qui entro un minuto"
               }
             },
             "web": {
-              "header": "Nash web platform",
-              "desc": "Requires a high-quality webcam."
+              "header": "Piattaforma web Nash",
+              "desc": "Richiede una webcam di alta qualità."
             },
-            "do-it-later": "I’ll do this later"
+            "do-it-later": "Rimanda a più tardi"
           }
         }
       }
@@ -3747,11 +3747,11 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total NEX tokens staked",
-      "s-stakes-in-progress": "Stakes in progress",
-      "s-total-dividends": "Total dividends (all time)",
-      "s-next-payment": "Next dividend payment on",
-      "s-completed-stakes": "Completed stakes"
+      "s-current-stakes": "NEX totali in stake",
+      "s-stakes-in-progress": "Stake in corso",
+      "s-total-dividends": "Dividendi totali (da sempre)",
+      "s-next-payment": "Prossimo pagamento dividendi",
+      "s-completed-stakes": "Stake completati"
     },
     "stakes": {
       "amount-staked-col": "Amount staked",
