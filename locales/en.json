@@ -2996,7 +2996,7 @@
             "trading-account": "From the trading contract",
             "personal-account": "From my personal account",
             "nash-fiat-ramp": "Purchase from Nash",
-            "external-address": "From {{address}}"
+            "external-address": "From <0 />"
           }
         },
         "amount": {
@@ -3581,6 +3581,7 @@
       },
       "modals": {
         "enable-2fa": {
+          "enable": "Enable",
           "title": "Set up two-factor authentication",
           "1": {
             "header": "Download and install an authenticator app",
