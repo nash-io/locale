@@ -21,7 +21,7 @@
   "not-available-short": "N/A",
   "set-price": "Preis festlegen",
   "market": "Markt",
-  "Market price": "Marktpreis",
+  "market-price": "Market price",
   "exchange": "Börse",
   "receive": "Empfangen",
   "wallet": "Wallet",
@@ -566,8 +566,7 @@
     "tab-title": "Konto einrichten",
     "steps": [
       "Allgemeine Informationen",
-      "Zwölf Geheimwörter",
-      "Zwei-Faktor-Authentifizierung (2FA)"
+      "Zwölf Geheimwörter"
     ],
     "general-information": {
       "title": "Allgemeine Informationen",
@@ -948,9 +947,9 @@
       "trade-history-times": {
         "header": "Wähle einen bestimmten Zeitrahmen für den Export",
         "custom": "Benutzerdefinierter Zeitrahmen",
-        "months": "{count}} Monat",
-        "months_plural": "{count}} Monate",
-        "year": "{count}} Jahr"
+        "months": "{{count}} Monat",
+        "months_plural": "{{count}} Monate",
+        "year": "{{count}} Jahr"
       },
       "reset-filters": "Zurücksetzen",
       "side-col": {
@@ -1072,12 +1071,12 @@
     "sign-in": "Anmelden",
     "sign-out": "Abmelden",
     "password-strength": {
-      "label": "Passwortstärke",
       "0": "Sehr schwach",
       "1": "Schwach",
       "2": "Mittel",
       "3": "Stark",
-      "4": "Sehr stark"
+      "4": "Sehr stark",
+      "label": "Passwortstärke"
     },
     "password-form": {
       "password": {
@@ -1177,7 +1176,7 @@
     "forgot-password": {
       "tab-title": "Passwort vergessen",
       "header": "Habst du dein Passwort vergessen?",
-      "desc": "Gib unten deine E-Mail-Adresse ein und wir setzen das\u00A0Passwort\u00A0zurück.",
+      "desc": "Gib unten deine E-Mail-Adresse ein und wir setzen das Passwort zurück.",
       "fields": {
         "email": {
           "label": "E-Mail-Adresse",
@@ -1716,7 +1715,10 @@
       "title": "Wählen Sie einen Anbieter",
       "verify-identity": "<0>Ihre Identität überprüfen</0> um anzufangen.",
       "subtitle": "Anbieter digitaler Assets sind Drittunternehmen, die mit Nash zusammenarbeiten und Ihnen den Kauf und Verkauf digitaler Assets in Landeswährung ermöglichen.",
-      "steps": "['Persönliche Angaben', 'Adressdaten']",
+      "steps": [
+        "[",
+        "'"
+      ],
       "assets-available": "Verfügbare Vermögenswerte",
       "payments-methods": "Zahlungsmethoden",
       "general-details": "Limits und Gebühren",
@@ -1995,8 +1997,6 @@
         "cancel-sell-past-amount": "Stornierter Verkauf von <0 />",
         "fail-buy-past-amount": "Kauf fehlgeschlagen <0 />",
         "fail-sell-past-amount": "Verkauf fehlgeschlagen <0 />",
-        
-        
         "success-sell-past-amount": "Verkauft <0 />",
         "success-buy-past-amount": "Gekauft <0 />",
         "btn-confirm": "Siehe",
@@ -2232,7 +2232,7 @@
           "save": "Soz.vers.nr. einreichen",
           "field": "Sozialversicherungsnummer",
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meiner Adresse noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
-          "placeholder": ""
+          "placeholder": "000-00-0000"
         },
         "proof": {
           "add": "Adressnachweis hochladen",
@@ -2497,7 +2497,7 @@
       "submit-btn": "Kauf bestätigen",
       "taken-from-bank": "Vom Bankkonto übernommen",
       "taken-from-card": "Auf Karte aufgeladen",
-        "quote-accepted-title": "Angebot akzeptiert",
+      "quote-accepted-title": "Angebot akzeptiert",
       "title": "Digitale Assets kaufen",
       "total-cost": "Gesamtkosten",
       "total-with-provider-fee": "Total mit Gebühren",
@@ -2936,7 +2936,7 @@
           "title-initializing": "Transfer initializing…",
           "desc": "Besuche <0>Transaktionen</0>, um den Status zu verfolgen.",
           "warning": "Das ganz bis zu einer Stunde dauern.",
-          "remain-opened": "",
+          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
           "buttons": {
             "finish": "Verstanden!"
           }
@@ -3581,7 +3581,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Zwei-Faktor-Authentifizierung aktivieren",
           "1": {
             "header": "Authentifizierungs-App installieren",
             "desc": "Wir empfehlen <0>LastPass Authenticator</0>, <1>Authy</1> oder <2>Google Authenticator</2>."
@@ -3594,7 +3593,8 @@
           "3": {
             "header": "Den Code von deiner App eingeben",
             "input-placeholder": "Authentifizierungscode"
-          }
+          },
+          "title": "Zwei-Faktor-Authentifizierung aktivieren"
         },
         "disable-2fa": {
           "title": "Zwei-Faktor-Authentifizierung deaktivieren",
@@ -3869,7 +3869,7 @@
         "create-stake-sending-text": "Daten werden gesendet. Bitte lasse dieses Fenster offen. Dieser Vorgang kann bis zu einer Minute dauern.",
         "create-stake-error": "Es gab entweder einen Fehler oder eine Verzögerung bei der Erstellung deines Stakes. Bitte schaue in fünf Minuten noch einmal nach und versuchen es noch einmal, wenn dein Stake nicht erstellt wurde.",
         "create-stake-auth-error": "Authentifizierungsfehler. Bitte erneut versuchen.",
-        "learn-more": "",
+        "learn-more": "Learn more about",
         "footer-desc": "Mehr über NEX-Staking erfahren.",
         "amount-error-message": "Dieser Betrag übersteigt deinen verfügbaren Saldo.",
         "stake-success": {

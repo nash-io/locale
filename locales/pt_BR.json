@@ -554,7 +554,7 @@
       "desc-2": "Se você não vê nosso e-mail, verifique sua pasta de lixo eletrônico.",
       "resend": "Reenviar e-mail de verificação",
       "resend-delay": "Por favor, espere um segundo...",
-      "resend-delay_plural": "Por favor espere {count}} segundos...",
+      "resend-delay_plural": "Por favor espere {{count}} segundos...",
       "back": "Voltar para entrar",
       "success": "E-mail de verificação reenviado com sucesso!",
       "errors": {
@@ -1071,12 +1071,12 @@
     "sign-in": "Entrar no site",
     "sign-out": "Sair",
     "password-strength": {
-      "label": "Força da senha",
       "0": "Muito fraco",
       "1": "Fraco",
       "2": "Médio",
       "3": "Forte",
-      "4": "Muito forte"
+      "4": "Muito forte",
+      "label": "Força da senha"
     },
     "password-form": {
       "password": {
@@ -1099,7 +1099,7 @@
     "session-expiry-modal": {
       "title": "Sua sessão está prestes a expirar",
       "info": "A sua sessão está prestes a expirar devido à inatividade. Você sairá em segundo.",
-      "info_plural": "A sua sessão está prestes a expirar devido à inatividade. Você será desconectado em {conta} segundos.",
+      "info_plural": "A sua sessão está prestes a expirar devido à inatividade. Você será desconectado em {{count}} segundos.",
       "stay-signed-in": "Fique conectado em",
       "signing-out": "({{count}}s) Sair..."
     },
@@ -1874,7 +1874,7 @@
       "daily-remaining": "<0 /> restante",
       "limit-exceeded": "<0 /> limite excedido",
       "minimum-not-reached": "A compra mínima é <0 />",
-      "default-warning-message": "Você precisa completar seu <0>{{providerName}} perfil</0> e <1>ligar uma conta bancária</1> antes de poder {{comprar}}. {{asset}}.",
+      "default-warning-message": "Você precisa completar seu <0>{{providerName}} perfil</0> e <1>ligar uma conta bancária</1> antes de poder {{comprar}} {{asset}}.",
       "bank-account-warning-message": "Você precisa de <0>ligar uma conta bancária</0> antes de poder {{buy}} {{asset}}.",
       "fiat-provider-warning-message": "Você precisa completar seu <0>{{providerName}} perfil</0> antes de poder {{buy}}. {{asset}}.",
       "profile-pending-warning-message": "Seu perfil <0>{{providerName}} está sob revisão.",
@@ -3183,7 +3183,7 @@
     },
     "form-wallet": {
       "confirmations": "Confirmações",
-      "confirmations-count": "Espere{{confirmationsCount}} confirmações para aparecer na sua carteira. Você pode ver o status do seu depósito em 'Fundos > Transações'."
+      "confirmations-count": "Espere {{confirmationsCount}} confirmações para aparecer na sua carteira. Você pode ver o status do seu depósito em 'Fundos > Transações'."
     },
     "send-confirmation-box": {
       "only-send-one-asset": "Somente envie {{currency}} para este endereço.",
@@ -3212,8 +3212,8 @@
     },
     "search-contact": {
       "empty-list": "Você não tem nenhum contato para selecionar!",
-      "wallet": "{count}} carteira",
-      "wallet_plural": "{count}} carteiras"
+      "wallet": "{{count}} carteira",
+      "wallet_plural": "{{count}} carteiras"
     }
   },
   "orders": {
@@ -3581,7 +3581,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Configurar autenticação forte",
           "1": {
             "header": "Baixe e instale um aplicativo autenticador",
             "desc": "Recomendamos <0>LastPass Authenticator</0>, <1>Authy</1> ou <2>Google Authenticator</2>."
@@ -3594,7 +3593,8 @@
           "3": {
             "header": "Digite o código gerado pelo seu aplicativo autenticador",
             "input-placeholder": "Código de Autenticação"
-          }
+          },
+          "title": "Configurar autenticação forte"
         },
         "disable-2fa": {
           "title": "Desativar autenticação forte",

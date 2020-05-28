@@ -266,7 +266,7 @@
           "security": "Сигурност",
           "limits": "Лимити",
           "accounts": "Акаунти",
-          "apikeys": "API\u00A0keys"
+          "apikeys": "API keys"
         }
       },
       "staking": {
@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Провали се да зареди.",
     "failed-button": "Провали се да зареди",
-    "failed-please-try": "<0>Провали се да зареди. Моля\u00A0</0><1>опитайте отново</1>.",
+    "failed-please-try": "<0>Провали се да зареди. Моля </0><1>опитайте отново</1>.",
     "why-this-may-happening": "Разберете защо това се случи <0>тук.</0>"
   },
   "datetime": {
@@ -372,30 +372,30 @@
     "contact-support": "Моля <0>свържете се със съпорта</0> за повече детайли.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Не е достъпно в тестовата среда (sandbox)!",
+        "content": "Тази услуга не е достъпна в тестовата среда (sandbox)."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Вашият IP адрес не съвпада със страната, която се избрали.",
+          "message": "Потребители с верификация от Ниво 0 не могат да достъпят всички услуги в Nash освен ако не са се свързали със своята страна на пребиваване. Обмисли <0> верификация на Ниво 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Забелязахме, че използвате VPN.",
+          "message": "Потребители с верификация от Ниво 0 не могат да достъпят всички услуги в Nash ако те използват VPN или прокси. Моля не използвайте такива услуги или <0>верифицирай на Ниво 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Вашето сегашно ниво на верификация е Ниво 0. Като резултат, вашият достъп до някои услуги на Nash ще бъдат ограничени.",
+          "message": "За да използвате всички наши услуги, моля <0>верифицирай на Ниво 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Има вече съществуващ акаут с този IP адрес.",
+          "message": "За да имате достъп до всички услуги на Nash с този акаунт, моля <0>верифицирай на Ниво 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
+          "title": "Не всички услуги на Nash са достъпни в {{usState}}. Достъпът ви до някои части в платформата на Nash са ограничени.",
           "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
           "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
           "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
@@ -715,7 +715,7 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0>\u00A0appear as links here.",
+      "empty": "<0>Your favorite markets</0> appear as links here.",
       "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
     },
     "market-graphs": {
@@ -912,7 +912,7 @@
     "my-orders": {
       "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Get started</0><1>\u00A0with Nash</1>",
+        "title": "<0>Get started</0><1> with Nash</1>",
         "subtitle": "Create an account in under a minute – no KYC required!"
       },
       "no-results": {
@@ -1071,12 +1071,12 @@
     "sign-in": "Sign in",
     "sign-out": "Sign out",
     "password-strength": {
-      "label": "Password strength",
       "0": "Very weak",
       "1": "Weak",
       "2": "Medium",
       "3": "Strong",
-      "4": "Very strong"
+      "4": "Very strong",
+      "label": "Password strength"
     },
     "password-form": {
       "password": {
@@ -1176,7 +1176,7 @@
     "forgot-password": {
       "tab-title": "Forgotten password",
       "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back\u00A0on\u00A0track.",
+      "desc": "Enter your email address below and we’ll get you back on track.",
       "fields": {
         "email": {
           "label": "Email address",
@@ -3581,7 +3581,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Set up two-factor authentication",
           "1": {
             "header": "Download and install an authenticator app",
             "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
@@ -3594,7 +3593,8 @@
           "3": {
             "header": "Enter the code generated by your authenticator app",
             "input-placeholder": "Authentication code"
-          }
+          },
+          "title": "Set up two-factor authentication"
         },
         "disable-2fa": {
           "title": "Disable two-factor authentication",
