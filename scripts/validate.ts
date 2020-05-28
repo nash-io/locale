@@ -11,7 +11,7 @@ const { locale } = parse(Deno.args)
 let hasAnyLocaleErrors = false
 
 if (Boolean(locale)) {
-  validateLocale(locale, getTraversalData(locale))
+  validateLocale(locale.split('/').splice(-1)[0], getTraversalData(locale))
 } else {
   walkLocales((fileInfo, { enTraversal, translationTraversal }) => {
     validateLocale(fileInfo.name, { enTraversal, translationTraversal })
@@ -48,7 +48,7 @@ function validateLocale(
     const errors = validateValue(
       enValue,
       translatedValue,
-      fileInfo.name.replace(/\.json$/, ''),
+      locale.replace(/\.json$/, ''),
     )
 
     if (errors.length > 0) {
