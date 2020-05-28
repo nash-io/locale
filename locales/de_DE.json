@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Laden fehlgeschlagen.",
     "failed-button": "Laden fehlgeschlagen",
-    "failed-please-try": "Laden fehlgeschlagen. Bitte <0>erneut versuchen</0>.",
+    "failed-please-try": "<0>Laden fehlgeschlagen. Bitte</0> <1>erneut versuchen</1>.",
     "why-this-may-happening": "Finde heraus, warum dies möglicherweise passiert ist <0>hier</0>."
   },
   "datetime": {
@@ -475,7 +475,7 @@
       "modals": {
         "referrals": {
           "title": "Nash Empfehlungsprogramm",
-          "desc": "Dies ermöglicht dir die Teilnahme an unserem <0>Empfehlungsprogramm</0>."
+          "desc": "Dies wird für künftige Empfehlungsprogramme benutzt."
         }
       },
       "user-messages": {
@@ -539,7 +539,7 @@
         }
       },
       "password": {
-        "desc": "Verwende sowohl  Groß- und Kleinbuchstaben als auch Zahlen und Sonderzeichen für ein möglichst sicheres Passwort.",
+        "desc": "Verwende sowohl Groß- und Kleinbuchstaben als auch Zahlen und Sonderzeichen für ein möglichst sicheres Passwort.",
         "tips": "Tipps zur Passwort-Erstellung",
         "password-strength": "Passwortstärke",
         "weak": "Schwach",
@@ -685,7 +685,7 @@
     "header": {
       "switch-to-simplified": "Einsteiger-Ansicht verwenden",
       "current-market": "Markt",
-      "last-price": "Letzter {{symbol}}-Preis",
+      "last-price": "Letzter Preis",
       "last-24h": "Last 24h",
       "24h-change": "Änderung (24 Std.)",
       "24h-high": "Höchststand (24 Std.)",
@@ -834,8 +834,8 @@
           "sub-label-limit-sell": "Wie viel {{currencySymbol}} möchtest du verkaufen?",
           "estimate": "(Schätzung)",
           "errors": {
-            "insufficient-funds": "Unzureichendes Guthaben.",
-            "maybe-insufficient-funds": "Es kann sein, dass dein Guthaben für diese Market Order nicht ausreicht.",
+            "insufficient-funds": "{{currencySymbol}} unzureichend.",
+            "maybe-insufficient-funds": "{{currencySymbol}} unzureichend.",
             "order-too-small": "Die Gesamtsumme muss {{orderSize}} {{currencySymbol}} überschreiten.",
             "limit-breached": "Diese Order überschreitet dein Handelslimit."
           }
@@ -891,7 +891,7 @@
         },
         "cancellation-policy": {
           "label": "Gültigkeitsdauer",
-          "footer": "<0>Mehr erfahren</0>"
+          "footer": "Mehr erfahren"
         },
         "trading-balance": {
           "label": "Verfügbar {{currency}}:"
@@ -1098,7 +1098,7 @@
     },
     "session-expiry-modal": {
       "title": "Deine Sitzung läuft gleich ab.",
-      "info": "Deine Sitzung läuft ab, weil du zu lange nicht aktiv warst. Du wirst in {{secondsRestining}} Sekunde abgemeldet.",
+      "info": "Deine Sitzung läuft ab, weil du zu lange nicht aktiv warst. Du wirst in {{count}} Sekunde abgemeldet.",
       "info_plural": "Deine Sitzung läuft ab, weil du zu lange nicht aktiv warst. Du wirst in {{count}} Sekunden abgemeldet.",
       "stay-signed-in": "Angemeldet bleiben",
       "signing-out": "({{count}}s) Du wirst abgemeldet …"
@@ -1215,7 +1215,7 @@
           "desc-1": "Wenn du sowohl dein altes Passwort als auch deine zwölf Geheimwörter verloren hast, <0>kannst du nicht mehr auf deine Assets zugreifen</0>.",
           "desc-2": "Bitte überprüfe noch einmal, ob du entweder deine Geheimwörter oder dein altes Passwort finden kannst.",
           "desc-3": "Wenn du möchtest, kannst du dein altes Konto überschreiben. Dann erhälst du neue Geheimwörter. Das entspricht der Einrichtung eines brandneuen Kontos mit dem neuen Passwort, das du gerade ausgewählt hast.",
-          "desc-4": "Bitte habe Verständnis dafür, dass <0>du keinen Zugang mehr zu den auf dem Konto gespeicherten Assets hast</0>, wenn du es überschreibst.",
+          "desc-4": "Wenn du dein Konto zurücksetzt, wirst du keinen Zugang mehr zu den auf dem Konto gespeicherten Assets haben:",
           "desc-5": "Bitte überprüfe noch einmal, ob du entweder deine Geheimwörter oder dein Passwort finden kannst.",
           "go-back": "Zurückgehen",
           "checkbox-1": "Ich habe sowohl mein Passwort als auch meine zwölf Geheimwörter verloren.",
@@ -1876,7 +1876,7 @@
       "fiat-provider-warning-message": "Du musst dein <0>{{providerName}}-Profil</0> vervollständigen, um {{asset}} zu {{buy}}.",
       "profile-pending-warning-message": "Dein <0>{{providerName}}-Profil</0> wird derzeit überprüft.",
       "submit-btn": "Vor dem Kauf prüfen",
-      "purchase-btn": "{{asset}}-Kauf prüfen",
+      "purchase-btn": "Angebot prüfen",
       "buy": "kaufen",
       "sell": "verkaufen",
       "purchase-failure": {
@@ -2274,7 +2274,7 @@
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung der Dokumente noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
           "national-id-upload": "Lade zwei <0>separate Fotos</0> deines Personalausweises hoch, eines von der Vorderseite und eines von der Rückseite.",
           "national-id-upload-format": "Querformat, nur JPG- oder PNG-Format, maximale Dateigröße: 4 MB, minimale Dateigröße: 500 KB.",
-          "image-practices-msg": "Weitere Informationen zur richtigen Digitalisierung der Dokumente findest du unter <0>Richtlinien zur Dokumentenerfassung</0>.",
+          "image-practices-msg": "Weitere Informationen zur richtigen Digitalisierung der Dokumente findest du unter unseren Richtlinien zur Dokumentenerfassung.",
           "driver-license-upload": "Lade zwei <0>separate Fotos</0> Ihres Führerscheins hoch, eines von der Vorderseite und eines von der Rückseite.",
           "driver-license-upload-format": "Nur JPG- oder PNG-Format, maximale Dateigröße: 3 MB.",
           "file-uploaded": "{{fileName}} hochgeladen",
@@ -2408,7 +2408,7 @@
       "monthly-sell-limit": "Monatliches Verkaufslimit",
       "remaining": "{{value}} verbleibende",
       "remaining-currency": "<0></0> verbleibend",
-      "add": "Hinzufügen {{Feld}}",
+      "add": "{{field}} hinzufügen",
       "status-and-process": "Stand",
       "combined-assets-limits": "Grenzwerte für digitale Assets und nationale Währungen kombiniert",
       "completed": "Vollständige",
@@ -2572,8 +2572,8 @@
       },
       "order-created": {
         "title": "Ihr Auftrag wurde erstellt",
-        "description": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald deine Überweisung freigegeben ist. Dies kann bis zu einem Arbeitstag dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
-        "description_plural": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald deine Überweisung freigegeben ist. Dies kann bis zu {{count}} Werktage dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
+        "description": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald deine Überweisung freigegeben ist. Dies kann bis zu {{count}} Arbeitstag dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
+        "description_plural": "Wir werden dein Asset auf dein persönliches Nash-Konto einzahlen, sobald deine Überweisung freigegeben ist. Dies kann bis zu {{count}} Arbeitstag dauern. Du kannst den Status deiner Einzahlung unter dem Tab <0>Transaktionen</0> einsehen.",
         "button": "Beenden"
       },
       "profile-details": {
@@ -3844,7 +3844,7 @@
         "create-stake-disclaimer-label": "Ich verstehe, dass gestakte NEX-Tokens keine Dividenden ausschütten, wenn die Nash Exchange keine Einnahmen erzielt.",
         "title": "Stake erstellen",
         "amount-to-stake": "Wie viele NEX-Tokens möchtest du staken?",
-        "amount-to-stake-tooltip": "Der Dividendensatz spiegelt deinen proportionalen Anteil an den Einnahmen der vom Nash Exchange erzielt wird. Je länger du NEX stakest, desto höher ist dein Dividendensatz, bei einem Höchstsatz von 75 % für einen zweijährigen Stake.\n\n<0>Beispieldividende</0>\nDividenden werden täglich ausgezahlt. Beispiel: Nash hat in den letzten 24 Stunden Gebühren in Höhe von einer Million US-Dollar eingenommen. Ein Benutzer besitzt 1.000 NEX-Tokens von insgesamt 50 Millionen. Wenn er seine NEX mit dem zweijährigen Dividendensatz von 75 % gestakt hat, erhält er eine Dividende in Höhe von 1.000.000 €  ∗ 1.000 / 50.000.000 ∗ 0,75 = 15 €.",
+        "amount-to-stake-tooltip": "Der Dividendensatz spiegelt deinen proportionalen Anteil an den Einnahmen der vom Nash Exchange erzielt wird. Je länger du NEX stakest, desto höher ist dein Dividendensatz, bei einem Höchstsatz von 75 % für einen zweijährigen Stake.\n\n<0>Beispieldividende</0>\nDividenden werden täglich ausgezahlt. Beispiel: Nash hat in den letzten 24 Stunden Gebühren in Höhe von einer Million US-Dollar eingenommen. Ein Benutzer besitzt 1.000 NEX-Tokens von insgesamt 50 Millionen. Wenn er seine NEX mit dem zweijährigen Dividendensatz von 75 % gestakt hat, erhält er eine Dividende in Höhe von 1.000.000 € ∗ 1.000 / 50.000.000 ∗ 0,75 = 15 €.",
         "available-balance": "Verfügbare NEX-Tokens ⋅",
         "quick-fill-label": "Max.",
         "set-stake-duration-label": "Laufzeit festlegen",
@@ -3872,8 +3872,8 @@
         "amount-error-message": "Dieser Betrag übersteigt deinen verfügbaren Saldo.",
         "stake-success": {
           "header": "Stake erstellt!",
-          "stake-details": "Du hast einen Stake von {{Anzahl}} NEX für eine Laufzeit von {{count}} Monat erstellt. Dein Stake wird in Kürze im Dashboard angezeigt.",
-          "stake-details_plural": "Du hast einen Stake von {{Anzahl}} NEX für eine Laufzeit von {{count}} Monaten erstellt. Dein Stake wird in Kürze im Dashboard angezeigt.",
+          "stake-details": "Du hast einen Stake von {{amount}} NEX für eine Laufzeit von {{count}} Monat erstellt. Dein Stake wird in Kürze im Dashboard angezeigt.",
+          "stake-details_plural": "Du hast einen Stake von {{amount}} NEX für eine Laufzeit von {{count}} Monaten erstellt. Dein Stake wird in Kürze im Dashboard angezeigt.",
           "stake-time-description": "Du erhältst deine ersten Dividenden in:",
           "finish-button-label": "Beenden"
         }
