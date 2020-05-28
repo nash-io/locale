@@ -441,6 +441,7 @@
       "sign-in-now": "Jetzt anmelden"
     },
     "form": {
+      "your-state-is": "Your state is",
       "fields": {
         "optional": "(fakultativ)"
       },
@@ -488,12 +489,16 @@
     "country-details": {
       "header": "Konto erstellen",
       "subheader": "Wo wohnst du?",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "save-changes": "Save changes",
       "fields": {
         "country": {
           "label": "Wohnsitz"
         },
         "state": {
-          "label": "Staat"
+          "label": "Staat",
+          "location": "Location"
         },
         "confirm-country": {
           "label": "Ich bestätige, dass ich in diesem Land meinen Wohnsitz habe."
@@ -1711,11 +1716,23 @@
     "all-providers": "Alle Anbieter",
     "terms-and-conditions": "Ich akzeptiere {{providerName}}'s <0>Bedingungen und Konditionen</0>.",
     "title": "Kaufen/Verkaufen",
+    "tier0": {
+      "buy-popular-assets": "Buy and sell popular digital assets",
+      "complete-kyc-5minute": "Upgrade to Tier 1 identity verification in just five minutes!",
+      "complete-kyc": "Verify identity",
+      "enjoy-benefits": "Other benefits of Tier 1:",
+      "higher-trading-limits": "Higher trading limits on the Nash exchange.",
+      "stake-your-nex": "Stake NEX to receive dividends.",
+      "use-with-vpn": "Access Nash through a VPN service."
+    },
     "provider": {
       "title": "Wähle einen Anbieter",
       "verify-identity": "Lasse <0>deine Identität überprüfen</0>, um zu beginnen.",
       "subtitle": "Anbieter digitaler Assets sind Drittunternehmen, welche mit Nash zusammenarbeiten und dir den Kauf und Verkauf digitaler Assets in Landeswährung ermöglichen.",
-      "steps": "['Persönliche Angaben', 'Adressangaben']",
+      "steps": [
+        "[",
+        "'"
+      ],
       "assets-available": "Verfügbare Assets",
       "payments-methods": "Zahlungsmethoden",
       "general-details": "Limits und Gebühren",
