@@ -1,5 +1,5 @@
 {
-  "sandbox-warning": "Dies ist eine Sandbox-Umgebung zum Testen der API-Integration. Niemals echte Assets hierher überweisen!",
+  "sandbox-warning": "Dies ist eine Sandbox-Umgebung zum Testen der API-Integration. Niemals echte Assets hierher transferieren!",
   "buy": "kaufen",
   "sell": "verkaufen",
   "continue": "Weiter",
@@ -309,10 +309,10 @@
       "incorrect": "Das eingegebene Passwort ist falsch."
     },
     "2fa": {
-      "incorrect": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist falsch. Sie haben maximal fünf Versuche.",
+      "incorrect": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist falsch. Du hast maximal fünf Versuche.",
       "already-used": "Der eingegebene Zwei-Faktor-Authentifizierungscode wurde bereits verwendet. Bitte warten und erneut versuchen.",
       "code-expired": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist abgelaufen. Bitte warten und erneut versuchen.",
-      "too-many-failures": "Sie haben zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Wende dich bitte an unseren Kundenservice.",
+      "too-many-failures": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Wende dich bitte an unseren Kundenservice.",
       "too-many-failures-signout": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Du wirst nun abgemeldet."
     },
     "cryptography": {
@@ -513,7 +513,7 @@
           "placeholder": "E-Mail-Adresse"
         },
         "password": {
-          "label": "Erstellen Sie ein Passwort",
+          "label": "Erstelle ein Passwort",
           "placeholder": "Passwort",
           "errors": {
             "password-too-weak": "Das von dir gewählte Passwort ist zu schwach."
@@ -814,7 +814,7 @@
         "balances": "Balances",
         "balances-table": {
           "header": {
-            "asset": "Vermögen",
+            "asset": "Asset",
             "personal": "Persönlich",
             "trading": "Handel",
             "in-orders": "Im Handel",
@@ -1838,7 +1838,7 @@
       "buy-with-input-label": "Bezahlen mit {{currency}}",
       "sell-with-input-label": "Überweise {{currency}} an",
       "deposit-to": "{{currency}} an",
-      "pay-with-default": "Wählen Sie eine Zahlungsart aus",
+      "pay-with-default": "Wähle eine Zahlungsart aus",
       "link-new-bank": "Zahlungsart hinzufügen",
       "complete-nash-profile": "Vervollständige dein <0>Nash-Profile</0> um digitale Assets zu kaufen",
       "want-to-buy-input-label": "Ich möchte kaufen",
@@ -2128,8 +2128,8 @@
     "profile": {
       "carbon": {
         "2fa": "Carbon Zwei-Faktor-Authentifizierung",
-        "create-2fa": "Aktivieren Sie",
-        "replace-2fa": "Deaktivieren Sie",
+        "create-2fa": "Aktivieren",
+        "replace-2fa": "Deaktivieren",
         "kyc-form": "Persönliche Daten",
         "create-kyc-form": "Persönliche Daten hinzufügen",
         "edit-kyc-form": "Persönliche Daten bearbeiten",
@@ -2176,9 +2176,9 @@
           "slash": "{{currentChars}}/{{minChars}}"
         },
         "kyc-form": {
-          "edit": "Bearbeiten Sie Ihre Angaben",
-          "add": "Ihre Angaben hinzufügen",
-          "save": "Ihre Angaben einreichen",
+          "edit": "Angaben bearbeiten",
+          "add": "Angaben hinzufügen",
+          "save": "Angaben einreichen",
           "dob-label": "Geburtsdatum",
           "first-name-label": "Vorname",
           "last-name-label": "Nachname",
@@ -2343,7 +2343,7 @@
       "profile-no-completed-info-message": "Du musst alle unten angeforderten Angaben angeben, bevor deine Limits bestätigt werden können. Dies erfolgt automatisch, sobald alle erforderlichen Informationen bereitgestellt werden und eine <0>Zahlungsmethode hinzugefügt wird</0>. Das Verfahren kann bis zu fünf Arbeitstage dauern.",
       "profile-pending-info-message": "Wenn du die Details bearbeitest, während dein Profil überprüft wird, wird der Überprüfungsprozess neu gestartet.",
       "profile-rejected-error-message": "Deine Profilangaben wurden abgelehnt. Bitte aktualisiere deine Angaben, um es erneut zu versuchen.",
-      "profile-approved-info-message": "Wenn du irgendwelche Profildaten bearbeitest, muss dein Konto erneut überprüft werden. Die Möglichkeit, digitale Vermögenswerte direkt zu kaufen und zu verkaufen, wird ausgesetzt, bis diese Überprüfung abgeschlossen ist und deine Angaben genehmigt wurden.",
+      "profile-approved-info-message": "Wenn du irgendwelche Profildaten bearbeitest, muss dein Konto erneut überprüft werden. Die Möglichkeit, digitale Assets direkt zu kaufen und zu verkaufen, wird ausgesetzt, bis diese Überprüfung abgeschlossen ist und deine Angaben genehmigt wurden.",
       "limits-requirements": "Anforderungen",
       "limits-header": "Jährliches Kauflimit",
       "limits-complete": "Nash-Plattform Fiat-Stufe 1",
@@ -2410,7 +2410,7 @@
       "remaining-currency": "<0></0> verbleibend",
       "add": "Hinzufügen {{Feld}}",
       "status-and-process": "Stand",
-      "combined-assets-limits": "Grenzwerte für digitale Vermögenswerte und nationale Währungen kombiniert",
+      "combined-assets-limits": "Grenzwerte für digitale Assets und nationale Währungen kombiniert",
       "completed": "Vollständige",
       "not-completed": "Nicht abgeschlossen",
       "in-review": "Im Rückblick",
@@ -3015,7 +3015,7 @@
         },
         "columns": {
           "asset": {
-            "title": "Vermögen"
+            "title": "Asset"
           },
           "total-balance": {
             "title": "Gesamt",
@@ -3197,7 +3197,7 @@
           "privacy-notice": "Datenschutzerklärung",
           "user-agreement": "Nutzungsvereinbarung"
         },
-        "desc": "Bitte lesen und akzeptieren Sie unsere aktuelle {{termsName}}.",
+        "desc": "Bitte lese und akzeptiere unsere aktuelle {{termsName}}.",
         "message": "Ich akzeptiere die aktuelle <0>{{termsName}}</0>."
       },
       "confirm-notice": "Wenn du die allgemeinen Geschäftsbedingungen nicht akzeptierst, kannst du Nash-Dienste nicht weiter nutzen.",
@@ -3666,7 +3666,7 @@
       "title": "Handelslimits",
       "header": "Handelslimits",
       "desc-1": "Aus rechtlichen Gründen müssen wir deine Identität überprüfen, wenn du über bestimmte Limits hinaus handeln möchtest.",
-      "desc-2": "Verifizierungsstufe 0 erhalten Sie automatisch.",
+      "desc-2": "Verifizierungsstufe 0 erhälst automatisch.",
       "cards": {
         "tiers": {
           "header": "Stufe {{tier}}",
@@ -3729,7 +3729,7 @@
                 "downloaded-app": "Ich habe die App heruntergeladen"
               },
               "scan-code": {
-                "header": "Scannen Sie diesen QR-Code mit der Nash-App:",
+                "header": "Scanne diesen QR-Code mit der Nash-App:",
                 "desc": "Wenn du den Verifizierungsprozess abgeschlossen hast, erscheint dein Ergebnis innerhalb einer Minute hier."
               }
             },
