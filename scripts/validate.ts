@@ -1,5 +1,26 @@
-import walkLocales from './helpers/walkLocales.ts'
+import { parse } from 'https://deno.land/std/flags/mod.ts'
+
+import walkLocales, {
+  TraversalData,
+  getTraversalData,
+} from './helpers/walkLocales.ts'
 import validateValue, { ErrorData } from './helpers/validateValue.ts'
+
+const { locale } = parse(Deno.args)
+
+let hasAnyLocaleErrors = false
+
+if (Boolean(locale)) {
+  validateLocale(locale, getTraversalData(locale))
+} else {
+  walkLocales((fileInfo, { enTraversal, translationTraversal }) => {
+    validateLocale(fileInfo.name, { enTraversal, translationTraversal })
+  })
+}
+
+if (hasAnyLocaleErrors) {
+  Deno.exit(1)
+}
 
 interface LocaleError {
   locale: string
@@ -9,10 +30,11 @@ interface LocaleError {
   translatedValue: unknown
 }
 
-let hasAnyLocaleErrors = false
-
-walkLocales((fileInfo, { enTraversal, translationTraversal }) => {
-  console.log('Validating locale %o', fileInfo.name)
+function validateLocale(
+  locale: string,
+  { enTraversal, translationTraversal }: TraversalData,
+) {
+  console.log('Validating locale %o', locale)
   const localeErrors: LocaleError[] = []
 
   enTraversal.forEach(function (enValue: string) {
@@ -31,7 +53,7 @@ walkLocales((fileInfo, { enTraversal, translationTraversal }) => {
 
     if (errors.length > 0) {
       localeErrors.push({
-        locale: fileInfo.name,
+        locale,
         path: context.path.join('.'),
         errors,
         enValue,
@@ -42,13 +64,13 @@ walkLocales((fileInfo, { enTraversal, translationTraversal }) => {
 
   if (localeErrors.length > 0) {
     hasAnyLocaleErrors = true
-    console.log('❌ %o is invalid', fileInfo.name)
+    console.log('❌ %o is invalid', locale)
     console.error(
       localeErrors.reduce(
         (localeSummary, localeError) =>
           (localeSummary += [
             '',
-            `Locale: ${fileInfo.name}`,
+            `Locale: ${locale}`,
             `Path: ${localeError.path}`,
             `English:\n  ${localeError.enValue}`,
             `Translated:\n  ${localeError.translatedValue}`,
@@ -68,10 +90,6 @@ walkLocales((fileInfo, { enTraversal, translationTraversal }) => {
       ),
     )
   } else {
-    console.log('✅ %o is valid', fileInfo.name)
+    console.log('✅ %o is valid', locale)
   }
-})
-
-if (hasAnyLocaleErrors) {
-  Deno.exit(1)
 }
