@@ -21,7 +21,7 @@
   "not-available-short": "N/A",
   "set-price": "Preis festlegen",
   "market": "Markt",
-  "Market price": "Marktpreis",
+  "market-price": "Market price",
   "exchange": "Börse",
   "receive": "Empfangen",
   "wallet": "Wallet",
@@ -566,8 +566,7 @@
     "tab-title": "Konto einrichten",
     "steps": [
       "Allgemeine Informationen",
-      "Zwölf Geheimwörter",
-      "Zwei-Faktor-Authentifizierung (2FA)"
+      "Zwölf Geheimwörter"
     ],
     "general-information": {
       "title": "Allgemeine Informationen",
@@ -1072,12 +1071,12 @@
     "sign-in": "Anmelden",
     "sign-out": "Abmelden",
     "password-strength": {
-      "label": "Passwortstärke",
       "0": "Sehr schwach",
       "1": "Schwach",
       "2": "Mittel",
       "3": "Stark",
-      "4": "Sehr stark"
+      "4": "Sehr stark",
+      "label": "Passwortstärke"
     },
     "password-form": {
       "password": {
@@ -1177,7 +1176,7 @@
     "forgot-password": {
       "tab-title": "Passwort vergessen",
       "header": "Habst du dein Passwort vergessen?",
-      "desc": "Gib unten deine E-Mail-Adresse ein und wir setzen das\u00A0Passwort\u00A0zurück.",
+      "desc": "Gib unten deine E-Mail-Adresse ein und wir setzen das Passwort zurück.",
       "fields": {
         "email": {
           "label": "E-Mail-Adresse",
@@ -1798,26 +1797,26 @@
       "bat": "Basic Attention Token",
       "link": "Chainlink",
       "zrx": "0x"
-    },
+     },
     "errors": {
       "validation": "Validierungsproblem",
-      "insufficient-funds": "Mangelnde Deckung",
+      "insufficient-funds": "Unzureichendes Guthaben",
       "access-denied": "Zugriffs- oder Berechtigungsproblem (Wyre)",
       "unsupported-state": "Der US-Bundesstaat wird von Wyre nicht unterstützt.",
       "under-eighteen": "Unter 18 Jahren",
-      "plaid-not-ready": "Wyre hat Schwierigkeiten, mit Ihrer Bank zu kommunizieren.",
+      "plaid-not-ready": "Wyre hat Schwierigkeiten, mit deiner Bank zu kommunizieren.",
       "transfer": "Problem bei der Überweisung",
-      "carbon-timeout-header": "Carbon API request timeout",
-      "carbon-timeout-body": "Your transaction failed because of an API request timeout. Carbon has been notified of this error",
+      "carbon-timeout-header": "Zeitüberschreitung für eingende Carbon API Anfrage",
+      "carbon-timeout-body": "Deine Überweisung ist aufgrund eines Zeitlimits für API-Anforderungen fehlgeschlagen. Carbon wurde über diesen Fehler informiert.",
       "generic-fourhundred": "Fehler",
       "nash": {
         "order-book-cache-empty": {
-          "title": "Orderbuch-Cache ist leer",
-          "body": "Konnte keinen Preis erzielen. Bitte versuchen Sie es später noch einmal."
+          "title": "Oderbuch-Cache ist leer",
+          "body": "Wir konnten keinen Preis erzeugen. Bitte versuche es später noch einmal."
         },
         "not-enough-liquidity": {
-          "title": "Ungenügende Liquidität für Ordnung",
-          "body": "Ihre Bestellung ist zu groß, um sie jetzt noch zu bearbeiten. Bitte versuchen Sie es später noch einmal."
+          "title": "Ungenügende Liquidität für die Order",
+          "body": "Deine Order ist zu groß, deshalb können wir sie leider nicht bearbeiten. Bitte versuche es später noch einmal."
         },
         "not-translated": {
           "title": "Fehler",
@@ -1829,53 +1828,53 @@
     "buy-sell": {
       "title": "Kauf/Verkauf",
       "tab-buy-assets": "Assets kaufen",
-      "failed-to-transact": "Ihre Transaktion ist fehlgeschlagen.",
+      "failed-to-transact": "Deine Order ist fehlgeschlagen.",
       "tab-sell-assets": "Assets verkaufen",
-      "daily-limits-header": "Verbleibende Limits nach dieser Transaktion",
+      "daily-limits-header": "Verbleibende Limits nach dieser Order.",
       "current-price-label": "Aktueller Preis | <0 />",
-      "current-price-unavailable": "Current price unavailable",
-      "buy-with-input-label-no-cur": "Pay with",
-      "sell-with-input-label-no-cur": "Deposit to",
-      "buy-with-input-label": "Zahlen Sie in {{currency}} mit",
-      "sell-with-input-label": "Überweisen Sie {{currency}} auf",
-      "deposit-to": "Überweisen Sie {{currency}} auf",
+      "current-price-unavailable": "Aktueller Preis nicht verfügbar.",
+      "buy-with-input-label-no-cur": "Bezahlen mit",
+      "sell-with-input-label-no-cur": "Überweisung an",
+      "buy-with-input-label": "Bezahlen mit {{currency}}",
+      "sell-with-input-label": "Überweise {{currency}} an",
+      "deposit-to": "{{currency}} an",
       "pay-with-default": "Wählen Sie eine Zahlungsart aus",
       "link-new-bank": "Zahlungsart hinzufügen",
-      "complete-nash-profile": "Complete your <0>Nash profile</0> before you can buy digital assets",
+      "complete-nash-profile": "Vervollständige dein <0>Nash-Profile</0> um digitale Assets zu kaufen",
       "want-to-buy-input-label": "Ich möchte kaufen",
       "want-to-sell-input-label": "Ich möchte verkaufen",
       "spend": "Spend",
       "purchase": "Purchase",
       "cost-me-input-label": "Es kostet",
-      "i-want-to-pay-input-label": "I want to pay",
+      "i-want-to-pay-input-label": "Ich zahle",
       "receive-input-label": "Ich erhalte",
       "will-receive-input-label": "Ich erhalte ca.",
       "provider-fee": "{{providerName}}-Gebühr ",
-      "current-exchange-rate": "Current exchange rate",
+      "current-exchange-rate": "Derzeitiger Wechselkurs",
       "weekly-limit": "Wochenlimit",
       "monthly-limit": "Monatslimit",
-      "yearly-limit": "Yearly limit",
-      "weekly-limit-affix": "weekly limit",
-      "monthly-limit-affix": "monthly limit",
-      "yearly-limit-affix": "yearly limit",
-      "exceed-yearly-limit": "yearly limit exceeded",
-      "no-change-today": "no change today",
-      "change-today": "{{value}}% today",
+      "yearly-limit": "Jahreslimit",
+      "weekly-limit-affix": "Wochenlimit",
+      "monthly-limit-affix": "Monatslimit",
+      "yearly-limit-affix": "Jahreslimit",
+      "exceed-yearly-limit": "Jahreslimit überschritten",
+      "no-change-today": "Keine Veränderung heute",
+      "change-today": "{{value}}% heute",
       "daily-fiat-limit": "Tageslimit {{fiat}}",
       "daily-asset-limit": "Tageslimit {{asset}}",
-      "exceed-daily-limit": "You have exceeded your daily limit.",
+      "exceed-daily-limit": "Du hast dein Tageslimit überschritten.",
       "no-limit": "Kein Limit",
-      "current-exchange-info": "<0>This quote is based on our current exchange rate.</0> If the {{asset}} price is above <1 /> when your bank transfer clears, we will offer a new rate.",
-      "nash-unsupported": "This feature is coming soon!",
+      "current-exchange-info": "<0>Dieses Angebot basiert auf unserem aktuellen Wechselkurs.</0> Wenn der {{asset}}-Preis über <1 /> ist, als deine Überweisung eingeht, bieten wir dir einen neuen Wechselkurs an.",
+      "nash-unsupported": "Demnächst verfügbar!",
       "carbon-unsupported": "Diese Option ist bei Carbon noch nicht verfügbar.",
-      "provider-unsupported": "This feature isn’t available with {{providerName}} yet.",
+      "provider-unsupported": "Diese Option ist bei {{providerName}} noch nicht verfügbar.",
       "daily-remaining": "<0 /> noch verfügbar",
-      "limit-exceeded": "<0 /> limit exceeded",
-      "minimum-not-reached": "Minimum purchase is <0 />",
-      "default-warning-message": "Sie müssen Ihr <0>{{providerName}}-Profil</0> vervollständigen und mit einem <1>Bankkonto verbinden</1>, um {{asset}} zu {{buy}}.",
-      "bank-account-warning-message": "Sie müssen Ihr Profil mit einem <0>Bankkonto verbinden</0>, um {{asset}} zu {{buy}}.",
-      "fiat-provider-warning-message": "Sie müssen Ihr <0>{{providerName}} Profil</0> vervollständigen, um {{asset}} zu {{buy}}.",
-      "profile-pending-warning-message": "Ihr <0>{{providerName}}-Profil</0> wird derzeit überprüft.",
+      "limit-exceeded": "<0 /> Limit überschritten",
+      "minimum-not-reached": "Du musst mindestens <0 /> kaufen.",
+      "default-warning-message": "Du musst dein <0>{{providerName}}-Profil</0> vervollständigen und ein <1>Bankkonto verbinden</1>, um {{asset}} zu {{buy}}.",
+      "bank-account-warning-message": "Du musst dein Profil mit einem <0>Bankkonto verbinden</0>, um {{asset}} zu {{buy}}.",
+      "fiat-provider-warning-message": "Du musst dein <0>{{providerName}}-Profil</0> vervollständigen, um {{asset}} zu {{buy}}.",
+      "profile-pending-warning-message": "Dein <0>{{providerName}}-Profil</0> wird derzeit überprüft.",
       "submit-btn": "Vor dem Kauf prüfen",
       "purchase-btn": "{{asset}}-Kauf prüfen",
       "buy": "kaufen",
@@ -1887,16 +1886,16 @@
         "ecode-postal": "Problem mit der Postleitzahl.",
         "ecode-billing": "Problem mit der Rechnungsadresse.",
         "ecode-other-catchall": "Die übermittelten Informationen sind falsch.",
-        "ecode-declined": "Ihre Bank hat die Transaktion abgelehnt.",
-        "ecode-only-visa-mastercard": "Only Visa and Mastercard are currently accepted by Carbon.money.",
-        "ecode-3ds-auth-fail": "3DS authentication failure.",
-        "ecode-3ds-could-not-be-performed": "3DS is not available from Carbon right now.",
-        "ecode-3ds-performed-not-completed": "3DS was performed, but could not be completed by Carbon right now.",
+        "ecode-declined": "Deine Bank hat die Überweisung abgelehnt.",
+        "ecode-only-visa-mastercard": "Zurzeit werden nur Visa und Mastercard von Carbon.money akzeptiert.",
+        "ecode-3ds-auth-fail": "3DS-Authentifizierung fehlgeschlagen.",
+        "ecode-3ds-could-not-be-performed": "3DS ist derzeit bei Carbon nicht verfügbar.",
+        "ecode-3ds-performed-not-completed": "3DS wurde ausgeführt, aber kann derzeit von Carbon nicht abgeschlossen werden.",
         "ecode-unknown": "Unbekanntes Problem mit Code {{ecode}}."
       },
       "purchase-requires-confirm": {
         "title": "Neue Karte verifizieren",
-        "message": "Zu Ihrer Sicherheit müssen wir Ihre Karte überprüfen. Carbon erzeugt eine Transaktion auf Ihrem Kontoauszug, die einen vierstelligen Bestätigungscode wie 'carbon-1234' enthält.",
+        "message": "Zu deiner Sicherheit müssen wir deine Karte überprüfen. Carbon schickt eine Überweisung an dein Karte, die einen vierstelligen Bestätigungscode wie 'carbon-1234' enthält.",
         "cancel": "Kauf abbrechen",
         "code-from-statement": "Bestätigungscode eingeben:",
         "code-placeholder": "1234",
@@ -1995,8 +1994,6 @@
         "cancel-sell-past-amount": "Stornierter Verkauf von <0 />",
         "fail-buy-past-amount": "Kauf fehlgeschlagen <0 />",
         "fail-sell-past-amount": "Verkauf fehlgeschlagen <0 />",
-        
-        
         "success-sell-past-amount": "Verkauft <0 />",
         "success-buy-past-amount": "Gekauft <0 />",
         "btn-confirm": "Siehe",
@@ -2232,7 +2229,7 @@
           "save": "Soz.vers.nr. einreichen",
           "field": "Sozialversicherungsnummer",
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meiner Adresse noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
-          "placeholder": ""
+          "placeholder": "000-00-0000"
         },
         "proof": {
           "add": "Adressnachweis hochladen",
@@ -2497,7 +2494,7 @@
       "submit-btn": "Kauf bestätigen",
       "taken-from-bank": "Vom Bankkonto übernommen",
       "taken-from-card": "Auf Karte aufgeladen",
-        "quote-accepted-title": "Angebot akzeptiert",
+      "quote-accepted-title": "Angebot akzeptiert",
       "title": "Digitale Assets kaufen",
       "total-cost": "Gesamtkosten",
       "total-with-provider-fee": "Total mit Gebühren",
@@ -2936,7 +2933,7 @@
           "title-initializing": "Transfer initializing…",
           "desc": "Besuche <0>Transaktionen</0>, um den Status zu verfolgen.",
           "warning": "Das ganz bis zu einer Stunde dauern.",
-          "remain-opened": "",
+          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
           "buttons": {
             "finish": "Verstanden!"
           }
@@ -3581,7 +3578,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Zwei-Faktor-Authentifizierung aktivieren",
           "1": {
             "header": "Authentifizierungs-App installieren",
             "desc": "Wir empfehlen <0>LastPass Authenticator</0>, <1>Authy</1> oder <2>Google Authenticator</2>."
@@ -3594,7 +3590,8 @@
           "3": {
             "header": "Den Code von deiner App eingeben",
             "input-placeholder": "Authentifizierungscode"
-          }
+          },
+          "title": "Zwei-Faktor-Authentifizierung aktivieren"
         },
         "disable-2fa": {
           "title": "Zwei-Faktor-Authentifizierung deaktivieren",
@@ -3869,7 +3866,7 @@
         "create-stake-sending-text": "Daten werden gesendet. Bitte lasse dieses Fenster offen. Dieser Vorgang kann bis zu einer Minute dauern.",
         "create-stake-error": "Es gab entweder einen Fehler oder eine Verzögerung bei der Erstellung deines Stakes. Bitte schaue in fünf Minuten noch einmal nach und versuchen es noch einmal, wenn dein Stake nicht erstellt wurde.",
         "create-stake-auth-error": "Authentifizierungsfehler. Bitte erneut versuchen.",
-        "learn-more": "",
+        "learn-more": "Learn more about",
         "footer-desc": "Mehr über NEX-Staking erfahren.",
         "amount-error-message": "Dieser Betrag übersteigt deinen verfügbaren Saldo.",
         "stake-success": {
