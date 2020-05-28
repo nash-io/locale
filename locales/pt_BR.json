@@ -553,7 +553,7 @@
       "desc-1": "Por favor, verifique o seu e-mail e verifique a sua conta.",
       "desc-2": "Se você não vê nosso e-mail, verifique sua pasta de lixo eletrônico.",
       "resend": "Reenviar e-mail de verificação",
-      "resend-delay": "Por favor, espere um segundo...",
+      "resend-delay": "Por favor, espere {{count}} segundo...",
       "resend-delay_plural": "Por favor espere {{count}} segundos...",
       "back": "Voltar para entrar",
       "success": "E-mail de verificação reenviado com sucesso!",
@@ -868,7 +868,7 @@
           "label": "Limite",
           "sub-label": "O seu pedido pode combinar com pedidos a este preço ou melhor.",
           "errors": {
-            "maker-match": "Os pedidos 'Post only' que coincidirem no livro de ordens atual serão cancelados."
+            "maker-match": "Os pedidos 'Post only' que coincidirem no livro de ofertas atual serão cancelados."
           }
         },
         "stop-price": {
@@ -947,9 +947,9 @@
       "trade-history-times": {
         "header": "Selecione um prazo definido para exportar",
         "custom": "Prazo personalizado",
-        "months": "mês",
+        "months": "{{count}} mês",
         "months_plural": "{{count}} meses",
-        "year": "Ano"
+        "year": "{{count}} ano"
       },
       "reset-filters": "Reinicialização",
       "side-col": {
@@ -961,7 +961,7 @@
       },
       "type-col": {
         "header-title": "Tipo",
-        "header-title-with-currency": "tipo",
+        "header-title-with-currency": "{{currency}} tipo",
         "filter": {
           "market": "Mercado",
           "limit": "Limite",
@@ -1009,8 +1009,8 @@
         "header-title-with-currency": "{{currency}} total"
       },
       "trade-total-col": {
-        "header-title": "Comércio total",
-        "header-title-with-currency": "total da negociação"
+        "header-title": "Total negociado",
+        "header-title-with-currency": "{{currency}} negociados"
       },
       "size-col": {
         "header-title": "Valor",
@@ -1018,23 +1018,23 @@
       },
       "price-col": {
         "header-title": "Preço",
-        "header-title-with-currency": "preço"
+        "header-title-with-currency": "{{currency}} preço"
       },
       "pair-col": {
         "header-title": "Par"
       },
       "filled-col": {
         "header-title": "Quantidade preenchida",
-        "header-title-with-currency": "Valor preenchido"
+        "header-title-with-currency": "{{currency}} preenchidos"
       },
       "fee-col": {
         "header-title": "Tarifa",
-        "header-title-with-currency": "taxa",
+        "header-title-with-currency": "{{currency}} de taxa",
         "no-fee": "Sem taxa"
       },
       "condition-col": {
         "header-title": "Preço de parada",
-        "header-title-with-currency": "preço limite"
+        "header-title-with-currency": "{{currency}} preço de parada"
       },
       "time-col": {
         "header-title": "Executado em"
@@ -1044,17 +1044,17 @@
       }
     },
     "recent-trades": {
-      "title": "Ofícios recentes",
-      "order-size-col": "Tamanho",
-      "price-col": "preço",
+      "title": "Negociações recentes",
+      "order-size-col": "Quantidade ({{symbol}})",
+      "price-col": "Preço ({{symbol}})",
       "time-col": "Hora"
     },
     "orderbook": {
       "title": "USD",
-      "title-no-fiat": "Livro de ordens",
-      "order-size-col": "{{symbol}} Qtd",
+      "title-no-fiat": "Livro de ofertas",
+      "order-size-col": "Quantidade ({{symbol}})",
       "my-size-col": "Minha Qtd",
-      "price-col": "{{symbol}} preço",
+      "price-col": "Preço ({{symbol}})",
       "average": "Preço Avg.",
       "sum-size": "{{symbol}} total",
       "num-decimals": "{{decimals}} decimal",
@@ -1098,7 +1098,7 @@
     },
     "session-expiry-modal": {
       "title": "Sua sessão está prestes a expirar",
-      "info": "A sua sessão está prestes a expirar devido à inatividade. Você sairá em segundo.",
+      "info": "A sua sessão está prestes a expirar devido à inatividade. Você será desconectado em {{count}} segundo.",
       "info_plural": "A sua sessão está prestes a expirar devido à inatividade. Você será desconectado em {{count}} segundos.",
       "stay-signed-in": "Fique conectado em",
       "signing-out": "({{count}}s) Sair..."
@@ -1364,7 +1364,7 @@
         "fields": {
           "buy": {
             "label": "Eu quero receber",
-            "inner-label": "~por {{currencyBuy}}",
+            "inner-label": "~{{fiatAmount}} por {{currencyBuy}}",
             "label-estimate": "(estimado)",
             "label-button": "Selecione um token para receber",
             "errors": {
@@ -1394,11 +1394,11 @@
             }
           }
         },
-        "toggle-limit": "Estabeleça um preço para este comércio",
-        "above-limit": "% acima do mercado",
-        "below-limit": "% abaixo do mercado",
+        "toggle-limit": "Estabeleça o preço da ordem",
+        "above-limit": "{{percent}}% acima do mercado",
+        "below-limit": "{{percent}}% abaixo do mercado",
         "reset": "Reinicialização",
-        "submit": "Revisar comércio"
+        "submit": "Revisar ordem"
       },
       "review-order": {
         "header": "Revisar ordem",
@@ -1406,7 +1406,7 @@
           "market-price": "Preço por {{currencyBuy}}",
           "limit-price": "Preço limite por {{currencyBuy}}",
           "fee": "Taxa máxima de negociação",
-          "fiat-total": "Estimativa de moedaFiat"
+          "fiat-total": "Estimativa de {{currencyFiat}}"
         },
         "desc": "Sua orden permanecerá no livro até que seja preenchida, cancelada, ou 24 horas se tenham passado.",
         "submit": "Criar ordem",
@@ -1414,7 +1414,7 @@
       },
       "order-success": {
         "header": "Sucesso!",
-        "desc": "Sua ordem {{currencySell}}/{currencyBuy}} foi colocada com sucesso.",
+        "desc": "Sua ordem {{currencySell}}/{{currencyBuy}} foi colocada com sucesso.",
         "view-my-order": "Ver minha ordem",
         "create-another-trade": "Criar outra profissão"
       },
@@ -1814,7 +1814,7 @@
       "generic-fourhundred": "Erro",
       "nash": {
         "order-book-cache-empty": {
-          "title": "O cache do livro de ordens está vazio",
+          "title": "O cache do livro de ofertas está vazio",
           "body": "Não foi possível gerar um preço. Por favor, tente novamente mais tarde."
         },
         "not-enough-liquidity": {
@@ -1852,7 +1852,7 @@
       "i-want-to-pay-input-label": "Eu quero pagar",
       "receive-input-label": "Vou receber",
       "will-receive-input-label": "Vou receber aproximadamente",
-      "provider-fee": "taxa",
+      "provider-fee": "taxa de {{providerName}}",
       "current-exchange-rate": "Taxa de câmbio atual",
       "weekly-limit": "Limite semanal",
       "monthly-limit": "Limite mensal",
@@ -1874,10 +1874,10 @@
       "daily-remaining": "<0 /> restante",
       "limit-exceeded": "<0 /> limite excedido",
       "minimum-not-reached": "A compra mínima é <0 />",
-      "default-warning-message": "Você precisa completar seu <0>{{providerName}} perfil</0> e <1>ligar uma conta bancária</1> antes de poder {{comprar}} {{asset}}.",
+      "default-warning-message": "Você precisa completar seu <0>{{providerName}} perfil</0> e <1>ligar uma conta bancária</1> antes de poder {{buy}} {{asset}}.",
       "bank-account-warning-message": "Você precisa de <0>ligar uma conta bancária</0> antes de poder {{buy}} {{asset}}.",
       "fiat-provider-warning-message": "Você precisa completar seu <0>{{providerName}} perfil</0> antes de poder {{buy}}. {{asset}}.",
-      "profile-pending-warning-message": "Seu perfil <0>{{providerName}} está sob revisão.",
+      "profile-pending-warning-message": "Seu <0>perfil {{providerName}}</0> está sob revisão.",
       "submit-btn": "Revise antes de comprar",
       "purchase-btn": "Reveja minha cotação",
       "buy": "compre",
@@ -2041,7 +2041,7 @@
       "title": "Formas de pagamento ligadas a {{providerName}}",
       "link-new-account": "Adicionar uma forma de pagamento",
       "link-new-bank-account": "Vincule uma conta bancária",
-      "card-header": "conta",
+      "card-header": "Conta {{currency}}",
       "new-card-header": "Novo cartão",
       "new-bank-account-header": "Nova conta bancária",
       "processing": "Processando...",
@@ -2050,7 +2050,7 @@
       "verified-method": "Identidade verificada",
       "delete-modal-title": "Você tem certeza que quer remover o cartão terminando {{cardEnding}}?",
       "confirm-btn": "Sim, remova esta forma de pagamento",
-      "profile-incomplete": "<0>O seu perfil {{providerName}} está incompleto.",
+      "profile-incomplete": "<0>O seu perfil {{providerName}}</0> está incompleto.",
       "cancel-label": "Não, não o remova",
       "status": {
         "VERIFIED": "Verificado",
@@ -2314,7 +2314,7 @@
           "day-placeholder": "31"
         },
         "profile-document-count_plural": "{{count}} documentos",
-        "profile-document-count": "Documento"
+        "profile-document-count": "{{count}} documento"
       },
       "creator": {
         "share-details": "Compartilhe seus dados com {{providerName}}",
@@ -2366,7 +2366,7 @@
       "replace": "Substitua",
       "verified": "Verificado",
       "not-verified": "Não verificado",
-      "daily-limit-remaining": "limite diário restante",
+      "daily-limit-remaining": "{{value}} de limite diário restante",
       "unlimited": "Sem limite diário",
       "tier": "Nível {{number}}",
       "personal-details": "Dados pessoais",
@@ -2409,9 +2409,9 @@
       "monthly-limit": "Limite mensal",
       "monthly-buy-limit": "Limite de compra mensal",
       "monthly-sell-limit": "Limite de venda mensal",
-      "remaining": "Restante",
+      "remaining": "{{value}} restante",
       "remaining-currency": "<0></0> restante",
-      "add": "Adicionar {{campo}}",
+      "add": "Adicionar {{field}}",
       "status-and-process": "Status",
       "combined-assets-limits": "Limites para ativos digitais e moedas nacionais combinados",
       "completed": "Completo",
@@ -2482,7 +2482,7 @@
       "payment-status": "Status de pagamento",
       "payment-status-paid": "Pago",
       "provider-fee": "Taxa do provedor",
-      "provider-fee-with-name": "taxa",
+      "provider-fee-with-name": "taxa {{providerName}}",
       "quoted-amount": "Valor cotado",
       "quoted-exchange-rate": "Taxa de câmbio cotada",
       "transfer-this-amount": "Transfira este valor",
@@ -2575,8 +2575,8 @@
       },
       "order-created": {
         "title": "O seu pedido foi criado",
-        "description": "Nós depositaremos seus ativos em sua carteira pessoal assim que seu pagamento for compensado. Isto pode levar até {{account}} um dia útil. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
-        "description_plural": "Nós depositaremos seus ativos em sua carteira pessoal assim que seu pagamento for compensado. Isto pode levar até {{account}} dias úteis. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
+        "description": "Nós depositaremos seus ativos em sua carteira pessoal assim que seu pagamento for compensado. Isto pode levar até {{count}} um dia útil. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
+        "description_plural": "Nós depositaremos seus ativos em sua carteira pessoal assim que seu pagamento for compensado. Isto pode levar até {{count}} dias úteis. Você pode ver o status do seu depósito na guia <0>Transações</0>.",
         "button": "Terminar"
       },
       "profile-details": {
@@ -2654,7 +2654,7 @@
         "submit-proof-of-payment": "Enviar prova"
       },
       "details-shared": {
-        "title": "{ccpro}} enviou-lhe um e-mail!",
+        "title": "{{ccpro}} enviou-lhe um e-mail!",
         "desc": "Por favor verifique seu e-mail e verifique sua conta com {{ccpro}}.<0 />Se você não vê seu e-mail, verifique sua pasta de lixo eletrônico.",
         "button": "Reenviar e-mail de verificação"
       },
@@ -2873,8 +2873,8 @@
           },
           "deposit": {
             "label": "Dados de sua carteira pessoal",
-            "currency-address": "Endereço",
-            "currency-address-qrcode": "{{currency}} endereço QR code",
+            "currency-address": "Carteira {{currency}}",
+            "currency-address-qrcode": "Código QR {{currency}}",
             "currency-send-warning": "Quaisquer bens que não sejam {{currency}} enviados para este endereço serão perdidos!"
           },
           "buttons": {
@@ -2982,7 +2982,7 @@
           "transferred-currency": "Enviado {{currencySymbol}}",
           "transferring-currency": "Envio {{currencySymbol}}",
           "initializing-currency": "Inicializando a transferência {{currencySymbol}}.",
-          "failed-permanently": "{currencySymbol}} a transferência falhou"
+          "failed-permanently": "a transferência {{currencySymbol}} falhou"
         },
         "destination": {
           "title": "Destino",
@@ -3761,8 +3761,8 @@
       "next-payment-col": "Próximo pagamento",
       "aggregate-dividends-col": "Valor agregado dos dividendos",
       "row-item": {
-        "duration-month": "<0>{{account}}</0> mês",
-        "duration-month_plural": "<0>{{account}}</0> meses",
+        "duration-month": "<0>{{count}}</0> mês",
+        "duration-month_plural": "<0>{{count}}</0> meses",
         "redeem-button": {
           "label": "Lançamento NEX",
           "submitting": "Liberando...",
