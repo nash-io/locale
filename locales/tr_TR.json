@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Failed to load.",
     "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please </0><1>retry</1>.",
+    "failed-please-try": "<0>Failed to load. Please</0> <1>retry</1>.",
     "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
   },
   "datetime": {
@@ -917,7 +917,7 @@
     "my-orders": {
       "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Get started</0><1> with Nash</1>",
+        "title": "<0>Get started</0> <1>with Nash</1>",
         "subtitle": "Create an account in under a minute – no KYC required!"
       },
       "no-results": {
@@ -1287,6 +1287,7 @@
         "username-label": "Community username",
         "username-placeholder": "Choose a name…",
         "button-create": "Create Community account",
+        "button-creating": "Creating Community account…",
         "migrate-description": "If you’re using the Nash Extension to log in to the Community, you can <0>migrate your account</0>.",
         "username-exits": "‘{{username}}’ is already taken. Please choose another username."
       },
