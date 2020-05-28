@@ -1797,7 +1797,7 @@
       "bat": "Basic Attention Token",
       "link": "Chainlink",
       "zrx": "0x"
-     },
+    },
     "errors": {
       "validation": "Validierungsproblem",
       "insufficient-funds": "Unzureichendes Guthaben",
@@ -2993,7 +2993,7 @@
             "trading-account": "Vom Trading Contract",
             "personal-account": "Von meinem persönlichen Konto",
             "nash-fiat-ramp": "Kauf von Nash",
-            "external-address": "Von {{address}}"
+            "external-address": "From <0 />"
           }
         },
         "amount": {
@@ -3591,6 +3591,7 @@
             "header": "Den Code von deiner App eingeben",
             "input-placeholder": "Authentifizierungscode"
           },
+          "enable": "Enable",
           "title": "Zwei-Faktor-Authentifizierung aktivieren"
         },
         "disable-2fa": {
