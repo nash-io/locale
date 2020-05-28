@@ -1,5 +1,7 @@
 # Nash platform localization files
 
+https://github.com/nash-io/local/workflows/CI/badge.svg
+
 This is an open repository for the community to help translate and correct Nash locale files.
 
 Locale files are in JSON format and organized like this:
