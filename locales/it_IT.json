@@ -2846,7 +2846,7 @@
             "loading-fee": "Caricamento commissioni…",
             "errors": {
               "gas-shortage": "Hai bisogno di almeno {{amount}} {{currencySymbol}} nel tuo account personale per pagare le commissioni di rete.",
-              "fee-shortage": "È necessario conservare {{importo}} ETH per la commissione di rete Ethereum.",
+              "fee-shortage": "È necessario conservare {{amount}} ETH per la commissione di rete Ethereum.",
               "fee-shortage-trading": "Necessiti di {{amount}} ETH nel tuo account personale per le commissioni di rete Ethereum."
             }
           },
@@ -2928,7 +2928,7 @@
         "erc-20": {
           "approving": "Approvando",
           "title": "Approvare il trasferimento",
-          "pre-deposit-info": "Prima di depositare {{simbolo}} sul contratto di trading, devi approvare un trasferimento dal tuo conto.",
+          "pre-deposit-info": "Prima di depositare {{symbol}} sul contratto di trading, devi approvare un trasferimento dal tuo conto.",
           "current-approval": "La tua attuale approvazione al contratto di trading è: {{currentErc20Approved}}"
         },
         "started": {
