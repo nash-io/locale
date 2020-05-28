@@ -553,7 +553,7 @@
       "desc-1": "Por favor, verifique o seu e-mail e verifique a sua conta.",
       "desc-2": "Se você não vê nosso e-mail, verifique sua pasta de lixo eletrônico.",
       "resend": "Reenviar e-mail de verificação",
-      "resend-delay": "Por favor, espere um segundo...",
+      "resend-delay": "Por favor, espere {{count}} segundo...",
       "resend-delay_plural": "Por favor espere {{count}} segundos...",
       "back": "Voltar para entrar",
       "success": "E-mail de verificação reenviado com sucesso!",
@@ -947,9 +947,9 @@
       "trade-history-times": {
         "header": "Selecione um prazo definido para exportar",
         "custom": "Prazo personalizado",
-        "months": "mês",
+        "months": "{{count}} mês",
         "months_plural": "{{count}} meses",
-        "year": "Ano"
+        "year": "{{count}} ano"
       },
       "reset-filters": "Reinicialização",
       "side-col": {
@@ -961,7 +961,7 @@
       },
       "type-col": {
         "header-title": "Tipo",
-        "header-title-with-currency": "tipo",
+        "header-title-with-currency": "{{currency}} tipo",
         "filter": {
           "market": "Mercado",
           "limit": "Limite",
@@ -1009,8 +1009,8 @@
         "header-title-with-currency": "{{currency}} total"
       },
       "trade-total-col": {
-        "header-title": "Comércio total",
-        "header-title-with-currency": "total da negociação"
+        "header-title": "Total negociado",
+        "header-title-with-currency": "{{currency}} negociados"
       },
       "size-col": {
         "header-title": "Valor",
@@ -1018,23 +1018,23 @@
       },
       "price-col": {
         "header-title": "Preço",
-        "header-title-with-currency": "preço"
+        "header-title-with-currency": "{{currency}} preço"
       },
       "pair-col": {
         "header-title": "Par"
       },
       "filled-col": {
         "header-title": "Quantidade preenchida",
-        "header-title-with-currency": "Valor preenchido"
+        "header-title-with-currency": "{{currency}} preenchidos"
       },
       "fee-col": {
         "header-title": "Tarifa",
-        "header-title-with-currency": "taxa",
+        "header-title-with-currency": "{{currency}} de taxa",
         "no-fee": "Sem taxa"
       },
       "condition-col": {
         "header-title": "Preço de parada",
-        "header-title-with-currency": "preço limite"
+        "header-title-with-currency": "{{currency}} preço de parada"
       },
       "time-col": {
         "header-title": "Executado em"
@@ -2050,7 +2050,7 @@
       "verified-method": "Identidade verificada",
       "delete-modal-title": "Você tem certeza que quer remover o cartão terminando {{cardEnding}}?",
       "confirm-btn": "Sim, remova esta forma de pagamento",
-      "profile-incomplete": "<0>O seu perfil {{providerName}} está incompleto.",
+      "profile-incomplete": "<0>O seu perfil {{providerName}}</0> está incompleto.",
       "cancel-label": "Não, não o remova",
       "status": {
         "VERIFIED": "Verificado",
@@ -2314,7 +2314,7 @@
           "day-placeholder": "31"
         },
         "profile-document-count_plural": "{{count}} documentos",
-        "profile-document-count": "Documento"
+        "profile-document-count": "{{count}} documento"
       },
       "creator": {
         "share-details": "Compartilhe seus dados com {{providerName}}",
@@ -2366,7 +2366,7 @@
       "replace": "Substitua",
       "verified": "Verificado",
       "not-verified": "Não verificado",
-      "daily-limit-remaining": "limite diário restante",
+      "daily-limit-remaining": "{{value}} de limite diário restante",
       "unlimited": "Sem limite diário",
       "tier": "Nível {{number}}",
       "personal-details": "Dados pessoais",
@@ -2409,9 +2409,9 @@
       "monthly-limit": "Limite mensal",
       "monthly-buy-limit": "Limite de compra mensal",
       "monthly-sell-limit": "Limite de venda mensal",
-      "remaining": "Restante",
+      "remaining": "{{value}} restante",
       "remaining-currency": "<0></0> restante",
-      "add": "Adicionar {{campo}}",
+      "add": "Adicionar {{field}}",
       "status-and-process": "Status",
       "combined-assets-limits": "Limites para ativos digitais e moedas nacionais combinados",
       "completed": "Completo",
