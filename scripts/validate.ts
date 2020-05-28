@@ -23,7 +23,11 @@ walkLocales((fileInfo, { enTraversal, translationTraversal }) => {
     }
 
     const translatedValue = translationTraversal.get(context.path) as unknown
-    const errors = validateValue(enValue, translatedValue)
+    const errors = validateValue(
+      enValue,
+      translatedValue,
+      fileInfo.name.replace(/\.json$/, ''),
+    )
 
     if (errors.length > 0) {
       localeErrors.push({
