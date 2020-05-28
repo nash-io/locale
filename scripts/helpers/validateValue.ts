@@ -1,9 +1,19 @@
 export enum ValidationError {
   InvalidType = 'InvalidType',
+
   UnexpectedSpace = 'UnexpectedSpace',
+  UntrimmedSpace = 'UntrimmedSpace',
+  MissingSpace = 'MissingSpace',
   TooManySpaces = 'TooManySpaces',
+
+  AmbiguousPeriodCharacters = 'AmbiguousPeriodCharacters',
+  InvalidEllipsesCharacter = 'InvalidEllipsesCharacter',
+  InvalidQuoteCharacter = 'InvalidQuoteCharacter',
+
   MissingVariables = 'MissingVariables',
   ExtraVariables = 'ExtraVariables',
+  InvalidVariables = 'InvalidVariables',
+
   MissingComponents = 'MissingComponents',
   ExtraComponents = 'ExtraComponents',
 }
@@ -16,13 +26,15 @@ export interface ErrorData {
 export default function validateValue(
   enValue: string,
   translatedValue: unknown,
+  locale: string,
 ) {
   const errors: ErrorData[] = []
 
   if (typeof translatedValue !== 'string') {
     errors.push({ code: ValidationError.InvalidType })
   } else {
-    validateSpaces(errors, enValue, translatedValue)
+    validateSpaces(errors, enValue, translatedValue, locale)
+    validateCharacters(errors, enValue, translatedValue)
     validateVariables(errors, enValue, translatedValue)
     validateComponents(errors, enValue, translatedValue)
   }
@@ -34,6 +46,7 @@ function validateSpaces(
   errors: ErrorData[],
   enValue: string,
   translatedValue: string,
+  locale: string,
 ) {
   // if (translatedValue.trim() !== translatedValue) {
   //   errors.push({ code: ValidationError.UnexpectedSpace })
@@ -41,6 +54,53 @@ function validateSpaces(
 
   if (translatedValue.match(/( )\1/) != null) {
     errors.push({ code: ValidationError.TooManySpaces })
+  }
+
+  const untrimmedMatch = translatedValue.match(/(<\d+?>\s)|(\s<\/\d+>)/)
+  if (untrimmedMatch != null) {
+    errors.push({
+      code: ValidationError.UntrimmedSpace,
+      data: `Remove opening/closing space within all tags "${untrimmedMatch[0]}"`,
+    })
+  }
+
+  if (locale === 'de_DE' && translatedValue.match(/[^ ]…/) != null) {
+    errors.push({
+      code: ValidationError.MissingSpace,
+      data: 'Add a space before "…"',
+    })
+  }
+}
+
+function validateCharacters(
+  errors: ErrorData[],
+  enValue: string,
+  translatedValue: string,
+) {
+  if (translatedValue.match(/\.\.\./) != null) {
+    errors.push({
+      code: ValidationError.InvalidEllipsesCharacter,
+      data: 'Replace "..." with "…"',
+    })
+  } else if (translatedValue.match(/\.\./) != null) {
+    errors.push({
+      code: ValidationError.AmbiguousPeriodCharacters,
+      data: 'Replace ".." with either "." or "…"',
+    })
+  }
+
+  if (translatedValue.match(/'/) != null) {
+    errors.push({
+      code: ValidationError.InvalidQuoteCharacter,
+      data: `Replace ' with ‘ or ’`,
+    })
+  }
+
+  if (translatedValue.match(/"/) != null) {
+    errors.push({
+      code: ValidationError.InvalidQuoteCharacter,
+      data: `Replace " with “ or ”`,
+    })
   }
 }
 
@@ -75,6 +135,14 @@ function validateVariables(
     errors.push({
       code: ValidationError.ExtraVariables,
       data: extraVariables.join(', '),
+    })
+  }
+
+  const invalidVariables = getInvalidVariables(translatedValue)
+  if (invalidVariables.length > 0) {
+    errors.push({
+      code: ValidationError.InvalidVariables,
+      data: invalidVariables.join(', '),
     })
   }
 }
@@ -122,6 +190,11 @@ function validateComponents(
 
 function getVariables(value: string): string[] {
   const match = value.match(/\{\{(\w+?)\}\}/g)
+  return match == null ? [] : match
+}
+
+function getInvalidVariables(value: string): string[] {
+  const match = value.match(/([^{]\{\w+?\})|(\{\w+?\}[^}])/g)
   return match == null ? [] : match
 }
 
