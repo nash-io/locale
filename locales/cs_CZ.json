@@ -2996,125 +2996,125 @@
             "trading-account": "From the trading contract",
             "personal-account": "From my personal account",
             "nash-fiat-ramp": "Purchase from Nash",
-            "external-address": "From <0 />"
+            "external-address": "From {{address}}"
           }
         },
         "amount": {
-          "title": "Amount"
+          "title": "Množství"
         }
       }
     },
     "portfolio": {
       "title": "Portfolio",
       "header": {
-        "search-placeholder": "Search my assets…"
+        "search-placeholder": "Vyhledat moje aktiva…"
       },
       "table": {
         "header": {
-          "title": "My assets",
+          "title": "Moje aktiva",
           "actions": {
-            "hide-small-balances": "Hide small balances"
+            "hide-small-balances": "Schovat aktiva s malými zůstatky"
           }
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Aktivum"
           },
           "total-balance": {
-            "title": "Total",
-            "hint": "Total across all accounts, orders and stakes."
+            "title": "Suma",
+            "hint": "Suma napříč všemi účty, příkazy a 'stakes'."
           },
           "fiat-value": {
-            "title": "Value ({{fiatCurrency}})"
+            "title": "Hodnota ({{fiatCurrency}})"
           },
           "price": {
-            "title": "Price/24h change"
+            "title": "Cena/24h změna"
           },
           "allocation-percent": {
-            "title": "Allocation",
-            "hint": "The percentage of your portfolio held in each asset."
+            "title": "Rozdělení",
+            "hint": "Procento vašeho portfolia drženého v každém aktivu."
           },
           "action-buttons": {
-            "trade": "Trade"
+            "trade": "Obchod"
           }
         },
-        "no-results-problem": "Your Nash account is currently empty.",
-        "no-results-solution": "<0>Send/Receive</0> funds to get started."
+        "no-results-problem": "Váš Nash účet je momentálně prázdný.",
+        "no-results-solution": "<0>Odeslat/Přijmout</0> finanční prostředky abyste mohli začít."
       },
       "balances": {
         "header": {
           "title": "Portfolio",
-          "hint": "The total value of your assets and 24-hour change."
+          "hint": "Velková hodnota vašich aktiv a 24 hodinnová změna."
         },
-        "total": "Total",
+        "total": "Suma",
         "available": {
-          "title": "Available",
-          "hint": "You are able to move these funds. They are either in your personal account or the trading contract. Funds that are not available are either locked in unfilled orders or NEX stakes, or are currently in the process of being transferred."
+          "title": "K dispozici",
+          "hint": "Můžete přesunout tyto finanční prostředky. Ty jsou buď na vašem osobním nebo obchodovacím účtě. Prostředky, které nejsou k dispozici jsou buď uzamčené v nevypořádaných příkazech nebo tzv. 'stake', případně jsou v procesu zpracování.."
         },
-        "transfer-funds": "Send/Receive"
+        "transfer-funds": "Odeslat/Přijmout"
       },
       "chart": {
         "header": {
-          "title": "Total asset value",
-          "hint": "Track how the value of your portfolio has changed over time."
+          "title": "Celková cena aktiva",
+          "hint": "Sledujte hodnotu vašeho portfolia jak se měnila v čase."
         },
         "period": {
           "6M": "6M",
           "1M": "1M",
-          "7D": "1w",
+          "7D": "1t",
           "1D": "24h"
         },
         "empty": {
-          "heading": "Your portfolio is currently empty",
-          "body": "<0>Send/Receive</0> funds or <1>buy from our partners</1> to get started."
+          "heading": "Vaše portfolio je momentálně prázdné",
+          "body": "<0>Odeslat/Přijmout</0> finanční prostředky nebo <1>je nakupte od našich partnerů</1> abyste mohli začít."
         }
       },
       "total-balance": {
         "header": {
-          "title": "Balances",
-          "hint": "You are in complete control of all these funds."
+          "title": "Zůstatky",
+          "hint": "Následující finanční prostředky jsou plně pod vaší kontrolou."
         },
-        "available-assets": "Available assets",
-        "in-personal": "Personal account",
-        "in-trading": "Trading contract",
-        "in-unfilled-orders": "Unfilled orders",
+        "available-assets": "Aktiva k dispozici",
+        "in-personal": "Osobní účet",
+        "in-trading": "Obchodovací učet",
+        "in-unfilled-orders": "Nevypořádané příkazy",
         "in-stake": "Staked NEX",
-        "learn-more": "Learn more"
+        "learn-more": "Dozvědět se více"
       }
     }
   },
   "markets": {
-    "title": "Markets",
-    "volume-short": "vol.",
+    "title": "Trhy",
+    "volume-short": "obj.",
     "columns": {
-      "rank": "Rank",
-      "asset": "Asset",
-      "last-price": "Last price",
-      "change": "Change",
-      "market-cap": "Market cap",
-      "volume": "Volume",
-      "pair": "Pair",
-      "1d-change": "24h change",
-      "1d-high": "24h high",
-      "1d-low": "24h low",
-      "1d-volume": "24h volume",
-      "1w-change": "1w change",
-      "1w-high": "1w high",
-      "1w-low": "1w low",
-      "1w-volume": "1w volume",
-      "1m-change": "1M change",
-      "1m-high": "1M high",
-      "1m-low": "1M low",
-      "1m-volume": "1M volume"
+      "rank": "Pořadí",
+      "asset": "Aktivum",
+      "last-price": "Poslední cena",
+      "change": "Změna",
+      "market-cap": "Tržní omezení",
+      "volume": "Objem",
+      "pair": "Pár",
+      "1d-change": "24h změna",
+      "1d-high": "24h nejvyšší",
+      "1d-low": "24h nejnižší",
+      "1d-volume": "24h objem",
+      "1w-change": "1t změna",
+      "1w-high": "1t nejvyšší",
+      "1w-low": "1t nejnižší",
+      "1w-volume": "1t objem",
+      "1m-change": "1M změna",
+      "1m-high": "1M nejvyšší",
+      "1m-low": "1M nejnižší",
+      "1m-volume": "1M objem"
     },
     "buttons": {
-      "trade": "Trade"
+      "trade": "Obchod"
     },
     "trade-frequency": {
       "1h": "1h",
       "1m": "1m",
       "1M": "1M",
-      "1W": "1w",
+      "1W": "1t",
       "24h": "24h",
       "3M": "3M",
       "6M": "6M"
@@ -3594,7 +3594,6 @@
             "header": "Enter the code generated by your authenticator app",
             "input-placeholder": "Authentication code"
           },
-          "enable": "Enable",
           "title": "Set up two-factor authentication"
         },
         "disable-2fa": {
