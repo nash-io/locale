@@ -18,21 +18,24 @@ interface TraverseContext {
 const en = readJsonSync('./locales/en.json')
 const enTraversal = traverse(en)
 
-interface CallbackData {
+export interface TraversalData {
   enTraversal: typeof enTraversal
   translationTraversal: typeof enTraversal
 }
-type Callback = (fileInfo: FileInfo, data: CallbackData) => void
+
+type Callback = (fileInfo: FileInfo, data: TraversalData) => void
 
 export default function walkLocales(callback: Callback) {
   for (const fileInfo of walkSync('./locales/')) {
     if (!fileInfo.isFile || fileInfo.name === 'en.json') {
       continue
     }
-
-    const translation = readJsonSync(fileInfo.path)
-    const translationTraversal = traverse(translation)
-
-    callback(fileInfo, { enTraversal, translationTraversal })
+    callback(fileInfo, getTraversalData(fileInfo.path))
   }
+}
+
+export function getTraversalData(locale: string) {
+  const translation = readJsonSync(locale)
+  const translationTraversal = traverse(translation)
+  return { enTraversal, translationTraversal }
 }
