@@ -1,60 +1,73 @@
-import {
-  readJsonSync,
-  writeJsonSync,
-  walkSync,
-} from 'https://deno.land/std/fs/mod.ts'
-import traverse from 'https://cdn.pika.dev/traverse@^0.6.6'
+import walkLocales from './helpers/walkLocales.ts'
+import validateValue, { ErrorData } from './helpers/validateValue.ts'
 
-interface FileInfo {
+interface LocaleError {
+  locale: string
   path: string
-  name: string
-  isFile: boolean
-  isDirectory: boolean
-  isSymlink: boolean
+  errors: ErrorData[]
+  enValue: string
+  translatedValue: unknown
 }
 
-interface TraverseContext {
-  path: string[]
-  notLeaf: boolean
-  isLeaf: boolean
-}
+let hasAnyLocaleErrors = false
 
-const en = readJsonSync('./locales/en.json')
-const enTraversal = traverse(en)
+walkLocales((fileInfo, { enTraversal, translationTraversal }) => {
+  console.log('Validating locale %o', fileInfo.name)
+  const localeErrors: LocaleError[] = []
 
-for (const fileInfo of walkSync('./locales/')) {
-  if (!fileInfo.isFile || fileInfo.name === 'en.json') {
-    continue
-  }
-  syncAndValidateFile(fileInfo)
-}
-
-function syncAndValidateFile(fileInfo: FileInfo) {
-  console.log('Validating %o', fileInfo.name)
-
-  const translation = readJsonSync(fileInfo.path)
-  const translationTraversal = traverse(translation)
-  const updatedTranslationTraversal = traverse(enTraversal.clone())
-
-  enTraversal.forEach(function (value) {
+  enTraversal.forEach(function (enValue: string) {
     // @ts-ignore
     const context: TraverseContext = this
     if (context.notLeaf) {
       return
     }
 
-    const translatedValue = translationTraversal.get(context.path)
-    // TODO validate translatedValue
-    // - trimmed text
-    // - variables
-    // - components
+    const translatedValue = translationTraversal.get(context.path) as unknown
+    const errors = validateValue(enValue, translatedValue)
 
-    updatedTranslationTraversal.set(
-      context.path,
-      Boolean(translatedValue) ? translatedValue : value,
-    )
+    if (errors.length > 0) {
+      localeErrors.push({
+        locale: fileInfo.name,
+        path: context.path.join('.'),
+        errors,
+        enValue,
+        translatedValue,
+      })
+    }
   })
 
-  const updatedTranslation = updatedTranslationTraversal.clone()
-  writeJsonSync(fileInfo.path, updatedTranslation, { spaces: 2 })
+  if (localeErrors.length > 0) {
+    hasAnyLocaleErrors = true
+    console.log('❌ %o is invalid', fileInfo.name)
+    console.error(
+      localeErrors.reduce(
+        (localeSummary, localeError) =>
+          (localeSummary += [
+            '',
+            `Locale: ${fileInfo.name}`,
+            `Path: ${localeError.path}`,
+            `English:\n  ${localeError.enValue}`,
+            `Translated:\n  ${localeError.translatedValue}`,
+            `Errors:${localeError.errors.reduce(
+              (errorsSummary, error, index) => {
+                errorsSummary += `\n  ${index + 1}. ${error.code}`
+                if (error.data != null) {
+                  errorsSummary += `: ${error.data}`
+                }
+                return errorsSummary
+              },
+              '',
+            )}`,
+            '',
+          ].join('\n')),
+        '',
+      ),
+    )
+  } else {
+    console.log('✅ %o is valid', fileInfo.name)
+  }
+})
+
+if (hasAnyLocaleErrors) {
+  Deno.exit(1)
 }
