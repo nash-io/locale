@@ -83,7 +83,7 @@
       "revoke": "Revoca",
       "created": "Creata",
       "policy-trading": "Trading",
-      "loading": "Caricamento dei token…",
+      "loading": "Caricamento dei token in corso…",
       "no-tokens": "Non hai ancora generato delle chiavi API.",
       "policy-withdrawals": "Prelievi e depositi",
       "revoke-all-keys-button-label": "Revoca tutte le chiavi",
@@ -279,7 +279,7 @@
     }
   },
   "search": "Cerca…",
-  "loading": "Caricamento…",
+  "loading": "Caricamento in corso…",
   "pending": "In attesa",
   "cancelling": "Cancellazione in corso…",
   "authenticating": "Autenticazione in corso…",
@@ -627,7 +627,7 @@
         "input-placeholder": "Parola {{index}}",
         "case-sensitive": "Tutte le parole sono minuscole",
         "create-my-wallet": "Crea il mio account",
-        "generating-your-wallet": "Creazione del tuo account Nash…",
+        "generating-your-wallet": "Creazione del tuo account Nash in corso…",
         "errors": {
           "create-wallet-failed": "Si è verificato un errore durante la creazione del tuo account. Per favore <0>disconnettiti</0> e riprova."
         }
@@ -905,7 +905,7 @@
       "submit": {
         "buy": "Crea ordine di acquisto",
         "sell": "Crea ordine di vendita",
-        "placing": "Piazzamento ordine…"
+        "placing": "Piazzamento ordine in corso…"
       },
       "errors": {
         "order-rejected-insufficient-funds": "Il tuo ordine è stato rifiutato perché non disponi di fondi sufficienti.",
@@ -1067,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Ulteriori informazioni sulle nostre <1>commissioni</1>."
+    "learn-about-our-fees": "Ulteriori informazioni sulle nostre <1>commissioni<1>."
   },
   "auth": {
     "create-an-account": "Crea un account",
@@ -1106,7 +1106,7 @@
       "info": "La tua sessione sta per scadere a causa di inattività. La sessione verrà chiusa in {{count}} secondi.",
       "info_plural": "La tua sessione sta per scadere a causa di inattività. La sessione verrà chiusa in {{count}} secondi.",
       "stay-signed-in": "Rimani connesso",
-      "signing-out": "({{count}}s) Disconessione…"
+      "signing-out": "({{count}}s) Disconessione in corso…"
     },
     "signup": {
       "desc": "Non hai ancora un account?",
@@ -1270,7 +1270,7 @@
         "submit": "Imposta una nuova password"
       }
     },
-    "verify-email": "Verifica dell’indirizzo email…",
+    "verify-email": "Verifica dell’indirizzo email in corso…",
     "secret-word-list-edit": {
       "placeholder": "Word {{index}}"
     },
@@ -1287,7 +1287,7 @@
         "username-label": "Nome utente della Community",
         "username-placeholder": "Seleziona un nome…",
         "button-create": "Crea un account della Community",
-        "button-creating": "Creazione account della Community…",
+        "button-creating": "Creazione account della Community in corso…",
         "migrate-description": "Se stai utilizzando l’estensione Nash per accedere alla Community, puoi farlo <0>migrando il tuo account</0>.",
         "username-exits": "‘{{username}}’ è già utilizzato. Per favore seleziona un altro nome utente."
       },
@@ -1307,7 +1307,7 @@
           "step5": "Riceverai due email di conferma, una al tuo vecchio indirizzo email e una al tuo nuovo indirizzo. Dovrai confermare entrambi gli indirizzi per completare la modifica."
         }
       },
-      "get-token": "Autenticazione…",
+      "get-token": "Autenticazione in corso…",
       "log-you-in": "Accesso in corso…",
       "unknow-error-message": "Qualcosa è andato storto. Per favore riprova."
     }
@@ -2695,7 +2695,7 @@
           "label": "Inserisci il tuo numero di telefono",
           "desc": "Un codice di dieci cifre verrà inviato via SMS per verificare il tuo numero di telefono.",
           "code-not-received": "Non hai ricevuto il codice via SMS? <0>Rinvialo</0>.",
-          "resending-code": "Rinvio del codice di verifica…",
+          "resending-code": "Rinvio del codice di verifica in corso…",
           "code-label": "Inserisci il codice di verifica inviato al tuo telefono.",
           "back": "Indietro",
           "verify": "Verifica"
@@ -2732,7 +2732,7 @@
       "title": "Risincronizza il saldo del tuo contratto di trading.",
       "desc": "Ciò rilascerà fondi bloccati in uno stato ‘In sospeso’. Questo processo annullerà i trade aperti.",
       "button": "Risincronizza account",
-      "resyncing": "Risincronizzando…",
+      "resyncing": "Risincronizzazione in corso…",
       "error": "Risincronizzazione fallita. Per favore <0>contatta il supporto.</0>",
       "wait-error": "Attendi almeno 2 ore dopo l’ultimo deposito prima di utilizzare questa pagina.",
       "success": "Risincronizzazione riuscita!"
@@ -2742,7 +2742,7 @@
       "subtitle": "Tutti i depositi o prelievi in sospeso o non riusciti",
       "actions-title": "Azioni",
       "button-title": "Riprova",
-      "button-sending": "Inviando…",
+      "button-sending": "Invio in corso…",
       "button-sent": "Invia nuovamente",
       "nothing-to-retry": "Non hai depositi o prelievi in sospeso.",
       "status": {
@@ -2858,7 +2858,7 @@
           "transfer-amount": {
             "label": "Importo da trasferire",
             "network-transaction-fee": "Commissioni massime di rete",
-            "loading-fee": "Caricamento commissioni…",
+            "loading-fee": "Caricamento commissioni in corso…",
             "errors": {
               "gas-shortage": "Hai bisogno di almeno {{amount}} {{currencySymbol}} nel tuo account personale per pagare le commissioni di rete.",
               "fee-shortage": "È necessario conservare {{amount}} ETH per la commissione di rete Ethereum.",
@@ -2917,7 +2917,7 @@
           "buttons": {
             "back": "Indietro",
             "transfer-funds": "Invia",
-            "confirming": "Confermando…"
+            "confirming": "Convalida in corso…"
           }
         },
         "hints": {
@@ -3398,7 +3398,7 @@
       "title": "Abbiamo bisogno di alcuni dettagli da te",
       "topnav-back-button": "Torna ai limiti",
       "country": "Paese",
-      "waiting": "Verifica…",
+      "waiting": "Verifica in corso…",
       "waiting-subtitle": "Questo può richiedere alcuni minuti. Puoi lasciare questa pagina.",
       "topnav-title": "Verifica Livello 1",
       "contact-support-label": "<0>Contatta il supporto</0> per cambiare",
@@ -3781,9 +3781,9 @@
         "duration-month_plural": "<0>{{count}}</0> mesi",
         "redeem-button": {
           "label": "Rilascia NEX",
-          "submitting": "Rilascio…",
+          "submitting": "Rilascio in corso…",
           "error": "Impossibile! Per favore riprova.",
-          "success": "Successo. Rilascio di NEX…",
+          "success": "Successo. Rilascio di NEX in corso…",
           "released": "NEX rilasciati"
         }
       }
@@ -3881,7 +3881,7 @@
         "agreed-to-non-cancellation-label": "Capisco che non posso annullare o modificare questo stake dopo averla creato.",
         "agreed-to-locked-tokens-label": "Comprendo che i miei token NEX saranno bloccati fino al completamento di questo stake.",
         "create-stake-button": "Crea lo stake",
-        "create-stake-sending-button": "Invio dei dati…",
+        "create-stake-sending-button": "Invio dei dati in corso…",
         "create-stake-sending-text": "Invio dei dati. Si prega di tenere aperta questa finestra. Questo può richiedere fino a un minuto.",
         "create-stake-error": "Si è verificato un errore o un ritardo durante la creazione dello stake. Ricontrolla tra cinque minuti e invia nuovamente se il tuo stake non è stato creato.",
         "create-stake-auth-error": "Errore di autenticazione. Per favore riprova.",
