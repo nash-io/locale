@@ -103,10 +103,10 @@
     },
     "step2": {
       "password": "Adgangskode",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "two-fa-code": "Totrinsbekræftelses kode",
+      "create-api-button-label": "Fortsæt",
+      "incorrect-password": "Adgangskoden du indtastede var ikke korrekt.",
+      "incorrect-2fa": "Koden du indtastede var ikke korrekt."
     },
     "step3": {
       "generating-keys-message": "Genererer din nøgle…"
@@ -132,7 +132,7 @@
     "in-trades": "In trades",
     "transfer-funds": "Send/Modtag",
     "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "pending-transfer-link": "Se dine overførsler her."
   },
   "estimated-fee": "Estimeret gebyr: {{fee}} {{currencySymbol}}",
   "quick-fill": {
@@ -144,15 +144,15 @@
   "daily-limit": {
     "title": "Total daily limit",
     "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "amount-of-max-amount": "{{amount}} ud af {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
+    "title": "Gebyr struktur",
     "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "30-day-volume": "30 dages omsætning",
+    "taker-fee": "Taker gebyr",
+    "maker-fee": "Maker gebyr",
+    "learn-more": "Lær mere om maker og taker ordre."
   },
   "time-in-force-modal": {
     "title": "Time in force",
@@ -179,14 +179,14 @@
   },
   "main-navigation": {
     "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
+    "funds": "Depot",
+    "exchange": "Børs",
     "basic-exchange": "Basic view",
     "basic-exchange-short": "Basic",
     "advanced-exchange": "Pro view",
     "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
+    "markets": "Markeder",
+    "settings": "Min konto",
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
@@ -198,7 +198,7 @@
         "label": "Portfolio"
       },
       "notifications": {
-        "label": "Notifications",
+        "label": "Notifikationer",
         "clear-all": "Clear all"
       },
       "transfers": {
@@ -207,16 +207,16 @@
         "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Min profil",
+        "support": "Hjælp",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Lys",
+          "dark": "Mørk"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Log ud",
+          "sign-in": "Log ind",
+          "sign-in-create-account": "<1>Opret en konto</1> eller <0>log ind</0>"
         },
         "tabs": {
           "general": "General"
@@ -225,11 +225,11 @@
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Handl",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Børs",
+          "markets": "Markeder",
+          "orders": "Ordrer"
         },
         "exchange": {
           "switch": {
@@ -242,52 +242,52 @@
         "title": "Funds",
         "pages": {
           "portfolio": "Portfolio",
-          "transfers": "Transfers",
+          "transfers": "Overførsler",
           "assets": "Assets",
-          "contacts": "Contacts"
+          "contacts": "Kontakter"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Henvisninger"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Køb/Sælg",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Køb/Sælg",
+          "transactions": "Transkationer",
+          "payment-methods": "Betalingsmetoder",
+          "profile": "Profil"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
+          "profile": "Profil",
+          "preferences": "Præferencer",
+          "security": "Sikkerhed",
           "limits": "Limits",
-          "accounts": "Accounts",
-          "apikeys": "API keys"
+          "accounts": "Konti",
+          "apikeys": "API nøgler"
         }
       },
       "staking": {
         "title": "Staking",
         "pages": {
-          "all-stakes": "All stakes",
+          "all-stakes": "Alle stakes",
           "statements": "Statements"
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
+  "search": "Søg…",
+  "loading": "Indlæser…",
+  "pending": "Afventer",
+  "cancelling": "Annullerer…",
+  "authenticating": "Godkender…",
+  "decrypting": "Dekrypterer…",
+  "encrypting": "Krypterer…",
+  "sending": "Sender…",
   "submit": "Submit",
-  "retry": "Retry",
+  "retry": "Prøv igen",
   "sending-approval": "Sending approval…",
   "send-approval": "Send approval",
   "submit-transfer": "Submit transfer",
