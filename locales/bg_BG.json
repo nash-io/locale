@@ -127,275 +127,275 @@
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "trading": "Търгуване",
+    "personal": "Персонален",
+    "in-trades": "Постъпили сделки",
+    "transfer-funds": "Изпрати/Получи",
+    "pending-transfer": "Имате чакащ трансфер в размер на {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Погледнете вашите трансфери тук."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Приблизителна такса: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Максимум",
+    "use-last": "Използвай последната"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Недостатъчни средства",
+  "amount-each": "{{amount}} всяко",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Тотален дневен лимит",
+    "link": "Увеличи моито лимити",
+    "amount-of-max-amount": "{{amount}} от {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Ценообразуване",
+    "desc": "Nash калкулира 30 дневният среден обем от трейдове на потребителя използвайки обема от трейдове асоцирани с техния акаунт като процент от целия обем на борсата.",
+    "30-day-volume": "30-дневен обем",
+    "taker-fee": "Taker такса",
+    "maker-fee": "Maker такса",
+    "learn-more": "Научи повече за maker и taker поръчка."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Времето за изпълнение",
+    "subtitle": "Обоснови време, в което вашата поръчка ще остане в книгата с поръчки.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Валидно докато не се отмени",
+        "desc": "Вашата поръчка ще остане в книгата с поръчки до неопределено време - докато не се напълни или докато не я откажете."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Валидна докато има време",
+        "header-with-time": "Валидна до {{cancelAt}}",
+        "desc": "Вашата поръчка ще остане в книгата с поръчки до определеното от вас време. Ако не се напълни до това време ще бъде отказана."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Напълни или убий",
+        "desc": "Ако цялата ваша поръчка може да бъде запълнена незабавно, тогава ще се. Ако не може да бъде запълнена изцяло, тогава цялата поръчката ще бъде отказана."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Веднага или отказана",
+        "desc": "Колкото е възможно от вашата поръчка ще бъде запълнена незабавно. Останалата порция, която остане незапълнена ще бъде отказана."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
-    "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
+    "referrals": "Рефeрали",
+    "funds": "Финансови средства",
+    "exchange": "Борса",
+    "basic-exchange": "Опростена визия",
+    "basic-exchange-short": "Проста",
+    "advanced-exchange": "Професионална визия",
+    "advanced-exchange-short": "Про",
+    "markets": "Пазари",
+    "settings": "Моят акаунт",
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
     "accounts-main-menu": {
-      "title": "Services"
+      "title": "Услуги"
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Портфолио"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Нотификации",
+        "clear-all": "Изчисти всичко"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "initializing": "Инициализиране",
+        "initialized": "Трансферът започна",
+        "tooltip": "Имате започнат трансфер. Ако затворите Nash или излезете от профила си, ще бъде паузиран докато не влезете отново в профила си."
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Моят профил",
+        "support": "Поддръжка",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Светъл",
+          "dark": "Тъмен"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Излез от профила си",
+          "sign-in": "Влез в профила си",
+          "sign-in-create-account": "<1>Създай нов акаунт</1> или <0>Влез в профила си</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Общ"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Търгувай",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Борса",
+          "markets": "Пазари",
+          "orders": "Поръчки"
         },
         "exchange": {
           "switch": {
-            "pro": "Pro",
-            "simple": "Basic"
+            "pro": "Про",
+            "simple": "Опростена"
           }
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Финансови средства",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "portfolio": "Портфолио",
+          "transfers": "Трансфери",
+          "assets": "Активи",
+          "contacts": "Контакти"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Рефeрали"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Купи/Продай",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Купи/Продай",
+          "transactions": "Транзакции",
+          "payment-methods": "Платежни методи",
+          "profile": "Профил"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
-          "apikeys": "API\u00A0keys"
+          "profile": "Профил",
+          "preferences": "Преференции",
+          "security": "Сигурност",
+          "limits": "Лимити",
+          "accounts": "Акаунти",
+          "apikeys": "API keys"
         }
       },
       "staking": {
-        "title": "Staking",
+        "title": "Стейкване",
         "pages": {
-          "all-stakes": "All stakes",
-          "statements": "Statements"
+          "all-stakes": "Всички стейкове",
+          "statements": "Отчети"
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Търсене…",
+  "loading": "Зереждане…",
+  "pending": "В очакване",
+  "cancelling": "Отмяна…",
+  "authenticating": "Аутентикиране…",
+  "decrypting": "Декриптиране…",
+  "encrypting": "Криптиране…",
+  "sending": "Изпращане…",
+  "submit": "Задай",
+  "retry": "Опитай отново",
+  "sending-approval": "Изпращане на одобрение…",
+  "send-approval": "Изпрати одобрение",
+  "submit-transfer": "Задай трансфер",
+  "no-longer-sufficient-balance-for-tx": "Вашият баланс вече не е достатъчен за тази транзакция.",
+  "we-are-hiring": "Ние наемаме",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Достъпът е блокиран",
+    "location-banned": "За същаление Nash няма право да оперира във вашата юрисдикция на този етап.",
+    "invalid-clock-title": "Часовникът на вашия компютър не е точен.",
+    "permissions-issue-title": "Проблем с достъпа",
+    "invalid-clock": "За да търгувате в Nash вашия часовник трябва да е точен. <0>Настройте вашия часовник</0> тогава <1>опитайте отново</1>.",
+    "network-issue-title": "Проблем с мрежата",
+    "network-issue": "Временно има проблем с мрежата. Моля <0>опитайте отново</0>.",
+    "generic-error-title": "Грешка",
+    "generic-error": "Нещо се обърка. Моля опитайте отново.",
+    "generic-error-signout": "Неочакване грешка. Моля излезте от профила си и опитайте отново.",
+    "within-waiting-period": "Трябва да изчакате 5 минути преди да създадете нов стейк. Вашият нов стейк ще се появи скоро.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Паролата, която въведохте е грешна."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Две факторното удостоверение, което въведохте е грешно.Имате право до 5 опита.",
+      "already-used": "Две факторното удостоверение, което въведохте вече беше използвано. Моля изчакайте и опитайте отново.",
+      "code-expired": "Две факторното удостоверение, което въведохте изтече. Моля оппитайте отново.",
+      "too-many-failures": "Вие въведохте грешен код прекалено много пъти и сега вашия акаунт е временно блокиран. Моля пишете на съпорта.",
+      "too-many-failures-signout": "Вие въведохте грешен код прекалено много пъти и сега вашия акаунт е блокиран за постоянно. Сега ще излезете автоматично от профила си."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Криптирането се провали. Моля излезте от профила си и опитайте отново.",
+      "decryption-failed": "Декриптирането се провали. Моля излезте от профила си и опитайте отново."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Вашият акаунт в момента се обработва!",
+        "message": "Моля опитайте отново след няколко минути."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Вашият акаунт не може да бъде намерен."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Никакви резултати не бяха намерени.",
+  "yes": "да",
+  "no": "не",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Персонален акаунт",
+    "trading": "Акаунт за търгуване",
+    "external": "Външен акаунт"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Провали се да зареди.",
+    "failed-button": "Провали се да зареди",
+    "failed-please-try": "<0>Failed to load. Please</0> <1>retry</1>.",
+    "why-this-may-happening": "Разберете защо това се случи <0>тук.</0>"
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> часа",
+    "time-in-hours_plural": "<0>{{count}}</0> часа",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "Януари",
+      "1": "Февруари",
+      "2": "Март",
+      "3": "Април",
+      "4": "Май",
+      "5": "Юни",
+      "6": "Юли",
+      "7": "Август",
+      "8": "Септември",
+      "9": "Октомври",
+      "10": "Ноември",
+      "11": "Декември"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "За съжаление, Nash не може да оперира във вашия регион за сега.",
+    "contact-support": "Моля <0>обърнете се към съпорта ни</0> с всякакви въпроси."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Нещо се обърка.",
+    "go-back": "Върни се",
+    "go-back-retry": "Опитай отново и се върни назад",
+    "contact-support": "Моля <0>свържете се със съпорта</0> за повече детайли.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Не е достъпно в тестовата среда (sandbox)!",
+        "content": "Тази услуга не е достъпна в тестовата среда (sandbox)."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Вашият IP адрес не съвпада със страната, която се избрали.",
+          "message": "Потребители с верификация от Ниво 0 не могат да достъпят всички услуги в Nash освен ако не са се свързали със своята страна на пребиваване. Обмисли <0>верификация на Ниво 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Забелязахме, че използвате VPN.",
+          "message": "Потребители с верификация от Ниво 0 не могат да достъпят всички услуги в Nash ако те използват VPN или прокси. Моля не използвайте такива услуги или <0>верифицирай на Ниво 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Вашето сегашно ниво на верификация е Ниво 0. Като резултат, вашият достъп до някои услуги на Nash ще бъдат ограничени.",
+          "message": "За да използвате всички наши услуги, моля <0>верифицирай на Ниво 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Има вече съществуващ акаут с този IP адрес.",
+          "message": "За да имате достъп до всички услуги на Nash с този акаунт, моля <0>верифицирай на Ниво 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
+          "title": "Не всички услуги на Nash са достъпни в {{usState}}. Достъпът ви до някои части в платформата на Nash са ограничени.",
           "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
           "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
           "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
@@ -441,6 +441,7 @@
       "sign-in-now": "Sign in now"
     },
     "form": {
+      "your-state-is": "Your state is",
       "fields": {
         "optional": "(optional)"
       },
@@ -488,12 +489,16 @@
     "country-details": {
       "header": "Create an account",
       "subheader": "Where do you live?",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "save-changes": "Save changes",
       "fields": {
         "country": {
           "label": "Country of residence"
         },
         "state": {
-          "label": "State"
+          "label": "State",
+          "location": "Location"
         },
         "confirm-country": {
           "label": "I confirm that this is my country of residence."
@@ -715,7 +720,7 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0>\u00A0appear as links here.",
+      "empty": "<0>Your favorite markets</0> appear as links here.",
       "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
     },
     "market-graphs": {
@@ -912,7 +917,7 @@
     "my-orders": {
       "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Get started</0><1>\u00A0with Nash</1>",
+        "title": "<0>Get started</0> <1>with Nash</1>",
         "subtitle": "Create an account in under a minute – no KYC required!"
       },
       "no-results": {
@@ -1062,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Learn more about our <1>fees<1>."
+    "learn-about-our-fees": "Learn more about our <1>fees</1>."
   },
   "auth": {
     "create-an-account": "Create an account",
@@ -1071,12 +1076,12 @@
     "sign-in": "Sign in",
     "sign-out": "Sign out",
     "password-strength": {
-      "label": "Password strength",
       "0": "Very weak",
       "1": "Weak",
       "2": "Medium",
       "3": "Strong",
-      "4": "Very strong"
+      "4": "Very strong",
+      "label": "Password strength"
     },
     "password-form": {
       "password": {
@@ -1176,7 +1181,7 @@
     "forgot-password": {
       "tab-title": "Forgotten password",
       "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back\u00A0on\u00A0track.",
+      "desc": "Enter your email address below and we’ll get you back on track.",
       "fields": {
         "email": {
           "label": "Email address",
@@ -1282,6 +1287,7 @@
         "username-label": "Community username",
         "username-placeholder": "Choose a name…",
         "button-create": "Create Community account",
+        "button-creating": "Creating Community account…",
         "migrate-description": "If you’re using the Nash Extension to log in to the Community, you can <0>migrate your account</0>.",
         "username-exits": "‘{{username}}’ is already taken. Please choose another username."
       },
@@ -1711,6 +1717,15 @@
     "all-providers": "All providers",
     "terms-and-conditions": "I accept {{providerName}}’s <0>Terms and Conditions</0>.",
     "title": "Buy/Sell",
+    "tier0": {
+      "buy-popular-assets": "Buy and sell popular digital assets",
+      "complete-kyc-5minute": "Upgrade to Tier 1 identity verification in just five minutes!",
+      "complete-kyc": "Verify identity",
+      "enjoy-benefits": "Other benefits of Tier 1:",
+      "higher-trading-limits": "Higher trading limits on the Nash exchange.",
+      "stake-your-nex": "Stake NEX to receive dividends.",
+      "use-with-vpn": "Access Nash through a VPN service."
+    },
     "provider": {
       "title": "Select a provider",
       "verify-identity": "<0>Verify your identity</0> to get started.",
@@ -2996,7 +3011,7 @@
             "trading-account": "From the trading contract",
             "personal-account": "From my personal account",
             "nash-fiat-ramp": "Purchase from Nash",
-            "external-address": "From {{address}}"
+            "external-address": "From <0 />"
           }
         },
         "amount": {
@@ -3581,7 +3596,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Set up two-factor authentication",
           "1": {
             "header": "Download and install an authenticator app",
             "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
@@ -3594,7 +3608,9 @@
           "3": {
             "header": "Enter the code generated by your authenticator app",
             "input-placeholder": "Authentication code"
-          }
+          },
+          "enable": "Enable",
+          "title": "Set up two-factor authentication"
         },
         "disable-2fa": {
           "title": "Disable two-factor authentication",
