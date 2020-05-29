@@ -18,10 +18,11 @@ export default function validate(
   walkLocales(
     defaultLocalePath,
     localesPath,
-    (fileInfo, { defaultTraversal, translationTraversal }) => {
+    (fileInfo, { defaultTraversal, translationTraversal, locale }) => {
       const isValid = validateLocale(fileInfo.name, {
         defaultTraversal,
         translationTraversal,
+        locale,
       })
       if (!isValid) {
         hasAnyLocaleErrors = true
@@ -35,10 +36,10 @@ export default function validate(
 }
 
 function validateLocale(
-  locale: string,
-  { defaultTraversal, translationTraversal }: TraversalData,
+  localePath: string,
+  { defaultTraversal, translationTraversal, locale }: TraversalData,
 ) {
-  console.log('Validating locale %o', locale)
+  console.log('Validating locale %o', localePath)
   const localeErrors: LocaleError[] = []
 
   defaultTraversal.forEach(function (defaultValue: string) {
@@ -49,11 +50,7 @@ function validateLocale(
     }
 
     const translatedValue = translationTraversal.get(context.path) as unknown
-    const errors = validateValue(
-      defaultValue,
-      translatedValue,
-      locale.replace(/\.json$/, ''),
-    )
+    const errors = validateValue(defaultValue, translatedValue, locale)
 
     if (errors.length > 0) {
       localeErrors.push({

@@ -17,12 +17,14 @@ export interface TraverseContext {
 
 export interface Traversal {
   get: (path: string[]) => unknown
+  clone: () => unknown
   forEach: (callback: (value: string) => void) => void
 }
 
 export interface TraversalData {
   defaultTraversal: Traversal
   translationTraversal: Traversal
+  locale: string
 }
 
 type Walker = (fileInfo: FileInfo, data: TraversalData) => void
@@ -39,14 +41,19 @@ export default function walkLocales(
   if (localesPath.endsWith('.json')) {
     const translation = readJsonSync(localesPath)
     const translationTraversal = traverse(translation)
+    const translationFileName = localesPath.split('/').splice(-1)[0]
     const fileInfo = {
       path: localesPath,
-      name: localesPath.split('/').splice(-1)[0],
+      name: translationFileName,
       isFile: true,
       isDirectory: false,
       isSymlink: false,
     }
-    walker(fileInfo, { defaultTraversal, translationTraversal })
+    walker(fileInfo, {
+      defaultTraversal,
+      translationTraversal,
+      locale: translationFileName.replace(/\.json$/, ''),
+    })
     return
   }
 
@@ -56,6 +63,10 @@ export default function walkLocales(
     }
     const translation = readJsonSync(fileInfo.path)
     const translationTraversal = traverse(translation)
-    walker(fileInfo, { defaultTraversal, translationTraversal })
+    walker(fileInfo, {
+      defaultTraversal,
+      translationTraversal,
+      locale: fileInfo.name.replace(/\.json$/, ''),
+    })
   }
 }

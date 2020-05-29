@@ -26,7 +26,7 @@ export interface ErrorData {
 }
 
 export default function validateValue(
-  enValue: string,
+  defaultValue: string,
   translatedValue: unknown,
   locale: string,
 ) {
@@ -35,10 +35,10 @@ export default function validateValue(
   if (typeof translatedValue !== 'string') {
     errors.push({ code: ValidationError.InvalidType })
   } else {
-    validateSpaces(errors, enValue, translatedValue, locale)
-    validateCharacters(errors, enValue, translatedValue)
-    validateVariables(errors, enValue, translatedValue)
-    validateComponents(errors, enValue, translatedValue)
+    validateSpaces(errors, defaultValue, translatedValue, locale)
+    validateCharacters(errors, defaultValue, translatedValue)
+    validateVariables(errors, defaultValue, translatedValue)
+    validateComponents(errors, defaultValue, translatedValue)
   }
 
   return errors
@@ -46,7 +46,7 @@ export default function validateValue(
 
 function validateSpaces(
   errors: ErrorData[],
-  enValue: string,
+  defaultValue: string,
   translatedValue: string,
   locale: string,
 ) {
@@ -76,7 +76,7 @@ function validateSpaces(
 
 function validateCharacters(
   errors: ErrorData[],
-  enValue: string,
+  defaultValue: string,
   translatedValue: string,
 ) {
   if (translatedValue.match(/\.\.\./) != null) {
@@ -108,10 +108,10 @@ function validateCharacters(
 
 function validateVariables(
   errors: ErrorData[],
-  enValue: string,
+  defaultValue: string,
   translatedValue: string,
 ) {
-  const enVariables = getVariables(enValue)
+  const enVariables = getVariables(defaultValue)
   const translatedVariables = getVariables(translatedValue)
 
   const missingVariables: string[] = []
@@ -151,7 +151,7 @@ function validateVariables(
 
 function validateComponents(
   errors: ErrorData[],
-  enValue: string,
+  defaultValue: string,
   translatedValue: string,
 ) {
   const invalidComponents = getInvalidComponents(translatedValue)
@@ -171,8 +171,8 @@ function validateComponents(
   }
 
   const enComponents = [
-    ...getSelfClosingComponents(enValue),
-    ...getComponents(enValue),
+    ...getSelfClosingComponents(defaultValue),
+    ...getComponents(defaultValue),
   ]
   const translatedComponents = [
     ...getSelfClosingComponents(translatedValue),
