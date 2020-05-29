@@ -57,7 +57,7 @@
       "cancel-button-label": "Torna indietro"
     },
     "edit-whitelisted": {
-      "title": "Lista bianca degli indirizzi per {{name}}",
+      "title": "Whitelist degli indirizzi per {{name}}",
       "add": "Aggiungi un altro indirizzo",
       "save-and-close": "Salva le modifiche e chiudi",
       "continue": "Continua"
@@ -75,7 +75,7 @@
       "key-info": "Informazioni della chiave",
       "api-key": "Chiave API",
       "blockchains": "Blockchain",
-      "whitelisted": "Lista bianca",
+      "whitelisted": "Whitelist",
       "view-whitelist": "Visualizza la whitelist",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
       "blockchains-hint": "Questa chiave API può operare con queste blockchain.",
@@ -129,7 +129,7 @@
   "transfer": {
     "trading": "Trading",
     "personal": "Personale",
-    "in-trades": "In scambi",
+    "in-trades": "In scambio",
     "transfer-funds": "Invia/Ricevi",
     "pending-transfer": "Hai un trasferimento in attesa di {{amount}} {{currencySymbol}}.",
     "pending-transfer-link": "Visualizza i tuoi trasferimenti qui."
@@ -265,7 +265,7 @@
           "preferences": "Preferenze",
           "security": "Sicurezza",
           "limits": "Limiti",
-          "accounts": "Conti",
+          "accounts": "Accounts",
           "apikeys": "API keys"
         }
       },
@@ -427,7 +427,7 @@
     "dismiss-message": "Non mostrare più questo messaggio."
   },
   "terms": {
-    "user-agreement": "Accordo per gli utenti",
+    "user-agreement": "Accordo con gli utenti",
     "privacy-notice": "Informativa sulla privacy"
   },
   "account-create": {
@@ -582,7 +582,7 @@
       "chart": {
         "card-top": "Dodici parole segrete",
         "card-top-right": "Ripristino dell’account Nash se la password viene dimenticata",
-        "diamond-one": "Used in",
+        "diamond-one": "Usato in",
         "diamond-two": "Genera il tuo account personale, che contiene…",
         "card-btc": "Account Bitcoin",
         "card-neo": "Account NEO",
@@ -693,7 +693,7 @@
       "last-price": "Ultimo prezzo scambiato",
       "last-24h": "Ultime 24h",
       "24h-change": "Alto",
-      "24h-high": "High",
+      "24h-high": "Alto",
       "24h-low": "Basso",
       "24h-volume": "Volumi",
       "my-portfolio": "Il mio portafoglio"
@@ -721,7 +721,7 @@
     },
     "favorite-bar": {
       "empty": "<0>I tuoi mercati preferiti</0> appear come link qui.",
-      "tips": "<0>Tip</0> <1>Aggiungi i mercati preferiti come link qui.</1> <2 />"
+      "tips": "<0>Tip</0> <1>Aggiungi i mercati preferiti come collegamento qui.</1> <2 />"
     },
     "market-graphs": {
       "title": "Grafici",
@@ -891,8 +891,8 @@
           }
         },
         "maker-only": {
-          "label": "Post only",
-          "sub-label": "’Post only’ effettuerà il tuo ordine solo come produttore, non come acquirente. Potrebbe non riempirlo."
+          "label": "Pubblica solo",
+          "sub-label": "’Pubblica solo’ effettuerà il tuo ordine solo come produttore, non come acquirente. Potrebbe non riempirlo."
         },
         "cancellation-policy": {
           "label": "Tempo in vigore",
@@ -1159,7 +1159,7 @@
       },
       "messages": {
         "password-change": {
-          "success": "Se l’indirizzo email fornito corrisponde a un account già presente nel nostro database, ti invieremo le istruzioni su come reimpostare la password."
+          "success": "Se l’indirizzo email fornito corrisponde ad un account già presente nel nostro database, ti invieremo le istruzioni su come reimpostare la password."
         },
         "update-email": {
           "validation-success": "Abbiamo inviato un’email di verifica al tuo nuovo indirizzo email. Fare clic sul collegamento nell’e-mail per confermare il nuovo indirizzo.",
@@ -1270,7 +1270,7 @@
         "submit": "Imposta una nuova password"
       }
     },
-    "verify-email": "Verficia dell’indirizzo email…",
+    "verify-email": "Verifica dell’indirizzo email…",
     "secret-word-list-edit": {
       "placeholder": "Word {{index}}"
     },
@@ -1303,7 +1303,7 @@
           "step1": "Dopo aver effettuato l’accesso alla Community, fai clic sul tuo avatar nell’angolo in alto a destra dello schermo.",
           "step2": "Fai clic sul tuo nome utente e seleziona ‘Preferenze’.",
           "step3": "Fai clic sull’icona a forma di matita per modificare il tuo indirizzo email.",
-          "step4": "Einserisci un nuovo indirizzo email e fai clic su ‘Modifica’.",
+          "step4": "Inserisci un nuovo indirizzo email e fai clic su ‘Modifica’.",
           "step5": "Riceverai due email di conferma, una al tuo vecchio indirizzo email e una al tuo nuovo indirizzo. Dovrai confermare entrambi gli indirizzi per completare la modifica."
         }
       },
@@ -1434,11 +1434,11 @@
           "insufficient-funds": {
             "0": "Il saldo del contratto di trading non è più sufficiente per coprire questo ordine. Questo può accadere se si stanno creando ordini contemporaneamente in più schede del browser.",
             "1": "Per un’esperienza di trading più fluida, utilizza Nash in una singola scheda del browser.",
-            "2": "<0>Send/Receive</0> fondi se desideri effettuare nuovamente questo ordine."
+            "2": "<0>Invia/Ricevi</0> fondi se desideri effettuare nuovamente questo ordine."
           },
           "daily-limit-reached": {
             "0": "Il tuo ordine è stato rifiutato perché hai raggiunto il limite di trading giornaliero.",
-            "1": "Per aumentare il volume giornaliero massimo di trading, per favore visita <0>Limits</0>."
+            "1": "Per aumentare il volume giornaliero massimo di trading, per favore visita <0>Limiti</0>."
           },
           "generic": {
             "0": "Errore durante l’ordine. Per favore riprova."
@@ -1718,13 +1718,13 @@
     "terms-and-conditions": "Accetto <0>Termini e Condizioni</0> di {{providerName}}.",
     "title": "Compra/Vendi",
     "tier0": {
-      "buy-popular-assets": "Buy and sell popular digital assets",
-      "complete-kyc-5minute": "Upgrade to Tier 1 identity verification in just five minutes!",
-      "complete-kyc": "Verify identity",
-      "enjoy-benefits": "Other benefits of Tier 1:",
-      "higher-trading-limits": "Higher trading limits on the Nash exchange.",
-      "stake-your-nex": "Stake NEX to receive dividends.",
-      "use-with-vpn": "Access Nash through a VPN service."
+      "buy-popular-assets": "Compra e vendi asset digitali popolari",
+      "complete-kyc-5minute": "Passa alla verifica dell'identità di Livello 1 in soli cinque minuti!",
+      "complete-kyc": "Verifica identità",
+      "enjoy-benefits": "Altri benefici di Livello 1:",
+      "higher-trading-limits": "Limiti di trading più elevati sullo scambio di Nash.",
+      "stake-your-nex": "Stake NEX per ricevere dividendi.",
+      "use-with-vpn": "Accedi a Nash tramite un servizio VPN."
     },
     "provider": {
       "title": "Seleziona un fornitore",
@@ -1867,7 +1867,7 @@
       "i-want-to-pay-input-label": "Voglio pagare",
       "receive-input-label": "Riceverò",
       "will-receive-input-label": "Riceverò approssimativamente",
-      "provider-fee": "{{providerName}} commissioni ",
+      "provider-fee": "{{providerName}} commissioni",
       "current-exchange-rate": "Tasso di cambio attuale",
       "weekly-limit": "Limite settimanale",
       "monthly-limit": "Limite mensile",
@@ -1933,7 +1933,7 @@
       "incomplete_pop": "In sospeso: prova del pagamento mancante",
       "title": "Cronologia delle transazioni con {{providerName}}",
       "complete": "Completo",
-      "completed": "Completo",
+      "completed": "Completato",
       "incomplete": "Incompleto",
       "quote-status": "Stato dell’offerta",
       "error": "Fallito",
