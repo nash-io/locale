@@ -13,24 +13,23 @@ export default function validate(
   defaultLocalePath: string,
   localesPath: string,
 ) {
-  let hasAnyLocaleErrors = false
+  let localeErrorsCount = 0
 
   walkLocales(
     defaultLocalePath,
     localesPath,
     (fileInfo, { defaultTraversal, translationTraversal, locale }) => {
-      const isValid = validateLocale(fileInfo.name, {
+      const localeErrors = validateLocale(fileInfo.name, {
         defaultTraversal,
         translationTraversal,
         locale,
       })
-      if (!isValid) {
-        hasAnyLocaleErrors = true
-      }
+      localeErrorsCount += localeErrors.length
     },
   )
 
-  if (hasAnyLocaleErrors) {
+  if (localeErrorsCount !== 0) {
+    console.log('%o errors found', localeErrorsCount)
     Deno.exit(1)
   }
 }
@@ -65,10 +64,10 @@ function validateLocale(
 
   if (localeErrors.length === 0) {
     console.log('✅ %o is valid', locale)
-    return true
+    return localeErrors
   }
 
-  console.log('❌ %o is invalid', locale)
+  console.log('❌ %o is invalid (%o errors)', locale, localeErrors.length)
   console.error(
     localeErrors.reduce(
       (localeSummary, localeError) =>
@@ -90,5 +89,5 @@ function validateLocale(
       '',
     ),
   )
-  return false
+  return localeErrors
 }
