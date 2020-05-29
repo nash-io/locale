@@ -607,10 +607,10 @@
         "print-warning": {
           "title": "Stampa le tue dodici parole segrete",
           "header": "Assicurati che la tua stampante sia sicura!",
-          "body-desc": "Se scegli di stampare le tue parole, assicurati di:",
-          "body-tips-0": "La stampante è collegata al computer direttamente con un cavo USB.",
-          "body-tips-1": "La stampante non è connessa a una rete di alcun tipo.",
-          "body-tips-2": "Per altri è impossibile connettersi alla stampante tramite Bluetooth, WLAN, ecc.",
+          "body-desc": "Se scegli di stampare le tue parole, assicurati che:",
+          "body-tips-0": "La stampante sia collegata al computer direttamente con un cavo USB.",
+          "body-tips-1": "La stampante non sia connessa a una rete di alcun tipo.",
+          "body-tips-2": "Per altri sia impossibile connettersi alla stampante tramite Bluetooth, WLAN, ecc.",
           "button": "Ho capito - stampa le mie parole"
         }
       },
@@ -618,7 +618,7 @@
       "backup-print": {
         "header": "Backup parole segrete",
         "desc-1": "Le tue dodici parole segrete possono essere utilizzate per accedere a ETH, NEO e altri account se perdi la password di Nash.",
-        "desc-2": "Remember: Ricorda: se qualcuno accede alle tue parole, i tuoi fondi sono in pericolo.",
+        "desc-2": "Ricorda: se qualcuno accede alle tue parole, i tuoi fondi sono in pericolo.",
         "desc-3": "Ritaglia il versante sotto. Prendi in considerazione la possibilità di separarle e conservarle in due posizioni separate."
       },
       "repeat-secret-words": {
@@ -634,8 +634,8 @@
       },
       "wallet-created": {
         "header": "Il tuo account Nash è stato creato con successo!",
-        "desc": "Puoi trovare le tue dodici parole segrete e i dettagli dell’account individuale sotto ‘Il mio profilo > Accounts’.",
-        "warning": "<0>Non memorizziamo le tue parole segrete in nessun posto.</0> Se dimentichi la password, non potrai accedere ai tuoi fondi senza queste parole.",
+        "desc": "Puoi trovare le tue dodici parole segrete e i dettagli dell’account individuale sotto ‘Il mio profilo > Account’.",
+        "warning": "<0>Non memorizziamo le tue parole segrete da nessuna parte.</0> Se dimentichi la password, non potrai accedere ai tuoi fondi senza queste parole.",
         "continue": "Imposta l’autenticazione a due fattori",
         "continue-location": "Imposta il luogo di residenza"
       }
@@ -651,7 +651,7 @@
           "desc": "Ad esempio <0>LastPass Authenticator</0>, <1>Authy</1> o <2>Google Authenticator</2>."
         },
         "2": {
-          "header": "Scannerizza questo codice QR con l’app scaricata scelta",
+          "header": "Scansiona questo codice QR con l’app scaricata scelta",
           "manual-2fa": "Scrivi il tuo codice di backup 2FA"
         },
         "3": {
