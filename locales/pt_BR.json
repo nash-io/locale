@@ -26,7 +26,7 @@
   "receive": "Receba",
   "wallet": "Carteira",
   "upload": "Upload",
-  "processing": "Processando...",
+  "processing": "Processando…",
   "over-file-limit": "O tamanho do arquivo não deve exceder {{maxAllowedSize}}{{unit}}.",
   "opens-new-tab": "Abre em nova aba",
   "failed-update": "Falha na atualização",
@@ -71,7 +71,7 @@
       "name": "Nome",
       "never-used": "Nunca usado",
       "last-used": "Último usado {{when}}",
-      "subtitle": "Gerar e gerenciar chaves API. Saiba mais sobre <0> nossas APIs</0>.",
+      "subtitle": "Gerar e gerenciar chaves API. Saiba mais sobre <0>nossas APIs</0>.",
       "key-info": "Informações importantes",
       "api-key": "Chave API",
       "blockchains": "Cadeias de Bloqueio",
@@ -83,7 +83,7 @@
       "revoke": "Revogar",
       "created": "Criado em",
       "policy-trading": "Negociação",
-      "loading": "Carregando tokens...",
+      "loading": "Carregando tokens…",
       "no-tokens": "Você ainda não gerou nenhuma chave API.",
       "policy-withdrawals": "Saques e depósitos",
       "revoke-all-keys-button-label": "Revogar todas as chaves",
@@ -109,7 +109,7 @@
       "incorrect-2fa": "O código que você digitou estava incorreto."
     },
     "step3": {
-      "generating-keys-message": "Gerando a sua chave..."
+      "generating-keys-message": "Gerando a sua chave…"
     },
     "step4": {
       "your-secret": "Seu segredo",
@@ -278,17 +278,17 @@
       }
     }
   },
-  "search": "Pesquisar...",
-  "loading": "Carregando...",
+  "search": "Pesquisar…",
+  "loading": "Carregando…",
   "pending": "Pendente",
-  "cancelling": "Cancelando...",
-  "authenticating": "Autenticando...",
-  "decrypting": "Descriptografando...",
-  "encrypting": "Criptografando...",
-  "sending": "Enviando...",
+  "cancelling": "Cancelando…",
+  "authenticating": "Autenticando…",
+  "decrypting": "Descriptografando…",
+  "encrypting": "Criptografando…",
+  "sending": "Enviando…",
   "submit": "Envie para",
   "retry": "Tentativa",
-  "sending-approval": "Envio de aprovação...",
+  "sending-approval": "Envio de aprovação…",
   "send-approval": "Enviar aprovação",
   "submit-transfer": "Submeter transferência",
   "no-longer-sufficient-balance-for-tx": "O seu saldo não é mais suficiente para esta transação.",
@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Falha no carregamento.",
     "failed-button": "Falha no carregamento",
-    "failed-please-try": "<0> Falha no carregamento. Por favor </0><1>retry</1>.",
+    "failed-please-try": "<0>Falha no carregamento. Por favor</0> <1>retry</1>.",
     "why-this-may-happening": "Descubra porque isto pode ter acontecido <0>aqui.</0>"
   },
   "datetime": {
@@ -363,7 +363,7 @@
   },
   "banned-country": {
     "header": "Infelizmente, a Nash não consegue operar em sua região no momento.",
-    "contact-support": "Por favor <0>contacte a nossa equipe de suporte </0> com qualquer dúvida."
+    "contact-support": "Por favor <0>contacte a nossa equipe de suporte</0> com qualquer dúvida."
   },
   "user-messages": {
     "something-wrong": "Alguma coisa deu errado.",
@@ -397,12 +397,12 @@
         "us": {
           "title": "Nem todos os serviços Nash são atualmente suportados em {{usState}}. O seu acesso a algumas partes da plataforma Nash será restrito.",
           "title-no-state": "Nem todos os serviços da Nash são atualmente suportados no seu estado. O seu acesso a algumas partes da plataforma Nash será restrito.",
-          "message": "Nós iremos notificá-lo por e-mail quando {{usState}} for totalmente suportado. Por favor <0>contacte a nossa equipe de suporte </0> com qualquer dúvida.",
-          "message-no-state": "Iremos notificá-lo por e-mail quando o seu estado for totalmente suportado. Por favor <0>contacte a nossa equipe de suporte </0> com qualquer dúvida."
+          "message": "Nós iremos notificá-lo por e-mail quando {{usState}} for totalmente suportado. Por favor <0>contacte a nossa equipe de suporte</0> com qualquer dúvida.",
+          "message-no-state": "Iremos notificá-lo por e-mail quando o seu estado for totalmente suportado. Por favor <0>contacte a nossa equipe de suporte</0> com qualquer dúvida."
         },
         "generic": {
           "title": "Nem todos os serviços da Nash são atualmente suportados em sua localização atual. O seu acesso a algumas partes da plataforma Nash será restrito.",
-          "message": "Por favor <0>contacte a nossa equipe de suporte </0> com qualquer dúvida."
+          "message": "Por favor <0>contacte a nossa equipe de suporte</0> com qualquer dúvida."
         }
       },
       "tier-too-low": {
@@ -414,7 +414,7 @@
       "tier-1+": {
         "location-mismatch": {
           "title": "Notamos que você está se inscrevendo de {{detectedCountry}}.",
-          "message": "Se você não mora mais em {{accountCountry}}, por favor <0>contacte nossa equipe de suporte </0> para atualizar seu endereço."
+          "message": "Se você não mora mais em {{accountCountry}}, por favor <0>contacte nossa equipe de suporte</0> para atualizar seu endereço."
         }
       },
       "browser": {
@@ -558,8 +558,8 @@
       "desc-1": "Por favor, verifique o seu e-mail e verifique a sua conta.",
       "desc-2": "Se você não vê nosso e-mail, verifique sua pasta de lixo eletrônico.",
       "resend": "Reenviar e-mail de verificação",
-      "resend-delay": "Por favor, espere {{count}} segundo...",
-      "resend-delay_plural": "Por favor espere {{count}} segundos...",
+      "resend-delay": "Por favor, espere {{count}} segundo…",
+      "resend-delay_plural": "Por favor espere {{count}} segundos…",
       "back": "Voltar para entrar",
       "success": "E-mail de verificação reenviado com sucesso!",
       "errors": {
@@ -583,7 +583,7 @@
         "card-top": "Doze palavras secretas",
         "card-top-right": "Recuperação de conta Nash se a senha for esquecida",
         "diamond-one": "Utilizado em",
-        "diamond-two": "Crie a sua carteira pessoal, que contém...",
+        "diamond-two": "Crie a sua carteira pessoal, que contém…",
         "card-btc": "Carteira Bitcoin",
         "card-neo": "Carteira NEO",
         "card-eth": "Carteira Ethereum",
@@ -627,7 +627,7 @@
         "input-placeholder": "Palavra {{index}}",
         "case-sensitive": "Todas as palavras são minúsculas",
         "create-my-wallet": "Criar minha conta",
-        "generating-your-wallet": "Gerando a sua conta Nash...",
+        "generating-your-wallet": "Gerando a sua conta Nash…",
         "errors": {
           "create-wallet-failed": "Houve um erro ao criar sua conta. Por favor <0>sign out</0> e tente novamente."
         }
@@ -849,7 +849,7 @@
           "label": "Cancelar em",
           "expires": "Expira",
           "modal": {
-            "label-no-selection": "Selecione uma data para continuar...",
+            "label-no-selection": "Selecione uma data para continuar…",
             "errors": {
               "is-past": "Você não pode entrar um tempo no passado"
             }
@@ -905,7 +905,7 @@
       "submit": {
         "buy": "Criar ordem de compra",
         "sell": "Criar ordem de venda",
-        "placing": "Colocando ordem..."
+        "placing": "Colocando ordem…"
       },
       "errors": {
         "order-rejected-insufficient-funds": "O seu pedido foi rejeitado por falta de fundos suficientes.",
@@ -917,7 +917,7 @@
     "my-orders": {
       "auth": "Entre para ver os suas ordens.",
       "signed-out": {
-        "title": "<0>Comecemos</0><1> com Nash</1>",
+        "title": "<0>Comecemos</0> <1>com Nash</1>",
         "subtitle": "Crie uma conta em menos de um minuto - não é necessário KYC!"
       },
       "no-results": {
@@ -1106,7 +1106,7 @@
       "info": "A sua sessão está prestes a expirar devido à inatividade. Você será desconectado em {{count}} segundo.",
       "info_plural": "A sua sessão está prestes a expirar devido à inatividade. Você será desconectado em {{count}} segundos.",
       "stay-signed-in": "Fique conectado em",
-      "signing-out": "({{count}}s) Sair..."
+      "signing-out": "({{count}}s) Sair…"
     },
     "signup": {
       "desc": "Ainda não tem uma conta?",
@@ -1116,7 +1116,7 @@
       "continue": "Continuar"
     },
     "missing-country": {
-      "header": "Antes de continuar...",
+      "header": "Antes de continuar…",
       "subheader": "Onde você mora?",
       "messages": {
         "vpn-warning-title": "Notamos que você está usando uma VPN.",
@@ -1217,7 +1217,7 @@
         },
         "skip": {
           "header": "Você vai perder o acesso aos seus fundos",
-          "desc-1": "Se você perdeu sua senha antiga e suas doze palavras secretas, <0> você não será capaz de recuperar seus fundos.</0>",
+          "desc-1": "Se você perdeu sua senha antiga e suas doze palavras secretas, <0>você não será capaz de recuperar seus fundos.</0>",
           "desc-2": "Nash é uma plataforma não-custodial que utiliza tecnologia descentralizada. É impossível para nós acessarmos seus fundos e não podemos recuperá-los.",
           "desc-3": "Você pode redefinir sua conta antiga e escolher um novo conjunto de palavras secretas. Isto será como criar uma nova conta com uma nova senha.",
           "desc-4": "Se você optar por redefinir sua conta, você perderá todo o acesso aos seus fundos, inclusive:",
@@ -1270,7 +1270,7 @@
         "submit": "Definir nova senha"
       }
     },
-    "verify-email": "Verificando o endereço de e-mail...",
+    "verify-email": "Verificando o endereço de e-mail…",
     "secret-word-list-edit": {
       "placeholder": "Palavra {{index}}"
     },
@@ -1285,8 +1285,9 @@
         "title": "Crie sua conta na Comunidade Nash",
         "description": "Para postar mensagens na Comunidade, você precisará stakar pelo menos 1 NEX por 24 meses.",
         "username-label": "Nome de usuário da comunidade",
-        "username-placeholder": "Escolha um nome...",
+        "username-placeholder": "Escolha um nome…",
         "button-create": "Criar conta na Comunidade",
+        "button-creating": "Creating Community account…",
         "migrate-description": "Se você está usando a Extensão Nash para entrar na Comunidade, você pode <0>migrar sua conta</0>.",
         "username-exits": "{{username}}' já está tomado. Por favor, escolha outro nome de usuário."
       },
@@ -1306,8 +1307,8 @@
           "step5": "Você receberá dois e-mails de confirmação, um em seu endereço de e-mail antigo e outro em seu novo endereço. Você precisará confirmar os dois endereços para completar a alteração."
         }
       },
-      "get-token": "Autenticando...",
-      "log-you-in": "Fazendo login...",
+      "get-token": "Autenticando…",
+      "log-you-in": "Fazendo login…",
       "unknow-error-message": "Algo deu errado, por favor tente novamente."
     }
   },
@@ -1351,7 +1352,7 @@
           },
           "ignore-low-balances": "Esconder pequenos saldos",
           "search": {
-            "placeholder": "Procure por um nome simbólico ou um ticker...",
+            "placeholder": "Procure por um nome simbólico ou um ticker…",
             "no-results": "Não encontramos nenhum resultado para <0>{{search}}</0>.",
             "no-results-no-query": "Não conseguimos encontrar nenhuma moeda compatível"
           },
@@ -1415,7 +1416,7 @@
         },
         "desc": "Sua orden permanecerá no livro até que seja preenchida, cancelada, ou 24 horas se tenham passado.",
         "submit": "Criar ordem",
-        "submit-placing": "Colocando ordem..."
+        "submit-placing": "Colocando ordem…"
       },
       "order-success": {
         "header": "Sucesso!",
@@ -1976,7 +1977,7 @@
       "no-data-header": "Você ainda não fez nenhuma transação.",
       "no-data-sub-header": "<0>Compra de ativos digitais</0> para começar.",
       "no-data": "Você ainda não fez nenhuma transação. <0>Compra de ativos digitais</0> para começar.",
-      "search-placeholder": "Pesquisar minhas transações...",
+      "search-placeholder": "Pesquisar minhas transações…",
       "table-label": "Todas as atividades da conta",
       "created-column": "Criado em",
       "closed-column": "Completo",
@@ -2058,7 +2059,7 @@
       "card-header": "Conta {{currency}}",
       "new-card-header": "Novo cartão",
       "new-bank-account-header": "Nova conta bancária",
-      "processing": "Processando...",
+      "processing": "Processando…",
       "verified": "Verificado",
       "unverified-method": "Verificação de identidade não completa",
       "verified-method": "Identidade verificada",
@@ -2118,7 +2119,7 @@
     },
     "reconfirm-expire": {
       "review-header": "Sua cotação foi automaticamente recusada",
-      "no-action": "<0> Não são necessárias mais ações de sua parte.</0> Agora você pode fechar esta página.",
+      "no-action": "<0>Não são necessárias mais ações de sua parte.</0> Agora você pode fechar esta página.",
       "days": "1-3 dias",
       "we-refund": "Nós reembolsaremos",
       "destination": "Destino",
@@ -2132,7 +2133,7 @@
       "destination-label": "Destino",
       "arrival-label": "Horário estimado de chegada",
       "arrival": "O mais rápido possível",
-      "no-action": "<0> Não são necessárias mais ações de sua parte.</0> Agora você pode fechar esta página."
+      "no-action": "<0>Não são necessárias mais ações de sua parte.</0> Agora você pode fechar esta página."
     },
     "reconfirm-decline": {
       "review-header": "Você recusou a nova cotação",
@@ -2140,7 +2141,7 @@
       "we-refund": "Nós reembolsaremos",
       "destination": "Destino",
       "refund-time": "Tempo de Reembolso",
-      "no-action": "<0> Não são necessárias mais ações de sua parte.</0> Agora você pode fechar esta página."
+      "no-action": "<0>Não são necessárias mais ações de sua parte.</0> Agora você pode fechar esta página."
     },
     "profile": {
       "carbon": {
@@ -2432,7 +2433,7 @@
       "not-completed": "Não concluído",
       "in-review": "Em revisão",
       "rejected": "Rejeitado",
-      "rejected-error-message": "Seus <0> detalhes do perfil</0> foram rejeitados. Por favor, forneça-os novamente para tentar novamente.",
+      "rejected-error-message": "Seus <0>detalhes do perfil</0> foram rejeitados. Por favor, forneça-os novamente para tentar novamente.",
       "initial-account-creation": "Criação de conta",
       "profile-label": "Perfil {{providerName}}",
       "per-week": "<0>{{value}}</0> por semana",
@@ -2694,7 +2695,7 @@
           "label": "Digite seu número de telefone",
           "desc": "Um código de dez dígitos será enviado via SMS para verificar o seu número de telefone.",
           "code-not-received": "Não recebeu um código via SMS? <0>Recomendar</0>.",
-          "resending-code": "Reenviando código de verificação...",
+          "resending-code": "Reenviando código de verificação…",
           "code-label": "Digite o código de verificação enviado para o seu telefone.",
           "back": "Voltar",
           "verify": "Confira"
@@ -2731,7 +2732,7 @@
       "title": "Resyncnc o saldo do seu contrato de negociação.",
       "desc": "Isto irá liberar fundos presos em um estado 'Pendente'. Este processo irá cancelar as ordens de negociação em aberto.",
       "button": "Conta Resync",
-      "resyncing": "Resyncing...",
+      "resyncing": "Resyncing…",
       "error": "A Resync falhou. Por favor <0>contato de suporte.</0>",
       "wait-error": "Por favor, aguarde pelo menos 2 horas após seu último depósito antes de usar esta página.",
       "success": "Resync com sucesso!"
@@ -2741,7 +2742,7 @@
       "subtitle": "Todos os depósitos ou saques pendentes ou falhados",
       "actions-title": "Ações",
       "button-title": "Tentativa",
-      "button-sending": "Enviando...",
+      "button-sending": "Enviando…",
       "button-sent": "Enviado para",
       "nothing-to-retry": "Você não tem nenhum depósito ou saque pendente.",
       "status": {
@@ -2756,11 +2757,11 @@
       "tabs-info-button": "Saiba como enviar e receber fundos",
       "header": {
         "title": "Ativos",
-        "search-placeholder": "Pesquisar mais de 3.000 ativos..."
+        "search-placeholder": "Pesquisar mais de 3.000 ativos…"
       },
       "transferring-funds": {
         "title": "Envio e recebimento de fundos",
-        "desc": "<0> Se você quiser negociar, terá que enviar fundos para o contrato de negociação.</0> <1> Você só pode enviar fundos para o contrato de negociação a partir de sua carteira pessoal.</1>",
+        "desc": "<0>Se você quiser negociar, terá que enviar fundos para o contrato de negociação.</0> <1>Você só pode enviar fundos para o contrato de negociação a partir de sua carteira pessoal.</1>",
         "learn-more-never-show": "<0>Saiba mais</0> ou <1>nunca me mostre isso novamente</1>.",
         "learn-more": "Saiba mais",
         "never-show": "Nunca mais me mostre isso de novo."
@@ -2773,7 +2774,7 @@
           }
         },
         "claim-gas": {
-          "claiming": "Alegando...",
+          "claiming": "Alegando…",
           "claim": "Reclamar GÁS",
           "gas-to-claim": "Você tem {{amount}} GAS para reclamar.",
           "claiming-now": "Atualmente você está reclamando GAS.",
@@ -2821,7 +2822,7 @@
         "create": {
           "asset": {
             "label": "Qual ativo?",
-            "placeholder": "Procure um bem..."
+            "placeholder": "Procure um bem…"
           },
           "choose-accounts": {
             "from": "A partir de",
@@ -2829,7 +2830,7 @@
           },
           "contacts": {
             "label": "Destino",
-            "placeholder": "Procure um contato ou envie para um novo endereço...",
+            "placeholder": "Procure um contato ou envie para um novo endereço…",
             "wallet-address": "Enviar para ‘{{address}}‘",
             "button-contacts": "Contatos",
             "select-contact": {
@@ -2857,7 +2858,7 @@
           "transfer-amount": {
             "label": "Valor a transferir",
             "network-transaction-fee": "taxa máxima de rede",
-            "loading-fee": "Taxa de carregamento...",
+            "loading-fee": "Taxa de carregamento…",
             "errors": {
               "gas-shortage": "Você precisa de pelo menos {{amount}} {{currencySymbol}} em sua carteira pessoal para pagar taxas de rede.",
               "fee-shortage": "Você deve salvar {{amount}} ETH para a taxa da rede Ethereum.",
@@ -2916,7 +2917,7 @@
           "buttons": {
             "back": "Voltar",
             "transfer-funds": "Enviar",
-            "confirming": "Confirmando..."
+            "confirming": "Confirmando…"
           }
         },
         "hints": {
@@ -2946,8 +2947,8 @@
           "current-approval": "Sua aprovação atual para o contrato de negociação é: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transferência em andamento...",
-          "title-initializing": "Transferência inicializando...",
+          "title": "Transferência em andamento…",
+          "title-initializing": "Transferência inicializando…",
           "desc": "Visite <0>Transferências</0> para acompanhar seu status.",
           "warning": "Isto pode demorar até uma hora.",
           "remain-opened": "Por favor, mantenha Nash aberto enquanto sua transferência é inicializada. Se você fechar o Nash ou sair, ele será pausado até você entrar novamente.",
@@ -2960,8 +2961,8 @@
         "title": "Os fundos podem ser transferidos da seguinte forma",
         "notice": "Você só pode negociar na Bolsa Nash depois de ter enviado fundos para o contrato de negociação.",
         "actions": {
-          "action-1": "Você <0> pode</0> movimentar fundos entre a sua carteira pessoal e carteira externas.",
-          "action-2": "Da mesma forma, você <0> pode</0> movimentar fundos para frente e para trás entre a sua carteira pessoal e o contrato de negociação.",
+          "action-1": "Você <0>pode</0> movimentar fundos entre a sua carteira pessoal e carteira externas.",
+          "action-2": "Da mesma forma, você <0>pode</0> movimentar fundos para frente e para trás entre a sua carteira pessoal e o contrato de negociação.",
           "action-3": "Você <0>cannot</0> move fundos entre o contrato de negociação e carteira externas sem passar pela sua carteira pessoal. Isso nos ajuda a manter os fundos utilizados para negociação segura: é sempre você depositando e sacando."
         },
         "continue-button": "OK, continuar",
@@ -2971,7 +2972,7 @@
     "transactions": {
       "title": "Transferências",
       "show-more-transactions": "Mostrar mais transferências",
-      "search-my-transactions": "Buscar minhas transferências...",
+      "search-my-transactions": "Buscar minhas transferências…",
       "no-transactions": "Você ainda não fez nenhuma transferência.",
       "table": {
         "header": {
@@ -3021,7 +3022,7 @@
     "portfolio": {
       "title": "Portfólio",
       "header": {
-        "search-placeholder": "Buscar meus bens..."
+        "search-placeholder": "Buscar meus bens…"
       },
       "table": {
         "header": {
@@ -3133,7 +3134,7 @@
       "3M": "3M",
       "6M": "6M"
     },
-    "search-placeholder": "Buscar um mercado...",
+    "search-placeholder": "Buscar um mercado…",
     "individual-assets": {
       "title": "Ativos individuais",
       "header": "Ativos individuais listados no Nash"
@@ -3397,7 +3398,7 @@
       "title": "Precisamos de alguns detalhes de você",
       "topnav-back-button": "Voltar aos limites",
       "country": "País",
-      "waiting": "Verificando...",
+      "waiting": "Verificando…",
       "waiting-subtitle": "Isto pode demorar alguns minutos. Você pode sair desta página.",
       "topnav-title": "Verificação Nível 1",
       "contact-support-label": "<0>Apoio ao contato</0> to mudança",
@@ -3540,7 +3541,7 @@
           "save-settings": "Salvar configurações"
         },
         "email": {
-          "label": "Envie-me um e-mail quando...",
+          "label": "Envie-me um e-mail quando…",
           "news": "Há novidades e atualizações da Nash.",
           "actions": "Existem ações recomendadas para a minha conta.",
           "withdrawal": "Uma retirada é feita da minha conta.",
@@ -3631,7 +3632,7 @@
       "show-all-private-keys-button-label": "Mostrar todas as chaves privadas",
       "hide-all-private-keys-button-label": "Ocultar todas as chaves privadas",
       "desc": "O Nash não é custódio. Nós não temos acesso às suas chaves privadas.",
-      "search-assets-placeholder": "Procure por um nome de ativo ou um ticker...",
+      "search-assets-placeholder": "Procure por um nome de ativo ou um ticker…",
       "public-address-label": "Endereço público",
       "info-title": "Alguns bloqueios suportam múltiplos ativos",
       "info-body": "Os ativos ERC-20 e NEP-5 são tokens emitidas nos bloqueios Ethereum e NEO, respectivamente. O GAS também é um ativo armazenado na cadeia de bloqueio do NEO. Você só precisa de uma conta Ethereum para armazenar as tokens ETH e ERC-20, e uma conta NEO para armazenar as tokens NEO, GAS e NEP-5.",
@@ -3780,9 +3781,9 @@
         "duration-month_plural": "<0>{{count}}</0> meses",
         "redeem-button": {
           "label": "Lançamento NEX",
-          "submitting": "Liberando...",
+          "submitting": "Liberando…",
           "error": "Falhou! Por favor, tente novamente.",
-          "success": "Sucesso. Liberando o NEX...",
+          "success": "Sucesso. Liberando o NEX…",
           "released": "NEX liberado"
         }
       }
@@ -3880,7 +3881,7 @@
         "agreed-to-non-cancellation-label": "Eu entendo que não posso cancelar ou editar este stake depois de criado.",
         "agreed-to-locked-tokens-label": "Entendo que meus tokens NEX ficarão trancadas até este stake terminar.",
         "create-stake-button": "Criar stake",
-        "create-stake-sending-button": "Envio de dados...",
+        "create-stake-sending-button": "Envio de dados…",
         "create-stake-sending-text": "Envio de dados. Por favor, mantenha esta janela aberta. Isto pode demorar até um minuto.",
         "create-stake-error": "Houve ou um erro ou um atraso na criação do stake. Por favor, verifique novamente em cinco minutos se a seu stake não foi criado.",
         "create-stake-auth-error": "Erro de autenticação. Por favor, tente novamente.",
@@ -3909,14 +3910,14 @@
       "learn-stake-button": "Saiba mais stake"
     },
     "max-stakes": {
-      "message": "Você criou {{amount}} a partir de um possível {maxAmount}} stakes. O máximo que você pode criar é {{maxAmount}}.",
+      "message": "Você criou {{amount}} a partir de um possível {{maxAmount}} stakes. O máximo que você pode criar é {{maxAmount}}.",
       "dismiss": "Despedimento"
     }
   },
   "contacts": {
     "title": "{{count}} contato",
     "title_plural": "{{count}} contatos",
-    "search-my-contacts": "Buscar meus contatos...",
+    "search-my-contacts": "Buscar meus contatos…",
     "no-contacts": "Você ainda não adicionou ou importou nenhum contato.",
     "create-new": "Criar novo",
     "buttons": {
@@ -3951,8 +3952,8 @@
           "currency": "Você só pode enviar de sua carteira pessoal."
         },
         "placeholders": {
-          "currency": "Procurar...",
-          "destination": "Procure por uma carteira..."
+          "currency": "Procurar…",
+          "destination": "Procure por uma carteira…"
         }
       },
       "delete": {
