@@ -21,7 +21,7 @@
   "not-available-short": "N/A",
   "set-price": "Preis festlegen",
   "market": "Markt",
-  "market-price": "Market price",
+  "market-price": "Marktpreis",
   "exchange": "Börse",
   "receive": "Empfangen",
   "wallet": "Wallet",
@@ -83,7 +83,7 @@
       "revoke": "Rückgängig",
       "created": "Erstellt",
       "policy-trading": "Handeln",
-      "loading": "Token laden…",
+      "loading": "Token laden …",
       "no-tokens": "Du hast noch keine API-Schlüssel generiert.",
       "policy-withdrawals": "Auszahlungen und Einzahlungen.",
       "revoke-all-keys-button-label": "Widerrufe alle Schlüssel",
@@ -109,7 +109,7 @@
       "incorrect-2fa": "Der eingegebene Code ist falsch."
     },
     "step3": {
-      "generating-keys-message": "Generiert deinen Schlüssel..."
+      "generating-keys-message": "Generiert deinen Schlüssel …"
     },
     "step4": {
       "your-secret": "Dein Geheimnis",
@@ -288,7 +288,7 @@
   "sending": "Senden …",
   "submit": "Einreichen",
   "retry": "Erneut Versuchen",
-  "sending-approval": "Genehmigung senden…",
+  "sending-approval": "Genehmigung senden …",
   "send-approval": "Genehmigung senden",
   "submit-transfer": "Transaktion senden",
   "no-longer-sufficient-balance-for-tx": "Dein Guthaben reicht für diese Transaktion nicht aus.",
@@ -917,7 +917,7 @@
     "my-orders": {
       "auth": "Melde dich an, um alle Order anzusehen.",
       "signed-out": {
-        "title": "<0>Lege los</0><1> mit Nash</1>",
+        "title": "<0>Lege los</0> <1>mit Nash</1>",
         "subtitle": "Erstelle ein Konto in weniger als einer Minute - kein KYC nötig!"
       },
       "no-results": {
@@ -1067,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> Spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Mehr über unsere <1>Gebühren<1> erfahren."
+    "learn-about-our-fees": "Mehr über unsere <1>Gebühren<1>."
   },
   "auth": {
     "create-an-account": "Konto erstellen",
@@ -1287,7 +1287,7 @@
         "username-label": "Community-Benutzername",
         "username-placeholder": "Wähle einen Namen …",
         "button-create": "Community-Konto erstellen",
-        "button-creating": "Creating Community account…",
+        "button-creating": "Community-Konto wird erstellt …",
         "migrate-description": "Wenn du die Nash-Extension verwendest, um dich im Community-Forum anzumelden, kannst du dein Extension-Konto <0>migrieren</0>.",
         "username-exits": "‘{{username}}’ ist bereits vergeben. Bitte wähle einen anderen Benutzernamen."
       },
@@ -1301,9 +1301,9 @@
         "faq-change-email": {
           "title": "Wie ändere ich meine Community-E-Mail-Adresse?",
           "step1": "Sobald du dich bei der Community angemeldet hast, klicke auf deinen Avatar in der oberen rechten Ecke des Bildschirms.",
-          "step2": "Klicke auf dein Benutzernamen und wähle deine 'Preferences'.",
+          "step2": "Klicke auf dein Benutzernamen und wähle deine ‘Preferences’.",
           "step3": "Klicke auf das Bleistift-Symbol, um deine E-Mail-Adresse zu bearbeiten.",
-          "step4": "Gib eine neue E-Mail-Adresse ein und klicke auf 'Change'.",
+          "step4": "Gib eine neue E-Mail-Adresse ein und klicke auf ‘Change’.",
           "step5": "Du erhälst zwei Bestätigungs-E-Mails, eine an deine alte E-Mail-Adresse und eine an deine neue E-Mail-Adresse. Du musst beide Adressen bestätigen, um die Änderung abzuschließen."
         }
       },
@@ -1715,7 +1715,7 @@
   },
   "fiat-ramps": {
     "all-providers": "Alle Anbieter",
-    "terms-and-conditions": "Ich akzeptiere {{providerName}}'s <0>Bedingungen und Konditionen</0>.",
+    "terms-and-conditions": "Ich akzeptiere die <0>Bedingungen und Konditionen</0> von {{providerName}}.",
     "title": "Kaufen/Verkaufen",
     "tier0": {
       "buy-popular-assets": "Buy and sell popular digital assets",
@@ -1913,7 +1913,7 @@
       },
       "purchase-requires-confirm": {
         "title": "Neue Karte verifizieren",
-        "message": "Zu deiner Sicherheit müssen wir deine Karte überprüfen. Carbon schickt eine Überweisung an dein Karte, die einen vierstelligen Bestätigungscode wie 'carbon-1234' enthält.",
+        "message": "Zu deiner Sicherheit müssen wir deine Karte überprüfen. Carbon schickt eine Überweisung an dein Karte, die einen vierstelligen Bestätigungscode wie ‘carbon-1234’ enthält.",
         "cancel": "Kauf abbrechen",
         "code-from-statement": "Bestätigungscode eingeben:",
         "code-placeholder": "1234",
@@ -2059,7 +2059,7 @@
       "card-header": "{{currency}}-Konto",
       "new-card-header": "Neue Karte",
       "new-bank-account-header": "Neues Bankkonto",
-      "processing": "Wird verarbeitet…",
+      "processing": "Wird verarbeitet …",
       "verified": "Verifiziert",
       "unverified-method": "Identitätsprüfung nicht abgeschlossen",
       "verified-method": "Identität verifiziert",
@@ -2713,7 +2713,7 @@
           "upload-label-format": "Dateierweiterungen akzeptiert: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale Dateigröße: 10MB."
         },
         "selfie-with-id": {
-          "upload-label": "Lade ein Foto von dir selbst hoch, auf dem du sowohl ein Blatt Papier mit der Aufschrift \"cryptocoin.pro\" als auch deinen Reisepass oder Personalausweis in der Hand hälst.",
+          "upload-label": "Lade ein Foto von dir selbst hoch, auf dem du sowohl ein Blatt Papier mit der Aufschrift ‘cryptocoin.pro’ als auch deinen Reisepass oder Personalausweis in der Hand hälst.",
           "upload-label-format": "Dateierweiterungen akzeptiert: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale Dateigröße: 10MB."
         },
         "bank-account": {
@@ -2774,7 +2774,7 @@
           }
         },
         "claim-gas": {
-          "claiming": "Ich behaupte...",
+          "claiming": "Ich behaupte …",
           "claim": "Anspruch GAS",
           "gas-to-claim": "Du hast {{amount}} GAS zu beanspruchen.",
           "claiming-now": "Du beanspruchst derzeit GAS.",
@@ -2830,7 +2830,7 @@
           },
           "contacts": {
             "label": "Ziel",
-            "placeholder": "Einen Kontakt suchen oder an eine neue Adresse senden...",
+            "placeholder": "Einen Kontakt suchen oder an eine neue Adresse senden …",
             "wallet-address": "Senden an ‘{{address}}‘",
             "button-contacts": "Ansprechpartner",
             "select-contact": {
@@ -2858,7 +2858,7 @@
           "transfer-amount": {
             "label": "Menge",
             "network-transaction-fee": "maximale Netzwerkgebühr",
-            "loading-fee": "Gebühr wird geladen…",
+            "loading-fee": "Gebühr wird geladen …",
             "errors": {
               "gas-shortage": "Du benötigst mindestens {{amount}} {{currencySymbol}} auf auf deinem persönlichen Konto, um die Netzwerkgebühr zu bezahlen.",
               "fee-shortage": "Du benötigst mindestens {{amount}} ETH für die Ethereum-Netzwerkgebühr.",
@@ -2948,7 +2948,7 @@
         },
         "started": {
           "title": "Transaktion gestartet …",
-          "title-initializing": "Transfer initializing…",
+          "title-initializing": "Transaktion wird initializiert …",
           "desc": "Besuche <0>Transaktionen</0>, um den Status zu verfolgen.",
           "warning": "Das ganz bis zu einer Stunde dauern.",
           "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",

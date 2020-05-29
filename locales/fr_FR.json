@@ -1,5 +1,5 @@
 {
-  "sandbox-warning": "Ceci est un environnement sandbox destiné aux tests d'intégration de l'API. N'envoyez jamais de fonds réels ici!",
+  "sandbox-warning": "Ceci est un environnement sandbox destiné aux tests d’intégration de l’API. N’envoyez jamais de fonds réels ici!",
   "buy": "acheter",
   "sell": "vendre",
   "continue": "Continuer",
@@ -33,7 +33,7 @@
   "reported-errors": "Erreurs reportées",
   "credit-card-expiry-placeholder": "MM/AA",
   "apikeys": {
-    "no-addresses-whitelisted": "Vous n'avez pas encore ajouté d’adresses à la liste blanche.",
+    "no-addresses-whitelisted": "Vous n’avez pas encore ajouté d’adresses à la liste blanche.",
     "address-input-placeholder": "Entrer une adresse BTC, NEO ou ETH à ajouter à la liste blanche",
     "add-whitelisted": "Adresses sur liste blanche",
     "duplicate-address-in-form": "Cette adresse est déjà sur la liste blanche.",
@@ -57,9 +57,9 @@
       "cancel-button-label": "Retour"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
+      "title": "Liste blanche pour l’adresse {{name}}",
       "add": "Ajouter une adresse",
-      "save-and-close": "Sauvegarder les changements et fermer",
+      "save-and-close": "Sauvegarder et fermer",
       "continue": "Continuer"
     },
     "overview": {
@@ -129,18 +129,18 @@
   "transfer": {
     "trading": "Trading",
     "personal": "Personnel",
-    "in-trades": "In trades",
+    "in-trades": "Dans un ordre",
     "transfer-funds": "Envoyer/Recevoir",
     "pending-transfer": "Vous avez un transfert en attente de {{amount}} {{currencySymbol}}.",
     "pending-transfer-link": "Consultez vos transferts ici."
   },
-  "estimated-fee": "Frais estimé: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Frais estimés: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
-    "use-last": "Use last"
+    "use-last": "Dernier remplissage"
   },
-  "insufficient-funds": "Fonds insuffisant",
-  "amount-each": "{{amount}} chaque",
+  "insufficient-funds": "Fonds insuffisants",
+  "amount-each": "{{amount}} chacun",
   "daily-limit": {
     "title": "Limite quotidienne totale",
     "link": "Augmenter mes limites",
@@ -148,45 +148,45 @@
   },
   "fee-information-modal": {
     "title": "Calcul des frais",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
+    "desc": "Nash calcule le volume glissant sur 30 jours d’un utilisateur grâce au volume des transations associées à son compte en pourcentage du volume global de transations de Nash.",
+    "30-day-volume": "Volume glissant des 30 derniers jours",
     "taker-fee": "Taker fee",
     "maker-fee": "Maker fee",
     "learn-more": "Learn more about maker and taker orders."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Validité dans le temps",
+    "subtitle": "Spécifiez la durée pour laquelle l’ordre doit rester dans le carnet d’ordres.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Valable jusqu’à annulation",
+        "desc": "Votre ordre restera dans le carnet d’ordres pour une durée indéterminée, jusqu’à ce qu’il soit rempli ou annulé."
       },
       "gtt": {
-        "header": "Good ’til time",
+        "header": "Valable jusqu’à un moment à préciser",
         "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "desc": "Votre ordre restera dans le carnet d’ordres jusqu’à la date et heure spécifiées. S’il n’a pas été rempli d’ici là, il sera annulé."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Rempli entièrement ou annulé",
+        "desc": "Si votre ordre dans sa totalité peut être rempli immédiatement, il le sera. S’il ne peut pas être rempli entièrement, il sera entièrement annulé."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Rempli immédiatement ou annulé",
+        "desc": "Votre ordre sera rempli au mieux dans l’immédiat. Toute portion restante sera annulée."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
+    "referrals": "Parrainages",
+    "funds": "Fonds",
     "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
+    "basic-exchange": "Vue basique",
+    "basic-exchange-short": "Basique",
+    "advanced-exchange": "Vue pro",
     "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
+    "markets": "Marchés",
+    "settings": "Mon compte",
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
@@ -195,157 +195,157 @@
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Portefeuille"
       },
       "notifications": {
         "label": "Notifications",
-        "clear-all": "Clear all"
+        "clear-all": "Tout supprimer"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "initializing": "En cours d’initialisation",
+        "initialized": "Transfert initialisé",
+        "tooltip": "Vous avez encore un transfert en cours d’initialisation.Si vous fermez Nash ou vous déconnectez, il sera mis en pause jusqu’à votre prochaine reconnexion."
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Mon profil",
+        "support": "Aide",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Clair",
+          "dark": "Sombre"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Se déconnecter",
+          "sign-in": "Se connecter",
+          "sign-in-create-account": "<1>Créer un compte</1> ou <0>se connecter</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Général"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Transactions",
         "pages": {
           "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "markets": "Marchés",
+          "orders": "Ordres"
         },
         "exchange": {
           "switch": {
             "pro": "Pro",
-            "simple": "Basic"
+            "simple": "Basique"
           }
         }
       },
       "funds": {
         "title": "Funds",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
+          "portfolio": "Portefeuille",
+          "transfers": "Transferts",
+          "assets": "Actifs",
           "contacts": "Contacts"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Parrainages"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Acheter/Vendre",
         "pages": {
-          "buy-sell": "Buy/Sell",
+          "buy-sell": "Acheter/Vendre",
           "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "payment-methods": "Méthodes de paiement",
+          "profile": "Profil"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
-          "apikeys": "API keys"
+          "profile": "Profil",
+          "preferences": "Préférences",
+          "security": "Sécurité",
+          "limits": "Limites",
+          "accounts": "Comptes",
+          "apikeys": "Clés API"
         }
       },
       "staking": {
         "title": "Staking",
         "pages": {
-          "all-stakes": "All stakes",
-          "statements": "Statements"
+          "all-stakes": "Tous vos stakes",
+          "statements": "Relevés"
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Recherche en cours…",
+  "loading": "Chargement en cours…",
+  "pending": "En attente",
+  "cancelling": "Annulation en cours…",
+  "authenticating": "Authentification en cours…",
+  "decrypting": "Décryptage en cours…",
+  "encrypting": "Encryptage en cours…",
+  "sending": "Envoi en cours…",
+  "submit": "Envoyer",
+  "retry": "Réessayer",
+  "sending-approval": "Envoi de l’approbation en cours…",
+  "send-approval": "Envoyer l’approbation",
+  "submit-transfer": "Confirmer le transfert",
+  "no-longer-sufficient-balance-for-tx": "Votre solde n’est plus suffisant pour cette transaction.",
+  "we-are-hiring": "Nous recrutons",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Accès bloqué",
+    "location-banned": "Nash n’est malheureusement pas en capacité d’opérer dans votre juridiction pour le moment.",
+    "invalid-clock-title": "L’horloge de votre ordinateur n’est pas réglée.",
+    "permissions-issue-title": "Problème de permissions",
+    "invalid-clock": "Pour exécuter des transactions sur Nash, votre horloge doit être réglée. <0>Réglez votre horloge</0> puis <1>réessayez</1>.",
+    "network-issue-title": "Problème de réseau",
+    "network-issue": "Un problème de réseau temporaire est survenu. Veuillez <0>réessayer</0>.",
+    "generic-error-title": "Erreur",
+    "generic-error": "Une erreur est survenue. Veuillez réessayer.",
+    "generic-error-signout": "Une erreur inattendue est survenue. Veuillez vous déconnecter et réessayer.",
+    "within-waiting-period": "Vous devez attendre 5 minutes avant de créer un autre stake. Votre nouveau stake apparaîtra dans quelques instants.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Le mot de passe renseigné est incorrect."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Le code d’authentification en deux temps que vous avez renseigné est faux. Vous disposez d’un maximum de cinq tentatives.",
+      "already-used": "Le code d’authentification en deux temps que vous avez renseigné a déjà été utilisé. Veuillez attendre et réessayer.",
+      "code-expired": "Le code d’authentification en deux temps que vous avez renseigné a expiré. Veuillez attendre et réessayer.",
+      "too-many-failures": "Vous avez renseigné un code faux à de trop nombreuses reprises et votre compte est donc bloqué de façon permanente. Veuillez contacter l’équipe support.",
+      "too-many-failures-signout": "Vous avez renseigné un code faux à de trop nombreuses reprises et votre compte est donc bloqué de façon permanente. Vous allez maintenant être déconnecté."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "L’encryptage a échoué. Veuillez vous déconnecter et réessayer.",
+      "decryption-failed": "Le décryptage a échoué. Veuillez vous déconnecter et réessayer."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Votre compte est actuellement en cours de traitement!",
+        "message": "Veuillez vérifier de nouveau dans quelques minutes."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Votre compte est introuvable."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Aucun résultat.",
+  "yes": "oui",
+  "no": "non",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Compte personnel",
+    "trading": "Contrat de transactions",
+    "external": "Compte externe"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please</0> <1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Échec du chargement.",
+    "failed-button": "Échec du chargement",
+    "failed-please-try": "<0>Échec du chargement. Veuillez</0>u00A0<1>réessayer</1>.",
+    "why-this-may-happening": "Vous pouvez trouver des explications sur l’origine du problème <0>ici.</0>"
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> heure",
+    "time-in-hours_plural": "<0>{{count}}</0> heures",
     "months": {
       "0": "Janvier",
       "1": "Février",
@@ -362,69 +362,69 @@
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Nash n’est malheureusement pas en capacité d’opérer dans votre région pour le moment.",
+    "contact-support": "Veuillez <0>contacter notre équipe support</0> pour toute question."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Un problème est survenu.",
+    "go-back": "Retourner en arrière",
+    "go-back-retry": "Réessayer et retourner en arrière",
+    "contact-support": "Veuillez <0>contacter notre équipe support</0> pour obtenir plus de détails.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Indisponible dans la sandbox!",
+        "content": "Cette fonctionnalité a été désactivée dans la sandbox."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Votre adresse IP ne correspond pas au pays sélectionné.",
+          "message": "Les utilisateurs avec une vérification de Niveau 0 ne peuvent pas accéder à tous les services de Nash à moins qu’ils se connectent depuis leur pays de résidence. Pensez à <0>mettre à jour vers le Niveau 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Nous constatons que vous utilisez un VPN.",
+          "message": "Les utilisateurs avec une vérification de Niveau 0 ne peuvent pas accéder à tous les services de Nash s’ils se connectent via un VPN ou proxy. Veuillez désactiver tout service de ce type ou <0>mettre à jour vers le Niveau 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Votre niveau actuel de vérification est le Niveau 0. Par conséquent, votre accès à certaines parties de la plateforme Nash sera restraint.",
+          "message": "Afin d’utiliser l’éventail complet de nos services, veuillez <0>mettre à jour vers le Niveau 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Un compte a déjà été créé avec cette adresse IP.",
+          "message": "Afin d’utiliser tous les services de Nash sur ce compte, veuillez <0>mettre à jour vers le Niveau 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Une partie des services de Nash n’est pas disponible en {{usState}}. Votre accès à certaines parties de la plateforme Nash sera restraint.",
+          "title-no-state": "Une partie des services de Nash n’est pas disponible dans votre état. Votre accès à certaines parties de la plateforme Nash sera restraint.",
+          "message": "Nous vous notifierons par email quand {{usState}} permettra une utilisation complète. Veuillez <0>contacter notre équipe support</0> pour toute question.",
+          "message-no-state": "Nous vous notifierons par email quand votre état permettra une utilisation complète. Veuillez <0>contacter notre équipe support</0> pour toute question."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Une partie des services de Nash n’est pas disponible dans votre localisation actuelle. Votre accès à certaines parties de la plateforme Nash sera restraint.",
+          "message": "Veuillez <0>contacter notre équipe support</0> pour toute question."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Votre niveau de vérification actuel est Niveau {{userTier}}. Par conséquent, votre accès à certaines parties de la plateforme Nash sera restraint.",
+        "message": "Afin d’utiliser l’éventail complet de nos services, veuillez <0>mettre à jour vers le Niveau {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Nous constatons que vous vous connectez depuis {{detectedCountry}}.",
+          "message": "Si vous ne résidez plus en {{accountCountry}}, veuillez <0>contacter notre équipe support</0> pour mettre à jour votre adresse."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Utilisez un ordinateur pour une meilleure expérience.",
+          "message": "La vue ‘Pro’ est prévue pour un usage sur ordinateur. Si vous êtes sur mobile, veuillez essayer la <0>vue ‘Basique’</0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Ne plus me rappeler ceci."
   },
   "terms": {
     "user-agreement": "User Agreement",
@@ -563,7 +563,7 @@
       "back": "Back to sign-in",
       "success": "E-mail de vérification envoyé avec succès!",
       "errors": {
-        "generic-error": "Erreur lors du renvoi de l'e-mail de vérification. Réessayez de nouveau."
+        "generic-error": "Erreur lors du renvoi de l’e-mail de vérification. Réessayez de nouveau."
       }
     }
   },
@@ -1133,7 +1133,7 @@
           "label": "State"
         },
         "confirm-country": {
-          "label": "Je confirme que c'est mon pays de résidence."
+          "label": "Je confirme que c’est mon pays de résidence."
         },
         "confirm-country-and-state": {
           "label": "I confirm that these are my country and state of residence."

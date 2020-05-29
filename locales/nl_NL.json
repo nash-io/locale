@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Failed to load.",
     "failed-button": "Failed to load",
-    "failed-please-try": "<0>Het laden is mislukt.  </0><1>Probeer het opnieuw</1>",
+    "failed-please-try": "<0>Het laden is mislukt.</0> <1>Probeer het opnieuw</1>.",
     "why-this-may-happening": "Kom er <0>hier</0> achter waarom dit heeft kunnen gebeuren."
   },
   "datetime": {
@@ -398,29 +398,29 @@
           "title": "Niet alle Nash-services worden momenteel ondersteund in {{usState}}. Je toegang tot sommige delen van het Nash-platform is beperkt.",
           "title-no-state": "Niet alle Nash-serives worden momenteel ondersteund in jouw plaats. Je toegang tot sommige delen van het Nash-platform is beperkt.",
           "message": "We sturen een melding via de mail wanneer {{usState}} volledig ondersteund is. <0>Neem alsjeblieft contact op met ons support team</0> voor elke vraag.",
-          "message-no-state": "We laten je per e-mail weten wanneer je land volledig wordt ondersteund. Neem bij vragen <0>contact op met ons ondersteuningsteam </0>."
+          "message-no-state": "We laten je per e-mail weten wanneer je land volledig wordt ondersteund. Neem bij vragen <0>contact op met ons ondersteuningsteam</0>."
         },
         "generic": {
           "title": "Niet alle Nash-services worden momenteel ondersteund op uw huidige locatie. Uw toegang tot sommige delen van het Nash-platform is beperkt.",
-          "message": "Neem bij vragen <0> contact op met ons ondersteuningsteam </0>."
+          "message": "Neem bij vragen <0>contact op met ons ondersteuningsteam</0>."
         }
       },
       "tier-too-low": {
         "title": "Uw huidige verificatieniveau is niveau {{userTier}}. Als gevolg hiervan is uw toegang tot sommige delen van het Nash-platform beperkt. ",
-        "message": "Om ons volledige dienstenportfolio te gebruiken, moet u <0> upgraden naar Tier {{minTier}} </0>."
+        "message": "Om ons volledige dienstenportfolio te gebruiken, moet u <0>upgraden naar Tier {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
           "title": "We merken dat u zich aanmeldt vanuit {{detectedCountry}}.",
-          "message": "Als u niet langer in {{accountCountry}} woont, neem dan <0> contact op met ons ondersteuningsteam </0> om uw woonplaats bij te werken."
+          "message": "Als u niet langer in {{accountCountry}} woont, neem dan <0>contact op met ons ondersteuningsteam</0> om uw woonplaats bij te werken."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
           "title": "Gebruik een desktop voor een betere ervaring.",
-          "message": "De ‘Pro’ -weergave is ontworpen voor desktopgebruik. Als u op uw mobiel bent, probeer dan de <0> ‘Basis’ weergave </0>."
+          "message": "De ‘Pro’ -weergave is ontworpen voor desktopgebruik. Als u op uw mobiel bent, probeer dan de <0>‘Basis’ weergave</0>."
         }
       }
     },
@@ -583,7 +583,7 @@
         "card-top": "Twaalf geheime woorden",
         "card-top-right": "Nash accountherstel als wachtwoord vergeten is",
         "diamond-one": "Gebruikt in",
-        "diamond-two": "Genereer uw persoonlijke account, die bevat ...",
+        "diamond-two": "Genereer uw persoonlijke account, die bevat…",
         "card-btc": "Bitcoin account",
         "card-neo": "NEO account",
         "card-eth": "Ethereum account",
@@ -594,7 +594,7 @@
       "title": "Geheime woorden",
       "header": "Schrijf uw twaalf geheime woorden op",
       "desc": "Deze woorden worden gebruikt om toegang te krijgen tot uw fondsen. Je hebt ze ook nodig om je wachtwoord opnieuw in te stellen.",
-      "popup-error": "Als u uw geheime woorden wilt afdrukken, schakel dan alle pop-upblokkeringen uit en laat Nash pop-ups openen..",
+      "popup-error": "Als u uw geheime woorden wilt afdrukken, schakel dan alle pop-upblokkeringen uit en laat Nash pop-ups openen.",
       "continue": "Ga verder",
       "go-back": "Ga terug",
       "written-down": "Ik heb mijn woorden opgeschreven.",
@@ -629,13 +629,13 @@
         "create-my-wallet": "Maak mijn account",
         "generating-your-wallet": "Uw Nash account genereren…",
         "errors": {
-          "create-wallet-failed": "Er is een fout opgetreden bij het aanmaken van uw account. <0> log uit </0> en probeer het opnieuw."
+          "create-wallet-failed": "Er is een fout opgetreden bij het aanmaken van uw account. <0>log uit</0> en probeer het opnieuw."
         }
       },
       "wallet-created": {
         "header": "Uw Nash-account is succesvol aangemaakt!",
         "desc": "U vindt uw twaalf geheime woorden en individuele accountgegevens onder ‘Mijn profiel> Accounts’.",
-        "warning": "<0> We slaan uw geheime woorden op geen enkele locatie op. </0> Als u uw wachtwoord vergeet, heeft u geen toegang tot uw fondsen zonder deze woorden.",
+        "warning": "<0>We slaan uw geheime woorden op geen enkele locatie op.</0> Als u uw wachtwoord vergeet, heeft u geen toegang tot uw fondsen zonder deze woorden.",
         "continue": "Zet twee-factor-authenticatie op",
         "continue-location": "Locatie van woonplaats instellen"
       }
@@ -648,7 +648,7 @@
       "cards": {
         "1": {
           "header": "Download en installeer een authenticator-app",
-          "desc": "Zoals <0> LastPass Authenticator </0>, <1> Authy </1> of <2> Google Authenticator </2>."
+          "desc": "Zoals <0>LastPass Authenticator</0>, <1>Authy</1> of <2>Google Authenticator</2>."
         },
         "2": {
           "header": "Scan deze QR-code met de door u gekozen gedownloade app",
@@ -662,7 +662,7 @@
       },
       "confirm": {
         "header": "Twee-factor-authenticatie is ingesteld!",
-        "desc": "U vindt uw Twee-factor-authenticatie voorkeuren onder 'Mijn profiel> Beveiliging' op het Nash-webplatform.",
+        "desc": "U vindt uw Twee-factor-authenticatie voorkeuren onder ‘Mijn profiel> Beveiliging’ op het Nash-webplatform.",
         "action": "Wat wil u nu doen?",
         "continue-deposit": "Fondsen storten",
         "continue-explore": "Verkennen"
@@ -699,7 +699,7 @@
       "my-portfolio": "Mijn portfolio"
     },
     "tips": {
-      "balance": "<0> Tip </0> <1> Stuur hier fondsen naar het Trading Contract. </1> <2 />"
+      "balance": "<0>Tip</0> <1>Stuur hier fondsen naar het Trading Contract.</1><2 />"
     },
     "no-markets": "Er zijn momenteel geen markten beschikbaar.",
     "auth": {
@@ -709,7 +709,7 @@
       "title": "Accounts"
     },
     "market-selection": {
-      "no-results": "We konden geen resultaten vinden voor <0> {{searchTerm}} </0>.",
+      "no-results": "We konden geen resultaten vinden voor <0>{{searchTerm}}</0>.",
       "no-favorites": "U hebt nog geen favoriete markten.",
       "pair": "Paar",
       "24hvol": "24u volume",
@@ -720,8 +720,8 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0> Uw favoriete markten </0>   verschijnen hier als links.",
-      "tips": "<0> Tip </0> <1> Voeg hier favoriete markten toe als links. </1> <2 />"
+      "empty": "<0>Uw favoriete markten</0>   verschijnen hier als links.",
+      "tips": "<0>Tip</0> <1>Voeg hier favoriete markten toe als links.</1> <2 />"
     },
     "market-graphs": {
       "title": "Grafieken",
@@ -805,7 +805,7 @@
       "locked-trading-session": {
         "information": "Uw handelssessie is vergrendeld. <0 />",
         "information-tooltip": "Sessies zijn vergrendeld wanneer u de pagina vernieuwt of 15 minuten niet wordt gebruikt.",
-        "enter-credentials-to-unlock": "<0> Nu ontgrendelen </0>"
+        "enter-credentials-to-unlock": "<0>Nu ontgrendelen</0>"
       },
       "market-orders-disabled": {
         "header": "Onvoldoende marktdiepte",
@@ -912,12 +912,12 @@
         "order-rejected-daily-limit-reached": "Uw order is geweigerd omdat u uw dagelijkse handelslimiet heeft bereikt.",
         "generic": "Fout bij het plaatsen van uw order. Probeer het alstublieft opnieuw."
       },
-      "signin-or-create-an-account": "<0> Log in </0> of <1> maak een account aan </1> om een order te plaatsen."
+      "signin-or-create-an-account": "<0>Log in</0> of <1>maak een account aan</1> om een order te plaatsen."
     },
     "my-orders": {
       "auth": "Log in om uw orders te bekijken.",
       "signed-out": {
-        "title": "<0>Aan de slag</0><1> met Nash</1>",
+        "title": "<0>Aan de slag</0> <1>met Nash</1>",
         "subtitle": "Maak binnen een minuut een account aan - geen KYC vereist!"
       },
       "no-results": {
@@ -1067,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> spreiding"
     },
     "spread": "Spreiding",
-    "learn-about-our-fees": "Leer meer over onze <1> kosten <1>."
+    "learn-about-our-fees": "Leer meer over onze <1>kosten<1>."
   },
   "auth": {
     "create-an-account": "Account aanmaken",
@@ -1287,6 +1287,7 @@
         "username-label": "Community username",
         "username-placeholder": "Choose a name…",
         "button-create": "Create Community account",
+        "button-creating": "Creating Community account…",
         "migrate-description": "If you’re using the Nash Extension to log in to the Community, you can <0>migrate your account</0>.",
         "username-exits": "‘{{username}}’ is already taken. Please choose another username."
       },
