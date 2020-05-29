@@ -437,40 +437,40 @@
       "Account details"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Avez vous déjà un compte Nash?",
+      "sign-in-now": "se connecter"
     },
     "form": {
       "your-state-is": "Your state is",
       "fields": {
-        "optional": "(optional)"
+        "optional": "(facultatif)"
       },
-      "continue": "Continue",
+      "continue": "Continuer",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
+        "generic-error": "Erreur lors de la création du compte. Veuillez réessayer.",
         "invalid-referral-code-can-continue": "Invalid referral code.",
         "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
+        "invalid-email-domain": "Votre service de messagerie n'est pas autorisé. Veuillez utiliser une adresse différente.",
+        "duplicate-email": "Un compte a déjà été créé pour cette adresse e-mail.",
+        "password-too-short": "Votre mot de passe doit comporter au moins huit caractères.",
         "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "missing-us-state": "Si vous vivez aux États-Unis, vous devez spécifier votre Etat."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Créer un compte",
+      "subheader": "vos coordonnées ",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Avis aux clients américains",
+        "desc": "Vous créez un compte Nash préliminaire pour participer au programme de parrainage, mais votre Etat doit être éligible pour accéder à certains services Nash. S'il est éligible, il vous sera ensuite demandé de signer un accord d'utilisation."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Nom complet"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Code de parrainage (facultatif)",
+          "sub-label": "Qu'est-ce que c'est?"
         }
       },
       "modals": {
@@ -481,47 +481,47 @@
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Nous avons remarqué que vous utilisez un VPN.",
+          "message": "Veuillez désactiver tous les services VPN ou proxy pour continuer. Une fois que vous avez créé un compte, vous pouvez vérifier votre identité pour utiliser un VPN à l'avenir."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
-      "edit": "Edit",
-      "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "header": "Créer un compte",
+      "subheader": "Où habitez-vous?",
+      "edit": "modifier",
+      "cancel": "Annuler",
+      "save-changes": "Sauvegarder les modifications",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Pays de résidence"
         },
         "state": {
-          "label": "State",
+          "label": "Etat",
           "location": "Location"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Je confirme que c'est mon pays de résidence."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Je confirme que ce sont mon pays et mon Etat de résidence."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Créer un compte",
+      "subheader": "Détails du compte",
+      "continue": "Créer un compte",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "entrer une adresse email",
+          "placeholder": "Adresse mail"
         },
         "password": {
           "label": "Créer un mot de passe",
           "placeholder": "Mot de passe",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Le mot de passe que vous avez choisi est trop faible."
           }
         },
         "password-confirm": {
@@ -537,27 +537,27 @@
           "title": "Conseils pour un mot de passe fort",
           "desc": "Un mot de passe fort est essentiel afin de garder vos fonds en sécurité. Suivez ces conseils afin de préserver et protéger vos fonds:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "tip-1": "Ne réutilisez pas un mot de passe provenant d'autres sites Web, même si vous modifiez des mots ou des caractères individuels. Si vous êtes piraté ou piraté ailleurs, votre compte Nash sera instantanément compromis.",
+          "tip-2": "N'incluez pas d'informations personnelles dans votre mot de passe. Les noms, anniversaires et adresses sont faciles à trouver et doivent être évités.",
+          "tip-3": "Créez un mot de passe d'au moins douze caractères et utilisez un mélange de lettres majuscules et minuscules, de chiffres et de caractères spéciaux.",
+          "tip-4": "Pensez à utiliser un générateur de mots de passe pour créer et stocker des mots de passe sécurisés au maximum."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Utilisez un mélange de lettres majuscules et minuscules, de chiffres et de caractères spéciaux pour un mot de passe plus fort.",
+        "tips": "Conseils de création de mot de passe",
+        "mot de passe ":" Difficulté du mot de passe",
+        "weak": "Faible",
+        "medium": "Moyen",
+        "strong": "Fort",
+        "very-strong": "Très fort"
       }
     },
     "verify-email": {
       "header": "Nous vous avons envoyé un e-mail!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Renvoyer un e-mail de vérification",
+      "desc-1": "Veuillez vérifier votre e-mail et vérifier votre compte.",
+      "desc-2": "Si vous ne voyez pas notre mail, vérifiez dans courrier indésirable.",
+      "resend": "Renvoyer le mail de vérification",
       "resend-delay": "Patientez {{count}} second…",
       "resend-delay_plural": "Please wait {{count}} seconds…",
       "back": "Back to sign-in",
