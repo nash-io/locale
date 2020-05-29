@@ -58,11 +58,37 @@ function validateSpaces(
     errors.push({ code: ValidationError.TooManySpaces })
   }
 
-  const untrimmedMatch = translatedValue.match(/(<\d+?>\s)|(\s<\/\d+>)/)
+  const untrimmedMatch = translatedValue.match(/(^\s.)|(.\s$)/)
   if (untrimmedMatch != null) {
+    if (untrimmedMatch[1] != null) {
+      const openingText =
+        translatedValue.length > 25
+          ? `${translatedValue.slice(0, 15)}…`
+          : translatedValue
+      errors.push({
+        code: ValidationError.UntrimmedSpace,
+        data: `Remove the opening space "${openingText}"`,
+      })
+    }
+    if (untrimmedMatch[2] != null) {
+      const closingText =
+        translatedValue.length > 25
+          ? `…${translatedValue.slice(-15)}`
+          : translatedValue
+      errors.push({
+        code: ValidationError.UntrimmedSpace,
+        data: `Remove the closing space "${closingText}"`,
+      })
+    }
+  }
+
+  const untrimmedComponentMatch = translatedValue.match(
+    /(<\d+?>\s)|(\s<\/\d+>)/,
+  )
+  if (untrimmedComponentMatch != null) {
     errors.push({
       code: ValidationError.UntrimmedSpace,
-      data: `Remove opening/closing space within all tags "${untrimmedMatch[0]}"`,
+      data: `Remove opening/closing space within all tags "${untrimmedComponentMatch[0]}"`,
     })
   }
 
