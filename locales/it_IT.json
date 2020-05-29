@@ -1,5 +1,5 @@
 {
-  "sandbox-warning": "Questo è un ambiente sandbox per testare l'integrazione API. Non inviare mai fondi reali qui!",
+  "sandbox-warning": "Questo è un ambiente sandbox per testare l’integrazione API. Non inviare mai fondi reali qui!",
   "buy": "comprare",
   "sell": "vendere",
   "continue": "Continua",
@@ -15,7 +15,7 @@
   "try-again": "Riprova",
   "refresh": "Aggiorna",
   "finish": "Concludi",
-  "price-each": "{{price}} all'unità",
+  "price-each": "{{price}} all’unità",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "Rimanente",
   "not-available-short": "N/A",
@@ -38,11 +38,11 @@
     "add-whitelisted": "Indirizzi nella whitelist",
     "duplicate-address-in-form": "Questo indirizzo è già nella whitelist.",
     "add-address": "Aggiungi indirizzo",
-    "address-is-not-valid": "L'indirizzo non è valido.",
+    "address-is-not-valid": "L’indirizzo non è valido.",
     "whitelisting-explanation": "Con questa chiave API, puoi prelevare fondi solo verso questi indirizzi della whitelist. Una volta generata la tua chiave, potrai aggiungere e rimuovere indirizzi della whitelist in qualsiasi momento.",
     "token-type": {
       "access": "Accesso",
-      "kyc": "Verifica dell'identità",
+      "kyc": "Verifica dell’identità",
       "apitrade": "trading con API",
       "twofa": "2FA"
     },
@@ -70,7 +70,7 @@
       "no-tokens-exp": "<0>Genera la tua prima chiave</0> o leggi la nostra <1>documentazione API</1>.",
       "name": "Nome",
       "never-used": "Mai utilizzata",
-      "last-used": "Utilizzata l'ultima volta {{when}}",
+      "last-used": "Utilizzata l’ultima volta {{when}}",
       "subtitle": "Genera e gestisci chiavi API. Scopri di più sulle <0>nostre API</0>.",
       "key-info": "Informazioni della chiave",
       "api-key": "Chiave API",
@@ -113,9 +113,9 @@
     },
     "step4": {
       "your-secret": "Il tuo segreto",
-      "your-secret-warning": "Questa è l'unica volta in cui ti mostreremo il tuo segreto.",
+      "your-secret-warning": "Questa è l’unica volta in cui ti mostreremo il tuo segreto.",
       "api-key": "La tua chiave API",
-      "api-key-warning": "Questa è l'unica volta in cui ti mostreremo la tua chiave API.",
+      "api-key-warning": "Questa è l’unica volta in cui ti mostreremo la tua chiave API.",
       "download-as-json-button-label": "Scarica la chiave API e il segreto come file JSON",
       "i-saved-my-secret-button-label": "Ho salvato una copia del mio segreto"
     }
@@ -137,7 +137,7 @@
   "estimated-fee": "Commissione di rete stimata: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Massimo",
-    "use-last": "Usa l'ultimo"
+    "use-last": "Usa l’ultimo"
   },
   "insufficient-funds": "Fondi insufficienti",
   "amount-each": "{{amount}} ciascuno",
@@ -165,15 +165,15 @@
       "gtt": {
         "header": "Valido fino a una data",
         "header-with-time": "Valido fino a {{cancelAt}}",
-        "desc": "Il tuo ordine resterà sul libro degli ordini fino alla data specificata. Se non sarà stato riempito entro tale data, l'ordine verrà cancellato."
+        "desc": "Il tuo ordine resterà sul libro degli ordini fino alla data specificata. Se non sarà stato riempito entro tale data, l’ordine verrà cancellato."
       },
       "fok": {
         "header": "Riempi o cancella",
-        "desc": "Se il tuo ordine può essere totalmente riempito subito, sarà riempito. Se non può essere riempito totalmente, l'intero ordine verrà cancellato."
+        "desc": "Se il tuo ordine può essere totalmente riempito subito, sarà riempito. Se non può essere riempito totalmente, l’intero ordine verrà cancellato."
       },
       "ioc": {
         "header": "Immediato o cancella",
-        "desc": "L'ordine sarà riempito subito il più possibile. L'eventuale porzione rimanente dell'ordine non riempita, verrà cancellata."
+        "desc": "L’ordine sarà riempito subito il più possibile. L’eventuale porzione rimanente dell’ordine non riempita, verrà cancellata."
       }
     }
   },
@@ -243,7 +243,7 @@
         "pages": {
           "portfolio": "Portafoglio",
           "transfers": "Trasferimenti",
-          "assets": "Risorse",
+          "assets": "Assets",
           "contacts": "Contatti"
         }
       },
@@ -288,19 +288,19 @@
   "sending": "Invio in corso…",
   "submit": "Invia",
   "retry": "Riprova",
-  "sending-approval": "Convalida dell'invio in corso…",
-  "send-approval": "Convalida l'invio",
+  "sending-approval": "Convalida dell’invio in corso…",
+  "send-approval": "Convalida l’invio",
   "submit-transfer": "Avvia trasferimento",
   "no-longer-sufficient-balance-for-tx": "Il tuo bilancio non è sufficiente per questa transazione.",
   "we-are-hiring": "Lavora con noi",
   "errors": {
     "location-banned-title": "Accesso bloccato",
     "location-banned": "Sfortunatamente, Nash al momento non è in grado di operare nella tua giurisdizione.",
-    "invalid-clock-title": "L'orologio del tuo computer non è preciso.",
+    "invalid-clock-title": "L’orologio del tuo computer non è preciso.",
     "permissions-issue-title": "Problema di permessi",
     "invalid-clock": "Per scambiare su Nash il tuo orologio deve essere preciso. <0>Sincronizza il tuo orologio</0> e poi <1>riprova</1>.",
     "network-issue-title": "Problema di rete",
-    "network-issue": "C'è un problema di rete temporaneo. Per favore <0>riprova</0>.",
+    "network-issue": "C’è un problema di rete temporaneo. Per favore <0>riprova</0>.",
     "generic-error-title": "Errore",
     "generic-error": "Qualcosa è andato storto. Per favore riprova.",
     "generic-error-signout": "Si è verificato un errore imprevisto. Per favore esci e riprova.",
@@ -321,7 +321,7 @@
     },
     "account-not-found": {
       "pending": {
-        "title": "Elaborazione dell'account in corso!",
+        "title": "Elaborazione dell’account in corso!",
         "message": "Per favore controlla di nuovo tra pochi minuti."
       },
       "not-found": {
@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Caricamento non riuscito.",
     "failed-button": "Caricamento non riuscito",
-    "failed-please-try": "<0>Caricamento non riuscito. Per favore </0><1>riprova</1>.",
+    "failed-please-try": "<0>Caricamento non riuscito. Per favore</0>\u00A0<1>riprova</1>.",
     "why-this-may-happening": "Scopri le possibili cause per cui ciò è accaduto <0>qui.</0>"
   },
   "datetime": {
@@ -378,7 +378,7 @@
       "tier-0": {
         "location-mismatch": {
           "title": "Il tuo indirizzo IP non corrisponde al paese selezionato.",
-          "message": "Gli utenti verificati fino a Livello 0 non possono accedere a tutti i servizi Nash a meno che non si connettano dal proprio paese di residenza. Valuta l'opzione di <0>passare a Livello 1</0>."
+          "message": "Gli utenti verificati fino a Livello 0 non possono accedere a tutti i servizi Nash a meno che non si connettano dal proprio paese di residenza. Valuta l’opzione di <0>passare a Livello 1</0>."
         },
         "untrusted-ip": {
           "title": "Abbiamo notato che stai usando una VPN.",
@@ -390,7 +390,7 @@
         },
         "duplicate-ip": {
           "title": "È già stato creato un account con questo indirizzo IP.",
-          "message": "Per ottenere l'accesso a tutti i servizi Nash su questo account, per favore <0>passa a Livello 1</0>."
+          "message": "Per ottenere l’accesso a tutti i servizi Nash su questo account, per favore <0>passa a Livello 1</0>."
         }
       },
       "restricted": {
@@ -413,14 +413,14 @@
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "Abbiamo notato che stai effettuando l'accesso da {{detectedCountry}}.",
+          "title": "Abbiamo notato che stai effettuando l’accesso da {{detectedCountry}}.",
           "message": "Se non vivi più in {{accountCountry}}, per favore <0>contatta il nostro team di supporto</0> per aggiornare il tuo indirizzo."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Naviga da desktop per un'esperienza migliore.",
-          "message": "La visualizzazione ‘Pro’ è progettata per l'utilizzo da desktop. Se sei su smartphone o tablet, prova la <0>visualizzazione ‘Base’</0>."
+          "title": "Naviga da desktop per un’esperienza migliore.",
+          "message": "La visualizzazione ‘Pro’ è progettata per l’utilizzo da desktop. Se sei su smartphone o tablet, prova la <0>visualizzazione ‘Base’</0>."
         }
       }
     },
@@ -447,7 +447,7 @@
       },
       "continue": "Continua",
       "errors": {
-        "generic-error": "Si è verificato un errore nella registrazione dell'account. Per favore riprova.",
+        "generic-error": "Si è verificato un errore nella registrazione dell’account. Per favore riprova.",
         "invalid-referral-code-can-continue": "Codice referral non valido.",
         "invalid-referral-code": "Codice referral non valido. Per favore controlla il tuo codice e riprova.",
         "invalid-email-domain": "Il tuo provider di email non è consentito. Per favore utilizza un altro indirizzo.",
@@ -540,7 +540,7 @@
           "tip-1": "Non riutilizzare una password da altri siti Web, anche se si modificano singole parole o caratteri. Se sei phishing o hackerato altrove, il tuo account Nash sarà immediatamente compromesso.",
           "tip-2": "Non includere informazioni personali nella password. Nomi, compleanni e indirizzi sono facili da scoprire e dovrebbero essere evitati.",
           "tip-3": "Rendi la tua password lunga almeno dodici caratteri e usa una combinazione di lettere maiuscole e minuscole, numeri e caratteri speciali.",
-          "tip-4": "Prendi in considerazione l'utilizzo di un generatore di password per creare e archiviare password con la massima sicurezza."
+          "tip-4": "Prendi in considerazione l’utilizzo di un generatore di password per creare e archiviare password con la massima sicurezza."
         }
       },
       "password": {
@@ -560,10 +560,10 @@
       "resend": "Invia nuovamente email di verifica",
       "resend-delay": "Attendere prego {{count}} secondo…",
       "resend-delay_plural": "Attendere prego {{count}} secondi…",
-      "back": "Torna all'accesso",
+      "back": "Torna all’accesso",
       "success": "Email di verifica rinviata correttamente!",
       "errors": {
-        "generic-error": "Errore durante il reinvio dell'email di verifica. Per favore riprova."
+        "generic-error": "Errore durante il reinvio dell’email di verifica. Per favore riprova."
       }
     }
   },
@@ -581,7 +581,7 @@
       "skip2Fa": "Configuralo più tardi",
       "chart": {
         "card-top": "Dodici parole segrete",
-        "card-top-right": "Ripristino dell'account Nash se la password viene dimenticata",
+        "card-top-right": "Ripristino dell’account Nash se la password viene dimenticata",
         "diamond-one": "Used in",
         "diamond-two": "Genera il tuo account personale, che contiene…",
         "card-btc": "Account Bitcoin",
@@ -634,7 +634,7 @@
       },
       "wallet-created": {
         "header": "Il tuo account Nash è stato creato con successo!",
-        "desc": "Puoi trovare le tue dodici parole segrete e i dettagli dell'account individuale sotto ‘Il mio profilo > Accounts’.",
+        "desc": "Puoi trovare le tue dodici parole segrete e i dettagli dell’account individuale sotto ‘Il mio profilo > Accounts’.",
         "warning": "<0>Non memorizziamo le tue parole segrete in nessun posto.</0> Se dimentichi la password, non potrai accedere ai tuoi fondi senza queste parole.",
         "continue": "Imposta l’autenticazione a due fattori",
         "continue-location": "Imposta il luogo di residenza"
@@ -642,27 +642,27 @@
     },
     "2fa": {
       "title": "Autenticazione a due fattori",
-      "header": "Consiglio: abilita l'autenticazione a due fattori",
+      "header": "Consiglio: abilita l’autenticazione a due fattori",
       "skip": "Salta",
-      "desc": "L'autenticazione a due fattori (2FA) aggiunge un ulteriore livello di sicurezza al tuo account.",
+      "desc": "L’autenticazione a due fattori (2FA) aggiunge un ulteriore livello di sicurezza al tuo account.",
       "cards": {
         "1": {
           "header": "Scarica e installa l’app di autenticazione",
           "desc": "Ad esempio <0>LastPass Authenticator</0>, <1>Authy</1> o <2>Google Authenticator</2>."
         },
         "2": {
-          "header": "Scannerizza questo codice QR con l'app scaricata scelta",
+          "header": "Scannerizza questo codice QR con l’app scaricata scelta",
           "manual-2fa": "Scrivi il tuo codice di backup 2FA"
         },
         "3": {
-          "header": "Inserisci il codice di verifica generato dall'app di autenticazione",
+          "header": "Inserisci il codice di verifica generato dall’app di autenticazione",
           "input-placeholder": "Codice di autenticazione",
           "input-error": "Il codice inserito non è corretto."
         }
       },
       "confirm": {
-        "header": "L'autenticazione a due fattori è stata impostata!",
-        "desc": "Puoi trovare le tue preferenze di autenticazione a due fattori in ‘ Il mio profilo > Sicurezza’ all'interno della piattaforma web di Nash.",
+        "header": "L’autenticazione a due fattori è stata impostata!",
+        "desc": "Puoi trovare le tue preferenze di autenticazione a due fattori in ‘ Il mio profilo > Sicurezza’ all’interno della piattaforma web di Nash.",
         "action": "Cosa vuoi fare adesso?",
         "continue-deposit": "Deposita fondi",
         "continue-explore": "Esplora"
@@ -809,7 +809,7 @@
       },
       "market-orders-disabled": {
         "header": "Profondità di mercato insufficiente",
-        "desc": "Al momento non ci sono abbastanza ordini sul libro per l'elaborazione degli ordini di mercato."
+        "desc": "Al momento non ci sono abbastanza ordini sul libro per l’elaborazione degli ordini di mercato."
       },
       "order-type-tab": {
         "market": "Mercati",
@@ -833,7 +833,7 @@
       "fields": {
         "amount": {
           "label": "Quantità",
-          "sub-label-market-buy": "Questo è un ordine di mercato, quindi possiamo solo stimare l'importo di {{currencyA}} che acquisterai.",
+          "sub-label-market-buy": "Questo è un ordine di mercato, quindi possiamo solo stimare l’importo di {{currencyA}} che acquisterai.",
           "sub-label-market-sell": "Questo è un ordine di mercato, quindi possiamo solo stimare il totale {{currencyB}} che riceverai.",
           "sub-label-limit-buy": "Inserisci la quantità di {{currencySymbol}} che desideri acquistare.",
           "sub-label-limit-sell": "Inserisci la quantità di {{currencySymbol}} che desideri vendere.",
@@ -851,7 +851,7 @@
           "modal": {
             "label-no-selection": "Seleziona una data per continuare…",
             "errors": {
-              "is-past": "Non è possibile inserire un'ora del passato"
+              "is-past": "Non è possibile inserire un’ora del passato"
             }
           }
         },
@@ -873,7 +873,7 @@
           "label": "Limiti",
           "sub-label": "Il tuo ordine può essere abbinato con ordini a questo prezzo o meglio.",
           "errors": {
-            "maker-match": "Gli ordini 'Pubblica solo' corrispondenti al portafoglio ordini corrente verranno annullati."
+            "maker-match": "Gli ordini ‘Pubblica solo’ corrispondenti al portafoglio ordini corrente verranno annullati."
           }
         },
         "stop-price": {
@@ -892,7 +892,7 @@
         },
         "maker-only": {
           "label": "Post only",
-          "sub-label": "'Post only' effettuerà il tuo ordine solo come produttore, non come acquirente. Potrebbe non riempirlo."
+          "sub-label": "’Post only’ effettuerà il tuo ordine solo come produttore, non come acquirente. Potrebbe non riempirlo."
         },
         "cancellation-policy": {
           "label": "Tempo in vigore",
@@ -910,18 +910,18 @@
       "errors": {
         "order-rejected-insufficient-funds": "Il tuo ordine è stato rifiutato perché non disponi di fondi sufficienti.",
         "order-rejected-daily-limit-reached": "Il tuo ordine è stato rifiutato perché hai raggiunto il limite di trading giornaliero.",
-        "generic": "Errore durante il piazzamento dell'ordine. Per favore riprova."
+        "generic": "Errore durante il piazzamento dell’ordine. Per favore riprova."
       },
       "signin-or-create-an-account": "<0>Accedi</0> o <1>crea un account</1> per piazzare un ordine."
     },
     "my-orders": {
       "auth": "Accedi per visualizzare i tuoi ordini.",
       "signed-out": {
-        "title": "<0>Iniziare</0><1> with Nash</1>",
+        "title": "<0>Inizia</0> <1>con Nash</1>",
         "subtitle": "Crea un account in meno di un minuto – non è richiesto KYC!"
       },
       "no-results": {
-        "date-range": "Non hai ordini nell'intervallo di date indicato.",
+        "date-range": "Non hai ordini nell’intervallo di date indicato.",
         "active": "Non hai ordini aperti o compilati.",
         "active-open-only": "Non hai ordini aperti.",
         "trades": "Non hai una cronologia di trading."
@@ -1159,23 +1159,23 @@
       },
       "messages": {
         "password-change": {
-          "success": "Se l'indirizzo email fornito corrisponde a un account già presente nel nostro database, ti invieremo le istruzioni su come reimpostare la password."
+          "success": "Se l’indirizzo email fornito corrisponde a un account già presente nel nostro database, ti invieremo le istruzioni su come reimpostare la password."
         },
         "update-email": {
-          "validation-success": "Abbiamo inviato un'email di verifica al tuo nuovo indirizzo email. Fare clic sul collegamento nell'e-mail per confermare il nuovo indirizzo.",
+          "validation-success": "Abbiamo inviato un’email di verifica al tuo nuovo indirizzo email. Fare clic sul collegamento nell’e-mail per confermare il nuovo indirizzo.",
           "updated-success": "Il tuo indirizzo email è stato aggiornato. Puoi ora accedere utilizzando il tuo nuovo indirizzo email."
         },
         "verify-email": {
           "success": "Il tuo indirizzo email è stato verificato. Accedi per configurare il tuo account.",
-          "error": "Impossibile verificare l'indirizzo email. Il codice di verifica potrebbe essere scaduto. Accedi e richiedi un'altra email di verifica."
+          "error": "Impossibile verificare l’indirizzo email. Il codice di verifica potrebbe essere scaduto. Accedi e richiedi un’altra email di verifica."
         }
       },
       "errors": {
-        "invalid-email": "L'indirizzo email che hai fornito non è valido.",
+        "invalid-email": "L’indirizzo email che hai fornito non è valido.",
         "invalid-password": "Devi fornire una password.",
         "signin-failed": "Sembra che la tua email o password non siano corretti.",
         "locked": "Il tuo account è temporaneamente bloccato. Per favore riprova più tardi.",
-        "revoked": "Il tuo account è bloccato in modo permanente. Si prega di contattare l'assistenza."
+        "revoked": "Il tuo account è bloccato in modo permanente. Si prega di contattare l’assistenza."
       }
     },
     "forgot-password": {
@@ -1189,11 +1189,11 @@
         }
       },
       "submit": "Richiedi il link di ripristino",
-      "success": "Ti abbiamo inviato un'email di reimpostazione della password. Se non vedi la nostra email, controlla la cartella della posta indesiderata."
+      "success": "Ti abbiamo inviato un’email di reimpostazione della password. Se non vedi la nostra email, controlla la cartella della posta indesiderata."
     },
     "reset-password": {
-      "missing-email": "Qualcosa è andato storto. Fare di nuovo clic sul collegamento nell'e-mail.",
-      "expired-code": "Questa sessione non è più valida. Fare di nuovo clic sul collegamento nell'e-mail.",
+      "missing-email": "Qualcosa è andato storto. Fare di nuovo clic sul collegamento nell’e-mail.",
+      "expired-code": "Questa sessione non è più valida. Fare di nuovo clic sul collegamento nell’e-mail.",
       "steps": [
         "Conferma le parole segrete",
         "Nuova password"
@@ -1216,15 +1216,15 @@
           "mnemonic-valid": "Questa combinazione di parole è valida. È ora possibile reimpostare la password."
         },
         "skip": {
-          "header": "Perderai l'accesso ai tuoi fondi",
-          "desc-1": "Se hai perso sia la vecchia password che le dodici parole segrete, <0> non sarai in grado di recuperare i tuoi fondi.</0>",
+          "header": "Perderai l’accesso ai tuoi fondi",
+          "desc-1": "Se hai perso sia la vecchia password che le dodici parole segrete, <0>non sarai in grado di recuperare i tuoi fondi.</0>",
           "desc-2": "Nash è una piattaforma non riservata che utilizza la tecnologia decentralizzata. È impossibile per noi accedere ai tuoi fondi e non possiamo recuperarli.",
           "desc-3": "Puoi ripristinare il tuo vecchio account e scegliere un nuovo set di parole segrete. Sarà come configurare un nuovo account con una nuova password.",
           "desc-4": "Se scegli di ripristinare il tuo account, perderai tutti gli accessi ai tuoi fondi, incluso:",
           "desc-5": "Per favore ricontrolla e vedi se riesci a trovare le tue parole segrete o la tua password.",
           "go-back": "Torna indietro",
           "checkbox-1": "Ho perso sia la mia password che le mie dodici parole segrete.",
-          "checkbox-2": "Comprendo che perderò il mio account perdendo tutto l'accesso ai miei fondi.",
+          "checkbox-2": "Comprendo che perderò il mio account perdendo tutto l’accesso ai miei fondi.",
           "submit": "Ripristina il mio account",
           "sub-bullet-1": "Tutte le risorse nel tuo account personale",
           "sub-bullet-2": "Tutte le attività nel contratto di trading.",
@@ -1262,15 +1262,15 @@
           }
         },
         "errors": {
-          "reset-wallets-locked": "Il ripristino dell'account è attualmente bloccato. Si prega di contattare l'assistenza.",
-          "reset-locked": "La reimpostazione della password è attualmente bloccata. Si prega di contattare l'assistenza.",
-          "incorrect-keys": "La chiave pubblica derivata dalle dodici parole che hai inviato non corrisponde ai nostri registri. Ciò indica che le dodici parole che hai inviato non provengono dal tuo account Nash. Per favore ricontrolla il tuo backup. Contatta l'assistenza se hai ancora problemi.",
+          "reset-wallets-locked": "Il ripristino dell’account è attualmente bloccato. Si prega di contattare l’assistenza.",
+          "reset-locked": "La reimpostazione della password è attualmente bloccata. Si prega di contattare l’assistenza.",
+          "incorrect-keys": "La chiave pubblica derivata dalle dodici parole che hai inviato non corrisponde ai nostri registri. Ciò indica che le dodici parole che hai inviato non provengono dal tuo account Nash. Per favore ricontrolla il tuo backup. Contatta l’assistenza se hai ancora problemi.",
           "generic-error": "Qualcosa è andato storto e la tua password non è stata ripristinata. Il link di reimpostazione della password potrebbe essere scaduto. Richiedi un nuovo link di ripristino e riprova."
         },
         "submit": "Imposta una nuova password"
       }
     },
-    "verify-email": "Verficia dell'indirizzo email…",
+    "verify-email": "Verficia dell’indirizzo email…",
     "secret-word-list-edit": {
       "placeholder": "Word {{index}}"
     },
@@ -1287,22 +1287,23 @@
         "username-label": "Nome utente della Community",
         "username-placeholder": "Seleziona un nome…",
         "button-create": "Crea un account della Community",
-        "migrate-description": "Se stai utilizzando l'estensione Nash per accedere alla Community, puoi farlo <0>migrando il tuo account</0>.",
+        "button-creating": "Creazione account della Community…",
+        "migrate-description": "Se stai utilizzando l’estensione Nash per accedere alla Community, puoi farlo <0>migrando il tuo account</0>.",
         "username-exits": "‘{{username}}’ è già utilizzato. Per favore seleziona un altro nome utente."
       },
       "migrate-account": {
         "title": "Migra il tuo account Nash Community",
-        "migration-step1": "Accedi con l'estensione Nash.",
-        "migration-step2": "Cambia il tuo indirizzo email della community con l'indirizzo utilizzato per il tuo account Nash.",
+        "migration-step1": "Accedi con l’estensione Nash.",
+        "migration-step2": "Cambia il tuo indirizzo email della community con l’indirizzo utilizzato per il tuo account Nash.",
         "migration-step3": "Questo è tutto! Una volta che il tuo indirizzo email è cambiato, sarai in grado di accedere utilizzando il tuo account Nash.",
-        "button-migrate": "Accedi con l'estensione Nash",
+        "button-migrate": "Accedi con l’estensione Nash",
         "link-back": "Indietro",
         "faq-change-email": {
           "title": "Come posso cambiare il mio indirizzo email comunitario?",
-          "step1": "Dopo aver effettuato l'accesso alla Community, fai clic sul tuo avatar nell'angolo in alto a destra dello schermo.",
-          "step2": "Fai clic sul tuo nome utente e seleziona 'Preferenze’.",
-          "step3": "Fai clic sull'icona a forma di matita per modificare il tuo indirizzo email.",
-          "step4": "Einserisci un nuovo indirizzo email e fai clic su 'Modifica’.",
+          "step1": "Dopo aver effettuato l’accesso alla Community, fai clic sul tuo avatar nell’angolo in alto a destra dello schermo.",
+          "step2": "Fai clic sul tuo nome utente e seleziona ‘Preferenze’.",
+          "step3": "Fai clic sull’icona a forma di matita per modificare il tuo indirizzo email.",
+          "step4": "Einserisci un nuovo indirizzo email e fai clic su ‘Modifica’.",
           "step5": "Riceverai due email di conferma, una al tuo vecchio indirizzo email e una al tuo nuovo indirizzo. Dovrai confermare entrambi gli indirizzi per completare la modifica."
         }
       },
@@ -1320,7 +1321,7 @@
       "errors": {
         "order-rejected-insufficient-funds": "Insufficiente {{currencySell}} nel contratto di trading. Invia fondi per continuare.",
         "order-rejected-daily-limit-reached": "Il tuo ordine è stato rifiutato perché hai raggiunto il limite di trading giornaliero.",
-        "generic": "Errore durante l'ordine. Per favore riprova."
+        "generic": "Errore durante l’ordine. Per favore riprova."
       },
       "modals": {
         "exchange-info": {
@@ -1337,7 +1338,7 @@
           },
           "balances": {
             "header": "Saldi",
-            "desc": "Ti diremo se il tuo saldo non è sufficiente per fare uno scambio. Scegli 'Saldi' per controllare lo stato del tuo account e inviare / ricevere fondi."
+            "desc": "Ti diremo se il tuo saldo non è sufficiente per fare uno scambio. Scegli ‘Saldi’ per controllare lo stato del tuo account e inviare / ricevere fondi."
           }
         },
         "select-token": {
@@ -1395,7 +1396,7 @@
               "price-too-high": "Impossibile elaborare i prezzi {{maxPrice}}."
             },
             "warnings": {
-              "20-below": "Il prezzo specificato è inferiore di oltre il 20% all'attuale prezzo di mercato."
+              "20-below": "Il prezzo specificato è inferiore di oltre il 20% all’attuale prezzo di mercato."
             }
           }
         },
@@ -1432,7 +1433,7 @@
         "desc": {
           "insufficient-funds": {
             "0": "Il saldo del contratto di trading non è più sufficiente per coprire questo ordine. Questo può accadere se si stanno creando ordini contemporaneamente in più schede del browser.",
-            "1": "Per un'esperienza di trading più fluida, utilizza Nash in una singola scheda del browser.",
+            "1": "Per un’esperienza di trading più fluida, utilizza Nash in una singola scheda del browser.",
             "2": "<0>Send/Receive</0> fondi se desideri effettuare nuovamente questo ordine."
           },
           "daily-limit-reached": {
@@ -1440,7 +1441,7 @@
             "1": "Per aumentare il volume giornaliero massimo di trading, per favore visita <0>Limits</0>."
           },
           "generic": {
-            "0": "Errore durante l'ordine. Per favore riprova."
+            "0": "Errore durante l’ordine. Per favore riprova."
           }
         }
       }
@@ -1490,7 +1491,7 @@
     "CF": "Repubblica Centrale Africana",
     "CG": "Congo",
     "CH": "Svizzera",
-    "CI": "Costa d'Avorio",
+    "CI": "Costa d’Avorio",
     "CK": "Isole di Cook",
     "CL": "Cile",
     "CM": "Camerun",
@@ -1552,7 +1553,7 @@
     "IL": "Israele",
     "IM": "Isola di Man",
     "IN": "India",
-    "IO": "Territori Britannici dell'Oceano Indiano",
+    "IO": "Territori Britannici dell’Oceano Indiano",
     "IQ": "Iraq",
     "IR": "Iran (Repubblica Islamica di)",
     "IS": "Islanda",
@@ -1645,7 +1646,7 @@
     "SD": "Sudan",
     "SE": "Svezia",
     "SG": "Singapore",
-    "SH": "Sant'Elena, Ascensione e Tristan da Cunha",
+    "SH": "Sant’Elena, Ascensione e Tristan da Cunha",
     "SI": "Slovenia",
     "SJ": "Svalbard e Jan Mayen",
     "SK": "Slovacchia",
@@ -1679,7 +1680,7 @@
     "UA": "Ucraina",
     "UG": "Uganda",
     "UM": "Isole minori esterne degli Stati Uniti",
-    "US": "Stati Uniti d'America",
+    "US": "Stati Uniti d’America",
     "UY": "Uruguay",
     "UZ": "Uzbekistan",
     "VA": "Santa Sede",
@@ -1731,7 +1732,7 @@
       "subtitle": "I fornitori di asset digitali sono compagnie di terze parti associate a Nash che ti consentono di acquistare o vendere le risorse digitali utilizzando le valute nazionali",
       "steps": [
         "Dettagli personali",
-        "Dettagli dell'indirizzo"
+        "Dettagli dell’indirizzo"
       ],
       "assets-available": "Asset disponibili",
       "payments-methods": "Metodi di pagamento",
@@ -1747,19 +1748,19 @@
       "transaction-fee": "{{value}} commissione di transazione",
       "eur-bank-transfers": "EUR trasferimento bancario:",
       "kyc-monthly-limit-pre": "{{value}} mensile",
-      "kyc-monthly-limit-post-kyc": "{{value}} mensile dopo la verifica dell'identità",
+      "kyc-monthly-limit-post-kyc": "{{value}} mensile dopo la verifica dell’identità",
       "kyc-monthly-limit-post-phone": "{{value}} mensile dopo verifica del numero di telefono",
       "kyc-weekly-limit-pre": "{{value}} settimanale",
-      "kyc-weekly-limit-post-kyc": "{{value}} settimanale dopo la verifica dell'identità",
+      "kyc-weekly-limit-post-kyc": "{{value}} settimanale dopo la verifica dell’identità",
       "kyc-weekly-limit-post-phone": "{{value}} settimanale dopo verifica del numero di telefono",
       "kyc-daily-limit-pre": "{{value}} giornaliero",
-      "kyc-daily-limit-post-kyc": "{{value}} giornaliero dopo la verifica dell'identità",
+      "kyc-daily-limit-post-kyc": "{{value}} giornaliero dopo la verifica dell’identità",
       "kyc-daily-limit-post-phone": "{{value}} giornaliero dopo verifica del numero di telefono",
       "kyc-yearly-limit-pre": "{{value}} annuale",
-      "kyc-yearly-limit-post-kyc": "{{value}} annuale dopo la verifica dell'identità",
+      "kyc-yearly-limit-post-kyc": "{{value}} annuale dopo la verifica dell’identità",
       "kyc-yearly-limit-post-phone": "{{value}} annuale dopo verifica del numero di telefono",
       "kyc-txn-limit-pre": "{{value}} per transazione",
-      "kyc-txn-limit-post-kyc": "{{value}} per transazione dopo la verifica dell'identità",
+      "kyc-txn-limit-post-kyc": "{{value}} per transazione dopo la verifica dell’identità",
       "kyc-txn-limit-post-phone": "{{value}} per transazione dopo verifica del numero di telefono",
       "select-btn": "Seleziona",
       "have-account-header": "Fornitori con cui ho creato un account",
@@ -1780,7 +1781,7 @@
       "subtitle": "Prima di poter acquistare o vendere risorse digitali, dobbiamo configurare il tuo account con {{providerName}}.",
       "legal-name-input-label": "Nome legale completo",
       "email-address-input-label": "Indirizzo email",
-      "submit-btn": "Continua con i dettagli dell'indirizzo"
+      "submit-btn": "Continua con i dettagli dell’indirizzo"
     },
     "address-details": {
       "main-title": "Crea il tuo {{providerName}} account",
@@ -1791,7 +1792,7 @@
       "county-input-label": "Paese/Stato",
       "postcode-input-label": "CAP/ZIP",
       "country-of-residence-input-label": "Paese di residenza",
-      "submit-btn": "Completa la configurazione dell'account"
+      "submit-btn": "Completa la configurazione dell’account"
     },
     "profile-errors": {
       "legalName": "Devi inserire il tuo nome legale completo.",
@@ -1832,7 +1833,7 @@
           "body": "Impossibile generare un prezzo. Per favore riprova più tardi."
         },
         "not-enough-liquidity": {
-          "title": "Liquidità insufficiente per l'ordine",
+          "title": "Liquidità insufficiente per l’ordine",
           "body": "Il tuo ordine è troppo grande per essere processato in questo momento. Per favore riprova più tardi."
         },
         "not-translated": {
@@ -1887,7 +1888,7 @@
       "provider-unsupported": "Questa funzione non è ancora disponibile con {{providerName}}.",
       "daily-remaining": "<0 /> rimanenti",
       "limit-exceeded": "<0 /> limite superato",
-      "minimum-not-reached": "L'acquisto minimo è <0 />",
+      "minimum-not-reached": "L’acquisto minimo è <0 />",
       "default-warning-message": "Devi completare il tuo <0>{{providerName}} profilo</0> e <1>collegare un conto bancario</1> prima di {{buy}} {{asset}}.",
       "bank-account-warning-message": "Devi <0>collegare un conto bancario</0> prima di {{buy}} {{asset}}.",
       "fiat-provider-warning-message": "Devi completare il tuo <0>{{providerName}} profilo</0> prima di {{buy}} {{asset}}.",
@@ -1897,7 +1898,7 @@
       "buy": "compra",
       "sell": "vendi",
       "purchase-failure": {
-        "title": "C'è un problema. L'acquisto non è andato a buon fine.",
+        "title": "C’è un problema. L’acquisto non è andato a buon fine.",
         "button": "OK",
         "ecode-cvc": "CVC non corretto.",
         "ecode-postal": "Problema con CAP/ZIP.",
@@ -1912,7 +1913,7 @@
       },
       "purchase-requires-confirm": {
         "title": "Verifica nuova carta",
-        "message": "Per la tua sicurezza, dobbiamo verificare la tua carta. Carbon produrrà una transazione sul tuo estratto conto bancario contenente un codice di conferma di quattro cifre, come 'carbon-1234’.",
+        "message": "Per la tua sicurezza, dobbiamo verificare la tua carta. Carbon produrrà una transazione sul tuo estratto conto bancario contenente un codice di conferma di quattro cifre, come ‘carbon-1234’.",
         "cancel": "Cancella acquisto",
         "code-from-statement": "Inserisci codice di conferma:",
         "code-placeholder": "1234",
@@ -1920,7 +1921,7 @@
       },
       "purchase-success": {
         "title": "Riuscito!",
-        "amount-debit": "L'importo più le commissioni verranno addebitati sulla tua carta {{card}}. Riceverai {{asset}} nel tuo account personale Nash a breve.",
+        "amount-debit": "L’importo più le commissioni verranno addebitati sulla tua carta {{card}}. Riceverai {{asset}} nel tuo account personale Nash a breve.",
         "view": "Puoi vedere lo stato della tua transazione <0>qui</0>.",
         "button": "Finito"
       }
@@ -1934,7 +1935,7 @@
       "complete": "Completo",
       "completed": "Completo",
       "incomplete": "Incompleto",
-      "quote-status": "Stato dell'offerta",
+      "quote-status": "Stato dell’offerta",
       "error": "Fallito",
       "pending": "Sospeso",
       "of": "di",
@@ -1977,7 +1978,7 @@
       "no-data-sub-header": "<0>Acquista asset digitali</0> per iniziare.",
       "no-data": "Non hai ancora effettuato alcuna transazione. <0>Acquista asset digitali</0> per iniziare.",
       "search-placeholder": "Cerca le mie transazioni…",
-      "table-label": "Tutte le attività dell'account",
+      "table-label": "Tutte le attività dell’account",
       "created-column": "Creato",
       "closed-column": "Completo",
       "action-column": "Azione",
@@ -2060,7 +2061,7 @@
       "new-bank-account-header": "Nuovo conto bancario",
       "processing": "In lavorazione…",
       "verified": "Verificato",
-      "unverified-method": "Verifica dell'identità non completa",
+      "unverified-method": "Verifica dell’identità non completa",
       "verified-method": "Identità verificata",
       "delete-modal-title": "Sei sicuro di voler rimuovere la carta che finisce con {{cardEnding}}?",
       "confirm-btn": "Si, rimuovi questo metodo di pagamento",
@@ -2090,7 +2091,7 @@
         "step-credit-card-details": "Dettagli carta di credito",
         "step-billing-details": "Dettagli di fatturazione",
         "continue-submit-details": "Invia i dettagli della carta di credito",
-        "address-line-2": "Numero dell'edificio",
+        "address-line-2": "Numero dell’edificio",
         "address-line-2-placeholder": "1",
         "address-line-1": "Nome della via",
         "address-line-1-placeholder": "Piave",
@@ -2123,7 +2124,7 @@
       "we-refund": "Ti rimborseremo",
       "destination": "Destinazione",
       "refund-time": "Tempo di rimborso",
-      "message": "L'offerta è scaduta prima di prendere una decisione o la pagina web è stata chiusa senza accettare o rifiutare il nuovo importo e la tariffa."
+      "message": "L’offerta è scaduta prima di prendere una decisione o la pagina web è stata chiusa senza accettare o rifiutare il nuovo importo e la tariffa."
     },
     "reconfirm-accept": {
       "review-header": "Hai accettato la tua offerta",
@@ -2150,11 +2151,11 @@
         "kyc-form": "Dati personali",
         "create-kyc-form": "Aggiungi dati personali",
         "edit-kyc-form": "Modifica dati personali",
-        "verification-pending": "La verifica dell'identità è in corso",
-        "verification-succeeded": "Verifica dell'identità riuscita.",
-        "verification-failed": "Verifica dell'identità non riuscita. Per favore aggiorna e invia di nuovo le tue informazioni.",
-        "verification-failed-permanently": "Verifica dell'identità non riuscita. Per favore <0>contatta Carbon</0>.",
-        "enable-2fa-before-proceeding": "Devi <0>abilitare l'autenticazione a due fattori per Carbon</0> per effettuare questo acquisto."
+        "verification-pending": "La verifica dell’identità è in corso",
+        "verification-succeeded": "Verifica dell’identità riuscita.",
+        "verification-failed": "Verifica dell’identità non riuscita. Per favore aggiorna e invia di nuovo le tue informazioni.",
+        "verification-failed-permanently": "Verifica dell’identità non riuscita. Per favore <0>contatta Carbon</0>.",
+        "enable-2fa-before-proceeding": "Devi <0>abilitare l’autenticazione a due fattori per Carbon</0> per effettuare questo acquisto."
       },
       "submit-kyc": {
         "required-incomplete": "Devi compilare tutti i campi richiesti.",
@@ -2219,14 +2220,14 @@
           "country-label": "Paese di residenza"
         },
         "2fa": {
-          "edit": "Modifica l'autenticazione a due fattori",
-          "add": "Abilita l'autenticazione a due fattori",
-          "disable": "Disabilita l'autenticazione a due fattori",
-          "disable-button": "Disabilita l'autenticazione a due fattori",
-          "disable-warning": "Inserisci il tuo codice Carbon 2FA di seguito per disabilitare l'autenticazione a due fattori. Non sarà possibile effettuare acquisti mentre l'autenticazione a due fattori è disabilitata.",
+          "edit": "Modifica l’autenticazione a due fattori",
+          "add": "Abilita l’autenticazione a due fattori",
+          "disable": "Disabilita l’autenticazione a due fattori",
+          "disable-button": "Disabilita l’autenticazione a due fattori",
+          "disable-warning": "Inserisci il tuo codice Carbon 2FA di seguito per disabilitare l’autenticazione a due fattori. Non sarà possibile effettuare acquisti mentre l’autenticazione a due fattori è disabilitata.",
           "not-set-up": "Non impostato",
-          "to-set-up": "Scansiona questo codice QR con un'app di autenticazione. Inserisci il tuo codice di verifica di seguito:",
-          "enable-button": "Abilita l'autenticazione a due fattori",
+          "to-set-up": "Scansiona questo codice QR con un’app di autenticazione. Inserisci il tuo codice di verifica di seguito:",
+          "enable-button": "Abilita l’autenticazione a due fattori",
           "enabled": "Abilitato",
           "disabled": "Disabilitato"
         },
@@ -2249,14 +2250,14 @@
           "placeholder": "000-00-0000"
         },
         "proof": {
-          "add": "Carica la prova dell'indirizzo",
-          "edit": "Carica la prova dell'indirizzo",
+          "add": "Carica la prova dell’indirizzo",
+          "edit": "Carica la prova dell’indirizzo",
           "save": "invia documento",
           "type": [
             "Bolletta",
             "Estratto conto bancario"
           ],
-          "select-label": "Quale documento desideri caricare per la verifica dell'indirizzo?",
+          "select-label": "Quale documento desideri caricare per la verifica dell’indirizzo?",
           "upload-label": "Carica una fotografia delle tue informazioni.",
           "upload-label-format": "Solo formati JPG o PNG, dimensione massima del file 3MB.",
           "upload-policy-label": "Vedi le nostre <0>pratiche di acquisizione di documenti</0> per ulteriori informazioni su come scattare la foto giusta.",
@@ -2280,9 +2281,9 @@
             "label-back": "Retro della patente di guida"
           },
           "national-id": {
-            "label": "Carta d'indentità",
-            "label-front": "Parte anteriore della carta d'indentità",
-            "label-back": "Parte posteriore della carta d'indentità"
+            "label": "Carta d’indentità",
+            "label-front": "Parte anteriore della carta d’indentità",
+            "label-back": "Parte posteriore della carta d’indentità"
           },
           "select-label": "Quale documento di identità desideri caricare per la verifica?",
           "upload-label": "Carica una fotografia delle informazioni sul passaporto.",
@@ -2291,7 +2292,7 @@
           "warning": "Comprendo che se invio nuovamente i documenti, il mio account dovrà essere rivisto nuovamente e non sarò in grado di effettuare acquisti o vendite fino a quando questa revisione non sarà stata completata.",
           "national-id-upload": "Carica due <0>fotografie separate</0> del tuo documento di identità, uno anteriore e uno posteriore.",
           "national-id-upload-format": "Orientamento orizzontale, solo formato JPG o PNG, dimensione massima del file: 4 MB, dimensione minima del file: 500 KB.",
-          "image-practices-msg": "Consulta le nostre linee guida per l'acquisizione di documenti per ulteriori informazioni su come scattare la foto giusta.",
+          "image-practices-msg": "Consulta le nostre linee guida per l’acquisizione di documenti per ulteriori informazioni su come scattare la foto giusta.",
           "driver-license-upload": "Carica due <0>fotografie separate</0> della tua patente di guida, un fronte e un retro.",
           "driver-license-upload-format": "Solo formati JPG o PNG, dimensione massima del file: 3MB.",
           "file-uploaded": "{{fileName}} caricato",
@@ -2304,7 +2305,7 @@
           "front-drag-label": "Fronte",
           "back-drag-label": "Retro",
           "missing": "",
-          "provided": "Carta d'identità caricata"
+          "provided": "Carta d’identità caricata"
         },
         "phone": {
           "edit": "Modifica numero di telefono",
@@ -2360,15 +2361,15 @@
       "profile-no-completed-info-message": "È necessario fornire tutti i dettagli richiesti di seguito prima che i limiti possano essere confermati. Ciò avverrà automaticamente dopo aver fornito tutte le informazioni richieste e quando <0>il metodo di pagamento è aggiunto</0>. Il processo può richiedere fino a cinque giorni lavorativi.",
       "profile-pending-info-message": "La modifica dei dettagli durante la revisione del profilo riavvierà il processo di revisione.",
       "profile-rejected-error-message": "I dettagli del tuo profilo sono stati rifiutati. Aggiorna i tuoi dati per riprovare.",
-      "profile-approved-info-message": "La modifica dei dettagli del profilo comporterà la revisione del tuo account. La tua capacità di acquistare e vendere direttamente asset digitali sarà congelata fino al completamento della revisione e all'approvazione dei tuoi dati.",
+      "profile-approved-info-message": "La modifica dei dettagli del profilo comporterà la revisione del tuo account. La tua capacità di acquistare e vendere direttamente asset digitali sarà congelata fino al completamento della revisione e all’approvazione dei tuoi dati.",
       "limits-requirements": "Requisiti",
       "limits-header": "Limiti di acquisto annuali",
       "limits-complete": "Piattaforma Nash fiat Livello 1",
-      "limits-not-complete": "Dichiara l'occupazione e la fonte dei fondi",
-      "limits-no-occupation": "Dichiara l'occupazione",
+      "limits-not-complete": "Dichiara l’occupazione e la fonte dei fondi",
+      "limits-no-occupation": "Dichiara l’occupazione",
       "limits-no-source-of-funds": "Dichiara la fonte dei fondi",
       "limits-no-level-1": "Deve essere verificato di livello 1",
-      "add-occupation": "Dichiara l'occupazione",
+      "add-occupation": "Dichiara l’occupazione",
       "add-source-of-funds": "Dichiara la fonte dei fondi",
       "header": "Informazioni profilo livello 1",
       "contact-support-to-edit": "<0>Contatta il supporto</0> per modificare",
@@ -2401,14 +2402,14 @@
       "cell-phone": "Numero di telefono",
       "create-cell-phone": "Aggiungi numero di telefono",
       "edit-cell-phone": "Modifica numero di telefono",
-      "government-id": "Documento d'identità",
-      "append-government-id": "Aggiungi un altro documento d'identità",
-      "create-government-id": "Carica documento d'identità",
-      "replace-government-id": "Sostituisci documento d'identità",
+      "government-id": "Documento d’identità",
+      "append-government-id": "Aggiungi un altro documento d’identità",
+      "create-government-id": "Carica documento d’identità",
+      "replace-government-id": "Sostituisci documento d’identità",
       "social-security-number": "Social security number (SSN)",
       "create-social-security-number": "Aggiungi social security number (SSN)",
       "replace-social-security-number": "Sostituisci social security number (SSN)",
-      "document-id": "Documento d'identità",
+      "document-id": "Documento d’identità",
       "upload-document": "Carica documento",
       "live-photo": "Foto dal vivo",
       "create-live-photo": "Aggiungi foto dal vivo",
@@ -2437,8 +2438,8 @@
       "profile-label": "{{providerName}} profilo",
       "per-week": "<0>{{value}}</0> per settimana",
       "per-month": "<0>{{value}}</0> per mese",
-      "proof-of-address": "Prova dell' indirizzo",
-      "append-proof-of-address": "Aggiungi un'altra prova dell' indirizzo",
+      "proof-of-address": "Prova dell’ indirizzo",
+      "append-proof-of-address": "Aggiungi un’altra prova dell’ indirizzo",
       "proof-of-address-payment-method": "Puoi <0>aggiungere un metodo di pagamento</0> per soddisfare questo requisito."
     },
     "confirmed-transaction": {
@@ -2450,7 +2451,7 @@
     },
     "review-sell-transaction": {
       "title": "Offerta di vendita",
-      "send-asset-title": "Invia {{assetName}} all'indirizzo riportato di seguito dal tuo account personale Nash.",
+      "send-asset-title": "Invia {{assetName}} all’indirizzo riportato di seguito dal tuo account personale Nash.",
       "send-asset-body-1": "Ciò che invii verrà convertito in {{currencyCode}} e accreditato sul tuo account. Useremo il tasso di cambio di mercato nel momento in cui riceviamo la tua transazione.",
       "send-asset-body-2": "",
       "transactions-details": "Invia",
@@ -2460,14 +2461,14 @@
       "deposit-address": "Devo inviare questo a",
       "provider-fee": "Commissioni del fornitore",
       "arrival-time": "Ora di arrivo stimata",
-      "arrival-time-value": "Al momento dell'invio dei fondi, ~<0>2–5</0> giorni lavorativi",
+      "arrival-time-value": "Al momento dell’invio dei fondi, ~<0>2–5</0> giorni lavorativi",
       "current-rate": "(<0></0>/<1>{{sourceCurrency}}</1>)",
       "cancel-btn": "Cancella",
       "confirm-btn": "Ho capito"
     },
     "review-buy-transaction": {
       "2fa-token": "{{providerName}} codice 2FA",
-      "arrival-time": "Ora di arrivo dell'asset",
+      "arrival-time": "Ora di arrivo dell’asset",
       "arrival-time-value": "<0>{{min}}–{{max}}</0> giorni lavorativi",
       "before-fee-cost": "Costo (senza commissioni)",
       "buying": "Voglio comprare",
@@ -2476,7 +2477,7 @@
       "confirm-btn": "Finito",
       "cancel-quote": "Rifiuta questo preventivo",
       "cost": "Costerà",
-      "currency-unavailable-status": "Non disponibile per l'acquisto in questo momento",
+      "currency-unavailable-status": "Non disponibile per l’acquisto in questo momento",
       "current-exchange-rate": "Tasso di scambio attuale",
       "exchange-rate": "Tasso di cambio",
       "rate-change-label": "Tasso di cambio",
@@ -2487,7 +2488,7 @@
       "asset-deposited-to": "Asset depositato a",
       "expired": "Questo preventivo è scaduto {{value}} fa.",
       "expired-message-1": "Il tuo tasso di cambio garantito è scaduto!",
-      "expired-message-2": "L'aggiornamento potrebbe aggiornare il tasso di cambio.",
+      "expired-message-2": "L’aggiornamento potrebbe aggiornare il tasso di cambio.",
       "expires": "Questo preventivo scadrà tra {{value}}.",
       "happy-btn": "Accetta il preventivo ed effettua il trasferimento",
       "original-cost": "",
@@ -2501,14 +2502,14 @@
       "quoted-exchange-rate": "Tasso di cambio offerti",
       "transfer-this-amount": "Trasferisci questo importo",
       "reason-for-failure": "Motivo del fallimento",
-      "recipient-details": "Se hai già inviato il pagamento non devi fare nulla. Se non invii il pagamento o se l'importo ricevuto non corrisponde al totale di cui sopra, annulleremo il tuo ordine e ti rimborseremo.",
+      "recipient-details": "Se hai già inviato il pagamento non devi fare nulla. Se non invii il pagamento o se l’importo ricevuto non corrisponde al totale di cui sopra, annulleremo il tuo ordine e ti rimborseremo.",
       "recipient-details-link": "Dettagli bancari del destinatario",
       "get-or-cancel": "<0>Ottieni i dettagli bancari del destinatario</0> o <1><rifiuta questa offerta</1>.",
       "refresh-btn": "Ricarica",
       "status": "Stato corrente",
       "step-payment": "Effettua il tuo trasferimento",
       "step-review": "Revisiona la tua offerta",
-      "submit-btn": "Confirma l'acquisto",
+      "submit-btn": "Confirma l’acquisto",
       "taken-from-bank": "Presi dal conto bancario",
       "taken-from-card": "Addebitati sulla carta",
       "quote-accepted-title": "Offerta accettata",
@@ -2516,12 +2517,12 @@
       "total-cost": "Costo totale",
       "total-with-provider-fee": "Totale con commissioni",
       "trading-contract": "Contratto di trading",
-      "transaction-details": "Riepilogo dell'ordine",
+      "transaction-details": "Riepilogo dell’ordine",
       "transaction-details-link": "Visualizza",
-      "warning-msg": "Autorizzo {{providerName}} per addebitare l'importo di cui sopra all'account indicato nella data odierna. Non contesterò {{providerName}} l'addebito al mio account, a condizione che la transazione corrisponda ai termini presenti in questo modulo online e al mio accordo con {{providerName}}."
+      "warning-msg": "Autorizzo {{providerName}} per addebitare l’importo di cui sopra all’account indicato nella data odierna. Non contesterò {{providerName}} l’addebito al mio account, a condizione che la transazione corrisponda ai termini presenti in questo modulo online e al mio accordo con {{providerName}}."
     },
     "review-transfer-funds": {
-      "transfer-to": "Trasferisci <0 /> sull'account elencato di seguito.",
+      "transfer-to": "Trasferisci <0 /> sull’account elencato di seguito.",
       "transfer-to-label": "Trasferisci questo importo",
       "name-registered": "Il conto bancario che usi per pagare deve essere registrato con lo stesso nome del tuo conto Nash.",
       "make-transfer-soon": "Effettua il trasferimento il prima possibile. Se non riceviamo i fondi entro cinque giorni, il tuo ordine verrà annullato. Il conto bancario che usi per pagare deve essere registrato con lo stesso nome del tuo conto Nash.",
@@ -2560,22 +2561,22 @@
       "not-uploaded": "Non caricato",
       "document": "Documento",
       "documents": "Documenti",
-      "pop-upload-time": "Devi caricare la prova del pagamento entro 60 minuti dall'invio dei fondi affinché questa transazione sia valida.",
+      "pop-upload-time": "Devi caricare la prova del pagamento entro 60 minuti dall’invio dei fondi affinché questa transazione sia valida.",
       "add-default-docs": "<0>Aumenta i miei limiti</0>",
       "overlimit-message-level1": "Devi <0>completare il tuo profilo</0> prima di poter acquistare asset digitali.",
       "overlimit-message-level2": "Questa transazione supererebbe il limite mensile.",
-      "government-id-or-passport": "Documento d' identità",
-      "government-id": "Carta d'identità Nazionale",
-      "government-id-front": "Carta d'identità Nazionale (fronte)",
-      "government-id-back": "Carta d'identità Nazionale (retro)",
+      "government-id-or-passport": "Documento d’ identità",
+      "government-id": "Carta d’identità Nazionale",
+      "government-id-front": "Carta d’identità Nazionale (fronte)",
+      "government-id-back": "Carta d’identità Nazionale (retro)",
       "passport": "Passaporto",
       "utility-bill": "Bolletta",
-      "selfie-with-id": "Selfie con carta d'identità",
+      "selfie-with-id": "Selfie con carta d’identità",
       "include-reference": "Devi includere questo.",
       "proof-of-payment": "Prova del pagamento",
       "transfer-instructions-singular": "Trasferisci <0>{{amount}}</0> al seguente conto bancario:",
       "transfer-instructions-plural": "Trasferisci <0>{{amount}}</0> ad uno dei seguenti account bancari:",
-      "include-payment-reference": "Per completare l'acquisto, carica uno screenshot del tuo trasferimento come prova del pagamento.",
+      "include-payment-reference": "Per completare l’acquisto, carica uno screenshot del tuo trasferimento come prova del pagamento.",
       "reference": "Riferimento",
       "bank-name": "Nome della Banca",
       "bank-swift": "SWIFT/BIC della Banca",
@@ -2583,7 +2584,7 @@
       "bank-address": "Indirizzo della Banca",
       "bank-iban": "IBAN",
       "upload-proof-of-payment": "Carica una prova di pagamento, ad esempio uno screenshot della transazione dalla tua piattaforma di online banking.",
-      "proof-of-payment-file-formats": "L'immagine deve essere nei formati BMP, JPEG, PDF o PNG.",
+      "proof-of-payment-file-formats": "L’immagine deve essere nei formati BMP, JPEG, PDF o PNG.",
       "create-account": {
         "enter-registration-code": "Inserisci il tuo codice di registrazione"
       },
@@ -2616,28 +2617,28 @@
         "first-name-characters-invalid": "Il nome deve contenere solo lettere e trattini.",
         "last-name-required": "Il cognome è richiesto.",
         "last-name-characters-invalid": "Il cognome deve contenere solo lettere e trattini.",
-        "email-required": "L'email è richiesta.",
-        "email-invalid": "L'email deve essere valida.",
+        "email-required": "L’email è richiesta.",
+        "email-invalid": "L’email deve essere valida.",
         "date": "Data non valida",
         "month": "Mese non valido",
         "year": "Anno non valido",
         "zip": "Il codice postale deve contenere da quattro a dieci cifre",
         "verification-code-invalid": "Codice di verifica non valido.",
         "bank-name-required": "Il nome della Banca è richiesto.",
-        "iban-required": "L'IBAN è richiesto.",
-        "iban-too-short": "L' IBAN deve contenere almeno 16 caratteri.",
-        "iban-too-long": "L'IBAN non deve superare i 34 caratteri di lunghezza.",
-        "iban-characters-invalid": "L'IBAN deve contenere solo lettere e numeri.",
-        "iban-country-code-invalid": "L'IBAN deve iniziare con un codice paese valido di due lettere.",
+        "iban-required": "L’IBAN è richiesto.",
+        "iban-too-short": "L’ IBAN deve contenere almeno 16 caratteri.",
+        "iban-too-long": "L’IBAN non deve superare i 34 caratteri di lunghezza.",
+        "iban-characters-invalid": "L’IBAN deve contenere solo lettere e numeri.",
+        "iban-country-code-invalid": "L’IBAN deve iniziare con un codice paese valido di due lettere.",
         "iban-already-used": "IBAN già associato a un account.",
         "swift-required": "SWIFT/BIC è richiesto.",
         "swift-length-invalid": "SWIFT/BIC deve contenere da 8 a 11 caratteri."
       },
       "profile-status": {
         "incomplete": "Completa il tuo profilo per aumentare i tuoi limiti.",
-        "pending": "La verifica dell'identità è in sospeso.",
-        "succeeded": "Verifica dell'identità riuscita.",
-        "failed": "Verifica dell'identità non riuscita."
+        "pending": "La verifica dell’identità è in sospeso.",
+        "succeeded": "Verifica dell’identità riuscita.",
+        "failed": "Verifica dell’identità non riuscita."
       },
       "field-status": {
         "incomplete": "Non completo",
@@ -2653,9 +2654,9 @@
       "heading": {
         "add-phone-number": "Aggiungi il tuo numero di telefono",
         "add-residential-address": "Aggiungi il tuo indirizzo di residenza",
-        "government-id-or-passport": "Carica il tuo documento d'identità",
+        "government-id-or-passport": "Carica il tuo documento d’identità",
         "utility-bill": "Carica una bolletta",
-        "selfie-with-id": "Carica un selfie con la carta d'identità",
+        "selfie-with-id": "Carica un selfie con la carta d’identità",
         "upload-proof-of-payment": "Carica una prova del pagamento",
         "success": "Riuscito!"
       },
@@ -2670,7 +2671,7 @@
       "details-shared": {
         "title": "{{ccpro}} ti ha inviato una email",
         "desc": "Controlla la tua e-mail e verifica il tuo account con {{ccpro}}.<0 />Se non vedi la loro email, controlla la cartella della posta indesiderata.",
-        "button": "Invia nuovamente l'email di verifica"
+        "button": "Invia nuovamente l’email di verifica"
       },
       "transactions": {
         "order-id": "ID ordine",
@@ -2729,11 +2730,11 @@
     "your-currency-balances": "Il tuo {{currencySymbol}} saldo",
     "resetting-account": {
       "title": "Risincronizza il saldo del tuo contratto di trading.",
-      "desc": "Ciò rilascerà fondi bloccati in uno stato 'In sospeso'. Questo processo annullerà i trade aperti.",
+      "desc": "Ciò rilascerà fondi bloccati in uno stato ‘In sospeso’. Questo processo annullerà i trade aperti.",
       "button": "Risincronizza account",
       "resyncing": "Risincronizzando…",
       "error": "Risincronizzazione fallita. Per favore <0>contatta il supporto.</0>",
-      "wait-error": "Attendi almeno 2 ore dopo l'ultimo deposito prima di utilizzare questa pagina.",
+      "wait-error": "Attendi almeno 2 ore dopo l’ultimo deposito prima di utilizzare questa pagina.",
       "success": "Risincronizzazione riuscita!"
     },
     "transaction-retry": {
@@ -2850,9 +2851,9 @@
             }
           },
           "movement": {
-            "error": "Attendere il completamento dell'ultimo trasferimento di Ethereum.",
+            "error": "Attendere il completamento dell’ultimo trasferimento di Ethereum.",
             "pending-error": "Attendere il completamento del trasferimento di Ethereum in sospeso.",
-            "token-requires-approval": "L'approvazione di {{ amount }} {{ currency }} è necessaria per trasferire questo token al contratto commerciale."
+            "token-requires-approval": "L’approvazione di {{ amount }} {{ currency }} è necessaria per trasferire questo token al contratto commerciale."
           },
           "transfer-amount": {
             "label": "Importo da trasferire",
@@ -2873,7 +2874,7 @@
             "title": "Aggiornamento della transazione",
             "errors": {
               "syncing": "Stiamo sincronizzando i tuoi fondi di {{currencySymbol}} nel nostro sistema. Attendi un minuto e riprova.",
-              "transaction-failed": "L'ultima transazione inviata di {{currencySymbol}} è fallita. Per favore riprova."
+              "transaction-failed": "L’ultima transazione inviata di {{currencySymbol}} è fallita. Per favore riprova."
             }
           },
           "fees": {
@@ -2920,9 +2921,9 @@
           }
         },
         "hints": {
-          "btc-gas-hint": "Per l'esecuzione delle transazioni è necessaria una piccola commissione di rete.",
-          "eth-gas-hint": "Per l'esecuzione delle transazioni è necessaria una piccola commissione di rete. Le commissioni per i token basati su Ethereum vengono pagate tramite ETH.",
-          "neo-gas-hint": "Di solito è necessaria una piccola commissione di rete durante l'esecuzione delle transazioni. Le commissioni per i token basati su NEO vengono pagate tramite GAS.",
+          "btc-gas-hint": "Per l’esecuzione delle transazioni è necessaria una piccola commissione di rete.",
+          "eth-gas-hint": "Per l’esecuzione delle transazioni è necessaria una piccola commissione di rete. Le commissioni per i token basati su Ethereum vengono pagate tramite ETH.",
+          "neo-gas-hint": "Di solito è necessaria una piccola commissione di rete durante l’esecuzione delle transazioni. Le commissioni per i token basati su NEO vengono pagate tramite GAS.",
           "eth-transfer-hint": "Mentre i trasferimenti sono in sospeso, il saldo mostrato potrebbe non essere accurato."
         },
         "steps": [
@@ -2949,8 +2950,8 @@
           "title": "Trasferimento in corso…",
           "title-initializing": "Trasferimento inizializzato…",
           "desc": "Visita <0>Trasferimenti</0> per tracciare il suo stato.",
-          "warning": "Questo può richiedere fino a un'ora.",
-          "remain-opened": "Tieni Nash aperto durante l'inizializzazione del trasferimento. Se chiudi Nash o esci, verrà messo in pausa fino a quando non accedi di nuovo.",
+          "warning": "Questo può richiedere fino a un’ora.",
+          "remain-opened": "Tieni Nash aperto durante l’inizializzazione del trasferimento. Se chiudi Nash o esci, verrà messo in pausa fino a quando non accedi di nuovo.",
           "buttons": {
             "finish": "Finito!"
           }
@@ -2961,8 +2962,8 @@
         "notice": "Puoi negoziare su Nash Exchange solo dopo aver inviato fondi al contratto di trading.",
         "actions": {
           "action-1": "Tu <0>puoi</0> spostare i fondi avanti e indietro tra il tuo account personale e account esterni.",
-          "action-2": "Allo stesso modo, <0> puoi </0> spostare i fondi avanti e indietro tra il tuo account personale e il contratto di trading.",
-          "action-3": "<0> Non puoi </0> spostare fondi tra il contratto di trading e account esterni senza passare tramite il tuo account personale. Questo ci aiuta a mantenere sicuri i fondi utilizzati per il trading: sei sempre tu a depositare ed a prelevare."
+          "action-2": "Allo stesso modo, <0>puoi</0> spostare i fondi avanti e indietro tra il tuo account personale e il contratto di trading.",
+          "action-3": "<0>Non puoi</0> spostare fondi tra il contratto di trading e account esterni senza passare tramite il tuo account personale. Questo ci aiuta a mantenere sicuri i fondi utilizzati per il trading: sei sempre tu a depositare ed a prelevare."
         },
         "continue-button": "OK, continua",
         "dismiss-link": "Rimuovi per sempre e continua"
@@ -2990,7 +2991,7 @@
           "retry-pending": "Riprova ad inviare la transazione",
           "cancel-intent": "Cancella la transazione",
           "clear-intent": "Pulisci il trasferimento",
-          "contact-support": "Si prega di contattare l'assistenza",
+          "contact-support": "Si prega di contattare l’assistenza",
           "received-currency": "Ricevuto {{currencySymbol}}",
           "receiving-currency": ">Ricevendo {{currencySymbol}}",
           "transferred-currency": "Inviato {{currencySymbol}}",
@@ -3162,7 +3163,7 @@
       "create-transfer": "Crea trasferimento",
       "review-and-start-transfer": "Rivedi e inizia il trasferimento",
       "transfer-has-started": "Il tuo trasferimento è iniziato",
-      "check-tranfer-info-part1": "Puoi controllare l'avanzamento del tuo trasferimento in",
+      "check-tranfer-info-part1": "Puoi controllare l’avanzamento del tuo trasferimento in",
       "check-tranfer-info-link": "Transazioni",
       "check-tranfer-info-part2": "sezione ‘Fondi’.",
       "external-address": "Indirizzo esterno",
@@ -3193,7 +3194,7 @@
       "recipients-address": "Indirizzo del destinatario",
       "enter-their-wallet": "Inserisci il loro indirizzo di portafoglio",
       "check-destination-title": "Controlla il tuo indirizzo di destinazione due volte.",
-      "check-destination-description": "L'invio di fondi all'indirizzo errato comporterà la perdita di tali fondi per sempre."
+      "check-destination-description": "L’invio di fondi all’indirizzo errato comporterà la perdita di tali fondi per sempre."
     },
     "form-wallet": {
       "confirmations": "Conferme",
@@ -3202,7 +3203,7 @@
     "send-confirmation-box": {
       "only-send-one-asset": "Invia solo {{currency}} a questo indirizzo.",
       "only-send-multiple-asset": "Invia solo {{currenciesWithoutLast}} o {{lastCurrency}} asset a questo indirizzo.",
-      "you-can-lose-funds": "L'invio di fondi all'indirizzo errato comporterà la perdita di tali fondi per sempre."
+      "you-can-lose-funds": "L’invio di fondi all’indirizzo errato comporterà la perdita di tali fondi per sempre."
     },
     "password": {
       "title": "Inserisci le credenziali"
@@ -3214,14 +3215,14 @@
           "privacy-notice": "Informativa sulla Privacy",
           "user-agreement": "Accordo per gli utenti"
         },
-        "desc": "Si prega di leggere e accettare l'{{termsName}}.",
-        "message": "Accetto l'<0>{{termsName}}</0>."
+        "desc": "Si prega di leggere e accettare l’{{termsName}}.",
+        "message": "Accetto l’<0>{{termsName}}</0>."
       },
       "confirm-notice": "Se non si accettano i termini e le condizioni di cui sopra, non sarà possibile continuare ad utilizzare i servizi di Nash.",
       "confirm-button": "Conferma",
       "sign-out-link": "Esci",
       "errors": {
-        "generic-error": "C'è stato un errore. Per favore riprova."
+        "generic-error": "C’è stato un errore. Per favore riprova."
       }
     },
     "search-contact": {
@@ -3270,7 +3271,7 @@
     "kyc": {
       "state-label": "Stato",
       "rejected": "Livello 1 stato negato",
-      "rejected-subtitle": "Sfortunatamente, non potrai procedere oltre. Se ritieni che si tratti di un errore, contatta il nostro <0> team di supporto. </0> ",
+      "rejected-subtitle": "Sfortunatamente, non potrai procedere oltre. Se ritieni che si tratti di un errore, contatta il nostro <0>team di supporto.</0> ",
       "details": {
         "missing_signature": {
           "title": "Firma mancante",
@@ -3290,7 +3291,7 @@
         },
         "no_face_present": {
           "title": "Nessun volto rilevato",
-          "content": "Non è stato possibile rilevare il tuo volto nell'immagine fornita."
+          "content": "Non è stato possibile rilevare il tuo volto nell’immagine fornita."
         },
         "photocopy_black_white": {
           "title": "Originale richiesto",
@@ -3318,15 +3319,15 @@
         },
         "no_document": {
           "title": "Documento non trovato",
-          "content": "Non è stato possibile trovare un documento di identità nell'immagine fornita."
+          "content": "Non è stato possibile trovare un documento di identità nell’immagine fornita."
         },
         "multiple_people": {
           "title": "Persone multiple rilevate",
-          "content": "Abbiamo rilevato più persone nell'immagine che hai fornito. Devi essere l'unica persona nell'immagine."
+          "content": "Abbiamo rilevato più persone nell’immagine che hai fornito. Devi essere l’unica persona nell’immagine."
         },
         "BLURRED": {
           "title": "Immagine sfocata",
-          "content": "L'immagine che hai fornito è sfocata."
+          "content": "L’immagine che hai fornito è sfocata."
         },
         "sample_document": {
           "title": "Originale richiesto",
@@ -3338,7 +3339,7 @@
         },
         "liveness_failed": {
           "title": "Verifica di identità fallita",
-          "content": "Non è stato possibile determinare la presenza di una persona reale nell'immagine fornita dall'utente."
+          "content": "Non è stato possibile determinare la presenza di una persona reale nell’immagine fornita dall’utente."
         },
         "ip_address_is_crawler": {
           "title": "Crawler rilevato",
@@ -3358,7 +3359,7 @@
         },
         "bad_quality": {
           "title": "Qualità scarsa",
-          "content": "La qualità dell'immagine che hai fornito è troppo scarsa."
+          "content": "La qualità dell’immagine che hai fornito è troppo scarsa."
         },
         "camera_black_white": {
           "title": "Bianco e nero",
@@ -3378,16 +3379,16 @@
         },
         "missing_back": {
           "title": "Richiesta retro documento",
-          "content": "Non hai fornito un'immagine del retro del documento."
+          "content": "Non hai fornito un’immagine del retro del documento."
         },
         "face_not_fully_visible": {
           "title": "Faccia oscurata",
-          "content": "Il tuo viso non è completamente visibile nell'immagine che hai fornito."
+          "content": "Il tuo viso non è completamente visibile nell’immagine che hai fornito."
         }
       },
       "steps": [
         "Dettagli personali",
-        "Dettagli dell'indirizzo",
+        "Dettagli dell’indirizzo",
         "Conferma dettagli"
       ],
       "invalid-age-error": "Devi inserire una data di nascita valida.",
@@ -3420,7 +3421,7 @@
       },
       "select-address-step": {
         "title": "Indirizzi trovati",
-        "manual-entry-label": "Inserisci l'indirizzo manualmente",
+        "manual-entry-label": "Inserisci l’indirizzo manualmente",
         "select-label": "Seleziona",
         "no-results-found-title": "Non siamo riusciti a trovare il tuo indirizzo",
         "no-results-found-body": "Assicurati di includere il tuo codice postale.",
@@ -3431,9 +3432,9 @@
       "confirm-details": {
         "begin-button-label": "Questi dettagli sono corretti",
         "your-details": "Dettagli personali",
-        "address-details": "Dettagli dell'indirizzo",
+        "address-details": "Dettagli dell’indirizzo",
         "edit-label": "Modifica",
-        "submission-error": "Si è verificato un errore durante l'invio dei dati."
+        "submission-error": "Si è verificato un errore durante l’invio dei dati."
       }
     },
     "profile": {
@@ -3459,15 +3460,15 @@
           "update-email": "Cambia indirizzo email",
           "password": "Password",
           "update-password": "Cambia password",
-          "two-factor": "Ti consigliamo di abilitare l'autenticazione a due fattori nella pagina <0>Sicurezza</0>.",
-          "two-factor-enable": "L'autenticazione a due fattori può essere disabilita alla pagina <0>Sicurezza</0>."
+          "two-factor": "Ti consigliamo di abilitare l’autenticazione a due fattori nella pagina <0>Sicurezza</0>.",
+          "two-factor-enable": "L’autenticazione a due fattori può essere disabilita alla pagina <0>Sicurezza</0>."
         }
       },
       "modals": {
         "update-name": {
           "title": "Aggiorna nome",
           "label": "Nome",
-          "tier0-summary": "Per aggiornare il tuo nome, completa <0> verifica di Livello 1</0>.",
+          "tier0-summary": "Per aggiornare il tuo nome, completa <0>verifica di Livello 1</0>.",
           "tier0-details": "Quando la tua richiesta per il Livello 1 è stata approvata, aggiorneremo il tuo nome con il nome legale sui documenti che hai fornito.",
           "tier1-summary": "Se il tuo nome legale è cambiato e desideri aggiornarlo, per favore <0>contatta il supporto</0>.",
           "tier1-details": "Ripristineremo il tuo livello di verifica e ti chiederemo di ripetere la procedura di verifica utilizzando i tuoi nuovi documenti. Una volta che la tua richiesta è stata approvata, aggiorneremo il tuo nome con quello legale sui documenti che hai fornito."
@@ -3479,8 +3480,8 @@
           "tier1": "Ripristineremo il tuo livello di verifica e ti chiederemo di ripetere la procedura di verifica utilizzando i tuoi nuovi documenti. Una volta che la tua richiesta è stata approvata, aggiorneremo il tuo Paese di residenza sul Paese sui documenti che hai fornito."
         },
         "update-email": {
-          "success-header": "Ti abbiamo inviato un'email!",
-          "success-description": "Ti abbiamo inviato un'email di conferma per iniziare il processo di aggiornamento dell'indirizzo. Se non vedi la nostra email, controlla la cartella della posta indesiderata.",
+          "success-header": "Ti abbiamo inviato un’email!",
+          "success-description": "Ti abbiamo inviato un’email di conferma per iniziare il processo di aggiornamento dell’indirizzo. Se non vedi la nostra email, controlla la cartella della posta indesiderata.",
           "success-back": "Fatto!",
           "title": "Cambia email",
           "current-email-label": "Il tuo attuale indirizzo email",
@@ -3520,7 +3521,7 @@
           "success": "La tua password è stata cambiata con successo.",
           "errors": {
             "password-must-change": "La tua nuova password dovrebbe essere diversa dalla tua vecchia password.",
-            "password-already-used": "Hai già usato questa password. Per favore scegline un' altra.",
+            "password-already-used": "Hai già usato questa password. Per favore scegline un’ altra.",
             "missing-key": "Chiavi della firma mancanti. Aggiorna questa pagina e riprova."
           }
         }
@@ -3550,20 +3551,20 @@
     },
     "security": {
       "title": "Sicurezza",
-      "header": "Sicurezza dell'account",
+      "header": "Sicurezza dell’account",
       "desc": "Abilita autenticazione a due fattori qui.",
       "cards": {
         "2fa": {
           "label": "Autenticazione a due fattori",
-          "header": "L'autenticazione a due fattori è:",
-          "desc": "Ti consigliamo di mantenere attivata l'autenticazione a due fattori (2FA). Aggiunge un ulteriore livello di sicurezza al tuo account.",
+          "header": "L’autenticazione a due fattori è:",
+          "desc": "Ti consigliamo di mantenere attivata l’autenticazione a due fattori (2FA). Aggiunge un ulteriore livello di sicurezza al tuo account.",
           "enabled": "Abilitata",
           "disabled": "Disabilitata",
           "enable": "Abilitare",
           "disable": "Disabilitare (non raccomandato)"
         },
         "all-account-activity": {
-          "label": "Tutte le attività dell'account",
+          "label": "Tutte le attività dell’account",
           "tabs": {
             "sessions": "Sessioni",
             "allowed-devices": "Dispositivi consentiti",
@@ -3596,11 +3597,11 @@
       "modals": {
         "enable-2fa": {
           "1": {
-            "header": "Scarica e installa un'app di autenticazione",
+            "header": "Scarica e installa un’app di autenticazione",
             "desc": "Raccomandiamo <0>LastPass Authenticator</0>, <1>Authy</1> o <2>Google Authenticator</2>."
           },
           "2": {
-            "header": "Scansiona questo codice QR con l'app di autenticazione scelta",
+            "header": "Scansiona questo codice QR con l’app di autenticazione scelta",
             "desc": "In alternativa, puoi aggiungerlo manualmente.",
             "manual-2fa": "Chiave di inserimento manuale 2FA"
           },
@@ -3609,17 +3610,17 @@
             "input-placeholder": "Codice di autenticazione"
           },
           "enable": "Enable",
-          "title": "Imposta l'autenticazione a due fattori"
+          "title": "Imposta l’autenticazione a due fattori"
         },
         "disable-2fa": {
-          "title": "Disabilita l'autenticazione a due fattori",
-          "warning": "Ti consigliamo di mantenere attivata l'autenticazione a due fattori (2FA). Aggiunge un ulteriore livello di sicurezza al tuo account.",
+          "title": "Disabilita l’autenticazione a due fattori",
+          "warning": "Ti consigliamo di mantenere attivata l’autenticazione a due fattori (2FA). Aggiunge un ulteriore livello di sicurezza al tuo account.",
           "disable": "Disabilita"
         },
         "success": {
           "header": "Successo!",
-          "enabled": "L'autenticazione a due fattori è stata abilitata.",
-          "disabled": "L'autenticazione a due fattori è stata disabilitata.",
+          "enabled": "L’autenticazione a due fattori è stata abilitata.",
+          "disabled": "L’autenticazione a due fattori è stata disabilitata.",
           "back": "Fatto!"
         }
       }
@@ -3636,7 +3637,7 @@
       "info-title": "Alcune blockchain supportano più asset",
       "info-body": "Gli asset ERC-20 e NEP-5 sono token emessi rispettivamente sulle blockchain Ethereum e NEO. GAS è un asset archiviato sulla blockchain NEO. È necessario un solo account Ethereum per archiviare i token ETH e ERC-20 e un account NEO per archiviare i token NEO, GAS e NEP-5.",
       "public-address-sub-label": "Quali asset posso inviare qui?",
-      "public-address-tooltip": "Questo è l'indirizzo blockchain in cui sono archiviati i tuoi asset.",
+      "public-address-tooltip": "Questo è l’indirizzo blockchain in cui sono archiviati i tuoi asset.",
       "private-key-label": "Chave privata",
       "private-key-sub-label-show": "Mostra chiavi private",
       "private-key-sub-label-hide": "Nascondi chiavi private",
@@ -3714,7 +3715,7 @@
           "address": "Indirizzo",
           "proof-of-address": "Prova di indirizzo",
           "pep-check": "Controllo PEP",
-          "photo-id": "Foto documento d'identità",
+          "photo-id": "Foto documento d’identità",
           "selfie": "Selfie",
           "date-of-birth": "Data di nascita",
           "net-worth": "Patrimonio netto",
@@ -3743,11 +3744,11 @@
               ],
               "download": {
                 "header": "È possibile verificarsi a Livello 1 tramite la nostra app per smartphone.",
-                "downloaded-app": "Ho scaricato l'app"
+                "downloaded-app": "Ho scaricato l’app"
               },
               "scan-code": {
-                "header": "Inquadra il seguente codice QR con l'app Nash:",
-                "desc": "Quando avrai completato la verifica a Livello 1, l'esito apparirà qui entro un minuto"
+                "header": "Inquadra il seguente codice QR con l’app Nash:",
+                "desc": "Quando avrai completato la verifica a Livello 1, l’esito apparirà qui entro un minuto"
               }
             },
             "web": {
@@ -3837,10 +3838,10 @@
           },
           "par-4": {
             "title": "Come ricevo i miei dividendi?",
-            "desc": "I dividendi vengono automaticamente aggiunti al saldo del contratto di trading. Sono pagati su base giornaliera, poco dopo mezzanotte UTC. Nash fornisce resoconti mensili degli stake che aggregano questi pagamenti in un'unica cifra ai fini contabili. Poiché le commissioni su una transazione vengono addebitate nella valuta scambiata, riceverai dividendi in ogni asset attualmente negoziato su Nash."
+            "desc": "I dividendi vengono automaticamente aggiunti al saldo del contratto di trading. Sono pagati su base giornaliera, poco dopo mezzanotte UTC. Nash fornisce resoconti mensili degli stake che aggregano questi pagamenti in un’unica cifra ai fini contabili. Poiché le commissioni su una transazione vengono addebitate nella valuta scambiata, riceverai dividendi in ogni asset attualmente negoziato su Nash."
           },
           "par-5": {
-            "title": "Posso ricevere i miei dividendi in un'unica valuta?",
+            "title": "Posso ricevere i miei dividendi in un’unica valuta?",
             "desc": "No. Per motivi legali, non possiamo convertire i tuoi dividendi per te. Tuttavia, stiamo sviluppando uno strumento che ti consente di convertire i dividendi con un solo clic."
           },
           "par-6": {
@@ -3853,7 +3854,7 @@
           },
           "par-8": {
             "title": "Quanti stake posso creare?",
-            "desc": "Non c'è un limite al numero di stake che puoi creare."
+            "desc": "Non c’è un limite al numero di stake che puoi creare."
           }
         }
       },
@@ -3861,7 +3862,7 @@
         "create-stake-disclaimer-label": "Capisco che lo stake di NEX paga dividendi solo se lo scambio di Nash genera entrate.",
         "title": "Crea il tuo stake",
         "amount-to-stake": "Importo di NEX da mettere in stake",
-        "amount-to-stake-tooltip": "Il tasso di staking determina la dimensione della quota proporzionale delle entrate dallo scambio di Nash. Più a lungo metti in stake i tuoi NEX, maggiore sarà il tuo tasso di staking, con un tasso massimo del 75% per uno stake di due anni.\n\n<0>Un esempio di dividendo</0>\n I dividendi sono pagati giornalmente. Supponiamo che Nash abbia generato commissioni equivalenti a $ 1.000.000 nelle ultime 24 ore e che un utente possieda 1.000 token NEX sul totale di 50.000.000 di fornitura. Se l'utente ha uno stake di NEX per un tasso di staking del 75% per due anni, ha diritto ad un dividendo: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
+        "amount-to-stake-tooltip": "Il tasso di staking determina la dimensione della quota proporzionale delle entrate dallo scambio di Nash. Più a lungo metti in stake i tuoi NEX, maggiore sarà il tuo tasso di staking, con un tasso massimo del 75% per uno stake di due anni.\n\n<0>Un esempio di dividendo</0>\n I dividendi sono pagati giornalmente. Supponiamo che Nash abbia generato commissioni equivalenti a $ 1.000.000 nelle ultime 24 ore e che un utente possieda 1.000 token NEX sul totale di 50.000.000 di fornitura. Se l’utente ha uno stake di NEX per un tasso di staking del 75% per due anni, ha diritto ad un dividendo: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
         "available-balance": "Saldo disponibile per lo stake ⋅",
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Imposta durate dello stake",
@@ -3960,7 +3961,7 @@
         "notice-text": "Tutte le informazioni associate a questo contatto verranno rimosse in modo permanente.",
         "button": "Si, cancella",
         "cancel": "Cancella",
-        "error": "Errore durante l'eliminazione del contatto. Per favore riprova.",
+        "error": "Errore durante l’eliminazione del contatto. Per favore riprova.",
         "success": "Contatto cancellato.",
         "success-button": "Ritorna ai contatti"
       },
