@@ -1208,7 +1208,7 @@
         },
         "edit": {
           "header": "Inserisci le tue dodici parole segrete",
-          "desc-1": "Usiamo le tue parole segrete per rigenerare il tuo seed principale e i singoli account delle risorse.",
+          "desc-1": "Usiamo le tue parole segrete per rigenerare il tuo seed principale e i singoli account degli asset.",
           "desc-2": "Se non riesci a fornire le dodici parole per i tuoi account esistenti, <0>i tuoi fondi sarnno persi.</0>",
           "card-title": "Tutte le parole sono minuscole",
           "card-reset": "Cancella tutte le parole",
@@ -1226,7 +1226,7 @@
           "checkbox-1": "Ho perso sia la mia password che le mie dodici parole segrete.",
           "checkbox-2": "Comprendo che perderò il mio account perdendo tutto l’accesso ai miei fondi.",
           "submit": "Ripristina il mio account",
-          "sub-bullet-1": "Tutte le risorse nel tuo account personale",
+          "sub-bullet-1": "Tutti gli asset nel tuo account personale",
           "sub-bullet-2": "Tutte le attività nel contratto di trading.",
           "sub-bullet-3": "Tutti i token NEX in stake.",
           "sub-bullet-4": "Tutti i dividendi dai token NEX in stake.",
@@ -1765,7 +1765,7 @@
       "select-btn": "Seleziona",
       "have-account-header": "Fornitori con cui ho creato un account",
       "no-account-header": "Fornitori con cui non ho creato un account",
-      "no-providers-title": "Sfortunatamente, al momento non ci sono fornitori di risorse digitali nella tua zona.",
+      "no-providers-title": "Sfortunatamente, al momento non ci sono fornitori di asset digitali nella tua zona.",
       "no-providers-more-info": "Impara di più riguardo <0>diventando un partner di valuta Nash</0>.",
       "credit-cards": "Carte di credito:",
       "debit-cards": "Carte di debito:",
@@ -1778,14 +1778,14 @@
     },
     "general-details": {
       "main-title": "Crea il tuo {{providerName}} account",
-      "subtitle": "Prima di poter acquistare o vendere risorse digitali, dobbiamo configurare il tuo account con {{providerName}}.",
+      "subtitle": "Prima di poter acquistare o vendere asset digitali, dobbiamo configurare il tuo account con {{providerName}}.",
       "legal-name-input-label": "Nome legale completo",
       "email-address-input-label": "Indirizzo email",
       "submit-btn": "Continua con i dettagli dell’indirizzo"
     },
     "address-details": {
       "main-title": "Crea il tuo {{providerName}} account",
-      "subtitle": "Prima di poter acquistare o vendere risorse digitali, dobbiamo configurare il tuo account con {{providerName}}.",
+      "subtitle": "Prima di poter acquistare o vendere asset digitali, dobbiamo configurare il tuo account con {{providerName}}.",
       "house-name-input-label": "Numero civico/nome",
       "street-name-input-label": "Via",
       "city-input-label": "Città",
@@ -2445,7 +2445,7 @@
     "confirmed-transaction": {
       "order-created": "Il tuo ordine è stato creato",
       "title": "Ordine creato",
-      "deposit": "Depositeremo le tue risorse sul tuo account personale Nash una volta che il pagamento è stato ricevuto.",
+      "deposit": "Depositeremo i tuoi asset sul tuo account personale Nash una volta che il pagamento è stato ricevuto.",
       "delay": "Può richiedere fino a {{days}} giorni lavorativi. Puoi visualizzare lo stato del deposito nella scheda <0>Transazioni</0>.",
       "dismiss": "Vedi la transazione"
     },
@@ -3059,7 +3059,7 @@
       "balances": {
         "header": {
           "title": "Portafoglio",
-          "hint": "Il valore totale delle tue risorse e il cambio di 24 ore."
+          "hint": "Il valore totale dei tuoi asset e il cambio di 24 ore."
         },
         "total": "Totale",
         "available": {
