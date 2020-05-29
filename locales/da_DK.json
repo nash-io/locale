@@ -1,66 +1,66 @@
 {
-  "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
-  "buy": "buy",
-  "sell": "sell",
-  "continue": "Continue",
+  "sandbox-warning": "Dette er et testmiljø for at teste API integrationen. Aldrig send ægte midler her!",
+  "buy": "køb",
+  "sell": "sælg",
+  "continue": "Fortsæt",
   "ok": "OK",
-  "back": "Back",
-  "help": "Help",
-  "and": "and",
-  "from": "From",
-  "to": "To",
-  "or": "or",
-  "price": "Price",
-  "fee": "Fee",
-  "try-again": "Try again",
-  "refresh": "Refresh",
-  "finish": "Finish",
-  "price-each": "{{price}} each",
+  "back": "Tilbage",
+  "help": "Hjælp",
+  "and": "og",
+  "from": "Fra",
+  "to": "Til",
+  "or": "eller",
+  "price": "Pris",
+  "fee": "Gebyr",
+  "try-again": "Prøv igen",
+  "refresh": "Opdater",
+  "finish": "Afslut",
+  "price-each": "{{price}} per styk",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "Remaining",
   "not-available-short": "N/A",
-  "set-price": "Set a price",
-  "market": "Market",
-  "market-price": "Market price",
-  "exchange": "Exchange",
-  "receive": "Receive",
-  "wallet": "Account",
+  "set-price": "Sæt en pris",
+  "market": "Marked",
+  "market-price": "Markedspris",
+  "exchange": "Børs",
+  "receive": "Modtag",
+  "wallet": "Konto",
   "upload": "Upload",
   "processing": "Processing…",
-  "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opens in new tab",
-  "failed-update": "Failed to update",
+  "over-file-limit": "Filstørrelsen må ikke overskride {{maxAllowedSize}}{{unit}}.",
+  "opens-new-tab": "Åbner i en ny fane",
+  "failed-update": "Kunne ikke opdatere",
   "reported-errors": "Errors reported",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "credit-card-expiry-placeholder": "MM/ÅÅ",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
-    "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
+    "no-addresses-whitelisted": "Du har ikke whitelisted nogen adresse endnu.",
+    "address-input-placeholder": "Indtast en BTC, NEO eller ETH adresse at whitelist",
+    "add-whitelisted": "Whitelisted adresser",
+    "duplicate-address-in-form": "Denne adresse er allerede whitelisted.",
+    "add-address": "Tilføj adresse",
+    "address-is-not-valid": "Adressen er ikke gyldig.",
     "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
+      "access": "Adgang",
+      "kyc": "Identitets verifikation",
+      "apitrade": "API handl",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
       "body": "Are you sure you want to revoke all your keys?",
       "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "cancel-button-label": "Gå tilbage"
     },
     "delete-token": {
       "body": "Are you sure you want to revoke ‘<0></0>’?",
       "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "cancel-button-label": "Gå tilbage"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "Adresse whitelist for {{name}}",
+      "add": "Tilføj en til",
+      "save-and-close": "Gem ændringer og luk",
+      "continue": "Fortsæt"
     },
     "overview": {
       "no-addresses-whitelisted": "No addresses whitelisted",
@@ -98,43 +98,43 @@
       "title": "Generate new API key"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "Navn",
+      "continue-button-label": "Opret nøgle"
     },
     "step2": {
-      "password": "Password",
+      "password": "Adgangskode",
       "two-fa-code": "Two-factor authentication code",
       "create-api-button-label": "Continue",
       "incorrect-password": "The password you entered was incorrect.",
       "incorrect-2fa": "The code you entered was incorrect."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Genererer din nøgle…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Din hemmelighed",
+      "your-secret-warning": "Det her er den eneste gang vi viser dig det her.",
+      "api-key": "Din API nøgle",
+      "api-key-warning": "Det her er den eneste gang vi viser dig det her.",
+      "download-as-json-button-label": "Download API nøgle og hemmelighed som JSON",
+      "i-saved-my-secret-button-label": "Jeg har gemt min hemmelighed"
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
-    "1w": "1w",
-    "1m": "1M"
+    "1h": "1t",
+    "1d": "24t",
+    "1w": "1u",
+    "1m": "1m"
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
+    "trading": "Handl",
+    "personal": "Personlig",
     "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
+    "transfer-funds": "Send/Modtag",
     "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
     "pending-transfer-link": "View your transfers here."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Estimeret gebyr: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
     "use-last": "Use last"
