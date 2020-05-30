@@ -1409,14 +1409,14 @@
       "review-order": {
         "header": "Vérifiez votre ordre",
         "columns": {
-          "prix du marché ":" Prix par {{currencyBuy}}",
-          "prix limite ":" Définir le prix par {{currencyBuy}}",
+          "market-price":"Prix par {{currencyBuy}}",
+          "limit-price":"Définir le prix par {{currencyBuy}}",
           "fee": "Frais de négociation maximum",
           "fiat-total": "Estimation {{currencyFiat}}"
         },
-        "desc": "Votre ordre restera sur le carnet d'ordre jusqu'à ce qu'il soit rempli, que vous l'annuliez ou que 24 heures se soient écoulées.",
+        "desc": "Votre ordre restera sur le carnet d’ordre jusqu’à ce qu’il soit rempli, que vous l’annuliez ou que 24 heures se soient écoulées.",
         "submit": "Créer un ordre",
-        "submit-placing": "Passer l'ordre…"
+        "submit-placing": "Passer l’ordre…"
       },
       "order-success": {
         "header": "Success!",
@@ -1432,13 +1432,13 @@
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Le solde de votre contrat de trading n'est plus suffisant pour couvrir cet ordre. Cela peut se produire si vous créez des ordres dans plusieurs onglets du navigateur en même temps.",
+            "0": "Le solde de votre contrat de trading n’est plus suffisant pour couvrir cet ordre. Cela peut se produire si vous créez des ordres dans plusieurs onglets du navigateur en même temps.",
             "1": "Pour une expérience de trading plus fluide, veuillez utiliser Nash dans un seul onglet de navigateur.",
-            "2": "<0> Envoyez / recevez </0> des fonds si vous souhaitez passer à nouveau cet ordre"
+            "2": "<0>Envoyez / recevez</0> des fonds si vous souhaitez passer à nouveau cet ordre"
           },
           "daily-limit-reached": {
             "0": "Votre ordre a été refusé car vous avez atteint votre limite de négociation quotidienne.",
-            "1": "Pour augmenter votre volume de négociation quotidien maximum, veuillez visiter <0> Limits </0>."
+            "1": "Pour augmenter votre volume de négociation quotidien maximum, veuillez visiter <0>Limits</0>."
           },
           "generic": {
             "0": "Erreur lors de votre ordre. Veuillez réessayer."
@@ -1549,14 +1549,14 @@
     "HT": "Haïti",
     "HU": "Hongrie",
     "ID": "Indonésie",
-    "IE": "Irlande ",
+    "IE": "Irlande",
     "IL": "Israël",
     "IM": "Île de Man",
     "IN": "Inde",
-    "IO": "Territoire britannique de l'océan Indien",
+    "IO": "Territoire britannique de l’océan Indien",
     "IQ": "Irak",
     "IR": "Iran",
-    "IS": "Islande ",
+    "IS": "Islande",
     "IT": "Italie",
     "JE": "Jersey",
     "JM": "Jamaïque",
@@ -1564,12 +1564,12 @@
     "JP": "Japon",
     "KE": "Kenya",
     "KG": "Kirghizistan",
-    "KH": "Cambodge ",
+    "KH": "Cambodge",
     "KI": "Kiribati",
     "KM": "Comores",
     "KN": "Saint-Kitts-et-Nevis",
-    "KP": "Corée du Nord ",
-    "KR": "Corée du Sud ",
+    "KP": "Corée du Nord",
+    "KR": "Corée du Sud",
     "KW": "Koweït",
     "KY": "Îles Caïmans",
     "KZ": "Kazakhstan",
@@ -1580,7 +1580,7 @@
     "LK": "Sri Lanka",
     "LR": "Libéria",
     "LS": "Lesotho",
-    "LT": "Lituanie ",
+    "LT": "Lituanie",
     "LU": "Luxembourg",
     "LV": "Lettonie",
     "LY": "Libye",
