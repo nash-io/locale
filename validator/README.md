@@ -1,5 +1,3 @@
-# locale-validator
-
 ### Usage
 
 ```typescript

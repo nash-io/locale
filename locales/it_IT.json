@@ -57,7 +57,7 @@
       "cancel-button-label": "Torna indietro"
     },
     "edit-whitelisted": {
-      "title": "Lista bianca degli indirizzi per {{name}}",
+      "title": "Whitelist degli indirizzi per {{name}}",
       "add": "Aggiungi un altro indirizzo",
       "save-and-close": "Salva le modifiche e chiudi",
       "continue": "Continua"
@@ -75,7 +75,7 @@
       "key-info": "Informazioni della chiave",
       "api-key": "Chiave API",
       "blockchains": "Blockchain",
-      "whitelisted": "Lista bianca",
+      "whitelisted": "Whitelist",
       "view-whitelist": "Visualizza la whitelist",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
       "blockchains-hint": "Questa chiave API può operare con queste blockchain.",
@@ -83,7 +83,7 @@
       "revoke": "Revoca",
       "created": "Creata",
       "policy-trading": "Trading",
-      "loading": "Caricamento dei token…",
+      "loading": "Caricamento dei token in corso…",
       "no-tokens": "Non hai ancora generato delle chiavi API.",
       "policy-withdrawals": "Prelievi e depositi",
       "revoke-all-keys-button-label": "Revoca tutte le chiavi",
@@ -94,7 +94,7 @@
       "credentials-step": "Credenziali utente",
       "whitelist-step": "Aggiungi indirizzi whitelist",
       "name-step": "Dai un nome alla tua chiave",
-      "last-step": "Salva una copia del segreto",
+      "last-step": "Salva una copia della chiave segreta",
       "title": "Genera una nuova chiave API"
     },
     "step1": {
@@ -112,12 +112,12 @@
       "generating-keys-message": "Generazione della chiave in corso…"
     },
     "step4": {
-      "your-secret": "Il tuo segreto",
-      "your-secret-warning": "Questa è l’unica volta in cui ti mostreremo il tuo segreto.",
+      "your-secret": "La tua chiave segreta",
+      "your-secret-warning": "Questa è l’unica volta in cui ti mostreremo la tua chiave segreta.",
       "api-key": "La tua chiave API",
       "api-key-warning": "Questa è l’unica volta in cui ti mostreremo la tua chiave API.",
-      "download-as-json-button-label": "Scarica la chiave API e il segreto come file JSON",
-      "i-saved-my-secret-button-label": "Ho salvato una copia del mio segreto"
+      "download-as-json-button-label": "Scarica la chiave API e la chiave segreta come file JSON",
+      "i-saved-my-secret-button-label": "Ho salvato una copia della mia chiave segreta"
     }
   },
   "terse-periods": {
@@ -129,7 +129,7 @@
   "transfer": {
     "trading": "Trading",
     "personal": "Personale",
-    "in-trades": "In scambi",
+    "in-trades": "In scambio",
     "transfer-funds": "Invia/Ricevi",
     "pending-transfer": "Hai un trasferimento in attesa di {{amount}} {{currencySymbol}}.",
     "pending-transfer-link": "Visualizza i tuoi trasferimenti qui."
@@ -243,7 +243,7 @@
         "pages": {
           "portfolio": "Portafoglio",
           "transfers": "Trasferimenti",
-          "assets": "Assets",
+          "assets": "Asset",
           "contacts": "Contatti"
         }
       },
@@ -265,8 +265,8 @@
           "preferences": "Preferenze",
           "security": "Sicurezza",
           "limits": "Limiti",
-          "accounts": "Conti",
-          "apikeys": "API keys"
+          "accounts": "Account",
+          "apikeys": "Chiavi API"
         }
       },
       "staking": {
@@ -279,7 +279,7 @@
     }
   },
   "search": "Cerca…",
-  "loading": "Caricamento…",
+  "loading": "Caricamento in corso…",
   "pending": "In attesa",
   "cancelling": "Cancellazione in corso…",
   "authenticating": "Autenticazione in corso…",
@@ -291,7 +291,7 @@
   "sending-approval": "Convalida dell’invio in corso…",
   "send-approval": "Convalida l’invio",
   "submit-transfer": "Avvia trasferimento",
-  "no-longer-sufficient-balance-for-tx": "Il tuo bilancio non è sufficiente per questa transazione.",
+  "no-longer-sufficient-balance-for-tx": "Il tuo saldo non è sufficiente per questa transazione.",
   "we-are-hiring": "Lavora con noi",
   "errors": {
     "location-banned-title": "Accesso bloccato",
@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Caricamento non riuscito.",
     "failed-button": "Caricamento non riuscito",
-    "failed-please-try": "<0>Caricamento non riuscito. Per favore</0>\u00A0<1>riprova</1>.",
+    "failed-please-try": "<0>Caricamento non riuscito. Per favore</0> <1>riprova</1>.",
     "why-this-may-happening": "Scopri le possibili cause per cui ciò è accaduto <0>qui.</0>"
   },
   "datetime": {
@@ -427,7 +427,7 @@
     "dismiss-message": "Non mostrare più questo messaggio."
   },
   "terms": {
-    "user-agreement": "Accordo per gli utenti",
+    "user-agreement": "Accordo con gli utenti",
     "privacy-notice": "Informativa sulla privacy"
   },
   "account-create": {
@@ -462,7 +462,7 @@
       "subheader": "I tuoi dettagli",
       "disclaimer": {
         "title": "Informativa per i clienti statunitensi",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "desc": "Stai creando un account Nash preliminare per partecipare al programma di referral, ma il tuo stato deve essere ammesso per accedere ad alcuni servizi Nash. Se ammesso, ti verrà chiesto in seguito di firmare un accordo per gli utenti."
       },
       "fields": {
         "full-name": {
@@ -537,8 +537,8 @@
           "title": "Suggerimenti per una password sicura",
           "desc": "Una password complessa è essenziale per proteggere i tuoi fondi. Segui questi suggerimenti per stare al sicuro:",
           "tip-index": "Suggerimento {{index}}",
-          "tip-1": "Non riutilizzare una password da altri siti Web, anche se si modificano singole parole o caratteri. Se sei phishing o hackerato altrove, il tuo account Nash sarà immediatamente compromesso.",
-          "tip-2": "Non includere informazioni personali nella password. Nomi, compleanni e indirizzi sono facili da scoprire e dovrebbero essere evitati.",
+          "tip-1": "Non riutilizzare una password da altri siti web, anche se si modificano singole parole o caratteri. Se dovessi cadere vittima di un attacco phishing o hacking altrove, il tuo account Nash sarebbe immediatamente compromesso.",
+          "tip-2": "Non includere informazioni personali nella password. Nomi, compleanni e indirizzi sono facili da scoprire e andrebbero evitati.",
           "tip-3": "Rendi la tua password lunga almeno dodici caratteri e usa una combinazione di lettere maiuscole e minuscole, numeri e caratteri speciali.",
           "tip-4": "Prendi in considerazione l’utilizzo di un generatore di password per creare e archiviare password con la massima sicurezza."
         }
@@ -550,13 +550,13 @@
         "weak": "Debole",
         "medium": "Media",
         "strong": "Forte",
-        "very-strong": "Molto sicura"
+        "very-strong": "Molto forte"
       }
     },
     "verify-email": {
       "header": "Ti abbiamo inviato una email!",
-      "desc-1": "Controlla la tua e-mail e verifica il tuo account.",
-      "desc-2": "Se non vedi la nostra email, controlla la cartella della posta spam.",
+      "desc-1": "Controlla la tua email e verifica il tuo account.",
+      "desc-2": "Se non vedi la nostra email, controlla nella tua cartella di spam.",
       "resend": "Invia nuovamente email di verifica",
       "resend-delay": "Attendere prego {{count}} secondo…",
       "resend-delay_plural": "Attendere prego {{count}} secondi…",
@@ -582,7 +582,7 @@
       "chart": {
         "card-top": "Dodici parole segrete",
         "card-top-right": "Ripristino dell’account Nash se la password viene dimenticata",
-        "diamond-one": "Used in",
+        "diamond-one": "Usato in",
         "diamond-two": "Genera il tuo account personale, che contiene…",
         "card-btc": "Account Bitcoin",
         "card-neo": "Account NEO",
@@ -607,10 +607,10 @@
         "print-warning": {
           "title": "Stampa le tue dodici parole segrete",
           "header": "Assicurati che la tua stampante sia sicura!",
-          "body-desc": "Se scegli di stampare le tue parole, assicurati di:",
-          "body-tips-0": "La stampante è collegata al computer direttamente con un cavo USB.",
-          "body-tips-1": "La stampante non è connessa a una rete di alcun tipo.",
-          "body-tips-2": "Per altri è impossibile connettersi alla stampante tramite Bluetooth, WLAN, ecc.",
+          "body-desc": "Se scegli di stampare le tue parole, assicurati che:",
+          "body-tips-0": "La stampante sia collegata al computer direttamente con un cavo USB.",
+          "body-tips-1": "La stampante non sia connessa a una rete di alcun tipo.",
+          "body-tips-2": "Per altri sia impossibile connettersi alla stampante tramite Bluetooth, WLAN, ecc.",
           "button": "Ho capito - stampa le mie parole"
         }
       },
@@ -618,7 +618,7 @@
       "backup-print": {
         "header": "Backup parole segrete",
         "desc-1": "Le tue dodici parole segrete possono essere utilizzate per accedere a ETH, NEO e altri account se perdi la password di Nash.",
-        "desc-2": "Remember: Ricorda: se qualcuno accede alle tue parole, i tuoi fondi sono in pericolo.",
+        "desc-2": "Ricorda: se qualcuno accede alle tue parole, i tuoi fondi sono in pericolo.",
         "desc-3": "Ritaglia il versante sotto. Prendi in considerazione la possibilità di separarle e conservarle in due posizioni separate."
       },
       "repeat-secret-words": {
@@ -627,15 +627,15 @@
         "input-placeholder": "Parola {{index}}",
         "case-sensitive": "Tutte le parole sono minuscole",
         "create-my-wallet": "Crea il mio account",
-        "generating-your-wallet": "Creazione del tuo account Nash…",
+        "generating-your-wallet": "Creazione del tuo account Nash in corso…",
         "errors": {
           "create-wallet-failed": "Si è verificato un errore durante la creazione del tuo account. Per favore <0>disconnettiti</0> e riprova."
         }
       },
       "wallet-created": {
         "header": "Il tuo account Nash è stato creato con successo!",
-        "desc": "Puoi trovare le tue dodici parole segrete e i dettagli dell’account individuale sotto ‘Il mio profilo > Accounts’.",
-        "warning": "<0>Non memorizziamo le tue parole segrete in nessun posto.</0> Se dimentichi la password, non potrai accedere ai tuoi fondi senza queste parole.",
+        "desc": "Puoi trovare le tue dodici parole segrete e i dettagli dell’account individuale sotto ‘Il mio profilo > Account’.",
+        "warning": "<0>Non memorizziamo le tue parole segrete da nessuna parte.</0> Se dimentichi la password, non potrai accedere ai tuoi fondi senza queste parole.",
         "continue": "Imposta l’autenticazione a due fattori",
         "continue-location": "Imposta il luogo di residenza"
       }
@@ -651,7 +651,7 @@
           "desc": "Ad esempio <0>LastPass Authenticator</0>, <1>Authy</1> o <2>Google Authenticator</2>."
         },
         "2": {
-          "header": "Scannerizza questo codice QR con l’app scaricata scelta",
+          "header": "Scansiona questo codice QR con l’app scaricata scelta",
           "manual-2fa": "Scrivi il tuo codice di backup 2FA"
         },
         "3": {
@@ -693,7 +693,7 @@
       "last-price": "Ultimo prezzo scambiato",
       "last-24h": "Ultime 24h",
       "24h-change": "Alto",
-      "24h-high": "High",
+      "24h-high": "Alto",
       "24h-low": "Basso",
       "24h-volume": "Volumi",
       "my-portfolio": "Il mio portafoglio"
@@ -720,8 +720,8 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>I tuoi mercati preferiti</0> appear come link qui.",
-      "tips": "<0>Tip</0> <1>Aggiungi i mercati preferiti come link qui.</1> <2 />"
+      "empty": "<0>I tuoi mercati preferiti</0> appaiono collegati qui.",
+      "tips": "<0>Tip</0> <1>Aggiungi qui i tuoi mercati preferiti.</1> <2 />"
     },
     "market-graphs": {
       "title": "Grafici",
@@ -891,21 +891,21 @@
           }
         },
         "maker-only": {
-          "label": "Post only",
-          "sub-label": "’Post only’ effettuerà il tuo ordine solo come produttore, non come acquirente. Potrebbe non riempirlo."
+          "label": "Pubblica solo",
+          "sub-label": "’Pubblica solo’ effettuerà il tuo ordine solo come produttore, non come acquirente. Potrebbe non riempirlo."
         },
         "cancellation-policy": {
           "label": "Tempo in vigore",
           "footer": "Per saperne di più"
         },
         "trading-balance": {
-          "label": "Disponibile {{currency}}: "
+          "label": "Disponibile {{currency}}:"
         }
       },
       "submit": {
         "buy": "Crea ordine di acquisto",
         "sell": "Crea ordine di vendita",
-        "placing": "Piazzamento ordine…"
+        "placing": "Piazzamento ordine in corso…"
       },
       "errors": {
         "order-rejected-insufficient-funds": "Il tuo ordine è stato rifiutato perché non disponi di fondi sufficienti.",
@@ -1067,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Ulteriori informazioni sulle nostre <1>commissioni<1>."
+    "learn-about-our-fees": "Ulteriori informazioni sulle nostre <1>commissioni</1>."
   },
   "auth": {
     "create-an-account": "Crea un account",
@@ -1106,7 +1106,7 @@
       "info": "La tua sessione sta per scadere a causa di inattività. La sessione verrà chiusa in {{count}} secondi.",
       "info_plural": "La tua sessione sta per scadere a causa di inattività. La sessione verrà chiusa in {{count}} secondi.",
       "stay-signed-in": "Rimani connesso",
-      "signing-out": "({{count}}s) Disconessione…"
+      "signing-out": "({{count}}s) Disconessione in corso…"
     },
     "signup": {
       "desc": "Non hai ancora un account?",
@@ -1159,7 +1159,7 @@
       },
       "messages": {
         "password-change": {
-          "success": "Se l’indirizzo email fornito corrisponde a un account già presente nel nostro database, ti invieremo le istruzioni su come reimpostare la password."
+          "success": "Se l’indirizzo email fornito corrisponde ad un account già presente nel nostro database, ti invieremo le istruzioni su come reimpostare la password."
         },
         "update-email": {
           "validation-success": "Abbiamo inviato un’email di verifica al tuo nuovo indirizzo email. Fare clic sul collegamento nell’e-mail per confermare il nuovo indirizzo.",
@@ -1208,7 +1208,7 @@
         },
         "edit": {
           "header": "Inserisci le tue dodici parole segrete",
-          "desc-1": "Usiamo le tue parole segrete per rigenerare il tuo seed principale e i singoli account delle risorse.",
+          "desc-1": "Usiamo le tue parole segrete per rigenerare il tuo seed principale e i singoli account degli asset.",
           "desc-2": "Se non riesci a fornire le dodici parole per i tuoi account esistenti, <0>i tuoi fondi sarnno persi.</0>",
           "card-title": "Tutte le parole sono minuscole",
           "card-reset": "Cancella tutte le parole",
@@ -1226,11 +1226,11 @@
           "checkbox-1": "Ho perso sia la mia password che le mie dodici parole segrete.",
           "checkbox-2": "Comprendo che perderò il mio account perdendo tutto l’accesso ai miei fondi.",
           "submit": "Ripristina il mio account",
-          "sub-bullet-1": "Tutte le risorse nel tuo account personale",
+          "sub-bullet-1": "Tutti gli asset nel tuo account personale",
           "sub-bullet-2": "Tutte le attività nel contratto di trading.",
           "sub-bullet-3": "Tutti i token NEX in stake.",
           "sub-bullet-4": "Tutti i dividendi dai token NEX in stake.",
-          "unauthorized": "Poiché il ripristino del tuo account ha implicazioni serie, devi prima contattare il nostro team di supporto per abilitarlo. ",
+          "unauthorized": "Poiché il ripristino del tuo account ha implicazioni serie, devi prima contattare il nostro team di supporto per abilitarlo.",
           "contact-support": "Contatta il supporto"
         }
       },
@@ -1270,7 +1270,7 @@
         "submit": "Imposta una nuova password"
       }
     },
-    "verify-email": "Verficia dell’indirizzo email…",
+    "verify-email": "Verifica dell’indirizzo email in corso…",
     "secret-word-list-edit": {
       "placeholder": "Word {{index}}"
     },
@@ -1287,7 +1287,7 @@
         "username-label": "Nome utente della Community",
         "username-placeholder": "Seleziona un nome…",
         "button-create": "Crea un account della Community",
-        "button-creating": "Creazione account della Community…",
+        "button-creating": "Creazione account della Community in corso…",
         "migrate-description": "Se stai utilizzando l’estensione Nash per accedere alla Community, puoi farlo <0>migrando il tuo account</0>.",
         "username-exits": "‘{{username}}’ è già utilizzato. Per favore seleziona un altro nome utente."
       },
@@ -1303,11 +1303,11 @@
           "step1": "Dopo aver effettuato l’accesso alla Community, fai clic sul tuo avatar nell’angolo in alto a destra dello schermo.",
           "step2": "Fai clic sul tuo nome utente e seleziona ‘Preferenze’.",
           "step3": "Fai clic sull’icona a forma di matita per modificare il tuo indirizzo email.",
-          "step4": "Einserisci un nuovo indirizzo email e fai clic su ‘Modifica’.",
+          "step4": "Inserisci un nuovo indirizzo email e fai clic su ‘Modifica’.",
           "step5": "Riceverai due email di conferma, una al tuo vecchio indirizzo email e una al tuo nuovo indirizzo. Dovrai confermare entrambi gli indirizzi per completare la modifica."
         }
       },
-      "get-token": "Autenticazione…",
+      "get-token": "Autenticazione in corso…",
       "log-you-in": "Accesso in corso…",
       "unknow-error-message": "Qualcosa è andato storto. Per favore riprova."
     }
@@ -1434,11 +1434,11 @@
           "insufficient-funds": {
             "0": "Il saldo del contratto di trading non è più sufficiente per coprire questo ordine. Questo può accadere se si stanno creando ordini contemporaneamente in più schede del browser.",
             "1": "Per un’esperienza di trading più fluida, utilizza Nash in una singola scheda del browser.",
-            "2": "<0>Send/Receive</0> fondi se desideri effettuare nuovamente questo ordine."
+            "2": "<0>Invia/Ricevi</0> fondi se desideri effettuare nuovamente questo ordine."
           },
           "daily-limit-reached": {
             "0": "Il tuo ordine è stato rifiutato perché hai raggiunto il limite di trading giornaliero.",
-            "1": "Per aumentare il volume giornaliero massimo di trading, per favore visita <0>Limits</0>."
+            "1": "Per aumentare il volume giornaliero massimo di trading, per favore visita <0>Limiti</0>."
           },
           "generic": {
             "0": "Errore durante l’ordine. Per favore riprova."
@@ -1718,23 +1718,23 @@
     "terms-and-conditions": "Accetto <0>Termini e Condizioni</0> di {{providerName}}.",
     "title": "Compra/Vendi",
     "tier0": {
-      "buy-popular-assets": "Buy and sell popular digital assets",
-      "complete-kyc-5minute": "Upgrade to Tier 1 identity verification in just five minutes!",
-      "complete-kyc": "Verify identity",
-      "enjoy-benefits": "Other benefits of Tier 1:",
-      "higher-trading-limits": "Higher trading limits on the Nash exchange.",
-      "stake-your-nex": "Stake NEX to receive dividends.",
-      "use-with-vpn": "Access Nash through a VPN service."
+      "buy-popular-assets": "Compra e vendi asset digitali popolari",
+      "complete-kyc-5minute": "Passa alla verifica dell’identità di Livello 1 in soli cinque minuti!",
+      "complete-kyc": "Verifica identità",
+      "enjoy-benefits": "Altri benefici di Livello 1:",
+      "higher-trading-limits": "Limiti di trading più elevati sullo scambio di Nash.",
+      "stake-your-nex": "Stake NEX per ricevere dividendi.",
+      "use-with-vpn": "Accedi a Nash tramite un servizio VPN."
     },
     "provider": {
       "title": "Seleziona un fornitore",
       "verify-identity": "<0>Verifica la tua identità</0> per iniziare.",
-      "subtitle": "I fornitori di asset digitali sono compagnie di terze parti associate a Nash che ti consentono di acquistare o vendere le risorse digitali utilizzando le valute nazionali",
+      "subtitle": "I fornitori di asset digitali sono compagnie di terze parti associate a Nash che ti consentono di acquistare o vendere gli assets digitali utilizzando le valute nazionali.",
       "steps": [
         "Dettagli personali",
         "Dettagli dell’indirizzo"
       ],
-      "assets-available": "Asset disponibili",
+      "assets-available": "Assets disponibili",
       "payments-methods": "Metodi di pagamento",
       "general-details": "Limiti e commissioni",
       "no-limit": "Nessun limite",
@@ -1765,7 +1765,7 @@
       "select-btn": "Seleziona",
       "have-account-header": "Fornitori con cui ho creato un account",
       "no-account-header": "Fornitori con cui non ho creato un account",
-      "no-providers-title": "Sfortunatamente, al momento non ci sono fornitori di risorse digitali nella tua zona.",
+      "no-providers-title": "Sfortunatamente, al momento non ci sono fornitori di asset digitali nella tua zona.",
       "no-providers-more-info": "Impara di più riguardo <0>diventando un partner di valuta Nash</0>.",
       "credit-cards": "Carte di credito:",
       "debit-cards": "Carte di debito:",
@@ -1778,14 +1778,14 @@
     },
     "general-details": {
       "main-title": "Crea il tuo {{providerName}} account",
-      "subtitle": "Prima di poter acquistare o vendere risorse digitali, dobbiamo configurare il tuo account con {{providerName}}.",
+      "subtitle": "Prima di poter acquistare o vendere asset digitali, dobbiamo configurare il tuo account con {{providerName}}.",
       "legal-name-input-label": "Nome legale completo",
       "email-address-input-label": "Indirizzo email",
       "submit-btn": "Continua con i dettagli dell’indirizzo"
     },
     "address-details": {
       "main-title": "Crea il tuo {{providerName}} account",
-      "subtitle": "Prima di poter acquistare o vendere risorse digitali, dobbiamo configurare il tuo account con {{providerName}}.",
+      "subtitle": "Prima di poter acquistare o vendere asset digitali, dobbiamo configurare il tuo account con {{providerName}}.",
       "house-name-input-label": "Numero civico/nome",
       "street-name-input-label": "Via",
       "city-input-label": "Città",
@@ -1819,7 +1819,7 @@
     "errors": {
       "validation": "Problema di convalida",
       "insufficient-funds": "Fondi insufficienti",
-      "access-denied": "Problema di accesso o autorizzazioni (Wyre)",
+      "access-denied": "Problema di accesso o di autorizzazioni (Wyre)",
       "unsupported-state": "Lo stato US non è supportato da Wyre",
       "under-eighteen": "Meno di diciotto anni",
       "plaid-not-ready": "Wyre ha difficoltà a comunicare con la tua banca",
@@ -1867,7 +1867,6 @@
       "i-want-to-pay-input-label": "Voglio pagare",
       "receive-input-label": "Riceverò",
       "will-receive-input-label": "Riceverò approssimativamente",
-      "provider-fee": "{{providerName}} commissioni ",
       "current-exchange-rate": "Tasso di cambio attuale",
       "weekly-limit": "Limite settimanale",
       "monthly-limit": "Limite mensile",
@@ -1933,7 +1932,7 @@
       "incomplete_pop": "In sospeso: prova del pagamento mancante",
       "title": "Cronologia delle transazioni con {{providerName}}",
       "complete": "Completo",
-      "completed": "Completo",
+      "completed": "Completato",
       "incomplete": "Incompleto",
       "quote-status": "Stato dell’offerta",
       "error": "Fallito",
@@ -2428,7 +2427,7 @@
       "remaining-currency": "<0></0> rimasti",
       "add": "Add {{field}}",
       "status-and-process": "Stato",
-      "combined-assets-limits": "Limiti per gli asset digitali e le valute nazionali combinate",
+      "combined-assets-limits": "Limiti per gli assets digitali e le valute nazionali combinate",
       "completed": "Completo",
       "not-completed": "Non completo",
       "in-review": "In revisione",
@@ -2445,7 +2444,7 @@
     "confirmed-transaction": {
       "order-created": "Il tuo ordine è stato creato",
       "title": "Ordine creato",
-      "deposit": "Depositeremo le tue risorse sul tuo account personale Nash una volta che il pagamento è stato ricevuto.",
+      "deposit": "Depositeremo i tuoi asset sul tuo account personale Nash una volta che il pagamento è stato ricevuto.",
       "delay": "Può richiedere fino a {{days}} giorni lavorativi. Puoi visualizzare lo stato del deposito nella scheda <0>Transazioni</0>.",
       "dismiss": "Vedi la transazione"
     },
@@ -2453,8 +2452,6 @@
       "title": "Offerta di vendita",
       "send-asset-title": "Invia {{assetName}} all’indirizzo riportato di seguito dal tuo account personale Nash.",
       "send-asset-body-1": "Ciò che invii verrà convertito in {{currencyCode}} e accreditato sul tuo account. Useremo il tasso di cambio di mercato nel momento in cui riceviamo la tua transazione.",
-      "send-asset-body-2": "",
-      "transactions-details": "Invia",
       "selling": "Sto vendendo",
       "cost": "Riceverò <0>(estimate)</0>",
       "to-bank": "In questo account",
@@ -2475,7 +2472,7 @@
       "complete": "Completo",
       "completed-on": "Completato il",
       "confirm-btn": "Finito",
-      "cancel-quote": "Rifiuta questo preventivo",
+      "cancel-quote": "Rifiuta questa offerta",
       "cost": "Costerà",
       "currency-unavailable-status": "Non disponibile per l’acquisto in questo momento",
       "current-exchange-rate": "Tasso di scambio attuale",
@@ -2695,7 +2692,7 @@
           "label": "Inserisci il tuo numero di telefono",
           "desc": "Un codice di dieci cifre verrà inviato via SMS per verificare il tuo numero di telefono.",
           "code-not-received": "Non hai ricevuto il codice via SMS? <0>Rinvialo</0>.",
-          "resending-code": "Rinvio del codice di verifica…",
+          "resending-code": "Rinvio del codice di verifica in corso…",
           "code-label": "Inserisci il codice di verifica inviato al tuo telefono.",
           "back": "Indietro",
           "verify": "Verifica"
@@ -2732,7 +2729,7 @@
       "title": "Risincronizza il saldo del tuo contratto di trading.",
       "desc": "Ciò rilascerà fondi bloccati in uno stato ‘In sospeso’. Questo processo annullerà i trade aperti.",
       "button": "Risincronizza account",
-      "resyncing": "Risincronizzando…",
+      "resyncing": "Risincronizzazione in corso…",
       "error": "Risincronizzazione fallita. Per favore <0>contatta il supporto.</0>",
       "wait-error": "Attendi almeno 2 ore dopo l’ultimo deposito prima di utilizzare questa pagina.",
       "success": "Risincronizzazione riuscita!"
@@ -2742,7 +2739,7 @@
       "subtitle": "Tutti i depositi o prelievi in sospeso o non riusciti",
       "actions-title": "Azioni",
       "button-title": "Riprova",
-      "button-sending": "Inviando…",
+      "button-sending": "Invio in corso…",
       "button-sent": "Invia nuovamente",
       "nothing-to-retry": "Non hai depositi o prelievi in sospeso.",
       "status": {
@@ -2858,7 +2855,7 @@
           "transfer-amount": {
             "label": "Importo da trasferire",
             "network-transaction-fee": "Commissioni massime di rete",
-            "loading-fee": "Caricamento commissioni…",
+            "loading-fee": "Caricamento commissioni in corso…",
             "errors": {
               "gas-shortage": "Hai bisogno di almeno {{amount}} {{currencySymbol}} nel tuo account personale per pagare le commissioni di rete.",
               "fee-shortage": "È necessario conservare {{amount}} ETH per la commissione di rete Ethereum.",
@@ -2917,7 +2914,7 @@
           "buttons": {
             "back": "Indietro",
             "transfer-funds": "Invia",
-            "confirming": "Confermando…"
+            "confirming": "Convalida in corso…"
           }
         },
         "hints": {
@@ -2993,7 +2990,7 @@
           "clear-intent": "Pulisci il trasferimento",
           "contact-support": "Si prega di contattare l’assistenza",
           "received-currency": "Ricevuto {{currencySymbol}}",
-          "receiving-currency": ">Ricevendo {{currencySymbol}}",
+          "receiving-currency": "Ricevendo {{currencySymbol}}",
           "transferred-currency": "Inviato {{currencySymbol}}",
           "transferring-currency": "Inviando {{currencySymbol}}",
           "initializing-currency": "Trasferimento di {{currencySymbol}} inizializzato",
@@ -3022,18 +3019,18 @@
     "portfolio": {
       "title": "Portafoglio",
       "header": {
-        "search-placeholder": "Cerca i miei asset…"
+        "search-placeholder": "Cerca i miei assets…"
       },
       "table": {
         "header": {
-          "title": "I miei asset",
+          "title": "I miei assets",
           "actions": {
             "hide-small-balances": "Nascondi saldi piccoli"
           }
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Assets"
           },
           "total-balance": {
             "title": "Totale",
@@ -3059,7 +3056,7 @@
       "balances": {
         "header": {
           "title": "Portafoglio",
-          "hint": "Il valore totale delle tue risorse e il cambio di 24 ore."
+          "hint": "Il valore totale dei tuoi asset e il cambio di 24 ore."
         },
         "total": "Totale",
         "available": {
@@ -3089,7 +3086,7 @@
           "title": "Saldi",
           "hint": "Hai il controllo completo di tutti questi fondi."
         },
-        "available-assets": "Asset disponibili",
+        "available-assets": "Assets disponibili",
         "in-personal": "Account personale",
         "in-trading": "Contratto di trading",
         "in-unfilled-orders": "Ordini non completati",
@@ -3190,7 +3187,6 @@
     },
     "form-amount": {
       "amount-to-transfer": "Importo",
-      "balance-label": "{{label}} saldo ⋅ ",
       "recipients-address": "Indirizzo del destinatario",
       "enter-their-wallet": "Inserisci il loro indirizzo di portafoglio",
       "check-destination-title": "Controlla il tuo indirizzo di destinazione due volte.",
@@ -3271,7 +3267,7 @@
     "kyc": {
       "state-label": "Stato",
       "rejected": "Livello 1 stato negato",
-      "rejected-subtitle": "Sfortunatamente, non potrai procedere oltre. Se ritieni che si tratti di un errore, contatta il nostro <0>team di supporto.</0> ",
+      "rejected-subtitle": "Sfortunatamente, non potrai procedere oltre. Se ritieni che si tratti di un errore, contatta il nostro <0>team di supporto.</0>",
       "details": {
         "missing_signature": {
           "title": "Firma mancante",
@@ -3343,7 +3339,7 @@
         },
         "ip_address_is_crawler": {
           "title": "Crawler rilevato",
-          "content": "Abbiamo identificato il tuo indirizzo IP come un web crawwler. Riprova da un IP diverso."
+          "content": "Abbiamo identificato il tuo indirizzo IP come un web crawler. Riprova da un IP diverso."
         },
         "missing_part_document": {
           "title": "Documento non completo",
@@ -3398,7 +3394,7 @@
       "title": "Abbiamo bisogno di alcuni dettagli da te",
       "topnav-back-button": "Torna ai limiti",
       "country": "Paese",
-      "waiting": "Verifica…",
+      "waiting": "Verifica in corso…",
       "waiting-subtitle": "Questo può richiedere alcuni minuti. Puoi lasciare questa pagina.",
       "topnav-title": "Verifica Livello 1",
       "contact-support-label": "<0>Contatta il supporto</0> per cambiare",
@@ -3609,7 +3605,7 @@
             "header": "Inserisci il codice generato dalla tua app di autenticazione",
             "input-placeholder": "Codice di autenticazione"
           },
-          "enable": "Enable",
+          "enable": "Abilita",
           "title": "Imposta l’autenticazione a due fattori"
         },
         "disable-2fa": {
@@ -3781,9 +3777,9 @@
         "duration-month_plural": "<0>{{count}}</0> mesi",
         "redeem-button": {
           "label": "Rilascia NEX",
-          "submitting": "Rilascio…",
-          "error": "Impossibile! Per favore riprova.",
-          "success": "Successo. Rilascio di NEX…",
+          "submitting": "Rilascio in corso…",
+          "error": "Non riuscito! Per favore riprova.",
+          "success": "Successo. Rilascio di NEX in corso…",
           "released": "NEX rilasciati"
         }
       }
@@ -3807,8 +3803,8 @@
       "paid-dividend-days": "Giorni pagati ({{date}})",
       "all-dividends-table": "Lista dei dividendi",
       "till-ended_plural": "{{count}} giorni rimasti",
-      "till-ended": "{{count}} giorno rimasti",
-      "till-ended_today": "Finisce oggi",
+      "till-ended": "{{count}} giorno rimasto",
+      "till-ended_today": "Termina oggi",
       "from-active-stakes": "Da <0>{{count}}</0> stake attivo",
       "from-active-stakes_plural": "Da <0>{{count}}</0> stake attivi",
       "period-description": "Durante questo periodo",
@@ -3821,7 +3817,7 @@
         "title": "Staking dei token Nash Exchange (NEX)",
         "header": {
           "title": "Cosa è il NEX staking?",
-          "desc": "Lo staking dei token Nash Exchange (NEX) è un modo per guadagnare reddito passivo. Ricevi una parte delle commissioni di negoziazione dello scambio ogni giorno in cui il tuo stake è attivo."
+          "desc": "Lo staking dei token Nash Exchange (NEX) è un modo per guadagnare reddito passivo. Ricevi una parte delle commissioni di trading dell’Exchange ogni giorno in cui il tuo stake è attivo."
         },
         "paragraphs": {
           "par-1": {
@@ -3830,23 +3826,23 @@
           },
           "par-2": {
             "title": "Come vengono calcolati i dividendi?",
-            "desc": "I dividendi dipendono da: (1) il numero di token NEX che metti in stake in proporzione alla fornitura totale di 50.000.000, e (2) il periodo di tempo dello stake. Più token metti in stake, maggiore saranno i tuoi dividendi. Più a lungo metterai i tuoi token in stake, maggiore sarà la percentuale di commissioni che riceverai (il tuo ‘tasso di staking’)."
+            "desc": "I dividendi dipendono: (1) dal numero di token NEX che metti in stake in proporzione ai 50.000.000 di NEX totali, e (2) dalla durata dello stake. Più token metti in stake, maggiore saranno i tuoi dividendi. Più a lungo metterai i tuoi token in stake, maggiore sarà la percentuale di commissioni che riceverai (il tuo ‘tasso di staking’)."
           },
           "par-3": {
             "title": "Per quanto tempo posso mettere in stake?",
-            "desc": "Il periodo minimo di staking è di un mese, che offre un tasso di staking del 25%. Tuttavia, se desideri una percentuale più elevata delle commissioni di scambio, puoi mettere in stake per qualsiasi numero intero di mesi fino a un massimo di 24, il che offre un tasso di staking del 75%"
+            "desc": "La durata minima di uno stake è di un mese, ed offre un tasso di staking del 25%. Tuttavia, se desideri una percentuale più elevata delle commissioni di scambio, puoi mettere in stake per qualsiasi numero intero di mesi fino a un massimo di 24, il che offre un tasso di staking del 75%"
           },
           "par-4": {
             "title": "Come ricevo i miei dividendi?",
-            "desc": "I dividendi vengono automaticamente aggiunti al saldo del contratto di trading. Sono pagati su base giornaliera, poco dopo mezzanotte UTC. Nash fornisce resoconti mensili degli stake che aggregano questi pagamenti in un’unica cifra ai fini contabili. Poiché le commissioni su una transazione vengono addebitate nella valuta scambiata, riceverai dividendi in ogni asset attualmente negoziato su Nash."
+            "desc": "I dividendi vengono automaticamente aggiunti al saldo del contratto di trading. Sono pagati su base giornaliera, poco dopo mezzanotte (orario UTC). Nash fornisce resoconti mensili degli stake che aggregano questi pagamenti in un’unica cifra ai fini contabili. Poiché le commissioni su una transazione vengono addebitate nella valuta scambiata, riceverai dividendi in ogni asset attualmente scambiato su Nash."
           },
           "par-5": {
             "title": "Posso ricevere i miei dividendi in un’unica valuta?",
             "desc": "No. Per motivi legali, non possiamo convertire i tuoi dividendi per te. Tuttavia, stiamo sviluppando uno strumento che ti consente di convertire i dividendi con un solo clic."
           },
           "par-6": {
-            "title": "Posso modificare o annullare il mio palo una volta che è stato creato?",
-            "desc": "No. Una volta creato lo stake non sarai in grado di modificarlo o annullarlo."
+            "title": "Posso modificare o cancellare il mio stake una volta che è stato creato?",
+            "desc": "No. Una volta creato lo stake non sarai in grado di modificarlo o cancellarlo."
           },
           "par-7": {
             "title": "Posso creare più stake?",
@@ -3859,14 +3855,14 @@
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "Capisco che lo stake di NEX paga dividendi solo se lo scambio di Nash genera entrate.",
+        "create-stake-disclaimer-label": "Ho compreso che lo stake di NEX paga dividendi solo se l’Exchange di Nash genera entrate.",
         "title": "Crea il tuo stake",
         "amount-to-stake": "Importo di NEX da mettere in stake",
-        "amount-to-stake-tooltip": "Il tasso di staking determina la dimensione della quota proporzionale delle entrate dallo scambio di Nash. Più a lungo metti in stake i tuoi NEX, maggiore sarà il tuo tasso di staking, con un tasso massimo del 75% per uno stake di due anni.\n\n<0>Un esempio di dividendo</0>\n I dividendi sono pagati giornalmente. Supponiamo che Nash abbia generato commissioni equivalenti a $ 1.000.000 nelle ultime 24 ore e che un utente possieda 1.000 token NEX sul totale di 50.000.000 di fornitura. Se l’utente ha uno stake di NEX per un tasso di staking del 75% per due anni, ha diritto ad un dividendo: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
+        "amount-to-stake-tooltip": "Il tasso di staking determina la dimensione della tua quota proporzionale delle entrate dall’Exchange di Nash. Maggiore la durata del tuo stake di NEX, maggiore sarà il tuo tasso di staking, con un tasso massimo del 75% per uno stake di due anni.\n\n<0>Un esempio di dividendo</0>\n I dividendi sono pagati giornalmente. Supponiamo che Nash abbia generato commissioni equivalenti a $ 1,000,000 nelle ultime 24 ore e che un utente possieda 1,000 token NEX sul totale di 50.000.000 di NEX massimi esistenti. Se l’utente ha uno stake di NEX per un tasso di staking del 75% per due anni, ha diritto ad un dividendo pari a: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
         "available-balance": "Saldo disponibile per lo stake ⋅",
         "quick-fill-label": "Max",
-        "set-stake-duration-label": "Imposta durate dello stake",
-        "selected-duration": "Seleziona durata ⋅ ",
+        "set-stake-duration-label": "Imposta la durata dello stake",
+        "selected-duration": "Seleziona durata ⋅",
         "selected-duration-month": "<0>{{count}}</0> mese",
         "selected-duration-month_plural": "<0>{{count}}</0> mesi",
         "set-date-dividends-label": "Imposta una data per ricevere i tuoi dividendi",
@@ -3878,14 +3874,14 @@
         "duration-value_plural": "<0>{{count}}</0> mesi",
         "fee-reward": "Tasso di staking",
         "first-payment": "Primo pagamento",
-        "agreed-to-non-cancellation-label": "Capisco che non posso annullare o modificare questo stake dopo averla creato.",
-        "agreed-to-locked-tokens-label": "Comprendo che i miei token NEX saranno bloccati fino al completamento di questo stake.",
-        "create-stake-button": "Crea lo stake",
-        "create-stake-sending-button": "Invio dei dati…",
-        "create-stake-sending-text": "Invio dei dati. Si prega di tenere aperta questa finestra. Questo può richiedere fino a un minuto.",
-        "create-stake-error": "Si è verificato un errore o un ritardo durante la creazione dello stake. Ricontrolla tra cinque minuti e invia nuovamente se il tuo stake non è stato creato.",
+        "agreed-to-non-cancellation-label": "Ho compreso che non posso cancellare o modificare questo stake dopo averlo creato.",
+        "agreed-to-locked-tokens-label": "Ho compreso che i miei token NEX saranno bloccati fino al completamento di questo stake.",
+        "create-stake-button": "Crea stake",
+        "create-stake-sending-button": "Invio dei dati in corso…",
+        "create-stake-sending-text": "Invio dei dati in corso. Si prega di tenere aperta questa finestra. Questo può richiedere fino a un minuto.",
+        "create-stake-error": "Si è verificato un errore o un ritardo durante la creazione dello stake. Ricontrolla tra cinque minuti e invia di nuovo se il tuo stake non è stato creato.",
         "create-stake-auth-error": "Errore di autenticazione. Per favore riprova.",
-        "learn-more": "Impara di più riguardo",
+        "learn-more": "Scopri di più",
         "footer-desc": "NEX in staking",
         "amount-error-message": "Questo importo supera il saldo disponibile.",
         "stake-success": {
@@ -3893,36 +3889,36 @@
           "stake-details": "Hai creato uno stake di {{amount}} NEX per un periodo di {{count}} mese. Il tuo stake apparirà nella dashboard a breve.",
           "stake-details_plural": "Hai creato uno stake di {{amount}} NEX per un periodo di {{count}} mesi. Il tuo stake apparirà nella dashboard a breve.",
           "stake-time-description": "Riceverai i primi dividendi in:",
-          "finish-button-label": "Finito"
+          "finish-button-label": "Concludi"
         }
       }
     },
     "no-stakes": {
       "title": "Guadagna reddito passivo dallo staking dei token NEX",
-      "description-desktop": "Nuovo allo staking? Impara di più riguardo lo <0>staking dei token NEX</0> e <1>crea il tuo primo stake</1>.",
-      "description-mobile": "Nuovo allo staking? Impara di più riguardo lo <0>staking dei token NEX</0>.",
+      "description-desktop": "Nuovo allo staking? Scopri di più sullo <0>staking dei token NEX</0> e <1>crea il tuo primo stake</1>.",
+      "description-mobile": "Nuovo allo staking? Scopri di più sullo <0>staking dei token NEX</0>.",
       "description-modal-create-link": "Crea il tuo primo stake"
     },
     "staking-view-header": {
       "stakes-in-progress": "Stake in corso",
       "completed-stakes": "Stake completati",
       "create-stake-button": "Crea un nuovo stake",
-      "learn-stake-button": "Impara al riguardo dello staking"
+      "learn-stake-button": "Scopri di più sullo staking"
     },
     "max-stakes": {
-      "message": "Hai creato {{amount}} da un possibile {{maxAmount}} stake. Il massimo che puoi creare è {{maxAmount}}.",
+      "message": "Hai creato {{amount}} di {{maxAmount}} stake possibili. Il massimo che puoi creare è {{maxAmount}}.",
       "dismiss": "Rimuovere"
     }
   },
   "contacts": {
     "title": "{{count}} contatto",
     "title_plural": "{{count}} contatti",
-    "search-my-contacts": "Cerca i miei contatti…",
+    "search-my-contacts": "Cerca nei miei contatti…",
     "no-contacts": "Non hai ancora aggiunto o importato alcun contatto.",
     "create-new": "Crea nuovo",
     "buttons": {
       "send": "Invia",
-      "send-disabled-tooltip": "Aggiungi un indirizzo di portafoglio ai tuoi contatti per inviare loro dei fondi.",
+      "send-disabled-tooltip": "Aggiungi un indirizzo di wallet ai tuoi contatti per inviare loro dei fondi.",
       "request": "Richiesta",
       "edit": "Modifica",
       "delete": "Cancella"
@@ -3940,7 +3936,7 @@
       },
       "edit": {
         "title": "Modifica questo contatto",
-        "button": "Salva cambiamenti"
+        "button": "Salva modifiche"
       },
       "send": {
         "title": "Invia fondi a {{contactName}}",
@@ -3961,7 +3957,7 @@
         "notice-text": "Tutte le informazioni associate a questo contatto verranno rimosse in modo permanente.",
         "button": "Si, cancella",
         "cancel": "Cancella",
-        "error": "Errore durante l’eliminazione del contatto. Per favore riprova.",
+        "error": "Errore durante la cancellazione del contatto. Per favore riprova.",
         "success": "Contatto cancellato.",
         "success-button": "Ritorna ai contatti"
       },
