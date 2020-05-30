@@ -419,7 +419,7 @@
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Utilisez un ordinateur pour une meilleure expérience.",
+          "title": "Utilisez un ordinateur pour une expérience optimale.",
           "message": "La vue ‘Pro’ est prévue pour un usage sur ordinateur. Si vous êtes sur mobile, veuillez essayer la <0>vue ‘Basique’</0>."
         }
       }
@@ -427,21 +427,21 @@
     "dismiss-message": "Ne plus me rappeler ceci."
   },
   "terms": {
-    "user-agreement": "Accord de l’utilisateur",
-    "privacy-notice": "Avis de confidentialité"
+    "user-agreement": "Conditions d’utilisation",
+    "privacy-notice": "Règles de confidentialité"
   },
   "account-create": {
     "steps": [
-      "Your details",
+      "Vos détails",
       "Pays",
-      "Account details"
+      "Détails du compte"
     ],
     "signin": {
-      "desc": "Déjà un compte Nash ?",
-      "sign-in-now": "Inscrivez-vous dès maintenant"
+      "desc": "Vous avez déja un compte Nash ?",
+      "sign-in-now": "Connectez-vous maintenant"
     },
     "form": {
-      "your-state-is": "Your state is",
+      "your-state-is": "Votre état est",
       "fields": {
         "optional": "(facultatif)"
       },
@@ -459,7 +459,7 @@
     },
     "your-details": {
       "header": "Créer un compte",
-      "subheader": "vos coordonnées ",
+      "subheader": "vos coordonnées",
       "disclaimer": {
         "title": "Avis aux clients américains",
         "desc": "Vous créez un compte Nash préliminaire pour participer au programme de parrainage, mais votre Etat doit être éligible pour accéder à certains services Nash. S’il est éligible, il vous sera ensuite demandé de signer un accord d’utilisation."
@@ -546,7 +546,7 @@
       "password": {
         "desc": "Utilisez un mélange de lettres majuscules et minuscules, de chiffres et de caractères spéciaux pour un mot de passe plus fort.",
         "tips": "Conseils de création de mot de passe",
-        "password-strength":" Difficulté du mot de passe",
+        "password-strength": "Difficulté du mot de passe",
         "weak": "Faible",
         "medium": "Moyen",
         "strong": "Fort",
@@ -709,49 +709,49 @@
       "title": "Accounts"
     },
     "market-selection": {
-      "no-results": "We couldn’t find any results for <0>{{searchTerm}}</0>.",
-      "no-favorites": "You have no favorite markets yet.",
-      "pair": "Pair",
-      "24hvol": "24h volume",
-      "24hprice": "24h change",
+      "no-results": "Aucun résultat ne correspond à <0>{{searchTerm}}</0>.",
+      "no-favorites": "Vous n’avez pas encore de marchés favoris.",
+      "pair": "Paire",
+      "24hvol": "Volume 24h",
+      "24hprice": "Évolution 24h",
       "tabs": {
-        "all": "All",
-        "favorites": "Favorites"
+        "all": "Tous",
+        "favorites": "Favoris"
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0> appear as links here.",
-      "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
+      "empty": "<0>Vos marchés favoris</0> s’affichent ici en accès rapide.",
+      "tips": "<0>Tip</0> <1>Ajouter des marchés favoris en accès rapide ici.</1> <2 />"
     },
     "market-graphs": {
-      "title": "Graphs",
+      "title": "Graphiques",
       "price-chart": {
-        "title": "Price",
+        "title": "Prix",
         "heads-up-display": {
           "ohlc": {
             "o": "O",
             "h": "H",
-            "l": "L",
-            "c": "C"
+            "l": "B",
+            "c": "F"
           },
           "vol": "Volume"
         },
         "chart-types": {
-          "bars": "Bars",
-          "candles": "Candles",
-          "hollow-candles": "Hollow candles",
+          "bars": "Barres",
+          "candles": "Bougies",
+          "hollow-candles": "Bougies creuses",
           "heikin-ashi": "Heikin-Ashi",
-          "line": "Line",
-          "area": "Area"
+          "line": "Ligne",
+          "area": "Zone"
         },
         "studies": {
-          "title": "Indicators",
-          "search": "Search",
-          "no-results": "No results for your criteria"
+          "title": "Indicateurs",
+          "search": "Recherche",
+          "no-results": "Aucun résultat pour vos critères"
         },
         "price-chart-selector": {
-          "chart-iq": "Standard chart",
-          "trading-view": "TradingView chart"
+          "chart-iq": "Graphique standard",
+          "trading-view": "Graphique TradingView"
         },
         "candle-frequency": {
           "1m": "1m",
@@ -765,93 +765,93 @@
           "1M": "1M"
         },
         "study-overlay-menu": {
-          "edit-study": "Edit settings",
-          "remove-study": "Remove indicator"
+          "edit-study": "Modifier les réglages",
+          "remove-study": "Supprimer l’indicateur"
         },
         "edit-study-modal": {
           "tabs": {
             "inputs": {
-              "label": "Inputs"
+              "label": "Champs"
             },
             "outputs": {
               "label": "Style"
             },
             "parameters": {
-              "label": "Settings"
+              "label": "Réglages"
             }
           },
           "buttons": {
             "update": {
-              "label": "Update"
+              "label": "Mettre à jour"
             },
             "cancel": {
-              "label": "Cancel"
+              "label": "Annuler"
             }
           }
         }
       },
       "depth-chart": {
-        "title": "Depth",
+        "title": "Profondeur",
         "tooltip": {
-          "price": "Price: <0>{{price}}</0>",
+          "price": "Prix: <0>{{price}}</0>",
           "volume": "Volume: <0>{{volume}}</0>"
         }
       },
-      "clear-studies-button-label": "Clear all indicators"
+      "clear-studies-button-label": "Supprimer tous les indicateurs"
     },
     "create-order": {
-      "buy": "Buy {{currencySymbol}}",
-      "sell": "Sell {{currencySymbol}}",
+      "buy": "Acheter {{currencySymbol}}",
+      "sell": "Vendre {{currencySymbol}}",
       "locked-trading-session": {
-        "information": "Your trading session is locked. <0 />",
-        "information-tooltip": "Sessions are locked when you refresh the page or are idle for 15 minutes.",
-        "enter-credentials-to-unlock": "<0>Unlock now</0>"
+        "information": "Votre session de trading est verrouillée. <0 />",
+        "information-tooltip": "Votre session sera verrouillée si vous rafraîchissez la page ou êtes inactif pendant 15 minutes.",
+        "enter-credentials-to-unlock": "<0>Déverrouiller maintenant</0>"
       },
       "market-orders-disabled": {
-        "header": "Insufficient market depth",
-        "desc": "There are currently not enough orders on the book for market orders to be processed."
+        "header": "Profondeur de marché insuffisante",
+        "desc": "Vous ne pouvez pas exécuter d’ordre au prix du marché car le carnet d’ordres ne dispose pas d’assez d’ordres."
       },
       "order-type-tab": {
-        "market": "Market",
-        "limit": "Limit",
+        "market": "Marché",
+        "limit": "Limite",
         "stop": "Stop",
-        "stop-limit": "Stop-limit",
-        "balances": "Balances",
+        "stop-limit": "Stop-limite",
+        "balances": "Soldes",
         "balances-table": {
           "header": {
-            "asset": "Asset",
-            "personal": "Personal",
+            "asset": "Actif",
+            "personal": "Personnel",
             "trading": "Trading",
-            "in-orders": "In orders",
-            "pending": "Pending"
+            "in-orders": "Dans un ordre",
+            "pending": "En cours"
           },
-          "current-market": "Current market",
-          "other-tradable-assets": "Other tradable assets"
+          "current-market": "Marché actuel",
+          "other-tradable-assets": "Autres actifs échangeables"
         }
       },
-      "trading-limits": "Trading limits",
+      "trading-limits": "Limites des transactions",
       "fields": {
         "amount": {
-          "label": "Amount",
-          "sub-label-market-buy": "This is a market order, so we can only estimate the amount of {{currencyA}} you will buy.",
-          "sub-label-market-sell": "This is a market order, so we can only estimate of the total {{currencyB}} you will receive.",
-          "sub-label-limit-buy": "Enter the amount of {{currencySymbol}} you wish to receive.",
-          "sub-label-limit-sell": "Enter the amount of {{currencySymbol}} you wish to sell.",
-          "estimate": "(estimate)",
+          "label": "Quantité",
+          "sub-label-market-buy": "Pour un ordre au prix du marché, nous ne pouvons qu’estimer la quantité de {{currencyA}} que vous pourrez acheter.",
+          "sub-label-market-sell": "Pour un ordre au prix du marché, nous ne pouvons qu’estimer la quantité de {{currencyB}} que vous recevrez.",
+          "sub-label-limit-buy": "Renseignez la quantité de {{currencySymbol}} que vous souhaitez recevoir.",
+          "sub-label-limit-sell": "Renseignez la quantité de {{currencySymbol}} que vous souhaitez vendre.",
+          "estimate": "(estimation)",
           "errors": {
-            "insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "maybe-insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "order-too-small": "Min size {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "This exceeds your trading limits."
+            "insufficient-funds": "{{currencySymbol}} insuffisants.",
+            "maybe-insufficient-funds": "{{currencySymbol}} insuffisants.",
+            "order-too-small": "Taille minimum de {{orderSize}} {{currencySymbol}}.",
+            "limit-breached": "Cela entraînerait un dépassement de vos limites de transactions."
           }
         },
         "cancel-at": {
-          "label": "Cancel on",
-          "expires": "Expires",
+          "label": "Annuler le",
+          "expires": "Expire",
           "modal": {
-            "label-no-selection": "Select a date to continue…",
+            "label-no-selection": "Sélectionner une date pour continuer…",
             "errors": {
-              "is-past": "You cannot enter a time in the past"
+              "is-past": "Vous ne pouvez pas renseigner une date dans le passé"
             }
           }
         },
@@ -859,35 +859,35 @@
           "label": "Total"
         },
         "market-price": {
-          "label": "Market",
-          "sub-label": "When you buy or sell at market price your order will match with orders currently on the book."
+          "label": "Marché",
+          "sub-label": "Quand vous achetez ou vendez au prix du marché, votre ordre concordera avec des ordres actuellement dans le carnet d’ordres."
         },
         "show-limit": {
-          "label-hide": "Stop-market",
-          "label-show": "Stop-limit"
+          "label-hide": "Stop-marché",
+          "label-show": "Stop-limite"
         },
         "price": {
           "label": "Prix"
         },
         "limit-price": {
-          "label": "Limit",
-          "sub-label": "Your order can match with orders at this price or better.",
+          "label": "Limite",
+          "sub-label": "Votre ordre peut concorder avec des ordres à ce prix ou mieux.",
           "errors": {
             "maker-match": "‘Post only’ orders that match in the current order book will be canceled."
           }
         },
         "stop-price": {
           "label": "Stop",
-          "sub-label": "Stop price acts as a trigger for another order.",
+          "sub-label": "Le prix Stop déclenche un autre ordre.",
           "errors": {
-            "stop-trigger-immediately": "This stop price will trigger your order immediately."
+            "stop-trigger-immediately": "The prix Stop déclenchera votre ordre immédiatement."
           }
         },
         "shared": {
           "errors": {
-            "20-above": "20% above the market price.",
-            "20-below": "20% below the market price.",
-            "price-too-high": "Cannot process prices over {{maxPrice}}."
+            "20-above": "20% supérieur au prix de marché.",
+            "20-below": "20% inférieur au prix de marché.",
+            "price-too-high": "Impossible de traiter des prix supérieurs à {{maxPrice}}."
           }
         },
         "maker-only": {
@@ -899,7 +899,7 @@
           "footer": "Learn more"
         },
         "trading-balance": {
-          "label": "Disponible {{currency}}: "
+          "label": "Disponible {{currency}}:"
         }
       },
       "submit": {
@@ -1867,7 +1867,6 @@
       "i-want-to-pay-input-label": "I want to pay",
       "receive-input-label": "I will receive",
       "will-receive-input-label": "I’ll receive approximately",
-      "provider-fee": "{{providerName}} fee ",
       "current-exchange-rate": "Current exchange rate",
       "weekly-limit": "Weekly limit",
       "monthly-limit": "Monthly limit",
@@ -2453,8 +2452,6 @@
       "title": "Sale quote",
       "send-asset-title": "Send {{assetName}} to the address below from your Nash personal account.",
       "send-asset-body-1": "What you send will be converted to {{currencyCode}} and credited to your account. We will use the market exchange rate at the time we receive your transaction.",
-      "send-asset-body-2": "",
-      "transactions-details": "Send ",
       "selling": "I am selling",
       "cost": "I will receive <0>(estimate)</0>",
       "to-bank": "Into this account",
@@ -3190,7 +3187,6 @@
     },
     "form-amount": {
       "amount-to-transfer": "Amount",
-      "balance-label": "{{label}} balance ⋅ ",
       "recipients-address": "Recipient’s address",
       "enter-their-wallet": "Enter their wallet address",
       "check-destination-title": "Check your destination address twice.",
@@ -3866,7 +3862,7 @@
         "available-balance": "Available balance to stake ⋅",
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅ ",
+        "selected-duration": "Selected duration ⋅",
         "selected-duration-month": "<0>{{count}}</0> month",
         "selected-duration-month_plural": "<0>{{count}}</0> months",
         "set-date-dividends-label": "Set a date to receive your dividends",
