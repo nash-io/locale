@@ -2898,106 +2898,106 @@
           "transfer-details": {
             "title": "Informace o transferu",
             "rows": {
-              "amount-label": "You are sending",
-              "from-label": "From",
-              "to-label": "To",
-              "fee-label": "Network fee"
+              "amount-label": "Posíláte",
+              "from-label": "Z",
+              "to-label": "Na",
+              "fee-label": "Síťové poplatky"
             }
           },
-          "confirming-balance": "Please wait while we confirm your balance.",
-          "waiting-for-sync": "Your balance is currently syncing with the blockchain. This process can take up to two hours. Please submit your transfer again in a few moments.",
+          "confirming-balance": "Prosím vyčkejte než potvrdíme váš zůstatek.",
+          "waiting-for-sync": "Vás zůstatek se nyní synchronizuje s blockchainem. Tento proces může trvat až dvě hodiny. Prosím odešlete váš požadavek k transferu znovu za několik minut.",
           "errors": {
-            "send": "Failed to send. Please try again later.",
-            "syncing": "Your last transfer requires up to two minutes to complete. Please wait and try again.",
-            "insufficient-funds": "Your current balance is insufficient for this transfer or you currently have a transfer in progress. Please wait and try again."
+            "send": "Poslání selhalo. Prosím zkuste to znovu později.",
+            "syncing": "Vás poslední transfer vyžaduje až 2 minuty na zkompletování. Prosím vyčkejte a poté to zkuste znovu.",
+            "insufficient-funds": "Váš aktuální zůstatek na účtu je nedostatečný pro tento uskutečnění tohoto transferu. Prosím vyčkejte a zkuste to znovu."
           },
           "buttons": {
-            "back": "Back",
-            "transfer-funds": "Send",
-            "confirming": "Confirming…"
+            "back": "Zpět",
+            "transfer-funds": "Poslat",
+            "confirming": "Potvrzuji…"
           }
         },
         "hints": {
-          "btc-gas-hint": "A small network fee is required when performing transactions.",
-          "eth-gas-hint": "A small network fee is required when performing transactions. Fees for Ethereum-based tokens are paid using ETH.",
-          "neo-gas-hint": "A small network fee is usually required when performing transactions. Fees for NEO-based tokens are paid using GAS.",
-          "eth-transfer-hint": "While transfers are pending, the balance shown here may not be accurate."
+          "btc-gas-hint": "Pro uskutečnění transakcí je nutný malý síťový poplatek.",
+          "eth-gas-hint": "Pro uskutečnění transakcí je nutný malý síťový poplatek. Poplatky pro tokenu na Ethereu jsou placené v ETH.",
+          "neo-gas-hint": "Pro uskutečnění transakcí je nutný malý síťový poplatek. Poplatky pro tokenu na NEO jsou placené v GAS.",
+          "eth-transfer-hint": "Po dobu potvrzování transferů nemusí být zde zobrazené zůstatky přesné."
         },
         "steps": [
-          "Create a transfer",
-          "Review and start transfer"
+          "Vytvořit transfer",
+          "Zkontrolovat a započít transfer"
         ],
         "maybe-approval-steps": [
-          "Create a transfer",
-          "Approval (if necessary)",
-          "Review and start transfer"
+          "Vytvořit transfer",
+          "Potvrzení (pokud je potřeba)",
+          "Zkontrolovat a započít transfer"
         ],
         "approval-steps": [
-          "Create a transfer",
-          "Approval",
-          "Review and start transfer"
+          "Vytvořit transfer",
+          "Schválit",
+          "Zkontrolovat a započít transfer"
         ],
         "erc-20": {
-          "approving": "Approving",
-          "title": "Approve transfer",
-          "pre-deposit-info": "Before depositing {{symbol}} to the trading contract, you must first approve a transfer from your account.",
-          "current-approval": "Your current approval to the trading contract is: {{currentErc20Approved}}"
+          "approving": "Schvaluji",
+          "title": "Schválit transfer",
+          "pre-deposit-info": "Před vkladem {{symbol}} na obchodovací účet musíte nejdřív schválit transfer z vašeho osobního účtu.",
+          "current-approval": "Vaše nynější schválení transferů na obchodovací účet je: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transfer in progress…",
-          "title-initializing": "Transfer initializing…",
-          "desc": "Visit <0>Transfers</0> to track its status.",
-          "warning": "This can take up to one hour.",
-          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
+          "title": "Transfer právě probíhá…",
+          "title-initializing": "Transfer právě začíná…",
+          "desc": "Pro sledování statutu transferů navštivte záložku <0>Transfery</0>.",
+          "warning": "Toto může trvat až jednu hodinu.",
+          "remain-opened": "Prosím ponechte Nash otevřený po dobu zahájení transferu. Pokud Nash zavřete nebo se odhlásíte, transakce bude pozastavená do doby než se znovu přihlásíte.",
           "buttons": {
-            "finish": "Got it!"
+            "finish": "Rozumím!"
           }
         }
       },
       "transfer-info": {
-        "title": "Funds can be transferred as follows",
-        "notice": "You can only trade on the Nash Exchange once you have sent funds to the trading contract.",
+        "title": "Prostředky jsou posílány následovně",
+        "notice": "Obchodovat na burze Nash můžete poté, co pošlete prostředky na váš obchodovací účet.",
         "actions": {
-          "action-1": "You <0>can</0> move funds back and forth between your personal account and external accounts.",
-          "action-2": "Likewise, you <0>can</0> move funds back and forth between your personal account and the trading contract.",
-          "action-3": "You <0>cannot</0> move funds between the trading contract and external accounts without going through your personal account. This helps us keep funds used for trading secure: it’s always you depositing and withdrawing."
+          "action-1": "<0>Můžete</0> posílat prostředky mezi vaším osobním účtem a obchodovacím účtem, jak budete potřebovat.",
+          "action-2": "Stejně tak <0>můžete</0> posílat prostředky mezi vaším obchodovacím účtem a osobním účtem, jak budete potřebovat.",
+          "action-3": "Ale <0>nemůžete</0> posílat prostředky mezi externím účtem a obchodovacím účtem, bez toho, aniž byste je přeposlali přes váš osobní účet. Toto omezení nám umožňuje zabezpečit vaše prostředky a díky tomu víme, že jste to vždy vy kdo vkládá a vybírá z obchodovacího účtu."
         },
-        "continue-button": "OK, continue",
-        "dismiss-link": "Dismiss forever and continue"
+        "continue-button": "Rozumím, pokračovat",
+        "dismiss-link": "Již nikdy nezobrazovat a pokračovat"
       }
     },
     "transactions": {
-      "title": "Transfers",
-      "show-more-transactions": "Show more transfers",
-      "search-my-transactions": "Search my transfers…",
-      "no-transactions": "You haven’t made any transfers yet.",
+      "title": "Transfery",
+      "show-more-transactions": "Zobrazit více transferů",
+      "search-my-transactions": "Vyhledat z mých transferů…",
+      "no-transactions": "Neuskutečnili jste zatím žádné transfery.",
       "table": {
         "header": {
-          "title": "All deposits, withdrawals and contract transfers"
+          "title": "Všechny vklady a výběry a transfery"
         },
         "when": {
-          "title": "When"
+          "title": "Kdy"
         },
         "action": {
-          "title": "Action",
+          "title": "Akce",
           "status": {
-            "completed": "Complete",
-            "pending": "Pending"
+            "completed": "Dokončeno",
+            "pending": "Právě probíhá"
           },
-          "view-transaction": "View transaction",
-          "retry-pending": "Retry sending transaction",
-          "cancel-intent": "Cancel transfer",
-          "clear-intent": "Clear transfer",
-          "contact-support": "Please contact support",
-          "received-currency": "Received {{currencySymbol}}",
-          "receiving-currency": "Receiving {{currencySymbol}}",
-          "transferred-currency": "Sent {{currencySymbol}}",
-          "transferring-currency": "Sending {{currencySymbol}}",
-          "initializing-currency": "Initializing {{currencySymbol}} transfer",
-          "failed-permanently": "{{currencySymbol}} transfer failed"
+          "view-transaction": "Zobrazit transakce",
+          "retry-pending": "Zkusit znovu poslat transakci",
+          "cancel-intent": "Zrušit transfer",
+          "clear-intent": "Smazat transfer",
+          "contact-support": "Prosím kontaktujte podporu",
+          "received-currency": "Obdrženo {{currencySymbol}}",
+          "receiving-currency": "Obdržuji {{currencySymbol}}",
+          "transferred-currency": "Posláno {{currencySymbol}}",
+          "transferring-currency": "Posílám {{currencySymbol}}",
+          "initializing-currency": "Započíná {{currencySymbol}} transfer",
+          "failed-permanently": "{{currencySymbol}} transfer selhal"
         },
         "destination": {
-          "title": "Destination",
+          "title": "Destinace",
           "to": {
             "trading-account": "Trading contract",
             "personal-account": "Personal account",
