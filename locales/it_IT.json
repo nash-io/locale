@@ -3778,7 +3778,7 @@
         "redeem-button": {
           "label": "Rilascia NEX",
           "submitting": "Rilascio in corso…",
-          "error": "Impossibile! Per favore riprova.",
+          "error": "Non riuscito! Per favore riprova.",
           "success": "Successo. Rilascio di NEX in corso…",
           "released": "NEX rilasciati"
         }
@@ -3803,8 +3803,8 @@
       "paid-dividend-days": "Giorni pagati ({{date}})",
       "all-dividends-table": "Lista dei dividendi",
       "till-ended_plural": "{{count}} giorni rimasti",
-      "till-ended": "{{count}} giorno rimasti",
-      "till-ended_today": "Finisce oggi",
+      "till-ended": "{{count}} giorno rimasto",
+      "till-ended_today": "Termina oggi",
       "from-active-stakes": "Da <0>{{count}}</0> stake attivo",
       "from-active-stakes_plural": "Da <0>{{count}}</0> stake attivi",
       "period-description": "Durante questo periodo",
@@ -3817,7 +3817,7 @@
         "title": "Staking dei token Nash Exchange (NEX)",
         "header": {
           "title": "Cosa è il NEX staking?",
-          "desc": "Lo staking dei token Nash Exchange (NEX) è un modo per guadagnare reddito passivo. Ricevi una parte delle commissioni di negoziazione dello scambio ogni giorno in cui il tuo stake è attivo."
+          "desc": "Lo staking dei token Nash Exchange (NEX) è un modo per guadagnare reddito passivo. Ricevi una parte delle commissioni di trading dell’Exchange ogni giorno in cui il tuo stake è attivo."
         },
         "paragraphs": {
           "par-1": {
@@ -3826,23 +3826,23 @@
           },
           "par-2": {
             "title": "Come vengono calcolati i dividendi?",
-            "desc": "I dividendi dipendono da: (1) il numero di token NEX che metti in stake in proporzione alla fornitura totale di 50.000.000, e (2) il periodo di tempo dello stake. Più token metti in stake, maggiore saranno i tuoi dividendi. Più a lungo metterai i tuoi token in stake, maggiore sarà la percentuale di commissioni che riceverai (il tuo ‘tasso di staking’)."
+            "desc": "I dividendi dipendono: (1) dal numero di token NEX che metti in stake in proporzione ai 50.000.000 di NEX totali, e (2) dalla durata dello stake. Più token metti in stake, maggiore saranno i tuoi dividendi. Più a lungo metterai i tuoi token in stake, maggiore sarà la percentuale di commissioni che riceverai (il tuo ‘tasso di staking’)."
           },
           "par-3": {
             "title": "Per quanto tempo posso mettere in stake?",
-            "desc": "Il periodo minimo di staking è di un mese, che offre un tasso di staking del 25%. Tuttavia, se desideri una percentuale più elevata delle commissioni di scambio, puoi mettere in stake per qualsiasi numero intero di mesi fino a un massimo di 24, il che offre un tasso di staking del 75%"
+            "desc": "La durata minima di uno stake è di un mese, ed offre un tasso di staking del 25%. Tuttavia, se desideri una percentuale più elevata delle commissioni di scambio, puoi mettere in stake per qualsiasi numero intero di mesi fino a un massimo di 24, il che offre un tasso di staking del 75%"
           },
           "par-4": {
             "title": "Come ricevo i miei dividendi?",
-            "desc": "I dividendi vengono automaticamente aggiunti al saldo del contratto di trading. Sono pagati su base giornaliera, poco dopo mezzanotte UTC. Nash fornisce resoconti mensili degli stake che aggregano questi pagamenti in un’unica cifra ai fini contabili. Poiché le commissioni su una transazione vengono addebitate nella valuta scambiata, riceverai dividendi in ogni asset attualmente negoziato su Nash."
+            "desc": "I dividendi vengono automaticamente aggiunti al saldo del contratto di trading. Sono pagati su base giornaliera, poco dopo mezzanotte (orario UTC). Nash fornisce resoconti mensili degli stake che aggregano questi pagamenti in un’unica cifra ai fini contabili. Poiché le commissioni su una transazione vengono addebitate nella valuta scambiata, riceverai dividendi in ogni asset attualmente scambiato su Nash."
           },
           "par-5": {
             "title": "Posso ricevere i miei dividendi in un’unica valuta?",
             "desc": "No. Per motivi legali, non possiamo convertire i tuoi dividendi per te. Tuttavia, stiamo sviluppando uno strumento che ti consente di convertire i dividendi con un solo clic."
           },
           "par-6": {
-            "title": "Posso modificare o annullare il mio palo una volta che è stato creato?",
-            "desc": "No. Una volta creato lo stake non sarai in grado di modificarlo o annullarlo."
+            "title": "Posso modificare o cancellare il mio stake una volta che è stato creato?",
+            "desc": "No. Una volta creato lo stake non sarai in grado di modificarlo o cancellarlo."
           },
           "par-7": {
             "title": "Posso creare più stake?",
@@ -3855,13 +3855,13 @@
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "Capisco che lo stake di NEX paga dividendi solo se lo scambio di Nash genera entrate.",
+        "create-stake-disclaimer-label": "Ho compreso che lo stake di NEX paga dividendi solo se l’Exchange di Nash genera entrate.",
         "title": "Crea il tuo stake",
         "amount-to-stake": "Importo di NEX da mettere in stake",
-        "amount-to-stake-tooltip": "Il tasso di staking determina la dimensione della quota proporzionale delle entrate dallo scambio di Nash. Più a lungo metti in stake i tuoi NEX, maggiore sarà il tuo tasso di staking, con un tasso massimo del 75% per uno stake di due anni.\n\n<0>Un esempio di dividendo</0>\n I dividendi sono pagati giornalmente. Supponiamo che Nash abbia generato commissioni equivalenti a $ 1.000.000 nelle ultime 24 ore e che un utente possieda 1.000 token NEX sul totale di 50.000.000 di fornitura. Se l’utente ha uno stake di NEX per un tasso di staking del 75% per due anni, ha diritto ad un dividendo: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
+        "amount-to-stake-tooltip": "Il tasso di staking determina la dimensione della tua quota proporzionale delle entrate dall’Exchange di Nash. Maggiore la durata del tuo stake di NEX, maggiore sarà il tuo tasso di staking, con un tasso massimo del 75% per uno stake di due anni.\n\n<0>Un esempio di dividendo</0>\n I dividendi sono pagati giornalmente. Supponiamo che Nash abbia generato commissioni equivalenti a $ 1,000,000 nelle ultime 24 ore e che un utente possieda 1,000 token NEX sul totale di 50.000.000 di NEX massimi esistenti. Se l’utente ha uno stake di NEX per un tasso di staking del 75% per due anni, ha diritto ad un dividendo pari a: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
         "available-balance": "Saldo disponibile per lo stake ⋅",
         "quick-fill-label": "Max",
-        "set-stake-duration-label": "Imposta durate dello stake",
+        "set-stake-duration-label": "Imposta la durata dello stake",
         "selected-duration": "Seleziona durata ⋅",
         "selected-duration-month": "<0>{{count}}</0> mese",
         "selected-duration-month_plural": "<0>{{count}}</0> mesi",
@@ -3874,14 +3874,14 @@
         "duration-value_plural": "<0>{{count}}</0> mesi",
         "fee-reward": "Tasso di staking",
         "first-payment": "Primo pagamento",
-        "agreed-to-non-cancellation-label": "Capisco che non posso annullare o modificare questo stake dopo averla creato.",
-        "agreed-to-locked-tokens-label": "Comprendo che i miei token NEX saranno bloccati fino al completamento di questo stake.",
-        "create-stake-button": "Crea lo stake",
+        "agreed-to-non-cancellation-label": "Ho compreso che non posso cancellare o modificare questo stake dopo averlo creato.",
+        "agreed-to-locked-tokens-label": "Ho compreso che i miei token NEX saranno bloccati fino al completamento di questo stake.",
+        "create-stake-button": "Crea stake",
         "create-stake-sending-button": "Invio dei dati in corso…",
-        "create-stake-sending-text": "Invio dei dati. Si prega di tenere aperta questa finestra. Questo può richiedere fino a un minuto.",
-        "create-stake-error": "Si è verificato un errore o un ritardo durante la creazione dello stake. Ricontrolla tra cinque minuti e invia nuovamente se il tuo stake non è stato creato.",
+        "create-stake-sending-text": "Invio dei dati in corso. Si prega di tenere aperta questa finestra. Questo può richiedere fino a un minuto.",
+        "create-stake-error": "Si è verificato un errore o un ritardo durante la creazione dello stake. Ricontrolla tra cinque minuti e invia di nuovo se il tuo stake non è stato creato.",
         "create-stake-auth-error": "Errore di autenticazione. Per favore riprova.",
-        "learn-more": "Impara di più riguardo",
+        "learn-more": "Scopri di più",
         "footer-desc": "NEX in staking",
         "amount-error-message": "Questo importo supera il saldo disponibile.",
         "stake-success": {
@@ -3889,36 +3889,36 @@
           "stake-details": "Hai creato uno stake di {{amount}} NEX per un periodo di {{count}} mese. Il tuo stake apparirà nella dashboard a breve.",
           "stake-details_plural": "Hai creato uno stake di {{amount}} NEX per un periodo di {{count}} mesi. Il tuo stake apparirà nella dashboard a breve.",
           "stake-time-description": "Riceverai i primi dividendi in:",
-          "finish-button-label": "Finito"
+          "finish-button-label": "Concludi"
         }
       }
     },
     "no-stakes": {
       "title": "Guadagna reddito passivo dallo staking dei token NEX",
-      "description-desktop": "Nuovo allo staking? Impara di più riguardo lo <0>staking dei token NEX</0> e <1>crea il tuo primo stake</1>.",
-      "description-mobile": "Nuovo allo staking? Impara di più riguardo lo <0>staking dei token NEX</0>.",
+      "description-desktop": "Nuovo allo staking? Scopri di più sullo <0>staking dei token NEX</0> e <1>crea il tuo primo stake</1>.",
+      "description-mobile": "Nuovo allo staking? Scopri di più sullo <0>staking dei token NEX</0>.",
       "description-modal-create-link": "Crea il tuo primo stake"
     },
     "staking-view-header": {
       "stakes-in-progress": "Stake in corso",
       "completed-stakes": "Stake completati",
       "create-stake-button": "Crea un nuovo stake",
-      "learn-stake-button": "Impara al riguardo dello staking"
+      "learn-stake-button": "Scopri di più sullo staking"
     },
     "max-stakes": {
-      "message": "Hai creato {{amount}} da un possibile {{maxAmount}} stake. Il massimo che puoi creare è {{maxAmount}}.",
+      "message": "Hai creato {{amount}} di {{maxAmount}} stake possibili. Il massimo che puoi creare è {{maxAmount}}.",
       "dismiss": "Rimuovere"
     }
   },
   "contacts": {
     "title": "{{count}} contatto",
     "title_plural": "{{count}} contatti",
-    "search-my-contacts": "Cerca i miei contatti…",
+    "search-my-contacts": "Cerca nei miei contatti…",
     "no-contacts": "Non hai ancora aggiunto o importato alcun contatto.",
     "create-new": "Crea nuovo",
     "buttons": {
       "send": "Invia",
-      "send-disabled-tooltip": "Aggiungi un indirizzo di portafoglio ai tuoi contatti per inviare loro dei fondi.",
+      "send-disabled-tooltip": "Aggiungi un indirizzo di wallet ai tuoi contatti per inviare loro dei fondi.",
       "request": "Richiesta",
       "edit": "Modifica",
       "delete": "Cancella"
@@ -3936,7 +3936,7 @@
       },
       "edit": {
         "title": "Modifica questo contatto",
-        "button": "Salva cambiamenti"
+        "button": "Salva modifiche"
       },
       "send": {
         "title": "Invia fondi a {{contactName}}",
@@ -3957,7 +3957,7 @@
         "notice-text": "Tutte le informazioni associate a questo contatto verranno rimosse in modo permanente.",
         "button": "Si, cancella",
         "cancel": "Cancella",
-        "error": "Errore durante l’eliminazione del contatto. Per favore riprova.",
+        "error": "Errore durante la cancellazione del contatto. Per favore riprova.",
         "success": "Contatto cancellato.",
         "success-button": "Ritorna ai contatti"
       },
