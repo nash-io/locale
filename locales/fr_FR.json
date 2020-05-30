@@ -1319,8 +1319,8 @@
     "create-order": {
       "change-markets": "Change markets",
       "errors": {
-        "ordre-rejeté-fonds-insuffisants ":" Insuffisant {{currencySell}} dans le contrat de trading. Envoyez des fonds pour continuer.",
-        "ordre-rejeté-limite-quotidienne-atteinte ":" Votre commande a été rejetée car vous avez atteint votre limite de négociation quotidienne.",
+        "order-rejected-insufficient-funds":"Insuffisant {{currencySell}} dans le contrat de trading. Envoyez des fonds pour continuer.",
+        "order-rejected-daily-limit-reached":" Votre commande a été rejetée car vous avez atteint votre limite de négociation quotidienne.",
         "generic": "Erreur lors de votre ordre. Veuillez réessayer."
       },
       "modals": {
