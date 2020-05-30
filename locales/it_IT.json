@@ -3623,17 +3623,17 @@
     },
     "accounts": {
       "title": "Account",
-      "header": "Informazioni sul mio account",
+      "header": "Informazioni del mio account",
       "wallets-header": "Account generati dalle mie dodici parole segrete",
       "show-all-private-keys-button-label": "Mostra tutte le chiavi private",
       "hide-all-private-keys-button-label": "Nascondi tutte le chiavi private",
       "desc": "Nash è non-detentivo. Non abbiamo accesso alle tue chiavi private.",
-      "search-assets-placeholder": "Cerca un nome di asset o ticker…",
+      "search-assets-placeholder": "Cerca il nome o il ticker di un asset…",
       "public-address-label": "Indirizzo pubblico",
       "info-title": "Alcune blockchain supportano più asset",
-      "info-body": "Gli asset ERC-20 e NEP-5 sono token emessi rispettivamente sulle blockchain Ethereum e NEO. GAS è un asset archiviato sulla blockchain NEO. È necessario un solo account Ethereum per archiviare i token ETH e ERC-20 e un account NEO per archiviare i token NEO, GAS e NEP-5.",
+      "info-body": "Gli asset ERC-20 e NEP-5 sono token emessi rispettivamente sulle blockchain Ethereum e NEO. GAS è un asset conservato sulla blockchain NEO. È necessario un solo account Ethereum per conservare i token ETH e ERC-20 e un account NEO per conservare i token NEO, GAS e NEP-5.",
       "public-address-sub-label": "Quali asset posso inviare qui?",
-      "public-address-tooltip": "Questo è l’indirizzo blockchain in cui sono archiviati i tuoi asset.",
+      "public-address-tooltip": "Questo è l’indirizzo blockchain in cui sono conservati i tuoi asset.",
       "private-key-label": "Chave privata",
       "private-key-sub-label-show": "Mostra chiavi private",
       "private-key-sub-label-hide": "Nascondi chiavi private",
@@ -3657,22 +3657,22 @@
           "label": "Le mie dodici parole segrete",
           "account": "Account Nash",
           "desc": "Dodici parole segrete",
-          "unlock": "Sblocca e mostra dodici parole segrete",
-          "lock": "Nascondi e blocca dodici parole segrete"
+          "unlock": "Sblocca e mostra le dodici parole segrete",
+          "lock": "Nascondi e blocca le dodici parole segrete"
         },
         "wallets": {
           "label": "Account generati dalle mie dodici parole segrete",
           "private-key": "Chiave privata",
           "public-address": "Indirizzo pubblico",
-          "unlock": "Sblocca e mostra chiave privata",
+          "unlock": "Sblocca e mostra la chiave privata",
           "lock": "Nascondi e blocca la chiave privata"
         }
       },
       "modals": {
         "unlock-secret-words": {
           "title": "Sblocca le mie dodici parole segrete",
-          "submit": "Sblocca dodici parole segrete",
-          "error": "Errore: impossibile decodificare le parole segrete."
+          "submit": "Sblocca le dodici parole segrete",
+          "error": "Errore: decrittazione delle parole segrete non riuscita."
         }
       }
     },
@@ -3743,7 +3743,7 @@
                 "downloaded-app": "Ho scaricato l’app"
               },
               "scan-code": {
-                "header": "Inquadra il seguente codice QR con l’app Nash:",
+                "header": "Scansiona il seguente codice QR con l’app Nash:",
                 "desc": "Quando avrai completato la verifica a Livello 1, l’esito apparirà qui entro un minuto"
               }
             },
