@@ -1192,8 +1192,8 @@
       "success": "Nous vous avons envoyé un e-mail de réinitialisation de mot de passe. Si vous ne voyez pas notre e-mail, vérifiez dans courrier indésirable."
     },
     "reset-password": {
-      "missing-email": "Une erreur s'est produite. Veuillez cliquer à nouveau sur le lien dans votre e-mail.",
-      "expired-code": "Cette session n'est plus valide. Veuillez cliquer à nouveau sur le lien dans votre e-mail.",
+      "missing-email": "Une erreur s’est produite. Veuillez cliquer à nouveau sur le lien dans votre e-mail.",
+      "expired-code": "Cette session n’est plus valide. Veuillez cliquer à nouveau sur le lien dans votre e-mail.",
       "steps": [
         "Confirm secret words",
         "Nouveau mot de passe"
@@ -1202,28 +1202,28 @@
         "home": {
           "header": "Avez-vous encore vos douze mots secrets?",
           "sub-header": "Lorsque vous avez créé votre compte Nash pour la première fois, nous vous avons demandé de noter ces mots et de les conserver.",
-          "button-have-words": "Oui, j'ai encore mes mots secrets",
-          "button-lost-words": "Non, j'ai perdu mes mots secrets",
+          "button-have-words": "Oui, j’ai encore mes mots secrets",
+          "button-lost-words": "Non, j’ai perdu mes mots secrets",
           "desc": "Malheureusement, si vous avez perdu à la fois votre ancien mot de passe et vos douze mots secrets, vous ne pourrez pas récupérer vos fonds."
         },
         "edit": {
           "header": "Entrez vos douze mots secrets",
-          "desc-1": "Nous utilisons vos mots secrets pour générer votre phrase de récupération principale et vos comptes d'actifs individuels.",
-          "desc-2": "Si vous ne pouvez pas fournir les douze mots de vos comptes existants, <0> vos fonds seront perdus.</0>",
+          "desc-1": "Nous utilisons vos mots secrets pour générer votre phrase de récupération principale et vos comptes d’actifs individuels.",
+          "desc-2": "Si vous ne pouvez pas fournir les douze mots de vos comptes existants, <0>vos fonds seront perdus.</0>",
           "card-title": "Tous les mots sont en minuscules",
           "card-reset": "Effacer tous les mots",
-          "mnemonic-invalid": "Cette combinaison de mots n'est pas valide. Veuillez revérifier et réessayer.",
+          "mnemonic-invalid": "Cette combinaison de mots n’est pas valide. Veuillez revérifier et réessayer.",
           "mnemonic-valid": "Cette combinaison de mots est correcte. Vous pouvez maintenant réinitialiser votre mot de passe."
         },
         "skip": {
-          "header": "Vous perdrez l'accès à vos fonds",
-          "desc-1": "Si vous avez perdu à la fois votre ancien mot de passe et vos douze mots secrets, <0> vous ne pourrez pas récupérer vos fonds. </0>",
-          "desc-2": "Nash est une plateforme non dépositaire qui utilise une technologie décentralisée. Il nous est impossible d'accéder à vos fonds et nous ne pouvons pas les récupérer.",
+          "header": "Vous perdrez l’accès à vos fonds",
+          "desc-1": "Si vous avez perdu à la fois votre ancien mot de passe et vos douze mots secrets, <0>vous ne pourrez pas récupérer vos fonds.</0>",
+          "desc-2": "Nash est une plateforme non dépositaire qui utilise une technologie décentralisée. Il nous est impossible d’accéder à vos fonds et nous ne pouvons pas les récupérer.",
           "desc-3": "Vous pouvez réinitialiser votre ancien compte et choisir un nouvel ensemble de mots secrets. Ce sera comme créer un nouveau compte avec un nouveau mot de passe.",
           "desc-4": "Si vous choisissez de réinitialiser votre compte, vous perdrez tout accès à vos fonds, y compris:",
           "desc-5": "Veuillez vérifier et voir si vous pouvez retrouver vos mots secrets ou votre mot de passe.",
           "go-back": "Go back",
-          "checkbox-1": "J'ai perdu mon mot de passe et mes douze mots secrets.",
+          "checkbox-1": "J’ai perdu mon mot de passe et mes douze mots secrets.",
           "checkbox-2": "I understand that I will lose all access to my funds if I reset my account.",
           "submit": "Réinitialiser mon compte",
           "sub-bullet-1": "Tous les actifs de votre compte personnel.",
@@ -1264,39 +1264,39 @@
         "errors": {
           "reset-wallets-locked": "La réinitialisation du compte est actuellement verrouillée. Veuillez contacter le support.",
           "reset-locked": "La réinitialisation du mot de passe est actuellement verrouillée. Veuillez contacter le support.",
-          "incorrect-keys": "La clé publique provenant des douze mots que vous avez soumis ne correspond pas aux données enregistrées. Cela indique que les douze mots que vous avez soumis ne proviennent pas de votre compte Nash. Veuillez revérifier votre sauvegarde. Contactez l'assistance si vous rencontrez toujours des problèmes.",
-          "generic-error": "Une erreur s'est produite et votre mot de passe n'a pas été réinitialisé. Votre lien de réinitialisation de mot de passe a peut-être expiré. Veuillez demander un nouveau lien de réinitialisation et réessayer."
+          "incorrect-keys": "La clé publique provenant des douze mots que vous avez soumis ne correspond pas aux données enregistrées. Cela indique que les douze mots que vous avez soumis ne proviennent pas de votre compte Nash. Veuillez revérifier votre sauvegarde. Contactez l’assistance si vous rencontrez toujours des problèmes.",
+          "generic-error": "Une erreur s’est produite et votre mot de passe n’a pas été réinitialisé. Votre lien de réinitialisation de mot de passe a peut-être expiré. Veuillez demander un nouveau lien de réinitialisation et réessayer."
         },
         "submit": "Definir un nouveau mot de passe"
       }
     },
-    "verify-email": "Vérification de l'adresse e-mail…",
+    "verify-email": "Vérification de l’adresse e-mail…",
     "secret-word-list-edit": {
       "placeholder": "Word {{index}}"
     },
     "discourse-sso": {
       "login": {
         "title": "Connectez-vous à la communauté Nash",
-        "description": "Vous aurez besoin d'un compte Nash pour vous connecter à la communauté Nash.",
+        "description": "Vous aurez besoin d’un compte Nash pour vous connecter à la communauté Nash.",
         "button-login": "Connectez-vous avec un compte Nash",
-        "link-create": "<0> Créez un compte Nash </0>"
+        "link-create": "<0>Créez un compte Nash</0>"
       },
       "create-account": {
         "title": "Create your Nash Community account",
-        "description": "Pour publier des messages sur l'espace communautaire, vous devez bloquer au moins 1 NEX pendant 24 mois.",
+        "description": "Pour publier des messages sur l’espace communautaire, vous devez bloquer au moins 1 NEX pendant 24 mois.",
         "username-label": "Community username",
         "username-placeholder": "Choisissez un nom…",
         "button-create": "Create Community account",
         "button-creating": "Creating Community account…",
-        "migrate-description": "Si vous utilisez l'extension Nash pour vous connecter à la communauté, vous pouvez <0> migrer votre compte </0>.",
-        "username-exits": "‘{{nom d'utilisateur}}’ déjà pris. Veuillez choisir un autre nom d'utilisateur."
+        "migrate-description": "Si vous utilisez l’extension Nash pour vous connecter à la communauté, vous pouvez <0>migrer votre compte</0>.",
+        "username-exits": "‘{{nom d’utilisateur}}’ déjà pris. Veuillez choisir un autre nom d’utilisateur."
       },
       "migrate-account": {
         "title": "Migrate your Nash Community account",
-        "migration-step1": "Connectez-vous avec l'extension Nash.",
+        "migration-step1": "Connectez-vous avec l’extension Nash.",
         "migration-step2": "Change your Community email address to the address used by your Nash account.",
-        "migration-step3": "Une fois votre adresse e-mail modifiée, vous pourrez vous connecter à l'aide de votre compte Nash.",
-        "button-migrate": "Connectez-vous avec l'extension Nash",
+        "migration-step3": "Une fois votre adresse e-mail modifiée, vous pourrez vous connecter à l’aide de votre compte Nash.",
+        "button-migrate": "Connectez-vous avec l’extension Nash",
         "link-back": "Retour",
         "faq-change-email": {
           "title": "How do I change my Community email address?",
