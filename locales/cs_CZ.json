@@ -2698,112 +2698,112 @@
           "verify": "Ověřit"
         },
         "national-id": {
-          "upload-label": "Upload two <0>separate photographs</0> of your national ID, one of the front and one of the back.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Nahrát dvě <0>rozdílné fotografie</0> vašeho občanského průkazu, jednu fotografii s přední stranou a druhou se zadní.",
+          "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximální velikost: 10MB."
         },
         "passport": {
-          "upload-label": "Upload one photograph of your passport information.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Nahrajte jednu fotografii vašeho pasu.",
+          "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximální velikost: 10MB."
         },
         "utility-bill": {
-          "upload-label": "Upload one photograph of a recent utility bill.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Nahrajte jednu fotografii vašeho nedávného účtu za veřejné služby (např, za elektřinu).",
+          "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximální velikost: 10MB."
         },
         "selfie-with-id": {
-          "upload-label": "Upload one photograph of yourself holding both a piece of paper with ‘cryptocoin.pro’ written on it and your passport or national ID.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Nahrajte fotografii, na které jste vy jak držíte na papíru napsané ‘cryptocoin.pro’ spolu s vaším průkazem totožnosti.",
+          "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "bank-account": {
-          "bank-name-placeholder": "Enter your bank’s name",
-          "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
+          "bank-name-placeholder": "Napište jméno banky",
+          "iban-placeholder": "e.g. CZ89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. CLBABU7S"
         }
       }
     }
   },
   "funds": {
-    "title": "Funds",
-    "deposit-currency": "Deposit {{currencySymbol}}",
-    "your-currency-balances": "Your {{currencySymbol}} balances",
+    "title": "Finanční prostředky",
+    "deposit-currency": "Zaslat {{currencySymbol}}",
+    "your-currency-balances": "Váš {{currencySymbol}} zůstatek",
     "resetting-account": {
-      "title": "Resync your trading contract balance.",
-      "desc": "This will release funds stuck in a ‘Pending’ state. This process will cancel open trade orders.",
-      "button": "Resync account",
-      "resyncing": "Resyncing…",
-      "error": "Resync failed. Please <0>contact support.</0>",
-      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
-      "success": "Resync successful!"
+      "title": "Synchronizovat váš zůstatek na obchodovacím účtu.",
+      "desc": "Toto uvolní zaseknuté prostředky se statusem 'Provádí se'. Zároveň se zruší všechny otevřené burzovní pokyny.",
+      "button": "Synchronizovat účet",
+      "resyncing": "Synchronizuji…",
+      "error": "Synchronizace selhala. Prosím <0>kontaktujte podporu.</0>",
+      "wait-error": "Prosím vyčkejte alespoň 2 hodiny před použitm této stránky.",
+      "success": "Synchronizace proběhla úspěšně!"
     },
     "transaction-retry": {
-      "title": "Retry transactions",
-      "subtitle": "All pending or failed deposits or withdrawals",
-      "actions-title": "Actions",
-      "button-title": "Retry",
-      "button-sending": "Sending…",
-      "button-sent": "Resent",
-      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
+      "title": "Znovu provést transakci",
+      "subtitle": "Všechny čekající a selhané vklady a výběry",
+      "actions-title": "Akce",
+      "button-title": "Zkusit znovu",
+      "button-sending": "Posílám…",
+      "button-sent": "POsláno znovu",
+      "nothing-to-retry": "Námáte žádné vklady a výběry, které se provádí.",
       "status": {
         "title": "Status",
-        "created": "Created",
-        "pending": "Pending"
+        "created": "Vytvořené",
+        "pending": "Čekající"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page."
+      "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku."
     },
     "assets": {
-      "title": "Assets",
-      "tabs-info-button": "Learn about sending and receiving funds",
+      "title": "Aktiva",
+      "tabs-info-button": "Zjistit více o posílání a přijímání prostředků",
       "header": {
-        "title": "Assets",
-        "search-placeholder": "Search over 3,000 assets…"
+        "title": "Aktiva",
+        "search-placeholder": "Vyhledat mezi více jak 3,000 digitálními měnami…"
       },
       "transferring-funds": {
-        "title": "Sending and receiving funds",
-        "desc": "<0>If you want to trade, you’ll have to send funds to the trading contract.</0> <1>You may only send funds to the trading contract from your personal account.</1>",
-        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
-        "learn-more": "Learn more",
-        "never-show": "Never show me this again."
+        "title": "Posílání a přijímání prostředků",
+        "desc": "<0>Pokud chcete obchodovat, musíte nejdřív poslat vaše prostředky na obchodovací účet.</0> <1>Můžete zaslat prostředky pouze z vašeho osobního účtu.</1>",
+        "learn-more-never-show": "<0>Zjistit více</0> nebo <1>již nikdy neukazovat</1>.",
+        "learn-more": "Zjistit více",
+        "never-show": "Již nikdy neukazovat."
       },
       "table": {
         "header": {
-          "title": "Balances",
+          "title": "Zůstatky",
           "actions": {
-            "hide-zero-balances": "Hide zero balances"
+            "hide-zero-balances": "Skrýt nulové zůstatky"
           }
         },
         "claim-gas": {
-          "claiming": "Claiming…",
-          "claim": "Claim GAS",
-          "gas-to-claim": "You have {{amount}} GAS to claim.",
-          "claiming-now": "You are currently claiming GAS.",
-          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
-          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
+          "claiming": "Získávám…",
+          "claim": "Nárokovat GAS",
+          "gas-to-claim": "Máte {{amount}} GAS, které si můžete nárokovat.",
+          "claiming-now": "Nyní si nárokujete GAS.",
+          "claiming-locked": "Znovu si můžete nárokovat GAS za ~{{count}} minutu.",
+          "claiming-locked_plural": "Znovu si můžete nárokovat GAS za ~{{count}} minut."
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Aktiva"
           },
           "personal-account": {
-            "title": "Personal account"
+            "title": "Osobní účet"
           },
           "trading-account": {
-            "title": "Trading contract"
+            "title": "Obchodovací účet"
           },
           "in-orders": {
-            "title": "In orders"
+            "title": "V burzovních příkazech"
           },
           "pending": {
-            "title": "Pending",
-            "hint": "Transfers being processed by the blockchain."
+            "title": "Ověřuje se",
+            "hint": "Blockchain ověřuje vaše transakce."
           },
           "tradeable": {
-            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
+            "hint": "Tato měna prozatím nemůže být obchodovaná na Nash burze, ale stále můžete si prostředky vybrat pokud mátě nejaký zůstatek na obchodovacím účtu v této měně."
           },
           "action-buttons": {
-            "trade": "Trade",
-            "transfer-funds": "Send/Receive"
+            "trade": "Obchodovat",
+            "transfer-funds": "Poslat/Obdržet"
           }
         },
-        "no-results": "There are not yet any assets in your Nash account."
+        "no-results": "Zatím nemáte žádné zůstatky na vašem Nash účtu."
       }
     },
     "modals": {
