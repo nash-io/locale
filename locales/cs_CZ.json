@@ -2601,101 +2601,101 @@
         "sell-limits": "Prodejní limity limit"
       },
       "buy-steps": {
-        "review-quote": "Review your quote",
-        "make-payment": "Make your payment",
-        "upload-proof-of-payment": "Upload proof of payment"
+        "review-quote": "Zkontrolovat váši cenu",
+        "make-payment": "Provést vaší platbut",
+        "upload-proof-of-payment": "Nahrát potvrzení platby"
       },
       "error": {
-        "invalid-data": "Invalid data.",
-        "unhandled-error": "An unhandled error occurred. Please reload then try again."
+        "invalid-data": "Špatná data.",
+        "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu."
       },
       "validation": {
-        "first-name-required": "First name is required.",
-        "first-name-characters-invalid": "First name must only contain letters and hyphens.",
-        "last-name-required": "Last name is required.",
-        "last-name-characters-invalid": "Last name must only contain letters and hyphens.",
-        "email-required": "Email is required.",
-        "email-invalid": "Email must be valid.",
-        "date": "Invalid date",
-        "month": "Invalid month",
-        "year": "Invalid year",
-        "zip": "Postcode must be between four and ten digits",
-        "verification-code-invalid": "Invalid verification code.",
-        "bank-name-required": "Bank name is required.",
-        "iban-required": "IBAN is required.",
-        "iban-too-short": "IBAN must be at least 16 characters in length.",
-        "iban-too-long": "IBAN must not exceed 34 characters in length.",
-        "iban-characters-invalid": "IBAN must only contain letters and numbers.",
-        "iban-country-code-invalid": "IBAN must begin with a valid two-letter country code.",
-        "iban-already-used": "IBAN already associated with an account.",
-        "swift-required": "SWIFT/BIC is required.",
-        "swift-length-invalid": "SWIFT/BIC must be between 8 and 11 characters."
+        "first-name-required": "Zadejte křestní jméno.",
+        "first-name-characters-invalid": "Vaše křestní jméno může obsahovat pouze písmena.",
+        "last-name-required": "Zadejte vaše příjmení.",
+        "last-name-characters-invalid": "Vaše příjmení může obsahovat pouze písmena..",
+        "email-required": "Zadejte váš email.",
+        "email-invalid": "Emailová adresa musí být platná.",
+        "date": "Nesprávné datum",
+        "month": "Nesprávný měsíc",
+        "year": "Nesprávný rok",
+        "zip": "PSČ musí být mezi 4 až 10 číslicemi",
+        "verification-code-invalid": "Nesprávný kód ověření.",
+        "bank-name-required": "Je potřeba zadat jméno vaší banky.",
+        "iban-required": "Ne potřeba zadat IBAN.",
+        "iban-too-short": "IBAN musí být alespoň 16 znaků dlouhý.",
+        "iban-too-long": "IBAN nesmí překročit 34 znaků.",
+        "iban-characters-invalid": "IBAN musí obsahovat pouze čísla a písmena.",
+        "iban-country-code-invalid": "IBAN mumusí začínat s platným kódem země.",
+        "iban-already-used": "Čísla IBAN již přiřazené k účtu.",
+        "swift-required": "Je potřeba zadat SWIFT/BIC.",
+        "swift-length-invalid": "SWIFT/BIC musí být mezi 8 a 11 znaky."
       },
       "profile-status": {
-        "incomplete": "Complete your profile to increase your limits.",
-        "pending": "Identity verification is pending.",
-        "succeeded": "Identity verification succeeded.",
-        "failed": "Identity verification failed."
+        "incomplete": "Pro zvýšení limitů zkompletujte váš profil.",
+        "pending": "Ověření totožnosti se provádí.",
+        "succeeded": "Ověření totožnosti uspělo.",
+        "failed": "Ověření totožnosti selhalo."
       },
       "field-status": {
-        "incomplete": "Incomplete",
-        "pending": "Pending",
-        "rejected": "Rejected",
-        "accepted": "Verified",
-        "completed": "Complete"
+        "incomplete": "Není kompletní",
+        "pending": "Provádí se",
+        "rejected": "Zamítnuto",
+        "accepted": "Ověřeno",
+        "completed": "Dokončeno"
       },
       "link": {
-        "add": "Add",
-        "edit": "Edit"
+        "add": "Přidat",
+        "edit": "Upravit"
       },
       "heading": {
-        "add-phone-number": "Add your phone number",
-        "add-residential-address": "Add your residential address",
-        "government-id-or-passport": "Upload identity document",
-        "utility-bill": "Upload utility bill",
-        "selfie-with-id": "Upload selfie with ID",
-        "upload-proof-of-payment": "Upload proof of payment",
-        "success": "Success!"
+        "add-phone-number": "Přidat vaše telefonní číslo",
+        "add-residential-address": "Přidat vaší adresu bydliště",
+        "government-id-or-passport": "Nahrát průkaz totožnosti",
+        "utility-bill": "Nahrát účet za veřejné služby (např. elektřinu)",
+        "selfie-with-id": "Nahrát fotografii s průkazem totožnosti",
+        "upload-proof-of-payment": "Nahrát potvrzení o platbě",
+        "success": "Vše probehlo v pořádku!"
       },
       "button": {
-        "cancel": "Cancel",
-        "continue": "Continue",
-        "submit": "Submit",
-        "submit-verification-code": "Submit verification code",
-        "transfer-initiated": "I’ve made this transfer",
-        "submit-proof-of-payment": "Submit proof"
+        "cancel": "Zrušit",
+        "continue": "Pokračovat",
+        "submit": "Odeslat",
+        "submit-verification-code": "Odeslat ověřovací kód",
+        "transfer-initiated": "Proveedl jsem tento transfer",
+        "submit-proof-of-payment": "Poslat potvrzení"
       },
       "details-shared": {
-        "title": "{{ccpro}} has sent you an email!",
-        "desc": "Please check your email and verify your account with {{ccpro}}.<0 />If you don’t see their email, check your junk folder.",
-        "button": "Resend verification email"
+        "title": "{{ccpro}} vám poslal email!",
+        "desc": "Prosím zkontrolujte si váš email a ověřte si účet u {{ccpro}}.<0 />Pokud nevidíte jejich email, zkontrolujte si spamovou složku.",
+        "button": "Zaslat ověřovací email znovu"
       },
       "transactions": {
-        "order-id": "Order ID",
-        "date-created": "Created",
-        "action": "Action",
-        "cost": "Cost",
-        "amount": "Amount",
-        "no-transactions": "You haven’t bought or sold any digital assets yet."
+        "order-id": "Číslo příkazu",
+        "date-created": "Vytvořeno",
+        "action": "Akce",
+        "cost": "Náklady",
+        "amount": "Množství",
+        "no-transactions": "Ještě jste nekoupili ani neprodali žádné digitální měny."
       },
       "payment-methods": {
-        "currency": "Currency",
-        "bank-name": "Bank name",
+        "currency": "Měna",
+        "bank-name": "Jmén banky",
         "iban": "IBAN",
         "swift": "SWIFT/BIC",
-        "remove-bank-account": "Remove {{iban}}?"
+        "remove-bank-account": "Odebrat {{iban}}?"
       },
       "editor": {
         "phone": {
-          "enter-phone-number": "Enter phone number",
-          "verify-phone-number": "Verify phone number",
-          "label": "Enter your phone number",
-          "desc": "A ten-digit code will be sent via SMS to verify your phone number.",
-          "code-not-received": "Didn’t receive a code via SMS? <0>Resend it</0>.",
-          "resending-code": "Resending verification code…",
-          "code-label": "Enter the verification code sent to your phone.",
-          "back": "Back",
-          "verify": "Verify"
+          "enter-phone-number": "Zadat telefonní číslo",
+          "verify-phone-number": "Ověřit telefonní číslo",
+          "label": "Zadat telefonní číslo",
+          "desc": "Bude vám zaslán kód v SMS pro ověření vašeho telefonního čísla.",
+          "code-not-received": "Neobrdželi jste SMS s ověřovacím kódem? <0>Zaslat znovu</0>.",
+          "resending-code": "Zasíláme znovu SMS s ověřovacím kódem…",
+          "code-label": "Vložte ověřovací kód zaslaný na váš telefon.",
+          "back": "Zpět",
+          "verify": "Ověřit"
         },
         "national-id": {
           "upload-label": "Upload two <0>separate photographs</0> of your national ID, one of the front and one of the back.",
