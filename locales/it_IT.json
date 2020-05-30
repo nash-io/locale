@@ -3430,9 +3430,9 @@
         "go-back-label": "Torna indietro"
       },
       "confirm-details": {
-        "begin-button-label": "Questi dettagli sono corretti",
-        "your-details": "Dettagli personali",
-        "address-details": "Dettagli dell’indirizzo",
+        "begin-button-label": "Questi dati sono corretti",
+        "your-details": "Dati personali",
+        "address-details": "Dati dell’indirizzo",
         "edit-label": "Modifica",
         "submission-error": "Si è verificato un errore durante l’invio dei dati."
       }
@@ -3461,7 +3461,7 @@
           "password": "Password",
           "update-password": "Cambia password",
           "two-factor": "Ti consigliamo di abilitare l’autenticazione a due fattori nella pagina <0>Sicurezza</0>.",
-          "two-factor-enable": "L’autenticazione a due fattori può essere disabilita alla pagina <0>Sicurezza</0>."
+          "two-factor-enable": "L’autenticazione a due fattori può essere disabilitata alla pagina <0>Sicurezza</0>."
         }
       },
       "modals": {
@@ -3477,18 +3477,18 @@
           "title": "Aggiorna Paese",
           "label": "Paese",
           "tier0": "Se il tuo paese di residenza è cambiato e desideri aggiornarlo, per favore <0>contatta il supporto</0>.",
-          "tier1": "Ripristineremo il tuo livello di verifica e ti chiederemo di ripetere la procedura di verifica utilizzando i tuoi nuovi documenti. Una volta che la tua richiesta è stata approvata, aggiorneremo il tuo Paese di residenza sul Paese sui documenti che hai fornito."
+          "tier1": "Ripristineremo il tuo livello di verifica e ti chiederemo di ripetere la procedura di verifica utilizzando i tuoi nuovi documenti. Una volta che la tua richiesta è stata approvata, aggiorneremo il tuo Paese di residenza con il Paese sui documenti che hai fornito."
         },
         "update-email": {
           "success-header": "Ti abbiamo inviato un’email!",
-          "success-description": "Ti abbiamo inviato un’email di conferma per iniziare il processo di aggiornamento dell’indirizzo. Se non vedi la nostra email, controlla la cartella della posta indesiderata.",
+          "success-description": "Ti abbiamo inviato un’email di conferma per iniziare il processo di aggiornamento dell’indirizzo. Se non vedi la nostra email, controlla nella tua cartella di spam.",
           "success-back": "Fatto!",
           "title": "Cambia email",
           "current-email-label": "Il tuo attuale indirizzo email",
           "current-email": "Indirizzo email attuale",
           "new-email-label": "Nuovo indirizzo email",
           "new-email-placeholder": "Inserisci il tuo nuovo indirizzo email",
-          "twofa-label": "Autemticazione a due fattori",
+          "twofa-label": "Autenticazione a due fattori",
           "twofa-label-placeholder": "Inserisci il tuo codice di autenticazione a due fattori (2FA)",
           "request-email-change-button-label": "Richiedi cambio indirizzo"
         },
@@ -3521,7 +3521,7 @@
           "success": "La tua password è stata cambiata con successo.",
           "errors": {
             "password-must-change": "La tua nuova password dovrebbe essere diversa dalla tua vecchia password.",
-            "password-already-used": "Hai già usato questa password. Per favore scegline un’ altra.",
+            "password-already-used": "Hai già usato questa password. Per favore scegline un’altra.",
             "missing-key": "Chiavi della firma mancanti. Aggiorna questa pagina e riprova."
           }
         }
@@ -3541,18 +3541,18 @@
           "save-settings": "Salva impostazioni"
         },
         "email": {
-          "label": "Mandami una email quando…",
+          "label": "Mandami un’email quando…",
           "news": "Ci sono notizie e aggiornamenti da Nash.",
           "actions": "Ci sono azioni consigliate per il mio account.",
-          "withdrawal": "Un prelievo è fatto dal mio account.",
-          "deposit": "Un deposito è fatto al mio account."
+          "withdrawal": "Viene effettuato un prelievo dal mio account.",
+          "deposit": "Viene effettuato un deposito sul mio account."
         }
       }
     },
     "security": {
       "title": "Sicurezza",
       "header": "Sicurezza dell’account",
-      "desc": "Abilita autenticazione a due fattori qui.",
+      "desc": "Abilita l’autenticazione a due fattori qui.",
       "cards": {
         "2fa": {
           "label": "Autenticazione a due fattori",
@@ -3560,8 +3560,8 @@
           "desc": "Ti consigliamo di mantenere attivata l’autenticazione a due fattori (2FA). Aggiunge un ulteriore livello di sicurezza al tuo account.",
           "enabled": "Abilitata",
           "disabled": "Disabilitata",
-          "enable": "Abilitare",
-          "disable": "Disabilitare (non raccomandato)"
+          "enable": "Abilita",
+          "disable": "Disabilita (non raccomandato)"
         },
         "all-account-activity": {
           "label": "Tutte le attività dell’account",
