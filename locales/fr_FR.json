@@ -1299,70 +1299,70 @@
         "button-migrate": "Connectez-vous avec l’extension Nash",
         "link-back": "Retour",
         "faq-change-email": {
-          "title": "How do I change my Community email address?",
-          "step1": "Once you’ve logged in to the Community, click on your avatar in the top right-hand corner of the screen.",
-          "step2": "Click on your username and select ‘Preferences’.",
-          "step3": "Click the pencil icon to edit your email address.",
-          "step4": "Enter a new email address and click ‘Change’.",
-          "step5": "You’ll receive two confirmation emails, one at your old email address and one at your new address. You’ll need to confirm both addresses to complete the change."
+          "title": "Comment changer mon adresse e-mail de communauté?",
+          "step1": "Une fois connecté à la communauté, cliquez sur votre avatar dans le coin supérieur droit de l’écran.",
+          "step2": "Cliquez sur votre nom d’utilisateur et sélectionnez «Préférences».",
+          "step3": "Cliquez sur l’icône en forme de crayon pour modifier votre adresse e-mail.",
+          "step4": "Saisissez une nouvelle adresse e-mail et cliquez sur «Modifier».",
+          "step5": "Vous recevrez deux e-mails de confirmation, l’un à votre ancienne adresse e-mail et l’autre à votre nouvelle adresse. Vous devrez confirmer les deux adresses pour terminer la modification."
         }
       },
-      "get-token": "Authenticating…",
-      "log-you-in": "Logging in…",
-      "unknow-error-message": "Something went wrong, please try again."
+      "get-token": "Authentification…",
+      "log-you-in": "Se connecter…",
+      "unknow-error-message": "Un problème est survenu, veuillez réessayer."
     }
   },
   "basic-exchange": {
-    "title": "Basic view",
-    "title-short": "Basic",
-    "switch-to-advanced": "Switch to pro view",
+    "title": "Vue simplifiée",
+    "title-short": "simplifié",
+    "switch-to-advanced": "Passer en vue pro",
     "create-order": {
       "change-markets": "Change markets",
       "errors": {
-        "order-rejected-insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds":"Insuffisant {{currencySell}} dans le contrat de trading. Envoyez des fonds pour continuer.",
+        "order-rejected-daily-limit-reached":"Votre commande a été rejetée car vous avez atteint votre limite de négociation quotidienne.",
+        "generic": "Erreur lors de votre ordre. Veuillez réessayer."
       },
       "modals": {
         "exchange-info": {
-          "title": "How to exchange tokens",
-          "desc": "First, select the tokens you want to exchange.",
-          "price-options-header": "You have two options for choosing your price:",
+          "title": "Comment échanger des jetons",
+          "desc": "Tout d’abord, sélectionnez les jetons que vous souhaitez échanger.",
+          "price-options-header": "Vous avez deux options pour choisir votre prix:",
           "average-market-price": {
-            "header": "Current market price",
-            "desc": "Place your order at current market price so that it fills sooner. Unfilled portions will cancel automatically after 24 hours."
+            "header": "Prix actuel du marché",
+            "desc": "Passez votre ordre au prix du marché actuel afin qu’elle se remplisse plus tôt. Les portions non remplies seront automatiquement annulées après 24 heures."
           },
           "set-a-price": {
-            "header": "Set a price",
-            "desc": "Your order can match with orders at this price or better, but will not go beyond it. This option means your order might not all fill at once."
+            "header": "Fixer un prix",
+            "desc": "Votre ordre peut correspondre à des ordres à ce prix ou mieux, mais ne va pas au-delà. Cette option signifie que votre ordre pourrait ne pas être exécuté en une seule fois."
           },
           "balances": {
-            "header": "Balances",
-            "desc": "We will tell you if your balance is insufficient for making a trade. Choose ‘Balances’ to check your account status and send/receive funds."
+            "header": "solde",
+            "desc": "Nous vous dirons si votre solde est insuffisant pour effectuer une transaction. Choisissez ‘Soldes’ pour vérifier l’état de votre compte et envoyer / recevoir des fonds."
           }
         },
         "select-token": {
           "title": {
-            "sell": "I want to trade",
-            "buy": "I want to receive"
+            "sell": "Je veux commercer",
+            "buy": "Je veux recevoir"
           },
           "header": {
-            "sell": "Select the token you want to trade",
-            "buy": "Select the token you want to receive"
+            "sell": "Sélectionnez le jeton que vous souhaitez échanger",
+            "buy": "Sélectionnez le jeton que vous souhaitez recevoir"
           },
-          "ignore-low-balances": "Hide small balances",
+          "ignore-low-balances": "Masquer les petits soldes",
           "search": {
             "placeholder": "Search for a token name or ticker…",
-            "no-results": "We couldn’t find any results for <0>{{search}}</0>.",
-            "no-results-no-query": "We couldn’t find any matching currencies"
+            "no-results": "Nous n’avons trouvé aucun résultat pour <0>{{search}}</0>.",
+            "no-results-no-query": "Nous n’avons trouvé aucune devise correspondante"
           },
           "disabled": {
-            "maintenance": "This token is under scheduled maintenance.",
-            "deposits-withdrawals-suspended": "Deposits and withdrawals are suspended until further notice."
+            "maintenance": "Ce jeton fait l’objet d’une maintenance planifiée.",
+            "deposits-withdrawals-suspended": "Les dépôts et retraits sont suspendus jusqu’à nouvel ordre."
           },
           "trading": "Trading",
           "personal": "Personal",
-          "24-hours": "24 hours"
+          "24-hours": "24 heures"
         }
       },
       "exchange-tokens": {
@@ -1383,20 +1383,20 @@
             "label-button": "Select a token to trade",
             "errors": {
               "insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-              "limit-breached": "This order exceeds your trading limits.",
-              "order-too-small": "Total must exceed {{orderSize}} {{currencySell}}.",
+              "limit-breached": "Cet ordre dépasse vos limites de trading.",
+              "order-too-small": "Le total doit dépasser {{orderSize}} {{currencySell}}.",
               "transfer": "Send/Receive"
             }
           },
           "set-limit": {
             "fixed-price-label": "Your price for {{currencyBuy}} (in {{currencySell}})",
             "floating-price-label": "Market price of {{currencyBuy}} (in {{currencySell}})",
-            "fixed-price-on": "Set fixed price",
+            "fixed-price-on": "Fixer un prix fixe",
             "errors": {
-              "price-too-high": "Cannot process prices over {{maxPrice}}."
+              "price-too-high": "Impossible de traiter les prix supérieurs à {{maxPrice}}."
             },
             "warnings": {
-              "20-below": "The specified price is more than 20% below the current market price."
+              "20-below": "Le prix spécifié est inférieur de plus de 20% au prix actuel du marché."
             }
           }
         },
