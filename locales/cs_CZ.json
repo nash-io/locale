@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Nahrání selhalo.",
     "failed-button": "Nahrání selhalo.",
-    "failed-please-try": "<0>Nahrání selhalo. Prosím</0>\u00A0<1>zkuste to znovu</1>.",
+    "failed-please-try": "<0>Nahrání selhalo. Prosím</0> <1>zkuste to znovu</1>.",
     "why-this-may-happening": "Zjistěte prosč se to mohlo stát <0>zde.</0>"
   },
   "datetime": {
@@ -899,7 +899,7 @@
           "footer": "Zjistit více"
         },
         "trading-balance": {
-          "label": "Dostupné množství {{currency}}: "
+          "label": "Dostupné množství {{currency}}:"
         }
       },
       "submit": {
@@ -1265,7 +1265,7 @@
           "reset-wallets-locked": "Možnost resetovat účet je momentálně nedostupná. Prosím, kontaktujte podporu.",
           "reset-locked": "Možnost resetovat heslo je momentálně nedostupná. Prosím, kontaktujte podporu.",
           "incorrect-keys": "Veřejný klíč odvozený z 12 tajných slov, které jste poskytli, neodpovídá záznamům v naší databázi. To může znamenat např. to, že tajna slova, která jste poskytnuli nejsou z vašeho Nash účtu. Prosím, zkontrolujte ještě jednou vaši zálohu a v případě, že potíže přetrvávají, neváhejte kontaktovat podporu.",
-          "generic-error": "Někde nastala chyba a vaše heslo nemohlo být resetováno. Je možné, že odkazu na reset vypršela platnost. Prosím vyžádejte si nový odkaz na reset hesla. "
+          "generic-error": "Někde nastala chyba a vaše heslo nemohlo být resetováno. Je možné, že odkazu na reset vypršela platnost. Prosím vyžádejte si nový odkaz na reset hesla."
         },
         "submit": "Nastavit nové heslo"
       }
@@ -1867,7 +1867,6 @@
       "i-want-to-pay-input-label": "Chci zaplatit",
       "receive-input-label": "Přijmu",
       "will-receive-input-label": "Přijmu přibližně",
-      "provider-fee": "{{providerName}} poplatek ",
       "current-exchange-rate": "Aktuální směnný kurz",
       "weekly-limit": "Denní limit",
       "monthly-limit": "Měsíční limit",
@@ -2453,8 +2452,6 @@
       "title": "Prodejní příkaz",
       "send-asset-title": "Z vašeho Nash osobího účtu pošlete {{assetName}} na adresu uvedenou níže.",
       "send-asset-body-1": "Zaslané prostředky budou směněny do {{currencyCode}} a připsány na váš účet. Použijeme tržní cenu v době, kdy se dokončí váš transfer na uvedenou adresu.",
-      "send-asset-body-2": "",
-      "transactions-details": "Poslat ",
       "selling": "Prodávám",
       "cost": "Dostanu <0>(odhad)</0>",
       "to-bank": "Na tento bankovní účet",
@@ -3190,7 +3187,6 @@
     },
     "form-amount": {
       "amount-to-transfer": "Amount",
-      "balance-label": "{{label}} balance ⋅ ",
       "recipients-address": "Recipient’s address",
       "enter-their-wallet": "Enter their wallet address",
       "check-destination-title": "Check your destination address twice.",
@@ -3866,7 +3862,7 @@
         "available-balance": "Available balance to stake ⋅",
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅ ",
+        "selected-duration": "Selected duration ⋅",
         "selected-duration-month": "<0>{{count}}</0> month",
         "selected-duration-month_plural": "<0>{{count}}</0> months",
         "set-date-dividends-label": "Set a date to receive your dividends",
