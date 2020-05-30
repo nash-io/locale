@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Caricamento non riuscito.",
     "failed-button": "Caricamento non riuscito",
-    "failed-please-try": "<0>Caricamento non riuscito. Per favore</0>\u00A0<1>riprova</1>.",
+    "failed-please-try": "<0>Caricamento non riuscito. Per favore</0> <1>riprova</1>.",
     "why-this-may-happening": "Scopri le possibili cause per cui ciò è accaduto <0>qui.</0>"
   },
   "datetime": {
@@ -899,7 +899,7 @@
           "footer": "Per saperne di più"
         },
         "trading-balance": {
-          "label": "Disponibile {{currency}}: "
+          "label": "Disponibile {{currency}}:"
         }
       },
       "submit": {
@@ -1230,7 +1230,7 @@
           "sub-bullet-2": "Tutte le attività nel contratto di trading.",
           "sub-bullet-3": "Tutti i token NEX in stake.",
           "sub-bullet-4": "Tutti i dividendi dai token NEX in stake.",
-          "unauthorized": "Poiché il ripristino del tuo account ha implicazioni serie, devi prima contattare il nostro team di supporto per abilitarlo. ",
+          "unauthorized": "Poiché il ripristino del tuo account ha implicazioni serie, devi prima contattare il nostro team di supporto per abilitarlo.",
           "contact-support": "Contatta il supporto"
         }
       },
@@ -1867,7 +1867,6 @@
       "i-want-to-pay-input-label": "Voglio pagare",
       "receive-input-label": "Riceverò",
       "will-receive-input-label": "Riceverò approssimativamente",
-      "provider-fee": "{{providerName}} commissioni",
       "current-exchange-rate": "Tasso di cambio attuale",
       "weekly-limit": "Limite settimanale",
       "monthly-limit": "Limite mensile",
@@ -2453,8 +2452,6 @@
       "title": "Offerta di vendita",
       "send-asset-title": "Invia {{assetName}} all’indirizzo riportato di seguito dal tuo account personale Nash.",
       "send-asset-body-1": "Ciò che invii verrà convertito in {{currencyCode}} e accreditato sul tuo account. Useremo il tasso di cambio di mercato nel momento in cui riceviamo la tua transazione.",
-      "send-asset-body-2": "",
-      "transactions-details": "Invia",
       "selling": "Sto vendendo",
       "cost": "Riceverò <0>(estimate)</0>",
       "to-bank": "In questo account",
@@ -3190,7 +3187,6 @@
     },
     "form-amount": {
       "amount-to-transfer": "Importo",
-      "balance-label": "{{label}} saldo ⋅ ",
       "recipients-address": "Indirizzo del destinatario",
       "enter-their-wallet": "Inserisci il loro indirizzo di portafoglio",
       "check-destination-title": "Controlla il tuo indirizzo di destinazione due volte.",
@@ -3271,7 +3267,7 @@
     "kyc": {
       "state-label": "Stato",
       "rejected": "Livello 1 stato negato",
-      "rejected-subtitle": "Sfortunatamente, non potrai procedere oltre. Se ritieni che si tratti di un errore, contatta il nostro <0>team di supporto.</0> ",
+      "rejected-subtitle": "Sfortunatamente, non potrai procedere oltre. Se ritieni che si tratti di un errore, contatta il nostro <0>team di supporto.</0>",
       "details": {
         "missing_signature": {
           "title": "Firma mancante",
@@ -3866,7 +3862,7 @@
         "available-balance": "Saldo disponibile per lo stake ⋅",
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Imposta durate dello stake",
-        "selected-duration": "Seleziona durata ⋅ ",
+        "selected-duration": "Seleziona durata ⋅",
         "selected-duration-month": "<0>{{count}}</0> mese",
         "selected-duration-month_plural": "<0>{{count}}</0> mesi",
         "set-date-dividends-label": "Imposta una data per ricevere i tuoi dividendi",
