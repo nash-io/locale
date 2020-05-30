@@ -1,4 +1,4 @@
-import { readJsonSync, walkSync } from 'https://deno.land/std/fs/mod.ts'
+import { readJsonSync, walkSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
 import traverse from 'https://cdn.pika.dev/traverse@^0.6.6'
 
 export interface FileInfo {

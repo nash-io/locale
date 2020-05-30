@@ -1,4 +1,4 @@
-import { writeJsonSync } from 'https://deno.land/std/fs/mod.ts'
+import { writeJsonSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
 import traverse from 'https://cdn.pika.dev/traverse@^0.6.6'
 
 import walkLocales from '../validator/walkLocales.ts'
