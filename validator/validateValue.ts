@@ -26,7 +26,7 @@ export interface ErrorData {
 }
 
 export default function validateValue(
-  enValue: string,
+  defaultValue: string,
   translatedValue: unknown,
   locale: string,
 ) {
@@ -35,10 +35,10 @@ export default function validateValue(
   if (typeof translatedValue !== 'string') {
     errors.push({ code: ValidationError.InvalidType })
   } else {
-    validateSpaces(errors, enValue, translatedValue, locale)
-    validateCharacters(errors, enValue, translatedValue)
-    validateVariables(errors, enValue, translatedValue)
-    validateComponents(errors, enValue, translatedValue)
+    validateSpaces(errors, defaultValue, translatedValue, locale)
+    validateCharacters(errors, defaultValue, translatedValue)
+    validateVariables(errors, defaultValue, translatedValue)
+    validateComponents(errors, defaultValue, translatedValue)
   }
 
   return errors
@@ -46,7 +46,7 @@ export default function validateValue(
 
 function validateSpaces(
   errors: ErrorData[],
-  enValue: string,
+  defaultValue: string,
   translatedValue: string,
   locale: string,
 ) {
@@ -58,11 +58,37 @@ function validateSpaces(
     errors.push({ code: ValidationError.TooManySpaces })
   }
 
-  const untrimmedMatch = translatedValue.match(/(<\d+?>\s)|(\s<\/\d+>)/)
+  const untrimmedMatch = translatedValue.match(/(^\s.)|(.\s$)/)
   if (untrimmedMatch != null) {
+    if (untrimmedMatch[1] != null) {
+      const openingText =
+        translatedValue.length > 25
+          ? `${translatedValue.slice(0, 15)}…`
+          : translatedValue
+      errors.push({
+        code: ValidationError.UntrimmedSpace,
+        data: `Remove the opening space "${openingText}"`,
+      })
+    }
+    if (untrimmedMatch[2] != null) {
+      const closingText =
+        translatedValue.length > 25
+          ? `…${translatedValue.slice(-15)}`
+          : translatedValue
+      errors.push({
+        code: ValidationError.UntrimmedSpace,
+        data: `Remove the closing space "${closingText}"`,
+      })
+    }
+  }
+
+  const untrimmedComponentMatch = translatedValue.match(
+    /(<\d+?>\s)|(\s<\/\d+>)/,
+  )
+  if (untrimmedComponentMatch != null) {
     errors.push({
       code: ValidationError.UntrimmedSpace,
-      data: `Remove opening/closing space within all tags "${untrimmedMatch[0]}"`,
+      data: `Remove opening/closing space within all tags "${untrimmedComponentMatch[0]}"`,
     })
   }
 
@@ -76,7 +102,7 @@ function validateSpaces(
 
 function validateCharacters(
   errors: ErrorData[],
-  enValue: string,
+  defaultValue: string,
   translatedValue: string,
 ) {
   if (translatedValue.match(/\.\.\./) != null) {
@@ -108,10 +134,10 @@ function validateCharacters(
 
 function validateVariables(
   errors: ErrorData[],
-  enValue: string,
+  defaultValue: string,
   translatedValue: string,
 ) {
-  const enVariables = getVariables(enValue)
+  const enVariables = getVariables(defaultValue)
   const translatedVariables = getVariables(translatedValue)
 
   const missingVariables: string[] = []
@@ -151,7 +177,7 @@ function validateVariables(
 
 function validateComponents(
   errors: ErrorData[],
-  enValue: string,
+  defaultValue: string,
   translatedValue: string,
 ) {
   const invalidComponents = getInvalidComponents(translatedValue)
@@ -171,8 +197,8 @@ function validateComponents(
   }
 
   const enComponents = [
-    ...getSelfClosingComponents(enValue),
-    ...getComponents(enValue),
+    ...getSelfClosingComponents(defaultValue),
+    ...getComponents(defaultValue),
   ]
   const translatedComponents = [
     ...getSelfClosingComponents(translatedValue),
