@@ -3229,157 +3229,157 @@
   },
   "orders": {
     "cards": {
-      "in-progress": "Orders in progress",
+      "in-progress": "Zpracovávané příkazy",
       "24h": "24h",
-      "available": "Available to trade",
-      "reserved": "In orders"
+      "available": "K dispozici na obchodování",
+      "reserved": "V příkazech"
     }
   },
   "referrals": {
-    "title": "Referral program",
+    "title": "Doporučení",
     "referrals": {
-      "header": "Refer a friend and earn tickets",
-      "desc": "The more tickets you earn, the higher chance you have of winning. <0>Learn more</0>.",
+      "header": "Doporučte Nash přátelům a získejte lístky",
+      "desc": "Čím více lístků získáte, tím větší šance na výhru. <0>Dozvědet se více</0>.",
       "cards": {
         "social-share": {
-          "label": "Share your referral code:",
-          "activated-count": "{{count}} activated ticket",
-          "activated-count_plural": "{{count}} activated tickets",
-          "pending-count": "{{count}} pending ticket",
-          "pending-count_plural": "{{count}} pending tickets",
-          "message": "Use my referral code {{url}} to sign up for the @nashsocial giveaway! #TrustYourselves {{ytLink}}"
+          "label": "Nasdílet váš kód doporučení:",
+          "activated-count": "{{count}} aktivované lístky",
+          "activated-count_plural": "{{count}} aktivovaných lístků",
+          "pending-count": "{{count}} nevyřízené lísky",
+          "pending-count_plural": "{{count}} nevyřízených lístků",
+          "message": "Pro účastnění se v @nashsocial darovací akci použijte můj kód doporučení {{url}}! #TrustYourselves {{ytLink}}"
         },
         "invited-users": {
-          "label": "Your referrals",
-          "desc": "These are the people you’ve referred directly. We can’t show you who they’ve referred, but you can see the tickets you’ve earned through them for indirect referrals.",
-          "header": "All pending and activated",
-          "col-name": "Name",
-          "col-pending": "Pending",
-          "col-activated": "Activated",
-          "me": "{{name}} (me)"
+          "label": "Vaše doporučení",
+          "desc": "Toto jsou lidé jež jste doporučil napřímo vy. Nemůžeme vám zobrazit koho doporučili oni, ale můžete zde vidět lístky, které jste dostali za to, že doporučovali oni.",
+          "header": "Všechny nevuřízené a aktivované",
+          "col-name": "Jméno",
+          "col-pending": "Nevyřízené",
+          "col-activated": "Aktivované",
+          "me": "{{name}} (já)"
         }
       }
     }
   },
   "settings": {
-    "title": "My account",
-    "save-settings": "Save settings",
+    "title": "Můj účet",
+    "save-settings": "Uložit nastavení",
     "kyc": {
-      "state-label": "State",
-      "rejected": "Tier 1 status denied",
-      "rejected-subtitle": "Unfortunately, you will not be able to proceed any further. If you believe this is a mistake, please contact our <0>support team.</0>",
+      "state-label": "Stát",
+      "rejected": "Úroveň 1, stav zamítnut",
+      "rejected-subtitle": "Je nám líto, ale dále pro vás není možné prokračovat v procesu. Pokud se domníváte, že jde o chybu, kontaktujte prosím naši <0>podporu.</0>",
       "details": {
         "missing_signature": {
-          "title": "Missing signature",
-          "content": "Your identity document must display your signature."
+          "title": "Chybějící podpis",
+          "content": "Váš dokument identity musí obsahovat váš podpis."
         },
         "digital_copy": {
-          "title": "Original required",
-          "content": "We detected a digital copy of your identity document. Please try again with the original document."
+          "title": "Vyžadován originál",
+          "content": "Identifikovali jsme digitální kopii vašeho dokumentu identity. Prosíme, zkuste to znova a použijte originál."
         },
         "ip_address_is_proxy": {
-          "title": "Proxy detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "Identifikovali jsme proxy na vašem spojení",
+          "content": "K odeslání dokumentů nesmíte použít IP adresu přes proxy. Prosím, deaktivujte proxy/služby VPN."
         },
         "birthdate_invalid_on_id": {
-          "title": "Invalid date of birth",
-          "content": "The date of birth on your identity document is invalid."
+          "title": "Neplatný datum narození",
+          "content": "Datum narození na vašem dokumentu identity je neplatný."
         },
         "no_face_present": {
-          "title": "No face detected",
-          "content": "We could not detect your face in the image your provided."
+          "title": "Obličej nezjištěn",
+          "content": "Nepovedlo se zjistit a zaměřit váš obličej na dokumentu který jste poskytl."
         },
         "photocopy_black_white": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Vyžadován originál",
+          "content": "Identifikovali jsme fotokopii vašeho dokumentu identity. Prosíme, zkuste to znova a použijte originál."
         },
         "wrong_document_page": {
-          "title": "Incorrect page",
-          "content": "Your identity document is not displaying the correct page."
+          "title": "Nesprávná strana",
+          "content": "Váš dokument identity nezobrazuje spávnou a vyžadovanou stranu."
         },
         "different_persons_shown": {
-          "title": "Different people",
-          "content": "Your identity document and selfie show different people."
+          "title": "Rozdílná osoba",
+          "content": "Poskytnutá selfie a foto na vašem dokumentu identity se neschodují."
         },
         "damaged_document": {
-          "title": "Damaged document",
-          "content": "Your identity document is damaged."
+          "title": "Dokument poškozen",
+          "content": "Váš dokument identity je poškozen."
         },
         "identity_verification_too_many_attempts": {
-          "title": "Too many attempts",
-          "content": "You have submitted too many verification attempts"
+          "title": "Příliš mnoho pokusů",
+          "content": "Odeslali jste příliš mnoho pokusů o ověření"
         },
         "unknown_error": {
-          "title": "Something went wrong!",
-          "content": "We have encountered an unexpected error!"
+          "title": "Někde nastala chyba!",
+          "content": "Narazili jsme na neočekávanou chybu!"
         },
         "no_document": {
-          "title": "Document not found",
-          "content": "We could not find an identity document in the image you provided."
+          "title": "Dokument nenalezen",
+          "content": "Na obrázku který jste zaslali jsme nenašli žádný oficiální dokument identity."
         },
         "multiple_people": {
-          "title": "Multiple people detected",
-          "content": "We detected multiple people in the image your provided. You must be the only person in the image."
+          "title": "Zjištěna přítomnost více osob",
+          "content": "Na obrázku který jste poskytli jsme objevili více osob. Na obrázku musíte být pouze vy."
         },
         "BLURRED": {
-          "title": "Blurred image",
-          "content": "The image you provided is blurred."
+          "title": "Rozostřený obrázek",
+          "content": "Obrázek který jste poskytli je rozostřený."
         },
         "sample_document": {
-          "title": "Original required",
-          "content": "We detected that your identity document is only a sample. Please try again with an original document."
+          "title": "Vyžadován originál",
+          "content": "Zjistili jsme, že váš dokument identity je pouze vzorek. Prosíme, zkuste to znova a použijte originál."
         },
         "photocopy_color": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Vyžadován originál",
+          "content": "Identifikovali jsme fotokopii vašeho dokumentu identity. Prosíme, zkuste to znova a použijte originál."
         },
         "liveness_failed": {
-          "title": "Liveness test failed",
-          "content": "We could not determine that a real person is present in the image your provided."
+          "title": "Selhal test přítomnosti osoby",
+          "content": "Nebyli jsme schopni identifikovat skutečnou osobu na obrázku, který jste poskytl."
         },
         "ip_address_is_crawler": {
-          "title": "Crawler detected",
-          "content": "We identified your IP address as a web crawler. Please try again from a different IP."
+          "title": "Bot identifikován",
+          "content": "Vaši IP adresu jsme identifikovali jako skriptovaný bot. Prosím, zkuste to znovu z jiné IP adresy."
         },
         "missing_part_document": {
-          "title": "Incomplete document",
-          "content": "Part of your identity document is missing."
+          "title": "Neúplný dokument",
+          "content": "Část vašeho dokumentu identity chybí."
         },
         "ip_address_and_address_mismatch": {
-          "title": "IP mismatch",
-          "content": "Your IP address must match the location you provided."
+          "title": "Neshoda IP",
+          "content": "Umístění vaší IP adresy se musí shodovat s lokalitou, kterou jste poskytli."
         },
         "ip_address_is_tor": {
-          "title": "TOR detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "Identifikován TOR",
+          "content": "K odeslání dokumentů nesmíte použít IP adresu přes proxy. Prosím, deaktivujte proxy/služby VPN."
         },
         "bad_quality": {
-          "title": "Poor quality",
-          "content": "The quality of the image you provided is too poor."
+          "title": "Nedostatečná kvalita",
+          "content": "Kvalita obrázku který jste poskytl je nedostatečná."
         },
         "camera_black_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Černobílý mód",
+          "content": "Zdá se, že váš fotoaparát je nastaven na černobílý mód. Prosím, použijte mód barevný."
         },
         "not_readable_document": {
-          "title": "Document unreadable",
-          "content": "The identity document you provided is unreadable."
+          "title": "Dokument je nečitelný",
+          "content": "Dokument identity který jste poskytl je nečitelný."
         },
         "black_and_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Černobílý mód",
+          "content": "Zdá se, že váš fotoaparát je nastaven na černobílý mód. Prosím, použijte mód barevný."
         },
         "hidden_part_document": {
-          "title": "Document obscured",
-          "content": "Part of your identity document is hidden."
+          "title": "Neznámý dokument",
+          "content": "Část vašeho dokumentu identity není vidět."
         },
         "missing_back": {
-          "title": "Document back required",
-          "content": "You did not provide an image of the back of your document."
+          "title": "Zadní strana vyžadována",
+          "content": "Neposkytli jste obrázek zadní strany vašeho dokumentu."
         },
         "face_not_fully_visible": {
-          "title": "Face obscured",
-          "content": "Your face is not fully visible in the image you provided."
+          "title": "Chybějící část obličeje",
+          "content": "Na obrázku který jste poskytli není vidět celý obličej<."
         }
       },
       "steps": [
