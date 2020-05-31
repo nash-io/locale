@@ -3383,110 +3383,110 @@
         }
       },
       "steps": [
-        "Personal details",
-        "Address details",
-        "Confirm details"
+        "Detaily o osobě",
+        "Detaily o adrese",
+        "Potvrdit detaily"
       ],
-      "invalid-age-error": "You must enter a valid date of birth.",
-      "missing-age-error": "You must enter your date of birth.",
-      "age-restriction-error": "You must be at least eighteen years old.",
-      "name-error": "You must enter a name.",
-      "title": "We need a few details from you",
-      "topnav-back-button": "Back to limits",
-      "country": "Country",
-      "waiting": "Verifying…",
-      "waiting-subtitle": "This can take a few minutes. You may leave this page.",
-      "topnav-title": "Tier 1 verification",
-      "contact-support-label": "<0>Contact support</0> to change",
-      "confirm-button-label": "Confirm your details",
+      "invalid-age-error": "Musíte vyplnit platné datum narození.",
+      "missing-age-error": "Musíte vyplnit vaše datum narození.",
+      "age-restriction-error": "Musíte vám být alespoň 18 let.",
+      "name-error": "Musíte vyplnit jméno.",
+      "title": "Potřebujeme od vás několik detailů",
+      "topnav-back-button": "Zpět k limitům",
+      "country": "Země",
+      "waiting": "Ověřování…",
+      "waiting-subtitle": "Tato akce může trvat několik minut. Můžete opustit tuto stránku.",
+      "topnav-title": "Ověření úrovně 1",
+      "contact-support-label": "<0>Kontaktujte podporu</0> pro změnu",
+      "confirm-button-label": "Potvrdit vaše detaily",
       "name-step": {
-        "warning": "The name you enter must match the name on the identity document you provide.",
-        "date-of-birth-label": "Date of birth",
-        "full-name-label": "Full name",
-        "continue-button-label": "Continue and enter address"
+        "warning": "Jméno které vyplníte se musí shodovat se jménem na dokumentu identity.",
+        "date-of-birth-label": "Datum narození",
+        "full-name-label": "Celé jméno",
+        "continue-button-label": "Pokračovat k vyplnění adresy"
       },
       "address-step": {
-        "address-label": "Enter an address",
-        "search-button-label": "Search"
+        "address-label": "Vložit adresu",
+        "search-button-label": "Vyhledat"
       },
       "manual-address-step": {
-        "line1": "Address line 1",
-        "line2": "Address line 2",
-        "city": "City",
-        "zipCode": "Postcode/ZIP"
+        "line1": "Řádek adresy 1",
+        "line2": "Řádek adresy 2",
+        "city": "Město",
+        "zipCode": "PSČ"
       },
       "select-address-step": {
-        "title": "Addresses found",
-        "manual-entry-label": "Enter address manually",
-        "select-label": "Select",
-        "no-results-found-title": "We couldn’t find your address",
-        "no-results-found-body": "Please make sure you include your postcode.",
-        "error-title": "We experienced an error",
-        "error-body": "Try again or use the link below.",
-        "go-back-label": "Go back"
+        "title": "Nalezené adresy",
+        "manual-entry-label": "Vložit adresu ručně",
+        "select-label": "Vybrat",
+        "no-results-found-title": "Vaši adresu se nepovedlo dohledat",
+        "no-results-found-body": "Ujistěte se, že jste uvedli PSČ.",
+        "error-title": "Došlo k chybě",
+        "error-body": "Zkuste to znova nebo použijte následující odkaz.",
+        "go-back-label": "Jít zpět"
       },
       "confirm-details": {
-        "begin-button-label": "These details are correct",
-        "your-details": "Personal details",
-        "address-details": "Address details",
-        "edit-label": "Edit",
-        "submission-error": "We experienced an error while submitting your data."
+        "begin-button-label": "Tyto údaje jsou správné",
+        "your-details": "Detaily o osobě",
+        "address-details": "Detaily o adrese",
+        "edit-label": "Změnit",
+        "submission-error": "Při odesílání dat došlo k chybě."
       }
     },
     "profile": {
-      "title": "Profile",
-      "header": "Profile settings",
-      "desc-1": "You can edit your profile settings below.",
+      "title": "Profil",
+      "header": "Nastavení profilu",
+      "desc-1": "Nastavení vašeho profilu můžete změnit odkazem dole.",
       "desc-2": "",
       "cards": {
         "your-details": {
-          "label": "Personal details",
-          "legal-name": "Legal name",
-          "update-name": "I want to update my name",
-          "update-country": "I want to update my country of residence",
-          "gender": "Gender",
-          "male": "Male",
-          "female": "Female",
-          "other": "Other",
-          "country-of-residence": "Country of residence"
+          "label": "Detaily o osobě",
+          "legal-name": "Celé jméno",
+          "update-name": "Chci upravit moje jméno",
+          "update-country": "Chci upravit zemi trvalého bydliště",
+          "gender": "Pohlaví",
+          "male": "Muž",
+          "female": "Žena",
+          "other": "Ostatní",
+          "country-of-residence": "Země trvalého bydliště"
         },
         "account-settings": {
-          "label": "Account settings",
-          "email-address": "Email address",
-          "update-email": "Change email address",
-          "password": "Password",
-          "update-password": "Change password",
-          "two-factor": "We recommend you to enable two-factor authentication in <0>Security</0>.",
-          "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
+          "label": "Nastavení účtu",
+          "email-address": "Emailová adresa",
+          "update-email": "Změnit emailovou adresu",
+          "password": "Heslo",
+          "update-password": "Změnit heslo",
+          "two-factor": "Doporučujeme zapnout dvoufázové ověřování v sekci <0>Bezpečnost</0>.",
+          "two-factor-enable": "Dvoufázové ověřování můžete vypnout v sekci <0>Bezpečnost</0>."
         }
       },
       "modals": {
         "update-name": {
-          "title": "Update name",
-          "label": "Name",
-          "tier0-summary": "To update your name, please complete <0>Tier 1 verification</0>.",
-          "tier0-details": "When your application for Tier 1 has been approved, we will update your name to the legal name on the documents you provided.",
-          "tier1-summary": "If your legal name has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1-details": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your name to the legal name on the documents you provided."
+          "title": "Upravit jméno",
+          "label": "Jméno",
+          "tier0-summary": "Upravovat jméno lze až po dokončení <0>Ověření úrovně 1</0>.",
+          "tier0-details": "Jakmile bude vaše žádost o Úroveň 1 schválena, upravíme vaše jméno aby se shodovalo se jménem na dokumentu identity který jste poskytnuli.",
+          "tier1-summary": "Pokud se změnilo vaše jméno a přáli byste si ho upravit, prosím <0>kontaktujte podporu</0>.",
+          "tier1-details": "Zresetujeme vaši oěřenou úroveň and vyžádáme od vás opakování ověřovacího procesu s novými dokumenty. Jakmile bude vaše žádost schválena, upravíme vaše jméno dle dokumentu identity který jste poskytnuli."
         },
         "update-country": {
-          "title": "Update country",
-          "label": "Country",
-          "tier0": "If your country of residence has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your country of residence to the country on the documents you provided."
+          "title": "Upravit zemi",
+          "label": "Země",
+          "tier0": "Pokud se změnila země vaše trvalého bydliště a přáli byste si ji upravit, prosím <0>kontaktujte podporu</0>.",
+          "tier1": "Zresetujeme vaši oěřenou úroveň and vyžádáme od vás opakování ověřovacího procesu s novými dokumenty. Jakmile bude vaše žádost schválena, upravíme zemi vašeho trvalého bydliště dle dokumentu identity který jste poskytnuli."
         },
         "update-email": {
-          "success-header": "We’ve sent you an email!",
-          "success-description": "We have sent you a confirmation email to start the address update process. If you don’t see our email, check your junk folder.",
-          "success-back": "Got it!",
-          "title": "Change email",
-          "current-email-label": "Your current email address",
-          "current-email": "Current email address",
-          "new-email-label": "New email address",
-          "new-email-placeholder": "Enter your new email address",
-          "twofa-label": "Two-factor authentication",
-          "twofa-label-placeholder": "Enter your two-factor authentication (2FA) code",
-          "request-email-change-button-label": "Request address change"
+          "success-header": "Odeslali jsme vám email!",
+          "success-description": "Zaslali jsme vám potvrzovací email pro započatí úpravy adresy. Pokud email nevidíte, zkontrolujte složku se spamy.",
+          "success-back": "Rozumím!",
+          "title": "Změnit email",
+          "current-email-label": "Vaše současná emailová adresa",
+          "current-email": "Současná emailová adresa",
+          "new-email-label": "Nová emailová adresa",
+          "new-email-placeholder": "Vložte vaši novou emailovou adresu",
+          "twofa-label": "Doufázové ověření",
+          "twofa-label-placeholder": "Vložte kód dvoufázového ověření (2FA)",
+          "request-email-change-button-label": "Vyžádat změnu adresy"
         },
         "update-password": {
           "title": "Change password",
