@@ -2601,403 +2601,403 @@
         "sell-limits": "Prodejní limity limit"
       },
       "buy-steps": {
-        "review-quote": "Zkontrolovat váši cenu",
-        "make-payment": "Provést vaší platbut",
-        "upload-proof-of-payment": "Nahrát potvrzení platby"
+        "review-quote": "Review your quote",
+        "make-payment": "Make your payment",
+        "upload-proof-of-payment": "Upload proof of payment"
       },
       "error": {
-        "invalid-data": "Špatná data.",
-        "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu."
+        "invalid-data": "Invalid data.",
+        "unhandled-error": "An unhandled error occurred. Please reload then try again."
       },
       "validation": {
-        "first-name-required": "Zadejte křestní jméno.",
-        "first-name-characters-invalid": "Vaše křestní jméno může obsahovat pouze písmena.",
-        "last-name-required": "Zadejte vaše příjmení.",
-        "last-name-characters-invalid": "Vaše příjmení může obsahovat pouze písmena.",
-        "email-required": "Zadejte váš email.",
-        "email-invalid": "Emailová adresa musí být platná.",
-        "date": "Nesprávné datum",
-        "month": "Nesprávný měsíc",
-        "year": "Nesprávný rok",
-        "zip": "PSČ musí být mezi 4 až 10 číslicemi",
-        "verification-code-invalid": "Nesprávný kód ověření.",
-        "bank-name-required": "Je potřeba zadat jméno vaší banky.",
-        "iban-required": "Ne potřeba zadat IBAN.",
-        "iban-too-short": "IBAN musí být alespoň 16 znaků dlouhý.",
-        "iban-too-long": "IBAN nesmí překročit 34 znaků.",
-        "iban-characters-invalid": "IBAN musí obsahovat pouze čísla a písmena.",
-        "iban-country-code-invalid": "IBAN mumusí začínat s platným kódem země.",
-        "iban-already-used": "Čísla IBAN již přiřazené k účtu.",
-        "swift-required": "Je potřeba zadat SWIFT/BIC.",
-        "swift-length-invalid": "SWIFT/BIC musí být mezi 8 a 11 znaky."
+        "first-name-required": "First name is required.",
+        "first-name-characters-invalid": "First name must only contain letters and hyphens.",
+        "last-name-required": "Last name is required.",
+        "last-name-characters-invalid": "Last name must only contain letters and hyphens.",
+        "email-required": "Email is required.",
+        "email-invalid": "Email must be valid.",
+        "date": "Invalid date",
+        "month": "Invalid month",
+        "year": "Invalid year",
+        "zip": "Postcode must be between four and ten digits",
+        "verification-code-invalid": "Invalid verification code.",
+        "bank-name-required": "Bank name is required.",
+        "iban-required": "IBAN is required.",
+        "iban-too-short": "IBAN must be at least 16 characters in length.",
+        "iban-too-long": "IBAN must not exceed 34 characters in length.",
+        "iban-characters-invalid": "IBAN must only contain letters and numbers.",
+        "iban-country-code-invalid": "IBAN must begin with a valid two-letter country code.",
+        "iban-already-used": "IBAN already associated with an account.",
+        "swift-required": "SWIFT/BIC is required.",
+        "swift-length-invalid": "SWIFT/BIC must be between 8 and 11 characters."
       },
       "profile-status": {
-        "incomplete": "Pro zvýšení limitů zkompletujte váš profil.",
-        "pending": "Ověření totožnosti se provádí.",
-        "succeeded": "Ověření totožnosti uspělo.",
-        "failed": "Ověření totožnosti selhalo."
+        "incomplete": "Complete your profile to increase your limits.",
+        "pending": "Identity verification is pending.",
+        "succeeded": "Identity verification succeeded.",
+        "failed": "Identity verification failed."
       },
       "field-status": {
-        "incomplete": "Není kompletní",
-        "pending": "Provádí se",
-        "rejected": "Zamítnuto",
-        "accepted": "Ověřeno",
-        "completed": "Dokončeno"
+        "incomplete": "Incomplete",
+        "pending": "Pending",
+        "rejected": "Rejected",
+        "accepted": "Verified",
+        "completed": "Complete"
       },
       "link": {
-        "add": "Přidat",
-        "edit": "Upravit"
+        "add": "Add",
+        "edit": "Edit"
       },
       "heading": {
-        "add-phone-number": "Přidat vaše telefonní číslo",
-        "add-residential-address": "Přidat vaší adresu bydliště",
-        "government-id-or-passport": "Nahrát průkaz totožnosti",
-        "utility-bill": "Nahrát účet za veřejné služby (např. elektřinu)",
-        "selfie-with-id": "Nahrát fotografii s průkazem totožnosti",
-        "upload-proof-of-payment": "Nahrát potvrzení o platbě",
-        "success": "Vše probehlo v pořádku!"
+        "add-phone-number": "Add your phone number",
+        "add-residential-address": "Add your residential address",
+        "government-id-or-passport": "Upload identity document",
+        "utility-bill": "Upload utility bill",
+        "selfie-with-id": "Upload selfie with ID",
+        "upload-proof-of-payment": "Upload proof of payment",
+        "success": "Success!"
       },
       "button": {
-        "cancel": "Zrušit",
-        "continue": "Pokračovat",
-        "submit": "Odeslat",
-        "submit-verification-code": "Odeslat ověřovací kód",
-        "transfer-initiated": "Proveedl jsem tento transfer",
-        "submit-proof-of-payment": "Poslat potvrzení"
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "submit": "Submit",
+        "submit-verification-code": "Submit verification code",
+        "transfer-initiated": "I’ve made this transfer",
+        "submit-proof-of-payment": "Submit proof"
       },
       "details-shared": {
-        "title": "{{ccpro}} vám poslal email!",
-        "desc": "Prosím zkontrolujte si váš email a ověřte si účet u {{ccpro}}.<0 />Pokud nevidíte jejich email, zkontrolujte si spamovou složku.",
-        "button": "Zaslat ověřovací email znovu"
+        "title": "{{ccpro}} has sent you an email!",
+        "desc": "Please check your email and verify your account with {{ccpro}}.<0 />If you don’t see their email, check your junk folder.",
+        "button": "Resend verification email"
       },
       "transactions": {
-        "order-id": "Číslo příkazu",
-        "date-created": "Vytvořeno",
-        "action": "Akce",
-        "cost": "Náklady",
-        "amount": "Množství",
-        "no-transactions": "Ještě jste nekoupili ani neprodali žádné digitální měny."
+        "order-id": "Order ID",
+        "date-created": "Created",
+        "action": "Action",
+        "cost": "Cost",
+        "amount": "Amount",
+        "no-transactions": "You haven’t bought or sold any digital assets yet."
       },
       "payment-methods": {
-        "currency": "Měna",
-        "bank-name": "Jmén banky",
+        "currency": "Currency",
+        "bank-name": "Bank name",
         "iban": "IBAN",
         "swift": "SWIFT/BIC",
-        "remove-bank-account": "Odebrat {{iban}}?"
+        "remove-bank-account": "Remove {{iban}}?"
       },
       "editor": {
         "phone": {
-          "enter-phone-number": "Zadat telefonní číslo",
-          "verify-phone-number": "Ověřit telefonní číslo",
-          "label": "Zadat telefonní číslo",
-          "desc": "Bude vám zaslán kód v SMS pro ověření vašeho telefonního čísla.",
-          "code-not-received": "Neobrdželi jste SMS s ověřovacím kódem? <0>Zaslat znovu</0>.",
-          "resending-code": "Zasíláme znovu SMS s ověřovacím kódem…",
-          "code-label": "Vložte ověřovací kód zaslaný na váš telefon.",
-          "back": "Zpět",
-          "verify": "Ověřit"
+          "enter-phone-number": "Enter phone number",
+          "verify-phone-number": "Verify phone number",
+          "label": "Enter your phone number",
+          "desc": "A ten-digit code will be sent via SMS to verify your phone number.",
+          "code-not-received": "Didn’t receive a code via SMS? <0>Resend it</0>.",
+          "resending-code": "Resending verification code…",
+          "code-label": "Enter the verification code sent to your phone.",
+          "back": "Back",
+          "verify": "Verify"
         },
         "national-id": {
-          "upload-label": "Nahrát dvě <0>rozdílné fotografie</0> vašeho občanského průkazu, jednu fotografii s přední stranou a druhou se zadní.",
-          "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximální velikost: 10MB."
+          "upload-label": "Upload two <0>separate photographs</0> of your national ID, one of the front and one of the back.",
+          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "passport": {
-          "upload-label": "Nahrajte jednu fotografii vašeho pasu.",
-          "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximální velikost: 10MB."
+          "upload-label": "Upload one photograph of your passport information.",
+          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "utility-bill": {
-          "upload-label": "Nahrajte jednu fotografii vašeho nedávného účtu za veřejné služby (např, za elektřinu).",
-          "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximální velikost: 10MB."
+          "upload-label": "Upload one photograph of a recent utility bill.",
+          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "selfie-with-id": {
-          "upload-label": "Nahrajte fotografii, na které jste vy jak držíte na papíru napsané ‘cryptocoin.pro’ spolu s vaším průkazem totožnosti.",
-          "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Upload one photograph of yourself holding both a piece of paper with ‘cryptocoin.pro’ written on it and your passport or national ID.",
+          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "bank-account": {
-          "bank-name-placeholder": "Napište jméno banky",
-          "iban-placeholder": "e.g. CZ89 3704 0044 0532 0130 00",
+          "bank-name-placeholder": "Enter your bank’s name",
+          "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. CLBABU7S"
         }
       }
     }
   },
   "funds": {
-    "title": "Finanční prostředky",
-    "deposit-currency": "Zaslat {{currencySymbol}}",
-    "your-currency-balances": "Váš {{currencySymbol}} zůstatek",
+    "title": "Funds",
+    "deposit-currency": "Deposit {{currencySymbol}}",
+    "your-currency-balances": "Your {{currencySymbol}} balances",
     "resetting-account": {
-      "title": "Synchronizovat váš zůstatek na obchodovacím účtu.",
-      "desc": "Toto uvolní zaseknuté prostředky se statusem ‘Provádí se’. Zároveň se zruší všechny otevřené burzovní pokyny.",
-      "button": "Synchronizovat účet",
-      "resyncing": "Synchronizuji…",
-      "error": "Synchronizace selhala. Prosím <0>kontaktujte podporu.</0>",
-      "wait-error": "Prosím vyčkejte alespoň 2 hodiny před použitm této stránky.",
-      "success": "Synchronizace proběhla úspěšně!"
+      "title": "Resync your trading contract balance.",
+      "desc": "This will release funds stuck in a ‘Pending’ state. This process will cancel open trade orders.",
+      "button": "Resync account",
+      "resyncing": "Resyncing…",
+      "error": "Resync failed. Please <0>contact support.</0>",
+      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
+      "success": "Resync successful!"
     },
     "transaction-retry": {
-      "title": "Znovu provést transakci",
-      "subtitle": "Všechny čekající a selhané vklady a výběry",
-      "actions-title": "Akce",
-      "button-title": "Zkusit znovu",
-      "button-sending": "Posílám…",
-      "button-sent": "POsláno znovu",
-      "nothing-to-retry": "Námáte žádné vklady a výběry, které se provádí.",
+      "title": "Retry transactions",
+      "subtitle": "All pending or failed deposits or withdrawals",
+      "actions-title": "Actions",
+      "button-title": "Retry",
+      "button-sending": "Sending…",
+      "button-sent": "Resent",
+      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
       "status": {
         "title": "Status",
-        "created": "Vytvořené",
-        "pending": "Čekající"
+        "created": "Created",
+        "pending": "Pending"
       },
-      "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku."
+      "fetch-movements-error": "Error fetching your data. Please refresh the page."
     },
     "assets": {
-      "title": "Aktiva",
-      "tabs-info-button": "Zjistit více o posílání a přijímání prostředků",
+      "title": "Assets",
+      "tabs-info-button": "Learn about sending and receiving funds",
       "header": {
-        "title": "Aktiva",
-        "search-placeholder": "Vyhledat mezi více jak 3,000 digitálními měnami…"
+        "title": "Assets",
+        "search-placeholder": "Search over 3,000 assets…"
       },
       "transferring-funds": {
-        "title": "Posílání a přijímání prostředků",
-        "desc": "<0>Pokud chcete obchodovat, musíte nejdřív poslat vaše prostředky na obchodovací účet.</0> <1>Můžete zaslat prostředky pouze z vašeho osobního účtu.</1>",
-        "learn-more-never-show": "<0>Zjistit více</0> nebo <1>již nikdy neukazovat</1>.",
-        "learn-more": "Zjistit více",
-        "never-show": "Již nikdy neukazovat."
+        "title": "Sending and receiving funds",
+        "desc": "<0>If you want to trade, you’ll have to send funds to the trading contract.</0> <1>You may only send funds to the trading contract from your personal account.</1>",
+        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
+        "learn-more": "Learn more",
+        "never-show": "Never show me this again."
       },
       "table": {
         "header": {
-          "title": "Zůstatky",
+          "title": "Balances",
           "actions": {
-            "hide-zero-balances": "Skrýt nulové zůstatky"
+            "hide-zero-balances": "Hide zero balances"
           }
         },
         "claim-gas": {
-          "claiming": "Získávám…",
-          "claim": "Nárokovat GAS",
-          "gas-to-claim": "Máte {{amount}} GAS, které si můžete nárokovat.",
-          "claiming-now": "Nyní si nárokujete GAS.",
-          "claiming-locked": "Znovu si můžete nárokovat GAS za ~{{count}} minutu.",
-          "claiming-locked_plural": "Znovu si můžete nárokovat GAS za ~{{count}} minut."
+          "claiming": "Claiming…",
+          "claim": "Claim GAS",
+          "gas-to-claim": "You have {{amount}} GAS to claim.",
+          "claiming-now": "You are currently claiming GAS.",
+          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
+          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
         },
         "columns": {
           "asset": {
-            "title": "Aktiva"
+            "title": "Asset"
           },
           "personal-account": {
-            "title": "Osobní účet"
+            "title": "Personal account"
           },
           "trading-account": {
-            "title": "Obchodovací účet"
+            "title": "Trading contract"
           },
           "in-orders": {
-            "title": "V burzovních příkazech"
+            "title": "In orders"
           },
           "pending": {
-            "title": "Ověřuje se",
-            "hint": "Blockchain ověřuje vaše transakce."
+            "title": "Pending",
+            "hint": "Transfers being processed by the blockchain."
           },
           "tradeable": {
-            "hint": "Tato měna prozatím nemůže být obchodovaná na Nash burze, ale stále můžete si prostředky vybrat pokud mátě nejaký zůstatek na obchodovacím účtu v této měně."
+            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
           },
           "action-buttons": {
-            "trade": "Obchodovat",
-            "transfer-funds": "Poslat/Obdržet"
+            "trade": "Trade",
+            "transfer-funds": "Send/Receive"
           }
         },
-        "no-results": "Zatím nemáte žádné zůstatky na vašem Nash účtu."
+        "no-results": "There are not yet any assets in your Nash account."
       }
     },
     "modals": {
       "verify-mnemonic": {
-        "or": "nebo",
-        "remindme": "Připomenout později",
-        "dismiss": "Navždy zrušit",
-        "havent-checked": "Nezkontrolovali jste si vašich 12 tajných slov",
-        "will-need": "Tyto slova budete potřebovat v případě, že ztratíte vaše heslo."
+        "or": "or",
+        "remindme": "remind me later",
+        "dismiss": "Dismiss forever",
+        "havent-checked": "You haven’t checked your twelve word backup",
+        "will-need": "You’ll need these words to access your funds if you lose your password."
       },
       "transfer-funds": {
-        "title": "Poslat/Obdržet",
+        "title": "Send/Receive",
         "create": {
           "asset": {
-            "label": "Jakou měnu?",
-            "placeholder": "Hledat měnu…"
+            "label": "Which asset?",
+            "placeholder": "Search for an asset…"
           },
           "choose-accounts": {
-            "from": "Z",
-            "to": "Na"
+            "from": "From",
+            "to": "To"
           },
           "contacts": {
-            "label": "Místo určení",
-            "placeholder": "Vyhledat z vašich kontaktů nebo poslat na novou adresu…",
-            "wallet-address": "Poslat na ‘{{address}}‘",
-            "button-contacts": "Kontakty",
+            "label": "Destination",
+            "placeholder": "Search for a contact or send to a new address…",
+            "wallet-address": "Send to ‘{{address}}‘",
+            "button-contacts": "Contacts",
             "select-contact": {
-              "no-options": "Napište alespoň 3 znaky abychom mohli vyhledat z vašich kontaktů nebo z platných adres",
-              "no-results": "Žádný kontakt nebyl nalezen. Toto není platná adresa.",
+              "no-options": "Type at least three characters to search for a contact or valid wallet address",
+              "no-results": "No contacts found. This is not a valid address.",
               "option": {
-                "no-email": "Žádný email",
-                "no-wallet-name": "Žádné jméno peněženky",
-                "no-wallet-address": "Žádná adresa v peněžence"
+                "no-email": "No email",
+                "no-wallet-name": "No wallet name",
+                "no-wallet-address": "No wallet address"
               }
             }
           },
           "destination-address": {
-            "label": "Cílová adresa",
-            "placeholder": "Na tuto adresu posílejte výhradně jen {{currency}}",
+            "label": "Destination address",
+            "placeholder": "Send only {{currency}} to this address",
             "errors": {
-              "invalid-wallet": "Neplatná adresa"
+              "invalid-wallet": "Invalid address"
             }
           },
           "movement": {
-            "error": "Prosím vyčkete než se dokončí vaše poslední Ethereum transfer.",
-            "pending-error": "Prosím vyčkejte než se kompletně dokončí Ethereum transfer, který je nyní v procesu dokončování.",
-            "token-requires-approval": "Pro zaslání tokenů na obchodovací účet je nutné potvrdit {{ amount }} {{ currency }}."
+            "error": "Please wait until your last Ethereum transfer finishes.",
+            "pending-error": "Please wait until your pending Ethereum transfer completes.",
+            "token-requires-approval": "Approval of {{ amount }} {{ currency }} is required for this token to be transferred to the trading contract."
           },
           "transfer-amount": {
-            "label": "Množství k transferu",
-            "network-transaction-fee": "Maximální poplatky blockchainu",
-            "loading-fee": "Nahrávám poplatky…",
+            "label": "Amount to transfer",
+            "network-transaction-fee": "maximum network fee",
+            "loading-fee": "Loading fee…",
             "errors": {
-              "gas-shortage": "Musíte mít alespoň {{amount}} {{currencySymbol}} na vašem osobním účtu aby mohly být zaplacené poplatky blockchainu.",
-              "fee-shortage": "Musíte si uložit alespoň {{amount}} ETH pro zaplacení poplatků na Ethereum síti.",
-              "fee-shortage-trading": "Potřebujete mít {{amount}} ETH na vašem osobním účtě pro poplatky na Ethereum síti."
+              "gas-shortage": "You need at least {{amount}} {{currencySymbol}} in your personal account to pay network fees.",
+              "fee-shortage": "You must save {{amount}} ETH for the Ethereum network fee.",
+              "fee-shortage-trading": "You need {{amount}} ETH in your personal account for Ethereum network fees."
             }
           },
           "btc": {
-            "funds-not-confirmed": "Před posláním Bitcoinu na obchodovací účet, važaduje váš zůstatek Bitcoinů alespoň 6 síťových konfirmací. Prosím vyčkejte než Bitcoinová síť potvrdí váš transfer.",
-            "wait-until-external-transfer-completes": "než vytvoříte nový vklad, vyčkejte prosím dokud se nepotvrdí váš nedávný externí transfer.",
-            "temporary-limit": "Vklady a výběry Bitcoinu musí být alespoň 0.001 BTC po dobu našeho testován. Toto omezení bude v blízké budoucnosti zrušeno."
+            "funds-not-confirmed": "Your Bitcoin balance requires six network confirmations before you can transfer to the trading contract. Please wait while recent transfers confirm.",
+            "wait-until-external-transfer-completes": "Please wait until your recent external transfer completes before making a deposit.",
+            "temporary-limit": "Bitcoin deposits and withdrawals must be greater than 0.001 BTC while we test this new market. The restriction will be lifted in the near future."
           },
           "async": {
-            "title": "Informace o transakci",
+            "title": "Transaction update",
             "errors": {
-              "syncing": "Synchronizujeme vaše {{currencySymbol}} prostředky s naším systémem. rosím vydržte jednu minutu a zkuste to znovu.",
-              "transaction-failed": "Vaše poslendí transakce posílající {{currencySymbol}} selhala. Prosím zkuste to znovu."
+              "syncing": "We are syncing your {{currencySymbol}} funds in our system. Please wait one minute and try again.",
+              "transaction-failed": "Your last transaction sending {{currencySymbol}} failed. Please try again."
             }
           },
           "fees": {
-            "eth-recommended-message": "Ponechte si {{amount}} ETH na vašem ocobním účtě pro budoucí poplatky Ethereum sítě."
+            "eth-recommended-message": "Keep {{amount}} ETH in my personal account for future network fees."
           },
           "precision": {
-            "neo-trading": "Nemůžete posílat ani obrdžet zlomkové hodnoty měny NEO."
+            "neo-trading": "You cannot send or withdraw fractional amounts of NEO."
           },
           "maximum": {
-            "amount": "Nedosatek prostředků."
+            "amount": "Insufficient balance."
           },
           "deposit": {
-            "label": "Informace o vašem osobním účtu",
-            "currency-address": "{{currency}} adresa",
-            "currency-address-qrcode": "{{currency}} adresa v QR kódu",
-            "currency-send-warning": "Jakákoliv jiná měna nebo token než {{currency}} zaslaná na tuto adresu bude navždy ztracena!"
+            "label": "Your personal account details",
+            "currency-address": "{{currency}} address",
+            "currency-address-qrcode": "{{currency}} address QR code",
+            "currency-send-warning": "Any assets other than {{currency}} sent to this address will be lost!"
           },
           "buttons": {
-            "continue": "Pokračovat",
-            "sent-funds": "Poslal jsem mé prostředky"
+            "continue": "Continue",
+            "sent-funds": "I have sent my funds"
           }
         },
         "review": {
           "transfer-details": {
-            "title": "Informace o transferu",
+            "title": "Transfer details",
             "rows": {
-              "amount-label": "Posíláte",
-              "from-label": "Z",
-              "to-label": "Na",
-              "fee-label": "Síťové poplatky"
+              "amount-label": "You are sending",
+              "from-label": "From",
+              "to-label": "To",
+              "fee-label": "Network fee"
             }
           },
-          "confirming-balance": "Prosím vyčkejte než potvrdíme váš zůstatek.",
-          "waiting-for-sync": "Vás zůstatek se nyní synchronizuje s blockchainem. Tento proces může trvat až dvě hodiny. Prosím odešlete váš požadavek k transferu znovu za několik minut.",
+          "confirming-balance": "Please wait while we confirm your balance.",
+          "waiting-for-sync": "Your balance is currently syncing with the blockchain. This process can take up to two hours. Please submit your transfer again in a few moments.",
           "errors": {
-            "send": "Poslání selhalo. Prosím zkuste to znovu později.",
-            "syncing": "Vás poslední transfer vyžaduje až 2 minuty na zkompletování. Prosím vyčkejte a poté to zkuste znovu.",
-            "insufficient-funds": "Váš aktuální zůstatek na účtu je nedostatečný pro tento uskutečnění tohoto transferu. Prosím vyčkejte a zkuste to znovu."
+            "send": "Failed to send. Please try again later.",
+            "syncing": "Your last transfer requires up to two minutes to complete. Please wait and try again.",
+            "insufficient-funds": "Your current balance is insufficient for this transfer or you currently have a transfer in progress. Please wait and try again."
           },
           "buttons": {
-            "back": "Zpět",
-            "transfer-funds": "Poslat",
-            "confirming": "Potvrzuji…"
+            "back": "Back",
+            "transfer-funds": "Send",
+            "confirming": "Confirming…"
           }
         },
         "hints": {
-          "btc-gas-hint": "Pro uskutečnění transakcí je nutný malý síťový poplatek.",
-          "eth-gas-hint": "Pro uskutečnění transakcí je nutný malý síťový poplatek. Poplatky pro tokenu na Ethereu jsou placené v ETH.",
-          "neo-gas-hint": "Pro uskutečnění transakcí je nutný malý síťový poplatek. Poplatky pro tokenu na NEO jsou placené v GAS.",
-          "eth-transfer-hint": "Po dobu potvrzování transferů nemusí být zde zobrazené zůstatky přesné."
+          "btc-gas-hint": "A small network fee is required when performing transactions.",
+          "eth-gas-hint": "A small network fee is required when performing transactions. Fees for Ethereum-based tokens are paid using ETH.",
+          "neo-gas-hint": "A small network fee is usually required when performing transactions. Fees for NEO-based tokens are paid using GAS.",
+          "eth-transfer-hint": "While transfers are pending, the balance shown here may not be accurate."
         },
         "steps": [
-          "Vytvořit transfer",
-          "Zkontrolovat a započít transfer"
+          "Create a transfer",
+          "Review and start transfer"
         ],
         "maybe-approval-steps": [
-          "Vytvořit transfer",
-          "Potvrzení (pokud je potřeba)",
-          "Zkontrolovat a započít transfer"
+          "Create a transfer",
+          "Approval (if necessary)",
+          "Review and start transfer"
         ],
         "approval-steps": [
-          "Vytvořit transfer",
-          "Schválit",
-          "Zkontrolovat a započít transfer"
+          "Create a transfer",
+          "Approval",
+          "Review and start transfer"
         ],
         "erc-20": {
-          "approving": "Schvaluji",
-          "title": "Schválit transfer",
-          "pre-deposit-info": "Před vkladem {{symbol}} na obchodovací účet musíte nejdřív schválit transfer z vašeho osobního účtu.",
-          "current-approval": "Vaše nynější schválení transferů na obchodovací účet je: {{currentErc20Approved}}"
+          "approving": "Approving",
+          "title": "Approve transfer",
+          "pre-deposit-info": "Before depositing {{symbol}} to the trading contract, you must first approve a transfer from your account.",
+          "current-approval": "Your current approval to the trading contract is: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transfer právě probíhá…",
-          "title-initializing": "Transfer právě začíná…",
-          "desc": "Pro sledování statutu transferů navštivte záložku <0>Transfery</0>.",
-          "warning": "Toto může trvat až jednu hodinu.",
-          "remain-opened": "Prosím ponechte Nash otevřený po dobu zahájení transferu. Pokud Nash zavřete nebo se odhlásíte, transakce bude pozastavená do doby než se znovu přihlásíte.",
+          "title": "Transfer in progress…",
+          "title-initializing": "Transfer initializing…",
+          "desc": "Visit <0>Transfers</0> to track its status.",
+          "warning": "This can take up to one hour.",
+          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
           "buttons": {
-            "finish": "Rozumím!"
+            "finish": "Got it!"
           }
         }
       },
       "transfer-info": {
-        "title": "Prostředky jsou posílány následovně",
-        "notice": "Obchodovat na burze Nash můžete poté, co pošlete prostředky na váš obchodovací účet.",
+        "title": "Funds can be transferred as follows",
+        "notice": "You can only trade on the Nash Exchange once you have sent funds to the trading contract.",
         "actions": {
-          "action-1": "<0>Můžete</0> posílat prostředky mezi vaším osobním účtem a obchodovacím účtem, jak budete potřebovat.",
-          "action-2": "Stejně tak <0>můžete</0> posílat prostředky mezi vaším obchodovacím účtem a osobním účtem, jak budete potřebovat.",
-          "action-3": "Ale <0>nemůžete</0> posílat prostředky mezi externím účtem a obchodovacím účtem, bez toho, aniž byste je přeposlali přes váš osobní účet. Toto omezení nám umožňuje zabezpečit vaše prostředky a díky tomu víme, že jste to vždy vy kdo vkládá a vybírá z obchodovacího účtu."
+          "action-1": "You <0>can</0> move funds back and forth between your personal account and external accounts.",
+          "action-2": "Likewise, you <0>can</0> move funds back and forth between your personal account and the trading contract.",
+          "action-3": "You <0>cannot</0> move funds between the trading contract and external accounts without going through your personal account. This helps us keep funds used for trading secure: it’s always you depositing and withdrawing."
         },
-        "continue-button": "Rozumím, pokračovat",
-        "dismiss-link": "Již nikdy nezobrazovat a pokračovat"
+        "continue-button": "OK, continue",
+        "dismiss-link": "Dismiss forever and continue"
       }
     },
     "transactions": {
-      "title": "Transfery",
-      "show-more-transactions": "Zobrazit více transferů",
-      "search-my-transactions": "Vyhledat z mých transferů…",
-      "no-transactions": "Neuskutečnili jste zatím žádné transfery.",
+      "title": "Transfers",
+      "show-more-transactions": "Show more transfers",
+      "search-my-transactions": "Search my transfers…",
+      "no-transactions": "You haven’t made any transfers yet.",
       "table": {
         "header": {
-          "title": "Všechny vklady a výběry a transfery"
+          "title": "All deposits, withdrawals and contract transfers"
         },
         "when": {
-          "title": "Kdy"
+          "title": "When"
         },
         "action": {
-          "title": "Akce",
+          "title": "Action",
           "status": {
-            "completed": "Dokončeno",
-            "pending": "Právě probíhá"
+            "completed": "Complete",
+            "pending": "Pending"
           },
-          "view-transaction": "Zobrazit transakce",
-          "retry-pending": "Zkusit znovu poslat transakci",
-          "cancel-intent": "Zrušit transfer",
-          "clear-intent": "Smazat transfer",
-          "contact-support": "Prosím kontaktujte podporu",
-          "received-currency": "Obdrženo {{currencySymbol}}",
-          "receiving-currency": "Obdržuji {{currencySymbol}}",
-          "transferred-currency": "Posláno {{currencySymbol}}",
-          "transferring-currency": "Posílám {{currencySymbol}}",
-          "initializing-currency": "Započíná {{currencySymbol}} transfer",
-          "failed-permanently": "{{currencySymbol}} transfer selhal"
+          "view-transaction": "View transaction",
+          "retry-pending": "Retry sending transaction",
+          "cancel-intent": "Cancel transfer",
+          "clear-intent": "Clear transfer",
+          "contact-support": "Please contact support",
+          "received-currency": "Received {{currencySymbol}}",
+          "receiving-currency": "Receiving {{currencySymbol}}",
+          "transferred-currency": "Sent {{currencySymbol}}",
+          "transferring-currency": "Sending {{currencySymbol}}",
+          "initializing-currency": "Initializing {{currencySymbol}} transfer",
+          "failed-permanently": "{{currencySymbol}} transfer failed"
         },
         "destination": {
-          "title": "Destinace",
+          "title": "Destination",
           "to": {
             "trading-account": "Trading contract",
             "personal-account": "Personal account",
@@ -3229,157 +3229,157 @@
   },
   "orders": {
     "cards": {
-      "in-progress": "Zpracovávané příkazy",
+      "in-progress": "Orders in progress",
       "24h": "24h",
-      "available": "K dispozici na obchodování",
-      "reserved": "V příkazech"
+      "available": "Available to trade",
+      "reserved": "In orders"
     }
   },
   "referrals": {
-    "title": "Doporučení",
+    "title": "Referral program",
     "referrals": {
-      "header": "Doporučte Nash přátelům a získejte lístky",
-      "desc": "Čím více lístků získáte, tím větší šance na výhru. <0>Dozvědet se více</0>.",
+      "header": "Refer a friend and earn tickets",
+      "desc": "The more tickets you earn, the higher chance you have of winning. <0>Learn more</0>.",
       "cards": {
         "social-share": {
-          "label": "Nasdílet váš kód doporučení:",
-          "activated-count": "{{count}} aktivované lístky",
-          "activated-count_plural": "{{count}} aktivovaných lístků",
-          "pending-count": "{{count}} nevyřízené lísky",
-          "pending-count_plural": "{{count}} nevyřízených lístků",
-          "message": "Pro účastnění se v @nashsocial darovací akci použijte můj kód doporučení {{url}}! #TrustYourselves {{ytLink}}"
+          "label": "Share your referral code:",
+          "activated-count": "{{count}} activated ticket",
+          "activated-count_plural": "{{count}} activated tickets",
+          "pending-count": "{{count}} pending ticket",
+          "pending-count_plural": "{{count}} pending tickets",
+          "message": "Use my referral code {{url}} to sign up for the @nashsocial giveaway! #TrustYourselves {{ytLink}}"
         },
         "invited-users": {
-          "label": "Vaše doporučení",
-          "desc": "Toto jsou lidé jež jste doporučil napřímo vy. Nemůžeme vám zobrazit koho doporučili oni, ale můžete zde vidět lístky, které jste dostali za to, že doporučovali oni.",
-          "header": "Všechny nevuřízené a aktivované",
-          "col-name": "Jméno",
-          "col-pending": "Nevyřízené",
-          "col-activated": "Aktivované",
-          "me": "{{name}} (já)"
+          "label": "Your referrals",
+          "desc": "These are the people you’ve referred directly. We can’t show you who they’ve referred, but you can see the tickets you’ve earned through them for indirect referrals.",
+          "header": "All pending and activated",
+          "col-name": "Name",
+          "col-pending": "Pending",
+          "col-activated": "Activated",
+          "me": "{{name}} (me)"
         }
       }
     }
   },
   "settings": {
-    "title": "Můj účet",
-    "save-settings": "Uložit nastavení",
+    "title": "My account",
+    "save-settings": "Save settings",
     "kyc": {
-      "state-label": "Stát",
-      "rejected": "Úroveň 1, stav zamítnut",
-      "rejected-subtitle": "Je nám líto, ale dále pro vás není možné prokračovat v procesu. Pokud se domníváte, že jde o chybu, kontaktujte prosím naši <0>podporu.</0>",
+      "state-label": "State",
+      "rejected": "Tier 1 status denied",
+      "rejected-subtitle": "Unfortunately, you will not be able to proceed any further. If you believe this is a mistake, please contact our <0>support team.</0>",
       "details": {
         "missing_signature": {
-          "title": "Chybějící podpis",
-          "content": "Váš dokument identity musí obsahovat váš podpis."
+          "title": "Missing signature",
+          "content": "Your identity document must display your signature."
         },
         "digital_copy": {
-          "title": "Vyžadován originál",
-          "content": "Identifikovali jsme digitální kopii vašeho dokumentu identity. Prosíme, zkuste to znova a použijte originál."
+          "title": "Original required",
+          "content": "We detected a digital copy of your identity document. Please try again with the original document."
         },
         "ip_address_is_proxy": {
-          "title": "Identifikovali jsme proxy na vašem spojení",
-          "content": "K odeslání dokumentů nesmíte použít IP adresu přes proxy. Prosím, deaktivujte proxy/služby VPN."
+          "title": "Proxy detected",
+          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
         },
         "birthdate_invalid_on_id": {
-          "title": "Neplatný datum narození",
-          "content": "Datum narození na vašem dokumentu identity je neplatný."
+          "title": "Invalid date of birth",
+          "content": "The date of birth on your identity document is invalid."
         },
         "no_face_present": {
-          "title": "Obličej nezjištěn",
-          "content": "Nepovedlo se zjistit a zaměřit váš obličej na dokumentu který jste poskytl."
+          "title": "No face detected",
+          "content": "We could not detect your face in the image your provided."
         },
         "photocopy_black_white": {
-          "title": "Vyžadován originál",
-          "content": "Identifikovali jsme fotokopii vašeho dokumentu identity. Prosíme, zkuste to znova a použijte originál."
+          "title": "Original required",
+          "content": "We detected a photocopy of your identity document. Please try again with the original document."
         },
         "wrong_document_page": {
-          "title": "Nesprávná strana",
-          "content": "Váš dokument identity nezobrazuje spávnou a vyžadovanou stranu."
+          "title": "Incorrect page",
+          "content": "Your identity document is not displaying the correct page."
         },
         "different_persons_shown": {
-          "title": "Rozdílná osoba",
-          "content": "Poskytnutá selfie a foto na vašem dokumentu identity se neschodují."
+          "title": "Different people",
+          "content": "Your identity document and selfie show different people."
         },
         "damaged_document": {
-          "title": "Dokument poškozen",
-          "content": "Váš dokument identity je poškozen."
+          "title": "Damaged document",
+          "content": "Your identity document is damaged."
         },
         "identity_verification_too_many_attempts": {
-          "title": "Příliš mnoho pokusů",
-          "content": "Odeslali jste příliš mnoho pokusů o ověření"
+          "title": "Too many attempts",
+          "content": "You have submitted too many verification attempts"
         },
         "unknown_error": {
-          "title": "Někde nastala chyba!",
-          "content": "Narazili jsme na neočekávanou chybu!"
+          "title": "Something went wrong!",
+          "content": "We have encountered an unexpected error!"
         },
         "no_document": {
-          "title": "Dokument nenalezen",
-          "content": "Na obrázku který jste zaslali jsme nenašli žádný oficiální dokument identity."
+          "title": "Document not found",
+          "content": "We could not find an identity document in the image you provided."
         },
         "multiple_people": {
-          "title": "Zjištěna přítomnost více osob",
-          "content": "Na obrázku který jste poskytli jsme objevili více osob. Na obrázku musíte být pouze vy."
+          "title": "Multiple people detected",
+          "content": "We detected multiple people in the image your provided. You must be the only person in the image."
         },
         "BLURRED": {
-          "title": "Rozostřený obrázek",
-          "content": "Obrázek který jste poskytli je rozostřený."
+          "title": "Blurred image",
+          "content": "The image you provided is blurred."
         },
         "sample_document": {
-          "title": "Vyžadován originál",
-          "content": "Zjistili jsme, že váš dokument identity je pouze vzorek. Prosíme, zkuste to znova a použijte originál."
+          "title": "Original required",
+          "content": "We detected that your identity document is only a sample. Please try again with an original document."
         },
         "photocopy_color": {
-          "title": "Vyžadován originál",
-          "content": "Identifikovali jsme fotokopii vašeho dokumentu identity. Prosíme, zkuste to znova a použijte originál."
+          "title": "Original required",
+          "content": "We detected a photocopy of your identity document. Please try again with the original document."
         },
         "liveness_failed": {
-          "title": "Selhal test přítomnosti osoby",
-          "content": "Nebyli jsme schopni identifikovat skutečnou osobu na obrázku, který jste poskytl."
+          "title": "Liveness test failed",
+          "content": "We could not determine that a real person is present in the image your provided."
         },
         "ip_address_is_crawler": {
-          "title": "Bot identifikován",
-          "content": "Vaši IP adresu jsme identifikovali jako skriptovaný bot. Prosím, zkuste to znovu z jiné IP adresy."
+          "title": "Crawler detected",
+          "content": "We identified your IP address as a web crawler. Please try again from a different IP."
         },
         "missing_part_document": {
-          "title": "Neúplný dokument",
-          "content": "Část vašeho dokumentu identity chybí."
+          "title": "Incomplete document",
+          "content": "Part of your identity document is missing."
         },
         "ip_address_and_address_mismatch": {
-          "title": "Neshoda IP",
-          "content": "Umístění vaší IP adresy se musí shodovat s lokalitou, kterou jste poskytli."
+          "title": "IP mismatch",
+          "content": "Your IP address must match the location you provided."
         },
         "ip_address_is_tor": {
-          "title": "Identifikován TOR",
-          "content": "K odeslání dokumentů nesmíte použít IP adresu přes proxy. Prosím, deaktivujte proxy/služby VPN."
+          "title": "TOR detected",
+          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
         },
         "bad_quality": {
-          "title": "Nedostatečná kvalita",
-          "content": "Kvalita obrázku který jste poskytl je nedostatečná."
+          "title": "Poor quality",
+          "content": "The quality of the image you provided is too poor."
         },
         "camera_black_white": {
-          "title": "Černobílý mód",
-          "content": "Zdá se, že váš fotoaparát je nastaven na černobílý mód. Prosím, použijte mód barevný."
+          "title": "Black and white",
+          "content": "Your camera appears to be set to black and white. Please change it to color."
         },
         "not_readable_document": {
-          "title": "Dokument je nečitelný",
-          "content": "Dokument identity který jste poskytl je nečitelný."
+          "title": "Document unreadable",
+          "content": "The identity document you provided is unreadable."
         },
         "black_and_white": {
-          "title": "Černobílý mód",
-          "content": "Zdá se, že váš fotoaparát je nastaven na černobílý mód. Prosím, použijte mód barevný."
+          "title": "Black and white",
+          "content": "Your camera appears to be set to black and white. Please change it to color."
         },
         "hidden_part_document": {
-          "title": "Neznámý dokument",
-          "content": "Část vašeho dokumentu identity není vidět."
+          "title": "Document obscured",
+          "content": "Part of your identity document is hidden."
         },
         "missing_back": {
-          "title": "Zadní strana vyžadována",
-          "content": "Neposkytli jste obrázek zadní strany vašeho dokumentu."
+          "title": "Document back required",
+          "content": "You did not provide an image of the back of your document."
         },
         "face_not_fully_visible": {
-          "title": "Chybějící část obličeje",
-          "content": "Na obrázku který jste poskytli není vidět celý obličej<."
+          "title": "Face obscured",
+          "content": "Your face is not fully visible in the image you provided."
         }
       },
       "steps": [
@@ -3748,10 +3748,10 @@
               }
             },
             "web": {
-              "header": "Nash web platform",
-              "desc": "Requires a high-quality webcam."
+              "header": "Webová platforma Nash",
+              "desc": "Je vyžadována kvalitní webkamera."
             },
-            "do-it-later": "I’ll do this later"
+            "do-it-later": "Udělám to později"
           }
         }
       }
@@ -3759,245 +3759,245 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total NEX tokens staked",
-      "s-stakes-in-progress": "Stakes in progress",
-      "s-total-dividends": "Total dividends (all time)",
-      "s-next-payment": "Next dividend payment on",
-      "s-completed-stakes": "Completed stakes"
+      "s-current-stakes": "Celkový počet stakovaných NEX tokenů",
+      "s-stakes-in-progress": "Probíhající staky",
+      "s-total-dividends": "Všechny získané dividendy (od vytvoření účtu)",
+      "s-next-payment": "Další platba dividendy za",
+      "s-completed-stakes": "Ukončené staky"
     },
     "stakes": {
-      "amount-staked-col": "Amount staked",
-      "duration-col": "Duration",
-      "fee-reward-col": "Staking rate",
-      "dates-active-col": "Dates active",
-      "next-payment-col": "Next payment",
-      "aggregate-dividends-col": "Aggregate dividends value",
+      "amount-staked-col": "Stakované množství",
+      "duration-col": "Doba trvání",
+      "fee-reward-col": "Stakovací podíl",
+      "dates-active-col": "Aktivní data",
+      "next-payment-col": "Další platba",
+      "aggregate-dividends-col": "Celková hodnota dividend",
       "row-item": {
-        "duration-month": "<0>{{count}}</0> month",
-        "duration-month_plural": "<0>{{count}}</0> months",
+        "duration-month": "<0>{{count}}</0> měsíc",
+        "duration-month_plural": "<0>{{count}}</0> měsíců",
         "redeem-button": {
-          "label": "Release NEX",
-          "submitting": "Releasing…",
-          "error": "Failed! Please try again.",
-          "success": "Success. Releasing NEX…",
-          "released": "NEX released"
+          "label": "Uvolnit NEX",
+          "submitting": "Uvolňuji…",
+          "error": "Uvolnění selhalo! Prosím zkuste to znovu.",
+          "success": "Uvolnění NEX probíhá úspěšně…",
+          "released": "NEX tokeny byly uvolněné"
         }
       }
     },
     "staking": {
-      "title": "Staking",
-      "tabs-info-button": "Learn about staking"
+      "title": "Stakování",
+      "tabs-info-button": "Zjistěte více o stakování"
     },
     "statements": {
-      "view-statement-button": "View statement",
-      "summary-title": "All statements",
-      "export-summary": "Export stakes as CSV",
-      "export": "Export statement",
-      "date-col": "Payment date",
-      "asset-col": "Asset",
-      "dividend-col": "Dividend received",
-      "usdDividend-col": "USD value",
-      "stakes-in-progress": "In progress ({{date}})",
-      "stakes-complete": "Completed ({{date}})",
-      "total-dividends": "Total dividends ({{date}})",
-      "paid-dividend-days": "Days paid ({{date}})",
-      "all-dividends-table": "Dividends list",
-      "till-ended_plural": "{{count}} days left",
-      "till-ended": "{{count}} day left",
-      "till-ended_today": "Ending today",
-      "from-active-stakes": "From <0>{{count}}</0> active stake",
-      "from-active-stakes_plural": "From <0>{{count}}</0> active stakes",
-      "period-description": "During this period",
-      "dividends-received": "In dividends received",
-      "is-ended": "Ended",
-      "no-statements": "You don’t have any dividend statements yet."
+      "view-statement-button": "Zobrazit výkaz",
+      "summary-title": "Všechny výkazy",
+      "export-summary": "Exportovat staky v CSV",
+      "export": "Exportovat výkazy",
+      "date-col": "Datum platby",
+      "asset-col": "Aktiva",
+      "dividend-col": "Získané dividendy",
+      "usdDividend-col": "Hodnota v USD",
+      "stakes-in-progress": "Právě probíhá ({{date}})",
+      "stakes-complete": "Dokončeno ({{date}})",
+      "total-dividends": "Celkové dividendy ({{date}})",
+      "paid-dividend-days": "Výplatní dny ({{date}})",
+      "all-dividends-table": "Seznam dividend",
+      "till-ended_plural": "{{count}} dnů do konce",
+      "till-ended": "{{count}} den do konce",
+      "till-ended_today": "Končí dnes",
+      "from-active-stakes": "Z <0>{{count}}</0> aktivního staku",
+      "from-active-stakes_plural": "Z <0>{{count}}</0> aktivních staků",
+      "period-description": "V průběhu této periody",
+      "dividends-received": "Získáno v dividendech",
+      "is-ended": "Ukončeno",
+      "no-statements": "Zatím ještě nemáte žádné výkazy o dividendech."
     },
     "modals": {
       "staking-info": {
-        "title": "Staking Nash Exchange tokens (NEX)",
+        "title": "Stakování Nash Exchange tokenu (NEX)",
         "header": {
-          "title": "What is NEX staking?",
-          "desc": "Staking Nash Exchange tokens (NEX) is a way to earn passive income. You receive a portion of the exchange’s trading fees every day that your stake is active."
+          "title": "Co je stakování NEX?",
+          "desc": "Stakování Nash Exchange tokenu (NEX) je způsob, jakým můžete získat pasivní příjem. Každý den získáváte část burzovních poplatků z vašich aktivních staků."
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
-            "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
+            "title": "Jak to funguje?",
+            "desc": "Uzamknete kolik budete chtít Nex tokenů do stakovacího smart kontraktu. Po dobu uzamčení vašich tokenů nemůžete s tokeny volně nakládat ani je někam poslat nebo prodat. Každý aktivní den staku získáte dividendy."
           },
           "par-2": {
-            "title": "How are dividends calculated?",
-            "desc": "Dividends depend on: (1) the number of NEX tokens you stake as a proportion of the total 50,000,000 supply, and (2) the period of time for which you stake them. The more tokens you stake, the higher your dividend will be. The longer you stake your tokens for, the greater the proportion of fees you receive will be (your ‘staking rate’)."
+            "title": "Jak se počítají dividendy?",
+            "desc": "Dividendy jsou závislé na: (1) počt NEX tokenů, které stakujete v poměru k celkovému množství 50,000,000 tokenů a (2) časová perioda, na kterou se rozhodnete NEX tokeny uzamknout. Čím více tokenů takto stakujete, tím větší dividendy získáte. Čím délší dobu staku zvolíte, tím větší proporci z poplatků získáte (vaše ‘stakovací podíl’)."
           },
           "par-3": {
-            "title": "How long can I stake for?",
-            "desc": "The minimum staking period is one month, which offers a staking rate of 25%. However, if you want a higher proportion of the exchange’s fees, you can stake for any whole number of months up to a maximum of 24, which offers a staking rate of 75%."
+            "title": "Na jak dlouho mohu stakovat?",
+            "desc": "Minimální stakovací perioda je stanovená na jeden měsíc a nabízí stakovací podíl 25 %. Pokud ale chcete vyšší stakovací podíl můžete stakovat po dobu jednotlivých měsíců a to až do maximální doby 24 měsíců. 24 měsísů nabízí stakovací podíl 75%."
           },
           "par-4": {
-            "title": "How do I receive my dividends?",
-            "desc": "Dividends are automatically added to your trading contract balance. They are paid out on a daily basis, shortly after midnight UTC. Nash provides monthly staking statements that aggregate these payments into a single figure for accounting purposes. Since the fees on a trade are charged in the currency being exchanged, you will receive dividends in every asset currently being traded on Nash."
+            "title": "Jak dividendy získám?",
+            "desc": "Dividendy jsou automaticky připsané k všemu zůstatku na vašem obchodovacím účtu. Jsou vyplácené denně, cvhíli po půlnoci UTC času. Pro vaše účetní potřeby vám Nash vytváří výkazy, které agregují všechny platby do jednoho čísla. Vzhledem k tomu, že poplatky jsou získávány v měně směny, získáváte také vy dividendy ve všech jednotlivých měnách, které jsou na Nash obchodované."
           },
           "par-5": {
-            "title": "Can I receive my dividends in a single currency?",
-            "desc": "No. For legal reasons, we cannot convert your dividends for you. However, we are developing a tool to allow you to convert dividends yourself with a single click."
+            "title": "Mohu dostávat dividendy jedné měně?",
+            "desc": "Ne. Z právních důvodů nemůžeme pro vás konvertovat dividendy. Nicméně vytváříme nástroj, který vám umožní jednoduše směnit dividendy na jakoukoliv jinou měnu jedním klikem."
           },
           "par-6": {
-            "title": "Can I edit or cancel my stake once it’s been created?",
-            "desc": "No. Once you have created a stake you will not be able to edit or cancel it."
+            "title": "Mohu editovat nebo zrušit stake poté co byl vytvořen?",
+            "desc": "Ne. Poté co vytvoříte stake, není možné s tokeny volně nakládat, protože jsou uzamčené."
           },
           "par-7": {
-            "title": "Can I create multiple stakes?",
-            "desc": "Yes. If you have NEX tokens in your personal account that are not already locked in a stake, you can use them to create a new one."
+            "title": "Mohu vytvořit více staků?",
+            "desc": "Ano. Pokud máte Nex tokeny na vašem osobním účtu, které ještě nejsou stakované, můžete tyto volné tokeny uzamknout do nového staku."
           },
           "par-8": {
-            "title": "How many stakes can I create?",
-            "desc": "There is no limit to the number of stakes you can create."
+            "title": "Kolik můžu vytvořit staků?",
+            "desc": "Není limit, který by omezoval počet staků, které můžete vytvořit."
           }
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "I understand that staked NEX only pays dividends if the Nash Exchange generates revenue.",
-        "title": "Create your stake",
-        "amount-to-stake": "Amount of NEX to stake",
-        "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
-        "available-balance": "Available balance to stake ⋅",
-        "quick-fill-label": "Max",
-        "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
-        "set-date-dividends-label": "Set a date to receive your dividends",
-        "set-date-dividends-value": "Date ⋅ {{date}} of every month",
-        "stake-details-title": "Your stake details",
-        "currency-to-stake": "NEX to stake",
-        "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
-        "fee-reward": "Staking rate",
-        "first-payment": "First payment",
-        "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
-        "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
-        "create-stake-button": "Create stake",
-        "create-stake-sending-button": "Sending data…",
-        "create-stake-sending-text": "Sending data. Please keep this window open. This can take up to one minute.",
-        "create-stake-error": "There was either an error or a delay while creating your stake. Please check again in five minutes and resubmit if your stake was not created.",
-        "create-stake-auth-error": "Authentication error. Please try again.",
-        "learn-more": "Learn more about",
-        "footer-desc": "staking NEX",
-        "amount-error-message": "This amount exceeds your available balance.",
+        "create-stake-disclaimer-label": "Rozumím, že stakované NEX tokeny vyplácí dividendy pouze pokud Nash burza generuje nějaké tržby.",
+        "title": "Vytvořit váš stake",
+        "amount-to-stake": "Množství NEX tokenů pro stakování",
+        "amount-to-stake-tooltip": "Stakovací podíl určuje váš celkový proporcionální nárok na tržby vygenerované burzou Nash. Čím déle stakujete vaše NEX tokeny, tím větší bude váš stakovací podíl. Stakovací podíl je omezený maximem 75 % u dvou letého staku.\n\n<0>Příklad dividendy</0>\nDividendy jsou vyplácené denně. Předpokládjme, že Nash vygeneroval poplatky v hodnotě $1,000,000 behem poslendích 24 hodin a že uživatel stakuje 1,000 NEX tokenů z celkového množství 50,000,000 NEX tokenů. Pokud má uživatel stakováno tyto NEX tokeny na dobu dvou let, dosahuje stakovacího podílu 75 %. Jeho nárok na dividendy tedy je: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
+        "available-balance": "Volný zůstatek na stakování⋅",
+        "quick-fill-label": "Maximum",
+        "set-stake-duration-label": "Zvolte si dobu staku",
+        "selected-duration": "Zvolit dobu ⋅",
+        "selected-duration-month": "<0>{{count}}</0> měsíc",
+        "selected-duration-month_plural": "<0>{{count}}</0> měsíců",
+        "set-date-dividends-label": "Zvolte datum, kdy získáte dividendy",
+        "set-date-dividends-value": "Datum ⋅ {{date}} každého měsíce",
+        "stake-details-title": "vaše detaily o staku",
+        "currency-to-stake": "NEX ke stakování",
+        "stake-duration": "Doba trvání staku",
+        "duration-value": "<0>{{count}}</0> měsíc",
+        "duration-value_plural": "<0>{{count}}</0> měsíců",
+        "fee-reward": "Stakovací podíl",
+        "first-payment": "První platba",
+        "agreed-to-non-cancellation-label": "Rozumím, že po vytvoření nemohu změnit nebo zrušit tento stake.",
+        "agreed-to-locked-tokens-label": "Rozumím, že mé NEX tokeny budou uzamčené po celou dobu trvání staku.",
+        "create-stake-button": "Vytvořit stake",
+        "create-stake-sending-button": "Posílám data…",
+        "create-stake-sending-text": "Posílám dataa. Prosím ponechte toto okno otevřené. Toto může trvat až jednu minutu.",
+        "create-stake-error": "Vyskytla se buďto chyba nebo zpoždění při vytváření vašeho staku. Prosím vyčkejte 5 minut a vytvořte stake znovu, pokud váš předešlý stake nebyl již vytvořen.",
+        "create-stake-auth-error": "Chyba při ověření. Prosím zkuste to znovu.",
+        "learn-more": "Zjistit více o",
+        "footer-desc": "stakování NEX",
+        "amount-error-message": "Toto množství překračuje váš dostupný zůstatek.",
         "stake-success": {
-          "header": "Stake created!",
-          "stake-details": "You created a stake of {{amount}} NEX for a period of {{count}} month. Your stake will appear in the dashboard shortly.",
-          "stake-details_plural": "You created a stake of {{amount}} NEX for a period of {{count}} months. Your stake will appear in the dashboard shortly.",
-          "stake-time-description": "You will receive your first dividends in:",
-          "finish-button-label": "Finish"
+          "header": "Stake byl vytvořen!",
+          "stake-details": "Vytvořili jste stake o {{amount}} NEX po dobu {{count}} měsíce. Váš stake se brzy zobrazí ve vaší stakovací záložce.",
+          "stake-details_plural": "Vytvořili jste stake o {{amount}} NEX po dobu {{count}} měsíců. Váš stake se brzy zobrazí ve vaší stakovací záložce.",
+          "stake-time-description": "Získáte vaše první dividendy za:",
+          "finish-button-label": "Dokončit"
         }
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
-      "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
-      "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
-      "description-modal-create-link": "Create your first stake"
+      "title": "Získejte pasivní příjem stakování NEX tokenů",
+      "description-desktop": "Stakujete poprvé? Zjistěte více o <0>stakování NEX tokenů</0> a <1>vytvořte si váš první stake</1>.",
+      "description-mobile": "Stakujete poprvé? Zjistěte více o <0>stakování NEX tokenů</0>.",
+      "description-modal-create-link": "Vytvořit váš první stake"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Stakes in progress",
-      "completed-stakes": "Completed stakes",
-      "create-stake-button": "Create a new stake",
-      "learn-stake-button": "Learn about staking"
+      "stakes-in-progress": "Probíhající staky",
+      "completed-stakes": "Dokončené staky",
+      "create-stake-button": "Vytvořit nový stake",
+      "learn-stake-button": "Zjistit více o stakování"
     },
     "max-stakes": {
-      "message": "You have created {{amount}} out of a possible {{maxAmount}} stakes. The maximum you can create is {{maxAmount}}.",
-      "dismiss": "Dismiss"
+      "message": "Vytvořili jste stake o velikosti {{amount}} z maximum možných {{maxAmount}}. Maximum, které můžete stakovat je {{maxAmount}}.",
+      "dismiss": "Zrušit"
     }
   },
   "contacts": {
-    "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "create-new": "Create new",
+    "title": "{{count}} kontakt",
+    "title_plural": "{{count}} kontakty",
+    "search-my-contacts": "Vyhledat v mých kontaktech…",
+    "no-contacts": "Nepřidali jste ani neimportovali jste zatím žádné kontakty.",
+    "create-new": "Vytvořit nový",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Poslat",
+      "send-disabled-tooltip": "Pro zaslání přostředků vašemu kontaktu přidejte nejdříve adresu jeho peněženky.",
+      "request": "Požadovat",
+      "edit": "Upravit",
+      "delete": "Smazat"
     },
     "headers": {
-      "name": "Name",
+      "name": "Jméno",
       "email": "Email",
-      "phone-number": "Phone number",
-      "wallets": "Wallets"
+      "phone-number": "Telefonní číslor",
+      "wallets": "Peněženky"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Vytvořit kontakt",
+        "button": "Vytvořit kontakt"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Upravit tento kontakt",
+        "button": "Uložit změny"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Poslat prostředky {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Jaké měny?",
+          "wallet": "Adresa"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Můžete posílat měny pouze z vašeho osobního účtu."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Vyhleat měnu…",
+          "destination": "Vyhledat adresu peněženky…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "Jste si jistí, že chcete vymazat {{contactName}}?",
+        "notice-text": "Všechny informace spojené s tímto kontaktem budou navždy vymazány.",
+        "button": "Ano, vymazat",
+        "cancel": "Zrušit",
+        "error": "Chyby při vymazávání kontaktu. Prosím zkuste to znovu.",
+        "success": "Kontakt byl smazán.",
+        "success-button": "Vrátit se zpět ke kontaktům"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Kontakt byl uložen!",
+        "error": "Chyba při ukládání kontaktu. Prosím zkuste to znovu.",
+        "invalid-input": "Nesprávný input. Prosím zkuste to znovu."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Křestní jméno",
+          "placeholder": "Jan"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Příjmení",
+          "placeholder": "Novák"
         },
         "email": {
           "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "placeholder": "Emailová adresa",
+          "error": "Nasprávná emailová adresa"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Telefon",
+          "error": "Nesprávné telefonní číslo pro {{country}}"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Peněženky",
+          "delete": "Vymazat",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Adresa peneženky"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Jméno peněženky"
           },
-          "add": "Add another"
+          "add": "Přidat další"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Prosím vložte platnou {{blockchain}} adresu.",
+          "unique-address": "tato adresa je již přiřazená nějakému jinému vašemu kontaktu."
         }
       }
     }
