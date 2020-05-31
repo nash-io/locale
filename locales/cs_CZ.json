@@ -3131,100 +3131,100 @@
       "3M": "3M",
       "6M": "6M"
     },
-    "search-placeholder": "Search for a market…",
+    "search-placeholder": "Najít trh…",
     "individual-assets": {
-      "title": "Individual assets",
-      "header": "Individual assets listed on Nash"
+      "title": "Individuální aktiva",
+      "header": "Individuální aktiva dostupná na Nash"
     },
     "asset-pairs": {
-      "title": "Asset pairs",
-      "header": "All asset pairs traded on Nash Exchange"
+      "title": "Páry aktiva",
+      "header": "Všechny páry aktiva obchodovatelná na Nash Exchange"
     },
-    "no-results": "No results for this period.",
+    "no-results": "Pro zvolené období nejsou žádné výsledky.",
     "miscellaneous": {
-      "vol": "vol."
+      "vol": "obj."
     }
   },
   "modals": {
     "transfer-funds": {
-      "what-asset": "Which asset?",
-      "select-asset": "Select an asset",
-      "transfer-from": "From",
-      "to-destination": "To",
-      "send-only-currency": "Send only {{currency}} to this address",
-      "transfer-details": "Transfer details",
-      "you-are-transfering": "You are transferring",
-      "you-are-sending": "You are sending",
-      "enter-2fa-code": "Enter your two-factor authentication code",
-      "transfer-funds": "Send/Receive",
-      "create-transfer": "Create transfer",
-      "review-and-start-transfer": "Review and start transfer",
-      "transfer-has-started": "Your transfer has started",
-      "check-tranfer-info-part1": "You can check the progress of your transfer in the",
-      "check-tranfer-info-link": "Transactions",
-      "check-tranfer-info-part2": "section of ‘Funds’.",
-      "external-address": "External address",
-      "asset-to-transfer": "Asset to transfer",
-      "transfer-funds-to-external": "Send funds to an external address",
-      "send-funds": "Send funds",
-      "withdrawal-details": "Withdrawal details",
-      "to-external-address": "To external address",
-      "request-sent-to-blockchain": "Your transfer request has been sent to the blockchain."
+      "what-asset": "Které aktivum?",
+      "select-asset": "Vybrat aktivum",
+      "transfer-from": "Z",
+      "to-destination": "Do",
+      "send-only-currency": "Na tuto adresu zaslat pouze {{currency}}",
+      "transfer-details": "Detaily transakce",
+      "you-are-transfering": "Převádíte",
+      "you-are-sending": "Posíláte",
+      "enter-2fa-code": "Vložit kód dvoufázového ověřování",
+      "transfer-funds": "Odeslat/Přijmout",
+      "create-transfer": "Vytvořit převod",
+      "review-and-start-transfer": "Zkontrolovat a začít převod",
+      "transfer-has-started": "Váš převod začal",
+      "check-tranfer-info-part1": "Můžete zkontrolovat stav vašeho převodu v",
+      "check-tranfer-info-link": "Transakce",
+      "check-tranfer-info-part2": "sekci ‘Finanční prostředky’.",
+      "external-address": "Externí adresa",
+      "asset-to-transfer": "Aktivum k převodu",
+      "transfer-funds-to-external": "Poslat finanční prostředky na externí adresu",
+      "send-funds": "Poslatfinanční prostředky",
+      "withdrawal-details": "Detaily výberu",
+      "to-external-address": "Na externí adresu",
+      "request-sent-to-blockchain": "Váš požadavek k převodu byl odeslán na blockchain."
     },
     "receive-funds": {
-      "asset-to-receive": "Asset to receive",
-      "address-to-receive-currency": "This is your address to receive {{currency}}",
-      "receive-funds-from-external": "Receive funds from an external wallet"
+      "asset-to-receive": "Aktivum k příjmu",
+      "address-to-receive-currency": "Na tuto vaši adresu přijmete {{currency}}",
+      "receive-funds-from-external": "Přijmout finanční prostředky z externí peněženky"
     },
     "wallet-type": {
-      "personal": "My personal wallet",
-      "trading": "Trading contract",
-      "external": "An external wallet"
+      "personal": "Moje osobní peneženka",
+      "trading": "Obchodovací účet",
+      "external": "Externí peneženka"
     },
     "common": {
-      "continue-and-review": "Continue",
-      "finish": "Finish"
+      "continue-and-review": "Pokračovat",
+      "finish": "Dokončit"
     },
     "form-amount": {
-      "amount-to-transfer": "Amount",
-      "recipients-address": "Recipient’s address",
-      "enter-their-wallet": "Enter their wallet address",
-      "check-destination-title": "Check your destination address twice.",
-      "check-destination-description": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "amount-to-transfer": "Množství",
+      "recipients-address": "Adresa příjemce",
+      "enter-their-wallet": "Vložte adresu jejich peněženky",
+      "check-destination-title": "Zkontrolujte si cílovou adresu dvakrát.",
+      "check-destination-description": "Odeslání finančních prostředků na chybnou adresu je nevratná akce a ztratíte tyto prostředky navždy."
     },
     "form-wallet": {
-      "confirmations": "Confirmations",
-      "confirmations-count": "This token will take {{confirmationsCount}} confirmations to appear in your wallet. You can view the status of your deposit under ‘Funds > Transactions’."
+      "confirmations": "Potrzení",
+      "confirmations-count": "Aby se tento token objevil ve vaší peněžence, je nutné vyčkat {{confirmationsCount}} potvrzení. Stav vašeho vkladu lze sledovat v sekci ‘Finanční prostředky > Transakce’."
     },
     "send-confirmation-box": {
-      "only-send-one-asset": "Only send {{currency}} to this address.",
-      "only-send-multiple-asset": "Only send {{currenciesWithoutLast}} or {{lastCurrency}} assets to this address.",
-      "you-can-lose-funds": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "only-send-one-asset": "Na tuto adresu posílejte pouze {{currency}}.",
+      "only-send-multiple-asset": "Na tuto adresu zasílejte pouze aktiva {{lastCurrency}} nebo {{currenciesWithoutLast}}.",
+      "you-can-lose-funds": "Odeslání finančních prostředků na chybnou adresu je nevratná akce a ztratíte tyto prostředky navždy."
     },
     "password": {
-      "title": "Enter credentials"
+      "title": "Vložit přihlašovací údaje"
     },
     "updated-terms": {
-      "title": "Terms and conditions",
+      "title": "Pravidla a podmínky",
       "terms": {
         "names": {
-          "privacy-notice": "Privacy Notice",
-          "user-agreement": "User Agreement"
+          "privacy-notice": "Ochrana osobních údajů",
+          "user-agreement": "Uživatelská dohoda"
         },
-        "desc": "Please read and accept our latest {{termsName}}.",
-        "message": "I accept the latest <0>{{termsName}}</0>."
+        "desc": "Prosím přečtěte si a schvalte {{termsName}}.",
+        "message": "Schvaluji poslední <0>{{termsName}}</0>."
       },
-      "confirm-notice": "If you do not accept the above terms and conditions, you will not be able to continue using Nash services.",
-      "confirm-button": "Confirm",
-      "sign-out-link": "Sign me out",
+      "confirm-notice": "Pokud nebudete akceptovat výše zmíněné pravidla a podmínky, nebudete moci pokračovat ve využíváni služeb Nash.",
+      "confirm-button": "Potvrdit",
+      "sign-out-link": "Odhlásit mě",
       "errors": {
-        "generic-error": "An error has occurred. Please retry."
+        "generic-error": "Nastala chyba. Opakovat prosím."
       }
     },
     "search-contact": {
-      "empty-list": "You don’t have any contacts to select from!",
-      "wallet": "{{count}} wallet",
-      "wallet_plural": "{{count}} wallets"
+      "empty-list": "Není z čeho vybírat, nemáte zádné kontakty!",
+      "wallet": "{{count}} peněženky",
+      "wallet_plural": "{{count}} peněženek"
     }
   },
   "orders": {
