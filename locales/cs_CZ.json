@@ -3748,10 +3748,10 @@
               }
             },
             "web": {
-              "header": "Nash web platform",
-              "desc": "Requires a high-quality webcam."
+              "header": "Webová platforma Nash",
+              "desc": "Je vyžadována kvalitní webkamera."
             },
-            "do-it-later": "I’ll do this later"
+            "do-it-later": "Udělám to později"
           }
         }
       }
@@ -3759,245 +3759,245 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total NEX tokens staked",
-      "s-stakes-in-progress": "Stakes in progress",
-      "s-total-dividends": "Total dividends (all time)",
-      "s-next-payment": "Next dividend payment on",
-      "s-completed-stakes": "Completed stakes"
+      "s-current-stakes": "Celkový počet stakovaných NEX tokenů",
+      "s-stakes-in-progress": "Probíhající staky",
+      "s-total-dividends": "Všechny získané dividendy (od vytvoření účtu)",
+      "s-next-payment": "Další platba dividendy za",
+      "s-completed-stakes": "Ukončené staky"
     },
     "stakes": {
-      "amount-staked-col": "Amount staked",
-      "duration-col": "Duration",
-      "fee-reward-col": "Staking rate",
-      "dates-active-col": "Dates active",
-      "next-payment-col": "Next payment",
-      "aggregate-dividends-col": "Aggregate dividends value",
+      "amount-staked-col": "Stakované množství",
+      "duration-col": "Doba trvání",
+      "fee-reward-col": "Stakovací podíl",
+      "dates-active-col": "Aktivní data",
+      "next-payment-col": "Další platba",
+      "aggregate-dividends-col": "Celková hodnota dividend",
       "row-item": {
-        "duration-month": "<0>{{count}}</0> month",
-        "duration-month_plural": "<0>{{count}}</0> months",
+        "duration-month": "<0>{{count}}</0> měsíc",
+        "duration-month_plural": "<0>{{count}}</0> měsíců",
         "redeem-button": {
-          "label": "Release NEX",
-          "submitting": "Releasing…",
-          "error": "Failed! Please try again.",
-          "success": "Success. Releasing NEX…",
-          "released": "NEX released"
+          "label": "Uvolnit NEX",
+          "submitting": "Uvolňuji…",
+          "error": "Uvolnění selhalo! Prosím zkuste to znovu.",
+          "success": "Uvolnění NEX probíhá úspěšně…",
+          "released": "NEX tokeny byly uvolněné"
         }
       }
     },
     "staking": {
-      "title": "Staking",
-      "tabs-info-button": "Learn about staking"
+      "title": "Stakování",
+      "tabs-info-button": "Zjistěte více o stakování"
     },
     "statements": {
-      "view-statement-button": "View statement",
-      "summary-title": "All statements",
-      "export-summary": "Export stakes as CSV",
-      "export": "Export statement",
-      "date-col": "Payment date",
-      "asset-col": "Asset",
-      "dividend-col": "Dividend received",
-      "usdDividend-col": "USD value",
-      "stakes-in-progress": "In progress ({{date}})",
-      "stakes-complete": "Completed ({{date}})",
-      "total-dividends": "Total dividends ({{date}})",
-      "paid-dividend-days": "Days paid ({{date}})",
-      "all-dividends-table": "Dividends list",
-      "till-ended_plural": "{{count}} days left",
-      "till-ended": "{{count}} day left",
-      "till-ended_today": "Ending today",
-      "from-active-stakes": "From <0>{{count}}</0> active stake",
-      "from-active-stakes_plural": "From <0>{{count}}</0> active stakes",
-      "period-description": "During this period",
-      "dividends-received": "In dividends received",
-      "is-ended": "Ended",
-      "no-statements": "You don’t have any dividend statements yet."
+      "view-statement-button": "Zobrazit výkaz",
+      "summary-title": "Všechny výkazy",
+      "export-summary": "Exportovat staky v CSV",
+      "export": "Exportovat výkazy",
+      "date-col": "Datum platby",
+      "asset-col": "Aktiva",
+      "dividend-col": "Získané dividendy",
+      "usdDividend-col": "Hodnota v USD",
+      "stakes-in-progress": "Právě probíhá ({{date}})",
+      "stakes-complete": "Dokončeno ({{date}})",
+      "total-dividends": "Celkové dividendy ({{date}})",
+      "paid-dividend-days": "Výplatní dny ({{date}})",
+      "all-dividends-table": "Seznam dividend",
+      "till-ended_plural": "{{count}} dnů do konce",
+      "till-ended": "{{count}} den do konce",
+      "till-ended_today": "Končí dnes",
+      "from-active-stakes": "Z <0>{{count}}</0> aktivního staku",
+      "from-active-stakes_plural": "Z <0>{{count}}</0> aktivních staků",
+      "period-description": "V průběhu této periody",
+      "dividends-received": "Získáno v dividendech",
+      "is-ended": "Ukončeno",
+      "no-statements": "Zatím ještě nemáte žádné výkazy o dividendech."
     },
     "modals": {
       "staking-info": {
-        "title": "Staking Nash Exchange tokens (NEX)",
+        "title": "Stakování Nash Exchange tokenu (NEX)",
         "header": {
-          "title": "What is NEX staking?",
-          "desc": "Staking Nash Exchange tokens (NEX) is a way to earn passive income. You receive a portion of the exchange’s trading fees every day that your stake is active."
+          "title": "Co je stakování NEX?",
+          "desc": "Stakování Nash Exchange tokenu (NEX) je způsob, jakým můžete získat pasivní příjem. Každý den získáváte část burzovních poplatků z vašich aktivních staků."
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
-            "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
+            "title": "Jak to funguje?",
+            "desc": "Uzamknete kolik budete chtít Nex tokenů do stakovacího smart kontraktu. Po dobu uzamčení vašich tokenů nemůžete s tokeny volně nakládat ani je někam poslat nebo prodat. Každý aktivní den staku získáte dividendy."
           },
           "par-2": {
-            "title": "How are dividends calculated?",
-            "desc": "Dividends depend on: (1) the number of NEX tokens you stake as a proportion of the total 50,000,000 supply, and (2) the period of time for which you stake them. The more tokens you stake, the higher your dividend will be. The longer you stake your tokens for, the greater the proportion of fees you receive will be (your ‘staking rate’)."
+            "title": "Jak se počítají dividendy?",
+            "desc": "Dividendy jsou závislé na: (1) počt NEX tokenů, které stakujete v poměru k celkovému množství 50,000,000 tokenů a (2) časová perioda, na kterou se rozhodnete NEX tokeny uzamknout. Čím více tokenů takto stakujete, tím větší dividendy získáte. Čím délší dobu staku zvolíte, tím větší proporci z poplatků získáte (vaše ‘stakovací podíl’)."
           },
           "par-3": {
-            "title": "How long can I stake for?",
-            "desc": "The minimum staking period is one month, which offers a staking rate of 25%. However, if you want a higher proportion of the exchange’s fees, you can stake for any whole number of months up to a maximum of 24, which offers a staking rate of 75%."
+            "title": "Na jak dlouho mohu stakovat?",
+            "desc": "Minimální stakovací perioda je stanovená na jeden měsíc a nabízí stakovací podíl 25 %. Pokud ale chcete vyšší stakovací podíl můžete stakovat po dobu jednotlivých měsíců a to až do maximální doby 24 měsíců. 24 měsísů nabízí stakovací podíl 75%."
           },
           "par-4": {
-            "title": "How do I receive my dividends?",
-            "desc": "Dividends are automatically added to your trading contract balance. They are paid out on a daily basis, shortly after midnight UTC. Nash provides monthly staking statements that aggregate these payments into a single figure for accounting purposes. Since the fees on a trade are charged in the currency being exchanged, you will receive dividends in every asset currently being traded on Nash."
+            "title": "Jak dividendy získám?",
+            "desc": "Dividendy jsou automaticky připsané k všemu zůstatku na vašem obchodovacím účtu. Jsou vyplácené denně, cvhíli po půlnoci UTC času. Pro vaše účetní potřeby vám Nash vytváří výkazy, které agregují všechny platby do jednoho čísla. Vzhledem k tomu, že poplatky jsou získávány v měně směny, získáváte také vy dividendy ve všech jednotlivých měnách, které jsou na Nash obchodované."
           },
           "par-5": {
-            "title": "Can I receive my dividends in a single currency?",
-            "desc": "No. For legal reasons, we cannot convert your dividends for you. However, we are developing a tool to allow you to convert dividends yourself with a single click."
+            "title": "Mohu dostávat dividendy jedné měně?",
+            "desc": "Ne. Z právních důvodů nemůžeme pro vás konvertovat dividendy. Nicméně vytváříme nástroj, který vám umožní jednoduše směnit dividendy na jakoukoliv jinou měnu jedním klikem."
           },
           "par-6": {
-            "title": "Can I edit or cancel my stake once it’s been created?",
-            "desc": "No. Once you have created a stake you will not be able to edit or cancel it."
+            "title": "Mohu editovat nebo zrušit stake poté co byl vytvořen?",
+            "desc": "Ne. Poté co vytvoříte stake, není možné s tokeny volně nakládat, protože jsou uzamčené."
           },
           "par-7": {
-            "title": "Can I create multiple stakes?",
-            "desc": "Yes. If you have NEX tokens in your personal account that are not already locked in a stake, you can use them to create a new one."
+            "title": "Mohu vytvořit více staků?",
+            "desc": "Ano. Pokud máte Nex tokeny na vašem osobním účtu, které ještě nejsou stakované, můžete tyto volné tokeny uzamknout do nového staku."
           },
           "par-8": {
-            "title": "How many stakes can I create?",
-            "desc": "There is no limit to the number of stakes you can create."
+            "title": "Kolik můžu vytvořit staků?",
+            "desc": "Není limit, který by omezoval počet staků, které můžete vytvořit."
           }
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "I understand that staked NEX only pays dividends if the Nash Exchange generates revenue.",
-        "title": "Create your stake",
-        "amount-to-stake": "Amount of NEX to stake",
-        "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
-        "available-balance": "Available balance to stake ⋅",
-        "quick-fill-label": "Max",
-        "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
-        "set-date-dividends-label": "Set a date to receive your dividends",
-        "set-date-dividends-value": "Date ⋅ {{date}} of every month",
-        "stake-details-title": "Your stake details",
-        "currency-to-stake": "NEX to stake",
-        "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
-        "fee-reward": "Staking rate",
-        "first-payment": "First payment",
-        "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
-        "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
-        "create-stake-button": "Create stake",
-        "create-stake-sending-button": "Sending data…",
-        "create-stake-sending-text": "Sending data. Please keep this window open. This can take up to one minute.",
-        "create-stake-error": "There was either an error or a delay while creating your stake. Please check again in five minutes and resubmit if your stake was not created.",
-        "create-stake-auth-error": "Authentication error. Please try again.",
-        "learn-more": "Learn more about",
-        "footer-desc": "staking NEX",
-        "amount-error-message": "This amount exceeds your available balance.",
+        "create-stake-disclaimer-label": "Rozumím, že stakované NEX tokeny vyplácí dividendy pouze pokud Nash burza generuje nějaké tržby.",
+        "title": "Vytvořit váš stake",
+        "amount-to-stake": "Množství NEX tokenů pro stakování",
+        "amount-to-stake-tooltip": "Stakovací podíl určuje váš celkový proporcionální nárok na tržby vygenerované burzou Nash. Čím déle stakujete vaše NEX tokeny, tím větší bude váš stakovací podíl. Stakovací podíl je omezený maximem 75 % u dvou letého staku.\n\n<0>Příklad dividendy</0>\nDividendy jsou vyplácené denně. Předpokládjme, že Nash vygeneroval poplatky v hodnotě $1,000,000 behem poslendích 24 hodin a že uživatel stakuje 1,000 NEX tokenů z celkového množství 50,000,000 NEX tokenů. Pokud má uživatel stakováno tyto NEX tokeny na dobu dvou let, dosahuje stakovacího podílu 75 %. Jeho nárok na dividendy tedy je: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
+        "available-balance": "Volný zůstatek na stakování⋅",
+        "quick-fill-label": "Maximum",
+        "set-stake-duration-label": "Zvolte si dobu staku",
+        "selected-duration": "Zvolit dobu ⋅",
+        "selected-duration-month": "<0>{{count}}</0> měsíc",
+        "selected-duration-month_plural": "<0>{{count}}</0> měsíců",
+        "set-date-dividends-label": "Zvolte datum, kdy získáte dividendy",
+        "set-date-dividends-value": "Datum ⋅ {{date}} každého měsíce",
+        "stake-details-title": "vaše detaily o staku",
+        "currency-to-stake": "NEX ke stakování",
+        "stake-duration": "Doba trvání staku",
+        "duration-value": "<0>{{count}}</0> měsíc",
+        "duration-value_plural": "<0>{{count}}</0> měsíců",
+        "fee-reward": "Stakovací podíl",
+        "first-payment": "První platba",
+        "agreed-to-non-cancellation-label": "Rozumím, že po vytvoření nemohu změnit nebo zrušit tento stake.",
+        "agreed-to-locked-tokens-label": "Rozumím, že mé NEX tokeny budou uzamčené po celou dobu trvání staku.",
+        "create-stake-button": "Vytvořit stake",
+        "create-stake-sending-button": "Posílám data…",
+        "create-stake-sending-text": "Posílám dataa. Prosím ponechte toto okno otevřené. Toto může trvat až jednu minutu.",
+        "create-stake-error": "Vyskytla se buďto chyba nebo zpoždění při vytváření vašeho staku. Prosím vyčkejte 5 minut a vytvořte stake znovu, pokud váš předešlý stake nebyl již vytvořen.",
+        "create-stake-auth-error": "Chyba při ověření. Prosím zkuste to znovu.",
+        "learn-more": "Zjistit více o",
+        "footer-desc": "stakování NEX",
+        "amount-error-message": "Toto množství překračuje váš dostupný zůstatek.",
         "stake-success": {
-          "header": "Stake created!",
-          "stake-details": "You created a stake of {{amount}} NEX for a period of {{count}} month. Your stake will appear in the dashboard shortly.",
-          "stake-details_plural": "You created a stake of {{amount}} NEX for a period of {{count}} months. Your stake will appear in the dashboard shortly.",
-          "stake-time-description": "You will receive your first dividends in:",
-          "finish-button-label": "Finish"
+          "header": "Stake byl vytvořen!",
+          "stake-details": "Vytvořili jste stake o {{amount}} NEX po dobu {{count}} měsíce. Váš stake se brzy zobrazí ve vaší stakovací záložce.",
+          "stake-details_plural": "Vytvořili jste stake o {{amount}} NEX po dobu {{count}} měsíců. Váš stake se brzy zobrazí ve vaší stakovací záložce.",
+          "stake-time-description": "Získáte vaše první dividendy za:",
+          "finish-button-label": "Dokončit"
         }
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
-      "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
-      "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
-      "description-modal-create-link": "Create your first stake"
+      "title": "Získejte pasivní příjem stakování NEX tokenů",
+      "description-desktop": "Stakujete poprvé? Zjistěte více o <0>stakování NEX tokenů</0> a <1>vytvořte si váš první stake</1>.",
+      "description-mobile": "Stakujete poprvé? Zjistěte více o <0>stakování NEX tokenů</0>.",
+      "description-modal-create-link": "Vytvořit váš první stake"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Stakes in progress",
-      "completed-stakes": "Completed stakes",
-      "create-stake-button": "Create a new stake",
-      "learn-stake-button": "Learn about staking"
+      "stakes-in-progress": "Probíhající staky",
+      "completed-stakes": "Dokončené staky",
+      "create-stake-button": "Vytvořit nový stake",
+      "learn-stake-button": "Zjistit více o stakování"
     },
     "max-stakes": {
-      "message": "You have created {{amount}} out of a possible {{maxAmount}} stakes. The maximum you can create is {{maxAmount}}.",
-      "dismiss": "Dismiss"
+      "message": "Vytvořili jste stake o velikosti {{amount}} z maximum možných {{maxAmount}}. Maximum, které můžete stakovat je {{maxAmount}}.",
+      "dismiss": "Zrušit"
     }
   },
   "contacts": {
-    "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "create-new": "Create new",
+    "title": "{{count}} kontakt",
+    "title_plural": "{{count}} kontakty",
+    "search-my-contacts": "Vyhledat v mých kontaktech…",
+    "no-contacts": "Nepřidali jste ani neimportovali jste zatím žádné kontakty.",
+    "create-new": "Vytvořit nový",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Poslat",
+      "send-disabled-tooltip": "Pro zaslání přostředků vašemu kontaktu přidejte nejdříve adresu jeho peněženky.",
+      "request": "Požadovat",
+      "edit": "Upravit",
+      "delete": "Smazat"
     },
     "headers": {
-      "name": "Name",
+      "name": "Jméno",
       "email": "Email",
-      "phone-number": "Phone number",
-      "wallets": "Wallets"
+      "phone-number": "Telefonní číslor",
+      "wallets": "Peněženky"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Vytvořit kontakt",
+        "button": "Vytvořit kontakt"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Upravit tento kontakt",
+        "button": "Uložit změny"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Poslat prostředky {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Jaké měny?",
+          "wallet": "Adresa"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Můžete posílat měny pouze z vašeho osobního účtu."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Vyhleat měnu…",
+          "destination": "Vyhledat adresu peněženky…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "Jste si jistí, že chcete vymazat {{contactName}}?",
+        "notice-text": "Všechny informace spojené s tímto kontaktem budou navždy vymazány.",
+        "button": "Ano, vymazat",
+        "cancel": "Zrušit",
+        "error": "Chyby při vymazávání kontaktu. Prosím zkuste to znovu.",
+        "success": "Kontakt byl smazán.",
+        "success-button": "Vrátit se zpět ke kontaktům"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Kontakt byl uložen!",
+        "error": "Chyba při ukládání kontaktu. Prosím zkuste to znovu.",
+        "invalid-input": "Nesprávný input. Prosím zkuste to znovu."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Křestní jméno",
+          "placeholder": "Jan"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Příjmení",
+          "placeholder": "Novák"
         },
         "email": {
           "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "placeholder": "Emailová adresa",
+          "error": "Nasprávná emailová adresa"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Telefon",
+          "error": "Nesprávné telefonní číslo pro {{country}}"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Peněženky",
+          "delete": "Vymazat",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Adresa peneženky"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Jméno peněženky"
           },
-          "add": "Add another"
+          "add": "Přidat další"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Prosím vložte platnou {{blockchain}} adresu.",
+          "unique-address": "tato adresa je již přiřazená nějakému jinému vašemu kontaktu."
         }
       }
     }
