@@ -3489,163 +3489,163 @@
           "request-email-change-button-label": "Vyžádat změnu adresy"
         },
         "update-password": {
-          "title": "Change password",
+          "title": "Změna hesla",
           "fields": {
             "password": {
-              "label": "Current password",
-              "placeholder": "Enter your password"
+              "label": "Současné heslo",
+              "placeholder": "Vložte heslo"
             },
             "code": {
-              "label": "Two-factor authentication",
-              "placeholder": "Enter your two-factor authentication code"
+              "label": "Dvoufázové ověření",
+              "placeholder": "Vložte kód dvoufázového ověření"
             },
             "new-password": {
-              "label": "New password",
-              "placeholder": "Enter a new password",
+              "label": "Nové heslo",
+              "placeholder": "Vložte nové heslo",
               "errors": {
-                "password-too-weak": "The password you chose is too weak."
+                "password-too-weak": "Heslo, které jste zvolili je příliš slabé."
               }
             },
             "new-password-confirm": {
-              "label": "Confirm new password",
-              "placeholder": "Confirm new password",
+              "label": "Potvrdit nové heslo",
+              "placeholder": "Potvrdit nové heslo",
               "errors": {
-                "passwords-do-not-match": "Passwords do not match."
+                "passwords-do-not-match": "Hesla se neshodují."
               }
             }
           },
-          "success": "Your password has been changed successfully.",
+          "success": "Vaše heslo bylo úspěšně změněno.",
           "errors": {
-            "password-must-change": "Your new password should be different from your old password.",
-            "password-already-used": "You used this password already. Please pick another one.",
-            "missing-key": "Missing signature keys. Please refresh this page and try again."
+            "password-must-change": "Vaše nové heslo by mělo být odlišné od původního.",
+            "password-already-used": "Toto heslo jste již použili. Prosím, vyberte jiné.",
+            "missing-key": "Chybí podepisovací klíče. Prosím, obnovte tuto stránku a zkuste to znovu."
           }
         }
       }
     },
     "preferences": {
-      "title": "Preferences",
-      "header": "Preferences",
-      "desc-1": "Edit your preferences for timezone, currency, language and notifications below.",
+      "title": "Vlastnosti",
+      "header": "Vlastnosti",
+      "desc-1": "Upravte vaše vlastnosti pro časovou zónu, měnu, jazyk a upozornění.",
       "desc-2": "",
       "cards": {
         "general-settings": {
-          "label": "General settings",
-          "timezone": "Timezone",
-          "fiat": "Currency",
-          "language": "Language",
-          "save-settings": "Save settings"
+          "label": "Obecné nastavení",
+          "timezone": "Časová zóna",
+          "fiat": "Měna",
+          "language": "Jazyk",
+          "save-settings": "Uložit nastavení"
         },
         "email": {
-          "label": "Email me when…",
-          "news": "There are news and updates from Nash.",
-          "actions": "There are recommended actions for my account.",
-          "withdrawal": "A withdrawal is made from my account.",
-          "deposit": "A deposit is made to my account."
+          "label": "Odeslat mi email v případě…",
+          "news": "Novinek a změn Nash.",
+          "actions": "Doporučených aktivit na mém účtě.",
+          "withdrawal": "Výběrů z mého účtu.",
+          "deposit": "Vkladů na můj účet."
         }
       }
     },
     "security": {
-      "title": "Security",
-      "header": "Account security",
-      "desc": "Enable two-factor authentication here.",
+      "title": "Bezpečnost",
+      "header": "Bezpečnost účtu",
+      "desc": "Zapnout dvoufázové ověřování.",
       "cards": {
         "2fa": {
-          "label": "Two-factor authentication",
-          "header": "Two-factor authentication is:",
-          "desc": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "enabled": "Enabled",
-          "disabled": "Disabled",
-          "enable": "Enable",
-          "disable": "Disable (not recommended)"
+          "label": "Dvoufázové ověřování",
+          "header": "Dvoufázové ověřování je:",
+          "desc": "Doporučujeme, abyste nechali dvoufázové ověřeování (2FA) aktivní. Zvyšuje to zabezpečení vašeho účtu o další úroveň.",
+          "enabled": "Zapnuto",
+          "disabled": "Vypnuto",
+          "enable": "Zapnout",
+          "disable": "Vypnout (není doporučeno)"
         },
         "all-account-activity": {
-          "label": "All account activity",
+          "label": "Všechny aktivity na účtě",
           "tabs": {
-            "sessions": "Sessions",
-            "allowed-devices": "Allowed devices",
-            "history": "History"
+            "sessions": "Relace",
+            "allowed-devices": "Povolená zařízení",
+            "history": "Historie"
           },
           "columns": {
-            "when": "When",
-            "location": "Location",
-            "ip-address": "IP address",
-            "browser-used": "Browser used",
-            "device": "Device",
-            "action": "Action"
+            "when": "Kdy",
+            "location": "Poloha",
+            "ip-address": "IP adresa",
+            "browser-used": "Použitý prohlížeč",
+            "device": "Zařízení",
+            "action": "Akce"
           },
           "devices": {
-            "browser": "Browser",
-            "phone": "Phone",
+            "browser": "Prohlížeč",
+            "phone": "Telefon",
             "tablet": "Tablet"
           },
           "actions": {
-            "signed-out": "Signed out",
-            "signed-in": "Signed in",
-            "failed": "Failed sign-in attempt",
-            "2fa": "2FA confirmed",
-            "failed-2fa": "2FA failed"
+            "signed-out": "Odhlášen",
+            "signed-in": "Přihlášen",
+            "failed": "Nepovedený pokus o přihlášení",
+            "2fa": "2FA potvrzeno",
+            "failed-2fa": "2FA selhalo"
           },
-          "sign-out": "Sign out",
-          "sign-out-all-devices": "Sign out all devices"
+          "sign-out": "Odhlásit",
+          "sign-out-all-devices": "Odhlásit všechna zařízení"
         }
       },
       "modals": {
         "enable-2fa": {
           "1": {
-            "header": "Download and install an authenticator app",
-            "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+            "header": "Stáhnout a nainstalovat autorizační aplikaci",
+            "desc": "Doporučujeme <0>LastPass Authenticator</0>, <1>Authy</1> nebo <2>Google Authenticator</2>."
           },
           "2": {
-            "header": "Scan this QR code with your chosen authenticator app",
-            "desc": "Alternatively, you can add it manually.",
-            "manual-2fa": "Manual 2FA entry key"
+            "header": "Oskenujte tento QR kód z vaší autorizační aplikace",
+            "desc": "Případně můžete přidat klíč ručně.",
+            "manual-2fa": "Vložit 2FA klíč ručně"
           },
           "3": {
-            "header": "Enter the code generated by your authenticator app",
-            "input-placeholder": "Authentication code"
+            "header": "Vložte kód vygenerovaný vaší autorizační aplikací",
+            "input-placeholder": "Autorizační kód"
           },
-          "enable": "Enable",
-          "title": "Set up two-factor authentication"
+          "enable": "Zapnout",
+          "title": "Nastavit dvoufázové ověřování"
         },
         "disable-2fa": {
-          "title": "Disable two-factor authentication",
-          "warning": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "disable": "Disable"
+          "title": "Vypnout dvoufázové ověřevání",
+          "warning": "Doporučujeme, abyste nechali dvoufázové ověřeování (2FA) aktivní. Zvyšuje to zabezpečení vašeho účtu o další úroveň.",
+          "disable": "Vypnout"
         },
         "success": {
-          "header": "Success!",
-          "enabled": "Two-factor authentication has been enabled.",
-          "disabled": "Two-factor authentication has been disabled.",
-          "back": "Got it!"
+          "header": "Úspěšně provedeno!",
+          "enabled": "Dvoufázové ověřevání bylo zapnuto.",
+          "disabled": "Dvoufázové ověřevání bylo vypnuto.",
+          "back": "Rozumím!"
         }
       }
     },
     "accounts": {
-      "title": "Accounts",
-      "header": "My account information",
-      "wallets-header": "Accounts generated from my twelve secret words",
-      "show-all-private-keys-button-label": "Show all private keys",
-      "hide-all-private-keys-button-label": "Hide all private keys",
-      "desc": "Nash is non-custodial. We do not have access to your private keys.",
-      "search-assets-placeholder": "Search for a asset name or ticker…",
-      "public-address-label": "Public address",
-      "info-title": "Some blockchains support multiple assets",
-      "info-body": "ERC-20 and NEP-5 assets are tokens issued on the Ethereum and NEO blockchains, respectively. GAS is also an asset stored on the NEO blockchain. You only need one Ethereum account to store both ETH and ERC-20 tokens, and one NEO account to store NEO, GAS and NEP-5 tokens.",
-      "public-address-sub-label": "Which assets can I send here?",
-      "public-address-tooltip": "This is the blockchain address where your assets are stored.",
-      "private-key-label": "Private key",
-      "private-key-sub-label-show": "Show private key",
-      "private-key-sub-label-hide": "Hide private key",
-      "private-key-tooltip": "This can be used to access your funds outside Nash. Keep it secret.",
-      "unknown-blockchain": "Unknown blockchain",
+      "title": "Účty",
+      "header": "Informace o mém účtu",
+      "wallets-header": "Účty vygenerované z mých 12 tajných slov",
+      "show-all-private-keys-button-label": "Zobrazi všechny privátní klíče",
+      "hide-all-private-keys-button-label": "Schovat všechny privátní klíče",
+      "desc": "Nash není svěřencem (tzv. non-custodial). My nemáme přístup k vaším privátním klíčům.",
+      "search-assets-placeholder": "Vyhledat aktivum nebo ticker…",
+      "public-address-label": "Veřejná adresa",
+      "info-title": "Některé blockchainy podporují vícero aktiv",
+      "info-body": "ERC-20 a NEP-5 aktiva jsou tokeny vydané Ethereem espektive NEO blockchainy. GAS je také aktivum uložené na NEO blockchainu. Na uložení ETH a ERC-20 tokenů vám stačí pouze 1 Ethereum účet. 1 NEO účet vám pak staší na uložení NEO, GAS a NEP-5 tokenů.",
+      "public-address-sub-label": "Jaká aktiva sem mohu zaslat?",
+      "public-address-tooltip": "Toto je adresa v blockchainu, kde jsou uloženy vaše aktiva.",
+      "private-key-label": "Privátní klíč",
+      "private-key-sub-label-show": "Zobrazit privátní klíč",
+      "private-key-sub-label-hide": "Schovat privátní klíč",
+      "private-key-tooltip": "Toto může být použito k přístupu k vašim finančním prostředkům i mimo Nash. Udržujte to proto bezpečně uschované.",
+      "unknown-blockchain": "Neznámý blockchain",
       "wallets": {
         "eth": {
-          "link-label": "Includes ERC-20 tokens",
+          "link-label": "Obsahuje ERC-20 tokeny",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Includes GAS and NEP-5 tokens",
+          "link-label": "Obsahuje GAS a NEP-5 tokeny",
           "name": "NEO"
         },
         "btc": {
@@ -3654,97 +3654,97 @@
       },
       "cards": {
         "secret-words": {
-          "label": "My twelve secret words",
-          "account": "Nash account",
-          "desc": "Twelve secret words",
-          "unlock": "Unlock and show twelve secret words",
-          "lock": "Hide and lock twelve secret words"
+          "label": "Mých 12 tajných slov",
+          "account": "Nash účet",
+          "desc": "12 tajných slov",
+          "unlock": "Odemknout a zobrazit 12 tajných slov",
+          "lock": "Schovat a zamknout 12 tajných slov"
         },
         "wallets": {
-          "label": "Accounts generated from my twelve secret words",
-          "private-key": "Private key",
-          "public-address": "Public address",
-          "unlock": "Unlock and show private key",
-          "lock": "Hide and lock private key"
+          "label": "Účty vygenerované z mých 12 tajných slov",
+          "private-key": "Privátní klíč",
+          "public-address": "Veřejná adresa",
+          "unlock": "Odemknout a zobrazit privátní klíč",
+          "lock": "Schovat a zamknout privátní klíč"
         }
       },
       "modals": {
         "unlock-secret-words": {
-          "title": "Unlock my twelve secret words",
-          "submit": "Unlock twelve secret words",
-          "error": "Error: Failed to decrypt secret words."
+          "title": "Odemknout a zobrazit mých 12 tajných slov",
+          "submit": "Odemknout a zobrazit 12 tajných slov",
+          "error": "Chyba: tajná slova se nepodařilo dekódovat."
         }
       }
     },
     "my-limits": {
-      "title": "Limits",
-      "header": "Limits",
-      "desc-1": "For legal reasons, we have to verify your identity if you wish to trade above certain limits.",
-      "desc-2": "Tier 0 verification is available automatically.",
+      "title": "Limity",
+      "header": "Limity",
+      "desc-1": "Z právních důvodů musíme ověřit vaši identitu pokud si přejete obchodovat nad určité limity.",
+      "desc-2": "Úroveň 0 ověření je přístupna automaticky.",
       "cards": {
         "tiers": {
-          "header": "Tier {{tier}}",
-          "personal": "Personal",
-          "institutional": "Institutional"
+          "header": "Úroveň {{tier}}",
+          "personal": "Osobní",
+          "institutional": "Institucionální"
         },
         "periods": {
-          "day": "day",
-          "month": "month",
-          "year": "year"
+          "day": "den",
+          "month": "měsíc",
+          "year": "rok"
         },
         "limits": {
-          "header": "Maximum daily trading volume",
-          "percentage-net-worth": "Custom limit",
-          "unlimited": "Unlimited",
-          "tier-verified": "Tier {{tier}} verified",
-          "get-tier-verified": "Get tier {{tier}} verified",
-          "pending": "Pending",
-          "denied": "Denied",
-          "try-again": "Try again",
-          "contact-us": "Contact support"
+          "header": "Maximální denní obchodovací limit",
+          "percentage-net-worth": "Vlastní limit",
+          "unlimited": "Neomezeno",
+          "tier-verified": "Úroveň {{tier}} ověřena",
+          "get-tier-verified": "Nechat ověřit úroveň {{tier}}",
+          "pending": "Čeká na schválení",
+          "denied": "Zamítnuto",
+          "try-again": "Zkusit znovu",
+          "contact-us": "Kontaktujte podporu"
         },
         "information": {
-          "header": "Information required",
-          "desc": "This tier was automatically set when you created your Nash account.",
-          "email": "Email address",
-          "name": "Name",
-          "address": "Address",
-          "proof-of-address": "Proof of address",
-          "pep-check": "PEP check",
-          "photo-id": "Photo ID",
+          "header": "Vyžadované informace",
+          "desc": "Tato úroveň byla nastavena automaticky při založení Nash účtu.",
+          "email": "Emailová adresa",
+          "name": "Jméno",
+          "address": "Adresa",
+          "proof-of-address": "Důkaz potvrzující adresu",
+          "pep-check": "PEP (politicky exponovaná osoba) kontrola",
+          "photo-id": "Úřední fotografie",
           "selfie": "Selfie",
-          "date-of-birth": "Date of birth",
-          "net-worth": "Net worth",
-          "contact-number": "Contact number",
-          "tier1-info-net-worth": "Tier 1 information + Net worth",
-          "source-of-funds": "Source of funds",
-          "name-manager": "Company representative",
-          "email-institution": "Email address",
-          "name-company": "Company name",
-          "website": "Website",
-          "tin": "TIN",
-          "corporate-formation-documents": "Corporate formation documents",
-          "processing-time": "If your verification is not processed within 24 hours, please <0>contact support</0>."
+          "date-of-birth": "Datum narození",
+          "net-worth": "Čistý příjem",
+          "contact-number": "Kontaktní číslo",
+          "tier1-info-net-worth": "Úroveň 1 informace + čistý příjem",
+          "source-of-funds": "Zdroj příjmů",
+          "name-manager": "Zástupce firmy",
+          "email-institution": "Emailová adresa",
+          "name-company": "Jméno společnosti",
+          "website": "Webová stránka",
+          "tin": "IČO",
+          "corporate-formation-documents": "Dokumenty o založení společnosti",
+          "processing-time": "Pokud vaše ověření neproběhne do 24h, prosíme <0>kontaktujte podporu</0>."
         },
         "tier-1": {
-          "get-verified-button": "Get verified",
-          "continue-verification-button": "Continue verification",
+          "get-verified-button": "Ověřit",
+          "continue-verification-button": "Pokračovat v ověření",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "jak si přejete být ověřen?",
             "mobile": {
-              "header": "Smartphone app",
-              "desc": "Requires both high-quality front-facing and back-facing cameras.",
+              "header": "Aplikací chytrého telefonu",
+              "desc": "Vyžaduje vysokou kvalitu fotoaparátu jak na přední tak na zadní straně telefonu.",
               "steps": [
-                "Download the app",
-                "Scan QR code"
+                "Stáhnout aplikaci",
+                "Scanovat QR kód"
               ],
               "download": {
-                "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "header": "Ověření Úrovně 1 možné provést přes naši vlastní mobilní aplikaci.",
+                "downloaded-app": "Aplikaci mám staženou"
               },
               "scan-code": {
-                "header": "Scan the following QR code with the Nash app:",
-                "desc": "When you have completed Tier 1 verification, your result will appear here within one minute."
+                "header": "Oscanuje následující QR kód v naší mobilní Nash aplikaci:",
+                "desc": "Až dokončíte ověřevání Úrovně 1, výsledek bude zde během 1 minuty."
               }
             },
             "web": {
