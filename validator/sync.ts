@@ -4,12 +4,21 @@ import traverse from 'https://cdn.pika.dev/traverse@^0.6.6'
 import walkLocales from './walkLocales.ts'
 import validateValue from './validateValue.ts'
 
-export default function sync(defaultLocalePath: string, localesPath: string) {
+interface SyncOptions {
+  markChanges?: boolean
+  destination?: ({ localeName }: { localeName: string }) => string
+}
+
+export default function sync(
+  defaultLocalePath: string,
+  localesPath: string,
+  options: SyncOptions = {},
+) {
   walkLocales(
     defaultLocalePath,
     localesPath,
     (fileInfo, { defaultTraversal, translationTraversal, locale }) => {
-      console.log('Syncing locale %o', fileInfo.name)
+      console.log('Syncing default locale with %o', fileInfo.name)
 
       const updatedTranslationTraversal = traverse(defaultTraversal.clone())
 
@@ -27,14 +36,35 @@ export default function sync(defaultLocalePath: string, localesPath: string) {
           locale,
         )
 
+        if (validationErrors.length === 0) {
+          updatedTranslationTraversal.set(context.path, translatedValue)
+          return
+        }
+
+        if (!options.markChanges) {
+          updatedTranslationTraversal.set(context.path, defaultValue)
+          return
+        }
+
+        if (translatedValue == null) {
+          updatedTranslationTraversal.set(
+            context.path,
+            `[Translation required: ${defaultValue}]`,
+          )
+          return
+        }
+
         updatedTranslationTraversal.set(
           context.path,
-          validationErrors.length === 0 ? translatedValue : defaultValue,
+          `[Updated translation required: ${defaultValue}] ${translatedValue}`,
         )
       })
 
+      const localeDestination = options.destination
+        ? options.destination({ localeName: fileInfo.name })
+        : fileInfo.path
       const updatedTranslation = updatedTranslationTraversal.clone()
-      writeJsonSync(fileInfo.path, updatedTranslation, { spaces: 2 })
+      writeJsonSync(localeDestination, updatedTranslation, { spaces: 2 })
     },
   )
 }
