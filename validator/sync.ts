@@ -1,4 +1,4 @@
-import { writeJsonSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
+import { writeFileStrSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
 import traverse from 'https://cdn.pika.dev/traverse@^0.6.6'
 
 import walkLocales from './walkLocales.ts'
@@ -64,7 +64,10 @@ export default function sync(
         ? options.destination({ localeName: fileInfo.name })
         : fileInfo.path
       const updatedTranslation = updatedTranslationTraversal.clone()
-      writeJsonSync(localeDestination, updatedTranslation, { spaces: 2 })
+      writeFileStrSync(
+        localeDestination,
+        `${JSON.stringify(updatedTranslation, null, '  ')}\n`,
+      )
     },
   )
 }
