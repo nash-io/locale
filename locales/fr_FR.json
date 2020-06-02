@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Échec du chargement.",
     "failed-button": "Échec du chargement",
-    "failed-please-try": "<0>Échec du chargement. Veuillez</0>u00A0<1>réessayer</1>.",
+    "failed-please-try": "Failed to load. Please <0>retry</0>.",
     "why-this-may-happening": "Vous pouvez trouver des explications sur l’origine du problème <0>ici.</0>"
   },
   "datetime": {
@@ -1319,8 +1319,8 @@
     "create-order": {
       "change-markets": "Change markets",
       "errors": {
-        "order-rejected-insufficient-funds":"Insuffisant {{currencySell}} dans le contrat de trading. Envoyez des fonds pour continuer.",
-        "order-rejected-daily-limit-reached":"Votre commande a été rejetée car vous avez atteint votre limite de négociation quotidienne.",
+        "order-rejected-insufficient-funds": "Insuffisant {{currencySell}} dans le contrat de trading. Envoyez des fonds pour continuer.",
+        "order-rejected-daily-limit-reached": "Votre commande a été rejetée car vous avez atteint votre limite de négociation quotidienne.",
         "generic": "Erreur lors de votre ordre. Veuillez réessayer."
       },
       "modals": {
@@ -1409,8 +1409,8 @@
       "review-order": {
         "header": "Vérifiez votre ordre",
         "columns": {
-          "market-price":"Prix par {{currencyBuy}}",
-          "limit-price":"Définir le prix par {{currencyBuy}}",
+          "market-price": "Prix par {{currencyBuy}}",
+          "limit-price": "Définir le prix par {{currencyBuy}}",
           "fee": "Frais de négociation maximum",
           "fiat-total": "Estimation {{currencyFiat}}"
         },
