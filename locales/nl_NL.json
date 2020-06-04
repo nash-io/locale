@@ -3524,100 +3524,100 @@
       }
     },
     "preferences": {
-      "title": "Preferences",
-      "header": "Preferences",
-      "desc-1": "Edit your preferences for timezone, currency, language and notifications below.",
+      "title": "Voorkeuren",
+      "header": "Voorkeuren",
+      "desc-1": "Pas hier uw voorkeuren voor tijdzones, valuta, taal en notificaties aan.",
       "desc-2": "",
       "cards": {
         "general-settings": {
-          "label": "General settings",
-          "timezone": "Timezone",
-          "fiat": "Currency",
-          "language": "Language",
-          "save-settings": "Save settings"
+          "label": "Algemene instellingen",
+          "timezone": "Tijdzones",
+          "fiat": "Valuta",
+          "language": "Taal",
+          "save-settings": "Wijzigingen opslaan"
         },
         "email": {
-          "label": "Email me when…",
-          "news": "There are news and updates from Nash.",
-          "actions": "There are recommended actions for my account.",
-          "withdrawal": "A withdrawal is made from my account.",
-          "deposit": "A deposit is made to my account."
+          "label": "Mail mij wanneer er…",
+          "news": "Updates zijn van Nash.",
+          "actions": "Acties worden aanbevolen voor mijn account.",
+          "withdrawal": "Een opname is gedaan vanaf mijn account.",
+          "deposit": "Is gestort op mijn account."
         }
       }
     },
     "security": {
-      "title": "Security",
-      "header": "Account security",
-      "desc": "Enable two-factor authentication here.",
+      "title": "Veiligheid",
+      "header": "Accountbeveiliging",
+      "desc": "Activeer tweestapsverificatie hier.",
       "cards": {
         "2fa": {
-          "label": "Two-factor authentication",
-          "header": "Two-factor authentication is:",
-          "desc": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "enabled": "Enabled",
-          "disabled": "Disabled",
-          "enable": "Enable",
-          "disable": "Disable (not recommended)"
+          "label": "Tweestapsverificatie",
+          "header": "Tweestapsverificatie is:",
+          "desc": "We adviseren je om je tweestapsverificatie (2FA) geactiveerd te houden. Het voegt een extra beveligslaag toe aan uw account.",
+          "enabled": "Ingeschakeld",
+          "disabled": "Uitgeschakeld",
+          "enable": "Inschakelen",
+          "disable": "Uitschakelen (niet aangeraden)"
         },
         "all-account-activity": {
-          "label": "All account activity",
+          "label": "Accountactiviteit",
           "tabs": {
-            "sessions": "Sessions",
-            "allowed-devices": "Allowed devices",
-            "history": "History"
+            "sessions": "Sessies",
+            "allowed-devices": "Toegestane apparaten",
+            "history": "Geschiedenis"
           },
           "columns": {
-            "when": "When",
-            "location": "Location",
-            "ip-address": "IP address",
-            "browser-used": "Browser used",
-            "device": "Device",
-            "action": "Action"
+            "when": "Wanneer",
+            "location": "Locatie",
+            "ip-address": "IP-adres",
+            "browser-used": "Webbrowser",
+            "device": "Apparaat",
+            "action": "Actie"
           },
           "devices": {
-            "browser": "Browser",
-            "phone": "Phone",
+            "browser": "Webbrowser",
+            "phone": "Smartphone",
             "tablet": "Tablet"
           },
           "actions": {
-            "signed-out": "Signed out",
-            "signed-in": "Signed in",
-            "failed": "Failed sign-in attempt",
-            "2fa": "2FA confirmed",
-            "failed-2fa": "2FA failed"
+            "signed-out": "Uitgelogd",
+            "signed-in": "Ingelogd",
+            "failed": "Mislukte inlogpoging",
+            "2fa": "2FA succesvol",
+            "failed-2fa": "2FA mislukt"
           },
-          "sign-out": "Sign out",
-          "sign-out-all-devices": "Sign out all devices"
+          "sign-out": "Uitloggen",
+          "sign-out-all-devices": "Uitloggen op alle apparaten"
         }
       },
       "modals": {
         "enable-2fa": {
           "1": {
-            "header": "Download and install an authenticator app",
-            "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+            "header": "Download en installeer een authenticatie-app",
+            "desc": "We raden u <0>LastPass Authenticator</0>, <1>Authy</1> of <2>Google Authenticator</2> aan."
           },
           "2": {
-            "header": "Scan this QR code with your chosen authenticator app",
-            "desc": "Alternatively, you can add it manually.",
-            "manual-2fa": "Manual 2FA entry key"
+            "header": "Scan deze QR-code met een authenticatie-app",
+            "desc": "U kunt de 2FA-beveiligingsleutel ook handmatig invullen.",
+            "manual-2fa": "Vul de 2FA-beveiligingsleutel handmatig in"
           },
           "3": {
-            "header": "Enter the code generated by your authenticator app",
-            "input-placeholder": "Authentication code"
+            "header": "Vul de gegenereerde code van uw authenticatie-app in",
+            "input-placeholder": "Authenticatiecode"
           },
-          "enable": "Enable",
-          "title": "Set up two-factor authentication"
+          "enable": "Inschakelen",
+          "title": "Schakel tweestapsverificatie in"
         },
         "disable-2fa": {
-          "title": "Disable two-factor authentication",
-          "warning": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "disable": "Disable"
+          "title": "Schakel tweestapsverificatie uit",
+          "warning": "We adviseren je om je tweestapsverificatie (2FA) geactiveerd te houden. Het voegt een extra beveligslaag toe aan uw account.",
+          "disable": "Uitschakelen"
         },
         "success": {
-          "header": "Success!",
-          "enabled": "Two-factor authentication has been enabled.",
-          "disabled": "Two-factor authentication has been disabled.",
-          "back": "Got it!"
+          "header": "Gelukt!",
+          "enabled": "Tweestapsverificatie is ingeschakeld.",
+          "disabled": "Tweestapsverificatie is uitgeschakeld.",
+          "back": "Afgerond!"
         }
       }
     },
@@ -3759,11 +3759,11 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total NEX tokens staked",
-      "s-stakes-in-progress": "Stakes in progress",
-      "s-total-dividends": "Total dividends (all time)",
-      "s-next-payment": "Next dividend payment on",
-      "s-completed-stakes": "Completed stakes"
+      "s-current-stakes": "Totaal aantal NEX tokens staked",
+      "s-stakes-in-progress": "Uw huidige stakes",
+      "s-total-dividends": "Totaal aan dividend (van alle tijden)",
+      "s-next-payment": "Volgende dividend betalen uit om",
+      "s-completed-stakes": "Uitgevoerd en complete stakes"
     },
     "stakes": {
       "amount-staked-col": "Amount staked",
