@@ -67,7 +67,7 @@
       "title": "Spravovat API klíče",
       "revoke-button-label": "Znehodnotit",
       "table-header": "Vaše API klíče",
-      "no-tokens-exp": "<0>Vygenerujte váš první klíčy</0> nebo si přečtěte naší <1>API dokumentaci</1>.",
+      "no-tokens-exp": "<0>Vygenerujte váš první klíč</0> nebo si přečtěte naší <1>API dokumentaci</1>.",
       "name": "Jméno",
       "never-used": "Nikdy nepoužité",
       "last-used": "Naposledy použité {{when}}",
@@ -225,7 +225,7 @@
     },
     "main-menu": {
       "trade": {
-        "title": "Obchod",
+        "title": "Burza",
         "pages": {
           "exchange": "Burza",
           "markets": "Trhy",
@@ -791,7 +791,7 @@
         }
       },
       "depth-chart": {
-        "title": "Hloubka",
+        "title": "Hloubka trhu",
         "tooltip": {
           "price": "Cena: <0>{{price}}</0>",
           "volume": "Objemy: <0>{{volume}}</0>"
@@ -812,7 +812,7 @@
         "desc": "V tuto chvíli není dostatečná hloubka trhu na to, aby byl tržní příkaz vypořádán."
       },
       "order-type-tab": {
-        "market": "Trh",
+        "market": "Tržní příkaz",
         "limit": "Limit",
         "stop": "Stop",
         "stop-limit": "Stop-limit",
@@ -829,7 +829,7 @@
           "other-tradable-assets": "Ostatní aktiva k obchodování"
         }
       },
-      "trading-limits": "Obchodovací liity",
+      "trading-limits": "Obchodovací limity",
       "fields": {
         "amount": {
           "label": "Množství",
@@ -1007,39 +1007,39 @@
       },
       "executed-col": {
         "header-title": "Vypořádáno",
-        "header-title-with-currency": "{{currency}} vypořádáno"
+        "header-title-with-currency": "Vypořádáno {{currency}}"
       },
       "order-total-col": {
         "header-title": "Suma",
-        "header-title-with-currency": "{{currency}} celkem"
+        "header-title-with-currency": "Celkem {{currency}}"
       },
       "trade-total-col": {
         "header-title": "Obchodováno celkem",
-        "header-title-with-currency": "{{currency}} obchodováno celkem"
+        "header-title-with-currency": "Celkem obchodováno {{currency}}"
       },
       "size-col": {
         "header-title": "Množství",
-        "header-title-with-currency": "{{currency}} množství"
+        "header-title-with-currency": "Množství {{currency}}"
       },
       "price-col": {
         "header-title": "Cena",
-        "header-title-with-currency": "{{currency}} cena"
+        "header-title-with-currency": "Cena {{currency}}"
       },
       "pair-col": {
         "header-title": "Pár"
       },
       "filled-col": {
         "header-title": "Vypořádaný počet",
-        "header-title-with-currency": "{{currency}} vypořádaný počet"
+        "header-title-with-currency": "vypořádaný počet {{currency}}"
       },
       "fee-col": {
         "header-title": "Poplatky",
-        "header-title-with-currency": "{{currency}} poplatky",
+        "header-title-with-currency": "Poplatky {{currency}}",
         "no-fee": "Bez poplatků"
       },
       "condition-col": {
         "header-title": "Uzavírací cena",
-        "header-title-with-currency": "{{currency}} uzavírací cena"
+        "header-title-with-currency": "Uzavírací cena {{currency}}"
       },
       "time-col": {
         "header-title": "Provedeno"
@@ -1050,18 +1050,18 @@
     },
     "recent-trades": {
       "title": "Nedávné obchody",
-      "order-size-col": "{{symbol}} velikost",
+      "order-size-col": "Množství {{symbol}}",
       "price-col": "{{symbol}} cena",
       "time-col": "Čas"
     },
     "orderbook": {
       "title": "USD",
       "title-no-fiat": "Seznam příkazů",
-      "order-size-col": "{{symbol}} velikost",
-      "my-size-col": "Moje velikost",
+      "order-size-col": "Množství {{symbol}}",
+      "my-size-col": "Obchodované množství",
       "price-col": "{{symbol}} cena",
       "average": "Prům. cena",
-      "sum-size": "{{symbol}} suma",
+      "sum-size": "Celkem {{symbol}}",
       "num-decimals": "{{decimals}} desetin",
       "num-decimals_plural": "{{decimals}} desetiny",
       "spread": "<0>{{percent}}</0> spread"
@@ -1166,7 +1166,7 @@
           "updated-success": "Vaše emailová adresa byla zaktualizována. Nyní se můžete s pomocí této nové emailové adresy přihlásit."
         },
         "verify-email": {
-          "success": "Vaše emailová adresa byla ověřena. Prosím přihlašte se a dokončete tím nastavení účtu.",
+          "success": "Vaše emailová adresa byla ověřená. Prosím přihlašte se a dokončete tím nastavení účtu.",
           "error": "Nemohli jsme ověřit vaši emailovou adresu. Ověřovacímu kódu vypršela platnost. Prosím přihlašte se a vyžádejte si nový ověřovací email."
         }
       },
@@ -1762,7 +1762,7 @@
       "kyc-txn-limit-pre": "{{value}} za převod",
       "kyc-txn-limit-post-kyc": "{{value}} za převod po ověření identity",
       "kyc-txn-limit-post-phone": "{{value}} za převod po ověření telefoního čísla",
-      "select-btn": "Vyberte",
+      "select-btn": "Vybrat",
       "have-account-header": "Poskytovatelé s nimiž byl vytvořen účet",
       "no-account-header": "Poskytovatelé s nimiž nebyl vytvořen účet",
       "no-providers-title": "Bohužel, ve vaší zemi nejsou v současné době k dispozici žádní poskytovatelé digitálních aktiv.",
@@ -1984,7 +1984,7 @@
       "source-column": "Účet, ze kterého se platilo",
       "amount-column": "Množství",
       "view-button": "Souhrn",
-      "bought": "Koupeno",
+      "bought": "Koupené",
       "sold": "Prodáno",
       "status": "Stav",
       "withdraw-account-fee": "<0/> + <1/> poplatek",
@@ -2863,9 +2863,9 @@
             }
           },
           "btc": {
-            "funds-not-confirmed": "Před posláním Bitcoinu na obchodovací účet, važaduje váš zůstatek Bitcoinů alespoň 6 síťových konfirmací. Prosím vyčkejte než Bitcoinová síť potvrdí váš transfer.",
+            "funds-not-confirmed": "Před posláním Bitcoinu na obchodovací účet, važaduje váš zůstatek Bitcoinů na osobním účtu alespoň 6 síťových konfirmací. Prosím vyčkejte než Bitcoinová síť potvrdí váš transfer.",
             "wait-until-external-transfer-completes": "než vytvoříte nový vklad, vyčkejte prosím dokud se nepotvrdí váš nedávný externí transfer.",
-            "temporary-limit": "Vklady a výběry Bitcoinu musí být alespoň 0.001 BTC po dobu našeho testován. Toto omezení bude v blízké budoucnosti zrušeno."
+            "temporary-limit": "Vklady a výběry Bitcoinu musí být alespoň 0.001 BTC po dobu našeho testování. Toto omezení bude v blízké budoucnosti zrušeno."
           },
           "async": {
             "title": "Informace o transakci",
@@ -2973,7 +2973,7 @@
       "no-transactions": "Neuskutečnili jste zatím žádné transfery.",
       "table": {
         "header": {
-          "title": "Všechny vklady a výběry a transfery"
+          "title": "Všechny vklady, výběry a transfery"
         },
         "when": {
           "title": "Kdy"
@@ -3005,10 +3005,10 @@
             "fees": "Fees"
           },
           "from": {
-            "trading-account": "From the trading contract",
-            "personal-account": "From my personal account",
-            "nash-fiat-ramp": "Purchase from Nash",
-            "external-address": "From <0 />"
+            "trading-account": "Z obchodovacího účtu",
+            "personal-account": "Z mého osobního účtu",
+            "nash-fiat-ramp": "Koupeno od Nash",
+            "external-address": "Z <0 />"
           }
         },
         "amount": {
@@ -3033,8 +3033,8 @@
             "title": "Aktivum"
           },
           "total-balance": {
-            "title": "Suma",
-            "hint": "Suma napříč všemi účty, příkazy a ‘stakes’."
+            "title": "Celkem",
+            "hint": "Celková suma napříč všemi účty, příkazy a ‘staky’."
           },
           "fiat-value": {
             "title": "Hodnota ({{fiatCurrency}})"
@@ -3058,7 +3058,7 @@
           "title": "Portfolio",
           "hint": "Velková hodnota vašich aktiv a 24 hodinnová změna."
         },
-        "total": "Suma",
+        "total": "Celkem",
         "available": {
           "title": "K dispozici",
           "hint": "Můžete přesunout tyto finanční prostředky. Ty jsou buď na vašem osobním nebo obchodovacím účtě. Prostředky, které nejsou k dispozici jsou buď uzamčené v nevypořádaných příkazech nebo tzv. ‘stake’, případně jsou v procesu zpracování."
@@ -3090,7 +3090,7 @@
         "in-personal": "Osobní účet",
         "in-trading": "Obchodovací učet",
         "in-unfilled-orders": "Nevypořádané příkazy",
-        "in-stake": "Staked NEX",
+        "in-stake": "Stakované NEX",
         "learn-more": "Dozvědět se více"
       }
     }
@@ -3252,7 +3252,7 @@
         "invited-users": {
           "label": "Vaše doporučení",
           "desc": "Toto jsou lidé jež jste doporučil napřímo vy. Nemůžeme vám zobrazit koho doporučili oni, ale můžete zde vidět lístky, které jste dostali za to, že doporučovali oni.",
-          "header": "Všechny nevuřízené a aktivované",
+          "header": "Všechny nevyřízené a aktivované",
           "col-name": "Jméno",
           "col-pending": "Nevyřízené",
           "col-activated": "Aktivované",
@@ -3436,14 +3436,14 @@
     "profile": {
       "title": "Profil",
       "header": "Nastavení profilu",
-      "desc-1": "Nastavení vašeho profilu můžete změnit odkazem dole.",
+      "desc-1": "Nastavení vašeho profilu můžete změnit níže.",
       "desc-2": "",
       "cards": {
         "your-details": {
           "label": "Detaily o osobě",
           "legal-name": "Celé jméno",
-          "update-name": "Chci upravit moje jméno",
-          "update-country": "Chci upravit zemi trvalého bydliště",
+          "update-name": "Upravit moje jméno",
+          "update-country": "Upravit zemi trvalého bydliště",
           "gender": "Pohlaví",
           "male": "Muž",
           "female": "Žena",
@@ -3467,13 +3467,13 @@
           "tier0-summary": "Upravovat jméno lze až po dokončení <0>Ověření úrovně 1</0>.",
           "tier0-details": "Jakmile bude vaše žádost o Úroveň 1 schválena, upravíme vaše jméno aby se shodovalo se jménem na dokumentu identity který jste poskytnuli.",
           "tier1-summary": "Pokud se změnilo vaše jméno a přáli byste si ho upravit, prosím <0>kontaktujte podporu</0>.",
-          "tier1-details": "Zresetujeme vaši oěřenou úroveň and vyžádáme od vás opakování ověřovacího procesu s novými dokumenty. Jakmile bude vaše žádost schválena, upravíme vaše jméno dle dokumentu identity který jste poskytnuli."
+          "tier1-details": "Resetujeme vaši úroveň ověření a vyžádáme si od vás opakování ověřovacího procesu s novými dokumenty. Jakmile bude vaše žádost schválena, upravíme vaše jméno dle dokumentu identity který jste nám poskytli."
         },
         "update-country": {
           "title": "Upravit zemi",
           "label": "Země",
           "tier0": "Pokud se změnila země vaše trvalého bydliště a přáli byste si ji upravit, prosím <0>kontaktujte podporu</0>.",
-          "tier1": "Zresetujeme vaši oěřenou úroveň and vyžádáme od vás opakování ověřovacího procesu s novými dokumenty. Jakmile bude vaše žádost schválena, upravíme zemi vašeho trvalého bydliště dle dokumentu identity který jste poskytnuli."
+          "tier1": "Resetujeme vaši úroveň ověření a vyžádáme si od vás opakování ověřovacího procesu s novými dokumenty. Jakmile bude vaše žádost schválena, upravíme zemi vašeho trvalého bydliště dle dokumentu identity který jste nám poskytli."
         },
         "update-email": {
           "success-header": "Odeslali jsme vám email!",
@@ -3627,7 +3627,7 @@
       "wallets-header": "Účty vygenerované z mých 12 tajných slov",
       "show-all-private-keys-button-label": "Zobrazi všechny privátní klíče",
       "hide-all-private-keys-button-label": "Schovat všechny privátní klíče",
-      "desc": "Nash není svěřencem (tzv. non-custodial). My nemáme přístup k vaším privátním klíčům.",
+      "desc": "Nash není svěřencem (tzv. non-custodial). My nemáme přístup k vašim privátním klíčům.",
       "search-assets-placeholder": "Vyhledat aktivum nebo ticker…",
       "public-address-label": "Veřejná adresa",
       "info-title": "Některé blockchainy podporují vícero aktiv",
@@ -3680,7 +3680,7 @@
       "title": "Limity",
       "header": "Limity",
       "desc-1": "Z právních důvodů musíme ověřit vaši identitu pokud si přejete obchodovat nad určité limity.",
-      "desc-2": "Úroveň 0 ověření je přístupna automaticky.",
+      "desc-2": "Úroveň 0 ověření je přístupná automaticky.",
       "cards": {
         "tiers": {
           "header": "Úroveň {{tier}}",
@@ -3693,10 +3693,10 @@
           "year": "rok"
         },
         "limits": {
-          "header": "Maximální denní obchodovací limit",
+          "header": "Maximální obchodovací limity",
           "percentage-net-worth": "Vlastní limit",
           "unlimited": "Neomezeno",
-          "tier-verified": "Úroveň {{tier}} ověřena",
+          "tier-verified": "Úroveň ověření {{tier}}",
           "get-tier-verified": "Nechat ověřit úroveň {{tier}}",
           "pending": "Čeká na schválení",
           "denied": "Zamítnuto",
@@ -3716,7 +3716,7 @@
           "date-of-birth": "Datum narození",
           "net-worth": "Čistý příjem",
           "contact-number": "Kontaktní číslo",
-          "tier1-info-net-worth": "Úroveň 1 informace + čistý příjem",
+          "tier1-info-net-worth": "Informace z úroveně 1 + čistý příjem",
           "source-of-funds": "Zdroj příjmů",
           "name-manager": "Zástupce firmy",
           "email-institution": "Emailová adresa",
@@ -3826,7 +3826,7 @@
           },
           "par-2": {
             "title": "Jak se počítají dividendy?",
-            "desc": "Dividendy jsou závislé na: (1) počt NEX tokenů, které stakujete v poměru k celkovému množství 50,000,000 tokenů a (2) časová perioda, na kterou se rozhodnete NEX tokeny uzamknout. Čím více tokenů takto stakujete, tím větší dividendy získáte. Čím délší dobu staku zvolíte, tím větší proporci z poplatků získáte (vaše ‘stakovací podíl’)."
+            "desc": "Dividendy jsou závislé na: (1) počt NEX tokenů, které stakujete v poměru k celkovému množství 50,000,000 tokenů a (2) časová perioda, na kterou se rozhodnete NEX tokeny uzamknout. Čím více tokenů takto stakujete, tím větší dividendy získáte. Čím délší dobu staku zvolíte, tím větší proporci z poplatků získáte (váš ‘stakovací podíl’)."
           },
           "par-3": {
             "title": "Na jak dlouho mohu stakovat?",
@@ -3834,11 +3834,11 @@
           },
           "par-4": {
             "title": "Jak dividendy získám?",
-            "desc": "Dividendy jsou automaticky připsané k všemu zůstatku na vašem obchodovacím účtu. Jsou vyplácené denně, cvhíli po půlnoci UTC času. Pro vaše účetní potřeby vám Nash vytváří výkazy, které agregují všechny platby do jednoho čísla. Vzhledem k tomu, že poplatky jsou získávány v měně směny, získáváte také vy dividendy ve všech jednotlivých měnách, které jsou na Nash obchodované."
+            "desc": "Dividendy jsou automaticky připsané k všemu zůstatku na vašem obchodovacím účtu. Jsou vyplácené denně, chvíli po půlnoci UTC času. Pro vaše účetní potřeby vám Nash vytváří výkazy, které agregují všechny platby do jednoho čísla. Vzhledem k tomu, že poplatky jsou získávány v měně směny, získáváte také vy dividendy ve všech jednotlivých měnách, které jsou na Nash obchodované."
           },
           "par-5": {
-            "title": "Mohu dostávat dividendy jedné měně?",
-            "desc": "Ne. Z právních důvodů nemůžeme pro vás konvertovat dividendy. Nicméně vytváříme nástroj, který vám umožní jednoduše směnit dividendy na jakoukoliv jinou měnu jedním klikem."
+            "title": "Mohu dostávat dividendy v jedné měně?",
+            "desc": "Ne. Z právních důvodů pro vás nemůžeme konvertovat dividendy. Nicméně vytváříme nástroj, který vám umožní jednoduše směnit dividendy na jakoukoliv jinou měnu jedním klikem."
           },
           "par-6": {
             "title": "Mohu editovat nebo zrušit stake poté co byl vytvořen?",
@@ -3850,7 +3850,7 @@
           },
           "par-8": {
             "title": "Kolik můžu vytvořit staků?",
-            "desc": "Není limit, který by omezoval počet staků, které můžete vytvořit."
+            "desc": "Není limit omezující počet staků, které můžete vytvořit."
           }
         }
       },
@@ -3858,7 +3858,7 @@
         "create-stake-disclaimer-label": "Rozumím, že stakované NEX tokeny vyplácí dividendy pouze pokud Nash burza generuje nějaké tržby.",
         "title": "Vytvořit váš stake",
         "amount-to-stake": "Množství NEX tokenů pro stakování",
-        "amount-to-stake-tooltip": "Stakovací podíl určuje váš celkový proporcionální nárok na tržby vygenerované burzou Nash. Čím déle stakujete vaše NEX tokeny, tím větší bude váš stakovací podíl. Stakovací podíl je omezený maximem 75 % u dvou letého staku.\n\n<0>Příklad dividendy</0>\nDividendy jsou vyplácené denně. Předpokládjme, že Nash vygeneroval poplatky v hodnotě $1,000,000 behem poslendích 24 hodin a že uživatel stakuje 1,000 NEX tokenů z celkového množství 50,000,000 NEX tokenů. Pokud má uživatel stakováno tyto NEX tokeny na dobu dvou let, dosahuje stakovacího podílu 75 %. Jeho nárok na dividendy tedy je: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
+        "amount-to-stake-tooltip": "Stakovací podíl určuje váš celkový proporcionální nárok na tržby vygenerované burzou Nash. Čím déle stakujete vaše NEX tokeny, tím větší bude váš stakovací podíl. Stakovací podíl je omezený maximem 75 % u dvou letého staku.\n\n<0>Příklad dividendy</0>\nDividendy jsou vyplácené denně. Předpokládejme, že Nash vygeneroval poplatky v hodnotě $1,000,000 během poslendích 24 hodin a že uživatel stakuje 1,000 NEX tokenů z celkového množství 50,000,000 NEX tokenů. Pokud má uživatel stakováno tyto NEX tokeny na dobu dvou let, dosahuje stakovacího podílu 75 %. Jeho nárok na dividendy tedy je: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
         "available-balance": "Volný zůstatek na stakování⋅",
         "quick-fill-label": "Maximum",
         "set-stake-duration-label": "Zvolte si dobu staku",
@@ -3867,7 +3867,7 @@
         "selected-duration-month_plural": "<0>{{count}}</0> měsíců",
         "set-date-dividends-label": "Zvolte datum, kdy získáte dividendy",
         "set-date-dividends-value": "Datum ⋅ {{date}} každého měsíce",
-        "stake-details-title": "vaše detaily o staku",
+        "stake-details-title": "Vaše detaily o staku",
         "currency-to-stake": "NEX ke stakování",
         "stake-duration": "Doba trvání staku",
         "duration-value": "<0>{{count}}</0> měsíc",
