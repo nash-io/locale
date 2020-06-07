@@ -15,8 +15,8 @@
   "try-again": "Попробуйте еще раз",
   "refresh": "Обновление",
   "finish": "Окончание",
-  "price-each": "{{цена}} каждая",
-  "exchange-rate": "<0 /> / <1>{{источник валюта}}</1>",
+  "price-each": "{{price}} каждая",
+  "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "остальное",
   "not-available-short": "N/A",
   "set-price": "установьте цену",
@@ -49,7 +49,7 @@
     "delete-all-tokens": {
       "body": "Вы уверены что отозвать все ваши ключи?",
       "confirm-button-label": "отозвать все ключи вечнно",
-      "cancel-button-label": " йдти назад"
+      "cancel-button-label": "йдти назад"
     },
     "delete-token": {
       "body": "Вы уверены что отозвать ‘<0></0>’?",
@@ -57,7 +57,7 @@
       "cancel-button-label": "йдти назад"
     },
     "edit-whitelisted": {
-      "title": "доверить адрес на {{имя}}",
+      "title": "доверить адрес на {{name}}",
       "add": "добавить других",
       "save-and-close": "сохранить изменения и закрыть",
       "continue": "продожать"
@@ -70,7 +70,7 @@
       "no-tokens-exp": "<0>создать ваш первый ключ</0> или читать нашу <1>API документацию</1>.",
       "name": "Имя",
       "never-used": "Никогда не использован",
-      "last-used": "последнее использование {{когда}}",
+      "last-used": "последнее использование {{when}}",
       "subtitle": "создать и управлять API ключи. Узнать больше про <0>наши APIs</0>.",
       "key-info": "информация ключа",
       "api-key": "API ключ",
@@ -82,13 +82,13 @@
       "usable-for": "использовать для",
       "revoke": "отозвать",
       "created": "создан",
-      "policy-trading":"торговаться ",
+      "policy-trading":"торговаться",
       "loading": "Загрузить Loading Токен…",
       "no-tokens": "Вы еще не создали никакого API ключа.",
       "policy-withdrawals": "Снятие денег или депозит",
       "revoke-all-keys-button-label": "отозвать все ключи",
       "generate-new-key-button-label": "Создать новый ключ",
-      "plus-more": "+{{счёт}} больше"
+      "plus-more": "+{{count}} больше"
     },
     "create-modal": {
       "credentials-step": "Свиедетельство пользователя",
