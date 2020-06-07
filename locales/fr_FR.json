@@ -903,9 +903,9 @@
         }
       },
       "submit": {
-        "buy": "Créer un ordre d'achat",
+        "buy": "Créer un ordre d’achat",
         "sell": "Créer un ordre de vente",
-        "placing": "Passer l'ordre…"
+        "placing": "Passer l’ordre…"
       },
       "errors": {
         "order-rejected-insufficient-funds": "Votre ordre a été refusé car vous manquez de fonds.",
@@ -918,13 +918,13 @@
       "auth": "Connectez-vous pour voir vos ordres.",
       "signed-out": {
         "title": "<0>Commencez</0><1>avec Nash</1>",
-        "subtitle": "Créez un compte en moins d'une minute - aucun KYC requis!"
+        "subtitle": "Créez un compte en moins d’une minute - aucun KYC requis!"
       },
       "no-results": {
-        "date-range": "Vous n'avez aucun ordre dans la plage de dates indiquée.",
-        "active": "Vous n'avez aucun ordre ouvert ou rempli.",
-        "active-open-only": "Vous n'avez aucun ordre ouvert.",
-        "trades": "Vous n'avez aucun historique commercial."
+        "date-range": "Vous n’avez aucun ordre dans la plage de dates indiquée.",
+        "active": "Vous n’avez aucun ordre ouvert ou rempli.",
+        "active-open-only": "Vous n’avez aucun ordre ouvert.",
+        "trades": "Vous n’avez aucun historique commercial."
       },
       "tabs": {
         "orders": "Ordres",
@@ -945,7 +945,7 @@
       },
       "open-only-checkbox": "Ouvert uniquement",
       "pairs-checkbox": "Toutes les paires",
-      "export": "Historique d'exportation",
+      "export": "Historique d’exportation",
       "export-trades": "Export trade history",
       "export-your-trades": "Export your trades",
       "no-trades": "You have no trades to export",
@@ -1122,7 +1122,7 @@
         "vpn-warning-title": "Nous avons remarqué que vous utilisez un VPN.",
         "vpn-warning-body": "Veuillez désactiver tous les services VPN ou proxy pour continuer.",
         "update-country": {
-          "failed": "Nous n'avons pas pu mettre à jour votre pays de résidence. Veuillez réessayer plus tard ou contacter le support."
+          "failed": "Nous n’avons pas pu mettre à jour votre pays de résidence. Veuillez réessayer plus tard ou contacter le support."
         }
       },
       "fields": {
@@ -1171,7 +1171,7 @@
         }
       },
       "errors": {
-        "invalid-email": "L'adresse e-mail que vous avez fournie n'est pas valide.",
+        "invalid-email": "L’adresse e-mail que vous avez fournie n’est pas valide.",
         "invalid-password": "Vous devez fournir un mot de passe.",
         "signin-failed": "Il semble que votre e-mail ou votre mot de passe soit incorrect.",
         "locked": "Votre compte est temporairement fermé. Veuillez réessayer plus tard.",
@@ -2024,7 +2024,7 @@
           "failed-expired-on-bank-transfer": "Payment not recieved",
           "failed-expired-on-bank-transfer-reason": "Votre devis a expiré avant la réception de votre paiement",
           "failed-expired-on-confirmation": "Quote expired",
-          "failed-expired-on-confirmation-reason": "Vous n'avez pas accepté votre devis à temps et il a expiré",
+          "failed-expired-on-confirmation-reason": "Vous n’avez pas accepté votre devis à temps et il a expiré",
           "reconfirmation-expired": "La reconfirmation a expiré",
           "reconfirmation-rejected": "Reconfirmation rejetée",
           "confirmed-waiting-for-payment": "en attente de paiement",
@@ -2060,7 +2060,7 @@
       "new-bank-account-header": "Nouveau compte bancaire",
       "processing": "Processing…",
       "verified": "Verified",
-      "unverified-method": "La vérification d'identité n'est pas terminée",
+      "unverified-method": "La vérification d’identité n’est pas terminée",
       "verified-method": "Identité vérifiée",
       "delete-modal-title": "Voulez-vous vraiment supprimer la carte se terminant par {{cardEnding}}?",
       "confirm-btn": "Oui, supprimez ce moyen de paiement",
@@ -2076,14 +2076,14 @@
       "credit-card": {
         "continue-billing": "Continuer vers les détails de facturation",
         "enter-details": "Entrez les informations de votre carte de crédit",
-        "carbon-accepts-3d-secure": "Carbon n'accepte que les cartes de crédit 3-D Secure",
+        "carbon-accepts-3d-secure": "Carbon n’accepte que les cartes de crédit 3-D Secure",
         "select-currency-placeholder": "Sélectionnez la devise",
         "card-currency": "Devise de la carte",
         "name-on-card": "Nom sur la carte",
         "name-on-card-placeholder": "John Smith",
         "card-number": "Numéro de carte",
         "card-number-placeholder": "0000 0000 0000 0000",
-        "card-expiry-date": "Date d'expiration",
+        "card-expiry-date": "Date d’expiration",
         "card-expiry-date-placeholder": "MM/AA",
         "cvc": "CVC",
         "cvc-placeholder": "000",
@@ -2150,11 +2150,11 @@
         "kyc-form": "Informations personnels",
         "create-kyc-form": "Ajouter des informations personnelles",
         "edit-kyc-form": "Modifier les informations personnelles",
-        "verification-pending": "La vérification d'identité est en attente.",
-        "verification-succeeded": "Vérification d'identité réussie.",
-        "verification-failed": "La vérification d'identité a échoué. Veuillez mettre à jour et soumettre à nouveau vos informations.",
-        "verification-failed-permanently": "La vérification d'identité a échoué. Veuillez<0>contacter Carbon</0>.",
-        "enable-2fa-before-proceeding": "Vous devez<0>activer l'authentification à deux facteurs pour Carbon</0>pour effectuer cet achat."
+        "verification-pending": "La vérification d’identité est en attente.",
+        "verification-succeeded": "Vérification d’identité réussie.",
+        "verification-failed": "La vérification d’identité a échoué. Veuillez mettre à jour et soumettre à nouveau vos informations.",
+        "verification-failed-permanently": "La vérification d’identité a échoué. Veuillez<0>contacter Carbon</0>.",
+        "enable-2fa-before-proceeding": "Vous devez<0>activer l’authentification à deux facteurs pour Carbon</0>pour effectuer cet achat."
       },
       "submit-kyc": {
         "required-incomplete": "Vous devez remplir tous les champs obligatoires.",
@@ -2162,7 +2162,7 @@
         "button": "Send details for review"
       },
       "editor": {
-        "warning": "Je comprends que si je soumets à nouveau ces informations, mon compte devra être réexaminé et je ne serai pas en mesure d'effectuer des achats ou des ventes avant la fin de cet examen.",
+        "warning": "Je comprends que si je soumets à nouveau ces informations, mon compte devra être réexaminé et je ne serai pas en mesure d’effectuer des achats ou des ventes avant la fin de cet examen.",
         "name": {
           "edit": "Edit legal name",
           "add": "Add legal name",
@@ -2172,7 +2172,7 @@
           "field": "Nom légal complet"
         },
         "email": {
-          "edit": "Modifier l'adresse e-mail",
+          "edit": "Modifier l’adresse e-mail",
           "add": "Ajouter une adresse e-mail",
           "label": "Adresse électronique",
           "placeholder": "",
@@ -2203,10 +2203,10 @@
           "state-label": "Etat"
         },
         "address": {
-          "edit": "Modifier l'adresse",
-          "add": "Ajoutez l'adresse",
-          "save": "Soumettre l'adresse",
-          "warning": "Je comprends que si je change d'adresse, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
+          "edit": "Modifier l’adresse",
+          "add": "Ajoutez l’adresse",
+          "save": "Soumettre l’adresse",
+          "warning": "Je comprends que si je change d’adresse, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
           "building-number-label": "Numéro du bâtiment",
           "house-label": "Nom / numéro de la maison",
           "street-name-label": "nom de rue",
@@ -2223,9 +2223,9 @@
           "add": "Activer la double authentification",
           "disable": "Désactiver la double authentification",
           "disable-button": "Désactiver la double authentification",
-          "disable-warning": "Saisissez votre code Carbon 2FA ci-dessous pour désactiver la double authentification. Vous ne pourrez pas effectuer d'achats tant que la double authentification est désactivée.",
+          "disable-warning": "Saisissez votre code Carbon 2FA ci-dessous pour désactiver la double authentification. Vous ne pourrez pas effectuer d’achats tant que la double authentification est désactivée.",
           "not-set-up": "Non configuré",
-          "to-set-up": "Scannez ce code QR avec une application d'authentification. Entrez votre code de vérification ci-dessous:",
+          "to-set-up": "Scannez ce code QR avec une application d’authentification. Entrez votre code de vérification ci-dessous:",
           "enable-button": "Activer la double authentification",
           "enabled": "Activée",
           "disabled": "désactivée"
@@ -2249,8 +2249,8 @@
           "placeholder": "000-00-0000"
         },
         "proof": {
-          "add": "Téléchargez votre preuve d'adresse",
-          "edit": "Téléchargez votre preuve d'adresse",
+          "add": "Téléchargez votre preuve d’adresse",
+          "edit": "Téléchargez votre preuve d’adresse",
           "save": "Soumettre le document",
           "type": [
             "Utility bill",
