@@ -903,60 +903,60 @@
         }
       },
       "submit": {
-        "buy": "Create buy order",
-        "sell": "Create sell order",
-        "placing": "Placing order…"
+        "buy": "Créer un ordre d’achat",
+        "sell": "Créer un ordre de vente",
+        "placing": "Passer l’ordre…"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Your order was rejected because you lack sufficient funds.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds": "Votre ordre a été refusé car vous manquez de fonds.",
+        "order-rejected-daily-limit-reached": "Votre ordre a été refusé car vous avez atteint votre limite de négociation quotidienne.",
+        "generic": "Erreur lors de votre ordre. Veuillez réessayer."
       },
-      "signin-or-create-an-account": "<0>Sign in</0> or <1>create an account</1> to place an order."
+      "signin-or-create-an-account": "<0>Connectez-vous</0>ou<1>créez un compte</1>pour passer un ordre."
     },
     "my-orders": {
-      "auth": "Sign in to view your orders.",
+      "auth": "Connectez-vous pour voir vos ordres.",
       "signed-out": {
-        "title": "<0>Get started</0> <1>with Nash</1>",
-        "subtitle": "Create an account in under a minute – no KYC required!"
+        "title": "<0>Commencez</0><1>avec Nash</1>",
+        "subtitle": "Créez un compte en moins d’une minute - aucun KYC requis!"
       },
       "no-results": {
-        "date-range": "You have no orders in the given date range.",
-        "active": "You have no open or filled orders.",
-        "active-open-only": "You have no open orders.",
-        "trades": "You have no trade history."
+        "date-range": "Vous n’avez aucun ordre dans la plage de dates indiquée.",
+        "active": "Vous n’avez aucun ordre ouvert ou rempli.",
+        "active-open-only": "Vous n’avez aucun ordre ouvert.",
+        "trades": "Vous n’avez aucun historique commercial."
       },
       "tabs": {
-        "orders": "Orders",
-        "trades": "Trade history"
+        "orders": "Ordres",
+        "trades": "Historique des ordres"
       },
       "date-range-selection": {
-        "days": "{{range}}d",
-        "weeks": "{{range}}w",
+        "days": "{{range}}J",
+        "weeks": "{{range}}S",
         "months": "{{range}}M",
-        "years": "{{range}}Y",
-        "clear": "Clear",
+        "years": "{{range}}A",
+        "clear": "Effacer",
         "select-action": "Custom",
         "popup": {
-          "no-selection": "Select a date range to continue",
-          "clear": "Clear",
-          "apply": "Apply"
+          "no-selection": "Sélectionnez une plage de dates pour continuer",
+          "clear": "Effacer",
+          "apply": "Appliquer"
         }
       },
-      "open-only-checkbox": "Open only",
-      "pairs-checkbox": "All pairs",
-      "export": "Export history",
+      "open-only-checkbox": "Ouvert uniquement",
+      "pairs-checkbox": "Toutes les paires",
+      "export": "Historique d’exportation",
       "export-trades": "Export trade history",
       "export-your-trades": "Export your trades",
       "no-trades": "You have no trades to export",
       "trade-history-times": {
-        "header": "Select a set timeframe to export",
-        "custom": "Custom timeframe",
-        "months": "{{count}} month",
-        "months_plural": "{{count}} months",
-        "year": "{{count}} year"
+        "header": "Sélectionnez une période définie pour exporter",
+        "custom": "Cdélai personnalisé",
+        "months": "{{count}} mois",
+        "months_plural": "{{count}} mois",
+        "year": "{{count}} année"
       },
-      "reset-filters": "Reset",
+      "reset-filters": "Réinitialiser",
       "side-col": {
         "filter": {
           "buy": "Acheter",
@@ -1120,9 +1120,9 @@
       "subheader": "Où vivez-vous?",
       "messages": {
         "vpn-warning-title": "Nous avons remarqué que vous utilisez un VPN.",
-        "vpn-warning-body": "Please disable any VPN or proxy services to continue.",
+        "vpn-warning-body": "Veuillez désactiver tous les services VPN ou proxy pour continuer.",
         "update-country": {
-          "failed": "We could not update your country of residence. Please try again later or contact support."
+          "failed": "Nous n’avons pas pu mettre à jour votre pays de résidence. Veuillez réessayer plus tard ou contacter le support."
         }
       },
       "fields": {
@@ -1136,13 +1136,13 @@
           "label": "Je confirme que c’est mon pays de résidence."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Je confirme que ce sont mon pays et mon état de résidence."
         }
       }
     },
     "signin": {
-      "header": "Sign in to Nash",
-      "header-2fa": "Two-factor authentication",
+      "header": "Connectez-vous à Nash",
+      "header-2fa": "Double authentification",
       "fields": {
         "email": {
           "label": "Adresse e-mail",
@@ -1171,17 +1171,17 @@
         }
       },
       "errors": {
-        "invalid-email": "The email address you provided is invalid.",
-        "invalid-password": "You must provide a password.",
-        "signin-failed": "It appears your email or password is incorrect.",
-        "locked": "Your account is temporarily locked. Please try again later.",
-        "revoked": "Your account is permanently locked. Please contact support."
+        "invalid-email": "L’adresse e-mail que vous avez fournie n’est pas valide.",
+        "invalid-password": "Vous devez fournir un mot de passe.",
+        "signin-failed": "Il semble que votre e-mail ou votre mot de passe soit incorrect.",
+        "locked": "Votre compte est temporairement fermé. Veuillez réessayer plus tard.",
+        "revoked": "Votre compte est définitivement verrouillé. Veuillez contacter le support."
       }
     },
     "forgot-password": {
-      "tab-title": "Forgotten password",
-      "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back on track.",
+      "tab-title": "Mot de passe oublié",
+      "header": "Mot de passe oublié?",
+      "desc": "Saisissez votre adresse e-mail ci-dessous et nous vous remettrons sur la bonne voie.",
       "fields": {
         "email": {
           "label": "Adresse e-mail",
@@ -2022,25 +2022,25 @@
           "pending-user-confirmation": "You must review your quote",
           "cancelled-by-user": "You declined this quote",
           "failed-expired-on-bank-transfer": "Payment not recieved",
-          "failed-expired-on-bank-transfer-reason": "Your quote expired before we received your payment",
+          "failed-expired-on-bank-transfer-reason": "Votre devis a expiré avant la réception de votre paiement",
           "failed-expired-on-confirmation": "Quote expired",
-          "failed-expired-on-confirmation-reason": "You did not accept your quote in time and it expired",
-          "reconfirmation-expired": "Reconfirmation expired",
-          "reconfirmation-rejected": "Reconfirmation rejected",
-          "confirmed-waiting-for-payment": "Waiting for payment",
-          "pending-refund": "Refund pending",
-          "pending-user-rate-reconfirmation": "Rate reconfirmation pending",
-          "processing": "Transfer in progress",
-          "refunded": "Refunded",
-          "completed": "Complete"
+          "failed-expired-on-confirmation-reason": "Vous n’avez pas accepté votre devis à temps et il a expiré",
+          "reconfirmation-expired": "La reconfirmation a expiré",
+          "reconfirmation-rejected": "Reconfirmation rejetée",
+          "confirmed-waiting-for-payment": "en attente de paiement",
+          "pending-refund": "Remboursement en attente",
+          "pending-user-rate-reconfirmation": "Reconfirmation de taux en attente",
+          "processing": "Transfert en cours",
+          "refunded": "Remboursé",
+          "completed": "Achevé"
         },
         "quote-status": {
-          "pending-user-confirmation": "Unconfirmed",
-          "cancelled-by-user": "Quote declined",
-          "failed-expired-on-bank-transfer": "Failed",
-          "failed-expired-on-confirmation": "Failed",
-          "reconfirmation-expired": "Expired",
-          "reconfirmation-rejected": "Rejected",
+          "pending-user-confirmation": "Non confirmé",
+          "cancelled-by-user": "Devis refusé",
+          "failed-expired-on-bank-transfer": "Echoué",
+          "failed-expired-on-confirmation": "Echoué",
+          "reconfirmation-expired": "Echoué",
+          "reconfirmation-rejected": "Rejetée",
           "confirmed-waiting-for-payment": "Payment needed",
           "pending-refund": "Pending",
           "pending-user-rate-reconfirmation": "Rate changed",
@@ -2051,62 +2051,62 @@
       }
     },
     "payments-methods": {
-      "tab-title": "Payment methods",
-      "title": "Payment methods linked with {{providerName}}",
-      "link-new-account": "Add a payment method",
-      "link-new-bank-account": "Link a bank account",
-      "card-header": "{{currency}} account",
-      "new-card-header": "New card",
-      "new-bank-account-header": "New bank account",
+      "tab-title": "Moyens de payement",
+      "title": "Moyens de paiement liées à {{providerName}}",
+      "link-new-account": "Ajouter un moyen de paiement",
+      "link-new-bank-account": "Associer un compte bancaire",
+      "card-header": "{{currency}} compte",
+      "new-card-header": "Nouvelle carte",
+      "new-bank-account-header": "Nouveau compte bancaire",
       "processing": "Processing…",
       "verified": "Verified",
-      "unverified-method": "Identity verification not complete",
-      "verified-method": "Identity verified",
-      "delete-modal-title": "Are you sure you want to remove the card ending {{cardEnding}}?",
-      "confirm-btn": "Yes, remove this payment method",
-      "profile-incomplete": "<0>Your {{providerName}} profile</0> is incomplete.",
-      "cancel-label": "No, don’t remove it",
+      "unverified-method": "La vérification d’identité n’est pas terminée",
+      "verified-method": "Identité vérifiée",
+      "delete-modal-title": "Voulez-vous vraiment supprimer la carte se terminant par {{cardEnding}}?",
+      "confirm-btn": "Oui, supprimez ce moyen de paiement",
+      "profile-incomplete": "<0>Votre profil {{providerName}}</0> est incomplet.",
+      "cancel-label": "Non, ne le supprimez pas",
       "status": {
-        "VERIFIED": "Verified",
+        "VERIFIED": "Vérifié",
         "PENDING": "Reviewing",
-        "AWAITING_FOLLOWUP": "Requires attention",
+        "AWAITING_FOLLOWUP": "Nécessite une attention",
         "ACTIVE": "Active",
-        "REJECTED": "Rejected"
+        "REJECTED": "Rejeté"
       },
       "credit-card": {
-        "continue-billing": "Continue to billing details",
-        "enter-details": "Enter your credit card details",
-        "carbon-accepts-3d-secure": "Carbon accepts only 3-D Secure credit cards from",
-        "select-currency-placeholder": "Select currency",
-        "card-currency": "Card currency",
-        "name-on-card": "Name on card",
+        "continue-billing": "Continuer vers les détails de facturation",
+        "enter-details": "Entrez les informations de votre carte de crédit",
+        "carbon-accepts-3d-secure": "Carbon n’accepte que les cartes de crédit 3-D Secure",
+        "select-currency-placeholder": "Sélectionnez la devise",
+        "card-currency": "Devise de la carte",
+        "name-on-card": "Nom sur la carte",
         "name-on-card-placeholder": "John Smith",
-        "card-number": "Card number",
+        "card-number": "Numéro de carte",
         "card-number-placeholder": "0000 0000 0000 0000",
-        "card-expiry-date": "Expiry date",
-        "card-expiry-date-placeholder": "MM/YY",
+        "card-expiry-date": "Date d’expiration",
+        "card-expiry-date-placeholder": "MM/AA",
         "cvc": "CVC",
         "cvc-placeholder": "000",
-        "step-credit-card-details": "Credit card details",
-        "step-billing-details": "Billing details",
-        "continue-submit-details": "Submit credit card details",
-        "address-line-2": "Building number",
+        "step-credit-card-details": "Informations de la carte de crédit",
+        "step-billing-details": "Détails de la facturation",
+        "continue-submit-details": "Soumettre les détails de la carte de crédit",
+        "address-line-2": "Numéro du bâtiment",
         "address-line-2-placeholder": "1",
-        "address-line-1": "Street name",
+        "address-line-1": "nom de rue",
         "address-line-1-placeholder": "Panoramastr.",
-        "address-city": "City",
+        "address-city": "Ville",
         "address-city-placeholder": "Berlin",
-        "address-postal-code": "Postcode",
+        "address-postal-code": "Code postal",
         "address-postal-code-placeholder": "10178",
         "back": "Back",
-        "required": "Required",
-        "invalid": "Invalid"
+        "required": "Obligatoire",
+        "invalid": "Invalide"
       }
     },
     "reconfirm": {
-      "review-header": "Review your new {{currency}} quote",
-      "received-transfer": "We received your transfer of <0 />",
-      "new-rate-in": "New rate in",
+      "review-header": "Examinez votre nouveau devis {{currency}}",
+      "received-transfer": "Nous avons reçu votre virement de<0 />",
+      "new-rate-in": "Nouveau tarif en",
       "at": "at <0/>",
       "new-quote-secs": "{{count}}",
       "original-quote": "Original quote",
@@ -2144,41 +2144,41 @@
     },
     "profile": {
       "carbon": {
-        "2fa": "Carbon two-factor authentication",
-        "create-2fa": "Enable",
-        "replace-2fa": "Disable",
-        "kyc-form": "Personal details",
-        "create-kyc-form": "Add personal details",
-        "edit-kyc-form": "Edit personal details",
-        "verification-pending": "Identity verification is pending.",
-        "verification-succeeded": "Identity verification successful.",
-        "verification-failed": "Identity verification failed. Please update and resubmit your information.",
-        "verification-failed-permanently": "Identity verification failed. Please <0>contact Carbon</0>.",
-        "enable-2fa-before-proceeding": "You must <0>enable two-factor authentication for Carbon</0> to make this purchase."
+        "2fa": "Authentification carbone à double authentification",
+        "create-2fa": "Activer",
+        "replace-2fa": "Désactiver",
+        "kyc-form": "Informations personnels",
+        "create-kyc-form": "Ajouter des informations personnelles",
+        "edit-kyc-form": "Modifier les informations personnelles",
+        "verification-pending": "La vérification d’identité est en attente.",
+        "verification-succeeded": "Vérification d’identité réussie.",
+        "verification-failed": "La vérification d’identité a échoué. Veuillez mettre à jour et soumettre à nouveau vos informations.",
+        "verification-failed-permanently": "La vérification d’identité a échoué. Veuillez<0>contacter Carbon</0>.",
+        "enable-2fa-before-proceeding": "Vous devez<0>activer l’authentification à deux facteurs pour Carbon</0>pour effectuer cet achat."
       },
       "submit-kyc": {
-        "required-incomplete": "You must complete all required fields.",
+        "required-incomplete": "Vous devez remplir tous les champs obligatoires.",
         "required-complete": "",
         "button": "Send details for review"
       },
       "editor": {
-        "warning": "I understand that if I resubmit this information my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
+        "warning": "Je comprends que si je soumets à nouveau ces informations, mon compte devra être réexaminé et je ne serai pas en mesure d’effectuer des achats ou des ventes avant la fin de cet examen.",
         "name": {
           "edit": "Edit legal name",
           "add": "Add legal name",
           "placeholder": "",
           "save": "Submit legal name",
-          "warning": "I understand that if I resubmit my name, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
-          "field": "Full legal name"
+          "warning": "Je comprends que si je soumets à nouveau mon nom, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
+          "field": "Nom légal complet"
         },
         "email": {
-          "edit": "Edit email address",
-          "add": "Add email address",
-          "label": "Email address",
+          "edit": "Modifier l’adresse e-mail",
+          "add": "Ajouter une adresse e-mail",
+          "label": "Adresse électronique",
           "placeholder": "",
-          "save": "Submit email address",
-          "warning": "I understand that if I change my email address, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
-          "field": "Email address"
+          "save": "Soumettre une adresse e-mail",
+          "warning": "Je comprends que si je change mon adresse e-mail, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
+          "field": "Adresse électronique"
         },
         "occupation": {
           "placeholder": "Account manager, Company Director, Nurse, etc.",
@@ -2186,72 +2186,72 @@
           "field": "Occupation"
         },
         "source-of-funds": {
-          "placeholder": "Savings of $1,000 per month from my job over the last two years",
-          "detailed-declaration-50-chars": "Make a detailed declaration over 50 characters.",
-          "save": "Declare source of funds",
-          "field": "What is your source of funds?",
+          "placeholder": "Économies de 1 000 $ par mois grâce à mon travail au cours des deux dernières années",
+          "detailed-declaration-50-chars": "Faites une déclaration détaillée de plus de 50 caractères.",
+          "save": "Déclarez la source de financement",
+          "field": "Quelle est votre source de financement?",
           "slash": "{{currentChars}}/{{minChars}}"
         },
         "kyc-form": {
-          "edit": "Edit your details",
-          "add": "Add your details",
-          "save": "Submit your details",
-          "dob-label": "Date of birth",
-          "first-name-label": "First name",
-          "last-name-label": "Last name",
-          "country-label": "Country",
-          "state-label": "State"
+          "edit": "Modifiez vos coordonnées",
+          "add": "Ajoutez vos coordonnées",
+          "save": "Soumettez vos coordonnées",
+          "dob-label": "Date de naissance",
+          "first-name-label": "Prénom",
+          "last-name-label": "Nom de famille",
+          "country-label": "Pays",
+          "state-label": "Etat"
         },
         "address": {
-          "edit": "Edit address",
-          "add": "Add address",
-          "save": "Submit address",
-          "warning": "I understand that if I change my address, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
-          "building-number-label": "Building number",
-          "house-label": "House name/number",
-          "street-name-label": "Street name",
-          "street1-label": "Address line 1",
-          "street2-label": "Address line 2",
-          "city-label": "City",
-          "state-label": "State",
-          "county-state-label": "County/state",
-          "postalCode-label": "Postcode/ZIP",
-          "country-label": "Country of residence"
+          "edit": "Modifier l’adresse",
+          "add": "Ajoutez l’adresse",
+          "save": "Soumettre l’adresse",
+          "warning": "Je comprends que si je change d’adresse, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
+          "building-number-label": "Numéro du bâtiment",
+          "house-label": "Nom / numéro de la maison",
+          "street-name-label": "nom de rue",
+          "street1-label": "Adresse Ligne 1",
+          "street2-label": "Adresse Ligne 2",
+          "city-label": "Ville",
+          "state-label": "Etat",
+          "county-state-label": "Comté / état",
+          "postalCode-label": "Code postal",
+          "country-label": "Pays de résidence"
         },
         "2fa": {
-          "edit": "Edit two-factor authentication",
-          "add": "Enable two-factor authentication",
-          "disable": "Disable two-factor authentication",
-          "disable-button": "Disable two-factor authentication",
-          "disable-warning": "Enter your Carbon 2FA code below to disable two-factor authentication. You will not be able to make purchases while two-factor authentication is disabled.",
-          "not-set-up": "Not set up",
-          "to-set-up": "Scan this QR code with an authenticator app. Enter your verification code below:",
-          "enable-button": "Enable two-factor authentication",
-          "enabled": "Enabled",
-          "disabled": "Disabled"
+          "edit": "Modifier la double authentification",
+          "add": "Activer la double authentification",
+          "disable": "Désactiver la double authentification",
+          "disable-button": "Désactiver la double authentification",
+          "disable-warning": "Saisissez votre code Carbon 2FA ci-dessous pour désactiver la double authentification. Vous ne pourrez pas effectuer d’achats tant que la double authentification est désactivée.",
+          "not-set-up": "Non configuré",
+          "to-set-up": "Scannez ce code QR avec une application d’authentification. Entrez votre code de vérification ci-dessous:",
+          "enable-button": "Activer la double authentification",
+          "enabled": "Activée",
+          "disabled": "désactivée"
         },
         "live-photo": {
-          "add": "Take live photo",
-          "edit": "Edit live photo",
-          "provided": "Photo uploaded",
+          "add": "Prendre une photo en direct",
+          "edit": "Modifier la photo en direct",
+          "provided": "Photo téléchargée",
           "missing": "",
-          "capture-button": "Take a photo",
-          "reset-button": "Retake photo",
-          "use-button": "Use this photo",
-          "instructions": "Take a photo of your face. Your face must be well lit and visible, without any sunglasses or alterations to your physical appearance. Also make sure the photo is clear, with no glare or blur."
+          "capture-button": "Prendre une photo",
+          "reset-button": "Reprendre la photo",
+          "use-button": "Utilisez cette photo",
+          "instructions": "Prenez une photo de votre visage. Votre visage doit être bien éclairé et visible, sans lunettes de soleil ni altération de votre apparence physique. Assurez-vous également que la photo est claire, sans reflets ni flou."
         },
         "sin": {
           "edit": "Edit SSN",
           "add": "Add SSN",
           "save": "Submit SSN",
           "field": "Social security number (SSN)",
-          "warning": "I understand that if I change my SSN, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
+          "warning": "Je comprends que si je modifie mon SSN, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
           "placeholder": "000-00-0000"
         },
         "proof": {
-          "add": "Upload your proof of address",
-          "edit": "Upload your proof of address",
-          "save": "Submit document",
+          "add": "Téléchargez votre preuve d’adresse",
+          "edit": "Téléchargez votre preuve d’adresse",
+          "save": "Soumettre le document",
           "type": [
             "Utility bill",
             "Bank statement"
