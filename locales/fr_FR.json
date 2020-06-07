@@ -559,7 +559,7 @@
       "desc-2": "Si vous ne voyez pas notre mail, vérifiez dans courrier indésirable.",
       "resend": "Renvoyer le mail de vérification",
       "resend-delay": "Patientez {{count}} seconde…",
-      "resend-delay_plural": "S'il vous plaît, patientez{{count}} secondes…",
+      "resend-delay_plural": "S’il vous plaît, patientez{{count}} secondes…",
       "back": "Back to sign-in",
       "success": "E-mail de vérification envoyé avec succès!",
       "errors": {
@@ -576,12 +576,12 @@
     "general-information": {
       "title": "informations générales",
       "header": "Créons votre compte personnel",
-      "desc-1": "Votre compte personnel est généré à l'aide de douze mots secrets. Si vous perdez votre mot de passe, vous pouvez accéder à votre compte et le réinitialiser à l'aide de ces mots. Pour cette raison, vous devez absolument sauvegarder correctement vos douze mots secrets.",
+      "desc-1": "Votre compte personnel est généré à l’aide de douze mots secrets. Si vous perdez votre mot de passe, vous pouvez accéder à votre compte et le réinitialiser à l’aide de ces mots. Pour cette raison, vous devez absolument sauvegarder correctement vos douze mots secrets.",
       "continue": "Obtenez mes douze mots secrets",
       "skip2Fa": "Configurez-le plus tard",
       "chart": {
         "card-top": "Douze mots secrets",
-        "card-top-right": "Récupération du compte Nash en cas d'oubli du mot de passe",
+        "card-top-right": "Récupération du compte Nash en cas d’oubli du mot de passe",
         "diamond-one": "Utilisé dans",
         "diamond-two": "Générez votre compte personnel, qui contient…",
         "card-btc": "Compte Bitcoin",
@@ -597,7 +597,7 @@
       "popup-error": "Si vous souhaitez imprimer vos mots secrets, veuillez désactiver tous les bloqueurs de popups et autoriser Nash à ouvrir les popups.",
       "continue": "Continuer",
       "go-back": "Go back",
-      "written-down": "J'ai noté mes mots.",
+      "written-down": "J’ai noté mes mots.",
       "check-my-backup": "Vérifier ma sauvegarde",
       "tips": {
         "do": "Notez vos mots à la main.",
@@ -607,9 +607,9 @@
         "print-warning": {
           "title": "Imprimez vos douze mots secrets",
           "header": "Veuillez vous assurer que votre imprimante est sécurisée!",
-          "body-desc": "Si vous choisissez d'imprimer vos mots, assurez-vous:",
+          "body-desc": "Si vous choisissez d’imprimer vos mots, assurez-vous:",
           "body-tips-0": "Votre imprimante est connectée à votre ordinateur directement avec un câble USB.",
-          "body-tips-1": "Votre imprimante n'est connectée à aucun réseau.",
+          "body-tips-1": "Votre imprimante n’est connectée à aucun réseau.",
           "body-tips-2": "Il est impossible pour les autres de se connecter à votre imprimante via Bluetooth, WLAN, etc.",
           "button": "Je comprends - imprimer mes mots"
         }
@@ -618,7 +618,7 @@
       "backup-print": {
         "header": "Sauvegarde de mots secrets",
         "desc-1": "Vos douze mots secrets peuvent être utilisés pour accéder à vos comptes ETH, NEO et autres si vous perdez votre mot de passe Nash.",
-        "desc-2": "N'oubliez pas: si quelqu'un accède à vos mots secrets, vos fonds sont en danger.",
+        "desc-2": "N’oubliez pas: si quelqu’un accède à vos mots secrets, vos fonds sont en danger.",
         "desc-3": "Découpez les feuillets ci-dessous. Pensez à les plastifier et à les stocker dans deux emplacements distincts."
       },
       "repeat-secret-words": {
@@ -629,14 +629,14 @@
         "create-my-wallet": "Créer mon compte",
         "generating-your-wallet": "Générer votre compte Nash…",
         "errors": {
-          "create-wallet-failed": "Une erreur s'est produite lors de la création de votre compte. Veuillez<0> vous déconnecter </0>et réessayer."
+          "create-wallet-failed": "Une erreur s’est produite lors de la création de votre compte. Veuillez<0> vous déconnecter </0>et réessayer."
         }
       },
       "wallet-created": {
         "header": "Votre compte Nash a été créé avec succès!",
         "desc": "Vous pouvez trouver vos douze mots secrets et les détails de votre compte individuel sous «Mon profil> Comptes».",
         "warning": "<0>Nous ne stockons pas vos mots secrets dans aucun endroit.</0>Si vous oubliez votre mot de passe, vous ne pourrez pas accéder à vos fonds sans ces mots.",
-        "continue": "Configurer l'authentification à deux facteurs",
+        "continue": "Configurer l’authentification à deux facteurs",
         "continue-location": "Définir le lieu de résidence"
       }
     },
@@ -647,16 +647,16 @@
       "desc": "La double authentification (2FA) ajoute une couche de sécurité supplémentaire à votre compte.",
       "cards": {
         "1": {
-          "header": "Téléchargez et installez une application d'authentification",
+          "header": "Téléchargez et installez une application d’authentification",
           "desc": "Such as <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
         },
         "2": {
-          "header": "Scannez ce code QR avec l'application téléchargée que vous avez choisie",
+          "header": "Scannez ce code QR avec l’application téléchargée que vous avez choisie",
           "manual-2fa": "Notez votre code de sauvegarde 2FA"
         },
         "3": {
-          "header": "Entrez le code de vérification généré par votre application d'authentification",
-          "input-placeholder": "Code d'identification",
+          "header": "Entrez le code de vérification généré par votre application d’authentification",
+          "input-placeholder": "Code d’identification",
           "input-error": "Le code que vous avez entré est incorrect."
         }
       },
@@ -682,7 +682,7 @@
       }
     },
     "messages": {
-      "create-order-blocked": "Vous ne pouvez pas créer d'ordres en bourse pour ce marché dans votre région."
+      "create-order-blocked": "Vous ne pouvez pas créer d’ordres en bourse pour ce marché dans votre région."
     }
   },
   "advanced-exchange": {
