@@ -99,32 +99,32 @@
     },
     "step1": {
       "name": "Name",
-      "continue-button-label": "Create key"
+      "continue-button-label": "Создать ключ"
     },
     "step2": {
-      "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "password": "Пароль",
+      "two-fa-code": "Код двухфакторной аутентификации",
+      "create-api-button-label": "Дальше",
+      "incorrect-password": "Неправильный пароль.",
+      "incorrect-2fa": "Неправильный код."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Подождите, генерируем Ваш ключ…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Ваш секрет",
+      "your-secret-warning": "Это единственный раз, что Вы видите эту информацию здесь.",
+      "api-key": "Ваш ключ API",
+      "api-key-warning": "Это единственный раз, что Вы видите эту информацию здесь.",
+      "download-as-json-button-label": "Сохранить ключ API и секрет как файл JSON",
+      "i-saved-my-secret-button-label": "Я сохранил свой секрет"
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
-    "1w": "1w",
-    "1m": "1M"
+    "1h": "1 ч",
+    "1d": "24 ч",
+    "1w": "1 нед.",
+    "1m": "1 мес."
   },
   "transfer": {
     "trading": "Trading",
@@ -3911,93 +3911,93 @@
     }
   },
   "contacts": {
-    "title": "{{count}} контакт",
-    "title_plural": "{{count}} контактов",
-    "search-my-contacts": "Поиск в моих контактах…",
-    "no-contacts": "Пока что нет добавленных или импортированных контактов.",
-    "create-new": "Добавить контакт",
+    "title": "{{count}} contact",
+    "title_plural": "{{count}} contacts",
+    "search-my-contacts": "Search my contacts…",
+    "no-contacts": "You haven’t added or imported any contacts yet.",
+    "create-new": "Create new",
     "buttons": {
-      "send": "Отправить",
-      "send-disabled-tooltip": "Укажите адрес кошелька, чтобы послать ресурсы этому контакту.",
-      "request": "Послать запрос",
-      "edit": "Изменить",
-      "delete": "Удалить"
+      "send": "Send",
+      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
+      "request": "Request",
+      "edit": "Edit",
+      "delete": "Delete"
     },
     "headers": {
-      "name": "Имя",
-      "email": "Электронная почта",
-      "phone-number": "Телефонный номер",
-      "wallets": "Кошельки"
+      "name": "Name",
+      "email": "Email",
+      "phone-number": "Phone number",
+      "wallets": "Wallets"
     },
     "modals": {
       "create": {
-        "title": "Новый контакт",
-        "button": "Создать контакт"
+        "title": "Create contact",
+        "button": "Create contact"
       },
       "edit": {
-        "title": "Изменить контакт",
-        "button": "Сохранить изменения"
+        "title": "Edit this contact",
+        "button": "Save changes"
       },
       "send": {
-        "title": "Послать ресурсы {{contactName}}",
+        "title": "Send funds to {{contactName}}",
         "labels": {
-          "currency": "Какая валюта?",
-          "wallet": "Кошелёк"
+          "currency": "Which asset?",
+          "wallet": "Destination"
         },
         "sublabels": {
-          "currency": "Послать ресурсы можно только со своего персонального аккаунта."
+          "currency": "You can only send assets from your personal account."
         },
         "placeholders": {
-          "currency": "Найти ресурс…",
-          "destination": "Найти адрес кошелька…"
+          "currency": "Search for an asset…",
+          "destination": "Search for a wallet address…"
         }
       },
       "delete": {
-        "confirm-text": "Уверены, что хотите удалить {{contactName}}?",
-        "notice-text": "Все данные этого контакта будут удалены навсегда.",
-        "button": "Да, удалить",
-        "cancel": "Отмена",
-        "error": "Ошибка при удалении контакта. Попробуйте ещё раз.",
-        "success": "Контакт был удален.",
-        "success-button": "Вернуться к контактам"
+        "confirm-text": "Are you sure you want to delete {{contactName}}?",
+        "notice-text": "All information associated with this contact will be permanently removed.",
+        "button": "Yes, delete",
+        "cancel": "Cancel",
+        "error": "Error deleting contact. Please try again.",
+        "success": "Contact deleted.",
+        "success-button": "Return to contacts"
       },
       "results": {
-        "success": "Контакт создан!",
-        "error": "Ошибка при создании контакта. Попробуйте ещё раз.",
-        "invalid-input": "Недействительный формат. Попробуйте ещё раз."
+        "success": "Contact saved!",
+        "error": "Error saving contact. Please try again.",
+        "invalid-input": "Invalid input. Please try again."
       },
       "fields": {
         "first-name": {
-          "label": "Имя",
-          "placeholder": "Имя"
+          "label": "First name",
+          "placeholder": "First name"
         },
         "last-name": {
-          "label": "Фамилия",
-          "placeholder": "Фамилия"
+          "label": "Last name",
+          "placeholder": "Last name"
         },
         "email": {
-          "label": "Электронная почта",
-          "placeholder": "Адрес электронной почты",
-          "error": "Неправильный адрес электронной почты"
+          "label": "Email",
+          "placeholder": "Email address",
+          "error": "Invalid email address"
         },
         "phone": {
-          "label": "Телефонный номер",
-          "error": "Номер телефона недействителен в {{country}}"
+          "label": "Phone",
+          "error": "Invalid phone number for {{country}}"
         },
         "wallets": {
-          "label": "Кошельки",
-          "delete": "Удалить",
+          "label": "Wallets",
+          "delete": "Delete",
           "address": {
-            "placeholder": "Адрес кошелька"
+            "placeholder": "Wallet address"
           },
           "name": {
-            "placeholder": "Имя кошелька"
+            "placeholder": "Wallet name"
           },
-          "add": "Добавить другой кошелёк"
+          "add": "Add another"
         },
         "validation": {
-          "address": "Пожалуйста, введите корректный адрес {{blockchain}}.",
-          "unique-address": "Контакт с этим кошельком уже существует."
+          "address": "Please enter a valid {{blockchain}} address.",
+          "unique-address": "You already have another contact with this wallet address."
         }
       }
     }
