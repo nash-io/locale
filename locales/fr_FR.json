@@ -558,8 +558,8 @@
       "desc-1": "Veuillez vérifier votre e-mail et vérifier votre compte.",
       "desc-2": "Si vous ne voyez pas notre mail, vérifiez dans courrier indésirable.",
       "resend": "Renvoyer le mail de vérification",
-      "resend-delay": "Patientez {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
+      "resend-delay": "Patientez {{count}} seconde…",
+      "resend-delay_plural": "S'il vous plaît, patientez{{count}} secondes…",
       "back": "Back to sign-in",
       "success": "E-mail de vérification envoyé avec succès!",
       "errors": {
@@ -568,112 +568,112 @@
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "paramétrer le compte",
     "steps": [
       "Twelve secret words",
       "Two-factor authentication"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "informations générales",
+      "header": "Créons votre compte personnel",
+      "desc-1": "Votre compte personnel est généré à l'aide de douze mots secrets. Si vous perdez votre mot de passe, vous pouvez accéder à votre compte et le réinitialiser à l'aide de ces mots. Pour cette raison, vous devez absolument sauvegarder correctement vos douze mots secrets.",
+      "continue": "Obtenez mes douze mots secrets",
+      "skip2Fa": "Configurez-le plus tard",
       "chart": {
-        "card-top": "Twelve secret words",
-        "card-top-right": "Nash account recovery if password is forgotten",
-        "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
-        "card-btc": "Bitcoin account",
-        "card-neo": "NEO account",
-        "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "card-top": "Douze mots secrets",
+        "card-top-right": "Récupération du compte Nash en cas d'oubli du mot de passe",
+        "diamond-one": "Utilisé dans",
+        "diamond-two": "Générez votre compte personnel, qui contient…",
+        "card-btc": "Compte Bitcoin",
+        "card-neo": "Compte NEO",
+        "card-eth": "Compte Ethereum",
+        "card-future": "Tous les futurs comptes"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
+      "title": "Mots secrets",
+      "header": "Notez vos douze mots secrets",
+      "desc": "Ces mots sont utilisés pour accéder à vos fonds. Vous en aurez également besoin pour réinitialiser votre mot de passe.",
+      "popup-error": "Si vous souhaitez imprimer vos mots secrets, veuillez désactiver tous les bloqueurs de popups et autoriser Nash à ouvrir les popups.",
+      "continue": "Continuer",
       "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "written-down": "J'ai noté mes mots.",
+      "check-my-backup": "Vérifier ma sauvegarde",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Notez vos mots à la main.",
+        "dont": "Ne saisissez pas ou ne stockez pas vos mots numériquement."
       },
       "modals": {
         "print-warning": {
-          "title": "Print your twelve secret words",
-          "header": "Please make sure your printer is secure!",
-          "body-desc": "If you choose to print your words, make sure:",
-          "body-tips-0": "Your printer is connected to your computer directly with a USB cable.",
-          "body-tips-1": "Your printer is not connected to a network of any kind.",
-          "body-tips-2": "It is impossible for others to connect to your printer via Bluetooth, WLAN, etc.",
-          "button": "I understand - print my words"
+          "title": "Imprimez vos douze mots secrets",
+          "header": "Veuillez vous assurer que votre imprimante est sécurisée!",
+          "body-desc": "Si vous choisissez d'imprimer vos mots, assurez-vous:",
+          "body-tips-0": "Votre imprimante est connectée à votre ordinateur directement avec un câble USB.",
+          "body-tips-1": "Votre imprimante n'est connectée à aucun réseau.",
+          "body-tips-2": "Il est impossible pour les autres de se connecter à votre imprimante via Bluetooth, WLAN, etc.",
+          "button": "Je comprends - imprimer mes mots"
         }
       },
-      "print-window-title": "Nash | Secret word backup",
+      "print-window-title": "Nash | Sauvegarde de mots secrets",
       "backup-print": {
-        "header": "Secret word backup",
-        "desc-1": "Your twelve secret words can be used to access your ETH, NEO and other accounts if you lose your Nash password.",
-        "desc-2": "Remember: if anyone gains access to your words, your funds are in danger.",
-        "desc-3": "Cut out the slips below. Consider laminating them and storing them in two separate locations."
+        "header": "Sauvegarde de mots secrets",
+        "desc-1": "Vos douze mots secrets peuvent être utilisés pour accéder à vos comptes ETH, NEO et autres si vous perdez votre mot de passe Nash.",
+        "desc-2": "N'oubliez pas: si quelqu'un accède à vos mots secrets, vos fonds sont en danger.",
+        "desc-3": "Découpez les feuillets ci-dessous. Pensez à les plastifier et à les stocker dans deux emplacements distincts."
       },
       "repeat-secret-words": {
-        "header": "Repeat your twelve secret words",
-        "desc": "We want to make sure you wrote down your secret words.",
-        "input-placeholder": "Word {{index}}",
-        "case-sensitive": "All words are lowercase",
-        "create-my-wallet": "Create my account",
-        "generating-your-wallet": "Generating your Nash account…",
+        "header": "Répétez vos douze mots secrets",
+        "desc": "Nous voulons nous assurer que vous avez bien noté vos mots secrets.",
+        "input-placeholder": "Mot {{index}}",
+        "case-sensitive": "Tous les mots sont en minuscules",
+        "create-my-wallet": "Créer mon compte",
+        "generating-your-wallet": "Générer votre compte Nash…",
         "errors": {
-          "create-wallet-failed": "There was an error when creating your account. Please <0>sign out</0> and try again."
+          "create-wallet-failed": "Une erreur s'est produite lors de la création de votre compte. Veuillez<0> vous déconnecter </0>et réessayer."
         }
       },
       "wallet-created": {
-        "header": "Your Nash account was created successfully!",
-        "desc": "You can find your twelve secret words and individual account details under ‘My profile > Accounts’.",
-        "warning": "<0>We do not store your secret words in any location.</0> If you forget your password, you will not be able to access your funds without these words.",
-        "continue": "Set up two-factor authentication",
-        "continue-location": "Set location of residence"
+        "header": "Votre compte Nash a été créé avec succès!",
+        "desc": "Vous pouvez trouver vos douze mots secrets et les détails de votre compte individuel sous «Mon profil> Comptes».",
+        "warning": "<0>Nous ne stockons pas vos mots secrets dans aucun endroit.</0>Si vous oubliez votre mot de passe, vous ne pourrez pas accéder à vos fonds sans ces mots.",
+        "continue": "Configurer l'authentification à deux facteurs",
+        "continue-location": "Définir le lieu de résidence"
       }
     },
     "2fa": {
-      "title": "Two-factor authentication",
-      "header": "Recommended: Enable two-factor authentication",
+      "title": "La double authentification",
+      "header": "Recommandé: activer la double authentification",
       "skip": "Skip",
-      "desc": "Two-factor authentication (2FA) adds an extra layer of security to your account.",
+      "desc": "La double authentification (2FA) ajoute une couche de sécurité supplémentaire à votre compte.",
       "cards": {
         "1": {
-          "header": "Download and install an authenticator app",
+          "header": "Téléchargez et installez une application d'authentification",
           "desc": "Such as <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
         },
         "2": {
-          "header": "Scan this QR code with your chosen downloaded app",
-          "manual-2fa": "Write down your 2FA backup code"
+          "header": "Scannez ce code QR avec l'application téléchargée que vous avez choisie",
+          "manual-2fa": "Notez votre code de sauvegarde 2FA"
         },
         "3": {
-          "header": "Enter the verification code generated by your authenticator app",
-          "input-placeholder": "Authentication code",
+          "header": "Entrez le code de vérification généré par votre application d'authentification",
+          "input-placeholder": "Code d'identification",
           "input-error": "Le code que vous avez entré est incorrect."
         }
       },
       "confirm": {
-        "header": "Two-factor authentication has been set up!",
-        "desc": "You can find your two-factor authentication preferences under ‘My profile > Security’ within the Nash web platform.",
-        "action": "What do you want to do now?",
+        "header": "La double authentification a été configurée!",
+        "desc": "Vous pouvez trouver vos préférences de double authentification sous «Mon profil> Sécurité» sur la plate-forme Web Nash.",
+        "action": "Que voulez-vous faire maintenant?",
         "continue-deposit": "Deposit funds",
-        "continue-explore": "Explore"
+        "continue-explore": "Explorer"
       }
     }
   },
   "trade": {
     "footer": {
-      "title-limits": "Limits",
+      "title-limits": "Limites",
       "title-balances-and-limits": "Balances and limits",
-      "increase-my-limits": "Increase my limits",
+      "increase-my-limits": "Augmenter mes limites",
       "limits": {
         "day": "Jour",
         "month": "Mois",
@@ -682,20 +682,20 @@
       }
     },
     "messages": {
-      "create-order-blocked": "You are unable to create orders on the exchange for this market in your region."
+      "create-order-blocked": "Vous ne pouvez pas créer d'ordres en bourse pour ce marché dans votre région."
     }
   },
   "advanced-exchange": {
-    "title": "Pro view",
+    "title": "Vue pro",
     "header": {
-      "switch-to-simplified": "Switch to basic view",
-      "current-market": "Market",
-      "last-price": "Last traded price",
-      "last-24h": "Last 24h",
-      "24h-change": "change",
+      "switch-to-simplified": "Passer en vue simplifiée",
+      "current-market": "Cours",
+      "last-price": "Dernier prix négocié",
+      "last-24h": "Dernières 24h",
+      "24h-change": "changement",
       "24h-high": "High",
       "24h-low": "Low",
-      "24h-volume": "Volume",
+      "24h-volume": "volume",
       "my-portfolio": "My portfolio"
     },
     "tips": {
