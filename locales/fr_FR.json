@@ -1,5 +1,5 @@
 {
-  "sandbox-warning": "Ceci est un environnement sandbox destiné aux tests d'intégration de l'API. N'envoyez jamais de fonds réels ici!",
+  "sandbox-warning": "Ceci est un environnement sandbox destiné aux tests d’intégration de l’API. N’envoyez jamais de fonds réels ici!",
   "buy": "acheter",
   "sell": "vendre",
   "continue": "Continuer",
@@ -21,59 +21,59 @@
   "not-available-short": "N/A",
   "set-price": "Fixer un prix",
   "market": "Marché",
-  "market-price": "Prix du marché",
-  "exchange": "Échange",
-  "receive": "Recevoir",
-  "wallet": "Compte",
-  "upload": "Télécharger",
+  "market-price": "Prix",
+  "exchange": "Exchange",
+  "receive": "Déposer",
+  "wallet": "Portefeuille",
+  "upload": "Envoyer",
   "processing": "En cours…",
-  "over-file-limit": "La taille du fichier ne doit pas excéder {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "S’ouvre dans un nouvel onglet",
-  "failed-update": "Échec de mise à jour",
-  "reported-errors": "Erreurs reportées",
-  "credit-card-expiry-placeholder": "MM/AA",
+  "over-file-limit": "La taille du fichier ne doit pas dépasser {{maxAllowedSize}} {{unit}}.",
+  "opens-new-tab": "Ouvrir un nouvel onglet",
+  "failed-update": "échec de la mise à jour",
+  "reported-errors": "Signaler une erreur",
+  "credit-card-expiry-placeholder": "MM/YY",
   "apikeys": {
-    "no-addresses-whitelisted": "Vous n'avez pas encore ajouté d’adresses à la liste blanche.",
-    "address-input-placeholder": "Entrer une adresse BTC, NEO ou ETH à ajouter à la liste blanche",
-    "add-whitelisted": "Adresses sur liste blanche",
-    "duplicate-address-in-form": "Cette adresse est déjà sur la liste blanche.",
+    "no-addresses-whitelisted": "aucune adresse enregistrée",
+    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
+    "add-whitelisted": "Whitelisted addresses",
+    "duplicate-address-in-form": "Cette adresse est déjà enregistrée.",
     "add-address": "Ajouter une adresse",
     "address-is-not-valid": "Adresse non valide.",
     "whitelisting-explanation": "Vous pouvez uniquement retirer des fonds vers ces adresses sur liste blanche avec cette clé API. Vous pouvez ajouter et supprimer des adresses sur liste blanche à tout moment une fois votre clé générée.",
     "token-type": {
-      "access": "Accès",
-      "kyc": "Vérification d’identité",
-      "apitrade": "API de trading",
+      "access": "Access",
+      "kyc": "S’identifier",
+      "apitrade": "API trading",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Êtes-vous sûre de vouloir révoquer définitivement toutes vos clés ?",
-      "confirm-button-label": "Révoquer toutes les clés",
-      "cancel-button-label": "Retour"
+      "body": "Voulez-vous vraiment supprimer toutes vos clés?",
+      "confirm-button-label": "supprimer toutes les clés définitivement",
+      "cancel-button-label": "Annuler"
     },
     "delete-token": {
-      "body": "Êtes-vous sûre de vouloir révoquer ‘<0></0>’?",
-      "confirm-button-label": "Révoquer définitivement",
-      "cancel-button-label": "Retour"
+      "body": "Are you sure you want to revoke ‘<0></0>’?",
+      "confirm-button-label": "supprimer définitivement",
+      "cancel-button-label": "Annuler"
     },
     "edit-whitelisted": {
       "title": "Address whitelist for {{name}}",
-      "add": "Ajouter une adresse",
-      "save-and-close": "Sauvegarder les changements et fermer",
+      "add": "Ajouter",
+      "save-and-close": "Enregistre les modifications et fermer",
       "continue": "Continuer"
     },
     "overview": {
-      "no-addresses-whitelisted": "Aucune adresse sur liste blanche",
+      "no-addresses-whitelisted": "aucune adresse enregistrée",
       "title": "Gérer les clés API",
-      "revoke-button-label": "Révoquer",
-      "table-header": "Vos clés API",
-      "no-tokens-exp": "<0>Générer votre première clé</0> ou consulter notre <1>documentation API</1>.",
-      "name": "Nom",
-      "never-used": "Jamais utilisé",
-      "last-used": "Dernière utilisation {{when}}",
-      "subtitle": "Générer et gérer les clés API. En savoir plus sur <0>nos APIs</0>.",
-      "key-info": "Information clé",
-      "api-key": "Clé API",
+      "revoke-button-label": "Revoke",
+      "table-header": "Your API keys",
+      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
+      "name": "Name",
+      "never-used": "Never used",
+      "last-used": "Last used {{when}}",
+      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
+      "key-info": "Key information",
+      "api-key": "API key",
       "blockchains": "Blockchains",
       "whitelisted": "Adresse sûre",
       "view-whitelist": "Voir la liste blanche",
@@ -129,18 +129,18 @@
   "transfer": {
     "trading": "Trading",
     "personal": "Personnel",
-    "in-trades": "In trades",
+    "in-trades": "Dans un ordre",
     "transfer-funds": "Envoyer/Recevoir",
     "pending-transfer": "Vous avez un transfert en attente de {{amount}} {{currencySymbol}}.",
     "pending-transfer-link": "Consultez vos transferts ici."
   },
-  "estimated-fee": "Frais estimé: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Frais estimés: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
-    "use-last": "Use last"
+    "use-last": "Dernier remplissage"
   },
-  "insufficient-funds": "Fonds insuffisant",
-  "amount-each": "{{amount}} chaque",
+  "insufficient-funds": "Fonds insuffisants",
+  "amount-each": "{{amount}} chacun",
   "daily-limit": {
     "title": "Limite quotidienne totale",
     "link": "Augmenter mes limites",
@@ -148,45 +148,45 @@
   },
   "fee-information-modal": {
     "title": "Calcul des frais",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
+    "desc": "Nash calcule le volume glissant sur 30 jours d’un utilisateur grâce au volume des transations associées à son compte en pourcentage du volume global de transations de Nash.",
+    "30-day-volume": "Volume glissant des 30 derniers jours",
     "taker-fee": "Taker fee",
     "maker-fee": "Maker fee",
     "learn-more": "Learn more about maker and taker orders."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Validité dans le temps",
+    "subtitle": "Spécifiez la durée pour laquelle l’ordre doit rester dans le carnet d’ordres.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Valable jusqu’à annulation",
+        "desc": "Votre ordre restera dans le carnet d’ordres pour une durée indéterminée, jusqu’à ce qu’il soit rempli ou annulé."
       },
       "gtt": {
-        "header": "Good ’til time",
+        "header": "Valable jusqu’à un moment à préciser",
         "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "desc": "Votre ordre restera dans le carnet d’ordres jusqu’à la date et heure spécifiées. S’il n’a pas été rempli d’ici là, il sera annulé."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Rempli entièrement ou annulé",
+        "desc": "Si votre ordre dans sa totalité peut être rempli immédiatement, il le sera. S’il ne peut pas être rempli entièrement, il sera entièrement annulé."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Rempli immédiatement ou annulé",
+        "desc": "Votre ordre sera rempli au mieux dans l’immédiat. Toute portion restante sera annulée."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
+    "referrals": "Parrainages",
+    "funds": "Fonds",
     "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
+    "basic-exchange": "Vue basique",
+    "basic-exchange-short": "Basique",
+    "advanced-exchange": "Vue pro",
     "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
+    "markets": "Marchés",
+    "settings": "Mon compte",
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
@@ -195,157 +195,157 @@
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Portefeuille"
       },
       "notifications": {
         "label": "Notifications",
-        "clear-all": "Clear all"
+        "clear-all": "Tout supprimer"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "initializing": "En cours d’initialisation",
+        "initialized": "Transfert initialisé",
+        "tooltip": "Vous avez encore un transfert en cours d’initialisation.Si vous fermez Nash ou vous déconnectez, il sera mis en pause jusqu’à votre prochaine reconnexion."
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Mon profil",
+        "support": "Aide",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Clair",
+          "dark": "Sombre"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Se déconnecter",
+          "sign-in": "Se connecter",
+          "sign-in-create-account": "<1>Créer un compte</1> ou <0>se connecter</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Général"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Transactions",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Echange",
+          "markets": "Marchés",
+          "orders": "Ordres"
         },
         "exchange": {
           "switch": {
             "pro": "Pro",
-            "simple": "Basic"
+            "simple": "Basique"
           }
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Fonds",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
+          "portfolio": "Portefeuille",
+          "transfers": "Transferts",
+          "assets": "Actifs",
           "contacts": "Contacts"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Parrainages"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Acheter/Vendre",
         "pages": {
-          "buy-sell": "Buy/Sell",
+          "buy-sell": "Acheter/Vendre",
           "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "payment-methods": "Méthodes de paiement",
+          "profile": "Profil"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
-          "apikeys": "API\u00A0keys"
+          "profile": "Profil",
+          "preferences": "Préférences",
+          "security": "Sécurité",
+          "limits": "Limites",
+          "accounts": "Comptes",
+          "apikeys": "Clés API"
         }
       },
       "staking": {
         "title": "Staking",
         "pages": {
-          "all-stakes": "All stakes",
-          "statements": "Statements"
+          "all-stakes": "Tous vos stakes",
+          "statements": "Relevés"
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Recherche en cours…",
+  "loading": "Chargement en cours…",
+  "pending": "En attente",
+  "cancelling": "Annulation en cours…",
+  "authenticating": "Authentification en cours…",
+  "decrypting": "Décryptage en cours…",
+  "encrypting": "Encryptage en cours…",
+  "sending": "Envoi en cours…",
+  "submit": "Envoyer",
+  "retry": "Réessayer",
+  "sending-approval": "Envoi de l’approbation en cours…",
+  "send-approval": "Envoyer l’approbation",
+  "submit-transfer": "Confirmer le transfert",
+  "no-longer-sufficient-balance-for-tx": "Votre solde n’est plus suffisant pour cette transaction.",
+  "we-are-hiring": "Nous recrutons",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Accès bloqué",
+    "location-banned": "Nash n’est malheureusement pas en capacité d’opérer dans votre juridiction pour le moment.",
+    "invalid-clock-title": "L’horloge de votre ordinateur n’est pas réglée.",
+    "permissions-issue-title": "Problème de permissions",
+    "invalid-clock": "Pour exécuter des transactions sur Nash, votre horloge doit être réglée. <0>Réglez votre horloge</0> puis <1>réessayez</1>.",
+    "network-issue-title": "Problème de réseau",
+    "network-issue": "Un problème de réseau temporaire est survenu. Veuillez <0>réessayer</0>.",
+    "generic-error-title": "Erreur",
+    "generic-error": "Une erreur est survenue. Veuillez réessayer.",
+    "generic-error-signout": "Une erreur inattendue est survenue. Veuillez vous déconnecter et réessayer.",
+    "within-waiting-period": "Vous devez attendre 5 minutes avant de créer un autre stake. Votre nouveau stake apparaîtra dans quelques instants.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Le mot de passe renseigné est incorrect."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Le code d’authentification en deux temps que vous avez renseigné est faux. Vous disposez d’un maximum de cinq tentatives.",
+      "already-used": "Le code d’authentification en deux temps que vous avez renseigné a déjà été utilisé. Veuillez attendre et réessayer.",
+      "code-expired": "Le code d’authentification en deux temps que vous avez renseigné a expiré. Veuillez attendre et réessayer.",
+      "too-many-failures": "Vous avez renseigné un code faux à de trop nombreuses reprises et votre compte est donc bloqué de façon permanente. Veuillez contacter l’équipe support.",
+      "too-many-failures-signout": "Vous avez renseigné un code faux à de trop nombreuses reprises et votre compte est donc bloqué de façon permanente. Vous allez maintenant être déconnecté."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "L’encryptage a échoué. Veuillez vous déconnecter et réessayer.",
+      "decryption-failed": "Le décryptage a échoué. Veuillez vous déconnecter et réessayer."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Votre compte est actuellement en cours de traitement!",
+        "message": "Veuillez vérifier de nouveau dans quelques minutes."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Votre compte est introuvable."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Aucun résultat.",
+  "yes": "oui",
+  "no": "non",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Compte personnel",
+    "trading": "Contrat de transactions",
+    "external": "Compte externe"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Échec du chargement.",
+    "failed-button": "Échec du chargement",
+    "failed-please-try": "Échec du chargement. Veuillez\u00A0<0>réessayer</0>.",
+    "why-this-may-happening": "Vous pouvez trouver des explications sur l’origine du problème <0>ici.</0>"
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> heure",
+    "time-in-hours_plural": "<0>{{count}}</0> heures",
     "months": {
       "0": "Janvier",
       "1": "Février",
@@ -362,161 +362,166 @@
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Nash n’est malheureusement pas en capacité d’opérer dans votre région pour le moment.",
+    "contact-support": "Veuillez <0>contacter notre équipe support</0> pour toute question."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Un problème est survenu.",
+    "go-back": "Retourner en arrière",
+    "go-back-retry": "Réessayer et retourner en arrière",
+    "contact-support": "Veuillez <0>contacter notre équipe support</0> pour obtenir plus de détails.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Indisponible dans la sandbox!",
+        "content": "Cette fonctionnalité a été désactivée dans la sandbox."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Votre adresse IP ne correspond pas au pays sélectionné.",
+          "message": "Les utilisateurs avec une vérification de Niveau 0 ne peuvent pas accéder à tous les services de Nash à moins qu’ils se connectent depuis leur pays de résidence. Pensez à <0>mettre à jour vers le Niveau 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Nous constatons que vous utilisez un VPN.",
+          "message": "Les utilisateurs avec une vérification de Niveau 0 ne peuvent pas accéder à tous les services de Nash s’ils se connectent via un VPN ou proxy. Veuillez désactiver tout service de ce type ou <0>mettre à jour vers le Niveau 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Votre niveau actuel de vérification est le Niveau 0. Par conséquent, votre accès à certaines parties de la plateforme Nash sera restraint.",
+          "message": "Afin d’utiliser l’éventail complet de nos services, veuillez <0>mettre à jour vers le Niveau 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Un compte a déjà été créé avec cette adresse IP.",
+          "message": "Afin d’utiliser tous les services de Nash sur ce compte, veuillez <0>mettre à jour vers le Niveau 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Une partie des services de Nash n’est pas disponible en {{usState}}. Votre accès à certaines parties de la plateforme Nash sera restraint.",
+          "title-no-state": "Une partie des services de Nash n’est pas disponible dans votre état. Votre accès à certaines parties de la plateforme Nash sera restraint.",
+          "message": "Nous vous notifierons par email quand {{usState}} permettra une utilisation complète. Veuillez <0>contacter notre équipe support</0> pour toute question.",
+          "message-no-state": "Nous vous notifierons par email quand votre état permettra une utilisation complète. Veuillez <0>contacter notre équipe support</0> pour toute question."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Une partie des services de Nash n’est pas disponible dans votre localisation actuelle. Votre accès à certaines parties de la plateforme Nash sera restraint.",
+          "message": "Veuillez <0>contacter notre équipe support</0> pour toute question."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Votre niveau de vérification actuel est Niveau {{userTier}}. Par conséquent, votre accès à certaines parties de la plateforme Nash sera restraint.",
+        "message": "Afin d’utiliser l’éventail complet de nos services, veuillez <0>mettre à jour vers le Niveau {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Nous constatons que vous vous connectez depuis {{detectedCountry}}.",
+          "message": "Si vous ne résidez plus en {{accountCountry}}, veuillez <0>contacter notre équipe support</0> pour mettre à jour votre adresse."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Utilisez un ordinateur pour une expérience optimale.",
+          "message": "La vue ‘Pro’ est prévue pour un usage sur ordinateur. Si vous êtes sur mobile, veuillez essayer la <0>vue ‘Basique’</0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Ne plus me rappeler ceci."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Conditions d’utilisation",
+    "privacy-notice": "Règles de confidentialité"
   },
   "account-create": {
     "steps": [
-      "Your details",
-      "Country",
-      "Account details"
+      "Vos détails",
+      "Pays",
+      "Détails du compte"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Vous avez déja un compte Nash ?",
+      "sign-in-now": "Connectez-vous maintenant"
     },
     "form": {
+      "your-state-is": "Votre état est",
       "fields": {
-        "optional": "(optional)"
+        "optional": "(facultatif)"
       },
-      "continue": "Continue",
+      "continue": "Continuer",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Une erreur est survenu lors de votre connexion. Veuillez réessayer.",
+        "invalid-referral-code-can-continue": "Mauvais lien d’affiliation",
+        "invalid-referral-code": "Mauvais lien d’affiliation. Merci de vérifier le code et de réessayer.",
+        "invalid-email-domain": "Votre service mail n’est pas autorisé. Veuillez utiliser une autre adresse mail.",
+        "duplicate-email": "Cette adresse mail est déjà utilisée.",
+        "password-too-short": "Votre mot de passe doit posséder au moins huit caractères",
+        "invalid-recaptcha": "Echèque de la vérification Recaptcha. Veuillez réessayer.",
+        "missing-us-state": "Si vous vivez aux États-Unis, vous devez spécifier votre Etat."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Créer un compte",
+      "subheader": "vos coordonnées",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Avis aux clients américains",
+        "desc": "Vous créez un compte Nash préliminaire pour participer au programme de parrainage, mais votre Etat doit être éligible pour accéder à certains services Nash. S’il est éligible, il vous sera ensuite demandé de signer un accord d’utilisation."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Nom complet"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Code de parrainage (facultatif)",
+          "sub-label": "Qu’est-ce que c’est?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Programme de référence Nash",
+          "desc": "Cela sera utilisé pour suivre les parrainages lors de futures promotions Nash."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Nous avons remarqué que vous utilisez un VPN.",
+          "message": "Veuillez désactiver tous les services VPN ou proxy pour continuer. Une fois que vous avez créé un compte, vous pouvez vérifier votre identité pour utiliser un VPN à l’avenir."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "Créer un compte",
+      "subheader": "Où habitez-vous?",
+      "edit": "modifier",
+      "cancel": "Annuler",
+      "save-changes": "Sauvegarder les modifications",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Pays de résidence"
         },
         "state": {
-          "label": "State"
+          "label": "Etat",
+          "location": "Location"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Je confirme que c’est mon pays de résidence."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Je confirme que ce sont mon pays et mon Etat de résidence."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Créer un compte",
+      "subheader": "Détails du compte",
+      "continue": "Créer un compte",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "entrer une adresse email",
+          "placeholder": "Adresse mail"
         },
         "password": {
           "label": "Créer un mot de passe",
           "placeholder": "Mot de passe",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Le mot de passe que vous avez choisi est trop faible."
           }
         },
         "password-confirm": {
@@ -532,33 +537,33 @@
           "title": "Conseils pour un mot de passe fort",
           "desc": "Un mot de passe fort est essentiel afin de garder vos fonds en sécurité. Suivez ces conseils afin de préserver et protéger vos fonds:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "tip-1": "Ne réutilisez pas un mot de passe provenant d’autres sites Web, même si vous modifiez des mots ou des caractères individuels. Si vous êtes piraté ou piraté ailleurs, votre compte Nash sera instantanément compromis.",
+          "tip-2": "N’incluez pas d’informations personnelles dans votre mot de passe. Les noms, anniversaires et adresses sont faciles à trouver et doivent être évités.",
+          "tip-3": "Créez un mot de passe d’au moins douze caractères et utilisez un mélange de lettres majuscules et minuscules, de chiffres et de caractères spéciaux.",
+          "tip-4": "Pensez à utiliser un générateur de mots de passe pour créer et stocker des mots de passe sécurisés au maximum."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Utilisez un mélange de lettres majuscules et minuscules, de chiffres et de caractères spéciaux pour un mot de passe plus fort.",
+        "tips": "Conseils de création de mot de passe",
+        "password-strength": "Difficulté du mot de passe",
+        "weak": "Faible",
+        "medium": "Moyen",
+        "strong": "Fort",
+        "very-strong": "Très fort"
       }
     },
     "verify-email": {
       "header": "Nous vous avons envoyé un e-mail!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Renvoyer un e-mail de vérification",
+      "desc-1": "Veuillez vérifier votre e-mail et vérifier votre compte.",
+      "desc-2": "Si vous ne voyez pas notre mail, vérifiez dans courrier indésirable.",
+      "resend": "Renvoyer le mail de vérification",
       "resend-delay": "Patientez {{count}} second…",
       "resend-delay_plural": "Please wait {{count}} seconds…",
       "back": "Back to sign-in",
       "success": "E-mail de vérification envoyé avec succès!",
       "errors": {
-        "generic-error": "Erreur lors du renvoi de l'e-mail de vérification. Réessayez de nouveau."
+        "generic-error": "Erreur lors du renvoi de l’e-mail de vérification. Réessayez de nouveau."
       }
     }
   },
@@ -704,49 +709,49 @@
       "title": "Accounts"
     },
     "market-selection": {
-      "no-results": "We couldn’t find any results for <0>{{searchTerm}}</0>.",
-      "no-favorites": "You have no favorite markets yet.",
-      "pair": "Pair",
-      "24hvol": "24h volume",
-      "24hprice": "24h change",
+      "no-results": "Aucun résultat ne correspond à <0>{{searchTerm}}</0>.",
+      "no-favorites": "Vous n’avez pas encore de marchés favoris.",
+      "pair": "Paire",
+      "24hvol": "Volume 24h",
+      "24hprice": "Évolution 24h",
       "tabs": {
-        "all": "All",
-        "favorites": "Favorites"
+        "all": "Tous",
+        "favorites": "Favoris"
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0>\u00A0appear as links here.",
-      "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
+      "empty": "<0>Vos marchés favoris</0> s’affichent ici en accès rapide.",
+      "tips": "<0>Tip</0> <1>Ajouter des marchés favoris en accès rapide ici.</1> <2 />"
     },
     "market-graphs": {
-      "title": "Graphs",
+      "title": "Graphiques",
       "price-chart": {
-        "title": "Price",
+        "title": "Prix",
         "heads-up-display": {
           "ohlc": {
             "o": "O",
             "h": "H",
-            "l": "L",
-            "c": "C"
+            "l": "B",
+            "c": "F"
           },
           "vol": "Volume"
         },
         "chart-types": {
-          "bars": "Bars",
-          "candles": "Candles",
-          "hollow-candles": "Hollow candles",
+          "bars": "Barres",
+          "candles": "Bougies",
+          "hollow-candles": "Bougies creuses",
           "heikin-ashi": "Heikin-Ashi",
-          "line": "Line",
-          "area": "Area"
+          "line": "Ligne",
+          "area": "Zone"
         },
         "studies": {
-          "title": "Indicators",
-          "search": "Search",
-          "no-results": "No results for your criteria"
+          "title": "Indicateurs",
+          "search": "Recherche",
+          "no-results": "Aucun résultat pour vos critères"
         },
         "price-chart-selector": {
-          "chart-iq": "Standard chart",
-          "trading-view": "TradingView chart"
+          "chart-iq": "Graphique standard",
+          "trading-view": "Graphique TradingView"
         },
         "candle-frequency": {
           "1m": "1m",
@@ -760,93 +765,93 @@
           "1M": "1M"
         },
         "study-overlay-menu": {
-          "edit-study": "Edit settings",
-          "remove-study": "Remove indicator"
+          "edit-study": "Modifier les réglages",
+          "remove-study": "Supprimer l’indicateur"
         },
         "edit-study-modal": {
           "tabs": {
             "inputs": {
-              "label": "Inputs"
+              "label": "Champs"
             },
             "outputs": {
               "label": "Style"
             },
             "parameters": {
-              "label": "Settings"
+              "label": "Réglages"
             }
           },
           "buttons": {
             "update": {
-              "label": "Update"
+              "label": "Mettre à jour"
             },
             "cancel": {
-              "label": "Cancel"
+              "label": "Annuler"
             }
           }
         }
       },
       "depth-chart": {
-        "title": "Depth",
+        "title": "Profondeur",
         "tooltip": {
-          "price": "Price: <0>{{price}}</0>",
+          "price": "Prix: <0>{{price}}</0>",
           "volume": "Volume: <0>{{volume}}</0>"
         }
       },
-      "clear-studies-button-label": "Clear all indicators"
+      "clear-studies-button-label": "Supprimer tous les indicateurs"
     },
     "create-order": {
-      "buy": "Buy {{currencySymbol}}",
-      "sell": "Sell {{currencySymbol}}",
+      "buy": "Acheter {{currencySymbol}}",
+      "sell": "Vendre {{currencySymbol}}",
       "locked-trading-session": {
-        "information": "Your trading session is locked. <0 />",
-        "information-tooltip": "Sessions are locked when you refresh the page or are idle for 15 minutes.",
-        "enter-credentials-to-unlock": "<0>Unlock now</0>"
+        "information": "Votre session de trading est verrouillée. <0 />",
+        "information-tooltip": "Votre session sera verrouillée si vous rafraîchissez la page ou êtes inactif pendant 15 minutes.",
+        "enter-credentials-to-unlock": "<0>Déverrouiller maintenant</0>"
       },
       "market-orders-disabled": {
-        "header": "Insufficient market depth",
-        "desc": "There are currently not enough orders on the book for market orders to be processed."
+        "header": "Profondeur de marché insuffisante",
+        "desc": "Vous ne pouvez pas exécuter d’ordre au prix du marché car le carnet d’ordres ne dispose pas d’assez d’ordres."
       },
       "order-type-tab": {
-        "market": "Market",
-        "limit": "Limit",
+        "market": "Marché",
+        "limit": "Limite",
         "stop": "Stop",
-        "stop-limit": "Stop-limit",
-        "balances": "Balances",
+        "stop-limit": "Stop-limite",
+        "balances": "Soldes",
         "balances-table": {
           "header": {
-            "asset": "Asset",
-            "personal": "Personal",
+            "asset": "Actif",
+            "personal": "Personnel",
             "trading": "Trading",
-            "in-orders": "In orders",
-            "pending": "Pending"
+            "in-orders": "Dans un ordre",
+            "pending": "En cours"
           },
-          "current-market": "Current market",
-          "other-tradable-assets": "Other tradable assets"
+          "current-market": "Marché actuel",
+          "other-tradable-assets": "Autres actifs échangeables"
         }
       },
-      "trading-limits": "Trading limits",
+      "trading-limits": "Limites des transactions",
       "fields": {
         "amount": {
-          "label": "Amount",
-          "sub-label-market-buy": "This is a market order, so we can only estimate the amount of {{currencyA}} you will buy.",
-          "sub-label-market-sell": "This is a market order, so we can only estimate of the total {{currencyB}} you will receive.",
-          "sub-label-limit-buy": "Enter the amount of {{currencySymbol}} you wish to receive.",
-          "sub-label-limit-sell": "Enter the amount of {{currencySymbol}} you wish to sell.",
-          "estimate": "(estimate)",
+          "label": "Quantité",
+          "sub-label-market-buy": "Pour un ordre au prix du marché, nous ne pouvons qu’estimer la quantité de {{currencyA}} que vous pourrez acheter.",
+          "sub-label-market-sell": "Pour un ordre au prix du marché, nous ne pouvons qu’estimer la quantité de {{currencyB}} que vous recevrez.",
+          "sub-label-limit-buy": "Renseignez la quantité de {{currencySymbol}} que vous souhaitez recevoir.",
+          "sub-label-limit-sell": "Renseignez la quantité de {{currencySymbol}} que vous souhaitez vendre.",
+          "estimate": "(estimation)",
           "errors": {
-            "insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "maybe-insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "order-too-small": "Min size {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "This exceeds your trading limits."
+            "insufficient-funds": "{{currencySymbol}} insuffisants.",
+            "maybe-insufficient-funds": "{{currencySymbol}} insuffisants.",
+            "order-too-small": "Taille minimum de {{orderSize}} {{currencySymbol}}.",
+            "limit-breached": "Cela entraînerait un dépassement de vos limites de transactions."
           }
         },
         "cancel-at": {
-          "label": "Cancel on",
-          "expires": "Expires",
+          "label": "Annuler le",
+          "expires": "Expire",
           "modal": {
-            "label-no-selection": "Select a date to continue…",
+            "label-no-selection": "Sélectionner une date pour continuer…",
             "errors": {
-              "is-past": "You cannot enter a time in the past"
+              "is-past": "Vous ne pouvez pas renseigner une date dans le passé"
             }
           }
         },
@@ -854,35 +859,35 @@
           "label": "Total"
         },
         "market-price": {
-          "label": "Market",
-          "sub-label": "When you buy or sell at market price your order will match with orders currently on the book."
+          "label": "Marché",
+          "sub-label": "Quand vous achetez ou vendez au prix du marché, votre ordre concordera avec des ordres actuellement dans le carnet d’ordres."
         },
         "show-limit": {
-          "label-hide": "Stop-market",
-          "label-show": "Stop-limit"
+          "label-hide": "Stop-marché",
+          "label-show": "Stop-limite"
         },
         "price": {
           "label": "Prix"
         },
         "limit-price": {
-          "label": "Limit",
-          "sub-label": "Your order can match with orders at this price or better.",
+          "label": "Limite",
+          "sub-label": "Votre ordre peut concorder avec des ordres à ce prix ou mieux.",
           "errors": {
             "maker-match": "‘Post only’ orders that match in the current order book will be canceled."
           }
         },
         "stop-price": {
           "label": "Stop",
-          "sub-label": "Stop price acts as a trigger for another order.",
+          "sub-label": "Le prix Stop déclenche un autre ordre.",
           "errors": {
-            "stop-trigger-immediately": "This stop price will trigger your order immediately."
+            "stop-trigger-immediately": "The prix Stop déclenchera votre ordre immédiatement."
           }
         },
         "shared": {
           "errors": {
-            "20-above": "20% above the market price.",
-            "20-below": "20% below the market price.",
-            "price-too-high": "Cannot process prices over {{maxPrice}}."
+            "20-above": "20% supérieur au prix de marché.",
+            "20-below": "20% inférieur au prix de marché.",
+            "price-too-high": "Impossible de traiter des prix supérieurs à {{maxPrice}}."
           }
         },
         "maker-only": {
@@ -894,7 +899,7 @@
           "footer": "Learn more"
         },
         "trading-balance": {
-          "label": "Disponible {{currency}}: "
+          "label": "Disponible {{currency}}:"
         }
       },
       "submit": {
@@ -912,7 +917,7 @@
     "my-orders": {
       "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Get started</0><1>\u00A0with Nash</1>",
+        "title": "<0>Get started</0> <1>with Nash</1>",
         "subtitle": "Create an account in under a minute – no KYC required!"
       },
       "no-results": {
@@ -1062,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Learn more about our <1>fees<1>."
+    "learn-about-our-fees": "Learn more about our <1>fees</1>."
   },
   "auth": {
     "create-an-account": "Create an account",
@@ -1071,12 +1076,12 @@
     "sign-in": "Sign in",
     "sign-out": "Sign out",
     "password-strength": {
-      "label": "Password strength",
       "0": "Très faible",
       "1": "Faible",
       "2": "Moyen",
       "3": "Fort",
-      "4": "Très fort"
+      "4": "Très fort",
+      "label": "Password strength"
     },
     "password-form": {
       "password": {
@@ -1128,7 +1133,7 @@
           "label": "State"
         },
         "confirm-country": {
-          "label": "Je confirme que c'est mon pays de résidence."
+          "label": "Je confirme que c’est mon pays de résidence."
         },
         "confirm-country-and-state": {
           "label": "I confirm that these are my country and state of residence."
@@ -1176,53 +1181,53 @@
     "forgot-password": {
       "tab-title": "Forgotten password",
       "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back\u00A0on\u00A0track.",
+      "desc": "Enter your email address below and we’ll get you back on track.",
       "fields": {
         "email": {
           "label": "Adresse e-mail",
           "placeholder": "Adresse e-mail"
         }
       },
-      "submit": "Request reset link",
-      "success": "We’ve sent you a password reset email. If you don’t see our email, check your junk folder."
+      "submit": "Demander un lien de réinitialisation",
+      "success": "Nous vous avons envoyé un e-mail de réinitialisation de mot de passe. Si vous ne voyez pas notre e-mail, vérifiez dans courrier indésirable."
     },
     "reset-password": {
-      "missing-email": "Something went wrong. Please click the link in your email again.",
-      "expired-code": "This session is no longer valid. Please click the link in your email again.",
+      "missing-email": "Une erreur s’est produite. Veuillez cliquer à nouveau sur le lien dans votre e-mail.",
+      "expired-code": "Cette session n’est plus valide. Veuillez cliquer à nouveau sur le lien dans votre e-mail.",
       "steps": [
         "Confirm secret words",
-        "New password"
+        "Nouveau mot de passe"
       ],
       "secret-words": {
         "home": {
-          "header": "Do you still have your twelve secret words?",
-          "sub-header": "When you first set up your Nash account, we asked you to write these words down and keep them safe.",
-          "button-have-words": "Yes, I still have my secret words",
-          "button-lost-words": "No, I have lost my secret words",
-          "desc": "Unfortunately, if you have lost both your old password and your twelve secret words, you will be unable to recover your funds."
+          "header": "Avez-vous encore vos douze mots secrets?",
+          "sub-header": "Lorsque vous avez créé votre compte Nash pour la première fois, nous vous avons demandé de noter ces mots et de les conserver.",
+          "button-have-words": "Oui, j’ai encore mes mots secrets",
+          "button-lost-words": "Non, j’ai perdu mes mots secrets",
+          "desc": "Malheureusement, si vous avez perdu à la fois votre ancien mot de passe et vos douze mots secrets, vous ne pourrez pas récupérer vos fonds."
         },
         "edit": {
-          "header": "Enter your twelve secret words",
-          "desc-1": "We use your secret words to regenerate your master seed and individual asset accounts.",
-          "desc-2": "If you cannot provide the twelve words for your existing accounts, <0>your funds will be lost.</0>",
-          "card-title": "All words are lowercase",
-          "card-reset": "Clear all words",
-          "mnemonic-invalid": "This combination of words is not valid. Please double-check and try again.",
-          "mnemonic-valid": "This combination of words is valid. You may now reset your password."
+          "header": "Entrez vos douze mots secrets",
+          "desc-1": "Nous utilisons vos mots secrets pour générer votre phrase de récupération principale et vos comptes d’actifs individuels.",
+          "desc-2": "Si vous ne pouvez pas fournir les douze mots de vos comptes existants, <0>vos fonds seront perdus.</0>",
+          "card-title": "Tous les mots sont en minuscules",
+          "card-reset": "Effacer tous les mots",
+          "mnemonic-invalid": "Cette combinaison de mots n’est pas valide. Veuillez revérifier et réessayer.",
+          "mnemonic-valid": "Cette combinaison de mots est correcte. Vous pouvez maintenant réinitialiser votre mot de passe."
         },
         "skip": {
-          "header": "You will lose access to your funds",
-          "desc-1": "If you have lost both your old password and your twelve secret words, <0>you will be unable to recover your funds.</0>",
-          "desc-2": "Nash is a non-custodial platform that uses decentralized technology. It is impossible for us to access your funds and we cannot recover them.",
-          "desc-3": "You can reset your old account and choose a new set of secret words. This will be like setting up a brand new account with a new password.",
-          "desc-4": "If you choose to reset your account, you will lose all access to your funds, including:",
-          "desc-5": "Please double-check and see if you can locate either your secret words or your password.",
+          "header": "Vous perdrez l’accès à vos fonds",
+          "desc-1": "Si vous avez perdu à la fois votre ancien mot de passe et vos douze mots secrets, <0>vous ne pourrez pas récupérer vos fonds.</0>",
+          "desc-2": "Nash est une plateforme non dépositaire qui utilise une technologie décentralisée. Il nous est impossible d’accéder à vos fonds et nous ne pouvons pas les récupérer.",
+          "desc-3": "Vous pouvez réinitialiser votre ancien compte et choisir un nouvel ensemble de mots secrets. Ce sera comme créer un nouveau compte avec un nouveau mot de passe.",
+          "desc-4": "Si vous choisissez de réinitialiser votre compte, vous perdrez tout accès à vos fonds, y compris:",
+          "desc-5": "Veuillez vérifier et voir si vous pouvez retrouver vos mots secrets ou votre mot de passe.",
           "go-back": "Go back",
-          "checkbox-1": "I have lost both my password and my twelve secret words.",
+          "checkbox-1": "J’ai perdu mon mot de passe et mes douze mots secrets.",
           "checkbox-2": "I understand that I will lose all access to my funds if I reset my account.",
-          "submit": "Reset my account",
-          "sub-bullet-1": "All assets in your personal account.",
-          "sub-bullet-2": "All assets in the trading contract.",
+          "submit": "Réinitialiser mon compte",
+          "sub-bullet-1": "Tous les actifs de votre compte personnel.",
+          "sub-bullet-2": "Tous les actifs du contrat commercial.",
           "sub-bullet-3": "All staked NEX tokens.",
           "sub-bullet-4": "All dividends from staked NEX tokens.",
           "unauthorized": "Since resetting your account has serious implications, you must first contact our support team to enable it.",
@@ -1230,12 +1235,12 @@
         }
       },
       "new-password": {
-        "tab-title": "Set password",
-        "header": "Set a new password",
-        "desc": "Create a new password for your Nash account.",
+        "tab-title": "Définir le mot de passe",
+        "header": "Définir un nouveau mot de passe",
+        "desc": "Créez un nouveau mot de passe pour votre compte Nash.",
         "header-success": "Success!",
-        "desc-success": "Your password was changed successfully.",
-        "desc-success-reset": "You will be able to set up new wallets the next time you sign in.",
+        "desc-success": "Votre mot de passe à été changé avec succès.",
+        "desc-success-reset": "Vous pourrez configurer de nouveaux portefeuilles lors de votre prochaine connexion.",
         "fields": {
           "password": {
             "label": "Nouveau mot de passe",
@@ -1257,106 +1262,107 @@
           }
         },
         "errors": {
-          "reset-wallets-locked": "Account resetting is currently locked. Please contact support.",
-          "reset-locked": "Password resetting is currently locked. Please contact support.",
-          "incorrect-keys": "The public key derived from the twelve words you submitted does not match our records. This indicates that the twelve words you submitted are not from your Nash account. Please double-check your backup. Contact support if you still have issues.",
-          "generic-error": "Something went wrong and your password was not reset. Your password reset link may have expired. Please request a new reset link and try again."
+          "reset-wallets-locked": "La réinitialisation du compte est actuellement verrouillée. Veuillez contacter le support.",
+          "reset-locked": "La réinitialisation du mot de passe est actuellement verrouillée. Veuillez contacter le support.",
+          "incorrect-keys": "La clé publique provenant des douze mots que vous avez soumis ne correspond pas aux données enregistrées. Cela indique que les douze mots que vous avez soumis ne proviennent pas de votre compte Nash. Veuillez revérifier votre sauvegarde. Contactez l’assistance si vous rencontrez toujours des problèmes.",
+          "generic-error": "Une erreur s’est produite et votre mot de passe n’a pas été réinitialisé. Votre lien de réinitialisation de mot de passe a peut-être expiré. Veuillez demander un nouveau lien de réinitialisation et réessayer."
         },
-        "submit": "Set new password"
+        "submit": "Definir un nouveau mot de passe"
       }
     },
-    "verify-email": "Verifying email address…",
+    "verify-email": "Vérification de l’adresse e-mail…",
     "secret-word-list-edit": {
       "placeholder": "Word {{index}}"
     },
     "discourse-sso": {
       "login": {
-        "title": "Log in to the Nash Community",
-        "description": "You’ll need a Nash account to log in to the Nash Community.",
-        "button-login": "Log in with Nash account",
-        "link-create": "<0>Create a Nash account</0>"
+        "title": "Connectez-vous à la communauté Nash",
+        "description": "Vous aurez besoin d’un compte Nash pour vous connecter à la communauté Nash.",
+        "button-login": "Connectez-vous avec un compte Nash",
+        "link-create": "<0>Créez un compte Nash</0>"
       },
       "create-account": {
         "title": "Create your Nash Community account",
-        "description": "To post messages on the Community, you’ll need to stake at least 1 NEX for 24 months.",
+        "description": "Pour publier des messages sur l’espace communautaire, vous devez bloquer au moins 1 NEX pendant 24 mois.",
         "username-label": "Community username",
-        "username-placeholder": "Choose a name…",
+        "username-placeholder": "Choisissez un nom…",
         "button-create": "Create Community account",
-        "migrate-description": "If you’re using the Nash Extension to log in to the Community, you can <0>migrate your account</0>.",
-        "username-exits": "‘{{username}}’ is already taken. Please choose another username."
+        "button-creating": "Creating Community account…",
+        "migrate-description": "Si vous utilisez l’extension Nash pour vous connecter à la communauté, vous pouvez <0>migrer votre compte</0>.",
+        "username-exits": "‘{{username}}’ déjà pris. Veuillez choisir un autre nom d’utilisateur."
       },
       "migrate-account": {
         "title": "Migrate your Nash Community account",
-        "migration-step1": "Log in with the Nash Extension.",
+        "migration-step1": "Connectez-vous avec l’extension Nash.",
         "migration-step2": "Change your Community email address to the address used by your Nash account.",
-        "migration-step3": "That’s it! Once your email address is changed, you’ll be able to log in using your Nash account.",
-        "button-migrate": "Log in with the Nash Extension",
-        "link-back": "Back",
+        "migration-step3": "Une fois votre adresse e-mail modifiée, vous pourrez vous connecter à l’aide de votre compte Nash.",
+        "button-migrate": "Connectez-vous avec l’extension Nash",
+        "link-back": "Retour",
         "faq-change-email": {
-          "title": "How do I change my Community email address?",
-          "step1": "Once you’ve logged in to the Community, click on your avatar in the top right-hand corner of the screen.",
-          "step2": "Click on your username and select ‘Preferences’.",
-          "step3": "Click the pencil icon to edit your email address.",
-          "step4": "Enter a new email address and click ‘Change’.",
-          "step5": "You’ll receive two confirmation emails, one at your old email address and one at your new address. You’ll need to confirm both addresses to complete the change."
+          "title": "Comment changer mon adresse e-mail de communauté?",
+          "step1": "Une fois connecté à la communauté, cliquez sur votre avatar dans le coin supérieur droit de l’écran.",
+          "step2": "Cliquez sur votre nom d’utilisateur et sélectionnez «Préférences».",
+          "step3": "Cliquez sur l’icône en forme de crayon pour modifier votre adresse e-mail.",
+          "step4": "Saisissez une nouvelle adresse e-mail et cliquez sur «Modifier».",
+          "step5": "Vous recevrez deux e-mails de confirmation, l’un à votre ancienne adresse e-mail et l’autre à votre nouvelle adresse. Vous devrez confirmer les deux adresses pour terminer la modification."
         }
       },
-      "get-token": "Authenticating…",
-      "log-you-in": "Logging in…",
-      "unknow-error-message": "Something went wrong, please try again."
+      "get-token": "Authentification…",
+      "log-you-in": "Se connecter…",
+      "unknow-error-message": "Un problème est survenu, veuillez réessayer."
     }
   },
   "basic-exchange": {
-    "title": "Basic view",
-    "title-short": "Basic",
-    "switch-to-advanced": "Switch to pro view",
+    "title": "Vue simplifiée",
+    "title-short": "simplifié",
+    "switch-to-advanced": "Passer en vue pro",
     "create-order": {
       "change-markets": "Change markets",
       "errors": {
-        "order-rejected-insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds": "Insuffisant {{currencySell}} dans le contrat de trading. Envoyez des fonds pour continuer.",
+        "order-rejected-daily-limit-reached": "Votre commande a été rejetée car vous avez atteint votre limite de négociation quotidienne.",
+        "generic": "Erreur lors de votre ordre. Veuillez réessayer."
       },
       "modals": {
         "exchange-info": {
-          "title": "How to exchange tokens",
-          "desc": "First, select the tokens you want to exchange.",
-          "price-options-header": "You have two options for choosing your price:",
+          "title": "Comment échanger des jetons",
+          "desc": "Tout d’abord, sélectionnez les jetons que vous souhaitez échanger.",
+          "price-options-header": "Vous avez deux options pour choisir votre prix:",
           "average-market-price": {
-            "header": "Current market price",
-            "desc": "Place your order at current market price so that it fills sooner. Unfilled portions will cancel automatically after 24 hours."
+            "header": "Prix actuel du marché",
+            "desc": "Passez votre ordre au prix du marché actuel afin qu’elle se remplisse plus tôt. Les portions non remplies seront automatiquement annulées après 24 heures."
           },
           "set-a-price": {
-            "header": "Set a price",
-            "desc": "Your order can match with orders at this price or better, but will not go beyond it. This option means your order might not all fill at once."
+            "header": "Fixer un prix",
+            "desc": "Votre ordre peut correspondre à des ordres à ce prix ou mieux, mais ne va pas au-delà. Cette option signifie que votre ordre pourrait ne pas être exécuté en une seule fois."
           },
           "balances": {
-            "header": "Balances",
-            "desc": "We will tell you if your balance is insufficient for making a trade. Choose ‘Balances’ to check your account status and send/receive funds."
+            "header": "solde",
+            "desc": "Nous vous dirons si votre solde est insuffisant pour effectuer une transaction. Choisissez ‘Soldes’ pour vérifier l’état de votre compte et envoyer / recevoir des fonds."
           }
         },
         "select-token": {
           "title": {
-            "sell": "I want to trade",
-            "buy": "I want to receive"
+            "sell": "Je veux commercer",
+            "buy": "Je veux recevoir"
           },
           "header": {
-            "sell": "Select the token you want to trade",
-            "buy": "Select the token you want to receive"
+            "sell": "Sélectionnez le jeton que vous souhaitez échanger",
+            "buy": "Sélectionnez le jeton que vous souhaitez recevoir"
           },
-          "ignore-low-balances": "Hide small balances",
+          "ignore-low-balances": "Masquer les petits montants",
           "search": {
             "placeholder": "Search for a token name or ticker…",
-            "no-results": "We couldn’t find any results for <0>{{search}}</0>.",
-            "no-results-no-query": "We couldn’t find any matching currencies"
+            "no-results": "Nous n’avons trouvé aucun résultat pour <0>{{search}}</0>.",
+            "no-results-no-query": "Nous n’avons trouvé aucune devise correspondante"
           },
           "disabled": {
-            "maintenance": "This token is under scheduled maintenance.",
-            "deposits-withdrawals-suspended": "Deposits and withdrawals are suspended until further notice."
+            "maintenance": "Ce jeton fait l’objet d’une maintenance planifiée.",
+            "deposits-withdrawals-suspended": "Les dépôts et retraits sont suspendus jusqu’à nouvel ordre."
           },
           "trading": "Trading",
           "personal": "Personal",
-          "24-hours": "24 hours"
+          "24-hours": "24 heures"
         }
       },
       "exchange-tokens": {
@@ -1377,419 +1383,428 @@
             "label-button": "Select a token to trade",
             "errors": {
               "insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-              "limit-breached": "This order exceeds your trading limits.",
-              "order-too-small": "Total must exceed {{orderSize}} {{currencySell}}.",
+              "limit-breached": "Cet ordre dépasse vos limites de trading.",
+              "order-too-small": "Le total doit dépasser {{orderSize}} {{currencySell}}.",
               "transfer": "Send/Receive"
             }
           },
           "set-limit": {
             "fixed-price-label": "Your price for {{currencyBuy}} (in {{currencySell}})",
             "floating-price-label": "Market price of {{currencyBuy}} (in {{currencySell}})",
-            "fixed-price-on": "Set fixed price",
+            "fixed-price-on": "Fixer un prix fixe",
             "errors": {
-              "price-too-high": "Cannot process prices over {{maxPrice}}."
+              "price-too-high": "Impossible de traiter les prix supérieurs à {{maxPrice}}."
             },
             "warnings": {
-              "20-below": "The specified price is more than 20% below the current market price."
+              "20-below": "Le prix spécifié est inférieur de plus de 20% au prix actuel du marché."
             }
           }
         },
         "toggle-limit": "Set a price for this trade",
-        "above-limit": "{{percent}}% above market",
-        "below-limit": "{{percent}}% below market",
-        "reset": "Reset",
+        "above-limit": "{{percent}}% au-dessus du marché",
+        "below-limit": "{{percent}}% en dessous du marché",
+        "reset": "Réinitialiser",
         "submit": "Review trade"
       },
       "review-order": {
-        "header": "Review your order",
+        "header": "Vérifiez votre ordre",
         "columns": {
-          "market-price": "Price per {{currencyBuy}}",
-          "limit-price": "Set price per {{currencyBuy}}",
-          "fee": "Maximum trading fee",
-          "fiat-total": "{{currencyFiat}} estimate"
+          "market-price": "Prix par {{currencyBuy}}",
+          "limit-price": "Définir le prix par {{currencyBuy}}",
+          "fee": "Frais de négociation maximum",
+          "fiat-total": "Estimation {{currencyFiat}}"
         },
-        "desc": "Your order will remain on the book until it is filled, you cancel it, or 24 hours have passed.",
-        "submit": "Create order",
-        "submit-placing": "Placing order…"
+        "desc": "Votre ordre restera sur le carnet d’ordre jusqu’à ce qu’il soit rempli, que vous l’annuliez ou que 24 heures se soient écoulées.",
+        "submit": "Créer un ordre",
+        "submit-placing": "Passer l’ordre…"
       },
       "order-success": {
         "header": "Success!",
-        "desc": "Your {{currencySell}}/{{currencyBuy}} order was placed successfully.",
-        "view-my-order": "View my order",
+        "desc": "Votre ordre {{currencySell}} / {{currencyBuy}} a été passée avec succès.",
+        "view-my-order": "Voir mon ordre",
         "create-another-trade": "Create another trade"
       },
       "order-failure": {
         "header": {
-          "insufficient-funds": "Insufficient funds",
-          "daily-limit-reached": "Daily limit reached",
-          "generic": "Something went wrong!"
+          "insufficient-funds": "Fonds insuffisants",
+          "daily-limit-reached": "Limite journalière atteinte",
+          "generic": "Une erreur est survenue!"
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Your trading contract balance is no longer sufficient to cover this order. This can happen if you are creating orders in multiple browser tabs at the same time.",
-            "1": "For a smoother trading experience, please use Nash in a single browser tab.",
-            "2": "<0>Send/Receive</0> funds if you wish to place this order again."
+            "0": "Le solde de votre contrat de trading n’est plus suffisant pour couvrir cet ordre. Cela peut se produire si vous créez des ordres dans plusieurs onglets du navigateur en même temps.",
+            "1": "Pour une expérience de trading plus fluide, veuillez utiliser Nash dans un seul onglet de navigateur.",
+            "2": "<0>Envoyez / recevez</0> des fonds si vous souhaitez passer à nouveau cet ordre"
           },
           "daily-limit-reached": {
-            "0": "Your order has been rejected because you have reached your daily trading limit.",
-            "1": "To increase your maximum daily trading volume, please visit <0>Limits</0>."
+            "0": "Votre ordre a été refusé car vous avez atteint votre limite de négociation quotidienne.",
+            "1": "Pour augmenter votre volume de négociation quotidien maximum, veuillez visiter <0>Limits</0>."
           },
           "generic": {
-            "0": "Error placing your order. Please try again."
+            "0": "Erreur lors de votre ordre. Veuillez réessayer."
           }
         }
       }
     }
   },
   "countries": {
-    "AD": "Andorra",
-    "AE": "United Arab Emirates",
+    "AD": "Andorre",
+    "AE": "Émirats arabes unis",
     "AF": "Afghanistan",
     "AG": "Antigua and Barbuda",
     "AI": "Anguilla",
-    "AL": "Albania",
-    "AM": "Armenia",
+    "AL": "Albanie",
+    "AM": "Arménie",
     "AO": "Angola",
-    "AQ": "Antarctica",
-    "AR": "Argentina",
-    "AS": "American Samoa",
-    "AT": "Austria",
-    "AU": "Australia",
+    "AQ": "Antarctique",
+    "AR": "Argentine",
+    "AS": "Samoa américaines",
+    "AT": "Autriche",
+    "AU": "Australie",
     "AW": "Aruba",
-    "AX": "Åland Islands",
-    "AZ": "Azerbaijan",
-    "BA": "Bosnia and Herzegovina",
-    "BB": "Barbados",
+    "AX": "Åland",
+    "AZ": "Azerbaïdjan",
+    "BA": "Bosnie-Herzégovine",
+    "BB": "Barbade",
     "BD": "Bangladesh",
-    "BE": "Belgium",
+    "BE": "Belgique",
     "BF": "Burkina Faso",
-    "BG": "Bulgaria",
-    "BH": "Bahrain",
+    "BG": "Bulgarie",
+    "BH": "Bahreïn",
     "BI": "Burundi",
-    "BJ": "Benin",
-    "BL": "Saint Barthélemy",
-    "BM": "Bermuda",
-    "BN": "Brunei Darussalam",
+    "BJ": "Bénin",
+    "BL": "Saint-Barthélemy",
+    "BM": "Bermudes",
+    "BN": "Brunéi Darussalam",
     "BO": "Bolivia (Plurinational State of)",
-    "BQ": "Bonaire, Sint Eustatius and Saba",
-    "BR": "Brazil",
+    "BQ": "Pays-Bas caribéens",
+    "BR": "Brésil",
     "BS": "Bahamas",
-    "BT": "Bhutan",
-    "BV": "Bouvet Island",
+    "BT": "Bhoutan",
+    "BV": "Île Bouvet",
     "BW": "Botswana",
-    "BY": "Belarus",
+    "BY": "Biélorussie",
     "BZ": "Belize",
     "CA": "Canada",
-    "CC": "Cocos (Keeling) Islands",
-    "CD": "Congo (Democratic Republic of the)",
-    "CF": "Central African Republic",
+    "CC": "Îles Cocos (Keeling)",
+    "CD": "Congo (République démocratique du Congo)",
+    "CF": "République centrafricaine",
     "CG": "Congo",
-    "CH": "Switzerland",
+    "CH": "Suisse",
     "CI": "Côte d’Ivoire",
-    "CK": "Cook Islands",
-    "CL": "Chile",
-    "CM": "Cameroon",
-    "CN": "China",
-    "CO": "Colombia",
+    "CK": "Îles Cook",
+    "CL": "Chili",
+    "CM": "Cameroun",
+    "CN": "Chine",
+    "CO": "Colombie",
     "CR": "Costa Rica",
     "CU": "Cuba",
-    "CV": "Cabo Verde",
+    "CV": "Cap-Vert",
     "CW": "Curaçao",
-    "CX": "Christmas Island",
-    "CY": "Cyprus",
-    "CZ": "Czech Republic",
-    "DE": "Germany",
+    "CX": "Île Christmas",
+    "CY": "Chypre",
+    "CZ": "Tchéquie (Czechia)",
+    "DE": "Allemagne",
     "DJ": "Djibouti",
-    "DK": "Denmark",
-    "DM": "Dominica",
-    "DO": "Dominican Republic",
-    "DZ": "Algeria",
-    "EC": "Ecuador",
-    "EE": "Estonia",
-    "EG": "Egypt",
-    "EH": "Western Sahara",
-    "ER": "Eritrea",
-    "ES": "Spain",
-    "ET": "Ethiopia",
-    "FI": "Finland",
-    "FJ": "Fiji",
-    "FK": "Falkland Islands (Malvinas)",
-    "FM": "Micronesia (Federated States of)",
-    "FO": "Faroe Islands",
+    "DK": "Danemark",
+    "DM": "Dominique",
+    "DO": "République dominicaine",
+    "DZ": "Algérie",
+    "EC": "Équateur",
+    "EE": "Estonie",
+    "EG": "Égypte",
+    "EH": "Sahara occidental",
+    "ER": "Érythrée",
+    "ES": "Espagne",
+    "ET": "Éthiopie",
+    "FI": "Finlande",
+    "FJ": "Fidji",
+    "FK": "Îles Falkland (Malvinas)",
+    "FM": "Micronésie (Federated States of Micronesia)",
+    "FO": "Îles Féroé",
     "FR": "France",
     "GA": "Gabon",
-    "GB": "United Kingdom of Great Britain and Northern Ireland",
-    "GD": "Grenada",
-    "GE": "Georgia",
-    "GF": "French Guiana",
-    "GG": "Guernsey",
+    "GB": "Royaume-Uni",
+    "GD": "Grenade",
+    "GE": "Géorgie",
+    "GF": "Guyane française",
+    "GG": "Guernesey",
     "GH": "Ghana",
     "GI": "Gibraltar",
-    "GL": "Greenland",
-    "GM": "Gambia",
-    "GN": "Guinea",
+    "GL": "Groenland",
+    "GM": "Gambie",
+    "GN": "Guinée",
     "GP": "Guadeloupe",
-    "GQ": "Equatorial Guinea",
-    "GR": "Greece",
-    "GS": "South Georgia and the South Sandwich Islands",
+    "GQ": "Guinée équatoriale",
+    "GR": "Grèce",
+    "GS": "Géorgie du Sud et les Îles Sandwich du Sud",
     "GT": "Guatemala",
     "GU": "Guam",
-    "GW": "Guinea-Bissau",
+    "GW": "Guinée-Bissau",
     "GY": "Guyana",
     "HK": "Hong Kong",
-    "HM": "Heard Island and McDonald Islands",
+    "HM": "Îles Heard et McDonald",
     "HN": "Honduras",
-    "HR": "Croatia",
-    "HT": "Haiti",
-    "HU": "Hungary",
-    "ID": "Indonesia",
-    "IE": "Ireland",
-    "IL": "Israel",
-    "IM": "Isle of Man",
-    "IN": "India",
-    "IO": "British Indian Ocean Territory",
-    "IQ": "Iraq",
-    "IR": "Iran (Islamic Republic of)",
-    "IS": "Iceland",
-    "IT": "Italy",
+    "HR": "Croatie",
+    "HT": "Haïti",
+    "HU": "Hongrie",
+    "ID": "Indonésie",
+    "IE": "Irlande",
+    "IL": "Israël",
+    "IM": "Île de Man",
+    "IN": "Inde",
+    "IO": "Territoire britannique de l’océan Indien",
+    "IQ": "Irak",
+    "IR": "Iran",
+    "IS": "Islande",
+    "IT": "Italie",
     "JE": "Jersey",
-    "JM": "Jamaica",
-    "JO": "Jordan",
-    "JP": "Japan",
+    "JM": "Jamaïque",
+    "JO": "Jordanie",
+    "JP": "Japon",
     "KE": "Kenya",
-    "KG": "Kyrgyzstan",
-    "KH": "Cambodia",
+    "KG": "Kirghizistan",
+    "KH": "Cambodge",
     "KI": "Kiribati",
-    "KM": "Comoros",
-    "KN": "Saint Kitts and Nevis",
-    "KP": "North Korea",
-    "KR": "South Korea",
-    "KW": "Kuwait",
-    "KY": "Cayman Islands",
+    "KM": "Comores",
+    "KN": "Saint-Kitts-et-Nevis",
+    "KP": "Corée du Nord",
+    "KR": "Corée du Sud",
+    "KW": "Koweït",
+    "KY": "Îles Caïmans",
     "KZ": "Kazakhstan",
-    "LA": "Lao People’s Democratic Republic",
-    "LB": "Lebanon",
-    "LC": "Saint Lucia",
+    "LA": "Laos",
+    "LB": "Liban",
+    "LC": "Sainte-Lucie",
     "LI": "Liechtenstein",
     "LK": "Sri Lanka",
-    "LR": "Liberia",
+    "LR": "Libéria",
     "LS": "Lesotho",
-    "LT": "Lithuania",
+    "LT": "Lituanie",
     "LU": "Luxembourg",
-    "LV": "Latvia",
-    "LY": "Libya",
-    "MA": "Morocco",
+    "LV": "Lettonie",
+    "LY": "Libye",
+    "MA": "Maroc",
     "MC": "Monaco",
-    "MD": "Moldova (Republic of)",
-    "ME": "Montenegro",
-    "MF": "Saint Martin (French part)",
+    "MD": "Moldavie",
+    "ME": "Monténégro",
+    "MF": "Saint-Martin",
     "MG": "Madagascar",
-    "MH": "Marshall Islands",
-    "MK": "Macedonia (the former Yugoslav Republic of)",
+    "MH": "Îles Marshall",
+    "MK": "Macédoine du Nord (North Macedonia)",
     "ML": "Mali",
-    "MM": "Myanmar",
-    "MN": "Mongolia",
+    "MM": "Myanmar (Birmanie)",
+    "MN": "Mongolie",
     "MO": "Macao",
-    "MP": "Northern Mariana Islands",
+    "MP": "Îles Mariannes du Nord (Northern Mariana Islands)",
     "MQ": "Martinique",
-    "MR": "Mauritania",
+    "MR": "Mauritanie",
     "MS": "Montserrat",
-    "MT": "Malta",
-    "MU": "Mauritius",
+    "MT": "Malte",
+    "MU": "Maurice",
     "MV": "Maldives",
     "MW": "Malawi",
-    "MX": "Mexico",
-    "MY": "Malaysia",
+    "MX": "Mexique",
+    "MY": "Malaisie",
     "MZ": "Mozambique",
-    "NA": "Namibia",
-    "NC": "New Caledonia",
+    "NA": "Namibie",
+    "NC": "Nouvelle-Calédonie",
     "NE": "Niger",
-    "NF": "Norfolk Island",
+    "NF": "Île Norfolk",
     "NG": "Nigeria",
     "NI": "Nicaragua",
-    "NL": "Netherlands",
-    "NO": "Norway",
-    "NP": "Nepal",
+    "NL": "Pays-Bas",
+    "NO": "Norvège",
+    "NP": "Népal",
     "NR": "Nauru",
-    "NU": "Niue",
-    "NZ": "New Zealand",
+    "NU": "Niué",
+    "NZ": "Nouvelle-Zélande",
     "OM": "Oman",
     "PA": "Panama",
-    "PE": "Peru",
-    "PF": "French Polynesia",
-    "PG": "Papua New Guinea",
+    "PE": "Pérou",
+    "PF": "Polynésie française",
+    "PG": "Papouasie-Nouvelle-Guinée",
     "PH": "Philippines",
     "PK": "Pakistan",
-    "PL": "Poland",
-    "PM": "Saint Pierre and Miquelon",
-    "PN": "Pitcairn",
-    "PR": "Puerto Rico",
-    "PS": "Palestine, State of",
+    "PL": "Pologne",
+    "PM": "Saint-Pierre-et-Miquelon",
+    "PN": "Îles Pitcairn",
+    "PR": "Porto Rico",
+    "PS": "Palestine",
     "PT": "Portugal",
-    "PW": "Palau",
+    "PW": "Palaos",
     "PY": "Paraguay",
     "QA": "Qatar",
     "RE": "Réunion",
-    "RO": "Romania",
-    "RS": "Serbia",
-    "RU": "Russian Federation",
+    "RO": "Roumanie",
+    "RS": "Serbie",
+    "RU": "Russie",
     "RW": "Rwanda",
-    "SA": "Saudi Arabia",
-    "SB": "Solomon Islands",
+    "SA": "Arabie saoudite",
+    "SB": "Îles Salomon",
     "SC": "Seychelles",
-    "SD": "Sudan",
-    "SE": "Sweden",
-    "SG": "Singapore",
-    "SH": "Saint Helena, Ascension and Tristan da Cunha",
-    "SI": "Slovenia",
-    "SJ": "Svalbard and Jan Mayen",
-    "SK": "Slovakia",
+    "SD": "Soudan",
+    "SE": "Suède",
+    "SG": "Singapour",
+    "SH": "Sainte-Hélène",
+    "SI": "Slovénie",
+    "SJ": "Île Jan Mayen",
+    "SK": "Slovaquie",
     "SL": "Sierra Leone",
-    "SM": "San Marino",
-    "SN": "Senegal",
-    "SO": "Somalia",
+    "SM": "Saint-Marin",
+    "SN": "Sénégal",
+    "SO": "Somalie",
     "SR": "Suriname",
-    "SS": "South Sudan",
-    "ST": "Sao Tome and Principe",
-    "SV": "El Salvador",
+    "SS": "Soudan du Sud",
+    "ST": "Sao Tomé-et-Principe",
+    "SV": "Le Salvador",
     "SX": "Sint Maarten (Dutch part)",
-    "SY": "Syrian Arab Republic",
+    "SY": "Syrie",
     "SZ": "Swaziland",
-    "TC": "Turks and Caicos Islands",
-    "TD": "Chad",
-    "TF": "French Southern Territories",
+    "TC": "Îles Turks et Caïques",
+    "TD": "Tchad",
+    "TF": "Terres australes et antarctiques",
     "TG": "Togo",
-    "TH": "Thailand",
-    "TJ": "Tajikistan",
+    "TH": "Thaïlande",
+    "TJ": "Tadjikistan",
     "TK": "Tokelau",
     "TL": "Timor-Leste",
-    "TM": "Turkmenistan",
-    "TN": "Tunisia",
+    "TM": "Turkménistan",
+    "TN": "Tunisie",
     "TO": "Tonga",
-    "TR": "Turkey",
-    "TT": "Trinidad and Tobago",
+    "TR": "Turquie",
+    "TT": "Trinité-et-Tobago",
     "TV": "Tuvalu",
-    "TW": "Taiwan",
-    "TZ": "Tanzania, United Republic of",
+    "TW": "Taïwan",
+    "TZ": "Tanzanie",
     "UA": "Ukraine",
-    "UG": "Uganda",
-    "UM": "United States Minor Outlying Islands",
-    "US": "United States of America",
+    "UG": "Ouganda",
+    "UM": "Îles mineures éloignées des États-Unis (United States Minor Outlying Islands)",
+    "US": "États-Unis",
     "UY": "Uruguay",
-    "UZ": "Uzbekistan",
-    "VA": "Holy See",
-    "VC": "Saint Vincent and the Grenadines",
-    "VE": "Venezuela (Bolivarian Republic of)",
-    "VG": "Virgin Islands (British)",
-    "VI": "Virgin Islands (U.S.)",
+    "UZ": "Ouzbékistan",
+    "VA": "Saint-Siège",
+    "VC": "Saint-Vincent et les Grenadines",
+    "VE": "Venezuela",
+    "VG": "Îles Vierges britanniques",
+    "VI": "Îles Vierges des États-Unis (U.S. Virgin Islands)",
     "VN": "Vietnam",
     "VU": "Vanuatu",
-    "WF": "Wallis and Futuna",
+    "WF": "Wallis et Futuna",
     "WS": "Samoa",
-    "XK": "Republic of Kosovo",
-    "XX": "Unspecified nationality",
-    "YE": "Yemen",
+    "XK": "Kosovo",
+    "XX": "Nationalité non spécifiée",
+    "YE": "Yémen",
     "YT": "Mayotte",
-    "ZA": "South Africa",
-    "ZM": "Zambia",
+    "ZA": "Afrique du Sud",
+    "ZM": "Zambie",
     "ZW": "Zimbabwe"
   },
   "fiat-currencies": {
-    "AUD": "Australian dollar (AUD)",
-    "CAD": "Canadian dollar (CAD)",
-    "CHF": "Swiss franc (CHF)",
-    "CNY": "Chinese yuan (CNY)",
+    "AUD": "Dollar australien (AUD)",
+    "CAD": "Dollar canadien (CAD)",
+    "CHF": "Franc suisse (CHF)",
+    "CNY": "Yuan chinois (CNY)",
     "EUR": "Euro (EUR)",
-    "GBP": "British pound sterling (GBP)",
-    "INR": "Indian rupee (INR)",
-    "JPY": "Japanese yen (JPY)",
-    "RUB": "Russian ruble (RUB)",
-    "SGD": "Singaporean dollar (SGD)",
-    "USD": "US dollar (USD)"
+    "GBP": "Livre sterling (GBP)",
+    "INR": "Roupie indienne (INR)",
+    "JPY": "Yen japonais (JPY)",
+    "RUB": "Rouble russe (RUB)",
+    "SGD": "Dollar singapourien (SGD)",
+    "USD": "Dollar américain (USD)"
   },
   "fiat-ramps": {
-    "all-providers": "All providers",
-    "terms-and-conditions": "I accept {{providerName}}’s <0>Terms and Conditions</0>.",
+    "all-providers": "Tous les prestataires",
+    "terms-and-conditions": "J’accepte les <0>conditions générales</0> de {{providerName}}.",
     "title": "Buy/Sell",
+    "tier0": {
+      "buy-popular-assets": "Acheter et vendre des actifs numériques populaires",
+      "complete-kyc-5minute": "Passez à la vérification d’identité de niveau 1 en seulement cinq minutes!",
+      "complete-kyc": "Vérifier l’identité",
+      "enjoy-benefits": "Autres avantages du niveau 1:",
+      "higher-trading-limits": "Limites de négociation plus élevées sur la plateforme Nash.",
+      "stake-your-nex": "Conservez vos NEX pour recevoir des dividendes.",
+      "use-with-vpn": "Accédez à Nash via un service VPN."
+    },
     "provider": {
       "title": "Select a provider",
-      "verify-identity": "<0>Verify your identity</0> to get started.",
-      "subtitle": "Digital asset providers are third-party companies partnered with Nash who allow you to buy and sell digital assets using national currencies.",
+      "verify-identity": "<0>Vérifiez votre identité</0> pour commencer.",
+      "subtitle": "Les fournisseurs d’actifs numériques sont des sociétés tierces en partenariat avec Nash qui vous permettent d’acheter et de vendre des actifs numériques en utilisant les devises nationales.",
       "steps": [
         "Personal details",
         "Address details"
       ],
-      "assets-available": "Assets available",
-      "payments-methods": "Payment methods",
-      "general-details": "Limits and fees",
-      "no-limit": "No limit",
-      "no-daily-limit": "No daily limit",
-      "no-weekly-limit": "No weekly limit",
-      "no-monthly-limit": "No monthly limit",
-      "no-txn-limit": "No transaction limit",
-      "no-transaction-fee": "No transaction fee",
-      "weekly-limit": "{{value}} weekly limit",
-      "monthly-limit": "{{value}} monthly limit",
-      "transaction-fee": "{{value}} transaction fee",
-      "eur-bank-transfers": "EUR bank transfers:",
-      "kyc-monthly-limit-pre": "{{value}} monthly",
-      "kyc-monthly-limit-post-kyc": "{{value}} monthly after identity verification",
-      "kyc-monthly-limit-post-phone": "{{value}} monthly after phone number verification",
+      "assets-available": "Actifs disponibles",
+      "payments-methods": "Moyens de payement",
+      "general-details": "Limites et frais",
+      "no-limit": "Aucunes limites",
+      "no-daily-limit": "Aucune limite quotidienne",
+      "no-weekly-limit": "Aucune limite hebdomadaire",
+      "no-monthly-limit": "Aucune limite mensuelle",
+      "no-txn-limit": "Aucune limite de transaction",
+      "no-transaction-fee": "Aucun frais de transaction",
+      "weekly-limit": "{{value}} limite hebdomadaire",
+      "monthly-limit": "{{value}} limite mensuelle",
+      "transaction-fee": "{{value}} frais de transaction",
+      "eur-bank-transfers": "Virements bancaires en EUR:",
+      "kyc-monthly-limit-pre": "{{value}} mensuelle",
+      "kyc-monthly-limit-post-kyc": "{{value}} mensuelle après vérification d’identité",
+      "kyc-monthly-limit-post-phone": "{{value}} mensuelle après vérification du numéro de téléphone",
       "kyc-weekly-limit-pre": "{{value}} weekly",
-      "kyc-weekly-limit-post-kyc": "{{value}} weekly after identity verification",
-      "kyc-weekly-limit-post-phone": "{{value}} weekly after phone number verification",
-      "kyc-daily-limit-pre": "{{value}} daily",
-      "kyc-daily-limit-post-kyc": "{{value}} daily after identity verification",
-      "kyc-daily-limit-post-phone": "{{value}} daily after phone number verification",
-      "kyc-yearly-limit-pre": "{{value}} yearly",
-      "kyc-yearly-limit-post-kyc": "{{value}} yearly after identity verification",
-      "kyc-yearly-limit-post-phone": "{{value}} yearly after phone number verification",
-      "kyc-txn-limit-pre": "{{value}} per transaction",
-      "kyc-txn-limit-post-kyc": "{{value}} per transaction after identity verification",
-      "kyc-txn-limit-post-phone": "{{value}} per transaction after phone number verification",
-      "select-btn": "Select",
-      "have-account-header": "Providers I have created an account with",
-      "no-account-header": "Providers I have not created an account with",
-      "no-providers-title": "Unfortunately, there are currently no digital asset providers in your area.",
+      "kyc-weekly-limit-post-kyc": "{{value}} hebdomadaire après vérification d’identité",
+      "kyc-weekly-limit-post-phone": "{{value}} hebdomadaire après vérification du numéro de téléphone",
+      "kyc-daily-limit-pre": "{{value}} quotidienne",
+      "kyc-daily-limit-post-kyc": "{{value}} quotidienne après vérification de l’identité",
+      "kyc-daily-limit-post-phone": "{{value}} quotidienne après vérification du numéro de téléphone",
+      "kyc-yearly-limit-pre": "{{value}} annuelle",
+      "kyc-yearly-limit-post-kyc": "{{value}} annuelle après vérification d’identité",
+      "kyc-yearly-limit-post-phone": "{{value}} annuelle après vérification du numéro de téléphone",
+      "kyc-txn-limit-pre": "{{value}} par transaction",
+      "kyc-txn-limit-post-kyc": "{{value}} par transaction après vérification d’identité",
+      "kyc-txn-limit-post-phone": "{{value}} par transaction après vérification du numéro de téléphone",
+      "select-btn": "Sélectionner",
+      "have-account-header": "Fournisseurs avec qui j’ai créé un compte",
+      "no-account-header": "Fournisseurs avec lesquels je n’ai pas créé de compte",
+      "no-providers-title": "Malheureusement, il n’y a actuellement aucun fournisseur de cryptoactifs dans votre région.",
       "no-providers-more-info": "Learn more about <0>becoming a Nash currency partner</0>.",
-      "credit-cards": "Credit cards:",
-      "debit-cards": "Debit cards:",
-      "bank-account": "Bank account link:",
-      "powered-by": "Powered by",
-      "change-provider": "Change provider",
+      "credit-cards": "Cartes de crédit:",
+      "debit-cards": "Cartes de débit:",
+      "bank-account": "Lien vers le compte bancaire:",
+      "powered-by": "Alimenté par",
+      "change-provider": "Changer de fournisseur",
       "nash": {
-        "pay-no-fees": "<0>Pay no fees</0> when you buy popular digital assets from Nash!"
+        "pay-no-fees": "<0>Ne payez aucun frais</0> lorsque vous achetez des cryptoactifs populaires de Nash!"
       }
     },
     "general-details": {
-      "main-title": "Create your {{providerName}} account",
-      "subtitle": "Before you can buy or sell digital assets, we need to set up your account with {{providerName}}.",
-      "legal-name-input-label": "Full legal name",
-      "email-address-input-label": "Email address",
+      "main-title": "Créez votre compte {{providerName}}",
+      "subtitle": "Avant de pouvoir acheter ou vendre des cryptoactifs, nous devons configurer votre compte avec {{providerName}}.",
+      "legal-name-input-label": "Nom légal complet",
+      "email-address-input-label": "Adresse mail",
       "submit-btn": "Continue to address details"
     },
     "address-details": {
-      "main-title": "Create your {{providerName}} account",
-      "subtitle": "Before you can buy or sell digital assets, we need to set up your account with {{providerName}}.",
-      "house-name-input-label": "House number/name",
-      "street-name-input-label": "Street",
-      "city-input-label": "City",
-      "county-input-label": "County/State",
-      "postcode-input-label": "Postcode/ZIP",
-      "country-of-residence-input-label": "Country of residence",
-      "submit-btn": "Complete account setup"
+      "main-title": "Créez votre compte {{providerName}}",
+      "subtitle": "Avant de pouvoir acheter ou vendre des cryptoactifs, nous devons configurer votre compte avec {{providerName}}.",
+      "house-name-input-label": "Numéro",
+      "street-name-input-label": "rue",
+      "city-input-label": "Ville",
+      "county-input-label": "Comté / État",
+      "postcode-input-label": "Code postal",
+      "country-of-residence-input-label": "Pays de résidence",
+      "submit-btn": "Configuration complète du compte"
     },
     "profile-errors": {
-      "legalName": "You must enter your full legal name.",
-      "email": "You must enter your email address and format it correctly.",
-      "selectedCountry": "You must enter your country.",
-      "streetName": "You must enter your street name.",
-      "city": "You must enter your city.",
-      "countyState": "You must enter your county or state.",
-      "postcode": "You must enter your postcode/ZIP."
+      "legalName": "Vous devez saisir votre nom légal complet.",
+      "email": "Vous devez saisir votre adresse e-mail et la formater correctement.",
+      "selectedCountry": "Vous devez saisir votre pays.",
+      "streetName": "Vous devez saisir le nom de votre rue.",
+      "city": "Vous devez saisir votre ville.",
+      "countyState": "Vous devez entrer votre comté ou état.",
+      "postcode": "Vous devez saisir votre code postal"
     },
     "limits": {
-      "min-limit-message": "Minimum purchase: <0/>",
+      "min-limit-message": "Achat minimum: <0/>",
       "min-limit": "Minimum"
     },
     "currencies": {
@@ -1802,188 +1817,187 @@
       "zrx": "0x"
     },
     "errors": {
-      "validation": "Validation problem",
-      "insufficient-funds": "Insufficient funds",
-      "access-denied": "Access or permissions problem (Wyre)",
-      "unsupported-state": "US state is not supported by Wyre",
-      "under-eighteen": "Under eighteen",
-      "plaid-not-ready": "Wyre is having difficulty communicating with your bank",
-      "transfer": "Funds transfer problem",
-      "carbon-timeout-header": "Carbon API request timeout",
-      "carbon-timeout-body": "Your transaction failed because of an API request timeout. Carbon has been notified of this error",
-      "generic-fourhundred": "Error",
+      "validation": "Problème de validation",
+      "insufficient-funds": "Fonds insuffisants",
+      "access-denied": "Problème d’accès ou d’autorisations (Wyre)",
+      "unsupported-state": "L’État américain n’est pas pris en charge par Wyre",
+      "under-eighteen": "Moins de dix-huit ans",
+      "plaid-not-ready": "Wyre a du mal à communiquer avec votre banque",
+      "transfer": "Problème de transfert de fonds",
+      "carbon-timeout-header": "Délai d’expiration de la demande d’API Carbon",
+      "carbon-timeout-body": "Votre transaction a échoué en raison d’un délai d’attente de demande d’API. Carbon a été averti de cette erreur",
+      "generic-fourhundred": "Erreur",
       "nash": {
         "order-book-cache-empty": {
-          "title": "Order book cache is empty",
-          "body": "Could not generate a price. Please try again later."
+          "title": "Le cache du carnet d’ordre est vide",
+          "body": "Impossible de générer un prix. Veuillez réessayer plus tard."
         },
         "not-enough-liquidity": {
-          "title": "Insufficent liquidity for order",
-          "body": "Your order is too large to process right now. Please try again later."
+          "title": "Liquidité d’ordre insuffisante",
+          "body": "Votre ordre est trop volumineux pour être traitée actuellement. Veuillez réessayer plus tard."
         },
         "not-translated": {
           "title": "Error",
-          "body": "Something went wrong."
+          "body": "Une erreur est survenue."
         },
-        "dismiss": "Back"
+        "dismiss": "Retour"
       }
     },
     "buy-sell": {
       "title": "Buy/Sell",
-      "tab-buy-assets": "Buy assets",
-      "failed-to-transact": "Your transaction failed.",
+      "tab-buy-assets": "Acheter des actifs",
+      "failed-to-transact": "Votre transaction a échoué.",
       "tab-sell-assets": "Sell assets",
-      "daily-limits-header": "Remaining limits after this transaction",
-      "current-price-label": "Current price | <0 />",
-      "current-price-unavailable": "Current price unavailable",
-      "buy-with-input-label-no-cur": "Pay with",
+      "daily-limits-header": "Limites restantes après cette transaction",
+      "current-price-label": "Prix actuel | <0 />",
+      "current-price-unavailable": "Prix actuel indisponible",
+      "buy-with-input-label-no-cur": "Payer avec",
       "sell-with-input-label-no-cur": "Deposit to",
-      "buy-with-input-label": "Pay in {{currency}} with",
-      "sell-with-input-label": "Deposit in {{currency}} to",
-      "deposit-to": "Deposit {{currency}} to",
-      "pay-with-default": "Select a payment method",
-      "link-new-bank": "Add payment method",
-      "complete-nash-profile": "Complete your <0>Nash profile</0> before you can buy digital assets",
-      "want-to-buy-input-label": "I want to buy",
-      "want-to-sell-input-label": "I want to sell",
+      "buy-with-input-label": "Payez en {{currency}} avec",
+      "sell-with-input-label": "Déposez en {{currency}} pour",
+      "deposit-to": "Déposez {{currency}} à",
+      "pay-with-default": "Choisissez un moyen de paiement",
+      "link-new-bank": "Ajouter un moyen de paiement",
+      "complete-nash-profile": "Complétez votre <0>profil Nash</0> avant de pouvoir acheter des cryptoactifs",
+      "want-to-buy-input-label": "je veux acheter",
+      "want-to-sell-input-label": "je veux vendre",
       "spend": "Spend",
       "purchase": "Purchase",
       "cost-me-input-label": "I want to spend",
-      "i-want-to-pay-input-label": "I want to pay",
-      "receive-input-label": "I will receive",
-      "will-receive-input-label": "I’ll receive approximately",
-      "provider-fee": "{{providerName}} fee ",
-      "current-exchange-rate": "Current exchange rate",
-      "weekly-limit": "Weekly limit",
-      "monthly-limit": "Monthly limit",
-      "yearly-limit": "Yearly limit",
-      "weekly-limit-affix": "weekly limit",
-      "monthly-limit-affix": "monthly limit",
-      "yearly-limit-affix": "yearly limit",
-      "exceed-yearly-limit": "yearly limit exceeded",
-      "no-change-today": "no change today",
-      "change-today": "{{value}}% today",
-      "daily-fiat-limit": "Daily {{fiat}} limit",
-      "daily-asset-limit": "Daily {{asset}} limit",
-      "exceed-daily-limit": "You have exceeded your daily limit.",
-      "no-limit": "Unlimited",
-      "current-exchange-info": "<0>This quote is based on our current exchange rate.</0> If the {{asset}} price is above <1 /> when your bank transfer clears, we will offer a new rate.",
-      "nash-unsupported": "This feature is coming soon!",
-      "carbon-unsupported": "This feature isn’t available with Carbon yet.",
-      "provider-unsupported": "This feature isn’t available with {{providerName}} yet.",
-      "daily-remaining": "<0 /> remaining",
-      "limit-exceeded": "<0 /> limit exceeded",
-      "minimum-not-reached": "Minimum purchase is <0 />",
-      "default-warning-message": "You need to complete your <0>{{providerName}} profile</0> and <1>link a bank account</1> before you can {{buy}} {{asset}}.",
-      "bank-account-warning-message": "You need to <0>link a bank account</0> before you can {{buy}} {{asset}}.",
-      "fiat-provider-warning-message": "You need to complete your <0>{{providerName}} profile</0> before you can {{buy}} {{asset}}.",
-      "profile-pending-warning-message": "Your <0>{{providerName}} profile</0> is under review.",
-      "submit-btn": "Review before buying",
-      "purchase-btn": "Review my quote",
-      "buy": "buy",
-      "sell": "sell",
+      "i-want-to-pay-input-label": "je veux payer",
+      "receive-input-label": "Je vais recevoir",
+      "will-receive-input-label": "Je vais recevoir environ",
+      "current-exchange-rate": "Taux de change actuel",
+      "weekly-limit": "Limite hebdomadaire",
+      "monthly-limit": "Limite mensuelle",
+      "yearly-limit": "Limite annuelle",
+      "weekly-limit-affix": "limite hebdomadaire",
+      "monthly-limit-affix": "Limite annuelle",
+      "yearly-limit-affix": "Limite annuelle",
+      "exceed-yearly-limit": "dépassement de la limite annuelle",
+      "no-change-today": "pas de changement aujourd’hui",
+      "change-today": "{{value}}% aujourd’hui",
+      "daily-fiat-limit": "Limite quotidienne {{fiat}}",
+      "daily-asset-limit": "Limite quotidienne de {{asset}}",
+      "exceed-daily-limit": "Vous avez dépassé votre limite quotidienne.",
+      "no-limit": "Illimitée",
+      "current-exchange-info": "<0>Cette estimation est basée sur notre taux de change actuel.</0> Si le prix {{asset}} est supérieur à <1 /> lorsque votre virement bancaire se termine, nous vous proposerons un nouveau taux.",
+      "nash-unsupported": "Cette option sera disponible sous peu!",
+      "carbon-unsupported": "Cette fonctionnalité n’est pas encore disponible avec Carbon.",
+      "provider-unsupported": "Cette fonctionnalité n’est pas encore disponible avec {{providerName}}.",
+      "daily-remaining": "<0 /> restant",
+      "limit-exceeded": "<0 /> limite dépassée",
+      "minimum-not-reached": "L’achat minimum est <0 />",
+      "default-warning-message": "Vous devez compléter votre <0>{{providerName}} profil</0> et <1>associer un compte bancaire</1> avant de pouvoir {{buy}} {{asset}}.",
+      "bank-account-warning-message": "Vous devez <0>associer un compte bancaire</0> avant de pouvoir {{buy}} {{asset}}.",
+      "fiat-provider-warning-message": "Vous devez compléter votre <0>{{providerName}} profil</0> avant de pouvoir {{buy}} {{asset}}.",
+      "profile-pending-warning-message": "Votre <0>profil {{providerName}}</0> est en cours d’examen.",
+      "submit-btn": "Vérifier avant d’acheter",
+      "purchase-btn": "Revoir mon devis",
+      "buy": "acheter",
+      "sell": "vendre",
       "purchase-failure": {
-        "title": "There was a problem. The purchase did not go through.",
+        "title": "Un problème est survenu. L’achat n’a pas abouti.",
         "button": "OK",
-        "ecode-cvc": "Incorrect CVC.",
-        "ecode-postal": "Problem with postcode/ZIP.",
-        "ecode-billing": "Problem with billing address.",
-        "ecode-other-catchall": "Incorrect information submitted.",
-        "ecode-declined": "Your bank has declined the transaction.",
-        "ecode-only-visa-mastercard": "Only Visa and Mastercard are currently accepted by Carbon.money.",
-        "ecode-3ds-auth-fail": "3DS authentication failure.",
-        "ecode-3ds-could-not-be-performed": "3DS is not available from Carbon right now.",
-        "ecode-3ds-performed-not-completed": "3DS was performed, but could not be completed by Carbon right now.",
+        "ecode-cvc": "CVC incorrect.",
+        "ecode-postal": "Problème avec le code postal.",
+        "ecode-billing": "Problème avec l’adresse de facturation.",
+        "ecode-other-catchall": "les informations soumises sont incorrectes.",
+        "ecode-declined": "Votre banque a refusé la transaction.",
+        "ecode-only-visa-mastercard": "Seuls Visa et Mastercard sont actuellement acceptés par Carbon.money.",
+        "ecode-3ds-auth-fail": "Échec de l’authentification 3DS.",
+        "ecode-3ds-could-not-be-performed": "3DS n’est pas disponible chez Carbon pour le moment.",
+        "ecode-3ds-performed-not-completed": "La 3DS a été réalisée, mais n’a pas pu être complétée par Carbon pour le moment.",
         "ecode-unknown": "Unknown problem with code {{ecode}}."
       },
       "purchase-requires-confirm": {
-        "title": "Verify new card",
-        "message": "For your security, we need to verify your card. Carbon will produce a transaction on your bank statement containing a four-digit confirmation code, like ‘carbon-1234’.",
-        "cancel": "Cancel purchase",
-        "code-from-statement": "Enter confirmation code:",
+        "title": "Vérifier la nouvelle carte",
+        "message": "Pour votre sécurité, nous devons vérifier votre carte. Carbon produira une transaction sur votre relevé bancaire contenant un code de confirmation à quatre chiffres, comme «carbone-1234».",
+        "cancel": "Annuler l’achat",
+        "code-from-statement": "Entrer le code de confirmation:",
         "code-placeholder": "1234",
-        "submit": "Verify card"
+        "submit": "Vérifier la carte"
       },
       "purchase-success": {
-        "title": "Success!",
-        "amount-debit": "The amount plus fees will be debited from your card {{card}}. You will receive {{asset}} in your Nash personal account shortly.",
-        "view": "You can view the status of your transaction <0>here</0>.",
-        "button": "Finish"
+        "title": "Succès!",
+        "amount-debit": "Le montant majoré des frais sera débité de votre carte {{card}}. Vous recevrez sous peu {{asset}} sur votre compte personnel Nash.",
+        "view": "Vous pouvez consulter l’état de votre transaction <0>ici</0>.",
+        "button": "terminer"
       }
     },
     "transactions": {
       "tab-title": "Transaction",
-      "fail_nopop": "Failed: Proof not uploaded in time",
-      "waiting_transaction": "Pending: Transfer in progress",
-      "incomplete_pop": "Pending: Proof of payment missing",
-      "title": "Transaction history with {{providerName}}",
-      "complete": "Complete",
-      "completed": "Complete",
-      "incomplete": "Incomplete",
-      "quote-status": "Quote status",
-      "error": "Failed",
-      "pending": "Pending",
+      "fail_nopop": "Échec: preuve non téléchargée à temps",
+      "waiting_transaction": "En attente: transfert en cours",
+      "incomplete_pop": "En attente: preuve de paiement manquante",
+      "title": "Historique des transactions avec {{providerName}}",
+      "complete": "Achevé",
+      "completed": "Achevé",
+      "incomplete": "Non achevé",
+      "quote-status": "Statut du devis",
+      "error": "Échoué",
+      "pending": "En attente",
       "of": "of",
-      "inprogress-buy-currency": "Buying {{currency}}",
-      "inprogress-sell-currency": "Selling {{currency}}",
-      "success-buy-currency": "Bought {{currency}}",
-      "success-sell-currency": "Sold {{currency}}",
-      "fail-buy-currency": "Failed to buy {{currency}}",
-      "fail-sell-currency": "Failed to sell {{currency}}",
-      "refunded": "Refunded <0 />",
-      "refund-rate-declined": "Declined <0 />",
-      "rate-changed": "Rate has changed",
-      "dest": "To {{account}}",
-      "source": "From {{account}}",
+      "inprogress-buy-currency": "Acheter {{currency}}",
+      "inprogress-sell-currency": "Vendre {{currency}}",
+      "success-buy-currency": "Acheté {{currency}}",
+      "success-sell-currency": "Vendu {{currency}}",
+      "fail-buy-currency": "Échec de l’achat de {{currency}}",
+      "fail-sell-currency": "Impossible de vendre {{currency}}",
+      "refunded": "Remboursé <0 />",
+      "refund-rate-declined": "Refusé <0 />",
+      "rate-changed": "Le taux a changé",
+      "dest": "Vers{{account}}",
+      "source": "De {{account}}",
       "show-txn": {
-        "title": "Transaction details",
-        "details-title": "Recipient bank details",
-        "amount-asset": "Amount purchased",
-        "status": "Transaction status",
-        "personal-account": "Your Nash personal account",
-        "deposit-account": "Asset deposited to",
-        "withdraw-account": "Paid from account",
-        "created-on": "Created on",
-        "details": "Transaction details",
-        "view-details": "View",
-        "fees": "Fee",
-        "stat-no-charge": "No charge attempted on card",
-        "stat-pending-sent": "{{asset}} transfer initiated",
-        "stat-pending-manual": "Pending manual settlement",
-        "stat-suspended": "Transaction suspended",
-        "stat-canceled": "Transaction and charges canceled",
-        "stat-settlement-underway": "Settlement in progress",
-        "stat-settlement-complete": "Settlement complete",
-        "stat-declined": "Transaction declined",
-        "stat-unknown": "Unknown status: {{status}}"
+        "title": "Détails de la transaction",
+        "details-title": "Coordonnées bancaires du destinataire",
+        "amount-asset": "Montant acheté",
+        "status": "Statut de la transaction",
+        "personal-account": "Votre compte personnel Nash",
+        "deposit-account": "Actif déposé auprès de",
+        "withdraw-account": "Payé sur le compte",
+        "created-on": "Créé sur",
+        "details": "Détails de la transaction",
+        "view-details": "Vue",
+        "fees": "Frais",
+        "stat-no-charge": "Aucune tentative de débit sur la carte",
+        "stat-pending-sent": "{{asset}} transfert initié",
+        "stat-pending-manual": "Règlement manuel en attente",
+        "stat-suspended": "Transaction suspendue",
+        "stat-canceled": "Transaction et frais annulés",
+        "stat-settlement-underway": "Règlement en cours",
+        "stat-settlement-complete": "Règlement terminé",
+        "stat-declined": "Transaction refusée",
+        "stat-unknown": "Statut inconnu: {{status}}"
       },
-      "no-matching-data-header": "No results found.",
-      "no-matching-data-sub-header": "Your search didn’t match any purchases or sales.",
-      "no-data-header": "You haven’t made any transactions yet.",
-      "no-data-sub-header": "<0>Purchase digital assets</0> to get started.",
-      "no-data": "You haven’t made any transactions yet. <0>Purchase digital assets</0> to get started.",
-      "search-placeholder": "Search my transactions…",
-      "table-label": "All account activity",
-      "created-column": "Created",
-      "closed-column": "Complete",
+      "no-matching-data-header": "Aucun résultat trouvé.",
+      "no-matching-data-sub-header": "Votre recherche ne correspond à aucun achat ni aucune vente.",
+      "no-data-header": "Vous n’avez encore effectué aucune transaction.",
+      "no-data-sub-header": "<0>Achetez des cryptoactifs</0> pour commencer.",
+      "no-data": "Vous n’avez encore effectué aucune transaction. <0>Achetez des cryptoactifs</0> pour commencer.",
+      "search-placeholder": "Rechercher mes transactions…",
+      "table-label": "Toute l’activité du compte",
+      "created-column": "Créé",
+      "closed-column": "Achevé",
       "action-column": "Action",
-      "source-column": "Account debited and cost",
-      "amount-column": "Amount",
-      "view-button": "View",
-      "bought": "Bought",
-      "sold": "Sold",
-      "status": "Status",
-      "withdraw-account-fee": "<0/> + <1/> fee",
-      "deposit-account-fee": "<0/> - <1/> fee",
+      "source-column": "Compte débité et coût",
+      "amount-column": "Montant",
+      "view-button": "Vue",
+      "bought": "Acheté",
+      "sold": "Vendu",
+      "status": "Statut",
+      "withdraw-account-fee": "<0/> + <1/> frais",
+      "deposit-account-fee": "<0/> - <1/> frais",
       "withdraw-account": "<0/>",
       "deposit-account": "<0/>",
       "show-transaction": "Transaction",
-      "deposited": "Deposited to",
+      "deposited": "Envoyer vers",
       "nash": {
         "col": {
-          "when": "When",
+          "when": "Quand",
           "action": "Action",
-          "rate": "Rate",
+          "rate": "Taux",
           "destination": "Destination",
           "amount": "Amount"
         },
@@ -2438,8 +2452,6 @@
       "title": "Sale quote",
       "send-asset-title": "Send {{assetName}} to the address below from your Nash personal account.",
       "send-asset-body-1": "What you send will be converted to {{currencyCode}} and credited to your account. We will use the market exchange rate at the time we receive your transaction.",
-      "send-asset-body-2": "",
-      "transactions-details": "Send ",
       "selling": "I am selling",
       "cost": "I will receive <0>(estimate)</0>",
       "to-bank": "Into this account",
@@ -2996,7 +3008,7 @@
             "trading-account": "From the trading contract",
             "personal-account": "From my personal account",
             "nash-fiat-ramp": "Purchase from Nash",
-            "external-address": "From {{address}}"
+            "external-address": "From <0 />"
           }
         },
         "amount": {
@@ -3175,7 +3187,6 @@
     },
     "form-amount": {
       "amount-to-transfer": "Amount",
-      "balance-label": "{{label}} balance ⋅ ",
       "recipients-address": "Recipient’s address",
       "enter-their-wallet": "Enter their wallet address",
       "check-destination-title": "Check your destination address twice.",
@@ -3581,7 +3592,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Set up two-factor authentication",
           "1": {
             "header": "Download and install an authenticator app",
             "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
@@ -3594,7 +3604,9 @@
           "3": {
             "header": "Enter the code generated by your authenticator app",
             "input-placeholder": "Authentication code"
-          }
+          },
+          "enable": "Enable",
+          "title": "Set up two-factor authentication"
         },
         "disable-2fa": {
           "title": "Disable two-factor authentication",
@@ -3850,7 +3862,7 @@
         "available-balance": "Available balance to stake ⋅",
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅ ",
+        "selected-duration": "Selected duration ⋅",
         "selected-duration-month": "<0>{{count}}</0> month",
         "selected-duration-month_plural": "<0>{{count}}</0> months",
         "set-date-dividends-label": "Set a date to receive your dividends",

@@ -1,5 +1,7 @@
 # Nash platform localization files
 
+![](https://github.com/nash-io/locale/workflows/CI/badge.svg)
+
 This is an open repository for the community to help translate and correct Nash locale files.
 
 Locale files are in JSON format and organized like this:
@@ -32,7 +34,7 @@ You can view our simple contributions policy [here](./CONTRIBUTING.md).
 
 ## Ask for help!
 
-If you don't understand a phrase in the English file, don't guess! Ask for help. Our writer is available on GitHub as `@lexipenia` and Telegram as `@cstfenwick` and will be able to clarify issues for you. 
+If you don't understand a phrase in the English file, don't guess! Ask for help. Our writer is available on GitHub as `@lexipenia` and Telegram as `@cstfenwick` and will be able to clarify issues for you.
 
 ## Locales list
 
@@ -53,6 +55,7 @@ If you don't understand a phrase in the English file, don't guess! Ask for help.
 | [it_IT](./locales/it_IT.json)       | Italian            | Italy                       |
 | [ja_JP](./locales/ja_JP.json)       | Japanese           | Japan                       |
 | [ko_KR](./locales/ko_KR.json)       | Korean             | Korea                       |
+| [ms_MY](./locales/ms_MY.json)       | Malay              | International (MY standard) |
 | [nl_NL](./locales/nl_NL.json)       | Dutch              | Netherlands and Belgium     |
 | [pt_BR](./locales/pt_BR.json)       | Portuguese         | International (BR standard) |
 | [ro_RO](./locales/ro-RO.json)       | Romanian           | Romania                     |
