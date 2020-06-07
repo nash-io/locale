@@ -3911,93 +3911,93 @@
     }
   },
   "contacts": {
-    "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "create-new": "Create new",
+    "title": "{{count}} контакт",
+    "title_plural": "{{count}} контактов",
+    "search-my-contacts": "Поиск в моих контактах…",
+    "no-contacts": "Пока что нет добавленных или импортированных контактов.",
+    "create-new": "Добавить контакт",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Отправить",
+      "send-disabled-tooltip": "Укажите адрес кошелька, чтобы послать ресурсы этому контакту.",
+      "request": "Послать запрос",
+      "edit": "Изменить",
+      "delete": "Удалить"
     },
     "headers": {
-      "name": "Name",
-      "email": "Email",
-      "phone-number": "Phone number",
-      "wallets": "Wallets"
+      "name": "Имя",
+      "email": "Электронная почта",
+      "phone-number": "Телефонный номер",
+      "wallets": "Кошельки"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Новый контакт",
+        "button": "Создать контакт"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Изменить контакт",
+        "button": "Сохранить изменения"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Послать ресурсы {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Какая валюта?",
+          "wallet": "Кошелёк"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Послать ресурсы можно только со своего персонального аккаунта."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Найти ресурс…",
+          "destination": "Найти адрес кошелька…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "Уверены, что хотите удалить {{contactName}}?",
+        "notice-text": "Все данные этого контакта будут удалены навсегда.",
+        "button": "Да, удалить",
+        "cancel": "Отмена",
+        "error": "Ошибка при удалении контакта. Попробуйте ещё раз.",
+        "success": "Контакт был удален.",
+        "success-button": "Вернуться к контактам"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Контакт создан!",
+        "error": "Ошибка при создании контакта. Попробуйте ещё раз.",
+        "invalid-input": "Недействительный формат. Попробуйте ещё раз."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Имя",
+          "placeholder": "Имя"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Фамилия",
+          "placeholder": "Фамилия"
         },
         "email": {
-          "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "label": "Электронная почта",
+          "placeholder": "Адрес электронной почты",
+          "error": "Неправильный адрес электронной почты"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Телефонный номер",
+          "error": "Номер телефона недействителен в {{country}}"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Кошельки",
+          "delete": "Удалить",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Адрес кошелька"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Имя кошелька"
           },
-          "add": "Add another"
+          "add": "Добавить другой кошелёк"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Пожалуйста, введите корректный адрес {{blockchain}}.",
+          "unique-address": "Контакт с этим кошельком уже существует."
         }
       }
     }
