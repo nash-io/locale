@@ -88,7 +88,7 @@
       "policy-withdrawals": "Withdrawals and deposits",
       "revoke-all-keys-button-label": "Revoke all keys",
       "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "plus-more": "+{{count}} mere"
     },
     "create-modal": {
       "credentials-step": "Brugeroplysninger",
@@ -199,7 +199,7 @@
       },
       "notifications": {
         "label": "Notifikationer",
-        "clear-all": "Clear all"
+        "clear-all": "Ryd alle"
       },
       "transfers": {
         "initializing": "Initializing",
@@ -264,7 +264,7 @@
           "profile": "Profil",
           "preferences": "Præferencer",
           "security": "Sikkerhed",
-          "limits": "Limits",
+          "limits": "Begrænsninger",
           "accounts": "Konti",
           "apikeys": "API nøgler"
         }
@@ -294,15 +294,15 @@
   "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
   "we-are-hiring": "We’re hiring",
   "errors": {
-    "location-banned-title": "Access blocked",
+    "location-banned-title": "Adgang blokeret",
     "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
     "invalid-clock-title": "Your computer’s clock is not accurate.",
     "permissions-issue-title": "Permissions Issue",
     "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
+    "network-issue-title": "Netværksfejl",
     "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
+    "generic-error-title": "Fejl",
+    "generic-error": "Noget gik galt. Prøv igen.",
     "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
     "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
     "password": {
@@ -330,12 +330,12 @@
     }
   },
   "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "yes": "ja",
+  "no": "nej",
   "account-types": {
-    "personal": "Personal account",
+    "personal": "Personlig konto",
     "trading": "Trading contract",
-    "external": "External account"
+    "external": "Ekstern konto"
   },
   "query-errors": {
     "failed": "Failed to load.",
@@ -347,16 +347,16 @@
     "time-in-hours": "<0>{{count}}</0> hour",
     "time-in-hours_plural": "<0>{{count}}</0> hours",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
+      "0": "Januar",
+      "1": "Februar",
+      "2": "Marts",
       "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
+      "4": "Maj",
+      "5": "Juni",
+      "6": "Juli",
       "7": "August",
       "8": "September",
-      "9": "October",
+      "9": "Oktober",
       "10": "November",
       "11": "December"
     }
@@ -366,8 +366,8 @@
     "contact-support": "Please <0>contact our support team</0> with any questions."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
+    "something-wrong": "Noget gik galt.",
+    "go-back": "Gå tilbage",
     "go-back-retry": "Retry and go back",
     "contact-support": "Please <0>contact our support team</0> for more details.",
     "permissions": {
@@ -458,7 +458,7 @@
       }
     },
     "your-details": {
-      "header": "Create an account",
+      "header": "Opret en konto",
       "subheader": "Your details",
       "disclaimer": {
         "title": "Notice for US customers",
@@ -466,7 +466,7 @@
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Fulde navn"
         },
         "referral-code": {
           "label": "Referral code (optional)",
@@ -487,18 +487,18 @@
       }
     },
     "country-details": {
-      "header": "Create an account",
+      "header": "Opret en konto",
       "subheader": "Where do you live?",
-      "edit": "Edit",
+      "edit": "Rediger",
       "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "save-changes": "Gem ændringer",
       "fields": {
         "country": {
           "label": "Country of residence"
         },
         "state": {
-          "label": "State",
-          "location": "Location"
+          "label": "Stat",
+          "location": "Lokation"
         },
         "confirm-country": {
           "label": "I confirm that this is my country of residence."
@@ -509,24 +509,24 @@
       }
     },
     "account-details": {
-      "header": "Create an account",
+      "header": "Opret en konto",
       "subheader": "Account details",
-      "continue": "Create account",
+      "continue": "Opret konto",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Indtast en e-mailadresse",
+          "placeholder": "E-mailadresse"
         },
         "password": {
           "label": "Create a password",
-          "placeholder": "Password",
+          "placeholder": "Adgangskode",
           "errors": {
             "password-too-weak": "The password you chose is too weak."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Bekræft din adgangskode",
+          "placeholder": "Bekræft adgangskode",
           "errors": {
             "passwords-do-not-match": "Passwords do not match."
           }
@@ -534,7 +534,7 @@
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
+          "title": "Tips til en stærk adgangskode.",
           "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
           "tip-index": "Tip {{index}}",
           "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
@@ -547,20 +547,20 @@
         "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
         "tips": "Password creation tips",
         "password-strength": "Password strength",
-        "weak": "Weak",
+        "weak": "Svag",
         "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "strong": "Stærk",
+        "very-strong": "Meget stærk"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
+      "header": "Vi har sendt dig en e-mail!",
+      "desc-1": "Venligst check din e-mail og bekræft din konto.",
+      "desc-2": "Hvis du ikke kan se vores e-mail, så tjek din spam mappe.",
+      "resend": "Gensend bekræftelsesmail",
+      "resend-delay": "Vent venligst {{count}} sekund…",
+      "resend-delay_plural": "Vent venligst {{count}} sekunder…",
+      "back": "Tilbage til log ind",
       "success": "Verification email resent successfully!",
       "errors": {
         "generic-error": "Error resending verification email. Please try again."
@@ -570,17 +570,17 @@
   "account-setup": {
     "tab-title": "Set up account",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Tolv hemmelige ord",
+      "Totrinsbekræftelse"
     ],
     "general-information": {
-      "title": "General information",
+      "title": "Generel information",
       "header": "Let’s create your personal account",
       "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
       "continue": "Get my twelve secret words",
       "skip2Fa": "Set up it later",
       "chart": {
-        "card-top": "Twelve secret words",
+        "card-top": "Tolv hemmelige ord",
         "card-top-right": "Nash account recovery if password is forgotten",
         "diamond-one": "Used in",
         "diamond-two": "Generate your personal account, which contains…",
@@ -591,7 +591,7 @@
       }
     },
     "secret-words": {
-      "title": "Secret words",
+      "title": "Hemmelige ord",
       "header": "Write down your twelve secret words",
       "desc": "These words are used to access your funds. You will also need them to reset your password.",
       "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
@@ -641,10 +641,10 @@
       }
     },
     "2fa": {
-      "title": "Two-factor authentication",
-      "header": "Recommended: Enable two-factor authentication",
-      "skip": "Skip",
-      "desc": "Two-factor authentication (2FA) adds an extra layer of security to your account.",
+      "title": "Totrinsbekræftelse",
+      "header": "Anbefalet: Aktiver totrinsbekræftelse",
+      "skip": "Spring over",
+      "desc": "Totrinsbekræftelse (2FA) tilføj et ekstra lag af sikkerhed til din konto.",
       "cards": {
         "1": {
           "header": "Download and install an authenticator app",
@@ -675,9 +675,9 @@
       "title-balances-and-limits": "Balances and limits",
       "increase-my-limits": "Increase my limits",
       "limits": {
-        "day": "Day",
-        "month": "Month",
-        "year": "Year",
+        "day": "Dag",
+        "month": "Måned",
+        "year": "År",
         "spend-of-limit": "of"
       }
     },
@@ -691,12 +691,12 @@
       "switch-to-simplified": "Switch to basic view",
       "current-market": "Market",
       "last-price": "Last traded price",
-      "last-24h": "Last 24h",
+      "last-24h": "Sidste 24t",
       "24h-change": "change",
-      "24h-high": "High",
-      "24h-low": "Low",
+      "24h-high": "Høj",
+      "24h-low": "Lav",
       "24h-volume": "Volume",
-      "my-portfolio": "My portfolio"
+      "my-portfolio": "Min portefølje"
     },
     "tips": {
       "balance": "<0>Tip</0> <1>Send funds to the trading contract here.</1> <2 />"
@@ -706,7 +706,7 @@
       "to-start-trading": "To start trading"
     },
     "balances": {
-      "title": "Accounts"
+      "title": "Konti"
     },
     "market-selection": {
       "no-results": "We couldn’t find any results for <0>{{searchTerm}}</0>.",
@@ -757,11 +757,11 @@
           "1m": "1m",
           "15m": "15m",
           "30m": "30m",
-          "1h": "1h",
-          "6h": "6h",
-          "12h": "12h",
+          "1h": "1t",
+          "6h": "6t",
+          "12h": "12t",
           "1d": "1d",
-          "1w": "1w",
+          "1w": "1u",
           "1M": "1M"
         },
         "study-overlay-menu": {
@@ -777,12 +777,12 @@
               "label": "Style"
             },
             "parameters": {
-              "label": "Settings"
+              "label": "Indstillinger"
             }
           },
           "buttons": {
             "update": {
-              "label": "Update"
+              "label": "Opdater"
             },
             "cancel": {
               "label": "Cancel"
@@ -791,17 +791,17 @@
         }
       },
       "depth-chart": {
-        "title": "Depth",
+        "title": "Dybde",
         "tooltip": {
-          "price": "Price: <0>{{price}}</0>",
+          "price": "Pris: <0>{{price}}</0>",
           "volume": "Volume: <0>{{volume}}</0>"
         }
       },
       "clear-studies-button-label": "Clear all indicators"
     },
     "create-order": {
-      "buy": "Buy {{currencySymbol}}",
-      "sell": "Sell {{currencySymbol}}",
+      "buy": "Køb {{currencySymbol}}",
+      "sell": "Sælg {{currencySymbol}}",
       "locked-trading-session": {
         "information": "Your trading session is locked. <0 />",
         "information-tooltip": "Sessions are locked when you refresh the page or are idle for 15 minutes.",
@@ -847,7 +847,7 @@
         },
         "cancel-at": {
           "label": "Cancel on",
-          "expires": "Expires",
+          "expires": "Udløber",
           "modal": {
             "label-no-selection": "Select a date to continue…",
             "errors": {
@@ -867,7 +867,7 @@
           "label-show": "Stop-limit"
         },
         "price": {
-          "label": "Price"
+          "label": "Pris"
         },
         "limit-price": {
           "label": "Limit",
@@ -952,15 +952,15 @@
       "trade-history-times": {
         "header": "Select a set timeframe to export",
         "custom": "Custom timeframe",
-        "months": "{{count}} month",
-        "months_plural": "{{count}} months",
-        "year": "{{count}} year"
+        "months": "{{count}} måned",
+        "months_plural": "{{count}} måneder",
+        "year": "{{count}} år"
       },
-      "reset-filters": "Reset",
+      "reset-filters": "Nulstil",
       "side-col": {
         "filter": {
-          "buy": "Buy",
-          "sell": "Sell",
+          "buy": "Køb",
+          "sell": "Sælg",
           "both": "Both"
         }
       },
@@ -3931,8 +3931,8 @@
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Opret kontakt",
+        "button": "Opret kontakt"
       },
       "edit": {
         "title": "Rediger denne kontakt",
