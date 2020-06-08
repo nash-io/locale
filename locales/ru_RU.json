@@ -33,7 +33,7 @@
   "reported-errors": "Сообщение об ошибках было отправлено",
   "credit-card-expiry-placeholder": "ММ/ГГ",
   "apikeys": {
-    "no-addresses-whitelisted": "Вы еще не включили адреса в белый список.",
+    "no-addresses-whitelisted": "Вы еще не внесли адреса в белый список.",
     "address-input-placeholder": "Добавьте адрес BTC, NEO или ETH в белый список",
     "add-whitelisted": "Адреса в белом списке",
     "duplicate-address-in-form": "Этот адрес уже содержится в белом списке.",
@@ -278,102 +278,102 @@
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Поиск…",
+  "loading": "Загружается…",
+  "pending": "Ожидает обработки",
+  "cancelling": "Отмена…",
+  "authenticating": "Аутентификация…",
+  "decrypting": "Декодирование…",
+  "encrypting": "Кодирование…",
+  "sending": "Отправление…",
+  "submit": "Послать",
+  "retry": "Попробовать снова",
+  "sending-approval": "Подтверждение отправляется…",
+  "send-approval": "Послать подтверждение",
+  "submit-transfer": "Послать перевод",
+  "no-longer-sufficient-balance-for-tx": "Чтобы осуществить эту транзакцию, необходимо сперва пополнить Ваш баланс.",
+  "we-are-hiring": "Вакансии",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Доступ заблокирован",
+    "location-banned": "К сожалению, Nash на данный момент не оперирует в Вашей зоне юрисдикции.",
+    "invalid-clock-title": "На часах Вашего компьютера не настроено правильное время.",
+    "permissions-issue-title": "Ошибка ограничений",
+    "invalid-clock": "Настройте правильное время на часах Вашего компьютера, чтобы пользоваться Nash. <0>Синхронизируйте часы</0> и <1>повторите попытку</1>.",
+    "network-issue-title": "Сетевая проблема",
+    "network-issue": "Возникла временная сетевая проблема. Пожалуйста, <0>повторите попытку</0>.",
+    "generic-error-title": "Ошибка",
+    "generic-error": "Произошла ошибка. Пожалуйста, повторите попытку.",
+    "generic-error-signout": "Произошла непредвиденная ошибка. Пожалуйста, выполните выход из системы и повторите попытку.",
+    "within-waiting-period": "Подождите пять минут, прежде чем создать новый stake. Ваш новый stake скоро будет доступен.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Вы ввели неверный пароль."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Вы ввели неверный код двухфакторной аутентификации. Внимание: у Вас всего пять попыток.",
+      "already-used": "Вы ввели код двухфакторной аутентификации, который уже был использован. Пожалуйста, подождите и повторите попытку.",
+      "code-expired": "Код двухфакторной аутентификации, который Вы ввели, уже просрочен. Пожалуйста, подождите и повторите попытку.",
+      "too-many-failures": "Вы ввели неверный код аутентификации слишком много раз – Ваш аккаунт теперь временно заблокирован. Пожалуйста, обратитесь в службу поддержки.",
+      "too-many-failures-signout": "Вы ввели неверный код аутентификации слишком много раз – Ваш аккаунт теперь временно заблокирован. Сейчас Вы покинете систему."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "При кодировании произошла ошибка. Пожалуйста, выполните выход из системы и повторите попытку.",
+      "decryption-failed": "При декодировании произошла ошибка. Пожалуйста, выполните выход из системы и повторите попытку."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Ваш аккаунт находится на рассмотрении!",
+        "message": "Возвращайтесь через несколько минут."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Ваш аккаунт не найден."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Поиск не дал результатов.",
+  "yes": "да",
+  "no": "нет",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Персональный аккаунт",
+    "trading": "Торговый контракт",
+    "external": "Внешний аккаунт"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "Failed to load. Please <0>retry</0>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "При загрузке произошел сбой.",
+    "failed-button": "При загрузке произошел сбой.",
+    "failed-please-try": "При загрузке произошел сбой. Пожалуйста, <0>повторите попытку</0>.",
+    "why-this-may-happening": "Узнайте <0>здесь</0>, почему это могло произойти."
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> час",
+    "time-in-hours_plural": "<0>{{count}}</0> часов",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "января",
+      "1": "февраля",
+      "2": "марта",
+      "3": "апреля",
+      "4": "мая",
+      "5": "июня",
+      "6": "июля",
+      "7": "августа",
+      "8": "сентября",
+      "9": "октября",
+      "10": "ноября",
+      "11": "декабря"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "К сожалению, на данный момент Nash не оперирует в Вашем регионе.",
+    "contact-support": "Пожалуйста, <0>обратитесь в нашу службу поддержки</0>, если возникли вопросы."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Произошла ошибка.",
+    "go-back": "Назад",
+    "go-back-retry": "Вернуться назад и повторить попытку",
+    "contact-support": "Пожалуйста, <0>обратитесь в нашу службу поддержки</0> за дальнейшей информацией.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "В песочнице нет этой функции!",
+        "content": "В песочнице эта функция была отключена."
       },
       "tier-0": {
         "location-mismatch": {
