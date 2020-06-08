@@ -433,7 +433,7 @@
   "account-create": {
     "steps": [
       "Your details",
-      "Country",
+      "Land",
       "Account details"
     ],
     "signin": {
@@ -441,11 +441,11 @@
       "sign-in-now": "Sign in now"
     },
     "form": {
-      "your-state-is": "Your state is",
+      "your-state-is": "Din stat er",
       "fields": {
         "optional": "(optional)"
       },
-      "continue": "Continue",
+      "continue": "Fortsæt",
       "errors": {
         "generic-error": "Error signing up for an account. Please try again.",
         "invalid-referral-code-can-continue": "Invalid referral code.",
@@ -544,11 +544,11 @@
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
+        "desc": "Brug en kombination af store og små bogstaver, tal og specialtegn for en stærkere adgangskode.",
+        "tips": "Tips til oprettelse af adgangskode",
+        "password-strength": "Adgangskode styrke",
         "weak": "Svag",
-        "medium": "Medium",
+        "medium": "Middel",
         "strong": "Stærk",
         "very-strong": "Meget stærk"
       }
@@ -716,7 +716,7 @@
       "24hprice": "24h change",
       "tabs": {
         "all": "All",
-        "favorites": "Favorites"
+        "favorites": "Favoritter"
       }
     },
     "favorite-bar": {
@@ -726,7 +726,7 @@
     "market-graphs": {
       "title": "Graphs",
       "price-chart": {
-        "title": "Price",
+        "title": "Pris",
         "heads-up-display": {
           "ohlc": {
             "o": "O",
@@ -746,7 +746,7 @@
         },
         "studies": {
           "title": "Indicators",
-          "search": "Search",
+          "search": "Søg",
           "no-results": "No results for your criteria"
         },
         "price-chart-selector": {
@@ -765,7 +765,7 @@
           "1M": "1M"
         },
         "study-overlay-menu": {
-          "edit-study": "Edit settings",
+          "edit-study": "Rediger indstillinger",
           "remove-study": "Remove indicator"
         },
         "edit-study-modal": {
@@ -785,7 +785,7 @@
               "label": "Opdater"
             },
             "cancel": {
-              "label": "Cancel"
+              "label": "Annuller"
             }
           }
         }
@@ -917,8 +917,8 @@
     "my-orders": {
       "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Get started</0> <1>with Nash</1>",
-        "subtitle": "Create an account in under a minute – no KYC required!"
+        "title": "<0>Kom i gang</0> <1>med Nash</1>",
+        "subtitle": "Opret en konto på under et minut - ingen KYC påkrævet!"
       },
       "no-results": {
         "date-range": "You have no orders in the given date range.",
@@ -927,14 +927,14 @@
         "trades": "You have no trade history."
       },
       "tabs": {
-        "orders": "Orders",
+        "orders": "Ordre",
         "trades": "Trade history"
       },
       "date-range-selection": {
         "days": "{{range}}d",
-        "weeks": "{{range}}w",
+        "weeks": "{{range}}u",
         "months": "{{range}}M",
-        "years": "{{range}}Y",
+        "years": "{{range}}Å",
         "clear": "Clear",
         "select-action": "Custom",
         "popup": {
@@ -985,10 +985,10 @@
         }
       },
       "cancel-col": {
-        "header-title": "Cancel all",
+        "header-title": "Annuller alle",
         "partial-fill": "Partial fill",
         "cancelled-partial-fill": "Canceled: Partial fill",
-        "cancelled-order": "Order canceled"
+        "cancelled-order": "Ordre annulleret"
       },
       "cancelled-unfilled-col": {
         "header-title": "Unfilled amount",
@@ -1000,10 +1000,10 @@
       },
       "status-col": {
         "header-title": "Status",
-        "open": "Open",
-        "cancelled": "Canceled",
+        "open": "Åben",
+        "cancelled": "Annulleret",
         "filled": "Filled",
-        "pending": "Pending"
+        "pending": "Afventer"
       },
       "executed-col": {
         "header-title": "Filled",
@@ -1023,7 +1023,7 @@
       },
       "price-col": {
         "header-title": "Price",
-        "header-title-with-currency": "{{currency}} price"
+        "header-title-with-currency": "{{currency}} pris"
       },
       "pair-col": {
         "header-title": "Pair"
@@ -1033,9 +1033,9 @@
         "header-title-with-currency": "{{currency}} amount filled"
       },
       "fee-col": {
-        "header-title": "Fee",
-        "header-title-with-currency": "{{currency}} fee",
-        "no-fee": "No fee"
+        "header-title": "Gebyr",
+        "header-title-with-currency": "{{currency}} gebyr",
+        "no-fee": "Ingen gebyr"
       },
       "condition-col": {
         "header-title": "Stop price",
@@ -1050,9 +1050,9 @@
     },
     "recent-trades": {
       "title": "Recent trades",
-      "order-size-col": "{{symbol}} size",
-      "price-col": "{{symbol}} price",
-      "time-col": "Time"
+      "order-size-col": "{{symbol}} størrelse",
+      "price-col": "{{symbol}} pris",
+      "time-col": "Tid"
     },
     "orderbook": {
       "title": "USD",
@@ -1063,39 +1063,39 @@
       "average": "Avg. price",
       "sum-size": "{{symbol}} sum",
       "num-decimals": "{{decimals}} decimal",
-      "num-decimals_plural": "{{decimals}} decimals",
+      "num-decimals_plural": "{{decimals}} decimaler",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Learn more about our <1>fees</1>."
+    "learn-about-our-fees": "Lær mere om vores <1>gebyrer</1>."
   },
   "auth": {
-    "create-an-account": "Create an account",
+    "create-an-account": "Opret en konto",
     "forgotten": "Lost 2FA?",
-    "sign-in-now": "Sign in now",
-    "sign-in": "Sign in",
-    "sign-out": "Sign out",
+    "sign-in-now": "Log ind nu",
+    "sign-in": "Log ind",
+    "sign-out": "Log ud",
     "password-strength": {
-      "0": "Very weak",
-      "1": "Weak",
-      "2": "Medium",
-      "3": "Strong",
-      "4": "Very strong",
-      "label": "Password strength"
+      "0": "Meget svag",
+      "1": "Svag",
+      "2": "Middel",
+      "3": "Stærk",
+      "4": "Meget stærk",
+      "label": "Adgangskode styrke"
     },
     "password-form": {
       "password": {
-        "label": "Password",
-        "placeholder": "Enter your password"
+        "label": "Adgangskode",
+        "placeholder": "Indtast din adgangskode"
       },
       "code": {
-        "label": "Two-factor authentication",
-        "placeholder": "Enter your two-factor authentication code"
+        "label": "Totrinsbekræftelse",
+        "placeholder": "Indtast din totrinsbekræftelseskode"
       }
     },
     "new-wallets": {
       "btc": {
-        "title": "You can now send, receive and store Bitcoin with Nash!",
+        "title": "Du kan nu sende, modtage og opbevare Bitcoin med Nash!",
         "subtext": "We’ll notify you when Bitcoin trading pairs are available on the Nash Exchange.",
         "btn-bitcoin": "Deposit Bitcoin",
         "btn-funds": "Continue to portfolio"
@@ -1109,14 +1109,14 @@
       "signing-out": "({{count}}s) Signing out…"
     },
     "signup": {
-      "desc": "Don’t have an account yet?",
-      "sign-up": "Create one"
+      "desc": "Har du ikke en konto endnu?",
+      "sign-up": "Opret en"
     },
     "form": {
-      "continue": "Continue"
+      "continue": "Fortsæt"
     },
     "missing-country": {
-      "header": "Before you continue…",
+      "header": "Før du fortsætter…",
       "subheader": "Where do you live?",
       "messages": {
         "vpn-warning-title": "We noticed you’re using a VPN.",
@@ -1130,7 +1130,7 @@
           "label": "Country of residence"
         },
         "state": {
-          "label": "State"
+          "label": "Stat"
         },
         "confirm-country": {
           "label": "I confirm that this is my country of residence."
@@ -1142,19 +1142,19 @@
     },
     "signin": {
       "header": "Sign in to Nash",
-      "header-2fa": "Two-factor authentication",
+      "header-2fa": "Totrinsbekræftelse",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "E-mailadresse",
+          "placeholder": "E-mailadresse"
         },
         "password": {
-          "label": "Password",
-          "sub-label": "Forgotten password?",
-          "placeholder": "Password"
+          "label": "Adgangskode",
+          "sub-label": "Glemt adgangskode??",
+          "placeholder": "Adgangskode"
         },
         "remember-me": {
-          "label": "Remember me"
+          "label": "Husk mig"
         }
       },
       "messages": {
@@ -1179,13 +1179,13 @@
       }
     },
     "forgot-password": {
-      "tab-title": "Forgotten password",
-      "header": "Forgotten your password?",
+      "tab-title": "Glemt adgangskode",
+      "header": "Glemt din adgangskode?",
       "desc": "Enter your email address below and we’ll get you back on track.",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "E-mailadresse",
+          "placeholder": "E-mailadresse"
         }
       },
       "submit": "Request reset link",
@@ -1200,14 +1200,14 @@
       ],
       "secret-words": {
         "home": {
-          "header": "Do you still have your twelve secret words?",
+          "header": "Har du stadig dine tolv hemmelige ord?",
           "sub-header": "When you first set up your Nash account, we asked you to write these words down and keep them safe.",
-          "button-have-words": "Yes, I still have my secret words",
+          "button-have-words": "Ja, jeg har stadig mine tolv hemmelige ord",
           "button-lost-words": "No, I have lost my secret words",
           "desc": "Unfortunately, if you have lost both your old password and your twelve secret words, you will be unable to recover your funds."
         },
         "edit": {
-          "header": "Enter your twelve secret words",
+          "header": "Indtast dine tolv hemmelige ord",
           "desc-1": "We use your secret words to regenerate your master seed and individual asset accounts.",
           "desc-2": "If you cannot provide the twelve words for your existing accounts, <0>your funds will be lost.</0>",
           "card-title": "All words are lowercase",
@@ -1243,22 +1243,22 @@
         "desc-success-reset": "You will be able to set up new wallets the next time you sign in.",
         "fields": {
           "password": {
-            "label": "New password",
-            "placeholder": "New password",
+            "label": "Ny adgangskode",
+            "placeholder": "Ny adgangskode",
             "errors": {
-              "password-too-weak": "The password you chose is too weak."
+              "password-too-weak": "Adgangskoden du har valgt er for svag."
             }
           },
           "password-confirm": {
-            "label": "Confirm new password",
-            "placeholder": "Confirm new password",
+            "label": "Bekræft ny adgangskode",
+            "placeholder": "Bekræft ny adgangskode",
             "errors": {
               "passwords-do-not-match": "Passwords do not match."
             }
           },
           "code": {
-            "label": "Two-factor authentication",
-            "placeholder": "Enter your two-factor authentication code"
+            "label": "Totrinsbekræftelse",
+            "placeholder": "Indtast din totrinsbekræftelseskode"
           }
         },
         "errors": {
@@ -1270,9 +1270,9 @@
         "submit": "Set new password"
       }
     },
-    "verify-email": "Verifying email address…",
+    "verify-email": "Bekræfter din e-mailadresse…",
     "secret-word-list-edit": {
-      "placeholder": "Word {{index}}"
+      "placeholder": "Ord {{index}}"
     },
     "discourse-sso": {
       "login": {
@@ -1308,8 +1308,8 @@
         }
       },
       "get-token": "Authenticating…",
-      "log-you-in": "Logging in…",
-      "unknow-error-message": "Something went wrong, please try again."
+      "log-you-in": "Logger ind…",
+      "unknow-error-message": "Noget gik galt, venligst prøv igen."
     }
   },
   "basic-exchange": {
@@ -1403,7 +1403,7 @@
         "toggle-limit": "Set a price for this trade",
         "above-limit": "{{percent}}% above market",
         "below-limit": "{{percent}}% below market",
-        "reset": "Reset",
+        "reset": "Nulstil",
         "submit": "Review trade"
       },
       "review-order": {
@@ -1428,7 +1428,7 @@
         "header": {
           "insufficient-funds": "Insufficient funds",
           "daily-limit-reached": "Daily limit reached",
-          "generic": "Something went wrong!"
+          "generic": "Noget gik galt!"
         },
         "desc": {
           "insufficient-funds": {
@@ -1459,17 +1459,17 @@
     "AQ": "Antarctica",
     "AR": "Argentina",
     "AS": "American Samoa",
-    "AT": "Austria",
-    "AU": "Australia",
+    "AT": "Østrig",
+    "AU": "Australien",
     "AW": "Aruba",
     "AX": "Åland Islands",
     "AZ": "Azerbaijan",
     "BA": "Bosnia and Herzegovina",
     "BB": "Barbados",
     "BD": "Bangladesh",
-    "BE": "Belgium",
+    "BE": "Belgien",
     "BF": "Burkina Faso",
-    "BG": "Bulgaria",
+    "BG": "Bulgarien",
     "BH": "Bahrain",
     "BI": "Burundi",
     "BJ": "Benin",
@@ -1478,7 +1478,7 @@
     "BN": "Brunei Darussalam",
     "BO": "Bolivia (Plurinational State of)",
     "BQ": "Bonaire, Sint Eustatius and Saba",
-    "BR": "Brazil",
+    "BR": "Brasilien",
     "BS": "Bahamas",
     "BT": "Bhutan",
     "BV": "Bouvet Island",
@@ -1490,12 +1490,12 @@
     "CD": "Congo (Democratic Republic of the)",
     "CF": "Central African Republic",
     "CG": "Congo",
-    "CH": "Switzerland",
+    "CH": "Schweiz",
     "CI": "Côte d’Ivoire",
     "CK": "Cook Islands",
     "CL": "Chile",
     "CM": "Cameroon",
-    "CN": "China",
+    "CN": "Kina",
     "CO": "Colombia",
     "CR": "Costa Rica",
     "CU": "Cuba",
@@ -1504,25 +1504,25 @@
     "CX": "Christmas Island",
     "CY": "Cyprus",
     "CZ": "Czech Republic",
-    "DE": "Germany",
+    "DE": "Tyskland",
     "DJ": "Djibouti",
-    "DK": "Denmark",
+    "DK": "Danmark",
     "DM": "Dominica",
     "DO": "Dominican Republic",
     "DZ": "Algeria",
     "EC": "Ecuador",
     "EE": "Estonia",
-    "EG": "Egypt",
+    "EG": "Egypten",
     "EH": "Western Sahara",
     "ER": "Eritrea",
-    "ES": "Spain",
-    "ET": "Ethiopia",
+    "ES": "Spanien",
+    "ET": "Etopien",
     "FI": "Finland",
     "FJ": "Fiji",
     "FK": "Falkland Islands (Malvinas)",
     "FM": "Micronesia (Federated States of)",
     "FO": "Faroe Islands",
-    "FR": "France",
+    "FR": "Frankrig",
     "GA": "Gabon",
     "GB": "United Kingdom of Great Britain and Northern Ireland",
     "GD": "Grenada",
@@ -1531,12 +1531,12 @@
     "GG": "Guernsey",
     "GH": "Ghana",
     "GI": "Gibraltar",
-    "GL": "Greenland",
+    "GL": "Grønland",
     "GM": "Gambia",
     "GN": "Guinea",
     "GP": "Guadeloupe",
     "GQ": "Equatorial Guinea",
-    "GR": "Greece",
+    "GR": "Grækenland",
     "GS": "South Georgia and the South Sandwich Islands",
     "GT": "Guatemala",
     "GU": "Guam",
@@ -1545,19 +1545,19 @@
     "HK": "Hong Kong",
     "HM": "Heard Island and McDonald Islands",
     "HN": "Honduras",
-    "HR": "Croatia",
+    "HR": "Kroatien",
     "HT": "Haiti",
-    "HU": "Hungary",
-    "ID": "Indonesia",
+    "HU": "Ungarn",
+    "ID": "Indonesien",
     "IE": "Ireland",
     "IL": "Israel",
     "IM": "Isle of Man",
-    "IN": "India",
+    "IN": "Indien",
     "IO": "British Indian Ocean Territory",
-    "IQ": "Iraq",
+    "IQ": "Irak",
     "IR": "Iran (Islamic Republic of)",
-    "IS": "Iceland",
-    "IT": "Italy",
+    "IS": "Island",
+    "IT": "Italien",
     "JE": "Jersey",
     "JM": "Jamaica",
     "JO": "Jordan",
@@ -1568,8 +1568,8 @@
     "KI": "Kiribati",
     "KM": "Comoros",
     "KN": "Saint Kitts and Nevis",
-    "KP": "North Korea",
-    "KR": "South Korea",
+    "KP": "Nord Korea",
+    "KR": "Syd Korea",
     "KW": "Kuwait",
     "KY": "Cayman Islands",
     "KZ": "Kazakhstan",
@@ -1580,7 +1580,7 @@
     "LK": "Sri Lanka",
     "LR": "Liberia",
     "LS": "Lesotho",
-    "LT": "Lithuania",
+    "LT": "Litauen",
     "LU": "Luxembourg",
     "LV": "Latvia",
     "LY": "Libya",
@@ -1614,7 +1614,7 @@
     "NG": "Nigeria",
     "NI": "Nicaragua",
     "NL": "Netherlands",
-    "NO": "Norway",
+    "NO": "Norge",
     "NP": "Nepal",
     "NR": "Nauru",
     "NU": "Niue",
@@ -1626,7 +1626,7 @@
     "PG": "Papua New Guinea",
     "PH": "Philippines",
     "PK": "Pakistan",
-    "PL": "Poland",
+    "PL": "Polen",
     "PM": "Saint Pierre and Miquelon",
     "PN": "Pitcairn",
     "PR": "Puerto Rico",
@@ -1636,7 +1636,7 @@
     "PY": "Paraguay",
     "QA": "Qatar",
     "RE": "Réunion",
-    "RO": "Romania",
+    "RO": "Romanien",
     "RS": "Serbia",
     "RU": "Russian Federation",
     "RW": "Rwanda",
@@ -1644,12 +1644,12 @@
     "SB": "Solomon Islands",
     "SC": "Seychelles",
     "SD": "Sudan",
-    "SE": "Sweden",
+    "SE": "Sverige",
     "SG": "Singapore",
     "SH": "Saint Helena, Ascension and Tristan da Cunha",
-    "SI": "Slovenia",
+    "SI": "Slovenien",
     "SJ": "Svalbard and Jan Mayen",
-    "SK": "Slovakia",
+    "SK": "Slovakiet",
     "SL": "Sierra Leone",
     "SM": "San Marino",
     "SN": "Senegal",
@@ -1670,9 +1670,9 @@
     "TK": "Tokelau",
     "TL": "Timor-Leste",
     "TM": "Turkmenistan",
-    "TN": "Tunisia",
+    "TN": "Tunisien",
     "TO": "Tonga",
-    "TR": "Turkey",
+    "TR": "Tyrkiet",
     "TT": "Trinidad and Tobago",
     "TV": "Tuvalu",
     "TW": "Taiwan",
@@ -1696,7 +1696,7 @@
     "XX": "Unspecified nationality",
     "YE": "Yemen",
     "YT": "Mayotte",
-    "ZA": "South Africa",
+    "ZA": "Syd Africa",
     "ZM": "Zambia",
     "ZW": "Zimbabwe"
   },
