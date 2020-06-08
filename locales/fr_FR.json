@@ -635,7 +635,7 @@
       "wallet-created": {
         "header": "Votre compte Nash a été créé avec succès!",
         "desc": "Vous pouvez trouver vos douze mots secrets et les détails de votre compte individuel sous «Mon profil> Comptes».",
-        "warning": "<0>Nous ne stockons pas vos mots secrets dans aucun endroit.</0>Si vous oubliez votre mot de passe, vous ne pourrez pas accéder à vos fonds sans ces mots.",
+        "warning": "<0>Nous ne stockons pas vos mots secrets dans aucun endroit.</0> Si vous oubliez votre mot de passe, vous ne pourrez pas accéder à vos fonds sans ces mots.",
         "continue": "Configurer l’authentification à deux facteurs",
         "continue-location": "Définir le lieu de résidence"
       }
@@ -912,7 +912,7 @@
         "order-rejected-daily-limit-reached": "Votre ordre a été refusé car vous avez atteint votre limite de négociation quotidienne.",
         "generic": "Erreur lors de votre ordre. Veuillez réessayer."
       },
-      "signin-or-create-an-account": "<0>Connectez-vous</0>ou<1>créez un compte</1>pour passer un ordre."
+      "signin-or-create-an-account": "<0>Connectez-vous</0> ou <1>créez un compte</1> pour passer un ordre."
     },
     "my-orders": {
       "auth": "Connectez-vous pour voir vos ordres.",
@@ -2153,8 +2153,8 @@
         "verification-pending": "La vérification d’identité est en attente.",
         "verification-succeeded": "Vérification d’identité réussie.",
         "verification-failed": "La vérification d’identité a échoué. Veuillez mettre à jour et soumettre à nouveau vos informations.",
-        "verification-failed-permanently": "La vérification d’identité a échoué. Veuillez<0>contacter Carbon</0>.",
-        "enable-2fa-before-proceeding": "Vous devez<0>activer l’authentification à deux facteurs pour Carbon</0>pour effectuer cet achat."
+        "verification-failed-permanently": "La vérification d’identité a échoué. Veuillez <0>contacter Carbon</0>.",
+        "enable-2fa-before-proceeding": "Vous devez <0>activer l’authentification à deux facteurs pour Carbon</0> pour effectuer cet achat."
       },
       "submit-kyc": {
         "required-incomplete": "Vous devez remplir tous les champs obligatoires.",
@@ -2259,11 +2259,11 @@
           "select-label": "Quel document souhaitez-vous télécharger pour la vérification d’adresse?",
           "upload-label": "Téléchargez une photo de vos informations.",
           "upload-label-format": "Formats JPG ou PNG uniquement, taille de fichier maximale 3 Mo.",
-          "upload-policy-label": "Consultez nos<0>pratiques de capture de documents</0>pour plus d’informations sur la façon de prendre la bonne photo.",
+          "upload-policy-label": "Consultez nos <0>pratiques de capture de documents</0> pour plus d’informations sur la façon de prendre la bonne photo.",
           "warning": "Je comprends que si je soumets à nouveau des documents, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
           "file-uploaded": "{{fileName}} importé",
           "file-failed": "Échec du téléchargement: {{fileName}}",
-          "file-update": "<0>Supprimer</0>ou<1>télécharger une nouvelle image</1>",
+          "file-update": "<0>Supprimer</0> ou <1>télécharger une nouvelle image</1>",
           "try-again": "Réessayer",
           "submit-btn": "Soumettre le document"
         },
@@ -2287,20 +2287,20 @@
           "select-label": "Quel document d’identité souhaitez-vous télécharger pour la vérification?",
           "upload-label": "Téléchargez une photo de votre passeport.",
           "upload-label-format": "Formats JPG ou PNG uniquement, taille maximale du fichier: 3 Mo.",
-          "upload-policy-label": "Consultez nos<0>pratiques de capture de documents</0>pour plus d’informations sur la façon de prendre la bonne photo.",
+          "upload-policy-label": "Consultez nos <0>pratiques de capture de documents</0> pour plus d’informations sur la façon de prendre la bonne photo.",
           "warning": "Je comprends que si je soumets à nouveau des documents, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
-          "national-id-upload": "Téléchargez deux<0>photographies</0>distinctes de votre carte d’identité nationale, une de l’avant et une de l’arrièrie.",
+          "national-id-upload": "Téléchargez deux <0>photographies</0> distinctes de votre carte d’identité nationale, une de l’avant et une de l’arrièrie.",
           "national-id-upload-format": "Orientation paysage, format JPG ou PNG uniquement, taille de fichier maximale: 4 Mo, taille de fichier minimale: 500 Ko.",
           "image-practices-msg": "Consultez nos recommandations de capture de documents pour plus d’informations sur la façon de prendre la bonne photo.",
-          "driver-license-upload": "Téléchargez deux<0>photographies</0>distinctes de votre permis de conduire, l’une à l’avant et l’autre à l’arrière.",
+          "driver-license-upload": "Téléchargez deux <0>photographies</0> distinctes de votre permis de conduire, l’une à l’avant et l’autre à l’arrière.",
           "driver-license-upload-format": "Format JPG ou PNG uniquement, taille maximale du fichier: 3 Mo.",
           "file-uploaded": "{{fileName}} importé",
           "file-failed": "Échec du téléchargement: {{fileName}}",
-          "file-update": "<0>Supprimer</0>ou<1>télécharger une nouvelle image</1>",
+          "file-update": "<0>Supprimer</0> ou <1>télécharger une nouvelle image</1>",
           "try-again": "Réessayer",
           "submit-btn": "Soumettre le document",
           "passport-drag-label": "Informations sur le passeport",
-          "passport-drag-link": "Faites glisser et déposez ou<0>téléchargez un fichier</0>.",
+          "passport-drag-link": "Faites glisser et déposez ou <0>téléchargez un fichier</0>.",
           "front-drag-label": "De face",
           "back-drag-label": "Back",
           "missing": "",
@@ -2371,7 +2371,7 @@
       "add-occupation": "Declare occupation",
       "add-source-of-funds": "Déclarez la source de financement",
       "header": "Informations de profil de niveau 1",
-      "contact-support-to-edit": "<0>Contactez le support</0>pour modifier",
+      "contact-support-to-edit": "<0>Contactez le support</0> pour modifier",
       "source-of-funds": "Source de fonds",
       "occupation": "Occupation",
       "my-limits-tab": "Limites",
