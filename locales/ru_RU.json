@@ -1,5 +1,5 @@
 {
-  "sandbox-warning": "Вы находитесь в ‘песочнице’ для тестирования интеграции API. Никогда не посылайте сюда настоящие ресурсы!",
+  "sandbox-warning": "Вы находитесь в ‘песочнице’ для тестирования интеграции API. Никогда не посылайте сюда настоящие активы!",
   "buy": "купить",
   "sell": "продать",
   "continue": "Продолжить",
@@ -487,83 +487,83 @@
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
-      "edit": "Edit",
-      "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "header": "Регистрация нового аккаунта",
+      "subheader": "Где Вы живёте?",
+      "edit": "Изменить",
+      "cancel": "Отмена",
+      "save-changes": "Сохранить",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Страна проживания"
         },
         "state": {
-          "label": "State",
+          "label": "Страна",
           "location": "Location"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Я подтверждаю, что действительно проживаю в этой стране."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Я подтверждаю, что действительно проживаю в этом государстве."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Регистрация нового аккаунта",
+      "subheader": "Личные данные",
+      "continue": "Создать аккаунт",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Укажите адрес электронной почты",
+          "placeholder": "Адрес электронной почты"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Создайте пароль",
+          "placeholder": "Пароль",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Этот пароль недостаточно надёжный."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Подтвердите Ваш пароль",
+          "placeholder": "Подтверждение пароля",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Пароли не совпадают."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "title": "Как выбрать надёжный пароль",
+          "desc": "Только по-настоящему надёжный пароль сохранит Ваши активы в безопасности. Руководствуйтесь этой памяткой, чтобы защитить Ваш аккаунт:",
+          "tip-index": "Правило {{index}}",
+          "tip-1": "Не используйте пароль, которым Вы уже пользуетесь где-то ещё, даже если Вы собираетесь поменять несколько букв или символов. Как только этот пароль будет перехвачен или взломан на другой странице, Ваш аккаунт Nash сразу потеряет защиту.",
+          "tip-2": "Ваш пароль ни в коем случае не должен содержать легко доступную личную информацию. Имена, дни рождения и адреса узнать совсем несложно.",
+          "tip-3": "Выберите пароль длиной минимум 12 знаков, содержащий заглавные и строчные буквы, цифры и символы.",
+          "tip-4": "Генератор паролей предложит Вам наиболее надёжные пароли и поможет их сохранить."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Используйте заглавные и строчные буквы, цифры и символы, чтобы сделать пароль надёжным.",
+        "tips": "Памятка для создания пароля",
+        "password-strength": "Надёжность пароля",
+        "weak": "Слабый",
+        "medium": "Не очень надёжный",
+        "strong": "Надёжный",
+        "very-strong": "Очень надёжный"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "Мы выслали сообщение на Ваш адрес электронной почты!",
+      "desc-1": "Проверьте Ваш почтовый ящик и пройдите по ссылке для верификации аккаунта.",
+      "desc-2": "Если Вы не получили наше сообщение, проверьте папку со спамом.",
+      "resend": "Повторно выслать ссылку для верификации",
+      "resend-delay": "Подождите {{count}} секунды…",
+      "resend-delay_plural": "Подождите {{count}} секунд…",
+      "back": "Вернуться к входу в систему",
+      "success": "Ссылка для верификации была выслана повторно!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Произошла ошибка при повторной отправке ссылки для верификации. Пожалуйста, повторите попытку."
       }
     }
   },
