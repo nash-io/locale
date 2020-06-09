@@ -497,14 +497,14 @@
           "label": "Страна проживания"
         },
         "state": {
-          "label": "Страна",
+          "label": "Штат",
           "location": "Location"
         },
         "confirm-country": {
           "label": "Я подтверждаю, что действительно проживаю в этой стране."
         },
         "confirm-country-and-state": {
-          "label": "Я подтверждаю, что действительно проживаю в этом государстве."
+          "label": "Я подтверждаю, что действительно проживаю в этом штате."
         }
       }
     },
@@ -568,58 +568,58 @@
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Создать новый аккаунт",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Двенадцать секретных слов",
+      "Двухфакторная аутентификация"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "Общие сведения",
+      "header": "Создайте свой персональный аккаунт",
+      "desc-1": "Ваш персональный аккаунт будет создан с помощью двенадцати секретных слов. Если Вы потеряете свой пароль, эти слова позволят Вам восстановить Ваш аккаунт и снова получить доступ к нему. Сразу же и непременно сохраните их в надёжном месте!",
+      "continue": "Покажите мои секретные слова",
+      "skip2Fa": "Настроить позже",
       "chart": {
-        "card-top": "Twelve secret words",
-        "card-top-right": "Nash account recovery if password is forgotten",
+        "card-top": "Двенадцать секретных слов",
+        "card-top-right": "Восстановить аккаунт Nash в случае потери пароля",
         "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
-        "card-btc": "Bitcoin account",
-        "card-neo": "NEO account",
-        "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "diamond-two": "Создайте свой персональный аккаунт, который включает в себя…",
+        "card-btc": "Bitcoin аккаунт",
+        "card-neo": "NEO аккаунт",
+        "card-eth": "Ethereum аккаунт",
+        "card-future": "Любые другие аккаунты"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "title": "Секретные слова",
+      "header": "Запишите свои двенадцать секретных слов",
+      "desc": "С помощью этих слов Вы сможете получить доступ к своим активам. Они также понадобятся Вам, чтобы восстановить забытый пароль.",
+      "popup-error": "Если Вы хотите распечатать секретные слова, деактивируйте все разрешения для блокировки рекламы и разрешите Nash открывать всплывающие окна.",
+      "continue": "Продолжить",
+      "go-back": "Назад",
+      "written-down": "Я записал(а) свои слова.",
+      "check-my-backup": "Проверить резервную копию",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Перепишите секретные слова от руки.",
+        "dont": "Не храните цифровую копию слов или скриншот на компьютере."
       },
       "modals": {
         "print-warning": {
-          "title": "Print your twelve secret words",
-          "header": "Please make sure your printer is secure!",
-          "body-desc": "If you choose to print your words, make sure:",
-          "body-tips-0": "Your printer is connected to your computer directly with a USB cable.",
-          "body-tips-1": "Your printer is not connected to a network of any kind.",
-          "body-tips-2": "It is impossible for others to connect to your printer via Bluetooth, WLAN, etc.",
-          "button": "I understand - print my words"
+          "title": "Распечатайте свои секретные слова",
+          "header": "Удостоверьтесь в том, что подключение к Вашему принтеру безопасно!",
+          "body-desc": "Если Вы решили распечатать Ваши слова, убедитесь, что…",
+          "body-tips-0": "Ваш принтер напрямую подключён к компьютеру через USB кабель.",
+          "body-tips-1": "Ваш принтер не подключён ни к какой сети.",
+          "body-tips-2": "никто не может подключиться к Вашему принтеру через Bluetooth, WLAN и т.д.",
+          "button": "Ясно! Распечатать мои слова"
         }
       },
-      "print-window-title": "Nash | Secret word backup",
+      "print-window-title": "Nash | Резервная копия секретных слов",
       "backup-print": {
-        "header": "Secret word backup",
-        "desc-1": "Your twelve secret words can be used to access your ETH, NEO and other accounts if you lose your Nash password.",
-        "desc-2": "Remember: if anyone gains access to your words, your funds are in danger.",
-        "desc-3": "Cut out the slips below. Consider laminating them and storing them in two separate locations."
+        "header": "Резервная копия секретных слов",
+        "desc-1": "С помощью двенадцати секретных слов Вы сможете получить доступ к своему аккаунту и к своим активам ETH, NEO и другим ресурсам, если Вы потеряете свой пароль к Nash.",
+        "desc-2": "Помните: если кто-либо узнает Ваши секретные слова, Ваши активы окажутся под угрозой.",
+        "desc-3": "Вырежьте столбцы, которые видите ниже. Мы рекомендуем хранить их в разных местах и заламинировать их."
       },
       "repeat-secret-words": {
         "header": "Repeat your twelve secret words",
