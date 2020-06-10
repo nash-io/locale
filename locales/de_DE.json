@@ -870,14 +870,14 @@
           "label": "Preis"
         },
         "limit-price": {
-          "label": "Limit-Preis",
+          "label": "Limit",
           "sub-label": "Deine Order wird anderen Order zu diesem oder einem besseren Preis zugeordnet.",
           "errors": {
             "maker-match": "‘Post only’-Order, die im aktuellen Orderbuch ausgeführt werden können, werden storniert."
           }
         },
         "stop-price": {
-          "label": "Stop-Preis",
+          "label": "Stop",
           "sub-label": "Der Stop-Preis löst eine weitere Order aus.",
           "errors": {
             "stop-trigger-immediately": "Dieser Stop-Preis wird deine Order sofort auslösen."
@@ -2829,7 +2829,7 @@
             "label": "Ziel",
             "placeholder": "Einen Kontakt suchen oder an eine neue Adresse senden …",
             "wallet-address": "Senden an ‘{{address}}‘",
-            "button-contacts": "Ansprechpartner",
+            "button-contacts": "Adressbuch",
             "select-contact": {
               "no-options": "Gib mindestens drei Zeichen ein, um nach einem Kontakt oder einer gültigen Walletadresse zu suchen",
               "no-results": "Keine Kontakte gefunden. Dies ist keine gültige Adresse.",
