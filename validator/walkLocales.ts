@@ -1,5 +1,6 @@
 import { readJsonSync, walkSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
-import traverse from 'https://cdn.pika.dev/traverse@^0.6.6'
+
+import traverse, { Traversal } from './traverse.ts'
 
 export interface FileInfo {
   path: string
@@ -7,18 +8,6 @@ export interface FileInfo {
   isFile: boolean
   isDirectory: boolean
   isSymlink: boolean
-}
-
-export interface TraverseContext {
-  path: string[]
-  notLeaf: boolean
-  isLeaf: boolean
-}
-
-export interface Traversal {
-  get: (path: string[]) => unknown
-  clone: () => unknown
-  forEach: (callback: (value: string) => void) => void
 }
 
 export interface TraversalData {
@@ -35,11 +24,11 @@ export default function walkLocales(
   walker: Walker,
 ) {
   const defaultLocaleFileName = defaultLocalePath.split('/').splice(-1)[0]
-  const defaultLocaleJson = readJsonSync(defaultLocalePath)
+  const defaultLocaleJson = readJsonSync(defaultLocalePath) as object
   const defaultTraversal = traverse(defaultLocaleJson)
 
   if (localesPath.endsWith('.json')) {
-    const translation = readJsonSync(localesPath)
+    const translation = readJsonSync(localesPath) as object
     const translationTraversal = traverse(translation)
     const translationFileName = localesPath.split('/').splice(-1)[0]
     const fileInfo = {
@@ -61,7 +50,7 @@ export default function walkLocales(
     if (!fileInfo.isFile || fileInfo.name === defaultLocaleFileName) {
       continue
     }
-    const translation = readJsonSync(fileInfo.path)
+    const translation = readJsonSync(fileInfo.path) as object
     const translationTraversal = traverse(translation)
     walker(fileInfo, {
       defaultTraversal,

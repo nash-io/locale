@@ -41,22 +41,24 @@ function validateLocale(
   console.log('Validating locale %o', localePath)
   const localeErrors: LocaleError[] = []
 
-  defaultTraversal.forEach(function (defaultValue: string) {
-    // @ts-ignore
-    const context: TraverseContext = this
-    if (context.notLeaf) {
+  defaultTraversal.forEach((context, defaultValue) => {
+    if (!context.isLeaf) {
       return
     }
 
     const translatedValue = translationTraversal.get(context.path) as unknown
-    const errors = validateValue(defaultValue, translatedValue, locale)
+    const errors = validateValue(
+      defaultValue as string,
+      translatedValue,
+      locale,
+    )
 
     if (errors.length > 0) {
       localeErrors.push({
         locale,
         path: context.path.join('.'),
         errors,
-        defaultValue,
+        defaultValue: defaultValue as string,
         translatedValue,
       })
     }
