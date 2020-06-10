@@ -1,6 +1,6 @@
 import { writeFileStrSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
-import traverse from 'https://cdn.pika.dev/traverse@^0.6.6'
 
+import traverse from './traverse.ts'
 import walkLocales from './walkLocales.ts'
 import validateValue from './validateValue.ts'
 
@@ -22,16 +22,14 @@ export default function sync(
 
       const updatedTranslationTraversal = traverse(defaultTraversal.clone())
 
-      defaultTraversal.forEach(function (defaultValue: string) {
-        // @ts-ignore
-        const context: TraverseContext = this
-        if (context.notLeaf) {
+      defaultTraversal.forEach((context, defaultValue) => {
+        if (!context.isLeaf) {
           return
         }
 
         const translatedValue = translationTraversal.get(context.path)
         const validationErrors = validateValue(
-          defaultValue,
+          defaultValue as string,
           translatedValue,
           locale,
         )
