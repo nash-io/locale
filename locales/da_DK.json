@@ -3149,14 +3149,14 @@
     "transfer-funds": {
       "what-asset": "Which asset?",
       "select-asset": "Select an asset",
-      "transfer-from": "From",
-      "to-destination": "To",
+      "transfer-from": "Fra",
+      "to-destination": "Til",
       "send-only-currency": "Send only {{currency}} to this address",
       "transfer-details": "Transfer details",
       "you-are-transfering": "You are transferring",
       "you-are-sending": "You are sending",
       "enter-2fa-code": "Enter your two-factor authentication code",
-      "transfer-funds": "Send/Receive",
+      "transfer-funds": "Send/Modtag",
       "create-transfer": "Create transfer",
       "review-and-start-transfer": "Review and start transfer",
       "transfer-has-started": "Your transfer has started",
@@ -3182,7 +3182,7 @@
       "external": "An external wallet"
     },
     "common": {
-      "continue-and-review": "Continue",
+      "continue-and-review": "Fortsæt",
       "finish": "Finish"
     },
     "form-amount": {
@@ -3215,7 +3215,7 @@
         "message": "I accept the latest <0>{{termsName}}</0>."
       },
       "confirm-notice": "If you do not accept the above terms and conditions, you will not be able to continue using Nash services.",
-      "confirm-button": "Confirm",
+      "confirm-button": "Bekræft",
       "sign-out-link": "Sign me out",
       "errors": {
         "generic-error": "An error has occurred. Please retry."
@@ -3253,19 +3253,19 @@
           "label": "Your referrals",
           "desc": "These are the people you’ve referred directly. We can’t show you who they’ve referred, but you can see the tickets you’ve earned through them for indirect referrals.",
           "header": "All pending and activated",
-          "col-name": "Name",
-          "col-pending": "Pending",
-          "col-activated": "Activated",
-          "me": "{{name}} (me)"
+          "col-name": "Navn",
+          "col-pending": "Afventer",
+          "col-activated": "Aktiveret",
+          "me": "{{name}} (mig)"
         }
       }
     }
   },
   "settings": {
     "title": "My account",
-    "save-settings": "Save settings",
+    "save-settings": "Gem indstillinger",
     "kyc": {
-      "state-label": "State",
+      "state-label": "Stat",
       "rejected": "Tier 1 status denied",
       "rejected-subtitle": "Unfortunately, you will not be able to proceed any further. If you believe this is a mistake, please contact our <0>support team.</0>",
       "details": {
@@ -3310,7 +3310,7 @@
           "content": "You have submitted too many verification attempts"
         },
         "unknown_error": {
-          "title": "Something went wrong!",
+          "title": "Noget gik galt!",
           "content": "We have encountered an unexpected error!"
         },
         "no_document": {
@@ -3322,7 +3322,7 @@
           "content": "We detected multiple people in the image your provided. You must be the only person in the image."
         },
         "BLURRED": {
-          "title": "Blurred image",
+          "title": "Sløret billede",
           "content": "The image you provided is blurred."
         },
         "sample_document": {
@@ -3354,11 +3354,11 @@
           "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
         },
         "bad_quality": {
-          "title": "Poor quality",
+          "title": "Dårlig kvalitet",
           "content": "The quality of the image you provided is too poor."
         },
         "camera_black_white": {
-          "title": "Black and white",
+          "title": "Sort og hvid",
           "content": "Your camera appears to be set to black and white. Please change it to color."
         },
         "not_readable_document": {
@@ -3366,7 +3366,7 @@
           "content": "The identity document you provided is unreadable."
         },
         "black_and_white": {
-          "title": "Black and white",
+          "title": "Sort og hvid",
           "content": "Your camera appears to be set to black and white. Please change it to color."
         },
         "hidden_part_document": {
@@ -3393,26 +3393,26 @@
       "name-error": "You must enter a name.",
       "title": "We need a few details from you",
       "topnav-back-button": "Back to limits",
-      "country": "Country",
+      "country": "Land",
       "waiting": "Verifying…",
       "waiting-subtitle": "This can take a few minutes. You may leave this page.",
       "topnav-title": "Tier 1 verification",
-      "contact-support-label": "<0>Contact support</0> to change",
+      "contact-support-label": "<0>Kontakt kunderservice</0> for at ændre",
       "confirm-button-label": "Confirm your details",
       "name-step": {
         "warning": "The name you enter must match the name on the identity document you provide.",
-        "date-of-birth-label": "Date of birth",
-        "full-name-label": "Full name",
-        "continue-button-label": "Continue and enter address"
+        "date-of-birth-label": "Fødselsdagsdato",
+        "full-name-label": "Fulde navn",
+        "continue-button-label": "Fortsæt og indtast adresse"
       },
       "address-step": {
-        "address-label": "Enter an address",
-        "search-button-label": "Search"
+        "address-label": "Indtast en adresse",
+        "search-button-label": "Søg"
       },
       "manual-address-step": {
         "line1": "Address line 1",
         "line2": "Address line 2",
-        "city": "City",
+        "city": "By",
         "zipCode": "Postcode/ZIP"
       },
       "select-address-step": {
@@ -3423,19 +3423,19 @@
         "no-results-found-body": "Please make sure you include your postcode.",
         "error-title": "We experienced an error",
         "error-body": "Try again or use the link below.",
-        "go-back-label": "Go back"
+        "go-back-label": "Gå tilbage"
       },
       "confirm-details": {
         "begin-button-label": "These details are correct",
         "your-details": "Personal details",
         "address-details": "Address details",
-        "edit-label": "Edit",
+        "edit-label": "rediger",
         "submission-error": "We experienced an error while submitting your data."
       }
     },
     "profile": {
-      "title": "Profile",
-      "header": "Profile settings",
+      "title": "Profil",
+      "header": "Profilindstillinger",
       "desc-1": "You can edit your profile settings below.",
       "desc-2": "",
       "cards": {
@@ -3444,77 +3444,77 @@
           "legal-name": "Legal name",
           "update-name": "I want to update my name",
           "update-country": "I want to update my country of residence",
-          "gender": "Gender",
-          "male": "Male",
-          "female": "Female",
-          "other": "Other",
+          "gender": "Køn",
+          "male": "Mand",
+          "female": "Kvinde",
+          "other": "Andet",
           "country-of-residence": "Country of residence"
         },
         "account-settings": {
-          "label": "Account settings",
-          "email-address": "Email address",
-          "update-email": "Change email address",
-          "password": "Password",
-          "update-password": "Change password",
+          "label": "Kontoindstillinger",
+          "email-address": "E-mailadresse",
+          "update-email": "Skift e-mailadresse",
+          "password": "Adgangskode",
+          "update-password": "Skift adgangskode",
           "two-factor": "We recommend you to enable two-factor authentication in <0>Security</0>.",
           "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
         }
       },
       "modals": {
         "update-name": {
-          "title": "Update name",
-          "label": "Name",
+          "title": "Opdater navn",
+          "label": "Navn",
           "tier0-summary": "To update your name, please complete <0>Tier 1 verification</0>.",
           "tier0-details": "When your application for Tier 1 has been approved, we will update your name to the legal name on the documents you provided.",
           "tier1-summary": "If your legal name has changed and you would like to update it, please <0>contact support</0>.",
           "tier1-details": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your name to the legal name on the documents you provided."
         },
         "update-country": {
-          "title": "Update country",
-          "label": "Country",
+          "title": "Opdater land",
+          "label": "Land",
           "tier0": "If your country of residence has changed and you would like to update it, please <0>contact support</0>.",
           "tier1": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your country of residence to the country on the documents you provided."
         },
         "update-email": {
-          "success-header": "We’ve sent you an email!",
+          "success-header": "Vi har sendt dig en e-mail!",
           "success-description": "We have sent you a confirmation email to start the address update process. If you don’t see our email, check your junk folder.",
-          "success-back": "Got it!",
-          "title": "Change email",
-          "current-email-label": "Your current email address",
-          "current-email": "Current email address",
-          "new-email-label": "New email address",
-          "new-email-placeholder": "Enter your new email address",
-          "twofa-label": "Two-factor authentication",
+          "success-back": "Jeg er med!",
+          "title": "Skift e-mail",
+          "current-email-label": "Din nuværende e-mailadresse",
+          "current-email": "Nuværende e-mailadresse",
+          "new-email-label": "Ny e-mailadresse",
+          "new-email-placeholder": "Indtast din ny e-mailadresse",
+          "twofa-label": "Totrinsbekræftelse",
           "twofa-label-placeholder": "Enter your two-factor authentication (2FA) code",
           "request-email-change-button-label": "Request address change"
         },
         "update-password": {
-          "title": "Change password",
+          "title": "Skift adgangskode",
           "fields": {
             "password": {
-              "label": "Current password",
-              "placeholder": "Enter your password"
+              "label": "Nuværende adgangskode",
+              "placeholder": "Indtast din adgangskode"
             },
             "code": {
-              "label": "Two-factor authentication",
+              "label": "Totrinsbekræftelse",
               "placeholder": "Enter your two-factor authentication code"
             },
             "new-password": {
-              "label": "New password",
-              "placeholder": "Enter a new password",
+              "label": "Ny adgangskode",
+              "placeholder": "Indtast en ny adgangskode",
               "errors": {
-                "password-too-weak": "The password you chose is too weak."
+                "password-too-weak": "Adgangskoden du valgte er for svag."
               }
             },
             "new-password-confirm": {
-              "label": "Confirm new password",
-              "placeholder": "Confirm new password",
+              "label": "Bekræft ny adgangskode",
+              "placeholder": "Bekræft ny adgangskode",
               "errors": {
                 "passwords-do-not-match": "Passwords do not match."
               }
             }
           },
-          "success": "Your password has been changed successfully.",
+          "success": "Din adgangskode er successfuldt blevet ændret.",
           "errors": {
             "password-must-change": "Your new password should be different from your old password.",
             "password-already-used": "You used this password already. Please pick another one.",
@@ -3526,7 +3526,7 @@
     "preferences": {
       "title": "Præferencer",
       "header": "Præferencer",
-      "desc-1": "Edit your preferences for timezone, currency, language and notifications below.",
+      "desc-1": "Rediger dine præferencer for tidszone, valuta, sprog og notifikatiner nedenunder.",
       "desc-2": "",
       "cards": {
         "general-settings": {
@@ -3538,7 +3538,7 @@
         },
         "email": {
           "label": "E-mail mig når…",
-          "news": "There are news and updates from Nash.",
+          "news": "Der er opdateringer og nyheder fra Nash.",
           "actions": "There are recommended actions for my account.",
           "withdrawal": "A withdrawal is made from my account.",
           "deposit": "A deposit is made to my account."
@@ -3547,12 +3547,12 @@
     },
     "security": {
       "title": "Sikkerhed",
-      "header": "Account security",
+      "header": "Konto sikkerhed",
       "desc": "Enable two-factor authentication here.",
       "cards": {
         "2fa": {
-          "label": "Two-factor authentication",
-          "header": "Two-factor authentication is:",
+          "label": "Totrinsbekræftelse",
+          "header": "Totrinsbekræftelse er:",
           "desc": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
           "enabled": "Enabled",
           "disabled": "Disabled",
@@ -3580,13 +3580,13 @@
             "tablet": "Tablet"
           },
           "actions": {
-            "signed-out": "Signed out",
-            "signed-in": "Signed in",
+            "signed-out": "Loggede ud",
+            "signed-in": "Loggede ind",
             "failed": "Failed sign-in attempt",
             "2fa": "2FA confirmed",
             "failed-2fa": "2FA failed"
           },
-          "sign-out": "Sign out",
+          "sign-out": "Log ud",
           "sign-out-all-devices": "Sign out all devices"
         }
       },
@@ -3617,13 +3617,13 @@
           "header": "Success!",
           "enabled": "Totrinsbekræftelse er blevet aktiveret.",
           "disabled": "Totrinsbekræftelse er blevet deaktiveret.",
-          "back": "Got it!"
+          "back": "Jeg er med!"
         }
       }
     },
     "accounts": {
       "title": "Konti",
-      "header": "My account information",
+      "header": "Min konto information",
       "wallets-header": "Accounts generated from my twelve secret words",
       "show-all-private-keys-button-label": "Show all private keys",
       "hide-all-private-keys-button-label": "Hide all private keys",
@@ -3634,18 +3634,18 @@
       "info-body": "ERC-20 and NEP-5 assets are tokens issued on the Ethereum and NEO blockchains, respectively. GAS is also an asset stored on the NEO blockchain. You only need one Ethereum account to store both ETH and ERC-20 tokens, and one NEO account to store NEO, GAS and NEP-5 tokens.",
       "public-address-sub-label": "Which assets can I send here?",
       "public-address-tooltip": "This is the blockchain address where your assets are stored.",
-      "private-key-label": "Private key",
+      "private-key-label": "Private nøgle",
       "private-key-sub-label-show": "Vis privat nøgle",
       "private-key-sub-label-hide": "Skjul privat nøgle",
       "private-key-tooltip": "This can be used to access your funds outside Nash. Keep it secret.",
       "unknown-blockchain": "ukendt blockchain",
       "wallets": {
         "eth": {
-          "link-label": "Includes ERC-20 tokens",
+          "link-label": "Inkluderer ERC-20 tokens",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Includes GAS and NEP-5 tokens",
+          "link-label": "Inkluderer GAS og NEP-5 tokens",
           "name": "NEO"
         },
         "btc": {
@@ -3701,17 +3701,17 @@
           "pending": "Afventer",
           "denied": "Afvist",
           "try-again": "Prøv igen",
-          "contact-us": "Contact support"
+          "contact-us": "Kontakt kundeservice"
         },
         "information": {
-          "header": "Information required",
+          "header": "Information påkrævet",
           "desc": "This tier was automatically set when you created your Nash account.",
           "email": "E-mailadresse",
           "name": "Navn",
           "address": "Addresse",
           "proof-of-address": "Proof of address",
           "pep-check": "PEP check",
-          "photo-id": "Photo ID",
+          "photo-id": "billede-ID",
           "selfie": "Selfie",
           "date-of-birth": "Fødselsdagsdato",
           "net-worth": "Net worth",
@@ -3722,25 +3722,25 @@
           "email-institution": "E-mailadresse",
           "name-company": "Firmanavn",
           "website": "Hjemmeside",
-          "tin": "CVR nummer",
-          "corporate-formation-documents": "CVR udskrift",
+          "tin": "CVR-nummer",
+          "corporate-formation-documents": "CVR-udskrift",
           "processing-time": "If your verification is not processed within 24 hours, please <0>contact support</0>."
         },
         "tier-1": {
-          "get-verified-button": "Get verified",
-          "continue-verification-button": "Continue verification",
+          "get-verified-button": "Blev verificeret",
+          "continue-verification-button": "Fortsæt verifikation",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "Hvordan vil du verificeres?",
             "mobile": {
               "header": "Smartphone app",
               "desc": "Requires both high-quality front-facing and back-facing cameras.",
               "steps": [
-                "Download the app",
-                "Scan QR code"
+                "Hent appen",
+                "Scan QR-kode"
               ],
               "download": {
                 "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "downloaded-app": "Jeg har hentet appen"
               },
               "scan-code": {
                 "header": "Scan the following QR code with the Nash app:",
@@ -3749,7 +3749,7 @@
             },
             "web": {
               "header": "Nash web platform",
-              "desc": "Requires a high-quality webcam."
+              "desc": "Kræver et webcam i høj kvalitet."
             },
             "do-it-later": "I’ll do this later"
           }
@@ -3793,7 +3793,7 @@
       "summary-title": "All statements",
       "export-summary": "Export stakes as CSV",
       "export": "Export statement",
-      "date-col": "Payment date",
+      "date-col": "Betalingsdato",
       "asset-col": "Asset",
       "dividend-col": "Dividend received",
       "usdDividend-col": "USD value",
@@ -3821,7 +3821,7 @@
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
+            "title": "Hvordan virker det?",
             "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
           },
           "par-2": {
@@ -3863,17 +3863,17 @@
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Set a stake duration",
         "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
+        "selected-duration-month": "<0>{{count}}</0> måned",
+        "selected-duration-month_plural": "<0>{{count}}</0> måneder",
         "set-date-dividends-label": "Set a date to receive your dividends",
         "set-date-dividends-value": "Date ⋅ {{date}} of every month",
         "stake-details-title": "Your stake details",
         "currency-to-stake": "NEX to stake",
         "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
+        "duration-value": "<0>{{count}}</0> måned",
+        "duration-value_plural": "<0>{{count}}</0> måneder",
         "fee-reward": "Staking rate",
-        "first-payment": "First payment",
+        "first-payment": "Første betaling",
         "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
         "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
         "create-stake-button": "Create stake",
@@ -3894,7 +3894,7 @@
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
+      "title": "Tjen passiv indkomst ved at stake NEX tokens",
       "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
       "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
       "description-modal-create-link": "Create your first stake"
@@ -3913,13 +3913,13 @@
   "contacts": {
     "title": "{{count}} kontakt",
     "title_plural": "{{count}} kontakter",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
+    "search-my-contacts": "Søg i mine kontakter…",
+    "no-contacts": "Du har ikke tilføjet eller importeret nogen kontakter endnu.",
     "create-new": "Opret ny",
     "buttons": {
       "send": "Send",
       "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
+      "request": "Anmod",
       "edit": "Rediger",
       "delete": "Slet"
     },
@@ -3939,13 +3939,13 @@
         "button": "Gem ændringer"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Send midler til {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
+          "currency": "Hvilket aktiv?",
           "wallet": "Destination"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Du kan kun sende aktiver fra din personlige konto."
         },
         "placeholders": {
           "currency": "Search for an asset…",
@@ -3956,10 +3956,10 @@
         "confirm-text": "Er du sikker på at du vil slette {{contactName}}?",
         "notice-text": "Al information associeret med denne kontakt vil blive slettet permanent.",
         "button": "Ja, slet",
-        "cancel": "annuler",
+        "cancel": "Annuller",
         "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "success": "Kontakt slettet.",
+        "success-button": "Tilbage til kontakter"
       },
       "results": {
         "success": "Kontakt gemt!",
