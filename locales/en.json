@@ -368,7 +368,7 @@
   "user-messages": {
     "something-wrong": "Something went wrong.",
     "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
+    "go-back-retry": "Go back and retry",
     "contact-support": "Please <0>contact our support team</0> for more details.",
     "permissions": {
       "sandbox": {
@@ -469,7 +469,7 @@
           "label": "Full name"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
+          "label": "Referral code",
           "sub-label": "What is this?"
         }
       },
@@ -1166,7 +1166,7 @@
           "updated-success": "Your email address has been updated. You can now sign in using your new address."
         },
         "verify-email": {
-          "success": "Your email address has been verified. Please sign in to set up your account.",
+          "success": "Your email has been verified. Please sign in to set up your account.",
           "error": "Could not verify email address. The verification code may have expired. Please log in and request another verification email."
         }
       },
@@ -2667,7 +2667,7 @@
       },
       "details-shared": {
         "title": "{{ccpro}} has sent you an email!",
-        "desc": "Please check your email and verify your account with {{ccpro}}.<0 />If you don’t see their email, check your junk folder.",
+        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
         "button": "Resend verification email"
       },
       "transactions": {
@@ -3239,7 +3239,7 @@
     "title": "Referral program",
     "referrals": {
       "header": "Refer a friend and earn tickets",
-      "desc": "The more tickets you earn, the higher chance you have of winning. <0>Learn more</0>.",
+      "desc": "The more tickets you earn, the higher chance you have of winning.",
       "cards": {
         "social-share": {
           "label": "Share your referral code:",
@@ -3442,6 +3442,7 @@
         "your-details": {
           "label": "Personal details",
           "legal-name": "Legal name",
+          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
           "update-name": "I want to update my name",
           "update-country": "I want to update my country of residence",
           "gender": "Gender",
