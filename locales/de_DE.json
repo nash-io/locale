@@ -2667,7 +2667,7 @@
       },
       "details-shared": {
         "title": "{{ccpro}} hat dir eine E-Mail geschickt!",
-        "desc": "Bitte überprüfee dein E-Mail und verifiziere dein Konto mit {{ccpro}}.<0 /> Wenn du die E-Mail nicht sehen kannst, überprüfe bitte den Junk-Ordner.",
+        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
         "button": "Verifizierungs-E-Mail erneut senden"
       },
       "transactions": {
@@ -3239,7 +3239,7 @@
     "title": "Empfehlungsprogramm",
     "referrals": {
       "header": "Freunde werben und Gewinnlose erhalten",
-      "desc": "Je mehr Lose du hast, desto höher ist deine Gewinnchance. <0>Mehr erfahren</0>.",
+      "desc": "The more tickets you earn, the higher chance you have of winning.",
       "cards": {
         "social-share": {
           "label": "Empfehlungscode teilen:",
@@ -3442,6 +3442,7 @@
         "your-details": {
           "label": "Personaldaten",
           "legal-name": "Vollständiger Name",
+          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
           "update-name": "Ich möchte meinen Namen ändern",
           "update-country": "Ich möchte meinen Wohnsitz ändern",
           "gender": "Geschlecht",

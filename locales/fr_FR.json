@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Échec du chargement.",
     "failed-button": "Échec du chargement",
-    "failed-please-try": "Échec du chargement. Veuillez\u00A0<0>réessayer</0>.",
+    "failed-please-try": "Échec du chargement. Veuillez <0>réessayer</0>.",
     "why-this-may-happening": "Vous pouvez trouver des explications sur l’origine du problème <0>ici.</0>"
   },
   "datetime": {
@@ -2105,7 +2105,7 @@
     },
     "reconfirm": {
       "review-header": "Examinez votre nouveau devis {{currency}}",
-      "received-transfer": "Nous avons reçu votre virement de<0 />",
+      "received-transfer": "We received your transfer of <0 />",
       "new-rate-in": "Nouveau tarif en",
       "at": "at <0/>",
       "new-quote-secs": "{{count}}",
@@ -2667,7 +2667,7 @@
       },
       "details-shared": {
         "title": "{{ccpro}} has sent you an email!",
-        "desc": "Please check your email and verify your account with {{ccpro}}.<0 />If you don’t see their email, check your junk folder.",
+        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
         "button": "Resend verification email"
       },
       "transactions": {
@@ -3239,7 +3239,7 @@
     "title": "Referral program",
     "referrals": {
       "header": "Refer a friend and earn tickets",
-      "desc": "The more tickets you earn, the higher chance you have of winning. <0>Learn more</0>.",
+      "desc": "The more tickets you earn, the higher chance you have of winning.",
       "cards": {
         "social-share": {
           "label": "Share your referral code:",
@@ -3442,6 +3442,7 @@
         "your-details": {
           "label": "Personal details",
           "legal-name": "Legal name",
+          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
           "update-name": "I want to update my name",
           "update-country": "I want to update my country of residence",
           "gender": "Gender",
