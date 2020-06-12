@@ -51,7 +51,7 @@ If you don't understand a phrase in the English file, don't guess! Ask for help.
 | [fr_FR](./locales/fr_FR.json)       | French             | International (FR standard) |
 | [he_IL](./locales/he_IL.json)       | Hebrew             | Israel                      |
 | [hi_IN](./locales/hi_IN.json)       | Hindi              | Hindi                       |
-| [hr_HR](./locales/hr_HR.json)       | Serbo-Croatian     | International (HR standard) |
+| [hr_HR](./locales/hr_HR.json)       | Croatian           | Croatia                     |
 | [it_IT](./locales/it_IT.json)       | Italian            | Italy                       |
 | [ja_JP](./locales/ja_JP.json)       | Japanese           | Japan                       |
 | [ko_KR](./locales/ko_KR.json)       | Korean             | Korea                       |
@@ -60,6 +60,8 @@ If you don't understand a phrase in the English file, don't guess! Ask for help.
 | [pt_BR](./locales/pt_BR.json)       | Portuguese         | International (BR standard) |
 | [ro_RO](./locales/ro-RO.json)       | Romanian           | Romania                     |
 | [ru_RU](./locales/ru_RU.json)       | Russian            | Russia                      |
+| [sr_RS](./locales/sr_RS.json)       | Serbian            | Serbia                      |
 | [th_TH](./locales/th-TH.json)       | Thai               | Thailand                    |
 | [tr_TR](./locales/tr_TR.json)       | Turkish            | Turkey                      |
 | [zh_CN](./locales/zh_CN.json)       | Simplified Chinese | International (CN standard) |
+| [zh_TW](./locales/zh_TW.json)       | Traditional Chinese| International (TW standard) |
