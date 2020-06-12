@@ -1,130 +1,130 @@
 {
-  "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
-  "buy": "buy",
-  "sell": "sell",
-  "continue": "Continue",
-  "ok": "OK",
-  "back": "Back",
-  "help": "Help",
-  "and": "and",
-  "from": "From",
-  "to": "To",
-  "or": "or",
-  "price": "Price",
-  "fee": "Fee",
-  "try-again": "Try again",
-  "refresh": "Refresh",
-  "finish": "Finish",
-  "price-each": "{{price}} each",
+  "sandbox-warning": "Вы находитесь в ‘песочнице’ для тестирования интеграции API. Никогда не посылайте сюда настоящие активы!",
+  "buy": "купить",
+  "sell": "продать",
+  "continue": "Продолжить",
+  "ok": "ОК",
+  "back": "Назад",
+  "help": "Помощь",
+  "and": "и",
+  "from": "С",
+  "to": "На",
+  "or": "или",
+  "price": "Цена",
+  "fee": "Сбор",
+  "try-again": "Попробуйте еще раз",
+  "refresh": "Обновить",
+  "finish": "Завершить",
+  "price-each": "{{price}} за единицу",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
-  "remaining": "Remaining",
-  "not-available-short": "N/A",
-  "set-price": "Set a price",
-  "market": "Market",
-  "market-price": "Market price",
-  "exchange": "Exchange",
-  "receive": "Receive",
-  "wallet": "Account",
-  "upload": "Upload",
-  "processing": "Processing…",
-  "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opens in new tab",
-  "failed-update": "Failed to update",
-  "reported-errors": "Errors reported",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "remaining": "Остаток",
+  "not-available-short": "н.д.",
+  "set-price": "Укажите цену",
+  "market": "Рынок",
+  "market-price": "По рынку",
+  "exchange": "Обменять",
+  "receive": "Получить",
+  "wallet": "Кошелёк",
+  "upload": "Загрузить",
+  "processing": "Идёт обработка…",
+  "over-file-limit": "Размер файла не должен превышать {{maxAllowedSize}}{{unit}}.",
+  "opens-new-tab": "Откроется в новой вкладке",
+  "failed-update": "Не удалось обновить",
+  "reported-errors": "Сообщение об ошибках было отправлено",
+  "credit-card-expiry-placeholder": "ММ/ГГ",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
-    "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
-    "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
+    "no-addresses-whitelisted": "Вы еще не внесли адреса в белый список.",
+    "address-input-placeholder": "Добавьте адрес BTC, NEO или ETH в белый список",
+    "add-whitelisted": "Адреса в белом списке",
+    "duplicate-address-in-form": "Этот адрес уже содержится в белом списке.",
+    "add-address": "Добавить адрес",
+    "address-is-not-valid": "Адрес недействителен.",
+    "whitelisting-explanation": "Снять средства Вы можете только на адреса в белом списке и только используя этот ключ API. После создания ключа Вы можете добавлять и удалять адреса из списка в любое время.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
+      "access": "Доступ",
+      "kyc": "Аутентификация",
+      "apitrade": "API торговля",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Are you sure you want to revoke all your keys?",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "body": "Вы уверены, что хотите отозвать все Ваши ключи?",
+      "confirm-button-label": "Безвозвратно отозвать все ключи",
+      "cancel-button-label": "Назад"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "Вы уверены, что хотите отозвать ‘<0></0>’?",
+      "confirm-button-label": "Oтозвать безвозвратно",
+      "cancel-button-label": "Назад"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "Белый список адресов {{name}}",
+      "add": "Добавить адрес",
+      "save-and-close": "Сохранить изменения и закрыть",
+      "continue": "Дальше"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
-      "blockchains": "Blockchains",
-      "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "no-addresses-whitelisted": "В белом списке нет адресов.",
+      "title": "Администрация ключей API",
+      "revoke-button-label": "Отозвать",
+      "table-header": "Ваши API ключи",
+      "no-tokens-exp": "<0>Создайте Ваш первый ключ</0> или ознакомьтесь с нашей <1>API документацей</1>.",
+      "name": "Имя",
+      "never-used": "Никогда не был использован",
+      "last-used": "В последний раз использовался {{when}}",
+      "subtitle": "Создайте API ключи и оперируйте ими. Узнайте больше о <0>нашиx APIs</0>.",
+      "key-info": "Информация ключа",
+      "api-key": "API ключ",
+      "blockchains": "Блокчейн",
+      "whitelisted": "Белый список",
+      "view-whitelist": "Просмотр белого списка",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "This API key can function with these blockchains.",
-      "usable-for": "Usable for",
-      "revoke": "Revoke",
-      "created": "Created",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "blockchains-hint": "Данный API ключ совместим с этими блюкчейнами.",
+      "usable-for": "Пригоден для",
+      "revoke": "Отозвать",
+      "created": "Создан",
+      "policy-trading": "Торговля",
+      "loading": "Загрузка токенов…",
+      "no-tokens": "Вы еще не создали ни одного API ключа.",
+      "policy-withdrawals": "Снятие средств или депозит",
+      "revoke-all-keys-button-label": "Отозвать все ключи",
+      "generate-new-key-button-label": "Создать новый ключ",
+      "plus-more": "+ ещё {{count}}"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Аутентификация пользователя",
+      "whitelist-step": "Внесите адреса в белый список",
+      "name-step": "Наименование Вашего ключа",
+      "last-step": "Резервная копия секрета",
+      "title": "Создание нового ключа API"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "Имя",
+      "continue-button-label": "Создать ключ"
     },
     "step2": {
-      "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "password": "Пароль",
+      "two-fa-code": "Код двухфакторной аутентификации",
+      "create-api-button-label": "Дальше",
+      "incorrect-password": "Неправильный пароль.",
+      "incorrect-2fa": "Неправильный код."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Подождите, генерируем Ваш ключ…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Ваш секрет",
+      "your-secret-warning": "Это единственный раз, что Вы видите эту информацию здесь.",
+      "api-key": "Ваш ключ API",
+      "api-key-warning": "Это единственный раз, что Вы видите эту информацию здесь.",
+      "download-as-json-button-label": "Сохранить ключ API и секрет как файл JSON",
+      "i-saved-my-secret-button-label": "Я сохранил(а) свой секрет"
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
-    "1w": "1w",
-    "1m": "1M"
+    "1h": "1 ч",
+    "1d": "24 ч",
+    "1w": "1 нед.",
+    "1m": "1 мес."
   },
   "transfer": {
     "trading": "Trading",
@@ -278,102 +278,102 @@
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Поиск…",
+  "loading": "Загружается…",
+  "pending": "Ожидает обработки",
+  "cancelling": "Отмена…",
+  "authenticating": "Аутентификация…",
+  "decrypting": "Декодирование…",
+  "encrypting": "Кодирование…",
+  "sending": "Отправление…",
+  "submit": "Послать",
+  "retry": "Попробовать снова",
+  "sending-approval": "Подтверждение отправляется…",
+  "send-approval": "Послать подтверждение",
+  "submit-transfer": "Послать перевод",
+  "no-longer-sufficient-balance-for-tx": "Чтобы осуществить эту транзакцию, необходимо сперва пополнить Ваш баланс.",
+  "we-are-hiring": "Вакансии",
   "errors": {
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "location-banned-title": "Доступ заблокирован",
+    "location-banned": "К сожалению, Nash на данный момент не оперирует в Вашей зоне юрисдикции.",
+    "invalid-clock-title": "На часах Вашего компьютера не настроено правильное время.",
+    "permissions-issue-title": "Ошибка ограничений",
+    "invalid-clock": "Настройте правильное время на часах Вашего компьютера, чтобы пользоваться Nash. <0>Синхронизируйте часы</0> и <1>повторите попытку</1>.",
+    "network-issue-title": "Сетевая проблема",
+    "network-issue": "Возникла временная сетевая проблема. Пожалуйста, <0>повторите попытку</0>.",
+    "generic-error-title": "Ошибка",
+    "generic-error": "Произошла ошибка. Пожалуйста, повторите попытку.",
+    "generic-error-signout": "Произошла непредвиденная ошибка. Пожалуйста, выполните выход из системы и повторите попытку.",
+    "within-waiting-period": "Подождите пять минут, прежде чем создать новый stake. Ваш новый stake скоро будет доступен.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Вы ввели неверный пароль."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Вы ввели неверный код двухфакторной аутентификации. Внимание: у Вас всего пять попыток.",
+      "already-used": "Вы ввели код двухфакторной аутентификации, который уже был использован. Пожалуйста, подождите и повторите попытку.",
+      "code-expired": "Код двухфакторной аутентификации, который Вы ввели, уже просрочен. Пожалуйста, подождите и повторите попытку.",
+      "too-many-failures": "Вы ввели неверный код аутентификации слишком много раз – Ваш аккаунт теперь временно заблокирован. Пожалуйста, обратитесь в службу поддержки.",
+      "too-many-failures-signout": "Вы ввели неверный код аутентификации слишком много раз – Ваш аккаунт теперь временно заблокирован. Сейчас Вы покинете систему."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "При кодировании произошла ошибка. Пожалуйста, выполните выход из системы и повторите попытку.",
+      "decryption-failed": "При декодировании произошла ошибка. Пожалуйста, выполните выход из системы и повторите попытку."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Ваш аккаунт находится на рассмотрении!",
+        "message": "Возвращайтесь через несколько минут."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Ваш аккаунт не найден."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Поиск не дал результатов.",
+  "yes": "да",
+  "no": "нет",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account"
+    "personal": "Персональный аккаунт",
+    "trading": "Торговый контракт",
+    "external": "Внешний аккаунт"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "Failed to load. Please <0>retry</0>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "При загрузке произошел сбой.",
+    "failed-button": "При загрузке произошел сбой.",
+    "failed-please-try": "При загрузке произошел сбой. Пожалуйста, <0>повторите попытку</0>.",
+    "why-this-may-happening": "Узнайте <0>здесь</0>, почему это могло произойти."
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> час",
+    "time-in-hours_plural": "<0>{{count}}</0> часов",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "января",
+      "1": "февраля",
+      "2": "марта",
+      "3": "апреля",
+      "4": "мая",
+      "5": "июня",
+      "6": "июля",
+      "7": "августа",
+      "8": "сентября",
+      "9": "октября",
+      "10": "ноября",
+      "11": "декабря"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "К сожалению, на данный момент Nash не оперирует в Вашем регионе.",
+    "contact-support": "Пожалуйста, <0>обратитесь в нашу службу поддержки</0>, если возникли вопросы."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Произошла ошибка.",
+    "go-back": "Назад",
+    "go-back-retry": "Вернуться назад и повторить попытку",
+    "contact-support": "Пожалуйста, <0>обратитесь в нашу службу поддержки</0> за дальнейшей информацией.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "В песочнице нет этой функции!",
+        "content": "В песочнице эта функция была отключена."
       },
       "tier-0": {
         "location-mismatch": {
@@ -487,139 +487,139 @@
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
-      "edit": "Edit",
-      "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "header": "Регистрация нового аккаунта",
+      "subheader": "В какой стране Вы живёте?",
+      "edit": "Изменить",
+      "cancel": "Отмена",
+      "save-changes": "Сохранить",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Страна проживания"
         },
         "state": {
-          "label": "State",
-          "location": "Location"
+          "label": "Штат",
+          "location": "Местонахождение"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Я подтверждаю, что действительно проживаю в этой стране."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Я подтверждаю, что действительно проживаю в этой стране и в этом штате."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Регистрация нового аккаунта",
+      "subheader": "Личные данные",
+      "continue": "Создать аккаунт",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Укажите адрес электронной почты",
+          "placeholder": "Адрес электронной почты"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Создайте пароль",
+          "placeholder": "Пароль",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Этот пароль недостаточно надёжный."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Подтвердите Ваш пароль",
+          "placeholder": "Подтверждение пароля",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Пароли не совпадают."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "title": "Как выбрать надёжный пароль",
+          "desc": "Только по-настоящему надёжный пароль сохранит Ваши активы в безопасности. Руководствуйтесь этой памяткой, чтобы защитить Ваш аккаунт:",
+          "tip-index": "Правило {{index}}",
+          "tip-1": "Не используйте пароль, которым Вы уже пользуетесь где-то ещё, даже если Вы собираетесь поменять несколько букв или символов. Как только этот пароль будет перехвачен или взломан на другой странице, Ваш аккаунт Nash сразу потеряет защиту.",
+          "tip-2": "Ваш пароль ни в коем случае не должен содержать легко доступную личную информацию. Имена, дни рождения и адреса узнать совсем несложно.",
+          "tip-3": "Выберите пароль длиной минимум 12 знаков, содержащий заглавные и строчные буквы, цифры и символы.",
+          "tip-4": "Генератор паролей предложит Вам наиболее надёжные пароли и поможет их сохранить."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Используйте заглавные и строчные буквы, цифры и символы, чтобы сделать пароль надёжным.",
+        "tips": "Памятка для создания пароля",
+        "password-strength": "Надёжность пароля",
+        "weak": "Слабый",
+        "medium": "Не очень надёжный",
+        "strong": "Надёжный",
+        "very-strong": "Очень надёжный"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "Мы выслали сообщение на Ваш адрес электронной почты!",
+      "desc-1": "Проверьте Ваш почтовый ящик и пройдите по ссылке для верификации аккаунта.",
+      "desc-2": "Если Вы не получили наше сообщение, проверьте папку со спамом.",
+      "resend": "Повторно выслать ссылку для верификации",
+      "resend-delay": "Подождите {{count}} секунды…",
+      "resend-delay_plural": "Подождите {{count}} секунд…",
+      "back": "Вернуться к входу в систему",
+      "success": "Ссылка для верификации была выслана повторно!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Произошла ошибка при повторной отправке ссылки для верификации. Пожалуйста, повторите попытку."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Создать новый аккаунт",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Двенадцать секретных слов",
+      "Двухфакторная аутентификация"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "Общие сведения",
+      "header": "Создайте свой персональный аккаунт",
+      "desc-1": "Ваш персональный аккаунт будет создан с помощью двенадцати секретных слов. Если Вы потеряете свой пароль, эти слова позволят Вам восстановить Ваш аккаунт и снова получить доступ к нему. Сразу же и непременно сохраните их в надёжном месте!",
+      "continue": "Покажите мои секретные слова",
+      "skip2Fa": "Настроить позже",
       "chart": {
-        "card-top": "Twelve secret words",
-        "card-top-right": "Nash account recovery if password is forgotten",
+        "card-top": "Двенадцать секретных слов",
+        "card-top-right": "Восстановить аккаунт Nash в случае потери пароля",
         "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
-        "card-btc": "Bitcoin account",
-        "card-neo": "NEO account",
-        "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "diamond-two": "Создайте свой персональный аккаунт, который включает в себя…",
+        "card-btc": "кошелёк Bitcoin",
+        "card-neo": "кошелёк NEO",
+        "card-eth": "кошелёк Ethereum",
+        "card-future": "Любые другие кошельки"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "title": "Секретные слова",
+      "header": "Запишите свои двенадцать секретных слов",
+      "desc": "С помощью этих слов Вы сможете получить доступ к своим активам. Они также понадобятся Вам, чтобы восстановить забытый пароль.",
+      "popup-error": "Если Вы хотите распечатать секретные слова, деактивируйте все разрешения для блокировки рекламы и разрешите Nash открывать всплывающие окна.",
+      "continue": "Продолжить",
+      "go-back": "Назад",
+      "written-down": "Я записал(а) свои слова.",
+      "check-my-backup": "Проверить резервную копию",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Перепишите секретные слова от руки.",
+        "dont": "Не храните цифровую копию слов или скриншот на компьютере."
       },
       "modals": {
         "print-warning": {
-          "title": "Print your twelve secret words",
-          "header": "Please make sure your printer is secure!",
-          "body-desc": "If you choose to print your words, make sure:",
-          "body-tips-0": "Your printer is connected to your computer directly with a USB cable.",
-          "body-tips-1": "Your printer is not connected to a network of any kind.",
-          "body-tips-2": "It is impossible for others to connect to your printer via Bluetooth, WLAN, etc.",
-          "button": "I understand - print my words"
+          "title": "Распечатайте свои секретные слова",
+          "header": "Удостоверьтесь в том, что подключение к Вашему принтеру безопасно!",
+          "body-desc": "Если Вы решили распечатать Ваши слова, убедитесь, что…",
+          "body-tips-0": "Ваш принтер напрямую подключён к компьютеру через USB кабель.",
+          "body-tips-1": "Ваш принтер не подключён ни к какой сети.",
+          "body-tips-2": "никто не может подключиться к Вашему принтеру через Bluetooth, WLAN и т.д.",
+          "button": "Ясно! Распечатать мои слова"
         }
       },
-      "print-window-title": "Nash | Secret word backup",
+      "print-window-title": "Nash | Резервная копия секретных слов",
       "backup-print": {
-        "header": "Secret word backup",
-        "desc-1": "Your twelve secret words can be used to access your ETH, NEO and other accounts if you lose your Nash password.",
-        "desc-2": "Remember: if anyone gains access to your words, your funds are in danger.",
-        "desc-3": "Cut out the slips below. Consider laminating them and storing them in two separate locations."
+        "header": "Резервная копия секретных слов",
+        "desc-1": "С помощью двенадцати секретных слов Вы сможете получить доступ к своему аккаунту и к своим активам ETH, NEO и другим ресурсам, если Вы потеряете свой пароль к Nash.",
+        "desc-2": "Помните: если кто-либо узнает Ваши секретные слова, Ваши активы окажутся под угрозой.",
+        "desc-3": "Вырежьте столбцы, которые видите ниже. Мы рекомендуем хранить их в разных местах и заламинировать их."
       },
       "repeat-secret-words": {
         "header": "Repeat your twelve secret words",
@@ -2667,7 +2667,7 @@
       },
       "details-shared": {
         "title": "{{ccpro}} has sent you an email!",
-        "desc": "Please check your email and verify your account with {{ccpro}}.<0 />If you don’t see their email, check your junk folder.",
+        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
         "button": "Resend verification email"
       },
       "transactions": {
@@ -3239,7 +3239,7 @@
     "title": "Referral program",
     "referrals": {
       "header": "Refer a friend and earn tickets",
-      "desc": "The more tickets you earn, the higher chance you have of winning. <0>Learn more</0>.",
+      "desc": "The more tickets you earn, the higher chance you have of winning.",
       "cards": {
         "social-share": {
           "label": "Share your referral code:",
@@ -3442,6 +3442,7 @@
         "your-details": {
           "label": "Personal details",
           "legal-name": "Legal name",
+          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
           "update-name": "I want to update my name",
           "update-country": "I want to update my country of residence",
           "gender": "Gender",
@@ -3911,93 +3912,93 @@
     }
   },
   "contacts": {
-    "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "create-new": "Create new",
+    "title": "{{count}} контакт",
+    "title_plural": "{{count}} контактов",
+    "search-my-contacts": "Поиск в моих контактах…",
+    "no-contacts": "Пока что нет добавленных или импортированных контактов.",
+    "create-new": "Добавить контакт",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Отправить",
+      "send-disabled-tooltip": "Укажите адрес кошелька, чтобы послать ресурсы этому контакту.",
+      "request": "Послать запрос",
+      "edit": "Изменить",
+      "delete": "Удалить"
     },
     "headers": {
-      "name": "Name",
-      "email": "Email",
-      "phone-number": "Phone number",
-      "wallets": "Wallets"
+      "name": "Имя",
+      "email": "Электронная почта",
+      "phone-number": "Телефонный номер",
+      "wallets": "Кошельки"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Новый контакт",
+        "button": "Создать контакт"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Изменить контакт",
+        "button": "Сохранить изменения"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Послать ресурсы {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Какая валюта?",
+          "wallet": "Кошелёк"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Послать ресурсы можно только со своего персонального аккаунта."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Найти ресурс…",
+          "destination": "Найти адрес кошелька…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "Уверены, что хотите удалить {{contactName}}?",
+        "notice-text": "Все данные этого контакта будут удалены навсегда.",
+        "button": "Да, удалить",
+        "cancel": "Отмена",
+        "error": "Ошибка при удалении контакта. Попробуйте ещё раз.",
+        "success": "Контакт был удален.",
+        "success-button": "Вернуться к контактам"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Контакт создан!",
+        "error": "Ошибка при создании контакта. Попробуйте ещё раз.",
+        "invalid-input": "Недействительный формат. Попробуйте ещё раз."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Имя",
+          "placeholder": "Имя"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Фамилия",
+          "placeholder": "Фамилия"
         },
         "email": {
-          "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "label": "Электронная почта",
+          "placeholder": "Адрес электронной почты",
+          "error": "Неправильный адрес электронной почты"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Телефонный номер",
+          "error": "Номер телефона недействителен в {{country}}"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Кошельки",
+          "delete": "Удалить",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Адрес кошелька"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Имя кошелька"
           },
-          "add": "Add another"
+          "add": "Добавить другой кошелёк"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Пожалуйста, введите корректный адрес {{blockchain}}.",
+          "unique-address": "Контакт с этим кошельком уже существует."
         }
       }
     }

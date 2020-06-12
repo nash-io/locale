@@ -43,7 +43,7 @@
     "token-type": {
       "access": "Adgang",
       "kyc": "Identitets verifikation",
-      "apitrade": "API handl",
+      "apitrade": "API handel",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
@@ -66,14 +66,14 @@
       "no-addresses-whitelisted": "No addresses whitelisted",
       "title": "Manage API keys",
       "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
+      "table-header": "Dine API nøgler",
+      "no-tokens-exp": "<0>Generer din første nøgle</0> eller læs vores <1>API dokumentation</1>.",
+      "name": "Navn",
+      "never-used": "Aldrig brugt",
+      "last-used": "Sidst brugt {{when}}",
       "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
+      "key-info": "Nøgle information",
+      "api-key": "API nøgle",
       "blockchains": "Blockchains",
       "whitelisted": "Whitelist",
       "view-whitelist": "View whitelist",
@@ -81,21 +81,21 @@
       "blockchains-hint": "This API key can function with these blockchains.",
       "usable-for": "Usable for",
       "revoke": "Revoke",
-      "created": "Created",
+      "created": "Oprettet",
       "policy-trading": "Trading",
       "loading": "Loading tokens…",
       "no-tokens": "You haven’t generated any API keys yet.",
       "policy-withdrawals": "Withdrawals and deposits",
       "revoke-all-keys-button-label": "Revoke all keys",
       "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "plus-more": "+{{count}} mere"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
+      "credentials-step": "Brugeroplysninger",
       "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
+      "name-step": "Navngiv din nøgle",
       "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "title": "Generer ny API nøgle"
     },
     "step1": {
       "name": "Navn",
@@ -199,7 +199,7 @@
       },
       "notifications": {
         "label": "Notifikationer",
-        "clear-all": "Clear all"
+        "clear-all": "Ryd alle"
       },
       "transfers": {
         "initializing": "Initializing",
@@ -264,7 +264,7 @@
           "profile": "Profil",
           "preferences": "Præferencer",
           "security": "Sikkerhed",
-          "limits": "Limits",
+          "limits": "Begrænsninger",
           "accounts": "Konti",
           "apikeys": "API nøgler"
         }
@@ -294,15 +294,15 @@
   "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
   "we-are-hiring": "We’re hiring",
   "errors": {
-    "location-banned-title": "Access blocked",
+    "location-banned-title": "Adgang blokeret",
     "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
     "invalid-clock-title": "Your computer’s clock is not accurate.",
     "permissions-issue-title": "Permissions Issue",
     "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
+    "network-issue-title": "Netværksfejl",
     "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
+    "generic-error-title": "Fejl",
+    "generic-error": "Noget gik galt. Prøv igen.",
     "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
     "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
     "password": {
@@ -330,12 +330,12 @@
     }
   },
   "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "yes": "ja",
+  "no": "nej",
   "account-types": {
-    "personal": "Personal account",
+    "personal": "Personlig konto",
     "trading": "Trading contract",
-    "external": "External account"
+    "external": "Ekstern konto"
   },
   "query-errors": {
     "failed": "Failed to load.",
@@ -347,16 +347,16 @@
     "time-in-hours": "<0>{{count}}</0> hour",
     "time-in-hours_plural": "<0>{{count}}</0> hours",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
+      "0": "Januar",
+      "1": "Februar",
+      "2": "Marts",
       "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
+      "4": "Maj",
+      "5": "Juni",
+      "6": "Juli",
       "7": "August",
       "8": "September",
-      "9": "October",
+      "9": "Oktober",
       "10": "November",
       "11": "December"
     }
@@ -366,8 +366,8 @@
     "contact-support": "Please <0>contact our support team</0> with any questions."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
+    "something-wrong": "Noget gik galt.",
+    "go-back": "Gå tilbage",
     "go-back-retry": "Retry and go back",
     "contact-support": "Please <0>contact our support team</0> for more details.",
     "permissions": {
@@ -433,7 +433,7 @@
   "account-create": {
     "steps": [
       "Your details",
-      "Country",
+      "Land",
       "Account details"
     ],
     "signin": {
@@ -441,11 +441,11 @@
       "sign-in-now": "Sign in now"
     },
     "form": {
-      "your-state-is": "Your state is",
+      "your-state-is": "Din stat er",
       "fields": {
         "optional": "(optional)"
       },
-      "continue": "Continue",
+      "continue": "Fortsæt",
       "errors": {
         "generic-error": "Error signing up for an account. Please try again.",
         "invalid-referral-code-can-continue": "Invalid referral code.",
@@ -458,7 +458,7 @@
       }
     },
     "your-details": {
-      "header": "Create an account",
+      "header": "Opret en konto",
       "subheader": "Your details",
       "disclaimer": {
         "title": "Notice for US customers",
@@ -466,7 +466,7 @@
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Fulde navn"
         },
         "referral-code": {
           "label": "Referral code (optional)",
@@ -487,18 +487,18 @@
       }
     },
     "country-details": {
-      "header": "Create an account",
+      "header": "Opret en konto",
       "subheader": "Where do you live?",
-      "edit": "Edit",
+      "edit": "Rediger",
       "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "save-changes": "Gem ændringer",
       "fields": {
         "country": {
           "label": "Country of residence"
         },
         "state": {
-          "label": "State",
-          "location": "Location"
+          "label": "Stat",
+          "location": "Lokation"
         },
         "confirm-country": {
           "label": "I confirm that this is my country of residence."
@@ -509,24 +509,24 @@
       }
     },
     "account-details": {
-      "header": "Create an account",
+      "header": "Opret en konto",
       "subheader": "Account details",
-      "continue": "Create account",
+      "continue": "Opret konto",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Indtast en e-mailadresse",
+          "placeholder": "E-mailadresse"
         },
         "password": {
           "label": "Create a password",
-          "placeholder": "Password",
+          "placeholder": "Adgangskode",
           "errors": {
             "password-too-weak": "The password you chose is too weak."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Bekræft din adgangskode",
+          "placeholder": "Bekræft adgangskode",
           "errors": {
             "passwords-do-not-match": "Passwords do not match."
           }
@@ -534,7 +534,7 @@
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
+          "title": "Tips til en stærk adgangskode.",
           "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
           "tip-index": "Tip {{index}}",
           "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
@@ -544,23 +544,23 @@
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Brug en kombination af store og små bogstaver, tal og specialtegn for en stærkere adgangskode.",
+        "tips": "Tips til oprettelse af adgangskode",
+        "password-strength": "Adgangskode styrke",
+        "weak": "Svag",
+        "medium": "Middel",
+        "strong": "Stærk",
+        "very-strong": "Meget stærk"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
+      "header": "Vi har sendt dig en e-mail!",
+      "desc-1": "Venligst check din e-mail og bekræft din konto.",
+      "desc-2": "Hvis du ikke kan se vores e-mail, så tjek din spam mappe.",
+      "resend": "Gensend bekræftelsesmail",
+      "resend-delay": "Vent venligst {{count}} sekund…",
+      "resend-delay_plural": "Vent venligst {{count}} sekunder…",
+      "back": "Tilbage til log ind",
       "success": "Verification email resent successfully!",
       "errors": {
         "generic-error": "Error resending verification email. Please try again."
@@ -570,17 +570,17 @@
   "account-setup": {
     "tab-title": "Set up account",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Tolv hemmelige ord",
+      "Totrinsbekræftelse"
     ],
     "general-information": {
-      "title": "General information",
+      "title": "Generel information",
       "header": "Let’s create your personal account",
       "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
       "continue": "Get my twelve secret words",
       "skip2Fa": "Set up it later",
       "chart": {
-        "card-top": "Twelve secret words",
+        "card-top": "Tolv hemmelige ord",
         "card-top-right": "Nash account recovery if password is forgotten",
         "diamond-one": "Used in",
         "diamond-two": "Generate your personal account, which contains…",
@@ -591,7 +591,7 @@
       }
     },
     "secret-words": {
-      "title": "Secret words",
+      "title": "Hemmelige ord",
       "header": "Write down your twelve secret words",
       "desc": "These words are used to access your funds. You will also need them to reset your password.",
       "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
@@ -641,10 +641,10 @@
       }
     },
     "2fa": {
-      "title": "Two-factor authentication",
-      "header": "Recommended: Enable two-factor authentication",
-      "skip": "Skip",
-      "desc": "Two-factor authentication (2FA) adds an extra layer of security to your account.",
+      "title": "Totrinsbekræftelse",
+      "header": "Anbefalet: Aktiver totrinsbekræftelse",
+      "skip": "Spring over",
+      "desc": "Totrinsbekræftelse (2FA) tilføj et ekstra lag af sikkerhed til din konto.",
       "cards": {
         "1": {
           "header": "Download and install an authenticator app",
@@ -675,9 +675,9 @@
       "title-balances-and-limits": "Balances and limits",
       "increase-my-limits": "Increase my limits",
       "limits": {
-        "day": "Day",
-        "month": "Month",
-        "year": "Year",
+        "day": "Dag",
+        "month": "Måned",
+        "year": "År",
         "spend-of-limit": "of"
       }
     },
@@ -691,12 +691,12 @@
       "switch-to-simplified": "Switch to basic view",
       "current-market": "Market",
       "last-price": "Last traded price",
-      "last-24h": "Last 24h",
+      "last-24h": "Sidste 24t",
       "24h-change": "change",
-      "24h-high": "High",
-      "24h-low": "Low",
+      "24h-high": "Høj",
+      "24h-low": "Lav",
       "24h-volume": "Volume",
-      "my-portfolio": "My portfolio"
+      "my-portfolio": "Min portefølje"
     },
     "tips": {
       "balance": "<0>Tip</0> <1>Send funds to the trading contract here.</1> <2 />"
@@ -706,7 +706,7 @@
       "to-start-trading": "To start trading"
     },
     "balances": {
-      "title": "Accounts"
+      "title": "Konti"
     },
     "market-selection": {
       "no-results": "We couldn’t find any results for <0>{{searchTerm}}</0>.",
@@ -716,7 +716,7 @@
       "24hprice": "24h change",
       "tabs": {
         "all": "All",
-        "favorites": "Favorites"
+        "favorites": "Favoritter"
       }
     },
     "favorite-bar": {
@@ -726,7 +726,7 @@
     "market-graphs": {
       "title": "Graphs",
       "price-chart": {
-        "title": "Price",
+        "title": "Pris",
         "heads-up-display": {
           "ohlc": {
             "o": "O",
@@ -746,7 +746,7 @@
         },
         "studies": {
           "title": "Indicators",
-          "search": "Search",
+          "search": "Søg",
           "no-results": "No results for your criteria"
         },
         "price-chart-selector": {
@@ -757,15 +757,15 @@
           "1m": "1m",
           "15m": "15m",
           "30m": "30m",
-          "1h": "1h",
-          "6h": "6h",
-          "12h": "12h",
+          "1h": "1t",
+          "6h": "6t",
+          "12h": "12t",
           "1d": "1d",
-          "1w": "1w",
+          "1w": "1u",
           "1M": "1M"
         },
         "study-overlay-menu": {
-          "edit-study": "Edit settings",
+          "edit-study": "Rediger indstillinger",
           "remove-study": "Remove indicator"
         },
         "edit-study-modal": {
@@ -777,31 +777,31 @@
               "label": "Style"
             },
             "parameters": {
-              "label": "Settings"
+              "label": "Indstillinger"
             }
           },
           "buttons": {
             "update": {
-              "label": "Update"
+              "label": "Opdater"
             },
             "cancel": {
-              "label": "Cancel"
+              "label": "Annuller"
             }
           }
         }
       },
       "depth-chart": {
-        "title": "Depth",
+        "title": "Dybde",
         "tooltip": {
-          "price": "Price: <0>{{price}}</0>",
+          "price": "Pris: <0>{{price}}</0>",
           "volume": "Volume: <0>{{volume}}</0>"
         }
       },
       "clear-studies-button-label": "Clear all indicators"
     },
     "create-order": {
-      "buy": "Buy {{currencySymbol}}",
-      "sell": "Sell {{currencySymbol}}",
+      "buy": "Køb {{currencySymbol}}",
+      "sell": "Sælg {{currencySymbol}}",
       "locked-trading-session": {
         "information": "Your trading session is locked. <0 />",
         "information-tooltip": "Sessions are locked when you refresh the page or are idle for 15 minutes.",
@@ -847,7 +847,7 @@
         },
         "cancel-at": {
           "label": "Cancel on",
-          "expires": "Expires",
+          "expires": "Udløber",
           "modal": {
             "label-no-selection": "Select a date to continue…",
             "errors": {
@@ -867,7 +867,7 @@
           "label-show": "Stop-limit"
         },
         "price": {
-          "label": "Price"
+          "label": "Pris"
         },
         "limit-price": {
           "label": "Limit",
@@ -917,8 +917,8 @@
     "my-orders": {
       "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Get started</0> <1>with Nash</1>",
-        "subtitle": "Create an account in under a minute – no KYC required!"
+        "title": "<0>Kom i gang</0> <1>med Nash</1>",
+        "subtitle": "Opret en konto på under et minut - ingen KYC påkrævet!"
       },
       "no-results": {
         "date-range": "You have no orders in the given date range.",
@@ -927,14 +927,14 @@
         "trades": "You have no trade history."
       },
       "tabs": {
-        "orders": "Orders",
+        "orders": "Ordre",
         "trades": "Trade history"
       },
       "date-range-selection": {
         "days": "{{range}}d",
-        "weeks": "{{range}}w",
+        "weeks": "{{range}}u",
         "months": "{{range}}M",
-        "years": "{{range}}Y",
+        "years": "{{range}}Å",
         "clear": "Clear",
         "select-action": "Custom",
         "popup": {
@@ -952,15 +952,15 @@
       "trade-history-times": {
         "header": "Select a set timeframe to export",
         "custom": "Custom timeframe",
-        "months": "{{count}} month",
-        "months_plural": "{{count}} months",
-        "year": "{{count}} year"
+        "months": "{{count}} måned",
+        "months_plural": "{{count}} måneder",
+        "year": "{{count}} år"
       },
-      "reset-filters": "Reset",
+      "reset-filters": "Nulstil",
       "side-col": {
         "filter": {
-          "buy": "Buy",
-          "sell": "Sell",
+          "buy": "Køb",
+          "sell": "Sælg",
           "both": "Both"
         }
       },
@@ -985,10 +985,10 @@
         }
       },
       "cancel-col": {
-        "header-title": "Cancel all",
+        "header-title": "Annuller alle",
         "partial-fill": "Partial fill",
         "cancelled-partial-fill": "Canceled: Partial fill",
-        "cancelled-order": "Order canceled"
+        "cancelled-order": "Ordre annulleret"
       },
       "cancelled-unfilled-col": {
         "header-title": "Unfilled amount",
@@ -1000,10 +1000,10 @@
       },
       "status-col": {
         "header-title": "Status",
-        "open": "Open",
-        "cancelled": "Canceled",
+        "open": "Åben",
+        "cancelled": "Annulleret",
         "filled": "Filled",
-        "pending": "Pending"
+        "pending": "Afventer"
       },
       "executed-col": {
         "header-title": "Filled",
@@ -1023,7 +1023,7 @@
       },
       "price-col": {
         "header-title": "Price",
-        "header-title-with-currency": "{{currency}} price"
+        "header-title-with-currency": "{{currency}} pris"
       },
       "pair-col": {
         "header-title": "Pair"
@@ -1033,9 +1033,9 @@
         "header-title-with-currency": "{{currency}} amount filled"
       },
       "fee-col": {
-        "header-title": "Fee",
-        "header-title-with-currency": "{{currency}} fee",
-        "no-fee": "No fee"
+        "header-title": "Gebyr",
+        "header-title-with-currency": "{{currency}} gebyr",
+        "no-fee": "Ingen gebyr"
       },
       "condition-col": {
         "header-title": "Stop price",
@@ -1050,9 +1050,9 @@
     },
     "recent-trades": {
       "title": "Recent trades",
-      "order-size-col": "{{symbol}} size",
-      "price-col": "{{symbol}} price",
-      "time-col": "Time"
+      "order-size-col": "{{symbol}} størrelse",
+      "price-col": "{{symbol}} pris",
+      "time-col": "Tid"
     },
     "orderbook": {
       "title": "USD",
@@ -1063,39 +1063,39 @@
       "average": "Avg. price",
       "sum-size": "{{symbol}} sum",
       "num-decimals": "{{decimals}} decimal",
-      "num-decimals_plural": "{{decimals}} decimals",
+      "num-decimals_plural": "{{decimals}} decimaler",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Learn more about our <1>fees</1>."
+    "learn-about-our-fees": "Lær mere om vores <1>gebyrer</1>."
   },
   "auth": {
-    "create-an-account": "Create an account",
+    "create-an-account": "Opret en konto",
     "forgotten": "Lost 2FA?",
-    "sign-in-now": "Sign in now",
-    "sign-in": "Sign in",
-    "sign-out": "Sign out",
+    "sign-in-now": "Log ind nu",
+    "sign-in": "Log ind",
+    "sign-out": "Log ud",
     "password-strength": {
-      "0": "Very weak",
-      "1": "Weak",
-      "2": "Medium",
-      "3": "Strong",
-      "4": "Very strong",
-      "label": "Password strength"
+      "0": "Meget svag",
+      "1": "Svag",
+      "2": "Middel",
+      "3": "Stærk",
+      "4": "Meget stærk",
+      "label": "Adgangskode styrke"
     },
     "password-form": {
       "password": {
-        "label": "Password",
-        "placeholder": "Enter your password"
+        "label": "Adgangskode",
+        "placeholder": "Indtast din adgangskode"
       },
       "code": {
-        "label": "Two-factor authentication",
-        "placeholder": "Enter your two-factor authentication code"
+        "label": "Totrinsbekræftelse",
+        "placeholder": "Indtast din totrinsbekræftelseskode"
       }
     },
     "new-wallets": {
       "btc": {
-        "title": "You can now send, receive and store Bitcoin with Nash!",
+        "title": "Du kan nu sende, modtage og opbevare Bitcoin med Nash!",
         "subtext": "We’ll notify you when Bitcoin trading pairs are available on the Nash Exchange.",
         "btn-bitcoin": "Deposit Bitcoin",
         "btn-funds": "Continue to portfolio"
@@ -1109,14 +1109,14 @@
       "signing-out": "({{count}}s) Signing out…"
     },
     "signup": {
-      "desc": "Don’t have an account yet?",
-      "sign-up": "Create one"
+      "desc": "Har du ikke en konto endnu?",
+      "sign-up": "Opret en"
     },
     "form": {
-      "continue": "Continue"
+      "continue": "Fortsæt"
     },
     "missing-country": {
-      "header": "Before you continue…",
+      "header": "Før du fortsætter…",
       "subheader": "Where do you live?",
       "messages": {
         "vpn-warning-title": "We noticed you’re using a VPN.",
@@ -1130,7 +1130,7 @@
           "label": "Country of residence"
         },
         "state": {
-          "label": "State"
+          "label": "Stat"
         },
         "confirm-country": {
           "label": "I confirm that this is my country of residence."
@@ -1142,19 +1142,19 @@
     },
     "signin": {
       "header": "Sign in to Nash",
-      "header-2fa": "Two-factor authentication",
+      "header-2fa": "Totrinsbekræftelse",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "E-mailadresse",
+          "placeholder": "E-mailadresse"
         },
         "password": {
-          "label": "Password",
-          "sub-label": "Forgotten password?",
-          "placeholder": "Password"
+          "label": "Adgangskode",
+          "sub-label": "Glemt adgangskode??",
+          "placeholder": "Adgangskode"
         },
         "remember-me": {
-          "label": "Remember me"
+          "label": "Husk mig"
         }
       },
       "messages": {
@@ -1179,13 +1179,13 @@
       }
     },
     "forgot-password": {
-      "tab-title": "Forgotten password",
-      "header": "Forgotten your password?",
+      "tab-title": "Glemt adgangskode",
+      "header": "Glemt din adgangskode?",
       "desc": "Enter your email address below and we’ll get you back on track.",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "E-mailadresse",
+          "placeholder": "E-mailadresse"
         }
       },
       "submit": "Request reset link",
@@ -1200,14 +1200,14 @@
       ],
       "secret-words": {
         "home": {
-          "header": "Do you still have your twelve secret words?",
+          "header": "Har du stadig dine tolv hemmelige ord?",
           "sub-header": "When you first set up your Nash account, we asked you to write these words down and keep them safe.",
-          "button-have-words": "Yes, I still have my secret words",
+          "button-have-words": "Ja, jeg har stadig mine tolv hemmelige ord",
           "button-lost-words": "No, I have lost my secret words",
           "desc": "Unfortunately, if you have lost both your old password and your twelve secret words, you will be unable to recover your funds."
         },
         "edit": {
-          "header": "Enter your twelve secret words",
+          "header": "Indtast dine tolv hemmelige ord",
           "desc-1": "We use your secret words to regenerate your master seed and individual asset accounts.",
           "desc-2": "If you cannot provide the twelve words for your existing accounts, <0>your funds will be lost.</0>",
           "card-title": "All words are lowercase",
@@ -1243,22 +1243,22 @@
         "desc-success-reset": "You will be able to set up new wallets the next time you sign in.",
         "fields": {
           "password": {
-            "label": "New password",
-            "placeholder": "New password",
+            "label": "Ny adgangskode",
+            "placeholder": "Ny adgangskode",
             "errors": {
-              "password-too-weak": "The password you chose is too weak."
+              "password-too-weak": "Adgangskoden du har valgt er for svag."
             }
           },
           "password-confirm": {
-            "label": "Confirm new password",
-            "placeholder": "Confirm new password",
+            "label": "Bekræft ny adgangskode",
+            "placeholder": "Bekræft ny adgangskode",
             "errors": {
               "passwords-do-not-match": "Passwords do not match."
             }
           },
           "code": {
-            "label": "Two-factor authentication",
-            "placeholder": "Enter your two-factor authentication code"
+            "label": "Totrinsbekræftelse",
+            "placeholder": "Indtast din totrinsbekræftelseskode"
           }
         },
         "errors": {
@@ -1270,9 +1270,9 @@
         "submit": "Set new password"
       }
     },
-    "verify-email": "Verifying email address…",
+    "verify-email": "Bekræfter din e-mailadresse…",
     "secret-word-list-edit": {
-      "placeholder": "Word {{index}}"
+      "placeholder": "Ord {{index}}"
     },
     "discourse-sso": {
       "login": {
@@ -1308,8 +1308,8 @@
         }
       },
       "get-token": "Authenticating…",
-      "log-you-in": "Logging in…",
-      "unknow-error-message": "Something went wrong, please try again."
+      "log-you-in": "Logger ind…",
+      "unknow-error-message": "Noget gik galt, venligst prøv igen."
     }
   },
   "basic-exchange": {
@@ -1403,7 +1403,7 @@
         "toggle-limit": "Set a price for this trade",
         "above-limit": "{{percent}}% above market",
         "below-limit": "{{percent}}% below market",
-        "reset": "Reset",
+        "reset": "Nulstil",
         "submit": "Review trade"
       },
       "review-order": {
@@ -1428,7 +1428,7 @@
         "header": {
           "insufficient-funds": "Insufficient funds",
           "daily-limit-reached": "Daily limit reached",
-          "generic": "Something went wrong!"
+          "generic": "Noget gik galt!"
         },
         "desc": {
           "insufficient-funds": {
@@ -1459,17 +1459,17 @@
     "AQ": "Antarctica",
     "AR": "Argentina",
     "AS": "American Samoa",
-    "AT": "Austria",
-    "AU": "Australia",
+    "AT": "Østrig",
+    "AU": "Australien",
     "AW": "Aruba",
     "AX": "Åland Islands",
     "AZ": "Azerbaijan",
     "BA": "Bosnia and Herzegovina",
     "BB": "Barbados",
     "BD": "Bangladesh",
-    "BE": "Belgium",
+    "BE": "Belgien",
     "BF": "Burkina Faso",
-    "BG": "Bulgaria",
+    "BG": "Bulgarien",
     "BH": "Bahrain",
     "BI": "Burundi",
     "BJ": "Benin",
@@ -1478,7 +1478,7 @@
     "BN": "Brunei Darussalam",
     "BO": "Bolivia (Plurinational State of)",
     "BQ": "Bonaire, Sint Eustatius and Saba",
-    "BR": "Brazil",
+    "BR": "Brasilien",
     "BS": "Bahamas",
     "BT": "Bhutan",
     "BV": "Bouvet Island",
@@ -1490,12 +1490,12 @@
     "CD": "Congo (Democratic Republic of the)",
     "CF": "Central African Republic",
     "CG": "Congo",
-    "CH": "Switzerland",
+    "CH": "Schweiz",
     "CI": "Côte d’Ivoire",
     "CK": "Cook Islands",
     "CL": "Chile",
     "CM": "Cameroon",
-    "CN": "China",
+    "CN": "Kina",
     "CO": "Colombia",
     "CR": "Costa Rica",
     "CU": "Cuba",
@@ -1504,25 +1504,25 @@
     "CX": "Christmas Island",
     "CY": "Cyprus",
     "CZ": "Czech Republic",
-    "DE": "Germany",
+    "DE": "Tyskland",
     "DJ": "Djibouti",
-    "DK": "Denmark",
+    "DK": "Danmark",
     "DM": "Dominica",
     "DO": "Dominican Republic",
     "DZ": "Algeria",
     "EC": "Ecuador",
     "EE": "Estonia",
-    "EG": "Egypt",
+    "EG": "Egypten",
     "EH": "Western Sahara",
     "ER": "Eritrea",
-    "ES": "Spain",
-    "ET": "Ethiopia",
+    "ES": "Spanien",
+    "ET": "Etopien",
     "FI": "Finland",
     "FJ": "Fiji",
     "FK": "Falkland Islands (Malvinas)",
     "FM": "Micronesia (Federated States of)",
     "FO": "Faroe Islands",
-    "FR": "France",
+    "FR": "Frankrig",
     "GA": "Gabon",
     "GB": "United Kingdom of Great Britain and Northern Ireland",
     "GD": "Grenada",
@@ -1531,12 +1531,12 @@
     "GG": "Guernsey",
     "GH": "Ghana",
     "GI": "Gibraltar",
-    "GL": "Greenland",
+    "GL": "Grønland",
     "GM": "Gambia",
     "GN": "Guinea",
     "GP": "Guadeloupe",
     "GQ": "Equatorial Guinea",
-    "GR": "Greece",
+    "GR": "Grækenland",
     "GS": "South Georgia and the South Sandwich Islands",
     "GT": "Guatemala",
     "GU": "Guam",
@@ -1545,19 +1545,19 @@
     "HK": "Hong Kong",
     "HM": "Heard Island and McDonald Islands",
     "HN": "Honduras",
-    "HR": "Croatia",
+    "HR": "Kroatien",
     "HT": "Haiti",
-    "HU": "Hungary",
-    "ID": "Indonesia",
+    "HU": "Ungarn",
+    "ID": "Indonesien",
     "IE": "Ireland",
     "IL": "Israel",
     "IM": "Isle of Man",
-    "IN": "India",
+    "IN": "Indien",
     "IO": "British Indian Ocean Territory",
-    "IQ": "Iraq",
+    "IQ": "Irak",
     "IR": "Iran (Islamic Republic of)",
-    "IS": "Iceland",
-    "IT": "Italy",
+    "IS": "Island",
+    "IT": "Italien",
     "JE": "Jersey",
     "JM": "Jamaica",
     "JO": "Jordan",
@@ -1568,8 +1568,8 @@
     "KI": "Kiribati",
     "KM": "Comoros",
     "KN": "Saint Kitts and Nevis",
-    "KP": "North Korea",
-    "KR": "South Korea",
+    "KP": "Nord Korea",
+    "KR": "Syd Korea",
     "KW": "Kuwait",
     "KY": "Cayman Islands",
     "KZ": "Kazakhstan",
@@ -1580,7 +1580,7 @@
     "LK": "Sri Lanka",
     "LR": "Liberia",
     "LS": "Lesotho",
-    "LT": "Lithuania",
+    "LT": "Litauen",
     "LU": "Luxembourg",
     "LV": "Latvia",
     "LY": "Libya",
@@ -1614,7 +1614,7 @@
     "NG": "Nigeria",
     "NI": "Nicaragua",
     "NL": "Netherlands",
-    "NO": "Norway",
+    "NO": "Norge",
     "NP": "Nepal",
     "NR": "Nauru",
     "NU": "Niue",
@@ -1626,7 +1626,7 @@
     "PG": "Papua New Guinea",
     "PH": "Philippines",
     "PK": "Pakistan",
-    "PL": "Poland",
+    "PL": "Polen",
     "PM": "Saint Pierre and Miquelon",
     "PN": "Pitcairn",
     "PR": "Puerto Rico",
@@ -1636,7 +1636,7 @@
     "PY": "Paraguay",
     "QA": "Qatar",
     "RE": "Réunion",
-    "RO": "Romania",
+    "RO": "Romanien",
     "RS": "Serbia",
     "RU": "Russian Federation",
     "RW": "Rwanda",
@@ -1644,12 +1644,12 @@
     "SB": "Solomon Islands",
     "SC": "Seychelles",
     "SD": "Sudan",
-    "SE": "Sweden",
+    "SE": "Sverige",
     "SG": "Singapore",
     "SH": "Saint Helena, Ascension and Tristan da Cunha",
-    "SI": "Slovenia",
+    "SI": "Slovenien",
     "SJ": "Svalbard and Jan Mayen",
-    "SK": "Slovakia",
+    "SK": "Slovakiet",
     "SL": "Sierra Leone",
     "SM": "San Marino",
     "SN": "Senegal",
@@ -1670,9 +1670,9 @@
     "TK": "Tokelau",
     "TL": "Timor-Leste",
     "TM": "Turkmenistan",
-    "TN": "Tunisia",
+    "TN": "Tunisien",
     "TO": "Tonga",
-    "TR": "Turkey",
+    "TR": "Tyrkiet",
     "TT": "Trinidad and Tobago",
     "TV": "Tuvalu",
     "TW": "Taiwan",
@@ -1696,7 +1696,7 @@
     "XX": "Unspecified nationality",
     "YE": "Yemen",
     "YT": "Mayotte",
-    "ZA": "South Africa",
+    "ZA": "Syd Africa",
     "ZM": "Zambia",
     "ZW": "Zimbabwe"
   },
@@ -2667,7 +2667,7 @@
       },
       "details-shared": {
         "title": "{{ccpro}} has sent you an email!",
-        "desc": "Please check your email and verify your account with {{ccpro}}.<0 />If you don’t see their email, check your junk folder.",
+        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
         "button": "Resend verification email"
       },
       "transactions": {
@@ -3149,14 +3149,14 @@
     "transfer-funds": {
       "what-asset": "Which asset?",
       "select-asset": "Select an asset",
-      "transfer-from": "From",
-      "to-destination": "To",
+      "transfer-from": "Fra",
+      "to-destination": "Til",
       "send-only-currency": "Send only {{currency}} to this address",
       "transfer-details": "Transfer details",
       "you-are-transfering": "You are transferring",
       "you-are-sending": "You are sending",
       "enter-2fa-code": "Enter your two-factor authentication code",
-      "transfer-funds": "Send/Receive",
+      "transfer-funds": "Send/Modtag",
       "create-transfer": "Create transfer",
       "review-and-start-transfer": "Review and start transfer",
       "transfer-has-started": "Your transfer has started",
@@ -3182,7 +3182,7 @@
       "external": "An external wallet"
     },
     "common": {
-      "continue-and-review": "Continue",
+      "continue-and-review": "Fortsæt",
       "finish": "Finish"
     },
     "form-amount": {
@@ -3215,7 +3215,7 @@
         "message": "I accept the latest <0>{{termsName}}</0>."
       },
       "confirm-notice": "If you do not accept the above terms and conditions, you will not be able to continue using Nash services.",
-      "confirm-button": "Confirm",
+      "confirm-button": "Bekræft",
       "sign-out-link": "Sign me out",
       "errors": {
         "generic-error": "An error has occurred. Please retry."
@@ -3239,7 +3239,7 @@
     "title": "Referral program",
     "referrals": {
       "header": "Refer a friend and earn tickets",
-      "desc": "The more tickets you earn, the higher chance you have of winning. <0>Learn more</0>.",
+      "desc": "The more tickets you earn, the higher chance you have of winning.",
       "cards": {
         "social-share": {
           "label": "Share your referral code:",
@@ -3253,19 +3253,19 @@
           "label": "Your referrals",
           "desc": "These are the people you’ve referred directly. We can’t show you who they’ve referred, but you can see the tickets you’ve earned through them for indirect referrals.",
           "header": "All pending and activated",
-          "col-name": "Name",
-          "col-pending": "Pending",
-          "col-activated": "Activated",
-          "me": "{{name}} (me)"
+          "col-name": "Navn",
+          "col-pending": "Afventer",
+          "col-activated": "Aktiveret",
+          "me": "{{name}} (mig)"
         }
       }
     }
   },
   "settings": {
     "title": "My account",
-    "save-settings": "Save settings",
+    "save-settings": "Gem indstillinger",
     "kyc": {
-      "state-label": "State",
+      "state-label": "Stat",
       "rejected": "Tier 1 status denied",
       "rejected-subtitle": "Unfortunately, you will not be able to proceed any further. If you believe this is a mistake, please contact our <0>support team.</0>",
       "details": {
@@ -3310,7 +3310,7 @@
           "content": "You have submitted too many verification attempts"
         },
         "unknown_error": {
-          "title": "Something went wrong!",
+          "title": "Noget gik galt!",
           "content": "We have encountered an unexpected error!"
         },
         "no_document": {
@@ -3322,7 +3322,7 @@
           "content": "We detected multiple people in the image your provided. You must be the only person in the image."
         },
         "BLURRED": {
-          "title": "Blurred image",
+          "title": "Sløret billede",
           "content": "The image you provided is blurred."
         },
         "sample_document": {
@@ -3354,11 +3354,11 @@
           "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
         },
         "bad_quality": {
-          "title": "Poor quality",
+          "title": "Dårlig kvalitet",
           "content": "The quality of the image you provided is too poor."
         },
         "camera_black_white": {
-          "title": "Black and white",
+          "title": "Sort og hvid",
           "content": "Your camera appears to be set to black and white. Please change it to color."
         },
         "not_readable_document": {
@@ -3366,7 +3366,7 @@
           "content": "The identity document you provided is unreadable."
         },
         "black_and_white": {
-          "title": "Black and white",
+          "title": "Sort og hvid",
           "content": "Your camera appears to be set to black and white. Please change it to color."
         },
         "hidden_part_document": {
@@ -3393,26 +3393,26 @@
       "name-error": "You must enter a name.",
       "title": "We need a few details from you",
       "topnav-back-button": "Back to limits",
-      "country": "Country",
+      "country": "Land",
       "waiting": "Verifying…",
       "waiting-subtitle": "This can take a few minutes. You may leave this page.",
       "topnav-title": "Tier 1 verification",
-      "contact-support-label": "<0>Contact support</0> to change",
+      "contact-support-label": "<0>Kontakt kunderservice</0> for at ændre",
       "confirm-button-label": "Confirm your details",
       "name-step": {
         "warning": "The name you enter must match the name on the identity document you provide.",
-        "date-of-birth-label": "Date of birth",
-        "full-name-label": "Full name",
-        "continue-button-label": "Continue and enter address"
+        "date-of-birth-label": "Fødselsdagsdato",
+        "full-name-label": "Fulde navn",
+        "continue-button-label": "Fortsæt og indtast adresse"
       },
       "address-step": {
-        "address-label": "Enter an address",
-        "search-button-label": "Search"
+        "address-label": "Indtast en adresse",
+        "search-button-label": "Søg"
       },
       "manual-address-step": {
         "line1": "Address line 1",
         "line2": "Address line 2",
-        "city": "City",
+        "city": "By",
         "zipCode": "Postcode/ZIP"
       },
       "select-address-step": {
@@ -3423,98 +3423,99 @@
         "no-results-found-body": "Please make sure you include your postcode.",
         "error-title": "We experienced an error",
         "error-body": "Try again or use the link below.",
-        "go-back-label": "Go back"
+        "go-back-label": "Gå tilbage"
       },
       "confirm-details": {
         "begin-button-label": "These details are correct",
         "your-details": "Personal details",
         "address-details": "Address details",
-        "edit-label": "Edit",
+        "edit-label": "rediger",
         "submission-error": "We experienced an error while submitting your data."
       }
     },
     "profile": {
-      "title": "Profile",
-      "header": "Profile settings",
+      "title": "Profil",
+      "header": "Profilindstillinger",
       "desc-1": "You can edit your profile settings below.",
       "desc-2": "",
       "cards": {
         "your-details": {
           "label": "Personal details",
           "legal-name": "Legal name",
+          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
           "update-name": "I want to update my name",
           "update-country": "I want to update my country of residence",
-          "gender": "Gender",
-          "male": "Male",
-          "female": "Female",
-          "other": "Other",
+          "gender": "Køn",
+          "male": "Mand",
+          "female": "Kvinde",
+          "other": "Andet",
           "country-of-residence": "Country of residence"
         },
         "account-settings": {
-          "label": "Account settings",
-          "email-address": "Email address",
-          "update-email": "Change email address",
-          "password": "Password",
-          "update-password": "Change password",
+          "label": "Kontoindstillinger",
+          "email-address": "E-mailadresse",
+          "update-email": "Skift e-mailadresse",
+          "password": "Adgangskode",
+          "update-password": "Skift adgangskode",
           "two-factor": "We recommend you to enable two-factor authentication in <0>Security</0>.",
           "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
         }
       },
       "modals": {
         "update-name": {
-          "title": "Update name",
-          "label": "Name",
+          "title": "Opdater navn",
+          "label": "Navn",
           "tier0-summary": "To update your name, please complete <0>Tier 1 verification</0>.",
           "tier0-details": "When your application for Tier 1 has been approved, we will update your name to the legal name on the documents you provided.",
           "tier1-summary": "If your legal name has changed and you would like to update it, please <0>contact support</0>.",
           "tier1-details": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your name to the legal name on the documents you provided."
         },
         "update-country": {
-          "title": "Update country",
-          "label": "Country",
+          "title": "Opdater land",
+          "label": "Land",
           "tier0": "If your country of residence has changed and you would like to update it, please <0>contact support</0>.",
           "tier1": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your country of residence to the country on the documents you provided."
         },
         "update-email": {
-          "success-header": "We’ve sent you an email!",
+          "success-header": "Vi har sendt dig en e-mail!",
           "success-description": "We have sent you a confirmation email to start the address update process. If you don’t see our email, check your junk folder.",
-          "success-back": "Got it!",
-          "title": "Change email",
-          "current-email-label": "Your current email address",
-          "current-email": "Current email address",
-          "new-email-label": "New email address",
-          "new-email-placeholder": "Enter your new email address",
-          "twofa-label": "Two-factor authentication",
+          "success-back": "Jeg er med!",
+          "title": "Skift e-mail",
+          "current-email-label": "Din nuværende e-mailadresse",
+          "current-email": "Nuværende e-mailadresse",
+          "new-email-label": "Ny e-mailadresse",
+          "new-email-placeholder": "Indtast din ny e-mailadresse",
+          "twofa-label": "Totrinsbekræftelse",
           "twofa-label-placeholder": "Enter your two-factor authentication (2FA) code",
           "request-email-change-button-label": "Request address change"
         },
         "update-password": {
-          "title": "Change password",
+          "title": "Skift adgangskode",
           "fields": {
             "password": {
-              "label": "Current password",
-              "placeholder": "Enter your password"
+              "label": "Nuværende adgangskode",
+              "placeholder": "Indtast din adgangskode"
             },
             "code": {
-              "label": "Two-factor authentication",
+              "label": "Totrinsbekræftelse",
               "placeholder": "Enter your two-factor authentication code"
             },
             "new-password": {
-              "label": "New password",
-              "placeholder": "Enter a new password",
+              "label": "Ny adgangskode",
+              "placeholder": "Indtast en ny adgangskode",
               "errors": {
-                "password-too-weak": "The password you chose is too weak."
+                "password-too-weak": "Adgangskoden du valgte er for svag."
               }
             },
             "new-password-confirm": {
-              "label": "Confirm new password",
-              "placeholder": "Confirm new password",
+              "label": "Bekræft ny adgangskode",
+              "placeholder": "Bekræft ny adgangskode",
               "errors": {
                 "passwords-do-not-match": "Passwords do not match."
               }
             }
           },
-          "success": "Your password has been changed successfully.",
+          "success": "Din adgangskode er successfuldt blevet ændret.",
           "errors": {
             "password-must-change": "Your new password should be different from your old password.",
             "password-already-used": "You used this password already. Please pick another one.",
@@ -3524,21 +3525,21 @@
       }
     },
     "preferences": {
-      "title": "Preferences",
-      "header": "Preferences",
-      "desc-1": "Edit your preferences for timezone, currency, language and notifications below.",
+      "title": "Præferencer",
+      "header": "Præferencer",
+      "desc-1": "Rediger dine præferencer for tidszone, valuta, sprog og notifikatiner nedenunder.",
       "desc-2": "",
       "cards": {
         "general-settings": {
-          "label": "General settings",
-          "timezone": "Timezone",
-          "fiat": "Currency",
-          "language": "Language",
-          "save-settings": "Save settings"
+          "label": "Generelle indstillinger",
+          "timezone": "Tidszone",
+          "fiat": "Valuta",
+          "language": "Sprog",
+          "save-settings": "Gem indstillinger"
         },
         "email": {
-          "label": "Email me when…",
-          "news": "There are news and updates from Nash.",
+          "label": "E-mail mig når…",
+          "news": "Der er opdateringer og nyheder fra Nash.",
           "actions": "There are recommended actions for my account.",
           "withdrawal": "A withdrawal is made from my account.",
           "deposit": "A deposit is made to my account."
@@ -3546,13 +3547,13 @@
       }
     },
     "security": {
-      "title": "Security",
-      "header": "Account security",
+      "title": "Sikkerhed",
+      "header": "Konto sikkerhed",
       "desc": "Enable two-factor authentication here.",
       "cards": {
         "2fa": {
-          "label": "Two-factor authentication",
-          "header": "Two-factor authentication is:",
+          "label": "Totrinsbekræftelse",
+          "header": "Totrinsbekræftelse er:",
           "desc": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
           "enabled": "Enabled",
           "disabled": "Disabled",
@@ -3560,33 +3561,33 @@
           "disable": "Disable (not recommended)"
         },
         "all-account-activity": {
-          "label": "All account activity",
+          "label": "Al konto aktivitet",
           "tabs": {
-            "sessions": "Sessions",
-            "allowed-devices": "Allowed devices",
-            "history": "History"
+            "sessions": "Sessioner",
+            "allowed-devices": "Godkendte enheder",
+            "history": "Historik"
           },
           "columns": {
-            "when": "When",
-            "location": "Location",
-            "ip-address": "IP address",
-            "browser-used": "Browser used",
-            "device": "Device",
+            "when": "Hvornår",
+            "location": "Lokation",
+            "ip-address": "IP-adresse",
+            "browser-used": "Browser brugt",
+            "device": "Enhed",
             "action": "Action"
           },
           "devices": {
             "browser": "Browser",
-            "phone": "Phone",
+            "phone": "Telefon",
             "tablet": "Tablet"
           },
           "actions": {
-            "signed-out": "Signed out",
-            "signed-in": "Signed in",
+            "signed-out": "Loggede ud",
+            "signed-in": "Loggede ind",
             "failed": "Failed sign-in attempt",
             "2fa": "2FA confirmed",
             "failed-2fa": "2FA failed"
           },
-          "sign-out": "Sign out",
+          "sign-out": "Log ud",
           "sign-out-all-devices": "Sign out all devices"
         }
       },
@@ -3605,25 +3606,25 @@
             "header": "Enter the code generated by your authenticator app",
             "input-placeholder": "Authentication code"
           },
-          "enable": "Enable",
+          "enable": "Aktiver",
           "title": "Set up two-factor authentication"
         },
         "disable-2fa": {
-          "title": "Disable two-factor authentication",
+          "title": "Deaktiver totrinsbekræftelse",
           "warning": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "disable": "Disable"
+          "disable": "Slå fra"
         },
         "success": {
           "header": "Success!",
-          "enabled": "Two-factor authentication has been enabled.",
-          "disabled": "Two-factor authentication has been disabled.",
-          "back": "Got it!"
+          "enabled": "Totrinsbekræftelse er blevet aktiveret.",
+          "disabled": "Totrinsbekræftelse er blevet deaktiveret.",
+          "back": "Jeg er med!"
         }
       }
     },
     "accounts": {
-      "title": "Accounts",
-      "header": "My account information",
+      "title": "Konti",
+      "header": "Min konto information",
       "wallets-header": "Accounts generated from my twelve secret words",
       "show-all-private-keys-button-label": "Show all private keys",
       "hide-all-private-keys-button-label": "Hide all private keys",
@@ -3634,18 +3635,18 @@
       "info-body": "ERC-20 and NEP-5 assets are tokens issued on the Ethereum and NEO blockchains, respectively. GAS is also an asset stored on the NEO blockchain. You only need one Ethereum account to store both ETH and ERC-20 tokens, and one NEO account to store NEO, GAS and NEP-5 tokens.",
       "public-address-sub-label": "Which assets can I send here?",
       "public-address-tooltip": "This is the blockchain address where your assets are stored.",
-      "private-key-label": "Private key",
-      "private-key-sub-label-show": "Show private key",
-      "private-key-sub-label-hide": "Hide private key",
+      "private-key-label": "Private nøgle",
+      "private-key-sub-label-show": "Vis privat nøgle",
+      "private-key-sub-label-hide": "Skjul privat nøgle",
       "private-key-tooltip": "This can be used to access your funds outside Nash. Keep it secret.",
-      "unknown-blockchain": "Unknown blockchain",
+      "unknown-blockchain": "ukendt blockchain",
       "wallets": {
         "eth": {
-          "link-label": "Includes ERC-20 tokens",
+          "link-label": "Inkluderer ERC-20 tokens",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Includes GAS and NEP-5 tokens",
+          "link-label": "Inkluderer GAS og NEP-5 tokens",
           "name": "NEO"
         },
         "btc": {
@@ -3654,9 +3655,9 @@
       },
       "cards": {
         "secret-words": {
-          "label": "My twelve secret words",
-          "account": "Nash account",
-          "desc": "Twelve secret words",
+          "label": "Mine tolv hemmelige ord",
+          "account": "Nash konto",
+          "desc": "Tolv hemmelige ord",
           "unlock": "Unlock and show twelve secret words",
           "lock": "Hide and lock twelve secret words"
         },
@@ -3685,62 +3686,62 @@
         "tiers": {
           "header": "Tier {{tier}}",
           "personal": "Personal",
-          "institutional": "Institutional"
+          "institutional": "Selskaber"
         },
         "periods": {
-          "day": "day",
-          "month": "month",
-          "year": "year"
+          "day": "dag",
+          "month": "måned",
+          "year": "år"
         },
         "limits": {
           "header": "Maximum daily trading volume",
           "percentage-net-worth": "Custom limit",
-          "unlimited": "Unlimited",
+          "unlimited": "Ubegrænset",
           "tier-verified": "Tier {{tier}} verified",
           "get-tier-verified": "Get tier {{tier}} verified",
-          "pending": "Pending",
-          "denied": "Denied",
-          "try-again": "Try again",
-          "contact-us": "Contact support"
+          "pending": "Afventer",
+          "denied": "Afvist",
+          "try-again": "Prøv igen",
+          "contact-us": "Kontakt kundeservice"
         },
         "information": {
-          "header": "Information required",
+          "header": "Information påkrævet",
           "desc": "This tier was automatically set when you created your Nash account.",
-          "email": "Email address",
-          "name": "Name",
-          "address": "Address",
+          "email": "E-mailadresse",
+          "name": "Navn",
+          "address": "Addresse",
           "proof-of-address": "Proof of address",
           "pep-check": "PEP check",
-          "photo-id": "Photo ID",
+          "photo-id": "billede-ID",
           "selfie": "Selfie",
-          "date-of-birth": "Date of birth",
+          "date-of-birth": "Fødselsdagsdato",
           "net-worth": "Net worth",
-          "contact-number": "Contact number",
+          "contact-number": "Telefonnummer",
           "tier1-info-net-worth": "Tier 1 information + Net worth",
           "source-of-funds": "Source of funds",
-          "name-manager": "Company representative",
-          "email-institution": "Email address",
-          "name-company": "Company name",
-          "website": "Website",
-          "tin": "TIN",
-          "corporate-formation-documents": "Corporate formation documents",
+          "name-manager": "Firma repræsentant",
+          "email-institution": "E-mailadresse",
+          "name-company": "Firmanavn",
+          "website": "Hjemmeside",
+          "tin": "CVR-nummer",
+          "corporate-formation-documents": "CVR-udskrift",
           "processing-time": "If your verification is not processed within 24 hours, please <0>contact support</0>."
         },
         "tier-1": {
-          "get-verified-button": "Get verified",
-          "continue-verification-button": "Continue verification",
+          "get-verified-button": "Blev verificeret",
+          "continue-verification-button": "Fortsæt verifikation",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "Hvordan vil du verificeres?",
             "mobile": {
               "header": "Smartphone app",
               "desc": "Requires both high-quality front-facing and back-facing cameras.",
               "steps": [
-                "Download the app",
-                "Scan QR code"
+                "Hent appen",
+                "Scan QR-kode"
               ],
               "download": {
                 "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "downloaded-app": "Jeg har hentet appen"
               },
               "scan-code": {
                 "header": "Scan the following QR code with the Nash app:",
@@ -3749,7 +3750,7 @@
             },
             "web": {
               "header": "Nash web platform",
-              "desc": "Requires a high-quality webcam."
+              "desc": "Kræver et webcam i høj kvalitet."
             },
             "do-it-later": "I’ll do this later"
           }
@@ -3793,7 +3794,7 @@
       "summary-title": "All statements",
       "export-summary": "Export stakes as CSV",
       "export": "Export statement",
-      "date-col": "Payment date",
+      "date-col": "Betalingsdato",
       "asset-col": "Asset",
       "dividend-col": "Dividend received",
       "usdDividend-col": "USD value",
@@ -3821,7 +3822,7 @@
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
+            "title": "Hvordan virker det?",
             "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
           },
           "par-2": {
@@ -3863,17 +3864,17 @@
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Set a stake duration",
         "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
+        "selected-duration-month": "<0>{{count}}</0> måned",
+        "selected-duration-month_plural": "<0>{{count}}</0> måneder",
         "set-date-dividends-label": "Set a date to receive your dividends",
         "set-date-dividends-value": "Date ⋅ {{date}} of every month",
         "stake-details-title": "Your stake details",
         "currency-to-stake": "NEX to stake",
         "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
+        "duration-value": "<0>{{count}}</0> måned",
+        "duration-value_plural": "<0>{{count}}</0> måneder",
         "fee-reward": "Staking rate",
-        "first-payment": "First payment",
+        "first-payment": "Første betaling",
         "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
         "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
         "create-stake-button": "Create stake",
@@ -3894,7 +3895,7 @@
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
+      "title": "Tjen passiv indkomst ved at stake NEX tokens",
       "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
       "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
       "description-modal-create-link": "Create your first stake"
@@ -3911,41 +3912,41 @@
     }
   },
   "contacts": {
-    "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "create-new": "Create new",
+    "title": "{{count}} kontakt",
+    "title_plural": "{{count}} kontakter",
+    "search-my-contacts": "Søg i mine kontakter…",
+    "no-contacts": "Du har ikke tilføjet eller importeret nogen kontakter endnu.",
+    "create-new": "Opret ny",
     "buttons": {
       "send": "Send",
       "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "request": "Anmod",
+      "edit": "Rediger",
+      "delete": "Slet"
     },
     "headers": {
-      "name": "Name",
-      "email": "Email",
-      "phone-number": "Phone number",
+      "name": "Navn",
+      "email": "E-mail",
+      "phone-number": "Telefonnummer",
       "wallets": "Wallets"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Opret kontakt",
+        "button": "Opret kontakt"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Rediger denne kontakt",
+        "button": "Gem ændringer"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Send midler til {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
+          "currency": "Hvilket aktiv?",
           "wallet": "Destination"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Du kan kun sende aktiver fra din personlige konto."
         },
         "placeholders": {
           "currency": "Search for an asset…",
@@ -3953,40 +3954,40 @@
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
+        "confirm-text": "Er du sikker på at du vil slette {{contactName}}?",
+        "notice-text": "Al information associeret med denne kontakt vil blive slettet permanent.",
+        "button": "Ja, slet",
+        "cancel": "Annuller",
         "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "success": "Kontakt slettet.",
+        "success-button": "Tilbage til kontakter"
       },
       "results": {
-        "success": "Contact saved!",
+        "success": "Kontakt gemt!",
         "error": "Error saving contact. Please try again.",
         "invalid-input": "Invalid input. Please try again."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Fornavn",
+          "placeholder": "Fornavn"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Efternavn",
+          "placeholder": "Efternavn"
         },
         "email": {
-          "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "label": "E-mail",
+          "placeholder": "E-mailadresse",
+          "error": "Ugyldig e-mailadresse"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Telefon",
+          "error": "Ugyldig telefonummer i {{country}}"
         },
         "wallets": {
           "label": "Wallets",
-          "delete": "Delete",
+          "delete": "Slet",
           "address": {
             "placeholder": "Wallet address"
           },
@@ -3996,7 +3997,7 @@
           "add": "Add another"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
+          "address": "Venligst indtast en gyldig {{blockchain}} addresse.",
           "unique-address": "You already have another contact with this wallet address."
         }
       }

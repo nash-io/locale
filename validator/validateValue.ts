@@ -1,7 +1,7 @@
 export enum ValidationError {
+  MissingValue = 'MissingValue',
   InvalidType = 'InvalidType',
 
-  UnexpectedSpace = 'UnexpectedSpace',
   UntrimmedSpace = 'UntrimmedSpace',
   MissingSpace = 'MissingSpace',
   TooManySpaces = 'TooManySpaces',
@@ -32,7 +32,9 @@ export default function validateValue(
 ) {
   const errors: ErrorData[] = []
 
-  if (typeof translatedValue !== 'string') {
+  if (translatedValue === undefined) {
+    errors.push({ code: ValidationError.MissingValue })
+  } else if (typeof translatedValue !== 'string') {
     errors.push({ code: ValidationError.InvalidType })
   } else {
     validateSpaces(errors, defaultValue, translatedValue, locale)
@@ -50,10 +52,6 @@ function validateSpaces(
   translatedValue: string,
   locale: string,
 ) {
-  // if (translatedValue.trim() !== translatedValue) {
-  //   errors.push({ code: ValidationError.UnexpectedSpace })
-  // }
-
   if (translatedValue.match(/( )\1/) != null) {
     errors.push({ code: ValidationError.TooManySpaces })
   }
@@ -82,6 +80,7 @@ function validateSpaces(
     }
   }
 
+  // Space within <0></0>
   const untrimmedComponentMatch = translatedValue.match(
     /(<\d+?>\s)|(\s<\/\d+>)/,
   )
@@ -89,6 +88,42 @@ function validateSpaces(
     errors.push({
       code: ValidationError.UntrimmedSpace,
       data: `Remove opening/closing space within all tags "${untrimmedComponentMatch[0]}"`,
+    })
+  }
+
+  // https://regexr.com/56bed
+  // Space before <0> & <0/>
+  const validBefore = [
+    '(?:<\\/\\d+>)',
+    '(?:<\\d+ ?\\/>)',
+    '\\s',
+    '\\(',
+    '\\/',
+    '^',
+    '‘',
+    '“',
+    '’',
+    '~',
+  ].join('|')
+  const preTrimmedComponentMatch = translatedValue.match(
+    new RegExp(`((?<!${validBefore})(<\\d+(?: ?\\/)?>))`),
+  )
+  if (preTrimmedComponentMatch != null) {
+    errors.push({
+      code: ValidationError.MissingSpace,
+      data: `Add a space before "${preTrimmedComponentMatch[2]}"`,
+    })
+  }
+
+  // https://regexr.com/56dps
+  // Space/break after </0> & <0/>
+  const postTrimmedComponentMatch = translatedValue.match(
+    /((<(?:\/\d+|\d+ ?\/)>)[^\W])/,
+  )
+  if (postTrimmedComponentMatch != null) {
+    errors.push({
+      code: ValidationError.MissingSpace,
+      data: `Add a space after "${postTrimmedComponentMatch[2]}"`,
     })
   }
 
