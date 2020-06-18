@@ -43,7 +43,7 @@
     "token-type": {
       "access": "Access",
       "kyc": "S’identifier",
-      "apitrade": "API d'échange",
+      "apitrade": "API d’échange",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
@@ -57,7 +57,7 @@
       "cancel-button-label": "Annuler"
     },
     "edit-whitelisted": {
-      "title": "Liste blanche d'adresses pour {{name}}",
+      "title": "Liste blanche d’adresses pour {{name}}",
       "add": "Ajouter",
       "save-and-close": "Enregistre les modifications et fermer",
       "continue": "Continuer"
@@ -67,11 +67,11 @@
       "title": "Gérer les clés API",
       "revoke-button-label": "Révoquer",
       "table-header": "Vos clés API",
-      "no-tokens-exp": "<0>Générez votre première clé</0>ou lisez notre<1> documentation API</1>.",
+      "no-tokens-exp": "<0>Générez votre première clé</0> ou lisez notre <1>documentation API</1>.",
       "name": "Nom",
       "never-used": "Jamais utilisé",
       "last-used": "Dernière utilisation {{when}}",
-      "subtitle": "Générez et gérez des clés API. En savoir plus sur<0>nos API</0>.",
+      "subtitle": "Générez et gérez des clés API. En savoir plus sur <0>nos API</0>.",
       "key-info": "Information clé",
       "api-key": "Clé API",
       "blockchains": "Blockchains",
@@ -164,7 +164,7 @@
       },
       "gtt": {
         "header": "Valable jusqu’à un moment à préciser",
-        "header-with-time": "Bon jusqu'à {{cancelAt}}",
+        "header-with-time": "Bon jusqu’à {{cancelAt}}",
         "desc": "Votre ordre restera dans le carnet d’ordres jusqu’à la date et heure spécifiées. S’il n’a pas été rempli d’ici là, il sera annulé."
       },
       "fok": {
@@ -672,7 +672,7 @@
   "trade": {
     "footer": {
       "title-limits": "Limites",
-      "title-balances-and-limits": "Soldes et limites ",
+      "title-balances-and-limits": "Soldes et limites",
       "increase-my-limits": "Augmenter mes limites",
       "limits": {
         "day": "Jour",
@@ -699,9 +699,9 @@
       "my-portfolio": "Mon portfolio"
     },
     "tips": {
-      "balance": "<0>Astuce</0> <1>Envoyez des fonds au contrat d'échange ici.</1> <2 />"
+      "balance": "<0>Astuce</0> <1>Envoyez des fonds au contrat d’échange ici.</1> <2 />"
     },
-    "no-markets": "Aucun marché n'est actuellement disponible.",
+    "no-markets": "Aucun marché n’est actuellement disponible.",
     "auth": {
       "to-start-trading": "Pour commencer à échanger"
     },
@@ -873,7 +873,7 @@
           "label": "Limite",
           "sub-label": "Votre ordre peut concorder avec des ordres à ce prix ou mieux.",
           "errors": {
-            "maker-match": "Les ordres ‘Publier uniquement’ qui correspondent au carnet d'ordre en cours seront annulées."
+            "maker-match": "Les ordres ‘Publier uniquement’ qui correspondent au carnet d’ordre en cours seront annulées."
           }
         },
         "stop-price": {
@@ -946,9 +946,9 @@
       "open-only-checkbox": "Ouvert uniquement",
       "pairs-checkbox": "Toutes les paires",
       "export": "Historique d’exportation",
-      "export-trades": "Exporter l'historique de vos échanges",
+      "export-trades": "Exporter l’historique de vos échanges",
       "export-your-trades": "Exportez vos échanges",
-      "no-trades": "Vous n'avez aucun échange à exporter",
+      "no-trades": "Vous n’avez aucun échange à exporter",
       "trade-history-times": {
         "header": "Sélectionnez une période définie pour exporter",
         "custom": "Cdélai personnalisé",
@@ -1056,7 +1056,7 @@
     },
     "orderbook": {
       "title": "USD",
-      "title-no-fiat": "Carnet d'ordre",
+      "title-no-fiat": "Carnet d’ordre",
       "order-size-col": "{{symbol}} Taille",
       "my-size-col": "Ma taille",
       "price-col": "{{symbol}} prix",
@@ -1067,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "En savoir plus sur nos<1>frais</1>."
+    "learn-about-our-fees": "En savoir plus sur nos <1>frais</1>."
   },
   "auth": {
     "create-an-account": "Créer un compte",
@@ -1090,26 +1090,26 @@
       },
       "code": {
         "label": "Double authentification",
-        "placeholder": "Entrez votre code d'authentification à deux facteurs"
+        "placeholder": "Entrez votre code d’authentification à deux facteurs"
       }
     },
     "new-wallets": {
       "btc": {
         "title": "Vous pouvez désormais envoyer, recevoir et stocker des Bitcoins avec Nash!",
-        "subtext": "Nous vous informerons lorsque des paires d'échange Bitcoin seront disponibles sur Nash Exchange.",
+        "subtext": "Nous vous informerons lorsque des paires d’échange Bitcoin seront disponibles sur Nash Exchange.",
         "btn-bitcoin": "Déposer Bitcoin",
         "btn-funds": "Continuer vers le portfolio"
       }
     },
     "session-expiry-modal": {
-      "title": "Votre session est sur le point d'expirer",
-      "info": "Votre session est sur le point d'expirer en raison de l'inactivité. Vous serez déconnecté dans {{count}} seconde.",
-      "info_plural": "Votre session est sur le point d'expirer en raison de l'inactivité. Vous serez déconnecté dans {{count}} secondes.",
+      "title": "Votre session est sur le point d’expirer",
+      "info": "Votre session est sur le point d’expirer en raison de l’inactivité. Vous serez déconnecté dans {{count}} seconde.",
+      "info_plural": "Votre session est sur le point d’expirer en raison de l’inactivité. Vous serez déconnecté dans {{count}} secondes.",
       "stay-signed-in": "rester connecté",
       "signing-out": "({{count}} s) Déconnexion…"
     },
     "signup": {
-      "desc": "Vous n'avez pas encore de compte?",
+      "desc": "Vous n’avez pas encore de compte?",
       "sign-up": "En créer un"
     },
     "form": {
@@ -1159,7 +1159,7 @@
       },
       "messages": {
         "password-change": {
-          "success": "Si l'adresse e-mail que vous fournissez correspond à un compte déjà dans notre base de données, nous vous enverrons des instructions sur la façon de réinitialiser votre mot de passe."
+          "success": "Si l’adresse e-mail que vous fournissez correspond à un compte déjà dans notre base de données, nous vous enverrons des instructions sur la façon de réinitialiser votre mot de passe."
         },
         "update-email": {
           "validation-success": "Nous avons envoyé un e-mail de vérification à votre nouvelle adresse e-mail. Veuillez cliquer sur le lien dans cet e-mail pour confirmer votre nouvelle adresse.",
@@ -1167,7 +1167,7 @@
         },
         "verify-email": {
           "success": "Votre adresse e-mail a été vérifiée. Veuillez vous connecter pour configurer votre compte.",
-          "error": "Impossible de vérifier l'adresse e-mail. Le code de vérification a peut-être expiré. Veuillez vous connecter et demander un autre e-mail de vérification."
+          "error": "Impossible de vérifier l’adresse e-mail. Le code de vérification a peut-être expiré. Veuillez vous connecter et demander un autre e-mail de vérification."
         }
       },
       "errors": {
@@ -1230,7 +1230,7 @@
           "sub-bullet-2": "Tous les actifs du contrat commercial.",
           "sub-bullet-3": "Tous les jetons NEX stakés.",
           "sub-bullet-4": "Tous les dividendes des jetons NEX stakés.",
-          "unauthorized": "La réinitialisation de votre compte ayant de sérieuses implications, vous devez d'abord contacter notre équipe d'assistance pour l'activer.",
+          "unauthorized": "La réinitialisation de votre compte ayant de sérieuses implications, vous devez d’abord contacter notre équipe d’assistance pour l’activer.",
           "contact-support": "Contactez le support"
         }
       },
@@ -1258,7 +1258,7 @@
           },
           "code": {
             "label": "Double authentification",
-            "placeholder": "Entrez votre code d'authentification à deux facteurs"
+            "placeholder": "Entrez votre code d’authentification à deux facteurs"
           }
         },
         "errors": {
@@ -1284,7 +1284,7 @@
       "create-account": {
         "title": "Créez votre compte Nash Community",
         "description": "Pour publier des messages sur l’espace communautaire, vous devez bloquer au moins 1 NEX pendant 24 mois.",
-        "username-label": "Nom d'utilisateur dans l'espace communauté",
+        "username-label": "Nom d’utilisateur dans l’espace communauté",
         "username-placeholder": "Choisissez un nom…",
         "button-create": "Créer un compte communauté",
         "button-creating": "Créer un compte communauté…",
@@ -1294,7 +1294,7 @@
       "migrate-account": {
         "title": "Migrez votre compte Nash Communoté",
         "migration-step1": "Connectez-vous avec l’extension Nash.",
-        "migration-step2": "Remplacez l'adresse e-mail de votre communauté par l'adresse utilisée par votre compte Nash.",
+        "migration-step2": "Remplacez l’adresse e-mail de votre communauté par l’adresse utilisée par votre compte Nash.",
         "migration-step3": "Une fois votre adresse e-mail modifiée, vous pourrez vous connecter à l’aide de votre compte Nash.",
         "button-migrate": "Connectez-vous avec l’extension Nash",
         "link-back": "Retour",
@@ -1382,7 +1382,7 @@
             "sub-label": "{{currencySell}} disponible",
             "label-button": "Sélectionnez un jeton à échanger",
             "errors": {
-              "insufficient-funds": "{{CurrencySell}} insuffisant dans le contrat d'échange. Envoyez des fonds pour continuer.",
+              "insufficient-funds": "{{CurrencySell}} insuffisant dans le contrat d’échange. Envoyez des fonds pour continuer.",
               "limit-breached": "Cet ordre dépasse vos limites de trading.",
               "order-too-small": "Le total doit dépasser {{orderSize}} {{currencySell}}.",
               "transfer": "Envoyer/recevoir"
