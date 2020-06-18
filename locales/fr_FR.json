@@ -15,7 +15,7 @@
   "try-again": "Réessayer",
   "refresh": "Rafraîchir",
   "finish": "Terminer",
-  "price-each": "{{price}} each",
+  "price-each": "{{price}} chaque",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "Restant",
   "not-available-short": "N/A",
@@ -35,7 +35,7 @@
   "apikeys": {
     "no-addresses-whitelisted": "aucune adresse enregistrée",
     "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
+    "add-whitelisted": "Adresses en liste blanche",
     "duplicate-address-in-form": "Cette adresse est déjà enregistrée.",
     "add-address": "Ajouter une adresse",
     "address-is-not-valid": "Adresse non valide.",
@@ -43,7 +43,7 @@
     "token-type": {
       "access": "Access",
       "kyc": "S’identifier",
-      "apitrade": "API trading",
+      "apitrade": "API d'échange",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
@@ -52,12 +52,12 @@
       "cancel-button-label": "Annuler"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
+      "body": "Êtes-vous sûr de vouloir révoquer ‘<0></0>’?",
       "confirm-button-label": "supprimer définitivement",
       "cancel-button-label": "Annuler"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
+      "title": "Liste blanche d'adresses pour {{name}}",
       "add": "Ajouter",
       "save-and-close": "Enregistre les modifications et fermer",
       "continue": "Continuer"
@@ -65,15 +65,15 @@
     "overview": {
       "no-addresses-whitelisted": "aucune adresse enregistrée",
       "title": "Gérer les clés API",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
+      "revoke-button-label": "Révoquer",
+      "table-header": "Vos clés API",
+      "no-tokens-exp": "<0>Générez votre première clé</0>ou lisez notre<1> documentation API</1>.",
+      "name": "Nom",
+      "never-used": "Jamais utilisé",
+      "last-used": "Dernière utilisation {{when}}",
+      "subtitle": "Générez et gérez des clés API. En savoir plus sur<0>nos API</0>.",
+      "key-info": "Information clé",
+      "api-key": "Clé API",
       "blockchains": "Blockchains",
       "whitelisted": "Adresse sûre",
       "view-whitelist": "Voir la liste blanche",
@@ -82,7 +82,7 @@
       "usable-for": "Utilisable pour",
       "revoke": "Révoquer",
       "created": "Créé",
-      "policy-trading": "Trading",
+      "policy-trading": "Echanger",
       "loading": "Chargement des jetons…",
       "no-tokens": "Vous n’avez pas encore généré de clés API.",
       "policy-withdrawals": "Retraits et dépôts",
@@ -127,7 +127,7 @@
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Trading",
+    "trading": "Echanger",
     "personal": "Personnel",
     "in-trades": "Dans un ordre",
     "transfer-funds": "Envoyer/Recevoir",
@@ -164,7 +164,7 @@
       },
       "gtt": {
         "header": "Valable jusqu’à un moment à préciser",
-        "header-with-time": "Good ’til {{cancelAt}}",
+        "header-with-time": "Bon jusqu'à {{cancelAt}}",
         "desc": "Votre ordre restera dans le carnet d’ordres jusqu’à la date et heure spécifiées. S’il n’a pas été rempli d’ici là, il sera annulé."
       },
       "fok": {
@@ -570,8 +570,8 @@
   "account-setup": {
     "tab-title": "paramétrer le compte",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Douze mots secrets",
+      "Double authentification "
     ],
     "general-information": {
       "title": "informations générales",
@@ -596,7 +596,7 @@
       "desc": "Ces mots sont utilisés pour accéder à vos fonds. Vous en aurez également besoin pour réinitialiser votre mot de passe.",
       "popup-error": "Si vous souhaitez imprimer vos mots secrets, veuillez désactiver tous les bloqueurs de popups et autoriser Nash à ouvrir les popups.",
       "continue": "Continuer",
-      "go-back": "Go back",
+      "go-back": "revenir",
       "written-down": "J’ai noté mes mots.",
       "check-my-backup": "Vérifier ma sauvegarde",
       "tips": {
@@ -664,7 +664,7 @@
         "header": "La double authentification a été configurée!",
         "desc": "Vous pouvez trouver vos préférences de double authentification sous «Mon profil> Sécurité» sur la plate-forme Web Nash.",
         "action": "Que voulez-vous faire maintenant?",
-        "continue-deposit": "Deposit funds",
+        "continue-deposit": "Déposer des fonds",
         "continue-explore": "Explorer"
       }
     }
@@ -672,13 +672,13 @@
   "trade": {
     "footer": {
       "title-limits": "Limites",
-      "title-balances-and-limits": "Balances and limits",
+      "title-balances-and-limits": "Soldes et limites ",
       "increase-my-limits": "Augmenter mes limites",
       "limits": {
         "day": "Jour",
         "month": "Mois",
         "year": "Année",
-        "spend-of-limit": "of"
+        "spend-of-limit": "Sans"
       }
     },
     "messages": {
@@ -696,17 +696,17 @@
       "24h-high": "High",
       "24h-low": "Low",
       "24h-volume": "volume",
-      "my-portfolio": "My portfolio"
+      "my-portfolio": "Mon portfolio"
     },
     "tips": {
-      "balance": "<0>Tip</0> <1>Send funds to the trading contract here.</1> <2 />"
+      "balance": "<0>Astuce</0> <1>Envoyez des fonds au contrat d'échange ici.</1> <2 />"
     },
-    "no-markets": "No markets are currently available.",
+    "no-markets": "Aucun marché n'est actuellement disponible.",
     "auth": {
-      "to-start-trading": "To start trading"
+      "to-start-trading": "Pour commencer à échanger"
     },
     "balances": {
-      "title": "Accounts"
+      "title": "Comptes"
     },
     "market-selection": {
       "no-results": "Aucun résultat ne correspond à <0>{{searchTerm}}</0>.",
@@ -873,7 +873,7 @@
           "label": "Limite",
           "sub-label": "Votre ordre peut concorder avec des ordres à ce prix ou mieux.",
           "errors": {
-            "maker-match": "‘Post only’ orders that match in the current order book will be canceled."
+            "maker-match": "Les ordres ‘Publier uniquement’ qui correspondent au carnet d'ordre en cours seront annulées."
           }
         },
         "stop-price": {
@@ -891,12 +891,12 @@
           }
         },
         "maker-only": {
-          "label": "Post only",
+          "label": "Publier uniquement",
           "sub-label": "‘Post only’ will place your order as a maker only, not a taker. It may not fill."
         },
         "cancellation-policy": {
-          "label": "Time in force",
-          "footer": "Learn more"
+          "label": "Temps en vigueur",
+          "footer": "apprendre davantage"
         },
         "trading-balance": {
           "label": "Disponible {{currency}}:"
@@ -946,9 +946,9 @@
       "open-only-checkbox": "Ouvert uniquement",
       "pairs-checkbox": "Toutes les paires",
       "export": "Historique d’exportation",
-      "export-trades": "Export trade history",
-      "export-your-trades": "Export your trades",
-      "no-trades": "You have no trades to export",
+      "export-trades": "Exporter l'historique de vos échanges",
+      "export-your-trades": "Exportez vos échanges",
+      "no-trades": "Vous n'avez aucun échange à exporter",
       "trade-history-times": {
         "header": "Sélectionnez une période définie pour exporter",
         "custom": "Cdélai personnalisé",
@@ -961,15 +961,15 @@
         "filter": {
           "buy": "Acheter",
           "sell": "Vendre",
-          "both": "Both"
+          "both": "les deux"
         }
       },
       "type-col": {
         "header-title": "Type",
         "header-title-with-currency": "{{currency}} type",
         "filter": {
-          "market": "Market",
-          "limit": "Limit",
+          "market": "Cours",
+          "limit": "Limite",
           "stop-market": "Stop-market",
           "stop-limit": "Stop-limit"
         },
@@ -985,29 +985,29 @@
         }
       },
       "cancel-col": {
-        "header-title": "Cancel all",
-        "partial-fill": "Partial fill",
-        "cancelled-partial-fill": "Canceled: Partial fill",
-        "cancelled-order": "Order canceled"
+        "header-title": "Annuler tout",
+        "partial-fill": "Remplissage partiel",
+        "cancelled-partial-fill": "Annulé: remplissage partiel",
+        "cancelled-order": "Ordre annulé"
       },
       "cancelled-unfilled-col": {
-        "header-title": "Unfilled amount",
-        "header-title-with-currency": "{{currency}} unfilled amount"
+        "header-title": "Montant non rempli",
+        "header-title-with-currency": "{{currency}} montant non rempli"
       },
       "cancelled-filled-col": {
-        "header-title": "Filled amount",
-        "header-title-with-currency": "{{currency}} filled amount"
+        "header-title": "Montant rempli",
+        "header-title-with-currency": "{{currency}} montant rempli"
       },
       "status-col": {
         "header-title": "Status",
-        "open": "Open",
-        "cancelled": "Canceled",
-        "filled": "Filled",
-        "pending": "Pending"
+        "open": "Ouvert",
+        "cancelled": "Annulé",
+        "filled": "Rempli",
+        "pending": "En attente"
       },
       "executed-col": {
-        "header-title": "Filled",
-        "header-title-with-currency": "{{currency}} filled"
+        "header-title": "Rempli",
+        "header-title-with-currency": "{{currency}} Rempli"
       },
       "order-total-col": {
         "header-title": "Total",
@@ -1018,19 +1018,19 @@
         "header-title-with-currency": "{{currency}} trade total"
       },
       "size-col": {
-        "header-title": "Amount",
-        "header-title-with-currency": "{{currency}} amount"
+        "header-title": "Montant",
+        "header-title-with-currency": "{{currency}} montant"
       },
       "price-col": {
         "header-title": "Prix",
         "header-title-with-currency": "{{currency}} prix"
       },
       "pair-col": {
-        "header-title": "Pair"
+        "header-title": "Paire"
       },
       "filled-col": {
-        "header-title": "Amount filled",
-        "header-title-with-currency": "{{currency}} amount filled"
+        "header-title": "Montant rempli",
+        "header-title-with-currency": "{{currency}} montant rempli"
       },
       "fee-col": {
         "header-title": "Frais",
@@ -1042,46 +1042,46 @@
         "header-title-with-currency": "{{currency}} stop price"
       },
       "time-col": {
-        "header-title": "Executed"
+        "header-title": "Réalisé"
       },
       "time-filled-col": {
-        "header-title": "Executed"
+        "header-title": "Réalisé"
       }
     },
     "recent-trades": {
-      "title": "Recent trades",
-      "order-size-col": "{{symbol}} size",
-      "price-col": "{{symbol}} price",
-      "time-col": "Time"
+      "title": "Echanges récents",
+      "order-size-col": "{{symbol}} Taille",
+      "price-col": "{{symbol}} prix",
+      "time-col": "Temps"
     },
     "orderbook": {
       "title": "USD",
-      "title-no-fiat": "Order book",
-      "order-size-col": "{{symbol}} size",
-      "my-size-col": "My size",
-      "price-col": "{{symbol}} price",
-      "average": "Avg. price",
-      "sum-size": "{{symbol}} sum",
-      "num-decimals": "{{decimals}} decimal",
-      "num-decimals_plural": "{{decimals}} decimals",
+      "title-no-fiat": "Carnet d'ordre",
+      "order-size-col": "{{symbol}} Taille",
+      "my-size-col": "Ma taille",
+      "price-col": "{{symbol}} prix",
+      "average": "Prix moyen",
+      "sum-size": "{{symbol}} somme",
+      "num-decimals": "{{decimals}} décimal",
+      "num-decimals_plural": "{{decimals}} décimales",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Learn more about our <1>fees</1>."
+    "learn-about-our-fees": "En savoir plus sur nos<1>frais</1>."
   },
   "auth": {
-    "create-an-account": "Create an account",
-    "forgotten": "Lost 2FA?",
-    "sign-in-now": "Sign in now",
-    "sign-in": "Sign in",
-    "sign-out": "Sign out",
+    "create-an-account": "Créer un compte",
+    "forgotten": "Vous avez perdu votre 2FA?",
+    "sign-in-now": "Connectez vous maintenant",
+    "sign-in": "se connecter",
+    "sign-out": "Déconnexion",
     "password-strength": {
       "0": "Très faible",
       "1": "Faible",
       "2": "Moyen",
       "3": "Fort",
       "4": "Très fort",
-      "label": "Password strength"
+      "label": "Fiabilité du mot de passe"
     },
     "password-form": {
       "password": {
@@ -1089,34 +1089,34 @@
         "placeholder": "Entrez votre mot de passe"
       },
       "code": {
-        "label": "Two-factor authentication",
-        "placeholder": "Enter your two-factor authentication code"
+        "label": "Double authentification",
+        "placeholder": "Entrez votre code d'authentification à deux facteurs"
       }
     },
     "new-wallets": {
       "btc": {
-        "title": "You can now send, receive and store Bitcoin with Nash!",
-        "subtext": "We’ll notify you when Bitcoin trading pairs are available on the Nash Exchange.",
-        "btn-bitcoin": "Deposit Bitcoin",
-        "btn-funds": "Continue to portfolio"
+        "title": "Vous pouvez désormais envoyer, recevoir et stocker des Bitcoins avec Nash!",
+        "subtext": "Nous vous informerons lorsque des paires d'échange Bitcoin seront disponibles sur Nash Exchange.",
+        "btn-bitcoin": "Déposer Bitcoin",
+        "btn-funds": "Continuer vers le portfolio"
       }
     },
     "session-expiry-modal": {
-      "title": "Your session is about to expire",
-      "info": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} second.",
-      "info_plural": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} seconds.",
-      "stay-signed-in": "Stay signed in",
-      "signing-out": "({{count}}s) Signing out…"
+      "title": "Votre session est sur le point d'expirer",
+      "info": "Votre session est sur le point d'expirer en raison de l'inactivité. Vous serez déconnecté dans {{count}} seconde.",
+      "info_plural": "Votre session est sur le point d'expirer en raison de l'inactivité. Vous serez déconnecté dans {{count}} secondes.",
+      "stay-signed-in": "rester connecté",
+      "signing-out": "({{count}} s) Déconnexion…"
     },
     "signup": {
-      "desc": "Don’t have an account yet?",
-      "sign-up": "Create one"
+      "desc": "Vous n'avez pas encore de compte?",
+      "sign-up": "En créer un"
     },
     "form": {
-      "continue": "Continue"
+      "continue": "Continuer"
     },
     "missing-country": {
-      "header": "Before you continue…",
+      "header": "Avant de continuer…",
       "subheader": "Où vivez-vous?",
       "messages": {
         "vpn-warning-title": "Nous avons remarqué que vous utilisez un VPN.",
@@ -1130,7 +1130,7 @@
           "label": "Pays de résidence"
         },
         "state": {
-          "label": "State"
+          "label": "Etat"
         },
         "confirm-country": {
           "label": "Je confirme que c’est mon pays de résidence."
@@ -1154,20 +1154,20 @@
           "placeholder": "Mot de passe"
         },
         "remember-me": {
-          "label": "Remember me"
+          "label": "Se souvenir de moi "
         }
       },
       "messages": {
         "password-change": {
-          "success": "If the email address you provide matches an account already in our database, we’ll send you instructions on how to reset your password."
+          "success": "Si l'adresse e-mail que vous fournissez correspond à un compte déjà dans notre base de données, nous vous enverrons des instructions sur la façon de réinitialiser votre mot de passe."
         },
         "update-email": {
-          "validation-success": "We have sent a verification email to your new email address. Please click the link in that email to confirm your new address.",
-          "updated-success": "Your email address has been updated. You can now sign in using your new address."
+          "validation-success": "Nous avons envoyé un e-mail de vérification à votre nouvelle adresse e-mail. Veuillez cliquer sur le lien dans cet e-mail pour confirmer votre nouvelle adresse.",
+          "updated-success": "Votre adresse e-mail a été mise à jour. Vous pouvez maintenant vous connecter en utilisant votre nouvelle adresse."
         },
         "verify-email": {
-          "success": "Your email address has been verified. Please sign in to set up your account.",
-          "error": "Could not verify email address. The verification code may have expired. Please log in and request another verification email."
+          "success": "Votre adresse e-mail a été vérifiée. Veuillez vous connecter pour configurer votre compte.",
+          "error": "Impossible de vérifier l'adresse e-mail. Le code de vérification a peut-être expiré. Veuillez vous connecter et demander un autre e-mail de vérification."
         }
       },
       "errors": {
@@ -1222,16 +1222,16 @@
           "desc-3": "Vous pouvez réinitialiser votre ancien compte et choisir un nouvel ensemble de mots secrets. Ce sera comme créer un nouveau compte avec un nouveau mot de passe.",
           "desc-4": "Si vous choisissez de réinitialiser votre compte, vous perdrez tout accès à vos fonds, y compris:",
           "desc-5": "Veuillez vérifier et voir si vous pouvez retrouver vos mots secrets ou votre mot de passe.",
-          "go-back": "Go back",
+          "go-back": "revenir",
           "checkbox-1": "J’ai perdu mon mot de passe et mes douze mots secrets.",
-          "checkbox-2": "I understand that I will lose all access to my funds if I reset my account.",
+          "checkbox-2": "Je comprends que je perdrai tout accès à mes fonds si je réinitialise mon compte.",
           "submit": "Réinitialiser mon compte",
           "sub-bullet-1": "Tous les actifs de votre compte personnel.",
           "sub-bullet-2": "Tous les actifs du contrat commercial.",
-          "sub-bullet-3": "All staked NEX tokens.",
-          "sub-bullet-4": "All dividends from staked NEX tokens.",
-          "unauthorized": "Since resetting your account has serious implications, you must first contact our support team to enable it.",
-          "contact-support": "Contact support"
+          "sub-bullet-3": "Tous les jetons NEX stakés.",
+          "sub-bullet-4": "Tous les dividendes des jetons NEX stakés.",
+          "unauthorized": "La réinitialisation de votre compte ayant de sérieuses implications, vous devez d'abord contacter notre équipe d'assistance pour l'activer.",
+          "contact-support": "Contactez le support"
         }
       },
       "new-password": {
@@ -1257,8 +1257,8 @@
             }
           },
           "code": {
-            "label": "Two-factor authentication",
-            "placeholder": "Enter your two-factor authentication code"
+            "label": "Double authentification",
+            "placeholder": "Entrez votre code d'authentification à deux facteurs"
           }
         },
         "errors": {
@@ -1272,7 +1272,7 @@
     },
     "verify-email": "Vérification de l’adresse e-mail…",
     "secret-word-list-edit": {
-      "placeholder": "Word {{index}}"
+      "placeholder": "Mot {{index}}"
     },
     "discourse-sso": {
       "login": {
@@ -1282,19 +1282,19 @@
         "link-create": "<0>Créez un compte Nash</0>"
       },
       "create-account": {
-        "title": "Create your Nash Community account",
+        "title": "Créez votre compte Nash Community",
         "description": "Pour publier des messages sur l’espace communautaire, vous devez bloquer au moins 1 NEX pendant 24 mois.",
-        "username-label": "Community username",
+        "username-label": "Nom d'utilisateur dans l'espace communauté",
         "username-placeholder": "Choisissez un nom…",
-        "button-create": "Create Community account",
-        "button-creating": "Creating Community account…",
+        "button-create": "Créer un compte communauté",
+        "button-creating": "Créer un compte communauté…",
         "migrate-description": "Si vous utilisez l’extension Nash pour vous connecter à la communauté, vous pouvez <0>migrer votre compte</0>.",
         "username-exits": "‘{{username}}’ déjà pris. Veuillez choisir un autre nom d’utilisateur."
       },
       "migrate-account": {
-        "title": "Migrate your Nash Community account",
+        "title": "Migrez votre compte Nash Communoté",
         "migration-step1": "Connectez-vous avec l’extension Nash.",
-        "migration-step2": "Change your Community email address to the address used by your Nash account.",
+        "migration-step2": "Remplacez l'adresse e-mail de votre communauté par l'adresse utilisée par votre compte Nash.",
         "migration-step3": "Une fois votre adresse e-mail modifiée, vous pourrez vous connecter à l’aide de votre compte Nash.",
         "button-migrate": "Connectez-vous avec l’extension Nash",
         "link-back": "Retour",
@@ -1352,7 +1352,7 @@
           },
           "ignore-low-balances": "Masquer les petits montants",
           "search": {
-            "placeholder": "Search for a token name or ticker…",
+            "placeholder": "Recherchez un nom de jeton ou un ticker…",
             "no-results": "Nous n’avons trouvé aucun résultat pour <0>{{search}}</0>.",
             "no-results-no-query": "Nous n’avons trouvé aucune devise correspondante"
           },
@@ -1360,37 +1360,37 @@
             "maintenance": "Ce jeton fait l’objet d’une maintenance planifiée.",
             "deposits-withdrawals-suspended": "Les dépôts et retraits sont suspendus jusqu’à nouvel ordre."
           },
-          "trading": "Trading",
+          "trading": "Echange",
           "personal": "Personal",
           "24-hours": "24 heures"
         }
       },
       "exchange-tokens": {
-        "header": "Exchange tokens",
+        "header": "Échange de jetons",
         "fields": {
           "buy": {
-            "label": "I want to receive",
-            "inner-label": "~{{fiatAmount}} per {{currencyBuy}}",
-            "label-estimate": "(estimate)",
-            "label-button": "Select a token to receive",
+            "label": "Je veux recevoir",
+            "inner-label": "~{{fiatAmount}} par {{currencyBuy}}",
+            "label-estimate": "(estimation)",
+            "label-button": "Sélectionnez un jeton à recevoir",
             "errors": {
-              "order-too-small": "Total must exceed {{orderSize}} {{currencyBuy}}."
+              "order-too-small": "Le total doit dépasser {{orderSize}} {{currencyBuy}}."
             }
           },
           "sell": {
-            "label": "I want to trade",
-            "sub-label": "{{currencySell}} available",
-            "label-button": "Select a token to trade",
+            "label": "Je veux échanger",
+            "sub-label": "{{currencySell}} disponible",
+            "label-button": "Sélectionnez un jeton à échanger",
             "errors": {
-              "insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
+              "insufficient-funds": "{{CurrencySell}} insuffisant dans le contrat d'échange. Envoyez des fonds pour continuer.",
               "limit-breached": "Cet ordre dépasse vos limites de trading.",
               "order-too-small": "Le total doit dépasser {{orderSize}} {{currencySell}}.",
-              "transfer": "Send/Receive"
+              "transfer": "Envoyer/recevoir"
             }
           },
           "set-limit": {
-            "fixed-price-label": "Your price for {{currencyBuy}} (in {{currencySell}})",
-            "floating-price-label": "Market price of {{currencyBuy}} (in {{currencySell}})",
+            "fixed-price-label": "Votre prix pour {{currencyBuy}} (en {{currencySell}})",
+            "floating-price-label": "Prix du marché de {{currencyBuy}} (en {{currencySell}})",
             "fixed-price-on": "Fixer un prix fixe",
             "errors": {
               "price-too-high": "Impossible de traiter les prix supérieurs à {{maxPrice}}."
@@ -1400,7 +1400,7 @@
             }
           }
         },
-        "toggle-limit": "Set a price for this trade",
+        "toggle-limit": "Fixer un prix pour cet échange",
         "above-limit": "{{percent}}% au-dessus du marché",
         "below-limit": "{{percent}}% en dessous du marché",
         "reset": "Réinitialiser",
@@ -1419,10 +1419,10 @@
         "submit-placing": "Passer l’ordre…"
       },
       "order-success": {
-        "header": "Success!",
+        "header": "Succès!",
         "desc": "Votre ordre {{currencySell}} / {{currencyBuy}} a été passée avec succès.",
         "view-my-order": "Voir mon ordre",
-        "create-another-trade": "Create another trade"
+        "create-another-trade": "Créer un autre échange"
       },
       "order-failure": {
         "header": {
@@ -1844,10 +1844,10 @@
       }
     },
     "buy-sell": {
-      "title": "Buy/Sell",
+      "title": "Acheter/vendre",
       "tab-buy-assets": "Acheter des actifs",
       "failed-to-transact": "Votre transaction a échoué.",
-      "tab-sell-assets": "Sell assets",
+      "tab-sell-assets": "Vendre des actifs",
       "daily-limits-header": "Limites restantes après cette transaction",
       "current-price-label": "Prix actuel | <0 />",
       "current-price-unavailable": "Prix actuel indisponible",
