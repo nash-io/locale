@@ -72,26 +72,26 @@
       "never-used": "tidak pernah digunakan",
       "last-used": "kali terakhir digunakan {{when}}",
       "subtitle": "Hasilkan dan urus kunci API. Ketahui lebih lanjut mengenai <0>our APIs</0>.",
-      "key-info": "Key information",
+      "key-info": "Kunci Maklumat",
       "api-key": "kunci API",
-      "blockchains": "Blockchains",
-      "whitelisted": "Whitelist",
-      "view-whitelist": "lihat whitelist",
+      "blockchains": "Rantaian Blok(Blockchains)",
+      "whitelisted": "Senarai Putih",
+      "view-whitelist": "lihat senarai putih",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
       "blockchains-hint": "Kunci API ini boleh berfungsi dengan blockchain ini.",
       "usable-for": "boleh digunakan untuk",
       "revoke": "membatalkan",
-      "created": "created",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
+      "created": "dicipta",
+      "policy-trading": "dagangan",
+      "loading": "Memuatkan token…",
       "no-tokens": "Anda belum membuat kunci API.",
       "policy-withdrawals": "pengeluaran dan deposit",
       "revoke-all-keys-button-label": "membatalkan semua kunci",
       "generate-new-key-button-label": "hasilkan kunci baru",
-      "plus-more": "+{{count}} more"
+      "plus-more": "+{{count}} lebih"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
+      "credentials-step": "Kelayakkan penguna",
       "whitelist-step": "Whitelist alamat",
       "name-step": "Namakan kunci anda",
       "last-step": "Back up secret",
@@ -99,11 +99,11 @@
     },
     "step1": {
       "name": "Nama",
-      "continue-button-label": "Create key"
+      "continue-button-label": "Cipta kunci"
     },
     "step2": {
       "password": "kata laluan",
-      "two-fa-code": "Two-factor authentication code",
+      "two-fa-code": "Kod pengesahan dua-faktor",
       "create-api-button-label": "Teruskan",
       "incorrect-password": "Kata laluan tidak betul.",
       "incorrect-2fa": "Kod salah."
@@ -112,12 +112,12 @@
       "generating-keys-message": "Menghasilkan kunci anda…"
     },
     "step4": {
-      "your-secret": "your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
+      "your-secret": "rahsia anda",
+      "your-secret-warning": "Hanya kali ini sahaja kami akan tunjukkan ini kepada anda.",
       "api-key": "kunci API anda",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Muat turun kunci API dan secret sebagai JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "api-key-warning": "Hanya kali ini sahaja kami akan tunjukkan ini kepada anda.",
+      "download-as-json-button-label": "Muat turun kunci API dan rahsia sebagai JSON",
+      "i-saved-my-secret-button-label": "Saya telah simpan rahsia saya"
     }
   },
   "terse-periods": {
@@ -127,52 +127,52 @@
     "1m": "1M"
   },
   "transfer": {
-    "trading": "Trading",
+    "trading": "Perdagangan",
     "personal": "Peribadi",
-    "in-trades": "In trades",
+    "in-trades": "Dalam dagangan",
     "transfer-funds": "Hantar/Terima",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "pending-transfer": "Anda mempunyai pindahan yang belum selesai {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Lihat pindahan anda di sini."
   },
   "estimated-fee": "anggaran fee: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
-    "use-last": "Use last"
+    "use-last": "Guna terakhir"
   },
   "insufficient-funds": "Kekurangan dana",
-  "amount-each": "{{amount}} each",
+  "amount-each": "{{amount}} setiap",
   "daily-limit": {
     "title": "Jumlah had harian",
     "link": "Tingkatkan had saya",
     "amount-of-max-amount": "{{amount}} daripada {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
+    "title": "Struktur bayaran",
+    "desc": "Nash mengira jumlah purata pergerakan 30 hari pengguna menggunakan jumlah perdagangan yang berkaitan dengan akaun mereka sebagai peratusan jumlah pertukaran keseluruhan.",
     "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "taker-fee": "Yuran pengambil",
+    "maker-fee": "Yuran pembuat",
+    "learn-more": "Belajar lebih lagi tentang pembuat dan pengambil tempahan."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Masa berkuatkuasa",
+    "subtitle": "Tentukan tempoh masa untuk pesanan anda yang mana yang akan kekal dalam buku.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Baik sehingga dibatalkan",
+        "desc": "Pesanan anda akan kekal dalam buku tanpa had - sama ada sehingga ia diisi/dipenuhi atau sehingga anda membatalkannya."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Baik sampai masa",
+        "header-with-time": "Baik sampai {{cancelAt}}",
+        "desc": "Pesanan anda akan kekal dalam buku sehingga pada masa yang anda tentukan.  Jika ianya tidak diisi pada waktu tersebut, ia akan dibatalkan."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Isi atau bunuh",
+        "desc": "Jika keseluruhan pesanan anda dapat diisi/dipenuhi dengan serta merta, maka ia akan dilakukan. Jika ia tidak dapat diisi/dipenuhi seluruhnya, maka keseluruhan pesanan akan dibatalkan."
       },
       "ioc": {
-        "header": "Immediate or cancel",
+        "header": "Segera atau batal",
         "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
       }
     }
