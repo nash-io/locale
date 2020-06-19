@@ -2483,11 +2483,11 @@
       "destination": "Destination",
       "deposited-to": "envoyer vers",
       "asset-deposited-to": "Actif envoyé vers",
-      "expired": "This quote expired {{value}} ago.",
+      "expired": "Ce devis a expiré il y a {{value}}.",
       "expired-message-1": "Votre taux de change garanti a expiré!",
       "expired-message-2": "L’actualisation peut mettre à jour votre taux de change.",
-      "expires": "This quote will expire in {{value}}.",
-      "happy-btn": "Accept quote and make transfer",
+      "expires": "Ce devis expirera dans {{value}}.",
+      "happy-btn": "Acceptez le devis et effectuez le transfert",
       "original-cost": "",
       "user-iban-label": "IBAN utilisé",
       "payment-needed": "Paiement nécessaire",
@@ -2507,7 +2507,7 @@
       "step-payment": "Faites votre transfert",
       "step-review": "Révisez votre devis",
       "submit-btn": "Confirmer l’achat",
-      "taken-from-bank": "Taken from bank account",
+      "taken-from-bank": "Tiré du compte bancaire",
       "taken-from-card": "Chargé sur la carte",
       "quote-accepted-title": "Devis accepté",
       "title": "Acheter des cryptoactifs",
@@ -2528,7 +2528,7 @@
       "iban": "IBAN",
       "bank-swift": "Banque SWIFT",
       "bank-country": "Pays de la banque",
-      "decline-this-quote": "Decline this quote",
+      "decline-this-quote": "Refuser ce devis",
       "bank-name": "Nom de banque",
       "recipient-name": "Nom du destinataire",
       "must-make-payment": "Veuillez effectuer votre transfert dès que possible. Si nous ne recevons pas vos fonds dans les cinq jours, votre commande sera annulée. Vous avez la possibilité d’annuler cet achat et de recevoir un remboursement avant que votre virement bancaire ne soit effacé.",
@@ -2601,104 +2601,104 @@
         "sell-limits": "Limite de vente"
       },
       "buy-steps": {
-        "review-quote": "Review your quote",
-        "make-payment": "Make your payment",
-        "upload-proof-of-payment": "Upload proof of payment"
+        "review-quote": "Revoir votre devis",
+        "make-payment": "Effectuez votre paiement",
+        "upload-proof-of-payment": "Télécharger une preuve de paiement"
       },
       "error": {
-        "invalid-data": "Invalid data.",
-        "unhandled-error": "An unhandled error occurred. Please reload then try again."
+        "invalid-data": "Données invalides.",
+        "unhandled-error": "Une erreur s'est produite. Veuillez recharger puis réessayer."
       },
       "validation": {
-        "first-name-required": "First name is required.",
-        "first-name-characters-invalid": "First name must only contain letters and hyphens.",
-        "last-name-required": "Last name is required.",
-        "last-name-characters-invalid": "Last name must only contain letters and hyphens.",
-        "email-required": "Email is required.",
-        "email-invalid": "Email must be valid.",
+        "first-name-required": "Le prénom est requis.",
+        "first-name-characters-invalid": "Le prénom ne doit contenir que des lettres et des tirets.",
+        "last-name-required": "Le nom de famille est obligatoire.",
+        "last-name-characters-invalid": "Le nom de famille ne doit contenir que des lettres et des tirets.",
+        "email-required": "L'email est requis.",
+        "email-invalid": "L'email doit être valide.",
         "date": "Invalid date",
-        "month": "Invalid month",
-        "year": "Invalid year",
-        "zip": "Postcode must be between four and ten digits",
-        "verification-code-invalid": "Invalid verification code.",
-        "bank-name-required": "Bank name is required.",
-        "iban-required": "IBAN is required.",
-        "iban-too-short": "IBAN must be at least 16 characters in length.",
-        "iban-too-long": "IBAN must not exceed 34 characters in length.",
-        "iban-characters-invalid": "IBAN must only contain letters and numbers.",
-        "iban-country-code-invalid": "IBAN must begin with a valid two-letter country code.",
-        "iban-already-used": "IBAN already associated with an account.",
-        "swift-required": "SWIFT/BIC is required.",
-        "swift-length-invalid": "SWIFT/BIC must be between 8 and 11 characters."
+        "month": "Mois invalide",
+        "year": "Année invalide",
+        "zip": "Le code postal doit comprendre entre quatre et dix chiffres",
+        "verification-code-invalid": "Code de vérification invalide.",
+        "bank-name-required": "Le nom de la banque est obligatoire.",
+        "iban-required": "L'IBAN est requis.",
+        "iban-too-short": "L'IBAN doit comporter au moins 16 caractères.",
+        "iban-too-long": "L'IBAN ne doit pas dépasser 34 caractères.",
+        "iban-characters-invalid": "L'IBAN ne doit contenir que des lettres et des chiffres.",
+        "iban-country-code-invalid": "L'IBAN doit commencer par un code de pays à deux lettres valide.",
+        "iban-already-used": "IBAN déjà associé à un compte.",
+        "swift-required": "SWIFT / BIC est requis.",
+        "swift-length-invalid": "SWIFT / BIC doit comprendre entre 8 et 11 caractères."
       },
       "profile-status": {
-        "incomplete": "Complete your profile to increase your limits.",
-        "pending": "Identity verification is pending.",
-        "succeeded": "Identity verification succeeded.",
-        "failed": "Identity verification failed."
+        "incomplete": "Complétez votre profil pour augmenter vos limites.",
+        "pending": "La vérification d'identité est en attente.",
+        "succeeded": "La vérification d'identité a réussi.",
+        "failed": "La vérification d'identité a échoué."
       },
       "field-status": {
-        "incomplete": "Incomplete",
-        "pending": "Pending",
-        "rejected": "Rejected",
-        "accepted": "Verified",
-        "completed": "Complete"
+        "incomplete": "Incomplet",
+        "pending": "En attente",
+        "rejected": "Rejeté",
+        "accepted": "Vérifié",
+        "completed": "Complet"
       },
       "link": {
-        "add": "Add",
-        "edit": "Edit"
+        "add": "Ajouter",
+        "edit": "Modifier"
       },
       "heading": {
-        "add-phone-number": "Add your phone number",
-        "add-residential-address": "Add your residential address",
-        "government-id-or-passport": "Upload identity document",
-        "utility-bill": "Upload utility bill",
-        "selfie-with-id": "Upload selfie with ID",
-        "upload-proof-of-payment": "Upload proof of payment",
-        "success": "Success!"
+        "add-phone-number": "Ajoutez votre numéro de téléphone",
+        "add-residential-address": "Ajoutez votre adresse résidentielle",
+        "government-id-or-passport": "Télécharger une pièce d'identité",
+        "utility-bill": "Télécharger la facture de services publics",
+        "selfie-with-id": "Télécharger un selfie avec ID",
+        "upload-proof-of-payment": "Télécharger une preuve de paiement",
+        "success": "Succès!"
       },
       "button": {
-        "cancel": "Cancel",
-        "continue": "Continue",
-        "submit": "Submit",
-        "submit-verification-code": "Submit verification code",
-        "transfer-initiated": "I’ve made this transfer",
-        "submit-proof-of-payment": "Submit proof"
+        "cancel": "Annuler",
+        "continue": "Continuer",
+        "submit": "Soumettre",
+        "submit-verification-code": "Soumettre le code de vérification",
+        "transfer-initiated": "J'ai fait ce transfert",
+        "submit-proof-of-payment": "Soumettre une preuve"
       },
       "details-shared": {
-        "title": "{{ccpro}} has sent you an email!",
-        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
-        "button": "Resend verification email"
+        "title": "{{ccpro}} vous a envoyé un e-mail!",
+        "desc": "<0>Veuillez vérifier vos e-mails et vérifiez votre compte avec{{ccpro}}. </0> <0>Si vous ne voyez pas leurs e-mails, vérifiez votre dossier de courrier indésirable.</0>",
+        "button": "Renvoyer l'e-mail de vérification"
       },
       "transactions": {
-        "order-id": "Order ID",
-        "date-created": "Created",
+        "order-id": "numéro de commande",
+        "date-created": "Créé",
         "action": "Action",
-        "cost": "Cost",
-        "amount": "Amount",
-        "no-transactions": "You haven’t bought or sold any digital assets yet."
+        "cost": "Coût",
+        "amount": "Montant",
+        "no-transactions": "Vous n'avez encore ni acheté ni vendu d'actifs numériques."
       },
       "payment-methods": {
-        "currency": "Currency",
-        "bank-name": "Bank name",
+        "currency": "Devise",
+        "bank-name": "Nom de banque",
         "iban": "IBAN",
         "swift": "SWIFT/BIC",
-        "remove-bank-account": "Remove {{iban}}?"
+        "remove-bank-account": "Retirer {{iban}}?"
       },
       "editor": {
         "phone": {
-          "enter-phone-number": "Enter phone number",
-          "verify-phone-number": "Verify phone number",
-          "label": "Enter your phone number",
-          "desc": "A ten-digit code will be sent via SMS to verify your phone number.",
-          "code-not-received": "Didn’t receive a code via SMS? <0>Resend it</0>.",
-          "resending-code": "Resending verification code…",
-          "code-label": "Enter the verification code sent to your phone.",
-          "back": "Back",
-          "verify": "Verify"
+          "enter-phone-number": "Entrez le numéro de téléphone",
+          "verify-phone-number": "Vérifiez le numéro de téléphone",
+          "label": "Entrez votre numéro de téléphone",
+          "desc": "Un code à dix chiffres sera envoyé par SMS pour vérifier votre numéro de téléphone.",
+          "code-not-received": "Vous n'avez pas reçu de code par SMS?<0>Renvoyez-le</0>.",
+          "resending-code": "Renvoi du code de vérification…",
+          "code-label": "Entrez le code de vérification envoyé à votre téléphone.",
+          "back": "Retour",
+          "verify": "Vérifier"
         },
         "national-id": {
-          "upload-label": "Upload two <0>separate photographs</0> of your national ID, one of the front and one of the back.",
+          "upload-label": "Téléchargez deux<0>photos</0>distinctes de votre carte d'identité nationale, une au recto et une au verso.",
           "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "passport": {
