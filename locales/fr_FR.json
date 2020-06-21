@@ -2607,35 +2607,35 @@
       },
       "error": {
         "invalid-data": "Données invalides.",
-        "unhandled-error": "Une erreur s'est produite. Veuillez recharger puis réessayer."
+        "unhandled-error": "Une erreur s’est produite. Veuillez recharger puis réessayer."
       },
       "validation": {
         "first-name-required": "Le prénom est requis.",
         "first-name-characters-invalid": "Le prénom ne doit contenir que des lettres et des tirets.",
         "last-name-required": "Le nom de famille est obligatoire.",
         "last-name-characters-invalid": "Le nom de famille ne doit contenir que des lettres et des tirets.",
-        "email-required": "L'email est requis.",
-        "email-invalid": "L'email doit être valide.",
+        "email-required": "L’email est requis.",
+        "email-invalid": "L’email doit être valide.",
         "date": "Invalid date",
         "month": "Mois invalide",
         "year": "Année invalide",
         "zip": "Le code postal doit comprendre entre quatre et dix chiffres",
         "verification-code-invalid": "Code de vérification invalide.",
         "bank-name-required": "Le nom de la banque est obligatoire.",
-        "iban-required": "L'IBAN est requis.",
-        "iban-too-short": "L'IBAN doit comporter au moins 16 caractères.",
-        "iban-too-long": "L'IBAN ne doit pas dépasser 34 caractères.",
-        "iban-characters-invalid": "L'IBAN ne doit contenir que des lettres et des chiffres.",
-        "iban-country-code-invalid": "L'IBAN doit commencer par un code de pays à deux lettres valide.",
+        "iban-required": "L’IBAN est requis.",
+        "iban-too-short": "L’IBAN doit comporter au moins 16 caractères.",
+        "iban-too-long": "L’IBAN ne doit pas dépasser 34 caractères.",
+        "iban-characters-invalid": "L’IBAN ne doit contenir que des lettres et des chiffres.",
+        "iban-country-code-invalid": "L’IBAN doit commencer par un code de pays à deux lettres valide.",
         "iban-already-used": "IBAN déjà associé à un compte.",
         "swift-required": "SWIFT / BIC est requis.",
         "swift-length-invalid": "SWIFT / BIC doit comprendre entre 8 et 11 caractères."
       },
       "profile-status": {
         "incomplete": "Complétez votre profil pour augmenter vos limites.",
-        "pending": "La vérification d'identité est en attente.",
-        "succeeded": "La vérification d'identité a réussi.",
-        "failed": "La vérification d'identité a échoué."
+        "pending": "La vérification d’identité est en attente.",
+        "succeeded": "La vérification d’identité a réussi.",
+        "failed": "La vérification d’identité a échoué."
       },
       "field-status": {
         "incomplete": "Incomplet",
@@ -2651,7 +2651,7 @@
       "heading": {
         "add-phone-number": "Ajoutez votre numéro de téléphone",
         "add-residential-address": "Ajoutez votre adresse résidentielle",
-        "government-id-or-passport": "Télécharger une pièce d'identité",
+        "government-id-or-passport": "Télécharger une pièce d’identité",
         "utility-bill": "Télécharger la facture de services publics",
         "selfie-with-id": "Télécharger un selfie avec ID",
         "upload-proof-of-payment": "Télécharger une preuve de paiement",
@@ -2662,13 +2662,13 @@
         "continue": "Continuer",
         "submit": "Soumettre",
         "submit-verification-code": "Soumettre le code de vérification",
-        "transfer-initiated": "J'ai fait ce transfert",
+        "transfer-initiated": "J’ai fait ce transfert",
         "submit-proof-of-payment": "Soumettre une preuve"
       },
       "details-shared": {
         "title": "{{ccpro}} vous a envoyé un e-mail!",
-        "desc": "<0>Veuillez vérifier vos e-mails et vérifiez votre compte avec{{ccpro}}. </0> <0>Si vous ne voyez pas leurs e-mails, vérifiez votre dossier de courrier indésirable.</0>",
-        "button": "Renvoyer l'e-mail de vérification"
+        "desc": "<0>Veuillez vérifier vos e-mails et vérifiez votre compte avec{{ccpro}}.</0> <0>Si vous ne voyez pas leurs e-mails, vérifiez votre dossier de courrier indésirable.</0>",
+        "button": "Renvoyer l’e-mail de vérification"
       },
       "transactions": {
         "order-id": "numéro de commande",
@@ -2676,7 +2676,7 @@
         "action": "Action",
         "cost": "Coût",
         "amount": "Montant",
-        "no-transactions": "Vous n'avez encore ni acheté ni vendu d'actifs numériques."
+        "no-transactions": "Vous n’avez encore ni acheté ni vendu d’actifs numériques."
       },
       "payment-methods": {
         "currency": "Devise",
@@ -2691,14 +2691,14 @@
           "verify-phone-number": "Vérifiez le numéro de téléphone",
           "label": "Entrez votre numéro de téléphone",
           "desc": "Un code à dix chiffres sera envoyé par SMS pour vérifier votre numéro de téléphone.",
-          "code-not-received": "Vous n'avez pas reçu de code par SMS?<0>Renvoyez-le</0>.",
+          "code-not-received": "Vous n’avez pas reçu de code par SMS?<0>Renvoyez-le</0>.",
           "resending-code": "Renvoi du code de vérification…",
           "code-label": "Entrez le code de vérification envoyé à votre téléphone.",
           "back": "Retour",
           "verify": "Vérifier"
         },
         "national-id": {
-          "upload-label": "Téléchargez deux<0>photos</0>distinctes de votre carte d'identité nationale, une au recto et une au verso.",
+          "upload-label": "Téléchargez deux <0>photos</0> distinctes de votre carte d’identité nationale, une au recto et une au verso.",
           "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "passport": {
