@@ -691,7 +691,7 @@
       "switch-to-simplified": "Změnit na jednoduché zobrazení",
       "current-market": "Trh",
       "last-price": "Poslední obchodovaná cena",
-      "last-24h": "Poslendí 24h",
+      "last-24h": "Poslendích 24h",
       "24h-change": "změna",
       "24h-high": "Nejvyšší",
       "24h-low": "Nejnižší",
@@ -910,19 +910,19 @@
       "errors": {
         "order-rejected-insufficient-funds": "Váš obchodní příkaz byl odmítnut, kvůli nedostatku prostředků.",
         "order-rejected-daily-limit-reached": "Váš obchodní příkaz byl odmítnut, kvůli dosažení obchodovacích limitů.",
-        "generic": "Chyby při odesílání obchodního příkazu. Prosím zkuste novu."
+        "generic": "Chyba při odesílání obchodního příkazu. Prosím zkuste to znovu."
       },
       "signin-or-create-an-account": "Pro zadání obchodního příkazu je nutné se <0>přihlásit</0> nebo <1>vytvořit účet</1>."
     },
     "my-orders": {
       "auth": "Pro zobrazení vašich obchodních příkazů se přihlašte.",
       "signed-out": {
-        "title": "<0>Vyzkoušet</0> <1>Nash</1>",
-        "subtitle": "Během miuty si vytvořte účet – žádné KYC není ptřeba!"
+        "title": "<0>Vyzkoušejte</0> <1>Nash</1>",
+        "subtitle": "Během minuty si vytvořte účet – žádné KYC není potřeba!"
       },
       "no-results": {
         "date-range": "V zadaném čase nemáte zadané žádné obchodní pokyny.",
-        "active": "Neáte žádné otevřené nebo vypořádané pokyny.",
+        "active": "Nemáte žádné otevřené nebo vypořádané pokyny.",
         "active-open-only": "Nemáta žádné zadané obchodní pokyny.",
         "trades": "Nemáte žádnou obchodní historii."
       },
@@ -1030,7 +1030,7 @@
       },
       "filled-col": {
         "header-title": "Vypořádaný počet",
-        "header-title-with-currency": "vypořádaný počet {{currency}}"
+        "header-title-with-currency": "Vypořádaný počet {{currency}}"
       },
       "fee-col": {
         "header-title": "Poplatky",
@@ -1056,9 +1056,9 @@
     },
     "orderbook": {
       "title": "USD",
-      "title-no-fiat": "Seznam příkazů",
+      "title-no-fiat": "Kniha objednávek",
       "order-size-col": "Množství {{symbol}}",
-      "my-size-col": "Obchodované množství",
+      "my-size-col": "Váš příkaz",
       "price-col": "{{symbol}} cena",
       "average": "Prům. cena",
       "sum-size": "Celkem {{symbol}}",
@@ -3067,8 +3067,8 @@
       },
       "chart": {
         "header": {
-          "title": "Celková cena aktiva",
-          "hint": "Sledujte hodnotu vašeho portfolia jak se měnila v čase."
+          "title": "Celková hodnota všech vašich aktiv",
+          "hint": "Sleduje hodnotu vašeho portfolia jak se měnila v čase."
         },
         "period": {
           "6M": "6M",
@@ -3554,7 +3554,7 @@
         "2fa": {
           "label": "Dvoufázové ověřování",
           "header": "Dvoufázové ověřování je:",
-          "desc": "Doporučujeme, abyste nechali dvoufázové ověřeování (2FA) aktivní. Zvyšuje to zabezpečení vašeho účtu o další úroveň.",
+          "desc": "Doporučujeme, abyste nechali dvoufázové ověřeování (2FA) aktivní. Zvyšujete tím zabezpečení vašeho účtu o další úroveň.",
           "enabled": "Zapnuto",
           "disabled": "Vypnuto",
           "enable": "Zapnout",
@@ -3927,7 +3927,7 @@
     "headers": {
       "name": "Jméno",
       "email": "Email",
-      "phone-number": "Telefonní číslor",
+      "phone-number": "Telefonní číslo",
       "wallets": "Peněženky"
     },
     "modals": {
