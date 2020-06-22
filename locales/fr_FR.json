@@ -2850,7 +2850,7 @@
           "movement": {
             "error": "Veuillez attendre la fin de votre dernier transfert Ethereum.",
             "pending-error": "Veuillez attendre la fin de votre transfert Ethereum en attente.",
-            "token-requires-approval": "L’approbation de {{amount}} {{currency}} est nécessaire pour que ce jeton soit transféré au contrat de trading."
+            "token-requires-approval": "L’approbation de {{ amount }} {{ currency }} est nécessaire pour que ce jeton soit transféré au contrat de trading."
           },
           "transfer-amount": {
             "label": "Montant à transférer",
@@ -2859,11 +2859,11 @@
             "errors": {
               "gas-shortage": "Vous avez besoin d’au moins {{amount}} {{currencySymbol}} dans votre compte personnel pour payer les frais de réseau.",
               "fee-shortage": "Vous devez économiser {{amount}} ETH pour les frais de réseau Ethereum.",
-              "fee-shortage-trading": "Vous avez besoin de {{currency}} ETH dans votre compte personnel pour les frais de réseau Ethereum."
+              "fee-shortage-trading": "Vous avez besoin de {{amount}} ETH dans votre compte personnel pour les frais de réseau Ethereum."
             }
           },
           "btc": {
-            "fonds non confirmés ":" Votre solde Bitcoin nécessite six confirmations de réseau avant de pouvoir passer au contrat de trading. Veuillez patienter pendant la confirmation des transferts récents.",
+            "funds-not-confirmed": "Votre solde Bitcoin nécessite six confirmations de réseau avant de pouvoir passer au contrat de trading. Veuillez patienter pendant la confirmation des transferts récents.",
             "wait-until-external-transfer-completes": "Veuillez attendre la fin de votre transfert externe récent avant d’effectuer un dépôt.",
             "temporary-limit": "Les dépôts et retraits de Bitcoin doivent être supérieurs à 0,001 BTC pendant que nous testons ce nouveau marché. La restriction sera levée dansdans un avenir proche avenir."
           },
