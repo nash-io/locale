@@ -2699,107 +2699,107 @@
         },
         "national-id": {
           "upload-label": "Téléchargez deux <0>photos</0> distinctes de votre carte d’identité nationale, une au recto et une au verso.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label-format": "Extensions de fichiers acceptées: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Taille maximale du fichier: 10MB."
         },
         "passport": {
-          "upload-label": "Upload one photograph of your passport information.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Téléchargez une photo de votre passeport.",
+          "upload-label-format": "Extensions de fichiers acceptées: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Taille maximale du fichier: 10MB."
         },
         "utility-bill": {
-          "upload-label": "Upload one photograph of a recent utility bill.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Téléchargez une photo d’une facture de services publics récente.",
+          "upload-label-format": "Extensions de fichiers acceptées: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Taille maximale du fichier: 10MB."
         },
         "selfie-with-id": {
-          "upload-label": "Upload one photograph of yourself holding both a piece of paper with ‘cryptocoin.pro’ written on it and your passport or national ID.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Téléchargez une photo de vous tenant à la fois un morceau de papier sur lequel est inscrit «cryptocoin.pro» et votre passeport ou votre carte d’identité nationale.",
+          "upload-label-format": "Extensions de fichiers acceptées: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Taille maximale du fichier: 10MB."
         },
         "bank-account": {
-          "bank-name-placeholder": "Enter your bank’s name",
-          "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
-          "swift-placeholder": "e.g. CLBABU7S"
+          "bank-name-placeholder": "Entrez le nom de votre banque",
+          "iban-placeholder": "par exemple. DE89 3704 0044 0532 0130 00",
+          "swift-placeholder": "par exemple. CLBABU7S"
         }
       }
     }
   },
   "funds": {
-    "title": "Funds",
-    "deposit-currency": "Deposit {{currencySymbol}}",
-    "your-currency-balances": "Your {{currencySymbol}} balances",
+    "title": "Fonds",
+    "deposit-currency": "Déposer {{currencySymbol}}",
+    "your-currency-balances": "Vos soldes {{currencySymbol}}",
     "resetting-account": {
-      "title": "Resync your trading contract balance.",
-      "desc": "This will release funds stuck in a ‘Pending’ state. This process will cancel open trade orders.",
-      "button": "Resync account",
-      "resyncing": "Resyncing…",
-      "error": "Resync failed. Please <0>contact support.</0>",
-      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
-      "success": "Resync successful!"
+      "title": "Resynchronisez le solde de votre contrat de trading.",
+      "desc": "Cela libérera des fonds bloqués dans un état ‘En attente’. Ce processus annulera les ordres ouverts.",
+      "button": "Compte de resynchronisation",
+      "resyncing": "Resynchronisation…",
+      "error": "La resynchronisation a échoué. Veuillez <0>contacter l’assistance.</0>",
+      "wait-error": "Veuillez attendre au moins 2 heures après votre dernier dépôt avant d’utiliser cette page.",
+      "success": "Resynchronisation réussie!"
     },
     "transaction-retry": {
-      "title": "Retry transactions",
-      "subtitle": "All pending or failed deposits or withdrawals",
+      "title": "Réessayer les transactions",
+      "subtitle": "Tous les dépôts ou retraits en attente ou échoués",
       "actions-title": "Actions",
-      "button-title": "Retry",
-      "button-sending": "Sending…",
-      "button-sent": "Resent",
-      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
+      "button-title": "Réessayez",
+      "button-sending": "Envoi en cours…",
+      "button-sent": "Renvoyé",
+      "nothing-to-retry": "Vous n’avez aucun dépôt ou retrait en attente.",
       "status": {
-        "title": "Status",
-        "created": "Created",
-        "pending": "Pending"
+        "title": "Statut",
+        "created": "Créé",
+        "pending": "En attente"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page."
+      "fetch-movements-error": "Erreur lors de la récupération de vos données. Veuillez rafraîchir la page."
     },
     "assets": {
-      "title": "Assets",
-      "tabs-info-button": "Learn about sending and receiving funds",
+      "title": "Actifs",
+      "tabs-info-button": "En savoir plus sur l’envoi et la réception de fonds",
       "header": {
-        "title": "Assets",
-        "search-placeholder": "Search over 3,000 assets…"
+        "title": "Actifs",
+        "search-placeholder": "Recherchez parmi plus de 3 000 actifs…"
       },
       "transferring-funds": {
-        "title": "Sending and receiving funds",
-        "desc": "<0>If you want to trade, you’ll have to send funds to the trading contract.</0> <1>You may only send funds to the trading contract from your personal account.</1>",
-        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
-        "learn-more": "Learn more",
-        "never-show": "Never show me this again."
+        "title": "Envoi et réception de fonds",
+        "desc": "<0>Si vous voulez trader, vous devrez envoyer des fonds au contrat de trading.</0> <1>Vous ne pouvez envoyer des fonds au contrat de trading que depuis votre compte personnel.</1>",
+        "learn-more-never-show": "<0>En savoir plus</0> ou <1>ne plus jamais me le montrer</1>.",
+        "learn-more": "En apprendre davantage",
+        "never-show": "Ne plus me montrer cela à l’avenir."
       },
       "table": {
         "header": {
-          "title": "Balances",
+          "title": "Soldes",
           "actions": {
-            "hide-zero-balances": "Hide zero balances"
+            "hide-zero-balances": "Masquer les soldes nuls"
           }
         },
         "claim-gas": {
-          "claiming": "Claiming…",
-          "claim": "Claim GAS",
-          "gas-to-claim": "You have {{amount}} GAS to claim.",
-          "claiming-now": "You are currently claiming GAS.",
-          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
-          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
+          "claiming": "Réclamer…",
+          "claim": "Réclamer le GAS",
+          "gas-to-claim": "Vous avez {{amount}} GAS à réclamer.",
+          "claiming-now": "Vous réclamez actuellement du GAS.",
+          "claiming-locked": "Vous pouvez réclamer à nouveau du GAS dans ~ {{count}} minute.",
+          "claiming-locked_plural": "Vous pouvez réclamer à nouveau du GAS dans ~ {{count}} minutes."
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Actif"
           },
           "personal-account": {
-            "title": "Personal account"
+            "title": "Compte personnel"
           },
           "trading-account": {
-            "title": "Trading contract"
+            "title": "Contrat de trading"
           },
           "in-orders": {
             "title": "In orders"
           },
           "pending": {
-            "title": "Pending",
-            "hint": "Transfers being processed by the blockchain."
+            "title": "En attente",
+            "hint": "Transferts en cours de traitement par la blockchain."
           },
           "tradeable": {
-            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
+            "hint": "Cet actif n’est actuellement pas négocié sur Nash, mais vous pouvez toujours retirer si vous avez un solde dans le contrat de trading."
           },
           "action-buttons": {
-            "trade": "Trade",
+            "trade": "Echanger",
             "transfer-funds": "Send/Receive"
           }
         },
