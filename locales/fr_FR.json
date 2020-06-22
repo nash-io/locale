@@ -2699,434 +2699,434 @@
         },
         "national-id": {
           "upload-label": "Téléchargez deux <0>photos</0> distinctes de votre carte d’identité nationale, une au recto et une au verso.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label-format": "Extensions de fichiers acceptées: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Taille maximale du fichier: 10MB."
         },
         "passport": {
-          "upload-label": "Upload one photograph of your passport information.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Téléchargez une photo de votre passeport.",
+          "upload-label-format": "Extensions de fichiers acceptées: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Taille maximale du fichier: 10MB."
         },
         "utility-bill": {
-          "upload-label": "Upload one photograph of a recent utility bill.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Téléchargez une photo d’une facture de services publics récente.",
+          "upload-label-format": "Extensions de fichiers acceptées: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Taille maximale du fichier: 10MB."
         },
         "selfie-with-id": {
-          "upload-label": "Upload one photograph of yourself holding both a piece of paper with ‘cryptocoin.pro’ written on it and your passport or national ID.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Téléchargez une photo de vous tenant à la fois un morceau de papier sur lequel est inscrit «cryptocoin.pro» et votre passeport ou votre carte d’identité nationale.",
+          "upload-label-format": "Extensions de fichiers acceptées: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Taille maximale du fichier: 10MB."
         },
         "bank-account": {
-          "bank-name-placeholder": "Enter your bank’s name",
-          "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
-          "swift-placeholder": "e.g. CLBABU7S"
+          "bank-name-placeholder": "Entrez le nom de votre banque",
+          "iban-placeholder": "par exemple. DE89 3704 0044 0532 0130 00",
+          "swift-placeholder": "par exemple. CLBABU7S"
         }
       }
     }
   },
   "funds": {
-    "title": "Funds",
-    "deposit-currency": "Deposit {{currencySymbol}}",
-    "your-currency-balances": "Your {{currencySymbol}} balances",
+    "title": "Fonds",
+    "deposit-currency": "Déposer {{currencySymbol}}",
+    "your-currency-balances": "Vos soldes {{currencySymbol}}",
     "resetting-account": {
-      "title": "Resync your trading contract balance.",
-      "desc": "This will release funds stuck in a ‘Pending’ state. This process will cancel open trade orders.",
-      "button": "Resync account",
-      "resyncing": "Resyncing…",
-      "error": "Resync failed. Please <0>contact support.</0>",
-      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
-      "success": "Resync successful!"
+      "title": "Resynchronisez le solde de votre contrat de trading.",
+      "desc": "Cela libérera des fonds bloqués dans un état ‘En attente’. Ce processus annulera les ordres ouverts.",
+      "button": "Compte de resynchronisation",
+      "resyncing": "Resynchronisation…",
+      "error": "La resynchronisation a échoué. Veuillez <0>contacter l’assistance.</0>",
+      "wait-error": "Veuillez attendre au moins 2 heures après votre dernier dépôt avant d’utiliser cette page.",
+      "success": "Resynchronisation réussie!"
     },
     "transaction-retry": {
-      "title": "Retry transactions",
-      "subtitle": "All pending or failed deposits or withdrawals",
+      "title": "Réessayer les transactions",
+      "subtitle": "Tous les dépôts ou retraits en attente ou échoués",
       "actions-title": "Actions",
-      "button-title": "Retry",
-      "button-sending": "Sending…",
-      "button-sent": "Resent",
-      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
+      "button-title": "Réessayez",
+      "button-sending": "Envoi en cours…",
+      "button-sent": "Renvoyé",
+      "nothing-to-retry": "Vous n’avez aucun dépôt ou retrait en attente.",
       "status": {
-        "title": "Status",
-        "created": "Created",
-        "pending": "Pending"
+        "title": "Statut",
+        "created": "Créé",
+        "pending": "En attente"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page."
+      "fetch-movements-error": "Erreur lors de la récupération de vos données. Veuillez rafraîchir la page."
     },
     "assets": {
-      "title": "Assets",
-      "tabs-info-button": "Learn about sending and receiving funds",
+      "title": "Actifs",
+      "tabs-info-button": "En savoir plus sur l’envoi et la réception de fonds",
       "header": {
-        "title": "Assets",
-        "search-placeholder": "Search over 3,000 assets…"
+        "title": "Actifs",
+        "search-placeholder": "Recherchez parmi plus de 3 000 actifs…"
       },
       "transferring-funds": {
-        "title": "Sending and receiving funds",
-        "desc": "<0>If you want to trade, you’ll have to send funds to the trading contract.</0> <1>You may only send funds to the trading contract from your personal account.</1>",
-        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
-        "learn-more": "Learn more",
-        "never-show": "Never show me this again."
+        "title": "Envoi et réception de fonds",
+        "desc": "<0>Si vous voulez trader, vous devrez envoyer des fonds au contrat de trading.</0> <1>Vous ne pouvez envoyer des fonds au contrat de trading que depuis votre compte personnel.</1>",
+        "learn-more-never-show": "<0>En savoir plus</0> ou <1>ne plus jamais me le montrer</1>.",
+        "learn-more": "En apprendre davantage",
+        "never-show": "Ne plus me montrer cela à l’avenir."
       },
       "table": {
         "header": {
-          "title": "Balances",
+          "title": "Soldes",
           "actions": {
-            "hide-zero-balances": "Hide zero balances"
+            "hide-zero-balances": "Masquer les soldes nuls"
           }
         },
         "claim-gas": {
-          "claiming": "Claiming…",
-          "claim": "Claim GAS",
-          "gas-to-claim": "You have {{amount}} GAS to claim.",
-          "claiming-now": "You are currently claiming GAS.",
-          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
-          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
+          "claiming": "Réclamer…",
+          "claim": "Réclamer le GAS",
+          "gas-to-claim": "Vous avez {{amount}} GAS à réclamer.",
+          "claiming-now": "Vous réclamez actuellement du GAS.",
+          "claiming-locked": "Vous pouvez réclamer à nouveau du GAS dans ~ {{count}} minute.",
+          "claiming-locked_plural": "Vous pouvez réclamer à nouveau du GAS dans ~ {{count}} minutes."
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Actif"
           },
           "personal-account": {
-            "title": "Personal account"
+            "title": "Compte personnel"
           },
           "trading-account": {
-            "title": "Trading contract"
+            "title": "Contrat de trading"
           },
           "in-orders": {
             "title": "In orders"
           },
           "pending": {
-            "title": "Pending",
-            "hint": "Transfers being processed by the blockchain."
+            "title": "En attente",
+            "hint": "Transferts en cours de traitement par la blockchain."
           },
           "tradeable": {
-            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
+            "hint": "Cet actif n’est actuellement pas négocié sur Nash, mais vous pouvez toujours retirer si vous avez un solde dans le contrat de trading."
           },
           "action-buttons": {
-            "trade": "Trade",
+            "trade": "Echanger",
             "transfer-funds": "Send/Receive"
           }
         },
-        "no-results": "Il n’y a pas encore d’actifs dans votre compte Nash."
+        "no-results": "There are not yet any assets in your Nash account."
       }
     },
     "modals": {
       "verify-mnemonic": {
-        "or": "ou",
-        "remindme": "Me lerappeller plus tard",
-        "dismiss": "Rejeter pour toujours",
-        "havent-checked": "Vous n’avez pas vérifié votre sauvegarde de douze mots",
-        "will-need": "Vous aurez besoin de ces mots pour accéder à vos fonds si vous perdez votre mot de passe."
+        "or": "or",
+        "remindme": "remind me later",
+        "dismiss": "Dismiss forever",
+        "havent-checked": "You haven’t checked your twelve word backup",
+        "will-need": "You’ll need these words to access your funds if you lose your password."
       },
       "transfer-funds": {
-        "title": "Envoyer/Recevoir",
+        "title": "Send/Receive",
         "create": {
           "asset": {
-            "label": "Quel est l’intérêt ?",
-            "placeholder": "Rechercher un actif…"
+            "label": "Which asset?",
+            "placeholder": "Search for an asset…"
           },
           "choose-accounts": {
-            "from": "De",
-            "to": "À"
+            "from": "From",
+            "to": "To"
           },
           "contacts": {
             "label": "Destination",
-            "placeholder": "Rechercher un contact ou envoyer à une nouvelle adresse…",
-            "wallet-address": "Envoyer à ‘{{address}}‘",
+            "placeholder": "Search for a contact or send to a new address…",
+            "wallet-address": "Send to ‘{{address}}‘",
             "button-contacts": "Contacts",
             "select-contact": {
-              "no-options": "Tapez au moins trois caractères pour rechercher un contact ou une adresse de portefeuille valide",
-              "no-results": "Aucun contact trouvé. Ce n’est pas une adresse valide.",
+              "no-options": "Type at least three characters to search for a contact or valid wallet address",
+              "no-results": "No contacts found. This is not a valid address.",
               "option": {
-                "no-email": "Pas d’email",
-                "no-wallet-name": "Pas de nom de portefeuille",
-                "no-wallet-address": "Aucune adresse de portefeuille"
+                "no-email": "No email",
+                "no-wallet-name": "No wallet name",
+                "no-wallet-address": "No wallet address"
               }
             }
           },
           "destination-address": {
-            "label": "Adresse de destination",
-            "placeholder": "Envoyez uniquement {{currency}} à cette adresse",
+            "label": "Destination address",
+            "placeholder": "Send only {{currency}} to this address",
             "errors": {
-              "invalid-wallet": "Adresse invalide"
+              "invalid-wallet": "Invalid address"
             }
           },
           "movement": {
-            "error": "Veuillez attendre la fin de votre dernier transfert Ethereum.",
-            "pending-error": "Veuillez attendre la fin de votre transfert Ethereum en attente.",
-            "token-requires-approval": "L’approbation de {{ amount }} {{ currency }} est nécessaire pour que ce jeton soit transféré au contrat de trading."
+            "error": "Please wait until your last Ethereum transfer finishes.",
+            "pending-error": "Please wait until your pending Ethereum transfer completes.",
+            "token-requires-approval": "Approval of {{ amount }} {{ currency }} is required for this token to be transferred to the trading contract."
           },
           "transfer-amount": {
-            "label": "Montant à transférer",
-            "network-transaction-fee": "frais de réseau maximum",
-            "loading-fee": "Frais de chargement…",
+            "label": "Amount to transfer",
+            "network-transaction-fee": "maximum network fee",
+            "loading-fee": "Loading fee…",
             "errors": {
-              "gas-shortage": "Vous avez besoin d’au moins {{amount}} {{currencySymbol}} dans votre compte personnel pour payer les frais de réseau.",
-              "fee-shortage": "Vous devez économiser {{amount}} ETH pour les frais de réseau Ethereum.",
-              "fee-shortage-trading": "Vous avez besoin de {{amount}} ETH dans votre compte personnel pour les frais de réseau Ethereum."
+              "gas-shortage": "You need at least {{amount}} {{currencySymbol}} in your personal account to pay network fees.",
+              "fee-shortage": "You must save {{amount}} ETH for the Ethereum network fee.",
+              "fee-shortage-trading": "You need {{amount}} ETH in your personal account for Ethereum network fees."
             }
           },
           "btc": {
-            "funds-not-confirmed": "Votre solde Bitcoin nécessite six confirmations de réseau avant de pouvoir passer au contrat de trading. Veuillez patienter pendant la confirmation des transferts récents.",
-            "wait-until-external-transfer-completes": "Veuillez attendre la fin de votre transfert externe récent avant d’effectuer un dépôt.",
-            "temporary-limit": "Les dépôts et retraits de Bitcoin doivent être supérieurs à 0,001 BTC pendant que nous testons ce nouveau marché. La restriction sera levée dansdans un avenir proche avenir."
+            "funds-not-confirmed": "Your Bitcoin balance requires six network confirmations before you can transfer to the trading contract. Please wait while recent transfers confirm.",
+            "wait-until-external-transfer-completes": "Please wait until your recent external transfer completes before making a deposit.",
+            "temporary-limit": "Bitcoin deposits and withdrawals must be greater than 0.001 BTC while we test this new market. The restriction will be lifted in the near future."
           },
           "async": {
-            "title": "Mise à jour de la transaction",
+            "title": "Transaction update",
             "errors": {
-              "syncing": "Nous synchronisons vos {{currencySymbol}} fonds dans notre système. Veuillez patienter une minute et réessayer.",
-              "transaction-failed": "Votre dernière transaction d’envoi {{currencySymbol}} a échoué. Veuillez réessayer."
+              "syncing": "We are syncing your {{currencySymbol}} funds in our system. Please wait one minute and try again.",
+              "transaction-failed": "Your last transaction sending {{currencySymbol}} failed. Please try again."
             }
           },
           "fees": {
-            "eth-recommended-message": "Conservez {{amount}} ETH dans mon compte personnel pour les futurs frais de réseau."
+            "eth-recommended-message": "Keep {{amount}} ETH in my personal account for future network fees."
           },
           "precision": {
-            "neo-trading": "Vous ne pouvez pas envoyer ni retirer de fractions de NEO."
+            "neo-trading": "You cannot send or withdraw fractional amounts of NEO."
           },
           "maximum": {
-            "amount": "Solde insuffisant."
+            "amount": "Insufficient balance."
           },
           "deposit": {
-            "label": "Détails de votre compte personnel",
-            "currency-address": "{{currency}} adresse",
-            "currency-address-qrcode": "{{currency}} adresse QR code",
-            "currency-send-warning": "Tous les actifs autres que {{currency}} envoyés à cette adresse seront perdus!"
+            "label": "Your personal account details",
+            "currency-address": "{{currency}} address",
+            "currency-address-qrcode": "{{currency}} address QR code",
+            "currency-send-warning": "Any assets other than {{currency}} sent to this address will be lost!"
           },
           "buttons": {
-            "continue": "Continuer",
-            "sent-funds": "J’ai envoyé mes fonds"
+            "continue": "Continue",
+            "sent-funds": "I have sent my funds"
           }
         },
         "review": {
           "transfer-details": {
-            "title": "Détails du transfert",
+            "title": "Transfer details",
             "rows": {
-              "amount-label": "Vous envoyez",
-              "from-label": "De",
-              "to-label": "À",
-              "fee-label": "Frais de réseau"
+              "amount-label": "You are sending",
+              "from-label": "From",
+              "to-label": "To",
+              "fee-label": "Network fee"
             }
           },
-          "confirming-balance": "Veuillez patienter pendant que nous confirmons votre solde.",
-          "waiting-for-sync": "Votre solde est actuellement synchronisé avec la blockchain. Ce processus peut prendre jusqu’à deux heures. Veuillez soumettre votre transfert à nouveau dans quelques instants.",
+          "confirming-balance": "Please wait while we confirm your balance.",
+          "waiting-for-sync": "Your balance is currently syncing with the blockchain. This process can take up to two hours. Please submit your transfer again in a few moments.",
           "errors": {
-            "send": "Échec de l’envoi. Veuillez réessayer plus tard.",
-            "syncing": "Votre dernier transfert nécessite jusqu’à deux minutes pour finaliser. Veuillez patienter et réessayer.",
-            "insufficient-funds": "Votre solde actuel est insuffisant pour ce transfert ou vous avez actuellement un transfert en cours. Veuillez patienter et réessayer."
+            "send": "Failed to send. Please try again later.",
+            "syncing": "Your last transfer requires up to two minutes to complete. Please wait and try again.",
+            "insufficient-funds": "Your current balance is insufficient for this transfer or you currently have a transfer in progress. Please wait and try again."
           },
           "buttons": {
-            "back": "Retour",
-            "transfer-funds": "Envoyer",
-            "confirming": "Confirmation…"
+            "back": "Back",
+            "transfer-funds": "Send",
+            "confirming": "Confirming…"
           }
         },
         "hints": {
-          "btc-gas-hint": "Un petit frais de réseau est requis lors de l’exécution des transactions.",
-          "eth-gas-hint": "Un petit frais de réseau est requis lors de l’exécution des transactions. Les frais pour les jetons basés sur Ethereum sont payés en utilisant ETH.",
-          "neo-gas-hint": "Des frais de réseau réduits sont généralement requis lors de l’exécution de transactions. Les frais pour les jetons basés sur NEO sont payés à l’aide de GAS.",
-          "eth-transfer-hint": "Bien que les transferts soient en attente, le solde indiqué ici peut ne pas être exact."
+          "btc-gas-hint": "A small network fee is required when performing transactions.",
+          "eth-gas-hint": "A small network fee is required when performing transactions. Fees for Ethereum-based tokens are paid using ETH.",
+          "neo-gas-hint": "A small network fee is usually required when performing transactions. Fees for NEO-based tokens are paid using GAS.",
+          "eth-transfer-hint": "While transfers are pending, the balance shown here may not be accurate."
         },
         "steps": [
-          "Effectuer un transfert",
-          "Examiner et démarrer le transfert"
+          "Create a transfer",
+          "Review and start transfer"
         ],
         "maybe-approval-steps": [
-          "Effectuer un transfert",
-          "Approbation (si nécessaire)",
-          "Examiner et démarrer le transfert"
+          "Create a transfer",
+          "Approval (if necessary)",
+          "Review and start transfer"
         ],
         "approval-steps": [
-          "Effectuer un transfert",
-          "Approbation",
-          "Examiner et démarrer le transfert"
+          "Create a transfer",
+          "Approval",
+          "Review and start transfer"
         ],
         "erc-20": {
           "approving": "Approving",
-          "title": "Approuver le transfert",
-          "pre-deposit-info": "Avant de déposer {{symbol}} sur le contrat de trading, vous devez d’abord approuver un virement depuis votre compte.",
-          "current-approval": "Votre approbation actuelle du contrat de trading est: {{currentErc20Approved}}"
+          "title": "Approve transfer",
+          "pre-deposit-info": "Before depositing {{symbol}} to the trading contract, you must first approve a transfer from your account.",
+          "current-approval": "Your current approval to the trading contract is: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transfert en cours…",
-          "title-initializing": "Initialisation du transfert…",
-          "desc": "Visitez <0>Transferts</0> pour suivre son état.",
-          "warning": "Cela peut prendre jusqu’à une heure.",
-          "remain-opened": "Veuillez garder Nash ouvert pendant l’initialisation de votre transfert. Si vous fermez Nash ou vous déconnectez, il sera suspendu jusqu’à ce que vous vous reconnectiez.",
+          "title": "Transfer in progress…",
+          "title-initializing": "Transfer initializing…",
+          "desc": "Visit <0>Transfers</0> to track its status.",
+          "warning": "This can take up to one hour.",
+          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
           "buttons": {
             "finish": "Got it!"
           }
         }
       },
       "transfer-info": {
-        "title": "Les fonds peuvent être transférés comme suit",
-        "notice": "Vous ne pouvez négocier sur Nash Exchange qu’une fois que vous avez envoyé des fonds au contrat de trading.",
+        "title": "Funds can be transferred as follows",
+        "notice": "You can only trade on the Nash Exchange once you have sent funds to the trading contract.",
         "actions": {
-          "action-1": "Vous <0>pouvez</0> déplacer des fonds dans les deux sens entre votre compte personnel et des comptes externes.",
-          "action-2": "De même, vous <0>pouvez</0> déplacer des fonds dans les deux sens entre votre compte personnel et le contrat de trading.",
-          "action-3": "Vous <0>ne pouvez pas</0> déplacer des fonds entre le contrat de trading et les comptes externes sans passer par votre compte personnel. Cela nous aide à garder les fonds utilisés pour le trading en toute sécurité: c’est toujours vous qui déposez et retirez."
+          "action-1": "You <0>can</0> move funds back and forth between your personal account and external accounts.",
+          "action-2": "Likewise, you <0>can</0> move funds back and forth between your personal account and the trading contract.",
+          "action-3": "You <0>cannot</0> move funds between the trading contract and external accounts without going through your personal account. This helps us keep funds used for trading secure: it’s always you depositing and withdrawing."
         },
-        "continue-button": "OK, continuer",
-        "dismiss-link": "Rejeter pour toujours et continuer"
+        "continue-button": "OK, continue",
+        "dismiss-link": "Dismiss forever and continue"
       }
     },
     "transactions": {
-      "title": "Transferts",
-      "show-more-transactions": "Afficher plus de transferts",
-      "search-my-transactions": "Rechercher mes transferts…",
-      "no-transactions": "Vous n’avez encore effectué aucun virement.",
+      "title": "Transfers",
+      "show-more-transactions": "Show more transfers",
+      "search-my-transactions": "Search my transfers…",
+      "no-transactions": "You haven’t made any transfers yet.",
       "table": {
         "header": {
-          "title": "Tous les dépôts, retraits et transferts de contrat"
+          "title": "All deposits, withdrawals and contract transfers"
         },
         "when": {
-          "title": "Quand"
+          "title": "When"
         },
         "action": {
           "title": "Action",
           "status": {
-            "completed": "Achevé",
-            "pending": "En attente"
+            "completed": "Complete",
+            "pending": "Pending"
           },
-          "view-transaction": "Afficher la transaction",
-          "retry-pending": "Réessayer d’envoyer la transaction",
-          "cancel-intent": "Annuler le transfert",
+          "view-transaction": "View transaction",
+          "retry-pending": "Retry sending transaction",
+          "cancel-intent": "Cancel transfer",
           "clear-intent": "Clear transfer",
-          "contact-support": "Veuillez contacter le support",
-          "received-currency": "Reçu {{currencySymbol}}",
-          "receiving-currency": "Réception de {{currencySymbol}}",
-          "transferred-currency": "Envoyé {{currencySymbol}}",
-          "transferring-currency": "Envoi de {{currencySymbol}}",
-          "initializing-currency": "Initialisation du transfert {{currencySymbol}}",
-          "failed-permanently": "Échec du transfert de {{currencySymbol}}"
+          "contact-support": "Please contact support",
+          "received-currency": "Received {{currencySymbol}}",
+          "receiving-currency": "Receiving {{currencySymbol}}",
+          "transferred-currency": "Sent {{currencySymbol}}",
+          "transferring-currency": "Sending {{currencySymbol}}",
+          "initializing-currency": "Initializing {{currencySymbol}} transfer",
+          "failed-permanently": "{{currencySymbol}} transfer failed"
         },
         "destination": {
           "title": "Destination",
           "to": {
-            "trading-account": "Contrat de trading",
-            "personal-account": "Compte personnel",
-            "staking-account": "NEX staking contract",
-            "fees": "Fees"
+            "trading-account": "Trading contract",
+            "personal-account": "Personal account",
+            "staking-account": "Contrat de staking NEX",
+            "fees": "Honoraires"
           },
           "from": {
-            "trading-account": "From the trading contract",
-            "personal-account": "From my personal account",
-            "nash-fiat-ramp": "Purchase from Nash",
-            "external-address": "From <0 />"
+            "trading-account": "Du contrat de trading",
+            "personal-account": "De mon compte personnel",
+            "nash-fiat-ramp": "Achat auprès de Nash",
+            "external-address": "De <0 /> "
           }
         },
         "amount": {
-          "title": "Amount"
+          "title": "Montant"
         }
       }
     },
     "portfolio": {
-      "title": "Portfolio",
+      "title": "Portefeuille",
       "header": {
-        "search-placeholder": "Search my assets…"
+        "search-placeholder": "Rechercher mes actifs…"
       },
       "table": {
         "header": {
-          "title": "My assets",
+          "title": "Mes Actifs",
           "actions": {
-            "hide-small-balances": "Hide small balances"
+            "hide-small-balances": "Masquer les petits soldes"
           }
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Actif"
           },
           "total-balance": {
             "title": "Total",
-            "hint": "Total across all accounts, orders and stakes."
+            "hint": "Total sur tous les comptes, ordre et enjeux."
           },
           "fiat-value": {
-            "title": "Value ({{fiatCurrency}})"
+            "title": "Valeur ({{fiatCurrency}})"
           },
           "price": {
-            "title": "Price/24h change"
+            "title": "Prix/24h variation"
           },
           "allocation-percent": {
             "title": "Allocation",
-            "hint": "The percentage of your portfolio held in each asset."
+            "hint": "Le pourcentage de votre portefeuille détenu dans chaque actif."
           },
           "action-buttons": {
-            "trade": "Trade"
+            "trade": "Echanger"
           }
         },
-        "no-results-problem": "Your Nash account is currently empty.",
-        "no-results-solution": "<0>Send/Receive</0> funds to get started."
+        "no-results-problem": "Votre compte Nash est actuellement vide.",
+        "no-results-solution": "<0>Envoyez/recevez </0>des fonds pour commencer."
       },
       "balances": {
         "header": {
-          "title": "Portfolio",
-          "hint": "The total value of your assets and 24-hour change."
+          "title": "Portefeuille",
+          "hint": "La valeur totale de vos actifs et la variation sur 24 heures."
         },
         "total": "Total",
         "available": {
-          "title": "Available",
-          "hint": "You are able to move these funds. They are either in your personal account or the trading contract. Funds that are not available are either locked in unfilled orders or NEX stakes, or are currently in the process of being transferred."
+          "title": "Disponible",
+          "hint": "Vous pouvez déplacer ces fonds. Ils se trouvent soit dans votre compte personnel, soit dans le contrat de trading. Les fonds qui ne sont pas disponibles sont soit bloqués dans des ordres en attente ou des participations NEX, soit sont en cours de transfert."
         },
-        "transfer-funds": "Send/Receive"
+        "transfer-funds": "Envoyer/Recevoir"
       },
       "chart": {
         "header": {
-          "title": "Total asset value",
-          "hint": "Track how the value of your portfolio has changed over time."
+          "title": "Valeur totale des actifs",
+          "hint": "Suivez l'évolution de la valeur de votre portefeuille au fil du temps."
         },
         "period": {
           "6M": "6M",
           "1M": "1M",
-          "7D": "1w",
+          "7D": "1S",
           "1D": "24h"
         },
         "empty": {
-          "heading": "Your portfolio is currently empty",
-          "body": "<0>Send/Receive</0> funds or <1>buy from our partners</1> to get started."
+          "heading": "Votre portfolio est actuellement vide",
+          "body": "<0>Envoyez/Recevez</0>des fonds ou <1> achetez auprès de nos partenaires </1> pour commencer."
         }
       },
       "total-balance": {
         "header": {
-          "title": "Balances",
-          "hint": "You are in complete control of all these funds."
+          "title": "Soldes",
+          "hint": "Vous avez le contrôle total de tous ces fonds."
         },
-        "available-assets": "Available assets",
-        "in-personal": "Personal account",
-        "in-trading": "Trading contract",
+        "available-assets": "Actifs disponibles",
+        "in-personal": "Compte personnel",
+        "in-trading": "Contrat de trading",
         "in-unfilled-orders": "Unfilled orders",
-        "in-stake": "Staked NEX",
-        "learn-more": "Learn more"
+        "in-stake": "NEX stakés"
+        "learn-more": "En apprendre davantage"
       }
     }
   },
   "markets": {
-    "title": "Markets",
+    "title": "Marchés",
     "volume-short": "vol.",
     "columns": {
-      "rank": "Rank",
-      "asset": "Asset",
-      "last-price": "Last price",
-      "change": "Change",
-      "market-cap": "Market cap",
+      "rank": "Rang",
+      "asset": "Actif",
+      "last-price": "Dernier prix",
+      "change": "Changement",
+      "market-cap": "Capitalisation boursière",
       "volume": "Volume",
-      "pair": "Pair",
-      "1d-change": "24h change",
+      "pair": "Paire",
+      "1d-change": "Changement sur 24h",
       "1d-high": "24h high",
       "1d-low": "24h low",
-      "1d-volume": "24h volume",
-      "1w-change": "1w change",
-      "1w-high": "1w high",
-      "1w-low": "1w low",
-      "1w-volume": "1w volume",
-      "1m-change": "1M change",
-      "1m-high": "1M high",
-      "1m-low": "1M low",
-      "1m-volume": "1M volume"
+      "1d-volume": "Volume sur 24h",
+      "1w-change": "Changement sur 1 semaine",
+      "1w-high": "Plus haut sur 1 semaine",
+      "1w-low": "Plus bas sur 1 semaine",
+      "1w-volume": "Volume sur 1 semaine",
+      "1m-change": "Changement sur 1 mois",
+      "1m-high": "Plus haut sur 1 mois",
+      "1m-low": "Plus bas sur 1 mois",
+      "1m-volume": "Volume sur 1 mois"
     },
     "buttons": {
-      "trade": "Trade"
+      "trade": "Echanger"
     },
     "trade-frequency": {
       "1h": "1h",
       "1m": "1m",
       "1M": "1M",
-      "1W": "1w",
+      "1W": "1S",
       "24h": "24h",
       "3M": "3M",
       "6M": "6M"
@@ -3147,159 +3147,159 @@
   },
   "modals": {
     "transfer-funds": {
-      "what-asset": "Which asset?",
-      "select-asset": "Select an asset",
-      "transfer-from": "From",
-      "to-destination": "To",
-      "send-only-currency": "Send only {{currency}} to this address",
-      "transfer-details": "Transfer details",
-      "you-are-transfering": "You are transferring",
-      "you-are-sending": "You are sending",
-      "enter-2fa-code": "Enter your two-factor authentication code",
-      "transfer-funds": "Send/Receive",
-      "create-transfer": "Create transfer",
-      "review-and-start-transfer": "Review and start transfer",
-      "transfer-has-started": "Your transfer has started",
-      "check-tranfer-info-part1": "You can check the progress of your transfer in the",
+      "what-asset": "Quel actif?",
+      "select-asset": "Sélectionnez un actif",
+      "transfer-from": "De",
+      "to-destination": "À",
+      "send-only-currency": "Envoyez uniquement {{currency}} à cette adresse",
+      "transfer-details": "Détails du transfert",
+      "you-are-transfering": "Vous transférez",
+      "you-are-sending": "Vous envoyez",
+      "enter-2fa-code": "Entrez votre code d'authentification à deux facteurs",
+      "transfer-funds": "Envoyer/Recevoir",
+      "create-transfer": "Créer un transfert",
+      "review-and-start-transfer": "Examiner et démarrer le transfert",
+      "transfer-has-started": "Votre transfert a commencé",
+      "check-tranfer-info-part1": "Vous pouvez vérifier la progression de votre transfert dans le",
       "check-tranfer-info-link": "Transactions",
-      "check-tranfer-info-part2": "section of ‘Funds’.",
-      "external-address": "External address",
-      "asset-to-transfer": "Asset to transfer",
-      "transfer-funds-to-external": "Send funds to an external address",
-      "send-funds": "Send funds",
-      "withdrawal-details": "Withdrawal details",
-      "to-external-address": "To external address",
-      "request-sent-to-blockchain": "Your transfer request has been sent to the blockchain."
+      "check-tranfer-info-part2": "Section ‘Fonds’.",
+      "external-address": "Adresse externe",
+      "asset-to-transfer": "Actif à transférer",
+      "transfer-funds-to-external": "Envoyer des fonds à une adresse externe",
+      "send-funds": "Envoyez de l'argent",
+      "withdrawal-details": "Détails de retrait",
+      "to-external-address": "Vers une adresse externe",
+      "request-sent-to-blockchain": "Votre demande de transfert a été envoyée à la blockchain."
     },
     "receive-funds": {
-      "asset-to-receive": "Asset to receive",
-      "address-to-receive-currency": "This is your address to receive {{currency}}",
-      "receive-funds-from-external": "Receive funds from an external wallet"
+      "asset-to-receive": "Actif à recevoir",
+      "address-to-receive-currency": "Ceci est votre adresse pour recevoir {{currency}}",
+      "receive-funds-from-external": "Recevez des fonds d'un portefeuille externe"
     },
     "wallet-type": {
-      "personal": "My personal wallet",
-      "trading": "Trading contract",
-      "external": "An external wallet"
+      "personal": "Mon portefeuille personnel",
+      "trading": "Contrat de trading",
+      "external": "Un portefeuille externe"
     },
     "common": {
-      "continue-and-review": "Continue",
-      "finish": "Finish"
+      "continue-and-review": "Continuer",
+      "finish": "terminer"
     },
     "form-amount": {
-      "amount-to-transfer": "Amount",
-      "recipients-address": "Recipient’s address",
-      "enter-their-wallet": "Enter their wallet address",
-      "check-destination-title": "Check your destination address twice.",
-      "check-destination-description": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "amount-to-transfer": "Montant",
+      "recipients-address": "Adresse du destinataire",
+      "enter-their-wallet": "Entrez leur adresse de portefeuille",
+      "check-destination-title": "Vérifiez votre adresse de destination deux fois.",
+      "check-destination-description": "L'envoi de fonds à la mauvaise adresse signifie que vous perdrez ces fonds pour toujours."
     },
     "form-wallet": {
       "confirmations": "Confirmations",
-      "confirmations-count": "This token will take {{confirmationsCount}} confirmations to appear in your wallet. You can view the status of your deposit under ‘Funds > Transactions’."
+      "confirmations-count": "Ce jeton prendra {{confirmationsCount}} confirmations pour apparaître dans votre portefeuille. Vous pouvez consulter l'état de votre dépôt sous ‘Fonds> Transactions’."
     },
     "send-confirmation-box": {
-      "only-send-one-asset": "Only send {{currency}} to this address.",
-      "only-send-multiple-asset": "Only send {{currenciesWithoutLast}} or {{lastCurrency}} assets to this address.",
-      "you-can-lose-funds": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "only-send-one-asset": "Envoyez uniquement {{currency}} à cette adresse.",
+      "only-send-multiple-asset": "N'envoyez que {{currenciesWithoutLast}} ou {{lastCurrency}} éléments à cette adresse.",
+      "you-can-lose-funds": "L'envoi de fonds à la mauvaise adresse signifie que vous perdrez ces fonds pour toujours."
     },
     "password": {
-      "title": "Enter credentials"
+      "title": "Entrez les informations d'identification"
     },
     "updated-terms": {
-      "title": "Terms and conditions",
+      "title": "Termes et conditions",
       "terms": {
         "names": {
-          "privacy-notice": "Privacy Notice",
-          "user-agreement": "User Agreement"
+          "privacy-notice": "Déclaration de confidentialité",
+          "user-agreement": "Accord de l'utilisateur"
         },
-        "desc": "Please read and accept our latest {{termsName}}.",
-        "message": "I accept the latest <0>{{termsName}}</0>."
+        "desc": "Veuillez lire et accepter nos derniers {{termsName}}.",
+        "message": "J'accepte la dernière <0>{{termsName}}</0>."
       },
-      "confirm-notice": "If you do not accept the above terms and conditions, you will not be able to continue using Nash services.",
-      "confirm-button": "Confirm",
-      "sign-out-link": "Sign me out",
+      "confirm-notice": "Si vous n'acceptez pas les termes et conditions ci-dessus, vous ne pourrez pas continuer à utiliser les services Nash.",
+      "confirm-button": "Confirmer",
+      "sign-out-link": "Me déconnecter",
       "errors": {
-        "generic-error": "An error has occurred. Please retry."
+        "generic-error": "Une erreur est survenue. Veuillez réessayer."
       }
     },
     "search-contact": {
-      "empty-list": "You don’t have any contacts to select from!",
-      "wallet": "{{count}} wallet",
-      "wallet_plural": "{{count}} wallets"
+      "empty-list": "Vous n'avez aucun contact parmi lequel choisir!",
+      "wallet": "{{count}} portefeuille",
+      "wallet_plural": "{{count}} portefeuilles"
     }
   },
   "orders": {
     "cards": {
-      "in-progress": "Orders in progress",
+      "in-progress": "Ordres en cours",
       "24h": "24h",
-      "available": "Available to trade",
+      "available": "Disponible a l'échange",
       "reserved": "In orders"
     }
   },
   "referrals": {
-    "title": "Referral program",
+    "title": "Programme de référence",
     "referrals": {
-      "header": "Refer a friend and earn tickets",
-      "desc": "The more tickets you earn, the higher chance you have of winning.",
+      "header": "Parrainez un ami et gagnez des billets",
+      "desc": "Plus vous gagnez de billets, plus vous avez de chances de gagner.",
       "cards": {
         "social-share": {
-          "label": "Share your referral code:",
-          "activated-count": "{{count}} activated ticket",
-          "activated-count_plural": "{{count}} activated tickets",
-          "pending-count": "{{count}} pending ticket",
-          "pending-count_plural": "{{count}} pending tickets",
-          "message": "Use my referral code {{url}} to sign up for the @nashsocial giveaway! #TrustYourselves {{ytLink}}"
+          "label": "Partagez votre code de parrainage:",
+          "activated-count": "{{count}} ticket activé",
+          "activated-count_plural": "{{count}} billets activés",
+          "pending-count": "{{count}} ticket en attente",
+          "pending-count_plural": "{{count}} tickets en attente",
+          "message": "Utilisez mon code de parrainage {{url}} pour vous inscrire à l'offre @nashsocial! #TrustYourselves {{ytLink}}"
         },
         "invited-users": {
-          "label": "Your referrals",
-          "desc": "These are the people you’ve referred directly. We can’t show you who they’ve referred, but you can see the tickets you’ve earned through them for indirect referrals.",
-          "header": "All pending and activated",
-          "col-name": "Name",
-          "col-pending": "Pending",
-          "col-activated": "Activated",
-          "me": "{{name}} (me)"
+          "label": "Vos références",
+          "desc": "Ce sont les personnes que vous avez référées directement. Nous ne pouvons pas vous montrer qui ils ont référé, mais vous pouvez voir les tickets que vous avez gagnés grâce à eux pour les renvois indirects.",
+          "header": "Tous ceux en attente et ou activés",
+          "col-name": "Nom",
+          "col-pending": "En attente",
+          "col-activated": "Activé",
+          "me": "{{name}} (moi)"
         }
       }
     }
   },
   "settings": {
-    "title": "My account",
-    "save-settings": "Save settings",
+    "title": "Mon compte",
+    "save-settings": "Enregistrer les paramètres",
     "kyc": {
-      "state-label": "State",
-      "rejected": "Tier 1 status denied",
-      "rejected-subtitle": "Unfortunately, you will not be able to proceed any further. If you believe this is a mistake, please contact our <0>support team.</0>",
+      "state-label": "Etat",
+      "rejected": "Statut de niveau 1 refusé",
+      "rejected-subtitle": "Malheureusement, vous ne pourrez plus continuer. Si vous pensez que c'est une erreur, veuillez contacter notre <0> équipe d'assistance. </0>",
       "details": {
         "missing_signature": {
-          "title": "Missing signature",
-          "content": "Your identity document must display your signature."
+          "title": "Signature manquante",
+          "content": "Votre document d'identité doit porter votre signature."
         },
         "digital_copy": {
-          "title": "Original required",
-          "content": "We detected a digital copy of your identity document. Please try again with the original document."
+          "title": "Original requis",
+          "content": "Nous avons détecté une copie numérique de votre pièce d'identité. Veuillez réessayer avec le document d'origine."
         },
         "ip_address_is_proxy": {
-          "title": "Proxy detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "Proxy détecté",
+          "content": "Vous ne pouvez pas soumettre vos documents à partir d'une adresse IP proxy. Veuillez désactiver les services proxy/VPN."
         },
         "birthdate_invalid_on_id": {
-          "title": "Invalid date of birth",
-          "content": "The date of birth on your identity document is invalid."
+          "title": "Date de naissance invalide",
+          "content": "La date de naissance sur votre document d'identité n'est pas valide."
         },
         "no_face_present": {
-          "title": "No face detected",
-          "content": "We could not detect your face in the image your provided."
+          "title": "Aucun visage détecté",
+          "content": "Nous n'avons pas pu détecter votre visage dans l'image que vous avez fournie."
         },
         "photocopy_black_white": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Original requis",
+          "content": "Nous avons détecté une photocopie de votre pièce d'identité. Veuillez réessayer avec le document d'origine."
         },
         "wrong_document_page": {
-          "title": "Incorrect page",
-          "content": "Your identity document is not displaying the correct page."
+          "title": "Page incorrecte",
+          "content": "Votre pièce d'identité n'affiche pas la bonne page."
         },
         "different_persons_shown": {
-          "title": "Different people",
-          "content": "Your identity document and selfie show different people."
+          "title": "Personnes différentes",
+          "content": "Votre pièce d'identité et votre selfie montrent différentes personnes."
         },
         "damaged_document": {
           "title": "Damaged document",
