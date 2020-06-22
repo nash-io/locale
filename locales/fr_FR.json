@@ -554,16 +554,16 @@
       }
     },
     "verify-email": {
-      "header": "Nous vous avons envoyé un e-mail!",
+      "header": "Nous vous avons envoyé un email!",
       "desc-1": "Veuillez vérifier vos mails et confirmer votre compte.",
       "desc-2": "Si vous ne voyez pas notre email, vérifiez dans courrier indésirable.",
       "resend": "Renvoyer l'email de vérification",
       "resend-delay": "Veuillez patienter {{count}} seconde…",
       "resend-delay_plural": "Veuillez patienter {{count}} secondes…",
       "back": "Back to sign-in",
-      "success": "E-mail de vérification envoyé avec succès!",
+      "success": "Email de vérification envoyé avec succès!",
       "errors": {
-        "generic-error": "Erreur lors du renvoi de l’e-mail de vérification. Réessayez à nouveau."
+        "generic-error": "Erreur lors du renvoi de l’email de vérification. Réessayez à nouveau."
       }
     }
   },
@@ -605,39 +605,39 @@
       },
       "modals": {
         "print-warning": {
-          "title": "Imprimez vos douze mots secrets",
-          "header": "Veuillez vous assurer que votre imprimante est sécurisée!",
-          "body-desc": "Si vous choisissez d’imprimer vos mots, assurez-vous:",
-          "body-tips-0": "Votre imprimante est connectée à votre ordinateur directement avec un câble USB.",
-          "body-tips-1": "Votre imprimante n’est connectée à aucun réseau.",
-          "body-tips-2": "Il est impossible pour les autres de se connecter à votre imprimante via Bluetooth, WLAN, etc.",
+          "title": "Imprimer vos 12 mots secrets",
+          "header": "Assurez-vous que votre imprimante soit sécurisée !",
+          "body-desc": "Si vous faites le choix d'imprimer vos mots, assurez-vous:",
+          "body-tips-0": "Que votre imprimante soit connectée à votre ordinateur directement par un câble USB.",
+          "body-tips-1": "Que votre imprimante ne soit connectée à aucun réseau.",
+          "body-tips-2": "Qu'il soit impossible pour une tierce personne de se connecter à votre imprimante via Bluetooth, WLAN, etc.",
           "button": "Je comprends - imprimer mes mots"
         }
       },
-      "print-window-title": "Nash | Sauvegarde de mots secrets",
+      "print-window-title": "Nash | Sauvegarde des mots secrets",
       "backup-print": {
-        "header": "Sauvegarde de mots secrets",
-        "desc-1": "Vos douze mots secrets peuvent être utilisés pour accéder à vos comptes ETH, NEO et autres si vous perdez votre mot de passe Nash.",
-        "desc-2": "N’oubliez pas: si quelqu’un accède à vos mots secrets, vos fonds sont en danger.",
-        "desc-3": "Découpez les feuillets ci-dessous. Pensez à les plastifier et à les stocker dans deux emplacements distincts."
+        "header": "Sauvegarde des mots secrets",
+        "desc-1": "Vos douze mots secrets peuvent être utilisés pour accéder à vos comptes ETH, NEO et autres au cas où vous perdiez votre mot de passe Nash.",
+        "desc-2": "Rappelez-vous bien que si une personne entre en possession de vos mots, vos fonds sont en danger.",
+        "desc-3": "Découpez les pages ci-dessous. Pensez à les plastifier et les ranger dans deux emplacements différents."
       },
       "repeat-secret-words": {
-        "header": "Répétez vos douze mots secrets",
+        "header": "Veuillez réécrire vos douze mots secrets",
         "desc": "Nous voulons nous assurer que vous avez bien noté vos mots secrets.",
         "input-placeholder": "Mot {{index}}",
-        "case-sensitive": "Tous les mots sont en minuscules",
+        "case-sensitive": "Tous les mots sont en lettres minuscules",
         "create-my-wallet": "Créer mon compte",
-        "generating-your-wallet": "Générer votre compte Nash…",
+        "generating-your-wallet": "Votre compte Nash est en cours de génération…",
         "errors": {
-          "create-wallet-failed": "Une erreur s’est produite lors de la création de votre compte. Veuillez <0>vous déconnecter</0> et réessayer."
+          "create-wallet-failed": "Une erreur est survenue lors de la création de votre compte. Veuillez <0>vous déconnecter</0> et réessayer."
         }
       },
       "wallet-created": {
         "header": "Votre compte Nash a été créé avec succès!",
-        "desc": "Vous pouvez trouver vos douze mots secrets et les détails de votre compte individuel sous «Mon profil> Comptes».",
-        "warning": "<0>Nous ne stockons pas vos mots secrets dans aucun endroit.</0> Si vous oubliez votre mot de passe, vous ne pourrez pas accéder à vos fonds sans ces mots.",
-        "continue": "Configurer l’authentification à deux facteurs",
-        "continue-location": "Définir le lieu de résidence"
+        "desc": "Vous pouvez trouver vos douze mots secrets ainsi que les détails de vos comptes individuels sous ‘Mon profil > Comptes’.",
+        "warning": "<0>Nous n'enregistrons pas vos mots secrets.</0> Si vous oubliez votre mot de passe, vous ne pourrez plus accéder à vos fonds sans ces mots.",
+        "continue": "Configurer l'authentification en deux temps",
+        "continue-location": "Confirmer votre lieu de résidence"
       }
     },
     "2fa": {
@@ -648,7 +648,7 @@
       "cards": {
         "1": {
           "header": "Téléchargez et installez une application d’authentification",
-          "desc": "Such as <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+          "desc": "Comme <0>LastPass Authenticator</0>, <1>Authy</1> ou <2>Google Authenticator</2>."
         },
         "2": {
           "header": "Scannez ce code QR avec l’application téléchargée que vous avez choisie",
@@ -656,13 +656,13 @@
         },
         "3": {
           "header": "Entrez le code de vérification généré par votre application d’authentification",
-          "input-placeholder": "Code d’identification",
+          "input-placeholder": "Code d'authentification",
           "input-error": "Le code que vous avez entré est incorrect."
         }
       },
       "confirm": {
         "header": "La double authentification a été configurée!",
-        "desc": "Vous pouvez trouver vos préférences de double authentification sous «Mon profil> Sécurité» sur la plate-forme Web Nash.",
+        "desc": "Vous pouvez trouver vos préférences d'authentification sous ‘Mon profil > Sécurité’ sur la plateforme Nash.",
         "action": "Que voulez-vous faire maintenant?",
         "continue-deposit": "Déposer des fonds",
         "continue-explore": "Explorer"
@@ -678,11 +678,11 @@
         "day": "Jour",
         "month": "Mois",
         "year": "Année",
-        "spend-of-limit": "Sans"
+        "spend-of-limit": "sur"
       }
     },
     "messages": {
-      "create-order-blocked": "Vous ne pouvez pas créer d’ordres en bourse pour ce marché dans votre région."
+      "create-order-blocked": "Vous ne pouvez pas créer d'ordre pour ce marché dans votre région."
     }
   },
   "advanced-exchange": {
@@ -692,11 +692,11 @@
       "current-market": "Cours",
       "last-price": "Dernier prix négocié",
       "last-24h": "Dernières 24h",
-      "24h-change": "changement",
-      "24h-high": "High",
-      "24h-low": "Low",
-      "24h-volume": "volume",
-      "my-portfolio": "Mon portfolio"
+      "24h-change": "évolution",
+      "24h-high": "Haut",
+      "24h-low": "Bas",
+      "24h-volume": "Volume",
+      "my-portfolio": "Mon portefeuille"
     },
     "tips": {
       "balance": "<0>Astuce</0> <1>Envoyez des fonds au contrat d’échange ici.</1> <2 />"
@@ -1145,8 +1145,8 @@
       "header-2fa": "Double authentification",
       "fields": {
         "email": {
-          "label": "Adresse e-mail",
-          "placeholder": "Adresse e-mail"
+          "label": "Adresse email",
+          "placeholder": "Adresse email"
         },
         "password": {
           "label": "Mot de passe",
@@ -1184,8 +1184,8 @@
       "desc": "Saisissez votre adresse e-mail ci-dessous et nous vous remettrons sur la bonne voie.",
       "fields": {
         "email": {
-          "label": "Adresse e-mail",
-          "placeholder": "Adresse e-mail"
+          "label": "Adresse email",
+          "placeholder": "Adresse email"
         }
       },
       "submit": "Demander un lien de réinitialisation",
