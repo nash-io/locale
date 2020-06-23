@@ -29,37 +29,37 @@
   "processing": "En cours…",
   "over-file-limit": "La taille du fichier ne doit pas dépasser {{maxAllowedSize}} {{unit}}.",
   "opens-new-tab": "Ouvrir un nouvel onglet",
-  "failed-update": "échec de la mise à jour",
-  "reported-errors": "Signaler une erreur",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "failed-update": "Échec de la mise à jour",
+  "reported-errors": "Erreurs signalées",
+  "credit-card-expiry-placeholder": "MM/AA",
   "apikeys": {
     "no-addresses-whitelisted": "aucune adresse enregistrée",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Adresses en liste blanche",
-    "duplicate-address-in-form": "Cette adresse est déjà enregistrée.",
+    "address-input-placeholder": "Renseigner une adresse BTC, NEO ou ETH à ajouter sur liste blanche",
+    "add-whitelisted": "Adresses ajoutées sur liste blanche",
+    "duplicate-address-in-form": "Cette adresse est déjà sur liste blanche.",
     "add-address": "Ajouter une adresse",
     "address-is-not-valid": "Adresse non valide.",
-    "whitelisting-explanation": "Vous pouvez uniquement retirer des fonds vers ces adresses sur liste blanche avec cette clé API. Vous pouvez ajouter et supprimer des adresses sur liste blanche à tout moment une fois votre clé générée.",
+    "whitelisting-explanation": "Vous pouvez uniquement retirer des fonds vers ces adresses sur liste blanche avec cette clé API. Vous pouvez à tout moment ajouter des adresses à la liste blanche ou en supprimer une fois votre clé générée.",
     "token-type": {
-      "access": "Access",
-      "kyc": "S’identifier",
-      "apitrade": "API d’échange",
+      "access": "Accès",
+      "kyc": "Vérification d’identité",
+      "apitrade": "Trading par API",
       "twofa": "2FA"
     },
     "delete-all-tokens": {
-      "body": "Voulez-vous vraiment supprimer toutes vos clés?",
-      "confirm-button-label": "supprimer toutes les clés définitivement",
+      "body": "Voulez-vous vraiment révoquer toutes vos clés?",
+      "confirm-button-label": "Révoquer toutes les clés définitivement",
       "cancel-button-label": "Annuler"
     },
     "delete-token": {
       "body": "Êtes-vous sûr de vouloir révoquer ‘<0></0>’?",
-      "confirm-button-label": "supprimer définitivement",
+      "confirm-button-label": "Révoquer définitivement",
       "cancel-button-label": "Annuler"
     },
     "edit-whitelisted": {
       "title": "Liste blanche d’adresses pour {{name}}",
-      "add": "Ajouter",
-      "save-and-close": "Enregistre les modifications et fermer",
+      "add": "Ajouter une autre adresse",
+      "save-and-close": "Enregistrer les modifications et fermer",
       "continue": "Continuer"
     },
     "overview": {
@@ -69,13 +69,13 @@
       "table-header": "Vos clés API",
       "no-tokens-exp": "<0>Générez votre première clé</0> ou lisez notre <1>documentation API</1>.",
       "name": "Nom",
-      "never-used": "Jamais utilisé",
+      "never-used": "Jamais utilisée",
       "last-used": "Dernière utilisation {{when}}",
-      "subtitle": "Générez et gérez des clés API. En savoir plus sur <0>nos API</0>.",
-      "key-info": "Information clé",
+      "subtitle": "Générez et gérez vos clés API. En savoir plus sur <0>nos API</0>.",
+      "key-info": "Information de la clé",
       "api-key": "Clé API",
       "blockchains": "Blockchains",
-      "whitelisted": "Adresse sûre",
+      "whitelisted": "Sur liste blanche",
       "view-whitelist": "Voir la liste blanche",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
       "blockchains-hint": "Cette clé API peut fonctionner avec ces blockchains.",
@@ -88,7 +88,7 @@
       "policy-withdrawals": "Retraits et dépôts",
       "revoke-all-keys-button-label": "Révoquer toutes les clés",
       "generate-new-key-button-label": "Générer une nouvelle clé",
-      "plus-more": "{{count}} de plus"
+      "plus-more": "+{{count}} de plus"
     },
     "create-modal": {
       "credentials-step": "Identifiants utilisateur",
@@ -113,16 +113,16 @@
     },
     "step4": {
       "your-secret": "Votre secret",
-      "your-secret-warning": "C’est la seule fois que nous vous montrerons cela.",
+      "your-secret-warning": "Votre secret ne vous sera pas remontré.",
       "api-key": "Votre clé API",
-      "api-key-warning": "C’est la seule fois que nous vous montrerons cela.",
+      "api-key-warning": "Votre clé API ne vous sera pas remontré.",
       "download-as-json-button-label": "Télécharger la clé API et le secret au format JSON",
       "i-saved-my-secret-button-label": "J’ai bien sauvegardé mon secret"
     }
   },
   "terse-periods": {
     "1h": "1h",
-    "1d": "24h",
+    "1d": "1j",
     "1w": "1S",
     "1m": "1M"
   },
@@ -204,7 +204,7 @@
       "transfers": {
         "initializing": "En cours d’initialisation",
         "initialized": "Transfert initialisé",
-        "tooltip": "Vous avez encore un transfert en cours d’initialisation.Si vous fermez Nash ou vous déconnectez, il sera mis en pause jusqu’à votre prochaine reconnexion."
+        "tooltip": "Vous avez encore un transfert en cours d’initialisation. Si vous fermez Nash ou vous déconnectez, il sera mis en pause jusqu’à votre prochaine reconnexion."
       },
       "general-menu": {
         "settings": "Mon profil",
@@ -227,7 +227,7 @@
       "trade": {
         "title": "Transactions",
         "pages": {
-          "exchange": "Echange",
+          "exchange": "Échange",
           "markets": "Marchés",
           "orders": "Ordres"
         },
@@ -447,19 +447,19 @@
       },
       "continue": "Continuer",
       "errors": {
-        "generic-error": "Une erreur est survenu lors de votre connexion. Veuillez réessayer.",
-        "invalid-referral-code-can-continue": "Mauvais lien d’affiliation",
-        "invalid-referral-code": "Mauvais lien d’affiliation. Merci de vérifier le code et de réessayer.",
+        "generic-error": "Une erreur est survenue lors de votre connexion. Veuillez réessayer.",
+        "invalid-referral-code-can-continue": "Code de parrainage incorrect.",
+        "invalid-referral-code": "Code de parrainage incorrect. Merci de vérifier le code et de réessayer.",
         "invalid-email-domain": "Votre service mail n’est pas autorisé. Veuillez utiliser une autre adresse mail.",
         "duplicate-email": "Cette adresse mail est déjà utilisée.",
         "password-too-short": "Votre mot de passe doit posséder au moins huit caractères",
-        "invalid-recaptcha": "Echèque de la vérification Recaptcha. Veuillez réessayer.",
+        "invalid-recaptcha": "Échec de la vérification Recaptcha. Veuillez réessayer.",
         "missing-us-state": "Si vous vivez aux États-Unis, vous devez spécifier votre Etat."
       }
     },
     "your-details": {
       "header": "Créer un compte",
-      "subheader": "vos coordonnées",
+      "subheader": "Vos coordonnées",
       "disclaimer": {
         "title": "Avis aux clients américains",
         "desc": "Vous créez un compte Nash préliminaire pour participer au programme de parrainage, mais votre Etat doit être éligible pour accéder à certains services Nash. S’il est éligible, il vous sera ensuite demandé de signer un accord d’utilisation."
@@ -475,8 +475,8 @@
       },
       "modals": {
         "referrals": {
-          "title": "Programme de référence Nash",
-          "desc": "Cela sera utilisé pour suivre les parrainages lors de futures promotions Nash."
+          "title": "Programme de parrainage de Nash",
+          "desc": "Ceci sera utilisé pour suivre vos parrainages lors de futurs promotions Nash."
         }
       },
       "user-messages": {
@@ -489,7 +489,7 @@
     "country-details": {
       "header": "Créer un compte",
       "subheader": "Où habitez-vous?",
-      "edit": "modifier",
+      "edit": "Modifier",
       "cancel": "Annuler",
       "save-changes": "Sauvegarder les modifications",
       "fields": {
@@ -514,7 +514,7 @@
       "continue": "Créer un compte",
       "fields": {
         "email": {
-          "label": "entrer une adresse email",
+          "label": "Renseigner une adresse email",
           "placeholder": "Adresse mail"
         },
         "password": {
@@ -526,7 +526,7 @@
         },
         "password-confirm": {
           "label": "Confirmez votre mot de passe",
-          "placeholder": "Confirm password",
+          "placeholder": "Confirmation du mot de passe",
           "errors": {
             "passwords-do-not-match": "Les mots de passe ne sont pas identiques."
           }
@@ -537,7 +537,7 @@
           "title": "Conseils pour un mot de passe fort",
           "desc": "Un mot de passe fort est essentiel afin de garder vos fonds en sécurité. Suivez ces conseils afin de préserver et protéger vos fonds:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Ne réutilisez pas un mot de passe provenant d’autres sites Web, même si vous modifiez des mots ou des caractères individuels. Si vous êtes piraté ou piraté ailleurs, votre compte Nash sera instantanément compromis.",
+          "tip-1": "Ne réutilisez pas un mot de passe provenant d’autres sites Web, même si vous modifiez des mots ou des caractères individuels. Si vous êtes victime d’un phishing ou piraté par ailleurs, votre compte Nash sera instantanément compromis.",
           "tip-2": "N’incluez pas d’informations personnelles dans votre mot de passe. Les noms, anniversaires et adresses sont faciles à trouver et doivent être évités.",
           "tip-3": "Créez un mot de passe d’au moins douze caractères et utilisez un mélange de lettres majuscules et minuscules, de chiffres et de caractères spéciaux.",
           "tip-4": "Pensez à utiliser un générateur de mots de passe pour créer et stocker des mots de passe sécurisés au maximum."
@@ -554,90 +554,90 @@
       }
     },
     "verify-email": {
-      "header": "Nous vous avons envoyé un e-mail!",
-      "desc-1": "Veuillez vérifier votre e-mail et vérifier votre compte.",
-      "desc-2": "Si vous ne voyez pas notre mail, vérifiez dans courrier indésirable.",
-      "resend": "Renvoyer le mail de vérification",
-      "resend-delay": "Patientez {{count}} seconde…",
-      "resend-delay_plural": "S’il vous plaît, patientez{{count}} secondes…",
+      "header": "Nous vous avons envoyé un email!",
+      "desc-1": "Veuillez vérifier vos mails et confirmer votre compte.",
+      "desc-2": "Si vous ne voyez pas notre email, vérifiez dans courrier indésirable.",
+      "resend": "Renvoyer l’email de vérification",
+      "resend-delay": "Veuillez patienter {{count}} seconde…",
+      "resend-delay_plural": "Veuillez patienter {{count}} secondes…",
       "back": "Back to sign-in",
-      "success": "E-mail de vérification envoyé avec succès!",
+      "success": "Email de vérification envoyé avec succès!",
       "errors": {
-        "generic-error": "Erreur lors du renvoi de l’e-mail de vérification. Réessayez de nouveau."
+        "generic-error": "Erreur lors du renvoi de l’email de vérification. Réessayez à nouveau."
       }
     }
   },
   "account-setup": {
-    "tab-title": "paramétrer le compte",
+    "tab-title": "Créer un compte",
     "steps": [
       "Douze mots secrets",
       "Double authentification"
     ],
     "general-information": {
-      "title": "informations générales",
-      "header": "Créons votre compte personnel",
-      "desc-1": "Votre compte personnel est généré à l’aide de douze mots secrets. Si vous perdez votre mot de passe, vous pouvez accéder à votre compte et le réinitialiser à l’aide de ces mots. Pour cette raison, vous devez absolument sauvegarder correctement vos douze mots secrets.",
-      "continue": "Obtenez mes douze mots secrets",
-      "skip2Fa": "Configurez-le plus tard",
+      "title": "Informations générales",
+      "header": "Création de votre compte personnel",
+      "desc-1": "Votre compte personnel est généré à l’aide de douze mots secrets. Si vous égarez votre mot de passe, vous pouvez accéder à votre compte et le réinitialiser grâce à ces mots. Pour cette raison, vous devez absolument sauvegarder correctement vos douze mots secrets.",
+      "continue": "Obtenir mes douze mots secrets",
+      "skip2Fa": "Passer pour l’instant",
       "chart": {
         "card-top": "Douze mots secrets",
-        "card-top-right": "Récupération du compte Nash en cas d’oubli du mot de passe",
+        "card-top-right": "Récupération du compte Nash en cas de mot de passe égaré",
         "diamond-one": "Utilisé dans",
-        "diamond-two": "Générez votre compte personnel, qui contient…",
+        "diamond-two": "Générer votre compte personnel, qui contient…",
         "card-btc": "Compte Bitcoin",
         "card-neo": "Compte NEO",
         "card-eth": "Compte Ethereum",
-        "card-future": "Tous les futurs comptes"
+        "card-future": "Tout future compte"
       }
     },
     "secret-words": {
       "title": "Mots secrets",
-      "header": "Notez vos douze mots secrets",
-      "desc": "Ces mots sont utilisés pour accéder à vos fonds. Vous en aurez également besoin pour réinitialiser votre mot de passe.",
+      "header": "Notez vos 12 mots secrets",
+      "desc": "Ces mots sont utilisés pour accéder à vos fonds. Vous en auriez également besoin pour réinitialiser votre mot de passe.",
       "popup-error": "Si vous souhaitez imprimer vos mots secrets, veuillez désactiver tous les bloqueurs de popups et autoriser Nash à ouvrir les popups.",
       "continue": "Continuer",
-      "go-back": "revenir",
+      "go-back": "Retour",
       "written-down": "J’ai noté mes mots.",
       "check-my-backup": "Vérifier ma sauvegarde",
       "tips": {
-        "do": "Notez vos mots à la main.",
-        "dont": "Ne saisissez pas ou ne stockez pas vos mots numériquement."
+        "do": "Écrivez bien vos mots à la main.",
+        "dont": "Ne vous contentez pas d’une simple capture d’écran ou d’une sauvegarde digitale."
       },
       "modals": {
         "print-warning": {
-          "title": "Imprimez vos douze mots secrets",
-          "header": "Veuillez vous assurer que votre imprimante est sécurisée!",
-          "body-desc": "Si vous choisissez d’imprimer vos mots, assurez-vous:",
-          "body-tips-0": "Votre imprimante est connectée à votre ordinateur directement avec un câble USB.",
-          "body-tips-1": "Votre imprimante n’est connectée à aucun réseau.",
-          "body-tips-2": "Il est impossible pour les autres de se connecter à votre imprimante via Bluetooth, WLAN, etc.",
+          "title": "Imprimer vos 12 mots secrets",
+          "header": "Assurez-vous que votre imprimante soit sécurisée !",
+          "body-desc": "Si vous faites le choix d’imprimer vos mots, assurez-vous:",
+          "body-tips-0": "Que votre imprimante soit connectée à votre ordinateur directement par un câble USB.",
+          "body-tips-1": "Que votre imprimante ne soit connectée à aucun réseau.",
+          "body-tips-2": "Qu’il soit impossible pour une tierce personne de se connecter à votre imprimante via Bluetooth, WLAN, etc.",
           "button": "Je comprends - imprimer mes mots"
         }
       },
-      "print-window-title": "Nash | Sauvegarde de mots secrets",
+      "print-window-title": "Nash | Sauvegarde des mots secrets",
       "backup-print": {
-        "header": "Sauvegarde de mots secrets",
-        "desc-1": "Vos douze mots secrets peuvent être utilisés pour accéder à vos comptes ETH, NEO et autres si vous perdez votre mot de passe Nash.",
-        "desc-2": "N’oubliez pas: si quelqu’un accède à vos mots secrets, vos fonds sont en danger.",
-        "desc-3": "Découpez les feuillets ci-dessous. Pensez à les plastifier et à les stocker dans deux emplacements distincts."
+        "header": "Sauvegarde des mots secrets",
+        "desc-1": "Vos douze mots secrets peuvent être utilisés pour accéder à vos comptes ETH, NEO et autres au cas où vous perdiez votre mot de passe Nash.",
+        "desc-2": "Rappelez-vous bien que si une personne entre en possession de vos mots, vos fonds sont en danger.",
+        "desc-3": "Découpez les pages ci-dessous. Pensez à les plastifier et les ranger dans deux emplacements différents."
       },
       "repeat-secret-words": {
-        "header": "Répétez vos douze mots secrets",
+        "header": "Veuillez réécrire vos douze mots secrets",
         "desc": "Nous voulons nous assurer que vous avez bien noté vos mots secrets.",
         "input-placeholder": "Mot {{index}}",
-        "case-sensitive": "Tous les mots sont en minuscules",
+        "case-sensitive": "Tous les mots sont en lettres minuscules",
         "create-my-wallet": "Créer mon compte",
-        "generating-your-wallet": "Générer votre compte Nash…",
+        "generating-your-wallet": "Votre compte Nash est en cours de génération…",
         "errors": {
-          "create-wallet-failed": "Une erreur s’est produite lors de la création de votre compte. Veuillez <0>vous déconnecter</0> et réessayer."
+          "create-wallet-failed": "Une erreur est survenue lors de la création de votre compte. Veuillez <0>vous déconnecter</0> et réessayer."
         }
       },
       "wallet-created": {
         "header": "Votre compte Nash a été créé avec succès!",
-        "desc": "Vous pouvez trouver vos douze mots secrets et les détails de votre compte individuel sous «Mon profil> Comptes».",
-        "warning": "<0>Nous ne stockons pas vos mots secrets dans aucun endroit.</0> Si vous oubliez votre mot de passe, vous ne pourrez pas accéder à vos fonds sans ces mots.",
-        "continue": "Configurer l’authentification à deux facteurs",
-        "continue-location": "Définir le lieu de résidence"
+        "desc": "Vous pouvez trouver vos douze mots secrets ainsi que les détails de vos comptes individuels sous ‘Mon profil > Comptes’.",
+        "warning": "<0>Nous n’enregistrons pas vos mots secrets.</0> Si vous oubliez votre mot de passe, vous ne pourrez plus accéder à vos fonds sans ces mots.",
+        "continue": "Configurer l’authentification en deux temps",
+        "continue-location": "Confirmer votre lieu de résidence"
       }
     },
     "2fa": {
@@ -648,7 +648,7 @@
       "cards": {
         "1": {
           "header": "Téléchargez et installez une application d’authentification",
-          "desc": "Such as <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+          "desc": "Comme <0>LastPass Authenticator</0>, <1>Authy</1> ou <2>Google Authenticator</2>."
         },
         "2": {
           "header": "Scannez ce code QR avec l’application téléchargée que vous avez choisie",
@@ -656,13 +656,13 @@
         },
         "3": {
           "header": "Entrez le code de vérification généré par votre application d’authentification",
-          "input-placeholder": "Code d’identification",
+          "input-placeholder": "Code d’authentification",
           "input-error": "Le code que vous avez entré est incorrect."
         }
       },
       "confirm": {
         "header": "La double authentification a été configurée!",
-        "desc": "Vous pouvez trouver vos préférences de double authentification sous «Mon profil> Sécurité» sur la plate-forme Web Nash.",
+        "desc": "Vous pouvez trouver vos préférences d’authentification sous ‘Mon profil > Sécurité’ sur la plateforme Nash.",
         "action": "Que voulez-vous faire maintenant?",
         "continue-deposit": "Déposer des fonds",
         "continue-explore": "Explorer"
@@ -678,11 +678,11 @@
         "day": "Jour",
         "month": "Mois",
         "year": "Année",
-        "spend-of-limit": "Sans"
+        "spend-of-limit": "sur"
       }
     },
     "messages": {
-      "create-order-blocked": "Vous ne pouvez pas créer d’ordres en bourse pour ce marché dans votre région."
+      "create-order-blocked": "Vous ne pouvez pas créer d’ordre pour ce marché dans votre région."
     }
   },
   "advanced-exchange": {
@@ -692,11 +692,11 @@
       "current-market": "Cours",
       "last-price": "Dernier prix négocié",
       "last-24h": "Dernières 24h",
-      "24h-change": "changement",
-      "24h-high": "High",
-      "24h-low": "Low",
-      "24h-volume": "volume",
-      "my-portfolio": "Mon portfolio"
+      "24h-change": "évolution",
+      "24h-high": "Haut",
+      "24h-low": "Bas",
+      "24h-volume": "Volume",
+      "my-portfolio": "Mon portefeuille"
     },
     "tips": {
       "balance": "<0>Astuce</0> <1>Envoyez des fonds au contrat d’échange ici.</1> <2 />"
@@ -1145,8 +1145,8 @@
       "header-2fa": "Double authentification",
       "fields": {
         "email": {
-          "label": "Adresse e-mail",
-          "placeholder": "Adresse e-mail"
+          "label": "Adresse email",
+          "placeholder": "Adresse email"
         },
         "password": {
           "label": "Mot de passe",
@@ -1184,8 +1184,8 @@
       "desc": "Saisissez votre adresse e-mail ci-dessous et nous vous remettrons sur la bonne voie.",
       "fields": {
         "email": {
-          "label": "Adresse e-mail",
-          "placeholder": "Adresse e-mail"
+          "label": "Adresse email",
+          "placeholder": "Adresse email"
         }
       },
       "submit": "Demander un lien de réinitialisation",
