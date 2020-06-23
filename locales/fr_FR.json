@@ -3302,203 +3302,203 @@
           "content": "Votre pièce d’identité et votre selfie montrent différentes personnes."
         },
         "damaged_document": {
-          "title": "Damaged document",
-          "content": "Your identity document is damaged."
+          "title": "Document endommagé",
+          "content": "Votre pièce d’identité est endommagé."
         },
         "identity_verification_too_many_attempts": {
-          "title": "Too many attempts",
-          "content": "You have submitted too many verification attempts"
+          "title": "Trop d’essais",
+          "content": "Vous avez soumis trop de tentatives de vérification"
         },
         "unknown_error": {
-          "title": "Something went wrong!",
-          "content": "We have encountered an unexpected error!"
+          "title": "Une erreur est survenue!",
+          "content": "Nous avons rencontré une erreur inattendue!"
         },
         "no_document": {
-          "title": "Document not found",
-          "content": "We could not find an identity document in the image you provided."
+          "title": "Document introuvable",
+          "content": "Nous n’avons pas pu trouver la pièce d’identité dans l’image que vous avez fournie."
         },
         "multiple_people": {
-          "title": "Multiple people detected",
-          "content": "We detected multiple people in the image your provided. You must be the only person in the image."
+          "title": "Plusieurs personnes détectées",
+          "content": "Nous avons détecté plusieurs personnes dans l’image que vous avez fournie. Vous devez être la seule personne sur l’image."
         },
         "BLURRED": {
-          "title": "Blurred image",
-          "content": "The image you provided is blurred."
+          "title": "Image floue",
+          "content": "L’image que vous avez fournie est floue."
         },
         "sample_document": {
-          "title": "Original required",
-          "content": "We detected that your identity document is only a sample. Please try again with an original document."
+          "title": "Original requis",
+          "content": "Nous avons détecté que votre pièce d’identité n’est qu’un échantillon. Veuillez réessayer avec un document original."
         },
         "photocopy_color": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Original requis",
+          "content": "Nous avons détecté une photocopie de votre pièce d’identité. Veuillez réessayer avec le document d’origine."
         },
         "liveness_failed": {
-          "title": "Liveness test failed",
-          "content": "We could not determine that a real person is present in the image your provided."
+          "title": "Échec du test de vivacité",
+          "content": "Nous n’avons pas pu déterminer qu’une personne réelle est présente dans l’image que vous avez fournie."
         },
         "ip_address_is_crawler": {
           "title": "Crawler detected",
-          "content": "We identified your IP address as a web crawler. Please try again from a different IP."
+          "content": "Nous avons identifié votre adresse IP en tant que robot d’exploration Web. Veuillez réessayer à partir d’une autre IP."
         },
         "missing_part_document": {
-          "title": "Incomplete document",
-          "content": "Part of your identity document is missing."
+          "title": "Document incomplet",
+          "content": "Une partie de votre pièce d’identité est manquante."
         },
         "ip_address_and_address_mismatch": {
-          "title": "IP mismatch",
-          "content": "Your IP address must match the location you provided."
+          "title": "Inadéquation IP",
+          "content": "Votre adresse IP doit correspondre à l’emplacement que vous avez fourni."
         },
         "ip_address_is_tor": {
-          "title": "TOR detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "TOR détecté",
+          "content": "Vous ne pouvez pas soumettre vos documents à partir d’une adresse IP proxy. Veuillez désactiver les services proxy/VPN."
         },
         "bad_quality": {
-          "title": "Poor quality",
-          "content": "The quality of the image you provided is too poor."
+          "title": "Mauvaise qualité",
+          "content": "La qualité de l’image que vous avez fournie est trop mauvaise."
         },
         "camera_black_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Noir et blanc",
+          "content": "Votre appareil photo semble être réglé en noir et blanc. Veuillez le changer en couleur."
         },
         "not_readable_document": {
-          "title": "Document unreadable",
-          "content": "The identity document you provided is unreadable."
+          "title": "Document illisible",
+          "content": "Le pièce d’identité que vous avez fourni est illisible."
         },
         "black_and_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Noir et blanc",
+          "content": "Votre appareil photo semble être réglé en noir et blanc. Veuillez le changer en couleur."
         },
         "hidden_part_document": {
-          "title": "Document obscured",
-          "content": "Part of your identity document is hidden."
+          "title": "Document obscurci",
+          "content": "Une partie de votre pièce d’identité est masquée."
         },
         "missing_back": {
-          "title": "Document back required",
-          "content": "You did not provide an image of the back of your document."
+          "title": "Document requis",
+          "content": "Vous n’avez pas fourni d’image du verso de votre document."
         },
         "face_not_fully_visible": {
-          "title": "Face obscured",
-          "content": "Your face is not fully visible in the image you provided."
+          "title": "Visage obscurci",
+          "content": "Votre visage n’est pas entièrement visible dans l’image que vous avez fournie."
         }
       },
       "steps": [
-        "Personal details",
-        "Address details",
-        "Confirm details"
+        "Informations personnelles",
+        "Informations sur l’adresse",
+        "Confirmer les informations"
       ],
-      "invalid-age-error": "You must enter a valid date of birth.",
-      "missing-age-error": "You must enter your date of birth.",
-      "age-restriction-error": "You must be at least eighteen years old.",
-      "name-error": "You must enter a name.",
-      "title": "We need a few details from you",
-      "topnav-back-button": "Back to limits",
-      "country": "Country",
-      "waiting": "Verifying…",
-      "waiting-subtitle": "This can take a few minutes. You may leave this page.",
-      "topnav-title": "Tier 1 verification",
-      "contact-support-label": "<0>Contact support</0> to change",
-      "confirm-button-label": "Confirm your details",
+      "invalid-age-error": "Vous devez entrer une date de naissance valide.",
+      "missing-age-error": "Vous devez entrer votre date de naissance.",
+      "age-restriction-error": "Vous devez avoir au moins dix-huit ans.",
+      "name-error": "Vous devez saisir un nom.",
+      "title": "Nous avons besoin de quelques informations de votre part",
+      "topnav-back-button": "Revenir sur les limites",
+      "country": "Pays",
+      "waiting": "Vérification…",
+      "waiting-subtitle": "Cela peut prendre quelques minutes. Vous pouvez quitter cette page.",
+      "topnav-title": "Vérification de niveau 1",
+      "contact-support-label": "<0>Contactez le support</0> pour changer",
+      "confirm-button-label": "Confirmez vos coordonnées",
       "name-step": {
-        "warning": "The name you enter must match the name on the identity document you provide.",
-        "date-of-birth-label": "Date of birth",
-        "full-name-label": "Full name",
-        "continue-button-label": "Continue and enter address"
+        "warning": "Le nom que vous entrez doit correspondre au nom figurant sur la pièce d’identité que vous fournissez.",
+        "date-of-birth-label": "Date de naissance",
+        "full-name-label": "Nom complet",
+        "continue-button-label": "Continuez et entrez l’adresse"
       },
       "address-step": {
-        "address-label": "Enter an address",
-        "search-button-label": "Search"
+        "address-label": "Entrer une adresse",
+        "search-button-label": "Chercher"
       },
       "manual-address-step": {
-        "line1": "Address line 1",
-        "line2": "Address line 2",
-        "city": "City",
-        "zipCode": "Postcode/ZIP"
+        "line1": "Adresse Ligne 1",
+        "line2": "Adresse Ligne 2",
+        "city": "Ville",
+        "zipCode": "Code postal"
       },
       "select-address-step": {
-        "title": "Addresses found",
-        "manual-entry-label": "Enter address manually",
-        "select-label": "Select",
-        "no-results-found-title": "We couldn’t find your address",
-        "no-results-found-body": "Please make sure you include your postcode.",
-        "error-title": "We experienced an error",
-        "error-body": "Try again or use the link below.",
-        "go-back-label": "Go back"
+        "title": "Adresses trouvées",
+        "manual-entry-label": "Entrez l’adresse manuellement",
+        "select-label": "Sélectionner",
+        "no-results-found-title": "Nous n’avons pas pu trouver votre adresse",
+        "no-results-found-body": "Veuillez vous assurer d’inclure votre code postal.",
+        "error-title": "Nous avons rencontré une erreur",
+        "error-body": "Réessayez ou utilisez le lien ci-dessous.",
+        "go-back-label": "Revenir"
       },
       "confirm-details": {
-        "begin-button-label": "These details are correct",
-        "your-details": "Personal details",
-        "address-details": "Address details",
-        "edit-label": "Edit",
-        "submission-error": "We experienced an error while submitting your data."
+        "begin-button-label": "Ces informations sont correctes",
+        "your-details": "Informations personnelles",
+        "address-details": "informations sur l’adresse",
+        "edit-label": "Modifier",
+        "submission-error": "Nous avons rencontré une erreur lors de la soumission de vos données."
       }
     },
     "profile": {
-      "title": "Profile",
-      "header": "Profile settings",
-      "desc-1": "You can edit your profile settings below.",
+      "title": "Profil",
+      "header": "Paramètres de profil",
+      "desc-1": "Vous pouvez modifier vos paramètres de profil ci-dessous.",
       "desc-2": "",
       "cards": {
         "your-details": {
-          "label": "Personal details",
-          "legal-name": "Legal name",
-          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
-          "update-name": "I want to update my name",
-          "update-country": "I want to update my country of residence",
-          "gender": "Gender",
-          "male": "Male",
-          "female": "Female",
-          "other": "Other",
-          "country-of-residence": "Country of residence"
+          "label": "Informations personnelles",
+          "legal-name": "Nom légal",
+          "missing-full-name": "<0>Vérifiez votre identité</0> pour profiter de limites commerciales plus élevées.",
+          "update-name": "Je veux mettre à jour mon nom",
+          "update-country": "Je souhaite mettre à jour mon pays de résidence",
+          "gender": "Le genre",
+          "male": "Homme",
+          "female": "Femme",
+          "other": "Autre",
+          "country-of-residence": "Pays de résidence"
         },
         "account-settings": {
-          "label": "Account settings",
-          "email-address": "Email address",
-          "update-email": "Change email address",
-          "password": "Password",
-          "update-password": "Change password",
-          "two-factor": "We recommend you to enable two-factor authentication in <0>Security</0>.",
-          "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
+          "label": "Paramètres du compte",
+          "email-address": "Adresse électronique",
+          "update-email": "Changer l’adresse email",
+          "password": "Mot de passe",
+          "update-password": "Changer le mot de passe",
+          "two-factor": "Nous vous recommandons d’activer La double authentification dans <0>Sécurité</0>.",
+          "two-factor-enable": "La double authentification peut être désactivée dans <0>Sécurité</0>."
         }
       },
       "modals": {
         "update-name": {
-          "title": "Update name",
-          "label": "Name",
-          "tier0-summary": "To update your name, please complete <0>Tier 1 verification</0>.",
-          "tier0-details": "When your application for Tier 1 has been approved, we will update your name to the legal name on the documents you provided.",
-          "tier1-summary": "If your legal name has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1-details": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your name to the legal name on the documents you provided."
+          "title": "Mettre à jour le nom",
+          "label": "Nom",
+          "tier0-summary": "Pour mettre à jour votre nom, veuillez compléter <0>la vérification de niveau 1</0>.",
+          "tier0-details": "Lorsque votre demande pour le niveau 1 aura été approuvée, nous mettrons à jour votre nom pour le nom légal sur les documents que vous avez fournis.",
+          "tier1-summary": "Si votre nom légal a changé et que vous souhaitez le mettre à jour, veuillez <0>contacter le support</0>.",
+          "tier1-details": "Nous réinitialiserons votre niveau de vérification et vous demanderons de répéter la procédure de vérification en utilisant vos nouveaux documents. Lorsque votre demande aura été approuvée, nous mettrons à jour votre nom sur le nom légal sur les documents que vous avez fournis."
         },
         "update-country": {
-          "title": "Update country",
-          "label": "Country",
-          "tier0": "If your country of residence has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your country of residence to the country on the documents you provided."
+          "title": "Mettre à jour le pays",
+          "label": "Pays",
+          "tier0": "Si votre pays de résidence a changé et que vous souhaitez le mettre à jour, veuillez <0>contacter le support</0>.",
+          "tier1": "Nous réinitialiserons votre niveau de vérification et vous demanderons de répéter la procédure de vérification en utilisant vos nouveaux documents. Une fois votre demande approuvée, nous mettrons à jour votre pays de résidence en fonction des pays que vous avez fournis."
         },
         "update-email": {
-          "success-header": "We’ve sent you an email!",
-          "success-description": "We have sent you a confirmation email to start the address update process. If you don’t see our email, check your junk folder.",
+          "success-header": "Nous vous avons envoyé un e-mail!",
+          "success-description": "Nous vous avons envoyé un e-mail de confirmation pour démarrer le processus de mise à jour de l’adresse. Si vous ne voyez pas notre e-mail, vérifiez votre dossier de courrier indésirable.",
           "success-back": "Got it!",
-          "title": "Change email",
-          "current-email-label": "Your current email address",
-          "current-email": "Current email address",
-          "new-email-label": "New email address",
-          "new-email-placeholder": "Enter your new email address",
-          "twofa-label": "Two-factor authentication",
-          "twofa-label-placeholder": "Enter your two-factor authentication (2FA) code",
-          "request-email-change-button-label": "Request address change"
+          "title": "Changer l’e-mail",
+          "current-email-label": "Votre adresse email actuelle",
+          "current-email": "Adresse e-mail actuelle",
+          "new-email-label": "Nouvelle adresse courriel",
+          "new-email-placeholder": "Entrez votre nouvelle adresse e-mail",
+          "twofa-label": "La double authentification",
+          "twofa-label-placeholder": "Entrez votre code d’authentification à deux facteurs (2FA)",
+          "request-email-change-button-label": "Demander un changement d’adresse"
         },
         "update-password": {
-          "title": "Change password",
+          "title": "Changer le mot de passe",
           "fields": {
             "password": {
-              "label": "Current password",
-              "placeholder": "Enter your password"
+              "label": "Mot de passe actuel",
+              "placeholder": "Tapez votre mot de passe"
             },
             "code": {
-              "label": "Two-factor authentication",
-              "placeholder": "Enter your two-factor authentication code"
+              "label": "Authentification à deux facteurs",
+              "placeholder": "Entrez votre code d’authentification à deux facteurs"
             },
             "new-password": {
               "label": "New password",
