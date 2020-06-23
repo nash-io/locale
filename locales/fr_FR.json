@@ -42,7 +42,7 @@
     "whitelisting-explanation": "Vous pouvez uniquement retirer des fonds vers ces adresses sur liste blanche avec cette clé API. Vous pouvez à tout moment ajouter des adresses à la liste blanche ou en supprimer une fois votre clé générée.",
     "token-type": {
       "access": "Accès",
-      "kyc": "Vérification d'identité",
+      "kyc": "Vérification d’identité",
       "apitrade": "Trading par API",
       "twofa": "2FA"
     },
@@ -537,7 +537,7 @@
           "title": "Conseils pour un mot de passe fort",
           "desc": "Un mot de passe fort est essentiel afin de garder vos fonds en sécurité. Suivez ces conseils afin de préserver et protéger vos fonds:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Ne réutilisez pas un mot de passe provenant d’autres sites Web, même si vous modifiez des mots ou des caractères individuels. Si vous êtes victime d'un phishing ou piraté par ailleurs, votre compte Nash sera instantanément compromis.",
+          "tip-1": "Ne réutilisez pas un mot de passe provenant d’autres sites Web, même si vous modifiez des mots ou des caractères individuels. Si vous êtes victime d’un phishing ou piraté par ailleurs, votre compte Nash sera instantanément compromis.",
           "tip-2": "N’incluez pas d’informations personnelles dans votre mot de passe. Les noms, anniversaires et adresses sont faciles à trouver et doivent être évités.",
           "tip-3": "Créez un mot de passe d’au moins douze caractères et utilisez un mélange de lettres majuscules et minuscules, de chiffres et de caractères spéciaux.",
           "tip-4": "Pensez à utiliser un générateur de mots de passe pour créer et stocker des mots de passe sécurisés au maximum."
@@ -557,7 +557,7 @@
       "header": "Nous vous avons envoyé un email!",
       "desc-1": "Veuillez vérifier vos mails et confirmer votre compte.",
       "desc-2": "Si vous ne voyez pas notre email, vérifiez dans courrier indésirable.",
-      "resend": "Renvoyer l'email de vérification",
+      "resend": "Renvoyer l’email de vérification",
       "resend-delay": "Veuillez patienter {{count}} seconde…",
       "resend-delay_plural": "Veuillez patienter {{count}} secondes…",
       "back": "Back to sign-in",
@@ -576,9 +576,9 @@
     "general-information": {
       "title": "Informations générales",
       "header": "Création de votre compte personnel",
-      "desc-1": "Votre compte personnel est généré à l'aide de douze mots secrets. Si vous égarez votre mot de passe, vous pouvez accéder à votre compte et le réinitialiser grâce à ces mots. Pour cette raison, vous devez absolument sauvegarder correctement vos douze mots secrets.",
+      "desc-1": "Votre compte personnel est généré à l’aide de douze mots secrets. Si vous égarez votre mot de passe, vous pouvez accéder à votre compte et le réinitialiser grâce à ces mots. Pour cette raison, vous devez absolument sauvegarder correctement vos douze mots secrets.",
       "continue": "Obtenir mes douze mots secrets",
-      "skip2Fa": "Passer pour l'instant",
+      "skip2Fa": "Passer pour l’instant",
       "chart": {
         "card-top": "Douze mots secrets",
         "card-top-right": "Récupération du compte Nash en cas de mot de passe égaré",
@@ -597,20 +597,20 @@
       "popup-error": "Si vous souhaitez imprimer vos mots secrets, veuillez désactiver tous les bloqueurs de popups et autoriser Nash à ouvrir les popups.",
       "continue": "Continuer",
       "go-back": "Retour",
-      "written-down": "J'ai noté mes mots.",
+      "written-down": "J’ai noté mes mots.",
       "check-my-backup": "Vérifier ma sauvegarde",
       "tips": {
         "do": "Écrivez bien vos mots à la main.",
-        "dont": "Ne vous contentez pas d'une simple capture d'écran ou d'une sauvegarde digitale."
+        "dont": "Ne vous contentez pas d’une simple capture d’écran ou d’une sauvegarde digitale."
       },
       "modals": {
         "print-warning": {
           "title": "Imprimer vos 12 mots secrets",
           "header": "Assurez-vous que votre imprimante soit sécurisée !",
-          "body-desc": "Si vous faites le choix d'imprimer vos mots, assurez-vous:",
+          "body-desc": "Si vous faites le choix d’imprimer vos mots, assurez-vous:",
           "body-tips-0": "Que votre imprimante soit connectée à votre ordinateur directement par un câble USB.",
           "body-tips-1": "Que votre imprimante ne soit connectée à aucun réseau.",
-          "body-tips-2": "Qu'il soit impossible pour une tierce personne de se connecter à votre imprimante via Bluetooth, WLAN, etc.",
+          "body-tips-2": "Qu’il soit impossible pour une tierce personne de se connecter à votre imprimante via Bluetooth, WLAN, etc.",
           "button": "Je comprends - imprimer mes mots"
         }
       },
@@ -635,8 +635,8 @@
       "wallet-created": {
         "header": "Votre compte Nash a été créé avec succès!",
         "desc": "Vous pouvez trouver vos douze mots secrets ainsi que les détails de vos comptes individuels sous ‘Mon profil > Comptes’.",
-        "warning": "<0>Nous n'enregistrons pas vos mots secrets.</0> Si vous oubliez votre mot de passe, vous ne pourrez plus accéder à vos fonds sans ces mots.",
-        "continue": "Configurer l'authentification en deux temps",
+        "warning": "<0>Nous n’enregistrons pas vos mots secrets.</0> Si vous oubliez votre mot de passe, vous ne pourrez plus accéder à vos fonds sans ces mots.",
+        "continue": "Configurer l’authentification en deux temps",
         "continue-location": "Confirmer votre lieu de résidence"
       }
     },
@@ -656,13 +656,13 @@
         },
         "3": {
           "header": "Entrez le code de vérification généré par votre application d’authentification",
-          "input-placeholder": "Code d'authentification",
+          "input-placeholder": "Code d’authentification",
           "input-error": "Le code que vous avez entré est incorrect."
         }
       },
       "confirm": {
         "header": "La double authentification a été configurée!",
-        "desc": "Vous pouvez trouver vos préférences d'authentification sous ‘Mon profil > Sécurité’ sur la plateforme Nash.",
+        "desc": "Vous pouvez trouver vos préférences d’authentification sous ‘Mon profil > Sécurité’ sur la plateforme Nash.",
         "action": "Que voulez-vous faire maintenant?",
         "continue-deposit": "Déposer des fonds",
         "continue-explore": "Explorer"
@@ -682,7 +682,7 @@
       }
     },
     "messages": {
-      "create-order-blocked": "Vous ne pouvez pas créer d'ordre pour ce marché dans votre région."
+      "create-order-blocked": "Vous ne pouvez pas créer d’ordre pour ce marché dans votre région."
     }
   },
   "advanced-exchange": {
