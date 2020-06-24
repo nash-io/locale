@@ -3800,205 +3800,205 @@
       "usdDividend-col": "Valeur USD",
       "stakes-in-progress": "En cours ({{date}})",
       "stakes-complete": "Terminé ({{date}})",
-      "total-dividends": "Total dividends ({{date}})",
-      "paid-dividend-days": "Days paid ({{date}})",
-      "all-dividends-table": "Dividends list",
-      "till-ended_plural": "{{count}} days left",
-      "till-ended": "{{count}} day left",
-      "till-ended_today": "Ending today",
-      "from-active-stakes": "From <0>{{count}}</0> active stake",
-      "from-active-stakes_plural": "From <0>{{count}}</0> active stakes",
-      "period-description": "During this period",
-      "dividends-received": "In dividends received",
-      "is-ended": "Ended",
-      "no-statements": "You don’t have any dividend statements yet."
+      "total-dividends": "Total des dividendes ({{date}})",
+      "paid-dividend-days": "Jours payés ({{date}})",
+      "all-dividends-table": "Liste des dividendes",
+      "till-ended_plural": "{{count}} jours restants",
+      "till-ended": "{{count}} jour restant",
+      "till-ended_today": "Se terminant aujourd’hui",
+      "from-active-stakes": "De <0>{{count}}</0> stake actif",
+      "from-active-stakes_plural": "De <0>{{count}}</0> stakes actifs",
+      "period-description": "Au cours de cette période",
+      "dividends-received": "En dividendes reçus",
+      "is-ended": "Terminé",
+      "no-statements": "Vous n’avez pas encore de relevés de dividendes."
     },
     "modals": {
       "staking-info": {
-        "title": "Staking Nash Exchange tokens (NEX)",
+        "title": "Staking du Tokens Nash (NEX)",
         "header": {
-          "title": "What is NEX staking?",
-          "desc": "Staking Nash Exchange tokens (NEX) is a way to earn passive income. You receive a portion of the exchange’s trading fees every day that your stake is active."
+          "title": "Qu’est-ce que le staking NEX?",
+          "desc": "Staker les tokens de Nash Exchange (NEX) est un moyen de générer un revenu passif. Vous recevez une partie des frais de trading de la plateforme chaque jour où votre mise est active."
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
-            "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
+            "title": "Comment ça marche?",
+            "desc": "Vous verrouillez autant de tokens NEX que vous le souhaitez dans un contrat de staking. Vous ne pourrez ni déplacer ni vendre vos tokens tant qu’ils sont verrouillés dans le contrat. Chaque jour que votre participation est active, vous recevrez des dividendes."
           },
           "par-2": {
-            "title": "How are dividends calculated?",
-            "desc": "Dividends depend on: (1) the number of NEX tokens you stake as a proportion of the total 50,000,000 supply, and (2) the period of time for which you stake them. The more tokens you stake, the higher your dividend will be. The longer you stake your tokens for, the greater the proportion of fees you receive will be (your ‘staking rate’)."
+            "title": "Comment sont calculés les dividendes?",
+            "desc": "Les dividendes dépendent: (1) du nombre de tokens NEX que vous immobilisez en proportion de l’offre totale de 50 000 000, et (2) de la période de temps pour laquelle vous les bloquez. Plus vous immobilisez de tokens, plus votre dividende sera élevé. Plus vous bloquez vos tokens longtemps, plus la proportion de frais que vous recevez sera élevée (votre «taux de mise»)."
           },
           "par-3": {
-            "title": "How long can I stake for?",
-            "desc": "The minimum staking period is one month, which offers a staking rate of 25%. However, if you want a higher proportion of the exchange’s fees, you can stake for any whole number of months up to a maximum of 24, which offers a staking rate of 75%."
+            "title": "Combien de temps puis-je staker?",
+            "desc": "La période de staking minimale est d’un mois, ce qui offre un taux de staking de 25%. Cependant, si vous souhaitez une proportion plus élevée des frais de change, vous pouvez staker jusqu’à un maximum de 24 mois, ce qui offre un taux de staking de 75%."
           },
           "par-4": {
-            "title": "How do I receive my dividends?",
-            "desc": "Dividends are automatically added to your trading contract balance. They are paid out on a daily basis, shortly after midnight UTC. Nash provides monthly staking statements that aggregate these payments into a single figure for accounting purposes. Since the fees on a trade are charged in the currency being exchanged, you will receive dividends in every asset currently being traded on Nash."
+            "title": "Comment recevoir mes dividendes?",
+            "desc": "Les dividendes sont automatiquement ajoutés au solde de votre contrat de trading. Ils sont payés quotidiennement, peu après minuit UTC. Nash fournit des relevés de staking mensuels qui regroupent ces paiements en un seul chiffre à des fins comptables. Étant donné que les frais sur une transaction sont facturés dans la devise échangée, vous recevrez des dividendes sur chaque actif actuellement négocié sur Nash."
           },
           "par-5": {
-            "title": "Can I receive my dividends in a single currency?",
-            "desc": "No. For legal reasons, we cannot convert your dividends for you. However, we are developing a tool to allow you to convert dividends yourself with a single click."
+            "title": "Puis-je recevoir mes dividendes dans une seule devise?",
+            "desc": "Non. Pour des raisons légales, nous ne pouvons pas convertir vos dividendes pour vous. Cependant, nous développons un outil pour vous permettre de convertir vous-même vos dividendes en un seul clic."
           },
           "par-6": {
-            "title": "Can I edit or cancel my stake once it’s been created?",
-            "desc": "No. Once you have created a stake you will not be able to edit or cancel it."
+            "title": "Puis-je modifier ou annuler mon stake une fois quil a été créé?",
+            "desc": "Non. Une fois que vous aurez créé un stake, vous ne pourrez plus le modifier ni l’annuler."
           },
           "par-7": {
-            "title": "Can I create multiple stakes?",
-            "desc": "Yes. If you have NEX tokens in your personal account that are not already locked in a stake, you can use them to create a new one."
+            "title": "Puis-je créer plusieurs stakes?",
+            "desc": "Oui. Si vous avez des tokens NEX dans votre compte personnel qui ne sont pas déjà stakés, vous pouvez les utiliser pour en créer un nouveau."
           },
           "par-8": {
-            "title": "How many stakes can I create?",
-            "desc": "There is no limit to the number of stakes you can create."
+            "title": "Combien de stake puis-je créer?",
+            "desc": "Il n’y a pas de limite au nombre de stake que vous pouvez créer."
           }
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "I understand that staked NEX only pays dividends if the Nash Exchange generates revenue.",
-        "title": "Create your stake",
-        "amount-to-stake": "Amount of NEX to stake",
+        "create-stake-disclaimer-label": "Je comprends que le staking de NEX ne paie de dividendes que si Nash Exchange génère des revenus.",
+        "title": "Créez votre stake",
+        "amount-to-stake": "Montant de NEX à staker",
         "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
-        "available-balance": "Available balance to stake ⋅",
+        "available-balance": "Solde disponible à staker ⋅",
         "quick-fill-label": "Max",
-        "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
-        "set-date-dividends-label": "Set a date to receive your dividends",
-        "set-date-dividends-value": "Date ⋅ {{date}} of every month",
-        "stake-details-title": "Your stake details",
-        "currency-to-stake": "NEX to stake",
-        "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
+        "set-stake-duration-label": "Définir une durée de stake",
+        "selected-duration": "Durée sélectionnée ⋅",
+        "selected-duration-month": "<0>{{count}}</0> mois",
+        "selected-duration-month_plural": "<0>{{count}}</0> mois",
+        "set-date-dividends-label": "Fixez une date pour recevoir vos dividendes",
+        "set-date-dividends-value": "Date ⋅ {{date}} de chaque mois",
+        "stake-details-title": "Vos informations sur le stake",
+        "currency-to-stake": "NEX à staker",
+        "stake-duration": "Durée du staking",
+        "duration-value": "<0>{{count}}</0> mois",
+        "duration-value_plural": "<0>{{count}}</0> mois",
         "fee-reward": "Staking rate",
-        "first-payment": "First payment",
-        "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
-        "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
-        "create-stake-button": "Create stake",
-        "create-stake-sending-button": "Sending data…",
-        "create-stake-sending-text": "Sending data. Please keep this window open. This can take up to one minute.",
-        "create-stake-error": "There was either an error or a delay while creating your stake. Please check again in five minutes and resubmit if your stake was not created.",
-        "create-stake-auth-error": "Authentication error. Please try again.",
-        "learn-more": "Learn more about",
+        "first-payment": "Premier paiement",
+        "agreed-to-non-cancellation-label": "Je comprends que je ne peux pas annuler ou modifier ce stake une fois que je l’ai créé.",
+        "agreed-to-locked-tokens-label": "Je comprends que mes tokens NEX seront verrouillés jusqu’à la fin de cette mise.",
+        "create-stake-button": "Créer un stake",
+        "create-stake-sending-button": "Envoi de données…",
+        "create-stake-sending-text": "Envoi de données. Veuillez garder cette fenêtre ouverte. Cela peut prendre jusqu’à une minute.",
+        "create-stake-error": "Il y a eu une erreur ou un retard lors de la création de votre stake. Veuillez vérifier à nouveau dans cinq minutes et soumettre à nouveau si votre mise n’a pas été créée.",
+        "create-stake-auth-error": "Erreur d’authentification. Veuillez réessayer.",
+        "learn-more": "En apprendre davantage",
         "footer-desc": "staking NEX",
-        "amount-error-message": "This amount exceeds your available balance.",
+        "amount-error-message": "Ce montant dépasse votre solde disponible.",
         "stake-success": {
-          "header": "Stake created!",
-          "stake-details": "You created a stake of {{amount}} NEX for a period of {{count}} month. Your stake will appear in the dashboard shortly.",
-          "stake-details_plural": "You created a stake of {{amount}} NEX for a period of {{count}} months. Your stake will appear in the dashboard shortly.",
-          "stake-time-description": "You will receive your first dividends in:",
-          "finish-button-label": "Finish"
+          "header": "Stake créé!",
+          "stake-details": "Vous avez créé un stake de {{amount}} NEX pour une période de {{count}} mois. Votre stake apparaîtra dans le tableau de bord sous peu.",
+          "stake-details_plural": "Vous avez créé un stake de {{amount}} NEX pour une période de {{count}} mois. Votre stake apparaîtra dans le tableau de bord sous peu.",
+          "stake-time-description": "Vous recevrez vos premiers dividendes en:",
+          "finish-button-label": "terminer"
         }
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
-      "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
-      "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
-      "description-modal-create-link": "Create your first stake"
+      "title": "Générez un revenu passif en stakant des tokens NEX",
+      "description-desktop": "Vous débutez le staking? En savoir plus sur la <0>staking des tokens NEX</0> et <1>créez votre premier stake</1>.",
+      "description-mobile": "Vous débutez le staking? En savoir plus sur <0>le staking des tokens NEX</0>.",
+      "description-modal-create-link": "Créez votre premier stake"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Stakes in progress",
-      "completed-stakes": "Completed stakes",
-      "create-stake-button": "Create a new stake",
-      "learn-stake-button": "Learn about staking"
+      "stakes-in-progress": "Staking en cours",
+      "completed-stakes": "Staking terminés",
+      "create-stake-button": "Créer un nouveau stake",
+      "learn-stake-button": "En savoir plus sur le staking"
     },
     "max-stakes": {
-      "message": "You have created {{amount}} out of a possible {{maxAmount}} stakes. The maximum you can create is {{maxAmount}}.",
-      "dismiss": "Dismiss"
+      "message": "Vous avez créé {{amount}} sur un possible {{maxAmount}} stake. Le maximum que vous pouvez créer est {{maxAmount}}.",
+      "dismiss": "Rejeter"
     }
   },
   "contacts": {
     "title": "{{count}} contact",
     "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "create-new": "Create new",
+    "search-my-contacts": "Rechercher mes contacts…",
+    "no-contacts": "Vous n’avez pas encore ajouté ou importé de contacts.",
+    "create-new": "Créer un nouveau",
     "buttons": {
       "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send-disabled-tooltip": "Ajoutez une adresse de portefeuille à vos contacts pour leur envoyer des fonds.",
+      "request": "Demande",
+      "edit": "Modifier",
+      "delete": "Supprimer"
     },
     "headers": {
-      "name": "Name",
+      "name": "Nom",
       "email": "Email",
-      "phone-number": "Phone number",
-      "wallets": "Wallets"
+      "phone-number": "Numéro de téléphone",
+      "wallets": "Portefeuilles"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Créer un contact",
+        "button": "Créer un contact"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Modifier ce contact",
+        "button": "Sauvegarder les modifications"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Envoyer des fonds à {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
+          "currency": "Quel atout?",
           "wallet": "Destination"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Vous ne pouvez envoyer des actifs qu’à partir de votre compte personnel."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Rechercher un actif…",
+          "destination": "Rechercher une adresse de portefeuille…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "Voulez-vous vraiment supprimer {{contactName}}?",
+        "notice-text": "Toutes les informations associées à ce contact seront définitivement supprimées.",
+        "button": "Oui, supprimer",
+        "cancel": "Annuler",
+        "error": "Erreur lors de la suppression du contact. Veuillez réessayer.",
+        "success": "Contact supprimé.",
+        "success-button": "Retour aux contacts"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Contact enregistré!",
+        "error": "Erreur lors de l’enregistrement du contact. Veuillez réessayer.",
+        "invalid-input": "Saisie invalide. Veuillez réessayer."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Prénom",
+          "placeholder": "Prénom"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Nom de famille",
+          "placeholder": "Nom de famille"
         },
         "email": {
           "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "placeholder": "Adresse e-mail",
+          "error": "Adresse e-mail invalide"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Téléphone",
+          "error": "Numéro de téléphone non valide pour {{country}}"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Portefeuilles",
+          "delete": "Supprimer",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Adresse du portefeuille"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Nom du portefeuille"
           },
-          "add": "Add another"
+          "add": "Ajouter un autre"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Veuillez saisir une adresse {{blockchain}} valide.",
+          "unique-address": "Vous avez déjà un autre contact avec cette adresse de portefeuille."
         }
       }
     }
