@@ -152,7 +152,7 @@
     "30-day-volume": "Volume glissant des 30 derniers jours",
     "taker-fee": "Taker fee",
     "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "learn-more": "En savoir plus sur les maker et les taker."
   },
   "time-in-force-modal": {
     "title": "Validité dans le temps",
@@ -181,8 +181,8 @@
     "referrals": "Parrainages",
     "funds": "Fonds",
     "exchange": "Exchange",
-    "basic-exchange": "Vue basique",
-    "basic-exchange-short": "Basique",
+    "basic-exchange": "Vue simplifiée",
+    "basic-exchange-short": "simplifié",
     "advanced-exchange": "Vue pro",
     "advanced-exchange-short": "Pro",
     "markets": "Marchés",
@@ -560,7 +560,7 @@
       "resend": "Renvoyer l’email de vérification",
       "resend-delay": "Veuillez patienter {{count}} seconde…",
       "resend-delay_plural": "Veuillez patienter {{count}} secondes…",
-      "back": "Back to sign-in",
+      "back": "Retour vers la page de connexion",
       "success": "Email de vérification envoyé avec succès!",
       "errors": {
         "generic-error": "Erreur lors du renvoi de l’email de vérification. Réessayez à nouveau."
@@ -1228,8 +1228,8 @@
           "submit": "Réinitialiser mon compte",
           "sub-bullet-1": "Tous les actifs de votre compte personnel.",
           "sub-bullet-2": "Tous les actifs du contrat commercial.",
-          "sub-bullet-3": "Tous les jetons NEX stakés.",
-          "sub-bullet-4": "Tous les dividendes des jetons NEX stakés.",
+          "sub-bullet-3": "Tous les tokens NEX stakés.",
+          "sub-bullet-4": "Tous les dividendes des tokens NEX stakés.",
           "unauthorized": "La réinitialisation de votre compte ayant de sérieuses implications, vous devez d’abord contacter notre équipe d’assistance pour l’activer.",
           "contact-support": "Contactez le support"
         }
@@ -1861,9 +1861,9 @@
       "complete-nash-profile": "Complétez votre <0>profil Nash</0> avant de pouvoir acheter des cryptoactifs",
       "want-to-buy-input-label": "je veux acheter",
       "want-to-sell-input-label": "je veux vendre",
-      "spend": "Spend",
-      "purchase": "Purchase",
-      "cost-me-input-label": "I want to spend",
+      "spend": "Investir",
+      "purchase": "Achat",
+      "cost-me-input-label": "Je veux investir",
       "i-want-to-pay-input-label": "je veux payer",
       "receive-input-label": "Je vais recevoir",
       "will-receive-input-label": "Je vais recevoir environ",
@@ -1908,7 +1908,7 @@
         "ecode-3ds-auth-fail": "Échec de l’authentification 3DS.",
         "ecode-3ds-could-not-be-performed": "3DS n’est pas disponible chez Carbon pour le moment.",
         "ecode-3ds-performed-not-completed": "La 3DS a été réalisée, mais n’a pas pu être complétée par Carbon pour le moment.",
-        "ecode-unknown": "Unknown problem with code {{ecode}}."
+        "ecode-unknown": "Erreur inconnu avec le code {{ecode}}."
       },
       "purchase-requires-confirm": {
         "title": "Vérifier la nouvelle carte",
@@ -2013,13 +2013,13 @@
         "fail-sell-past-amount": "Failed to sell <0 />",
         "success-sell-past-amount": "Sold <0 />",
         "success-buy-past-amount": "Bought <0 />",
-        "btn-confirm": "View",
-        "btn-reconfirm": "Review",
-        "btn-view": "View",
-        "status": "Status",
-        "refund-status-label": "Refund status",
+        "btn-confirm": "Aperçu",
+        "btn-reconfirm": "Vérifier",
+        "btn-view": "Aperçu",
+        "status": "Statut",
+        "refund-status-label": "Statut de remboursement",
         "detailed-quote-status": {
-          "pending-user-confirmation": "You must review your quote",
+          "pending-user-confirmation": "Vous devez revoir votre devis",
           "cancelled-by-user": "You declined this quote",
           "failed-expired-on-bank-transfer": "Payment not recieved",
           "failed-expired-on-bank-transfer-reason": "Votre devis a expiré avant la réception de votre paiement",
@@ -2041,11 +2041,11 @@
           "failed-expired-on-confirmation": "Echoué",
           "reconfirmation-expired": "Echoué",
           "reconfirmation-rejected": "Rejetée",
-          "confirmed-waiting-for-payment": "Payment needed",
-          "pending-refund": "Pending",
-          "pending-user-rate-reconfirmation": "Rate changed",
-          "processing": "Processing",
-          "refunded": "Refunded",
+          "confirmed-waiting-for-payment": "Paiement nécessaire",
+          "pending-refund": "En attente",
+          "pending-user-rate-reconfirmation": "Taux modifié",
+          "processing": "En traitement",
+          "refunded": "Remboursé",
           "completed": "Complete"
         }
       }
@@ -2058,8 +2058,8 @@
       "card-header": "{{currency}} compte",
       "new-card-header": "Nouvelle carte",
       "new-bank-account-header": "Nouveau compte bancaire",
-      "processing": "Processing…",
-      "verified": "Verified",
+      "processing": "En traitement…",
+      "verified": "Vérifié",
       "unverified-method": "La vérification d’identité n’est pas terminée",
       "verified-method": "Identité vérifiée",
       "delete-modal-title": "Voulez-vous vraiment supprimer la carte se terminant par {{cardEnding}}?",
@@ -2068,7 +2068,7 @@
       "cancel-label": "Non, ne le supprimez pas",
       "status": {
         "VERIFIED": "Vérifié",
-        "PENDING": "Reviewing",
+        "PENDING": "Révision",
         "AWAITING_FOLLOWUP": "Nécessite une attention",
         "ACTIVE": "Active",
         "REJECTED": "Rejeté"
@@ -2110,37 +2110,37 @@
       "at": "at <0/>",
       "new-quote-secs": "{{count}}",
       "original-quote": "Original quote",
-      "new-quote": "Your new quote",
-      "accept-new-quote": "Accept new rate",
-      "expires-in": "Declined automatically in {{timeout}}",
-      "decline-and-refund": "<0>Decline</0> and receive refund",
-      "message": "If the webpage or session is closed before accepting the new rate it will be declined automatically and your payment will be refunded."
+      "new-quote": "Votre nouveau devis",
+      "accept-new-quote": "Accepter le nouveau devis",
+      "expires-in": "Refusée automatiquement dans {{timeout}}",
+      "decline-and-refund": "<0>Refusez</0> et recevez un remboursement",
+      "message": "Si la page Web ou la session est fermée avant d’accepter le nouveau devis, il sera automatiquement refusé et votre paiement vous sera remboursé."
     },
     "reconfirm-expire": {
-      "review-header": "Your quote was automatically declined",
-      "no-action": "<0>No more actions are needed from you.</0> You can now close this page.",
-      "days": "1-3 days",
-      "we-refund": "We will refund",
+      "review-header": "Votre devis a été automatiquement refusé",
+      "no-action": "<0>Aucune action supplémentaire de votre part.</0> Vous pouvez maintenant fermer cette page.",
+      "days": "1-3 jours",
+      "we-refund": "Nous vous rembourserons",
       "destination": "Destination",
-      "refund-time": "Refund time",
-      "message": "The quote expired before you made a decision, or the webpage was closed without accepting or declining the new amount and rate give."
+      "refund-time": "Délai de remboursement",
+      "message": "Le devis a expiré avant que vous ne preniez une décision, ou la page Web a été fermée sans accepter ou refuser le nouveau montant et le nouveau taux."
     },
     "reconfirm-accept": {
-      "review-header": "You accepted the new quote",
-      "you-recieve": "You will receive",
-      "destination": "Nash trading contract",
+      "review-header": "Vous avez accepté le nouveau devis",
+      "you-recieve": "Vous allez recevoir",
+      "destination": "Contrat de trading Nash",
       "destination-label": "Destination",
-      "arrival-label": "Estimated time of arrival",
-      "arrival": "As soon as possible",
-      "no-action": "<0>No more actions are needed from you.</0> You can now close this page."
+      "arrival-label": "Heure d’arrivée estimée",
+      "arrival": "Dès que possible",
+      "no-action": "<0>Aucune action supplémentaire n’est requise de votre part.</0> Vous pouvez maintenant fermer cette page."
     },
     "reconfirm-decline": {
-      "review-header": "You declined the new quote",
-      "days": "1-3 days",
-      "we-refund": "We will refund",
+      "review-header": "Vous avez refusé le nouveau devis",
+      "days": "1-3 jours",
+      "we-refund": "Nous vous rembourserons",
       "destination": "Destination",
-      "refund-time": "Refund time",
-      "no-action": "<0>No more actions are needed from you.</0> You can now close this page."
+      "refund-time": "Délai de remboursement",
+      "no-action": "<0>Aucune action supplémentaire de votre part.</0> Vous pouvez maintenant fermer cette page."
     },
     "profile": {
       "carbon": {
@@ -2159,15 +2159,15 @@
       "submit-kyc": {
         "required-incomplete": "Vous devez remplir tous les champs obligatoires.",
         "required-complete": "",
-        "button": "Send details for review"
+        "button": "Envoyer les informations pour les examener"
       },
       "editor": {
         "warning": "Je comprends que si je soumets à nouveau ces informations, mon compte devra être réexaminé et je ne serai pas en mesure d’effectuer des achats ou des ventes avant la fin de cet examen.",
         "name": {
-          "edit": "Edit legal name",
-          "add": "Add legal name",
+          "edit": "Modifier le nom légal",
+          "add": "Ajouter un nom légal",
           "placeholder": "",
-          "save": "Submit legal name",
+          "save": "Soumettre un nom légal",
           "warning": "Je comprends que si je soumets à nouveau mon nom, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
           "field": "Nom légal complet"
         },
@@ -2181,7 +2181,7 @@
           "field": "Adresse électronique"
         },
         "occupation": {
-          "placeholder": "Account manager, Company Director, Nurse, etc.",
+          "placeholder": "Gestionnaire de compte, chef d’entreprise, infirmière, etc.",
           "save": "Declare occupation",
           "field": "Occupation"
         },
@@ -2253,8 +2253,8 @@
           "edit": "Téléchargez votre preuve d’adresse",
           "save": "Soumettre le document",
           "type": [
-            "Utility bill",
-            "Bank statement"
+            "Facture",
+            "Relevé bancaire"
           ],
           "select-label": "Quel document souhaitez-vous télécharger pour la vérification d’adresse?",
           "upload-label": "Téléchargez une photo de vos informations.",
@@ -2349,7 +2349,7 @@
         "open-optional": "Not complet (optionnel)",
         "draft": "Enregistré",
         "submitted": "Soumis",
-        "pending": "In review"
+        "pending": "En revue"
       },
       "title": "Profil",
       "profile-details": "Détails du profil",
