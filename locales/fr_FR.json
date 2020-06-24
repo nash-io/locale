@@ -3496,7 +3496,7 @@
               "label": "Mot de passe actuel",
               "placeholder": "Tapez votre mot de passe"
             },
-             "code": {
+            "code": {
               "label": "Authentification à deux facteurs",
               "placeholder": "Entrez votre code d’authentification à deux facteurs"
             },
@@ -3561,7 +3561,7 @@
           "disable": "Désactiver (non recommandé)"
         },
         "all-account-activity": {
-          "label": "Toute l'activité du compte",
+          "label": "Toute l’activité du compte",
           "tabs": {
             "sessions": "Sessions",
             "allowed-devices": "Appareils autorisés",
@@ -3594,17 +3594,17 @@
       "modals": {
         "enable-2fa": {
           "1": {
-            "header": "Téléchargez et installez une application d'authentification",
-            "desc": "Nous vous recommandons<0>LastPass Authenticator</0>,<1> Authy</1>ou<2> Google Authenticator</2>."
+            "header": "Téléchargez et installez une application d’authentification",
+            "desc": "Nous vous recommandons <0>LastPass Authenticator</0>, <1>Authy</1> ou <2>Google Authenticator</2>."
           },
           "2": {
-            "header": "Scannez ce code QR avec votre application d'authentification choisie",
-            "desc": "Vous pouvez également l'ajouter manuellement.",
+            "header": "Scannez ce code QR avec votre application d’authentification choisie",
+            "desc": "Vous pouvez également l’ajouter manuellement.",
             "manual-2fa": "Manual 2FA entry key"
           },
           "3": {
-            "header": "Entrez le code généré par votre application d'authentification",
-            "input-placeholder": "Code d'identification"
+            "header": "Entrez le code généré par votre application d’authentification",
+            "input-placeholder": "Code d’identification"
           },
           "enable": "Activer",
           "title": "Configurer la double authentification"
@@ -3628,13 +3628,13 @@
       "wallets-header": "Comptes générés par mes douze mots secrets",
       "show-all-private-keys-button-label": "Afficher toutes les clés privées",
       "hide-all-private-keys-button-label": "Masquer toutes les clés privées",
-      "desc": "Nash est non-custodial. Nous n'avons pas accès à vos clés privées.",
-      "search-assets-placeholder": "Rechercher un nom d'actif ou un ticker…",
+      "desc": "Nash est non-custodial. Nous n’avons pas accès à vos clés privées.",
+      "search-assets-placeholder": "Rechercher un nom d’actif ou un ticker…",
       "public-address-label": "Adresse publique",
       "info-title": "Certaines blockchains prennent en charge plusieurs actifs",
-      "info-body": "Les actifs ERC-20 et NEP-5 sont des tokens émis sur les chaînes de blocs Ethereum et NEO, respectivement. GAS est également un actif stocké sur la blockchain NEO. Vous n'avez besoin que d'un compte Ethereum pour stocker les tokens ETH et ERC-20, et d'un compte NEO pour stocker les tokens NEO, GAS et NEP-5.",
+      "info-body": "Les actifs ERC-20 et NEP-5 sont des tokens émis sur les chaînes de blocs Ethereum et NEO, respectivement. GAS est également un actif stocké sur la blockchain NEO. Vous n’avez besoin que d’un compte Ethereum pour stocker les tokens ETH et ERC-20, et d’un compte NEO pour stocker les tokens NEO, GAS et NEP-5.",
       "public-address-sub-label": "Quels actifs puis-je envoyer ici?",
-      "public-address-tooltip": "Il s'agit de l'adresse blockchain où vos actifs sont stockés.",
+      "public-address-tooltip": "Il s’agit de l’adresse blockchain où vos actifs sont stockés.",
       "private-key-label": "Clé privée",
       "private-key-sub-label-show": "Afficher la clé privée",
       "private-key-sub-label-hide": "Masquer la clé privée",
@@ -3712,20 +3712,20 @@
           "address": "Adresse",
           "proof-of-address": "Un justificatif de domicile",
           "pep-check": "Contrôle PEP",
-          "photo-id": "photo d'identité",
+          "photo-id": "photo d’identité",
           "selfie": "Selfie",
           "date-of-birth": "Date de naissance",
           "net-worth": "Valeur nette",
           "contact-number": "Numéro de contact",
           "tier1-info-net-worth": "Informations de tier 1 + valeur nette",
           "source-of-funds": "Source de fonds",
-          "name-manager": "Représentant d'un groupe",
+          "name-manager": "Représentant d’un groupe",
           "email-institution": "Adresse électronique",
           "name-company": "Nom de la compagnie",
           "website": "Site Internet",
           "tin": "TIN",
-          "corporate-formation-documents": "Documents de constitution d'entreprise",
-          "processing-time": "Si votre vérification n'est pas traitée dans les 24 heures, veuillez<0>contacter le support</0>."
+          "corporate-formation-documents": "Documents de constitution d’entreprise",
+          "processing-time": "Si votre vérification n’est pas traitée dans les 24 heures, veuillez <0>contacter le support</0>."
         },
         "tier-1": {
           "get-verified-button": "Être vérifié",
@@ -3736,15 +3736,15 @@
               "header": "Application pour smartphone",
               "desc": "Nécessite des caméras frontales et arrière de haute qualité.",
               "steps": [
-                "Téléchargez l'appli",
+                "Téléchargez l’appli",
                 "Scannez le QR code "
               ],
               "download": {
-                "header": "La vérification de tier 1 est possible à l'aide de notre application mobile.",
-                "downloaded-app": "J'ai téléchargé l'application"
+                "header": "La vérification de tier 1 est possible à l’aide de notre application mobile.",
+                "downloaded-app": "J’ai téléchargé l’application"
               },
               "scan-code": {
-                "header": "Scannez le QR code suivant avec l'application Nash:",
+                "header": "Scannez le QR code suivant avec l’application Nash:",
                 "desc": "Lorsque vous avez terminé la vérification de tier 1, votre résultat apparaîtra ici dans une minute."
               }
             },
@@ -3793,7 +3793,7 @@
       "view-statement-button": "Voir la déclaration",
       "summary-title": "Toutes les déclarations",
       "export-summary": "Export stakes as CSV",
-      "export": "Déclaration d'exportation",
+      "export": "Déclaration d’exportation",
       "date-col": "Date de paiement",
       "asset-col": "Actif",
       "dividend-col": "Dividende reçu",
