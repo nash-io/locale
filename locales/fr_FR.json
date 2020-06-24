@@ -3496,109 +3496,109 @@
               "label": "Mot de passe actuel",
               "placeholder": "Tapez votre mot de passe"
             },
-            "code": {
+             "code": {
               "label": "Authentification à deux facteurs",
               "placeholder": "Entrez votre code d’authentification à deux facteurs"
             },
             "new-password": {
-              "label": "New password",
-              "placeholder": "Enter a new password",
+              "label": "Nouveau mot de passe",
+              "placeholder": "Entrer un nouveau mot de passe",
               "errors": {
-                "password-too-weak": "The password you chose is too weak."
+                "password-too-weak": "Le mot de passe que vous avez choisi est trop faible."
               }
             },
             "new-password-confirm": {
-              "label": "Confirm new password",
-              "placeholder": "Confirm new password",
+              "label": "Confirmer le nouveau mot de passe",
+              "placeholder": "Confirmer le nouveau mot de passe",
               "errors": {
-                "passwords-do-not-match": "Passwords do not match."
+                "passwords-do-not-match": "Les mots de passe ne correspondent pas."
               }
             }
           },
-          "success": "Your password has been changed successfully.",
+          "success": "Votre mot de passe a été changé avec succès.",
           "errors": {
-            "password-must-change": "Your new password should be different from your old password.",
-            "password-already-used": "You used this password already. Please pick another one.",
-            "missing-key": "Missing signature keys. Please refresh this page and try again."
+            "password-must-change": "Votre nouveau mot de passe doit être différent de votre ancien mot de passe.",
+            "password-already-used": "Vous avez déjà utilisé ce mot de passe. Veuillez en choisir un autre.",
+            "missing-key": "Clés de signature manquantes. Veuillez actualiser cette page et réessayer."
           }
         }
       }
     },
     "preferences": {
-      "title": "Preferences",
-      "header": "Preferences",
-      "desc-1": "Edit your preferences for timezone, currency, language and notifications below.",
+      "title": "Préférences",
+      "header": "Préférences",
+      "desc-1": "Modifiez vos préférences pour le fuseau horaire, la devise, la langue et les notifications ci-dessous.",
       "desc-2": "",
       "cards": {
         "general-settings": {
-          "label": "General settings",
-          "timezone": "Timezone",
-          "fiat": "Currency",
-          "language": "Language",
-          "save-settings": "Save settings"
+          "label": "Paramètres généraux ",
+          "timezone": "Fuseau horaire",
+          "fiat": "Devise",
+          "language": "Langue",
+          "save-settings": "Enregistrer les paramètres"
         },
         "email": {
-          "label": "Email me when…",
-          "news": "There are news and updates from Nash.",
-          "actions": "There are recommended actions for my account.",
-          "withdrawal": "A withdrawal is made from my account.",
-          "deposit": "A deposit is made to my account."
+          "label": "Envoyez-moi un e-mail quand…",
+          "news": "Il y a des nouvelles et des mises à jour de Nash.",
+          "actions": "Il existe des actions recommandées pour mon compte.",
+          "withdrawal": "Un retrait est effectué depuis mon compte.",
+          "deposit": "Un dépôt est effectué sur mon compte."
         }
       }
     },
     "security": {
-      "title": "Security",
-      "header": "Account security",
-      "desc": "Enable two-factor authentication here.",
+      "title": "Sécurité",
+      "header": "Sécurité du compte",
+      "desc": "Activez ici la double authentification.",
       "cards": {
         "2fa": {
-          "label": "Two-factor authentication",
-          "header": "Two-factor authentication is:",
-          "desc": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "enabled": "Enabled",
-          "disabled": "Disabled",
-          "enable": "Enable",
-          "disable": "Disable (not recommended)"
+          "label": "Double authentification",
+          "header": "La double authentification est:",
+          "desc": "Nous vous conseillons de garder la double authentification(2FA) activée. Il ajoute une couche de sécurité supplémentaire à votre compte.",
+          "enabled": "Activé",
+          "disabled": "désactivé",
+          "enable": "Activer",
+          "disable": "Désactiver (non recommandé)"
         },
         "all-account-activity": {
-          "label": "All account activity",
+          "label": "Toute l'activité du compte",
           "tabs": {
             "sessions": "Sessions",
-            "allowed-devices": "Allowed devices",
-            "history": "History"
+            "allowed-devices": "Appareils autorisés",
+            "history": "Historique"
           },
           "columns": {
-            "when": "When",
-            "location": "Location",
-            "ip-address": "IP address",
-            "browser-used": "Browser used",
-            "device": "Device",
+            "when": "Quand",
+            "location": "Emplacement",
+            "ip-address": "adresse IP",
+            "browser-used": "Navigateur utilisé",
+            "device": "Appareil",
             "action": "Action"
           },
           "devices": {
-            "browser": "Browser",
-            "phone": "Phone",
-            "tablet": "Tablet"
+            "browser": "Navigateur",
+            "phone": "Téléphone",
+            "tablet": "Tablette"
           },
           "actions": {
-            "signed-out": "Signed out",
-            "signed-in": "Signed in",
-            "failed": "Failed sign-in attempt",
-            "2fa": "2FA confirmed",
-            "failed-2fa": "2FA failed"
+            "signed-out": "Se déconnecter",
+            "signed-in": "Connecté",
+            "failed": "Échec de la tentative de connexion",
+            "2fa": "2FA confirmé",
+            "failed-2fa": "Échec 2FA"
           },
-          "sign-out": "Sign out",
-          "sign-out-all-devices": "Sign out all devices"
+          "sign-out": "Déconnexion",
+          "sign-out-all-devices": "Déconnectez tous les appareils"
         }
       },
       "modals": {
         "enable-2fa": {
           "1": {
-            "header": "Download and install an authenticator app",
-            "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+            "header": "Téléchargez et installez une application d'authentification",
+            "desc": "Nous vous recommandons<0>LastPass Authenticator</0>,<1> Authy</1>ou<2> Google Authenticator</2>."
           },
           "2": {
-            "header": "Scan this QR code with your chosen authenticator app",
+            "header": "Scannez ce code QR avec votre application d'authentification choisie",
             "desc": "Vous pouvez également l'ajouter manuellement.",
             "manual-2fa": "Manual 2FA entry key"
           },
