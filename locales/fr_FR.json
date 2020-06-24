@@ -3805,33 +3805,33 @@
       "all-dividends-table": "Liste des dividendes",
       "till-ended_plural": "{{count}} jours restants",
       "till-ended": "{{count}} jour restant",
-      "till-ended_today": "Se terminant aujourd'hui",
-      "from-active-stakes": "De<0>{{count}}</0> stake actif",
-      "from-active-stakes_plural": "De<0>{{count}}</0>stake actifs",
+      "till-ended_today": "Se terminant aujourd’hui",
+      "from-active-stakes": "De <0>{{count}}</0> stake actif",
+      "from-active-stakes_plural": "De <0>{{count}}</0> stakes actifs",
       "period-description": "Au cours de cette période",
       "dividends-received": "En dividendes reçus",
       "is-ended": "Terminé",
-      "no-statements": "Vous n'avez pas encore de relevés de dividendes."
+      "no-statements": "Vous n’avez pas encore de relevés de dividendes."
     },
     "modals": {
       "staking-info": {
         "title": "Staking du Tokens Nash (NEX)",
         "header": {
-          "title": "Qu'est-ce que le staking NEX?",
+          "title": "Qu’est-ce que le staking NEX?",
           "desc": "Staker les tokens de Nash Exchange (NEX) est un moyen de générer un revenu passif. Vous recevez une partie des frais de trading de la plateforme chaque jour où votre mise est active."
         },
         "paragraphs": {
           "par-1": {
             "title": "Comment ça marche?",
-            "desc": "Vous verrouillez autant de tokens NEX que vous le souhaitez dans un contrat de staking. Vous ne pourrez ni déplacer ni vendre vos tokens tant qu'ils sont verrouillés dans le contrat. Chaque jour que votre participation est active, vous recevrez des dividendes."
+            "desc": "Vous verrouillez autant de tokens NEX que vous le souhaitez dans un contrat de staking. Vous ne pourrez ni déplacer ni vendre vos tokens tant qu’ils sont verrouillés dans le contrat. Chaque jour que votre participation est active, vous recevrez des dividendes."
           },
           "par-2": {
             "title": "Comment sont calculés les dividendes?",
-            "desc": "Les dividendes dépendent: (1) du nombre de tokens NEX que vous immobilisez en proportion de l'offre totale de 50 000 000, et (2) de la période de temps pour laquelle vous les bloquez. Plus vous immobilisez de tokens, plus votre dividende sera élevé. Plus vous bloquez vos tokens longtemps, plus la proportion de frais que vous recevez sera élevée (votre «taux de mise»)."
+            "desc": "Les dividendes dépendent: (1) du nombre de tokens NEX que vous immobilisez en proportion de l’offre totale de 50 000 000, et (2) de la période de temps pour laquelle vous les bloquez. Plus vous immobilisez de tokens, plus votre dividende sera élevé. Plus vous bloquez vos tokens longtemps, plus la proportion de frais que vous recevez sera élevée (votre «taux de mise»)."
           },
           "par-3": {
             "title": "Combien de temps puis-je staker?",
-            "desc": "La période de staking minimale est d'un mois, ce qui offre un taux de staking de 25%. Cependant, si vous souhaitez une proportion plus élevée des frais de change, vous pouvez staker jusqu'à un maximum de 24 mois, ce qui offre un taux de staking de 75%."
+            "desc": "La période de staking minimale est d’un mois, ce qui offre un taux de staking de 25%. Cependant, si vous souhaitez une proportion plus élevée des frais de change, vous pouvez staker jusqu’à un maximum de 24 mois, ce qui offre un taux de staking de 75%."
           },
           "par-4": {
             "title": "Comment recevoir mes dividendes?",
@@ -3843,7 +3843,7 @@
           },
           "par-6": {
             "title": "Puis-je modifier ou annuler mon stake une fois quil a été créé?",
-            "desc": "Non. Une fois que vous aurez créé un stake, vous ne pourrez plus le modifier ni l'annuler."
+            "desc": "Non. Une fois que vous aurez créé un stake, vous ne pourrez plus le modifier ni l’annuler."
           },
           "par-7": {
             "title": "Puis-je créer plusieurs stakes?",
@@ -3851,7 +3851,7 @@
           },
           "par-8": {
             "title": "Combien de stake puis-je créer?",
-            "desc": "Il n'y a pas de limite au nombre de stake que vous pouvez créer."
+            "desc": "Il n’y a pas de limite au nombre de stake que vous pouvez créer."
           }
         }
       },
@@ -3868,20 +3868,20 @@
         "selected-duration-month_plural": "<0>{{count}}</0> mois",
         "set-date-dividends-label": "Fixez une date pour recevoir vos dividendes",
         "set-date-dividends-value": "Date ⋅ {{date}} de chaque mois",
-        "stake-details-title": "Vos informations sur le stake "",
+        "stake-details-title": "Vos informations sur le stake",
         "currency-to-stake": "NEX à staker",
         "stake-duration": "Durée du staking",
         "duration-value": "<0>{{count}}</0> mois",
         "duration-value_plural": "<0>{{count}}</0> mois",
         "fee-reward": "Staking rate",
         "first-payment": "Premier paiement",
-        "agreed-to-non-cancellation-label": "Je comprends que je ne peux pas annuler ou modifier ce stake une fois que je l'ai créé.",
-        "agreed-to-locked-tokens-label": "Je comprends que mes tokens NEX seront verrouillés jusqu'à la fin de cette mise.",
+        "agreed-to-non-cancellation-label": "Je comprends que je ne peux pas annuler ou modifier ce stake une fois que je l’ai créé.",
+        "agreed-to-locked-tokens-label": "Je comprends que mes tokens NEX seront verrouillés jusqu’à la fin de cette mise.",
         "create-stake-button": "Créer un stake",
         "create-stake-sending-button": "Envoi de données…",
-        "create-stake-sending-text": "Envoi de données. Veuillez garder cette fenêtre ouverte. Cela peut prendre jusqu'à une minute.",
-        "create-stake-error": "Il y a eu une erreur ou un retard lors de la création de votre stake. Veuillez vérifier à nouveau dans cinq minutes et soumettre à nouveau si votre mise n'a pas été créée.",
-        "create-stake-auth-error": "Erreur d'authentification. Veuillez réessayer.",
+        "create-stake-sending-text": "Envoi de données. Veuillez garder cette fenêtre ouverte. Cela peut prendre jusqu’à une minute.",
+        "create-stake-error": "Il y a eu une erreur ou un retard lors de la création de votre stake. Veuillez vérifier à nouveau dans cinq minutes et soumettre à nouveau si votre mise n’a pas été créée.",
+        "create-stake-auth-error": "Erreur d’authentification. Veuillez réessayer.",
         "learn-more": "En apprendre davantage",
         "footer-desc": "staking NEX",
         "amount-error-message": "Ce montant dépasse votre solde disponible.",
@@ -3915,7 +3915,7 @@
     "title": "{{count}} contact",
     "title_plural": "{{count}} contacts",
     "search-my-contacts": "Rechercher mes contacts…",
-    "no-contacts": "Vous n'avez pas encore ajouté ou importé de contacts.",
+    "no-contacts": "Vous n’avez pas encore ajouté ou importé de contacts.",
     "create-new": "Créer un nouveau",
     "buttons": {
       "send": "Send",
@@ -3946,7 +3946,7 @@
           "wallet": "Destination"
         },
         "sublabels": {
-          "currency": "Vous ne pouvez envoyer des actifs qu'à partir de votre compte personnel."
+          "currency": "Vous ne pouvez envoyer des actifs qu’à partir de votre compte personnel."
         },
         "placeholders": {
           "currency": "Rechercher un actif…",
@@ -3964,7 +3964,7 @@
       },
       "results": {
         "success": "Contact enregistré!",
-        "error": "Erreur lors de l'enregistrement du contact. Veuillez réessayer.",
+        "error": "Erreur lors de l’enregistrement du contact. Veuillez réessayer.",
         "invalid-input": "Saisie invalide. Veuillez réessayer."
       },
       "fields": {
