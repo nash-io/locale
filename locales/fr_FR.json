@@ -83,7 +83,7 @@
       "revoke": "Révoquer",
       "created": "Créé",
       "policy-trading": "Echanger",
-      "loading": "Chargement des jetons…",
+      "loading": "Chargement des tokens…",
       "no-tokens": "Vous n’avez pas encore généré de clés API.",
       "policy-withdrawals": "Retraits et dépôts",
       "revoke-all-keys-button-label": "Révoquer toutes les clés",
@@ -1325,8 +1325,8 @@
       },
       "modals": {
         "exchange-info": {
-          "title": "Comment échanger des jetons",
-          "desc": "Tout d’abord, sélectionnez les jetons que vous souhaitez échanger.",
+          "title": "Comment échanger des tokens",
+          "desc": "Tout d’abord, sélectionnez les tokens que vous souhaitez échanger.",
           "price-options-header": "Vous avez deux options pour choisir votre prix:",
           "average-market-price": {
             "header": "Prix actuel du marché",
@@ -1366,7 +1366,7 @@
         }
       },
       "exchange-tokens": {
-        "header": "Échange de jetons",
+        "header": "Échange de tokens",
         "fields": {
           "buy": {
             "label": "Je veux recevoir",
@@ -2919,8 +2919,8 @@
         },
         "hints": {
           "btc-gas-hint": "Un petit frais de réseau est requis lors de l’exécution des transactions.",
-          "eth-gas-hint": "Un petit frais de réseau est requis lors de l’exécution des transactions. Les frais pour les jetons basés sur Ethereum sont payés en utilisant ETH.",
-          "neo-gas-hint": "Des frais de réseau réduits sont généralement requis lors de l’exécution de transactions. Les frais pour les jetons basés sur NEO sont payés à l’aide de GAS.",
+          "eth-gas-hint": "Un petit frais de réseau est requis lors de l’exécution des transactions. Les frais pour les tokens basés sur Ethereum sont payés en utilisant ETH.",
+          "neo-gas-hint": "Des frais de réseau réduits sont généralement requis lors de l’exécution de transactions. Les frais pour les tokens basés sur NEO sont payés à l’aide de GAS.",
           "eth-transfer-hint": "Bien que les transferts soient en attente, le solde indiqué ici peut ne pas être exact."
         },
         "steps": [
@@ -3131,16 +3131,16 @@
       "3M": "3M",
       "6M": "6M"
     },
-    "search-placeholder": "Search for a market…",
+    "search-placeholder": "Rechercher un marché…",
     "individual-assets": {
-      "title": "Individual assets",
-      "header": "Individual assets listed on Nash"
+      "title": "Actifs individuels",
+      "header": "Actifs individuels cotés sur Nash"
     },
     "asset-pairs": {
-      "title": "Asset pairs",
-      "header": "All asset pairs traded on Nash Exchange"
+      "title": "Paires d’actifs",
+      "header": "Toutes les paires d’actifs négociées sur Nash Exchange"
     },
-    "no-results": "No results for this period.",
+    "no-results": "Aucun résultat pour cette période.",
     "miscellaneous": {
       "vol": "vol."
     }
@@ -3600,7 +3600,7 @@
           "2": {
             "header": "Scannez ce code QR avec votre application d’authentification choisie",
             "desc": "Vous pouvez également l’ajouter manuellement.",
-            "manual-2fa": "Manual 2FA entry key"
+            "manual-2fa": "Touche de saisie manuelle 2FA"
           },
           "3": {
             "header": "Entrez le code généré par votre application d’authentification",
