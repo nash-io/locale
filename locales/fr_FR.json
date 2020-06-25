@@ -182,12 +182,12 @@
     "funds": "Fonds",
     "exchange": "Exchange",
     "basic-exchange": "Vue simplifiée",
-    "basic-exchange-short": "simplifié",
+    "basic-exchange-short": "Simplifié",
     "advanced-exchange": "Vue pro",
     "advanced-exchange-short": "Pro",
     "markets": "Marchés",
     "settings": "Mon compte",
-    "fiat-ramps": "Fiat ramps"
+    "fiat-ramps": "Passerelles de conversion de devises"
   },
   "top-nav": {
     "accounts-main-menu": {
@@ -699,11 +699,11 @@
       "my-portfolio": "Mon portefeuille"
     },
     "tips": {
-      "balance": "<0>Astuce</0> <1>Envoyez des fonds au contrat d’échange ici.</1> <2 />"
+      "balance": "<0>Astuce</0> <1>Envoyez des fonds au contrat de trading ici.</1> <2 />"
     },
     "no-markets": "Aucun marché n’est actuellement disponible.",
     "auth": {
-      "to-start-trading": "Pour commencer à échanger"
+      "to-start-trading": "Pour commencer le trading"
     },
     "balances": {
       "title": "Comptes"
@@ -829,7 +829,7 @@
           "other-tradable-assets": "Autres actifs échangeables"
         }
       },
-      "trading-limits": "Limites des transactions",
+      "trading-limits": "Limites de trading",
       "fields": {
         "amount": {
           "label": "Quantité",
@@ -841,8 +841,8 @@
           "errors": {
             "insufficient-funds": "{{currencySymbol}} insuffisants.",
             "maybe-insufficient-funds": "{{currencySymbol}} insuffisants.",
-            "order-too-small": "Taille minimum de {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "Cela entraînerait un dépassement de vos limites de transactions."
+            "order-too-small": "Montant minimum de {{orderSize}} {{currencySymbol}}.",
+            "limit-breached": "Cela entraînerait un dépassement de vos limites de trading."
           }
         },
         "cancel-at": {
@@ -873,7 +873,7 @@
           "label": "Limite",
           "sub-label": "Votre ordre peut concorder avec des ordres à ce prix ou mieux.",
           "errors": {
-            "maker-match": "Les ordres ‘Publier uniquement’ qui correspondent au carnet d’ordre en cours seront annulées."
+            "maker-match": "Les ordres ‘Publier uniquement’ qui correspondent au carnet d’ordres en cours seront annulées."
           }
         },
         "stop-price": {
@@ -905,30 +905,30 @@
       "submit": {
         "buy": "Créer un ordre d’achat",
         "sell": "Créer un ordre de vente",
-        "placing": "Passer l’ordre…"
+        "placing": "Passage de l’ordre en cours…"
       },
       "errors": {
         "order-rejected-insufficient-funds": "Votre ordre a été refusé car vous manquez de fonds.",
-        "order-rejected-daily-limit-reached": "Votre ordre a été refusé car vous avez atteint votre limite de négociation quotidienne.",
-        "generic": "Erreur lors de votre ordre. Veuillez réessayer."
+        "order-rejected-daily-limit-reached": "Votre ordre a été refusé car vous avez atteint votre limite de trading quotidienne.",
+        "generic": "Erreur lors du passage de votre ordre. Veuillez réessayer."
       },
       "signin-or-create-an-account": "<0>Connectez-vous</0> ou <1>créez un compte</1> pour passer un ordre."
     },
     "my-orders": {
       "auth": "Connectez-vous pour voir vos ordres.",
       "signed-out": {
-        "title": "<0>Commencez</0><1>avec Nash</1>",
+        "title": "<0>Commencez</0>\u00A0<1>avec Nash</1>",
         "subtitle": "Créez un compte en moins d’une minute - aucun KYC requis!"
       },
       "no-results": {
         "date-range": "Vous n’avez aucun ordre dans la plage de dates indiquée.",
         "active": "Vous n’avez aucun ordre ouvert ou rempli.",
         "active-open-only": "Vous n’avez aucun ordre ouvert.",
-        "trades": "Vous n’avez aucun historique commercial."
+        "trades": "Vous n’avez aucun historique de trading."
       },
       "tabs": {
         "orders": "Ordres",
-        "trades": "Historique des ordres"
+        "trades": "Historique des trades"
       },
       "date-range-selection": {
         "days": "{{range}}J",
@@ -936,7 +936,7 @@
         "months": "{{range}}M",
         "years": "{{range}}A",
         "clear": "Effacer",
-        "select-action": "Custom",
+        "select-action": "Personnalisé",
         "popup": {
           "no-selection": "Sélectionnez une plage de dates pour continuer",
           "clear": "Effacer",
@@ -945,13 +945,13 @@
       },
       "open-only-checkbox": "Ouvert uniquement",
       "pairs-checkbox": "Toutes les paires",
-      "export": "Historique d’exportation",
-      "export-trades": "Exporter l’historique de vos échanges",
-      "export-your-trades": "Exportez vos échanges",
-      "no-trades": "Vous n’avez aucun échange à exporter",
+      "export": "Exporter l'historique",
+      "export-trades": "Exporter l’historique de vos trades",
+      "export-your-trades": "Exportez vos trades",
+      "no-trades": "Vous n’avez aucun trade à exporter",
       "trade-history-times": {
         "header": "Sélectionnez une période définie pour exporter",
-        "custom": "Cdélai personnalisé",
+        "custom": "Période personnalisée",
         "months": "{{count}} mois",
         "months_plural": "{{count}} mois",
         "year": "{{count}} année"
@@ -961,33 +961,33 @@
         "filter": {
           "buy": "Acheter",
           "sell": "Vendre",
-          "both": "les deux"
+          "both": "Les deux"
         }
       },
       "type-col": {
         "header-title": "Type",
         "header-title-with-currency": "{{currency}} type",
         "filter": {
-          "market": "Cours",
+          "market": "Marché",
           "limit": "Limite",
-          "stop-market": "Stop-market",
-          "stop-limit": "Stop-limit"
+          "stop-market": "Stop-marché",
+          "stop-limit": "Stop-limite"
         },
         "cell-text": {
-          "market-buy": "Market buy",
-          "market-sell": "Market sell",
-          "limit-buy": "Limit buy",
-          "limit-sell": "Limit sell",
-          "stop_limit-buy": "Stop-limit buy at <0></0>",
-          "stop_limit-sell": "Stop-limit sell at <0></0>",
-          "stop_market-buy": "Stop-market buy at <0></0>",
-          "stop_market-sell": "Stop-market sell at <0></0>"
+          "market-buy": "Acheter au prix du marché",
+          "market-sell": "Vendre au prix du marché",
+          "limit-buy": "Acheter à un prix limite",
+          "limit-sell": "Vendre à un prix limite",
+          "stop_limit-buy": "Exécuter un stop-limit d'achat à <0></0>",
+          "stop_limit-sell": "Exécuter un stop-limit de vente à <0></0>",
+          "stop_market-buy": "Exécuter un stop-marché d'achat à <0></0>",
+          "stop_market-sell": "Exécuter un stop-marché de vente à <0></0>"
         }
       },
       "cancel-col": {
         "header-title": "Annuler tout",
         "partial-fill": "Remplissage partiel",
-        "cancelled-partial-fill": "Annulé: remplissage partiel",
+        "cancelled-partial-fill": "Annulé: Remplissage partiel",
         "cancelled-order": "Ordre annulé"
       },
       "cancelled-unfilled-col": {
@@ -999,7 +999,7 @@
         "header-title-with-currency": "{{currency}} montant rempli"
       },
       "status-col": {
-        "header-title": "Status",
+        "header-title": "Statut",
         "open": "Ouvert",
         "cancelled": "Annulé",
         "filled": "Rempli",
@@ -1007,62 +1007,62 @@
       },
       "executed-col": {
         "header-title": "Rempli",
-        "header-title-with-currency": "{{currency}} Rempli"
+        "header-title-with-currency": "{{currency}} rempli"
       },
       "order-total-col": {
         "header-title": "Total",
         "header-title-with-currency": "{{currency}} total"
       },
       "trade-total-col": {
-        "header-title": "Trade total",
-        "header-title-with-currency": "{{currency}} trade total"
+        "header-title": "Total tradé",
+        "header-title-with-currency": "{{currency}} total tradé"
       },
       "size-col": {
         "header-title": "Montant",
-        "header-title-with-currency": "{{currency}} montant"
+        "header-title-with-currency": "Montant de {{currency}}"
       },
       "price-col": {
         "header-title": "Prix",
-        "header-title-with-currency": "{{currency}} prix"
+        "header-title-with-currency": "Prix du {{currency}}"
       },
       "pair-col": {
         "header-title": "Paire"
       },
       "filled-col": {
         "header-title": "Montant rempli",
-        "header-title-with-currency": "{{currency}} montant rempli"
+        "header-title-with-currency": "Montant rempli de {{currency}}"
       },
       "fee-col": {
         "header-title": "Frais",
-        "header-title-with-currency": "{{currency}} frais",
-        "no-fee": "No fee"
+        "header-title-with-currency": "Frais en {{currency}}",
+        "no-fee": "Aucun frais"
       },
       "condition-col": {
-        "header-title": "Stop price",
-        "header-title-with-currency": "{{currency}} stop price"
+        "header-title": "Prix stop",
+        "header-title-with-currency": "Prix stop de {{currency}}"
       },
       "time-col": {
-        "header-title": "Réalisé"
+        "header-title": "Exécuté"
       },
       "time-filled-col": {
-        "header-title": "Réalisé"
+        "header-title": "Exécuté"
       }
     },
     "recent-trades": {
-      "title": "Echanges récents",
-      "order-size-col": "{{symbol}} Taille",
-      "price-col": "{{symbol}} prix",
-      "time-col": "Temps"
+      "title": "Trades récents",
+      "order-size-col": "Quantité {{symbol}}",
+      "price-col": "Prix {{symbol}}",
+      "time-col": "Heure"
     },
     "orderbook": {
       "title": "USD",
-      "title-no-fiat": "Carnet d’ordre",
-      "order-size-col": "{{symbol}} Taille",
-      "my-size-col": "Ma taille",
-      "price-col": "{{symbol}} prix",
+      "title-no-fiat": "Carnet d’ordres",
+      "order-size-col": "Quantité {{symbol}}",
+      "my-size-col": "Ma quantité",
+      "price-col": "Prix {{symbol}}",
       "average": "Prix moyen",
-      "sum-size": "{{symbol}} somme",
-      "num-decimals": "{{decimals}} décimal",
+      "sum-size": "Somme {{symbol}}",
+      "num-decimals": "{{decimals}} décimale",
       "num-decimals_plural": "{{decimals}} décimales",
       "spread": "<0>{{percent}}</0> spread"
     },
@@ -1073,7 +1073,7 @@
     "create-an-account": "Créer un compte",
     "forgotten": "Vous avez perdu votre 2FA?",
     "sign-in-now": "Connectez vous maintenant",
-    "sign-in": "se connecter",
+    "sign-in": "Se connecter",
     "sign-out": "Déconnexion",
     "password-strength": {
       "0": "Très faible",
@@ -1090,23 +1090,23 @@
       },
       "code": {
         "label": "Double authentification",
-        "placeholder": "Entrez votre code d’authentification à deux facteurs"
+        "placeholder": "Entrez votre code d’authentification en deux temps"
       }
     },
     "new-wallets": {
       "btc": {
         "title": "Vous pouvez désormais envoyer, recevoir et stocker des Bitcoins avec Nash!",
         "subtext": "Nous vous informerons lorsque des paires d’échange Bitcoin seront disponibles sur Nash Exchange.",
-        "btn-bitcoin": "Déposer Bitcoin",
-        "btn-funds": "Continuer vers le portfolio"
+        "btn-bitcoin": "Déposer du Bitcoin",
+        "btn-funds": "Continuer vers le portefeuille"
       }
     },
     "session-expiry-modal": {
       "title": "Votre session est sur le point d’expirer",
-      "info": "Votre session est sur le point d’expirer en raison de l’inactivité. Vous serez déconnecté dans {{count}} seconde.",
-      "info_plural": "Votre session est sur le point d’expirer en raison de l’inactivité. Vous serez déconnecté dans {{count}} secondes.",
-      "stay-signed-in": "rester connecté",
-      "signing-out": "({{count}} s) Déconnexion…"
+      "info": "Votre session est sur le point d’expirer pour cause d'inactivité. Vous serez déconnecté dans {{count}} seconde.",
+      "info_plural": "Votre session est sur le point d’expirer pour cause d’inactivité. Vous serez déconnecté dans {{count}} secondes.",
+      "stay-signed-in": "Rester connecté",
+      "signing-out": "({{count}}s) Déconnexion…"
     },
     "signup": {
       "desc": "Vous n’avez pas encore de compte?",
@@ -1116,7 +1116,7 @@
       "continue": "Continuer"
     },
     "missing-country": {
-      "header": "Avant de continuer…",
+      "header": "Avant de poursuivre…",
       "subheader": "Où vivez-vous?",
       "messages": {
         "vpn-warning-title": "Nous avons remarqué que vous utilisez un VPN.",
@@ -1130,13 +1130,13 @@
           "label": "Pays de résidence"
         },
         "state": {
-          "label": "Etat"
+          "label": "État"
         },
         "confirm-country": {
           "label": "Je confirme que c’est mon pays de résidence."
         },
         "confirm-country-and-state": {
-          "label": "Je confirme que ce sont mon pays et mon état de résidence."
+          "label": "Je confirme que ce sont mon pays et état de résidence."
         }
       }
     },
@@ -1150,7 +1150,7 @@
         },
         "password": {
           "label": "Mot de passe",
-          "sub-label": "Mot de passe oublié?",
+          "sub-label": "Mot de passe oublié ?",
           "placeholder": "Mot de passe"
         },
         "remember-me": {
@@ -1159,29 +1159,29 @@
       },
       "messages": {
         "password-change": {
-          "success": "Si l’adresse e-mail que vous fournissez correspond à un compte déjà dans notre base de données, nous vous enverrons des instructions sur la façon de réinitialiser votre mot de passe."
+          "success": "Si l’adresse email que vous renseignez correspond à un compte déjà dans notre base de données, nous vous enverrons des instructions sur la façon de réinitialiser votre mot de passe."
         },
         "update-email": {
-          "validation-success": "Nous avons envoyé un e-mail de vérification à votre nouvelle adresse e-mail. Veuillez cliquer sur le lien dans cet e-mail pour confirmer votre nouvelle adresse.",
-          "updated-success": "Votre adresse e-mail a été mise à jour. Vous pouvez maintenant vous connecter en utilisant votre nouvelle adresse."
+          "validation-success": "Nous avons envoyé un email de vérification à votre nouvelle adresse email. Veuillez cliquer sur le lien dans cet email pour confirmer votre nouvelle adresse.",
+          "updated-success": "Votre adresse email a été mise à jour. Vous pouvez maintenant vous connecter en utilisant votre nouvelle adresse."
         },
         "verify-email": {
-          "success": "Votre adresse e-mail a été vérifiée. Veuillez vous connecter pour configurer votre compte.",
-          "error": "Impossible de vérifier l’adresse e-mail. Le code de vérification a peut-être expiré. Veuillez vous connecter et demander un autre e-mail de vérification."
+          "success": "Votre adresse email a été confirmée. Veuillez vous connecter pour configurer votre compte.",
+          "error": "Impossible de vérifier l’adresse email. Le code de vérification a peut-être expiré. Veuillez vous connecter et demander un autre email de vérification."
         }
       },
       "errors": {
-        "invalid-email": "L’adresse e-mail que vous avez fournie n’est pas valide.",
-        "invalid-password": "Vous devez fournir un mot de passe.",
-        "signin-failed": "Il semble que votre e-mail ou votre mot de passe soit incorrect.",
-        "locked": "Votre compte est temporairement fermé. Veuillez réessayer plus tard.",
+        "invalid-email": "L’adresse email que vous avez renseignée n’est pas valide.",
+        "invalid-password": "Vous devez renseigner un mot de passe.",
+        "signin-failed": "Il semble que votre email ou votre mot de passe soit incorrect.",
+        "locked": "Votre compte est temporairement verrouillé. Veuillez réessayer plus tard.",
         "revoked": "Votre compte est définitivement verrouillé. Veuillez contacter le support."
       }
     },
     "forgot-password": {
       "tab-title": "Mot de passe oublié",
-      "header": "Mot de passe oublié?",
-      "desc": "Saisissez votre adresse e-mail ci-dessous et nous vous remettrons sur la bonne voie.",
+      "header": "Mot de passe oublié ?",
+      "desc": "Saisissez votre adresse email ci-dessous et nous vous remettrons sur la bonne voie.",
       "fields": {
         "email": {
           "label": "Adresse email",
@@ -1189,13 +1189,13 @@
         }
       },
       "submit": "Demander un lien de réinitialisation",
-      "success": "Nous vous avons envoyé un e-mail de réinitialisation de mot de passe. Si vous ne voyez pas notre e-mail, vérifiez dans courrier indésirable."
+      "success": "Nous vous avons envoyé un email de réinitialisation de mot de passe. Si vous ne voyez pas notre email, vérifiez dans courrier indésirable."
     },
     "reset-password": {
-      "missing-email": "Une erreur s’est produite. Veuillez cliquer à nouveau sur le lien dans votre e-mail.",
-      "expired-code": "Cette session n’est plus valide. Veuillez cliquer à nouveau sur le lien dans votre e-mail.",
+      "missing-email": "Une erreur s’est produite. Veuillez cliquer à nouveau sur le lien dans votre email.",
+      "expired-code": "Cette session n’est plus valide. Veuillez cliquer à nouveau sur le lien dans votre email.",
       "steps": [
-        "Confirm secret words",
+        "Confirmer les mots secrets",
         "Nouveau mot de passe"
       ],
       "secret-words": {
@@ -1212,25 +1212,25 @@
           "desc-2": "Si vous ne pouvez pas fournir les douze mots de vos comptes existants, <0>vos fonds seront perdus.</0>",
           "card-title": "Tous les mots sont en minuscules",
           "card-reset": "Effacer tous les mots",
-          "mnemonic-invalid": "Cette combinaison de mots n’est pas valide. Veuillez revérifier et réessayer.",
+          "mnemonic-invalid": "Cette combinaison de mots n’est pas valide. Veuillez re-vérifier et réessayer.",
           "mnemonic-valid": "Cette combinaison de mots est correcte. Vous pouvez maintenant réinitialiser votre mot de passe."
         },
         "skip": {
-          "header": "Vous perdrez l’accès à vos fonds",
+          "header": "Vous allez perdre l’accès à vos fonds",
           "desc-1": "Si vous avez perdu à la fois votre ancien mot de passe et vos douze mots secrets, <0>vous ne pourrez pas récupérer vos fonds.</0>",
           "desc-2": "Nash est une plateforme non dépositaire qui utilise une technologie décentralisée. Il nous est impossible d’accéder à vos fonds et nous ne pouvons pas les récupérer.",
           "desc-3": "Vous pouvez réinitialiser votre ancien compte et choisir un nouvel ensemble de mots secrets. Ce sera comme créer un nouveau compte avec un nouveau mot de passe.",
           "desc-4": "Si vous choisissez de réinitialiser votre compte, vous perdrez tout accès à vos fonds, y compris:",
-          "desc-5": "Veuillez vérifier et voir si vous pouvez retrouver vos mots secrets ou votre mot de passe.",
-          "go-back": "revenir",
+          "desc-5": "Veuillez bien vérifier si vous ne pouvez pas retrouver vos mots secrets ou votre mot de passe.",
+          "go-back": "Retour",
           "checkbox-1": "J’ai perdu mon mot de passe et mes douze mots secrets.",
           "checkbox-2": "Je comprends que je perdrai tout accès à mes fonds si je réinitialise mon compte.",
           "submit": "Réinitialiser mon compte",
           "sub-bullet-1": "Tous les actifs de votre compte personnel.",
-          "sub-bullet-2": "Tous les actifs du contrat commercial.",
+          "sub-bullet-2": "Tous les actifs du contrat de trading.",
           "sub-bullet-3": "Tous les tokens NEX stakés.",
           "sub-bullet-4": "Tous les dividendes des tokens NEX stakés.",
-          "unauthorized": "La réinitialisation de votre compte ayant de sérieuses implications, vous devez d’abord contacter notre équipe d’assistance pour l’activer.",
+          "unauthorized": "La réinitialisation de votre compte ayant de sérieuses implications, vous devez d’abord contacter notre équipe support pour l’activer.",
           "contact-support": "Contactez le support"
         }
       },
@@ -1238,7 +1238,7 @@
         "tab-title": "Définir le mot de passe",
         "header": "Définir un nouveau mot de passe",
         "desc": "Créez un nouveau mot de passe pour votre compte Nash.",
-        "header-success": "Success!",
+        "header-success": "Succès!",
         "desc-success": "Votre mot de passe à été changé avec succès.",
         "desc-success-reset": "Vous pourrez configurer de nouveaux portefeuilles lors de votre prochaine connexion.",
         "fields": {
@@ -1258,19 +1258,19 @@
           },
           "code": {
             "label": "Double authentification",
-            "placeholder": "Entrez votre code d’authentification à deux facteurs"
+            "placeholder": "Entrez votre code d’authentification en deux temps"
           }
         },
         "errors": {
           "reset-wallets-locked": "La réinitialisation du compte est actuellement verrouillée. Veuillez contacter le support.",
           "reset-locked": "La réinitialisation du mot de passe est actuellement verrouillée. Veuillez contacter le support.",
-          "incorrect-keys": "La clé publique provenant des douze mots que vous avez soumis ne correspond pas aux données enregistrées. Cela indique que les douze mots que vous avez soumis ne proviennent pas de votre compte Nash. Veuillez revérifier votre sauvegarde. Contactez l’assistance si vous rencontrez toujours des problèmes.",
+          "incorrect-keys": "La clé publique provenant des douze mots que vous avez soumis ne correspond pas aux données enregistrées. Cela indique que les douze mots que vous avez soumis ne proviennent pas de votre compte Nash. Veuillez re-vérifier votre sauvegarde. Contactez l’assistance si vous rencontrez toujours des problèmes.",
           "generic-error": "Une erreur s’est produite et votre mot de passe n’a pas été réinitialisé. Votre lien de réinitialisation de mot de passe a peut-être expiré. Veuillez demander un nouveau lien de réinitialisation et réessayer."
         },
         "submit": "Definir un nouveau mot de passe"
       }
     },
-    "verify-email": "Vérification de l’adresse e-mail…",
+    "verify-email": "Vérification de l’adresse email…",
     "secret-word-list-edit": {
       "placeholder": "Mot {{index}}"
     },
@@ -1283,45 +1283,45 @@
       },
       "create-account": {
         "title": "Créez votre compte Nash Community",
-        "description": "Pour publier des messages sur l’espace communautaire, vous devez bloquer au moins 1 NEX pendant 24 mois.",
-        "username-label": "Nom d’utilisateur dans l’espace communauté",
+        "description": "Pour publier des messages sur l’espace Community, vous devez staker au moins 1 NEX pendant 24 mois.",
+        "username-label": "Nom d’utilisateur Community",
         "username-placeholder": "Choisissez un nom…",
-        "button-create": "Créer un compte communauté",
-        "button-creating": "Créer un compte communauté…",
-        "migrate-description": "Si vous utilisez l’extension Nash pour vous connecter à la communauté, vous pouvez <0>migrer votre compte</0>.",
-        "username-exits": "‘{{username}}’ déjà pris. Veuillez choisir un autre nom d’utilisateur."
+        "button-create": "Créer un compte Community",
+        "button-creating": "Créer un compte Community…",
+        "migrate-description": "Si vous utilisez l’extension Nash pour vous connecter à Nash Community, vous pouvez <0>migrer votre compte</0>.",
+        "username-exits": "‘{{username}}’ est déjà pris. Veuillez choisir un autre nom d’utilisateur."
       },
       "migrate-account": {
-        "title": "Migrez votre compte Nash Communoté",
+        "title": "Migrer un compte Nash Community",
         "migration-step1": "Connectez-vous avec l’extension Nash.",
-        "migration-step2": "Remplacez l’adresse e-mail de votre communauté par l’adresse utilisée par votre compte Nash.",
-        "migration-step3": "Une fois votre adresse e-mail modifiée, vous pourrez vous connecter à l’aide de votre compte Nash.",
+        "migration-step2": "Remplacez l’adresse email de votre communauté par l’adresse utilisée par votre compte Nash.",
+        "migration-step3": "Une fois votre adresse email modifiée, vous pourrez vous connecter à l’aide de votre compte Nash.",
         "button-migrate": "Connectez-vous avec l’extension Nash",
         "link-back": "Retour",
         "faq-change-email": {
-          "title": "Comment changer mon adresse e-mail de communauté?",
+          "title": "Comment changer mon adresse email Community?",
           "step1": "Une fois connecté à la communauté, cliquez sur votre avatar dans le coin supérieur droit de l’écran.",
           "step2": "Cliquez sur votre nom d’utilisateur et sélectionnez «Préférences».",
-          "step3": "Cliquez sur l’icône en forme de crayon pour modifier votre adresse e-mail.",
-          "step4": "Saisissez une nouvelle adresse e-mail et cliquez sur «Modifier».",
-          "step5": "Vous recevrez deux e-mails de confirmation, l’un à votre ancienne adresse e-mail et l’autre à votre nouvelle adresse. Vous devrez confirmer les deux adresses pour terminer la modification."
+          "step3": "Cliquez sur l’icône en forme de crayon pour modifier votre adresse email.",
+          "step4": "Saisissez une nouvelle adresse email et cliquez sur «Modifier».",
+          "step5": "Vous recevrez deux emails de confirmation, l’un à votre ancienne adresse email et l’autre à votre nouvelle adresse. Vous devrez confirmer les deux adresses pour terminer la modification."
         }
       },
       "get-token": "Authentification…",
-      "log-you-in": "Se connecter…",
+      "log-you-in": "Connexion en cours…",
       "unknow-error-message": "Un problème est survenu, veuillez réessayer."
     }
   },
   "basic-exchange": {
     "title": "Vue simplifiée",
-    "title-short": "simplifié",
+    "title-short": "Simplifié",
     "switch-to-advanced": "Passer en vue pro",
     "create-order": {
-      "change-markets": "Change markets",
+      "change-markets": "Changer de marché",
       "errors": {
-        "order-rejected-insufficient-funds": "Insuffisant {{currencySell}} dans le contrat de trading. Envoyez des fonds pour continuer.",
-        "order-rejected-daily-limit-reached": "Votre commande a été rejetée car vous avez atteint votre limite de négociation quotidienne.",
-        "generic": "Erreur lors de votre ordre. Veuillez réessayer."
+        "order-rejected-insufficient-funds": "{{currencySell}} insuffisants dans le contrat de trading. Envoyez des fonds pour continuer.",
+        "order-rejected-daily-limit-reached": "Votre commande a été rejetée car vous avez atteint votre limite de trading quotidienne.",
+        "generic": "Erreur lors du passage de votre ordre. Veuillez réessayer."
       },
       "modals": {
         "exchange-info": {
@@ -1330,20 +1330,20 @@
           "price-options-header": "Vous avez deux options pour choisir votre prix:",
           "average-market-price": {
             "header": "Prix actuel du marché",
-            "desc": "Passez votre ordre au prix du marché actuel afin qu’elle se remplisse plus tôt. Les portions non remplies seront automatiquement annulées après 24 heures."
+            "desc": "Passez votre ordre au prix du marché actuel afin qu’il se remplisse plus tôt. Les portions non remplies seront automatiquement annulées après 24 heures."
           },
           "set-a-price": {
             "header": "Fixer un prix",
-            "desc": "Votre ordre peut correspondre à des ordres à ce prix ou mieux, mais ne va pas au-delà. Cette option signifie que votre ordre pourrait ne pas être exécuté en une seule fois."
+            "desc": "Votre ordre peut correspondre à des ordres à ce prix ou mieux, mais ne va pas au-delà. Cette option signifie que votre ordre pourrait ne pas être rempli en une seule fois."
           },
           "balances": {
-            "header": "solde",
-            "desc": "Nous vous dirons si votre solde est insuffisant pour effectuer une transaction. Choisissez ‘Soldes’ pour vérifier l’état de votre compte et envoyer / recevoir des fonds."
+            "header": "Soldes",
+            "desc": "Nous vous dirons si votre solde est insuffisant pour effectuer un trade. Choisissez ‘Soldes’ pour vérifier l’état de votre compte et envoyer/recevoir des fonds."
           }
         },
         "select-token": {
           "title": {
-            "sell": "Je veux commercer",
+            "sell": "Je veux échanger",
             "buy": "Je veux recevoir"
           },
           "header": {
@@ -1354,19 +1354,19 @@
           "search": {
             "placeholder": "Recherchez un nom de jeton ou un ticker…",
             "no-results": "Nous n’avons trouvé aucun résultat pour <0>{{search}}</0>.",
-            "no-results-no-query": "Nous n’avons trouvé aucune devise correspondante"
+            "no-results-no-query": "Nous n’avons trouvé aucune monnaie correspondante"
           },
           "disabled": {
             "maintenance": "Ce jeton fait l’objet d’une maintenance planifiée.",
             "deposits-withdrawals-suspended": "Les dépôts et retraits sont suspendus jusqu’à nouvel ordre."
           },
-          "trading": "Echange",
-          "personal": "Personal",
+          "trading": "Trading",
+          "personal": "Personnel",
           "24-hours": "24 heures"
         }
       },
       "exchange-tokens": {
-        "header": "Échange de tokens",
+        "header": "Échanger des jetons",
         "fields": {
           "buy": {
             "label": "Je veux recevoir",
@@ -1378,9 +1378,9 @@
             }
           },
           "sell": {
-            "label": "Je veux échanger",
+            "label": "Je veux trader",
             "sub-label": "{{currencySell}} disponible",
-            "label-button": "Sélectionnez un jeton à échanger",
+            "label-button": "Sélectionnez un jeton à trader",
             "errors": {
               "insufficient-funds": "{{currencySell}} insuffisant dans le contrat d’échange. Envoyez des fonds pour continuer.",
               "limit-breached": "Cet ordre dépasse vos limites de trading.",
@@ -1400,29 +1400,29 @@
             }
           }
         },
-        "toggle-limit": "Fixer un prix pour cet échange",
+        "toggle-limit": "Fixer un prix pour ce trade",
         "above-limit": "{{percent}}% au-dessus du marché",
         "below-limit": "{{percent}}% en dessous du marché",
         "reset": "Réinitialiser",
-        "submit": "Review trade"
+        "submit": "Passer en revue le trade"
       },
       "review-order": {
-        "header": "Vérifiez votre ordre",
+        "header": "Passer en revue votre ordre",
         "columns": {
           "market-price": "Prix par {{currencyBuy}}",
           "limit-price": "Définir le prix par {{currencyBuy}}",
           "fee": "Frais de négociation maximum",
           "fiat-total": "Estimation {{currencyFiat}}"
         },
-        "desc": "Votre ordre restera sur le carnet d’ordre jusqu’à ce qu’il soit rempli, que vous l’annuliez ou que 24 heures se soient écoulées.",
+        "desc": "Votre ordre restera sur le carnet d’ordres jusqu’à ce qu’il soit rempli, que vous l’annuliez ou que 24 heures se soient écoulées.",
         "submit": "Créer un ordre",
-        "submit-placing": "Passer l’ordre…"
+        "submit-placing": "Passage de l’ordre en cours…"
       },
       "order-success": {
         "header": "Succès!",
-        "desc": "Votre ordre {{currencySell}} / {{currencyBuy}} a été passée avec succès.",
+        "desc": "Votre ordre {{currencySell}}/{{currencyBuy}} a été passé avec succès.",
         "view-my-order": "Voir mon ordre",
-        "create-another-trade": "Créer un autre échange"
+        "create-another-trade": "Créer un autre trade"
       },
       "order-failure": {
         "header": {
@@ -1434,10 +1434,10 @@
           "insufficient-funds": {
             "0": "Le solde de votre contrat de trading n’est plus suffisant pour couvrir cet ordre. Cela peut se produire si vous créez des ordres dans plusieurs onglets du navigateur en même temps.",
             "1": "Pour une expérience de trading plus fluide, veuillez utiliser Nash dans un seul onglet de navigateur.",
-            "2": "<0>Envoyez / recevez</0> des fonds si vous souhaitez passer à nouveau cet ordre"
+            "2": "<0>Envoyez/recevez</0> des fonds si vous souhaitez passer à nouveau cet ordre"
           },
           "daily-limit-reached": {
-            "0": "Votre ordre a été refusé car vous avez atteint votre limite de négociation quotidienne.",
+            "0": "Votre ordre a été refusé car vous avez atteint votre limite de trading quotidienne.",
             "1": "Pour augmenter votre volume de négociation quotidien maximum, veuillez visiter <0>Limits</0>."
           },
           "generic": {
@@ -1714,78 +1714,78 @@
     "USD": "Dollar américain (USD)"
   },
   "fiat-ramps": {
-    "all-providers": "Tous les prestataires",
+    "all-providers": "Tous les fournisseurs",
     "terms-and-conditions": "J’accepte les <0>conditions générales</0> de {{providerName}}.",
-    "title": "Buy/Sell",
+    "title": "Acheter/Vendre",
     "tier0": {
       "buy-popular-assets": "Acheter et vendre des actifs numériques populaires",
-      "complete-kyc-5minute": "Passez à la vérification d’identité de niveau 1 en seulement cinq minutes!",
-      "complete-kyc": "Vérifier l’identité",
-      "enjoy-benefits": "Autres avantages du niveau 1:",
-      "higher-trading-limits": "Limites de négociation plus élevées sur la plateforme Nash.",
-      "stake-your-nex": "Conservez vos NEX pour recevoir des dividendes.",
+      "complete-kyc-5minute": "Passez à la vérification d’identité de Niveau 1 en seulement cinq minutes!",
+      "complete-kyc": "Vérifier son identité",
+      "enjoy-benefits": "Autres avantages du Niveau 1:",
+      "higher-trading-limits": "Limites de trading plus élevées sur la plateforme Nash.",
+      "stake-your-nex": "Stakez vos NEX pour recevoir des dividendes.",
       "use-with-vpn": "Accédez à Nash via un service VPN."
     },
     "provider": {
-      "title": "Select a provider",
+      "title": "Sélectionner un fournisseur",
       "verify-identity": "<0>Vérifiez votre identité</0> pour commencer.",
       "subtitle": "Les fournisseurs d’actifs numériques sont des sociétés tierces en partenariat avec Nash qui vous permettent d’acheter et de vendre des actifs numériques en utilisant les devises nationales.",
       "steps": [
-        "Personal details",
-        "Address details"
+        "Informations personnelles",
+        "Coordonnées"
       ],
       "assets-available": "Actifs disponibles",
-      "payments-methods": "Moyens de payement",
+      "payments-methods": "Moyens de paiement",
       "general-details": "Limites et frais",
-      "no-limit": "Aucunes limites",
+      "no-limit": "Aucune limite",
       "no-daily-limit": "Aucune limite quotidienne",
       "no-weekly-limit": "Aucune limite hebdomadaire",
       "no-monthly-limit": "Aucune limite mensuelle",
       "no-txn-limit": "Aucune limite de transaction",
       "no-transaction-fee": "Aucun frais de transaction",
-      "weekly-limit": "{{value}} limite hebdomadaire",
-      "monthly-limit": "{{value}} limite mensuelle",
-      "transaction-fee": "{{value}} frais de transaction",
+      "weekly-limit": "Limite hebdomadaire de {{value}}",
+      "monthly-limit": "Limite mensuelle de {{value}}",
+      "transaction-fee": "Frais de transaction de {{value}}",
       "eur-bank-transfers": "Virements bancaires en EUR:",
-      "kyc-monthly-limit-pre": "{{value}} mensuelle",
-      "kyc-monthly-limit-post-kyc": "{{value}} mensuelle après vérification d’identité",
-      "kyc-monthly-limit-post-phone": "{{value}} mensuelle après vérification du numéro de téléphone",
-      "kyc-weekly-limit-pre": "{{value}} weekly",
+      "kyc-monthly-limit-pre": "{{value}} mensuels",
+      "kyc-monthly-limit-post-kyc": "{{value}} mensuels après vérification d’identité",
+      "kyc-monthly-limit-post-phone": "{{value}} mensuels après vérification du numéro de téléphone",
+      "kyc-weekly-limit-pre": "{{value}} hebdomadaires",
       "kyc-weekly-limit-post-kyc": "{{value}} hebdomadaire après vérification d’identité",
       "kyc-weekly-limit-post-phone": "{{value}} hebdomadaire après vérification du numéro de téléphone",
-      "kyc-daily-limit-pre": "{{value}} quotidienne",
-      "kyc-daily-limit-post-kyc": "{{value}} quotidienne après vérification de l’identité",
-      "kyc-daily-limit-post-phone": "{{value}} quotidienne après vérification du numéro de téléphone",
-      "kyc-yearly-limit-pre": "{{value}} annuelle",
-      "kyc-yearly-limit-post-kyc": "{{value}} annuelle après vérification d’identité",
-      "kyc-yearly-limit-post-phone": "{{value}} annuelle après vérification du numéro de téléphone",
+      "kyc-daily-limit-pre": "{{value}} quotidiens",
+      "kyc-daily-limit-post-kyc": "{{value}} quotidiens après vérification de l’identité",
+      "kyc-daily-limit-post-phone": "{{value}} quotidiens après vérification du numéro de téléphone",
+      "kyc-yearly-limit-pre": "{{value}} annuels",
+      "kyc-yearly-limit-post-kyc": "{{value}} annuels après vérification d’identité",
+      "kyc-yearly-limit-post-phone": "{{value}} annuels après vérification du numéro de téléphone",
       "kyc-txn-limit-pre": "{{value}} par transaction",
       "kyc-txn-limit-post-kyc": "{{value}} par transaction après vérification d’identité",
       "kyc-txn-limit-post-phone": "{{value}} par transaction après vérification du numéro de téléphone",
       "select-btn": "Sélectionner",
-      "have-account-header": "Fournisseurs avec qui j’ai créé un compte",
+      "have-account-header": "Fournisseurs avec lesquels j’ai créé un compte",
       "no-account-header": "Fournisseurs avec lesquels je n’ai pas créé de compte",
-      "no-providers-title": "Malheureusement, il n’y a actuellement aucun fournisseur de cryptoactifs dans votre région.",
+      "no-providers-title": "Malheureusement, il n’y a actuellement aucun fournisseur d'actifs numériques dans votre région.",
       "no-providers-more-info": "Learn more about <0>becoming a Nash currency partner</0>.",
       "credit-cards": "Cartes de crédit:",
       "debit-cards": "Cartes de débit:",
       "bank-account": "Lien vers le compte bancaire:",
-      "powered-by": "Alimenté par",
+      "powered-by": "Propulsé par",
       "change-provider": "Changer de fournisseur",
       "nash": {
-        "pay-no-fees": "<0>Ne payez aucun frais</0> lorsque vous achetez des cryptoactifs populaires de Nash!"
+        "pay-no-fees": "<0>Ne payez aucun frais</0> lorsque vous achetez des actifs numériques populaires depuis Nash!"
       }
     },
     "general-details": {
       "main-title": "Créez votre compte {{providerName}}",
-      "subtitle": "Avant de pouvoir acheter ou vendre des cryptoactifs, nous devons configurer votre compte avec {{providerName}}.",
+      "subtitle": "Avant de pouvoir acheter ou vendre des actifs numériques, nous devons configurer votre compte avec {{providerName}}.",
       "legal-name-input-label": "Nom légal complet",
       "email-address-input-label": "Adresse mail",
-      "submit-btn": "Continue to address details"
+      "submit-btn": "Poursuivre vers les coordonnées"
     },
     "address-details": {
       "main-title": "Créez votre compte {{providerName}}",
-      "subtitle": "Avant de pouvoir acheter ou vendre des cryptoactifs, nous devons configurer votre compte avec {{providerName}}.",
+      "subtitle": "Avant de pouvoir acheter ou vendre des actifs numériques, nous devons configurer votre compte avec {{providerName}}.",
       "house-name-input-label": "Numéro",
       "street-name-input-label": "rue",
       "city-input-label": "Ville",
@@ -1796,7 +1796,7 @@
     },
     "profile-errors": {
       "legalName": "Vous devez saisir votre nom légal complet.",
-      "email": "Vous devez saisir votre adresse e-mail et la formater correctement.",
+      "email": "Vous devez saisir votre adresse email et la formater correctement.",
       "selectedCountry": "Vous devez saisir votre pays.",
       "streetName": "Vous devez saisir le nom de votre rue.",
       "city": "Vous devez saisir votre ville.",
@@ -1829,7 +1829,7 @@
       "generic-fourhundred": "Erreur",
       "nash": {
         "order-book-cache-empty": {
-          "title": "Le cache du carnet d’ordre est vide",
+          "title": "Le cache du carnet d’ordres est vide",
           "body": "Impossible de générer un prix. Veuillez réessayer plus tard."
         },
         "not-enough-liquidity": {
@@ -2172,12 +2172,12 @@
           "field": "Nom légal complet"
         },
         "email": {
-          "edit": "Modifier l’adresse e-mail",
-          "add": "Ajouter une adresse e-mail",
+          "edit": "Modifier l’adresse email",
+          "add": "Ajouter une adresse email",
           "label": "Adresse électronique",
           "placeholder": "",
-          "save": "Soumettre une adresse e-mail",
-          "warning": "Je comprends que si je change mon adresse e-mail, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
+          "save": "Soumettre une adresse email",
+          "warning": "Je comprends que si je change mon adresse email, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
           "field": "Adresse électronique"
         },
         "occupation": {
@@ -2389,8 +2389,8 @@
       "edit-name": "Modifier le nom",
       "edit": "Modifier",
       "email": "Adresse mail",
-      "create-email": "Ajouter une adresse e-mail",
-      "edit-email": "Modifier l’adresse e-mail",
+      "create-email": "Ajouter une adresse email",
+      "edit-email": "Modifier l’adresse email",
       "address": "Adresse de résidence",
       "create-address": "Ajouter une adresse de résidence",
       "edit-address": "Modifier l’adresse de résidence",
@@ -2595,7 +2595,7 @@
         "birth-date": "Modifier ma date de naissance",
         "status-and-process": "Statut et processus",
         "initial-account-creation": "Création de compte",
-        "cellphone-and-email": "Confirmer l’e-mail et le numéro de téléphone",
+        "cellphone-and-email": "Confirmer l’email et le numéro de téléphone",
         "complete-profile": "Profil",
         "buy-limits": "Limite d’achat",
         "sell-limits": "Limite de vente"
@@ -2666,9 +2666,9 @@
         "submit-proof-of-payment": "Soumettre une preuve"
       },
       "details-shared": {
-        "title": "{{ccpro}} vous a envoyé un e-mail!",
-        "desc": "<0>Veuillez vérifier vos e-mails et vérifiez votre compte avec{{ccpro}}.</0> <0>Si vous ne voyez pas leurs e-mails, vérifiez votre dossier de courrier indésirable.</0>",
-        "button": "Renvoyer l’e-mail de vérification"
+        "title": "{{ccpro}} vous a envoyé un email!",
+        "desc": "<0>Veuillez vérifier vos emails et vérifiez votre compte avec{{ccpro}}.</0> <0>Si vous ne voyez pas leurs emails, vérifiez votre dossier de courrier indésirable.</0>",
+        "button": "Renvoyer l’email de vérification"
       },
       "transactions": {
         "order-id": "numéro de commande",
@@ -3477,14 +3477,14 @@
           "tier1": "Nous réinitialiserons votre niveau de vérification et vous demanderons de répéter la procédure de vérification en utilisant vos nouveaux documents. Une fois votre demande approuvée, nous mettrons à jour votre pays de résidence en fonction des pays que vous avez fournis."
         },
         "update-email": {
-          "success-header": "Nous vous avons envoyé un e-mail!",
-          "success-description": "Nous vous avons envoyé un e-mail de confirmation pour démarrer le processus de mise à jour de l’adresse. Si vous ne voyez pas notre e-mail, vérifiez votre dossier de courrier indésirable.",
+          "success-header": "Nous vous avons envoyé un email!",
+          "success-description": "Nous vous avons envoyé un email de confirmation pour démarrer le processus de mise à jour de l’adresse. Si vous ne voyez pas notre email, vérifiez votre dossier de courrier indésirable.",
           "success-back": "Got it!",
-          "title": "Changer l’e-mail",
+          "title": "Changer l’email",
           "current-email-label": "Votre adresse email actuelle",
-          "current-email": "Adresse e-mail actuelle",
+          "current-email": "Adresse email actuelle",
           "new-email-label": "Nouvelle adresse courriel",
-          "new-email-placeholder": "Entrez votre nouvelle adresse e-mail",
+          "new-email-placeholder": "Entrez votre nouvelle adresse email",
           "twofa-label": "La double authentification",
           "twofa-label-placeholder": "Entrez votre code d’authentification à deux facteurs (2FA)",
           "request-email-change-button-label": "Demander un changement d’adresse"
@@ -3538,7 +3538,7 @@
           "save-settings": "Enregistrer les paramètres"
         },
         "email": {
-          "label": "Envoyez-moi un e-mail quand…",
+          "label": "Envoyez-moi un email quand…",
           "news": "Il y a des nouvelles et des mises à jour de Nash.",
           "actions": "Il existe des actions recommandées pour mon compte.",
           "withdrawal": "Un retrait est effectué depuis mon compte.",
@@ -3859,7 +3859,7 @@
         "create-stake-disclaimer-label": "Je comprends que le staking de NEX ne paie de dividendes que si Nash Exchange génère des revenus.",
         "title": "Créez votre stake",
         "amount-to-stake": "Montant de NEX à staker",
-        "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
+        "amount-to-stake-tooltip": "Le taux de staking détermine la taille de vos gains proportionnellement à votre montant staké. Plus longue est la durée sur laquelle vous stakez vos NEX, plus votre taux de staking sera élevé, dans la limite de 75% pour la durée maximale de 2 ans. \n\n<0>Un exemple de dividendes</0>\nles dividendes sont payés quotidiennement. Disons que Nash a généré des frais équivalant à un montant de $1 000 000 sur les dernières 24 heures et qu'un utilisateur détient 1 000 NEX sur le total des 50 000 000 des NEX existants. Si l'utilisateur a créé un stake de 2 ans, ce qui équivaut à un taux de staking de 75 il sera éligible à un versement de dividendes valant: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
         "available-balance": "Solde disponible à staker ⋅",
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Définir une durée de stake",
@@ -3873,7 +3873,7 @@
         "stake-duration": "Durée du staking",
         "duration-value": "<0>{{count}}</0> mois",
         "duration-value_plural": "<0>{{count}}</0> mois",
-        "fee-reward": "Staking rate",
+        "fee-reward": "Taux de staking",
         "first-payment": "Premier paiement",
         "agreed-to-non-cancellation-label": "Je comprends que je ne peux pas annuler ou modifier ce stake une fois que je l’ai créé.",
         "agreed-to-locked-tokens-label": "Je comprends que mes tokens NEX seront verrouillés jusqu’à la fin de cette mise.",
@@ -3978,8 +3978,8 @@
         },
         "email": {
           "label": "Email",
-          "placeholder": "Adresse e-mail",
-          "error": "Adresse e-mail invalide"
+          "placeholder": "Adresse email",
+          "error": "Adresse email invalide"
         },
         "phone": {
           "label": "Téléphone",
