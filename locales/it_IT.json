@@ -710,13 +710,13 @@
     },
     "market-selection": {
       "no-results": "Non abbiamo trovato risultati per <0>{{searchTerm}}</0>.",
-      "no-favorites": "Non hai ancora mercati preferiti.",
+      "no-favorites": "Non hai ancora dei mercati preferiti.",
       "pair": "Coppie",
       "24hvol": "24h volumi",
-      "24hprice": "24h cambio",
+      "24hprice": "24h variazione",
       "tabs": {
         "all": "Tutti",
-        "favorites": "Favoriti"
+        "favorites": "Preferiti"
       }
     },
     "favorite-bar": {
@@ -797,7 +797,7 @@
           "volume": "Volumi: <0>{{volume}}</0>"
         }
       },
-      "clear-studies-button-label": "Pulisci tutti gli indicatori"
+      "clear-studies-button-label": "Ripristina tutti gli indicatori"
     },
     "create-order": {
       "buy": "Compra {{currencySymbol}}",
@@ -826,15 +826,15 @@
             "pending": "In sospeso"
           },
           "current-market": "Mercato attuale",
-          "other-tradable-assets": "Altri asset tradabili"
+          "other-tradable-assets": "Altri asset scambiabili"
         }
       },
       "trading-limits": "Limiti di trading",
       "fields": {
         "amount": {
           "label": "Quantità",
-          "sub-label-market-buy": "Questo è un ordine di mercato, quindi possiamo solo stimare l’importo di {{currencyA}} che acquisterai.",
-          "sub-label-market-sell": "Questo è un ordine di mercato, quindi possiamo solo stimare il totale {{currencyB}} che riceverai.",
+          "sub-label-market-buy": "Questo è un ordine a mercato, quindi possiamo solo stimare l’importo di {{currencyA}} che acquisterai.",
+          "sub-label-market-sell": "Questo è un ordine a mercato, quindi possiamo solo stimare il totale {{currencyB}} che riceverai.",
           "sub-label-limit-buy": "Inserisci la quantità di {{currencySymbol}} che desideri acquistare.",
           "sub-label-limit-sell": "Inserisci la quantità di {{currencySymbol}} che desideri vendere.",
           "estimate": "(estimate)",
@@ -851,7 +851,7 @@
           "modal": {
             "label-no-selection": "Seleziona una data per continuare…",
             "errors": {
-              "is-past": "Non è possibile inserire un’ora del passato"
+              "is-past": "Non è possibile inserire una data nel passato"
             }
           }
         },
@@ -860,7 +860,7 @@
         },
         "market-price": {
           "label": "Mercati",
-          "sub-label": "Quando acquisti o vendi al prezzo di mercato, il tuo ordine corrisponderà agli ordini attualmente sul libro."
+          "sub-label": "Quando acquisti o vendi a mercato, il tuo ordine corrisponderà agli ordini attualmente sul libro."
         },
         "show-limit": {
           "label-hide": "Stop-market",
@@ -871,7 +871,7 @@
         },
         "limit-price": {
           "label": "Limiti",
-          "sub-label": "Il tuo ordine può essere abbinato con ordini a questo prezzo o meglio.",
+          "sub-label": "Il tuo ordine può essere abbinato con ordini a questo prezzo o migliore.",
           "errors": {
             "maker-match": "Gli ordini ‘Pubblica solo’ corrispondenti al portafoglio ordini corrente verranno annullati."
           }
@@ -899,7 +899,7 @@
           "footer": "Per saperne di più"
         },
         "trading-balance": {
-          "label": "Disponibile {{currency}}:"
+          "label": "{{currency}} disponibile:"
         }
       },
       "submit": {
@@ -931,10 +931,10 @@
         "trades": "Cronologia di trading"
       },
       "date-range-selection": {
-        "days": "{{range}}d",
-        "weeks": "{{range}}w",
+        "days": "{{range}}g",
+        "weeks": "{{range}}S",
         "months": "{{range}}M",
-        "years": "{{range}}Y",
+        "years": "{{range}}A",
         "clear": "Cancella",
         "select-action": "Modifica",
         "popup": {
@@ -1081,7 +1081,7 @@
       "2": "Media",
       "3": "Forte",
       "4": "Molto forte",
-      "label": "Password strength"
+      "label": "Efficacia password"
     },
     "password-form": {
       "password": {
@@ -1090,12 +1090,12 @@
       },
       "code": {
         "label": "Autenticazione a due fattori",
-        "placeholder": "Inserisci il tuo codice a due fattori"
+        "placeholder": "Inserisci il tuo codice di autenticazione a due fattori"
       }
     },
     "new-wallets": {
       "btc": {
-        "title": "Puoi ora inviare, ricevere e archiviare i tuoi Bitcoin con Nash!",
+        "title": "Puoi ora inviare, ricevere e conservare i tuoi Bitcoin con Nash!",
         "subtext": "Ti informeremo quando le coppie di trading Bitcoin saranno disponibili su Nash Exchange.",
         "btn-bitcoin": "Deposita Bitcoin",
         "btn-funds": "Vai al portafoglio"
@@ -1181,7 +1181,7 @@
     "forgot-password": {
       "tab-title": "Password dimenticata",
       "header": "Hai dimenticato la tua password?",
-      "desc": "Inserisci il tuo indirizzo email di seguito e ti ricontatteremo on track.",
+      "desc": "Inserisci il tuo indirizzo email e ti ricontatteremo il prima possibile.",
       "fields": {
         "email": {
           "label": "Indirizzo email",
@@ -1189,7 +1189,7 @@
         }
       },
       "submit": "Richiedi il link di ripristino",
-      "success": "Ti abbiamo inviato un’email di reimpostazione della password. Se non visualizzi la nostra email, controlla la cartella della posta indesiderata."
+      "success": "Ti abbiamo inviato un’email di reimpostazione della password. Se non vedi la nostra email, controlla nella cartella della posta indesiderata."
     },
     "reset-password": {
       "missing-email": "Qualcosa è andato storto. Fare di nuovo clic sul collegamento nell’e-mail.",
@@ -1272,7 +1272,7 @@
     },
     "verify-email": "Verifica dell’indirizzo email in corso…",
     "secret-word-list-edit": {
-      "placeholder": "Word {{index}}"
+      "placeholder": "Parola {{index}}"
     },
     "discourse-sso": {
       "login": {
@@ -1288,18 +1288,18 @@
         "username-placeholder": "Seleziona un nome…",
         "button-create": "Crea un account della Community",
         "button-creating": "Creazione account della Community in corso…",
-        "migrate-description": "Se stai utilizzando l’estensione Nash per accedere alla Community, puoi farlo <0>migrando il tuo account</0>.",
+        "migrate-description": "Se stai utilizzando l’estensione Nash per accedere alla Community, puoi farlo <0>effettuando la migrazione del tuo account</0>.",
         "username-exits": "‘{{username}}’ è già utilizzato. Per favore seleziona un altro nome utente."
       },
       "migrate-account": {
-        "title": "Migra il tuo account Nash Community",
+        "title": "Effettua la migrazione del tuo account Nash Community",
         "migration-step1": "Accedi con l’estensione Nash.",
         "migration-step2": "Cambia il tuo indirizzo email della community con l’indirizzo utilizzato per il tuo account Nash.",
         "migration-step3": "Questo è tutto! Una volta che il tuo indirizzo email è cambiato, sarai in grado di accedere utilizzando il tuo account Nash.",
         "button-migrate": "Accedi con l’estensione Nash",
         "link-back": "Indietro",
         "faq-change-email": {
-          "title": "Come posso cambiare il mio indirizzo email comunitario?",
+          "title": "Come posso cambiare il mio indirizzo email per la Community?",
           "step1": "Dopo aver effettuato l’accesso alla Community, fai clic sul tuo avatar nell’angolo in alto a destra dello schermo.",
           "step2": "Fai clic sul tuo nome utente e seleziona ‘Preferenze’.",
           "step3": "Fai clic sull’icona a forma di matita per modificare il tuo indirizzo email.",
@@ -1334,20 +1334,20 @@
           },
           "set-a-price": {
             "header": "Imposta un prezzo",
-            "desc": "Il tuo ordine può corrispondere con ordini a questo prezzo o megliore, ma non andrà oltre. Questa opzione indica che il tuo ordine potrebbe non essere completato in una volta sola."
+            "desc": "Il tuo ordine può corrispondere con ordini a questo prezzo o migliore, ma non andrà oltre. Questa opzione indica che il tuo ordine potrebbe non essere completato in una volta sola."
           },
           "balances": {
             "header": "Saldi",
-            "desc": "Ti diremo se il tuo saldo non è sufficiente per fare uno scambio. Scegli ‘Saldi’ per controllare lo stato del tuo account e inviare / ricevere fondi."
+            "desc": "Ti diremo se il tuo saldo non è sufficiente per fare uno scambio. Scegli ‘Saldi’ per controllare lo stato del tuo account e inviare o ricevere fondi."
           }
         },
         "select-token": {
           "title": {
-            "sell": "Voglio negoziare",
+            "sell": "Voglio scambiare",
             "buy": "Voglio ricevere"
           },
           "header": {
-            "sell": "Seleziona il token che vuoi negoziare",
+            "sell": "Seleziona il token che vuoi scambiare",
             "buy": "Seleziona il token che vuoi ricevere"
           },
           "ignore-low-balances": "Nascondi i saldi piccoli",
@@ -1378,9 +1378,9 @@
             }
           },
           "sell": {
-            "label": "Voglio negoziare",
+            "label": "Voglio scambiare",
             "sub-label": "{{currencySell}} disponibile",
-            "label-button": "Seleziona un token da negoziare",
+            "label-button": "Seleziona un token da scambiare",
             "errors": {
               "insufficient-funds": "Insufficiente {{currencySell}} nel contratto di trading. Invia fondi per continuare.",
               "limit-breached": "Questo ordine supera i tuoi limiti di trading.",
@@ -1723,7 +1723,7 @@
       "complete-kyc": "Verifica identità",
       "enjoy-benefits": "Altri benefici di Livello 1:",
       "higher-trading-limits": "Limiti di trading più elevati sullo scambio di Nash.",
-      "stake-your-nex": "Stake NEX per ricevere dividendi.",
+      "stake-your-nex": "Metti NEX in stake per ricevere dividendi.",
       "use-with-vpn": "Accedi a Nash tramite un servizio VPN."
     },
     "provider": {
@@ -1777,14 +1777,14 @@
       }
     },
     "general-details": {
-      "main-title": "Crea il tuo {{providerName}} account",
+      "main-title": "Crea il tuo account {{providerName}}",
       "subtitle": "Prima di poter acquistare o vendere asset digitali, dobbiamo configurare il tuo account con {{providerName}}.",
       "legal-name-input-label": "Nome legale completo",
       "email-address-input-label": "Indirizzo email",
       "submit-btn": "Continua con i dettagli dell’indirizzo"
     },
     "address-details": {
-      "main-title": "Crea il tuo {{providerName}} account",
+      "main-title": "Crea il tuo account {{providerName}}",
       "subtitle": "Prima di poter acquistare o vendere asset digitali, dobbiamo configurare il tuo account con {{providerName}}.",
       "house-name-input-label": "Numero civico/nome",
       "street-name-input-label": "Via",
@@ -1871,27 +1871,27 @@
       "weekly-limit": "Limite settimanale",
       "monthly-limit": "Limite mensile",
       "yearly-limit": "Limite annuale",
-      "weekly-limit-affix": "Limite settimanale",
-      "monthly-limit-affix": "Limite mensile",
-      "yearly-limit-affix": "Limite annuale",
+      "weekly-limit-affix": "limite settimanale",
+      "monthly-limit-affix": "limite mensile",
+      "yearly-limit-affix": "limite annuale",
       "exceed-yearly-limit": "limite annuale superato",
-      "no-change-today": "nessun cambio oggi",
+      "no-change-today": "nessuna variazione oggi",
       "change-today": "{{value}}% oggi",
       "daily-fiat-limit": "Limite {{fiat}} giornaliero",
       "daily-asset-limit": "Limite {{asset}} giornaliero",
       "exceed-daily-limit": "Hai superato il tuo limite giornaliero.",
       "no-limit": "Illimitato",
-      "current-exchange-info": "<0>Questa offerta si basa sul nostro tasso di cambio attuale.</0> Se il prezzo di {{asset}} è sopra <1 /> quando il bonifico verrà cancellato, ti offriremo una nuova tariffa.",
+      "current-exchange-info": "<0>Questa offerta si basa sul nostro tasso di cambio attuale.</0> Se il prezzo di {{asset}} è superiore a <1 /> quando il bonifico sarà completato, ti offriremo una nuova tariffa.",
       "nash-unsupported": "Questa funzionalità arriverà presto!",
       "carbon-unsupported": "Questa funzione non è ancora disponibile con Carbon.",
       "provider-unsupported": "Questa funzione non è ancora disponibile con {{providerName}}.",
       "daily-remaining": "<0 /> rimanenti",
       "limit-exceeded": "<0 /> limite superato",
       "minimum-not-reached": "L’acquisto minimo è <0 />",
-      "default-warning-message": "Devi completare il tuo <0>{{providerName}} profilo</0> e <1>collegare un conto bancario</1> prima di {{buy}} {{asset}}.",
+      "default-warning-message": "Devi completare il tuo <0>profilo {{providerName}}</0> e <1>collegare un conto bancario</1> prima di {{buy}} {{asset}}.",
       "bank-account-warning-message": "Devi <0>collegare un conto bancario</0> prima di {{buy}} {{asset}}.",
-      "fiat-provider-warning-message": "Devi completare il tuo <0>{{providerName}} profilo</0> prima di {{buy}} {{asset}}.",
-      "profile-pending-warning-message": "Il tuo <0>{{providerName}} profilo</0> è in fase di revisione.",
+      "fiat-provider-warning-message": "Devi completare il tuo <0>profilo {{providerName}}</0> prima di {{buy}} {{asset}}.",
+      "profile-pending-warning-message": "Il tuo <0>profilo {{providerName}}</0> è in fase di revisione.",
       "submit-btn": "Revisiona prima di acquistare",
       "purchase-btn": "Revisiona la tua offerta",
       "buy": "compra",
