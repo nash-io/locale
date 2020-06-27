@@ -140,7 +140,7 @@
     "use-last": "Son işlemi kullan"
   },
   "insufficient-funds": "Yetersiz bakiye",
-  "amount-each": "{{miktar}} her biri",
+  "amount-each": "{{amount}} her biri",
   "daily-limit": {
     "title": "Toplam günlük limit",
     "link": "Limitinizi arttırın",
@@ -204,10 +204,10 @@
       "transfers": {
         "initializing": "Gerçekleştiriliyor",
         "initialized": "Gerçekleşen transferler",
-        "tooltip": "Transfer işleminiz devam ediyor. Eğer Nash'i kapatır veya çıkış yaparsanız,tekrar giriş yapana kadar bekletilecektir"
+        "tooltip": "Transfer işleminiz devam ediyor. Eğer Nash’i kapatır veya çıkış yaparsanız,tekrar giriş yapana kadar bekletilecektir"
       },
       "general-menu": {
-         "settings": " Profilim ",
+         "settings": "Profilim",
         "support": "Destek",
         "theme": {
           "light": "Açık",
@@ -298,7 +298,7 @@
     "location-banned": "Maalesef,Nash şu anda bulunduğunuz alanda hizmet vermiyor.",
     "invalid-clock-title": "Bilgisayarınızın saati doğru değil.",
     "permissions-issue-title": "İzin problemi",
-    "invalid-clock": "Nash'te ticaret yapabilmek için saatiniz doğru olmalı <0>saatinizi güncelleyin</0> ve <1>tekrar deneyin</1>.",
+    "invalid-clock": "Nash’te ticaret yapabilmek için saatiniz doğru olmalı <0>saatinizi güncelleyin</0> ve <1>tekrar deneyin</1>.",
     "network-issue-title": "Bağlantı sorunu",
     "network-issue": "Bağlantı sorunu yaşandı. Lütfen <0>tekrar deneyin</0>.",
     "generic-error-title": "Hata",
@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Yükleme başarısız.",
     "failed-button": "Yükleme başarısız",
-    "failed-please-try": "<0>Yükleme başarısız. Lütfen\u00A0</0><1>tekrar deneyin</1>.",
+    "failed-please-try": "Yükleme başarısız. Lütfen\u00A0<0>tekrar deneyin</0>.",
     "why-this-may-happening": "Neden olabileceğini <0>buradan</0> öğrenin."
   },
   "datetime": {
@@ -378,19 +378,19 @@
       "tier-0": {
         "location-mismatch": {
           "title": "IP adresiniz seçtiğiniz bölge ile eşleşmedi.",
-          "message": "Doğrulama seviyesi 0 olan kullanıcılar,ikamet ettikleri ülkeden bağlanmadıkça Nash'in hizmetlerinden faydalanamazlar. Gözden geçirin <0>doğrulama seviyesini 1'e yükseltmek için</0>."
+          "message": "Doğrulama seviyesi 0 olan kullanıcılar,ikamet ettikleri ülkeden bağlanmadıkça Nash’in hizmetlerinden faydalanamazlar. Gözden geçirin <0>doğrulama seviyesini 1’e yükseltmek için</0>."
         },
         "untrusted-ip": {
           "title": "VPN kullandığınızı fark ettik.",
-          "message": "Doğrulama seviyesi 0 olan kullanıcılar,VPN veya proxy üzerinden bağlanırlarsa Nash'in hizmetlerinden faydalanamazlar. Lütfen bu servisleri iptal edin yada <0>doğrulama seviyenizi 1'e yükseltin</0>."
+          "message": "Doğrulama seviyesi 0 olan kullanıcılar,VPN veya proxy üzerinden bağlanırlarsa Nash’in hizmetlerinden faydalanamazlar. Lütfen bu servisleri iptal edin yada <0>doğrulama seviyenizi 1’e yükseltin</0>."
         },
         "high-risk-country": {
           "title": "Doğrulama seviyeniz şu anda 0. Bu nedenle,Nash platformunun bazı bölümlerine erişiminiz kısıtlanacak.",
-          "message": "Tüm hizmetlerimizi kullanabilmek için, lütfen <0>doğrulama seviyenizi 1'e yükseltin</0>."
+          "message": "Tüm hizmetlerimizi kullanabilmek için, lütfen <0>doğrulama seviyenizi 1’e yükseltin</0>."
         },
         "duplicate-ip": {
           "title": "Bu IP adresi kullanılarak zaten bir hesap oluşturuldu.",
-          "message": "Bu hesap ile tüm Nash hizmetlerinden faydalanmak için, lütfen <0>doğrulama seviyenizi 1'e yükseltin</0>."
+          "message": "Bu hesap ile tüm Nash hizmetlerinden faydalanmak için, lütfen <0>doğrulama seviyenizi 1’e yükseltin</0>."
         }
       },
       "restricted": {
@@ -413,14 +413,14 @@
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": " {{detectedCountry}}dan giriş yaptığınızı farkettik.",
-          "message": "Eğer artık {{accountCountry}} da yaşamıyorsanız, lütfen adresinizi güncellemek için <0>destek ile iletişim kurun/0>."
+          "title": "{{detectedCountry}}dan giriş yaptığınızı farkettik.",
+          "message": "Eğer artık {{accountCountry}} da yaşamıyorsanız, lütfen adresinizi güncellemek için <0>destek ile iletişim kurun</0>."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
           "title": "Daha iyi bir deneyim için masaüstü versiyona göz atın.",
-          "message": " 'Gelişmiş' görünüm masaüstü versiyon için tasarlanmıştır. Mobilde iseniz, <0>‘Basit’ arayüz</0> deneyin."
+          "message": "‘Gelişmiş’ görünüm masaüstü versiyon için tasarlanmıştır. Mobilde iseniz, <0>‘Basit’ arayüz</0> deneyin."
         }
       }
     },
@@ -454,14 +454,14 @@
         "duplicate-email": "Bu e-posta adresi için zaten bir hesap oluşturuldu.",
         "password-too-short": "Şifreniz en az sekiz karakter uzunluğunda olmalıdır.",
         "invalid-recaptcha": "Recaptcha doğrulaması başarısız oldu. Lütfen tekrar deneyin.",
-        "missing-us-state": "Amerika Birleşik Devletleri'nde yaşıyorsanız, eyaletinizi girmelisiniz."
+        "missing-us-state": "Amerika Birleşik Devletleri’nde yaşıyorsanız, eyaletinizi girmelisiniz."
       }
     },
     "your-details": {
       "header": "Hesap oluştur",
       "subheader": "Detaylar",
       "disclaimer": {
-        "title": "ABD'li kullanıcılar için uyarı",
+        "title": "ABD’li kullanıcılar için uyarı",
         "desc": "Tavsiye programına katılmak için bir başlangıç seviye Nash hesabı oluşturuyorsunuz, ancak eyaletinizin bazı Nash hizmetlerine erişmeye uygun olması gerekir. Uygunsa, daha sonra bir kullanıcı sözleşmesi imzalamanız istenir."
       },
       "fields": {
@@ -559,7 +559,7 @@
       "desc-2": "E-postamızı görmüyorsanız önemsiz posta klasörünüzü kontrol edin.",
       "resend": "Doğrulama e-postasını tekrar gönder.",
       "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Lütfen {{count}} saniye bekleyin...",
+      "resend-delay_plural": "Lütfen {{count}} saniye bekleyin…",
       "back": "Oturum açmak için geri dön",
       "success": "Doğrulama e-postası tekrar gönderildi.",
       "errors": {
@@ -594,7 +594,7 @@
       "title": "Gizli kelimeler",
       "header": "On iki gizli kelimenizi yazın",
       "desc": "Bu kelimeler fonlarınıza erişmek için kullanılacak.Aynı zamanda şifre yenileme için kullanılır.",
-      "popup-error": "Gizli kelimelerinizi yazdırmak istiyorsanız,lütfen Pop-up engelleyicileri devre dışı bırakın ve Nash'in Pop-up açmasına müsade edin.",
+      "popup-error": "Gizli kelimelerinizi yazdırmak istiyorsanız,lütfen Pop-up engelleyicileri devre dışı bırakın ve Nash’in Pop-up açmasına müsade edin.",
       "continue": "Devam et",
       "go-back": "Geri dön",
       "written-down": "Kelimelerimi yazdım.",
@@ -629,7 +629,7 @@
         "create-my-wallet": "Hesabımı oluştur",
         "generating-your-wallet": "Nash hesabınız oluşturuluyor…",
         "errors": {
-          "create-wallet-failed": "Hesabınızı oluştururken bir hata oluştu.Lütfen <0> çıkış yapın </0> yada tekrar deneyin."
+          "create-wallet-failed": "Hesabınızı oluştururken bir hata oluştu. Lütfen <0>çıkış yapın</0> yada tekrar deneyin."
         }
       },
       "wallet-created": {
@@ -721,7 +721,7 @@
     },
     "favorite-bar": {
       "empty": "<0>favorileriniz</0>\u00A0 burada görüntülenir.",
-      "tips": "<0>İpucu</0> <1>Favorilerinizi </1> <2 /> ekleyin."
+      "tips": "<0>İpucu</0> <1>Favorilerinizi</1> <2 /> ekleyin."
     },
     "market-graphs": {
       "title": "Grafikler",
@@ -803,7 +803,7 @@
       "buy": "Al {{currencySymbol}}",
       "sell": "Sat {{currencySymbol}}",
       "locked-trading-session": {
-        "information": "İşlem oturumunuz kilitlendi.<0 />",
+        "information": "İşlem oturumunuz kilitlendi. <0 />",
         "information-tooltip": "Sayfayı yenilediğinizde veya 15 dakika boşta kaldığınızda oturumlar kilitlenir.",
         "enter-credentials-to-unlock": "<0>Şimdi kilidi aç</0>"
       },
@@ -917,7 +917,7 @@
     "my-orders": {
       "auth": "Siparişlerinizi görüntülemek için oturum açın.",
       "signed-out": {
-        "title": "<0>Başlat</0><1>\u00A0 Nash ile </1>",
+        "title": "<0>Başlat</0>\u00A0<1>Nash ile</1>",
         "subtitle": "Bir dakikadan kısa sürede bir hesap oluşturun - Müşterini Tanı gerektirmez!"
       },
       "no-results": {
@@ -978,9 +978,9 @@
           "market-sell": "Market satış",
           "limit-buy": "Limit alış",
           "limit-sell": "Limit satış",
-          "stop_limit-buy": "<0></0> olduğunda stop-limit al ",
-          "stop_limit-sell": "<0></0> olduğunda geldiğinde stop-limit sat ",
-          "stop_market-buy": " <0></0> olduğunda stop-market al",
+          "stop_limit-buy": "<0></0> olduğunda stop-limit al",
+          "stop_limit-sell": "<0></0> olduğunda geldiğinde stop-limit sat",
+          "stop_market-buy": "<0></0> olduğunda stop-market al",
           "stop_market-sell": "<0></0> olduğunda stop-market sat "
         }
       },
@@ -1067,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Makas",
-    "learn-about-our-fees": "Daha fazla bilgi için; <1>Ücretler<1>."
+    "learn-about-our-fees": "Daha fazla bilgi için; <1>Ücretler</1>."
   },
   "auth": {
     "create-an-account": "Hesap oluştur",
@@ -1141,7 +1141,7 @@
       }
     },
     "signin": {
-      "header": "Nash'e giriş yap",
+      "header": "Nash’e giriş yap",
       "header-2fa": "İki aşamalı doğrulama",
       "fields": {
         "email": {
@@ -1276,7 +1276,7 @@
     },
     "discourse-sso": {
       "login": {
-        "title": "Nash Topluluğu'na giriş yap",
+        "title": "Nash Topluluğu’na giriş yap",
         "description": "Nash Topluluğuna giriş yapmak için bir Nash hesabınızın olması gerekir.",
         "button-login": "Nash hesabıyla giriş yap",
         "link-create": "<0>Bir Nash hesabı oluşturun</0>"
@@ -1287,8 +1287,9 @@
         "username-label": "Topluluk kullanıcı adı",
         "username-placeholder": "İsim seç…",
         "button-create": "Topluluk hesabı oluştur",
-        "migrate-description": "Topluluğa giriş yapmak için Nash Uzantısını kullanıyorsanız,<0>hesabınızı taşıyın</0>.",
-        "username-exits": "‘{{username}}’ zaten alınmış. Lütfen başka bir kullanıcı adı seçin."
+        "migrate-description": "Topluluğa giriş yapmak için Nash Uzantısını kullanıyorsanız, <0>hesabınızı taşıyın</0>.",
+        "username-exits": "‘{{username}}’ zaten alınmış. Lütfen başka bir kullanıcı adı seçin.",
+        "button-creating": "Creating Community account…"
       },
       "migrate-account": {
         "title": "Nash Topluluk hesabınızı taşıyın",
@@ -1395,7 +1396,7 @@
               "price-too-high": "{{maxPrice}} fiyatının üzerinde işlem yapılamıyor."
             },
             "warnings": {
-              "20-below": "Belirtilen fiyat, mevcut piyasa fiyatının% 20'sinden daha düşük."
+              "20-below": "Belirtilen fiyat, mevcut piyasa fiyatının% 20’sinden daha düşük."
             }
           }
         },
@@ -1419,7 +1420,7 @@
       },
       "order-success": {
         "header": "Başarılı!",
-        "desc": " {{currencySell}}/{{currencyBuy}} siparişiniz başarıyla verildi.",
+        "desc": "{{currencySell}}/{{currencyBuy}} siparişiniz başarıyla verildi.",
         "view-my-order": "Siparişimi görüntüle",
         "create-another-trade": "Yeni bir sipariş oluştur"
       },
@@ -1743,24 +1744,24 @@
       "no-txn-limit": "İşlem limiti yok",
       "no-transaction-fee": "İşlem ücreti yok",
       "weekly-limit": "Haftalık limit {{value}}",
-      "monthly-limit": "Aylık limit {{value}} ",
-      "transaction-fee": "İşlem ücreti {{value}} ",
+      "monthly-limit": "Aylık limit {{value}}",
+      "transaction-fee": "İşlem ücreti {{value}}",
       "eur-bank-transfers": "Euro banka transferleri:",
-      "kyc-monthly-limit-pre": "Aylık {{value}} ",
-      "kyc-monthly-limit-post-kyc": "Kimlik doğrulamasından sonra aylık {{value}} ",
-      "kyc-monthly-limit-post-phone": "Telefon numarası doğrulamasından sonra aylık {{value}} ",
-      "kyc-weekly-limit-pre": "Haftalık {{value}} ",
-      "kyc-weekly-limit-post-kyc": "Kimlik doğrulamasından sonra haftalık {{value}} ",
-      "kyc-weekly-limit-post-phone": "Telefon numarası doğrulamasından sonra haftalık {{value}} ",
-      "kyc-daily-limit-pre": "Günlük {{value}} ",
+      "kyc-monthly-limit-pre": "Aylık {{value}}",
+      "kyc-monthly-limit-post-kyc": "Kimlik doğrulamasından sonra aylık {{value}}",
+      "kyc-monthly-limit-post-phone": "Telefon numarası doğrulamasından sonra aylık {{value}}",
+      "kyc-weekly-limit-pre": "Haftalık {{value}}",
+      "kyc-weekly-limit-post-kyc": "Kimlik doğrulamasından sonra haftalık {{value}}",
+      "kyc-weekly-limit-post-phone": "Telefon numarası doğrulamasından sonra haftalık {{value}}",
+      "kyc-daily-limit-pre": "Günlük {{value}}",
       "kyc-daily-limit-post-kyc": "Kimlik doğrulamasından sonra günlük {{value}}",
-      "kyc-daily-limit-post-phone": "Telefon numarası doğrulamasından sonra günlük {{value}} ",
-      "kyc-yearly-limit-pre": "Yıllık {{value}} ",
-      "kyc-yearly-limit-post-kyc": "Kimlik doğrulamasından sonra yıllık {{value}} ",
-      "kyc-yearly-limit-post-phone": "Telefon numarası doğrulamasından sonra yıllık {{value}} ",
-      "kyc-txn-limit-pre": "İşlem başına {{value}} ",
-      "kyc-txn-limit-post-kyc": "Kimlik doğrulamasından sonra işlem başına {{value}} ",
-      "kyc-txn-limit-post-phone": "Telefon numarası doğruladıktan sonra işlem başına {{value}} ",
+      "kyc-daily-limit-post-phone": "Telefon numarası doğrulamasından sonra günlük {{value}}",
+      "kyc-yearly-limit-pre": "Yıllık {{value}}",
+      "kyc-yearly-limit-post-kyc": "Kimlik doğrulamasından sonra yıllık {{value}}",
+      "kyc-yearly-limit-post-phone": "Telefon numarası doğrulamasından sonra yıllık {{value}}",
+      "kyc-txn-limit-pre": "İşlem başına {{value}}",
+      "kyc-txn-limit-post-kyc": "Kimlik doğrulamasından sonra işlem başına {{value}}",
+      "kyc-txn-limit-post-phone": "Telefon numarası doğruladıktan sonra işlem başına {{value}}",
       "select-btn": "Seç",
       "have-account-header": "Hesap oluşturduğum sağlayıcılar",
       "no-account-header": "Henüz hesap oluşturmadığım sağlayıcılar",
@@ -1772,18 +1773,18 @@
       "powered-by": "Tarafından desteklenmektedir",
       "change-provider": "Sağlayıcıyı değiştir",
       "nash": {
-        "pay-no-fees": "Nash'den popüler dijital varlıklar satın aldığınızda; <0>Pay no fees</0> "
+        "pay-no-fees": "Nash’den popüler dijital varlıklar satın aldığınızda; <0>Pay no fees</0>."
       }
     },
     "general-details": {
-      "main-title": " {{providerName}} sağlayıcısı ile olan hesabınız için isim oluşturun.",
+      "main-title": "{{providerName}} sağlayıcısı ile olan hesabınız için isim oluşturun.",
       "subtitle": "Dijital varlıkları satın almak veya satabilmek için, {{providerName}} sağlayıcınız ile bir hesap oluşturmalısınız.",
       "legal-name-input-label": "Tam yasal isim",
       "email-address-input-label": "E-posta adresi",
       "submit-btn": "Adres detaylarına devam et"
     },
     "address-details": {
-      "main-title": " {{providerName}} sağlayıcısı hesabınızı oluşturun",
+      "main-title": "{{providerName}} sağlayıcısı hesabınızı oluşturun",
       "subtitle": "Dijital varlıkları satın almak veya satabilmek için, {{providerName}} sağlayıcınız ile bir hesap oluşturmalısınız.",
       "house-name-input-label": "Ev numarası/adı",
       "street-name-input-label": "Sokak",
@@ -1852,9 +1853,9 @@
       "current-price-unavailable": "Güncel fiyat uygun değil",
       "buy-with-input-label-no-cur": "İle öde",
       "sell-with-input-label-no-cur": "Yatır",
-      "buy-with-input-label": " {{currency}} ile ödeme yap",
-      "sell-with-input-label": " {{currency}} ile sat",
-      "deposit-to": " {{currency}} ile yatır",
+      "buy-with-input-label": "{{currency}} ile ödeme yap",
+      "sell-with-input-label": "{{currency}} ile sat",
+      "deposit-to": "{{currency}} ile yatır",
       "pay-with-default": "Ödeme şekli seç",
       "link-new-bank": "Ödeme şekli ekle",
       "complete-nash-profile": "dijital varlıkları satın almadan önce <0>Nash profile</0> tamamlayın.",
@@ -1866,7 +1867,7 @@
       "i-want-to-pay-input-label": "Ödemek istiyorum",
       "receive-input-label": "Ödeme almak istiyorum",
       "will-receive-input-label": "Yaklaşık olarak alacağım",
-      "provider-fee": "{{providerName}} ücreti ",
+      "provider-fee": "{{providerName}} ücreti",
       "current-exchange-rate": "Mevcut döviz kuru",
       "weekly-limit": "Haftalık limit",
       "monthly-limit": "Aylık limit",
@@ -1881,17 +1882,17 @@
       "daily-asset-limit": "Günlük {{asset}} limit",
       "exceed-daily-limit": "Günlük limitinizi aştınız",
       "no-limit": "Sınırsız",
-      "current-exchange-info": "<0>Bu teklif mevcut döviz kurumuza bağlıdır.</0> Eğer {{asset}}  <1 /> üstünde ise,banka havaleniz silindiğinde yeni bir ücret teklif ederiz.",
+      "current-exchange-info": "<0>Bu teklif mevcut döviz kurumuza bağlıdır.</0> Eğer {{asset}} <1 /> üstünde ise,banka havaleniz silindiğinde yeni bir ücret teklif ederiz.",
       "nash-unsupported": "Bu özellik çok yakında!",
       "carbon-unsupported": "Bu özellik henüz Carbon ile birlikte sunulmamaktadır.",
       "provider-unsupported": "Bu özellik henüz {{providerName}} ile kullanılmıyor.",
       "daily-remaining": "<0 /> kalan",
       "limit-exceeded": "<0 /> limit aşımı",
       "minimum-not-reached": "Minimum satın alma <0 />",
-      "default-warning-message": " <0>{{providerName}} profili</0> tamamla ve <1>banka hesabı bağla</1> önce {{buy}} {{asset}}.",
-      "bank-account-warning-message": " <0>banka hesabı bağla</0> önce {{buy}} {{asset}}.",
-      "fiat-provider-warning-message": " <0>{{providerName}} profili</0> tamamla önce {{buy}} {{asset}}.",
-      "profile-pending-warning-message": " <0>{{providerName}} profiliniz</0> inceleme aşamasında.",
+      "default-warning-message": "<0>{{providerName}} profili</0> tamamla ve <1>banka hesabı bağla</1> önce {{buy}} {{asset}}.",
+      "bank-account-warning-message": "<0>banka hesabı bağla</0> önce {{buy}} {{asset}}.",
+      "fiat-provider-warning-message": "<0>{{providerName}} profili</0> tamamla önce {{buy}} {{asset}}.",
+      "profile-pending-warning-message": "<0>{{providerName}} profiliniz</0> inceleme aşamasında.",
       "submit-btn": "Satın almadan önce gözden geçir",
       "purchase-btn": "Teklifimi gözden geçir",
       "buy": "al",
@@ -1906,7 +1907,7 @@
         "ecode-declined": "Bankanız işlemi reddetti.",
         "ecode-only-visa-mastercard": "Carbon.money tarafından şu anda yalnızca Visa ve Mastercard kabul edilmektedir.",
         "ecode-3ds-auth-fail": "3DS kimlik doğrulama hatası.",
-        "ecode-3ds-could-not-be-performed": "3DS şu anda Carbon'da mevcut değil.",
+        "ecode-3ds-could-not-be-performed": "3DS şu anda Carbon’da mevcut değil.",
         "ecode-3ds-performed-not-completed": "3DS çalıştı, ancak Carbon tarafından şu anda tamamlanamadı.",
         "ecode-unknown": "Kodla ilgili bilinmeyen sorun {{ecode}}."
       },
