@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sync": "deno run --unstable --allow-read --allow-write --lock=scripts/sync.lock.json scripts/sync.ts",
+    "validate": "deno run --unstable --allow-read --lock=scripts/validate.lock.json scripts/validate.ts"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}

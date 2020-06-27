@@ -67,7 +67,7 @@
       "title": "Gestionhar las llaves API",
       "revoke-button-label": "Anular",
       "table-header": "Tus llaves API",
-      "no-tokens-exp": "<0>Genera tu primera llave</0> o lee nuestra <1> documentacion API </1>.",
+      "no-tokens-exp": "<0>Genera tu primera llave</0> o lee nuestra <1>documentacion API</1>.",
       "name": "Nombre",
       "never-used": "Nunca usada",
       "last-used": "Ultimo uso {{when}}",
@@ -172,7 +172,7 @@
         "desc": "Si tu orden puede ser emparejada inmediatamente ,entonces lo sera. Si no puede ser emparejada en su totalidad, entonces toda la orden sera cancelada."
       },
       "ioc": {
-        "header": "Ejecutar inmediatamente o se cancela"
+        "header": "Ejecutar inmediatamente o se cancela",
         "desc": "Si tu orden puede ser emparejada inmediatamente se hara asi.Cualquier porcion de la orden que no se empareje se eliminara."
       }
     }
@@ -266,7 +266,7 @@
           "security": "Security",
           "limits": "Limits",
           "accounts": "Accounts",
-          "apikeys": "API\u00A0keys"
+          "apikeys": "API keys"
         }
       },
       "staking": {
@@ -340,7 +340,7 @@
   "query-errors": {
     "failed": "Failed to load.",
     "failed-button": "Failed to load",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
+    "failed-please-try": "Failed to load. Please <0>retry</0>.",
     "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
   },
   "datetime": {
@@ -441,6 +441,7 @@
       "sign-in-now": "Sign in now"
     },
     "form": {
+      "your-state-is": "Your state is",
       "fields": {
         "optional": "(optional)"
       },
@@ -488,12 +489,16 @@
     "country-details": {
       "header": "Create an account",
       "subheader": "Where do you live?",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "save-changes": "Save changes",
       "fields": {
         "country": {
           "label": "Country of residence"
         },
         "state": {
-          "label": "State"
+          "label": "State",
+          "location": "Location"
         },
         "confirm-country": {
           "label": "I confirm that this is my country of residence."
@@ -715,7 +720,7 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0>\u00A0appear as links here.",
+      "empty": "<0>Your favorite markets</0> appear as links here.",
       "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
     },
     "market-graphs": {
@@ -894,7 +899,7 @@
           "footer": "Learn more"
         },
         "trading-balance": {
-          "label": "Available {{currency}}: "
+          "label": "Available {{currency}}:"
         }
       },
       "submit": {
@@ -912,7 +917,7 @@
     "my-orders": {
       "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Get started</0><1>\u00A0with Nash</1>",
+        "title": "<0>Get started</0> <1>with Nash</1>",
         "subtitle": "Create an account in under a minute – no KYC required!"
       },
       "no-results": {
@@ -1062,7 +1067,7 @@
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
-    "learn-about-our-fees": "Learn more about our <1>fees<1>."
+    "learn-about-our-fees": "Learn more about our <1>fees</1>."
   },
   "auth": {
     "create-an-account": "Create an account",
@@ -1071,12 +1076,12 @@
     "sign-in": "Sign in",
     "sign-out": "Sign out",
     "password-strength": {
-      "label": "Password strength",
       "0": "Very weak",
       "1": "Weak",
       "2": "Medium",
       "3": "Strong",
-      "4": "Very strong"
+      "4": "Very strong",
+      "label": "Password strength"
     },
     "password-form": {
       "password": {
@@ -1176,7 +1181,7 @@
     "forgot-password": {
       "tab-title": "Forgotten password",
       "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back\u00A0on\u00A0track.",
+      "desc": "Enter your email address below and we’ll get you back on track.",
       "fields": {
         "email": {
           "label": "Email address",
@@ -1282,6 +1287,7 @@
         "username-label": "Community username",
         "username-placeholder": "Choose a name…",
         "button-create": "Create Community account",
+        "button-creating": "Creating Community account…",
         "migrate-description": "If you’re using the Nash Extension to log in to the Community, you can <0>migrate your account</0>.",
         "username-exits": "‘{{username}}’ is already taken. Please choose another username."
       },
@@ -1711,6 +1717,15 @@
     "all-providers": "All providers",
     "terms-and-conditions": "I accept {{providerName}}’s <0>Terms and Conditions</0>.",
     "title": "Buy/Sell",
+    "tier0": {
+      "buy-popular-assets": "Buy and sell popular digital assets",
+      "complete-kyc-5minute": "Upgrade to Tier 1 identity verification in just five minutes!",
+      "complete-kyc": "Verify identity",
+      "enjoy-benefits": "Other benefits of Tier 1:",
+      "higher-trading-limits": "Higher trading limits on the Nash exchange.",
+      "stake-your-nex": "Stake NEX to receive dividends.",
+      "use-with-vpn": "Access Nash through a VPN service."
+    },
     "provider": {
       "title": "Select a provider",
       "verify-identity": "<0>Verify your identity</0> to get started.",
@@ -1852,7 +1867,6 @@
       "i-want-to-pay-input-label": "I want to pay",
       "receive-input-label": "I will receive",
       "will-receive-input-label": "I’ll receive approximately",
-      "provider-fee": "{{providerName}} fee ",
       "current-exchange-rate": "Current exchange rate",
       "weekly-limit": "Weekly limit",
       "monthly-limit": "Monthly limit",
@@ -2438,8 +2452,6 @@
       "title": "Sale quote",
       "send-asset-title": "Send {{assetName}} to the address below from your Nash personal account.",
       "send-asset-body-1": "What you send will be converted to {{currencyCode}} and credited to your account. We will use the market exchange rate at the time we receive your transaction.",
-      "send-asset-body-2": "",
-      "transactions-details": "Send ",
       "selling": "I am selling",
       "cost": "I will receive <0>(estimate)</0>",
       "to-bank": "Into this account",
@@ -2655,7 +2667,7 @@
       },
       "details-shared": {
         "title": "{{ccpro}} has sent you an email!",
-        "desc": "Please check your email and verify your account with {{ccpro}}.<0 />If you don’t see their email, check your junk folder.",
+        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
         "button": "Resend verification email"
       },
       "transactions": {
@@ -2996,7 +3008,7 @@
             "trading-account": "From the trading contract",
             "personal-account": "From my personal account",
             "nash-fiat-ramp": "Purchase from Nash",
-            "external-address": "From {{address}}"
+            "external-address": "From <0 />"
           }
         },
         "amount": {
@@ -3175,7 +3187,6 @@
     },
     "form-amount": {
       "amount-to-transfer": "Amount",
-      "balance-label": "{{label}} balance ⋅ ",
       "recipients-address": "Recipient’s address",
       "enter-their-wallet": "Enter their wallet address",
       "check-destination-title": "Check your destination address twice.",
@@ -3228,7 +3239,7 @@
     "title": "Referral program",
     "referrals": {
       "header": "Refer a friend and earn tickets",
-      "desc": "The more tickets you earn, the higher chance you have of winning. <0>Learn more</0>.",
+      "desc": "The more tickets you earn, the higher chance you have of winning.",
       "cards": {
         "social-share": {
           "label": "Share your referral code:",
@@ -3431,6 +3442,7 @@
         "your-details": {
           "label": "Personal details",
           "legal-name": "Legal name",
+          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
           "update-name": "I want to update my name",
           "update-country": "I want to update my country of residence",
           "gender": "Gender",
@@ -3581,7 +3593,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "title": "Set up two-factor authentication",
           "1": {
             "header": "Download and install an authenticator app",
             "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
@@ -3594,7 +3605,9 @@
           "3": {
             "header": "Enter the code generated by your authenticator app",
             "input-placeholder": "Authentication code"
-          }
+          },
+          "enable": "Enable",
+          "title": "Set up two-factor authentication"
         },
         "disable-2fa": {
           "title": "Disable two-factor authentication",
@@ -3850,7 +3863,7 @@
         "available-balance": "Available balance to stake ⋅",
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅ ",
+        "selected-duration": "Selected duration ⋅",
         "selected-duration-month": "<0>{{count}}</0> month",
         "selected-duration-month_plural": "<0>{{count}}</0> months",
         "set-date-dividends-label": "Set a date to receive your dividends",
