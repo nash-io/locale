@@ -214,7 +214,7 @@
           "dark": "Donker"
         },
         "auth": {
-          "sign-out": "Uitloggent",
+          "sign-out": "Uitloggen",
           "sign-in": "Inloggen",
           "sign-in-create-account": "<1>Maak een account aan</1> of <0>log in</0>"
         },
@@ -1103,108 +1103,108 @@
     },
     "session-expiry-modal": {
       "title": "Uw sessie verloopt binnenkort",
-      "info": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} second.",
-      "info_plural": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} seconds.",
-      "stay-signed-in": "Stay signed in",
-      "signing-out": "({{count}}s) Signing out…"
+      "info": "Uw sessie verloopt vanwege inactiviteit. U wordt binnen {{count}} seconde afgemeld.",
+      "info_plural": "Uw sessie verloopt vanwege inactiviteit. U wordt binnen {{count}} seconden afgemeld.",
+      "stay-signed-in": "Blijf aangemeld",
+      "signing-out": "({{count}}s) Uitloggen…"
     },
     "signup": {
-      "desc": "Don’t have an account yet?",
-      "sign-up": "Create one"
+      "desc": "Heb je nog geen account?",
+      "sign-up": "Account aanmaken"
     },
     "form": {
-      "continue": "Continue"
+      "continue": "Ga verder"
     },
     "missing-country": {
-      "header": "Before you continue…",
-      "subheader": "Where do you live?",
+      "header": "Voordat je verdergaat…",
+      "subheader": "Waar woon je?",
       "messages": {
-        "vpn-warning-title": "We noticed you’re using a VPN.",
-        "vpn-warning-body": "Please disable any VPN or proxy services to continue.",
+        "vpn-warning-title": "We hebben gemerkt dat je een VPN gebruikt.",
+        "vpn-warning-body": "Schakel alle VPN- of proxyservices uit om door te gaan.",
         "update-country": {
-          "failed": "We could not update your country of residence. Please try again later or contact support."
+          "failed": "We kunnen jouw land van verblijf niet updaten. Probeer het later opnieuw of neem contact op met support."
         }
       },
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Land van verblijf"
         },
         "state": {
-          "label": "State"
+          "label": "Staat"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Ik bevestig dat dit mijn land van verblijf is."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Ik bevestig dat dit mijn land en deelstaat van verblijf zijn."
         }
       }
     },
     "signin": {
-      "header": "Sign in to Nash",
-      "header-2fa": "Two-factor authentication",
+      "header": "Log in bij Nash",
+      "header-2fa": "Twee-factor-authenticatie",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "E-mailadres",
+          "placeholder": "E-mailadres"
         },
         "password": {
-          "label": "Password",
-          "sub-label": "Forgotten password?",
-          "placeholder": "Password"
+          "label": "Wachtwoord",
+          "sub-label": "Wachtwoord vergeten?",
+          "placeholder": "Wachtwoord"
         },
         "remember-me": {
-          "label": "Remember me"
+          "label": "Herinner mij"
         }
       },
       "messages": {
         "password-change": {
-          "success": "If the email address you provide matches an account already in our database, we’ll send you instructions on how to reset your password."
+          "success": "Als het e-mailadres dat u opgeeft overeenkomt met een account dat reeds in onze database bestaat, sturen we u instructies voor het opnieuw instellen van uw wachtwoord."
         },
         "update-email": {
-          "validation-success": "We have sent a verification email to your new email address. Please click the link in that email to confirm your new address.",
-          "updated-success": "Your email address has been updated. You can now sign in using your new address."
+          "validation-success": "We hebben een verificatie-e-mail gestuurd naar uw nieuwe e-mailadres. Klik op de link in de e-mail om uw nieuwe adres te bevestigen.",
+          "updated-success": "Uw e-mailadres is bijgewerkt. U kunt zich nu aanmelden met uw nieuwe adres."
         },
         "verify-email": {
-          "success": "Your email address has been verified. Please sign in to set up your account.",
-          "error": "Could not verify email address. The verification code may have expired. Please log in and request another verification email."
+          "success": "Uw e-mail adres is geverifieerd. Log in om uw account in te stellen.",
+          "error": "E-mailadres kon niet geverifieerd worden. De verificatiecode is mogelijk verlopen. Log in en vraag nog een verificatie-e-mail aan."
         }
       },
       "errors": {
-        "invalid-email": "The email address you provided is invalid.",
-        "invalid-password": "You must provide a password.",
-        "signin-failed": "It appears your email or password is incorrect.",
-        "locked": "Your account is temporarily locked. Please try again later.",
-        "revoked": "Your account is permanently locked. Please contact support."
+        "invalid-email": "Het door u opgegeven e-mailadres is ongeldig.",
+        "invalid-password": "U moet een wachtwoord opgeven.",
+        "signin-failed": "Uw e-mailadres of wachtwoord lijkt onjuist te zijn.",
+        "locked": "Uw account is tijdelijk vergrendeld. Probeer het later opnieuw.",
+        "revoked": "Uw account is permanent vergrendeld. Neem contact op met support."
       }
     },
     "forgot-password": {
-      "tab-title": "Forgotten password",
-      "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back on track.",
+      "tab-title": "Vergeten wachtwoord",
+      "header": "Je wachtwoord vergeten?",
+      "desc": "Voer hieronder uw e-mailadres in en we helpen u weer op weg.",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "E-mailadres",
+          "placeholder": "E-mailadres"
         }
       },
-      "submit": "Request reset link",
-      "success": "We’ve sent you a password reset email. If you don’t see our email, check your junk folder."
+      "submit": "Vraag een reset link aan",
+      "success": "We hebben u een e-mail gestuurd om uw wachtwoord opnieuw in te stellen. Als u onze e-mail niet ziet, controleer dan uw map met ongewenste e-mails."
     },
     "reset-password": {
-      "missing-email": "Something went wrong. Please click the link in your email again.",
-      "expired-code": "This session is no longer valid. Please click the link in your email again.",
+      "missing-email": "Er is iets fout gegaan. Klik nogmaals op de link in uw e-mail.",
+      "expired-code": "Deze sessie is niet meer geldig. Klik nogmaals op de link in uw e-mail.",
       "steps": [
-        "Confirm secret words",
-        "New password"
+        "Bevestig geheime woorden",
+        "Nieuw paswoord"
       ],
       "secret-words": {
         "home": {
-          "header": "Do you still have your twelve secret words?",
-          "sub-header": "When you first set up your Nash account, we asked you to write these words down and keep them safe.",
-          "button-have-words": "Yes, I still have my secret words",
-          "button-lost-words": "No, I have lost my secret words",
-          "desc": "Unfortunately, if you have lost both your old password and your twelve secret words, you will be unable to recover your funds."
+          "header": "Heb je nog steeds je twaalf geheime woorden?",
+          "sub-header": "Toen u voor het eerst uw Nash-account instelde, hebben we u gevraagd deze woorden op te schrijven en te bewaren.",
+          "button-have-words": "Ja, ik heb nog steeds mijn geheime woorden",
+          "button-lost-words": "Nee, ik ben mijn geheime woorden kwijt",
+          "desc": "Spijtig genoeg kunt u uw fondsen niet recupereren, als u zowel uw oude wachtwoord als uw twaalf geheime woorden bent kwijtgeraakt."
         },
         "edit": {
           "header": "Enter your twelve secret words",
