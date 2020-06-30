@@ -1207,104 +1207,104 @@
           "desc": "Spijtig genoeg kunt u uw fondsen niet recupereren, als u zowel uw oude wachtwoord als uw twaalf geheime woorden bent kwijtgeraakt."
         },
         "edit": {
-          "header": "Enter your twelve secret words",
-          "desc-1": "We use your secret words to regenerate your master seed and individual asset accounts.",
-          "desc-2": "If you cannot provide the twelve words for your existing accounts, <0>your funds will be lost.</0>",
-          "card-title": "All words are lowercase",
-          "card-reset": "Clear all words",
-          "mnemonic-invalid": "This combination of words is not valid. Please double-check and try again.",
-          "mnemonic-valid": "This combination of words is valid. You may now reset your password."
+          "header": "Voer je twaalf geheime woorden in",
+          "desc-1": "We gebruiken uw geheime woorden om uw master seed en individuele activarekeningen opnieuw te genereren.",
+          "desc-2": "Als u de twaalf woorden niet kunt opgeven voor uw bestaande accounts, <0>dan bent u uw fondsen kwijt.</0>",
+          "card-title": "Alle woorden zijn kleine letters",
+          "card-reset": "Wis alle woorden",
+          "mnemonic-invalid": "Deze combinatie van woorden is niet geldig. Controleer dit nogmaals en probeer het opnieuw.",
+          "mnemonic-valid": "Deze combinatie van woorden is geldig. U kunt nu uw wachtwoord opnieuw instellen."
         },
         "skip": {
-          "header": "You will lose access to your funds",
-          "desc-1": "If you have lost both your old password and your twelve secret words, <0>you will be unable to recover your funds.</0>",
-          "desc-2": "Nash is a non-custodial platform that uses decentralized technology. It is impossible for us to access your funds and we cannot recover them.",
-          "desc-3": "You can reset your old account and choose a new set of secret words. This will be like setting up a brand new account with a new password.",
-          "desc-4": "If you choose to reset your account, you will lose all access to your funds, including:",
-          "desc-5": "Please double-check and see if you can locate either your secret words or your password.",
-          "go-back": "Go back",
-          "checkbox-1": "I have lost both my password and my twelve secret words.",
-          "checkbox-2": "I understand that I will lose all access to my funds if I reset my account.",
-          "submit": "Reset my account",
-          "sub-bullet-1": "All assets in your personal account.",
-          "sub-bullet-2": "All assets in the trading contract.",
-          "sub-bullet-3": "All staked NEX tokens.",
-          "sub-bullet-4": "All dividends from staked NEX tokens.",
-          "unauthorized": "Since resetting your account has serious implications, you must first contact our support team to enable it.",
-          "contact-support": "Contact support"
+          "header": "U zal de toegang verliezen tot uw fondsen",
+          "desc-1": "Als u zowel uw oude wachtwoord als uw twaalf geheime woorden kwijt bent, <0>dan zul u uw fondsen niet meer kunnen recupereren.</0>",
+          "desc-2": "Nash is een platform gebaseerd op gedecentraliseerde technologie, dat geen fondsen bewaard. Het is voor ons onmogelijk om toegang te krijgen tot uw fondsen en we kunnen ze niet recupereren.",
+          "desc-3": "U kunt uw oude account resetten en een nieuwe set geheime woorden kiezen. Dit is hetzelfde als het opzetten van een gloednieuw account met een nieuw wachtwoord.",
+          "desc-4": "Als u ervoor kiest om uw account opnieuw in te stellen, verliest u alle toegang tot uw fondsen, inclusief:",
+          "desc-5": "Controleer nogmaals of u uw geheime woorden of uw wachtwoord kunt terugvinden.",
+          "go-back": "Ga terug",
+          "checkbox-1": "Ik ben zowel mijn wachtwoord als mijn twaalf geheime woorden kwijt.",
+          "checkbox-2": "Ik begrijp dat ik alle toegang tot mijn fondsen verlies als ik mijn account reset.",
+          "submit": "Reset mijn account",
+          "sub-bullet-1": "Alle activa in uw persoonlijke account.",
+          "sub-bullet-2": "Alle activa in het handelscontract.",
+          "sub-bullet-3": "Alle gestaketed NEX-tokens.",
+          "sub-bullet-4": "Alle dividenden van gestaketed NEX-tokens.",
+          "unauthorized": "Aangezien het opnieuw instellen van uw account ernstige gevolgen heeft, moet u eerst contact opnemen met ons supportteam om dit in te schakelen.",
+          "contact-support": "Contacteer support"
         }
       },
       "new-password": {
-        "tab-title": "Set password",
-        "header": "Set a new password",
-        "desc": "Create a new password for your Nash account.",
-        "header-success": "Success!",
-        "desc-success": "Your password was changed successfully.",
-        "desc-success-reset": "You will be able to set up new wallets the next time you sign in.",
+        "tab-title": "Stel een wachtwoord in",
+        "header": "Stel een nieuw wachtwoord in",
+        "desc": "Maak een nieuw wachtwoord voor uw Nash-account.",
+        "header-success": "Succes!",
+        "desc-success": "Uw wachtwoord is succesvol gewijzigd.",
+        "desc-success-reset": "De volgende keer dat u zich aanmeldt, kunt u nieuwe portemonnees instellen.",
         "fields": {
           "password": {
-            "label": "New password",
-            "placeholder": "New password",
+            "label": "Nieuw wachtwoord",
+            "placeholder": "Nieuw wachtwoord",
             "errors": {
-              "password-too-weak": "The password you chose is too weak."
+              "password-too-weak": "Het door u gekozen wachtwoord is te zwak."
             }
           },
           "password-confirm": {
-            "label": "Confirm new password",
-            "placeholder": "Confirm new password",
+            "label": "Bevestig nieuw wachtwoord",
+            "placeholder": "Bevestig nieuw wachtwoord",
             "errors": {
-              "passwords-do-not-match": "Passwords do not match."
+              "passwords-do-not-match": "Wachtwoorden komen niet overeen."
             }
           },
           "code": {
-            "label": "Two-factor authentication",
-            "placeholder": "Enter your two-factor authentication code"
+            "label": "Twee-factor-authenticatie",
+            "placeholder": "Voer uw twee-factor-authenticatiecode in"
           }
         },
         "errors": {
-          "reset-wallets-locked": "Account resetting is currently locked. Please contact support.",
-          "reset-locked": "Password resetting is currently locked. Please contact support.",
-          "incorrect-keys": "The public key derived from the twelve words you submitted does not match our records. This indicates that the twelve words you submitted are not from your Nash account. Please double-check your backup. Contact support if you still have issues.",
-          "generic-error": "Something went wrong and your password was not reset. Your password reset link may have expired. Please request a new reset link and try again."
+          "reset-wallets-locked": "Account resetten is momenteel vergrendeld. Neem contact op met support.",
+          "reset-locked": "Het resetten van het wachtwoord is momenteel vergrendeld. Neem contact op met support.",
+          "incorrect-keys": "De openbare sleutel die is afgeleid van de twaalf woorden die u hebt ingediend, komt niet overeen met onze gegevens. Dit betekent dat de twaalf woorden die je hebt ingediend niet behoren tot je Nash-account. Hercontroleer aub uw back-up. Neem contact op met support als je nog steeds problemen hebt.",
+          "generic-error": "Er is iets misgegaan en je wachtwoord is niet gereset. De link voor het opnieuw instellen van uw wachtwoord is mogelijk verlopen. Vraag een nieuwe resetlink aan en probeer het opnieuw."
         },
-        "submit": "Set new password"
+        "submit": "Stel een nieuw wachtwoord in"
       }
     },
-    "verify-email": "Verifying email address…",
+    "verify-email": "E-mailadres wordt geverifieerd…",
     "secret-word-list-edit": {
-      "placeholder": "Word {{index}}"
+      "placeholder": "Woord {{index}}"
     },
     "discourse-sso": {
       "login": {
-        "title": "Log in to the Nash Community",
-        "description": "You’ll need a Nash account to log in to the Nash Community.",
-        "button-login": "Log in with Nash account",
-        "link-create": "<0>Create a Nash account</0>"
+        "title": "Log in op de Nash-Community",
+        "description": "Je hebt een Nash-account nodig om in te loggen bij de Nash-community.",
+        "button-login": "Log in met een Nash-account",
+        "link-create": "<0>Maak een Nash-account aan</0>"
       },
       "create-account": {
-        "title": "Create your Nash Community account",
-        "description": "To post messages on the Community, you’ll need to stake at least 1 NEX for 24 months.",
-        "username-label": "Community username",
-        "username-placeholder": "Choose a name…",
-        "button-create": "Create Community account",
-        "button-creating": "Creating Community account…",
-        "migrate-description": "If you’re using the Nash Extension to log in to the Community, you can <0>migrate your account</0>.",
-        "username-exits": "‘{{username}}’ is already taken. Please choose another username."
+        "title": "Maak uw Nash Community-account aan",
+        "description": "Om berichten in de community te posten, moet je gedurende 24 maanden ten minste 1 NEX staken.",
+        "username-label": "Community gebruikersnaam",
+        "username-placeholder": "Kies een naam…",
+        "button-create": "Maak een Commnunity-account aan",
+        "button-creating": "Community-account wordt gecreëerd…",
+        "migrate-description": "Als je de Nash-extensie gebruikt om in te loggen bij de community, kun je <0>jouw account migreren</0>.",
+        "username-exits": "‘{{username}}’ is reeds in gebruik. Kies een andere gebruikersnaam."
       },
       "migrate-account": {
-        "title": "Migrate your Nash Community account",
-        "migration-step1": "Log in with the Nash Extension.",
-        "migration-step2": "Change your Community email address to the address used by your Nash account.",
-        "migration-step3": "That’s it! Once your email address is changed, you’ll be able to log in using your Nash account.",
-        "button-migrate": "Log in with the Nash Extension",
-        "link-back": "Back",
+        "title": "Migreer uw Nash Community-account",
+        "migration-step1": "Log in met de Nash-extensie.",
+        "migration-step2": "Wijzig uw Community-e-mailadres naar het adres dat wordt gebruikt door uw Nash-account.",
+        "migration-step3": "Dat was het! Zodra uw e-mailadres is gewijzigd, kunt u inloggen met uw Nash-account.",
+        "button-migrate": "Log in met de Nash-extensie",
+        "link-back": "Terug",
         "faq-change-email": {
-          "title": "How do I change my Community email address?",
-          "step1": "Once you’ve logged in to the Community, click on your avatar in the top right-hand corner of the screen.",
-          "step2": "Click on your username and select ‘Preferences’.",
-          "step3": "Click the pencil icon to edit your email address.",
-          "step4": "Enter a new email address and click ‘Change’.",
-          "step5": "You’ll receive two confirmation emails, one at your old email address and one at your new address. You’ll need to confirm both addresses to complete the change."
+          "title": "Hoe wijzig ik mijn Community e-mailadres?",
+          "step1": "Eens aangemeld bij de community, klik je op jouw avatar in de rechterbovenhoek van het scherm.",
+          "step2": "Klik op je gebruikersnaam en selecteer ‘Voorkeuren’.",
+          "step3": "Klik op het potloodpictogram om uw e-mailadres te bewerken.",
+          "step4": "Voer een nieuw e-mailadres in en klik op 'Wijzigen'.",
+          "step5": "U ontvangt twee bevestigingsmails, één op uw oude e-mailadres en één op uw nieuwe adres. Je moet beide adressen bevestigen om de wijziging te voltooien."
         }
       },
       "get-token": "Authenticating…",
