@@ -1307,107 +1307,107 @@
           "step5": "U ontvangt twee bevestigingsmails, één op uw oude e-mailadres en één op uw nieuwe adres. Je moet beide adressen bevestigen om de wijziging te voltooien."
         }
       },
-      "get-token": "Authenticating…",
-      "log-you-in": "Logging in…",
-      "unknow-error-message": "Something went wrong, please try again."
+      "get-token": "Verifiëren…",
+      "log-you-in": "Inloggen…",
+      "unknow-error-message": "Er is iets mis gegaan, probeer het alstublieft nogmaals."
     }
   },
   "basic-exchange": {
-    "title": "Basic view",
-    "title-short": "Basic",
-    "switch-to-advanced": "Switch to pro view",
+    "title": "Basisweergave",
+    "title-short": "Basis",
+    "switch-to-advanced": "Schakel over naar pro weergave",
     "create-order": {
-      "change-markets": "Change markets",
+      "change-markets": "Verander markten",
       "errors": {
-        "order-rejected-insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds": "Onvoldoende {{currencySell}} in handelscontract. Stuur fondsen om door te gaan.",
+        "order-rejected-daily-limit-reached": "Uw order is geweigerd omdat u uw dagelijkse handelslimiet hebt bereikt.",
+        "generic": "Fout bij het plaatsen van uw order. Probeer het alstublieft opnieuw."
       },
       "modals": {
         "exchange-info": {
-          "title": "How to exchange tokens",
-          "desc": "First, select the tokens you want to exchange.",
-          "price-options-header": "You have two options for choosing your price:",
+          "title": "Hoe verhandel je munten",
+          "desc": "Selecteer eerst de munten die je wilt verhandelen.",
+          "price-options-header": "U heeft twee opties om uw prijs te kiezen:",
           "average-market-price": {
-            "header": "Current market price",
-            "desc": "Place your order at current market price so that it fills sooner. Unfilled portions will cancel automatically after 24 hours."
+            "header": "Huidige marktprijs",
+            "desc": "Plaats uw order tegen de huidige marktprijs, zodat deze eerder wordt gevuld. Ongevulde porties worden na 24 uur automatisch geannuleerd."
           },
           "set-a-price": {
-            "header": "Set a price",
-            "desc": "Your order can match with orders at this price or better, but will not go beyond it. This option means your order might not all fill at once."
+            "header": "Stel een prijs in",
+            "desc": "Uw order kan overeenkomen met orders voor deze prijs of beter, maar overschrijd deze niet. Met deze optie wordt uw order mogelijks niet in 1 keer volledig gevuld."
           },
           "balances": {
-            "header": "Balances",
-            "desc": "We will tell you if your balance is insufficient for making a trade. Choose ‘Balances’ to check your account status and send/receive funds."
+            "header": "Saldi",
+            "desc": "We zullen u vertellen of uw saldo onvoldoende is om een transactie te doen. Kies ‘Saldi’ om uw accountstatus te controleren en fondsen te verzenden/ontvangen."
           }
         },
         "select-token": {
           "title": {
-            "sell": "I want to trade",
-            "buy": "I want to receive"
+            "sell": "Ik wil verhandelen",
+            "buy": "Ik wil ontvangen"
           },
           "header": {
-            "sell": "Select the token you want to trade",
-            "buy": "Select the token you want to receive"
+            "sell": "Selecteer het token dat u wilt verhandelen",
+            "buy": "Selecteer het token dat je wilt ontvangen"
           },
-          "ignore-low-balances": "Hide small balances",
+          "ignore-low-balances": "Verberg kleine saldi",
           "search": {
-            "placeholder": "Search for a token name or ticker…",
-            "no-results": "We couldn’t find any results for <0>{{search}}</0>.",
-            "no-results-no-query": "We couldn’t find any matching currencies"
+            "placeholder": "Zoek naar een tokennaam of ticker…",
+            "no-results": "We konden geen resultaten vinden voor <0>{{search}}</0>.",
+            "no-results-no-query": "We konden geen overeenkomende valuta’s vinden"
           },
           "disabled": {
-            "maintenance": "This token is under scheduled maintenance.",
-            "deposits-withdrawals-suspended": "Deposits and withdrawals are suspended until further notice."
+            "maintenance": "Dit token is onder gepland onderhoud.",
+            "deposits-withdrawals-suspended": "Stortingen en opnames worden tot nader order opgeschort."
           },
-          "trading": "Trading",
-          "personal": "Personal",
-          "24-hours": "24 hours"
+          "trading": "Handelen",
+          "personal": "Persoonlijk",
+          "24-hours": "24-uurs"
         }
       },
       "exchange-tokens": {
-        "header": "Exchange tokens",
+        "header": "Verhandel tokens",
         "fields": {
           "buy": {
-            "label": "I want to receive",
+            "label": "Ik wil ontvangen",
             "inner-label": "~{{fiatAmount}} per {{currencyBuy}}",
-            "label-estimate": "(estimate)",
-            "label-button": "Select a token to receive",
+            "label-estimate": "(schatting)",
+            "label-button": "Selecteer een te ontvangen token",
             "errors": {
-              "order-too-small": "Total must exceed {{orderSize}} {{currencyBuy}}."
+              "order-too-small": "Totaal moet {{orderSize}} {{currencyBuy}} overschrijden."
             }
           },
           "sell": {
-            "label": "I want to trade",
-            "sub-label": "{{currencySell}} available",
-            "label-button": "Select a token to trade",
+            "label": "ik wil verhandelen",
+            "sub-label": "{{currencySell}} beschikbaar",
+            "label-button": "Selecteer een token om te verhandelen",
             "errors": {
-              "insufficient-funds": "Insufficient {{currencySell}} in trading contract. Send funds to continue.",
-              "limit-breached": "This order exceeds your trading limits.",
-              "order-too-small": "Total must exceed {{orderSize}} {{currencySell}}.",
-              "transfer": "Send/Receive"
+              "insufficient-funds": "Onvoldoende {{currencySell}} in handelscontract. Stuur fondsen om door te gaan.",
+              "limit-breached": "Deze order overschrijdt uw handelslimieten.",
+              "order-too-small": "Totaal moet {{orderSize}} {{currencySell}} overschrijden.",
+              "transfer": "Verzenden/Ontvangen"
             }
           },
           "set-limit": {
-            "fixed-price-label": "Your price for {{currencyBuy}} (in {{currencySell}})",
-            "floating-price-label": "Market price of {{currencyBuy}} (in {{currencySell}})",
-            "fixed-price-on": "Set fixed price",
+            "fixed-price-label": "Uw prijs voor {{currencyBuy}} (in {{currencySell}})",
+            "floating-price-label": "Marktprijs van {{currencyBuy}} (in {{currencySell}})",
+            "fixed-price-on": "Stel een vaste prijs in",
             "errors": {
-              "price-too-high": "Cannot process prices over {{maxPrice}}."
+              "price-too-high": "Kan prijzen meer dan {{maxPrice}} niet verwerken."
             },
             "warnings": {
-              "20-below": "The specified price is more than 20% below the current market price."
+              "20-below": "De opgegeven prijs ligt meer dan 20% onder de huidige marktprijs."
             }
           }
         },
-        "toggle-limit": "Set a price for this trade",
-        "above-limit": "{{percent}}% above market",
-        "below-limit": "{{percent}}% below market",
+        "toggle-limit": "Stel een prijs in voor deze transactie",
+        "above-limit": "{{percent}}% boven marktprijs",
+        "below-limit": "{{percent}}% onder marktprijs",
         "reset": "Reset",
-        "submit": "Review trade"
+        "submit": "Kijk transactie na"
       },
       "review-order": {
-        "header": "Review your order",
+        "header": "Controleer uw order",
         "columns": {
           "market-price": "Price per {{currencyBuy}}",
           "limit-price": "Set price per {{currencyBuy}}",
