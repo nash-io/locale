@@ -1409,39 +1409,39 @@
       "review-order": {
         "header": "Controleer uw order",
         "columns": {
-          "market-price": "Price per {{currencyBuy}}",
-          "limit-price": "Set price per {{currencyBuy}}",
-          "fee": "Maximum trading fee",
-          "fiat-total": "{{currencyFiat}} estimate"
+          "market-price": "Prijs per {{currencyBuy}}",
+          "limit-price": "Prijs instellen per {{currencyBuy}}",
+          "fee": "Maximale handelskosten",
+          "fiat-total": "{{currencyFiat}} schatting"
         },
-        "desc": "Your order will remain on the book until it is filled, you cancel it, or 24 hours have passed.",
-        "submit": "Create order",
-        "submit-placing": "Placing order…"
+        "desc": "Uw bestelling blijft in het orderboek staan totdat deze is gevuld, u het annuleert of totdat er 24 uur zijn verstreken.",
+        "submit": "Creëer een order",
+        "submit-placing": "Order plaatsen…"
       },
       "order-success": {
-        "header": "Success!",
-        "desc": "Your {{currencySell}}/{{currencyBuy}} order was placed successfully.",
-        "view-my-order": "View my order",
-        "create-another-trade": "Create another trade"
+        "header": "Succes!",
+        "desc": "Uw bestelling van {{currencySell}}/{{currencyBuy}} is succesvol geplaatst.",
+        "view-my-order": "Bekijk mijn order",
+        "create-another-trade": "Maak een nieuwe transactie"
       },
       "order-failure": {
         "header": {
-          "insufficient-funds": "Insufficient funds",
-          "daily-limit-reached": "Daily limit reached",
-          "generic": "Something went wrong!"
+          "insufficient-funds": "Onvoldoende fondsen",
+          "daily-limit-reached": "Dagelijkse limiet bereikt",
+          "generic": "Er is iets fout gegaan!"
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Your trading contract balance is no longer sufficient to cover this order. This can happen if you are creating orders in multiple browser tabs at the same time.",
-            "1": "For a smoother trading experience, please use Nash in a single browser tab.",
-            "2": "<0>Send/Receive</0> funds if you wish to place this order again."
+            "0": "Uw handelscontractsaldo is niet langer voldoende om deze order te dekken. Dit kan gebeuren als u tegelijkertijd bestellingen aanmaakt op meerdere browsertabbladen.",
+            "1": "Gebruik Nash enkel op één browsertabblad voor een soepelere handelservaring.",
+            "2": "<0>Send/Receive</0> fondsen als u deze order opnieuw wilt plaatsen."
           },
           "daily-limit-reached": {
-            "0": "Your order has been rejected because you have reached your daily trading limit.",
-            "1": "To increase your maximum daily trading volume, please visit <0>Limits</0>."
+            "0": "Uw order is geweigerd omdat u uw dagelijkse handelslimiet heeft bereikt.",
+            "1": "Om uw maximale dagelijkse handelsvolume te vergroten ga naar <0>Limits</0>."
           },
           "generic": {
-            "0": "Error placing your order. Please try again."
+            "0": "Fout bij het plaatsen van uw order. Probeer het aub opnieuw."
           }
         }
       }
