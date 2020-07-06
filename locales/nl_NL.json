@@ -2095,7 +2095,7 @@
         "address-line-1": "Straatnaam",
         "address-line-1-placeholder": "Panoramastr.",
         "address-city": "Stad",
-        "address-city-placeholder": "Berlin",
+        "address-city-placeholder": "Berlijn",
         "address-postal-code": "Postcode",
         "address-postal-code-placeholder": "10178",
         "back": "Terug",
@@ -2104,107 +2104,107 @@
       }
     },
     "reconfirm": {
-      "review-header": "Review your new {{currency}} quote",
-      "received-transfer": "We received your transfer of <0 />",
-      "new-rate-in": "New rate in",
+      "review-header": "Kijk uw nieuwe {{currency}} quote na",
+      "received-transfer": "We hebben uw overdracht van ontvangen <0 />",
+      "new-rate-in": "Nieuw tarief in",
       "at": "at <0/>",
       "new-quote-secs": "{{count}}",
-      "original-quote": "Original quote",
-      "new-quote": "Your new quote",
-      "accept-new-quote": "Accept new rate",
-      "expires-in": "Declined automatically in {{timeout}}",
-      "decline-and-refund": "<0>Decline</0> and receive refund",
-      "message": "If the webpage or session is closed before accepting the new rate it will be declined automatically and your payment will be refunded."
+      "original-quote": "Oorspronkelijke quote",
+      "new-quote": "Uw nieuwe quote",
+      "accept-new-quote": "Accepteer nieuw tarief",
+      "expires-in": "Automatisch geweigerd in {{timeout}}",
+      "decline-and-refund": "<0>Weiger</0> en ontvang terugbetaling",
+      "message": "Als de webpagina of sessie wordt gesloten voordat het nieuwe tarief geaccepteerd wordt, dan wordt deze automatisch geweigerd en wordt uw betaling teruggestort."
     },
     "reconfirm-expire": {
-      "review-header": "Your quote was automatically declined",
-      "no-action": "<0>No more actions are needed from you.</0> You can now close this page.",
-      "days": "1-3 days",
-      "we-refund": "We will refund",
-      "destination": "Destination",
-      "refund-time": "Refund time",
-      "message": "The quote expired before you made a decision, or the webpage was closed without accepting or declining the new amount and rate give."
+      "review-header": "Uw quote werd automatisch afgewezen",
+      "no-action": "<0>U hoeft geen acties meer te ondernemen.</0> U kunt deze pagina nu sluiten.",
+      "days": "1-3 dagen",
+      "we-refund": "We betalen je terug",
+      "destination": "Bestemming",
+      "refund-time": "Restitutie tijd",
+      "message": "De quote is verlopen voordat u een beslissing nam, of de webpagina werd gesloten zonder het nieuwe bedrag en tarief te accepteren of te weigeren."
     },
     "reconfirm-accept": {
-      "review-header": "You accepted the new quote",
-      "you-recieve": "You will receive",
-      "destination": "Nash trading contract",
-      "destination-label": "Destination",
-      "arrival-label": "Estimated time of arrival",
-      "arrival": "As soon as possible",
-      "no-action": "<0>No more actions are needed from you.</0> You can now close this page."
+      "review-header": "U heeft de nieuwe quote geaccepteerd",
+      "you-recieve": "U ontvangt",
+      "destination": "Nash handelscontract",
+      "destination-label": "Bestemming",
+      "arrival-label": "Geschatte aankomsttijd",
+      "arrival": "Zo snel mogelijk",
+      "no-action": "<0>U hoeft geen acties meer te ondernemen.</0> YU kunt deze pagina nu sluiten."
     },
     "reconfirm-decline": {
-      "review-header": "You declined the new quote",
-      "days": "1-3 days",
-      "we-refund": "We will refund",
-      "destination": "Destination",
-      "refund-time": "Refund time",
-      "no-action": "<0>No more actions are needed from you.</0> You can now close this page."
+      "review-header": "U heeft de nieuwe quote geweigerd",
+      "days": "1-3 dagen",
+      "we-refund": "We betalen je terug",
+      "destination": "Bestemming",
+      "refund-time": "Restitutie tijd",
+      "no-action": "<0>NU hoeft geen acties meer te ondernemen.</0> U kunt deze pagina nu sluiten."
     },
     "profile": {
       "carbon": {
-        "2fa": "Carbon two-factor authentication",
-        "create-2fa": "Enable",
-        "replace-2fa": "Disable",
-        "kyc-form": "Personal details",
-        "create-kyc-form": "Add personal details",
-        "edit-kyc-form": "Edit personal details",
-        "verification-pending": "Identity verification is pending.",
-        "verification-succeeded": "Identity verification successful.",
-        "verification-failed": "Identity verification failed. Please update and resubmit your information.",
-        "verification-failed-permanently": "Identity verification failed. Please <0>contact Carbon</0>.",
-        "enable-2fa-before-proceeding": "You must <0>enable two-factor authentication for Carbon</0> to make this purchase."
+        "2fa": "Carbon twee-factor authenticatie",
+        "create-2fa": "Inschakelen",
+        "replace-2fa": "Uitschakelen",
+        "kyc-form": "Persoonlijke gegevens",
+        "create-kyc-form": "Voeg persoonlijke gegevens toe",
+        "edit-kyc-form": "Persoonlijke gegevens bewerken",
+        "verification-pending": "Identiteitsverificatie is in behandeling.",
+        "verification-succeeded": "Identiteitsverificatie geslaagd.",
+        "verification-failed": "Identiteitsverificatie mislukt. Werk uw gegevens bij en dien ze opnieuw in.",
+        "verification-failed-permanently": "Identiteitsverificatie mislukt. <0>contacteer Carbon</0> aub.",
+        "enable-2fa-before-proceeding": "U moet <0>twee-factor authenticatie inschakelen voor Carbon</0> om deze aankoop te doen."
       },
       "submit-kyc": {
-        "required-incomplete": "You must complete all required fields.",
+        "required-incomplete": "U moet alle verplichte velden invullen.",
         "required-complete": "",
-        "button": "Send details for review"
+        "button": "Stuur details door ter nazicht"
       },
       "editor": {
-        "warning": "I understand that if I resubmit this information my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
+        "warning": "Ik begrijp dat als ik deze informatie opnieuw indien, mijn account opnieuw moet worden gecontroleerd en ik geen aankopen of verkopen kan doen totdat deze beoordeling is voltooid.",
         "name": {
-          "edit": "Edit legal name",
-          "add": "Add legal name",
+          "edit": "Wettelijke naam bewerken",
+          "add": "Wettelijke naam toevoegen",
           "placeholder": "",
-          "save": "Submit legal name",
-          "warning": "I understand that if I resubmit my name, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
-          "field": "Full legal name"
+          "save": "Wettelijke naam indienen",
+          "warning": "Ik begrijp dat als ik mijn naam opnieuw indien, mijn account opnieuw moet worden gecontroleerd en ik geen aankopen of verkopen kan doen totdat deze beoordeling is voltooid.",
+          "field": "Volledige wettelijke naam"
         },
         "email": {
-          "edit": "Edit email address",
-          "add": "Add email address",
-          "label": "Email address",
+          "edit": "E-mailadres bewerken",
+          "add": "E-mailadres toevoegen",
+          "label": "E-mailadres",
           "placeholder": "",
-          "save": "Submit email address",
-          "warning": "I understand that if I change my email address, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
-          "field": "Email address"
+          "save": "E-mailadres indienen",
+          "warning": "Ik begrijp dat als ik mijn e-mailadres wijzig, mijn account opnieuw moet worden gecontroleerd en ik geen aankopen of verkopen kan doen totdat deze beoordeling is voltooid.",
+          "field": "E-mailadres"
         },
         "occupation": {
-          "placeholder": "Account manager, Company Director, Nurse, etc.",
-          "save": "Declare occupation",
-          "field": "Occupation"
+          "placeholder": "Accountmanager, Bedrijfsdirecteur, Verpleegkundige, enz.",
+          "save": "Beroepsverklaring",
+          "field": "Beroep"
         },
         "source-of-funds": {
-          "placeholder": "Savings of $1,000 per month from my job over the last two years",
-          "detailed-declaration-50-chars": "Make a detailed declaration over 50 characters.",
-          "save": "Declare source of funds",
-          "field": "What is your source of funds?",
+          "placeholder": "Spaargeld van €1.000 per maand, afkomstig van mijn baan, in de afgelopen twee jaar",
+          "detailed-declaration-50-chars": "Geef een gedetailleerde verklaring van meer dan 50 tekens.",
+          "save": "Declareer uw bron van inkomsten",
+          "field": "Wat is uw bron van inkomsten?",
           "slash": "{{currentChars}}/{{minChars}}"
         },
         "kyc-form": {
-          "edit": "Edit your details",
-          "add": "Add your details",
-          "save": "Submit your details",
-          "dob-label": "Date of birth",
-          "first-name-label": "First name",
-          "last-name-label": "Last name",
-          "country-label": "Country",
-          "state-label": "State"
+          "edit": "Uw gegevens bewerken",
+          "add": "Uw gegevens toevoegen",
+          "save": "Uw gegevens indienen",
+          "dob-label": "Geboortedatum",
+          "first-name-label": "Voornaam",
+          "last-name-label": "Achternaam",
+          "country-label": "Land",
+          "state-label": "Provincie"
         },
         "address": {
-          "edit": "Edit address",
-          "add": "Add address",
+          "edit": "Adres bewerken",
+          "add": "Adres toevoegen",
           "save": "Submit address",
           "warning": "I understand that if I change my address, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
           "building-number-label": "Building number",
