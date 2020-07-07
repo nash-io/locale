@@ -2809,8 +2809,8 @@
     "modals": {
       "verify-mnemonic": {
         "or": "ou",
-        "remindme": "Me lerappeller plus tard",
-        "dismiss": "Rejeter pour toujours",
+        "remindme": "me le rappeller plus tard",
+        "dismiss": "Ne plus jamais me le demander",
         "havent-checked": "Vous n’avez pas vérifié votre sauvegarde de douze mots",
         "will-need": "Vous aurez besoin de ces mots pour accéder à vos fonds si vous perdez votre mot de passe."
       },
@@ -2818,7 +2818,7 @@
         "title": "Envoyer/Recevoir",
         "create": {
           "asset": {
-            "label": "Quel est l’intérêt ?",
+            "label": "Quel actif ?",
             "placeholder": "Rechercher un actif…"
           },
           "choose-accounts": {
@@ -2832,7 +2832,7 @@
             "button-contacts": "Contacts",
             "select-contact": {
               "no-options": "Tapez au moins trois caractères pour rechercher un contact ou une adresse de portefeuille valide",
-              "no-results": "Aucun contact trouvé. Ce n’est pas une adresse valide.",
+              "no-results": "Aucun contact trouvé. Ceci n’est pas une adresse valide.",
               "option": {
                 "no-email": "Pas d’email",
                 "no-wallet-name": "Pas de nom de portefeuille",
@@ -2858,24 +2858,24 @@
             "loading-fee": "Frais de chargement…",
             "errors": {
               "gas-shortage": "Vous avez besoin d’au moins {{amount}} {{currencySymbol}} dans votre compte personnel pour payer les frais de réseau.",
-              "fee-shortage": "Vous devez économiser {{amount}} ETH pour les frais de réseau Ethereum.",
+              "fee-shortage": "Vous devez mettre de côté {{amount}} ETH pour les frais de réseau Ethereum.",
               "fee-shortage-trading": "Vous avez besoin de {{amount}} ETH dans votre compte personnel pour les frais de réseau Ethereum."
             }
           },
           "btc": {
             "funds-not-confirmed": "Votre solde Bitcoin nécessite six confirmations de réseau avant de pouvoir passer au contrat de trading. Veuillez patienter pendant la confirmation des transferts récents.",
-            "wait-until-external-transfer-completes": "Veuillez attendre la fin de votre transfert externe récent avant d’effectuer un dépôt.",
-            "temporary-limit": "Les dépôts et retraits de Bitcoin doivent être supérieurs à 0,001 BTC pendant que nous testons ce nouveau marché. La restriction sera levée dansdans un avenir proche avenir."
+            "wait-until-external-transfer-completes": "Veuillez attendre la fin de votre dernier transfert externe avant d’effectuer un dépôt.",
+            "temporary-limit": "Les dépôts et retraits de Bitcoin doivent être supérieurs à 0,001 BTC pendant que nous testons ce nouveau marché. La restriction sera levée dans un avenir proche."
           },
           "async": {
             "title": "Mise à jour de la transaction",
             "errors": {
-              "syncing": "Nous synchronisons vos {{currencySymbol}} fonds dans notre système. Veuillez patienter une minute et réessayer.",
-              "transaction-failed": "Votre dernière transaction d’envoi {{currencySymbol}} a échoué. Veuillez réessayer."
+              "syncing": "Nous synchronisons vos fonds {{currencySymbol}} dans notre système. Veuillez patienter une minute et réessayer.",
+              "transaction-failed": "Votre dernière transaction d’envoi de {{currencySymbol}} a échoué. Veuillez réessayer."
             }
           },
           "fees": {
-            "eth-recommended-message": "Conservez {{amount}} ETH dans mon compte personnel pour les futurs frais de réseau."
+            "eth-recommended-message": "Conserver {{amount}} ETH dans mon compte personnel pour les futurs frais de réseau."
           },
           "precision": {
             "neo-trading": "Vous ne pouvez pas envoyer ni retirer de fractions de NEO."
@@ -2885,7 +2885,7 @@
           },
           "deposit": {
             "label": "Détails de votre compte personnel",
-            "currency-address": "{{currency}} adresse",
+            "currency-address": "Adresse {{currency}}",
             "currency-address-qrcode": "{{currency}} adresse QR code",
             "currency-send-warning": "Tous les actifs autres que {{currency}} envoyés à cette adresse seront perdus!"
           },
@@ -2900,12 +2900,12 @@
             "rows": {
               "amount-label": "Vous envoyez",
               "from-label": "De",
-              "to-label": "À",
+              "to-label": "Vers",
               "fee-label": "Frais de réseau"
             }
           },
           "confirming-balance": "Veuillez patienter pendant que nous confirmons votre solde.",
-          "waiting-for-sync": "Votre solde est actuellement synchronisé avec la blockchain. Ce processus peut prendre jusqu’à deux heures. Veuillez soumettre votre transfert à nouveau dans quelques instants.",
+          "waiting-for-sync": "Votre solde est actuellement en cours de synchronisation avec la blockchain. Ce processus peut prendre jusqu’à deux heures. Veuillez lancer votre transfert à nouveau dans quelques instants.",
           "errors": {
             "send": "Échec de l’envoi. Veuillez réessayer plus tard.",
             "syncing": "Votre dernier transfert nécessite jusqu’à deux minutes pour finaliser. Veuillez patienter et réessayer.",
@@ -2919,9 +2919,9 @@
         },
         "hints": {
           "btc-gas-hint": "Un petit frais de réseau est requis lors de l’exécution des transactions.",
-          "eth-gas-hint": "Un petit frais de réseau est requis lors de l’exécution des transactions. Les frais pour les tokens basés sur Ethereum sont payés en utilisant ETH.",
-          "neo-gas-hint": "Des frais de réseau réduits sont généralement requis lors de l’exécution de transactions. Les frais pour les tokens basés sur NEO sont payés à l’aide de GAS.",
-          "eth-transfer-hint": "Bien que les transferts soient en attente, le solde indiqué ici peut ne pas être exact."
+          "eth-gas-hint": "Un petit frais de réseau est requis lors de l’exécution des transactions. Les frais pour les jetons basés sur Ethereum sont payés en utilisant ETH.",
+          "neo-gas-hint": "Un petit frais de réseau est généralement requis lors de l’exécution de transactions. Les frais pour les jetons basés sur NEO sont payés à l’aide de GAS.",
+          "eth-transfer-hint": "Pendant que des transferts sont en attente, le solde indiqué ici peut ne pas être exact."
         },
         "steps": [
           "Effectuer un transfert",
@@ -2938,7 +2938,7 @@
           "Examiner et démarrer le transfert"
         ],
         "erc-20": {
-          "approving": "Approving",
+          "approving": "En cours d'approbation",
           "title": "Approuver le transfert",
           "pre-deposit-info": "Avant de déposer {{symbol}} sur le contrat de trading, vous devez d’abord approuver un virement depuis votre compte.",
           "current-approval": "Votre approbation actuelle du contrat de trading est: {{currentErc20Approved}}"
@@ -2946,11 +2946,11 @@
         "started": {
           "title": "Transfert en cours…",
           "title-initializing": "Initialisation du transfert…",
-          "desc": "Visitez <0>Transferts</0> pour suivre son état.",
+          "desc": "Consultez <0>Transferts</0> pour suivre son état.",
           "warning": "Cela peut prendre jusqu’à une heure.",
           "remain-opened": "Veuillez garder Nash ouvert pendant l’initialisation de votre transfert. Si vous fermez Nash ou vous déconnectez, il sera suspendu jusqu’à ce que vous vous reconnectiez.",
           "buttons": {
-            "finish": "Got it!"
+            "finish": "Bien reçu !"
           }
         }
       },
@@ -2960,20 +2960,20 @@
         "actions": {
           "action-1": "Vous <0>pouvez</0> déplacer des fonds dans les deux sens entre votre compte personnel et des comptes externes.",
           "action-2": "De même, vous <0>pouvez</0> déplacer des fonds dans les deux sens entre votre compte personnel et le contrat de trading.",
-          "action-3": "Vous <0>ne pouvez pas</0> déplacer des fonds entre le contrat de trading et les comptes externes sans passer par votre compte personnel. Cela nous aide à garder les fonds utilisés pour le trading en toute sécurité: c’est toujours vous qui déposez et retirez."
+          "action-3": "Vous <0>ne pouvez pas</0> déplacer des fonds entre le contrat de trading et des comptes externes sans passer par votre compte personnel. Cela nous aide à garder les fonds utilisés pour le trading en toute sécurité: c’est toujours vous qui déposez et retirez."
         },
         "continue-button": "OK, continuer",
-        "dismiss-link": "Rejeter pour toujours et continuer"
+        "dismiss-link": "Masquer pour toujours et continuer"
       }
     },
     "transactions": {
       "title": "Transferts",
       "show-more-transactions": "Afficher plus de transferts",
       "search-my-transactions": "Rechercher mes transferts…",
-      "no-transactions": "Vous n’avez encore effectué aucun virement.",
+      "no-transactions": "Vous n’avez encore effectué aucun transferts.",
       "table": {
         "header": {
-          "title": "Tous les dépôts, retraits et transferts de contrat"
+          "title": "Tous les dépôts, retraits et transferts entre contrats"
         },
         "when": {
           "title": "Quand"
@@ -2981,19 +2981,19 @@
         "action": {
           "title": "Action",
           "status": {
-            "completed": "Achevé",
+            "completed": "Terminé",
             "pending": "En attente"
           },
           "view-transaction": "Afficher la transaction",
           "retry-pending": "Réessayer d’envoyer la transaction",
           "cancel-intent": "Annuler le transfert",
-          "clear-intent": "Clear transfer",
+          "clear-intent": "Effacer le transfert",
           "contact-support": "Veuillez contacter le support",
-          "received-currency": "Reçu {{currencySymbol}}",
-          "receiving-currency": "Réception de {{currencySymbol}}",
-          "transferred-currency": "Envoyé {{currencySymbol}}",
-          "transferring-currency": "Envoi de {{currencySymbol}}",
-          "initializing-currency": "Initialisation du transfert {{currencySymbol}}",
+          "received-currency": "{{currencySymbol}} reçu",
+          "receiving-currency": "{{currencySymbol}} en cours de réception",
+          "transferred-currency": "{{currencySymbol}} envoyé",
+          "transferring-currency": "{{currencySymbol}} en cours d'envoi",
+          "initializing-currency": "Initialisation du transfert de {{currencySymbol}}",
           "failed-permanently": "Échec du transfert de {{currencySymbol}}"
         },
         "destination": {
