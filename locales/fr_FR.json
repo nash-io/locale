@@ -2999,16 +2999,16 @@
         "destination": {
           "title": "Destination",
           "to": {
-            "trading-account": "Trading contract",
-            "personal-account": "Personal account",
+            "trading-account": "Contrat de trading",
+            "personal-account": "Compte personnel",
             "staking-account": "Contrat de staking NEX",
-            "fees": "Honoraires"
+            "fees": "Frais"
           },
           "from": {
-            "trading-account": "Du contrat de trading",
-            "personal-account": "De mon compte personnel",
-            "nash-fiat-ramp": "Achat auprès de Nash",
-            "external-address": "De <0 />"
+            "trading-account": "Depuis le contrat de trading",
+            "personal-account": "Depuis mon compte personnel",
+            "nash-fiat-ramp": "Achat depuis Nash",
+            "external-address": "Depuis <0 />"
           }
         },
         "amount": {
@@ -3019,7 +3019,7 @@
     "portfolio": {
       "title": "Portefeuille",
       "header": {
-        "search-placeholder": "Rechercher mes actifs…"
+        "search-placeholder": "Rechercher dans mes actifs…"
       },
       "table": {
         "header": {
@@ -3034,20 +3034,20 @@
           },
           "total-balance": {
             "title": "Total",
-            "hint": "Total sur tous les comptes, ordre et enjeux."
+            "hint": "Total sur tous les comptes, ordres et stakes."
           },
           "fiat-value": {
             "title": "Valeur ({{fiatCurrency}})"
           },
           "price": {
-            "title": "Prix/24h variation"
+            "title": "Évolution du prix sur 24h"
           },
           "allocation-percent": {
             "title": "Allocation",
             "hint": "Le pourcentage de votre portefeuille détenu dans chaque actif."
           },
           "action-buttons": {
-            "trade": "Echanger"
+            "trade": "Trade"
           }
         },
         "no-results-problem": "Votre compte Nash est actuellement vide.",
@@ -3061,7 +3061,7 @@
         "total": "Total",
         "available": {
           "title": "Disponible",
-          "hint": "Vous pouvez déplacer ces fonds. Ils se trouvent soit dans votre compte personnel, soit dans le contrat de trading. Les fonds qui ne sont pas disponibles sont soit bloqués dans des ordres en attente ou des participations NEX, soit sont en cours de transfert."
+          "hint": "Vous pouvez déplacer ces fonds. Ils se trouvent soit dans votre compte personnel, soit dans le contrat de trading. Les fonds qui ne sont pas disponibles sont soit bloqués dans des ordres ouverts ou des stakes NEX, soit sont en cours de transfert."
         },
         "transfer-funds": "Envoyer/Recevoir"
       },
@@ -3089,7 +3089,7 @@
         "available-assets": "Actifs disponibles",
         "in-personal": "Compte personnel",
         "in-trading": "Contrat de trading",
-        "in-unfilled-orders": "Unfilled orders",
+        "in-unfilled-orders": "Ordres non remplis",
         "in-stake": "NEX stakés",
         "learn-more": "En apprendre davantage"
       }
@@ -3102,25 +3102,25 @@
       "rank": "Rang",
       "asset": "Actif",
       "last-price": "Dernier prix",
-      "change": "Changement",
-      "market-cap": "Capitalisation boursière",
+      "change": "Évolution",
+      "market-cap": "Capitalisation du marché",
       "volume": "Volume",
       "pair": "Paire",
-      "1d-change": "Changement sur 24h",
-      "1d-high": "24h high",
-      "1d-low": "24h low",
+      "1d-change": "Évolution sur 24h",
+      "1d-high": "Plus haut 24h",
+      "1d-low": "Plus bas 24h",
       "1d-volume": "Volume sur 24h",
-      "1w-change": "Changement sur 1 semaine",
+      "1w-change": "Évolution sur 1 semaine",
       "1w-high": "Plus haut sur 1 semaine",
       "1w-low": "Plus bas sur 1 semaine",
       "1w-volume": "Volume sur 1 semaine",
-      "1m-change": "Changement sur 1 mois",
+      "1m-change": "Évolution sur 1 mois",
       "1m-high": "Plus haut sur 1 mois",
       "1m-low": "Plus bas sur 1 mois",
       "1m-volume": "Volume sur 1 mois"
     },
     "buttons": {
-      "trade": "Echanger"
+      "trade": "Trade"
     },
     "trade-frequency": {
       "1h": "1h",
@@ -3149,25 +3149,25 @@
     "transfer-funds": {
       "what-asset": "Quel actif?",
       "select-asset": "Sélectionnez un actif",
-      "transfer-from": "De",
-      "to-destination": "À",
+      "transfer-from": "Depuis",
+      "to-destination": "Vers",
       "send-only-currency": "Envoyez uniquement {{currency}} à cette adresse",
       "transfer-details": "Détails du transfert",
       "you-are-transfering": "Vous transférez",
       "you-are-sending": "Vous envoyez",
-      "enter-2fa-code": "Entrez votre code d’authentification à deux facteurs",
+      "enter-2fa-code": "Entrez votre code d’authentification en deux temps",
       "transfer-funds": "Envoyer/Recevoir",
       "create-transfer": "Créer un transfert",
-      "review-and-start-transfer": "Examiner et démarrer le transfert",
+      "review-and-start-transfer": "Examiner et lancer le transfert",
       "transfer-has-started": "Votre transfert a commencé",
-      "check-tranfer-info-part1": "Vous pouvez vérifier la progression de votre transfert dans le",
-      "check-tranfer-info-link": "Transactions",
-      "check-tranfer-info-part2": "Section ‘Fonds’.",
+      "check-tranfer-info-part1": "Vous pouvez vérifier la progression de votre transfert dans l'onglet",
+      "check-tranfer-info-link": "Transferts",
+      "check-tranfer-info-part2": "de la section ‘Fonds’.",
       "external-address": "Adresse externe",
       "asset-to-transfer": "Actif à transférer",
       "transfer-funds-to-external": "Envoyer des fonds à une adresse externe",
-      "send-funds": "Envoyez de l’argent",
-      "withdrawal-details": "Détails de retrait",
+      "send-funds": "Envoyez des fonds",
+      "withdrawal-details": "Détails du retrait",
       "to-external-address": "Vers une adresse externe",
       "request-sent-to-blockchain": "Votre demande de transfert a été envoyée à la blockchain."
     },
@@ -3183,18 +3183,18 @@
     },
     "common": {
       "continue-and-review": "Continuer",
-      "finish": "terminer"
+      "finish": "Terminer"
     },
     "form-amount": {
       "amount-to-transfer": "Montant",
       "recipients-address": "Adresse du destinataire",
-      "enter-their-wallet": "Entrez leur adresse de portefeuille",
+      "enter-their-wallet": "Entrez son adresse de portefeuille",
       "check-destination-title": "Vérifiez votre adresse de destination deux fois.",
       "check-destination-description": "L’envoi de fonds à la mauvaise adresse signifie que vous perdrez ces fonds pour toujours."
     },
     "form-wallet": {
       "confirmations": "Confirmations",
-      "confirmations-count": "Ce jeton prendra {{confirmationsCount}} confirmations pour apparaître dans votre portefeuille. Vous pouvez consulter l’état de votre dépôt sous ‘Fonds> Transactions’."
+      "confirmations-count": "Ce jeton prendra {{confirmationsCount}} confirmations pour apparaître dans votre portefeuille. Vous pouvez consulter l’état de votre dépôt sous ‘Fonds > Transfers’."
     },
     "send-confirmation-box": {
       "only-send-one-asset": "Envoyez uniquement {{currency}} à cette adresse.",
