@@ -2912,107 +2912,107 @@
             "insufficient-funds": "Uw huidige saldo is onvoldoende voor deze overboeking of u heeft momenteel een overboeking in behandeling. Wacht a.u.b. en probeer het opnieuw."
           },
           "buttons": {
-            "back": "Back",
-            "transfer-funds": "Send",
-            "confirming": "Confirming…"
+            "back": "Terug",
+            "transfer-funds": "Verzend",
+            "confirming": "Bevestigen…"
           }
         },
         "hints": {
-          "btc-gas-hint": "A small network fee is required when performing transactions.",
-          "eth-gas-hint": "A small network fee is required when performing transactions. Fees for Ethereum-based tokens are paid using ETH.",
-          "neo-gas-hint": "A small network fee is usually required when performing transactions. Fees for NEO-based tokens are paid using GAS.",
-          "eth-transfer-hint": "While transfers are pending, the balance shown here may not be accurate."
+          "btc-gas-hint": "Bij het uitvoeren van transacties is een kleine netwerkvergoeding vereist.",
+          "eth-gas-hint": "Bij het uitvoeren van transacties is een kleine netwerkvergoeding vereist. Kosten voor op Ethereum gebaseerde tokens worden betaald met ETH.",
+          "neo-gas-hint": "Bij het uitvoeren van transacties is meestal een kleine netwerkvergoeding vereist. Kosten voor op NEO gebaseerde tokens worden betaald met GAS.",
+          "eth-transfer-hint": "Terwijl overdrachten in behandeling zijn, is het hier weergegeven saldo mogelijk niet nauwkeurig."
         },
         "steps": [
-          "Create a transfer",
-          "Review and start transfer"
+          "Maak een overschrijving",
+          "Controleer en start de overschrijving"
         ],
         "maybe-approval-steps": [
-          "Create a transfer",
-          "Approval (if necessary)",
-          "Review and start transfer"
+          "Maak een overschrijving",
+          "Goedkeuring (indien nodig)",
+          "Controleer en start de overschrijving"
         ],
         "approval-steps": [
-          "Create a transfer",
-          "Approval",
-          "Review and start transfer"
+          "Maak een overschrijving",
+          "Goedkeuring",
+          "Controleer en start de overschrijving"
         ],
         "erc-20": {
-          "approving": "Approving",
-          "title": "Approve transfer",
-          "pre-deposit-info": "Before depositing {{symbol}} to the trading contract, you must first approve a transfer from your account.",
-          "current-approval": "Your current approval to the trading contract is: {{currentErc20Approved}}"
+          "approving": "Goedkeuren",
+          "title": "Overdracht goedkeuren",
+          "pre-deposit-info": "Voordat u {{symbol}} op het handelscontract stort, moet u eerst de overboeking vanuit uw account goedkeuren.",
+          "current-approval": "Uw huidige goedkeuring naar het handelscontract is: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transfer in progress…",
-          "title-initializing": "Transfer initializing…",
-          "desc": "Visit <0>Transfers</0> to track its status.",
-          "warning": "This can take up to one hour.",
-          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
+          "title": "Overdracht wordt uitgevoerd…",
+          "title-initializing": "Overdracht wordt geïnitialiseerd…",
+          "desc": "Bezoek <0>Transfers</0> om de status op te volgen.",
+          "warning": "Dit kan tot een uur duren.",
+          "remain-opened": "Houd Nash open terwijl uw overdracht wordt geïnitialiseerd. Als je Nash sluit of uitlogt, wordt het onderbroken totdat je weer inlogt.",
           "buttons": {
-            "finish": "Got it!"
+            "finish": "Begrepen!"
           }
         }
       },
       "transfer-info": {
-        "title": "Funds can be transferred as follows",
-        "notice": "You can only trade on the Nash Exchange once you have sent funds to the trading contract.",
+        "title": "Fondsen kunnen als volgt worden overgedragen",
+        "notice": "U kunt enkel op de Nash Exchange handelen als u geld naar het handelscontract heeft gestuurd.",
         "actions": {
-          "action-1": "You <0>can</0> move funds back and forth between your personal account and external accounts.",
-          "action-2": "Likewise, you <0>can</0> move funds back and forth between your personal account and the trading contract.",
-          "action-3": "You <0>cannot</0> move funds between the trading contract and external accounts without going through your personal account. This helps us keep funds used for trading secure: it’s always you depositing and withdrawing."
+          "action-1": "U <0>kunt</0> fondsen heen en weer verplaatsen tussen uw persoonlijke account en externe accounts.",
+          "action-2": "Evenzo <0>kunt</0> u fondsen heen en weer verplaatsen tussen uw persoonlijke account en het handelscontract.",
+          "action-3": "U kunt <0>geen</0> fondsen transfereren tussen het handelscontract en externe rekeningen zonder via uw persoonlijke account te gaan. Dit helpt ons de handelsfondsen veilig te houden: het is altijd u die stort en opneemt."
         },
-        "continue-button": "OK, continue",
-        "dismiss-link": "Dismiss forever and continue"
+        "continue-button": "OK, ga verder",
+        "dismiss-link": "Dit niet meer herhalen. Ga verder"
       }
     },
     "transactions": {
       "title": "Transfers",
-      "show-more-transactions": "Show more transfers",
-      "search-my-transactions": "Search my transfers…",
-      "no-transactions": "You haven’t made any transfers yet.",
+      "show-more-transactions": "Toon meer transfers",
+      "search-my-transactions": "Doorzoek mijn transfers…",
+      "no-transactions": "U heeft nog geen transfers gedaan.",
       "table": {
         "header": {
-          "title": "All deposits, withdrawals and contract transfers"
+          "title": "Alle stortingen, opnames en contractoverdrachten"
         },
         "when": {
-          "title": "When"
+          "title": "Wanneer"
         },
         "action": {
-          "title": "Action",
+          "title": "Actie",
           "status": {
-            "completed": "Complete",
-            "pending": "Pending"
+            "completed": "Klaar",
+            "pending": "In overdracht"
           },
-          "view-transaction": "View transaction",
-          "retry-pending": "Retry sending transaction",
-          "cancel-intent": "Cancel transfer",
-          "clear-intent": "Clear transfer",
-          "contact-support": "Please contact support",
-          "received-currency": "Received {{currencySymbol}}",
-          "receiving-currency": "Receiving {{currencySymbol}}",
-          "transferred-currency": "Sent {{currencySymbol}}",
-          "transferring-currency": "Sending {{currencySymbol}}",
-          "initializing-currency": "Initializing {{currencySymbol}} transfer",
-          "failed-permanently": "{{currencySymbol}} transfer failed"
+          "view-transaction": "Bekijk transactie",
+          "retry-pending": "Probeer de transactie opnieuw te verzenden",
+          "cancel-intent": "Annuleer transfer",
+          "clear-intent": "Wis transfer",
+          "contact-support": "Neem contact op met support",
+          "received-currency": "Ontvangen {{currencySymbol}}",
+          "receiving-currency": "Ontvangen {{currencySymbol}}",
+          "transferred-currency": "Verzonden {{currencySymbol}}",
+          "transferring-currency": "Verzenden {{currencySymbol}}",
+          "initializing-currency": "{{currencySymbol}} transfer initialiseren",
+          "failed-permanently": "{{currencySymbol}} transfer mislukt"
         },
         "destination": {
-          "title": "Destination",
+          "title": "Bestemming",
           "to": {
-            "trading-account": "Trading contract",
-            "personal-account": "Personal account",
+            "trading-account": "Handelscontract",
+            "personal-account": "Persoonlijk account",
             "staking-account": "NEX staking contract",
-            "fees": "Fees"
+            "fees": "Kosten"
           },
           "from": {
-            "trading-account": "From the trading contract",
-            "personal-account": "From my personal account",
-            "nash-fiat-ramp": "Purchase from Nash",
-            "external-address": "From <0 />"
+            "trading-account": "Vanuit het handelscontract",
+            "personal-account": "Vanuit mijn persoonlijke account",
+            "nash-fiat-ramp": "Koop van Nash",
+            "external-address": "Van <0 />"
           }
         },
         "amount": {
-          "title": "Amount"
+          "title": "Hoeveelheid"
         }
       }
     },
