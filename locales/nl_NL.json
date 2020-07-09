@@ -2601,105 +2601,105 @@
         "sell-limits": "Verkooplimiet"
       },
       "buy-steps": {
-        "review-quote": "Review your quote",
-        "make-payment": "Make your payment",
-        "upload-proof-of-payment": "Upload proof of payment"
+        "review-quote": "Kijk uw quote na",
+        "make-payment": "Voer uw betaling uit",
+        "upload-proof-of-payment": "Betalingsbewijs uploaden"
       },
       "error": {
-        "invalid-data": "Invalid data.",
-        "unhandled-error": "An unhandled error occurred. Please reload then try again."
+        "invalid-data": "Incorrecte data.",
+        "unhandled-error": "Er is een onverwerkte fout opgetreden. Hernieuw de pagina en probeer het opnieuw."
       },
       "validation": {
-        "first-name-required": "First name is required.",
-        "first-name-characters-invalid": "First name must only contain letters and hyphens.",
-        "last-name-required": "Last name is required.",
-        "last-name-characters-invalid": "Last name must only contain letters and hyphens.",
-        "email-required": "Email is required.",
-        "email-invalid": "Email must be valid.",
-        "date": "Invalid date",
-        "month": "Invalid month",
-        "year": "Invalid year",
-        "zip": "Postcode must be between four and ten digits",
-        "verification-code-invalid": "Invalid verification code.",
-        "bank-name-required": "Bank name is required.",
-        "iban-required": "IBAN is required.",
-        "iban-too-short": "IBAN must be at least 16 characters in length.",
-        "iban-too-long": "IBAN must not exceed 34 characters in length.",
-        "iban-characters-invalid": "IBAN must only contain letters and numbers.",
-        "iban-country-code-invalid": "IBAN must begin with a valid two-letter country code.",
-        "iban-already-used": "IBAN already associated with an account.",
-        "swift-required": "SWIFT/BIC is required.",
-        "swift-length-invalid": "SWIFT/BIC must be between 8 and 11 characters."
+        "first-name-required": "Voornaam is verplicht.",
+        "first-name-characters-invalid": "De voornaam mag alleen letters en koppeltekens bevatten.",
+        "last-name-required": "Achternaam is verplicht.",
+        "last-name-characters-invalid": "De achternaam mag alleen letters en koppeltekens bevatten.",
+        "email-required": "E-mail is verplicht.",
+        "email-invalid": "E-mail moet geldig zijn.",
+        "date": "Ongeldige datum",
+        "month": "Ongeldige maand",
+        "year": "Ongeldig jaar",
+        "zip": "Postcode moet tussen de vier en tien cijfers bevatten",
+        "verification-code-invalid": "Ongeldige verificatiecode.",
+        "bank-name-required": "Banknaam is vereist.",
+        "iban-required": "IBAN is vereist.",
+        "iban-too-short": "IBAN moet minimaal 16 tekens lang zijn.",
+        "iban-too-long": "IBAN mag niet langer zijn dan 34 tekens.",
+        "iban-characters-invalid": "IBAN mag alleen letters en cijfers bevatten.",
+        "iban-country-code-invalid": "IBAN moet beginnen met een geldige tweeletterige landcode.",
+        "iban-already-used": "IBAN is al gekoppeld aan een account.",
+        "swift-required": "SWIFT/BIC is vereist.",
+        "swift-length-invalid": "SWIFT/BIC moet tussen de 8 en 11 tekens bevatten."
       },
       "profile-status": {
-        "incomplete": "Complete your profile to increase your limits.",
-        "pending": "Identity verification is pending.",
-        "succeeded": "Identity verification succeeded.",
-        "failed": "Identity verification failed."
+        "incomplete": "Voltooi je profiel om je limieten te verhogen.",
+        "pending": "Identiteitsverificatie is in behandeling.",
+        "succeeded": "Identiteitsverificatie geslaagd.",
+        "failed": "Identiteitsverificatie mislukt."
       },
       "field-status": {
-        "incomplete": "Incomplete",
-        "pending": "Pending",
-        "rejected": "Rejected",
-        "accepted": "Verified",
-        "completed": "Complete"
+        "incomplete": "Onvolledig",
+        "pending": "In behandeling",
+        "rejected": "Geweigerd",
+        "accepted": "Geverifieerd",
+        "completed": "Klaar"
       },
       "link": {
-        "add": "Add",
-        "edit": "Edit"
+        "add": "Toevoegen",
+        "edit": "Bewerken"
       },
       "heading": {
-        "add-phone-number": "Add your phone number",
-        "add-residential-address": "Add your residential address",
-        "government-id-or-passport": "Upload identity document",
-        "utility-bill": "Upload utility bill",
-        "selfie-with-id": "Upload selfie with ID",
-        "upload-proof-of-payment": "Upload proof of payment",
-        "success": "Success!"
+        "add-phone-number": "Voeg uw telefoonnummer toe",
+        "add-residential-address": "Voeg uw woonadres toe",
+        "government-id-or-passport": "Identiteitsbewijs uploaden",
+        "utility-bill": "Energierekening uploaden",
+        "selfie-with-id": "Selfie met identiteitskaart uploaden",
+        "upload-proof-of-payment": "Betalingsbewijs uploaden",
+        "success": "Geslaagd!"
       },
       "button": {
-        "cancel": "Cancel",
-        "continue": "Continue",
-        "submit": "Submit",
-        "submit-verification-code": "Submit verification code",
-        "transfer-initiated": "I’ve made this transfer",
-        "submit-proof-of-payment": "Submit proof"
+        "cancel": "Annuleer",
+        "continue": "Doorgaan",
+        "submit": "Indienen",
+        "submit-verification-code": "Verificatiecode indienen",
+        "transfer-initiated": "Ik heb deze overschrijving gemaakt",
+        "submit-proof-of-payment": "Bewijs indienen"
       },
       "details-shared": {
-        "title": "{{ccpro}} has sent you an email!",
-        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
-        "button": "Resend verification email"
+        "title": "{{ccpro}} heeft u een e-mail gestuurd!",
+        "desc": "<0>Controleer uw e-mail en verifieer uw account met {{ccpro}}.</0><0>Als je hun e-mailadres niet ziet, controleer dan je ongewenste e-mail map.</0>",
+        "button": "Verificatie-e-mail opnieuw verzenden"
       },
       "transactions": {
         "order-id": "Order ID",
-        "date-created": "Created",
-        "action": "Action",
-        "cost": "Cost",
-        "amount": "Amount",
-        "no-transactions": "You haven’t bought or sold any digital assets yet."
+        "date-created": "Gecreëerd",
+        "action": "Actie",
+        "cost": "Kost",
+        "amount": "Hoeveelheid",
+        "no-transactions": "U heeft nog geen digitale activa gekocht of verkocht."
       },
       "payment-methods": {
-        "currency": "Currency",
-        "bank-name": "Bank name",
+        "currency": "Valuta",
+        "bank-name": "Banknaam",
         "iban": "IBAN",
         "swift": "SWIFT/BIC",
-        "remove-bank-account": "Remove {{iban}}?"
+        "remove-bank-account": "Verwijder {{iban}}?"
       },
       "editor": {
         "phone": {
-          "enter-phone-number": "Enter phone number",
-          "verify-phone-number": "Verify phone number",
-          "label": "Enter your phone number",
-          "desc": "A ten-digit code will be sent via SMS to verify your phone number.",
-          "code-not-received": "Didn’t receive a code via SMS? <0>Resend it</0>.",
-          "resending-code": "Resending verification code…",
-          "code-label": "Enter the verification code sent to your phone.",
-          "back": "Back",
-          "verify": "Verify"
+          "enter-phone-number": "Voer telefoonnummer in",
+          "verify-phone-number": "Verifieer telefoonnummer",
+          "label": "Voer uw telefoonnummer in",
+          "desc": "Er wordt een tiencijferige code verzonden via sms om uw telefoonnummer te verifiëren.",
+          "code-not-received": "Geen code ontvangen via sms? <0>Opnieuw verzenden</0>.",
+          "resending-code": "Verificatiecode wordt opnieuw verzonden…",
+          "code-label": "Voer de verificatiecode in die naar uw telefoon is gestuurd.",
+          "back": "Terug",
+          "verify": "Verifieer"
         },
         "national-id": {
-          "upload-label": "Upload two <0>separate photographs</0> of your national ID, one of the front and one of the back.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Upload twee <0> afzonderlijke foto's </0> van uw nationale identiteitskaart, een van de voorkant en een van de achterkant.",
+          "upload-label-format": "Bestandsextensies geaccepteerd: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale bestandsgrootte: 10MB."
         },
         "passport": {
           "upload-label": "Upload one photograph of your passport information.",
