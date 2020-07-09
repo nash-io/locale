@@ -2702,19 +2702,19 @@
           "upload-label-format": "Bestandsextensies geaccepteerd: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale bestandsgrootte: 10MB."
         },
         "passport": {
-          "upload-label": "Upload one photograph of your passport information.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Upload een foto van uw paspoortinformatie.",
+          "upload-label-format": "Bestandsextensies geaccepteerd: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale bestandsgrootte: 10MB."
         },
         "utility-bill": {
-          "upload-label": "Upload one photograph of a recent utility bill.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Upload een foto van een recente energierekening.",
+          "upload-label-format": "Bestandsextensies geaccepteerd: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale bestandsgrootte: 10MB."
         },
         "selfie-with-id": {
-          "upload-label": "Upload one photograph of yourself holding both a piece of paper with ‘cryptocoin.pro’ written on it and your passport or national ID.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Upload een foto van jezelf met zowel een stuk papier waarop ‘cryptocoin.pro’ staat geschreven als je paspoort of nationale identiteitskaart.",
+          "upload-label-format": "Bestandsextensies geaccepteerd: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale bestandsgrootte: 10MB."
         },
         "bank-account": {
-          "bank-name-placeholder": "Enter your bank’s name",
+          "bank-name-placeholder": "Voer de naam van uw bank in",
           "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. CLBABU7S"
         }
@@ -2722,88 +2722,88 @@
     }
   },
   "funds": {
-    "title": "Funds",
-    "deposit-currency": "Deposit {{currencySymbol}}",
-    "your-currency-balances": "Your {{currencySymbol}} balances",
+    "title": "Fondsen",
+    "deposit-currency": "Storting {{currencySymbol}}",
+    "your-currency-balances": "Uw {{currencySymbol}} saldi",
     "resetting-account": {
-      "title": "Resync your trading contract balance.",
-      "desc": "This will release funds stuck in a ‘Pending’ state. This process will cancel open trade orders.",
-      "button": "Resync account",
-      "resyncing": "Resyncing…",
-      "error": "Resync failed. Please <0>contact support.</0>",
-      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
-      "success": "Resync successful!"
+      "title": "Hersynchroniseer uw handelscontractsaldo.",
+      "desc": "Hierdoor worden fondsen vrijgegeven die vastzitten in de 'In behandeling' status. Dit proces annuleert open handelsorders.",
+      "button": "Account hersynchroniseren",
+      "resyncing": "Hersynchroniseren…",
+      "error": "Hersynchronisatie mislukt. Contacteer <0>contact support.</0>",
+      "wait-error": "Wacht a.u.b. minimaal 2 uur na uw laatste storting voordat u deze pagina gebruikt.",
+      "success": "Hersynchronisatie geslaagd!"
     },
     "transaction-retry": {
-      "title": "Retry transactions",
-      "subtitle": "All pending or failed deposits or withdrawals",
-      "actions-title": "Actions",
-      "button-title": "Retry",
-      "button-sending": "Sending…",
-      "button-sent": "Resent",
-      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
+      "title": "Herprobeer transactie",
+      "subtitle": "Alle lopende of mislukte stortingen of opnames",
+      "actions-title": "Acties",
+      "button-title": "Herprobeer",
+      "button-sending": "Bezig met verzenden…",
+      "button-sent": "Herverzenden",
+      "nothing-to-retry": "U heeft geen lopende stortingen of opnames in behandeling.",
       "status": {
         "title": "Status",
-        "created": "Created",
-        "pending": "Pending"
+        "created": "Gecreëerd",
+        "pending": "In behandeling"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page."
+      "fetch-movements-error": "Fout bij het ophalen van uw gegevens. Gelieve de pagina te vernieuwen."
     },
     "assets": {
-      "title": "Assets",
-      "tabs-info-button": "Learn about sending and receiving funds",
+      "title": "Activa",
+      "tabs-info-button": "Lees meer over het verzenden en ontvangen van fondsen",
       "header": {
-        "title": "Assets",
-        "search-placeholder": "Search over 3,000 assets…"
+        "title": "Activa",
+        "search-placeholder": "Doorzoek meer dan 3.000 activa…"
       },
       "transferring-funds": {
-        "title": "Sending and receiving funds",
-        "desc": "<0>If you want to trade, you’ll have to send funds to the trading contract.</0> <1>You may only send funds to the trading contract from your personal account.</1>",
-        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
-        "learn-more": "Learn more",
-        "never-show": "Never show me this again."
+        "title": "Fondsen overmaken en ontvangen",
+        "desc": "<0>Als u wilt handelen, moet u fondsen naar het handelscontract sturen.</0> <1>U mag alleen vanaf uw persoonlijke account fondsen sturen naar het handelscontract.</1>",
+        "learn-more-never-show": "<0>Leer meer</0> of <1>laat me dit nooit meer zien</1>.",
+        "learn-more": "Leer meer",
+        "never-show": "Laat me dit nooit meer zien."
       },
       "table": {
         "header": {
-          "title": "Balances",
+          "title": "Saldi",
           "actions": {
-            "hide-zero-balances": "Hide zero balances"
+            "hide-zero-balances": "Nulwaarde saldi verbergen"
           }
         },
         "claim-gas": {
-          "claiming": "Claiming…",
-          "claim": "Claim GAS",
-          "gas-to-claim": "You have {{amount}} GAS to claim.",
-          "claiming-now": "You are currently claiming GAS.",
-          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
-          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
+          "claiming": "Claimen…",
+          "claim": "GAS claimen",
+          "gas-to-claim": "U kan {{amount}} GAS claimen.",
+          "claiming-now": "U claimt momenteel GAS.",
+          "claiming-locked": "U kan opnieuw GAS claimen in ~{{count}} minuut.",
+          "claiming-locked_plural": "U kan opnieuw GAS claimen in ~{{count}} minuten."   
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Activa"
           },
           "personal-account": {
-            "title": "Personal account"
+            "title": "Persoonlijk account"
           },
           "trading-account": {
-            "title": "Trading contract"
+            "title": "Handelscontract"
           },
           "in-orders": {
             "title": "In orders"
           },
           "pending": {
-            "title": "Pending",
-            "hint": "Transfers being processed by the blockchain."
+            "title": "In behandeling",
+            "hint": "Overdrachten worden verwerkt door de blockchain."
           },
           "tradeable": {
-            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
+            "hint": "Dit activum wordt momenteel niet verhandeld op Nash, maar u kunt het wel nog steeds opnemen als u een saldo in het handelscontract heeft."
           },
           "action-buttons": {
-            "trade": "Trade",
-            "transfer-funds": "Send/Receive"
+            "trade": "Handel",
+            "transfer-funds": "Verzenden/ontvangen"
           }
         },
-        "no-results": "There are not yet any assets in your Nash account."
+        "no-results": "Er zijn nog geen activa op uw Nash-account."
       }
     },
     "modals": {
