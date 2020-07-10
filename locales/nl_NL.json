@@ -3007,7 +3007,7 @@
           "from": {
             "trading-account": "Vanuit het handelscontract",
             "personal-account": "Vanuit mijn persoonlijke account",
-            "nash-fiat-ramp": "Koop van Nash",
+            "nash-fiat-ramp": "Kopen van Nash",
             "external-address": "Van <0 />"
           }
         },
@@ -3019,104 +3019,104 @@
     "portfolio": {
       "title": "Portfolio",
       "header": {
-        "search-placeholder": "Search my assets…"
+        "search-placeholder": "Doorzoek mijn activa…"
       },
       "table": {
         "header": {
-          "title": "My assets",
+          "title": "Mijn activa",
           "actions": {
-            "hide-small-balances": "Hide small balances"
+            "hide-small-balances": "Verberg kleine saldi"
           }
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Activa"
           },
           "total-balance": {
-            "title": "Total",
-            "hint": "Total across all accounts, orders and stakes."
+            "title": "Totaal",
+            "hint": "Totaal voor alle accounts, order en stakes."
           },
           "fiat-value": {
-            "title": "Value ({{fiatCurrency}})"
+            "title": "Waarde ({{fiatCurrency}})"
           },
           "price": {
-            "title": "Price/24h change"
+            "title": "Prijs/24u wijziging"
           },
           "allocation-percent": {
-            "title": "Allocation",
-            "hint": "The percentage of your portfolio held in each asset."
+            "title": "Allocatie",
+            "hint": "Het percentage van uw portefeuille in elk activum."
           },
           "action-buttons": {
-            "trade": "Trade"
+            "trade": "Handel"
           }
         },
-        "no-results-problem": "Your Nash account is currently empty.",
-        "no-results-solution": "<0>Send/Receive</0> funds to get started."
+        "no-results-problem": "Uw Nash-account is momenteel leeg.",
+        "no-results-solution": "Om te beginnen <0>Verzend/ontvang</0> fondsen."
       },
       "balances": {
         "header": {
           "title": "Portfolio",
-          "hint": "The total value of your assets and 24-hour change."
+          "hint": "De totale waarde van uw activa en 24-uurs wijziging."
         },
-        "total": "Total",
+        "total": "Totaal",
         "available": {
-          "title": "Available",
-          "hint": "You are able to move these funds. They are either in your personal account or the trading contract. Funds that are not available are either locked in unfilled orders or NEX stakes, or are currently in the process of being transferred."
+          "title": "Beschikbaar",
+          "hint": "U kunt deze fondsen verplaatsen. Ze staan in uw persoonlijke account of in het handelscontract. Fondsen die niet beschikbaar zijn, zijn oftewel vergrendeld in niet-gevulde orders of NEX-stakes, oftewel zitten ze momenteel in transfer."
         },
-        "transfer-funds": "Send/Receive"
+        "transfer-funds": "Verzenden/ontvangen"
       },
       "chart": {
         "header": {
-          "title": "Total asset value",
-          "hint": "Track how the value of your portfolio has changed over time."
+          "title": "Totale activawaarde",
+          "hint": "Houd bij hoe de waarde van uw portfolio in de loop van de tijd is veranderd."
         },
         "period": {
           "6M": "6M",
           "1M": "1M",
           "7D": "1w",
-          "1D": "24h"
+          "1D": "24u"
         },
         "empty": {
-          "heading": "Your portfolio is currently empty",
-          "body": "<0>Send/Receive</0> funds or <1>buy from our partners</1> to get started."
+          "heading": "Uw portfolio is momenteel leeg",
+          "body": "<0>Verstuur/ontvang</0> fondsen of <1>koop bij onze partners</1> om te beginnen."
         }
       },
       "total-balance": {
         "header": {
-          "title": "Balances",
-          "hint": "You are in complete control of all these funds."
+          "title": "Saldi",
+          "hint": "U heeft de volledige controle over al deze fondsen."
         },
-        "available-assets": "Available assets",
-        "in-personal": "Personal account",
-        "in-trading": "Trading contract",
-        "in-unfilled-orders": "Unfilled orders",
-        "in-stake": "Staked NEX",
-        "learn-more": "Learn more"
+        "available-assets": "Beschikbare activa",
+        "in-personal": "Persoonlijk account",
+        "in-trading": "Handelscontract",
+        "in-unfilled-orders": "Ongevulde orders",
+        "in-stake": "Gestaked NEX",
+        "learn-more": "Leer meer"
       }
     }
   },
   "markets": {
-    "title": "Markets",
+    "title": "Markten",
     "volume-short": "vol.",
     "columns": {
-      "rank": "Rank",
-      "asset": "Asset",
-      "last-price": "Last price",
-      "change": "Change",
-      "market-cap": "Market cap",
+      "rank": "Rang",
+      "asset": "Activum",
+      "last-price": "Laatste prijs",
+      "change": "Verandering",
+      "market-cap": "Marktkapitalisatie",
       "volume": "Volume",
-      "pair": "Pair",
-      "1d-change": "24h change",
-      "1d-high": "24h high",
-      "1d-low": "24h low",
-      "1d-volume": "24h volume",
-      "1w-change": "1w change",
-      "1w-high": "1w high",
-      "1w-low": "1w low",
+      "pair": "Paar",
+      "1d-change": "24u verandering",
+      "1d-high": "24h hoog",
+      "1d-low": "24h laag",
+      "1d-volume": "24u volume",
+      "1w-change": "1w verandering",
+      "1w-high": "1w hoog",
+      "1w-low": "1w laag",
       "1w-volume": "1w volume",
-      "1m-change": "1M change",
-      "1m-high": "1M high",
-      "1m-low": "1M low",
+      "1m-change": "1M verandering",
+      "1m-high": "1M hoog",
+      "1m-low": "1M laag",
       "1m-volume": "1M volume"
     },
     "buttons": {
