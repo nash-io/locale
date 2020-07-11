@@ -190,6 +190,10 @@
     "fiat-ramps": "Rampe fiat"
   },
   "top-nav": {
+    "exchange-status": {
+      "operational": "[Translation required: Exchange fully operational]",
+      "maintenance": "[Translation required: Exchange in maintenance]"
+    },
     "accounts-main-menu": {
       "title": "Servizi"
     },
@@ -1046,6 +1050,12 @@
       },
       "time-filled-col": {
         "header-title": "Eseguito"
+      },
+      "direction-col": {
+        "cell-text": {
+          "buy": "[Translation required: Buy]",
+          "sell": "[Translation required: Sell]"
+        }
       }
     },
     "recent-trades": {
@@ -1717,6 +1727,10 @@
     "all-providers": "Tutti i fornitori",
     "terms-and-conditions": "Accetto <0>Termini e Condizioni</0> di {{providerName}}.",
     "title": "Compra/Vendi",
+    "no-providers": {
+      "title": "[Translation required: No asset providers available.]",
+      "why-not": "[Translation required: No digital asset providers are available in your region yet.]"
+    },
     "tier0": {
       "buy-popular-assets": "Compra e vendi asset digitali popolari",
       "complete-kyc-5minute": "Passa alla verifica dell’identità di Livello 1 in soli cinque minuti!",
@@ -1725,6 +1739,11 @@
       "higher-trading-limits": "Limiti di trading più elevati sullo scambio di Nash.",
       "stake-your-nex": "Metti NEX in stake per ricevere dividendi.",
       "use-with-vpn": "Accedi a Nash tramite un servizio VPN."
+    },
+    "move-funds": {
+      "title": "[Translation required: Move {{asset}} to sell]",
+      "l-amount-to-transfer": "[Translation required: Amount to transfer]",
+      "b-move-to-sell": "[Translation required: Move {{asset}} to sell]"
     },
     "provider": {
       "title": "Seleziona un fornitore",
@@ -1805,7 +1824,8 @@
     },
     "limits": {
       "min-limit-message": "Acquisto minimo: <0/>",
-      "min-limit": "Minimo"
+      "min-limit": "Minimo",
+      "over-available": "[Translation required: Insufficent {{asset}} in trading contract]"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1828,6 +1848,10 @@
       "carbon-timeout-body": "Transazione non riuscita a causa di un timeout della richiesta API. Carbon è stato informato di questo errore",
       "generic-fourhundred": "Errore",
       "nash": {
+        "region-restricted": {
+          "title": "[Translation required: Your region is not supported]",
+          "body": "[Translation required: This feature is not yet available in your region.]"
+        },
         "order-book-cache-empty": {
           "title": "La cache del libro degli ordini è vuota",
           "body": "Impossibile generare un prezzo. Per favore riprova più tardi."
@@ -1859,6 +1883,15 @@
       "pay-with-default": "Seleziona un metodo di pagamento",
       "link-new-bank": "Aggiungi metodo di pagamento",
       "complete-nash-profile": "Completa il tuo <0>profilo Nash</0> prima di poter acquistare asset digitali",
+      "available-balance": "[Translation required: Available balance: <0>{{amount}}</0>]",
+      "no-payment-method-sell": "[Translation required: <0>Add a payment method</0> to sell digital assets.]",
+      "complete-nash-profile-add-method-to-sell": "[Translation required: Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.]",
+      "no-funds-sell-1": "[Translation required: You don’t have any {{asset}} in your account to sell]",
+      "no-funds-sell-2": "[Translation required: <0>Purchase {{asset}}</0> via Nash Cash with no fee or <1>transfer funds</1>.]",
+      "must-move-funds-sell": "[Translation required: To sell {{asset}}, you must move it to the trading contract.]",
+      "dismiss": "[Translation required: Dismiss forever]",
+      "remind-me-later": "[Translation required: Remind me later]",
+      "btn-move-to-sell": "[Translation required: Move {{asset}} to sell]",
       "want-to-buy-input-label": "Voglio comprare",
       "want-to-sell-input-label": "Voglio vendere",
       "spend": "Spendere",
@@ -1874,6 +1907,7 @@
       "weekly-limit-affix": "limite settimanale",
       "monthly-limit-affix": "limite mensile",
       "yearly-limit-affix": "limite annuale",
+      "amount-pending": "[Translation required: <0/> pending]",
       "exceed-yearly-limit": "limite annuale superato",
       "no-change-today": "nessuna variazione oggi",
       "change-today": "{{value}}% oggi",
@@ -1923,7 +1957,16 @@
         "amount-debit": "L’importo più le commissioni verranno addebitati sulla tua carta {{card}}. Riceverai {{asset}} nel tuo account personale Nash a breve.",
         "view": "Puoi vedere lo stato della tua transazione <0>qui</0>.",
         "button": "Finito"
-      }
+      },
+      "sell-btn": "[Translation required: Review sale]",
+      "l-trading-account": "[Translation required: Trading contract]",
+      "l-to-sell-move": "[Translation required: To sell {{asset}}, you must move it to the trading contract.]",
+      "l-sell": "[Translation required: Sell]",
+      "l-receive": "[Translation required: Receive]",
+      "l-personal-account": "[Translation required: Personal account]",
+      "b-remind": "[Translation required: Remind me later]",
+      "b-move-to-sell": "[Translation required: Move {{asset}} to sell →]",
+      "b-dismiss": "[Translation required: Dismiss forever]"
     },
     "transactions": {
       "tab-title": "Transazione",
@@ -1994,12 +2037,29 @@
       "show-transaction": "Transazione",
       "deposited": "Depositato a",
       "nash": {
+        "no-matching-data-header": "[Translation required: No results found.]",
+        "no-matching-data-sub-header": "[Translation required: Your search didn’t match any purchases or sales.]",
+        "no-data-header": "[Translation required: You haven’t made any transactions yet.]",
+        "no-data-sub-header": "[Translation required: <0>Purchase digital assets</0> to get started.]",
         "col": {
           "when": "Quando",
           "action": "Azione",
           "rate": "Tasso",
           "destination": "Destinazione",
           "amount": "Importo"
+        },
+        "get-refund-modal": {
+          "title": "[Translation required: Receive refund]",
+          "refund-amount": "[Translation required: Refund amount]",
+          "declined-exchange-rate": "[Translation required: Declined exchange rate]",
+          "original-rate": "[Translation required: Original rate: <0 />]",
+          "declined-amount": "[Translation required: Declined amount]",
+          "original-amount": "[Translation required: Original amount: <0 />]",
+          "pay-refund-to": "[Translation required: Pay refund to]",
+          "add-payment-method": "[Translation required: Add payment method]",
+          "no-methods": "[Translation required: No payment methods found]",
+          "b-get-refund": "[Translation required: Receive refund]",
+          "typical-arrival": "[Translation required: Refunds typically arrive in 1-4 days]"
         },
         "sell-curr-amount": "Vendendo <0 />",
         "buy-curr-amount": "Acquistando <0 />",
@@ -2016,6 +2076,9 @@
         "btn-confirm": "Visualizza",
         "btn-reconfirm": "Revisione",
         "btn-view": "Visualizza",
+        "btn-select-account": "[Translation required: Select account]",
+        "select-refund-account": "[Translation required: Select refund account]",
+        "no-payment-method-on-quote": "[Translation required: No payment method given]",
         "status": "Stato",
         "refund-status-label": "Stato del rimborso",
         "detailed-quote-status": {
@@ -2026,6 +2089,7 @@
           "failed-expired-on-confirmation": "Offerta scaduta",
           "failed-expired-on-confirmation-reason": "Non hai accettato la tua offerta in tempo ed è scaduta",
           "reconfirmation-expired": "Riconferma scaduta",
+          "processing-refund": "[Translation required: Processing refund]",
           "reconfirmation-rejected": "Riconferma respinta",
           "confirmed-waiting-for-payment": "Aspettando il pagamento",
           "pending-refund": "Rimborso in sospeso",
@@ -2044,10 +2108,13 @@
           "confirmed-waiting-for-payment": "Pagamento necessario",
           "pending-refund": "In sospeso",
           "pending-user-rate-reconfirmation": "La tariffa è cambiata",
-          "processing": "In lavorazione",
+          "processing-refund": "[Translation required: Processing]",
+          "processing-settlement": "[Translation required: Processing]",
+          "processing-payment": "[Translation required: Processing]",
           "refunded": "Rimborsato",
           "completed": "Completo"
-        }
+        },
+        "refund-processing": "[Translation required: Processing refund…]"
       }
     },
     "payments-methods": {
@@ -2072,6 +2139,28 @@
         "AWAITING_FOLLOWUP": "Richiede attenzione",
         "ACTIVE": "Attivo",
         "REJECTED": "Respinto"
+      },
+      "nash": {
+        "add-method": "[Translation required: Add a new payment method]",
+        "iban-invalid": "[Translation required: Please provide a valid IBAN.]",
+        "btn-add-payment-method": "[Translation required: Add payment method]",
+        "btn-add-payment-method-get-refund": "[Translation required: Add payment method and receive refund]",
+        "add-pm-title": "[Translation required: Add new payment method]",
+        "correct-name": "[Translation required: Please note that we will use your Tier 1 full name ‘{{name}}’ for this transfer. If your bank account isn’t registered under this name, please <0>update your Tier 1 name</0>.]",
+        "e-payment-method-exists": "[Translation required: Payment method already exists]",
+        "l-name-your-account": "[Translation required: Name your account]",
+        "p-name-your-account": "[Translation required: Give your payment method a name]",
+        "l-bank-iban": "[Translation required: IBAN]",
+        "p-bank-iban": "[Translation required: Add your IBAN]",
+        "added-date": "[Translation required: Added {{datetime}}]",
+        "b-delete": "[Translation required: Delete]",
+        "delete-modal-title": "[Translation required: Delete this payment method?]",
+        "delete-modal-body": "[Translation required: Payment method with IBAN {{iban}} will be removed.]",
+        "b-confirm-delete": "[Translation required: Delete]",
+        "b-cancel-delete": "[Translation required: Do nothing]",
+        "no-methods-1": "[Translation required: No EUR (€) payment methods added.]",
+        "no-methods-2": "[Translation required: Add one to start selling crypto or receive a refund.]",
+        "page-of": "[Translation required: {{pageNumber}} of {{totalPages}}]"
       },
       "credit-card": {
         "continue-billing": "Continua con i dettagli di fatturazione",
@@ -2367,12 +2456,15 @@
       "limits-not-complete": "Dichiara l’occupazione e la fonte dei fondi",
       "limits-no-occupation": "Dichiara l’occupazione",
       "limits-no-source-of-funds": "Dichiara la fonte dei fondi",
+      "limits-no-source-of-wealth": "[Translation required: Declare your main source of funds]",
       "limits-no-level-1": "Deve essere verificato di livello 1",
       "add-occupation": "Dichiara l’occupazione",
       "add-source-of-funds": "Dichiara la fonte dei fondi",
+      "add-source-of-wealth": "[Translation required: Declare main source of funds]",
       "header": "Informazioni profilo livello 1",
       "contact-support-to-edit": "<0>Contatta il supporto</0> per modificare",
       "source-of-funds": "Fonte dei fondi",
+      "source-of-wealth": "[Translation required: Main source of funds]",
       "occupation": "Occupazione",
       "my-limits-tab": "Limiti",
       "account-id": "Account ID",
@@ -2461,7 +2553,17 @@
       "arrival-time-value": "Al momento dell’invio dei fondi, ~<0>2–5</0> giorni lavorativi",
       "current-rate": "(<0></0>/<1>{{sourceCurrency}}</1>)",
       "cancel-btn": "Cancella",
-      "confirm-btn": "Ho capito"
+      "confirm-btn": "Ho capito",
+      "nash": {
+        "l-you-will-sell": "[Translation required: You will sell]",
+        "l-at-current-rate": "[Translation required: At the current rate]",
+        "l-you-will-receive": "[Translation required: You will receive]",
+        "l-pay-to": "[Translation required: Pay to]",
+        "b-cancel-sale": "[Translation required: Cancel sale]",
+        "title": "[Translation required: Sell {{asset}}]",
+        "b-finalize-sale": "[Translation required: Finalize sale]",
+        "m-add-a-method": "[Translation required: You need to add a payment method before we can finalize your quote.]"
+      }
     },
     "review-buy-transaction": {
       "2fa-token": "{{providerName}} codice 2FA",
@@ -2481,18 +2583,26 @@
       "rate-protection-label": "Protetto",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
       "destination": "Destinazione",
+      "paying-to": "[Translation required: Paying to]",
+      "paid-to": "[Translation required: Paid to]",
+      "l-refund-time": "[Translation required: Refund time]",
+      "refund-time": "[Translation required: A few minutes]",
+      "processing-refund": "[Translation required: Processing your refund]",
       "deposited-to": "Depositato a",
       "asset-deposited-to": "Asset depositato a",
+      "refund-amount": "[Translation required: Refund amount]",
       "expired": "Questo preventivo è scaduto {{value}} fa.",
       "expired-message-1": "Il tuo tasso di cambio garantito è scaduto!",
       "expired-message-2": "L’aggiornamento potrebbe aggiornare il tasso di cambio.",
       "expires": "Questo preventivo scadrà tra {{value}}.",
+      "started-on": "[Translation required: Started at]",
       "happy-btn": "Accetta il preventivo ed effettua il trasferimento",
-      "original-cost": "",
       "user-iban-label": "IBAN usato",
       "payment-needed": "Pagamento necessario",
       "payment-status": "Stato del pagamento",
       "payment-status-paid": "Pagato",
+      "sale-status": "[Translation required: Sale status]",
+      "sale-status-complete": "[Translation required: Complete]",
       "provider-fee": "Commissioni del fornitore",
       "provider-fee-with-name": "{{providerName}} commissioni",
       "quoted-amount": "Importo offerta",
@@ -2504,19 +2614,40 @@
       "get-or-cancel": "<0>Ottieni i dettagli bancari del destinatario</0> o <1><rifiuta questa offerta</1>.",
       "refresh-btn": "Ricarica",
       "status": "Stato corrente",
+      "l-reason": "[Translation required: Reason for refund]",
+      "reason-compliance": "[Translation required: Compliance check failed]",
       "step-payment": "Effettua il tuo trasferimento",
       "step-review": "Revisiona la tua offerta",
       "submit-btn": "Confirma l’acquisto",
       "taken-from-bank": "Presi dal conto bancario",
       "taken-from-card": "Addebitati sulla carta",
+      "l-sell-add-source": "[Translation required: Please declare your source of funds for this particular sale.]",
+      "l-buy-add-source": "[Translation required: Please declare your source of funds for this particular purchase.]",
       "quote-accepted-title": "Offerta accettata",
       "title": "Acquista asset digitali",
+      "source-of-funds-modal": {
+        "title": "[Translation required: Source of funds]",
+        "label": "[Translation required: Select or add the source of funds for this purchase]",
+        "add-new": "[Translation required: + Add new]",
+        "l-add-new": "[Translation required: Add a new source of funds]",
+        "b-add-new": "[Translation required: Save and use as source of funds]",
+        "this-is-the-source": "[Translation required: This is the main source of funds declared on your Nash profile.]",
+        "b-cancel": "[Translation required: Cancel]",
+        "b-go-back": "[Translation required: Accept]"
+      },
       "total-cost": "Costo totale",
+      "total-sold": "[Translation required: Total sold]",
+      "fiat-deposited-to": "[Translation required: Deposited to]",
+      "b-change": "[Translation required: Change]",
+      "b-add": "[Translation required: Add]",
+      "source-of-funds": "[Translation required: Source of funds for this purchase]",
       "total-with-provider-fee": "Totale con commissioni",
       "trading-contract": "Contratto di trading",
       "transaction-details": "Riepilogo dell’ordine",
       "transaction-details-link": "Visualizza",
-      "warning-msg": "Autorizzo {{providerName}} per addebitare l’importo di cui sopra all’account indicato nella data odierna. Non contesterò {{providerName}} l’addebito al mio account, a condizione che la transazione corrisponda ai termini presenti in questo modulo online e al mio accordo con {{providerName}}."
+      "warning-msg": "Autorizzo {{providerName}} per addebitare l’importo di cui sopra all’account indicato nella data odierna. Non contesterò {{providerName}} l’addebito al mio account, a condizione che la transazione corrisponda ai termini presenti in questo modulo online e al mio accordo con {{providerName}}.",
+      "declined-exchange-rate": "[Translation required: Declined exchange rate]",
+      "declined-amount": "[Translation required: Declined amount]"
     },
     "review-transfer-funds": {
       "transfer-to": "Trasferisci <0 /> sull’account elencato di seguito.",
@@ -2558,6 +2689,7 @@
       "not-uploaded": "Non caricato",
       "document": "Documento",
       "documents": "Documenti",
+      "transfer-amount": "[Translation required: Transfer this amount]",
       "pop-upload-time": "Devi caricare la prova del pagamento entro 60 minuti dall’invio dei fondi affinché questa transazione sia valida.",
       "add-default-docs": "<0>Aumenta i miei limiti</0>",
       "overlimit-message-level1": "Devi <0>completare il tuo profilo</0> prima di poter acquistare asset digitali.",
@@ -2982,7 +3114,8 @@
           "title": "Azione",
           "status": {
             "completed": "Completo",
-            "pending": "In sospeso"
+            "pending": "In sospeso",
+            "pending-with-confirmations": "[Translation required: {{confirmations}}/{{denominator}} confirmations]"
           },
           "view-transaction": "Visualizza transazione",
           "retry-pending": "Riprova ad inviare la transazione",
@@ -2998,9 +3131,11 @@
         },
         "destination": {
           "title": "Destinazione",
+          "nash-account": "[Translation required: Nash]",
           "to": {
             "trading-account": "Contratto di trading",
             "personal-account": "Account personale",
+            "nash-fiat-ramp": "[Translation required: Sell to Nash]",
             "staking-account": "Contratto di stake NEX",
             "fees": "Commissioni"
           },
@@ -3916,6 +4051,7 @@
     "title_plural": "{{count}} contatti",
     "search-my-contacts": "Cerca nei miei contatti…",
     "no-contacts": "Non hai ancora aggiunto o importato alcun contatto.",
+    "contact-fallback-name": "[Translation required: Contact]",
     "create-new": "Crea nuovo",
     "buttons": {
       "send": "Invia",
