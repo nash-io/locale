@@ -190,6 +190,10 @@
     "fiat-ramps": "Poslání fiat peněz"
   },
   "top-nav": {
+    "exchange-status": {
+      "operational": "[Translation required: Exchange fully operational]",
+      "maintenance": "[Translation required: Exchange in maintenance]"
+    },
     "accounts-main-menu": {
       "title": "Služby"
     },
@@ -1046,6 +1050,12 @@
       },
       "time-filled-col": {
         "header-title": "Provedeno"
+      },
+      "direction-col": {
+        "cell-text": {
+          "buy": "[Translation required: Buy]",
+          "sell": "[Translation required: Sell]"
+        }
       }
     },
     "recent-trades": {
@@ -1717,6 +1727,10 @@
     "all-providers": "Všichni poskytovatelé",
     "terms-and-conditions": "Přijímám <0>obecné zásady podmínky</0> poskytovatele {{providerName}}.",
     "title": "Prodat/Koupit",
+    "no-providers": {
+      "title": "[Translation required: No asset providers available.]",
+      "why-not": "[Translation required: No digital asset providers are available in your region yet.]"
+    },
     "tier0": {
       "buy-popular-assets": "Buy and sell popular digital assets",
       "complete-kyc-5minute": "Upgrade to Tier 1 identity verification in just five minutes!",
@@ -1725,6 +1739,11 @@
       "higher-trading-limits": "Higher trading limits on the Nash exchange.",
       "stake-your-nex": "Stake NEX to receive dividends.",
       "use-with-vpn": "Access Nash through a VPN service."
+    },
+    "move-funds": {
+      "title": "[Translation required: Move {{asset}} to sell]",
+      "l-amount-to-transfer": "[Translation required: Amount to transfer]",
+      "b-move-to-sell": "[Translation required: Move {{asset}} to sell]"
     },
     "provider": {
       "title": "Vyberte poskytovatele",
@@ -1805,7 +1824,8 @@
     },
     "limits": {
       "min-limit-message": "Minimální vklad: <0/>",
-      "min-limit": "Minimum"
+      "min-limit": "Minimum",
+      "over-available": "[Translation required: Insufficent {{asset}} in trading contract]"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1828,6 +1848,10 @@
       "carbon-timeout-body": "Váš převod se nezdařil, protože se nestihla včas vyřídit API žádost. Carbon byl upozorněn na tut chybu",
       "generic-fourhundred": "Chyba",
       "nash": {
+        "region-restricted": {
+          "title": "[Translation required: Your region is not supported]",
+          "body": "[Translation required: This feature is not yet available in your region.]"
+        },
         "order-book-cache-empty": {
           "title": "Seznam příkazů je prázdný",
           "body": "Cena nemohla být vytvořena. Prosím, zkuste to později."
@@ -1859,6 +1883,15 @@
       "pay-with-default": "Vybrat platební metodu",
       "link-new-bank": "Přidat platební metodu",
       "complete-nash-profile": "Dokončete váš <0>Nash profil</0> než budete moci nakupovat digitální aktiva",
+      "available-balance": "[Translation required: Available balance: <0>{{amount}}</0>]",
+      "no-payment-method-sell": "[Translation required: <0>Add a payment method</0> to sell digital assets.]",
+      "complete-nash-profile-add-method-to-sell": "[Translation required: Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.]",
+      "no-funds-sell-1": "[Translation required: You don’t have any {{asset}} in your account to sell]",
+      "no-funds-sell-2": "[Translation required: <0>Purchase {{asset}}</0> via Nash Cash with no fee or <1>transfer funds</1>.]",
+      "must-move-funds-sell": "[Translation required: To sell {{asset}}, you must move it to the trading contract.]",
+      "dismiss": "[Translation required: Dismiss forever]",
+      "remind-me-later": "[Translation required: Remind me later]",
+      "btn-move-to-sell": "[Translation required: Move {{asset}} to sell]",
       "want-to-buy-input-label": "Chci nakoupit",
       "want-to-sell-input-label": "Chci prodat",
       "spend": "Utratit",
@@ -1874,6 +1907,7 @@
       "weekly-limit-affix": "týdenní limit",
       "monthly-limit-affix": "měsíční limit",
       "yearly-limit-affix": "roční limit",
+      "amount-pending": "[Translation required: <0/> pending]",
       "exceed-yearly-limit": "roční limit překročil",
       "no-change-today": "dnes beze změny",
       "change-today": "{{value}}% dnes",
@@ -1923,7 +1957,16 @@
         "amount-debit": "Celková cena včetně poplatků bude ztržena z vaší karty {{card}}. Aktivum {{asset}} se brzy objeví na vašem Nash osobním účtu.",
         "view": "<0>Zde</0> můžete sledovat průběh vaší transakce.",
         "button": "Dokončit"
-      }
+      },
+      "sell-btn": "[Translation required: Review sale]",
+      "l-trading-account": "[Translation required: Trading contract]",
+      "l-to-sell-move": "[Translation required: To sell {{asset}}, you must move it to the trading contract.]",
+      "l-sell": "[Translation required: Sell]",
+      "l-receive": "[Translation required: Receive]",
+      "l-personal-account": "[Translation required: Personal account]",
+      "b-remind": "[Translation required: Remind me later]",
+      "b-move-to-sell": "[Translation required: Move {{asset}} to sell →]",
+      "b-dismiss": "[Translation required: Dismiss forever]"
     },
     "transactions": {
       "tab-title": "Transakce",
@@ -1994,12 +2037,29 @@
       "show-transaction": "Transakce",
       "deposited": "Převedeno do",
       "nash": {
+        "no-matching-data-header": "[Translation required: No results found.]",
+        "no-matching-data-sub-header": "[Translation required: Your search didn’t match any purchases or sales.]",
+        "no-data-header": "[Translation required: You haven’t made any transactions yet.]",
+        "no-data-sub-header": "[Translation required: <0>Purchase digital assets</0> to get started.]",
         "col": {
           "when": "Kdy",
           "action": "Akce",
           "rate": "Sazba",
           "destination": "Na účet",
           "amount": "Množství"
+        },
+        "get-refund-modal": {
+          "title": "[Translation required: Receive refund]",
+          "refund-amount": "[Translation required: Refund amount]",
+          "declined-exchange-rate": "[Translation required: Declined exchange rate]",
+          "original-rate": "[Translation required: Original rate: <0 />]",
+          "declined-amount": "[Translation required: Declined amount]",
+          "original-amount": "[Translation required: Original amount: <0 />]",
+          "pay-refund-to": "[Translation required: Pay refund to]",
+          "add-payment-method": "[Translation required: Add payment method]",
+          "no-methods": "[Translation required: No payment methods found]",
+          "b-get-refund": "[Translation required: Receive refund]",
+          "typical-arrival": "[Translation required: Refunds typically arrive in 1-4 days]"
         },
         "sell-curr-amount": "Prodávám <0 />",
         "buy-curr-amount": "Kupuji <0 />",
@@ -2016,6 +2076,9 @@
         "btn-confirm": "Zobrazit",
         "btn-reconfirm": "Zkontrolovat",
         "btn-view": "Zobrazit",
+        "btn-select-account": "[Translation required: Select account]",
+        "select-refund-account": "[Translation required: Select refund account]",
+        "no-payment-method-on-quote": "[Translation required: No payment method given]",
         "status": "Status",
         "refund-status-label": "Status refundace",
         "detailed-quote-status": {
@@ -2026,6 +2089,7 @@
           "failed-expired-on-confirmation": "Platnost příkazu vypršela",
           "failed-expired-on-confirmation-reason": "Příkaz vypršel, protože jste ho nepotvrdili včast.",
           "reconfirmation-expired": "Platnost vašeho nového potvrzení vypršela",
+          "processing-refund": "[Translation required: Processing refund]",
           "reconfirmation-rejected": "Nové potvrzení bylo zamítnuto",
           "confirmed-waiting-for-payment": "Čekání na platbu",
           "pending-refund": "Refundace se procesuje",
@@ -2044,10 +2108,13 @@
           "confirmed-waiting-for-payment": "Je nutné zadat platební příkaz",
           "pending-refund": "Vyřizování",
           "pending-user-rate-reconfirmation": "Změna směnného kurzu",
-          "processing": "Vyřizuji",
+          "processing-refund": "[Translation required: Processing]",
+          "processing-settlement": "[Translation required: Processing]",
+          "processing-payment": "[Translation required: Processing]",
           "refunded": "Refundováno",
           "completed": "Vyřízeno"
-        }
+        },
+        "refund-processing": "[Translation required: Processing refund…]"
       }
     },
     "payments-methods": {
@@ -2072,6 +2139,28 @@
         "AWAITING_FOLLOWUP": "Vyžaduje vaši pozornost",
         "ACTIVE": "Aktivní",
         "REJECTED": "Zamítnuté"
+      },
+      "nash": {
+        "add-method": "[Translation required: Add a new payment method]",
+        "iban-invalid": "[Translation required: Please provide a valid IBAN.]",
+        "btn-add-payment-method": "[Translation required: Add payment method]",
+        "btn-add-payment-method-get-refund": "[Translation required: Add payment method and receive refund]",
+        "add-pm-title": "[Translation required: Add new payment method]",
+        "correct-name": "[Translation required: Please note that we will use your Tier 1 full name ‘{{name}}’ for this transfer. If your bank account isn’t registered under this name, please <0>update your Tier 1 name</0>.]",
+        "e-payment-method-exists": "[Translation required: Payment method already exists]",
+        "l-name-your-account": "[Translation required: Name your account]",
+        "p-name-your-account": "[Translation required: Give your payment method a name]",
+        "l-bank-iban": "[Translation required: IBAN]",
+        "p-bank-iban": "[Translation required: Add your IBAN]",
+        "added-date": "[Translation required: Added {{datetime}}]",
+        "b-delete": "[Translation required: Delete]",
+        "delete-modal-title": "[Translation required: Delete this payment method?]",
+        "delete-modal-body": "[Translation required: Payment method with IBAN {{iban}} will be removed.]",
+        "b-confirm-delete": "[Translation required: Delete]",
+        "b-cancel-delete": "[Translation required: Do nothing]",
+        "no-methods-1": "[Translation required: No EUR (€) payment methods added.]",
+        "no-methods-2": "[Translation required: Add one to start selling crypto or receive a refund.]",
+        "page-of": "[Translation required: {{pageNumber}} of {{totalPages}}]"
       },
       "credit-card": {
         "continue-billing": "Pokračovat k platebním údajům",
@@ -2367,12 +2456,15 @@
       "limits-not-complete": "Uveďte zaměstnání a zdroj příjmů",
       "limits-no-occupation": "Uvést zaměstnání",
       "limits-no-source-of-funds": "Uvést zdroj příjmů",
+      "limits-no-source-of-wealth": "[Translation required: Declare your main source of funds]",
       "limits-no-level-1": "Musíte být ověření na úrovni 1",
       "add-occupation": "Uvést zaměstnání",
       "add-source-of-funds": "Uvést zdroj příjmů",
+      "add-source-of-wealth": "[Translation required: Declare main source of funds]",
       "header": "Informace o profilu na úrovni 1",
       "contact-support-to-edit": "Pro změnu <0>kontaktujte naší podporu</0>",
       "source-of-funds": "Zdroj příjmů",
+      "source-of-wealth": "[Translation required: Main source of funds]",
       "occupation": "Zaměstnání",
       "my-limits-tab": "Limity",
       "account-id": "ID účtu",
@@ -2461,7 +2553,17 @@
       "arrival-time-value": "Od odeslání finančních prostředků ~<0>2–5</0> pracovních dnů",
       "current-rate": "(<0></0>/<1>{{sourceCurrency}}</1>)",
       "cancel-btn": "Zrušit",
-      "confirm-btn": "Rozumím"
+      "confirm-btn": "Rozumím",
+      "nash": {
+        "l-you-will-sell": "[Translation required: You will sell]",
+        "l-at-current-rate": "[Translation required: At the current rate]",
+        "l-you-will-receive": "[Translation required: You will receive]",
+        "l-pay-to": "[Translation required: Pay to]",
+        "b-cancel-sale": "[Translation required: Cancel sale]",
+        "title": "[Translation required: Sell {{asset}}]",
+        "b-finalize-sale": "[Translation required: Finalize sale]",
+        "m-add-a-method": "[Translation required: You need to add a payment method before we can finalize your quote.]"
+      }
     },
     "review-buy-transaction": {
       "2fa-token": "{{providerName}} kód dvoufázového ověření",
@@ -2481,18 +2583,26 @@
       "rate-protection-label": "Chráněno",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
       "destination": "Destinace",
+      "paying-to": "[Translation required: Paying to]",
+      "paid-to": "[Translation required: Paid to]",
+      "l-refund-time": "[Translation required: Refund time]",
+      "refund-time": "[Translation required: A few minutes]",
+      "processing-refund": "[Translation required: Processing your refund]",
       "deposited-to": "Vloženo na",
       "asset-deposited-to": "Prostředky vloženy na",
+      "refund-amount": "[Translation required: Refund amount]",
       "expired": "Tato cena expirovala před {{value}}.",
       "expired-message-1": "Váš garantovaný směnný kurz expiroval!",
       "expired-message-2": "Obnovení stránky může aktualizovát váš směnný kurz.",
       "expires": "Tato cena expiruje za {{value}}.",
+      "started-on": "[Translation required: Started at]",
       "happy-btn": "Akceptovat cenu a uskutečnit transfer",
-      "original-cost": "",
       "user-iban-label": "Použitý IBAN",
       "payment-needed": "Je nutná platba",
       "payment-status": "Status platby",
       "payment-status-paid": "Zaplaceno",
+      "sale-status": "[Translation required: Sale status]",
+      "sale-status-complete": "[Translation required: Complete]",
       "provider-fee": "Poplatky poskytovatele",
       "provider-fee-with-name": "poplatky {{providerName}}",
       "quoted-amount": "Stanovené množstí",
@@ -2504,19 +2614,40 @@
       "get-or-cancel": "<0>Získat bankovní údaje adresáta</0> nebo <1>odmítnout cenovou nabídku</1>.",
       "refresh-btn": "Obnovit",
       "status": "Status měny",
+      "l-reason": "[Translation required: Reason for refund]",
+      "reason-compliance": "[Translation required: Compliance check failed]",
       "step-payment": "Provést transfer",
       "step-review": "Zkontrolovat cenovou nabídku",
       "submit-btn": "Potvrdit nákup",
       "taken-from-bank": "Strženo z bankovního účtu",
       "taken-from-card": "Zaplaceno z karty",
+      "l-sell-add-source": "[Translation required: Please declare your source of funds for this particular sale.]",
+      "l-buy-add-source": "[Translation required: Please declare your source of funds for this particular purchase.]",
       "quote-accepted-title": "Cenová nabídka akceptována",
       "title": "Koupit digitální měny",
+      "source-of-funds-modal": {
+        "title": "[Translation required: Source of funds]",
+        "label": "[Translation required: Select or add the source of funds for this purchase]",
+        "add-new": "[Translation required: + Add new]",
+        "l-add-new": "[Translation required: Add a new source of funds]",
+        "b-add-new": "[Translation required: Save and use as source of funds]",
+        "this-is-the-source": "[Translation required: This is the main source of funds declared on your Nash profile.]",
+        "b-cancel": "[Translation required: Cancel]",
+        "b-go-back": "[Translation required: Accept]"
+      },
       "total-cost": "Celkové náklady",
+      "total-sold": "[Translation required: Total sold]",
+      "fiat-deposited-to": "[Translation required: Deposited to]",
+      "b-change": "[Translation required: Change]",
+      "b-add": "[Translation required: Add]",
+      "source-of-funds": "[Translation required: Source of funds for this purchase]",
       "total-with-provider-fee": "Celkem s poplatky",
       "trading-contract": "Obchodovací účet",
       "transaction-details": "Shrnutí příkazu",
       "transaction-details-link": "Zobrazit",
-      "warning-msg": "Povoluji {{providerName}} z výše zmíněného účtu strhnonut indikované množství s dneším datem. Nebudu rozporovat transakci {{providerName}}, pokud je transakce v souladu s podmnínkami v tomto formuláři a ujednání s {{providerName}}."
+      "warning-msg": "Povoluji {{providerName}} z výše zmíněného účtu strhnonut indikované množství s dneším datem. Nebudu rozporovat transakci {{providerName}}, pokud je transakce v souladu s podmnínkami v tomto formuláři a ujednání s {{providerName}}.",
+      "declined-exchange-rate": "[Translation required: Declined exchange rate]",
+      "declined-amount": "[Translation required: Declined amount]"
     },
     "review-transfer-funds": {
       "transfer-to": "Poslat <0 /> na níže zmíněný účet.",
@@ -2558,6 +2689,7 @@
       "not-uploaded": "Nenahráno",
       "document": "Dokument",
       "documents": "Dokumenty",
+      "transfer-amount": "[Translation required: Transfer this amount]",
       "pop-upload-time": "Aby byla transakce platná musíte nahrát potvrzení o platbě do 60 minut po odeslání prostředků.",
       "add-default-docs": "<0>Zvýšit mé limity</0>",
       "overlimit-message-level1": "Musíte nejdřív <0>zkompletovat váš profil</0> před tím, než můžete nakupovat digitální měny.",
@@ -2982,7 +3114,8 @@
           "title": "Akce",
           "status": {
             "completed": "Dokončeno",
-            "pending": "Právě probíhá"
+            "pending": "Právě probíhá",
+            "pending-with-confirmations": "[Translation required: {{confirmations}}/{{denominator}} confirmations]"
           },
           "view-transaction": "Zobrazit transakce",
           "retry-pending": "Zkusit znovu poslat transakci",
@@ -2998,9 +3131,11 @@
         },
         "destination": {
           "title": "Destinace",
+          "nash-account": "[Translation required: Nash]",
           "to": {
             "trading-account": "Trading contract",
             "personal-account": "Personal account",
+            "nash-fiat-ramp": "[Translation required: Sell to Nash]",
             "staking-account": "NEX staking contract",
             "fees": "Fees"
           },
@@ -3916,6 +4051,7 @@
     "title_plural": "{{count}} kontakty",
     "search-my-contacts": "Vyhledat v mých kontaktech…",
     "no-contacts": "Nepřidali jste ani neimportovali jste zatím žádné kontakty.",
+    "contact-fallback-name": "[Translation required: Contact]",
     "create-new": "Vytvořit nový",
     "buttons": {
       "send": "Poslat",
