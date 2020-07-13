@@ -3197,9 +3197,9 @@
       "confirmations-count": "Ce jeton prendra {{confirmationsCount}} confirmations pour apparaître dans votre portefeuille. Vous pouvez consulter l’état de votre dépôt sous ‘Fonds > Transfers’."
     },
     "send-confirmation-box": {
-      "only-send-one-asset": "Envoyez uniquement {{currency}} à cette adresse.",
-      "only-send-multiple-asset": "N’envoyez que {{currenciesWithoutLast}} ou {{lastCurrency}} éléments à cette adresse.",
-      "you-can-lose-funds": "L’envoi de fonds à la mauvaise adresse signifie que vous perdrez ces fonds pour toujours."
+      "only-send-one-asset": "Envoyez uniquement des {{currency}} à cette adresse.",
+      "only-send-multiple-asset": "N’envoyez que des actifs {{currenciesWithoutLast}} ou {{lastCurrency}} à cette adresse.",
+      "you-can-lose-funds": "L’envoi de fonds à la mauvaise adresse entraînera la perte de ces fonds pour toujours."
     },
     "password": {
       "title": "Entrez les informations d’identification"
@@ -3222,7 +3222,7 @@
       }
     },
     "search-contact": {
-      "empty-list": "Vous n’avez aucun contact parmi lequel choisir!",
+      "empty-list": "Vous n’avez aucun contact parmi lesquels choisir!",
       "wallet": "{{count}} portefeuille",
       "wallet_plural": "{{count}} portefeuilles"
     }
@@ -3231,27 +3231,27 @@
     "cards": {
       "in-progress": "Ordres en cours",
       "24h": "24h",
-      "available": "Disponible a l’échange",
-      "reserved": "In orders"
+      "available": "Disponible au trading",
+      "reserved": "Dans des ordres"
     }
   },
   "referrals": {
-    "title": "Programme de référence",
+    "title": "Programme de parrainage",
     "referrals": {
-      "header": "Parrainez un ami et gagnez des billets",
-      "desc": "Plus vous gagnez de billets, plus vous avez de chances de gagner.",
+      "header": "Parrainez un ami et gagnez des tickets",
+      "desc": "Plus vous gagnez de tickets, plus vous avez de chances de gagner.",
       "cards": {
         "social-share": {
           "label": "Partagez votre code de parrainage:",
           "activated-count": "{{count}} ticket activé",
-          "activated-count_plural": "{{count}} billets activés",
+          "activated-count_plural": "{{count}} tickets activés",
           "pending-count": "{{count}} ticket en attente",
           "pending-count_plural": "{{count}} tickets en attente",
-          "message": "Utilisez mon code de parrainage {{url}} pour vous inscrire à l’offre @nashsocial! #TrustYourselves {{ytLink}}"
+          "message": "Utilisez mon code de parrainage {{url}} pour vous inscrire à la tombola @nashsocial! #TrustYourselves {{ytLink}}"
         },
         "invited-users": {
-          "label": "Vos références",
-          "desc": "Ce sont les personnes que vous avez référées directement. Nous ne pouvons pas vous montrer qui ils ont référé, mais vous pouvez voir les tickets que vous avez gagnés grâce à eux pour les renvois indirects.",
+          "label": "Vos parrainages",
+          "desc": "Ce sont les personnes que vous avez parrainées directement. Nous ne pouvons pas vous montrer qui ils ont eux-mêmes parrainé, mais vous pouvez voir les tickets que vous avez gagnés grâce à eux par parrainage indirect.",
           "header": "Tous ceux en attente et ou activés",
           "col-name": "Nom",
           "col-pending": "En attente",
@@ -3265,13 +3265,13 @@
     "title": "Mon compte",
     "save-settings": "Enregistrer les paramètres",
     "kyc": {
-      "state-label": "Etat",
-      "rejected": "Statut de niveau 1 refusé",
-      "rejected-subtitle": "Malheureusement, vous ne pourrez plus continuer. Si vous pensez que c’est une erreur, veuillez contacter notre <0>équipe d’assistance.</0>",
+      "state-label": "État",
+      "rejected": "Statut de Niveau 1 refusé",
+      "rejected-subtitle": "Malheureusement, vous ne pourrez plus continuer. Si vous pensez que c’est une erreur, veuillez contacter notre <0>équipe support.</0>",
       "details": {
         "missing_signature": {
           "title": "Signature manquante",
-          "content": "Votre document d’identité doit porter votre signature."
+          "content": "Votre document d’identité doit comporter votre signature."
         },
         "digital_copy": {
           "title": "Original requis",
@@ -3299,7 +3299,7 @@
         },
         "different_persons_shown": {
           "title": "Personnes différentes",
-          "content": "Votre pièce d’identité et votre selfie montrent différentes personnes."
+          "content": "Votre pièce d’identité et votre selfie montrent des personnes différentes."
         },
         "damaged_document": {
           "title": "Document endommagé",
@@ -3338,7 +3338,7 @@
           "content": "Nous n’avons pas pu déterminer qu’une personne réelle est présente dans l’image que vous avez fournie."
         },
         "ip_address_is_crawler": {
-          "title": "Crawler detected",
+          "title": "Robot détecté",
           "content": "Nous avons identifié votre adresse IP en tant que robot d’exploration Web. Veuillez réessayer à partir d’une autre IP."
         },
         "missing_part_document": {
@@ -3374,7 +3374,7 @@
           "content": "Une partie de votre pièce d’identité est masquée."
         },
         "missing_back": {
-          "title": "Document requis",
+          "title": "Verso du document requis",
           "content": "Vous n’avez pas fourni d’image du verso de votre document."
         },
         "face_not_fully_visible": {
@@ -3387,43 +3387,43 @@
         "Informations sur l’adresse",
         "Confirmer les informations"
       ],
-      "invalid-age-error": "Vous devez entrer une date de naissance valide.",
-      "missing-age-error": "Vous devez entrer votre date de naissance.",
+      "invalid-age-error": "Vous devez renseigner une date de naissance valide.",
+      "missing-age-error": "Vous devez renseigner votre date de naissance.",
       "age-restriction-error": "Vous devez avoir au moins dix-huit ans.",
       "name-error": "Vous devez saisir un nom.",
       "title": "Nous avons besoin de quelques informations de votre part",
-      "topnav-back-button": "Revenir sur les limites",
+      "topnav-back-button": "Retour vers vos limites",
       "country": "Pays",
-      "waiting": "Vérification…",
+      "waiting": "Vérification en cours…",
       "waiting-subtitle": "Cela peut prendre quelques minutes. Vous pouvez quitter cette page.",
-      "topnav-title": "Vérification de niveau 1",
+      "topnav-title": "Vérification de Niveau 1",
       "contact-support-label": "<0>Contactez le support</0> pour changer",
-      "confirm-button-label": "Confirmez vos coordonnées",
+      "confirm-button-label": "Confirmer vos coordonnées",
       "name-step": {
-        "warning": "Le nom que vous entrez doit correspondre au nom figurant sur la pièce d’identité que vous fournissez.",
+        "warning": "Le nom que vous renseignez doit correspondre au nom figurant sur la pièce d’identité que vous fournissez.",
         "date-of-birth-label": "Date de naissance",
         "full-name-label": "Nom complet",
-        "continue-button-label": "Continuez et entrez l’adresse"
+        "continue-button-label": "Continuer et renseigner l’adresse"
       },
       "address-step": {
-        "address-label": "Entrer une adresse",
-        "search-button-label": "Chercher"
+        "address-label": "Saisissez une adresse",
+        "search-button-label": "Rechercher"
       },
       "manual-address-step": {
-        "line1": "Adresse Ligne 1",
-        "line2": "Adresse Ligne 2",
+        "line1": "Adresse ligne 1",
+        "line2": "Adresse ligne 2",
         "city": "Ville",
         "zipCode": "Code postal"
       },
       "select-address-step": {
         "title": "Adresses trouvées",
-        "manual-entry-label": "Entrez l’adresse manuellement",
+        "manual-entry-label": "Entrer l’adresse manuellement",
         "select-label": "Sélectionner",
         "no-results-found-title": "Nous n’avons pas pu trouver votre adresse",
         "no-results-found-body": "Veuillez vous assurer d’inclure votre code postal.",
         "error-title": "Nous avons rencontré une erreur",
         "error-body": "Réessayez ou utilisez le lien ci-dessous.",
-        "go-back-label": "Revenir"
+        "go-back-label": "Retour"
       },
       "confirm-details": {
         "begin-button-label": "Ces informations sont correctes",
@@ -3445,7 +3445,7 @@
           "missing-full-name": "<0>Vérifiez votre identité</0> pour profiter de limites commerciales plus élevées.",
           "update-name": "Je veux mettre à jour mon nom",
           "update-country": "Je souhaite mettre à jour mon pays de résidence",
-          "gender": "Le genre",
+          "gender": "Genre",
           "male": "Homme",
           "female": "Femme",
           "other": "Autre",
@@ -3457,7 +3457,7 @@
           "update-email": "Changer l’adresse email",
           "password": "Mot de passe",
           "update-password": "Changer le mot de passe",
-          "two-factor": "Nous vous recommandons d’activer La double authentification dans <0>Sécurité</0>.",
+          "two-factor": "Nous vous recommandons d’activer la double authentification dans <0>Sécurité</0>.",
           "two-factor-enable": "La double authentification peut être désactivée dans <0>Sécurité</0>."
         }
       },
@@ -3465,10 +3465,10 @@
         "update-name": {
           "title": "Mettre à jour le nom",
           "label": "Nom",
-          "tier0-summary": "Pour mettre à jour votre nom, veuillez compléter <0>la vérification de niveau 1</0>.",
-          "tier0-details": "Lorsque votre demande pour le niveau 1 aura été approuvée, nous mettrons à jour votre nom pour le nom légal sur les documents que vous avez fournis.",
+          "tier0-summary": "Pour mettre à jour votre nom, veuillez compléter <0>la vérification de Niveau 1</0>.",
+          "tier0-details": "Lorsque votre demande pour le Niveau 1 aura été approuvée, nous mettrons à jour votre nom pour qu'il corresponde au nom légal figurant sur les documents que vous avez fournis.",
           "tier1-summary": "Si votre nom légal a changé et que vous souhaitez le mettre à jour, veuillez <0>contacter le support</0>.",
-          "tier1-details": "Nous réinitialiserons votre niveau de vérification et vous demanderons de répéter la procédure de vérification en utilisant vos nouveaux documents. Lorsque votre demande aura été approuvée, nous mettrons à jour votre nom sur le nom légal sur les documents que vous avez fournis."
+          "tier1-details": "Nous réinitialiserons votre niveau de vérification et vous demanderons de répéter la procédure de vérification en utilisant vos nouveaux documents. Lorsque votre demande aura été approuvée, nous mettrons à jour votre nom pour qu'il corresponde au nom légal sur les documents que vous avez fournis."
         },
         "update-country": {
           "title": "Mettre à jour le pays",
@@ -3479,14 +3479,14 @@
         "update-email": {
           "success-header": "Nous vous avons envoyé un email!",
           "success-description": "Nous vous avons envoyé un email de confirmation pour démarrer le processus de mise à jour de l’adresse. Si vous ne voyez pas notre email, vérifiez votre dossier de courrier indésirable.",
-          "success-back": "Got it!",
+          "success-back": "Bien reçu!",
           "title": "Changer l’email",
           "current-email-label": "Votre adresse email actuelle",
           "current-email": "Adresse email actuelle",
-          "new-email-label": "Nouvelle adresse courriel",
-          "new-email-placeholder": "Entrez votre nouvelle adresse email",
+          "new-email-label": "Nouvelle adresse email",
+          "new-email-placeholder": "Renseignez votre nouvelle adresse email",
           "twofa-label": "La double authentification",
-          "twofa-label-placeholder": "Entrez votre code d’authentification à deux facteurs (2FA)",
+          "twofa-label-placeholder": "Entrez votre code d’authentification en deux temps (2FA)",
           "request-email-change-button-label": "Demander un changement d’adresse"
         },
         "update-password": {
@@ -3497,8 +3497,8 @@
               "placeholder": "Tapez votre mot de passe"
             },
             "code": {
-              "label": "Authentification à deux facteurs",
-              "placeholder": "Entrez votre code d’authentification à deux facteurs"
+              "label": "Authentification en deux temps",
+              "placeholder": "Entrez votre code d’authentification en deux temps"
             },
             "new-password": {
               "label": "Nouveau mot de passe",
