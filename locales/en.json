@@ -190,6 +190,10 @@
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
+    "exchange-status": {
+      "operational": "Exchange fully operational",
+      "maintenance": "Exchange in maintenance"
+    },
     "accounts-main-menu": {
       "title": "Services"
     },
@@ -254,7 +258,7 @@
         "title": "Buy/Sell",
         "pages": {
           "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
+          "transactions": "History",
           "payment-methods": "Payment methods",
           "profile": "Profile"
         }
@@ -266,7 +270,7 @@
           "security": "Security",
           "limits": "Limits",
           "accounts": "Accounts",
-          "apikeys": "API\u00A0keys"
+          "apikeys": "API keys"
         }
       },
       "staking": {
@@ -291,7 +295,7 @@
   "sending-approval": "Sending approval…",
   "send-approval": "Send approval",
   "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
+  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transfer.",
   "we-are-hiring": "We’re hiring",
   "errors": {
     "location-banned-title": "Access blocked",
@@ -340,7 +344,7 @@
   "query-errors": {
     "failed": "Failed to load.",
     "failed-button": "Failed to load",
-    "failed-please-try": "Failed to load. Please\u00A0<0>retry</0>.",
+    "failed-please-try": "Failed to load. Please <0>retry</0>.",
     "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
   },
   "datetime": {
@@ -578,7 +582,7 @@
       "header": "Let’s create your personal account",
       "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
       "continue": "Get my twelve secret words",
-      "skip2Fa": "Set it up later",
+      "skip2Fa": "Set up later",
       "chart": {
         "card-top": "Twelve secret words",
         "card-top-right": "Nash account recovery if password is forgotten",
@@ -720,7 +724,7 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0>\u00A0appear as links here.",
+      "empty": "<0>Your favorite markets</0> appear as links here.",
       "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
     },
     "market-graphs": {
@@ -917,7 +921,7 @@
     "my-orders": {
       "auth": "Sign in to view your orders.",
       "signed-out": {
-        "title": "<0>Get started</0>\u00A0<1>with Nash</1>",
+        "title": "<0>Get started</0> <1>with Nash</1>",
         "subtitle": "Create an account in under a minute – no KYC required!"
       },
       "no-results": {
@@ -1046,6 +1050,12 @@
       },
       "time-filled-col": {
         "header-title": "Executed"
+      },
+      "direction-col": {
+        "cell-text": {
+          "buy": "Buy",
+          "sell": "Sell"
+        }
       }
     },
     "recent-trades": {
@@ -1076,12 +1086,12 @@
     "sign-in": "Sign in",
     "sign-out": "Sign out",
     "password-strength": {
-      "label": "Password strength",
       "0": "Very weak",
       "1": "Weak",
       "2": "Medium",
       "3": "Strong",
-      "4": "Very strong"
+      "4": "Very strong",
+      "label": "Password strength"
     },
     "password-form": {
       "password": {
@@ -1181,7 +1191,7 @@
     "forgot-password": {
       "tab-title": "Forgotten password",
       "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back\u00A0on\u00A0track.",
+      "desc": "Enter your email address below and we’ll get you back on track.",
       "fields": {
         "email": {
           "label": "Email address",
@@ -1717,14 +1727,23 @@
     "all-providers": "All providers",
     "terms-and-conditions": "I accept {{providerName}}’s <0>Terms and Conditions</0>.",
     "title": "Buy/Sell",
-    "tier0" : {
+    "no-providers": {
+      "title": "No asset providers available.",
+      "why-not": "No digital asset providers are available in your region yet."
+    },
+    "tier0": {
       "buy-popular-assets": "Buy and sell popular digital assets",
-      "complete-kyc-5minute" : "Upgrade to Tier 1 identity verification in just five minutes!",
+      "complete-kyc-5minute": "Upgrade to Tier 1 identity verification in just five minutes!",
       "complete-kyc": "Verify identity",
       "enjoy-benefits": "Other benefits of Tier 1:",
       "higher-trading-limits": "Higher trading limits on the Nash exchange.",
       "stake-your-nex": "Stake NEX to receive dividends.",
       "use-with-vpn": "Access Nash through a VPN service."
+    },
+    "move-funds": {
+      "title": "Move {{asset}} to sell",
+      "l-amount-to-transfer": "Amount to transfer",
+      "b-move-to-sell": "Move {{asset}} to sell"
     },
     "provider": {
       "title": "Select a provider",
@@ -1773,7 +1792,7 @@
       "powered-by": "Powered by",
       "change-provider": "Change provider",
       "nash": {
-        "pay-no-fees": "<0>Pay no fees</0> when you buy popular digital assets from Nash!"
+        "pay-no-fees": "<0>Pay no fees</0> when you buy and sell digital assets with Nash Cash!"
       }
     },
     "general-details": {
@@ -1805,7 +1824,8 @@
     },
     "limits": {
       "min-limit-message": "Minimum purchase: <0/>",
-      "min-limit": "Minimum"
+      "min-limit": "Minimum",
+      "over-available": "Insufficent {{asset}} in trading contract"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1828,6 +1848,10 @@
       "carbon-timeout-body": "Your transaction failed because of an API request timeout. Carbon has been notified of this error",
       "generic-fourhundred": "Error",
       "nash": {
+        "region-restricted": {
+          "title": "Your region is not supported",
+          "body": "This feature is not yet available in your region."
+        },
         "order-book-cache-empty": {
           "title": "Order book cache is empty",
           "body": "Could not generate a price. Please try again later."
@@ -1859,6 +1883,15 @@
       "pay-with-default": "Select a payment method",
       "link-new-bank": "Add payment method",
       "complete-nash-profile": "Complete your <0>Nash profile</0> to buy digital assets.",
+      "available-balance": "Available balance: <0>{{amount}}</0>",
+      "no-payment-method-sell": "<0>Add a payment method</0> to sell digital assets.",
+      "complete-nash-profile-add-method-to-sell": "Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.",
+      "no-funds-sell-1": "You don’t have any {{asset}} in your account to sell",
+      "no-funds-sell-2": "<0>Purchase {{asset}}</0> via Nash Cash with no fee or <1>transfer funds</1>.",
+      "must-move-funds-sell": "To sell {{asset}}, you must move it to the trading contract.",
+      "dismiss": "Dismiss forever",
+      "remind-me-later": "Remind me later",
+      "btn-move-to-sell": "Move {{asset}} to sell",
       "want-to-buy-input-label": "I want to buy",
       "want-to-sell-input-label": "I want to sell",
       "spend": "Spend",
@@ -1874,6 +1907,7 @@
       "weekly-limit-affix": "weekly limit",
       "monthly-limit-affix": "monthly limit",
       "yearly-limit-affix": "yearly limit",
+      "amount-pending": "<0/> pending",
       "exceed-yearly-limit": "yearly limit exceeded",
       "no-change-today": "no change today",
       "change-today": "{{value}}% today",
@@ -1923,7 +1957,16 @@
         "amount-debit": "The amount plus fees will be debited from your card {{card}}. You will receive {{asset}} in your Nash personal account shortly.",
         "view": "You can view the status of your transaction <0>here</0>.",
         "button": "Finish"
-      }
+      },
+      "sell-btn": "Review sale",
+      "l-trading-account": "Trading contract",
+      "l-to-sell-move": "To sell {{asset}}, you must move it to the trading contract.",
+      "l-sell": "Sell",
+      "l-receive": "Receive",
+      "l-personal-account": "Personal account",
+      "b-remind": "Remind me later",
+      "b-move-to-sell": "Move {{asset}} to sell →",
+      "b-dismiss": "Dismiss forever"
     },
     "transactions": {
       "tab-title": "Transaction",
@@ -1994,12 +2037,29 @@
       "show-transaction": "Transaction",
       "deposited": "Deposited to",
       "nash": {
+        "no-matching-data-header": "No results found.",
+        "no-matching-data-sub-header": "Your search didn’t match any purchases or sales.",
+        "no-data-header": "You haven’t made any transactions yet.",
+        "no-data-sub-header": "<0>Purchase digital assets</0> to get started.",
         "col": {
           "when": "When",
           "action": "Action",
           "rate": "Rate",
           "destination": "Destination",
           "amount": "Amount"
+        },
+        "get-refund-modal": {
+          "title": "Receive refund",
+          "refund-amount": "Refund amount",
+          "declined-exchange-rate": "Declined exchange rate",
+          "original-rate": "Original rate: <0 />",
+          "declined-amount": "Declined amount",
+          "original-amount": "Original amount: <0 />",
+          "pay-refund-to": "Pay refund to",
+          "add-payment-method": "Add payment method",
+          "no-methods": "No payment methods found",
+          "b-get-refund": "Receive refund",
+          "typical-arrival": "Refunds typically arrive in 1-4 days"
         },
         "sell-curr-amount": "Selling <0 />",
         "buy-curr-amount": "Buying <0 />",
@@ -2016,6 +2076,9 @@
         "btn-confirm": "View",
         "btn-reconfirm": "Review",
         "btn-view": "View",
+        "btn-select-account": "Select account",
+        "select-refund-account": "Select refund account",
+        "no-payment-method-on-quote": "No payment method given",
         "status": "Status",
         "refund-status-label": "Refund status",
         "detailed-quote-status": {
@@ -2026,6 +2089,7 @@
           "failed-expired-on-confirmation": "Quote expired",
           "failed-expired-on-confirmation-reason": "You did not accept your quote in time and it expired",
           "reconfirmation-expired": "Reconfirmation expired",
+          "processing-refund": "Processing refund",
           "reconfirmation-rejected": "Reconfirmation rejected",
           "confirmed-waiting-for-payment": "Waiting for payment",
           "pending-refund": "Refund pending",
@@ -2044,10 +2108,13 @@
           "confirmed-waiting-for-payment": "Payment needed",
           "pending-refund": "Pending",
           "pending-user-rate-reconfirmation": "Rate changed",
-          "processing": "Processing",
+          "processing-refund": "Processing",
+          "processing-settlement": "Processing",
+          "processing-payment": "Processing",
           "refunded": "Refunded",
           "completed": "Complete"
-        }
+        },
+        "refund-processing": "Processing refund…"
       }
     },
     "payments-methods": {
@@ -2072,6 +2139,28 @@
         "AWAITING_FOLLOWUP": "Requires attention",
         "ACTIVE": "Active",
         "REJECTED": "Rejected"
+      },
+      "nash": {
+        "add-method": "Add a new payment method",
+        "iban-invalid": "Please provide a valid IBAN.",
+        "btn-add-payment-method": "Add payment method",
+        "btn-add-payment-method-get-refund": "Add payment method and receive refund",
+        "add-pm-title": "Add new payment method",
+        "correct-name": "Please note that we will use your Tier 1 full name ‘{{name}}’ for this transfer. If your bank account isn’t registered under this name, please <0>update your Tier 1 name</0>.",
+        "e-payment-method-exists": "Payment method already exists",
+        "l-name-your-account": "Name your account",
+        "p-name-your-account": "Give your payment method a name",
+        "l-bank-iban": "IBAN",
+        "p-bank-iban": "Add your IBAN",
+        "added-date": "Added {{datetime}}",
+        "b-delete": "Delete",
+        "delete-modal-title": "Delete this payment method?",
+        "delete-modal-body": "Payment method with IBAN {{iban}} will be removed.",
+        "b-confirm-delete": "Delete",
+        "b-cancel-delete": "Do nothing",
+        "no-methods-1": "No EUR (€) payment methods added.",
+        "no-methods-2": "Add one to start selling crypto or receive a refund.",
+        "page-of": "{{pageNumber}} of {{totalPages}}"
       },
       "credit-card": {
         "continue-billing": "Continue to billing details",
@@ -2186,10 +2275,10 @@
           "field": "Occupation"
         },
         "source-of-funds": {
-          "placeholder": "Savings of $1,000 per month from my job over the last two years",
-          "detailed-declaration-50-chars": "Make a detailed declaration over 50 characters.",
+          "placeholder": "What is your main source of funds? Example: Savings of $1,000 per month from my job over the last two years.",
+          "detailed-declaration-50-chars": "Make a detailed declaration over 50 characters long.",
           "save": "Declare source of funds",
-          "field": "What is your source of funds?",
+          "field": "What is your main source of funds?",
           "slash": "{{currentChars}}/{{minChars}}"
         },
         "kyc-form": {
@@ -2363,16 +2452,19 @@
       "profile-approved-info-message": "Editing any profile details will mean that your account must be reviewed again. Your ability to buy and sell digital assets directly will be frozen until this review is complete and your details are approved.",
       "limits-requirements": "Requirements",
       "limits-header": "Yearly buy limits",
-      "limits-complete": "Nash platform fiat tier 1",
-      "limits-not-complete": "Declare occupation and source of funds",
+      "limits-complete": "Nash Tier 1 identity verification",
+      "limits-not-complete": "Declare occupation and main source of funds",
       "limits-no-occupation": "Declare occupation",
-      "limits-no-source-of-funds": "Declare source of funds",
-      "limits-no-level-1": "Must be tier-1 verified",
+      "limits-no-source-of-funds": "Declare source of funds for this transaction",
+      "limits-no-source-of-wealth": "Declare your main source of funds",
+      "limits-no-level-1": "You need to verify your identity",
       "add-occupation": "Declare occupation",
-      "add-source-of-funds": "Declare source of funds",
+      "add-source-of-funds": "Declare source of funds for this transaction",
+      "add-source-of-wealth": "Declare main source of funds",
       "header": "Tier 1 profile information",
       "contact-support-to-edit": "<0>Contact support</0> to edit",
-      "source-of-funds": "Source of funds",
+      "source-of-funds": "Source of funds for this transaction",
+      "source-of-wealth": "Main source of funds",
       "occupation": "Occupation",
       "my-limits-tab": "Limits",
       "account-id": "Account ID",
@@ -2445,13 +2537,13 @@
       "order-created": "Your order has been created",
       "title": "Order created",
       "deposit": "We will deposit your assets into your Nash personal account once your payment has cleared.",
-      "delay": "This can take up to {{days}} business days. You can view the status of your deposit in the <0>Transactions</0> tab.",
-      "dismiss": "View the transaction"
+      "delay": "This can take up to {{days}} business days. You can view the status of your deposit under the <0>History</0> tab.",
+      "dismiss": "View transaction"
     },
     "review-sell-transaction": {
       "title": "Sale quote",
       "send-asset-title": "Send {{assetName}} to the address below from your Nash personal account.",
-      "send-asset-body-1": "What you send will be converted to {{currencyCode}} and credited to your account. We will use the market exchange rate at the time we receive your transaction.",
+      "send-asset-body-1": "What you send will be converted to {{currencyCode}} and credited to your account. We will use the market exchange rate at the time we receive your transfer.",
       "selling": "I am selling",
       "cost": "I will receive <0>(estimate)</0>",
       "to-bank": "Into this account",
@@ -2461,7 +2553,17 @@
       "arrival-time-value": "Upon sending funds, ~<0>2–5</0> business days",
       "current-rate": "(<0></0>/<1>{{sourceCurrency}}</1>)",
       "cancel-btn": "Cancel",
-      "confirm-btn": "I understand"
+      "confirm-btn": "I understand",
+      "nash": {
+        "l-you-will-sell": "You will sell",
+        "l-at-current-rate": "At the current rate",
+        "l-you-will-receive": "You will receive",
+        "l-pay-to": "Pay to",
+        "b-cancel-sale": "Cancel sale",
+        "title": "Sell {{asset}}",
+        "b-finalize-sale": "Finalize sale",
+        "m-add-a-method": "You need to add a payment method before we can finalize your quote."
+      }
     },
     "review-buy-transaction": {
       "2fa-token": "{{providerName}} 2FA code",
@@ -2481,18 +2583,26 @@
       "rate-protection-label": "Protected",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
       "destination": "Destination",
+      "paying-to": "Paying to",
+      "paid-to": "Paid to",
+      "l-refund-time": "Refund time",
+      "refund-time": "A few minutes",
+      "processing-refund": "Processing your refund",
       "deposited-to": "Deposited to",
       "asset-deposited-to": "Asset deposited to",
+      "refund-amount": "Refund amount",
       "expired": "This quote expired {{value}} ago.",
       "expired-message-1": "Your guaranteed exchange rate expired!",
       "expired-message-2": "Refreshing may update your exchange rate.",
       "expires": "This quote will expire in {{value}}.",
-      "happy-btn": "Accept quote and make transfer",
-      "original-cost": "",
+      "started-on": "Started at",
+      "happy-btn": "Accept and make transfer",
       "user-iban-label": "IBAN used",
       "payment-needed": "Payment needed",
       "payment-status": "Payment status",
       "payment-status-paid": "Paid",
+      "sale-status": "Sale status",
+      "sale-status-complete": "Complete",
       "provider-fee": "Provider fee",
       "provider-fee-with-name": "{{providerName}} fee",
       "quoted-amount": "Quoted amount",
@@ -2504,19 +2614,40 @@
       "get-or-cancel": "<0>Get recipient’s bank details</0> or <1>decline this quote</1>.",
       "refresh-btn": "Refresh",
       "status": "Currency status",
+      "l-reason": "Reason for refund",
+      "reason-compliance": "Compliance check failed",
       "step-payment": "Make your transfer",
       "step-review": "Review your quote",
       "submit-btn": "Confirm purchase",
       "taken-from-bank": "Taken from bank account",
       "taken-from-card": "Charged to card",
+      "l-sell-add-source": "Please declare your source of funds for this particular sale.",
+      "l-buy-add-source": "Please declare your source of funds for this particular purchase.",
       "quote-accepted-title": "Quote accepted",
       "title": "Purchase digital assets",
+      "source-of-funds-modal": {
+        "title": "Source of funds",
+        "label": "Select or add the source of funds for this purchase",
+        "add-new": "+ Add new",
+        "l-add-new": "Add a new source of funds",
+        "b-add-new": "Save and use as source of funds",
+        "this-is-the-source": "This is the main source of funds declared on your Nash profile.",
+        "b-cancel": "Cancel",
+        "b-go-back": "Accept"
+      },
       "total-cost": "Total cost",
+      "total-sold": "Total sold",
+      "fiat-deposited-to": "Deposited to",
+      "b-change": "Change",
+      "b-add": "Add",
+      "source-of-funds": "Source of funds for this purchase",
       "total-with-provider-fee": "Total with fees",
       "trading-contract": "Trading contract",
       "transaction-details": "Order summary",
       "transaction-details-link": "View",
-      "warning-msg": "I authorize {{providerName}} to debit the account indicated for the above amount on today’s date. I will not dispute {{providerName}} debiting my account, so long as the transaction corresponds to the terms in this online form and my agreement with {{providerName}}."
+      "warning-msg": "I authorize {{providerName}} to debit the account indicated for the above amount on today’s date. I will not dispute {{providerName}} debiting my account, so long as the transaction corresponds to the terms in this online form and my agreement with {{providerName}}.",
+      "declined-exchange-rate": "Declined exchange rate",
+      "declined-amount": "Declined amount"
     },
     "review-transfer-funds": {
       "transfer-to": "Transfer <0 /> to the account listed below.",
@@ -2558,6 +2689,7 @@
       "not-uploaded": "Not uploaded",
       "document": "Document",
       "documents": "Documents",
+      "transfer-amount": "Transfer this amount",
       "pop-upload-time": "You must upload your proof of payment within 60 minutes after sending funds for this transaction to be valid.",
       "add-default-docs": "<0>Increase my limits</0>",
       "overlimit-message-level1": "You need to <0>complete your profile</0> before you can buy digital assets.",
@@ -2587,8 +2719,8 @@
       },
       "order-created": {
         "title": "Your order has been created",
-        "description": "We will deposit your assets into your Nash personal account once your payment has cleared. This can take up to {{count}} business day. You can view the status of your deposit in the <0>Transactions</0> tab.",
-        "description_plural": "We will deposit your assets into your Nash personal account once your payment has cleared. This can take up to {{count}} business days. You can view the status of your deposit in the <0>Transactions</0> tab.",
+        "description": "We will deposit your assets into your Nash personal account once your payment has cleared. This can take up to {{count}} business day. You can view the status of your deposit under the <0>History</0> tab.",
+        "description_plural": "We will deposit your assets into your Nash personal account once your payment has cleared. This can take up to {{count}} business days. You can view the status of your deposit under the <0>History</0> tab.",
         "button": "Finish"
       },
       "profile-details": {
@@ -2735,7 +2867,7 @@
       "success": "Resync successful!"
     },
     "transaction-retry": {
-      "title": "Retry transactions",
+      "title": "Retry transfers",
       "subtitle": "All pending or failed deposits or withdrawals",
       "actions-title": "Actions",
       "button-title": "Retry",
@@ -2901,7 +3033,7 @@
               "amount-label": "You are sending",
               "from-label": "From",
               "to-label": "To",
-              "fee-label": "Network fee"
+              "fee-label": "Maximum network fee"
             }
           },
           "confirming-balance": "Please wait while we confirm your balance.",
@@ -2918,9 +3050,9 @@
           }
         },
         "hints": {
-          "btc-gas-hint": "A small network fee is required when performing transactions.",
-          "eth-gas-hint": "A small network fee is required when performing transactions. Fees for Ethereum-based tokens are paid using ETH.",
-          "neo-gas-hint": "A small network fee is usually required when performing transactions. Fees for NEO-based tokens are paid using GAS.",
+          "btc-gas-hint": "A small network fee is required when performing transfers.",
+          "eth-gas-hint": "A small network fee is required when performing transfers. Fees for Ethereum-based tokens are paid using ETH.",
+          "neo-gas-hint": "A small network fee is usually required when performing transfers. Fees for NEO-based tokens are paid using GAS.",
           "eth-transfer-hint": "While transfers are pending, the balance shown here may not be accurate."
         },
         "steps": [
@@ -2982,7 +3114,8 @@
           "title": "Action",
           "status": {
             "completed": "Complete",
-            "pending": "Pending"
+            "pending": "Pending",
+            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmations"
           },
           "view-transaction": "View transaction",
           "retry-pending": "Retry sending transaction",
@@ -2998,16 +3131,18 @@
         },
         "destination": {
           "title": "Destination",
+            "nash-account": "Nash",
           "to": {
             "trading-account": "Trading contract",
             "personal-account": "Personal account",
+            "nash-fiat-ramp": "Sell to Nash",
             "staking-account": "NEX staking contract",
             "fees": "Fees"
           },
           "from": {
             "trading-account": "From the trading contract",
             "personal-account": "From my personal account",
-            "nash-fiat-ramp": "Purchase from Nash",
+            "nash-fiat-ramp": "Nash Cash purchase",
             "external-address": "From <0 />"
           }
         },
@@ -3161,7 +3296,7 @@
       "review-and-start-transfer": "Review and start transfer",
       "transfer-has-started": "Your transfer has started",
       "check-tranfer-info-part1": "You can check the progress of your transfer in the",
-      "check-tranfer-info-link": "Transactions",
+      "check-tranfer-info-link": "Transfers",
       "check-tranfer-info-part2": "section of ‘Funds’.",
       "external-address": "External address",
       "asset-to-transfer": "Asset to transfer",
@@ -3194,7 +3329,7 @@
     },
     "form-wallet": {
       "confirmations": "Confirmations",
-      "confirmations-count": "This token will take {{confirmationsCount}} confirmations to appear in your wallet. You can view the status of your deposit under ‘Funds > Transactions’."
+      "confirmations-count": "This token will take {{confirmationsCount}} confirmations to appear in your wallet. You can view the status of your deposit under ‘Funds > Transfers’."
     },
     "send-confirmation-box": {
       "only-send-one-asset": "Only send {{currency}} to this address.",
@@ -3593,8 +3728,6 @@
       },
       "modals": {
         "enable-2fa": {
-          "enable": "Enable",
-          "title": "Set up two-factor authentication",
           "1": {
             "header": "Download and install an authenticator app",
             "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
@@ -3607,7 +3740,9 @@
           "3": {
             "header": "Enter the code generated by your authenticator app",
             "input-placeholder": "Authentication code"
-          }
+          },
+          "enable": "Enable",
+          "title": "Set up two-factor authentication"
         },
         "disable-2fa": {
           "title": "Disable two-factor authentication",
@@ -3718,7 +3853,7 @@
           "net-worth": "Net worth",
           "contact-number": "Contact number",
           "tier1-info-net-worth": "Tier 1 information + Net worth",
-          "source-of-funds": "Source of funds",
+          "source-of-funds": "Main source of funds",
           "name-manager": "Company representative",
           "email-institution": "Email address",
           "name-company": "Company name",
@@ -3916,6 +4051,7 @@
     "title_plural": "{{count}} contacts",
     "search-my-contacts": "Search my contacts…",
     "no-contacts": "You haven’t added or imported any contacts yet.",
+    "contact-fallback-name": "Contact",
     "create-new": "Create new",
     "buttons": {
       "send": "Send",
