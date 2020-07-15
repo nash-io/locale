@@ -343,7 +343,7 @@
   },
   "query-errors": {
     "failed": "Failed to load.",
-    "failed-button": "Failed to load",
+    "failed-button": "Laden mislukt",
     "failed-please-try": "Het laden is mislukt. <0>Probeer het opnieuw</0>.",
     "why-this-may-happening": "Kom er <0>hier</0> achter waarom dit heeft kunnen gebeuren."
   },
@@ -1884,14 +1884,14 @@
       "link-new-bank": "Betaalmethode toevoegen",
       "complete-nash-profile": "Voltooi uw <0>Nash profiel</0> voordat u digitale assets kunt kopen",
       "available-balance": "Available balance: <0>{{amount}}</0>",
-      "no-payment-method-sell": "<0>Add a payment method</0> to sell digital assets.",
-      "complete-nash-profile-add-method-to-sell": "Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.",
-      "no-funds-sell-1": "You don’t have any {{asset}} in your account to sell",
-      "no-funds-sell-2": "<0>Purchase {{asset}}</0> via Nash Cash with no fee or <1>transfer funds</1>.",
-      "must-move-funds-sell": "To sell {{asset}}, you must move it to the trading contract.",
-      "dismiss": "Dismiss forever",
-      "remind-me-later": "Remind me later",
-      "btn-move-to-sell": "Move {{asset}} to sell",
+      "no-payment-method-sell": "<0>Voeg een betaalmethode toe</0> om digitale activa te verkopen.",
+      "complete-nash-profile-add-method-to-sell": "Voltooi uw <0>Nash-profiel</0> en <1>voeg een betaalmethode toe</1> om digitale activa te verkopen.",
+      "no-funds-sell-1": "U heeft geen {{asset}} in uw account om te verkopen",
+      "no-funds-sell-2": "<0>Koop {{asset}}</0> via Nash Cash zonder kosten of <1>maak geld over</1>.",
+      "must-move-funds-sell": "Om {{asset}} te verkopen, moet je het verplaatsen naar het handelscontract.",
+      "dismiss": "Niet meer tonen",
+      "remind-me-later": "Herinner me later",
+      "btn-move-to-sell": "Verplaats {{asset}} om te verkopen",
       "want-to-buy-input-label": "Ik wil kopen",
       "want-to-sell-input-label": "Ik wil verkopen",
       "spend": "Besteden",
@@ -3255,105 +3255,105 @@
       "1m-volume": "1M volume"
     },
     "buttons": {
-      "trade": "Trade"
+      "trade": "Handel"
     },
     "trade-frequency": {
-      "1h": "1h",
+      "1h": "1u",
       "1m": "1m",
       "1M": "1M",
       "1W": "1w",
-      "24h": "24h",
+      "24h": "24u",
       "3M": "3M",
       "6M": "6M"
     },
-    "search-placeholder": "Search for a market…",
+    "search-placeholder": "Zoek een markt…",
     "individual-assets": {
-      "title": "Individual assets",
-      "header": "Individual assets listed on Nash"
+      "title": "Individuele activa",
+      "header": "Individuele activa gelist op Nash"
     },
     "asset-pairs": {
-      "title": "Asset pairs",
-      "header": "All asset pairs traded on Nash Exchange"
+      "title": "Activaparen",
+      "header": "Alle activaparen die verhandeld worden op Nash Exchange"
     },
-    "no-results": "No results for this period.",
+    "no-results": "Geen resultaten voor deze periode.",
     "miscellaneous": {
       "vol": "vol."
     }
   },
   "modals": {
     "transfer-funds": {
-      "what-asset": "Which asset?",
-      "select-asset": "Select an asset",
-      "transfer-from": "From",
-      "to-destination": "To",
-      "send-only-currency": "Send only {{currency}} to this address",
+      "what-asset": "Welk activum?",
+      "select-asset": "Selecteer een activum",
+      "transfer-from": "Van",
+      "to-destination": "Naar",
+      "send-only-currency": "Stuur alleen {{currency}} naar dit adres",
       "transfer-details": "Transfer details",
-      "you-are-transfering": "You are transferring",
-      "you-are-sending": "You are sending",
-      "enter-2fa-code": "Enter your two-factor authentication code",
-      "transfer-funds": "Send/Receive",
-      "create-transfer": "Create transfer",
-      "review-and-start-transfer": "Review and start transfer",
-      "transfer-has-started": "Your transfer has started",
-      "check-tranfer-info-part1": "You can check the progress of your transfer in the",
-      "check-tranfer-info-link": "Transactions",
-      "check-tranfer-info-part2": "section of ‘Funds’.",
-      "external-address": "External address",
-      "asset-to-transfer": "Asset to transfer",
-      "transfer-funds-to-external": "Send funds to an external address",
-      "send-funds": "Send funds",
-      "withdrawal-details": "Withdrawal details",
-      "to-external-address": "To external address",
-      "request-sent-to-blockchain": "Your transfer request has been sent to the blockchain."
+      "you-are-transfering": "Je bent aan het transfereren",
+      "you-are-sending": "U verzendt",
+      "enter-2fa-code": "Voer uw twee-factor authenticatiecode in",
+      "transfer-funds": "Verzenden/ontvangen",
+      "create-transfer": "Creëer een transfer",
+      "review-and-start-transfer": "Controleer en start de transfer",
+      "transfer-has-started": "Uw transfer is gestart",
+      "check-tranfer-info-part1": "U kunt de voortgang van uw transfer bekijken in de",
+      "check-tranfer-info-link": "Transacties",
+      "check-tranfer-info-part2": "sectie van ‘Fondsen’.",
+      "external-address": "Externe adressen",
+      "asset-to-transfer": "Over te dragen activum",
+      "transfer-funds-to-external": "Stuur fondsen naar een extern adres",
+      "send-funds": "Zend fondsen",
+      "withdrawal-details": "Opname details",
+      "to-external-address": "Naar extern adres",
+      "request-sent-to-blockchain": "Uw transferverzoek is naar de blockchain gestuurd."
     },
     "receive-funds": {
-      "asset-to-receive": "Asset to receive",
-      "address-to-receive-currency": "This is your address to receive {{currency}}",
-      "receive-funds-from-external": "Receive funds from an external wallet"
+      "asset-to-receive": "Te ontvangen activum",
+      "address-to-receive-currency": "Dit is uw adres om {{currency}} te ontvangen",
+      "receive-funds-from-external": "Ontvang fondsen van een externe portemonnee"
     },
     "wallet-type": {
-      "personal": "My personal wallet",
-      "trading": "Trading contract",
-      "external": "An external wallet"
+      "personal": "Mijn persoonlijke portemonnee",
+      "trading": "Handelscontract",
+      "external": "Een externe portemonnee"
     },
     "common": {
-      "continue-and-review": "Continue",
-      "finish": "Finish"
+      "continue-and-review": "Ga verder",
+      "finish": "Beïndigen"
     },
     "form-amount": {
-      "amount-to-transfer": "Amount",
-      "recipients-address": "Recipient’s address",
-      "enter-their-wallet": "Enter their wallet address",
-      "check-destination-title": "Check your destination address twice.",
-      "check-destination-description": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "amount-to-transfer": "Hoeveelheid",
+      "recipients-address": "Adres van ontvanger",
+      "enter-their-wallet": "Voer hun portemonnee-adres in",
+      "check-destination-title": "Dubbelcheck uw bestemmingsadres.",
+      "check-destination-description": "Als u fondsen naar het verkeerde adres stuurt, dan verliest u deze fondsen voor altijd."
     },
     "form-wallet": {
-      "confirmations": "Confirmations",
-      "confirmations-count": "This token will take {{confirmationsCount}} confirmations to appear in your wallet. You can view the status of your deposit under ‘Funds > Transactions’."
+      "confirmations": "Confirmaties",
+      "confirmations-count": "Deze token heeft {{confirmationsCount}} bevestigingen nodig om in je portemonnee te verschijnen. U kunt de status van uw storting bekijken onder ‘Fondsen > Transacties’."
     },
     "send-confirmation-box": {
-      "only-send-one-asset": "Only send {{currency}} to this address.",
-      "only-send-multiple-asset": "Only send {{currenciesWithoutLast}} or {{lastCurrency}} assets to this address.",
-      "you-can-lose-funds": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "only-send-one-asset": "Verzend enkel {{currency}} naar dit adres.",
+      "only-send-multiple-asset": "Verzend enkel {{currenciesWithoutLast}} of {{lastCurrency}} activa naar dit adres.",
+      "you-can-lose-funds": "Indien u fondsen naar het verkeerde adres stuurt, verliest u deze fondsen voor altijd."
     },
     "password": {
-      "title": "Enter credentials"
+      "title": "Voer aanmeldgegevens in"
     },
     "updated-terms": {
-      "title": "Terms and conditions",
+      "title": "Voorwaarden",
       "terms": {
         "names": {
-          "privacy-notice": "Privacy Notice",
-          "user-agreement": "User Agreement"
+          "privacy-notice": "Privacyverklaring",
+          "user-agreement": "Gebruikersovereenkomst"
         },
-        "desc": "Please read and accept our latest {{termsName}}.",
-        "message": "I accept the latest <0>{{termsName}}</0>."
+        "desc": "Lees en accepteer a.u.b. onze laatste {{termsName}}.",
+        "message": "Ik aanvaard de laatste <0>{{termsName}}</0>."
       },
-      "confirm-notice": "If you do not accept the above terms and conditions, you will not be able to continue using Nash services.",
-      "confirm-button": "Confirm",
-      "sign-out-link": "Sign me out",
+      "confirm-notice": "Indien u de bovenstaande voorwaarden niet accepteert, kunt u de Nash-services niet blijven gebruiken.",
+      "confirm-button": "Bevestigen",
+      "sign-out-link": "Meld me af",
       "errors": {
-        "generic-error": "An error has occurred. Please retry."
+        "generic-error": "Er is een fout opgetreden. Probeer het a.u.b. opnieuw."
       }
     },
     "search-contact": {
