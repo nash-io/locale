@@ -191,8 +191,8 @@
   },
   "top-nav": {
     "exchange-status": {
-      "operational": "[Translation required: Exchange fully operational]",
-      "maintenance": "[Translation required: Exchange in maintenance]"
+      "operational": "Exchange volledig operationeel",
+      "maintenance": "Exchange in onderhoud"
     },
     "accounts-main-menu": {
       "title": "Diensten"
@@ -646,7 +646,7 @@
     },
     "2fa": {
       "title": "Twee-factor-authenticatie",
-      "header": "Recommended: Twee-factor-authenticatie inschakelen",
+      "header": "Aanbevolen: Twee-factor-authenticatie inschakelen",
       "skip": "Overslaan",
       "desc": "Twee-factor-authenticatie (2FA) voegt een extra beveiligingslaag toe aan uw account.",
       "cards": {
@@ -1053,8 +1053,8 @@
       },
       "direction-col": {
         "cell-text": {
-          "buy": "[Translation required: Buy]",
-          "sell": "[Translation required: Sell]"
+          "buy": "Koop",
+          "sell": "Verkoop"
         }
       }
     },
@@ -1724,12 +1724,12 @@
     "USD": "US dollar (USD)"
   },
   "fiat-ramps": {
-    "all-providers": "Alle providers",
+    "all-providers": "Alle leveranciers",
     "terms-and-conditions": "Ik accepteer de <0>Alegemene voorwaarden</0> van {{providerName}}.",
     "title": "Koop/Verkoop",
     "no-providers": {
-      "title": "[Translation required: No asset providers available.]",
-      "why-not": "[Translation required: No digital asset providers are available in your region yet.]"
+      "title": "Geen activaleveranciers beschikbaar",
+      "why-not": "Er zijn nog geen leveranciers van digitale activa beschikbaar in uw regio."
     },
     "tier0": {
       "buy-popular-assets": "Koop en verkoop populaire digitale assets",
@@ -1741,12 +1741,12 @@
       "use-with-vpn": "Toegang tot Nash via een VPN-service."
     },
     "move-funds": {
-      "title": "[Translation required: Move {{asset}} to sell]",
-      "l-amount-to-transfer": "[Translation required: Amount to transfer]",
-      "b-move-to-sell": "[Translation required: Move {{asset}} to sell]"
+      "title": "Verplaats {{asset}} om te verkopen",
+      "l-amount-to-transfer": "Over te maken bedrag",
+      "b-move-to-sell": "Verplaats {{asset}} om te verkopen"
     },
     "provider": {
-      "title": "Selecteer een provider",
+      "title": "Selecteer een leverancier",
       "verify-identity": "<0>Verifieer uw identiteit</0> om te beginnen.",
       "subtitle": "Aanbieders van digitale assets zijn externe bedrijven die samenwerken met Nash, waarmee u digitale assets kunt kopen en verkopen in nationale valuta.",
       "steps": [
@@ -1782,15 +1782,15 @@
       "kyc-txn-limit-post-kyc": "{{value}} per transactie na identiteitsverificatie",
       "kyc-txn-limit-post-phone": "{{value}} per transactie na telefoonnummer verificatie",
       "select-btn": "Selecteer",
-      "have-account-header": "Providers waarmee ik een account heb aangemaakt",
-      "no-account-header": "Providers waarmee ik geen account heb aangemaakt",
+      "have-account-header": "Leveranciers waarmee ik een account heb aangemaakt",
+      "no-account-header": "Leveranciers waarmee ik geen account heb aangemaakt",
       "no-providers-title": "Helaas zijn er momenteel geen aanbieders van digitale assets in uw regio.",
       "no-providers-more-info": "Meer informatie over <0>een Nash valutapartner worden</0>.",
       "credit-cards": "Credit cards:",
       "debit-cards": "Debit cards:",
       "bank-account": "Bankrekening link:",
       "powered-by": "Aangeboden door",
-      "change-provider": "Wijzig provider",
+      "change-provider": "Wijzig leverancier",
       "nash": {
         "pay-no-fees": "<0>Betaal geen kosten</0> wanneer u populaire digitale assets van Nash koopt!"
       }
@@ -1825,7 +1825,7 @@
     "limits": {
       "min-limit-message": "Minimale aankoop: <0/>",
       "min-limit": "Minimum",
-      "over-available": "[Translation required: Insufficent {{asset}} in trading contract]"
+      "over-available": "Onvoldoende {{asset}} in handelscontract"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1849,8 +1849,8 @@
       "generic-fourhundred": "Fout",
       "nash": {
         "region-restricted": {
-          "title": "[Translation required: Your region is not supported]",
-          "body": "[Translation required: This feature is not yet available in your region.]"
+          "title": "Uw regio wordt niet ondersteund",
+          "body": "Deze functie is nog niet beschikbaar in jouw regio"
         },
         "order-book-cache-empty": {
           "title": "Cache van orderboek is leeg",
@@ -1883,15 +1883,15 @@
       "pay-with-default": "Kies een betalingsmethode",
       "link-new-bank": "Betaalmethode toevoegen",
       "complete-nash-profile": "Voltooi uw <0>Nash profiel</0> voordat u digitale assets kunt kopen",
-      "available-balance": "[Translation required: Available balance: <0>{{amount}}</0>]",
-      "no-payment-method-sell": "[Translation required: <0>Add a payment method</0> to sell digital assets.]",
-      "complete-nash-profile-add-method-to-sell": "[Translation required: Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.]",
-      "no-funds-sell-1": "[Translation required: You don’t have any {{asset}} in your account to sell]",
-      "no-funds-sell-2": "[Translation required: <0>Purchase {{asset}}</0> via Nash Cash with no fee or <1>transfer funds</1>.]",
-      "must-move-funds-sell": "[Translation required: To sell {{asset}}, you must move it to the trading contract.]",
-      "dismiss": "[Translation required: Dismiss forever]",
-      "remind-me-later": "[Translation required: Remind me later]",
-      "btn-move-to-sell": "[Translation required: Move {{asset}} to sell]",
+      "available-balance": "Beschikbaar saldo: <0>{{amount}}</0>",
+      "no-payment-method-sell": "<0>Voeg een betaalmethode toe</0> om digitale activa te verkopen.",
+      "complete-nash-profile-add-method-to-sell": "Voltooi uw <0>Nash-profiel</0> en <1>voeg een betaalmethode toe</1> om digitale activa te verkopen.",
+      "no-funds-sell-1": "U heeft geen {{asset}} in uw account om te verkopen",
+      "no-funds-sell-2": "<0>Koop {{asset}}</0> via Nash Cash zonder kosten of <1>maak fondsen over</1>.",
+      "must-move-funds-sell": "Om {{asset}} te verkopen, moet je het verplaatsen naar het handelscontract.",
+      "dismiss": "Niet meer tonen",
+      "remind-me-later": "Herinner me er later aan",
+      "btn-move-to-sell": "Verplaats {{asset}} om het te verkopen",
       "want-to-buy-input-label": "Ik wil kopen",
       "want-to-sell-input-label": "Ik wil verkopen",
       "spend": "Besteden",
@@ -1907,7 +1907,7 @@
       "weekly-limit-affix": "Wekelijkse limiet",
       "monthly-limit-affix": "Maandelijkse limiet",
       "yearly-limit-affix": "Jaarlijkse limiet",
-      "amount-pending": "[Translation required: <0/> pending]",
+      "amount-pending": "<0/> in behandeling",
       "exceed-yearly-limit": "Jaarlijkse limiet",
       "no-change-today": "geen verandering vandaag",
       "change-today": "{{value}}% vandaag",
@@ -1958,15 +1958,15 @@
         "view": "U kunt de status van uw transactie bekijken <0>here</0>.",
         "button": "Beëindigen"
       },
-      "sell-btn": "[Translation required: Review sale]",
-      "l-trading-account": "[Translation required: Trading contract]",
-      "l-to-sell-move": "[Translation required: To sell {{asset}}, you must move it to the trading contract.]",
-      "l-sell": "[Translation required: Sell]",
-      "l-receive": "[Translation required: Receive]",
-      "l-personal-account": "[Translation required: Personal account]",
-      "b-remind": "[Translation required: Remind me later]",
-      "b-move-to-sell": "[Translation required: Move {{asset}} to sell →]",
-      "b-dismiss": "[Translation required: Dismiss forever]"
+      "sell-btn": "Controleer verkoop",
+      "l-trading-account": "Handelscontract",
+      "l-to-sell-move": "Om {{asset}} te verkopen, moet je het verplaatsen naar het handelscontract.",
+      "l-sell": "Verkopen",
+      "l-receive": "Ontvangen",
+      "l-personal-account": "Persoonlijk account",
+      "b-remind": "Herinner me er later aan",
+      "b-move-to-sell": "Verplaats {{asset}} om te verkopen →",
+      "b-dismiss": "Niet meer tonen"
     },
     "transactions": {
       "tab-title": "Transactie",
@@ -2037,10 +2037,10 @@
       "show-transaction": "Transactie",
       "deposited": "Gestort op",
       "nash": {
-        "no-matching-data-header": "[Translation required: No results found.]",
-        "no-matching-data-sub-header": "[Translation required: Your search didn’t match any purchases or sales.]",
-        "no-data-header": "[Translation required: You haven’t made any transactions yet.]",
-        "no-data-sub-header": "[Translation required: <0>Purchase digital assets</0> to get started.]",
+        "no-matching-data-header": "Geen resultaten gevonden.",
+        "no-matching-data-sub-header": "Uw zoekopdracht kwam niet overeen met enige aankopen of verkopen.",
+        "no-data-header": "U heeft nog geen transacties gedaan.",
+        "no-data-sub-header": "<0>Koop digitale middelen</0> om aan de slag te gaan.",
         "col": {
           "when": "Wanneer",
           "action": "Actie",
@@ -2049,17 +2049,17 @@
           "amount": "Hoeveelheid"
         },
         "get-refund-modal": {
-          "title": "[Translation required: Receive refund]",
-          "refund-amount": "[Translation required: Refund amount]",
-          "declined-exchange-rate": "[Translation required: Declined exchange rate]",
-          "original-rate": "[Translation required: Original rate: <0 />]",
-          "declined-amount": "[Translation required: Declined amount]",
-          "original-amount": "[Translation required: Original amount: <0 />]",
-          "pay-refund-to": "[Translation required: Pay refund to]",
-          "add-payment-method": "[Translation required: Add payment method]",
-          "no-methods": "[Translation required: No payment methods found]",
-          "b-get-refund": "[Translation required: Receive refund]",
-          "typical-arrival": "[Translation required: Refunds typically arrive in 1-4 days]"
+          "title": "Ontvang terugbetaling",
+          "refund-amount": "Terugbetalingsbedrag",
+          "declined-exchange-rate": "Geweigerde wisselkoers",
+          "original-rate": "Oorspronkelijk tarief: <0 />",
+          "declined-amount": "Geweigerd bedrag",
+          "original-amount": "Oorspronkelijk bedrag: <0 />",
+          "pay-refund-to": "Verricht terugbetaling naar",
+          "add-payment-method": "Betaalmethode toevoegen",
+          "no-methods": "Geen betaalmethoden gevonden",
+          "b-get-refund": "Ontvang terugbetaling",
+          "typical-arrival": "Terugbetalingen komen doorgaans binnen 1-4 dagen aan"
         },
         "sell-curr-amount": "Verkopen <0 />",
         "buy-curr-amount": "Kopen <0 />",
@@ -2076,9 +2076,9 @@
         "btn-confirm": "Bekijk",
         "btn-reconfirm": "Controleer",
         "btn-view": "Bekijk",
-        "btn-select-account": "[Translation required: Select account]",
-        "select-refund-account": "[Translation required: Select refund account]",
-        "no-payment-method-on-quote": "[Translation required: No payment method given]",
+        "btn-select-account": "Selecteer account",
+        "select-refund-account": "Selecteer een terugbetalingsaccount",
+        "no-payment-method-on-quote": "Geen betaalmethode opgegeven",
         "status": "Status",
         "refund-status-label": "Terugbetalingsstatus",
         "detailed-quote-status": {
@@ -2089,7 +2089,7 @@
           "failed-expired-on-confirmation": "Quote verlopen",
           "failed-expired-on-confirmation-reason": "U heeft uw quote niet op tijd geaccepteerd en deze is nu verlopen",
           "reconfirmation-expired": "Herbevestiging verlopen",
-          "processing-refund": "[Translation required: Processing refund]",
+          "processing-refund": "Terugbetaling wordt verwerkt",
           "reconfirmation-rejected": "Herbevestiging afgewezen",
           "confirmed-waiting-for-payment": "Wachtend op betaling",
           "pending-refund": "Terugbetaling in behandeling",
@@ -2108,13 +2108,13 @@
           "confirmed-waiting-for-payment": "Betaling vereist",
           "pending-refund": "In afwachting",
           "pending-user-rate-reconfirmation": "Tarief gewijzigd",
-          "processing-refund": "[Translation required: Processing]",
-          "processing-settlement": "[Translation required: Processing]",
-          "processing-payment": "[Translation required: Processing]",
+          "processing-refund": "Verwerken",
+          "processing-settlement": "Verwerken",
+          "processing-payment": "Verwerken",
           "refunded": "Terugbetaald",
           "completed": "Voltooid"
         },
-        "refund-processing": "[Translation required: Processing refund…]"
+        "refund-processing": "Terugbetaling in verwerking…"
       }
     },
     "payments-methods": {
@@ -2141,26 +2141,26 @@
         "REJECTED": "Verworpen"
       },
       "nash": {
-        "add-method": "[Translation required: Add a new payment method]",
-        "iban-invalid": "[Translation required: Please provide a valid IBAN.]",
-        "btn-add-payment-method": "[Translation required: Add payment method]",
-        "btn-add-payment-method-get-refund": "[Translation required: Add payment method and receive refund]",
-        "add-pm-title": "[Translation required: Add new payment method]",
-        "correct-name": "[Translation required: Please note that we will use your Tier 1 full name ‘{{name}}’ for this transfer. If your bank account isn’t registered under this name, please <0>update your Tier 1 name</0>.]",
-        "e-payment-method-exists": "[Translation required: Payment method already exists]",
-        "l-name-your-account": "[Translation required: Name your account]",
-        "p-name-your-account": "[Translation required: Give your payment method a name]",
-        "l-bank-iban": "[Translation required: IBAN]",
-        "p-bank-iban": "[Translation required: Add your IBAN]",
-        "added-date": "[Translation required: Added {{datetime}}]",
-        "b-delete": "[Translation required: Delete]",
-        "delete-modal-title": "[Translation required: Delete this payment method?]",
-        "delete-modal-body": "[Translation required: Payment method with IBAN {{iban}} will be removed.]",
-        "b-confirm-delete": "[Translation required: Delete]",
-        "b-cancel-delete": "[Translation required: Do nothing]",
-        "no-methods-1": "[Translation required: No EUR (€) payment methods added.]",
-        "no-methods-2": "[Translation required: Add one to start selling crypto or receive a refund.]",
-        "page-of": "[Translation required: {{pageNumber}} of {{totalPages}}]"
+        "add-method": "Voeg een nieuwe betaalmethode toe",
+        "iban-invalid": "Geef a.u.b. een geldige IBAN op.",
+        "btn-add-payment-method": "Betaalmethode toevoegen",
+        "btn-add-payment-method-get-refund": "Voeg betalingsmethode toe en ontvang terugbetaling",
+        "add-pm-title": "Nieuwe betalingsmethode toevoegen",
+        "correct-name": "Houd er rekening mee dat we voor deze transfer uw volledige Tier 1-naam ‘{{name}}’ zullen gebruiken. Als uw bankrekening niet onder deze naam is geregistreerd, moet u <0>uw Tier 1-naam bijwerken</0>.",
+        "e-payment-method-exists": "Betaalmethode bestaat al",
+        "l-name-your-account": "Geef uw account een naam",
+        "p-name-your-account": "Geef uw betaalmethode een naam",
+        "l-bank-iban": "IBAN",
+        "p-bank-iban": "Voeg uw IBAN toe",
+        "added-date": "Toegevoegd {{datetime}}",
+        "b-delete": "Verwijderen",
+        "delete-modal-title": "Deze betaalmethode verwijderen?",
+        "delete-modal-body": "Betaalmethode met IBAN {{iban}} wordt verwijderd.",
+        "b-confirm-delete": "Verwijderen",
+        "b-cancel-delete": "Niets doen",
+        "no-methods-1": "Geen EUR (€) betalingsmethoden toegevoegd.",
+        "no-methods-2": "Voeg er een toe om crypto te verkopen of een terugbetaling te ontvangen.",
+        "page-of": "{{pageNumber}} van {{totalPages}}"
       },
       "credit-card": {
         "continue-billing": "Ga verder naar factureringsgegevens",
@@ -2299,8 +2299,8 @@
           "building-number-label": "Gebouwnummer",
           "house-label": "Huis Naam/Nummer",
           "street-name-label": "Straatnaam",
-          "street1-label": "Adres regel 1",
-          "street2-label": "Adres regel 2",
+          "street1-label": "Adresregel 1",
+          "street2-label": "Adresregel 2",
           "city-label": "Stad",
           "state-label": "Provincie",
           "county-state-label": "Provincie/staat",
@@ -2456,15 +2456,15 @@
       "limits-not-complete": "Verklaar beroep en bron van vermogen",
       "limits-no-occupation": "Verklaar beroep",
       "limits-no-source-of-funds": "Verklaar bron van vermogen",
-      "limits-no-source-of-wealth": "[Translation required: Declare your main source of funds]",
+      "limits-no-source-of-wealth": "Vermeld uw belangrijkste financieringsbron",
       "limits-no-level-1": "Je moet tier-1 geverifieerd zijn",
       "add-occupation": "Verklaar beroep",
       "add-source-of-funds": "Verklaar bron van vermogen",
-      "add-source-of-wealth": "[Translation required: Declare main source of funds]",
+      "add-source-of-wealth": "Vermeld uw belangrijkste financieringsbron",
       "header": "Tier 1 profiel informatie",
       "contact-support-to-edit": "<0>Contacteer ondersteuning</0> om dit aan te passen",
       "source-of-funds": "Bron van Vermogen",
-      "source-of-wealth": "[Translation required: Main source of funds]",
+      "source-of-wealth": "Belangrijkste financieringsbron",
       "occupation": "Beroep",
       "my-limits-tab": "Limieten",
       "account-id": "Account ID",
@@ -2555,14 +2555,14 @@
       "cancel-btn": "Annuleren",
       "confirm-btn": "Ik begrijp het",
       "nash": {
-        "l-you-will-sell": "[Translation required: You will sell]",
-        "l-at-current-rate": "[Translation required: At the current rate]",
-        "l-you-will-receive": "[Translation required: You will receive]",
-        "l-pay-to": "[Translation required: Pay to]",
-        "b-cancel-sale": "[Translation required: Cancel sale]",
-        "title": "[Translation required: Sell {{asset}}]",
-        "b-finalize-sale": "[Translation required: Finalize sale]",
-        "m-add-a-method": "[Translation required: You need to add a payment method before we can finalize your quote.]"
+        "l-you-will-sell": "U zal verkopen",
+        "l-at-current-rate": "Tegen het huidige tarief",
+        "l-you-will-receive": "U zal ontvangen",
+        "l-pay-to": "Betaal aan",
+        "b-cancel-sale": "Verkoop annuleren",
+        "title": "Verkoop {{asset}}",
+        "b-finalize-sale": "Verkoop afronden",
+        "m-add-a-method": "U moet een betalingsmethode toevoegen voordat we uw quote kunnen afronden."
       }
     },
     "review-buy-transaction": {
@@ -2583,26 +2583,26 @@
       "rate-protection-label": "Beschermd",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
       "destination": "Bestemming",
-      "paying-to": "[Translation required: Paying to]",
-      "paid-to": "[Translation required: Paid to]",
-      "l-refund-time": "[Translation required: Refund time]",
-      "refund-time": "[Translation required: A few minutes]",
-      "processing-refund": "[Translation required: Processing your refund]",
+      "paying-to": "Betalen aan",
+      "paid-to": "Betaald aan",
+      "l-refund-time": "Tijd nodig voor terugbetaling",
+      "refund-time": "Enkele minuten",
+      "processing-refund": "Uw terugbetaling wordt verwerkt",
       "deposited-to": "Gestort naar",
       "asset-deposited-to": "Valuta gestort naar",
-      "refund-amount": "[Translation required: Refund amount]",
+      "refund-amount": "Terugbetalingsbedrag",
       "expired": "Deze offerte is {{value}} geleden verlopen.",
       "expired-message-1": "Uw gegarandeerde wisselkoers is verlopen!",
       "expired-message-2": "Verversen kan uw wisselkoers updaten.",
       "expires": "Deze offerte vervalt in {{value}}.",
-      "started-on": "[Translation required: Started at]",
+      "started-on": "Gestart op",
       "happy-btn": "Accepteer offerte en start de transactie",
       "user-iban-label": "IBAN gebruikt",
       "payment-needed": "Betaling nodig",
       "payment-status": "Betaling status",
       "payment-status-paid": "Betaald",
-      "sale-status": "[Translation required: Sale status]",
-      "sale-status-complete": "[Translation required: Complete]",
+      "sale-status": "Verkoopsstatus",
+      "sale-status-complete": "Voltooid",
       "provider-fee": "Provider kosten",
       "provider-fee-with-name": "{{providerName}} kosten",
       "quoted-amount": "Geciteerde kosten",
@@ -2614,40 +2614,40 @@
       "get-or-cancel": "<0>Bankgegevens van ontvanger opvragen</0> of <1>deze quote weigeren</1>.",
       "refresh-btn": "Vernieuwen",
       "status": "Valutastatus",
-      "l-reason": "[Translation required: Reason for refund]",
-      "reason-compliance": "[Translation required: Compliance check failed]",
+      "l-reason": "Reden voor terugbetaling",
+      "reason-compliance": "Compliance controle mislukt",
       "step-payment": "Maak uw transfer",
       "step-review": "Controleer uw quote",
       "submit-btn": "Bevestig aankoop",
       "taken-from-bank": "Afkomstig van bankrekening",
       "taken-from-card": "Kaart gedebiteerd",
-      "l-sell-add-source": "[Translation required: Please declare your source of funds for this particular sale.]",
-      "l-buy-add-source": "[Translation required: Please declare your source of funds for this particular purchase.]",
+      "l-sell-add-source": "Geef uw financieringsbron aan voor deze specifieke verkoop.",
+      "l-buy-add-source": "Geef uw financieringsbron aan voor deze specifieke aankoop.",
       "quote-accepted-title": "Quote aanvaard",
       "title": "Koop digitale activa",
       "source-of-funds-modal": {
-        "title": "[Translation required: Source of funds]",
-        "label": "[Translation required: Select or add the source of funds for this purchase]",
-        "add-new": "[Translation required: + Add new]",
-        "l-add-new": "[Translation required: Add a new source of funds]",
-        "b-add-new": "[Translation required: Save and use as source of funds]",
-        "this-is-the-source": "[Translation required: This is the main source of funds declared on your Nash profile.]",
-        "b-cancel": "[Translation required: Cancel]",
-        "b-go-back": "[Translation required: Accept]"
+        "title": "Bron van inkomsten",
+        "label": "Selecteer of voeg de financieringsbron toe voor deze aankoop",
+        "add-new": "+ Nieuw toevoegen",
+        "l-add-new": "Voeg een nieuwe financieringsbron toe",
+        "b-add-new": "Sla op en gebruik als financieringsbron",
+        "this-is-the-source": "Dit is de voornaamste bron van inkomsten die op uw Nash-profiel is aangegeven.",
+        "b-cancel": "Annuleren",
+        "b-go-back": "Aanvaarden"
       },
       "total-cost": "Totale kost",
-      "total-sold": "[Translation required: Total sold]",
-      "fiat-deposited-to": "[Translation required: Deposited to]",
-      "b-change": "[Translation required: Change]",
-      "b-add": "[Translation required: Add]",
-      "source-of-funds": "[Translation required: Source of funds for this purchase]",
+      "total-sold": "Totaal verkocht",
+      "fiat-deposited-to": "Gestort naar",
+      "b-change": "Veranderen",
+      "b-add": "Toevoegen",
+      "source-of-funds": "Bron van inkomsten voor deze aankoop",
       "total-with-provider-fee": "Totaal met transactiekosten",
       "trading-contract": "Handelscontract",
       "transaction-details": "Overzicht orders",
       "transaction-details-link": "Bekijk",
       "warning-msg": "Ik machtig {{providerName}} om op datum van vandaag het vermelde account te debiteren voor bovenstaande bedrag. Ik zal {{providerName}} het debiteren van mijn rekening niet betwisten, zolang de transactie overeenkomt met de voorwaarden in dit online formulier en met mijn overeenkomst met {{providerName}}.",
       "declined-exchange-rate": "[Translation required: Declined exchange rate]",
-      "declined-amount": "[Translation required: Declined amount]"
+      "declined-amount": "Geweigerd bedrag"
     },
     "review-transfer-funds": {
       "transfer-to": "Transfereer <0 /> naar onderstaand account.",
@@ -2689,7 +2689,7 @@
       "not-uploaded": "Niet geüpload",
       "document": "Document",
       "documents": "Documenten",
-      "transfer-amount": "[Translation required: Transfer this amount]",
+      "transfer-amount": "Maak dit bedrag over",
       "pop-upload-time": "U moet uw betalingsbewijs binnen de 60 minuten na het verzenden van het geld uploaden om deze transactie geldig te maken.",
       "add-default-docs": "<0>Verhoog mijn limieten</0>",
       "overlimit-message-level1": "U moet <0>uw profiel voltooien</0> voordat u digitale activa kunt kopen.",
@@ -3115,7 +3115,7 @@
           "status": {
             "completed": "Klaar",
             "pending": "In overdracht",
-            "pending-with-confirmations": "[Translation required: {{confirmations}}/{{denominator}} confirmations]"
+            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmaties"
           },
           "view-transaction": "Bekijk transactie",
           "retry-pending": "Probeer de transactie opnieuw te verzenden",
@@ -3135,7 +3135,7 @@
           "to": {
             "trading-account": "Handelscontract",
             "personal-account": "Persoonlijk account",
-            "nash-fiat-ramp": "[Translation required: Sell to Nash]",
+            "nash-fiat-ramp": "Verkoop aan Nash",
             "staking-account": "NEX staking contract",
             "fees": "Kosten"
           },
