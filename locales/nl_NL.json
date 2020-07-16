@@ -88,7 +88,7 @@
       "policy-withdrawals": "Stortingen en opnames",
       "revoke-all-keys-button-label": "Alle sleutels intrekken",
       "generate-new-key-button-label": "Genereer nieuwe sleutel",
-      "plus-more": "+{{count}} more"
+      "plus-more": "+{{count}} meer"
     },
     "create-modal": {
       "credentials-step": "Gebruikersgegevens",
@@ -191,8 +191,8 @@
   },
   "top-nav": {
     "exchange-status": {
-      "operational": "Exchange fully operational",
-      "maintenance": "Exchange in maintenance"
+      "operational": "Exchange volledig operationeel",
+      "maintenance": "Exchange in onderhoud"
     },
     "accounts-main-menu": {
       "title": "Diensten"
@@ -243,16 +243,16 @@
         }
       },
       "funds": {
-        "title": "Bezittingen",
+        "title": "Activa",
         "pages": {
           "portfolio": "Portfolio",
           "transfers": "Transfers",
-          "assets": "Bezittingen",
+          "assets": "Activa",
           "contacts": "Contacten"
         }
       },
       "referrals": {
-        "title": "Verwijzingen"
+        "title": "Doorverwijzingen"
       },
       "fiat-ramps": {
         "title": "Kopen/Verkopen",
@@ -313,9 +313,9 @@
       "incorrect": "Het wachtwoord dat je hebt ingevuld klopt niet."
     },
     "2fa": {
-      "incorrect": "De two-factor authenticatie code die je hebt ingevuld klopt niet. Je kunt het maximaal vijf keer proberen.",
-      "already-used": "De two-factor authenticatie code die je hebt ingevoerd is al gebruikt. Wacht alsjeblieft en probeer het opnieuw.",
-      "code-expired": "De two-factor authenticatie code die je hebt ingevuld is verlopen. Wacht alsjeblieft en probeer het opnieuw.",
+      "incorrect": "De twee-factor authenticatie code die je hebt ingevuld klopt niet. Je kunt het maximaal vijf keer proberen.",
+      "already-used": "De twee-factor authenticatie code die je hebt ingevoerd is al gebruikt. Wacht alsjeblieft en probeer het opnieuw.",
+      "code-expired": "De twee-factor authenticatie code die je hebt ingevuld is verlopen. Wacht alsjeblieft en probeer het opnieuw.",
       "too-many-failures": "Je hebt te vaak een incorrecte code ingevoerd en je account is nu permanent vergrendeld. Neem alsjeblieft contact op met support.",
       "too-many-failures-signout": "Je hebt te vaak een incorrecte code ingevoerd en je account is nu permanent vergrendeld. Je wordt nu uitgelogd."
     },
@@ -338,11 +338,11 @@
   "no": "nee",
   "account-types": {
     "personal": "Persoonlijk account",
-    "trading": "Handels contract",
+    "trading": "Handelscontract",
     "external": "Extern account"
   },
   "query-errors": {
-    "failed": "Failed to load.",
+    "failed": "Laden mislukt.",
     "failed-button": "Laden mislukt",
     "failed-please-try": "Het laden is mislukt. <0>Probeer het opnieuw</0>.",
     "why-this-may-happening": "Kom er <0>hier</0> achter waarom dit heeft kunnen gebeuren."
@@ -381,7 +381,7 @@
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Jouw IP adres komt niet overeen met het land dat je hebt geselecteerd.",
+          "title": "Jouw IP-adres komt niet overeen met het land dat je hebt geselecteerd.",
           "message": "Gebruikers met een verificatielevel van tier 0 hebben geen toegang tot alle Nash-services tenzij dat ze verbinding maken vanuit het land waar ze woonachtig zijn. Denk erover na <0>om te upgraden naar Tier 1</0>."
         },
         "untrusted-ip": {
@@ -428,7 +428,7 @@
         }
       }
     },
-    "dismiss-message": "Vertel mij dit niet nog een keer."
+    "dismiss-message": "Niet meer tonen."
   },
   "terms": {
     "user-agreement": "Gebruikersovereenkomst",
@@ -441,7 +441,7 @@
       "Accountgegevens"
     ],
     "signin": {
-      "desc": "Heb je al een Nash account?",
+      "desc": "Heb je al een Nash-account?",
       "sign-in-now": "Meld u nu aan"
     },
     "form": {
@@ -493,9 +493,9 @@
     "country-details": {
       "header": "Account aanmaken",
       "subheader": "Waar woon je?",
-      "edit": "Edit",
-      "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "edit": "Bewerken",
+      "cancel": "Annuleren",
+      "save-changes": "Veranderingen opslaan.",
       "fields": {
         "country": {
           "label": "Land van verblijf"
@@ -631,7 +631,7 @@
         "input-placeholder": "Woord {{index}}",
         "case-sensitive": "Alle woorden zijn kleine letters",
         "create-my-wallet": "Maak mijn account",
-        "generating-your-wallet": "Uw Nash account genereren…",
+        "generating-your-wallet": "Uw Nash-account genereren…",
         "errors": {
           "create-wallet-failed": "Er is een fout opgetreden bij het aanmaken van uw account. <0>log uit</0> en probeer het opnieuw."
         }
@@ -646,7 +646,7 @@
     },
     "2fa": {
       "title": "Twee-factor-authenticatie",
-      "header": "Recommended: Twee-factor-authenticatie inschakelen",
+      "header": "Aanbevolen: Twee-factor-authenticatie inschakelen",
       "skip": "Overslaan",
       "desc": "Twee-factor-authenticatie (2FA) voegt een extra beveiligingslaag toe aan uw account.",
       "cards": {
@@ -659,8 +659,8 @@
           "manual-2fa": "Schrijf uw 2FA-back-upcode op"
         },
         "3": {
-          "header": "Enter the verification code generated by your authenticator app",
-          "input-placeholder": "Authenticatie code",
+          "header": "Voer de verificatiecode in die is gegenereerd door uw authenticator-app",
+          "input-placeholder": "Authenticatiecode",
           "input-error": "De code die je hebt ingevoerd was onjuist."
         }
       },
@@ -823,14 +823,14 @@
         "balances": "Balans",
         "balances-table": {
           "header": {
-            "asset": "Asset",
-            "personal": "Personal",
-            "trading": "Trading",
+            "asset": "Activum",
+            "personal": "Persoonlijk",
+            "trading": "Handelen",
             "in-orders": "In order",
             "pending": "In afwachting"
           },
           "current-market": "Huidige markt",
-          "other-tradable-assets": "Andere verhandelbare assets"
+          "other-tradable-assets": "Andere verhandelbare activa"
         }
       },
       "trading-limits": "Handelslimieten",
@@ -1053,8 +1053,8 @@
       },
       "direction-col": {
         "cell-text": {
-          "buy": "Buy",
-          "sell": "Sell"
+          "buy": "Koop",
+          "sell": "Verkoop"
         }
       }
     },
@@ -1068,7 +1068,7 @@
       "title": "USD",
       "title-no-fiat": "Order boek",
       "order-size-col": "{{symbol}} grootte",
-      "my-size-col": "My grootte",
+      "my-size-col": "Mijn grootte",
       "price-col": "{{symbol}} prijs",
       "average": "Gem. prijs",
       "sum-size": "{{symbol}} som",
@@ -1176,7 +1176,7 @@
           "updated-success": "Uw e-mailadres is bijgewerkt. U kunt zich nu aanmelden met uw nieuwe adres."
         },
         "verify-email": {
-          "success": "Uw e-mail adres is geverifieerd. Log in om uw account in te stellen.",
+          "success": "Uw e-mailadres is geverifieerd. Log in om uw account in te stellen.",
           "error": "E-mailadres kon niet geverifieerd worden. De verificatiecode is mogelijk verlopen. Log in en vraag nog een verificatie-e-mail aan."
         }
       },
@@ -1624,7 +1624,7 @@
     "NG": "Nigeria",
     "NI": "Nicaragua",
     "NL": "Nederland",
-    "NO": "Norwegen",
+    "NO": "Noorwegen",
     "NP": "Nepal",
     "NR": "Nauru",
     "NU": "Niue",
@@ -1724,12 +1724,12 @@
     "USD": "US dollar (USD)"
   },
   "fiat-ramps": {
-    "all-providers": "Alle providers",
+    "all-providers": "Alle leveranciers",
     "terms-and-conditions": "Ik accepteer de <0>Alegemene voorwaarden</0> van {{providerName}}.",
     "title": "Koop/Verkoop",
     "no-providers": {
-      "title": "No asset providers available.",
-      "why-not": "No digital asset providers are available in your region yet."
+      "title": "Geen activaleveranciers beschikbaar",
+      "why-not": "Er zijn nog geen leveranciers van digitale activa beschikbaar in uw regio."
     },
     "tier0": {
       "buy-popular-assets": "Koop en verkoop populaire digitale assets",
@@ -1741,12 +1741,12 @@
       "use-with-vpn": "Toegang tot Nash via een VPN-service."
     },
     "move-funds": {
-      "title": "Move {{asset}} to sell",
-      "l-amount-to-transfer": "Amount to transfer",
-      "b-move-to-sell": "Move {{asset}} to sell"
+      "title": "Verplaats {{asset}} om te verkopen",
+      "l-amount-to-transfer": "Over te maken bedrag",
+      "b-move-to-sell": "Verplaats {{asset}} om te verkopen"
     },
     "provider": {
-      "title": "Selecteer een provider",
+      "title": "Selecteer een leverancier",
       "verify-identity": "<0>Verifieer uw identiteit</0> om te beginnen.",
       "subtitle": "Aanbieders van digitale assets zijn externe bedrijven die samenwerken met Nash, waarmee u digitale assets kunt kopen en verkopen in nationale valuta.",
       "steps": [
@@ -1782,15 +1782,15 @@
       "kyc-txn-limit-post-kyc": "{{value}} per transactie na identiteitsverificatie",
       "kyc-txn-limit-post-phone": "{{value}} per transactie na telefoonnummer verificatie",
       "select-btn": "Selecteer",
-      "have-account-header": "Providers waarmee ik een account heb aangemaakt",
-      "no-account-header": "Providers waarmee ik geen account heb aangemaakt",
+      "have-account-header": "Leveranciers waarmee ik een account heb aangemaakt",
+      "no-account-header": "Leveranciers waarmee ik geen account heb aangemaakt",
       "no-providers-title": "Helaas zijn er momenteel geen aanbieders van digitale assets in uw regio.",
       "no-providers-more-info": "Meer informatie over <0>een Nash valutapartner worden</0>.",
-      "credit-cards": "Credit cards:",
-      "debit-cards": "Debit cards:",
+      "credit-cards": "Kredietkaarten:",
+      "debit-cards": "Debetkaarten:",
       "bank-account": "Bankrekening link:",
       "powered-by": "Aangeboden door",
-      "change-provider": "Wijzig provider",
+      "change-provider": "Wijzig leverancier",
       "nash": {
         "pay-no-fees": "<0>Betaal geen kosten</0> wanneer u populaire digitale assets van Nash koopt!"
       }
@@ -1825,7 +1825,7 @@
     "limits": {
       "min-limit-message": "Minimale aankoop: <0/>",
       "min-limit": "Minimum",
-      "over-available": "Insufficent {{asset}} in trading contract"
+      "over-available": "Onvoldoende {{asset}} in handelscontract"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1840,7 +1840,7 @@
       "validation": "Validatieprobleem",
       "insufficient-funds": "Onvoldoende fondsen",
       "access-denied": "Toegangs- of toestemmingsprobleem (Wyre)",
-      "unsupported-state": "De Amerikaanse staat wordt niet ondersteund door Wyre",
+      "unsupported-state": "Deze Amerikaanse staat wordt niet ondersteund door Wyre",
       "under-eighteen": "Onder de achttien",
       "plaid-not-ready": "Wyre heeft problemen met de communicatie met uw bank",
       "transfer": "Probleem met overboeking",
@@ -1849,8 +1849,8 @@
       "generic-fourhundred": "Fout",
       "nash": {
         "region-restricted": {
-          "title": "Your region is not supported",
-          "body": "This feature is not yet available in your region."
+          "title": "Uw regio wordt niet ondersteund",
+          "body": "Deze functie is nog niet beschikbaar in jouw regio"
         },
         "order-book-cache-empty": {
           "title": "Cache van orderboek is leeg",
@@ -1883,15 +1883,15 @@
       "pay-with-default": "Kies een betalingsmethode",
       "link-new-bank": "Betaalmethode toevoegen",
       "complete-nash-profile": "Voltooi uw <0>Nash profiel</0> voordat u digitale assets kunt kopen",
-      "available-balance": "Available balance: <0>{{amount}}</0>",
+      "available-balance": "Beschikbaar saldo: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Voeg een betaalmethode toe</0> om digitale activa te verkopen.",
       "complete-nash-profile-add-method-to-sell": "Voltooi uw <0>Nash-profiel</0> en <1>voeg een betaalmethode toe</1> om digitale activa te verkopen.",
       "no-funds-sell-1": "U heeft geen {{asset}} in uw account om te verkopen",
-      "no-funds-sell-2": "<0>Koop {{asset}}</0> via Nash Cash zonder kosten of <1>maak geld over</1>.",
+      "no-funds-sell-2": "<0>Koop {{asset}}</0> via Nash Cash zonder kosten of <1>maak fondsen over</1>.",
       "must-move-funds-sell": "Om {{asset}} te verkopen, moet je het verplaatsen naar het handelscontract.",
       "dismiss": "Niet meer tonen",
-      "remind-me-later": "Herinner me later",
-      "btn-move-to-sell": "Verplaats {{asset}} om te verkopen",
+      "remind-me-later": "Herinner me er later aan",
+      "btn-move-to-sell": "Verplaats {{asset}} om het te verkopen",
       "want-to-buy-input-label": "Ik wil kopen",
       "want-to-sell-input-label": "Ik wil verkopen",
       "spend": "Besteden",
@@ -1907,7 +1907,7 @@
       "weekly-limit-affix": "Wekelijkse limiet",
       "monthly-limit-affix": "Maandelijkse limiet",
       "yearly-limit-affix": "Jaarlijkse limiet",
-      "amount-pending": "<0/> pending",
+      "amount-pending": "<0/> in behandeling",
       "exceed-yearly-limit": "Jaarlijkse limiet",
       "no-change-today": "geen verandering vandaag",
       "change-today": "{{value}}% vandaag",
@@ -1958,15 +1958,15 @@
         "view": "U kunt de status van uw transactie bekijken <0>here</0>.",
         "button": "Beëindigen"
       },
-      "sell-btn": "Review sale",
-      "l-trading-account": "Trading contract",
-      "l-to-sell-move": "To sell {{asset}}, you must move it to the trading contract.",
-      "l-sell": "Sell",
-      "l-receive": "Receive",
-      "l-personal-account": "Personal account",
-      "b-remind": "Remind me later",
-      "b-move-to-sell": "Move {{asset}} to sell →",
-      "b-dismiss": "Dismiss forever"
+      "sell-btn": "Controleer verkoop",
+      "l-trading-account": "Handelscontract",
+      "l-to-sell-move": "Om {{asset}} te verkopen, moet je het verplaatsen naar het handelscontract.",
+      "l-sell": "Verkopen",
+      "l-receive": "Ontvangen",
+      "l-personal-account": "Persoonlijk account",
+      "b-remind": "Herinner me er later aan",
+      "b-move-to-sell": "Verplaats {{asset}} om te verkopen →",
+      "b-dismiss": "Niet meer tonen"
     },
     "transactions": {
       "tab-title": "Transactie",
@@ -2037,10 +2037,10 @@
       "show-transaction": "Transactie",
       "deposited": "Gestort op",
       "nash": {
-        "no-matching-data-header": "No results found.",
-        "no-matching-data-sub-header": "Your search didn’t match any purchases or sales.",
-        "no-data-header": "You haven’t made any transactions yet.",
-        "no-data-sub-header": "<0>Purchase digital assets</0> to get started.",
+        "no-matching-data-header": "Geen resultaten gevonden.",
+        "no-matching-data-sub-header": "Uw zoekopdracht kwam niet overeen met enige aankopen of verkopen.",
+        "no-data-header": "U heeft nog geen transacties gedaan.",
+        "no-data-sub-header": "<0>Koop digitale middelen</0> om aan de slag te gaan.",
         "col": {
           "when": "Wanneer",
           "action": "Actie",
@@ -2049,17 +2049,17 @@
           "amount": "Hoeveelheid"
         },
         "get-refund-modal": {
-          "title": "Receive refund",
-          "refund-amount": "Refund amount",
-          "declined-exchange-rate": "Declined exchange rate",
-          "original-rate": "Original rate: <0 />",
-          "declined-amount": "Declined amount",
-          "original-amount": "Original amount: <0 />",
-          "pay-refund-to": "Pay refund to",
-          "add-payment-method": "Add payment method",
-          "no-methods": "No payment methods found",
-          "b-get-refund": "Receive refund",
-          "typical-arrival": "Refunds typically arrive in 1-4 days"
+          "title": "Ontvang terugbetaling",
+          "refund-amount": "Terugbetalingsbedrag",
+          "declined-exchange-rate": "Geweigerde wisselkoers",
+          "original-rate": "Oorspronkelijk tarief: <0 />",
+          "declined-amount": "Geweigerd bedrag",
+          "original-amount": "Oorspronkelijk bedrag: <0 />",
+          "pay-refund-to": "Verricht terugbetaling naar",
+          "add-payment-method": "Betaalmethode toevoegen",
+          "no-methods": "Geen betaalmethoden gevonden",
+          "b-get-refund": "Ontvang terugbetaling",
+          "typical-arrival": "Terugbetalingen komen doorgaans binnen 1-4 dagen aan"
         },
         "sell-curr-amount": "Verkopen <0 />",
         "buy-curr-amount": "Kopen <0 />",
@@ -2076,9 +2076,9 @@
         "btn-confirm": "Bekijk",
         "btn-reconfirm": "Controleer",
         "btn-view": "Bekijk",
-        "btn-select-account": "Select account",
-        "select-refund-account": "Select refund account",
-        "no-payment-method-on-quote": "No payment method given",
+        "btn-select-account": "Selecteer account",
+        "select-refund-account": "Selecteer een terugbetalingsaccount",
+        "no-payment-method-on-quote": "Geen betaalmethode opgegeven",
         "status": "Status",
         "refund-status-label": "Terugbetalingsstatus",
         "detailed-quote-status": {
@@ -2089,7 +2089,7 @@
           "failed-expired-on-confirmation": "Quote verlopen",
           "failed-expired-on-confirmation-reason": "U heeft uw quote niet op tijd geaccepteerd en deze is nu verlopen",
           "reconfirmation-expired": "Herbevestiging verlopen",
-          "processing-refund": "Processing refund",
+          "processing-refund": "Terugbetaling wordt verwerkt",
           "reconfirmation-rejected": "Herbevestiging afgewezen",
           "confirmed-waiting-for-payment": "Wachtend op betaling",
           "pending-refund": "Terugbetaling in behandeling",
@@ -2108,13 +2108,13 @@
           "confirmed-waiting-for-payment": "Betaling vereist",
           "pending-refund": "In afwachting",
           "pending-user-rate-reconfirmation": "Tarief gewijzigd",
-          "processing-refund": "Processing",
-          "processing-settlement": "Processing",
-          "processing-payment": "Processing",
+          "processing-refund": "Verwerken",
+          "processing-settlement": "Verwerken",
+          "processing-payment": "Verwerken",
           "refunded": "Terugbetaald",
           "completed": "Voltooid"
         },
-        "refund-processing": "Processing refund…"
+        "refund-processing": "Terugbetaling in verwerking…"
       }
     },
     "payments-methods": {
@@ -2141,26 +2141,26 @@
         "REJECTED": "Verworpen"
       },
       "nash": {
-        "add-method": "Add a new payment method",
-        "iban-invalid": "Please provide a valid IBAN.",
-        "btn-add-payment-method": "Add payment method",
-        "btn-add-payment-method-get-refund": "Add payment method and receive refund",
-        "add-pm-title": "Add new payment method",
-        "correct-name": "Please note that we will use your Tier 1 full name ‘{{name}}’ for this transfer. If your bank account isn’t registered under this name, please <0>update your Tier 1 name</0>.",
-        "e-payment-method-exists": "Payment method already exists",
-        "l-name-your-account": "Name your account",
-        "p-name-your-account": "Give your payment method a name",
+        "add-method": "Voeg een nieuwe betaalmethode toe",
+        "iban-invalid": "Geef a.u.b. een geldige IBAN op.",
+        "btn-add-payment-method": "Betaalmethode toevoegen",
+        "btn-add-payment-method-get-refund": "Voeg betalingsmethode toe en ontvang terugbetaling",
+        "add-pm-title": "Nieuwe betalingsmethode toevoegen",
+        "correct-name": "Houd er rekening mee dat we voor deze transfer uw volledige Tier 1-naam ‘{{name}}’ zullen gebruiken. Als uw bankrekening niet onder deze naam is geregistreerd, moet u <0>uw Tier 1-naam bijwerken</0>.",
+        "e-payment-method-exists": "Betaalmethode bestaat al",
+        "l-name-your-account": "Geef uw account een naam",
+        "p-name-your-account": "Geef uw betaalmethode een naam",
         "l-bank-iban": "IBAN",
-        "p-bank-iban": "Add your IBAN",
-        "added-date": "Added {{datetime}}",
-        "b-delete": "Delete",
-        "delete-modal-title": "Delete this payment method?",
-        "delete-modal-body": "Payment method with IBAN {{iban}} will be removed.",
-        "b-confirm-delete": "Delete",
-        "b-cancel-delete": "Do nothing",
-        "no-methods-1": "No EUR (€) payment methods added.",
-        "no-methods-2": "Add one to start selling crypto or receive a refund.",
-        "page-of": "{{pageNumber}} of {{totalPages}}"
+        "p-bank-iban": "Voeg uw IBAN toe",
+        "added-date": "Toegevoegd {{datetime}}",
+        "b-delete": "Verwijderen",
+        "delete-modal-title": "Deze betaalmethode verwijderen?",
+        "delete-modal-body": "Betaalmethode met IBAN {{iban}} wordt verwijderd.",
+        "b-confirm-delete": "Verwijderen",
+        "b-cancel-delete": "Niets doen",
+        "no-methods-1": "Geen EUR (€) betalingsmethoden toegevoegd.",
+        "no-methods-2": "Voeg er een toe om crypto te verkopen of een terugbetaling te ontvangen.",
+        "page-of": "{{pageNumber}} van {{totalPages}}"
       },
       "credit-card": {
         "continue-billing": "Ga verder naar factureringsgegevens",
@@ -2196,7 +2196,7 @@
       "review-header": "Kijk uw nieuwe {{currency}} quote na",
       "received-transfer": "We hebben uw overdracht van ontvangen <0 />",
       "new-rate-in": "Nieuw tarief in",
-      "at": "at <0/>",
+      "at": "aan <0/>",
       "new-quote-secs": "{{count}}",
       "original-quote": "Oorspronkelijke quote",
       "new-quote": "Uw nieuwe quote",
@@ -2211,7 +2211,7 @@
       "days": "1-3 dagen",
       "we-refund": "We betalen je terug",
       "destination": "Bestemming",
-      "refund-time": "Restitutie tijd",
+      "refund-time": "Wachttijd terugbetaling",
       "message": "De quote is verlopen voordat u een beslissing nam, of de webpagina werd gesloten zonder het nieuwe bedrag en tarief te accepteren of te weigeren."
     },
     "reconfirm-accept": {
@@ -2228,7 +2228,7 @@
       "days": "1-3 dagen",
       "we-refund": "We betalen je terug",
       "destination": "Bestemming",
-      "refund-time": "Restitutie tijd",
+      "refund-time": "Wachttijd terugbetaling",
       "no-action": "<0>NU hoeft geen acties meer te ondernemen.</0> U kunt deze pagina nu sluiten."
     },
     "profile": {
@@ -2299,8 +2299,8 @@
           "building-number-label": "Gebouwnummer",
           "house-label": "Huis Naam/Nummer",
           "street-name-label": "Straatnaam",
-          "street1-label": "Adres regel 1",
-          "street2-label": "Adres regel 2",
+          "street1-label": "Adresregel 1",
+          "street2-label": "Adresregel 2",
           "city-label": "Stad",
           "state-label": "Provincie",
           "county-state-label": "Provincie/staat",
@@ -2416,7 +2416,7 @@
           "month-placeholder": "12",
           "day-placeholder": "31"
         },
-        "profile-document-count_plural": "{{count}} documents",
+        "profile-document-count_plural": "{{count}} documenten",
         "profile-document-count": "{{count}} document"
       },
       "creator": {
@@ -2425,7 +2425,7 @@
         "name": "Volledige legale naam",
         "first-name": "Voornaam",
         "last-name": "Achternaam",
-        "email": "Email adres",
+        "email": "E-mailadres",
         "dob": "Geboortedatum",
         "submit": "Deel gegevens en creëer {{providerName}} account"
       },
@@ -2452,19 +2452,19 @@
       "profile-approved-info-message": "Je gegevens aanpassen betekent dat je profiel opnieuw beoordeeld moet worden. Je mogelijkheid om digitale valuta te kopen en verkopen zal tijdelijk stop worden gezet tot dat deze goedkeuring voltooid is en je nieuwe gegevens goedgekeurd zijn.",
       "limits-requirements": "Vereisten",
       "limits-header": "Jaarlijke koop limieten",
-      "limits-complete": "Nash platform valuta niveau 1",
+      "limits-complete": "Nashplatform valuta niveau 1",
       "limits-not-complete": "Verklaar beroep en bron van vermogen",
       "limits-no-occupation": "Verklaar beroep",
       "limits-no-source-of-funds": "Verklaar bron van vermogen",
-      "limits-no-source-of-wealth": "Declare your main source of funds",
+      "limits-no-source-of-wealth": "Vermeld uw belangrijkste financieringsbron",
       "limits-no-level-1": "Je moet tier-1 geverifieerd zijn",
       "add-occupation": "Verklaar beroep",
       "add-source-of-funds": "Verklaar bron van vermogen",
-      "add-source-of-wealth": "Declare main source of funds",
+      "add-source-of-wealth": "Vermeld uw belangrijkste financieringsbron",
       "header": "Tier 1 profiel informatie",
       "contact-support-to-edit": "<0>Contacteer ondersteuning</0> om dit aan te passen",
       "source-of-funds": "Bron van Vermogen",
-      "source-of-wealth": "Main source of funds",
+      "source-of-wealth": "Belangrijkste financieringsbron",
       "occupation": "Beroep",
       "my-limits-tab": "Limieten",
       "account-id": "Account ID",
@@ -2480,13 +2480,13 @@
       "create-name": "Naam toevoegen",
       "edit-name": "Naam wijzigen",
       "edit": "Aanpassen",
-      "email": "Email adres",
-      "create-email": "Email adres toevoegen",
-      "edit-email": "Email adres wijzigen",
-      "address": "Residentieel adres",
-      "create-address": "Residentieel adres toevoegen",
-      "edit-address": "Residentieel adres aanpassen",
-      "address-and-utility-bill": "Residentieel adres en Residential address en energierekening",
+      "email": "E-mailadres",
+      "create-email": "E-mailadres toevoegen",
+      "edit-email": "E-mailadres wijzigen",
+      "address": "Woonadres",
+      "create-address": "Woonadres toevoegen",
+      "edit-address": "Woonadres aanpassen",
+      "address-and-utility-bill": "Woonadres en Woonadres en energierekening",
       "date-of-birth": "Geboortedatum",
       "create-date-of-birth": "Geboortedatum toevoegen",
       "edit-date-of-birth": "Geboortedatum aanpassen",
@@ -2498,8 +2498,8 @@
       "create-government-id": "Identiteitsdocument uploaden",
       "replace-government-id": "Identiteitsdocument vervangen",
       "social-security-number": "Social security number (SSN)",
-      "create-social-security-number": "Social security number toevoegen (SSN)",
-      "replace-social-security-number": "Social security number vervangen (SSN)",
+      "create-social-security-number": "Social security nummer toevoegen (SSN)",
+      "replace-social-security-number": "Social security nummer vervangen (SSN)",
       "document-id": "Identiteitsdocument",
       "upload-document": "Upload document",
       "live-photo": "Live foto",
@@ -2529,8 +2529,8 @@
       "profile-label": "{{providerName}} profiel",
       "per-week": "<0>{{value}}</0> per week",
       "per-month": "<0>{{value}}</0> per maand",
-      "proof-of-address": "Bewijs van adres",
-      "append-proof-of-address": "Voeg nog een bewijs van adres toe",
+      "proof-of-address": "Adresbewijs",
+      "append-proof-of-address": "Voeg nog een adresbewijs toe",
       "proof-of-address-payment-method": "U kunt <0>een betaal methode toevoegen</0> om aan deze vereiste te voldoen."
     },
     "confirmed-transaction": {
@@ -2555,18 +2555,18 @@
       "cancel-btn": "Annuleren",
       "confirm-btn": "Ik begrijp het",
       "nash": {
-        "l-you-will-sell": "You will sell",
-        "l-at-current-rate": "At the current rate",
-        "l-you-will-receive": "You will receive",
-        "l-pay-to": "Pay to",
-        "b-cancel-sale": "Cancel sale",
-        "title": "Sell {{asset}}",
-        "b-finalize-sale": "Finalize sale",
-        "m-add-a-method": "You need to add a payment method before we can finalize your quote."
+        "l-you-will-sell": "U zal verkopen",
+        "l-at-current-rate": "Tegen het huidige tarief",
+        "l-you-will-receive": "U zal ontvangen",
+        "l-pay-to": "Betaal aan",
+        "b-cancel-sale": "Verkoop annuleren",
+        "title": "Verkoop {{asset}}",
+        "b-finalize-sale": "Verkoop afronden",
+        "m-add-a-method": "U moet een betalingsmethode toevoegen voordat we uw quote kunnen afronden."
       }
     },
     "review-buy-transaction": {
-      "2fa-token": "{{providerName}} 2FA code",
+      "2fa-token": "{{providerName}} 2FA-code",
       "arrival-time": "Valuta aankomst tijd",
       "arrival-time-value": "<0>{{min}}–{{max}}</0> werkdagen",
       "before-fee-cost": "Kosten (zonder transactiekosten)",
@@ -2583,26 +2583,26 @@
       "rate-protection-label": "Beschermd",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
       "destination": "Bestemming",
-      "paying-to": "Paying to",
-      "paid-to": "Paid to",
-      "l-refund-time": "Refund time",
-      "refund-time": "A few minutes",
-      "processing-refund": "Processing your refund",
+      "paying-to": "Betalen aan",
+      "paid-to": "Betaald aan",
+      "l-refund-time": "Tijd nodig voor terugbetaling",
+      "refund-time": "Enkele minuten",
+      "processing-refund": "Uw terugbetaling wordt verwerkt",
       "deposited-to": "Gestort naar",
       "asset-deposited-to": "Valuta gestort naar",
-      "refund-amount": "Refund amount",
+      "refund-amount": "Terugbetalingsbedrag",
       "expired": "Deze offerte is {{value}} geleden verlopen.",
       "expired-message-1": "Uw gegarandeerde wisselkoers is verlopen!",
       "expired-message-2": "Verversen kan uw wisselkoers updaten.",
       "expires": "Deze offerte vervalt in {{value}}.",
-      "started-on": "Started at",
+      "started-on": "Gestart op",
       "happy-btn": "Accepteer offerte en start de transactie",
       "user-iban-label": "IBAN gebruikt",
       "payment-needed": "Betaling nodig",
       "payment-status": "Betaling status",
       "payment-status-paid": "Betaald",
-      "sale-status": "Sale status",
-      "sale-status-complete": "Complete",
+      "sale-status": "Verkoopsstatus",
+      "sale-status-complete": "Voltooid",
       "provider-fee": "Provider kosten",
       "provider-fee-with-name": "{{providerName}} kosten",
       "quoted-amount": "Geciteerde kosten",
@@ -2614,40 +2614,40 @@
       "get-or-cancel": "<0>Bankgegevens van ontvanger opvragen</0> of <1>deze quote weigeren</1>.",
       "refresh-btn": "Vernieuwen",
       "status": "Valutastatus",
-      "l-reason": "Reason for refund",
-      "reason-compliance": "Compliance check failed",
+      "l-reason": "Reden voor terugbetaling",
+      "reason-compliance": "Compliance controle mislukt",
       "step-payment": "Maak uw transfer",
       "step-review": "Controleer uw quote",
       "submit-btn": "Bevestig aankoop",
       "taken-from-bank": "Afkomstig van bankrekening",
       "taken-from-card": "Kaart gedebiteerd",
-      "l-sell-add-source": "Please declare your source of funds for this particular sale.",
-      "l-buy-add-source": "Please declare your source of funds for this particular purchase.",
+      "l-sell-add-source": "Geef uw financieringsbron aan voor deze specifieke verkoop.",
+      "l-buy-add-source": "Geef uw financieringsbron aan voor deze specifieke aankoop.",
       "quote-accepted-title": "Quote aanvaard",
       "title": "Koop digitale activa",
       "source-of-funds-modal": {
-        "title": "Source of funds",
-        "label": "Select or add the source of funds for this purchase",
-        "add-new": "+ Add new",
-        "l-add-new": "Add a new source of funds",
-        "b-add-new": "Save and use as source of funds",
-        "this-is-the-source": "This is the main source of funds declared on your Nash profile.",
-        "b-cancel": "Cancel",
-        "b-go-back": "Accept"
+        "title": "Bron van inkomsten",
+        "label": "Selecteer of voeg de financieringsbron toe voor deze aankoop",
+        "add-new": "+ Nieuw toevoegen",
+        "l-add-new": "Voeg een nieuwe financieringsbron toe",
+        "b-add-new": "Sla op en gebruik als financieringsbron",
+        "this-is-the-source": "Dit is de voornaamste bron van inkomsten die op uw Nash-profiel is aangegeven.",
+        "b-cancel": "Annuleren",
+        "b-go-back": "Aanvaarden"
       },
       "total-cost": "Totale kost",
-      "total-sold": "Total sold",
-      "fiat-deposited-to": "Deposited to",
-      "b-change": "Change",
-      "b-add": "Add",
-      "source-of-funds": "Source of funds for this purchase",
+      "total-sold": "Totaal verkocht",
+      "fiat-deposited-to": "Gestort naar",
+      "b-change": "Veranderen",
+      "b-add": "Toevoegen",
+      "source-of-funds": "Bron van inkomsten voor deze aankoop",
       "total-with-provider-fee": "Totaal met transactiekosten",
       "trading-contract": "Handelscontract",
       "transaction-details": "Overzicht orders",
       "transaction-details-link": "Bekijk",
       "warning-msg": "Ik machtig {{providerName}} om op datum van vandaag het vermelde account te debiteren voor bovenstaande bedrag. Ik zal {{providerName}} het debiteren van mijn rekening niet betwisten, zolang de transactie overeenkomt met de voorwaarden in dit online formulier en met mijn overeenkomst met {{providerName}}.",
-      "declined-exchange-rate": "Declined exchange rate",
-      "declined-amount": "Declined amount"
+      "declined-exchange-rate": "Geweigerde wisselkoers",
+      "declined-amount": "Geweigerd bedrag"
     },
     "review-transfer-funds": {
       "transfer-to": "Transfereer <0 /> naar onderstaand account.",
@@ -2689,7 +2689,7 @@
       "not-uploaded": "Niet geüpload",
       "document": "Document",
       "documents": "Documenten",
-      "transfer-amount": "Transfer this amount",
+      "transfer-amount": "Maak dit bedrag over",
       "pop-upload-time": "U moet uw betalingsbewijs binnen de 60 minuten na het verzenden van het geld uploaden om deze transactie geldig te maken.",
       "add-default-docs": "<0>Verhoog mijn limieten</0>",
       "overlimit-message-level1": "U moet <0>uw profiel voltooien</0> voordat u digitale activa kunt kopen.",
@@ -2721,7 +2721,7 @@
         "title": "Uw bestelling is aangemaakt",
         "description": "We zullen uw tegoeden op uw persoonlijke Nash-rekening storten zodra uw betaling is verwerkt. Dit kan tot {{count}} werkdag duren. U kunt de status van uw storting bekijken op het <0>Transacties</0> tabblad.",
         "description_plural": "We zullen uw tegoeden op uw persoonlijke Nash-rekening storten zodra uw betaling is verwerkt. Dit kan tot {{count}} werkdagen duren. U kunt de status van uw storting bekijken op het <0>Transacties</0> tabblad.",
-        "button": "Beëindig"
+        "button": "Beëindigen"
       },
       "profile-details": {
         "birth-date": "Geboortedatum bewerken",
@@ -2893,7 +2893,7 @@
         "desc": "<0>Als u wilt handelen, moet u fondsen naar het handelscontract sturen.</0> <1>U mag alleen vanaf uw persoonlijke account fondsen sturen naar het handelscontract.</1>",
         "learn-more-never-show": "<0>Leer meer</0> of <1>laat me dit nooit meer zien</1>.",
         "learn-more": "Leer meer",
-        "never-show": "Laat me dit nooit meer zien."
+        "never-show": "Niet meer tonen."
       },
       "table": {
         "header": {
@@ -3018,7 +3018,7 @@
           "deposit": {
             "label": "Uw persoonlijke accountgegevens",
             "currency-address": "{{currency}} adres",
-            "currency-address-qrcode": "{{currency}} adres QR code",
+            "currency-address-qrcode": "{{currency}} adres QR-code",
             "currency-send-warning": "Alle andere activa uitgezonderd {{currency}} die naar dit adres worden verzonden, gaan verloren!"
           },
           "buttons": {
@@ -3115,7 +3115,7 @@
           "status": {
             "completed": "Klaar",
             "pending": "In overdracht",
-            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmations"
+            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmaties"
           },
           "view-transaction": "Bekijk transactie",
           "retry-pending": "Probeer de transactie opnieuw te verzenden",
@@ -3135,7 +3135,7 @@
           "to": {
             "trading-account": "Handelscontract",
             "personal-account": "Persoonlijk account",
-            "nash-fiat-ramp": "Sell to Nash",
+            "nash-fiat-ramp": "Verkoop aan Nash",
             "staking-account": "NEX staking contract",
             "fees": "Kosten"
           },
@@ -3364,109 +3364,109 @@
   },
   "orders": {
     "cards": {
-      "in-progress": "Orders in progress",
-      "24h": "24h",
-      "available": "Available to trade",
+      "in-progress": "Orders in behandeling",
+      "24h": "24u",
+      "available": "Beschikbaar om te handelen",
       "reserved": "In orders"
     }
   },
   "referrals": {
-    "title": "Referral program",
+    "title": "Doorverwijzingsprogramma",
     "referrals": {
-      "header": "Refer a friend and earn tickets",
-      "desc": "The more tickets you earn, the higher chance you have of winning.",
+      "header": "Verwijs een vriend door en verdien tickets",
+      "desc": "Hoe meer tickets je verdient, hoe groter de kans dat je wint.",
       "cards": {
         "social-share": {
-          "label": "Share your referral code:",
-          "activated-count": "{{count}} activated ticket",
-          "activated-count_plural": "{{count}} activated tickets",
-          "pending-count": "{{count}} pending ticket",
-          "pending-count_plural": "{{count}} pending tickets",
-          "message": "Use my referral code {{url}} to sign up for the @nashsocial giveaway! #TrustYourselves {{ytLink}}"
+          "label": "Deel uw doorverwijzingscode:",
+          "activated-count": "{{count}} geactiveerd ticket",
+          "activated-count_plural": "{{count}} geactiveerde tickets",
+          "pending-count": "{{count}} ticket in afwachting",
+          "pending-count_plural": "{{count}} tickets in afwachting",
+          "message": "Gebruik mijn doorverwijzingscode {{url}} om je in te schrijven voorde @nashsocial tombola! #TrustYourselves {{ytLink}}"
         },
         "invited-users": {
-          "label": "Your referrals",
-          "desc": "These are the people you’ve referred directly. We can’t show you who they’ve referred, but you can see the tickets you’ve earned through them for indirect referrals.",
-          "header": "All pending and activated",
-          "col-name": "Name",
-          "col-pending": "Pending",
-          "col-activated": "Activated",
-          "me": "{{name}} (me)"
+          "label": "Uw doorverwijzingen",
+          "desc": "Dit zijn de mensen die u rechtstreeks heeft doorverwezen. We kunnen u niet laten zien naar wie zij hebben doorverwezen, maar u kunt de tickets zien die u via hen heeft verdiend door indirecte doorverwijzingen.",
+          "header": "Alle in behandeling en geactiveerd",
+          "col-name": "Naam",
+          "col-pending": "In afwachting",
+          "col-activated": "Geactiveerd",
+          "me": "{{name}} (mij)"
         }
       }
     }
   },
   "settings": {
-    "title": "My account",
-    "save-settings": "Save settings",
+    "title": "Mijn account",
+    "save-settings": "Instellingen opslaan",
     "kyc": {
-      "state-label": "State",
-      "rejected": "Tier 1 status denied",
-      "rejected-subtitle": "Unfortunately, you will not be able to proceed any further. If you believe this is a mistake, please contact our <0>support team.</0>",
+      "state-label": "Status",
+      "rejected": "Tier 1 status geweigerd",
+      "rejected-subtitle": "U kunt helaas niet verder gaan. Als u denkt dat dit een vergissing is, neem dan contact op met ons <0>ondersteuningsteam.</0>",
       "details": {
         "missing_signature": {
-          "title": "Missing signature",
-          "content": "Your identity document must display your signature."
+          "title": "Handtekening ontbreekt",
+          "content": "Uw identiteitsbewijs moet uw handtekening bevatten."
         },
         "digital_copy": {
-          "title": "Original required",
-          "content": "We detected a digital copy of your identity document. Please try again with the original document."
+          "title": "Origineel vereist",
+          "content": "We hebben een digitale kopie van uw identiteitsbewijs gedetecteerd. Probeer het opnieuw met het originele document."
         },
         "ip_address_is_proxy": {
-          "title": "Proxy detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "Proxy gedetecteerd",
+          "content": "U mag uw documenten niet indienen vanaf een proxy IP-adres. Schakel de proxy-/VPN-services uit."
         },
         "birthdate_invalid_on_id": {
-          "title": "Invalid date of birth",
-          "content": "The date of birth on your identity document is invalid."
+          "title": "Ongeldige geboortedatum",
+          "content": "De geboortedatum op uw identiteitsbewijs is ongeldig."
         },
         "no_face_present": {
-          "title": "No face detected",
-          "content": "We could not detect your face in the image your provided."
+          "title": "Geen gezicht gedetecteerd",
+          "content": "We konden uw gezicht niet detecteren in de afbeelding die u heeft opgegeven."
         },
         "photocopy_black_white": {
           "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "content": "We hebben een fotokopie van uw identiteitsbewijs gedetecteerd. Probeer het opnieuw met het originele document."
         },
         "wrong_document_page": {
-          "title": "Incorrect page",
-          "content": "Your identity document is not displaying the correct page."
+          "title": "Onjuiste pagina",
+          "content": "Uw identiteitsbewijs geeft niet de juiste pagina weer."
         },
         "different_persons_shown": {
-          "title": "Different people",
-          "content": "Your identity document and selfie show different people."
+          "title": "Verschillende mensen",
+          "content": "Uw identiteitsbewijs en selfie vertonen verschillende mensen."
         },
         "damaged_document": {
-          "title": "Damaged document",
-          "content": "Your identity document is damaged."
+          "title": "Beschadigd document",
+          "content": "Uw identiteitsbewijs is beschadigd."
         },
         "identity_verification_too_many_attempts": {
-          "title": "Too many attempts",
-          "content": "You have submitted too many verification attempts"
+          "title": "Te veel pogingen",
+          "content": "U heeft te veel verificatiepogingen ingediend"
         },
         "unknown_error": {
-          "title": "Something went wrong!",
-          "content": "We have encountered an unexpected error!"
+          "title": "Er is iets fout gegaan!",
+          "content": "We zijn een onverwachte fout tegengekomen!"
         },
         "no_document": {
-          "title": "Document not found",
-          "content": "We could not find an identity document in the image you provided."
+          "title": "Document niet gevonden",
+          "content": "We kunnen geen identiteitsbewijs vinden in de afbeelding die u heeft opgegeven."
         },
         "multiple_people": {
-          "title": "Multiple people detected",
-          "content": "We detected multiple people in the image your provided. You must be the only person in the image."
+          "title": "Meerdere mensen gedetecteerd",
+          "content": "We hebben meerdere mensen gedetecteerd in de afbeelding die u heeft opgegeven. U moet de enige persoon in de afbeelding zijn."
         },
         "BLURRED": {
-          "title": "Blurred image",
-          "content": "The image you provided is blurred."
+          "title": "Wazig beeld",
+          "content": "De afbeelding die u heeft opgegeven, is wazig."
         },
         "sample_document": {
-          "title": "Original required",
-          "content": "We detected that your identity document is only a sample. Please try again with an original document."
+          "title": "Origineel vereist",
+          "content": "We hebben vastgesteld dat uw identiteitsbewijs slechts een voorbeeld is. Probeer het opnieuw met een origineel document."
         },
         "photocopy_color": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Origineel vereist",
+          "content": "We hebben een fotokopie van uw identiteitsbewijs gedetecteerd. Probeer het opnieuw met het originele document."
         },
         "liveness_failed": {
           "title": "Liveness test failed",
