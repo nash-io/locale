@@ -1,12 +1,13 @@
 import { writeFileStrSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
 
 import traverse from './traverse.ts'
-import walkLocales from './walkLocales.ts'
+import walkLocales, { FileInfo } from './walkLocales.ts'
 import validateValue from './validateValue.ts'
 
 interface SyncOptions {
   markChanges?: boolean
   destination?: ({ localeName }: { localeName: string }) => string
+  exclude?: (fileName: FileInfo) => boolean
 }
 
 export default function sync(
@@ -18,6 +19,11 @@ export default function sync(
     defaultLocalePath,
     localesPath,
     (fileInfo, { defaultTraversal, translationTraversal, locale }) => {
+      if (options.exclude?.(fileInfo)) {
+        console.log('Excluding locale %o from syncing', fileInfo.name)
+        return
+      }
+
       console.log('Syncing default locale with %o', fileInfo.name)
 
       const updatedTranslationTraversal = traverse(defaultTraversal.clone())
