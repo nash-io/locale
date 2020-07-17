@@ -3469,109 +3469,109 @@
           "content": "We hebben een fotokopie van uw identiteitsbewijs gedetecteerd. Probeer het opnieuw met het originele document."
         },
         "liveness_failed": {
-          "title": "Liveness test failed",
-          "content": "We could not determine that a real person is present in the image your provided."
+          "title": "Levendigsheidtest mislukt",
+          "content": "We konden niet vaststellen dat een echte persoon aanwezig is in de afbeelding die u heeft doorgestuurd."
         },
         "ip_address_is_crawler": {
-          "title": "Crawler detected",
-          "content": "We identified your IP address as a web crawler. Please try again from a different IP."
+          "title": "Crawler gedetecteerd",
+          "content": "We hebben uw IP-adres geïdentificeerd als een webcrawler. Probeer het opnieuw vanaf een ander IP-adres."
         },
         "missing_part_document": {
-          "title": "Incomplete document",
-          "content": "Part of your identity document is missing."
+          "title": "Onvolledig document",
+          "content": "Er ontbreekt een deel van uw identiteitsbewijs."
         },
         "ip_address_and_address_mismatch": {
-          "title": "IP mismatch",
-          "content": "Your IP address must match the location you provided."
+          "title": "IP komt niet overeen",
+          "content": "Uw IP-adres moet overeenkomen met de locatie die u heeft opgegeven."
         },
         "ip_address_is_tor": {
-          "title": "TOR detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "TOR gedetecteerd",
+          "content": "U mag uw documenten niet indienen vanaf een proxy IP-adres. Schakel de proxy-/VPN-services uit."
         },
         "bad_quality": {
-          "title": "Poor quality",
-          "content": "The quality of the image you provided is too poor."
+          "title": "Slechte kwaliteit",
+          "content": "De kwaliteit van de afbeelding die u hebt doorgestuurd is te slecht."
         },
         "camera_black_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Zwart-wit",
+          "content": "Uw camera lijkt op zwart-wit te zijn ingesteld. Verander het a.u.b. in kleur."
         },
         "not_readable_document": {
-          "title": "Document unreadable",
-          "content": "The identity document you provided is unreadable."
+          "title": "Document onleesbaar",
+          "content": "Het door u verstrekte identiteitsbewijs is onleesbaar."
         },
         "black_and_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Zwart-wit",
+          "content": "Uw camera lijkt op zwart-wit te zijn ingesteld. Verander het a.u.b. in kleur."
         },
         "hidden_part_document": {
-          "title": "Document obscured",
-          "content": "Part of your identity document is hidden."
+          "title": "Document onleesbaar",
+          "content": "Een deel van uw identiteitsbewijs is verborgen."
         },
         "missing_back": {
-          "title": "Document back required",
-          "content": "You did not provide an image of the back of your document."
+          "title": "Achterkant van het document is vereist",
+          "content": "U heeft geen afbeelding van de achterkant van uw document aangeleverd."
         },
         "face_not_fully_visible": {
-          "title": "Face obscured",
-          "content": "Your face is not fully visible in the image you provided."
+          "title": "Gezicht verduisterd",
+          "content": "Uw gezicht is niet volledig zichtbaar in de afbeelding die u hebt verstrekt."
         }
       },
       "steps": [
-        "Personal details",
-        "Address details",
-        "Confirm details"
+        "Persoonlijke gegevens",
+        "Adresgegevens",
+        "Confirmeer gegevens"
       ],
-      "invalid-age-error": "You must enter a valid date of birth.",
-      "missing-age-error": "You must enter your date of birth.",
-      "age-restriction-error": "You must be at least eighteen years old.",
-      "name-error": "You must enter a name.",
-      "title": "We need a few details from you",
-      "topnav-back-button": "Back to limits",
-      "country": "Country",
-      "waiting": "Verifying…",
-      "waiting-subtitle": "This can take a few minutes. You may leave this page.",
-      "topnav-title": "Tier 1 verification",
-      "contact-support-label": "<0>Contact support</0> to change",
-      "confirm-button-label": "Confirm your details",
+      "invalid-age-error": "U moet een geldige geboortedatum invoeren.",
+      "missing-age-error": "U moet uw geboortedatum invoeren.",
+      "age-restriction-error": "U moet minimaal achttien jaar oud zijn.",
+      "name-error": "U moet een naam invoeren.",
+      "title": "We hebben een aantal gegevens van u nodig",
+      "topnav-back-button": "Terug naar limieten",
+      "country": "Land",
+      "waiting": "Verifiëren…",
+      "waiting-subtitle": "Dit kan enkele minuten duren. U mag deze pagina verlaten.",
+      "topnav-title": "Tier 1 verificatie",
+      "contact-support-label": "<0>Contacteer support</0> om te veranderen",
+      "confirm-button-label": "Bevestig uw gegevens",
       "name-step": {
-        "warning": "The name you enter must match the name on the identity document you provide.",
-        "date-of-birth-label": "Date of birth",
-        "full-name-label": "Full name",
-        "continue-button-label": "Continue and enter address"
+        "warning": "De naam die u invoert, moet overeenkomen met de naam op het identiteitsbewijs dat u verstrekt heeft.",
+        "date-of-birth-label": "Geboortedatum",
+        "full-name-label": "Voor-en achternaam",
+        "continue-button-label": "Ga verder en voer adres in"
       },
       "address-step": {
-        "address-label": "Enter an address",
-        "search-button-label": "Search"
+        "address-label": "Geef een adres in",
+        "search-button-label": "Zoeken"
       },
       "manual-address-step": {
-        "line1": "Address line 1",
-        "line2": "Address line 2",
-        "city": "City",
+        "line1": "Adresregel 1",
+        "line2": "Adresregel 2",
+        "city": "Stad",
         "zipCode": "Postcode/ZIP"
       },
       "select-address-step": {
-        "title": "Addresses found",
-        "manual-entry-label": "Enter address manually",
-        "select-label": "Select",
-        "no-results-found-title": "We couldn’t find your address",
-        "no-results-found-body": "Please make sure you include your postcode.",
-        "error-title": "We experienced an error",
-        "error-body": "Try again or use the link below.",
-        "go-back-label": "Go back"
+        "title": "Adressen gevonden",
+        "manual-entry-label": "Voer handmatig een adres in",
+        "select-label": "Selecteren",
+        "no-results-found-title": "We konden uw adres niet vinden",
+        "no-results-found-body": "Zorg ervoor dat u uw postcode vermeldt.",
+        "error-title": "Er is een fout opgetreden",
+        "error-body": "Probeer het opnieuw of gebruik de onderstaande link.",
+        "go-back-label": "Ga terug"
       },
       "confirm-details": {
-        "begin-button-label": "These details are correct",
-        "your-details": "Personal details",
-        "address-details": "Address details",
-        "edit-label": "Edit",
-        "submission-error": "We experienced an error while submitting your data."
+        "begin-button-label": "Deze gegevens zijn correct",
+        "your-details": "Persoonlijke gegevens",
+        "address-details": "Adresgegevens",
+        "edit-label": "Bewerken",
+        "submission-error": "Er is een fout opgetreden bij het indienen van uw gegevens."
       }
     },
     "profile": {
-      "title": "Profile",
-      "header": "Profile settings",
-      "desc-1": "You can edit your profile settings below.",
+      "title": "Profiel",
+      "header": "Profielinstellingen",
+      "desc-1": "U kunt onderaan uw profielinstellingen bewerken.",
       "desc-2": "",
       "cards": {
         "your-details": {
