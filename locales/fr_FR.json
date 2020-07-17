@@ -191,8 +191,8 @@
   },
   "top-nav": {
     "exchange-status": {
-      "operational": "Exchange fully operational",
-      "maintenance": "Exchange in maintenance"
+      "operational": "Plateforme pleinement operationnelle",
+      "maintenance": "Plateforme en cours de maintenance"
     },
     "accounts-main-menu": {
       "title": "Services"
@@ -1053,8 +1053,8 @@
       },
       "direction-col": {
         "cell-text": {
-          "buy": "Buy",
-          "sell": "Sell"
+          "buy": "Achat",
+          "sell": "Vente"
         }
       }
     },
@@ -1728,8 +1728,8 @@
     "terms-and-conditions": "J’accepte les <0>conditions générales</0> de {{providerName}}.",
     "title": "Acheter/Vendre",
     "no-providers": {
-      "title": "No asset providers available.",
-      "why-not": "No digital asset providers are available in your region yet."
+      "title": "Aucun fournisseur d'actifs numériques disponibles.",
+      "why-not": "Aucun fournisseur d'actifs numériques n'est disponible dans votre région pour l'instant."
     },
     "tier0": {
       "buy-popular-assets": "Acheter et vendre des actifs numériques populaires",
@@ -1741,9 +1741,9 @@
       "use-with-vpn": "Accédez à Nash via un service VPN."
     },
     "move-funds": {
-      "title": "Move {{asset}} to sell",
-      "l-amount-to-transfer": "Amount to transfer",
-      "b-move-to-sell": "Move {{asset}} to sell"
+      "title": "Déplacer des {{asset}} pour vendre",
+      "l-amount-to-transfer": "Quantité à transférer",
+      "b-move-to-sell": "Déplacer des {{asset}} pour vendre"
     },
     "provider": {
       "title": "Sélectionner un fournisseur",
@@ -1825,7 +1825,7 @@
     "limits": {
       "min-limit-message": "Achat minimum: <0/>",
       "min-limit": "Minimum",
-      "over-available": "Insufficent {{asset}} in trading contract"
+      "over-available": "{{asset}} insuffisant dans le contrat de trading"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1849,8 +1849,8 @@
       "generic-fourhundred": "Erreur",
       "nash": {
         "region-restricted": {
-          "title": "Your region is not supported",
-          "body": "This feature is not yet available in your region."
+          "title": "Votre région n'est pas prise en charge",
+          "body": "Cette fonctionnalité n'est pas encore disponible dans votre région."
         },
         "order-book-cache-empty": {
           "title": "Le cache du carnet d’ordres est vide",
@@ -1882,16 +1882,16 @@
       "deposit-to": "Déposez {{currency}} sur",
       "pay-with-default": "Choisissez un moyen de paiement",
       "link-new-bank": "Ajouter un moyen de paiement",
-      "complete-nash-profile": "Complétez votre <0>profil Nash</0> avant de pouvoir acheter des cryptoactifs",
-      "available-balance": "Available balance: <0>{{amount}}</0>",
-      "no-payment-method-sell": "<0>Add a payment method</0> to sell digital assets.",
-      "complete-nash-profile-add-method-to-sell": "Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.",
-      "no-funds-sell-1": "You don’t have any {{asset}} in your account to sell",
-      "no-funds-sell-2": "<0>Purchase {{asset}}</0> via Nash Cash with no fee or <1>transfer funds</1>.",
-      "must-move-funds-sell": "To sell {{asset}}, you must move it to the trading contract.",
-      "dismiss": "Dismiss forever",
-      "remind-me-later": "Remind me later",
-      "btn-move-to-sell": "Move {{asset}} to sell",
+      "complete-nash-profile": "Complétez votre <0>profil Nash</0> avant de pouvoir acheter des actifs numériques",
+      "available-balance": "Solde disponible: <0>{{amount}}</0>",
+      "no-payment-method-sell": "<0>Ajouter un moyen de paiement</0> pour vendre des actifs numériques.",
+      "complete-nash-profile-add-method-to-sell": "Complétez votre <0>profil Nash</0> et <1>ajoutez un moyen de paiement</1> pour vendre des actifs numériques.",
+      "no-funds-sell-1": "Vous n'avez aucun {{asset}} à vendre dans votre contrat",
+      "no-funds-sell-2": "<0>Achetez des {{asset}}</0> via Nash Cash sans frais ou <1>virez des fonds</1>.",
+      "must-move-funds-sell": "Pour vendre des {{asset}}, vous devez les déplacer vers le contrat de trading.",
+      "dismiss": "Masquer à jamais",
+      "remind-me-later": "Me le rappeler plus tard",
+      "btn-move-to-sell": "Déplacer des {{asset}} pour vendre",
       "want-to-buy-input-label": "Je veux acheter",
       "want-to-sell-input-label": "Je veux vendre",
       "spend": "Dépenser",
@@ -1907,7 +1907,7 @@
       "weekly-limit-affix": "limite hebdomadaire",
       "monthly-limit-affix": "Limite mensuelle",
       "yearly-limit-affix": "Limite annuelle",
-      "amount-pending": "<0/> pending",
+      "amount-pending": "<0/> en attente",
       "exceed-yearly-limit": "Limite annuelle dépassée",
       "no-change-today": "pas d’évolution aujourd’hui",
       "change-today": "{{value}}% aujourd’hui",
@@ -1958,15 +1958,15 @@
         "view": "Vous pouvez consulter l’état de votre transaction <0>ici</0>.",
         "button": "Terminer"
       },
-      "sell-btn": "Review sale",
-      "l-trading-account": "Trading contract",
-      "l-to-sell-move": "To sell {{asset}}, you must move it to the trading contract.",
-      "l-sell": "Sell",
-      "l-receive": "Receive",
-      "l-personal-account": "Personal account",
-      "b-remind": "Remind me later",
-      "b-move-to-sell": "Move {{asset}} to sell →",
-      "b-dismiss": "Dismiss forever"
+      "sell-btn": "Revoir la vente",
+      "l-trading-account": "Contrat de trading",
+      "l-to-sell-move": "Pour vendre des {{asset}}, vous devez les déplacer vers le contrat de trading.",
+      "l-sell": "Vendre",
+      "l-receive": "Recevoir",
+      "l-personal-account": "Compte personnel",
+      "b-remind": "Me le rappeler plus tard",
+      "b-move-to-sell": "Déplacer des {{asset}} pour vendre →",
+      "b-dismiss": "Masquer à jamais"
     },
     "transactions": {
       "tab-title": "Transaction",
@@ -2049,17 +2049,17 @@
           "amount": "Quantité"
         },
         "get-refund-modal": {
-          "title": "Receive refund",
-          "refund-amount": "Refund amount",
-          "declined-exchange-rate": "Declined exchange rate",
-          "original-rate": "Original rate: <0 />",
-          "declined-amount": "Declined amount",
-          "original-amount": "Original amount: <0 />",
-          "pay-refund-to": "Pay refund to",
-          "add-payment-method": "Add payment method",
-          "no-methods": "No payment methods found",
-          "b-get-refund": "Receive refund",
-          "typical-arrival": "Refunds typically arrive in 1-4 days"
+          "title": "Recevoir un remboursement",
+          "refund-amount": "Montant du remboursement",
+          "declined-exchange-rate": "Taux de change refusé",
+          "original-rate": "Taux d'Origine: <0 />",
+          "declined-amount": "Montant refusé",
+          "original-amount": "Montant d'origine: <0 />",
+          "pay-refund-to": "Payer le remboursement à",
+          "add-payment-method": "Ajouter un moyen de paiement",
+          "no-methods": "Aucun de moyen de paiement trouvé",
+          "b-get-refund": "Recevoir le remboursement",
+          "typical-arrival": "Les remboursements arrivent généralement sous 1 à 4 jours"
         },
         "sell-curr-amount": "En cours de vente de <0 />",
         "buy-curr-amount": "En cours d’achat de <0 />",
@@ -2076,9 +2076,9 @@
         "btn-confirm": "Aperçu",
         "btn-reconfirm": "Passer en revue",
         "btn-view": "Aperçu",
-        "btn-select-account": "Select account",
-        "select-refund-account": "Select refund account",
-        "no-payment-method-on-quote": "No payment method given",
+        "btn-select-account": "Sélectionner un compte",
+        "select-refund-account": "Sélectionner un compte pour le remboursement",
+        "no-payment-method-on-quote": "Aucun moyen de paiement fourni",
         "status": "Statut",
         "refund-status-label": "Statut du remboursement",
         "detailed-quote-status": {
@@ -2089,7 +2089,7 @@
           "failed-expired-on-confirmation": "Devis expiré",
           "failed-expired-on-confirmation-reason": "Vous n’avez pas accepté votre devis à temps et il a expiré",
           "reconfirmation-expired": "Reconfirmation expirée",
-          "processing-refund": "Processing refund",
+          "processing-refund": "Traitement du remboursement en cours",
           "reconfirmation-rejected": "Reconfirmation rejetée",
           "confirmed-waiting-for-payment": "En attente de paiement",
           "pending-refund": "Remboursement en attente",
@@ -2108,13 +2108,13 @@
           "confirmed-waiting-for-payment": "Paiement nécessaire",
           "pending-refund": "En attente",
           "pending-user-rate-reconfirmation": "Taux modifié",
-          "processing-refund": "Processing",
-          "processing-settlement": "Processing",
-          "processing-payment": "Processing",
+          "processing-refund": "En cours de traitement",
+          "processing-settlement": "En cours de traitement",
+          "processing-payment": "En cours de traitement",
           "refunded": "Remboursé",
           "completed": "Achevé"
         },
-        "refund-processing": "Processing refund…"
+        "refund-processing": "Traitement du remboursement en cours…"
       }
     },
     "payments-methods": {
@@ -2141,26 +2141,26 @@
         "REJECTED": "Rejeté"
       },
       "nash": {
-        "add-method": "Add a new payment method",
-        "iban-invalid": "Please provide a valid IBAN.",
-        "btn-add-payment-method": "Add payment method",
-        "btn-add-payment-method-get-refund": "Add payment method and receive refund",
-        "add-pm-title": "Add new payment method",
-        "correct-name": "Please note that we will use your Tier 1 full name ‘{{name}}’ for this transfer. If your bank account isn’t registered under this name, please <0>update your Tier 1 name</0>.",
-        "e-payment-method-exists": "Payment method already exists",
-        "l-name-your-account": "Name your account",
-        "p-name-your-account": "Give your payment method a name",
+        "add-method": "Ajouter un nouveau moyen de paiement",
+        "iban-invalid": "Veuillez fournir un IBAN valide.",
+        "btn-add-payment-method": "Ajouter un nouveau moyen de paiement",
+        "btn-add-payment-method-get-refund": "Ajouter un nouveau moyen de paiement et recevoir un remboursement",
+        "add-pm-title": "Ajouter un nouveau moyen de paiement",
+        "correct-name": "Veuillez noter que nous utiliserons votre nom complet de Niveau 1 ‘{{name}}’ pour ce transfert. Si votre compte bancaire n'est pas enregistré sous ce nom, veuillez <0>mettre à jour votre nom de Niveau 1</0>.",
+        "e-payment-method-exists": "Ce moyen de paiement existe déjà",
+        "l-name-your-account": "Donner un nom à votre compte",
+        "p-name-your-account": "Donner un nom à votre moyen de paiement",
         "l-bank-iban": "IBAN",
-        "p-bank-iban": "Add your IBAN",
-        "added-date": "Added {{datetime}}",
-        "b-delete": "Delete",
-        "delete-modal-title": "Delete this payment method?",
-        "delete-modal-body": "Payment method with IBAN {{iban}} will be removed.",
-        "b-confirm-delete": "Delete",
-        "b-cancel-delete": "Do nothing",
-        "no-methods-1": "No EUR (€) payment methods added.",
-        "no-methods-2": "Add one to start selling crypto or receive a refund.",
-        "page-of": "{{pageNumber}} of {{totalPages}}"
+        "p-bank-iban": "Ajouter un IBAN",
+        "added-date": "Ajouté le {{datetime}}",
+        "b-delete": "Supprimer",
+        "delete-modal-title": "Supprimer ce moyen de paiement ?",
+        "delete-modal-body": "Le moyen de paiement associé à l'IBAN {{iban}} sera supprimé.",
+        "b-confirm-delete": "Supprimer",
+        "b-cancel-delete": "Ne rien faire",
+        "no-methods-1": "Aucun moyen de paiement en EUR (€) ajouté.",
+        "no-methods-2": "Ajoutez-en un pour commencer à vendre des cryptos ou recevoir un remboursement.",
+        "page-of": "{{pageNumber}} sur {{totalPages}}"
       },
       "credit-card": {
         "continue-billing": "Continuer vers les détails de facturation",
@@ -2460,11 +2460,11 @@
       "limits-no-level-1": "Doit être vérifié au Niveau 1",
       "add-occupation": "Déclarer la profession",
       "add-source-of-funds": "Déclarer l’origine des fonds",
-      "add-source-of-wealth": "Declare main source of funds",
+      "add-source-of-wealth": "Déclarer l'origine principale des fonds",
       "header": "Informations de profil de Niveau 1",
       "contact-support-to-edit": "<0>Contactez le support</0> pour modifier",
       "source-of-funds": "Origine des fonds",
-      "source-of-wealth": "Main source of funds",
+      "source-of-wealth": "Origine principale des fonds",
       "occupation": "Profession",
       "my-limits-tab": "Limites",
       "account-id": "Identifiant de compte",
@@ -2555,14 +2555,14 @@
       "cancel-btn": "Annuler",
       "confirm-btn": "Je comprends",
       "nash": {
-        "l-you-will-sell": "You will sell",
-        "l-at-current-rate": "At the current rate",
-        "l-you-will-receive": "You will receive",
-        "l-pay-to": "Pay to",
-        "b-cancel-sale": "Cancel sale",
-        "title": "Sell {{asset}}",
-        "b-finalize-sale": "Finalize sale",
-        "m-add-a-method": "You need to add a payment method before we can finalize your quote."
+        "l-you-will-sell": "Vous allez vendre",
+        "l-at-current-rate": "Au taux actuel",
+        "l-you-will-receive": "Vous recevrez",
+        "l-pay-to": "Payer à",
+        "b-cancel-sale": "Annuler la vente",
+        "title": "Vendre des {{asset}}",
+        "b-finalize-sale": "Finaliser la vente",
+        "m-add-a-method": "Vous devez ajouter un moyen de paiement avant que nous puissions finaliser votre devis."
       }
     },
     "review-buy-transaction": {
@@ -2583,26 +2583,26 @@
       "rate-protection-label": "Protégé",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
       "destination": "Destination",
-      "paying-to": "Paying to",
-      "paid-to": "Paid to",
-      "l-refund-time": "Refund time",
-      "refund-time": "A few minutes",
-      "processing-refund": "Processing your refund",
+      "paying-to": "En cours de paiement à",
+      "paid-to": "Payé à",
+      "l-refund-time": "Délai de remboursement",
+      "refund-time": "Quelques minutes",
+      "processing-refund": "Votre remboursement est en cours de traitement",
       "deposited-to": "Déposé sur",
       "asset-deposited-to": "Actif déposé sur",
-      "refund-amount": "Refund amount",
+      "refund-amount": "Montant du remboursement",
       "expired": "Ce devis a expiré il y a {{value}}.",
       "expired-message-1": "Votre taux de change garanti a expiré !",
       "expired-message-2": "L’actualisation peut mettre à jour votre taux de change.",
       "expires": "Ce devis expirera dans {{value}}.",
-      "started-on": "Started at",
+      "started-on": "Commencé à",
       "happy-btn": "Accepter le devis et effectuer le transfert",
       "user-iban-label": "IBAN utilisé",
       "payment-needed": "Paiement nécessaire",
       "payment-status": "Statut de paiement",
       "payment-status-paid": "Payé",
-      "sale-status": "Sale status",
-      "sale-status-complete": "Complete",
+      "sale-status": "Statut de la vente",
+      "sale-status-complete": "Terminée",
       "provider-fee": "Frais du fournisseur",
       "provider-fee-with-name": "Frais de {{providerName}}",
       "quoted-amount": "Montant évalué",
@@ -2614,40 +2614,40 @@
       "get-or-cancel": "<0>Obtenir les coordonnées bancaires du destinataire</0> ou <1>refuser ce devis</1>.",
       "refresh-btn": "Rafraîchir",
       "status": "Statut de la devise",
-      "l-reason": "Reason for refund",
-      "reason-compliance": "Compliance check failed",
+      "l-reason": "Raison du remboursement",
+      "reason-compliance": "Échec du contrôle de conformité",
       "step-payment": "Faites votre transfert",
       "step-review": "Revoir votre devis",
       "submit-btn": "Confirmer l’achat",
       "taken-from-bank": "Pris du compte bancaire",
       "taken-from-card": "Facturé sur la carte",
-      "l-sell-add-source": "Please declare your source of funds for this particular sale.",
-      "l-buy-add-source": "Please declare your source of funds for this particular purchase.",
+      "l-sell-add-source": "Veuillez déclarer l'origine des fonds pour cette vente en particulier.",
+      "l-buy-add-source": "Veuillez déclarer l'origine des fonds pour cet achat en particulier.",
       "quote-accepted-title": "Devis accepté",
       "title": "Acheter des actifs numériques",
       "source-of-funds-modal": {
-        "title": "Source of funds",
-        "label": "Select or add the source of funds for this purchase",
-        "add-new": "+ Add new",
-        "l-add-new": "Add a new source of funds",
-        "b-add-new": "Save and use as source of funds",
-        "this-is-the-source": "This is the main source of funds declared on your Nash profile.",
-        "b-cancel": "Cancel",
-        "b-go-back": "Accept"
+        "title": "Origine des fonds",
+        "label": "Sélectionnez ou ajoutez l'origine des fonds pour cet achat",
+        "add-new": "+ Ajouter un nouveau",
+        "l-add-new": "Ajouter une nouvelle origine des fonds",
+        "b-add-new": "Enregistrer et utiliser comme origine des fonds",
+        "this-is-the-source": "Ceci est l'origine principale des fonds déclarée sur votre profil Nash.",
+        "b-cancel": "Annuler",
+        "b-go-back": "Accepter"
       },
       "total-cost": "Coût total",
-      "total-sold": "Total sold",
-      "fiat-deposited-to": "Deposited to",
-      "b-change": "Change",
-      "b-add": "Add",
-      "source-of-funds": "Source of funds for this purchase",
+      "total-sold": "Total vendu",
+      "fiat-deposited-to": "Déposé sur",
+      "b-change": "Changer",
+      "b-add": "Ajouter",
+      "source-of-funds": "Origine des fonds pour cet achat",
       "total-with-provider-fee": "Total avec frais",
       "trading-contract": "Contrat de trading",
       "transaction-details": "Récapitulatif de la commande",
       "transaction-details-link": "Aperçu",
       "warning-msg": "J’autorise {{providerName}} à débiter le compte indiqué du montant ci-dessus à la date d’aujourd’hui. Je ne contesterai pas {{providerName}} le débit de mon compte, tant que la transaction correspond aux termes de ce formulaire en ligne et à mon accord avec {{providerName}}.",
-      "declined-exchange-rate": "Declined exchange rate",
-      "declined-amount": "Declined amount"
+      "declined-exchange-rate": "Taux de change refusé",
+      "declined-amount": "Montant refusé"
     },
     "review-transfer-funds": {
       "transfer-to": "Transférez <0 /> sur le compte indiqué ci-dessous.",
@@ -2689,7 +2689,7 @@
       "not-uploaded": "Non envoyé",
       "document": "Document",
       "documents": "Documents",
-      "transfer-amount": "Transfer this amount",
+      "transfer-amount": "Transférer ce montant",
       "pop-upload-time": "Vous devez envoyer votre preuve de paiement dans les 60 minutes suivant l’envoi des fonds pour que cette transaction soit valide.",
       "add-default-docs": "<0>Augmenter mes limites</0>",
       "overlimit-message-level1": "Vous devez <0>compléter votre profil</0> avant de pouvoir acheter des actifs numériques.",
@@ -2941,8 +2941,8 @@
     "modals": {
       "verify-mnemonic": {
         "or": "ou",
-        "remindme": "me le rappeller plus tard",
-        "dismiss": "Ne plus jamais me le demander",
+        "remindme": "me le rappeler plus tard",
+        "dismiss": "Masquer à jamais",
         "havent-checked": "Vous n’avez pas vérifié votre sauvegarde de douze mots",
         "will-need": "Vous aurez besoin de ces mots pour accéder à vos fonds si vous perdez votre mot de passe."
       },
@@ -3135,7 +3135,7 @@
           "to": {
             "trading-account": "Contrat de trading",
             "personal-account": "Compte personnel",
-            "nash-fiat-ramp": "Sell to Nash",
+            "nash-fiat-ramp": "Vendre à Nash",
             "staking-account": "Contrat de staking NEX",
             "fees": "Frais"
           },
@@ -3654,7 +3654,7 @@
           "errors": {
             "password-must-change": "Votre nouveau mot de passe doit être différent de votre ancien mot de passe.",
             "password-already-used": "Vous avez déjà utilisé ce mot de passe. Veuillez en choisir un autre.",
-            "missing-key": "Clés de signature manquantes. Veuillez actualiser cette page et réessayer."
+            "missing-key": "Clés de signature manquantes. Veuillez actualiser la page et réessayer."
           }
         }
       }
@@ -3662,7 +3662,7 @@
     "preferences": {
       "title": "Préférences",
       "header": "Préférences",
-      "desc-1": "Modifiez vos préférences pour le fuseau horaire, la devise, la langue et les notifications ci-dessous.",
+      "desc-1": "Modifiez vos préférences de fuseau horaire, de devise, de langue et de notifications ci-dessous.",
       "desc-2": "",
       "cards": {
         "general-settings": {
@@ -3684,14 +3684,14 @@
     "security": {
       "title": "Sécurité",
       "header": "Sécurité du compte",
-      "desc": "Activez ici la double authentification.",
+      "desc": "Activez la double authentification ici.",
       "cards": {
         "2fa": {
           "label": "Double authentification",
           "header": "La double authentification est:",
-          "desc": "Nous vous conseillons de garder la double authentification(2FA) activée. Il ajoute une couche de sécurité supplémentaire à votre compte.",
+          "desc": "Nous vous conseillons de garder la double authentification(2FA) activée. Elle ajoute une couche de sécurité supplémentaire à votre compte.",
           "enabled": "Activé",
-          "disabled": "désactivé",
+          "disabled": "Désactivé",
           "enable": "Activer",
           "disable": "Désactiver (non recommandé)"
         },
