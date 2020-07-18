@@ -2,6 +2,8 @@ export enum ValidationError {
   MissingValue = 'MissingValue',
   InvalidType = 'InvalidType',
 
+  UntranslatedText = 'UntranslatedText',
+
   UntrimmedSpace = 'UntrimmedSpace',
   MissingSpace = 'MissingSpace',
   TooManySpaces = 'TooManySpaces',
@@ -9,10 +11,12 @@ export enum ValidationError {
   AmbiguousPeriodCharacters = 'AmbiguousPeriodCharacters',
   InvalidEllipsesCharacter = 'InvalidEllipsesCharacter',
   InvalidQuoteCharacter = 'InvalidQuoteCharacter',
+  InvalidDashCharacter = 'InvalidDashCharacter',
 
   MissingVariables = 'MissingVariables',
   ExtraVariables = 'ExtraVariables',
   InvalidVariables = 'InvalidVariables',
+  UntrimmedVariables = 'UntrimmedVariables',
 
   UnclosedComponents = 'UnclosedComponents',
   NestedComponents = 'NestedComponents',
@@ -36,6 +40,8 @@ export default function validateValue(
     errors.push({ code: ValidationError.MissingValue })
   } else if (typeof translatedValue !== 'string') {
     errors.push({ code: ValidationError.InvalidType })
+  } else if (translatedValue.match(/translation required/i) != null) {
+    errors.push({ code: ValidationError.UntranslatedText })
   } else {
     validateSpaces(errors, defaultValue, translatedValue, locale)
     validateCharacters(errors, defaultValue, translatedValue)
@@ -165,6 +171,20 @@ function validateCharacters(
       data: `Replace " with either “ or ”`,
     })
   }
+
+  if (translatedValue.match(/ - /) != null) {
+    errors.push({
+      code: ValidationError.InvalidDashCharacter,
+      data: `Replace - with –`,
+    })
+  }
+
+  if (translatedValue.match(/—/) != null) {
+    errors.push({
+      code: ValidationError.InvalidDashCharacter,
+      data: `Replace — with - or –`,
+    })
+  }
 }
 
 function validateVariables(
@@ -206,6 +226,14 @@ function validateVariables(
     errors.push({
       code: ValidationError.InvalidVariables,
       data: invalidVariables.join(', '),
+    })
+  }
+
+  const untrimmedVariables = getUntrimmedVariables(translatedValue)
+  if (untrimmedVariables.length > 0) {
+    errors.push({
+      code: ValidationError.UntrimmedVariables,
+      data: untrimmedVariables.join(', '),
     })
   }
 }
@@ -274,6 +302,11 @@ function getVariables(value: string): string[] {
 
 function getInvalidVariables(value: string): string[] {
   const match = value.match(/([^{]\{\w+?\})|(\{\w+?\}[^}])/g)
+  return match == null ? [] : match
+}
+
+function getUntrimmedVariables(value: string): string[] {
+  const match = value.match(/\{\{\s+?(\w+?)\}\}|\{\{(\w+?)\s+?\}\}/g)
   return match == null ? [] : match
 }
 
