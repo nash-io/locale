@@ -191,8 +191,8 @@
   },
   "top-nav": {
     "exchange-status": {
-      "operational": "Exchange fully operational",
-      "maintenance": "Exchange in maintenance"
+      "operational": "Exchange ist voll funktionsfähig",
+      "maintenance": "Exchange ist unter Wartung"
     },
     "accounts-main-menu": {
       "title": "Dienste"
@@ -1053,8 +1053,8 @@
       },
       "direction-col": {
         "cell-text": {
-          "buy": "Buy",
-          "sell": "Sell"
+          "buy": "Kaufen",
+          "sell": "Verkaufen"
         }
       }
     },
@@ -1728,8 +1728,8 @@
     "terms-and-conditions": "Ich akzeptiere die <0>Bedingungen und Konditionen</0> von {{providerName}}.",
     "title": "Kaufen/Verkaufen",
     "no-providers": {
-      "title": "No asset providers available.",
-      "why-not": "No digital asset providers are available in your region yet."
+      "title": "Kein Asset Anbieter verfügbar.",
+      "why-not": "Zur Zeit ist kein Asset Anbieter in deiner Region verfügbar."
     },
     "tier0": {
       "buy-popular-assets": "Buy and sell popular digital assets",
@@ -1741,9 +1741,9 @@
       "use-with-vpn": "Access Nash through a VPN service."
     },
     "move-funds": {
-      "title": "Move {{asset}} to sell",
-      "l-amount-to-transfer": "Amount to transfer",
-      "b-move-to-sell": "Move {{asset}} to sell"
+      "title": "{{asset}} transferieren um zu verkaufen",
+      "l-amount-to-transfer": "Zu transferierender Betrag",
+      "b-move-to-sell": "{{asset}} transferieren um zu verkaufen"
     },
     "provider": {
       "title": "Wähle einen Anbieter",
@@ -1825,7 +1825,7 @@
     "limits": {
       "min-limit-message": "Mindesteinkauf: <0/>",
       "min-limit": "Minimum",
-      "over-available": "Insufficent {{asset}} in trading contract"
+      "over-available": "Unzureichend {{asset}} im Trading Contract"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1849,8 +1849,8 @@
       "generic-fourhundred": "Fehler",
       "nash": {
         "region-restricted": {
-          "title": "Your region is not supported",
-          "body": "This feature is not yet available in your region."
+          "title": "Deine Region wird nicht unterstützt",
+          "body": "Diese Funktion ist in deiner Region noch nicht verfügbar"
         },
         "order-book-cache-empty": {
           "title": "Oderbuch-Cache ist leer",
@@ -1883,15 +1883,15 @@
       "pay-with-default": "Wähle eine Zahlungsart aus",
       "link-new-bank": "Zahlungsart hinzufügen",
       "complete-nash-profile": "Vervollständige dein <0>Nash-Profile</0> um digitale Assets zu kaufen",
-      "available-balance": "Available balance: <0>{{amount}}</0>",
-      "no-payment-method-sell": "<0>Add a payment method</0> to sell digital assets.",
-      "complete-nash-profile-add-method-to-sell": "Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.",
-      "no-funds-sell-1": "You don’t have any {{asset}} in your account to sell",
-      "no-funds-sell-2": "<0>Purchase {{asset}}</0> via Nash Cash with no fee or <1>transfer funds</1>.",
-      "must-move-funds-sell": "To sell {{asset}}, you must move it to the trading contract.",
-      "dismiss": "Dismiss forever",
-      "remind-me-later": "Remind me later",
-      "btn-move-to-sell": "Move {{asset}} to sell",
+      "available-balance": "Verfügbares Guthaben: <0>{{amount}}</0>",
+      "no-payment-method-sell": "<0>Zahlungsmethode hinzufügen</0> um digitale Assets zu verkaufen.",
+      "complete-nash-profile-add-method-to-sell": "Vervollständige dein <0>Nash Profil</0> und <1>und füge eine Zahlungsmethode hinzu</1> um deine digital Assets zu verkaufen.",
+      "no-funds-sell-1": "Du hast keine {{asset}} in deinem Account, welche du verkaufen könntest.",
+      "no-funds-sell-2": "<0>Kaufe {{asset}}</0> über Nash Cash ohne Gebühren oder <1>transferiere Assets</1>.",
+      "must-move-funds-sell": "Um {{asset}} zu verkaufen, musst du diese in den Trading Contract transferieren.",
+      "dismiss": "Für immer ausblenden",
+      "remind-me-later": "Erinnere mich später",
+      "btn-move-to-sell": "Transferiere {{asset}} um zu verkaufen",
       "want-to-buy-input-label": "Ich möchte kaufen",
       "want-to-sell-input-label": "Ich möchte verkaufen",
       "spend": "Spend",
@@ -1907,7 +1907,7 @@
       "weekly-limit-affix": "Wochenlimit",
       "monthly-limit-affix": "Monatslimit",
       "yearly-limit-affix": "Jahreslimit",
-      "amount-pending": "<0/> pending",
+      "amount-pending": "<0/> ausstehend",
       "exceed-yearly-limit": "Jahreslimit überschritten",
       "no-change-today": "Keine Veränderung heute",
       "change-today": "{{value}}% heute",
@@ -1958,15 +1958,15 @@
         "view": "Du kannst den Status deiner Transaktion <0>hier</0> ansehen.",
         "button": "Beenden"
       },
-      "sell-btn": "Review sale",
-      "l-trading-account": "Trading contract",
-      "l-to-sell-move": "To sell {{asset}}, you must move it to the trading contract.",
-      "l-sell": "Sell",
-      "l-receive": "Receive",
-      "l-personal-account": "Personal account",
-      "b-remind": "Remind me later",
-      "b-move-to-sell": "Move {{asset}} to sell →",
-      "b-dismiss": "Dismiss forever"
+      "sell-btn": "Verkauf überprüfen",
+      "l-trading-account": "Trading Contract",
+      "l-to-sell-move": "Um {{asset}} zu verkaufen, musst die diese in den Trading Contract transferieren.",
+      "l-sell": "Verkaufen",
+      "l-receive": "Erhalten",
+      "l-personal-account": "Persönliches Account",
+      "b-remind": "Erinnere mich später daran",
+      "b-move-to-sell": "{{asset}} transferieren um zu verkaufen →",
+      "b-dismiss": "Für immer ablehnen"
     },
     "transactions": {
       "tab-title": "Deine Order",
@@ -2037,10 +2037,10 @@
       "show-transaction": "Transaktion",
       "deposited": "Überweisung auf",
       "nash": {
-        "no-matching-data-header": "No results found.",
-        "no-matching-data-sub-header": "Your search didn’t match any purchases or sales.",
-        "no-data-header": "You haven’t made any transactions yet.",
-        "no-data-sub-header": "<0>Purchase digital assets</0> to get started.",
+        "no-matching-data-header": "Keine Ergebnisse gefunden.",
+        "no-matching-data-sub-header": "Deine Suche stimmte nicht mit deinen Käufen oder Verkäufen überein.",
+        "no-data-header": "Du hast noch keine Transaktionen durchgeführt.",
+        "no-data-sub-header": "<0>Kaufe digital Assets</0> um zu starten.",
         "col": {
           "when": "Wenn",
           "action": "Aktion",
@@ -2049,17 +2049,17 @@
           "amount": "Betrag"
         },
         "get-refund-modal": {
-          "title": "Receive refund",
-          "refund-amount": "Refund amount",
-          "declined-exchange-rate": "Declined exchange rate",
-          "original-rate": "Original rate: <0 />",
-          "declined-amount": "Declined amount",
-          "original-amount": "Original amount: <0 />",
-          "pay-refund-to": "Pay refund to",
-          "add-payment-method": "Add payment method",
-          "no-methods": "No payment methods found",
-          "b-get-refund": "Receive refund",
-          "typical-arrival": "Refunds typically arrive in 1-4 days"
+          "title": "Rückerstattung erhalten",
+          "refund-amount": "Rückerstattungsbetrag",
+          "declined-exchange-rate": "Wechselkurs ablehnen",
+          "original-rate": "Ursprünglicher Wechselkurs: <0 />",
+          "declined-amount": "Abgelehnte Menge",
+          "original-amount": "Ursprüngliche Menge: <0 />",
+          "pay-refund-to": "Rückerstattung geht an",
+          "add-payment-method": "Zahlungsmethode hinzufügen",
+          "no-methods": "Keine Zahlungsmethode gefunden",
+          "b-get-refund": "Rückerstattung erhalten",
+          "typical-arrival": "Rückerstattungen kommen normalerweise innerhalb von 1-4 Tagen an"
         },
         "sell-curr-amount": "Verkauf von <0 />",
         "buy-curr-amount": "Kauf von <0 />",
@@ -2076,9 +2076,9 @@
         "btn-confirm": "Siehe",
         "btn-reconfirm": "Rückblick",
         "btn-view": "Siehe",
-        "btn-select-account": "Select account",
-        "select-refund-account": "Select refund account",
-        "no-payment-method-on-quote": "No payment method given",
+        "btn-select-account": "Account wählen",
+        "select-refund-account": "Account für Rückerstattung wählen",
+        "no-payment-method-on-quote": "Keine Zahlungsmethode angegeben",
         "status": "Stand",
         "refund-status-label": "Status der Rückerstattung",
         "detailed-quote-status": {
@@ -2089,7 +2089,7 @@
           "failed-expired-on-confirmation": "Angebot abgelaufen",
           "failed-expired-on-confirmation-reason": "Du hast das Angebot nicht rechtzeitig akzeptiert und es ist abgelaufen",
           "reconfirmation-expired": "Bestätigung abgelaufen",
-          "processing-refund": "Processing refund",
+          "processing-refund": "Rückerstattung in Bearbeitung",
           "reconfirmation-rejected": "Bestätigung abgelehnt",
           "confirmed-waiting-for-payment": "Warten auf Zahlung",
           "pending-refund": "Rückerstattung ausstehend",
@@ -2108,13 +2108,13 @@
           "confirmed-waiting-for-payment": "Zahlung erforderlich",
           "pending-refund": "Ausstehend",
           "pending-user-rate-reconfirmation": "Wechselkurs geändert",
-          "processing-refund": "Processing",
-          "processing-settlement": "Processing",
-          "processing-payment": "Processing",
+          "processing-refund": "In Bearbeitung",
+          "processing-settlement": "In Bearbeitung",
+          "processing-payment": "In Bearbeitung",
           "refunded": "Rückerstattet",
           "completed": "Abgeschlossen"
         },
-        "refund-processing": "Processing refund …"
+        "refund-processing": "In Bearbeitung …"
       }
     },
     "payments-methods": {
@@ -2141,26 +2141,26 @@
         "REJECTED": "Abgelehnt"
       },
       "nash": {
-        "add-method": "Add a new payment method",
-        "iban-invalid": "Please provide a valid IBAN.",
-        "btn-add-payment-method": "Add payment method",
-        "btn-add-payment-method-get-refund": "Add payment method and receive refund",
-        "add-pm-title": "Add new payment method",
-        "correct-name": "Please note that we will use your Tier 1 full name ‘{{name}}’ for this transfer. If your bank account isn’t registered under this name, please <0>update your Tier 1 name</0>.",
-        "e-payment-method-exists": "Payment method already exists",
-        "l-name-your-account": "Name your account",
-        "p-name-your-account": "Give your payment method a name",
+        "add-method": "Neue Zahlungsmethode hinzufügen",
+        "iban-invalid": "Gebe eine gültige IBAN an.",
+        "btn-add-payment-method": "Zahlungsmethode hinzufügen",
+        "btn-add-payment-method-get-refund": "Füge eine Zahlungsmethode hinzu und erhalte deine Rückerstattung.",
+        "add-pm-title": "Neue Zahlungsmethode hinzufügen",
+        "correct-name": "Bitte beachte, das wir deinen Tier 1 Namen ‘{{name}}’ für diese Überweisung nutzen werden. Wenn dein Bankkonto nicht unter diesem Namen registriert ist, bitte <0>aktualisiere deinen Tier 1 Namen</0>.",
+        "e-payment-method-exists": "Zahlungsmethode existiert bereits",
+        "l-name-your-account": "Konto benennen",
+        "p-name-your-account": "Zahlungsmethode benennen",
         "l-bank-iban": "IBAN",
-        "p-bank-iban": "Add your IBAN",
-        "added-date": "Added {{datetime}}",
-        "b-delete": "Delete",
-        "delete-modal-title": "Delete this payment method?",
-        "delete-modal-body": "Payment method with IBAN {{iban}} will be removed.",
-        "b-confirm-delete": "Delete",
-        "b-cancel-delete": "Do nothing",
-        "no-methods-1": "No EUR (€) payment methods added.",
-        "no-methods-2": "Add one to start selling crypto or receive a refund.",
-        "page-of": "{{pageNumber}} of {{totalPages}}"
+        "p-bank-iban": "IBAN hinzufügen",
+        "added-date": "Hinzugefügt {{datetime}}",
+        "b-delete": "Gelöscht",
+        "delete-modal-title": "Diese Zahlungsmethode löschen?",
+        "delete-modal-body": "Zahlungsmethode mit IBAN {{iban}} wird entfernt.",
+        "b-confirm-delete": "Löschen",
+        "b-cancel-delete": "Nichts tun",
+        "no-methods-1": "Keine EUR (€) Zahlungsmethode hinzugefügt.",
+        "no-methods-2": "Füge eine hinzu, um Krypto zu verkaufen oder eine Rückerstattung zu erhalten.",
+        "page-of": "{{pageNumber}} von {{totalPages}}"
       },
       "credit-card": {
         "continue-billing": "Weiter zu den Rechnungsdetails",
@@ -2456,15 +2456,15 @@
       "limits-not-complete": "Erkläre deinen Beruf und die Herkunft deiner Assets",
       "limits-no-occupation": "Erkläre deinen Beruf",
       "limits-no-source-of-funds": "Erkläre die Quelle deiner Assets",
-      "limits-no-source-of-wealth": "Declare your main source of funds",
+      "limits-no-source-of-wealth": "Geben deine Haupteinnahmequelle an",
       "limits-no-level-1": "Du musst die Verifizierungsstufe 1 erhalten",
       "add-occupation": "Erkläre deinen Beruf",
       "add-source-of-funds": "Erkläre die Quelle deiner Assets",
-      "add-source-of-wealth": "Declare main source of funds",
+      "add-source-of-wealth": "Gebe deine Haupteinnahmequelle an",
       "header": "Stufe-1-Profil-Informationen",
       "contact-support-to-edit": "<0>Kundenservice kontaktieren</0> zum Bearbeiten",
       "source-of-funds": "Quelle deiner Assets",
-      "source-of-wealth": "Main source of funds",
+      "source-of-wealth": "Haupteinnahmequelle",
       "occupation": "Beruf",
       "my-limits-tab": "Limits",
       "account-id": "Kontonummer",
@@ -2555,14 +2555,14 @@
       "cancel-btn": "Abbrechen",
       "confirm-btn": "Ich verstehe.",
       "nash": {
-        "l-you-will-sell": "You will sell",
-        "l-at-current-rate": "At the current rate",
-        "l-you-will-receive": "You will receive",
-        "l-pay-to": "Pay to",
-        "b-cancel-sale": "Cancel sale",
-        "title": "Sell {{asset}}",
-        "b-finalize-sale": "Finalize sale",
-        "m-add-a-method": "You need to add a payment method before we can finalize your quote."
+        "l-you-will-sell": "Du verkaufst",
+        "l-at-current-rate": "Zum aktuellen Kurs",
+        "l-you-will-receive": "Du erhälst",
+        "l-pay-to": "Zahle an",
+        "b-cancel-sale": "Verkauf abbrechen",
+        "title": "{{asset}} verkaufen",
+        "b-finalize-sale": "Verkauf",
+        "m-add-a-method": "Du musst eine Zahlungsmethode hinzufügen, bevor wir dein Angebot abschließen können."
       }
     },
     "review-buy-transaction": {
@@ -2583,26 +2583,26 @@
       "rate-protection-label": "Geschützt",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
       "destination": "Reiseziel",
-      "paying-to": "Paying to",
-      "paid-to": "Paid to",
-      "l-refund-time": "Refund time",
-      "refund-time": "A few minutes",
-      "processing-refund": "Processing your refund",
+      "paying-to": "Zahlen an",
+      "paid-to": "Gezahlt an",
+      "l-refund-time": "Rückerstattungszeit",
+      "refund-time": "Ein paar Minuten",
+      "processing-refund": "Rückerstattung in Bearbeitung",
       "deposited-to": "Hinterlegt bei",
       "asset-deposited-to": "Assets hinterlegt bei",
-      "refund-amount": "Refund amount",
+      "refund-amount": "Rückerstattungsbetrag",
       "expired": "Dieses Angebot ist vor {{value}} abgelaufen.",
       "expired-message-1": "Dein garantierter Wechselkurs ist nicht mehr gültig!",
       "expired-message-2": "Eine veränderung des Preises kann deinen Wechselkurs aktualisieren.",
       "expires": "Dieses Angebot verfällt in {{value}}.",
-      "started-on": "Started at",
+      "started-on": "Gestartet um",
       "happy-btn": "Angebot akzeptieren und Überweisung vornehmen",
       "user-iban-label": "Verwendete IBAN",
       "payment-needed": "Zahlung erforderlich",
       "payment-status": "Zahlungsstatus",
       "payment-status-paid": "Bezahlt",
-      "sale-status": "Sale status",
-      "sale-status-complete": "Complete",
+      "sale-status": "Verkaufsstatus",
+      "sale-status-complete": "Abgeschlossen",
       "provider-fee": "Provider-Gebühr",
       "provider-fee-with-name": "{{providerName}} Gebühr",
       "quoted-amount": "Angebotener Betrag",
@@ -2614,40 +2614,40 @@
       "get-or-cancel": "<0>Bankverbindung des Empfängers abrufen</0> oder <1>dieses Angebot ablehnen</1>.",
       "refresh-btn": "Aktualisieren",
       "status": "Status der Währung",
-      "l-reason": "Reason for refund",
-      "reason-compliance": "Compliance check failed",
+      "l-reason": "Grund der Rückerstattung",
+      "reason-compliance": "Konformitätsprüfung fehlgeschlagen",
       "step-payment": "Nehme deine Überweisung vor",
       "step-review": "Überprüfe dein Angebot",
       "submit-btn": "Kauf bestätigen",
       "taken-from-bank": "Vom Bankkonto übernommen",
       "taken-from-card": "Auf Karte aufgeladen",
-      "l-sell-add-source": "Please declare your source of funds for this particular sale.",
-      "l-buy-add-source": "Please declare your source of funds for this particular purchase.",
+      "l-sell-add-source": "Bitte gebe die Mittelherkunft für diesen bestimmten Verkauf an",
+      "l-buy-add-source": "Bitte gebe die Mittelherkunft für diesen bestimmten Kauf an",
       "quote-accepted-title": "Angebot akzeptiert",
       "title": "Digitale Assets kaufen",
       "source-of-funds-modal": {
-        "title": "Source of funds",
-        "label": "Select or add the source of funds for this purchase",
-        "add-new": "+ Add new",
-        "l-add-new": "Add a new source of funds",
-        "b-add-new": "Save and use as source of funds",
-        "this-is-the-source": "This is the main source of funds declared on your Nash profile.",
-        "b-cancel": "Cancel",
-        "b-go-back": "Accept"
+        "title": "Mittelherkunft",
+        "label": "Wähle die Mittelherkunft für diesen Kauf aus oder füge sie hinzu",
+        "add-new": "+ Neue hinzufügen",
+        "l-add-new": "Füge eine neue Art der Mittelherkunft hinzu",
+        "b-add-new": "Speichern und als Mittelherkunft verwenden",
+        "this-is-the-source": "Dies ist die Hauptquelle für Geldmittel, die in deinem Nash-Profil angegeben ist.",
+        "b-cancel": "Abbrechen",
+        "b-go-back": "Akzeptieren"
       },
       "total-cost": "Gesamtkosten",
-      "total-sold": "Total sold",
-      "fiat-deposited-to": "Deposited to",
-      "b-change": "Change",
-      "b-add": "Add",
-      "source-of-funds": "Source of funds for this purchase",
+      "total-sold": "Ingesamt verkauft",
+      "fiat-deposited-to": "Einzahlen auf",
+      "b-change": "Ändern",
+      "b-add": "Hinzufügen",
+      "source-of-funds": "Finanzierungsquelle für diesen Kauf",
       "total-with-provider-fee": "Total mit Gebühren",
       "trading-contract": "Trading Contract",
       "transaction-details": "Zusammenfassung der Bestellung",
       "transaction-details-link": "Siehe",
       "warning-msg": "Ich ermächtige {{providerName}}, das angegebene Konto mit dem oben genannten Betrag zum heutigen Datum zu belasten. Ich werde die Belastung meines Kontos durch {{providerName}} nicht bestreiten, solange die Transaktion den Bedingungen in diesem Online-Formular und meinem Einverständnis mit {{providerName}} entspricht.",
-      "declined-exchange-rate": "Declined exchange rate",
-      "declined-amount": "Declined amount"
+      "declined-exchange-rate": "Wechselkurs ablehnen",
+      "declined-amount": "Abgelehnte Menge"
     },
     "review-transfer-funds": {
       "transfer-to": "Überweise <0 /> auf das unten aufgeführte Konto.",
@@ -2689,7 +2689,7 @@
       "not-uploaded": "Nicht hochgeladen",
       "document": "Dokument",
       "documents": "Dokumente",
-      "transfer-amount": "Transfer this amount",
+      "transfer-amount": "Transferiere diese Menge",
       "pop-upload-time": "Du musst einen Zahlungsnachweis innerhalb von 60 Minuten nach dem Senden deiner Überweisung hochladen, damit diese Transaktion gültig ist.",
       "add-default-docs": "<0>Erhöhe meine Grenzen</0>",
       "overlimit-message-level1": "Du musst dein Profil <0>ausfüllen</0> bevor du digitale Assets kaufen kannst.",
@@ -3115,7 +3115,7 @@
           "status": {
             "completed": "Abgeschlossen",
             "pending": "Ausstehend",
-            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmations"
+            "pending-with-confirmations": "{{confirmations}}/{{denominator}} Bestätigungen"
           },
           "view-transaction": "Transaktion zeigen",
           "retry-pending": "Transaktion erneut senden",
@@ -3135,7 +3135,7 @@
           "to": {
             "trading-account": "Trading Contract",
             "personal-account": "Persönliches Konto",
-            "nash-fiat-ramp": "Sell to Nash",
+            "nash-fiat-ramp": "An Nash verkaufen",
             "staking-account": "NEX Staking Contract",
             "fees": "Gebühren"
           },
@@ -4051,7 +4051,7 @@
     "title_plural": "{{count}} Kontakte",
     "search-my-contacts": "Suche meine Kontakte …",
     "no-contacts": "Du hast noch keine Kontakte hinzugefügt oder importiert.",
-    "contact-fallback-name": "Contact",
+    "contact-fallback-name": "Kontakt",
     "create-new": "Erstelle neuen",
     "buttons": {
       "send": "Senden",
