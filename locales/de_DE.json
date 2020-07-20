@@ -729,6 +729,7 @@
     },
     "market-graphs": {
       "title": "Charts",
+      "market-paused": "Market paused",
       "price-chart": {
         "title": "Preis",
         "heads-up-display": {
@@ -806,8 +807,9 @@
     "create-order": {
       "buy": "{{currencySymbol}} kaufen",
       "sell": "{{currencySymbol}} verkaufen",
+      "market-paused": "This market is currently paused for maintenance. You will be unable to make trades.",
       "locked-trading-session": {
-        "information": "Ihre Handelssitzung ist gesperrt. <0 />",
+        "information": "Your trading session is locked.",
         "information-tooltip": "Deine Sitzung wird gesperrt, wenn du die Seite aktualisierst oder 15 Minuten lang abwesend bist.",
         "enter-credentials-to-unlock": "<0>Jetzt freischalten</0>"
       },
@@ -1742,8 +1744,24 @@
     },
     "move-funds": {
       "title": "{{asset}} transferieren um zu verkaufen",
+      "fee-footer": "Estimated fee <0/>",
+      "over-limit": "Insufficient funds",
       "l-amount-to-transfer": "Zu transferierender Betrag",
-      "b-move-to-sell": "{{asset}} transferieren um zu verkaufen"
+      "b-move-to-sell": "Start transfer",
+      "review": {
+        "l-complete": "Transfer initializing…",
+        "l-transfer-details": "Transfer details",
+        "l-error": "Something went wrong",
+        "l-error-description": "No funds have moved.",
+        "l-amount-to-move": "Transfer amount",
+        "l-fees-to-move": "Fees",
+        "l-source": "Source",
+        "l-destination": "Destination",
+        "b-accept-transfer": "Start transfer",
+        "b-finish-transfer": "Finish transfer",
+        "personal-account": "Personal account",
+        "trading-contract": "Trading contract"
+      }
     },
     "provider": {
       "title": "Wähle einen Anbieter",
@@ -4038,6 +4056,7 @@
     "staking-view-header": {
       "stakes-in-progress": "Laufende Stakes",
       "completed-stakes": "Abgeschlossene Stakes",
+      "create-stake-paused": "Staking is paused during Nash maintenance.",
       "create-stake-button": "Neuen Stake erstellen",
       "learn-stake-button": "Mehr über Staking erfahren"
     },
