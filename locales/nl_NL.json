@@ -3575,86 +3575,86 @@
       "desc-2": "",
       "cards": {
         "your-details": {
-          "label": "Personal details",
-          "legal-name": "Legal name",
-          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
-          "update-name": "I want to update my name",
-          "update-country": "I want to update my country of residence",
-          "gender": "Gender",
-          "male": "Male",
-          "female": "Female",
-          "other": "Other",
-          "country-of-residence": "Country of residence"
+          "label": "Persoonlijke gegevens",
+          "legal-name": "Wettelijke naam",
+          "missing-full-name": "<0>Verifieer uw identiteit</0> voor hogere handelslimieten.",
+          "update-name": "Ik wil mijn naam updaten",
+          "update-country": "Ik wil mijn land van verblijf updaten",
+          "gender": "Geslacht",
+          "male": "Man",
+          "female": "Vrow",
+          "other": "Ander",
+          "country-of-residence": "Land van verblijf"
         },
         "account-settings": {
-          "label": "Account settings",
-          "email-address": "Email address",
-          "update-email": "Change email address",
-          "password": "Password",
-          "update-password": "Change password",
-          "two-factor": "We recommend you to enable two-factor authentication in <0>Security</0>.",
-          "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
+          "label": "Accountinstellingen",
+          "email-address": "E-mailadres",
+          "update-email": "E-mailadres wijzigen",
+          "password": "Wachtwoord",
+          "update-password": "Wachtwoord wijzigen",
+          "two-factor": "We raden u aan twee-factor-authenticatie in te schakelen <0>Beveiliging</0>.",
+          "two-factor-enable": "Twee-factor-authenticatie kan worden uitgeschakeld in <0>Beveiliging</0>."
         }
       },
       "modals": {
         "update-name": {
-          "title": "Update name",
-          "label": "Name",
-          "tier0-summary": "To update your name, please complete <0>Tier 1 verification</0>.",
-          "tier0-details": "When your application for Tier 1 has been approved, we will update your name to the legal name on the documents you provided.",
-          "tier1-summary": "If your legal name has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1-details": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your name to the legal name on the documents you provided."
+          "title": "Naam updaten",
+          "label": "Naam",
+          "tier0-summary": "Voltooi <0>Verificatie van Tier 1</0> om uw naam bij te werken.",
+          "tier0-details": "Wanneer uw aanvraag voor Tier 1 is goedgekeurd, zal uw naam geüpdatet worden naar de officiële naam op uw ingediende documenten.",
+          "tier1-summary": "Als uw officiële naam is gewijzigd en u wilt deze bijwerken, neem dan <0> contact op met ondersteuning </0>.",
+          "tier1-details": "We zullen uw verificatieniveau resetten en u vragen om de verificatieprocedure te herhalen met uw nieuwe documenten. Wanneer uw aanvraag is goedgekeurd, werken we uw naam bij naar de officiële naam op de documenten die u heeft verstrekt."
         },
         "update-country": {
-          "title": "Update country",
-          "label": "Country",
-          "tier0": "If your country of residence has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your country of residence to the country on the documents you provided."
+          "title": "Land bijwerken",
+          "label": "Land",
+          "tier0": "Als uw land van verblijf is gewijzigd en u wilt het bijwerken, neem dan <0> contact op met support</0>.",
+          "tier1": "We zullen uw verificatieniveau resetten en u vragen om de verificatieprocedure te herhalen met uw nieuwe documenten. Wanneer uw aanvraag is goedgekeurd, werken we uw land van verblijf bij naar het land op de documenten die u heeft verstrekt."
         },
         "update-email": {
-          "success-header": "We’ve sent you an email!",
-          "success-description": "We have sent you a confirmation email to start the address update process. If you don’t see our email, check your junk folder.",
-          "success-back": "Got it!",
-          "title": "Change email",
-          "current-email-label": "Your current email address",
-          "current-email": "Current email address",
-          "new-email-label": "New email address",
-          "new-email-placeholder": "Enter your new email address",
-          "twofa-label": "Two-factor authentication",
-          "twofa-label-placeholder": "Enter your two-factor authentication (2FA) code",
-          "request-email-change-button-label": "Request address change"
+          "success-header": "We hebben u een e-mail gestuurd!",
+          "success-description": "We hebben u een bevestigingsmail gestuurd om het adres-updateproces te starten. Als u onze e-mail niet ziet, controleer dan uw ongewenste map.",
+          "success-back": "Begrepen!",
+          "title": "Wijzig e-mail",
+          "current-email-label": "Uw huidige e-mailadres",
+          "current-email": "Huidig e-mailadres",
+          "new-email-label": "Nieuw e-mailadres",
+          "new-email-placeholder": "Voer uw nieuwe e-mailadres in",
+          "twofa-label": "Twee-factor authenticatie",
+          "twofa-label-placeholder": "Voer uw twee-factor authenticatiecode (2FA) in",
+          "request-email-change-button-label": "Adreswijziging aanvragen"
         },
         "update-password": {
-          "title": "Change password",
+          "title": "Wachtwoord wijzigen",
           "fields": {
             "password": {
-              "label": "Current password",
-              "placeholder": "Enter your password"
+              "label": "Huidig wachtwoord",
+              "placeholder": "Voer uw wachtwoord in"
             },
             "code": {
-              "label": "Two-factor authentication",
-              "placeholder": "Enter your two-factor authentication code"
+              "label": "Twee-factor authenticatie",
+              "placeholder": "Voer uw twee-factor authenticatiecode in"
             },
             "new-password": {
-              "label": "New password",
-              "placeholder": "Enter a new password",
+              "label": "Nieuw wachtwoord",
+              "placeholder": "Voer een nieuw wachtwoord in",
               "errors": {
-                "password-too-weak": "The password you chose is too weak."
+                "password-too-weak": "Het door u gekozen wachtwoord is te zwak."
               }
             },
             "new-password-confirm": {
-              "label": "Confirm new password",
-              "placeholder": "Confirm new password",
+              "label": "Bevestig nieuw wachtwoord",
+              "placeholder": "Bevestig nieuw wachtwoord",
               "errors": {
-                "passwords-do-not-match": "Passwords do not match."
+                "passwords-do-not-match": "Wachtwoorden komen niet overeen."
               }
             }
           },
-          "success": "Your password has been changed successfully.",
+          "success": "Uw wachtwoord is met succes veranderd.",
           "errors": {
-            "password-must-change": "Your new password should be different from your old password.",
-            "password-already-used": "You used this password already. Please pick another one.",
-            "missing-key": "Missing signature keys. Please refresh this page and try again."
+            "password-must-change": "Uw nieuwe wachtwoord moet verschillend zijn van uw oude wachtwoord.",
+            "password-already-used": "U heeft dit wachtwoord al gebruikt. Kies een andere.",
+            "missing-key": "Handtekeningsleutels ontbreken. Vernieuw deze pagina en probeer het opnieuw."
           }
         }
       }
