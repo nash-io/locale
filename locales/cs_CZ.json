@@ -729,7 +729,7 @@
     },
     "market-graphs": {
       "title": "Grafy",
-      "market-paused": "Market paused",
+      "market-paused": "Trh zapauzován",
       "price-chart": {
         "title": "Cena",
         "heads-up-display": {
@@ -807,9 +807,9 @@
     "create-order": {
       "buy": "Koupit {{currencySymbol}}",
       "sell": "Prodat {{currencySymbol}}",
-      "market-paused": "This market is currently paused for maintenance. You will be unable to make trades.",
+      "market-paused": "Tento trh je momentálně pozastaven z důvodu údržby. Nebudete moci provést obchody.",
       "locked-trading-session": {
-        "information": "Your trading session is locked.",
+        "information": "Vaše časové okno pro obchodování je uzamčeno.",
         "information-tooltip": "Časové okno por obchodování se uzamkne, když obnovíte stránku nebo jste 15 minut neaktivní.",
         "enter-credentials-to-unlock": "<0>Odemknout nyní</0>"
       },
@@ -1744,23 +1744,23 @@
     },
     "move-funds": {
       "title": "Přesunout {{asset}} k prodeji",
-      "fee-footer": "Estimated fee <0/>",
-      "over-limit": "Insufficient funds",
+      "fee-footer": "Odhadovaný poplatek <0/>",
+      "over-limit": "Nedostatek finančních prostředků",
       "l-amount-to-transfer": "Množství k převodu",
-      "b-move-to-sell": "Start transfer",
+      "b-move-to-sell": "Začít převod",
       "review": {
-        "l-complete": "Transfer initializing…",
-        "l-transfer-details": "Transfer details",
-        "l-error": "Something went wrong",
-        "l-error-description": "No funds have moved.",
-        "l-amount-to-move": "Transfer amount",
-        "l-fees-to-move": "Fees",
-        "l-source": "Source",
-        "l-destination": "Destination",
-        "b-accept-transfer": "Start transfer",
-        "b-finish-transfer": "Finish transfer",
-        "personal-account": "Personal account",
-        "trading-contract": "Trading contract"
+        "l-complete": "Převod se přípravuje…]",
+        "l-transfer-details": "Detaily převodu",
+        "l-error": "Někde nastala chyba",
+        "l-error-description": "Žádné finanční prostředky nebyly přesunuty.",
+        "l-amount-to-move": "Množství převodu",
+        "l-fees-to-move": "Poplatky",
+        "l-source": "Zdroj",
+        "l-destination": "Destinace převodu",
+        "b-accept-transfer": "Žačít převod",
+        "b-finish-transfer": "Dokončít převod",
+        "personal-account": "Osobní účet",
+        "trading-contract": "Obchodovací účet"
       }
     },
     "provider": {
@@ -4056,7 +4056,7 @@
     "staking-view-header": {
       "stakes-in-progress": "Probíhající staky",
       "completed-stakes": "Dokončené staky",
-      "create-stake-paused": "Staking is paused during Nash maintenance.",
+      "create-stake-paused": "Staking je pozastaven z důvodu údržby Nash.",
       "create-stake-button": "Vytvořit nový stake",
       "learn-stake-button": "Zjistit více o stakování"
     },
