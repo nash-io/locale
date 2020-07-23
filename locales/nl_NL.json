@@ -3881,31 +3881,31 @@
           "processing-time": "Als uw verificatie niet binnen 24 uur is verwerkt, neem dan <0>contact op met support</0>."
         },
         "tier-1": {
-          "get-verified-button": "Get verified",
-          "continue-verification-button": "Continue verification",
+          "get-verified-button": "Wordt geverifieerd",
+          "continue-verification-button": "Ga door met verificatie",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "Hoe wilt u geverifieerd worden??",
             "mobile": {
               "header": "Smartphone app",
-              "desc": "Requires both high-quality front-facing and back-facing cameras.",
+              "desc": "Vereist zowel hoogwaardige camera's aan de voorkant als aan de achterkant.",
               "steps": [
-                "Download the app",
+                "Download de app",
                 "Scan QR code"
               ],
               "download": {
-                "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "header": "Tier 1-verificatie 1 is mogelijk met onze mobiele app.",
+                "downloaded-app": "Ik heb de app gedownload"
               },
               "scan-code": {
-                "header": "Scan the following QR code with the Nash app:",
-                "desc": "When you have completed Tier 1 verification, your result will appear here within one minute."
+                "header": "Scan de volgende QR-code met de Nash-app:",
+                "desc": "Wanneer u de Tier 1-verificatie heeft voltooid, wordt uw resultaat hier binnen één minuut weergegeven."
               }
             },
             "web": {
-              "header": "Nash web platform",
-              "desc": "Requires a high-quality webcam."
+              "header": "Nash webplatform",
+              "desc": "Vereist een webcam van hoge kwaliteit."
             },
-            "do-it-later": "I’ll do this later"
+            "do-it-later": "Ik doe dit later"
           }
         }
       }
@@ -3920,91 +3920,91 @@
       "s-completed-stakes": "Uitgevoerd en complete stakes"
     },
     "stakes": {
-      "amount-staked-col": "Amount staked",
-      "duration-col": "Duration",
-      "fee-reward-col": "Staking rate",
-      "dates-active-col": "Dates active",
-      "next-payment-col": "Next payment",
-      "aggregate-dividends-col": "Aggregate dividends value",
+      "amount-staked-col": "Hoeveelheid gestaked",
+      "duration-col": "Duur",
+      "fee-reward-col": "Staking percentage",
+      "dates-active-col": "Datums actief",
+      "next-payment-col": "Volgende betaling",
+      "aggregate-dividends-col": "Geaggregeerde dividendwaarde",
       "row-item": {
-        "duration-month": "<0>{{count}}</0> month",
-        "duration-month_plural": "<0>{{count}}</0> months",
+        "duration-month": "<0>{{count}}</0> maand",
+        "duration-month_plural": "<0>{{count}}</0> maanden",
         "redeem-button": {
-          "label": "Release NEX",
-          "submitting": "Releasing…",
-          "error": "Failed! Please try again.",
-          "success": "Success. Releasing NEX…",
-          "released": "NEX released"
+          "label": "NEX vrijgeven",
+          "submitting": "Vrijgeven…",
+          "error": "Mislukt! Probeer het a.u.b. opnieuw.",
+          "success": "Geslaagd. Vrijgeven van NEX…",
+          "released": "NEX vrijgegeven"
         }
       }
     },
     "staking": {
       "title": "Staking",
-      "tabs-info-button": "Learn about staking"
+      "tabs-info-button": "Leer meer over staking"
     },
     "statements": {
-      "view-statement-button": "View statement",
-      "summary-title": "All statements",
-      "export-summary": "Export stakes as CSV",
-      "export": "Export statement",
-      "date-col": "Payment date",
-      "asset-col": "Asset",
-      "dividend-col": "Dividend received",
-      "usdDividend-col": "USD value",
-      "stakes-in-progress": "In progress ({{date}})",
-      "stakes-complete": "Completed ({{date}})",
-      "total-dividends": "Total dividends ({{date}})",
-      "paid-dividend-days": "Days paid ({{date}})",
-      "all-dividends-table": "Dividends list",
-      "till-ended_plural": "{{count}} days left",
-      "till-ended": "{{count}} day left",
-      "till-ended_today": "Ending today",
-      "from-active-stakes": "From <0>{{count}}</0> active stake",
-      "from-active-stakes_plural": "From <0>{{count}}</0> active stakes",
-      "period-description": "During this period",
-      "dividends-received": "In dividends received",
-      "is-ended": "Ended",
-      "no-statements": "You don’t have any dividend statements yet."
+      "view-statement-button": "Bekijk verklaring",
+      "summary-title": "Alle verklaringen",
+      "export-summary": "Exporteer stakes als CSV",
+      "export": "Exportverklaring",
+      "date-col": "Betaaldatum",
+      "asset-col": "Activum",
+      "dividend-col": "Ontvangen dividend",
+      "usdDividend-col": "USD waarde",
+      "stakes-in-progress": "In uitvoering ({{date}})",
+      "stakes-complete": "Voltooid ({{date}})",
+      "total-dividends": "Totaal dividend ({{date}})",
+      "paid-dividend-days": "Betaalde dagen ({{date}})",
+      "all-dividends-table": "Dividendenlijst",
+      "till-ended_plural": "{{count}} resterende dagen",
+      "till-ended": "{{count}} dag resterend",
+      "till-ended_today": "Eindigt vandaag",
+      "from-active-stakes": "Van <0>{{count}}</0> actieve stake",
+      "from-active-stakes_plural": "Van <0>{{count}}</0> actieve stakes",
+      "period-description": "Gedurende deze periode",
+      "dividends-received": "In ontvangen dividenden",
+      "is-ended": "Beëindigd",
+      "no-statements": "U heeft nog geen dividendoverzichten."
     },
     "modals": {
       "staking-info": {
         "title": "Staking Nash Exchange tokens (NEX)",
         "header": {
-          "title": "What is NEX staking?",
-          "desc": "Staking Nash Exchange tokens (NEX) is a way to earn passive income. You receive a portion of the exchange’s trading fees every day that your stake is active."
+          "title": "Wat is NEX staking?",
+          "desc": "Het staken van Nash Exchange-tokens (NEX) is een manier om passief inkomen te verdienen. Elke dag dat uw stake actief is, ontvangt u een deel van de handelskosten van de beurs."
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
-            "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
+            "title": "Hoe werkt het?",
+            "desc": "U vergrendelt zoveel van uw NEX-tokens als u wilt in een stakingscontract. U kunt uw tokens niet verplaatsen of verkopen terwijl ze in het contract zijn vergrendeld. Elke dag dat uw stake actief is, ontvangt u dividenden."
           },
           "par-2": {
-            "title": "How are dividends calculated?",
-            "desc": "Dividends depend on: (1) the number of NEX tokens you stake as a proportion of the total 50,000,000 supply, and (2) the period of time for which you stake them. The more tokens you stake, the higher your dividend will be. The longer you stake your tokens for, the greater the proportion of fees you receive will be (your ‘staking rate’)."
+            "title": "Hoe worden dividenden berekend?",
+            "desc": "Dividenden zijn afhankelijk van: (1) het aantal NEX-tokens dat u inzet als een percentage van de totale NEX-voorraad van 50.000.000 tokens, en (2) de periode gedurende welke u ze inzet. Hoe meer tokens u inzet, hoe hoger uw dividend zal zijn. Hoe langer u uw tokens inzet, hoe groter het deel van de vergoedingen dat u ontvangt (uw 'stakingspercentage')."
           },
           "par-3": {
-            "title": "How long can I stake for?",
-            "desc": "The minimum staking period is one month, which offers a staking rate of 25%. However, if you want a higher proportion of the exchange’s fees, you can stake for any whole number of months up to a maximum of 24, which offers a staking rate of 75%."
+            "title": "Hoe lang kan ik staken?",
+            "desc": "De minimale stakingsperiode is één maand, wat een stakingspercentage van 25% biedt. Als u echter een hoger deel van de kosten van de exchange wilt, kunt u een meerdere, volledige, maanden inzetten tot een maximum van 24 maanden, wat een stakingspercentage van 75% biedt."
           },
           "par-4": {
-            "title": "How do I receive my dividends?",
-            "desc": "Dividends are automatically added to your trading contract balance. They are paid out on a daily basis, shortly after midnight UTC. Nash provides monthly staking statements that aggregate these payments into a single figure for accounting purposes. Since the fees on a trade are charged in the currency being exchanged, you will receive dividends in every asset currently being traded on Nash."
+            "title": "Hoe ontvang ik mijn dividenden?",
+            "desc": "Dividenden worden automatisch toegevoegd aan uw handelscontractsaldo. Ze worden dagelijks uitbetaald, kort na middernacht UTC. Nash biedt maandelijkse stakingsverklaringen die deze betalingen samenvoegen tot één cijfer voor boekhoudkundige doeleinden. Aangezien de kosten voor een transactie in rekening worden gebracht in de valuta die wordt uitgewisseld, ontvangt u dividenden in elk activum dat momenteel op Nash wordt verhandeld."
           },
           "par-5": {
-            "title": "Can I receive my dividends in a single currency?",
-            "desc": "No. For legal reasons, we cannot convert your dividends for you. However, we are developing a tool to allow you to convert dividends yourself with a single click."
+            "title": "Kan ik mijn dividenden in één enkele valuta ontvangen?",
+            "desc": "Neen. Om juridische redenen kunnen we uw dividenden niet voor u converteren. We ontwikkelen echter een tool waarmee u met één klik zelf uw dividenden kunt converteren."
           },
           "par-6": {
-            "title": "Can I edit or cancel my stake once it’s been created?",
-            "desc": "No. Once you have created a stake you will not be able to edit or cancel it."
+            "title": "Kan ik mijn stake bewerken of annuleren nadat deze is gemaakt?",
+            "desc": "Neen. Zodra u een stake heeft aangemaakt, kunt u deze niet meer bewerken of annuleren."
           },
           "par-7": {
-            "title": "Can I create multiple stakes?",
-            "desc": "Yes. If you have NEX tokens in your personal account that are not already locked in a stake, you can use them to create a new one."
+            "title": "Kan ik meerdere stakes maken?",
+            "desc": "Ja. Als u NEX-tokens in uw persoonlijke account heeft die nog niet gestaked zijn, dan kunt u ze gebruiken om een nieuwe stake te maken."
           },
           "par-8": {
-            "title": "How many stakes can I create?",
-            "desc": "There is no limit to the number of stakes you can create."
+            "title": "Hoeveel stakes kan ik maken?",
+            "desc": "Er is geen limiet aan het aantal stakes dat u kunt maken."
           }
         }
       },
