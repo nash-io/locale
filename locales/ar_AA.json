@@ -724,7 +724,6 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Your favorite markets</0> appear as links here.",
       "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
     },
     "market-graphs": {
@@ -760,9 +759,12 @@
         },
         "candle-frequency": {
           "1m": "1m",
+          "5m": "5m",
           "15m": "15m",
           "30m": "30m",
           "1h": "1h",
+          "3h": "3h",
+          "4h": "4h",
           "6h": "6h",
           "12h": "12h",
           "1d": "1d",
@@ -1074,8 +1076,8 @@
       "price-col": "{{symbol}} price",
       "average": "Avg. price",
       "sum-size": "{{symbol}} sum",
-      "num-decimals": "{{decimals}} decimal",
-      "num-decimals_plural": "{{decimals}} decimals",
+      "num-decimals": "{{count}} decimal",
+      "num-decimals_plural": "{{count}} decimals",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
@@ -2975,6 +2977,7 @@
             "from": "From",
             "to": "To"
           },
+          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
           "contacts": {
             "label": "Destination",
             "placeholder": "Search for a contact or send to a new address…",
@@ -3678,25 +3681,22 @@
       }
     },
     "preferences": {
-      "title": "Preferences",
-      "header": "Preferences",
-      "desc-1": "Edit your preferences for timezone, currency, language and notifications below.",
-      "desc-2": "",
-      "cards": {
-        "general-settings": {
-          "label": "General settings",
-          "timezone": "Timezone",
-          "fiat": "Currency",
-          "language": "Language",
-          "save-settings": "Save settings"
-        },
-        "email": {
-          "label": "Email me when…",
-          "news": "There are news and updates from Nash.",
-          "actions": "There are recommended actions for my account.",
-          "withdrawal": "A withdrawal is made from my account.",
-          "deposit": "A deposit is made to my account."
-        }
+      "general": {
+        "header": "General settings",
+        "l-decimal-type": "Decimal type",
+        "l-currency": "Currency",
+        "b-save-changes": "Save changes"
+      },
+      "notifications": {
+        "header": "Notify me when",
+        "h-web": "Web notifications",
+        "h-email": "Email",
+        "b-enable-all": "Enable all",
+        "b-disable-all": "Disable all",
+        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
+        "funds-trading-to-personal": "I deposit funds to the trading contract",
+        "staking-stake-complete": "One of my NEX stakes completes",
+        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
       }
     },
     "security": {

@@ -724,7 +724,6 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Vos marchés favoris</0> s’affichent ici en accès rapide.",
       "tips": "<0>Tip</0> <1>Ajouter des marchés favoris en accès rapide ici.</1> <2 />"
     },
     "market-graphs": {
@@ -760,9 +759,12 @@
         },
         "candle-frequency": {
           "1m": "1m",
+          "5m": "5m",
           "15m": "15m",
           "30m": "30m",
           "1h": "1h",
+          "3h": "3h",
+          "4h": "4h",
           "6h": "6h",
           "12h": "12h",
           "1d": "1J",
@@ -1074,8 +1076,8 @@
       "price-col": "Prix {{symbol}}",
       "average": "Prix moyen",
       "sum-size": "Somme {{symbol}}",
-      "num-decimals": "{{decimals}} décimale",
-      "num-decimals_plural": "{{decimals}} décimales",
+      "num-decimals": "{{count}} decimal",
+      "num-decimals_plural": "{{count}} decimals",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
@@ -2975,6 +2977,7 @@
             "from": "De",
             "to": "À"
           },
+          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
           "contacts": {
             "label": "Destination",
             "placeholder": "Rechercher un contact ou envoyer à une nouvelle adresse…",
@@ -3678,25 +3681,22 @@
       }
     },
     "preferences": {
-      "title": "Préférences",
-      "header": "Préférences",
-      "desc-1": "Modifiez vos préférences de fuseau horaire, de devise, de langue et de notifications ci-dessous.",
-      "desc-2": "",
-      "cards": {
-        "general-settings": {
-          "label": "Paramètres généraux",
-          "timezone": "Fuseau horaire",
-          "fiat": "Devise",
-          "language": "Langue",
-          "save-settings": "Enregistrer les paramètres"
-        },
-        "email": {
-          "label": "Envoyez-moi un email quand…",
-          "news": "Il y a des nouvelles et des mises à jour de Nash.",
-          "actions": "Il existe des actions recommandées pour mon compte.",
-          "withdrawal": "Un retrait est effectué depuis mon compte.",
-          "deposit": "Un dépôt est effectué sur mon compte."
-        }
+      "general": {
+        "header": "General settings",
+        "l-decimal-type": "Decimal type",
+        "l-currency": "Currency",
+        "b-save-changes": "Save changes"
+      },
+      "notifications": {
+        "header": "Notify me when",
+        "h-web": "Web notifications",
+        "h-email": "Email",
+        "b-enable-all": "Enable all",
+        "b-disable-all": "Disable all",
+        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
+        "funds-trading-to-personal": "I deposit funds to the trading contract",
+        "staking-stake-complete": "One of my NEX stakes completes",
+        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
       }
     },
     "security": {
