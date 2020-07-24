@@ -4101,59 +4101,59 @@
           "wallet": "Bestemming"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "U kunt alleen activa verzenden vanaf uw persoonlijke account."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Zoek naar een activa…",
+          "destination": "Zoek naar een wallet adres…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "Weet je zeker dat je {{contactName}} wilt verwijderen?",
+        "notice-text": "Alle informatie die aan dit contact is gekoppeld, wordt definitief verwijderd.",
+        "button": "Ja, verwijderen",
+        "cancel": "Annuleer",
+        "error": "Fout bij verwijderen van contact. Probeer het alstublieft opnieuw.",
+        "success": "Contact verwijderd.",
+        "success-button": "Keer terug naar contacten"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Contact opgeslagen!",
+        "error": "Fout bij opslaan van contact. Probeer het alstublieft opnieuw.",
+        "invalid-input": "Ongeldige invoer. Probeer het alstublieft opnieuw."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Voornaam",
+          "placeholder": "Voornaam"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Achternaam",
+          "placeholder": "Achternaam"
         },
         "email": {
-          "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "label": "E-mail",
+          "placeholder": "E-mailadres",
+          "error": "Ongeldig E-mailadres"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Telefoon",
+          "error": "Ongeldig telefoonnummer voor {{country}}"
         },
         "wallets": {
           "label": "Wallets",
-          "delete": "Delete",
+          "delete": "Verwijderen",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Wallet adres"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Wallet naam"
           },
-          "add": "Add another"
+          "add": "Een andere toevoegen"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Voer een geldig {{blockchain}} adres in.",
+          "unique-address": "U heeft al een ander contact met dit wallet adres."
         }
       }
     }
