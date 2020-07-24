@@ -103,7 +103,7 @@
     },
     "step2": {
       "password": "Wachtwoord",
-      "two-fa-code": "Twee stappen authenticatie code",
+      "two-fa-code": "Twee-factor authenticatie code",
       "create-api-button-label": "Ga verder",
       "incorrect-password": "De wachtwoord die je invoerde is fout.",
       "incorrect-2fa": "De code die je invoerde is fout."
@@ -575,7 +575,7 @@
     "tab-title": "Account aanmaken",
     "steps": [
       "Twaalf geheime woorden",
-      "Twee-factor-authenticatie"
+      "Twee-factor authenticatie"
     ],
     "general-information": {
       "title": "Algemene informatie",
@@ -640,15 +640,15 @@
         "header": "Uw Nash-account is succesvol aangemaakt!",
         "desc": "U vindt uw twaalf geheime woorden en individuele accountgegevens onder ‘Mijn profiel> Accounts’.",
         "warning": "<0>We slaan uw geheime woorden op geen enkele locatie op.</0> Als u uw wachtwoord vergeet, heeft u geen toegang tot uw fondsen zonder deze woorden.",
-        "continue": "Zet twee-factor-authenticatie op",
+        "continue": "Zet twee-factor authenticatie op",
         "continue-location": "Locatie van woonplaats instellen"
       }
     },
     "2fa": {
-      "title": "Twee-factor-authenticatie",
-      "header": "Aanbevolen: Twee-factor-authenticatie inschakelen",
+      "title": "Twee-factor authenticatie",
+      "header": "Aanbevolen: Twee-factor authenticatie inschakelen",
       "skip": "Overslaan",
-      "desc": "Twee-factor-authenticatie (2FA) voegt een extra beveiligingslaag toe aan uw account.",
+      "desc": "Twee-factor authenticatie (2FA) voegt een extra beveiligingslaag toe aan uw account.",
       "cards": {
         "1": {
           "header": "Download en installeer een authenticator-app",
@@ -665,8 +665,8 @@
         }
       },
       "confirm": {
-        "header": "Twee-factor-authenticatie is ingesteld!",
-        "desc": "U vindt uw Twee-factor-authenticatie voorkeuren onder ‘Mijn profiel> Beveiliging’ op het Nash-webplatform.",
+        "header": "Twee-factor authenticatie is ingesteld!",
+        "desc": "U vindt uw twee-factor authenticatie voorkeuren onder ‘Mijn profiel> Beveiliging’ op het Nash-webplatform.",
         "action": "Wat wil u nu doen?",
         "continue-deposit": "Fondsen storten",
         "continue-explore": "Verkennen"
@@ -1101,8 +1101,8 @@
         "placeholder": "Voer uw wachtwoord in"
       },
       "code": {
-        "label": "Twee-factor-authenticatie",
-        "placeholder": "Voer uw Twee-factor-authenticatie code in"
+        "label": "Twee-factor authenticatie",
+        "placeholder": "Voer uw twee-factor authenticatie code in"
       }
     },
     "new-wallets": {
@@ -1154,7 +1154,7 @@
     },
     "signin": {
       "header": "Log in bij Nash",
-      "header-2fa": "Twee-factor-authenticatie",
+      "header-2fa": "Twee-factor authenticatie",
       "fields": {
         "email": {
           "label": "E-mailadres",
@@ -1269,8 +1269,8 @@
             }
           },
           "code": {
-            "label": "Twee-factor-authenticatie",
-            "placeholder": "Voer uw twee-factor-authenticatiecode in"
+            "label": "Twee-factor authenticatie",
+            "placeholder": "Voer uw twee-factor authenticatie code in"
           }
         },
         "errors": {
@@ -2177,7 +2177,7 @@
         "b-confirm-delete": "Verwijderen",
         "b-cancel-delete": "Niets doen",
         "no-methods-1": "Geen EUR (€) betalingsmethoden toegevoegd.",
-        "no-methods-2": "Voeg er een toe om crypto te verkopen of een terugbetaling te ontvangen.",
+        "no-methods-2": "Voeg er een toe om activa te verkopen of een terugbetaling te ontvangen.",
         "page-of": "{{pageNumber}} van {{totalPages}}"
       },
       "credit-card": {
@@ -3610,8 +3610,8 @@
           "update-email": "E-mailadres wijzigen",
           "password": "Wachtwoord",
           "update-password": "Wachtwoord wijzigen",
-          "two-factor": "We raden u aan twee-factor-authenticatie in te schakelen <0>Beveiliging</0>.",
-          "two-factor-enable": "Twee-factor-authenticatie kan worden uitgeschakeld in <0>Beveiliging</0>."
+          "two-factor": "We raden u aan twee-factor authenticatie in te schakelen <0>Beveiliging</0>.",
+          "two-factor-enable": "Twee-factor authenticatie kan worden uitgeschakeld in <0>Beveiliging</0>."
         }
       },
       "modals": {
@@ -3702,12 +3702,12 @@
     "security": {
       "title": "Veiligheid",
       "header": "Accountbeveiliging",
-      "desc": "Activeer tweestapsverificatie hier.",
+      "desc": "Activeer twee-factor authenticatie hier.",
       "cards": {
         "2fa": {
-          "label": "Tweestapsverificatie",
-          "header": "Tweestapsverificatie is:",
-          "desc": "We adviseren je om je tweestapsverificatie (2FA) geactiveerd te houden. Het voegt een extra beveligslaag toe aan uw account.",
+          "label": "Twee-factor authenticatie",
+          "header": "Twee-factor authenticatie is:",
+          "desc": "We adviseren je om je twee-factor authenticatie (2FA) geactiveerd te houden. Het voegt een extra beveiligingslaag toe aan uw account.",
           "enabled": "Ingeschakeld",
           "disabled": "Uitgeschakeld",
           "enable": "Inschakelen",
@@ -3760,17 +3760,17 @@
             "input-placeholder": "Authenticatiecode"
           },
           "enable": "Inschakelen",
-          "title": "Schakel tweestapsverificatie in"
+          "title": "Schakel twee-factor authenticatie in"
         },
         "disable-2fa": {
-          "title": "Schakel tweestapsverificatie uit",
-          "warning": "We adviseren je om je tweestapsverificatie (2FA) geactiveerd te houden. Het voegt een extra beveligslaag toe aan uw account.",
+          "title": "Schakel twee-factor authenticatie uit",
+          "warning": "We adviseren je om je twee-factor authenticatie (2FA) geactiveerd te houden. Het voegt een extra beveligslaag toe aan uw account.",
           "disable": "Uitschakelen"
         },
         "success": {
           "header": "Gelukt!",
-          "enabled": "Tweestapsverificatie is ingeschakeld.",
-          "disabled": "Tweestapsverificatie is uitgeschakeld.",
+          "enabled": "Twee-factor authenticatie is ingeschakeld.",
+          "disabled": "Twee-factor authenticatie is uitgeschakeld.",
           "back": "Afgerond!"
         }
       }
