@@ -4009,96 +4009,96 @@
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "I understand that staked NEX only pays dividends if the Nash Exchange generates revenue.",
-        "title": "Create your stake",
-        "amount-to-stake": "Amount of NEX to stake",
-        "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
-        "available-balance": "Available balance to stake ⋅",
+        "create-stake-disclaimer-label": "Ik begrijp dat gestaked NEX alleen dividend uitkeert als de Nash Exchange inkomsten genereert.",
+        "title": "Stake aanmaken",
+        "amount-to-stake": "Hoeveelheid NEX om te staken",
+        "amount-to-stake-tooltip": "Stakingsprecentage bepaalt de omvang van uw evenredige deel van de inkomsten uit de Nash Exchange. Hoe langer u uw NEX staked, hoe hoger uw stakingsprecentage zal zijn, met een maximum van 75% voor een tijdsduur van twee jaar.\n\n<0>Een voorbeeld dividend</0>\nDividenden worden dagelijks uitgekeerd. Stel dat Nash commissie inkomsten heeft gegenereerd die gelijk zijn aan €1,000,000 in de laatste 24 uur en de gebruiker bezit 1,000 NEX tokens waarvan er totaal 50,000,000 in omloop zijn. Als de gebruiker NEX heeft gestaked voor een duur van twee jaar wat gelijk is aan stakingsprecentage van 75%, komen zij in aanmerking voor een dividenwaarde van: €1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = €15.",
+        "available-balance": "Beschikbaar saldo om te staken ⋅",
         "quick-fill-label": "Max",
-        "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
-        "set-date-dividends-label": "Set a date to receive your dividends",
-        "set-date-dividends-value": "Date ⋅ {{date}} of every month",
-        "stake-details-title": "Your stake details",
-        "currency-to-stake": "NEX to stake",
-        "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
-        "fee-reward": "Staking rate",
-        "first-payment": "First payment",
-        "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
-        "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
-        "create-stake-button": "Create stake",
-        "create-stake-sending-button": "Sending data…",
-        "create-stake-sending-text": "Sending data. Please keep this window open. This can take up to one minute.",
-        "create-stake-error": "There was either an error or a delay while creating your stake. Please check again in five minutes and resubmit if your stake was not created.",
-        "create-stake-auth-error": "Authentication error. Please try again.",
-        "learn-more": "Learn more about",
+        "set-stake-duration-label": "Zet een stake tijdsduur",
+        "selected-duration": "Geselecteerde tijdsduur ⋅",
+        "selected-duration-month": "<0>{{count}}</0> maand",
+        "selected-duration-month_plural": "<0>{{count}}</0> maanden",
+        "set-date-dividends-label": "Stel een datum vast om uw dividenden te ontvangen",
+        "set-date-dividends-value": "Datum ⋅ {{date}} van elke maand",
+        "stake-details-title": "Uw staking gegevens",
+        "currency-to-stake": "NEX om te staken",
+        "stake-duration": "Tijdsduur van staken",
+        "duration-value": "<0>{{count}}</0> maand",
+        "duration-value_plural": "<0>{{count}}</0> maanden",
+        "fee-reward": "Stakingsprecentage",
+        "first-payment": "Eerste betaling",
+        "agreed-to-non-cancellation-label": "Ik begrijp dat wanneer mijn NEX tokens gestaked zijn, ik deze niet kan annuleren of bewerken.",
+        "agreed-to-locked-tokens-label": "Ik begrijp dat mijn NEX tokens worden vergrendeld totdat deze stake is voltooid",
+        "create-stake-button": "Stake aanmaken",
+        "create-stake-sending-button": "Gegevens verzenden…",
+        "create-stake-sending-text": "Gegevens verzenden. Houd dit venster open. Dit kan een minuut duren.",
+        "create-stake-error": "Er is een fout of een vertraging opgetreden bij het maken van uw stake. Controleer het over vijf minuten opnieuw en dien opnieuw uw stake in als deze niet is aangemaakt.",
+        "create-stake-auth-error": "Authenticatiefout. Probeer het alstublieft opnieuw.",
+        "learn-more": "Leer meer over",
         "footer-desc": "staking NEX",
-        "amount-error-message": "This amount exceeds your available balance.",
+        "amount-error-message": "Deze hoeveelheid overschrijdt uw beschikbare saldo.",
         "stake-success": {
-          "header": "Stake created!",
-          "stake-details": "You created a stake of {{amount}} NEX for a period of {{count}} month. Your stake will appear in the dashboard shortly.",
-          "stake-details_plural": "You created a stake of {{amount}} NEX for a period of {{count}} months. Your stake will appear in the dashboard shortly.",
-          "stake-time-description": "You will receive your first dividends in:",
-          "finish-button-label": "Finish"
+          "header": "Stake aangemaakt!",
+          "stake-details": "U heeft een stake aangemaakt van {{amount}} NEX voor een periode van {{count}} maand. Uw stake verschijnt binnenkort in het dashboard.",
+          "stake-details_plural": "U heeft een stake aangemaakt van {{amount}} NEX voor een periode van {{count}} maanden. Uw stake verschijnt binnenkort in het dashboard.",
+          "stake-time-description": "U ontvangt uw eerste dividenden in:",
+          "finish-button-label": "Voltooien"
         }
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
-      "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
-      "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
-      "description-modal-create-link": "Create your first stake"
+      "title": "Verdien passief inkomen door NEX tokens te staken",
+      "description-desktop": "Nieuw met staken? Leer meer over <0>NEX tokens staken</0> en <1>uw eerste stake aanmaken</1>.",
+      "description-mobile": "Nieuw met staken? Leer meer over <0>NEX tokens staken</0>.",
+      "description-modal-create-link": "Uw eerste stake aanmaken"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Stakes in progress",
-      "completed-stakes": "Completed stakes",
-      "create-stake-paused": "Staking is gepauzeerd gedurende Nash-onderhoud.",
-      "create-stake-button": "Create a new stake",
-      "learn-stake-button": "Learn about staking"
+      "stakes-in-progress": "Stakes in uitvoering",
+      "completed-stakes": "Stakes voltooid",
+      "create-stake-paused": "Staking is gepauzeerd gedurende Nash-onderhoud",
+      "create-stake-button": "Stake aanmaken",
+      "learn-stake-button": "Leer meer over staken"
     },
     "max-stakes": {
-      "message": "You have created {{amount}} out of a possible {{maxAmount}} stakes. The maximum you can create is {{maxAmount}}.",
-      "dismiss": "Dismiss"
+      "message": "U heeft {{amount}} van de mogelijke {{maxAmount}} stakes aangemaakt. Het maximale dat je kunt aanmaken is {{maxAmount}}.",
+      "dismiss": "Begrepen"
     }
   },
   "contacts": {
     "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
+    "title_plural": "{{count}} contacten",
+    "search-my-contacts": "Zoek mijn contacten…",
+    "no-contacts": "Je hebt nog geen contacten toegevoegd of geïmporteerd.",
     "contact-fallback-name": "Contact",
-    "create-new": "Create new",
+    "create-new": "Maak nieuw",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Versturen",
+      "send-disabled-tooltip": "Voeg een wallet adres toe aan uw contacten om ze fondsen te sturen.",
+      "request": "Verzoek",
+      "edit": "Bewerk",
+      "delete": "Verwijderen"
     },
     "headers": {
-      "name": "Name",
-      "email": "Email",
-      "phone-number": "Phone number",
+      "name": "Naam",
+      "email": "E-mail",
+      "phone-number": "Telefoonnummer",
       "wallets": "Wallets"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Contact aanmaken",
+        "button": "Contact aanmaken"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Contact bewerken",
+        "button": "Wijzigingen opslaan"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Fondsen overmaken naar {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Welke activa?",
+          "wallet": "Bestemming"
         },
         "sublabels": {
           "currency": "You can only send assets from your personal account."
