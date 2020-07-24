@@ -759,12 +759,12 @@
         },
         "candle-frequency": {
           "1m": "1m",
-          "5m": "5m",
+          "5m": "[Translation required: 5m]",
           "15m": "15m",
           "30m": "30m",
           "1h": "1h",
-          "3h": "3h",
-          "4h": "4h",
+          "3h": "[Translation required: 3h]",
+          "4h": "[Translation required: 4h]",
           "6h": "6h",
           "12h": "12h",
           "1d": "1d",
@@ -1076,8 +1076,8 @@
       "price-col": "Preço ({{symbol}})",
       "average": "Preço Avg.",
       "sum-size": "{{symbol}} total",
-      "num-decimals": "{{count}} decimal",
-      "num-decimals_plural": "{{count}} decimals",
+      "num-decimals": "[Updated translation required: {{count}} decimal] {{decimals}} decimal",
+      "num-decimals_plural": "[Updated translation required: {{count}} decimals] {{decimals}} decimais",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Espalhe",
@@ -2977,7 +2977,7 @@
             "from": "A partir de",
             "to": "Para"
           },
-          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
+          "exchange-maintenance": "[Translation required: During maintenance you cannot transfer funds to or from the trading contract.]",
           "contacts": {
             "label": "Destino",
             "placeholder": "Procure um contato ou envie para um novo endereço…",
@@ -3682,21 +3682,21 @@
     },
     "preferences": {
       "general": {
-        "header": "General settings",
-        "l-decimal-type": "Decimal type",
-        "l-currency": "Currency",
-        "b-save-changes": "Save changes"
+        "header": "[Translation required: General settings]",
+        "l-decimal-type": "[Translation required: Decimal type]",
+        "l-currency": "[Translation required: Currency]",
+        "b-save-changes": "[Translation required: Save changes]"
       },
       "notifications": {
-        "header": "Notify me when",
-        "h-web": "Web notifications",
-        "h-email": "Email",
-        "b-enable-all": "Enable all",
-        "b-disable-all": "Disable all",
-        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
-        "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
+        "header": "[Translation required: Notify me when]",
+        "h-web": "[Translation required: Web notifications]",
+        "h-email": "[Translation required: Email]",
+        "b-enable-all": "[Translation required: Enable all]",
+        "b-disable-all": "[Translation required: Disable all]",
+        "fiat-ramp-quote-state-change": "[Translation required: I need to confirm a new Nash Cash exchange rate]",
+        "funds-trading-to-personal": "[Translation required: I deposit funds to the trading contract]",
+        "staking-stake-complete": "[Translation required: One of my NEX stakes completes]",
+        "staking-weekly-summary": "[Translation required: A weekly summary of my staking dividends is available]"
       }
     },
     "security": {
