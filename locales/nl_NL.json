@@ -3376,8 +3376,8 @@
     },
     "search-contact": {
       "empty-list": "You don’t have any contacts to select from!",
-      "wallet": "{{count}} wallet",
-      "wallet_plural": "{{count}} wallets"
+      "wallet": "{{count}} portemonnee",
+      "wallet_plural": "{{count}} portemonnees"
     }
   },
   "orders": {
@@ -4074,7 +4074,7 @@
     "create-new": "Maak nieuw",
     "buttons": {
       "send": "Versturen",
-      "send-disabled-tooltip": "Voeg een wallet adres toe aan uw contacten om ze fondsen te sturen.",
+      "send-disabled-tooltip": "Voeg een portemonnee-adres toe aan uw contacten om ze fondsen te sturen.",
       "request": "Verzoek",
       "edit": "Bewerk",
       "delete": "Verwijderen"
@@ -4083,7 +4083,7 @@
       "name": "Naam",
       "email": "E-mail",
       "phone-number": "Telefoonnummer",
-      "wallets": "Wallets"
+      "wallets": "Portemonnees"
     },
     "modals": {
       "create": {
@@ -4105,7 +4105,7 @@
         },
         "placeholders": {
           "currency": "Zoek naar een activa…",
-          "destination": "Zoek naar een wallet adres…"
+          "destination": "Zoek naar een portemonnee-adres…"
         }
       },
       "delete": {
@@ -4141,19 +4141,19 @@
           "error": "Ongeldig telefoonnummer voor {{country}}"
         },
         "wallets": {
-          "label": "Wallets",
+          "label": "Portemonnees",
           "delete": "Verwijderen",
           "address": {
-            "placeholder": "Wallet adres"
+            "placeholder": "Portemonnee-adres"
           },
           "name": {
-            "placeholder": "Wallet naam"
+            "placeholder": "Portemonnee-naam"
           },
           "add": "Een andere toevoegen"
         },
         "validation": {
           "address": "Voer een geldig {{blockchain}} adres in.",
-          "unique-address": "U heeft al een ander contact met dit wallet adres."
+          "unique-address": "U heeft al een ander contact met dit portemonnee-adres."
         }
       }
     }
