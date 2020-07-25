@@ -724,12 +724,11 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Vaše oblíbené trhy se</0> zobrazí jako odkyza zde.",
       "tips": "<0>Tip</0> <1>Přidejte si sem vaše oblíbené trhy.</1> <2 />"
     },
     "market-graphs": {
       "title": "Grafy",
-      "market-paused": "Market paused",
+      "market-paused": "Trh zapauzován",
       "price-chart": {
         "title": "Cena",
         "heads-up-display": {
@@ -760,9 +759,12 @@
         },
         "candle-frequency": {
           "1m": "1m",
+          "5m": "5m",
           "15m": "15m",
           "30m": "30m",
           "1h": "1h",
+          "3h": "3h",
+          "4h": "4h",
           "6h": "6h",
           "12h": "12h",
           "1d": "1d",
@@ -807,9 +809,9 @@
     "create-order": {
       "buy": "Koupit {{currencySymbol}}",
       "sell": "Prodat {{currencySymbol}}",
-      "market-paused": "This market is currently paused for maintenance. You will be unable to make trades.",
+      "market-paused": "Tento trh je momentálně pozastaven z důvodu údržby. Nebudete moci provést obchody.",
       "locked-trading-session": {
-        "information": "Your trading session is locked.",
+        "information": "Vaše časové okno pro obchodování je uzamčeno.",
         "information-tooltip": "Časové okno por obchodování se uzamkne, když obnovíte stránku nebo jste 15 minut neaktivní.",
         "enter-credentials-to-unlock": "<0>Odemknout nyní</0>"
       },
@@ -1074,8 +1076,8 @@
       "price-col": "{{symbol}} cena",
       "average": "Prům. cena",
       "sum-size": "Celkem {{symbol}}",
-      "num-decimals": "{{decimals}} desetin",
-      "num-decimals_plural": "{{decimals}} desetiny",
+      "num-decimals": "{{count}} decimal",
+      "num-decimals_plural": "{{count}} decimals",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
@@ -1744,23 +1746,23 @@
     },
     "move-funds": {
       "title": "Přesunout {{asset}} k prodeji",
-      "fee-footer": "Estimated fee <0/>",
-      "over-limit": "Insufficient funds",
+      "fee-footer": "Odhadovaný poplatek <0/>",
+      "over-limit": "Nedostatek finančních prostředků",
       "l-amount-to-transfer": "Množství k převodu",
-      "b-move-to-sell": "Start transfer",
+      "b-move-to-sell": "Začít převod",
       "review": {
-        "l-complete": "Transfer initializing…",
-        "l-transfer-details": "Transfer details",
-        "l-error": "Something went wrong",
-        "l-error-description": "No funds have moved.",
-        "l-amount-to-move": "Transfer amount",
-        "l-fees-to-move": "Fees",
-        "l-source": "Source",
-        "l-destination": "Destination",
-        "b-accept-transfer": "Start transfer",
-        "b-finish-transfer": "Finish transfer",
-        "personal-account": "Personal account",
-        "trading-contract": "Trading contract"
+        "l-complete": "Převod se přípravuje…]",
+        "l-transfer-details": "Detaily převodu",
+        "l-error": "Někde nastala chyba",
+        "l-error-description": "Žádné finanční prostředky nebyly přesunuty.",
+        "l-amount-to-move": "Množství převodu",
+        "l-fees-to-move": "Poplatky",
+        "l-source": "Zdroj",
+        "l-destination": "Destinace převodu",
+        "b-accept-transfer": "Žačít převod",
+        "b-finish-transfer": "Dokončít převod",
+        "personal-account": "Osobní účet",
+        "trading-contract": "Obchodovací účet"
       }
     },
     "provider": {
@@ -2975,6 +2977,7 @@
             "from": "Z",
             "to": "Na"
           },
+          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
           "contacts": {
             "label": "Místo určení",
             "placeholder": "Vyhledat z vašich kontaktů nebo poslat na novou adresu…",
@@ -3678,25 +3681,22 @@
       }
     },
     "preferences": {
-      "title": "Vlastnosti",
-      "header": "Vlastnosti",
-      "desc-1": "Upravte vaše vlastnosti pro časovou zónu, měnu, jazyk a upozornění.",
-      "desc-2": "",
-      "cards": {
-        "general-settings": {
-          "label": "Obecné nastavení",
-          "timezone": "Časová zóna",
-          "fiat": "Měna",
-          "language": "Jazyk",
-          "save-settings": "Uložit nastavení"
-        },
-        "email": {
-          "label": "Odeslat mi email v případě…",
-          "news": "Novinek a změn Nash.",
-          "actions": "Doporučených aktivit na mém účtě.",
-          "withdrawal": "Výběrů z mého účtu.",
-          "deposit": "Vkladů na můj účet."
-        }
+      "general": {
+        "header": "General settings",
+        "l-decimal-type": "Decimal type",
+        "l-currency": "Currency",
+        "b-save-changes": "Save changes"
+      },
+      "notifications": {
+        "header": "Notify me when",
+        "h-web": "Web notifications",
+        "h-email": "Email",
+        "b-enable-all": "Enable all",
+        "b-disable-all": "Disable all",
+        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
+        "funds-trading-to-personal": "I deposit funds to the trading contract",
+        "staking-stake-complete": "One of my NEX stakes completes",
+        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
       }
     },
     "security": {
@@ -4056,7 +4056,7 @@
     "staking-view-header": {
       "stakes-in-progress": "Probíhající staky",
       "completed-stakes": "Dokončené staky",
-      "create-stake-paused": "Staking is paused during Nash maintenance.",
+      "create-stake-paused": "Staking je pozastaven z důvodu údržby Nash.",
       "create-stake-button": "Vytvořit nový stake",
       "learn-stake-button": "Zjistit více o stakování"
     },

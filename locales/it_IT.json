@@ -724,12 +724,11 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>I tuoi mercati preferiti</0> appaiono collegati qui.",
       "tips": "<0>Tip</0> <1>I tuoi mercati preferiti sono collegati qui.</1> <2 />"
     },
     "market-graphs": {
       "title": "Grafici",
-      "market-paused": "Market paused",
+      "market-paused": "Mercato in pausa",
       "price-chart": {
         "title": "Prezzo",
         "heads-up-display": {
@@ -760,9 +759,12 @@
         },
         "candle-frequency": {
           "1m": "1m",
+          "5m": "5m",
           "15m": "15m",
           "30m": "30m",
           "1h": "1o",
+          "3h": "3h",
+          "4h": "4h",
           "6h": "6o",
           "12h": "12o",
           "1d": "1g",
@@ -807,9 +809,9 @@
     "create-order": {
       "buy": "Compra {{currencySymbol}}",
       "sell": "Vendi {{currencySymbol}}",
-      "market-paused": "This market is currently paused for maintenance. You will be unable to make trades.",
+      "market-paused": "Questo mercato è attualmente in pausa per manutenzione. Non sarai in grado di fare trading",
       "locked-trading-session": {
-        "information": "Your trading session is locked.",
+        "information": "La tua sessione di trading è bloccata.",
         "information-tooltip": "Le sessioni vengono bloccate quando aggiorni la pagina o se stai fermo per 15 minuti.",
         "enter-credentials-to-unlock": "<0>Sblocca ora</0>"
       },
@@ -1074,8 +1076,8 @@
       "price-col": "{{symbol}} prezzo",
       "average": "Prezzo medio",
       "sum-size": "{{symbol}} somma",
-      "num-decimals": "{{decimals}} decimale",
-      "num-decimals_plural": "{{decimals}} decimali",
+      "num-decimals": "{{count}} decimale",
+      "num-decimals_plural": "{{count}} decimali",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
@@ -1166,7 +1168,7 @@
           "placeholder": "Password"
         },
         "remember-me": {
-          "label": "Ricordameli"
+          "label": "Rimani connesso"
         }
       },
       "messages": {
@@ -1744,23 +1746,23 @@
     },
     "move-funds": {
       "title": "Sposta {{asset}} per vendere",
-      "fee-footer": "Estimated fee <0/>",
-      "over-limit": "Insufficient funds",
+      "fee-footer": "Commissione stimata <0/>",
+      "over-limit": "Fondi insufficienti",
       "l-amount-to-transfer": "Quantità da trasferire",
-      "b-move-to-sell": "Start transfer",
+      "b-move-to-sell": "Inizio trasferimento.",
       "review": {
-        "l-complete": "Transfer initializing…",
-        "l-transfer-details": "Transfer details",
-        "l-error": "Something went wrong",
-        "l-error-description": "No funds have moved.",
-        "l-amount-to-move": "Transfer amount",
-        "l-fees-to-move": "Fees",
-        "l-source": "Source",
-        "l-destination": "Destination",
-        "b-accept-transfer": "Start transfer",
-        "b-finish-transfer": "Finish transfer",
-        "personal-account": "Personal account",
-        "trading-contract": "Trading contract"
+        "l-complete": "Trasferimento inizializzato…]",
+        "l-transfer-details": "Dettagli trasferimento",
+        "l-error": "Qualcosa è andato storto",
+        "l-error-description": "Nessun fondo si è spostato.",
+        "l-amount-to-move": "Quantità trasferimento",
+        "l-fees-to-move": "Commissioni",
+        "l-source": "Fonte",
+        "l-destination": "Destinazione",
+        "b-accept-transfer": "Inizio trasferimento",
+        "b-finish-transfer": "Trasferimento finito",
+        "personal-account": "Account personale",
+        "trading-contract": "Contratto di trading"
       }
     },
     "provider": {
@@ -2975,6 +2977,7 @@
             "from": "Da",
             "to": "A"
           },
+          "exchange-maintenance": "Durante la manutenzione non puoi trasferire fondi al o dal tuo contratto di trading.",
           "contacts": {
             "label": "Destinazione",
             "placeholder": "Cerca un contatto o invia ad un nuovo indirizzo…",
@@ -3678,25 +3681,22 @@
       }
     },
     "preferences": {
-      "title": "Preferenze",
-      "header": "Preferenze",
-      "desc-1": "Modifica le tue preferenze di fuso orario, valuta, lingua e notifiche qui sotto.",
-      "desc-2": "",
-      "cards": {
-        "general-settings": {
-          "label": "Impostazioni generali",
-          "timezone": "Fuso orario",
-          "fiat": "Valuta",
-          "language": "Lingua",
-          "save-settings": "Salva impostazioni"
-        },
-        "email": {
-          "label": "Mandami un’email quando…",
-          "news": "Ci sono notizie e aggiornamenti da Nash.",
-          "actions": "Ci sono azioni consigliate per il mio account.",
-          "withdrawal": "Viene effettuato un prelievo dal mio account.",
-          "deposit": "Viene effettuato un deposito sul mio account."
-        }
+      "general": {
+        "header": "Impostazioni generali",
+        "l-decimal-type": "Tipo di decimale",
+        "l-currency": "Moneta]",
+        "b-save-changes": "Salva le modifiche"
+      },
+      "notifications": {
+        "header": "Notificami quando",
+        "h-web": "Notifiche web",
+        "h-email": "Email",
+        "b-enable-all": "Attiva tutto",
+        "b-disable-all": "Disabilita tutto",
+        "fiat-ramp-quote-state-change": "Devo confermare un nuovo tasso di cambio di Nash Cash",
+        "funds-trading-to-personal": "Ho depositato i fondi al contratto di trading",
+        "staking-stake-complete": "Uno dei miei stake NEX è completo",
+        "staking-weekly-summary": "Il resoconto settimanale dei miei dividendi degli stake è disponibile"
       }
     },
     "security": {
@@ -4056,7 +4056,7 @@
     "staking-view-header": {
       "stakes-in-progress": "Stake in corso",
       "completed-stakes": "Stake completati",
-      "create-stake-paused": "Staking is paused during Nash maintenance.",
+      "create-stake-paused": "Lo staking viene messo in pausa durante la manutenzione di Nash.",
       "create-stake-button": "Crea un nuovo stake",
       "learn-stake-button": "Scopri di più sullo staking"
     },

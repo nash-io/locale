@@ -103,7 +103,7 @@
     },
     "step2": {
       "password": "Wachtwoord",
-      "two-fa-code": "Twee stappen authenticatie code",
+      "two-fa-code": "Twee-factor authenticatie code",
       "create-api-button-label": "Ga verder",
       "incorrect-password": "De wachtwoord die je invoerde is fout.",
       "incorrect-2fa": "De code die je invoerde is fout."
@@ -575,7 +575,7 @@
     "tab-title": "Account aanmaken",
     "steps": [
       "Twaalf geheime woorden",
-      "Twee-factor-authenticatie"
+      "Twee-factor authenticatie"
     ],
     "general-information": {
       "title": "Algemene informatie",
@@ -640,15 +640,15 @@
         "header": "Uw Nash-account is succesvol aangemaakt!",
         "desc": "U vindt uw twaalf geheime woorden en individuele accountgegevens onder ‘Mijn profiel> Accounts’.",
         "warning": "<0>We slaan uw geheime woorden op geen enkele locatie op.</0> Als u uw wachtwoord vergeet, heeft u geen toegang tot uw fondsen zonder deze woorden.",
-        "continue": "Zet twee-factor-authenticatie op",
+        "continue": "Zet twee-factor authenticatie op",
         "continue-location": "Locatie van woonplaats instellen"
       }
     },
     "2fa": {
-      "title": "Twee-factor-authenticatie",
-      "header": "Aanbevolen: Twee-factor-authenticatie inschakelen",
+      "title": "Twee-factor authenticatie",
+      "header": "Aanbevolen: Twee-factor authenticatie inschakelen",
       "skip": "Overslaan",
-      "desc": "Twee-factor-authenticatie (2FA) voegt een extra beveiligingslaag toe aan uw account.",
+      "desc": "Twee-factor authenticatie (2FA) voegt een extra beveiligingslaag toe aan uw account.",
       "cards": {
         "1": {
           "header": "Download en installeer een authenticator-app",
@@ -665,8 +665,8 @@
         }
       },
       "confirm": {
-        "header": "Twee-factor-authenticatie is ingesteld!",
-        "desc": "U vindt uw Twee-factor-authenticatie voorkeuren onder ‘Mijn profiel> Beveiliging’ op het Nash-webplatform.",
+        "header": "Twee-factor authenticatie is ingesteld!",
+        "desc": "U vindt uw twee-factor authenticatie voorkeuren onder ‘Mijn profiel> Beveiliging’ op het Nash-webplatform.",
         "action": "Wat wil u nu doen?",
         "continue-deposit": "Fondsen storten",
         "continue-explore": "Verkennen"
@@ -724,12 +724,11 @@
       }
     },
     "favorite-bar": {
-      "empty": "<0>Uw favoriete markten</0>   verschijnen hier als links.",
       "tips": "<0>Tip</0> <1>Voeg hier favoriete markten toe als links.</1> <2 />"
     },
     "market-graphs": {
       "title": "Grafieken",
-      "market-paused": "Market paused",
+      "market-paused": "Markt gepauzeerd",
       "price-chart": {
         "title": "Prijs",
         "heads-up-display": {
@@ -760,9 +759,12 @@
         },
         "candle-frequency": {
           "1m": "1m",
+          "5m": "5m",
           "15m": "15m",
           "30m": "30m",
           "1h": "1u",
+          "3h": "3h",
+          "4h": "4h",
           "6h": "6u",
           "12h": "12u",
           "1d": "1d",
@@ -807,9 +809,9 @@
     "create-order": {
       "buy": "Koop {{currencySymbol}}",
       "sell": "Verkoop {{currencySymbol}}",
-      "market-paused": "This market is currently paused for maintenance. You will be unable to make trades.",
+      "market-paused": "Deze markt is momenteel gepauzeerd voor onderhoud. U kunt geen transacties uitvoeren.",
       "locked-trading-session": {
-        "information": "Your trading session is locked.",
+        "information": "Uw handelssessie is vergrendeld.",
         "information-tooltip": "Sessies zijn vergrendeld wanneer u de pagina vernieuwt of 15 minuten niet wordt gebruikt.",
         "enter-credentials-to-unlock": "<0>Nu ontgrendelen</0>"
       },
@@ -1074,8 +1076,8 @@
       "price-col": "{{symbol}} prijs",
       "average": "Gem. prijs",
       "sum-size": "{{symbol}} som",
-      "num-decimals": "{{decimals}} decimaal",
-      "num-decimals_plural": "{{decimals}} decimalen",
+      "num-decimals": "{{count}} decimal",
+      "num-decimals_plural": "{{count}} decimals",
       "spread": "<0>{{percent}}</0> spreiding"
     },
     "spread": "Spreiding",
@@ -1101,8 +1103,8 @@
         "placeholder": "Voer uw wachtwoord in"
       },
       "code": {
-        "label": "Twee-factor-authenticatie",
-        "placeholder": "Voer uw Twee-factor-authenticatie code in"
+        "label": "Twee-factor authenticatie",
+        "placeholder": "Voer uw twee-factor authenticatie code in"
       }
     },
     "new-wallets": {
@@ -1154,7 +1156,7 @@
     },
     "signin": {
       "header": "Log in bij Nash",
-      "header-2fa": "Twee-factor-authenticatie",
+      "header-2fa": "Twee-factor authenticatie",
       "fields": {
         "email": {
           "label": "E-mailadres",
@@ -1269,8 +1271,8 @@
             }
           },
           "code": {
-            "label": "Twee-factor-authenticatie",
-            "placeholder": "Voer uw twee-factor-authenticatiecode in"
+            "label": "Twee-factor authenticatie",
+            "placeholder": "Voer uw twee-factor authenticatie code in"
           }
         },
         "errors": {
@@ -1734,7 +1736,7 @@
       "why-not": "Er zijn nog geen leveranciers van digitale activa beschikbaar in uw regio."
     },
     "tier0": {
-      "buy-popular-assets": "Koop en verkoop populaire digitale assets",
+      "buy-popular-assets": "Koop en verkoop populaire digitale activa",
       "complete-kyc-5minute": "Upgrade naar Tier 1-identiteitsverificatie in slechts vijf minuten!",
       "complete-kyc": "Identiteit verifiëren",
       "enjoy-benefits": "Andere voordelen van Tier 1:",
@@ -1744,34 +1746,34 @@
     },
     "move-funds": {
       "title": "Verplaats {{asset}} om te verkopen",
-      "fee-footer": "Estimated fee <0/>",
-      "over-limit": "Insufficient funds",
+      "fee-footer": "Geschatte vergoeding <0/>",
+      "over-limit": "Onvoldoende fondsen",
       "l-amount-to-transfer": "Over te maken bedrag",
-      "b-move-to-sell": "Start transfer",
+      "b-move-to-sell": "Start overdracht",
       "review": {
-        "l-complete": "Transfer initializing…",
-        "l-transfer-details": "Transfer details",
-        "l-error": "Something went wrong",
-        "l-error-description": "No funds have moved.",
-        "l-amount-to-move": "Transfer amount",
-        "l-fees-to-move": "Fees",
-        "l-source": "Source",
-        "l-destination": "Destination",
-        "b-accept-transfer": "Start transfer",
-        "b-finish-transfer": "Finish transfer",
-        "personal-account": "Personal account",
-        "trading-contract": "Trading contract"
+        "l-complete": "Overdracht wordt geïnitialiseerd…",
+        "l-transfer-details": "Overdrachtgegevens",
+        "l-error": "Er is iets fout gegaan",
+        "l-error-description": "Er zijn geen fondsen verplaatst.",
+        "l-amount-to-move": "Overboekingsbedrag",
+        "l-fees-to-move": "Vergoedingen",
+        "l-source": "Bron",
+        "l-destination": "Bestemming",
+        "b-accept-transfer": "Start Overdracht",
+        "b-finish-transfer": "Overdracht voltooien",
+        "personal-account": "Persoonlijk account",
+        "trading-contract": "Handelscontract"
       }
     },
     "provider": {
       "title": "Selecteer een leverancier",
       "verify-identity": "<0>Verifieer uw identiteit</0> om te beginnen.",
-      "subtitle": "Aanbieders van digitale assets zijn externe bedrijven die samenwerken met Nash, waarmee u digitale assets kunt kopen en verkopen in nationale valuta.",
+      "subtitle": "Aanbieders van digitale activa zijn externe bedrijven die samenwerken met Nash, waarmee u digitale assets kunt kopen en verkopen in nationale valuta.",
       "steps": [
         "Persoonlijke gegevens",
         "Adresgegevens"
       ],
-      "assets-available": "Beschikbare assets",
+      "assets-available": "Beschikbare activa",
       "payments-methods": "Betaalmethoden",
       "general-details": "Limieten en transactiekosten",
       "no-limit": "Geen limiet",
@@ -1802,7 +1804,7 @@
       "select-btn": "Selecteer",
       "have-account-header": "Leveranciers waarmee ik een account heb aangemaakt",
       "no-account-header": "Leveranciers waarmee ik geen account heb aangemaakt",
-      "no-providers-title": "Helaas zijn er momenteel geen aanbieders van digitale assets in uw regio.",
+      "no-providers-title": "Helaas zijn er momenteel geen aanbieders van digitale activa in uw regio.",
       "no-providers-more-info": "Meer informatie over <0>een Nash valutapartner worden</0>.",
       "credit-cards": "Kredietkaarten:",
       "debit-cards": "Debetkaarten:",
@@ -1810,7 +1812,7 @@
       "powered-by": "Aangeboden door",
       "change-provider": "Wijzig leverancier",
       "nash": {
-        "pay-no-fees": "<0>Betaal geen kosten</0> wanneer u populaire digitale assets van Nash koopt!"
+        "pay-no-fees": "<0>Betaal geen kosten</0> wanneer u populaire digitale activa van Nash koopt!"
       }
     },
     "general-details": {
@@ -1887,9 +1889,9 @@
     },
     "buy-sell": {
       "title": "Koop/Verkoop",
-      "tab-buy-assets": "Koop assets",
+      "tab-buy-assets": "Koop activa",
       "failed-to-transact": "Uw transactie is mislukt.",
-      "tab-sell-assets": "Verkoop assets",
+      "tab-sell-assets": "Verkoop activa",
       "daily-limits-header": "Resterende limieten na deze transactie",
       "current-price-label": "Huidige prijs | <0 />",
       "current-price-unavailable": "Huidige prijs niet beschikbaar",
@@ -1900,7 +1902,7 @@
       "deposit-to": "Storten {{currency}} naar",
       "pay-with-default": "Kies een betalingsmethode",
       "link-new-bank": "Betaalmethode toevoegen",
-      "complete-nash-profile": "Voltooi uw <0>Nash profiel</0> voordat u digitale assets kunt kopen",
+      "complete-nash-profile": "Voltooi uw <0>Nash profiel</0> voordat u digitale activa kunt kopen",
       "available-balance": "Beschikbaar saldo: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Voeg een betaalmethode toe</0> om digitale activa te verkopen.",
       "complete-nash-profile-add-method-to-sell": "Voltooi uw <0>Nash-profiel</0> en <1>voeg een betaalmethode toe</1> om digitale activa te verkopen.",
@@ -2015,8 +2017,8 @@
         "details-title": "Bankgegevens ontvanger",
         "amount-asset": "Hoeveelheid gekocht",
         "status": "Transactie status",
-        "personal-account": "Uw persoonlijke Nash-accountt",
-        "deposit-account": "Activa gestort op",
+        "personal-account": "Uw persoonlijke Nash-account",
+        "deposit-account": "Activum gestort op",
         "withdraw-account": "Betaald van account",
         "created-on": "Gemaakt op",
         "details": "Transactie details",
@@ -2058,7 +2060,7 @@
         "no-matching-data-header": "Geen resultaten gevonden.",
         "no-matching-data-sub-header": "Uw zoekopdracht kwam niet overeen met enige aankopen of verkopen.",
         "no-data-header": "U heeft nog geen transacties gedaan.",
-        "no-data-sub-header": "<0>Koop digitale middelen</0> om aan de slag te gaan.",
+        "no-data-sub-header": "<0>Koop digitale activa</0> om aan de slag te gaan.",
         "col": {
           "when": "Wanneer",
           "action": "Actie",
@@ -2177,7 +2179,7 @@
         "b-confirm-delete": "Verwijderen",
         "b-cancel-delete": "Niets doen",
         "no-methods-1": "Geen EUR (€) betalingsmethoden toegevoegd.",
-        "no-methods-2": "Voeg er een toe om crypto te verkopen of een terugbetaling te ontvangen.",
+        "no-methods-2": "Voeg er een toe om activa te verkopen of een terugbetaling te ontvangen.",
         "page-of": "{{pageNumber}} van {{totalPages}}"
       },
       "credit-card": {
@@ -2467,7 +2469,7 @@
       "profile-no-completed-info-message": "Je moet alle onderstaande verzochte gegevens invullen voordat je nieuwe limieten bevestigd kunnen worden. Dit zal automatisch gebeuren als alle benodigde informatie ingevuld is en een <0>betaal methode is toegevoegd.</0>. Dit proces kan tot maximaal 5 werkdagen duren.",
       "profile-pending-info-message": "Je gegevens bewerken terwijl je profiel beoordeeld word, zal het beoordelings proces opnieuw starten.",
       "profile-rejected-error-message": "Je profiel gegevens zijn geweigerd. Probeer aub uw gegevens te updaten met correcte informatie en probeer het dan opnieuw.",
-      "profile-approved-info-message": "Je gegevens aanpassen betekent dat je profiel opnieuw beoordeeld moet worden. Je mogelijkheid om digitale valuta te kopen en verkopen zal tijdelijk stop worden gezet tot dat deze goedkeuring voltooid is en je nieuwe gegevens goedgekeurd zijn.",
+      "profile-approved-info-message": "Je gegevens aanpassen betekent dat je profiel opnieuw beoordeeld moet worden. Je mogelijkheid om digitale activa te kopen en verkopen zal tijdelijk stop worden gezet tot dat deze goedkeuring voltooid is en je nieuwe gegevens goedgekeurd zijn.",
       "limits-requirements": "Vereisten",
       "limits-header": "Jaarlijke koop limieten",
       "limits-complete": "Nashplatform valuta niveau 1",
@@ -2537,7 +2539,7 @@
       "remaining-currency": "<0></0> resterend",
       "add": "Toevoegen {{field}}",
       "status-and-process": "Status",
-      "combined-assets-limits": "Limieten voor digitale valuta en nationale valuta gecombineerd",
+      "combined-assets-limits": "Limieten voor digitale activa en nationale valuta gecombineerd",
       "completed": "Compleet",
       "not-completed": "Incompleet",
       "in-review": "Word beoordeeld",
@@ -2554,7 +2556,7 @@
     "confirmed-transaction": {
       "order-created": "Uw order is gemaakt",
       "title": "Order gemaakt",
-      "deposit": "We zullen je valuta storten op je Nash persoonlijke account zodra de betaling goedgekeurd is.",
+      "deposit": "We zullen je activa storten op je Nash persoonlijke account zodra de betaling goedgekeurd is.",
       "delay": "Dit kan tot maximaal {{days}} werkdagen duren. U kunt de status van je storting terug vinden in uw <0>Transactions</0> tab.",
       "dismiss": "Transactie bekijken"
     },
@@ -2585,7 +2587,7 @@
     },
     "review-buy-transaction": {
       "2fa-token": "{{providerName}} 2FA-code",
-      "arrival-time": "Valuta aankomst tijd",
+      "arrival-time": "Activa aankomst tijd",
       "arrival-time-value": "<0>{{min}}–{{max}}</0> werkdagen",
       "before-fee-cost": "Kosten (zonder transactiekosten)",
       "buying": "Ik wil kopen",
@@ -2607,7 +2609,7 @@
       "refund-time": "Enkele minuten",
       "processing-refund": "Uw terugbetaling wordt verwerkt",
       "deposited-to": "Gestort naar",
-      "asset-deposited-to": "Valuta gestort naar",
+      "asset-deposited-to": "Activum gestort naar",
       "refund-amount": "Terugbetalingsbedrag",
       "expired": "Deze offerte is {{value}} geleden verlopen.",
       "expired-message-1": "Uw gegarandeerde wisselkoers is verlopen!",
@@ -2737,8 +2739,8 @@
       },
       "order-created": {
         "title": "Uw bestelling is aangemaakt",
-        "description": "We zullen uw tegoeden op uw persoonlijke Nash-rekening storten zodra uw betaling is verwerkt. Dit kan tot {{count}} werkdag duren. U kunt de status van uw storting bekijken op het <0>Transacties</0> tabblad.",
-        "description_plural": "We zullen uw tegoeden op uw persoonlijke Nash-rekening storten zodra uw betaling is verwerkt. Dit kan tot {{count}} werkdagen duren. U kunt de status van uw storting bekijken op het <0>Transacties</0> tabblad.",
+        "description": "We zullen uw activa op uw persoonlijke Nash-rekening storten zodra uw betaling is verwerkt. Dit kan tot {{count}} werkdag duren. U kunt de status van uw storting bekijken op het <0>Transacties</0> tabblad.",
+        "description_plural": "We zullen uw activa op uw persoonlijke Nash-rekening storten zodra uw betaling is verwerkt. Dit kan tot {{count}} werkdagen duren. U kunt de status van uw storting bekijken op het <0>Transacties</0> tabblad.",
         "button": "Beëindigen"
       },
       "profile-details": {
@@ -2968,13 +2970,14 @@
         "title": "Verzenden/ontvangen",
         "create": {
           "asset": {
-            "label": "Welke activa?",
+            "label": "Welke activum?",
             "placeholder": "Zoek naar een activum…"
           },
           "choose-accounts": {
             "from": "Van",
             "to": "Naar"
           },
+          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
           "contacts": {
             "label": "Bestemming",
             "placeholder": "Zoek een contact of stuur naar een nieuw adres…",
@@ -3183,7 +3186,7 @@
         },
         "columns": {
           "asset": {
-            "title": "Activa"
+            "title": "Activum"
           },
           "total-balance": {
             "title": "Totaal",
@@ -3376,8 +3379,8 @@
     },
     "search-contact": {
       "empty-list": "You don’t have any contacts to select from!",
-      "wallet": "{{count}} wallet",
-      "wallet_plural": "{{count}} wallets"
+      "wallet": "{{count}} portemonnee",
+      "wallet_plural": "{{count}} portemonnees"
     }
   },
   "orders": {
@@ -3610,8 +3613,8 @@
           "update-email": "E-mailadres wijzigen",
           "password": "Wachtwoord",
           "update-password": "Wachtwoord wijzigen",
-          "two-factor": "We raden u aan twee-factor-authenticatie in te schakelen <0>Beveiliging</0>.",
-          "two-factor-enable": "Twee-factor-authenticatie kan worden uitgeschakeld in <0>Beveiliging</0>."
+          "two-factor": "We raden u aan twee-factor authenticatie in te schakelen <0>Beveiliging</0>.",
+          "two-factor-enable": "Twee-factor authenticatie kan worden uitgeschakeld in <0>Beveiliging</0>."
         }
       },
       "modals": {
@@ -3678,36 +3681,33 @@
       }
     },
     "preferences": {
-      "title": "Voorkeuren",
-      "header": "Voorkeuren",
-      "desc-1": "Pas hier uw voorkeuren voor tijdzones, valuta, taal en notificaties aan.",
-      "desc-2": "",
-      "cards": {
-        "general-settings": {
-          "label": "Algemene instellingen",
-          "timezone": "Tijdzones",
-          "fiat": "Valuta",
-          "language": "Taal",
-          "save-settings": "Wijzigingen opslaan"
-        },
-        "email": {
-          "label": "Mail mij wanneer er…",
-          "news": "Updates zijn van Nash.",
-          "actions": "Acties worden aanbevolen voor mijn account.",
-          "withdrawal": "Een opname is gedaan vanaf mijn account.",
-          "deposit": "Is gestort op mijn account."
-        }
+      "general": {
+        "header": "General settings",
+        "l-decimal-type": "Decimal type",
+        "l-currency": "Currency",
+        "b-save-changes": "Save changes"
+      },
+      "notifications": {
+        "header": "Notify me when",
+        "h-web": "Web notifications",
+        "h-email": "Email",
+        "b-enable-all": "Enable all",
+        "b-disable-all": "Disable all",
+        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
+        "funds-trading-to-personal": "I deposit funds to the trading contract",
+        "staking-stake-complete": "One of my NEX stakes completes",
+        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
       }
     },
     "security": {
       "title": "Veiligheid",
       "header": "Accountbeveiliging",
-      "desc": "Activeer tweestapsverificatie hier.",
+      "desc": "Activeer twee-factor authenticatie hier.",
       "cards": {
         "2fa": {
-          "label": "Tweestapsverificatie",
-          "header": "Tweestapsverificatie is:",
-          "desc": "We adviseren je om je tweestapsverificatie (2FA) geactiveerd te houden. Het voegt een extra beveligslaag toe aan uw account.",
+          "label": "Twee-factor authenticatie",
+          "header": "Twee-factor authenticatie is:",
+          "desc": "We adviseren je om je twee-factor authenticatie (2FA) geactiveerd te houden. Het voegt een extra beveiligingslaag toe aan uw account.",
           "enabled": "Ingeschakeld",
           "disabled": "Uitgeschakeld",
           "enable": "Inschakelen",
@@ -3760,46 +3760,46 @@
             "input-placeholder": "Authenticatiecode"
           },
           "enable": "Inschakelen",
-          "title": "Schakel tweestapsverificatie in"
+          "title": "Schakel twee-factor authenticatie in"
         },
         "disable-2fa": {
-          "title": "Schakel tweestapsverificatie uit",
-          "warning": "We adviseren je om je tweestapsverificatie (2FA) geactiveerd te houden. Het voegt een extra beveligslaag toe aan uw account.",
+          "title": "Schakel twee-factor authenticatie uit",
+          "warning": "We adviseren je om je twee-factor authenticatie (2FA) geactiveerd te houden. Het voegt een extra beveligslaag toe aan uw account.",
           "disable": "Uitschakelen"
         },
         "success": {
           "header": "Gelukt!",
-          "enabled": "Tweestapsverificatie is ingeschakeld.",
-          "disabled": "Tweestapsverificatie is uitgeschakeld.",
+          "enabled": "Twee-factor authenticatie is ingeschakeld.",
+          "disabled": "Twee-factor authenticatie is uitgeschakeld.",
           "back": "Afgerond!"
         }
       }
     },
     "accounts": {
       "title": "Accounts",
-      "header": "My account information",
-      "wallets-header": "Accounts generated from my twelve secret words",
-      "show-all-private-keys-button-label": "Show all private keys",
-      "hide-all-private-keys-button-label": "Hide all private keys",
-      "desc": "Nash is non-custodial. We do not have access to your private keys.",
-      "search-assets-placeholder": "Search for a asset name or ticker…",
-      "public-address-label": "Public address",
-      "info-title": "Some blockchains support multiple assets",
-      "info-body": "ERC-20 and NEP-5 assets are tokens issued on the Ethereum and NEO blockchains, respectively. GAS is also an asset stored on the NEO blockchain. You only need one Ethereum account to store both ETH and ERC-20 tokens, and one NEO account to store NEO, GAS and NEP-5 tokens.",
-      "public-address-sub-label": "Which assets can I send here?",
-      "public-address-tooltip": "This is the blockchain address where your assets are stored.",
-      "private-key-label": "Private key",
-      "private-key-sub-label-show": "Show private key",
-      "private-key-sub-label-hide": "Hide private key",
-      "private-key-tooltip": "This can be used to access your funds outside Nash. Keep it secret.",
-      "unknown-blockchain": "Unknown blockchain",
+      "header": "Mijn accountinformatie",
+      "wallets-header": "Accounts gegenereerd op basis van mijn twaalf geheime woorden",
+      "show-all-private-keys-button-label": "Toon alle privésleutels",
+      "hide-all-private-keys-button-label": "Verberg alle privésleutels",
+      "desc": "Nash is niet-bewarend. We hebben geen toegang tot uw privésleutels.",
+      "search-assets-placeholder": "Zoek naar een activanaam of ticker…",
+      "public-address-label": "Openbaar adres",
+      "info-title": "Sommige blockchains ondersteunen meerdere activa",
+      "info-body": "ERC-20- en NEP-5-activa zijn tokens die respectievelijk zijn uitgegeven op de Ethereum- en NEO-blockchains. GAS is ook een activum die is opgeslagen op de NEO-blockchain. Je hebt maar één Ethereum-account nodig om zowel ETH- als ERC-20-tokens op te slaan, en één NEO-account om NEO-, GAS- en NEP-5-tokens op te slaan.",
+      "public-address-sub-label": "Welke activa kan ik naar hier toe zenden?",
+      "public-address-tooltip": "Dit is het blockchain-adres waar uw activa worden bewaard.",
+      "private-key-label": "Privésleutel",
+      "private-key-sub-label-show": "Privésleutel weergeven",
+      "private-key-sub-label-hide": "Privésleutel verbergen",
+      "private-key-tooltip": "Dit kan worden gebruikt om toegang te krijgen tot uw fondsen buiten Nash om. Hou het geheim.",
+      "unknown-blockchain": "Onbekende blockchain",
       "wallets": {
         "eth": {
-          "link-label": "Includes ERC-20 tokens",
+          "link-label": "Inclusief ERC-20-tokens",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Includes GAS and NEP-5 tokens",
+          "link-label": "Inclusief GAS- en NEP-5-tokens",
           "name": "NEO"
         },
         "btc": {
@@ -3808,104 +3808,104 @@
       },
       "cards": {
         "secret-words": {
-          "label": "My twelve secret words",
-          "account": "Nash account",
-          "desc": "Twelve secret words",
-          "unlock": "Unlock and show twelve secret words",
-          "lock": "Hide and lock twelve secret words"
+          "label": "Mijn twaalf geheime woorden",
+          "account": "Nash-account",
+          "desc": "Twaalf geheime woorden",
+          "unlock": "Ontgrendel en toon de twaalf geheime woorden",
+          "lock": "Verberg en vergrendel de twaalf geheime woorden"
         },
         "wallets": {
-          "label": "Accounts generated from my twelve secret words",
-          "private-key": "Private key",
-          "public-address": "Public address",
-          "unlock": "Unlock and show private key",
-          "lock": "Hide and lock private key"
+          "label": "Accounts gegenereerd op basis van mijn twaalf geheime woorden",
+          "private-key": "Privésleutel",
+          "public-address": "Openbaar adres",
+          "unlock": "Ontgrendel en toon privésleutel",
+          "lock": "Privésleutel verbergen en vergrendelen"
         }
       },
       "modals": {
         "unlock-secret-words": {
-          "title": "Unlock my twelve secret words",
-          "submit": "Unlock twelve secret words",
-          "error": "Error: Failed to decrypt secret words."
+          "title": "Ontgrendel mijn twaalf geheime woorden",
+          "submit": "Ontgrendel de twaalf geheime woorden",
+          "error": "Fout: kan geheime woorden niet decoderen."
         }
       }
     },
     "my-limits": {
-      "title": "Limits",
-      "header": "Limits",
-      "desc-1": "For legal reasons, we have to verify your identity if you wish to trade above certain limits.",
-      "desc-2": "Tier 0 verification is available automatically.",
+      "title": "Limieten",
+      "header": "Limieten",
+      "desc-1": "Om juridische redenen moeten we uw identiteit verifiëren als u boven bepaalde limieten wilt handelen.",
+      "desc-2": "Tier 0 verificatie is automatisch beschikbaar.",
       "cards": {
         "tiers": {
           "header": "Tier {{tier}}",
-          "personal": "Personal",
-          "institutional": "Institutional"
+          "personal": "Persoonlijk",
+          "institutional": "Institutioneel"
         },
         "periods": {
-          "day": "day",
-          "month": "month",
-          "year": "year"
+          "day": "dad",
+          "month": "maand",
+          "year": "jaar"
         },
         "limits": {
-          "header": "Maximum daily trading volume",
-          "percentage-net-worth": "Custom limit",
-          "unlimited": "Unlimited",
-          "tier-verified": "Tier {{tier}} verified",
-          "get-tier-verified": "Get tier {{tier}} verified",
-          "pending": "Pending",
-          "denied": "Denied",
-          "try-again": "Try again",
-          "contact-us": "Contact support"
+          "header": "Maximum dagelijks handelsvolume",
+          "percentage-net-worth": "Aangepaste limiet",
+          "unlimited": "Onbeperkt",
+          "tier-verified": "Tier {{tier}} geverifieerd",
+          "get-tier-verified": "Word tier {{tier}} geverifieerd",
+          "pending": "In behandeling",
+          "denied": "Geweigerd",
+          "try-again": "Probeer opnieuw",
+          "contact-us": "Contacteer support"
         },
         "information": {
-          "header": "Information required",
-          "desc": "This tier was automatically set when you created your Nash account.",
-          "email": "Email address",
-          "name": "Name",
-          "address": "Address",
-          "proof-of-address": "Proof of address",
+          "header": "Informatie vereist",
+          "desc": "Deze tier werd automatisch ingesteld toen u uw Nash-account aanmaakte.",
+          "email": "E-mailadres",
+          "name": "Naam",
+          "address": "Adres",
+          "proof-of-address": "Adresbewijs",
           "pep-check": "PEP check",
-          "photo-id": "Photo ID",
+          "photo-id": "Foto ID",
           "selfie": "Selfie",
-          "date-of-birth": "Date of birth",
-          "net-worth": "Net worth",
-          "contact-number": "Contact number",
-          "tier1-info-net-worth": "Tier 1 information + Net worth",
-          "source-of-funds": "Source of funds",
-          "name-manager": "Company representative",
-          "email-institution": "Email address",
-          "name-company": "Company name",
+          "date-of-birth": "Geboortedatum",
+          "net-worth": "Netto waarde",
+          "contact-number": "Contactnummer",
+          "tier1-info-net-worth": "Tier 1 informatie + netto waarde",
+          "source-of-funds": "Inkomstenbron",
+          "name-manager": "Bedrijfsvertegenwoordiger",
+          "email-institution": "E-mailadres",
+          "name-company": "Bedrijfsnaam",
           "website": "Website",
           "tin": "TIN",
-          "corporate-formation-documents": "Corporate formation documents",
-          "processing-time": "If your verification is not processed within 24 hours, please <0>contact support</0>."
+          "corporate-formation-documents": "Bedrijfsvormingsdocumenten",
+          "processing-time": "Als uw verificatie niet binnen 24 uur is verwerkt, neem dan <0>contact op met support</0>."
         },
         "tier-1": {
-          "get-verified-button": "Get verified",
-          "continue-verification-button": "Continue verification",
+          "get-verified-button": "Wordt geverifieerd",
+          "continue-verification-button": "Ga door met verificatie",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "Hoe wilt u geverifieerd worden??",
             "mobile": {
               "header": "Smartphone app",
-              "desc": "Requires both high-quality front-facing and back-facing cameras.",
+              "desc": "Vereist zowel hoogwaardige camera’s aan de voorkant als aan de achterkant.",
               "steps": [
-                "Download the app",
+                "Download de app",
                 "Scan QR code"
               ],
               "download": {
-                "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "header": "Tier 1-verificatie 1 is mogelijk met onze mobiele app.",
+                "downloaded-app": "Ik heb de app gedownload"
               },
               "scan-code": {
-                "header": "Scan the following QR code with the Nash app:",
-                "desc": "When you have completed Tier 1 verification, your result will appear here within one minute."
+                "header": "Scan de volgende QR-code met de Nash-app:",
+                "desc": "Wanneer u de Tier 1-verificatie heeft voltooid, wordt uw resultaat hier binnen één minuut weergegeven."
               }
             },
             "web": {
-              "header": "Nash web platform",
-              "desc": "Requires a high-quality webcam."
+              "header": "Nash webplatform",
+              "desc": "Vereist een webcam van hoge kwaliteit."
             },
-            "do-it-later": "I’ll do this later"
+            "do-it-later": "Ik doe dit later"
           }
         }
       }
@@ -3920,240 +3920,240 @@
       "s-completed-stakes": "Uitgevoerd en complete stakes"
     },
     "stakes": {
-      "amount-staked-col": "Amount staked",
-      "duration-col": "Duration",
-      "fee-reward-col": "Staking rate",
-      "dates-active-col": "Dates active",
-      "next-payment-col": "Next payment",
-      "aggregate-dividends-col": "Aggregate dividends value",
+      "amount-staked-col": "Hoeveelheid gestaked",
+      "duration-col": "Duur",
+      "fee-reward-col": "Staking percentage",
+      "dates-active-col": "Datums actief",
+      "next-payment-col": "Volgende betaling",
+      "aggregate-dividends-col": "Geaggregeerde dividendwaarde",
       "row-item": {
-        "duration-month": "<0>{{count}}</0> month",
-        "duration-month_plural": "<0>{{count}}</0> months",
+        "duration-month": "<0>{{count}}</0> maand",
+        "duration-month_plural": "<0>{{count}}</0> maanden",
         "redeem-button": {
-          "label": "Release NEX",
-          "submitting": "Releasing…",
-          "error": "Failed! Please try again.",
-          "success": "Success. Releasing NEX…",
-          "released": "NEX released"
+          "label": "NEX vrijgeven",
+          "submitting": "Vrijgeven…",
+          "error": "Mislukt! Probeer het a.u.b. opnieuw.",
+          "success": "Geslaagd. Vrijgeven van NEX…",
+          "released": "NEX vrijgegeven"
         }
       }
     },
     "staking": {
       "title": "Staking",
-      "tabs-info-button": "Learn about staking"
+      "tabs-info-button": "Leer meer over staking"
     },
     "statements": {
-      "view-statement-button": "View statement",
-      "summary-title": "All statements",
-      "export-summary": "Export stakes as CSV",
-      "export": "Export statement",
-      "date-col": "Payment date",
-      "asset-col": "Asset",
-      "dividend-col": "Dividend received",
-      "usdDividend-col": "USD value",
-      "stakes-in-progress": "In progress ({{date}})",
-      "stakes-complete": "Completed ({{date}})",
-      "total-dividends": "Total dividends ({{date}})",
-      "paid-dividend-days": "Days paid ({{date}})",
-      "all-dividends-table": "Dividends list",
-      "till-ended_plural": "{{count}} days left",
-      "till-ended": "{{count}} day left",
-      "till-ended_today": "Ending today",
-      "from-active-stakes": "From <0>{{count}}</0> active stake",
-      "from-active-stakes_plural": "From <0>{{count}}</0> active stakes",
-      "period-description": "During this period",
-      "dividends-received": "In dividends received",
-      "is-ended": "Ended",
-      "no-statements": "You don’t have any dividend statements yet."
+      "view-statement-button": "Bekijk verklaring",
+      "summary-title": "Alle verklaringen",
+      "export-summary": "Exporteer stakes als CSV",
+      "export": "Exportverklaring",
+      "date-col": "Betaaldatum",
+      "asset-col": "Activum",
+      "dividend-col": "Ontvangen dividend",
+      "usdDividend-col": "USD waarde",
+      "stakes-in-progress": "In uitvoering ({{date}})",
+      "stakes-complete": "Voltooid ({{date}})",
+      "total-dividends": "Totaal dividend ({{date}})",
+      "paid-dividend-days": "Betaalde dagen ({{date}})",
+      "all-dividends-table": "Dividendenlijst",
+      "till-ended_plural": "{{count}} resterende dagen",
+      "till-ended": "{{count}} dag resterend",
+      "till-ended_today": "Eindigt vandaag",
+      "from-active-stakes": "Van <0>{{count}}</0> actieve stake",
+      "from-active-stakes_plural": "Van <0>{{count}}</0> actieve stakes",
+      "period-description": "Gedurende deze periode",
+      "dividends-received": "In ontvangen dividenden",
+      "is-ended": "Beëindigd",
+      "no-statements": "U heeft nog geen dividendoverzichten."
     },
     "modals": {
       "staking-info": {
         "title": "Staking Nash Exchange tokens (NEX)",
         "header": {
-          "title": "What is NEX staking?",
-          "desc": "Staking Nash Exchange tokens (NEX) is a way to earn passive income. You receive a portion of the exchange’s trading fees every day that your stake is active."
+          "title": "Wat is NEX staking?",
+          "desc": "Het staken van Nash Exchange-tokens (NEX) is een manier om passief inkomen te verdienen. Elke dag dat uw stake actief is, ontvangt u een deel van de handelskosten van de beurs."
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
-            "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
+            "title": "Hoe werkt het?",
+            "desc": "U vergrendelt zoveel van uw NEX-tokens als u wilt in een stakingscontract. U kunt uw tokens niet verplaatsen of verkopen terwijl ze in het contract zijn vergrendeld. Elke dag dat uw stake actief is, ontvangt u dividenden."
           },
           "par-2": {
-            "title": "How are dividends calculated?",
-            "desc": "Dividends depend on: (1) the number of NEX tokens you stake as a proportion of the total 50,000,000 supply, and (2) the period of time for which you stake them. The more tokens you stake, the higher your dividend will be. The longer you stake your tokens for, the greater the proportion of fees you receive will be (your ‘staking rate’)."
+            "title": "Hoe worden dividenden berekend?",
+            "desc": "Dividenden zijn afhankelijk van: (1) het aantal NEX-tokens dat u inzet als een percentage van de totale NEX-voorraad van 50.000.000 tokens, en (2) de periode gedurende welke u ze inzet. Hoe meer tokens u inzet, hoe hoger uw dividend zal zijn. Hoe langer u uw tokens inzet, hoe groter het deel van de vergoedingen dat u ontvangt (uw ‘stakingspercentage’)."
           },
           "par-3": {
-            "title": "How long can I stake for?",
-            "desc": "The minimum staking period is one month, which offers a staking rate of 25%. However, if you want a higher proportion of the exchange’s fees, you can stake for any whole number of months up to a maximum of 24, which offers a staking rate of 75%."
+            "title": "Hoe lang kan ik staken?",
+            "desc": "De minimale stakingsperiode is één maand, wat een stakingspercentage van 25% biedt. Als u echter een hoger deel van de kosten van de exchange wilt, kunt u een meerdere, volledige, maanden inzetten tot een maximum van 24 maanden, wat een stakingspercentage van 75% biedt."
           },
           "par-4": {
-            "title": "How do I receive my dividends?",
-            "desc": "Dividends are automatically added to your trading contract balance. They are paid out on a daily basis, shortly after midnight UTC. Nash provides monthly staking statements that aggregate these payments into a single figure for accounting purposes. Since the fees on a trade are charged in the currency being exchanged, you will receive dividends in every asset currently being traded on Nash."
+            "title": "Hoe ontvang ik mijn dividenden?",
+            "desc": "Dividenden worden automatisch toegevoegd aan uw handelscontractsaldo. Ze worden dagelijks uitbetaald, kort na middernacht UTC. Nash biedt maandelijkse stakingsverklaringen die deze betalingen samenvoegen tot één cijfer voor boekhoudkundige doeleinden. Aangezien de kosten voor een transactie in rekening worden gebracht in de valuta die wordt uitgewisseld, ontvangt u dividenden in elk activum dat momenteel op Nash wordt verhandeld."
           },
           "par-5": {
-            "title": "Can I receive my dividends in a single currency?",
-            "desc": "No. For legal reasons, we cannot convert your dividends for you. However, we are developing a tool to allow you to convert dividends yourself with a single click."
+            "title": "Kan ik mijn dividenden in één enkele valuta ontvangen?",
+            "desc": "Neen. Om juridische redenen kunnen we uw dividenden niet voor u converteren. We ontwikkelen echter een tool waarmee u met één klik zelf uw dividenden kunt converteren."
           },
           "par-6": {
-            "title": "Can I edit or cancel my stake once it’s been created?",
-            "desc": "No. Once you have created a stake you will not be able to edit or cancel it."
+            "title": "Kan ik mijn stake bewerken of annuleren nadat deze is gemaakt?",
+            "desc": "Neen. Zodra u een stake heeft aangemaakt, kunt u deze niet meer bewerken of annuleren."
           },
           "par-7": {
-            "title": "Can I create multiple stakes?",
-            "desc": "Yes. If you have NEX tokens in your personal account that are not already locked in a stake, you can use them to create a new one."
+            "title": "Kan ik meerdere stakes maken?",
+            "desc": "Ja. Als u NEX-tokens in uw persoonlijke account heeft die nog niet gestaked zijn, dan kunt u ze gebruiken om een nieuwe stake te maken."
           },
           "par-8": {
-            "title": "How many stakes can I create?",
-            "desc": "There is no limit to the number of stakes you can create."
+            "title": "Hoeveel stakes kan ik maken?",
+            "desc": "Er is geen limiet aan het aantal stakes dat u kunt maken."
           }
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "I understand that staked NEX only pays dividends if the Nash Exchange generates revenue.",
-        "title": "Create your stake",
-        "amount-to-stake": "Amount of NEX to stake",
-        "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
-        "available-balance": "Available balance to stake ⋅",
+        "create-stake-disclaimer-label": "Ik begrijp dat gestaked NEX alleen dividend uitkeert als de Nash Exchange inkomsten genereert.",
+        "title": "Stake aanmaken",
+        "amount-to-stake": "Hoeveelheid NEX om te staken",
+        "amount-to-stake-tooltip": "Stakingsprecentage bepaalt de omvang van uw evenredige deel van de inkomsten uit de Nash Exchange. Hoe langer u uw NEX staked, hoe hoger uw stakingsprecentage zal zijn, met een maximum van 75% voor een tijdsduur van twee jaar.\n\n<0>Een voorbeeld dividend</0>\nDividenden worden dagelijks uitgekeerd. Stel dat Nash commissie inkomsten heeft gegenereerd die gelijk zijn aan €1,000,000 in de laatste 24 uur en de gebruiker bezit 1,000 NEX tokens waarvan er totaal 50,000,000 in omloop zijn. Als de gebruiker NEX heeft gestaked voor een duur van twee jaar wat gelijk is aan stakingsprecentage van 75%, komen zij in aanmerking voor een dividenwaarde van: €1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = €15.",
+        "available-balance": "Beschikbaar saldo om te staken ⋅",
         "quick-fill-label": "Max",
-        "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
-        "set-date-dividends-label": "Set a date to receive your dividends",
-        "set-date-dividends-value": "Date ⋅ {{date}} of every month",
-        "stake-details-title": "Your stake details",
-        "currency-to-stake": "NEX to stake",
-        "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
-        "fee-reward": "Staking rate",
-        "first-payment": "First payment",
-        "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
-        "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
-        "create-stake-button": "Create stake",
-        "create-stake-sending-button": "Sending data…",
-        "create-stake-sending-text": "Sending data. Please keep this window open. This can take up to one minute.",
-        "create-stake-error": "There was either an error or a delay while creating your stake. Please check again in five minutes and resubmit if your stake was not created.",
-        "create-stake-auth-error": "Authentication error. Please try again.",
-        "learn-more": "Learn more about",
+        "set-stake-duration-label": "Zet een stake tijdsduur",
+        "selected-duration": "Geselecteerde tijdsduur ⋅",
+        "selected-duration-month": "<0>{{count}}</0> maand",
+        "selected-duration-month_plural": "<0>{{count}}</0> maanden",
+        "set-date-dividends-label": "Stel een datum vast om uw dividenden te ontvangen",
+        "set-date-dividends-value": "Datum ⋅ {{date}} van elke maand",
+        "stake-details-title": "Uw staking gegevens",
+        "currency-to-stake": "NEX om te staken",
+        "stake-duration": "Tijdsduur van staken",
+        "duration-value": "<0>{{count}}</0> maand",
+        "duration-value_plural": "<0>{{count}}</0> maanden",
+        "fee-reward": "Stakingsprecentage",
+        "first-payment": "Eerste betaling",
+        "agreed-to-non-cancellation-label": "Ik begrijp dat wanneer mijn NEX tokens gestaked zijn, ik deze niet kan annuleren of bewerken.",
+        "agreed-to-locked-tokens-label": "Ik begrijp dat mijn NEX tokens worden vergrendeld totdat deze stake is voltooid",
+        "create-stake-button": "Stake aanmaken",
+        "create-stake-sending-button": "Gegevens verzenden…",
+        "create-stake-sending-text": "Gegevens verzenden. Houd dit venster open. Dit kan een minuut duren.",
+        "create-stake-error": "Er is een fout of een vertraging opgetreden bij het maken van uw stake. Controleer het over vijf minuten opnieuw en dien opnieuw uw stake in als deze niet is aangemaakt.",
+        "create-stake-auth-error": "Authenticatiefout. Probeer het alstublieft opnieuw.",
+        "learn-more": "Leer meer over",
         "footer-desc": "staking NEX",
-        "amount-error-message": "This amount exceeds your available balance.",
+        "amount-error-message": "Deze hoeveelheid overschrijdt uw beschikbare saldo.",
         "stake-success": {
-          "header": "Stake created!",
-          "stake-details": "You created a stake of {{amount}} NEX for a period of {{count}} month. Your stake will appear in the dashboard shortly.",
-          "stake-details_plural": "You created a stake of {{amount}} NEX for a period of {{count}} months. Your stake will appear in the dashboard shortly.",
-          "stake-time-description": "You will receive your first dividends in:",
-          "finish-button-label": "Finish"
+          "header": "Stake aangemaakt!",
+          "stake-details": "U heeft een stake aangemaakt van {{amount}} NEX voor een periode van {{count}} maand. Uw stake verschijnt binnenkort in het dashboard.",
+          "stake-details_plural": "U heeft een stake aangemaakt van {{amount}} NEX voor een periode van {{count}} maanden. Uw stake verschijnt binnenkort in het dashboard.",
+          "stake-time-description": "U ontvangt uw eerste dividenden in:",
+          "finish-button-label": "Voltooien"
         }
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
-      "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
-      "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
-      "description-modal-create-link": "Create your first stake"
+      "title": "Verdien passief inkomen door NEX tokens te staken",
+      "description-desktop": "Nieuw met staken? Leer meer over <0>NEX tokens staken</0> en <1>uw eerste stake aanmaken</1>.",
+      "description-mobile": "Nieuw met staken? Leer meer over <0>NEX tokens staken</0>.",
+      "description-modal-create-link": "Uw eerste stake aanmaken"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Stakes in progress",
-      "completed-stakes": "Completed stakes",
-      "create-stake-paused": "Staking is paused during Nash maintenance.",
-      "create-stake-button": "Create a new stake",
-      "learn-stake-button": "Learn about staking"
+      "stakes-in-progress": "Stakes in uitvoering",
+      "completed-stakes": "Stakes voltooid",
+      "create-stake-paused": "Staking is gepauzeerd gedurende Nash-onderhoud",
+      "create-stake-button": "Stake aanmaken",
+      "learn-stake-button": "Leer meer over staken"
     },
     "max-stakes": {
-      "message": "You have created {{amount}} out of a possible {{maxAmount}} stakes. The maximum you can create is {{maxAmount}}.",
-      "dismiss": "Dismiss"
+      "message": "U heeft {{amount}} van de mogelijke {{maxAmount}} stakes aangemaakt. Het maximale dat je kunt aanmaken is {{maxAmount}}.",
+      "dismiss": "Begrepen"
     }
   },
   "contacts": {
     "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
+    "title_plural": "{{count}} contacten",
+    "search-my-contacts": "Zoek mijn contacten…",
+    "no-contacts": "Je hebt nog geen contacten toegevoegd of geïmporteerd.",
     "contact-fallback-name": "Contact",
-    "create-new": "Create new",
+    "create-new": "Maak nieuw",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Versturen",
+      "send-disabled-tooltip": "Voeg een portemonnee-adres toe aan uw contacten om ze fondsen te sturen.",
+      "request": "Verzoek",
+      "edit": "Bewerk",
+      "delete": "Verwijderen"
     },
     "headers": {
-      "name": "Name",
-      "email": "Email",
-      "phone-number": "Phone number",
-      "wallets": "Wallets"
+      "name": "Naam",
+      "email": "E-mail",
+      "phone-number": "Telefoonnummer",
+      "wallets": "Portemonnees"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Contact aanmaken",
+        "button": "Contact aanmaken"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Contact bewerken",
+        "button": "Wijzigingen opslaan"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Fondsen overmaken naar {{contactName}}",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Welke activum?",
+          "wallet": "Bestemming"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "U kunt alleen activa verzenden vanaf uw persoonlijke account."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Zoek naar een activa…",
+          "destination": "Zoek naar een portemonnee-adres…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "Weet je zeker dat je {{contactName}} wilt verwijderen?",
+        "notice-text": "Alle informatie die aan dit contact is gekoppeld, wordt definitief verwijderd.",
+        "button": "Ja, verwijderen",
+        "cancel": "Annuleer",
+        "error": "Fout bij verwijderen van contact. Probeer het alstublieft opnieuw.",
+        "success": "Contact verwijderd.",
+        "success-button": "Keer terug naar contacten"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Contact opgeslagen!",
+        "error": "Fout bij opslaan van contact. Probeer het alstublieft opnieuw.",
+        "invalid-input": "Ongeldige invoer. Probeer het alstublieft opnieuw."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "Voornaam",
+          "placeholder": "Voornaam"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Achternaam",
+          "placeholder": "Achternaam"
         },
         "email": {
-          "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "label": "E-mail",
+          "placeholder": "E-mailadres",
+          "error": "Ongeldig E-mailadres"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Telefoon",
+          "error": "Ongeldig telefoonnummer voor {{country}}"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Portemonnees",
+          "delete": "Verwijderen",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Portemonnee-adres"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Portemonnee-naam"
           },
-          "add": "Add another"
+          "add": "Een andere toevoegen"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Voer een geldig {{blockchain}} adres in.",
+          "unique-address": "U heeft al een ander contact met dit portemonnee-adres."
         }
       }
     }
