@@ -759,12 +759,12 @@
         },
         "candle-frequency": {
           "1m": "1m",
-          "5m": "[Translation required: 5m]",
+          "5m": "5m",
           "15m": "15m",
           "30m": "30m",
           "1h": "1h",
-          "3h": "[Translation required: 3h]",
-          "4h": "[Translation required: 4h]",
+          "3h": "3h",
+          "4h": "4h",
           "6h": "6h",
           "12h": "12h",
           "1d": "1J",
@@ -2977,7 +2977,7 @@
             "from": "De",
             "to": "À"
           },
-          "exchange-maintenance": "[Translation required: During maintenance you cannot transfer funds to or from the trading contract.]",
+          "exchange-maintenance": "Vous ne pouvez pas transférer des fonds vers ou depuis le contrat de trading lorsque la plateforme est en maintenance.",
           "contacts": {
             "label": "Destination",
             "placeholder": "Rechercher un contact ou envoyer à une nouvelle adresse…",
@@ -3682,21 +3682,21 @@
     },
     "preferences": {
       "general": {
-        "header": "[Translation required: General settings]",
-        "l-decimal-type": "[Translation required: Decimal type]",
-        "l-currency": "[Translation required: Currency]",
-        "b-save-changes": "[Translation required: Save changes]"
+        "header": "Paramètres généraux",
+        "l-decimal-type": "Séparateur décimal",
+        "l-currency": "Devise",
+        "b-save-changes": "Enregistrer les changements"
       },
       "notifications": {
-        "header": "[Translation required: Notify me when]",
-        "h-web": "[Translation required: Web notifications]",
-        "h-email": "[Translation required: Email]",
-        "b-enable-all": "[Translation required: Enable all]",
-        "b-disable-all": "[Translation required: Disable all]",
-        "fiat-ramp-quote-state-change": "[Translation required: I need to confirm a new Nash Cash exchange rate]",
-        "funds-trading-to-personal": "[Translation required: I deposit funds to the trading contract]",
-        "staking-stake-complete": "[Translation required: One of my NEX stakes completes]",
-        "staking-weekly-summary": "[Translation required: A weekly summary of my staking dividends is available]"
+        "header": "Me prévenir quand",
+        "h-web": "Notifications Web",
+        "h-email": "Email",
+        "b-enable-all": "Tout activer",
+        "b-disable-all": "Tout désactiver",
+        "fiat-ramp-quote-state-change": "Je dois confirmer un nouveau taux de change de Nash Cash",
+        "funds-trading-to-personal": "Je dépose des fonds sur le contrat de trading",
+        "staking-stake-complete": "Un de mes stakes arrive à expiration",
+        "staking-weekly-summary": "Un résumé hebdomadaire de mes dividendes de staking est disponible"
       }
     },
     "security": {
