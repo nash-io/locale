@@ -1076,8 +1076,8 @@
       "price-col": "{{symbol}} prezzo",
       "average": "Prezzo medio",
       "sum-size": "{{symbol}} somma",
-      "num-decimals": "{{count}} decimal",
-      "num-decimals_plural": "{{count}} decimals",
+      "num-decimals": "{{count}} decimale",
+      "num-decimals_plural": "{{count}} decimali",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
@@ -1168,7 +1168,7 @@
           "placeholder": "Password"
         },
         "remember-me": {
-          "label": "Ricordameli"
+          "label": "Rimani connesso"
         }
       },
       "messages": {
@@ -2977,7 +2977,7 @@
             "from": "Da",
             "to": "A"
           },
-          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
+          "exchange-maintenance": "Durante la manutenzione non puoi trasferire fondi al o dal tuo contratto di trading.",
           "contacts": {
             "label": "Destinazione",
             "placeholder": "Cerca un contatto o invia ad un nuovo indirizzo…",
@@ -3682,21 +3682,21 @@
     },
     "preferences": {
       "general": {
-        "header": "General settings",
-        "l-decimal-type": "Decimal type",
-        "l-currency": "Currency",
-        "b-save-changes": "Save changes"
+        "header": "Impostazioni generali",
+        "l-decimal-type": "Tipo di decimale",
+        "l-currency": "Moneta]",
+        "b-save-changes": "Salva le modifiche"
       },
       "notifications": {
-        "header": "Notify me when",
-        "h-web": "Web notifications",
+        "header": "Notificami quando",
+        "h-web": "Notifiche web",
         "h-email": "Email",
-        "b-enable-all": "Enable all",
-        "b-disable-all": "Disable all",
-        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
-        "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
+        "b-enable-all": "Attiva tutto",
+        "b-disable-all": "Disabilita tutto",
+        "fiat-ramp-quote-state-change": "Devo confermare un nuovo tasso di cambio di Nash Cash",
+        "funds-trading-to-personal": "Ho depositato i fondi al contratto di trading",
+        "staking-stake-complete": "Uno dei miei stake NEX è completo",
+        "staking-weekly-summary": "Il resoconto settimanale dei miei dividendi degli stake è disponibile"
       }
     },
     "security": {
