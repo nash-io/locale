@@ -150,9 +150,9 @@
     "title": "Commissie structuur",
     "desc": "Nash berekent het voortschrijdend gemiddelde (moving average) volume van een gebruiker gedurende 30 dagen aan de hand van het handelsvolume dat aan zijn account is gekoppeld als een percentage van het totale handelsvolume.",
     "30-day-volume": "30-dagen volume",
-    "taker-fee": "Taker commissie",
+    "taker-fee": "Afnemer commissie",
     "maker-fee": "Maker commissie",
-    "learn-more": "Leer meer over maker en taker orders."
+    "learn-more": "Leer meer over maker en afnemer orders."
   },
   "time-in-force-modal": {
     "title": "Time in force",
@@ -295,7 +295,7 @@
   "sending-approval": "Goedkeuring aan het verzenden…",
   "send-approval": "Verstuur goedkeuring",
   "submit-transfer": "Dien de transfer in",
-  "no-longer-sufficient-balance-for-tx": "Jouw balans is niet genoeg meer voor deze transactie.",
+  "no-longer-sufficient-balance-for-tx": "U heeft niet genoeg balans meer voor deze transactie.",
   "we-are-hiring": "Wij zoeken personeel",
   "errors": {
     "location-banned-title": "Toegang geblokkeerd",
@@ -445,7 +445,7 @@
       "sign-in-now": "Meld u nu aan"
     },
     "form": {
-      "your-state-is": "Your state is",
+      "your-state-is": "Uw staat is",
       "fields": {
         "optional": "(optioneel)"
       },
@@ -763,8 +763,8 @@
           "15m": "15m",
           "30m": "30m",
           "1h": "1u",
-          "3h": "3h",
-          "4h": "4h",
+          "3h": "3u",
+          "4h": "4u",
           "6h": "6u",
           "12h": "12u",
           "1d": "1d",
@@ -1076,8 +1076,8 @@
       "price-col": "{{symbol}} prijs",
       "average": "Gem. prijs",
       "sum-size": "{{symbol}} som",
-      "num-decimals": "{{count}} decimal",
-      "num-decimals_plural": "{{count}} decimals",
+      "num-decimals": "{{count}} decimaal",
+      "num-decimals_plural": "{{count}} decimalen",
       "spread": "<0>{{percent}}</0> spreiding"
     },
     "spread": "Spreiding",
@@ -1168,7 +1168,7 @@
           "placeholder": "Wachtwoord"
         },
         "remember-me": {
-          "label": "Herinner mij"
+          "label": "Blijf ingelogd"
         }
       },
       "messages": {
@@ -1242,8 +1242,8 @@
           "submit": "Reset mijn account",
           "sub-bullet-1": "Alle activa in uw persoonlijke account.",
           "sub-bullet-2": "Alle activa in het handelscontract.",
-          "sub-bullet-3": "Alle gestaketed NEX-tokens.",
-          "sub-bullet-4": "Alle dividenden van gestaketed NEX-tokens.",
+          "sub-bullet-3": "Alle gestaked NEX-tokens.",
+          "sub-bullet-4": "Alle dividenden van gestaked NEX-tokens.",
           "unauthorized": "Aangezien het opnieuw instellen van uw account ernstige gevolgen heeft, moet u eerst contact opnemen met ons supportteam om dit in te schakelen.",
           "contact-support": "Contacteer support"
         }
@@ -1339,8 +1339,8 @@
       },
       "modals": {
         "exchange-info": {
-          "title": "Hoe verhandel je munten",
-          "desc": "Selecteer eerst de munten die je wilt verhandelen.",
+          "title": "Hoe verhandel je tokens",
+          "desc": "Selecteer eerst de token die je wilt verhandelen.",
           "price-options-header": "U heeft twee opties om uw prijs te kiezen:",
           "average-market-price": {
             "header": "Huidige marktprijs",
@@ -1351,20 +1351,20 @@
             "desc": "Uw order kan overeenkomen met orders voor deze prijs of beter, maar overschrijd deze niet. Met deze optie wordt uw order mogelijks niet in 1 keer volledig gevuld."
           },
           "balances": {
-            "header": "Saldi",
-            "desc": "We zullen u vertellen of uw saldo onvoldoende is om een transactie te doen. Kies ‘Saldi’ om uw accountstatus te controleren en fondsen te verzenden/ontvangen."
+            "header": "Balans",
+            "desc": "We zullen u vertellen of uw saldo onvoldoende is om een transactie te doen. Kies ‘Balans’ om uw accountstatus te controleren en fondsen te verzenden/ontvangen."
           }
         },
         "select-token": {
           "title": {
-            "sell": "Ik wil verhandelen",
+            "sell": "Ik wil handelen",
             "buy": "Ik wil ontvangen"
           },
           "header": {
             "sell": "Selecteer het token dat u wilt verhandelen",
             "buy": "Selecteer het token dat je wilt ontvangen"
           },
-          "ignore-low-balances": "Verberg kleine saldi",
+          "ignore-low-balances": "Verberg kleine waarden",
           "search": {
             "placeholder": "Zoek naar een tokennaam of ticker…",
             "no-results": "We konden geen resultaten vinden voor <0>{{search}}</0>.",
@@ -2202,11 +2202,11 @@
         "address-line-2": "Gebouwnummer",
         "address-line-2-placeholder": "1",
         "address-line-1": "Straatnaam",
-        "address-line-1-placeholder": "Panoramastr.",
+        "address-line-1-placeholder": "Kerkstraat",
         "address-city": "Stad",
-        "address-city-placeholder": "Berlijn",
+        "address-city-placeholder": "Rotterdam",
         "address-postal-code": "Postcode",
-        "address-postal-code-placeholder": "10178",
+        "address-postal-code-placeholder": "3054 NB",
         "back": "Terug",
         "required": "Vereist",
         "invalid": "Ongeldig"
@@ -2350,12 +2350,12 @@
           "instructions": "Maak een foto van je gezicht. Je gezicht moet goed verlicht en zichtbaar zijn, zonder zonnebril of veranderingen aan je uiterlijk. Zorg er ook voor dat de foto duidelijk is, zonder schittering of wazigheid."
         },
         "sin": {
-          "edit": "SSN bewerken",
-          "add": "SSN toevoegen",
-          "save": "SSN indienen",
-          "field": "Social security number (SSN)",
-          "warning": "Ik begrijp dat als ik mijn SSN wijzig, mijn account opnieuw moet worden gecontroleerd en dat ik geen aankopen of verkopen kan doen totdat deze beoordeling is voltooid.",
-          "placeholder": "000-00-0000"
+          "edit": "BSN bewerken",
+          "add": "BSN toevoegen",
+          "save": "BSN indienen",
+          "field": "Burgerservicenummer (BSN)",
+          "warning": "Ik begrijp dat als ik mijn BSN wijzig, mijn account opnieuw moet worden gecontroleerd en dat ik geen aankopen of verkopen kan doen totdat deze beoordeling is voltooid.",
+          "placeholder": "000000000"
         },
         "proof": {
           "add": "Upload uw adresbewijs",
@@ -2635,7 +2635,7 @@
       "refresh-btn": "Vernieuwen",
       "status": "Valutastatus",
       "l-reason": "Reden voor terugbetaling",
-      "reason-compliance": "Compliance controle mislukt",
+      "reason-compliance": "Naleving controle mislukt",
       "step-payment": "Maak uw transfer",
       "step-review": "Controleer uw quote",
       "submit-btn": "Bevestig aankoop",
@@ -2876,7 +2876,7 @@
   "funds": {
     "title": "Fondsen",
     "deposit-currency": "Storting {{currencySymbol}}",
-    "your-currency-balances": "Uw {{currencySymbol}} saldi",
+    "your-currency-balances": "Uw {{currencySymbol}} balans",
     "resetting-account": {
       "title": "Hersynchroniseer uw handelscontractsaldo.",
       "desc": "Hierdoor worden fondsen vrijgegeven die vastzitten in de ‘In behandeling’ status. Dit proces annuleert open handelsorders.",
@@ -2917,9 +2917,9 @@
       },
       "table": {
         "header": {
-          "title": "Saldi",
+          "title": "Balans",
           "actions": {
-            "hide-zero-balances": "Nulwaarde saldi verbergen"
+            "hide-zero-balances": "Verberg nul waarden"
           }
         },
         "claim-gas": {
@@ -2977,7 +2977,7 @@
             "from": "Van",
             "to": "Naar"
           },
-          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
+          "exchange-maintenance": "Tijdens onderhoud kunt u geen fondsen overmaken naar of van het handelscontract.",
           "contacts": {
             "label": "Bestemming",
             "placeholder": "Zoek een contact of stuur naar een nieuw adres…",
@@ -3136,7 +3136,7 @@
           "status": {
             "completed": "Klaar",
             "pending": "In overdracht",
-            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmaties"
+            "pending-with-confirmations": "{{confirmations}}/{{denominator}} bevestigingen"
           },
           "view-transaction": "Bekijk transactie",
           "retry-pending": "Probeer de transactie opnieuw te verzenden",
@@ -3181,7 +3181,7 @@
         "header": {
           "title": "Mijn activa",
           "actions": {
-            "hide-small-balances": "Verberg kleine saldi"
+            "hide-small-balances": "Verberg kleine waarden"
           }
         },
         "columns": {
@@ -3239,7 +3239,7 @@
       },
       "total-balance": {
         "header": {
-          "title": "Saldi",
+          "title": "Balans",
           "hint": "U heeft de volledige controle over al deze fondsen."
         },
         "available-assets": "Beschikbare activa",
@@ -3349,7 +3349,7 @@
       "check-destination-description": "Als u fondsen naar het verkeerde adres stuurt, dan verliest u deze fondsen voor altijd."
     },
     "form-wallet": {
-      "confirmations": "Confirmaties",
+      "confirmations": "Bevestigingen",
       "confirmations-count": "Deze token heeft {{confirmationsCount}} bevestigingen nodig om in je portemonnee te verschijnen. U kunt de status van uw storting bekijken onder ‘Fondsen > Transacties’."
     },
     "send-confirmation-box": {
@@ -3378,7 +3378,7 @@
       }
     },
     "search-contact": {
-      "empty-list": "You don’t have any contacts to select from!",
+      "empty-list": "U heeft geen contacten om uit te kiezen!",
       "wallet": "{{count}} portemonnee",
       "wallet_plural": "{{count}} portemonnees"
     }
@@ -3682,21 +3682,21 @@
     },
     "preferences": {
       "general": {
-        "header": "General settings",
-        "l-decimal-type": "Decimal type",
-        "l-currency": "Currency",
-        "b-save-changes": "Save changes"
+        "header": "Algemene instellingen",
+        "l-decimal-type": "Decimaal type",
+        "l-currency": "Valuta",
+        "b-save-changes": "Wijzigingen opslaan"
       },
       "notifications": {
-        "header": "Notify me when",
-        "h-web": "Web notifications",
-        "h-email": "Email",
-        "b-enable-all": "Enable all",
-        "b-disable-all": "Disable all",
-        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
-        "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
+        "header": "Laat me weten wanneer",
+        "h-web": "Webmeldingen",
+        "h-email": "E-mail",
+        "b-enable-all": "Alles inschakelen",
+        "b-disable-all": "Alles uitschakelen",
+        "fiat-ramp-quote-state-change": "Ik moet een nieuwe Nash Cash-wisselkoers bevestigen,
+        "funds-trading-to-personal": "Ik stort geld op het handelscontract",
+        "staking-stake-complete": "Een van mijn NEX stakes is voltooid",
+        "staking-weekly-summary": "Een wekelijkse samenvatting van mijn staking dividend is beschikbaar"
       }
     },
     "security": {
