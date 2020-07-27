@@ -1076,8 +1076,8 @@
       "price-col": "{{symbol}} cena",
       "average": "Prům. cena",
       "sum-size": "Celkem {{symbol}}",
-      "num-decimals": "{{count}} decimal",
-      "num-decimals_plural": "{{count}} decimals",
+      "num-decimals": "{{count}} desetin",
+      "num-decimals_plural": "{{count}} desetiny",
       "spread": "<0>{{percent}}</0> spread"
     },
     "spread": "Spread",
@@ -1168,7 +1168,7 @@
           "placeholder": "Heslo"
         },
         "remember-me": {
-          "label": "Pamatovat si mě"
+          "label": "Zůstat přihlášen"
         }
       },
       "messages": {
@@ -2977,7 +2977,7 @@
             "from": "Z",
             "to": "Na"
           },
-          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
+          "exchange-maintenance": "Během údržby není možné převádět prostředky z a na obchodovací účet.",
           "contacts": {
             "label": "Místo určení",
             "placeholder": "Vyhledat z vašich kontaktů nebo poslat na novou adresu…",
@@ -3682,21 +3682,21 @@
     },
     "preferences": {
       "general": {
-        "header": "General settings",
-        "l-decimal-type": "Decimal type",
-        "l-currency": "Currency",
-        "b-save-changes": "Save changes"
+        "header": "Obecné nastavení",
+        "l-decimal-type": "Typ desetin",
+        "l-currency": "Měna",
+        "b-save-changes": "Uložit změny"
       },
       "notifications": {
-        "header": "Notify me when",
-        "h-web": "Web notifications",
+        "header": "Upozorněte mě když",
+        "h-web": "Webové notifikace",
         "h-email": "Email",
-        "b-enable-all": "Enable all",
-        "b-disable-all": "Disable all",
-        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
-        "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
+        "b-enable-all": "Aktivovat vše",
+        "b-disable-all": "Deaktivovat vše",
+        "fiat-ramp-quote-state-change": "Musím potvrdit novou Nash Cash burzovní sazbu",
+        "funds-trading-to-personal": "Vkládám prostředky na obchodovací účet",
+        "staking-stake-complete": "Jeden z mých dokončených NEX staků",
+        "staking-weekly-summary": "Týdenní přehled mých stake dividend je k dizpozici"
       }
     },
     "security": {
@@ -3835,6 +3835,7 @@
       "header": "Limity",
       "desc-1": "Z právních důvodů musíme ověřit vaši identitu pokud si přejete obchodovat nad určité limity.",
       "desc-2": "Úroveň 0 ověření je přístupná automaticky.",
+      "learn-more": "Zjistit více",
       "cards": {
         "tiers": {
           "header": "Úroveň {{tier}}",

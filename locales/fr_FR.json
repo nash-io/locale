@@ -231,7 +231,7 @@
       "trade": {
         "title": "Transactions",
         "pages": {
-          "exchange": "Échange",
+          "exchange": "Plateforme",
           "markets": "Marchés",
           "orders": "Ordres"
         },
@@ -258,7 +258,7 @@
         "title": "Acheter/Vendre",
         "pages": {
           "buy-sell": "Acheter/Vendre",
-          "transactions": "Transactions",
+          "transactions": "Trading",
           "payment-methods": "Méthodes de paiement",
           "profile": "Profil"
         }
@@ -338,7 +338,7 @@
   "no": "non",
   "account-types": {
     "personal": "Compte personnel",
-    "trading": "Contrat de transactions",
+    "trading": "Contrat de trading",
     "external": "Compte externe"
   },
   "query-errors": {
@@ -904,10 +904,10 @@
         },
         "cancellation-policy": {
           "label": "Temps en vigueur",
-          "footer": "apprendre davantage"
+          "footer": "En savoir plus"
         },
         "trading-balance": {
-          "label": "Disponible {{currency}}:"
+          "label": "{{currency}}:disponible(s)"
         }
       },
       "submit": {
@@ -962,7 +962,7 @@
         "custom": "Période personnalisée",
         "months": "{{count}} mois",
         "months_plural": "{{count}} mois",
-        "year": "{{count}} année"
+        "year": "{{count}} an"
       },
       "reset-filters": "Réinitialiser",
       "side-col": {
@@ -999,11 +999,11 @@
         "cancelled-order": "Ordre annulé"
       },
       "cancelled-unfilled-col": {
-        "header-title": "Montant non rempli",
+        "header-title": "Quantité non rempli",
         "header-title-with-currency": "{{currency}} montant non rempli"
       },
       "cancelled-filled-col": {
-        "header-title": "Montant rempli",
+        "header-title": "Quantité rempli",
         "header-title-with-currency": "{{currency}} montant rempli"
       },
       "status-col": {
@@ -1019,26 +1019,26 @@
       },
       "order-total-col": {
         "header-title": "Total",
-        "header-title-with-currency": "{{currency}} total"
+        "header-title-with-currency": "Total en {{currency}}"
       },
       "trade-total-col": {
         "header-title": "Total tradé",
-        "header-title-with-currency": "{{currency}} total tradé"
+        "header-title-with-currency": "---> Total tradé en {{currency}}"
       },
       "size-col": {
-        "header-title": "Montant",
-        "header-title-with-currency": "Montant de {{currency}}"
+        "header-title": "Quantité",
+        "header-title-with-currency": "Quantité de {{currency}}"
       },
       "price-col": {
         "header-title": "Prix",
-        "header-title-with-currency": "Prix du {{currency}}"
+        "header-title-with-currency": "Prix en {{currency}}"
       },
       "pair-col": {
         "header-title": "Paire"
       },
       "filled-col": {
-        "header-title": "Montant rempli",
-        "header-title-with-currency": "Montant rempli de {{currency}}"
+        "header-title": "Quantité rempli",
+        "header-title-with-currency": "Quantité rempli de {{currency}}"
       },
       "fee-col": {
         "header-title": "Frais",
@@ -1245,7 +1245,7 @@
           "sub-bullet-3": "Tous les tokens NEX stakés.",
           "sub-bullet-4": "Tous les dividendes des tokens NEX stakés.",
           "unauthorized": "La réinitialisation de votre compte ayant de sérieuses implications, vous devez d’abord contacter notre équipe support pour l’activer.",
-          "contact-support": "Contactez le support"
+          "contact-support": "Contacter le support"
         }
       },
       "new-password": {
@@ -1393,10 +1393,10 @@
           },
           "sell": {
             "label": "Je veux trader",
-            "sub-label": "{{currencySell}} disponible",
+            "sub-label": "{{currencySell}} disponible(s)",
             "label-button": "Sélectionnez un jeton à trader",
             "errors": {
-              "insufficient-funds": "{{currencySell}} insuffisant dans le contrat d’échange. Envoyez des fonds pour continuer.",
+              "insufficient-funds": "{{currencySell}} insuffisant dans le contrat de trading. Envoyez des fonds pour continuer.",
               "limit-breached": "Cet ordre dépasse vos limites de trading.",
               "order-too-small": "Le total doit dépasser {{orderSize}} {{currencySell}}.",
               "transfer": "Envoyer/recevoir"
@@ -1425,7 +1425,7 @@
         "columns": {
           "market-price": "Prix par {{currencyBuy}}",
           "limit-price": "Définir le prix par {{currencyBuy}}",
-          "fee": "Frais de négociation maximum",
+          "fee": "Frais de trading maximum",
           "fiat-total": "Estimation {{currencyFiat}}"
         },
         "desc": "Votre ordre restera sur le carnet d’ordres jusqu’à ce qu’il soit rempli, que vous l’annuliez ou que 24 heures se soient écoulées.",
@@ -1452,7 +1452,7 @@
           },
           "daily-limit-reached": {
             "0": "Votre ordre a été refusé car vous avez atteint votre limite de trading quotidienne.",
-            "1": "Pour augmenter votre volume de négociation quotidien maximum, veuillez visiter <0>Limits</0>."
+            "1": "Pour augmenter votre volume de trading quotidien maximum, veuillez visiter <0>Limits</0>."
           },
           "generic": {
             "0": "Erreur lors de votre ordre. Veuillez réessayer."
@@ -2015,7 +2015,7 @@
       "show-txn": {
         "title": "Détails de la transaction",
         "details-title": "Coordonnées bancaires du destinataire",
-        "amount-asset": "Montant acheté",
+        "amount-asset": "Quantité acheté",
         "status": "Statut de la transaction",
         "personal-account": "Votre compte personnel Nash",
         "deposit-account": "Actif déposé sur",
@@ -2045,7 +2045,7 @@
       "closed-column": "Terminé",
       "action-column": "Action",
       "source-column": "Compte débité et coût",
-      "amount-column": "Montant",
+      "amount-column": "Quantité",
       "view-button": "Vue",
       "bought": "Acheté",
       "sold": "Vendu",
@@ -2472,7 +2472,7 @@
       "profile-approved-info-message": "La modification des informations du profil signifie que votre compte doit être réexaminé. Votre capacité à acheter et vendre des actifs numériques directement sera gelée jusqu’à ce que cet examen soit terminé et que vos informations soient approuvées.",
       "limits-requirements": "Conditions requises",
       "limits-header": "Limites d’achat annuelles",
-      "limits-complete": "Nash Platform Fiat niveau 1",
+      "limits-complete": "Nash Platform Fiat Niveau 1",
       "limits-not-complete": "Déclarer sa profession et l’origine des fonds",
       "limits-no-occupation": "Déclarer sa profession",
       "limits-no-source-of-funds": "Déclarer l’origine des fonds",
@@ -2482,7 +2482,7 @@
       "add-source-of-funds": "Déclarer l’origine des fonds",
       "add-source-of-wealth": "Déclarer l’origine principale des fonds",
       "header": "Informations de profil de Niveau 1",
-      "contact-support-to-edit": "<0>Contactez le support</0> pour modifier",
+      "contact-support-to-edit": "<0>Contacter le support</0> pour modifier",
       "source-of-funds": "Origine des fonds",
       "source-of-wealth": "Origine principale des fonds",
       "occupation": "Profession",
@@ -2827,7 +2827,7 @@
         "date-created": "Créé",
         "action": "Action",
         "cost": "Coût",
-        "amount": "Montant",
+        "amount": "Quantité",
         "no-transactions": "Vous n’avez encore ni acheté ni vendu d’actifs numériques."
       },
       "payment-methods": {
@@ -2912,7 +2912,7 @@
         "title": "Envoi et réception de fonds",
         "desc": "<0>Si vous voulez trader, vous allez devoir envoyer des fonds au contrat de trading.</0> <1>Vous ne pouvez envoyer des fonds au contrat de trading que depuis votre compte personnel.</1>",
         "learn-more-never-show": "<0>En savoir plus</0> ou <1>ne plus jamais me le montrer</1>.",
-        "learn-more": "En apprendre davantage",
+        "learn-more": "En savoir plus",
         "never-show": "Ne plus me montrer cela à l’avenir."
       },
       "table": {
@@ -3039,7 +3039,7 @@
           "deposit": {
             "label": "Détails de votre compte personnel",
             "currency-address": "Adresse {{currency}}",
-            "currency-address-qrcode": "{{currency}} adresse QR code",
+            "currency-address-qrcode": "QR code de l’adresse {{currency}}",
             "currency-send-warning": "Tous les actifs autres que {{currency}} envoyés à cette adresse seront perdus!"
           },
           "buttons": {
@@ -3122,7 +3122,7 @@
     "transactions": {
       "title": "Transferts",
       "show-more-transactions": "Afficher plus de transferts",
-      "search-my-transactions": "Rechercher mes transferts…",
+      "search-my-transactions": "Rechercher dans mes transferts…",
       "no-transactions": "Vous n’avez encore effectué aucun transferts.",
       "table": {
         "header": {
@@ -3168,7 +3168,7 @@
           }
         },
         "amount": {
-          "title": "Montant"
+          "title": "Quantité"
         }
       }
     },
@@ -3247,7 +3247,7 @@
         "in-trading": "Contrat de trading",
         "in-unfilled-orders": "Ordres non remplis",
         "in-stake": "NEX stakés",
-        "learn-more": "En apprendre davantage"
+        "learn-more": "En savoir plus"
       }
     }
   },
@@ -3408,7 +3408,7 @@
         "invited-users": {
           "label": "Vos parrainages",
           "desc": "Ce sont les personnes que vous avez parrainées directement. Nous ne pouvons pas vous montrer qui ils ont eux-mêmes parrainé, mais vous pouvez voir les tickets que vous avez gagnés grâce à eux par parrainage indirect.",
-          "header": "Tous ceux en attente et ou activés",
+          "header": "Tous ceux en attente et/ou activés",
           "col-name": "Nom",
           "col-pending": "En attente",
           "col-activated": "Activé",
@@ -3553,7 +3553,7 @@
       "waiting": "Vérification en cours…",
       "waiting-subtitle": "Cela peut prendre quelques minutes. Vous pouvez quitter cette page.",
       "topnav-title": "Vérification de Niveau 1",
-      "contact-support-label": "<0>Contactez le support</0> pour changer",
+      "contact-support-label": "<0>Contacter le support</0> pour changer",
       "confirm-button-label": "Confirmer vos coordonnées",
       "name-step": {
         "warning": "Le nom que vous renseignez doit correspondre au nom figurant sur la pièce d’identité que vous fournissez.",
@@ -3599,7 +3599,7 @@
           "label": "Informations personnelles",
           "legal-name": "Nom légal",
           "missing-full-name": "<0>Vérifiez votre identité</0> pour profiter de limites commerciales plus élevées.",
-          "update-name": "Je veux mettre à jour mon nom",
+          "update-name": "Je souhaite mettre à jour",
           "update-country": "Je souhaite mettre à jour mon pays de résidence",
           "gender": "Genre",
           "male": "Homme",
@@ -3682,21 +3682,21 @@
     },
     "preferences": {
       "general": {
-        "header": "General settings",
-        "l-decimal-type": "Decimal type",
-        "l-currency": "Currency",
-        "b-save-changes": "Save changes"
+        "header": "Paramètres généraux",
+        "l-decimal-type": "Séparateur décimal",
+        "l-currency": "Devise",
+        "b-save-changes": "Enregistrer les changements"
       },
       "notifications": {
-        "header": "Notify me when",
-        "h-web": "Web notifications",
+        "header": "Me prévenir quand",
+        "h-web": "Notifications Web",
         "h-email": "Email",
-        "b-enable-all": "Enable all",
-        "b-disable-all": "Disable all",
-        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
-        "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
+        "b-enable-all": "Tout activer",
+        "b-disable-all": "Tout désactiver",
+        "fiat-ramp-quote-state-change": "Je dois confirmer un nouveau taux de change de Nash Cash",
+        "funds-trading-to-personal": "Je dépose des fonds sur le contrat de trading",
+        "staking-stake-complete": "Un de mes stakes arrive à expiration",
+        "staking-weekly-summary": "Un résumé hebdomadaire de mes dividendes de staking est disponible"
       }
     },
     "security": {
@@ -3811,21 +3811,21 @@
           "label": "Mes douze mots secrets",
           "account": "Compte Nash",
           "desc": "Douze mots secrets",
-          "unlock": "Déverrouillez et montrez mes douze mots secrets",
-          "lock": "Cachez et verrouillez mes douze mots secrets"
+          "unlock": "Déverrouiller et montrer mes douze mots secrets",
+          "lock": "Cacher et verrouiller mes douze mots secrets"
         },
         "wallets": {
           "label": "Comptes générés par mes douze mots secrets",
           "private-key": "Clé privée",
           "public-address": "Adresse publique",
-          "unlock": "Déverrouillez et montrez la clé privée",
+          "unlock": "Déverrouiller et montrer la clé privée",
           "lock": "Masquer et verrouiller la clé privée"
         }
       },
       "modals": {
         "unlock-secret-words": {
-          "title": "Déverrouillez mes douze mots secrets",
-          "submit": "Déverrouillez mes douze mots secrets",
+          "title": "Déverrouiller mes douze mots secrets",
+          "submit": "Déverrouiller mes douze mots secrets",
           "error": "Erreur: échec du décryptage des mots secrets."
         }
       }
@@ -3834,7 +3834,8 @@
       "title": "Limites",
       "header": "Limites",
       "desc-1": "Pour des raisons juridiques, nous devons vérifier votre identité si vous souhaitez effectuer des transactions au-delà de certaines limites.",
-      "desc-2": "La vérification de niveau 0 est disponible automatiquement.",
+      "desc-2": "La vérification de Niveau 0 est disponible automatiquement.",
+      "learn-more": "En savoir plus",
       "cards": {
         "tiers": {
           "header": "Tier {{tier}}",
@@ -3847,7 +3848,7 @@
           "year": "année"
         },
         "limits": {
-          "header": "Volume de négociation quotidien maximum",
+          "header": "Volume de trading quotidien maximum",
           "percentage-net-worth": "Limite personnalisée",
           "unlimited": "Illimité",
           "tier-verified": "Tier {{tier}} vérifié",
@@ -3855,10 +3856,10 @@
           "pending": "En attente",
           "denied": "Refusé",
           "try-again": "Réessayer",
-          "contact-us": "Contactez le support"
+          "contact-us": "Contacter le support"
         },
         "information": {
-          "header": "Information requise",
+          "header": "Informations requises",
           "desc": "Ce niveau a été automatiquement défini lors de la création de votre compte Nash.",
           "email": "Adresse électronique",
           "name": "Nom",
@@ -3870,7 +3871,7 @@
           "date-of-birth": "Date de naissance",
           "net-worth": "Valeur nette",
           "contact-number": "Numéro de contact",
-          "tier1-info-net-worth": "Informations de tier 1 + valeur nette",
+          "tier1-info-net-worth": "Informations de Niveau 1 + valeur nette",
           "source-of-funds": "Source de fonds",
           "name-manager": "Représentant d’un groupe",
           "email-institution": "Adresse électronique",
@@ -3893,12 +3894,12 @@
                 "Scannez le QR code"
               ],
               "download": {
-                "header": "La vérification de tier 1 est possible à l’aide de notre application mobile.",
+                "header": "La vérification de Niveau 1 est possible à l’aide de notre application mobile.",
                 "downloaded-app": "J’ai téléchargé l’application"
               },
               "scan-code": {
                 "header": "Scannez le QR code suivant avec l’application Nash:",
-                "desc": "Lorsque vous avez terminé la vérification de tier 1, votre résultat apparaîtra ici dans une minute."
+                "desc": "Lorsque vous avez terminé la vérification de Niveau 1, votre résultat apparaîtra ici dans une minute."
               }
             },
             "web": {
@@ -3913,11 +3914,11 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total de tokens NEX misés",
-      "s-stakes-in-progress": "Enjeux en cours",
-      "s-total-dividends": "Total des dividendes (tous les temps)",
+      "s-current-stakes": "Total de tokens NEX stakés",
+      "s-stakes-in-progress": "Stakes en cours",
+      "s-total-dividends": "Total des dividendes perçu depuis le début",
       "s-next-payment": "Prochain versement du dividende le",
-      "s-completed-stakes": "Enjeux terminés"
+      "s-completed-stakes": "Stakes terminés"
     },
     "stakes": {
       "amount-staked-col": "Montant staké",
@@ -3943,9 +3944,9 @@
       "tabs-info-button": "En savoir plus sur le Staking"
     },
     "statements": {
-      "view-statement-button": "Voir la déclaration",
+      "view-statement-button": "Afficher le relevé",
       "summary-title": "Toutes les déclarations",
-      "export-summary": "Export stakes as CSV",
+      "export-summary": "Exporter vos stakes vers un fichier CSV",
       "export": "Déclaration d’exportation",
       "date-col": "Date de paiement",
       "asset-col": "Actif",
@@ -3962,7 +3963,7 @@
       "from-active-stakes": "De <0>{{count}}</0> stake actif",
       "from-active-stakes_plural": "De <0>{{count}}</0> stakes actifs",
       "period-description": "Au cours de cette période",
-      "dividends-received": "En dividendes reçus",
+      "dividends-received": "Dividendes reçus",
       "is-ended": "Terminé",
       "no-statements": "Vous n’avez pas encore de relevés de dividendes."
     },
@@ -3971,7 +3972,7 @@
         "title": "Staking du Tokens Nash (NEX)",
         "header": {
           "title": "Qu’est-ce que le staking NEX?",
-          "desc": "Staker les tokens de Nash Exchange (NEX) est un moyen de générer un revenu passif. Vous recevez une partie des frais de trading de la plateforme chaque jour où votre mise est active."
+          "desc": "Staker les tokens de Nash Exchange (NEX) est un moyen de générer un revenu passif. Vous recevez une partie des frais de trading de la plateforme chaque jour où votre stake est active."
         },
         "paragraphs": {
           "par-1": {
@@ -4035,15 +4036,15 @@
         "create-stake-sending-text": "Envoi de données. Veuillez garder cette fenêtre ouverte. Cela peut prendre jusqu’à une minute.",
         "create-stake-error": "Il y a eu une erreur ou un retard lors de la création de votre stake. Veuillez vérifier à nouveau dans cinq minutes et soumettre à nouveau si votre mise n’a pas été créée.",
         "create-stake-auth-error": "Erreur d’authentification. Veuillez réessayer.",
-        "learn-more": "En apprendre davantage",
+        "learn-more": "En savoir plus",
         "footer-desc": "staking NEX",
         "amount-error-message": "Ce montant dépasse votre solde disponible.",
         "stake-success": {
           "header": "Stake créé!",
           "stake-details": "Vous avez créé un stake de {{amount}} NEX pour une période de {{count}} mois. Votre stake apparaîtra dans le tableau de bord sous peu.",
           "stake-details_plural": "Vous avez créé un stake de {{amount}} NEX pour une période de {{count}} mois. Votre stake apparaîtra dans le tableau de bord sous peu.",
-          "stake-time-description": "Vous recevrez vos premiers dividendes en:",
-          "finish-button-label": "terminer"
+          "stake-time-description": "Vous recevrez vos premiers dividendes dans:",
+          "finish-button-label": "Terminer"
         }
       }
     },
@@ -4073,7 +4074,7 @@
     "contact-fallback-name": "Contact",
     "create-new": "Créer un nouveau",
     "buttons": {
-      "send": "Send",
+      "send": "Envoyer",
       "send-disabled-tooltip": "Ajoutez une adresse de portefeuille à vos contacts pour leur envoyer des fonds.",
       "request": "Demande",
       "edit": "Modifier",
