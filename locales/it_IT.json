@@ -867,7 +867,7 @@
           "label": "Totale"
         },
         "market-price": {
-          "label": "Mercati",
+          "label": "A mercato",
           "sub-label": "Quando acquisti o vendi a mercato, il tuo ordine corrisponderà agli ordini attualmente sul libro."
         },
         "show-limit": {
@@ -878,7 +878,7 @@
           "label": "Prezzo"
         },
         "limit-price": {
-          "label": "Limiti",
+          "label": "Limite",
           "sub-label": "Il tuo ordine può essere abbinato con ordini a questo prezzo o migliore.",
           "errors": {
             "maker-match": "Gli ordini ‘Pubblica solo’ corrispondenti al portafoglio ordini corrente verranno annullati."
@@ -1064,14 +1064,14 @@
     },
     "recent-trades": {
       "title": "Trade recenti",
-      "order-size-col": "{{symbol}} quantità",
-      "price-col": "{{symbol}} prezzo",
-      "time-col": "Tempo"
+      "order-size-col": "Quantità {{symbol}}",
+      "price-col": "Prezzo in {{symbol}}",
+      "time-col": "Data"
     },
     "orderbook": {
       "title": "USD",
       "title-no-fiat": "Libro ordini",
-      "order-size-col": "{{symbol}} quantità",
+      "order-size-col": "Quantità {{symbol}}",
       "my-size-col": "La mia quantità",
       "price-col": "{{symbol}} prezzo",
       "average": "Prezzo medio",
