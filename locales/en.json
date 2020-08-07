@@ -3016,9 +3016,9 @@
             }
           },
           "btc": {
-            "funds-not-confirmed": "Your Bitcoin balance requires six network confirmations before you can transfer to the trading contract. Please wait while recent transfers confirm.",
+            "funds-not-confirmed": "Please wait for recent Bitcoin transfers to confirm.",
             "wait-until-external-transfer-completes": "Please wait until your recent external transfer completes before making a deposit.",
-            "temporary-limit": "Bitcoin deposits and withdrawals must be greater than 0.001 BTC while we test this new market. The restriction will be lifted in the near future."
+            "temporary-limit": "Bitcoin deposits and withdrawals must be greater than 0.001 BTC."
           },
           "async": {
             "title": "Transaction update",
@@ -3253,7 +3253,11 @@
   },
   "markets": {
     "title": "Markets",
+    "all": "All",
+    "faves": "Favorites",
     "volume-short": "vol.",
+    "usd": "USD",
+    "none": "None",
     "columns": {
       "rank": "Rank",
       "asset": "Asset",
@@ -3262,17 +3266,23 @@
       "market-cap": "Market cap",
       "volume": "Volume",
       "pair": "Pair",
+      "current-buy": "Current buy",
+      "current-sell": "Current sell",
+      "current-spread": "Spread",
       "1d-change": "24h change",
       "1d-high": "24h high",
       "1d-low": "24h low",
       "1d-volume": "24h volume",
+      "1d-chart": "24h chart",
       "1w-change": "1w change",
       "1w-high": "1w high",
       "1w-low": "1w low",
       "1w-volume": "1w volume",
+      "1w-chart": "1w chart",
       "1m-change": "1M change",
       "1m-high": "1M high",
       "1m-low": "1M low",
+      "1m-chart": "1M chart",
       "1m-volume": "1M volume"
     },
     "buttons": {
@@ -3694,7 +3704,7 @@
         "b-enable-all": "Enable all",
         "b-disable-all": "Disable all",
         "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
+        "funds-trading-to-personal": "I receive funds from the trading contract",
         "staking-stake-complete": "One of my NEX stakes completes",
         "staking-weekly-summary": "A weekly summary of my staking dividends is available"
       }
