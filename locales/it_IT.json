@@ -867,7 +867,7 @@
           "label": "Totale"
         },
         "market-price": {
-          "label": "Mercati",
+          "label": "A mercato",
           "sub-label": "Quando acquisti o vendi a mercato, il tuo ordine corrisponderà agli ordini attualmente sul libro."
         },
         "show-limit": {
@@ -878,7 +878,7 @@
           "label": "Prezzo"
         },
         "limit-price": {
-          "label": "Limiti",
+          "label": "Limite",
           "sub-label": "Il tuo ordine può essere abbinato con ordini a questo prezzo o migliore.",
           "errors": {
             "maker-match": "Gli ordini ‘Pubblica solo’ corrispondenti al portafoglio ordini corrente verranno annullati."
@@ -951,7 +951,7 @@
           "apply": "Applica"
         }
       },
-      "open-only-checkbox": "Solo lettura",
+      "open-only-checkbox": "Solo aperti",
       "pairs-checkbox": "Tutte le coppie",
       "export": "Esporta la cronologia",
       "export-trades": "Esporta la cronologia di trading",
@@ -1064,14 +1064,14 @@
     },
     "recent-trades": {
       "title": "Trade recenti",
-      "order-size-col": "{{symbol}} quantità",
-      "price-col": "{{symbol}} prezzo",
-      "time-col": "Tempo"
+      "order-size-col": "Quantità {{symbol}}",
+      "price-col": "Prezzo in {{symbol}}",
+      "time-col": "Data"
     },
     "orderbook": {
       "title": "USD",
       "title-no-fiat": "Libro ordini",
-      "order-size-col": "{{symbol}} quantità",
+      "order-size-col": "Quantità {{symbol}}",
       "my-size-col": "La mia quantità",
       "price-col": "{{symbol}} prezzo",
       "average": "Prezzo medio",
@@ -3253,7 +3253,11 @@
   },
   "markets": {
     "title": "Mercati",
+    "all": "Tutti",
+    "faves": "Favoriti",
     "volume-short": "vol.",
+    "usd": "USD",
+    "none": "Nessuno",
     "columns": {
       "rank": "Posizione",
       "asset": "Asset",
@@ -3262,17 +3266,23 @@
       "market-cap": "Market cap",
       "volume": "Volumi",
       "pair": "Coppia",
+      "current-buy": "Acquisto corrente",
+      "current-sell": "Vendita corrente",
+      "current-spread": "Spread",
       "1d-change": "24h cambio",
       "1d-high": "24h alto",
       "1d-low": "24h basso",
       "1d-volume": "24h volumi",
+      "1d-chart": "24h grafico",
       "1w-change": "1w cambio",
       "1w-high": "1w alto",
       "1w-low": "1w basso",
       "1w-volume": "1w volumi",
+      "1w-chart": "1w grafico]",
       "1m-change": "1M cambio",
       "1m-high": "1M alto",
       "1m-low": "1M basso",
+      "1m-chart": "1M grafico",
       "1m-volume": "1M volumi"
     },
     "buttons": {
