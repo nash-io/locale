@@ -728,7 +728,7 @@
     },
     "market-graphs": {
       "title": "Charts",
-      "market-paused": "[Translation required: Market paused]",
+      "market-paused": "Markt pausiert",
       "price-chart": {
         "title": "Preis",
         "heads-up-display": {
@@ -809,9 +809,9 @@
     "create-order": {
       "buy": "{{currencySymbol}} kaufen",
       "sell": "{{currencySymbol}} verkaufen",
-      "market-paused": "[Translation required: This market is currently paused for maintenance. You will be unable to make trades.]",
+      "market-paused": "Dieser Markt ist derzeit wegen Wartungsarbeiten pausiert. Du kannst derzeit nicht handeln.",
       "locked-trading-session": {
-        "information": "[Updated translation required: Your trading session is locked.] Ihre Handelssitzung ist gesperrt.",
+        "information": "Ihre Handelssitzung ist gesperrt.",
         "information-tooltip": "Deine Sitzung wird gesperrt, wenn du die Seite aktualisierst oder 15 Minuten lang abwesend bist.",
         "enter-credentials-to-unlock": "<0>Jetzt freischalten</0>"
       },
@@ -1749,20 +1749,20 @@
       "fee-footer": "Geschätzte Gebühr <0/>",
       "over-limit": "Unzureichendes Guthaben",
       "l-amount-to-transfer": "Zu transferierender Betrag",
-      "b-move-to-sell": "[Updated translation required: Start transfer] {{asset}} transferieren um zu verkaufen",
+      "b-move-to-sell": "Überweisung tätigen",
       "review": {
-        "l-complete": "[Translation required: Transfer initializing…]",
-        "l-transfer-details": "[Translation required: Transfer details]",
-        "l-error": "[Translation required: Something went wrong]",
-        "l-error-description": "[Translation required: No funds have moved.]",
-        "l-amount-to-move": "[Translation required: Transfer amount]",
-        "l-fees-to-move": "[Translation required: Fees]",
-        "l-source": "[Translation required: Source]",
-        "l-destination": "[Translation required: Destination]",
-        "b-accept-transfer": "[Translation required: Start transfer]",
-        "b-finish-transfer": "[Translation required: Finish transfer]",
-        "personal-account": "[Translation required: Personal account]",
-        "trading-contract": "[Translation required: Trading contract]"
+        "l-complete": "Überweisung wird initializiert …",
+        "l-transfer-details": "Überweisungsdetails",
+        "l-error": "Etwas ist scheifgelaufen.",
+        "l-error-description": "Keine Assets wurden überwiesen.",
+        "l-amount-to-move": "Menge",
+        "l-fees-to-move": "Gebühren",
+        "l-source": "Quelle",
+        "l-destination": "An",
+        "b-accept-transfer": "Überweisung tätigen",
+        "b-finish-transfer": "Überweisung beenden",
+        "personal-account": "Persönliches Konto",
+        "trading-contract": "Trading Contract"
       }
     },
     "provider": {
@@ -4067,7 +4067,7 @@
     "staking-view-header": {
       "stakes-in-progress": "Laufende Stakes",
       "completed-stakes": "Abgeschlossene Stakes",
-      "create-stake-paused": "[Translation required: Staking is paused during Nash maintenance.]",
+      "create-stake-paused": "Staking wird während der Wartung pausiert.",
       "create-stake-button": "Neuen Stake erstellen",
       "learn-stake-button": "Mehr über Staking erfahren"
     },
