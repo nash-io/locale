@@ -178,7 +178,7 @@
     }
   },
   "main-navigation": {
-    "referrals": "Referral",
+    "referrals": "Inviti",
     "funds": "Fondi",
     "exchange": "Scambio",
     "basic-exchange": "Visualizzazione Base",
@@ -252,7 +252,7 @@
         }
       },
       "referrals": {
-        "title": "Referral"
+        "title": "Inviti"
       },
       "fiat-ramps": {
         "title": "Compra/Vendi",
@@ -452,8 +452,8 @@
       "continue": "Continua",
       "errors": {
         "generic-error": "Si è verificato un errore nella registrazione dell’account. Per favore riprova.",
-        "invalid-referral-code-can-continue": "Codice referral non valido.",
-        "invalid-referral-code": "Codice referral non valido. Per favore controlla il tuo codice e riprova.",
+        "invalid-referral-code-can-continue": "Codice di invito non valido.",
+        "invalid-referral-code": "Codice di invito non valido. Per favore controlla il tuo codice e riprova.",
         "invalid-email-domain": "Il tuo provider di email non è consentito. Per favore utilizza un altro indirizzo.",
         "duplicate-email": "È già stato creato un account con questo indirizzo email.",
         "password-too-short": "La tua password dovrebbe contenere almeno otto caratteri.",
@@ -466,21 +466,21 @@
       "subheader": "I tuoi dettagli",
       "disclaimer": {
         "title": "Informativa per i clienti statunitensi",
-        "desc": "Stai creando un account Nash preliminare per partecipare al programma di referral, ma il tuo stato deve essere ammesso per accedere ad alcuni servizi Nash. Se ammesso, ti verrà chiesto in seguito di firmare un accordo per gli utenti."
+        "desc": "Stai creando un account Nash preliminare per partecipare al programma di invito, ma il tuo stato deve essere ammesso per accedere ad alcuni servizi Nash. Se ammesso, ti verrà chiesto in seguito di firmare un accordo per gli utenti."
       },
       "fields": {
         "full-name": {
           "label": "Nome e cognome"
         },
         "referral-code": {
-          "label": "Codice referral (facoltativo)",
+          "label": "Codice di invito (facoltativo)",
           "sub-label": "Che cosa è?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Programma di referral Nash",
-          "desc": "Questo sarà utilizzato per tracciare i referral per le future promozioni di Nash."
+          "title": "Programma di invito Nash",
+          "desc": "Questo sarà utilizzato per tracciare gli inviti per le future promozioni di Nash."
         }
       },
       "user-messages": {
@@ -3402,23 +3402,23 @@
     }
   },
   "referrals": {
-    "title": "Programma referral",
+    "title": "Programma di invito",
     "referrals": {
-      "header": "Segnala un amico e guadagna biglietti",
-      "desc": "Più biglietti guadagni, maggiori sono le possibilità di vincere.",
+      "header": "Invita un amico e ottieni biglietti",
+      "desc": "Più biglietti ottieni, maggiori sono le possibilità di vincere.",
       "cards": {
         "social-share": {
-          "label": "Condividi il tuo codice di riferimento:",
+          "label": "Condividi il tuo codice di invito:",
           "activated-count": "{{count}} biglietto attivato",
           "activated-count_plural": "{{count}} biglietti attivati",
           "pending-count": "{{count}} biglietto in sospeso",
           "pending-count_plural": "{{count}} biglietti in sospeso",
-          "message": "Usa il mio codice di riferimento {{url}} per iscriversi @nashsocial giveaway! #TrustYourselves {{ytLink}}"
+          "message": "Usa il mio codice di invito {{url}} per iscriversi @nashsocial giveaway! #TrustYourselves {{ytLink}}"
         },
         "invited-users": {
-          "label": "I tuoi referral",
-          "desc": "Queste sono le persone a cui hai fatto riferimento direttamente. Non possiamo mostrarti a chi si sono riferiti, ma puoi vedere i biglietti che hai guadagnato attraverso di loro per i referral indiretti.",
-          "header": "Tutto in sospeso e attivato",
+          "label": "I tuoi inviti",
+          "desc": "Queste sono le persone che hai invitato direttamente. Non possiamo mostrarti chi hanno invitato, ma puoi vedere i biglietti che hai ottenuto attraverso di loro per gli inviti indiretti.",
+          "header": "Tutto i biglietti in sospeso e attivati",
           "col-name": "Nome",
           "col-pending": "In sospeso",
           "col-activated": "Attivato",
