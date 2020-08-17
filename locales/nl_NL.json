@@ -18,7 +18,7 @@
   "price-each": "{{price}} per stuk",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
   "remaining": "Resterend",
-  "not-available-short": "N/A",
+  "not-available-short": "N.v.t.",
   "set-price": "Stel een prijs in",
   "market": "Markt",
   "market-price": "Marktprijs",
@@ -172,7 +172,7 @@
         "desc": "Als uw hele order direct kan worden vervuld, dan zal dit gebeuren. Kan dit niet, dan wordt de hele order geannuleerd."
       },
       "ioc": {
-        "header": "Onmiddelijk of annuleer",
+        "header": "Onmiddelijk of annuleren",
         "desc": "Jouw order wordt zoveel mogelijk vervuld. Het gedeelte dat niet kan worden gevuld, wordt geannuleerd."
       }
     }
@@ -268,7 +268,7 @@
           "profile": "Profiel",
           "preferences": "Voorkeuren",
           "security": "Beveiliging",
-          "limits": "Grenzen",
+          "limits": "Limieten",
           "accounts": "Accounts",
           "apikeys": "API keys"
         }
@@ -1918,7 +1918,7 @@
       "purchase": "Kopen",
       "cost-me-input-label": "Ik wil besteden",
       "i-want-to-pay-input-label": "Ik wil betalen",
-      "receive-input-label": "ik wil ontvangen",
+      "receive-input-label": "Ik wil ontvangen",
       "will-receive-input-label": "Ik ontvang ongeveer",
       "current-exchange-rate": "Huidige wisselkoers",
       "weekly-limit": "Wekelijkse limiet",
@@ -1929,7 +1929,7 @@
       "yearly-limit-affix": "Jaarlijkse limiet",
       "amount-pending": "<0/> in behandeling",
       "exceed-yearly-limit": "Jaarlijkse limiet",
-      "no-change-today": "geen verandering vandaag",
+      "no-change-today": "Geen verandering vandaag",
       "change-today": "{{value}}% vandaag",
       "daily-fiat-limit": "Dagelijkse {{fiat}} limiet",
       "daily-asset-limit": "Dagelijkse {{asset}} limiet",
@@ -2184,8 +2184,8 @@
       },
       "credit-card": {
         "continue-billing": "Ga verder naar factureringsgegevens",
-        "enter-details": "Voer uw kredietkaartgegevens in",
-        "carbon-accepts-3d-secure": "Carbon aanvaard enkel 3-D Secure kredietkaarten van",
+        "enter-details": "Voer uw creditcardgegevens in",
+        "carbon-accepts-3d-secure": "Carbon aanvaard enkel 3-D Secure creditcards van",
         "select-currency-placeholder": "Selecteer valuta",
         "card-currency": "Kaartvaluta",
         "name-on-card": "Naam op de kaart",
@@ -2193,12 +2193,12 @@
         "card-number": "Kaartnummer",
         "card-number-placeholder": "0000 0000 0000 0000",
         "card-expiry-date": "Vervaldatum",
-        "card-expiry-date-placeholder": "MM/YY",
+        "card-expiry-date-placeholder": "MM/JJ",
         "cvc": "CVC",
         "cvc-placeholder": "000",
-        "step-credit-card-details": "Kredietkaartgegevens",
+        "step-credit-card-details": "Creditcardgegevens",
         "step-billing-details": "Facturatiegegevens",
-        "continue-submit-details": "Dien kredietkaartgegevens in",
+        "continue-submit-details": "Dien creditcardgegevens in",
         "address-line-2": "Gebouwnummer",
         "address-line-2-placeholder": "1",
         "address-line-1": "Straatnaam",
@@ -2249,7 +2249,7 @@
       "we-refund": "We betalen je terug",
       "destination": "Bestemming",
       "refund-time": "Wachttijd terugbetaling",
-      "no-action": "<0>NU hoeft geen acties meer te ondernemen.</0> U kunt deze pagina nu sluiten."
+      "no-action": "<0>U hoeft geen acties meer te ondernemen.</0> U kunt deze pagina nu sluiten."
     },
     "profile": {
       "carbon": {
@@ -2961,7 +2961,7 @@
     "modals": {
       "verify-mnemonic": {
         "or": "of",
-        "remindme": "herinner me later",
+        "remindme": "Herinner me later",
         "dismiss": "Voor altijd afwijzen",
         "havent-checked": "U heeft uw back-up van twaalf woorden niet gecontroleerd",
         "will-need": "U heeft deze woorden nodig om toegang te krijgen tot uw fonden als u uw wachtwoord kwijtraakt."
@@ -3801,7 +3801,7 @@
       "private-key-label": "Privésleutel",
       "private-key-sub-label-show": "Privésleutel weergeven",
       "private-key-sub-label-hide": "Privésleutel verbergen",
-      "private-key-tooltip": "Dit kan worden gebruikt om toegang te krijgen tot uw fondsen buiten Nash om. Hou het geheim.",
+      "private-key-tooltip": "Dit kan worden gebruikt om toegang te krijgen tot uw fondsen buiten Nash om. Houd het geheim.",
       "unknown-blockchain": "Onbekende blockchain",
       "wallets": {
         "eth": {
@@ -3924,7 +3924,7 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Totaal aantal NEX tokens staked",
+      "s-current-stakes": "Totaal aantal NEX-tokens staked",
       "s-stakes-in-progress": "Uw huidige stakes",
       "s-total-dividends": "Totaal aan dividend (van alle tijden)",
       "s-next-payment": "Volgende dividend betalen uit om",
@@ -4023,7 +4023,7 @@
         "create-stake-disclaimer-label": "Ik begrijp dat gestaked NEX alleen dividend uitkeert als de Nash Exchange inkomsten genereert.",
         "title": "Stake aanmaken",
         "amount-to-stake": "Hoeveelheid NEX om te staken",
-        "amount-to-stake-tooltip": "Stakingsprecentage bepaalt de omvang van uw evenredige deel van de inkomsten uit de Nash Exchange. Hoe langer u uw NEX staked, hoe hoger uw stakingsprecentage zal zijn, met een maximum van 75% voor een tijdsduur van twee jaar.\n\n<0>Een voorbeeld dividend</0>\nDividenden worden dagelijks uitgekeerd. Stel dat Nash commissie inkomsten heeft gegenereerd die gelijk zijn aan €1,000,000 in de laatste 24 uur en de gebruiker bezit 1,000 NEX tokens waarvan er totaal 50,000,000 in omloop zijn. Als de gebruiker NEX heeft gestaked voor een duur van twee jaar wat gelijk is aan stakingsprecentage van 75%, komen zij in aanmerking voor een dividenwaarde van: €1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = €15.",
+        "amount-to-stake-tooltip": "Stakingsprecentage bepaalt de omvang van uw evenredige deel van de inkomsten uit de Nash Exchange. Hoe langer u uw NEX staked, hoe hoger uw stakingsprecentage zal zijn, met een maximum van 75% voor een tijdsduur van twee jaar.\n\n<0>Een voorbeeld dividend</0>\nDividenden worden dagelijks uitgekeerd. Stel dat Nash commissie inkomsten heeft gegenereerd die gelijk zijn aan €1,000,000 in de laatste 24 uur en de gebruiker bezit 1,000 NEX-tokens waarvan er totaal 50,000,000 in omloop zijn. Als de gebruiker NEX heeft gestaked voor een duur van twee jaar wat gelijk is aan stakingsprecentage van 75%, komen zij in aanmerking voor een dividenwaarde van: €1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = €15.",
         "available-balance": "Beschikbaar saldo om te staken ⋅",
         "quick-fill-label": "Max",
         "set-stake-duration-label": "Zet een stake tijdsduur",
@@ -4039,8 +4039,8 @@
         "duration-value_plural": "<0>{{count}}</0> maanden",
         "fee-reward": "Stakingsprecentage",
         "first-payment": "Eerste betaling",
-        "agreed-to-non-cancellation-label": "Ik begrijp dat wanneer mijn NEX tokens gestaked zijn, ik deze niet kan annuleren of bewerken.",
-        "agreed-to-locked-tokens-label": "Ik begrijp dat mijn NEX tokens worden vergrendeld totdat deze stake is voltooid",
+        "agreed-to-non-cancellation-label": "Ik begrijp dat wanneer mijn NEX-tokens gestaked zijn, ik deze niet kan annuleren of bewerken.",
+        "agreed-to-locked-tokens-label": "Ik begrijp dat mijn NEX-tokens worden vergrendeld totdat deze stake is voltooid",
         "create-stake-button": "Stake aanmaken",
         "create-stake-sending-button": "Gegevens verzenden…",
         "create-stake-sending-text": "Gegevens verzenden. Houd dit venster open. Dit kan een minuut duren.",
@@ -4059,9 +4059,9 @@
       }
     },
     "no-stakes": {
-      "title": "Verdien passief inkomen door NEX tokens te staken",
-      "description-desktop": "Nieuw met staken? Leer meer over <0>NEX tokens staken</0> en <1>uw eerste stake aanmaken</1>.",
-      "description-mobile": "Nieuw met staken? Leer meer over <0>NEX tokens staken</0>.",
+      "title": "Verdien passief inkomen door NEX-tokens te staken",
+      "description-desktop": "Nieuw met staken? Leer meer over <0>NEX-tokens staken</0> en <1>uw eerste stake aanmaken</1>.",
+      "description-mobile": "Nieuw met staken? Leer meer over <0>NEX-tokens staken</0>.",
       "description-modal-create-link": "Uw eerste stake aanmaken"
     },
     "staking-view-header": {
