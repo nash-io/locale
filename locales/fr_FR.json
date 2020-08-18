@@ -229,7 +229,7 @@
     },
     "main-menu": {
       "trade": {
-        "title": "Transactions",
+        "title": "Trading",
         "pages": {
           "exchange": "Plateforme",
           "markets": "Marchés",
@@ -258,7 +258,7 @@
         "title": "Acheter/Vendre",
         "pages": {
           "buy-sell": "Acheter/Vendre",
-          "transactions": "Trading",
+          "transactions": "Historique",
           "payment-methods": "Méthodes de paiement",
           "profile": "Profil"
         }
@@ -295,14 +295,14 @@
   "sending-approval": "Envoi de l’approbation en cours…",
   "send-approval": "Envoyer l’approbation",
   "submit-transfer": "Confirmer le transfert",
-  "no-longer-sufficient-balance-for-tx": "Votre solde n’est plus suffisant pour cette transaction.",
+  "no-longer-sufficient-balance-for-tx": "Votre solde n’est plus suffisant pour ce transfert.",
   "we-are-hiring": "Nous recrutons",
   "errors": {
     "location-banned-title": "Accès bloqué",
     "location-banned": "Nash n’est malheureusement pas en capacité d’opérer dans votre juridiction pour le moment.",
     "invalid-clock-title": "L’horloge de votre ordinateur n’est pas réglée.",
     "permissions-issue-title": "Problème de permissions",
-    "invalid-clock": "Pour exécuter des transactions sur Nash, votre horloge doit être réglée. <0>Réglez votre horloge</0> puis <1>réessayez</1>.",
+    "invalid-clock": "Pour faire du trading sur Nash, votre horloge doit être réglée. <0>Réglez votre horloge</0> puis <1>réessayez</1>.",
     "network-issue-title": "Problème de réseau",
     "network-issue": "Un problème de réseau temporaire est survenu. Veuillez <0>réessayer</0>.",
     "generic-error-title": "Erreur",
@@ -2557,7 +2557,7 @@
       "order-created": "Votre ordre a été créé",
       "title": "Ordre créé",
       "deposit": "Nous déposerons vos actifs sur votre compte personnel Nash une fois votre paiement validé.",
-      "delay": "Cela peut prendre jusqu’à {{days}} jours ouvrables. Vous pouvez voir l’état de votre dépôt dans l’onglet <0>Transactions</0>.",
+      "delay": "Cela peut prendre jusqu’à {{days}} jours ouvrables. Vous pouvez voir l’état de votre dépôt dans l’onglet <0>Historique</0>.",
       "dismiss": "Voir la transaction"
     },
     "review-sell-transaction": {
