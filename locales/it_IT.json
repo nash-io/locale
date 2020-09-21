@@ -12,6 +12,8 @@
   "or": "o",
   "price": "Prezzo",
   "fee": "Commissione",
+  "fee-as-suffix": "fee",
+  "admin-link": "Quote on Admin",
   "try-again": "Riprova",
   "refresh": "Aggiorna",
   "finish": "Concludi",
@@ -32,6 +34,9 @@
   "failed-update": "Aggiornamento non riuscito",
   "reported-errors": "Segnalazione degli errori effettuata",
   "credit-card-expiry-placeholder": "MM/AA",
+  "google-play": "<0/> Google Play",
+  "apple-store": "<0/> App Store",
+  "qr": "<0/> QR <1/>",
   "apikeys": {
     "no-addresses-whitelisted": "Non hai ancora inserito indirizzi nella whitelist.",
     "address-input-placeholder": "Inserisci un indirizzo BTC, NEO o ETH da aggiungere alla whitelist",
@@ -2241,7 +2246,8 @@
       "destination-label": "Destinazione",
       "arrival-label": "Tempo di arrivo previsto",
       "arrival": "Il prima possibile",
-      "no-action": "<0>Non sono necessarie altre azioni da parte tua.</0> Ora puoi chiudere questa pagina."
+      "no-action": "<0>Non sono necessarie altre azioni da parte tua.</0> Ora puoi chiudere questa pagina.",
+      "b-view-details": "View transaction details"
     },
     "reconfirm-decline": {
       "review-header": "Hai rifiutato la tua offerta",
@@ -2577,6 +2583,7 @@
       "nash": {
         "l-you-will-sell": "Venderai",
         "l-at-current-rate": "Al tasso corrente",
+        "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
         "l-you-will-receive": "Riceverai",
         "l-pay-to": "Paga a",
         "b-cancel-sale": "Cancella la vendita",
@@ -2598,6 +2605,7 @@
       "cost": "Costerà",
       "currency-unavailable-status": "Non disponibile per l’acquisto in questo momento",
       "current-exchange-rate": "Tasso di scambio attuale",
+      "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
       "exchange-rate": "Tasso di cambio",
       "rate-change-label": "Tasso di cambio",
       "rate-protection-label": "Protetto",
@@ -2940,6 +2948,9 @@
           "trading-account": {
             "title": "Contratto di trading"
           },
+          "nash-channels": {
+            "title": "Nash Channels"
+          },
           "in-orders": {
             "title": "In ordine"
           },
@@ -2952,7 +2963,10 @@
           },
           "action-buttons": {
             "trade": "Scambia",
-            "transfer-funds": "Invia/Ricevi"
+            "transfer-funds": "Invia/Ricevi",
+            "send": "Send",
+            "receive": "Receive",
+            "nash-channels": "Nash Channels"
           }
         },
         "no-results": "Non ci sono ancora asset nel tuo account Nash."
@@ -3175,11 +3189,14 @@
     "portfolio": {
       "title": "Portafoglio",
       "header": {
-        "search-placeholder": "Cerca i miei assets…"
+        "search-placeholder": "Cerca i miei assets…",
+        "search-placeholder-transfer-redesign": "Search assets…",
+        "portfolio-notice": "These assets are traded on Nash. You can use your Nash wallet to store other assets and they will appear here."
       },
       "table": {
         "header": {
           "title": "I miei assets",
+          "title-transfer-redesign": "Assets",
           "actions": {
             "hide-small-balances": "Nascondi saldi piccoli"
           }
@@ -3190,6 +3207,7 @@
           },
           "total-balance": {
             "title": "Totale",
+            "title-transfer-redesign": "Total/value",
             "hint": "Totale tra tutti i conti, ordini ed offerte."
           },
           "fiat-value": {
@@ -3405,25 +3423,24 @@
   "referrals": {
     "title": "Programma di invito",
     "referrals": {
-      "header": "Invita un amico e ottieni biglietti",
       "desc": "Più biglietti ottieni, maggiori sono le possibilità di vincere.",
+      "affiliates-portal-link": "Go to your Affiliates portal",
       "cards": {
         "social-share": {
           "label": "Condividi il tuo codice di invito:",
           "activated-count": "{{count}} biglietto attivato",
-          "activated-count_plural": "{{count}} biglietti attivati",
           "pending-count": "{{count}} biglietto in sospeso",
           "pending-count_plural": "{{count}} biglietti in sospeso",
           "message": "Usa il mio codice di invito {{url}} per iscriversi @nashsocial giveaway! #TrustYourselves {{ytLink}}"
         },
-        "invited-users": {
-          "label": "I tuoi inviti",
-          "desc": "Queste sono le persone che hai invitato direttamente. Non possiamo mostrarti chi hanno invitato, ma puoi vedere i biglietti che hai ottenuto attraverso di loro per gli inviti indiretti.",
-          "header": "Tutto i biglietti in sospeso e attivati",
-          "col-name": "Nome",
-          "col-pending": "In sospeso",
-          "col-activated": "Attivato",
-          "me": "{{name}} (me)"
+        "info": {
+          "title-0": "Invite friends to earn commission sooner!",
+          "subtitle-0": "With more volume, you’ll qualify as a Rising Star and start earning commission.",
+          "title-20": "Invite friends to enjoy higher rewards!",
+          "subtitle-20": "With more volume, you’ll qualify as a VIP and earn higher commission rates.",
+          "title-25": "Invite friends to earn more rewards!",
+          "subtitle-25": "The more friends you have trading, the more 25% rewards you’ll receive.",
+          "watch-video-or-learn-more": "<0>Watch the video</0> or <1>learn more</1>"
         }
       }
     }
@@ -3724,6 +3741,10 @@
           "enable": "Abilita",
           "disable": "Disabilita (non raccomandato)"
         },
+        "auto-logout": {
+          "label": "Automatic sign out",
+          "desc": "Don’t sign me out automatically"
+        },
         "all-account-activity": {
           "label": "Tutte le attività dell’account",
           "tabs": {
@@ -3960,14 +3981,19 @@
       "export-summary": "Esporta gli stake in CSV",
       "export": "Esporta i resoconti",
       "date-col": "Data di pagamento",
-      "asset-col": "Asset",
-      "dividend-col": "Dividendi ricevuti",
+      "asset-received-col": "Asset received",
+      "assets-received-col": "Assets received",
+      "dividends-col": "Dividends received",
       "usdDividend-col": "Valore USD",
+      "usdAggregate-col": "USD aggregate",
+      "active-stakes-col": "Active stakes",
+      "and-more": "and {{count}} more",
+      "amount-at-reward": "<0 /> at {{returnRate}} fee reward",
       "stakes-in-progress": "In corso ({{date}})",
       "stakes-complete": "Completato ({{date}})",
       "total-dividends": "Totale dividendi ({{date}})",
       "paid-dividend-days": "Giorni pagati ({{date}})",
-      "all-dividends-table": "Lista dei dividendi",
+      "all-statements": "All statements",
       "till-ended_plural": "{{count}} giorni rimasti",
       "till-ended": "{{count}} giorno rimasto",
       "till-ended_today": "Termina oggi",
