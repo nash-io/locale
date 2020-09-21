@@ -12,6 +12,8 @@
   "or": "ou",
   "price": "Prix",
   "fee": "Frais",
+  "fee-as-suffix": "fee",
+  "admin-link": "Quote on Admin",
   "try-again": "Réessayer",
   "refresh": "Rafraîchir",
   "finish": "Terminer",
@@ -32,6 +34,9 @@
   "failed-update": "Échec de la mise à jour",
   "reported-errors": "Erreurs signalées",
   "credit-card-expiry-placeholder": "MM/AA",
+  "google-play": "<0/> Google Play",
+  "apple-store": "<0/> App Store",
+  "qr": "<0/> QR <1/>",
   "apikeys": {
     "no-addresses-whitelisted": "aucune adresse enregistrée",
     "address-input-placeholder": "Renseigner une adresse BTC, NEO ou ETH à ajouter sur liste blanche",
@@ -1902,7 +1907,7 @@
       "deposit-to": "Déposez {{currency}} sur",
       "pay-with-default": "Choisissez un moyen de paiement",
       "link-new-bank": "Ajouter un moyen de paiement",
-      "complete-nash-profile": "Complétez votre <0>profil Nash</0> avant de pouvoir acheter des actifs numériques",
+      "complete-nash-profile": "Complétez votre <0>profil Nash</0> avant de pouvoir acheter des actifs numériques.",
       "available-balance": "Solde disponible: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Ajouter un moyen de paiement</0> pour vendre des actifs numériques.",
       "complete-nash-profile-add-method-to-sell": "Complétez votre <0>profil Nash</0> et <1>ajoutez un moyen de paiement</1> pour vendre des actifs numériques.",
@@ -2241,7 +2246,8 @@
       "destination-label": "Destination",
       "arrival-label": "Heure de réception estimée",
       "arrival": "Dès que possible",
-      "no-action": "<0>Aucune action supplémentaire n’est requise de votre part.</0> Vous pouvez maintenant fermer cette page."
+      "no-action": "<0>Aucune action supplémentaire n’est requise de votre part.</0> Vous pouvez maintenant fermer cette page.",
+      "b-view-details": "View transaction details"
     },
     "reconfirm-decline": {
       "review-header": "Vous avez refusé le nouveau devis",
@@ -2577,6 +2583,7 @@
       "nash": {
         "l-you-will-sell": "Vous allez vendre",
         "l-at-current-rate": "Au taux actuel",
+        "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
         "l-you-will-receive": "Vous recevrez",
         "l-pay-to": "Payer à",
         "b-cancel-sale": "Annuler la vente",
@@ -2598,6 +2605,7 @@
       "cost": "Il vous en coûtera",
       "currency-unavailable-status": "Non disponible à l’achat pour le moment",
       "current-exchange-rate": "Taux de change actuel",
+      "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
       "exchange-rate": "Taux de change",
       "rate-change-label": "Taux de change",
       "rate-protection-label": "Protégé",
@@ -2940,6 +2948,9 @@
           "trading-account": {
             "title": "Contrat de trading"
           },
+          "nash-channels": {
+            "title": "Nash Channels"
+          },
           "in-orders": {
             "title": "Dans un ordre"
           },
@@ -2952,7 +2963,10 @@
           },
           "action-buttons": {
             "trade": "Trader",
-            "transfer-funds": "Envoyer/Recevoir"
+            "transfer-funds": "Envoyer/Recevoir",
+            "send": "Send",
+            "receive": "Receive",
+            "nash-channels": "Nash Channels"
           }
         },
         "no-results": "Il n’y a pas encore d’actifs dans votre compte Nash."
@@ -3175,11 +3189,14 @@
     "portfolio": {
       "title": "Portefeuille",
       "header": {
-        "search-placeholder": "Rechercher dans mes actifs…"
+        "search-placeholder": "Rechercher dans mes actifs…",
+        "search-placeholder-transfer-redesign": "Search assets…",
+        "portfolio-notice": "These assets are traded on Nash. You can use your Nash wallet to store other assets and they will appear here."
       },
       "table": {
         "header": {
           "title": "Mes Actifs",
+          "title-transfer-redesign": "Assets",
           "actions": {
             "hide-small-balances": "Masquer les petits soldes"
           }
@@ -3190,6 +3207,7 @@
           },
           "total-balance": {
             "title": "Total",
+            "title-transfer-redesign": "Total/value",
             "hint": "Total sur tous les comptes, ordres et stakes."
           },
           "fiat-value": {
@@ -3405,25 +3423,24 @@
   "referrals": {
     "title": "Programme de parrainage",
     "referrals": {
-      "header": "Parrainez un ami et gagnez des tickets",
       "desc": "Plus vous gagnez de tickets, plus vous avez de chances de gagner.",
+      "affiliates-portal-link": "Go to your Affiliates portal",
       "cards": {
         "social-share": {
           "label": "Partagez votre code de parrainage:",
           "activated-count": "{{count}} ticket activé",
-          "activated-count_plural": "{{count}} tickets activés",
           "pending-count": "{{count}} ticket en attente",
           "pending-count_plural": "{{count}} tickets en attente",
           "message": "Utilisez mon code de parrainage {{url}} pour vous inscrire à la tombola @nashsocial! #TrustYourselves {{ytLink}}"
         },
-        "invited-users": {
-          "label": "Vos parrainages",
-          "desc": "Ce sont les personnes que vous avez parrainées directement. Nous ne pouvons pas vous montrer qui ils ont eux-mêmes parrainé, mais vous pouvez voir les tickets que vous avez gagnés grâce à eux par parrainage indirect.",
-          "header": "Tous ceux en attente et/ou activés",
-          "col-name": "Nom",
-          "col-pending": "En attente",
-          "col-activated": "Activé",
-          "me": "{{name}} (moi)"
+        "info": {
+          "title-0": "Invite friends to earn commission sooner!",
+          "subtitle-0": "With more volume, you’ll qualify as a Rising Star and start earning commission.",
+          "title-20": "Invite friends to enjoy higher rewards!",
+          "subtitle-20": "With more volume, you’ll qualify as a VIP and earn higher commission rates.",
+          "title-25": "Invite friends to earn more rewards!",
+          "subtitle-25": "The more friends you have trading, the more 25% rewards you’ll receive.",
+          "watch-video-or-learn-more": "<0>Watch the video</0> or <1>learn more</1>"
         }
       }
     }
@@ -3724,6 +3741,10 @@
           "enable": "Activer",
           "disable": "Désactiver (non recommandé)"
         },
+        "auto-logout": {
+          "label": "Automatic sign out",
+          "desc": "Don’t sign me out automatically"
+        },
         "all-account-activity": {
           "label": "Toute l’activité du compte",
           "tabs": {
@@ -3960,14 +3981,19 @@
       "export-summary": "Exporter vos stakes vers un fichier CSV",
       "export": "Déclaration d’exportation",
       "date-col": "Date de paiement",
-      "asset-col": "Actif",
-      "dividend-col": "Dividende reçu",
+      "asset-received-col": "Asset received",
+      "assets-received-col": "Assets received",
+      "dividends-col": "Dividends received",
       "usdDividend-col": "Valeur USD",
+      "usdAggregate-col": "USD aggregate",
+      "active-stakes-col": "Active stakes",
+      "and-more": "and {{count}} more",
+      "amount-at-reward": "<0 /> at {{returnRate}} fee reward",
       "stakes-in-progress": "En cours ({{date}})",
       "stakes-complete": "Terminé ({{date}})",
       "total-dividends": "Total des dividendes ({{date}})",
       "paid-dividend-days": "Jours payés ({{date}})",
-      "all-dividends-table": "Liste des dividendes",
+      "all-statements": "All statements",
       "till-ended_plural": "{{count}} jours restants",
       "till-ended": "{{count}} jour restant",
       "till-ended_today": "Se terminant aujourd’hui",
