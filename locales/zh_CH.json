@@ -12,6 +12,8 @@
   "or": "或",
   "price": "价格",
   "fee": "费率",
+  "fee-as-suffix": "fee",
+  "admin-link": "Quote on Admin",
   "try-again": "再次尝试",
   "refresh": "刷新",
   "finish": "完成",
@@ -32,6 +34,9 @@
   "failed-update": "未能更新",
   "reported-errors": "报告了错误",
   "credit-card-expiry-placeholder": "MM/YY",
+  "google-play": "<0/> Google Play",
+  "apple-store": "<0/> App Store",
+  "qr": "<0/> QR <1/>",
   "apikeys": {
     "no-addresses-whitelisted": "你尚未将任何地址列入白名单。",
     "address-input-placeholder": "输入BTC，NEO或ETH地址以列入白名单",
@@ -2241,7 +2246,8 @@
       "destination-label": "Destination",
       "arrival-label": "Estimated time of arrival",
       "arrival": "As soon as possible",
-      "no-action": "<0>No more actions are needed from you.</0> You can now close this page."
+      "no-action": "<0>No more actions are needed from you.</0> You can now close this page.",
+      "b-view-details": "View transaction details"
     },
     "reconfirm-decline": {
       "review-header": "You declined the new quote",
@@ -2577,6 +2583,7 @@
       "nash": {
         "l-you-will-sell": "You will sell",
         "l-at-current-rate": "At the current rate",
+        "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
         "l-you-will-receive": "You will receive",
         "l-pay-to": "Pay to",
         "b-cancel-sale": "Cancel sale",
@@ -2598,6 +2605,7 @@
       "cost": "It will cost",
       "currency-unavailable-status": "Not available to purchase at this time",
       "current-exchange-rate": "Current exchange rate",
+      "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
       "exchange-rate": "Exchange rate",
       "rate-change-label": "Exchange rate",
       "rate-protection-label": "Protected",
@@ -2940,6 +2948,9 @@
           "trading-account": {
             "title": "Trading contract"
           },
+          "nash-channels": {
+            "title": "Nash Channels"
+          },
           "in-orders": {
             "title": "In orders"
           },
@@ -2952,7 +2963,10 @@
           },
           "action-buttons": {
             "trade": "Trade",
-            "transfer-funds": "Send/Receive"
+            "transfer-funds": "Send/Receive",
+            "send": "Send",
+            "receive": "Receive",
+            "nash-channels": "Nash Channels"
           }
         },
         "no-results": "There are not yet any assets in your Nash account."
@@ -3175,11 +3189,14 @@
     "portfolio": {
       "title": "Portfolio",
       "header": {
-        "search-placeholder": "Search my assets…"
+        "search-placeholder": "Search my assets…",
+        "search-placeholder-transfer-redesign": "Search assets…",
+        "portfolio-notice": "These assets are traded on Nash. You can use your Nash wallet to store other assets and they will appear here."
       },
       "table": {
         "header": {
           "title": "My assets",
+          "title-transfer-redesign": "Assets",
           "actions": {
             "hide-small-balances": "Hide small balances"
           }
@@ -3190,6 +3207,7 @@
           },
           "total-balance": {
             "title": "Total",
+            "title-transfer-redesign": "Total/value",
             "hint": "Total across all accounts, orders and stakes."
           },
           "fiat-value": {
@@ -3405,25 +3423,24 @@
   "referrals": {
     "title": "Referral program",
     "referrals": {
-      "header": "Refer a friend and earn tickets",
       "desc": "The more tickets you earn, the higher chance you have of winning.",
+      "affiliates-portal-link": "Go to your Affiliates portal",
       "cards": {
         "social-share": {
           "label": "Share your referral code:",
           "activated-count": "{{count}} activated ticket",
-          "activated-count_plural": "{{count}} activated tickets",
           "pending-count": "{{count}} pending ticket",
           "pending-count_plural": "{{count}} pending tickets",
           "message": "Use my referral code {{url}} to sign up for the @nashsocial giveaway! #TrustYourselves {{ytLink}}"
         },
-        "invited-users": {
-          "label": "Your referrals",
-          "desc": "These are the people you’ve referred directly. We can’t show you who they’ve referred, but you can see the tickets you’ve earned through them for indirect referrals.",
-          "header": "All pending and activated",
-          "col-name": "Name",
-          "col-pending": "Pending",
-          "col-activated": "Activated",
-          "me": "{{name}} (me)"
+        "info": {
+          "title-0": "Invite friends to earn commission sooner!",
+          "subtitle-0": "With more volume, you’ll qualify as a Rising Star and start earning commission.",
+          "title-20": "Invite friends to enjoy higher rewards!",
+          "subtitle-20": "With more volume, you’ll qualify as a VIP and earn higher commission rates.",
+          "title-25": "Invite friends to earn more rewards!",
+          "subtitle-25": "The more friends you have trading, the more 25% rewards you’ll receive.",
+          "watch-video-or-learn-more": "<0>Watch the video</0> or <1>learn more</1>"
         }
       }
     }
@@ -3724,6 +3741,10 @@
           "enable": "Enable",
           "disable": "Disable (not recommended)"
         },
+        "auto-logout": {
+          "label": "Automatic sign out",
+          "desc": "Don’t sign me out automatically"
+        },
         "all-account-activity": {
           "label": "All account activity",
           "tabs": {
@@ -3960,14 +3981,19 @@
       "export-summary": "Export stakes as CSV",
       "export": "Export statement",
       "date-col": "Payment date",
-      "asset-col": "Asset",
-      "dividend-col": "Dividend received",
+      "asset-received-col": "Asset received",
+      "assets-received-col": "Assets received",
+      "dividends-col": "Dividends received",
       "usdDividend-col": "USD value",
+      "usdAggregate-col": "USD aggregate",
+      "active-stakes-col": "Active stakes",
+      "and-more": "and {{count}} more",
+      "amount-at-reward": "<0 /> at {{returnRate}} fee reward",
       "stakes-in-progress": "In progress ({{date}})",
       "stakes-complete": "Completed ({{date}})",
       "total-dividends": "Total dividends ({{date}})",
       "paid-dividend-days": "Days paid ({{date}})",
-      "all-dividends-table": "Dividends list",
+      "all-statements": "All statements",
       "till-ended_plural": "{{count}} days left",
       "till-ended": "{{count}} day left",
       "till-ended_today": "Ending today",
