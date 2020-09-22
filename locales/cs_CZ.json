@@ -12,8 +12,8 @@
   "or": "nebo",
   "price": "Cena",
   "fee": "Poplatky",
-  "fee-as-suffix": "[Translation required: fee]",
-  "admin-link": "[Translation required: Quote on Admin]",
+  "fee-as-suffix": "poplatky",
+  "admin-link": "Nabídka pro správce",
   "try-again": "Zkus to znovu",
   "refresh": "Obnovit",
   "finish": "Ukončit",
@@ -34,9 +34,9 @@
   "failed-update": "Nahrávání selhalo",
   "reported-errors": "Chyby byly reportovány",
   "credit-card-expiry-placeholder": "MM/RR",
-  "google-play": "[Translation required: <0/> Google Play]",
-  "apple-store": "[Translation required: <0/> App Store]",
-  "qr": "[Translation required: <0/> QR <1/>]",
+  "google-play": "<0/> Google Play",
+  "apple-store": "<0/> App Store",
+  "qr": "<0/> QR <1/>",
   "apikeys": {
     "no-addresses-whitelisted": "Na whitelist jste zatím nepřidali žádnou adresu.",
     "address-input-placeholder": "Vložte BTC, NEO nebo ETH adresu na whitelist",
@@ -2247,7 +2247,7 @@
       "arrival-label": "Očekávaný čas připsání",
       "arrival": "Co nejdříve to půjde",
       "no-action": "<0>Nevyžadujeme od vás žádnou další akci.</0> Nyní můžete okno zavřít.",
-      "b-view-details": "[Translation required: View transaction details]"
+      "b-view-details": "Zobrazit detaily transakce"
     },
     "reconfirm-decline": {
       "review-header": "Zamítli jste nový kurz",
@@ -2583,7 +2583,7 @@
       "nash": {
         "l-you-will-sell": "Prodáte",
         "l-at-current-rate": "Při současném kurzu",
-        "current-global-exchange-rate": "[Translation required: Current global rate: <0 /> (CoinMarketCap)]",
+        "current-global-exchange-rate": "Aktuální globální kurz: <0 /> (CoinMarketCap)",
         "l-you-will-receive": "Získáte",
         "l-pay-to": "Komu zaplatit",
         "b-cancel-sale": "Zrušit prodej",
@@ -2605,7 +2605,7 @@
       "cost": "Bude mě to stát",
       "currency-unavailable-status": "V tuto chvíli není možné nakoupit",
       "current-exchange-rate": "Aktuální směnný kurz",
-      "current-global-exchange-rate": "[Translation required: Current global rate: <0 /> (CoinMarketCap)]",
+      "current-global-exchange-rate": "Aktuální globální kurz: <0 /> (CoinMarketCap)]",
       "exchange-rate": "Směnný kurz",
       "rate-change-label": "Směnný kurz",
       "rate-protection-label": "Chráněno",
@@ -2949,7 +2949,7 @@
             "title": "Obchodovací účet"
           },
           "nash-channels": {
-            "title": "[Translation required: Nash Channels]"
+            "title": "Kanály Nash Channels"
           },
           "in-orders": {
             "title": "V burzovních příkazech"
@@ -2964,9 +2964,9 @@
           "action-buttons": {
             "trade": "Obchodovat",
             "transfer-funds": "Poslat/Obdržet",
-            "send": "[Translation required: Send]",
-            "receive": "[Translation required: Receive]",
-            "nash-channels": "[Translation required: Nash Channels]"
+            "send": "Odeslat",
+            "receive": "Přijmout",
+            "nash-channels": "Kanály Nash"
           }
         },
         "no-results": "Zatím nemáte žádné zůstatky na vašem Nash účtu."
@@ -3190,13 +3190,13 @@
       "title": "Portfolio",
       "header": {
         "search-placeholder": "Vyhledat moje aktiva…",
-        "search-placeholder-transfer-redesign": "[Translation required: Search assets…]",
-        "portfolio-notice": "[Translation required: These assets are traded on Nash. You can use your Nash wallet to store other assets and they will appear here.]"
+        "search-placeholder-transfer-redesign": "Vyhledat aktiva…",
+        "portfolio-notice": "Tyto aktiva jsou obchodovány na Nash. Nash peněženku můžete použít na ukládání jiných aktiv. Ty se poté zobrazí zde."
       },
       "table": {
         "header": {
           "title": "Moje aktiva",
-          "title-transfer-redesign": "[Translation required: Assets]",
+          "title-transfer-redesign": "Aktiva",
           "actions": {
             "hide-small-balances": "Schovat aktiva s malými zůstatky"
           }
@@ -3207,7 +3207,7 @@
           },
           "total-balance": {
             "title": "Celkem",
-            "title-transfer-redesign": "[Translation required: Total/value]",
+            "title-transfer-redesign": "Celkem/hodnota",
             "hint": "Celková suma napříč všemi účty, příkazy a ‘staky’."
           },
           "fiat-value": {
@@ -3424,7 +3424,7 @@
     "title": "Doporučení",
     "referrals": {
       "desc": "Čím více lístků získáte, tím větší šance na výhru.",
-      "affiliates-portal-link": "[Translation required: Go to your Affiliates portal]",
+      "affiliates-portal-link": "Přejít na svůj portál přidružených společností",
       "cards": {
         "social-share": {
           "label": "Nasdílet váš kód doporučení:",
@@ -3434,13 +3434,13 @@
           "message": "Pro účastnění se v @nashsocial darovací akci použijte můj kód doporučení {{url}}! #TrustYourselves {{ytLink}}"
         },
         "info": {
-          "title-0": "[Translation required: Invite friends to earn commission sooner!]",
-          "subtitle-0": "[Translation required: With more volume, you’ll qualify as a Rising Star and start earning commission.]",
-          "title-20": "[Translation required: Invite friends to enjoy higher rewards!]",
-          "subtitle-20": "[Translation required: With more volume, you’ll qualify as a VIP and earn higher commission rates.]",
-          "title-25": "[Translation required: Invite friends to earn more rewards!]",
-          "subtitle-25": "[Translation required: The more friends you have trading, the more 25% rewards you’ll receive.]",
-          "watch-video-or-learn-more": "[Translation required: <0>Watch the video</0> or <1>learn more</1>]"
+          "title-0": "Pozvěte přátele, aby získali provizi dříve!",
+          "subtitle-0": "Díky většímu objemu se kvalifikujete jako vycházející hvězda a začnete vydělávat provize.",
+          "title-20": "Pozvěte přátele a užívejte si za to vyšší odměny!",
+          "subtitle-20": "Díky většímu objemu se kvalifikujete jako VIP a získáte vyšší sazby provizí.",
+          "title-25": "Pozvěte přátele a získejte více odměn!",
+          "subtitle-25": "Čím více vašich přátel bude obchodovat, tím více 25% odměn získáte.",
+          "watch-video-or-learn-more": "<0>Podívat se na video</0> nebo <1>dozvědět se více</1>"
         }
       }
     }
@@ -3742,8 +3742,8 @@
           "disable": "Vypnout (není doporučeno)"
         },
         "auto-logout": {
-          "label": "[Translation required: Automatic sign out]",
-          "desc": "[Translation required: Don’t sign me out automatically]"
+          "label": "Automatické odhlášení",
+          "desc": "Neodhlašovat mě automaticky"
         },
         "all-account-activity": {
           "label": "Všechny aktivity na účtě",
@@ -3981,19 +3981,19 @@
       "export-summary": "Exportovat staky v CSV",
       "export": "Exportovat výkazy",
       "date-col": "Datum platby",
-      "asset-received-col": "[Translation required: Asset received]",
-      "assets-received-col": "[Translation required: Assets received]",
-      "dividends-col": "[Translation required: Dividends received]",
+      "asset-received-col": "Obdržené aktivum",
+      "assets-received-col": "Obdržená aktiva",
+      "dividends-col": "Obdržené dividendy",
       "usdDividend-col": "Hodnota v USD",
-      "usdAggregate-col": "[Translation required: USD aggregate]",
-      "active-stakes-col": "[Translation required: Active stakes]",
-      "and-more": "[Translation required: and {{count}} more]",
-      "amount-at-reward": "[Translation required: <0 /> at {{returnRate}} fee reward]",
+      "usdAggregate-col": "Agregát USD",
+      "active-stakes-col": "Aktivní staky",
+      "and-more": "a {{count}} více",
+      "amount-at-reward": "<0 /> za {{returnRate}} odměna za poplatky",
       "stakes-in-progress": "Právě probíhá ({{date}})",
       "stakes-complete": "Dokončeno ({{date}})",
       "total-dividends": "Celkové dividendy ({{date}})",
       "paid-dividend-days": "Výplatní dny ({{date}})",
-      "all-statements": "[Translation required: All statements]",
+      "all-statements": "Všechny výkazy",
       "till-ended_plural": "{{count}} dnů do konce",
       "till-ended": "{{count}} den do konce",
       "till-ended_today": "Končí dnes",
