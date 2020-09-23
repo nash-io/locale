@@ -12,8 +12,8 @@
   "or": "oder",
   "price": "Preis",
   "fee": "Gebühr",
-  "fee-as-suffix": "[Translation required: fee]",
-  "admin-link": "[Translation required: Quote on Admin]",
+  "fee-as-suffix": "Gebuer",
+  "admin-link": "Kontakt zu Admin",
   "try-again": "Erneut versuchen",
   "refresh": "Aktualisieren",
   "finish": "Beenden",
@@ -34,9 +34,9 @@
   "failed-update": "Aktualisierung fehlgeschlagen",
   "reported-errors": "Fehler wurde gemeldet",
   "credit-card-expiry-placeholder": "MM/YY",
-  "google-play": "[Translation required: <0/> Google Play]",
-  "apple-store": "[Translation required: <0/> App Store]",
-  "qr": "[Translation required: <0/> QR <1/>]",
+  "google-play": "<0/> Google Play",
+  "apple-store": "<0/> App Store",
+  "qr": "<0/> QR <1/>",
   "apikeys": {
     "no-addresses-whitelisted": "Du hast noch keine Adressen auf die Whitelist gesetzt",
     "address-input-placeholder": "Gebe eine BTC-, NEO- oder ETH-Adresse in die Whitelist ein",
@@ -2247,7 +2247,7 @@
       "arrival-label": "Geschätzte Ankunftszeit",
       "arrival": "So bald wie möglich",
       "no-action": "<0>Es sind keine weiteren Aktionen von dir erforderlich.</0> Du kannst diese Seite jetzt schließen.",
-      "b-view-details": "[Translation required: View transaction details]"
+      "b-view-details": "Zeige Transaktionsdetails"
     },
     "reconfirm-decline": {
       "review-header": "Du hast das neue Angebot abgelehnt",
@@ -2583,7 +2583,7 @@
       "nash": {
         "l-you-will-sell": "Du verkaufst",
         "l-at-current-rate": "Zum aktuellen Kurs",
-        "current-global-exchange-rate": "[Translation required: Current global rate: <0 /> (CoinMarketCap)]",
+        "current-global-exchange-rate": "Aktuelle globale Rate: <0 /> (CoinMarketCap)]",
         "l-you-will-receive": "Du erhälst",
         "l-pay-to": "Zahle an",
         "b-cancel-sale": "Verkauf abbrechen",
@@ -2605,7 +2605,7 @@
       "cost": "Es wird Folgendes kosten",
       "currency-unavailable-status": "Zur Zeit nicht erhältlich",
       "current-exchange-rate": "Aktueller Wechselkurs",
-      "current-global-exchange-rate": "[Translation required: Current global rate: <0 /> (CoinMarketCap)]",
+      "current-global-exchange-rate": "Aktuelle globale Rate: <0 /> (CoinMarketCap)",
       "exchange-rate": "Wechselkurs",
       "rate-change-label": "Wechselkurs",
       "rate-protection-label": "Geschützt",
@@ -2949,7 +2949,7 @@
             "title": "Trading Contract"
           },
           "nash-channels": {
-            "title": "[Translation required: Nash Channels]"
+            "title": "Nash Channels"
           },
           "in-orders": {
             "title": "Im Handel"
@@ -2964,9 +2964,9 @@
           "action-buttons": {
             "trade": "Handeln",
             "transfer-funds": "Senden/Empfangen",
-            "send": "[Translation required: Send]",
-            "receive": "[Translation required: Receive]",
-            "nash-channels": "[Translation required: Nash Channels]"
+            "send": "Senden",
+            "receive": "Empfangen",
+            "nash-channels": "Nash Channels"
           }
         },
         "no-results": "Du hast noch keine Assets auf deinem Nash-Konto."
@@ -3190,13 +3190,13 @@
       "title": "Geschäftsbereich",
       "header": {
         "search-placeholder": "Meine Assets durchsuchen …",
-        "search-placeholder-transfer-redesign": "[Translation required: Search assets…]",
-        "portfolio-notice": "[Translation required: These assets are traded on Nash. You can use your Nash wallet to store other assets and they will appear here.]"
+        "search-placeholder-transfer-redesign": "Suche assets…",
+        "portfolio-notice": "Diese Assets werden an Nash gehandelt. Du kannst dein Nash-Wallet verwenden, um andere Assets zu speichern. Diese werden hier angezeigt."
       },
       "table": {
         "header": {
           "title": "Einzelne Assets",
-          "title-transfer-redesign": "[Translation required: Assets]",
+          "title-transfer-redesign": "Assets",
           "actions": {
             "hide-small-balances": "Geringe Beträge nicht anzeigen"
           }
@@ -3207,7 +3207,7 @@
           },
           "total-balance": {
             "title": "Gesamt",
-            "title-transfer-redesign": "[Translation required: Total/value]",
+            "title-transfer-redesign": "Total/Wert",
             "hint": "Summe über alle Konten, Orders und Stakes."
           },
           "fiat-value": {
@@ -3424,7 +3424,7 @@
     "title": "Empfehlungsprogramm",
     "referrals": {
       "desc": "Je mehr Lose du verdienst, desto höher ist deine Gewinnchance.",
-      "affiliates-portal-link": "[Translation required: Go to your Affiliates portal]",
+      "affiliates-portal-link": "Gehe zum Affiliate Portal",
       "cards": {
         "social-share": {
           "label": "Empfehlungscode teilen:",
@@ -3434,13 +3434,13 @@
           "message": "Use my referral code {{url}} to sign up for the @nashsocial giveaway! #TrustYourselves {{ytLink}}"
         },
         "info": {
-          "title-0": "[Translation required: Invite friends to earn commission sooner!]",
-          "subtitle-0": "[Translation required: With more volume, you’ll qualify as a Rising Star and start earning commission.]",
-          "title-20": "[Translation required: Invite friends to enjoy higher rewards!]",
-          "subtitle-20": "[Translation required: With more volume, you’ll qualify as a VIP and earn higher commission rates.]",
-          "title-25": "[Translation required: Invite friends to earn more rewards!]",
-          "subtitle-25": "[Translation required: The more friends you have trading, the more 25% rewards you’ll receive.]",
-          "watch-video-or-learn-more": "[Translation required: <0>Watch the video</0> or <1>learn more</1>]"
+          "title-0": "Lade Freunde ein, um Provision zu verdienen!",
+          "subtitle-0": "Mit mehr Volumen qualifizierst du dich als Rising Star und verdienst mehr Provisionen.",
+          "title-20": "Lade Freunde ein um höhere Belohnungen zu genießen!",
+          "subtitle-20": "Mit mehr Volumen qualifizierst du dich als Rising Star und verdienst noch mehr Provisionen.",
+          "title-25": "Lade Freunde ein um höhere Belohnungen zu genießen!",
+          "subtitle-25": "Umso mehr Freunde von dir Traden, desto 25% Belohnungen erhälst du.",
+          "watch-video-or-learn-more": "<0>Schaue dieses Video an </0> oder <1>erfahre mehr</1>"
         }
       }
     }
@@ -3742,8 +3742,8 @@
           "disable": "Deaktivieren (nicht empfohlen)"
         },
         "auto-logout": {
-          "label": "[Translation required: Automatic sign out]",
-          "desc": "[Translation required: Don’t sign me out automatically]"
+          "label": "Automatisches abmelden",
+          "desc": "Melde mich nicht automatisch ab]"
         },
         "all-account-activity": {
           "label": "Alle Kontoaktivitäten",
@@ -3981,19 +3981,19 @@
       "export-summary": "Export stakes as CSV",
       "export": "Auszug exportieren",
       "date-col": "Auszahlungsdatum",
-      "asset-received-col": "[Translation required: Asset received]",
-      "assets-received-col": "[Translation required: Assets received]",
-      "dividends-col": "[Translation required: Dividends received]",
+      "asset-received-col": "Asset erhalten",
+      "assets-received-col": "Assets erhalten",
+      "dividends-col": "Dividenden erhalten",
       "usdDividend-col": "Wert (USD)",
-      "usdAggregate-col": "[Translation required: USD aggregate]",
-      "active-stakes-col": "[Translation required: Active stakes]",
-      "and-more": "[Translation required: and {{count}} more]",
-      "amount-at-reward": "[Translation required: <0 /> at {{returnRate}} fee reward]",
+      "usdAggregate-col": "USD Summe",
+      "active-stakes-col": "Aktive Stakes",
+      "and-more": "und {{count}} mmehr]",
+      "amount-at-reward": "<0 /> beim {{returnRate}} Gebühren belohnung",
       "stakes-in-progress": "Laufend ({{date}})",
       "stakes-complete": "Abgeschlossen ({{date}})",
       "total-dividends": "Gesamtdividenden ({{date}})",
       "paid-dividend-days": "Aktive Tage ({{date}})",
-      "all-statements": "[Translation required: All statements]",
+      "all-statements": "Alle Stakes",
       "till-ended_plural": "{{count}} verbleibende Tage",
       "till-ended": "{{count}} verbleibender Tag",
       "till-ended_today": "Endet heute",
