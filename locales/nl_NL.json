@@ -12,8 +12,8 @@
   "or": "of",
   "price": "Prijs",
   "fee": "Commissie",
-  "fee-as-suffix": "[Translation required: fee]",
-  "admin-link": "[Translation required: Quote on Admin]",
+  "fee-as-suffix": "Commissie",
+  "admin-link": "Quote op Admin",
   "try-again": "Probeer opnieuw",
   "refresh": "Vernieuw",
   "finish": "Beëindigen",
@@ -34,9 +34,9 @@
   "failed-update": "Update mislukt",
   "reported-errors": "Fouten gerapporteerd",
   "credit-card-expiry-placeholder": "MM/JJ",
-  "google-play": "[Translation required: <0/> Google Play]",
-  "apple-store": "[Translation required: <0/> App Store]",
-  "qr": "[Translation required: <0/> QR <1/>]",
+  "google-play": "<0/> Google Play",
+  "apple-store": "<0/> App Store",
+  "qr": "<0/> QR <1/>",
   "apikeys": {
     "no-addresses-whitelisted": "Je hebt nog geen gewhiteliste adressen.",
     "address-input-placeholder": "Voer een BTC, NEO of ETH-adres in om te whitelisten",
@@ -2247,7 +2247,7 @@
       "arrival-label": "Geschatte aankomsttijd",
       "arrival": "Zo snel mogelijk",
       "no-action": "<0>U hoeft geen acties meer te ondernemen.</0> YU kunt deze pagina nu sluiten.",
-      "b-view-details": "[Translation required: View transaction details]"
+      "b-view-details": "Bekijk transactiegegevens"
     },
     "reconfirm-decline": {
       "review-header": "U heeft de nieuwe quote geweigerd",
@@ -2583,7 +2583,7 @@
       "nash": {
         "l-you-will-sell": "U zal verkopen",
         "l-at-current-rate": "Tegen het huidige tarief",
-        "current-global-exchange-rate": "[Translation required: Current global rate: <0 /> (CoinMarketCap)]",
+        "current-global-exchange-rate": "Huidig globaal tarief: <0 /> (CoinMarketCap)",
         "l-you-will-receive": "U zal ontvangen",
         "l-pay-to": "Betaal aan",
         "b-cancel-sale": "Verkoop annuleren",
@@ -2605,7 +2605,7 @@
       "cost": "Het kost",
       "currency-unavailable-status": "Niet beschikbaar om te kopen op dit moment",
       "current-exchange-rate": "Huidige wisselkoers",
-      "current-global-exchange-rate": "[Translation required: Current global rate: <0 /> (CoinMarketCap)]",
+      "current-global-exchange-rate": "Huidig globaal tarief: <0 /> (CoinMarketCap)",
       "exchange-rate": "Wisselkoers",
       "rate-change-label": "Wisselkoers",
       "rate-protection-label": "Beschermd",
@@ -2949,7 +2949,7 @@
             "title": "Handelscontract"
           },
           "nash-channels": {
-            "title": "[Translation required: Nash Channels]"
+            "title": "Nash Kanalen"
           },
           "in-orders": {
             "title": "In orders"
@@ -2964,9 +2964,9 @@
           "action-buttons": {
             "trade": "Handel",
             "transfer-funds": "Verzenden/ontvangen",
-            "send": "[Translation required: Send]",
-            "receive": "[Translation required: Receive]",
-            "nash-channels": "[Translation required: Nash Channels]"
+            "send": "Verzend",
+            "receive": "Ontvang",
+            "nash-channels": "Nash Kanalen"
           }
         },
         "no-results": "Er zijn nog geen activa op uw Nash-account."
@@ -3190,13 +3190,13 @@
       "title": "Portfolio",
       "header": {
         "search-placeholder": "Doorzoek mijn activa…",
-        "search-placeholder-transfer-redesign": "[Translation required: Search assets…]",
-        "portfolio-notice": "[Translation required: These assets are traded on Nash. You can use your Nash wallet to store other assets and they will appear here.]"
+        "search-placeholder-transfer-redesign": "Zoek activa…",
+        "portfolio-notice": "Deze activa worden verhandeld op Nash. U kunt uw Nash-portemonnee gebruiken om andere activa op te slaan en ze worden hier weergegeven."
       },
       "table": {
         "header": {
           "title": "Mijn activa",
-          "title-transfer-redesign": "[Translation required: Assets]",
+          "title-transfer-redesign": "Activa",
           "actions": {
             "hide-small-balances": "Verberg kleine waarden"
           }
@@ -3207,7 +3207,7 @@
           },
           "total-balance": {
             "title": "Totaal",
-            "title-transfer-redesign": "[Translation required: Total/value]",
+            "title-transfer-redesign": "Totaal/waarde",
             "hint": "Totaal voor alle accounts, order en stakes."
           },
           "fiat-value": {
@@ -3424,7 +3424,7 @@
     "title": "Doorverwijzingsprogramma",
     "referrals": {
       "desc": "Hoe meer tickets je verdient, hoe groter de kans dat je wint.",
-      "affiliates-portal-link": "[Translation required: Go to your Affiliates portal]",
+      "affiliates-portal-link": "Ga naar jouw Affiliaten portaal",
       "cards": {
         "social-share": {
           "label": "Deel uw doorverwijzingscode:",
@@ -3434,13 +3434,13 @@
           "message": "Gebruik mijn doorverwijzingscode {{url}} om je in te schrijven voorde @nashsocial tombola! #TrustYourselves {{ytLink}}"
         },
         "info": {
-          "title-0": "[Translation required: Invite friends to earn commission sooner!]",
-          "subtitle-0": "[Translation required: With more volume, you’ll qualify as a Rising Star and start earning commission.]",
-          "title-20": "[Translation required: Invite friends to enjoy higher rewards!]",
-          "subtitle-20": "[Translation required: With more volume, you’ll qualify as a VIP and earn higher commission rates.]",
-          "title-25": "[Translation required: Invite friends to earn more rewards!]",
-          "subtitle-25": "[Translation required: The more friends you have trading, the more 25% rewards you’ll receive.]",
-          "watch-video-or-learn-more": "[Translation required: <0>Watch the video</0> or <1>learn more</1>]"
+          "title-0": "Nodig vrienden uit om eerder commissie te verdienen!",
+          "subtitle-0": "Met meer volume kwalificeert u zich als een Opkomende ster en begint u commissie te verdienen.",
+          "title-20": "Nodig vrienden uit om van hogere beloningen te genieten!",
+          "subtitle-20": "Met meer volume kwalificeert u zich als een VIP en verdient u hogere commissiepercentages.",
+          "title-25": "Nodig vrienden uit om meer beloningen te verdienen!",
+          "subtitle-25": "Hoe meer vrienden u heeft die handelen, hoe meer 25%-beloningen u ontvangt.",
+          "watch-video-or-learn-more": "<0>Bekijk de video</0> of <1>leer meer</1>]"
         }
       }
     }
@@ -3742,8 +3742,8 @@
           "disable": "Uitschakelen (niet aangeraden)"
         },
         "auto-logout": {
-          "label": "[Translation required: Automatic sign out]",
-          "desc": "[Translation required: Don’t sign me out automatically]"
+          "label": "Automatisch uitloggen",
+          "desc": "Log me niet automatisch uit"
         },
         "all-account-activity": {
           "label": "Accountactiviteit",
@@ -3981,19 +3981,19 @@
       "export-summary": "Exporteer stakes als CSV",
       "export": "Exportverklaring",
       "date-col": "Betaaldatum",
-      "asset-received-col": "[Translation required: Asset received]",
-      "assets-received-col": "[Translation required: Assets received]",
-      "dividends-col": "[Translation required: Dividends received]",
+      "asset-received-col": "Activum ontvangen",
+      "assets-received-col": "Activa ontvangen",
+      "dividends-col": "Dividenden ontvangen",
       "usdDividend-col": "USD waarde",
-      "usdAggregate-col": "[Translation required: USD aggregate]",
-      "active-stakes-col": "[Translation required: Active stakes]",
-      "and-more": "[Translation required: and {{count}} more]",
-      "amount-at-reward": "[Translation required: <0 /> at {{returnRate}} fee reward]",
+      "usdAggregate-col": "Totaal USD",
+      "active-stakes-col": "Actieve stakes",
+      "and-more": "en {{count}} meer]",
+      "amount-at-reward": "<0 /> aan {{returnRate}} commissie vergoeding",
       "stakes-in-progress": "In uitvoering ({{date}})",
       "stakes-complete": "Voltooid ({{date}})",
       "total-dividends": "Totaal dividend ({{date}})",
       "paid-dividend-days": "Betaalde dagen ({{date}})",
-      "all-statements": "[Translation required: All statements]",
+      "all-statements": "Alle overzichten",
       "till-ended_plural": "{{count}} resterende dagen",
       "till-ended": "{{count}} dag resterend",
       "till-ended_today": "Eindigt vandaag",
