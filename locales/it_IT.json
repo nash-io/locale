@@ -811,6 +811,10 @@
       },
       "clear-studies-button-label": "Ripristina tutti gli indicatori"
     },
+    "update-order": {
+      "new-limit": "Set a new price",
+      "new-stop": "Set a new stop price"
+    },
     "create-order": {
       "buy": "Compra {{currencySymbol}}",
       "sell": "Vendi {{currencySymbol}}",
@@ -1908,6 +1912,7 @@
       "pay-with-default": "Seleziona un metodo di pagamento",
       "link-new-bank": "Aggiungi metodo di pagamento",
       "complete-nash-profile": "Completa il tuo <0>profilo Nash</0> prima di poter acquistare asset digitali",
+      "complete-transak-profile": "Complete your <0>Transak profile</0> to buy digital assets.",
       "available-balance": "Bilancio disponibile: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Aggiungi un metodo di pagamento</0> per vendere i tuoi asset digitali.]",
       "complete-nash-profile-add-method-to-sell": "Completa il tuo <0>profilo Nash</0> e <1>aggiungi un metodo di pagamento</1> per vendere i tuoi asset digitali.",
@@ -1992,6 +1997,13 @@
       "b-remind": "Ricordamelo più tardi",
       "b-move-to-sell": "Sposta {{asset}} per vendere →",
       "b-dismiss": "Rimuovi per sempre"
+    },
+    "verify-code": {
+      "title": "Verify code",
+      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
+      "code-label": "Enter confirmation code:",
+      "code-placeholder": "1234",
+      "submit": "Verify code"
     },
     "transactions": {
       "tab-title": "Transazione",
@@ -2262,9 +2274,6 @@
         "2fa": "Autenticazione a due fattori di Carbon",
         "create-2fa": "Abilita",
         "replace-2fa": "Disabilita",
-        "kyc-form": "Dati personali",
-        "create-kyc-form": "Aggiungi dati personali",
-        "edit-kyc-form": "Modifica dati personali",
         "verification-pending": "La verifica dell’identità è in corso",
         "verification-succeeded": "Verifica dell’identità riuscita.",
         "verification-failed": "Verifica dell’identità non riuscita. Per favore aggiorna e invia di nuovo le tue informazioni.",
@@ -2295,6 +2304,11 @@
           "warning": "Ho compreso che se cambio il mio indirizzo email, il mio account dovrà essere verificato di nuovo e che non sarò in grado di effettuare acquisti o vendite finché questa verifica sarà stata completata.",
           "field": "Indirizzo email"
         },
+        "personal-details": {
+          "edit": "Edit personal details",
+          "add": "Add personal details",
+          "label": "Personal details"
+        },
         "occupation": {
           "placeholder": "Account manager, direttore aziendale, infermiere, ecc.",
           "save": "Dichiara occupazione",
@@ -2315,11 +2329,14 @@
           "first-name-label": "Nome",
           "last-name-label": "Cognome",
           "country-label": "Paese",
-          "state-label": "Stato"
+          "state-label": "Stato",
+          "mobile-number": "Mobile number",
+          "mobile-number-required": "Mobile number"
         },
         "address": {
           "edit": "Modifica indirizzo",
           "add": "Aggiungi indirizzo",
+          "label": "Address",
           "save": "Invia indirizzo",
           "warning": "Comprendo che se modifico il mio indirizzo, il mio account dovrà essere rivisto nuovamente e non sarò in grado di effettuare acquisti o vendite fino a quando questa revisione non sarà stata completata.",
           "building-number-label": "Numero edificio",
@@ -2380,7 +2397,8 @@
           "file-failed": "Caricamento fallito: {{fileName}}",
           "file-update": "<0>Rimuovi</0> o <1>carica una nuova immagine</1>",
           "try-again": "Riprova",
-          "submit-btn": "Invia documento"
+          "submit-btn": "Invia documento",
+          "provided": "Proof of address uploaded"
         },
         "id": {
           "add": "Carica il tuo documento di identità",
@@ -2767,7 +2785,14 @@
       },
       "error": {
         "invalid-data": "Dati non validi.",
-        "unhandled-error": "Si è verificato un errore non gestito. Ricarica e riprova."
+        "unhandled-error": "Si è verificato un errore non gestito. Ricarica e riprova.",
+        "profile": "An error ocurred while loading profile data. Please reload then try again.",
+        "file-upload": "Error uploading file. Please reload then try again.",
+        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
+        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
+        "coins": "Error retrieving available coins. Please reload then try again.",
+        "kyc": "Error retrieving KYC data. Please reload then try again.",
+        "quote": "Error quoting order. Please reload then try again."
       },
       "validation": {
         "first-name-required": "Il nome è richiesto.",
@@ -2907,7 +2932,10 @@
         "created": "Creato",
         "pending": "In sospeso"
       },
-      "fetch-movements-error": "Errore durante il recupero dei dati. Si prega di aggiornare la pagina."
+      "fetch-movements-error": "Errore durante il recupero dei dati. Si prega di aggiornare la pagina.",
+      "table": {
+        "fee": "Fee"
+      }
     },
     "assets": {
       "title": "Asset",
@@ -3120,6 +3148,10 @@
             "finish": "Finito!"
           }
         }
+      },
+      "receive-assets": {
+        "wallet-address": "Wallet address",
+        "only-send-to": "Only send {{currency}} to this address!"
       },
       "transfer-info": {
         "title": "I fondi possono essere trasferiti come segue",
