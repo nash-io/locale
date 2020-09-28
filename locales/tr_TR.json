@@ -811,6 +811,10 @@
       },
       "clear-studies-button-label": "Tüm indikatörleri temizle"
     },
+    "update-order": {
+      "new-limit": "Set a new price",
+      "new-stop": "Set a new stop price"
+    },
     "create-order": {
       "buy": "Al {{currencySymbol}}",
       "sell": "Sat {{currencySymbol}}",
@@ -1908,6 +1912,7 @@
       "pay-with-default": "Ödeme şekli seç",
       "link-new-bank": "Ödeme şekli ekle",
       "complete-nash-profile": "dijital varlıkları satın almadan önce <0>Nash profile</0> tamamlayın.",
+      "complete-transak-profile": "Complete your <0>Transak profile</0> to buy digital assets.",
       "available-balance": "Available balance: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Add a payment method</0> to sell digital assets.",
       "complete-nash-profile-add-method-to-sell": "Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.",
@@ -1992,6 +1997,13 @@
       "b-remind": "Remind me later",
       "b-move-to-sell": "Move {{asset}} to sell →",
       "b-dismiss": "Dismiss forever"
+    },
+    "verify-code": {
+      "title": "Verify code",
+      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
+      "code-label": "Enter confirmation code:",
+      "code-placeholder": "1234",
+      "submit": "Verify code"
     },
     "transactions": {
       "tab-title": "Transaction",
@@ -2262,9 +2274,6 @@
         "2fa": "Carbon two-factor authentication",
         "create-2fa": "Enable",
         "replace-2fa": "Disable",
-        "kyc-form": "Personal details",
-        "create-kyc-form": "Add personal details",
-        "edit-kyc-form": "Edit personal details",
         "verification-pending": "Identity verification is pending.",
         "verification-succeeded": "Identity verification successful.",
         "verification-failed": "Identity verification failed. Please update and resubmit your information.",
@@ -2295,6 +2304,11 @@
           "warning": "I understand that if I change my email address, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
           "field": "Email address"
         },
+        "personal-details": {
+          "edit": "Edit personal details",
+          "add": "Add personal details",
+          "label": "Personal details"
+        },
         "occupation": {
           "placeholder": "Account manager, Company Director, Nurse, etc.",
           "save": "Declare occupation",
@@ -2315,11 +2329,14 @@
           "first-name-label": "First name",
           "last-name-label": "Last name",
           "country-label": "Country",
-          "state-label": "State"
+          "state-label": "State",
+          "mobile-number": "Mobile number",
+          "mobile-number-required": "Mobile number"
         },
         "address": {
           "edit": "Edit address",
           "add": "Add address",
+          "label": "Address",
           "save": "Submit address",
           "warning": "I understand that if I change my address, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
           "building-number-label": "Building number",
@@ -2380,7 +2397,8 @@
           "file-failed": "Upload failed: {{fileName}}",
           "file-update": "<0>Remove</0> or <1>upload a new image</1>",
           "try-again": "Try again",
-          "submit-btn": "Submit document"
+          "submit-btn": "Submit document",
+          "provided": "Proof of address uploaded"
         },
         "id": {
           "add": "Upload your identity document",
@@ -2767,7 +2785,14 @@
       },
       "error": {
         "invalid-data": "Invalid data.",
-        "unhandled-error": "An unhandled error occurred. Please reload then try again."
+        "unhandled-error": "An unhandled error occurred. Please reload then try again.",
+        "profile": "An error ocurred while loading profile data. Please reload then try again.",
+        "file-upload": "Error uploading file. Please reload then try again.",
+        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
+        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
+        "coins": "Error retrieving available coins. Please reload then try again.",
+        "kyc": "Error retrieving KYC data. Please reload then try again.",
+        "quote": "Error quoting order. Please reload then try again."
       },
       "validation": {
         "first-name-required": "First name is required.",
@@ -2907,7 +2932,10 @@
         "created": "Created",
         "pending": "Pending"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page."
+      "fetch-movements-error": "Error fetching your data. Please refresh the page.",
+      "table": {
+        "fee": "Fee"
+      }
     },
     "assets": {
       "title": "Assets",
@@ -3120,6 +3148,10 @@
             "finish": "Got it!"
           }
         }
+      },
+      "receive-assets": {
+        "wallet-address": "Wallet address",
+        "only-send-to": "Only send {{currency}} to this address!"
       },
       "transfer-info": {
         "title": "Funds can be transferred as follows",
