@@ -811,6 +811,10 @@
       },
       "clear-studies-button-label": "Smazat všechny indikátory"
     },
+    "update-order": {
+      "new-limit": "[Translation required: Set a new price]",
+      "new-stop": "[Translation required: Set a new stop price]"
+    },
     "create-order": {
       "buy": "Koupit {{currencySymbol}}",
       "sell": "Prodat {{currencySymbol}}",
@@ -1908,6 +1912,7 @@
       "pay-with-default": "Vybrat platební metodu",
       "link-new-bank": "Přidat platební metodu",
       "complete-nash-profile": "Dokončete váš <0>Nash profil</0> než budete moci nakupovat digitální aktiva",
+      "complete-transak-profile": "[Translation required: Complete your <0>Transak profile</0> to buy digital assets.]",
       "available-balance": "Zůstatek k dispozici: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Přidejte platební metodu</0> abyste mohli prodávat digitální aktiva.",
       "complete-nash-profile-add-method-to-sell": "Dokončete váš <0>Nash profil</0> a <1>přidejte platební metodu</1> abyste mohli prodávat digitální aktiva.",
@@ -1992,6 +1997,13 @@
       "b-remind": "Připomenout později",
       "b-move-to-sell": "Přesunout {{asset}} k prodeji →",
       "b-dismiss": "Již nikdy nezobrazovat"
+    },
+    "verify-code": {
+      "title": "[Translation required: Verify code]",
+      "message": "[Translation required: Please verify your email, a verification code was sended, confirm the code on the below field]",
+      "code-label": "[Translation required: Enter confirmation code:]",
+      "code-placeholder": "[Translation required: 1234]",
+      "submit": "[Translation required: Verify code]"
     },
     "transactions": {
       "tab-title": "Transakce",
@@ -2262,9 +2274,6 @@
         "2fa": "Dvoufázové ověření Carbonu",
         "create-2fa": "Zapnout",
         "replace-2fa": "Vypnout",
-        "kyc-form": "Osobní informace",
-        "create-kyc-form": "Přidat osobní informace",
-        "edit-kyc-form": "Upravit osobní informace",
         "verification-pending": "Ověření identity právě probíhá.",
         "verification-succeeded": "Ověření identity proběhlo v pořádku.",
         "verification-failed": "Ověření identity selhalo. Prosím upravte informace a znovu je odešlete.",
@@ -2295,6 +2304,11 @@
           "warning": "Potvrzuji, že při odeslání těchto informací bude můj účet být znovu zkontrolován a po dobu kontroly nebude možné usutečnit žádné transakce.",
           "field": "Emailová adresa"
         },
+        "personal-details": {
+          "edit": "[Translation required: Edit personal details]",
+          "add": "[Translation required: Add personal details]",
+          "label": "[Translation required: Personal details]"
+        },
         "occupation": {
           "placeholder": "Manažer, účetní, ředitel atd.",
           "save": "Zvolit povolání",
@@ -2315,11 +2329,14 @@
           "first-name-label": "Křestní jméno",
           "last-name-label": "Příjmení",
           "country-label": "Země",
-          "state-label": "Region"
+          "state-label": "Region",
+          "mobile-number": "[Translation required: Mobile number]",
+          "mobile-number-required": "[Translation required: Mobile number]"
         },
         "address": {
           "edit": "Změnit adresu",
           "add": "Přidat adresu",
+          "label": "[Translation required: Address]",
           "save": "Odeslat adresu",
           "warning": "Potvrzuji, že při odeslání těchto informací bude můj účet být znovu zkontrolován a po dobu kontroly nebude možné usutečnit žádné transakce.",
           "building-number-label": "Číslo popisné",
@@ -2380,7 +2397,8 @@
           "file-failed": "Nahrání selhalo: {{fileName}}",
           "file-update": "<0>Odstranit</0> nebo <1>narát nový obrázek</1>",
           "try-again": "Zkusit znovu",
-          "submit-btn": "Odeslat dokumenty"
+          "submit-btn": "Odeslat dokumenty",
+          "provided": "[Translation required: Proof of address uploaded]"
         },
         "id": {
           "add": "Přidat průkaz totožnosti",
@@ -2767,7 +2785,14 @@
       },
       "error": {
         "invalid-data": "Špatná data.",
-        "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu."
+        "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu.",
+        "profile": "[Translation required: An error ocurred while loading profile data. Please reload then try again.]",
+        "file-upload": "[Translation required: Error uploading file. Please reload then try again.]",
+        "bank-account": "[Translation required: Error retrieving your bank accounts. Please reload then try again.]",
+        "platform": "[Translation required: Error retrieving data from CCPRO. Please reload then try again.]",
+        "coins": "[Translation required: Error retrieving available coins. Please reload then try again.]",
+        "kyc": "[Translation required: Error retrieving KYC data. Please reload then try again.]",
+        "quote": "[Translation required: Error quoting order. Please reload then try again.]"
       },
       "validation": {
         "first-name-required": "Zadejte křestní jméno.",
@@ -2907,7 +2932,10 @@
         "created": "Vytvořené",
         "pending": "Čekající"
       },
-      "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku."
+      "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku.",
+      "table": {
+        "fee": "[Translation required: Fee]"
+      }
     },
     "assets": {
       "title": "Aktiva",
@@ -3120,6 +3148,10 @@
             "finish": "Rozumím!"
           }
         }
+      },
+      "receive-assets": {
+        "wallet-address": "[Translation required: Wallet address]",
+        "only-send-to": "[Translation required: Only send {{currency}} to this address!]"
       },
       "transfer-info": {
         "title": "Prostředky jsou posílány následovně",
