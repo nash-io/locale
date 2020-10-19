@@ -37,6 +37,8 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
+  "dismiss-forever": "Dismiss forever",
+  "remind-me-later": "Remind me later",
   "apikeys": {
     "no-addresses-whitelisted": "Você ainda não listou nenhum endereço.",
     "address-input-placeholder": "Digite um endereço BTC, NEO ou ETH para whitelist",
@@ -344,7 +346,8 @@
   "account-types": {
     "personal": "Carteira pessoal",
     "trading": "Contrato de negociação",
-    "external": "Carteira Externa"
+    "external": "Carteira Externa",
+    "nash-channels": "Nash Channels"
   },
   "query-errors": {
     "failed": "Falha no carregamento.",
@@ -707,6 +710,13 @@
       "24h-volume": "Volume",
       "my-portfolio": "Meu portfólio"
     },
+    "banners": {
+      "USDT-USDC": {
+        "remind-later": "Remind me later",
+        "dismiss-forever": "Dismiss forever",
+        "no-fees": "No fees are charged on this market until March 2021"
+      }
+    },
     "tips": {
       "balance": "<0>Tip</0> <1>Envie fundos para o contrato de negociação aqui.</1> <2 />"
     },
@@ -813,7 +823,9 @@
     },
     "update-order": {
       "new-limit": "Set a new price",
-      "new-stop": "Set a new stop price"
+      "new-stop": "Set a new stop price",
+      "save": "Save changes",
+      "cancel": "Cancel"
     },
     "create-order": {
       "buy": "Comprar {{currencySymbol}}",
@@ -1960,6 +1972,9 @@
       "purchase-btn": "Reveja minha cotação",
       "buy": "compre",
       "sell": "vender",
+      "purchase-review": {
+        "message": "The cryptocurrency price shown is just an estimate. The actual price will be determined when your fiat payment is settled. This means that you may receive less (or more) cryptocurrency than expected."
+      },
       "purchase-failure": {
         "title": "Havia um problema. A compra não foi efetuada.",
         "button": "OK",
@@ -2625,6 +2640,7 @@
       "current-exchange-rate": "Taxa de câmbio atual",
       "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
       "exchange-rate": "Taxa de Câmbio",
+      "fees": "Fees",
       "rate-change-label": "Taxa de Câmbio",
       "rate-protection-label": "Protegido",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
@@ -2670,6 +2686,7 @@
       "l-sell-add-source": "Please declare your source of funds for this particular sale.",
       "l-buy-add-source": "Please declare your source of funds for this particular purchase.",
       "quote-accepted-title": "Cotação aceita",
+      "confirm-payment-countdown": "This order will expire in {{minutes}}:{{seconds}}.",
       "title": "Aquisição de ativos digitais",
       "source-of-funds-modal": {
         "title": "Source of funds",
@@ -2864,11 +2881,12 @@
         "no-transactions": "Você ainda não comprou ou vendeu nenhum ativo digital."
       },
       "payment-methods": {
-        "currency": "Moeda",
+        "bank-address": "Bank address",
         "bank-name": "Nome do banco",
+        "currency": "Moeda",
         "iban": "IBAN",
-        "swift": "SWIFT/BIC",
-        "remove-bank-account": "Remover {{iban}}?"
+        "remove-bank-account": "Remover {{iban}}?",
+        "swift": "SWIFT/BIC"
       },
       "editor": {
         "phone": {
@@ -2899,6 +2917,7 @@
           "upload-label-format": "Extensões de arquivos aceitas: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Tamanho máximo do arquivo: 10MB."
         },
         "bank-account": {
+          "bank-address-placeholder": "Enter your bank’s address",
           "bank-name-placeholder": "Digite o nome do seu banco",
           "iban-placeholder": "por exemplo DE89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. CLBABU7S"
@@ -3045,7 +3064,8 @@
           "movement": {
             "error": "Por favor aguarde até que sua última transferência Ethereum termine.",
             "pending-error": "Por favor aguarde até que a sua transferência Ethereum pendente seja concluída.",
-            "token-requires-approval": "Aprovação de {{ amount }} {{ currency }} é necessário para que este token seja transferido para o contrato de negociação."
+            "token-requires-approval": "Aprovação de {{ amount }} {{ currency }} é necessário para que este token seja transferido para o contrato de negociação.",
+            "too-many-utxo": "Please send your NEO/GAS to yourself to simplify your wallet balance data. You will then be able to deposit to the trading contract."
           },
           "transfer-amount": {
             "label": "Valor a transferir",
@@ -3301,6 +3321,15 @@
       }
     }
   },
+  "fees": {
+    "title": "Network fee",
+    "title_plural": "Network fees",
+    "options": {
+      "fast": "Fast",
+      "standard": "Standard",
+      "slow": "Slow (safe)"
+    }
+  },
   "markets": {
     "title": "Mercados",
     "all": "All",
@@ -3386,12 +3415,24 @@
       "send-funds": "Enviar fundos",
       "withdrawal-details": "Detalhes da retirada",
       "to-external-address": "Para endereço externo",
-      "request-sent-to-blockchain": "Seu pedido de transferência foi enviado para a blockchain."
+      "request-sent-to-blockchain": "Seu pedido de transferência foi enviado para a blockchain.",
+      "no-funds": "You don’t have any {{currency}} in your {{account}} to {{movementType}}."
     },
     "receive-funds": {
       "asset-to-receive": "Ativo a receber",
       "address-to-receive-currency": "Este é o seu endereço para receber {{currency}}",
       "receive-funds-from-external": "Receber fundos de uma carteira externa"
+    },
+    "available-funds": {
+      "available-amount-send": "Available to send",
+      "available-amount-nash-channels-deposit": "Available to deposit",
+      "available-amount-nash-channels-withdraw": "Available to withdraw",
+      "wallets": {
+        "personal-account": "Personal account",
+        "nash-channels": "Nash Channels",
+        "in-orders": "In orders",
+        "pending": "Pending"
+      }
     },
     "wallet-type": {
       "personal": "Minha carteira pessoal",
