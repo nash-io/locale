@@ -2,7 +2,7 @@
   "sandbox-warning": "Questo è un ambiente sandbox per testare l’integrazione API. Non inviare mai fondi reali qui!",
   "buy": "comprare",
   "sell": "vendere",
-  "cancel": "[Translation required: Cancel]",
+  "cancel": "Annulla",
   "continue": "Continua",
   "ok": "OK",
   "back": "Indietro",
@@ -27,7 +27,7 @@
   "market-price": "Prezzo di mercato",
   "exchange": "Scambio",
   "receive": "Ricevi",
-  "send": "[Translation required: Send]",
+  "send": "Invia",
   "wallet": "Account",
   "upload": "Carica",
   "processing": "Elaborazione in corso…",
@@ -39,10 +39,10 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
-  "dismiss-forever": "[Translation required: Dismiss forever]",
-  "remind-me-later": "[Translation required: Remind me later]",
-  "no-limit": "[Translation required: No limit]",
-  "learn-more": "[Translation required: Learn more]",
+  "dismiss-forever": "Non mostrare più",
+  "remind-me-later": "Ricordamelo più tardi",
+  "no-limit": "Nessun limite",
+  "learn-more": "Scopri di più",
   "apikeys": {
     "no-addresses-whitelisted": "Non hai ancora inserito indirizzi nella whitelist.",
     "address-input-placeholder": "Inserisci un indirizzo BTC, NEO o ETH da aggiungere alla whitelist",
@@ -218,11 +218,11 @@
       },
       "transfers": {
         "initializing": "Avvio del transferimento in corso",
-        "unlock-required": "[Translation required: Paused]",
-        "locked-tooltip": "[Translation required: You still have a transfer initializing. Transfers can not initialize while your account is locked. Unlock to continue.]",
+        "unlock-required": "In pausa",
+        "locked-tooltip": "Un tuo trasferimento si sta ancora avviando. I trasferimenti non possono avviarsi mentre il tuo account è  bloccato. Sblocca per continuare.",
         "initialized": "Trasferimento avviato",
         "tooltip": "Il tuo trasferimento è stato avviato. Se chiudi Nash o esci, verrà messo in pausa finché non accedi nuovamente",
-        "do-unlock": "[Translation required: Unlock]"
+        "do-unlock": "Sblocca"
       },
       "general-menu": {
         "settings": "Il mio profilo",
@@ -312,8 +312,8 @@
   "no-longer-sufficient-balance-for-tx": "Il tuo saldo non è sufficiente per questa transazione.",
   "we-are-hiring": "Lavora con noi",
   "errors": {
-    "invalid-address-title": "[Translation required: Invalid address on your profile]",
-    "invalid-address": "[Translation required: Please <0>contact support</0> to update your address with us.]",
+    "invalid-address-title": "Indirizzo non valido nel tuo profilo",
+    "invalid-address": "Per favore <0>contatta l'assistenza</0> per aggiornare il tuo indirizzo con noi.",
     "location-banned-title": "Accesso bloccato",
     "location-banned": "Sfortunatamente, Nash al momento non è in grado di operare nella tua giurisdizione.",
     "invalid-clock-title": "L’orologio del tuo computer non è preciso.",
@@ -356,7 +356,7 @@
     "personal": "Account personale",
     "trading": "Contratto di trading",
     "external": "Account esterno",
-    "nash-channels": "[Translation required: Nash Channels]"
+    "nash-channels": "Nash Channels"
   },
   "query-errors": {
     "failed": "Caricamento non riuscito.",
@@ -446,8 +446,8 @@
       }
     },
     "hello-mpc": {
-      "title": "[Translation required: Goodbye, private keys. Hello, MPC!]",
-      "message": "[Translation required: Our next-generation protocol is here! Your Nash wallet now signs transactions with secure multi-party computation (MPC).]"
+      "title": "Addio, chiavi private. Benvenuto, MPC!",
+      "message": "Il nostro protocollo di ultima generazione è arrivato! Ora il tuo portafoglio Nash firma le transazioni con la computazione sicura a più parti(MPC)."
     },
     "dismiss-message": "Non mostrare più questo messaggio."
   },
@@ -653,7 +653,7 @@
         "case-sensitive": "Tutte le parole sono minuscole",
         "create-my-wallet": "Crea il mio account",
         "generating-your-wallet": "Creazione del tuo account Nash in corso…",
-        "words-confirmed-continuing": "[Translation required: Words confirmed! Continuing to your account…]"
+        "words-confirmed-continuing": "Parole confermate! Procediamo verso il tuo account…"
       },
       "wallet-created": {
         "header": "Il tuo account Nash è stato creato con successo!",
@@ -723,13 +723,13 @@
     },
     "banners": {
       "USDT-USDC": {
-        "remind-later": "[Translation required: Remind me later]",
-        "dismiss-forever": "[Translation required: Dismiss forever]",
-        "no-fees": "[Translation required: No fees are charged on this market until March 2021]"
+        "remind-later": "Ricordamelo più tardi",
+        "dismiss-forever": "Non mostrare più",
+        "no-fees": "Fino a marzo 2021 non è richiesta alcuna commissione su questo mercato"
       }
     },
     "tips": {
-      "balance": "[Updated translation required: Send funds to the trading contract here.] <0>Tip</0> <1>Invia qui i fondi al contratto di trading.</1> <2 />"
+      "balance": "Invia qui i fondi al contratto di trading."
     },
     "no-markets": "Nessun mercato è attualmente disponibile.",
     "auth": {
@@ -750,7 +750,7 @@
       }
     },
     "favorite-bar": {
-      "tips": "[Updated translation required: Add favorite markets as links here.] <0>Tip</0> <1>I tuoi mercati preferiti sono collegati qui.</1> <2 />"
+      "tips": "Aggiungi qui i link ai tuoi mercati preferiti"
     },
     "market-graphs": {
       "title": "Grafici",
@@ -835,8 +835,8 @@
     "update-order": {
       "new-limit": "Set a new price",
       "new-stop": "Set a new stop price",
-      "save": "[Translation required: Save changes]",
-      "cancel": "[Translation required: Cancel]"
+      "save": "Salva modifiche",
+      "cancel": "Annulla"
     },
     "create-order": {
       "buy": "Compra {{currencySymbol}}",
@@ -1877,7 +1877,7 @@
     "limits": {
       "min-limit-message": "Acquisto minimo: <0/>",
       "min-limit": "Minimo",
-      "max-limit": "[Translation required: Maximum]",
+      "max-limit": "Massimo",
       "over-available": "Insufficiente {{asset}} nel contratto di trading"
     },
     "currencies": {
@@ -1950,7 +1950,7 @@
       "want-to-sell-input-label": "Voglio vendere",
       "spend": "Spendere",
       "purchase": "Acquista",
-      "purchase-after-fee": "[Translation required: Purchase <0>(after fees)</0>]",
+      "purchase-after-fee": "Acquista <0>(al netto delle commissioni)</0>",
       "cost-me-input-label": "Voglio spendere",
       "i-want-to-pay-input-label": "Voglio pagare",
       "receive-input-label": "Riceverò",
@@ -1977,8 +1977,8 @@
       "daily-remaining": "<0 /> rimanenti",
       "limit-exceeded": "<0 /> limite superato",
       "minimum-not-reached": "L’acquisto minimo è <0 />",
-      "min-amount-validation": "[Translation required: Minimum <0>{{value}} per order</0>]",
-      "max-amount-validation": "[Translation required: Maximum <0>{{value}} per order</0>]",
+      "min-amount-validation": "Minimo <0>{{value}} per ordine</0>",
+      "max-amount-validation": "Massimo <0>{{value}} per ordine</0>",
       "default-warning-message": "Devi completare il tuo <0>profilo {{providerName}}</0> e <1>collegare un conto bancario</1> prima di {{buy}} {{asset}}.",
       "bank-account-warning-message": "Devi <0>collegare un conto bancario</0> prima di {{buy}} {{asset}}.",
       "fiat-provider-warning-message": "Devi completare il tuo <0>profilo {{providerName}}</0> prima di {{buy}} {{asset}}.",
@@ -1988,7 +1988,7 @@
       "buy": "compra",
       "sell": "vendi",
       "purchase-review": {
-        "message": "[Translation required: The cryptocurrency price shown is just an estimate. The actual price will be determined when your fiat payment is settled. This means that you may receive less (or more) cryptocurrency than expected.]"
+        "message": "Il prezzo della criptovaluta mostrato è solo una stima. Il prezzo effettivo sarà determinato una volta concluso il tuo pagamento in fiat. Ciò significa che potresti ricevere meno (o più) criptovaluta del previsto."
       },
       "purchase-failure": {
         "title": "C’è un problema. L’acquisto non è andato a buon fine.",
@@ -2027,19 +2027,19 @@
       "b-remind": "Ricordamelo più tardi",
       "b-move-to-sell": "Sposta {{asset}} per vendere →",
       "b-dismiss": "Rimuovi per sempre",
-      "total-fees": "[Translation required: Total fees]"
+      "total-fees": "Commissioni totali"
     },
     "verify-code": {
       "title": "Verify code",
-      "verify-email": "[Translation required: Verify your email]",
-      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
-      "transak-message": "[Translation required: We’ve sent a verification code to {{email}}]",
-      "code-label": "Enter confirmation code:",
-      "transak-code-label": "[Translation required: Enter your one-time OTP code]",
+      "verify-email": "Verifica la tua email",
+      "message": "Per favore verifica la tua email, ti abbiamo inviato un codice di verifica, conferma il codice nel campo sottostante",
+      "transak-message": "Abbiamo inviato un codice di verifica a {{email}}",
+      "code-label": "Inserisci codice di conferma:",
+      "transak-code-label": "Inserisci il tuo codice OTP monouso",
       "code-placeholder": "1234",
       "transak-terms": "[Translation required: I agree with Transak’s <0>Terms of Use</0> and <1>Privacy Policy</1>.]",
-      "submit": "Verify code",
-      "transak-submit": "[Translation required: Verify OTP code]"
+      "submit": "Verifica codice",
+      "transak-submit": "Verifica codice OTP"
     },
     "transactions": {
       "tab-title": "Transazione",
