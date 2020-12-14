@@ -2,6 +2,7 @@
   "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
   "buy": "koupit",
   "sell": "prodat",
+  "cancel": "Cancel",
   "continue": "Pokračovat",
   "ok": "OK",
   "back": "Zpět",
@@ -12,8 +13,8 @@
   "or": "nebo",
   "price": "Cena",
   "fee": "Poplatky",
-  "fee-as-suffix": "fee",
-  "admin-link": "Quote on Admin",
+  "fee-as-suffix": "poplatky",
+  "admin-link": "Nabídka pro správce",
   "try-again": "Zkus to znovu",
   "refresh": "Obnovit",
   "finish": "Ukončit",
@@ -26,6 +27,7 @@
   "market-price": "Tržní cena",
   "exchange": "Burza",
   "receive": "Receive",
+  "send": "Send",
   "wallet": "Účet",
   "upload": "Nahrát",
   "processing": "Procesuji…",
@@ -37,6 +39,10 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
+  "dismiss-forever": "Dismiss forever",
+  "remind-me-later": "Remind me later",
+  "no-limit": "No limit",
+  "learn-more": "Learn more",
   "apikeys": {
     "no-addresses-whitelisted": "Na whitelist jste zatím nepřidali žádnou adresu.",
     "address-input-placeholder": "Vložte BTC, NEO nebo ETH adresu na whitelist",
@@ -212,8 +218,11 @@
       },
       "transfers": {
         "initializing": "Posílám",
+        "unlock-required": "Paused",
+        "locked-tooltip": "You still have a transfer initializing. Transfers can not initialize while your account is locked. Unlock to continue.",
         "initialized": "Transfer započal",
-        "tooltip": "Stále započínáte transfer. Pokud Nash zavřete, transfer bude pozastaven do doby, než se znovu přihlásíte."
+        "tooltip": "Stále započínáte transfer. Pokud Nash zavřete, transfer bude pozastaven do doby, než se znovu přihlásíte.",
+        "do-unlock": "Unlock"
       },
       "general-menu": {
         "settings": "Můj účet",
@@ -303,6 +312,8 @@
   "no-longer-sufficient-balance-for-tx": "Váš balance není dostatečný na tuto transakci.",
   "we-are-hiring": "Nabíráme zaměstnance",
   "errors": {
+    "invalid-address-title": "Invalid address on your profile",
+    "invalid-address": "Please <0>contact support</0> to update your address with us.",
     "location-banned-title": "Přístup odepřen",
     "location-banned": "Bohužel Nash zatím nemůže fungovat ve vaší jurisdikci.",
     "invalid-clock-title": "Čas vašeho počítače není přesný.",
@@ -344,7 +355,8 @@
   "account-types": {
     "personal": "Osobní účet",
     "trading": "Obchodovací účet",
-    "external": "Externí účet"
+    "external": "Externí účet",
+    "nash-channels": "Nash Channels"
   },
   "query-errors": {
     "failed": "Nahrání selhalo.",
@@ -432,6 +444,10 @@
           "message": "‘Pro’ verze je navržená pro osobní počítače. Pokud jste na mobilním zařízení zkuste <0>‘Základní’ zobrazení</0>."
         }
       }
+    },
+    "hello-mpc": {
+      "title": "Goodbye, private keys. Hello, MPC!",
+      "message": "Our next-generation protocol is here! Your Nash wallet now signs transactions with secure multi-party computation (MPC)."
     },
     "dismiss-message": "Tuto zprávu již nikdy nezobrazovat."
   },
@@ -637,9 +653,7 @@
         "case-sensitive": "Všechna slova jsou napsána malými písmeny",
         "create-my-wallet": "Vytvořit účet",
         "generating-your-wallet": "Generujeme váš Nash účet…",
-        "errors": {
-          "create-wallet-failed": "Je nám líto. Nastala chyba při vytváření vašeho účtu. Prosím <0>odhlašte se</0> a zkuste to znovu."
-        }
+        "words-confirmed-continuing": "Words confirmed! Continuing to your account…"
       },
       "wallet-created": {
         "header": "Gratulujeme! Váš Nash účet byl úspěšně vytvořen!",
@@ -707,8 +721,15 @@
       "24h-volume": "Objemy",
       "my-portfolio": "Mé portfolio"
     },
+    "banners": {
+      "USDT-USDC": {
+        "remind-later": "Remind me later",
+        "dismiss-forever": "Dismiss forever",
+        "no-fees": "No fees are charged on this market until March 2021"
+      }
+    },
     "tips": {
-      "balance": "<0>Tip</0> <1>Pošlete si finance na váš obchodovací účet zde.</1> <2 />"
+      "balance": "Send funds to the trading contract here."
     },
     "no-markets": "Žádné trhy nejsou nyní k dispozici.",
     "auth": {
@@ -729,7 +750,7 @@
       }
     },
     "favorite-bar": {
-      "tips": "<0>Tip</0> <1>Přidejte si sem vaše oblíbené trhy.</1> <2 />"
+      "tips": "Add favorite markets as links here."
     },
     "market-graphs": {
       "title": "Grafy",
@@ -810,6 +831,12 @@
         }
       },
       "clear-studies-button-label": "Smazat všechny indikátory"
+    },
+    "update-order": {
+      "new-limit": "Set a new price",
+      "new-stop": "Set a new stop price",
+      "save": "Save changes",
+      "cancel": "Cancel"
     },
     "create-order": {
       "buy": "Koupit {{currencySymbol}}",
@@ -1756,7 +1783,7 @@
       "l-amount-to-transfer": "Množství k převodu",
       "b-move-to-sell": "Začít převod",
       "review": {
-        "l-complete": "Převod se přípravuje…]",
+        "l-complete": "Převod se přípravuje…",
         "l-transfer-details": "Detaily převodu",
         "l-error": "Někde nastala chyba",
         "l-error-description": "Žádné finanční prostředky nebyly přesunuty.",
@@ -1850,6 +1877,7 @@
     "limits": {
       "min-limit-message": "Minimální vklad: <0/>",
       "min-limit": "Minimum",
+      "max-limit": "Maximum",
       "over-available": "Nedostatek {{asset}} v obchodovacím kontraktu"
     },
     "currencies": {
@@ -1908,9 +1936,10 @@
       "pay-with-default": "Vybrat platební metodu",
       "link-new-bank": "Přidat platební metodu",
       "complete-nash-profile": "Dokončete váš <0>Nash profil</0> než budete moci nakupovat digitální aktiva",
-      "available-balance": "Zůstatek k dispozici: <0>{{amount}}</0>]",
+      "trasak-identity-verification-message": "Transak requires identity verification before this purchase can be made.",
+      "available-balance": "Zůstatek k dispozici: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Přidejte platební metodu</0> abyste mohli prodávat digitální aktiva.",
-      "complete-nash-profile-add-method-to-sell": "Dokončete váš <0>Nash profil</0> a <1>přidejte platební metodu</1> abyste mohli prodávat digitální aktiva.]",
+      "complete-nash-profile-add-method-to-sell": "Dokončete váš <0>Nash profil</0> a <1>přidejte platební metodu</1> abyste mohli prodávat digitální aktiva.",
       "no-funds-sell-1": "Ve vašem účtu není žádný {{asset}} k prodeji",
       "no-funds-sell-2": "<0>Kupte {{asset}}</0> přes Nash Cash s nulovými poplatky nebo <1>převodu peněžních prostředků</1>.",
       "must-move-funds-sell": "Abyste mohli prodat {{asset}}, musíte ho nejdřív přesunout do obchodního kontraktu.",
@@ -1921,6 +1950,7 @@
       "want-to-sell-input-label": "Chci prodat",
       "spend": "Utratit",
       "purchase": "Nakoupit",
+      "purchase-after-fee": "Purchase <0>(after fees)</0>",
       "cost-me-input-label": "Chci utratit",
       "i-want-to-pay-input-label": "Chci zaplatit",
       "receive-input-label": "Přijmu",
@@ -1947,6 +1977,8 @@
       "daily-remaining": "<0 /> zbývá",
       "limit-exceeded": "<0 /> limit překročen",
       "minimum-not-reached": "Minimální vklad je <0 />",
+      "min-amount-validation": "Minimum <0>{{value}} per order</0>",
+      "max-amount-validation": "Maximum <0>{{value}} per order</0>",
       "default-warning-message": "Před tím než budete moci {{buy}} {{asset}} musíte dokončit váš <0>{{providerName}} profil</0> a <1>přidat bankovní účet</1>.",
       "bank-account-warning-message": "Před tím než budete moci {{buy}} {{asset}} musíte <0>přidat bankovní účet</0>.",
       "fiat-provider-warning-message": "Před tím než budete moci {{buy}} {{asset}} musíte dokončit váš <0>{{providerName}} profil</0>.",
@@ -1955,6 +1987,9 @@
       "purchase-btn": "Ověřit moji cenu",
       "buy": "koupit",
       "sell": "prodat",
+      "purchase-review": {
+        "message": "The cryptocurrency price shown is just an estimate. The actual price will be determined when your fiat payment is settled. This means that you may receive less (or more) cryptocurrency than expected."
+      },
       "purchase-failure": {
         "title": "Nastala chyba a nákup nemohl být proveden.",
         "button": "OK",
@@ -1991,7 +2026,20 @@
       "l-personal-account": "Osobní účet",
       "b-remind": "Připomenout později",
       "b-move-to-sell": "Přesunout {{asset}} k prodeji →",
-      "b-dismiss": "Již nikdy nezobrazovat"
+      "b-dismiss": "Již nikdy nezobrazovat",
+      "total-fees": "Total fees"
+    },
+    "verify-code": {
+      "title": "Verify code",
+      "verify-email": "Verify your email",
+      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
+      "transak-message": "We’ve sent a verification code to {{email}}",
+      "code-label": "Enter confirmation code:",
+      "transak-code-label": "Enter your one-time OTP code",
+      "code-placeholder": "1234",
+      "transak-terms": "I agree with Transak’s <0>Terms of Use</0> and <1>Privacy Policy</1>.",
+      "submit": "Verify code",
+      "transak-submit": "Verify OTP code"
     },
     "transactions": {
       "tab-title": "Transakce",
@@ -2247,7 +2295,7 @@
       "arrival-label": "Očekávaný čas připsání",
       "arrival": "Co nejdříve to půjde",
       "no-action": "<0>Nevyžadujeme od vás žádnou další akci.</0> Nyní můžete okno zavřít.",
-      "b-view-details": "View transaction details"
+      "b-view-details": "Zobrazit detaily transakce"
     },
     "reconfirm-decline": {
       "review-header": "Zamítli jste nový kurz",
@@ -2262,9 +2310,6 @@
         "2fa": "Dvoufázové ověření Carbonu",
         "create-2fa": "Zapnout",
         "replace-2fa": "Vypnout",
-        "kyc-form": "Osobní informace",
-        "create-kyc-form": "Přidat osobní informace",
-        "edit-kyc-form": "Upravit osobní informace",
         "verification-pending": "Ověření identity právě probíhá.",
         "verification-succeeded": "Ověření identity proběhlo v pořádku.",
         "verification-failed": "Ověření identity selhalo. Prosím upravte informace a znovu je odešlete.",
@@ -2295,6 +2340,11 @@
           "warning": "Potvrzuji, že při odeslání těchto informací bude můj účet být znovu zkontrolován a po dobu kontroly nebude možné usutečnit žádné transakce.",
           "field": "Emailová adresa"
         },
+        "personal-details": {
+          "edit": "Edit personal details",
+          "add": "Add personal details",
+          "label": "Personal details"
+        },
         "occupation": {
           "placeholder": "Manažer, účetní, ředitel atd.",
           "save": "Zvolit povolání",
@@ -2315,11 +2365,14 @@
           "first-name-label": "Křestní jméno",
           "last-name-label": "Příjmení",
           "country-label": "Země",
-          "state-label": "Region"
+          "state-label": "Region",
+          "mobile-number": "Mobile number",
+          "mobile-number-required": "Mobile number"
         },
         "address": {
           "edit": "Změnit adresu",
           "add": "Přidat adresu",
+          "label": "Address",
           "save": "Odeslat adresu",
           "warning": "Potvrzuji, že při odeslání těchto informací bude můj účet být znovu zkontrolován a po dobu kontroly nebude možné usutečnit žádné transakce.",
           "building-number-label": "Číslo popisné",
@@ -2380,7 +2433,8 @@
           "file-failed": "Nahrání selhalo: {{fileName}}",
           "file-update": "<0>Odstranit</0> nebo <1>narát nový obrázek</1>",
           "try-again": "Zkusit znovu",
-          "submit-btn": "Odeslat dokumenty"
+          "submit-btn": "Odeslat dokumenty",
+          "provided": "Proof of address uploaded"
         },
         "id": {
           "add": "Přidat průkaz totožnosti",
@@ -2583,7 +2637,7 @@
       "nash": {
         "l-you-will-sell": "Prodáte",
         "l-at-current-rate": "Při současném kurzu",
-        "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
+        "current-global-exchange-rate": "Aktuální globální kurz: <0 /> (CoinMarketCap)",
         "l-you-will-receive": "Získáte",
         "l-pay-to": "Komu zaplatit",
         "b-cancel-sale": "Zrušit prodej",
@@ -2605,8 +2659,9 @@
       "cost": "Bude mě to stát",
       "currency-unavailable-status": "V tuto chvíli není možné nakoupit",
       "current-exchange-rate": "Aktuální směnný kurz",
-      "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
+      "current-global-exchange-rate": "Aktuální globální kurz: <0 /> (CoinMarketCap)",
       "exchange-rate": "Směnný kurz",
+      "fees": "Fees",
       "rate-change-label": "Směnný kurz",
       "rate-protection-label": "Chráněno",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
@@ -2652,11 +2707,12 @@
       "l-sell-add-source": "Prosím uveďte zdroj vašich příjmů pro tento prodej.",
       "l-buy-add-source": "Prosím uveďte zdroj vašich příjmů pro tento nákup.",
       "quote-accepted-title": "Cenová nabídka akceptována",
+      "confirm-payment-countdown": "This order will expire in {{minutes}}:{{seconds}}.",
       "title": "Koupit digitální měny",
       "source-of-funds-modal": {
         "title": "Zdroj příjmů",
         "label": "Vyberte nebo zadejte zdroj příjmů pro tento nákup",
-        "add-new": "+ Přidat nový]",
+        "add-new": "+ Přidat nový",
         "l-add-new": "Přidat nový zdroj příjmů",
         "b-add-new": "Uložit a použít jako nový zdroj příjmů",
         "this-is-the-source": "Tento zdroj příjmů na Nash profilu.",
@@ -2681,7 +2737,7 @@
       "transfer-to": "Poslat <0 /> na níže zmíněný účet.",
       "transfer-to-label": "Poslat toto množství",
       "name-registered": "Váš bankovní účet musí být registrovaný ve stejném jménu jako váš Nash účet.",
-      "make-transfer-soon": "Prosím uskutečněte transfer co nejrychleji to půjde. Pokud prostředky nebudou doručeny do 5 dnů, váš příkaz bude zrušený. Váš bankovní účet musí být registrován ve stejném jménu jako váš Nash účet.",
+      "receive-funds-soon": "If we do not receive your funds within five days, your order will be canceled.",
       "reference": "Platební reference",
       "need-to-include": "Toto musíte uvést do transakce.",
       "iban": "IBAN",
@@ -2690,10 +2746,13 @@
       "decline-this-quote": "Odmítnout cenu",
       "bank-name": "Jméno banky",
       "recipient-name": "Jméno adresáta",
-      "must-make-payment": "Prosím uskutečněte transfer co nejrychleji to půjde. Pokud prostředky nebudou doručeny do 5 dnů, váš příkaz bude zrušený. Máte možnost zrušit tento nákup a získat zpět peníze do doby než bude transakce vypořádaná.",
+      "recipient": "Recipient",
       "btn-cancel-quote": "Odmítnout cenu",
       "btn-close-quote": "Zavřít",
-      "btn-made-payment": "Provedl jsem platbu"
+      "btn-made-payment": "Provedl jsem platbu",
+      "use-exact-name": "Use this exact name.",
+      "recipient-address": "Recipient address",
+      "recipient-bank-country": "Recipient bank country"
     },
     "timeout-message": "Tento směnný kurz bude garantován a uamčený na:",
     "network-error": "Síťová chyba. Prosím zkuste to znovu.",
@@ -2767,7 +2826,14 @@
       },
       "error": {
         "invalid-data": "Špatná data.",
-        "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu."
+        "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu.",
+        "profile": "An error ocurred while loading profile data. Please reload then try again.",
+        "file-upload": "Error uploading file. Please reload then try again.",
+        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
+        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
+        "coins": "Error retrieving available coins. Please reload then try again.",
+        "kyc": "Error retrieving KYC data. Please reload then try again.",
+        "quote": "Error quoting order. Please reload then try again."
       },
       "validation": {
         "first-name-required": "Zadejte křestní jméno.",
@@ -2839,11 +2905,12 @@
         "no-transactions": "Ještě jste nekoupili ani neprodali žádné digitální měny."
       },
       "payment-methods": {
-        "currency": "Měna",
+        "bank-address": "Bank address",
         "bank-name": "Jmén banky",
+        "currency": "Měna",
         "iban": "IBAN",
-        "swift": "SWIFT/BIC",
-        "remove-bank-account": "Odebrat {{iban}}?"
+        "remove-bank-account": "Odebrat {{iban}}?",
+        "swift": "SWIFT/BIC"
       },
       "editor": {
         "phone": {
@@ -2874,6 +2941,7 @@
           "upload-label-format": "Akceptované formáty: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "bank-account": {
+          "bank-address-placeholder": "Enter your bank’s address",
           "bank-name-placeholder": "Napište jméno banky",
           "iban-placeholder": "e.g. CZ89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. CLBABU7S"
@@ -2907,7 +2975,10 @@
         "created": "Vytvořené",
         "pending": "Čekající"
       },
-      "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku."
+      "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku.",
+      "table": {
+        "fee": "Fee"
+      }
     },
     "assets": {
       "title": "Aktiva",
@@ -2949,7 +3020,7 @@
             "title": "Obchodovací účet"
           },
           "nash-channels": {
-            "title": "Nash Channels"
+            "title": "Kanály Nash Channels"
           },
           "in-orders": {
             "title": "V burzovních příkazech"
@@ -2964,9 +3035,9 @@
           "action-buttons": {
             "trade": "Obchodovat",
             "transfer-funds": "Poslat/Obdržet",
-            "send": "Send",
-            "receive": "Receive",
-            "nash-channels": "Nash Channels"
+            "send": "Odeslat",
+            "receive": "Přijmout",
+            "nash-channels": "Kanály Nash"
           }
         },
         "no-results": "Zatím nemáte žádné zůstatky na vašem Nash účtu."
@@ -2992,6 +3063,9 @@
             "to": "Na"
           },
           "exchange-maintenance": "Během údržby není možné převádět prostředky z a na obchodovací účet.",
+          "recipient": {
+            "placeholder": "Enter destination…"
+          },
           "contacts": {
             "label": "Místo určení",
             "placeholder": "Vyhledat z vašich kontaktů nebo poslat na novou adresu…",
@@ -3017,7 +3091,8 @@
           "movement": {
             "error": "Prosím vyčkete než se dokončí vaše poslední Ethereum transfer.",
             "pending-error": "Prosím vyčkejte než se kompletně dokončí Ethereum transfer, který je nyní v procesu dokončování.",
-            "token-requires-approval": "Pro zaslání tokenů na obchodovací účet je nutné potvrdit {{ amount }} {{ currency }}."
+            "token-requires-approval": "Pro zaslání tokenů na obchodovací účet je nutné potvrdit {{ amount }} {{ currency }}.",
+            "too-many-utxo": "Please send your NEO/GAS to yourself to simplify your wallet balance data. You will then be able to deposit to the trading contract."
           },
           "transfer-amount": {
             "label": "Množství k transferu",
@@ -3042,7 +3117,8 @@
             }
           },
           "fees": {
-            "eth-recommended-message": "Ponechte si {{amount}} ETH na vašem ocobním účtě pro budoucí poplatky Ethereum sítě."
+            "eth-recommended-message": "Ponechte si {{amount}} ETH na vašem ocobním účtě pro budoucí poplatky Ethereum sítě.",
+            "fee-shortage": "You need at least <0>{{amount}}</0> {{currencySymbol}} in your personal account to pay network fees. <1></1> Balance: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
             "neo-trading": "Nemůžete posílat ani obrdžet zlomkové hodnoty měny NEO."
@@ -3058,6 +3134,7 @@
           },
           "buttons": {
             "continue": "Pokračovat",
+            "review": "Review",
             "sent-funds": "Poslal jsem mé prostředky"
           }
         },
@@ -3081,6 +3158,8 @@
           "buttons": {
             "back": "Zpět",
             "transfer-funds": "Poslat",
+            "transfer-funds-with-currency": "Send {{currency}}",
+            "transfer-started": "Transfer started",
             "confirming": "Potvrzuji…"
           }
         },
@@ -3121,6 +3200,10 @@
           }
         }
       },
+      "receive-assets": {
+        "wallet-address": "Wallet address",
+        "only-send-to": "Only send {{currency}} to this address!"
+      },
       "transfer-info": {
         "title": "Prostředky jsou posílány následovně",
         "notice": "Obchodovat na burze Nash můžete poté, co pošlete prostředky na váš obchodovací účet.",
@@ -3156,12 +3239,15 @@
           "retry-pending": "Zkusit znovu poslat transakci",
           "cancel-intent": "Zrušit transfer",
           "clear-intent": "Smazat transfer",
+          "unlock-account": "Unlock session",
           "contact-support": "Prosím kontaktujte podporu",
           "received-currency": "Obdrženo {{currencySymbol}}",
           "receiving-currency": "Obdržuji {{currencySymbol}}",
           "transferred-currency": "Posláno {{currencySymbol}}",
           "transferring-currency": "Posílám {{currencySymbol}}",
           "initializing-currency": "Započíná {{currencySymbol}} transfer",
+          "waiting-to-witness": "Waiting for {{currencySymbol}} transfer",
+          "locked-initializing": "{{currencySymbol}} transfer needs unlocked session",
           "failed-permanently": "{{currencySymbol}} transfer selhal"
         },
         "destination": {
@@ -3190,13 +3276,13 @@
       "title": "Portfolio",
       "header": {
         "search-placeholder": "Vyhledat moje aktiva…",
-        "search-placeholder-transfer-redesign": "Search assets…",
-        "portfolio-notice": "These assets are traded on Nash. You can use your Nash wallet to store other assets and they will appear here."
+        "search-placeholder-transfer-redesign": "Vyhledat aktiva…",
+        "portfolio-notice": "Tyto aktiva jsou obchodovány na Nash. Nash peněženku můžete použít na ukládání jiných aktiv. Ty se poté zobrazí zde."
       },
       "table": {
         "header": {
           "title": "Moje aktiva",
-          "title-transfer-redesign": "Assets",
+          "title-transfer-redesign": "Aktiva",
           "actions": {
             "hide-small-balances": "Schovat aktiva s malými zůstatky"
           }
@@ -3207,7 +3293,7 @@
           },
           "total-balance": {
             "title": "Celkem",
-            "title-transfer-redesign": "Total/value",
+            "title-transfer-redesign": "Celkem/hodnota",
             "hint": "Celková suma napříč všemi účty, příkazy a ‘staky’."
           },
           "fiat-value": {
@@ -3267,6 +3353,18 @@
         "in-stake": "Stakované NEX",
         "learn-more": "Dozvědět se více"
       }
+    }
+  },
+  "fees": {
+    "title": "Network fee",
+    "title_plural": "Network fees",
+    "error": {
+      "general": "Could not load fees."
+    },
+    "options": {
+      "fast": "Fast",
+      "standard": "Standard",
+      "slow": "Slow (safe)"
     }
   },
   "markets": {
@@ -3354,12 +3452,28 @@
       "send-funds": "Poslatfinanční prostředky",
       "withdrawal-details": "Detaily výberu",
       "to-external-address": "Na externí adresu",
-      "request-sent-to-blockchain": "Váš požadavek k převodu byl odeslán na blockchain."
+      "request-sent-to-blockchain": "Váš požadavek k převodu byl odeslán na blockchain.",
+      "no-funds": "You don’t have any {{currency}} in your {{account}} to {{movementType}}.",
+      "auto-close": {
+        "disclaimer": "This window will automatically close once your transfer has started.",
+        "countdown": "Closing in {{seconds}}…"
+      }
     },
     "receive-funds": {
       "asset-to-receive": "Aktivum k příjmu",
       "address-to-receive-currency": "Na tuto vaši adresu přijmete {{currency}}",
       "receive-funds-from-external": "Přijmout finanční prostředky z externí peněženky"
+    },
+    "available-funds": {
+      "available-amount-send": "Available to send",
+      "available-amount-nash-channels-deposit": "Available to deposit",
+      "available-amount-nash-channels-withdraw": "Available to withdraw",
+      "wallets": {
+        "personal-account": "Personal account",
+        "nash-channels": "Nash Channels",
+        "in-orders": "In orders",
+        "pending": "Pending"
+      }
     },
     "wallet-type": {
       "personal": "Moje osobní peneženka",
@@ -3387,7 +3501,8 @@
       "you-can-lose-funds": "Odeslání finančních prostředků na chybnou adresu je nevratná akce a ztratíte tyto prostředky navždy."
     },
     "password": {
-      "title": "Vložit přihlašovací údaje"
+      "title": "Vložit přihlašovací údaje",
+      "secret-title": "Unlock your secret keys"
     },
     "updated-terms": {
       "title": "Pravidla a podmínky",
@@ -3424,7 +3539,7 @@
     "title": "Doporučení",
     "referrals": {
       "desc": "Čím více lístků získáte, tím větší šance na výhru.",
-      "affiliates-portal-link": "Go to your Affiliates portal",
+      "affiliates-portal-link": "Přejít na svůj portál přidružených společností",
       "cards": {
         "social-share": {
           "label": "Nasdílet váš kód doporučení:",
@@ -3434,13 +3549,13 @@
           "message": "Pro účastnění se v @nashsocial darovací akci použijte můj kód doporučení {{url}}! #TrustYourselves {{ytLink}}"
         },
         "info": {
-          "title-0": "Invite friends to earn commission sooner!",
-          "subtitle-0": "With more volume, you’ll qualify as a Rising Star and start earning commission.",
-          "title-20": "Invite friends to enjoy higher rewards!",
-          "subtitle-20": "With more volume, you’ll qualify as a VIP and earn higher commission rates.",
-          "title-25": "Invite friends to earn more rewards!",
-          "subtitle-25": "The more friends you have trading, the more 25% rewards you’ll receive.",
-          "watch-video-or-learn-more": "<0>Watch the video</0> or <1>learn more</1>"
+          "title-0": "Pozvěte přátele, aby získali provizi dříve!",
+          "subtitle-0": "Díky většímu objemu se kvalifikujete jako vycházející hvězda a začnete vydělávat provize.",
+          "title-20": "Pozvěte přátele a užívejte si za to vyšší odměny!",
+          "subtitle-20": "Díky většímu objemu se kvalifikujete jako VIP a získáte vyšší sazby provizí.",
+          "title-25": "Pozvěte přátele a získejte více odměn!",
+          "subtitle-25": "Čím více vašich přátel bude obchodovat, tím více 25% odměn získáte.",
+          "watch-video-or-learn-more": "<0>Podívat se na video</0> nebo <1>dozvědět se více</1>"
         }
       }
     }
@@ -3742,8 +3857,8 @@
           "disable": "Vypnout (není doporučeno)"
         },
         "auto-logout": {
-          "label": "Automatic sign out",
-          "desc": "Don’t sign me out automatically"
+          "label": "Automatické odhlášení",
+          "desc": "Neodhlašovat mě automaticky"
         },
         "all-account-activity": {
           "label": "Všechny aktivity na účtě",
@@ -3981,19 +4096,19 @@
       "export-summary": "Exportovat staky v CSV",
       "export": "Exportovat výkazy",
       "date-col": "Datum platby",
-      "asset-received-col": "Asset received",
-      "assets-received-col": "Assets received",
-      "dividends-col": "Dividends received",
+      "asset-received-col": "Obdržené aktivum",
+      "assets-received-col": "Obdržená aktiva",
+      "dividends-col": "Obdržené dividendy",
       "usdDividend-col": "Hodnota v USD",
-      "usdAggregate-col": "USD aggregate",
-      "active-stakes-col": "Active stakes",
-      "and-more": "and {{count}} more",
-      "amount-at-reward": "<0 /> at {{returnRate}} fee reward",
+      "usdAggregate-col": "Agregát USD",
+      "active-stakes-col": "Aktivní staky",
+      "and-more": "a {{count}} více",
+      "amount-at-reward": "<0 /> za {{returnRate}} odměna za poplatky",
       "stakes-in-progress": "Právě probíhá ({{date}})",
       "stakes-complete": "Dokončeno ({{date}})",
       "total-dividends": "Celkové dividendy ({{date}})",
       "paid-dividend-days": "Výplatní dny ({{date}})",
-      "all-statements": "All statements",
+      "all-statements": "Všechny výkazy",
       "till-ended_plural": "{{count}} dnů do konce",
       "till-ended": "{{count}} den do konce",
       "till-ended_today": "Končí dnes",

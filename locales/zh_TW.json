@@ -2,6 +2,7 @@
   "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
   "buy": "buy",
   "sell": "sell",
+  "cancel": "Cancel",
   "continue": "Continue",
   "ok": "OK",
   "back": "Back",
@@ -26,6 +27,7 @@
   "market-price": "Market price",
   "exchange": "Exchange",
   "receive": "Receive",
+  "send": "Send",
   "wallet": "Account",
   "upload": "Upload",
   "processing": "Processing…",
@@ -37,6 +39,10 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
+  "dismiss-forever": "Dismiss forever",
+  "remind-me-later": "Remind me later",
+  "no-limit": "No limit",
+  "learn-more": "Learn more",
   "apikeys": {
     "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
     "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
@@ -212,8 +218,11 @@
       },
       "transfers": {
         "initializing": "Initializing",
+        "unlock-required": "Paused",
+        "locked-tooltip": "You still have a transfer initializing. Transfers can not initialize while your account is locked. Unlock to continue.",
         "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again."
+        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again.",
+        "do-unlock": "Unlock"
       },
       "general-menu": {
         "settings": "My profile",
@@ -303,6 +312,8 @@
   "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
   "we-are-hiring": "We’re hiring",
   "errors": {
+    "invalid-address-title": "Invalid address on your profile",
+    "invalid-address": "Please <0>contact support</0> to update your address with us.",
     "location-banned-title": "Access blocked",
     "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
     "invalid-clock-title": "Your computer’s clock is not accurate.",
@@ -344,7 +355,8 @@
   "account-types": {
     "personal": "Personal account",
     "trading": "Trading contract",
-    "external": "External account"
+    "external": "External account",
+    "nash-channels": "Nash Channels"
   },
   "query-errors": {
     "failed": "Failed to load.",
@@ -432,6 +444,10 @@
           "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
         }
       }
+    },
+    "hello-mpc": {
+      "title": "Goodbye, private keys. Hello, MPC!",
+      "message": "Our next-generation protocol is here! Your Nash wallet now signs transactions with secure multi-party computation (MPC)."
     },
     "dismiss-message": "Don’t tell me this again."
   },
@@ -637,9 +653,7 @@
         "case-sensitive": "All words are lowercase",
         "create-my-wallet": "Create my account",
         "generating-your-wallet": "Generating your Nash account…",
-        "errors": {
-          "create-wallet-failed": "There was an error when creating your account. Please <0>sign out</0> and try again."
-        }
+        "words-confirmed-continuing": "Words confirmed! Continuing to your account…"
       },
       "wallet-created": {
         "header": "Your Nash account was created successfully!",
@@ -707,8 +721,15 @@
       "24h-volume": "Volume",
       "my-portfolio": "My portfolio"
     },
+    "banners": {
+      "USDT-USDC": {
+        "remind-later": "Remind me later",
+        "dismiss-forever": "Dismiss forever",
+        "no-fees": "No fees are charged on this market until March 2021"
+      }
+    },
     "tips": {
-      "balance": "<0>Tip</0> <1>Send funds to the trading contract here.</1> <2 />"
+      "balance": "Send funds to the trading contract here."
     },
     "no-markets": "No markets are currently available.",
     "auth": {
@@ -729,7 +750,7 @@
       }
     },
     "favorite-bar": {
-      "tips": "<0>Tip</0> <1>Add favorite markets as links here.</1> <2 />"
+      "tips": "Add favorite markets as links here."
     },
     "market-graphs": {
       "title": "Graphs",
@@ -810,6 +831,12 @@
         }
       },
       "clear-studies-button-label": "Clear all indicators"
+    },
+    "update-order": {
+      "new-limit": "Set a new price",
+      "new-stop": "Set a new stop price",
+      "save": "Save changes",
+      "cancel": "Cancel"
     },
     "create-order": {
       "buy": "Buy {{currencySymbol}}",
@@ -1850,6 +1877,7 @@
     "limits": {
       "min-limit-message": "Minimum purchase: <0/>",
       "min-limit": "Minimum",
+      "max-limit": "Maximum",
       "over-available": "Insufficent {{asset}} in trading contract"
     },
     "currencies": {
@@ -1908,6 +1936,7 @@
       "pay-with-default": "Select a payment method",
       "link-new-bank": "Add payment method",
       "complete-nash-profile": "Complete your <0>Nash profile</0> to buy digital assets.",
+      "trasak-identity-verification-message": "Transak requires identity verification before this purchase can be made.",
       "available-balance": "Available balance: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Add a payment method</0> to sell digital assets.",
       "complete-nash-profile-add-method-to-sell": "Complete your <0>Nash profile</0> and <1>add a payment method</1> to sell digital assets.",
@@ -1921,6 +1950,7 @@
       "want-to-sell-input-label": "I want to sell",
       "spend": "Spend",
       "purchase": "Purchase",
+      "purchase-after-fee": "Purchase <0>(after fees)</0>",
       "cost-me-input-label": "I want to spend",
       "i-want-to-pay-input-label": "I want to pay",
       "receive-input-label": "I will receive",
@@ -1947,6 +1977,8 @@
       "daily-remaining": "<0 /> remaining",
       "limit-exceeded": "<0 /> limit exceeded",
       "minimum-not-reached": "Minimum purchase is <0 />",
+      "min-amount-validation": "Minimum <0>{{value}} per order</0>",
+      "max-amount-validation": "Maximum <0>{{value}} per order</0>",
       "default-warning-message": "You need to complete your <0>{{providerName}} profile</0> and <1>link a bank account</1> before you can {{buy}} {{asset}}.",
       "bank-account-warning-message": "You need to <0>link a bank account</0> before you can {{buy}} {{asset}}.",
       "fiat-provider-warning-message": "You need to complete your <0>{{providerName}} profile</0> before you can {{buy}} {{asset}}.",
@@ -1955,6 +1987,9 @@
       "purchase-btn": "Review my quote",
       "buy": "buy",
       "sell": "sell",
+      "purchase-review": {
+        "message": "The cryptocurrency price shown is just an estimate. The actual price will be determined when your fiat payment is settled. This means that you may receive less (or more) cryptocurrency than expected."
+      },
       "purchase-failure": {
         "title": "There was a problem. The purchase did not go through.",
         "button": "OK",
@@ -1991,7 +2026,20 @@
       "l-personal-account": "Personal account",
       "b-remind": "Remind me later",
       "b-move-to-sell": "Move {{asset}} to sell →",
-      "b-dismiss": "Dismiss forever"
+      "b-dismiss": "Dismiss forever",
+      "total-fees": "Total fees"
+    },
+    "verify-code": {
+      "title": "Verify code",
+      "verify-email": "Verify your email",
+      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
+      "transak-message": "We’ve sent a verification code to {{email}}",
+      "code-label": "Enter confirmation code:",
+      "transak-code-label": "Enter your one-time OTP code",
+      "code-placeholder": "1234",
+      "transak-terms": "I agree with Transak’s <0>Terms of Use</0> and <1>Privacy Policy</1>.",
+      "submit": "Verify code",
+      "transak-submit": "Verify OTP code"
     },
     "transactions": {
       "tab-title": "Transaction",
@@ -2262,9 +2310,6 @@
         "2fa": "Carbon two-factor authentication",
         "create-2fa": "Enable",
         "replace-2fa": "Disable",
-        "kyc-form": "Personal details",
-        "create-kyc-form": "Add personal details",
-        "edit-kyc-form": "Edit personal details",
         "verification-pending": "Identity verification is pending.",
         "verification-succeeded": "Identity verification successful.",
         "verification-failed": "Identity verification failed. Please update and resubmit your information.",
@@ -2295,6 +2340,11 @@
           "warning": "I understand that if I change my email address, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
           "field": "Email address"
         },
+        "personal-details": {
+          "edit": "Edit personal details",
+          "add": "Add personal details",
+          "label": "Personal details"
+        },
         "occupation": {
           "placeholder": "Account manager, Company Director, Nurse, etc.",
           "save": "Declare occupation",
@@ -2315,11 +2365,14 @@
           "first-name-label": "First name",
           "last-name-label": "Last name",
           "country-label": "Country",
-          "state-label": "State"
+          "state-label": "State",
+          "mobile-number": "Mobile number",
+          "mobile-number-required": "Mobile number"
         },
         "address": {
           "edit": "Edit address",
           "add": "Add address",
+          "label": "Address",
           "save": "Submit address",
           "warning": "I understand that if I change my address, my account will need to be reviewed again and I will not be able to make any purchases or sales until this review has been completed.",
           "building-number-label": "Building number",
@@ -2380,7 +2433,8 @@
           "file-failed": "Upload failed: {{fileName}}",
           "file-update": "<0>Remove</0> or <1>upload a new image</1>",
           "try-again": "Try again",
-          "submit-btn": "Submit document"
+          "submit-btn": "Submit document",
+          "provided": "Proof of address uploaded"
         },
         "id": {
           "add": "Upload your identity document",
@@ -2607,6 +2661,7 @@
       "current-exchange-rate": "Current exchange rate",
       "current-global-exchange-rate": "Current global rate: <0 /> (CoinMarketCap)",
       "exchange-rate": "Exchange rate",
+      "fees": "Fees",
       "rate-change-label": "Exchange rate",
       "rate-protection-label": "Protected",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
@@ -2652,6 +2707,7 @@
       "l-sell-add-source": "Please declare your source of funds for this particular sale.",
       "l-buy-add-source": "Please declare your source of funds for this particular purchase.",
       "quote-accepted-title": "Quote accepted",
+      "confirm-payment-countdown": "This order will expire in {{minutes}}:{{seconds}}.",
       "title": "Purchase digital assets",
       "source-of-funds-modal": {
         "title": "Source of funds",
@@ -2681,7 +2737,7 @@
       "transfer-to": "Transfer <0 /> to the account listed below.",
       "transfer-to-label": "Transfer this amount",
       "name-registered": "The bank account you use to pay must be registered under the same name as your Nash account.",
-      "make-transfer-soon": "Please make your transfer as soon as possible. If we do not receive your funds within five days, your order will be canceled. The bank account you use to pay must be registered under the same name as your Nash account.",
+      "receive-funds-soon": "If we do not receive your funds within five days, your order will be canceled.",
       "reference": "Reference",
       "need-to-include": "You need to include this.",
       "iban": "IBAN",
@@ -2690,10 +2746,13 @@
       "decline-this-quote": "Decline this quote",
       "bank-name": "Bank name",
       "recipient-name": "Recipient name",
-      "must-make-payment": "Please make your transfer as soon as possible. If we do not receive your funds within five days, your order will be canceled. You have the opportunity to cancel this purchase and receive a refund before your bank transfer clears.",
+      "recipient": "Recipient",
       "btn-cancel-quote": "Decline quote",
       "btn-close-quote": "Close",
-      "btn-made-payment": "I’ve made my payment"
+      "btn-made-payment": "I’ve made my payment",
+      "use-exact-name": "Use this exact name.",
+      "recipient-address": "Recipient address",
+      "recipient-bank-country": "Recipient bank country"
     },
     "timeout-message": "This exchange rate will be guaranteed and locked for:",
     "network-error": "Network error. Please try again.",
@@ -2767,7 +2826,14 @@
       },
       "error": {
         "invalid-data": "Invalid data.",
-        "unhandled-error": "An unhandled error occurred. Please reload then try again."
+        "unhandled-error": "An unhandled error occurred. Please reload then try again.",
+        "profile": "An error ocurred while loading profile data. Please reload then try again.",
+        "file-upload": "Error uploading file. Please reload then try again.",
+        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
+        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
+        "coins": "Error retrieving available coins. Please reload then try again.",
+        "kyc": "Error retrieving KYC data. Please reload then try again.",
+        "quote": "Error quoting order. Please reload then try again."
       },
       "validation": {
         "first-name-required": "First name is required.",
@@ -2839,11 +2905,12 @@
         "no-transactions": "You haven’t bought or sold any digital assets yet."
       },
       "payment-methods": {
-        "currency": "Currency",
+        "bank-address": "Bank address",
         "bank-name": "Bank name",
+        "currency": "Currency",
         "iban": "IBAN",
-        "swift": "SWIFT/BIC",
-        "remove-bank-account": "Remove {{iban}}?"
+        "remove-bank-account": "Remove {{iban}}?",
+        "swift": "SWIFT/BIC"
       },
       "editor": {
         "phone": {
@@ -2874,6 +2941,7 @@
           "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
         },
         "bank-account": {
+          "bank-address-placeholder": "Enter your bank’s address",
           "bank-name-placeholder": "Enter your bank’s name",
           "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. CLBABU7S"
@@ -2907,7 +2975,10 @@
         "created": "Created",
         "pending": "Pending"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page."
+      "fetch-movements-error": "Error fetching your data. Please refresh the page.",
+      "table": {
+        "fee": "Fee"
+      }
     },
     "assets": {
       "title": "Assets",
@@ -2992,6 +3063,9 @@
             "to": "To"
           },
           "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
+          "recipient": {
+            "placeholder": "Enter destination…"
+          },
           "contacts": {
             "label": "Destination",
             "placeholder": "Search for a contact or send to a new address…",
@@ -3017,7 +3091,8 @@
           "movement": {
             "error": "Please wait until your last Ethereum transfer finishes.",
             "pending-error": "Please wait until your pending Ethereum transfer completes.",
-            "token-requires-approval": "Approval of {{ amount }} {{ currency }} is required for this token to be transferred to the trading contract."
+            "token-requires-approval": "Approval of {{ amount }} {{ currency }} is required for this token to be transferred to the trading contract.",
+            "too-many-utxo": "Please send your NEO/GAS to yourself to simplify your wallet balance data. You will then be able to deposit to the trading contract."
           },
           "transfer-amount": {
             "label": "Amount to transfer",
@@ -3042,7 +3117,8 @@
             }
           },
           "fees": {
-            "eth-recommended-message": "Keep {{amount}} ETH in my personal account for future network fees."
+            "eth-recommended-message": "Keep {{amount}} ETH in my personal account for future network fees.",
+            "fee-shortage": "You need at least <0>{{amount}}</0> {{currencySymbol}} in your personal account to pay network fees. <1></1> Balance: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
             "neo-trading": "You cannot send or withdraw fractional amounts of NEO."
@@ -3058,6 +3134,7 @@
           },
           "buttons": {
             "continue": "Continue",
+            "review": "Review",
             "sent-funds": "I have sent my funds"
           }
         },
@@ -3081,6 +3158,8 @@
           "buttons": {
             "back": "Back",
             "transfer-funds": "Send",
+            "transfer-funds-with-currency": "Send {{currency}}",
+            "transfer-started": "Transfer started",
             "confirming": "Confirming…"
           }
         },
@@ -3121,6 +3200,10 @@
           }
         }
       },
+      "receive-assets": {
+        "wallet-address": "Wallet address",
+        "only-send-to": "Only send {{currency}} to this address!"
+      },
       "transfer-info": {
         "title": "Funds can be transferred as follows",
         "notice": "You can only trade on the Nash Exchange once you have sent funds to the trading contract.",
@@ -3156,12 +3239,15 @@
           "retry-pending": "Retry sending transaction",
           "cancel-intent": "Cancel transfer",
           "clear-intent": "Clear transfer",
+          "unlock-account": "Unlock session",
           "contact-support": "Please contact support",
           "received-currency": "Received {{currencySymbol}}",
           "receiving-currency": "Receiving {{currencySymbol}}",
           "transferred-currency": "Sent {{currencySymbol}}",
           "transferring-currency": "Sending {{currencySymbol}}",
           "initializing-currency": "Initializing {{currencySymbol}} transfer",
+          "waiting-to-witness": "Waiting for {{currencySymbol}} transfer",
+          "locked-initializing": "{{currencySymbol}} transfer needs unlocked session",
           "failed-permanently": "{{currencySymbol}} transfer failed"
         },
         "destination": {
@@ -3269,6 +3355,18 @@
       }
     }
   },
+  "fees": {
+    "title": "Network fee",
+    "title_plural": "Network fees",
+    "error": {
+      "general": "Could not load fees."
+    },
+    "options": {
+      "fast": "Fast",
+      "standard": "Standard",
+      "slow": "Slow (safe)"
+    }
+  },
   "markets": {
     "title": "Markets",
     "all": "All",
@@ -3354,12 +3452,28 @@
       "send-funds": "Send funds",
       "withdrawal-details": "Withdrawal details",
       "to-external-address": "To external address",
-      "request-sent-to-blockchain": "Your transfer request has been sent to the blockchain."
+      "request-sent-to-blockchain": "Your transfer request has been sent to the blockchain.",
+      "no-funds": "You don’t have any {{currency}} in your {{account}} to {{movementType}}.",
+      "auto-close": {
+        "disclaimer": "This window will automatically close once your transfer has started.",
+        "countdown": "Closing in {{seconds}}…"
+      }
     },
     "receive-funds": {
       "asset-to-receive": "Asset to receive",
       "address-to-receive-currency": "This is your address to receive {{currency}}",
       "receive-funds-from-external": "Receive funds from an external wallet"
+    },
+    "available-funds": {
+      "available-amount-send": "Available to send",
+      "available-amount-nash-channels-deposit": "Available to deposit",
+      "available-amount-nash-channels-withdraw": "Available to withdraw",
+      "wallets": {
+        "personal-account": "Personal account",
+        "nash-channels": "Nash Channels",
+        "in-orders": "In orders",
+        "pending": "Pending"
+      }
     },
     "wallet-type": {
       "personal": "My personal wallet",
@@ -3387,7 +3501,8 @@
       "you-can-lose-funds": "Sending funds to the wrong address will mean that you lose those funds forever."
     },
     "password": {
-      "title": "Enter credentials"
+      "title": "Enter credentials",
+      "secret-title": "Unlock your secret keys"
     },
     "updated-terms": {
       "title": "Terms and conditions",
