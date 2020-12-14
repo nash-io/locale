@@ -20,9 +20,30 @@ You will also notice links denoted by numbered tags, e.g. `View your transaction
 
 ## Using GitHub
 
+### Video tutorial
 Never used GitHub? This is the easiest way to contribute:
 https://www.youtube.com/watch?v=5u0I0UX81tI
 
+### Step-by-step guide
+
+1) Click the link to the file for your language in the list below. 
+<p align="center"><img src="./tutorial-images/edit-1.png" width="400"/></p>
+
+2) Click the "Edit file" button.
+<p align="center"><img src="./tutorial-images/edit-2.png" width="400"/></p>
+
+3) Make your changes (i.e. translate some lines) and click the "Propose changes" button at the bottom.
+<p align="center"><img src="./tutorial-images/edit-3.png" width="400"/></p>
+
+4) Press the "Create pull request" button.
+<p align="center"><img src="./tutorial-images/edit-4.png" width="400"/></p>
+
+5) Press "Create pull request" one more time on the next screen.
+<p align="center"><img src="./tutorial-images/edit-5.png" width="400"/></p>
+
+That's it! You're done. We'll merge in your changes as soon as possible.
+
+### Desktop app
 If you are facing issues using GitHub for the first time there is a desktop app that might make your life easier: https://desktop.github.com/
 
 ## Tips for contributors
