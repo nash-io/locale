@@ -25,7 +25,7 @@ The process is slightly different depending on whether your language is already 
 To find that out, check [translations.nash.io](https://translations.nash.io):
 <p align="center"><img src="./tutorial-images/live.png" width="400"/></p>
 
-If you want to *correct* an existing translation, rather than an update, follow the first guide here.
+If you want to *correct* an existing translation, rather than translate an update, follow the first guide here.
 
 ### If your language is not yet activated (or you want to make a correction):
 
