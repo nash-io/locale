@@ -1936,7 +1936,7 @@
       "pay-with-default": "Seleziona un metodo di pagamento",
       "link-new-bank": "Aggiungi metodo di pagamento",
       "complete-nash-profile": "Completa il tuo <0>profilo Nash</0> prima di poter acquistare asset digitali",
-      "trasak-identity-verification-message": "[Translation required: Transak requires identity verification before this purchase can be made.]",
+      "trasak-identity-verification-message": "Transak richiede la verifica dell'identità prima che questo acquisto possa essere effettuato.",
       "available-balance": "Bilancio disponibile: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Aggiungi un metodo di pagamento</0> per vendere i tuoi asset digitali.]",
       "complete-nash-profile-add-method-to-sell": "Completa il tuo <0>profilo Nash</0> e <1>aggiungi un metodo di pagamento</1> per vendere i tuoi asset digitali.",
@@ -2661,7 +2661,7 @@
       "current-exchange-rate": "Tasso di scambio attuale",
       "current-global-exchange-rate": "Tasso globale attuale: <0 /> (CoinMarketCap)",
       "exchange-rate": "Tasso di cambio",
-      "fees": "[Translation required: Fees]",
+      "fees": "Commissioni",
       "rate-change-label": "Tasso di cambio",
       "rate-protection-label": "Protetto",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
@@ -2707,7 +2707,7 @@
       "l-sell-add-source": "Per favore dichiara la fonte dei tuoi fondi per questa vendita particolare.",
       "l-buy-add-source": "Per favore dichiara la fonte dei tuoi fondi per questo acquisto particolare.",
       "quote-accepted-title": "Offerta accettata",
-      "confirm-payment-countdown": "[Translation required: This order will expire in {{minutes}}:{{seconds}}.]",
+      "confirm-payment-countdown": "Questo ordine scadrà tra {{minutes}}:{{seconds}}.",
       "title": "Acquista asset digitali",
       "source-of-funds-modal": {
         "title": "Fonte dei fondi",
@@ -2737,7 +2737,7 @@
       "transfer-to": "Trasferisci <0 /> sull’account elencato di seguito.",
       "transfer-to-label": "Trasferisci questo importo",
       "name-registered": "Il conto bancario che usi per pagare deve essere registrato con lo stesso nome del tuo conto Nash.",
-      "receive-funds-soon": "[Translation required: If we do not receive your funds within five days, your order will be canceled.]",
+      "receive-funds-soon": "Se non riceviamo i tuoi fondi entro cinque giorni, il tuo ordine sarà annullato.",
       "reference": "Riferimento",
       "need-to-include": "Devi includere questo.",
       "iban": "IBAN",
@@ -2746,13 +2746,13 @@
       "decline-this-quote": "Rifiuta questa offerta",
       "bank-name": "Nome della Banca",
       "recipient-name": "Nome del destinatario",
-      "recipient": "[Translation required: Recipient]",
+      "recipient": "Destinatario",
       "btn-cancel-quote": "Rifiuta offerta",
       "btn-close-quote": "Chiudi",
       "btn-made-payment": "Ho effettuato il mio pagamento",
-      "use-exact-name": "[Translation required: Use this exact name.]",
-      "recipient-address": "[Translation required: Recipient address]",
-      "recipient-bank-country": "[Translation required: Recipient bank country]"
+      "use-exact-name": "Utilizza questo nome esatto.",
+      "recipient-address": "Indirizzo del destinatario",
+      "recipient-bank-country": "Paese della banca del destinatario"
     },
     "timeout-message": "Questo tasso di cambio sarà garantito e bloccato per:",
     "network-error": "Errore di rete. Per favore riprova.",
@@ -2905,7 +2905,7 @@
         "no-transactions": "Non hai ancora acquistato o venduto alcun asset digitale."
       },
       "payment-methods": {
-        "bank-address": "[Translation required: Bank address]",
+        "bank-address": "Indirizzo della banca",
         "bank-name": "Nome della Banca",
         "currency": "Moneta",
         "iban": "IBAN",
@@ -2941,7 +2941,7 @@
           "upload-label-format": "Estensioni del file accettate: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Dimensione massima del file: 10MB."
         },
         "bank-account": {
-          "bank-address-placeholder": "[Translation required: Enter your bank’s address]",
+          "bank-address-placeholder": "Inserisci l'indirizzo della tua banca",
           "bank-name-placeholder": "Inserisci il nome della tua Banca",
           "iban-placeholder": "e.g. IT89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. SWITFT7S"
@@ -3064,7 +3064,7 @@
           },
           "exchange-maintenance": "Durante la manutenzione non puoi trasferire fondi al o dal tuo contratto di trading.",
           "recipient": {
-            "placeholder": "[Translation required: Enter destination…]"
+            "placeholder": "Inserisci destinazione…"
           },
           "contacts": {
             "label": "Destinazione",
