@@ -3118,7 +3118,7 @@
           },
           "fees": {
             "eth-recommended-message": "Conserva {{amount}} ETH nel mio account personale per future commissioni di rete.",
-            "fee-shortage": "[Translation required: You need at least <0>{{amount}}</0> {{currencySymbol}} in your personal account to pay network fees.<1></1>Balance: <0>{{balance}}</0> {{currencySymbol}}]"
+            "fee-shortage": "Hai bisogno di almeno <0>{{amount}}</0> {{currencySymbol}} nel tuo account personale per pagare le commissioni di rete<1></1>Bilancio: <0>{{balance}}</0> {{currencySymbol}}]"
           },
           "precision": {
             "neo-trading": "Non è possibile inviare o prelevare importi frazionati di NEO."
@@ -3134,7 +3134,7 @@
           },
           "buttons": {
             "continue": "Continua",
-            "review": "[Translation required: Review]",
+            "review": "Riesamina",
             "sent-funds": "Ho inviato i miei fondi"
           }
         },
@@ -3158,8 +3158,8 @@
           "buttons": {
             "back": "Indietro",
             "transfer-funds": "Invia",
-            "transfer-funds-with-currency": "[Translation required: Send {{currency}}]",
-            "transfer-started": "[Translation required: Transfer started]",
+            "transfer-funds-with-currency": " Invia {{currency}}",
+            "transfer-started": "Trasferimento iniziato",
             "confirming": "Convalida in corso…"
           }
         },
@@ -3239,15 +3239,15 @@
           "retry-pending": "Riprova ad inviare la transazione",
           "cancel-intent": "Cancella la transazione",
           "clear-intent": "Pulisci il trasferimento",
-          "unlock-account": "[Translation required: Unlock session]",
+          "unlock-account": "Sblocca la sessione",
           "contact-support": "Si prega di contattare l’assistenza",
           "received-currency": "Ricevuto {{currencySymbol}}",
           "receiving-currency": "Ricevendo {{currencySymbol}}",
           "transferred-currency": "Inviato {{currencySymbol}}",
           "transferring-currency": "Inviando {{currencySymbol}}",
           "initializing-currency": "Trasferimento di {{currencySymbol}} inizializzato",
-          "waiting-to-witness": "[Translation required: Waiting for {{currencySymbol}} transfer]",
-          "locked-initializing": "[Translation required: {{currencySymbol}} transfer needs unlocked session]",
+          "waiting-to-witness": "Attendi per il trasferimento di {{currencySymbol}} ",
+          "locked-initializing": "Per il trasferimento è necessario sbloccare la sessione",
           "failed-permanently": "{{currencySymbol}} trasferimento fallito"
         },
         "destination": {
@@ -3356,15 +3356,15 @@
     }
   },
   "fees": {
-    "title": "[Translation required: Network fee]",
-    "title_plural": "[Translation required: Network fees]",
+    "title": "Commissione di rete da pagare",
+    "title_plural": "Commissioni di rete da pagare",
     "error": {
-      "general": "[Translation required: Could not load fees.]"
+      "general": "Impossibile caricare le commissioni"
     },
     "options": {
-      "fast": "[Translation required: Fast]",
-      "standard": "[Translation required: Standard]",
-      "slow": "[Translation required: Slow (safe)]"
+      "fast": "Veloce",
+      "standard": "Normale",
+      "slow": "Lenta (sicura)"
     }
   },
   "markets": {
@@ -3453,10 +3453,10 @@
       "withdrawal-details": "Dettagli del prelievo",
       "to-external-address": "Ad un indirizzo esterno",
       "request-sent-to-blockchain": "La tua richiesta di trasferimento è stata inviata alla blockchain.",
-      "no-funds": "[Translation required: You don’t have any {{currency}} in your {{account}} to {{movementType}}.]",
+      "no-funds": "Non hai nessun {{currency}} nel tuo {{account}} per {{movementType}}.]",
       "auto-close": {
-        "disclaimer": "[Translation required: This window will automatically close once your transfer has started.]",
-        "countdown": "[Translation required: Closing in {{seconds}}…]"
+        "disclaimer": "Questa finestra si chiuderà automaticamente quando partirà il tuo trasferimento",
+        "countdown": "Chiusura in {{seconds}}…"
       }
     },
     "receive-funds": {
@@ -3465,14 +3465,14 @@
       "receive-funds-from-external": "Ricevi fondi da un portafoglio esterno"
     },
     "available-funds": {
-      "available-amount-send": "[Translation required: Available to send]",
-      "available-amount-nash-channels-deposit": "[Translation required: Available to deposit]",
-      "available-amount-nash-channels-withdraw": "[Translation required: Available to withdraw]",
+      "available-amount-send": "A disposizione per l'invio",
+      "available-amount-nash-channels-deposit": "A disposizione per il deposito",
+      "available-amount-nash-channels-withdraw": "A disposizione per il ritiro",
       "wallets": {
-        "personal-account": "[Translation required: Personal account]",
-        "nash-channels": "[Translation required: Nash Channels]",
-        "in-orders": "[Translation required: In orders]",
-        "pending": "[Translation required: Pending]"
+        "personal-account": "Account personale",
+        "nash-channels": "Canali Nash",
+        "in-orders": " In ordini ",
+        "pending": " In attesa "
       }
     },
     "wallet-type": {
@@ -3502,7 +3502,7 @@
     },
     "password": {
       "title": "Inserisci le credenziali",
-      "secret-title": "[Translation required: Unlock your secret keys]"
+      "secret-title": "Sblocca le tue chiavi segrete"
     },
     "updated-terms": {
       "title": "Termini e condizioni",
