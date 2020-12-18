@@ -812,8 +812,8 @@
       "clear-studies-button-label": "Ripristina tutti gli indicatori"
     },
     "update-order": {
-      "new-limit": "[Translation required: Set a new price]",
-      "new-stop": "[Translation required: Set a new stop price]"
+      "new-limit": "Imposta un nuovo prezzo",
+      "new-stop": "Imposta un nuovo stop di prezzo"
     },
     "create-order": {
       "buy": "Compra {{currencySymbol}}",
@@ -1912,9 +1912,9 @@
       "pay-with-default": "Seleziona un metodo di pagamento",
       "link-new-bank": "Aggiungi metodo di pagamento",
       "complete-nash-profile": "Completa il tuo <0>profilo Nash</0> prima di poter acquistare asset digitali",
-      "complete-transak-profile": "[Translation required: Complete your <0>Transak profile</0> to buy digital assets.]",
+      "complete-transak-profile": "Completa il tuo profilo <0>Transak </0> per acquistare beni digitali.",
       "available-balance": "Bilancio disponibile: <0>{{amount}}</0>",
-      "no-payment-method-sell": "<0>Aggiungi un metodo di pagamento</0> per vendere i tuoi asset digitali.]",
+      "no-payment-method-sell": "<0>Aggiungi un metodo di pagamento</0> per vendere i tuoi beni digitali.]",
       "complete-nash-profile-add-method-to-sell": "Completa il tuo <0>profilo Nash</0> e <1>aggiungi un metodo di pagamento</1> per vendere i tuoi asset digitali.",
       "no-funds-sell-1": "Non hai nessun {{asset}} nel tuo account da vendere",
       "no-funds-sell-2": "<0>Acquista {{asset}}</0> via Nash Cash con nessuna commissione o <1>trasferisci fondi</1>.]",
@@ -1999,11 +1999,11 @@
       "b-dismiss": "Rimuovi per sempre"
     },
     "verify-code": {
-      "title": "[Translation required: Verify code]",
-      "message": "[Translation required: Please verify your email, a verification code was sended, confirm the code on the below field]",
-      "code-label": "[Translation required: Enter confirmation code:]",
-      "code-placeholder": "[Translation required: 1234]",
-      "submit": "[Translation required: Verify code]"
+      "title": "Verifica codice",
+      "message": "Controlla la tua mail per favore, è stato inviato un codice di verifica, conferma il codice nel campo sottostante",
+      "code-label": "Inserisci il codice di conferma:",
+      "code-placeholder": "1234",
+      "submit": "Verificare il codice"
     },
     "transactions": {
       "tab-title": "Transazione",
@@ -2305,9 +2305,9 @@
           "field": "Indirizzo email"
         },
         "personal-details": {
-          "edit": "[Translation required: Edit personal details]",
-          "add": "[Translation required: Add personal details]",
-          "label": "[Translation required: Personal details]"
+          "edit": "Modifica i dati personali",
+          "add": "Aggiungi i dati personali",
+          "label": "Dati personali"
         },
         "occupation": {
           "placeholder": "Account manager, direttore aziendale, infermiere, ecc.",
@@ -2330,13 +2330,13 @@
           "last-name-label": "Cognome",
           "country-label": "Paese",
           "state-label": "Stato",
-          "mobile-number": "[Translation required: Mobile number]",
-          "mobile-number-required": "[Translation required: Mobile number]"
+          "mobile-number": "Numero di cellulare",
+          "mobile-number-required": "Numero di cellulare"
         },
         "address": {
           "edit": "Modifica indirizzo",
           "add": "Aggiungi indirizzo",
-          "label": "[Translation required: Address]",
+          "label": "Indirizzo",
           "save": "Invia indirizzo",
           "warning": "Comprendo che se modifico il mio indirizzo, il mio account dovrà essere rivisto nuovamente e non sarò in grado di effettuare acquisti o vendite fino a quando questa revisione non sarà stata completata.",
           "building-number-label": "Numero edificio",
@@ -2398,7 +2398,7 @@
           "file-update": "<0>Rimuovi</0> o <1>carica una nuova immagine</1>",
           "try-again": "Riprova",
           "submit-btn": "Invia documento",
-          "provided": "[Translation required: Proof of address uploaded]"
+          "provided": "Prova di residenza caricata"
         },
         "id": {
           "add": "Carica il tuo documento di identità",
@@ -2786,13 +2786,13 @@
       "error": {
         "invalid-data": "Dati non validi.",
         "unhandled-error": "Si è verificato un errore non gestito. Ricarica e riprova.",
-        "profile": "[Translation required: An error ocurred while loading profile data. Please reload then try again.]",
-        "file-upload": "[Translation required: Error uploading file. Please reload then try again.]",
-        "bank-account": "[Translation required: Error retrieving your bank accounts. Please reload then try again.]",
-        "platform": "[Translation required: Error retrieving data from CCPRO. Please reload then try again.]",
-        "coins": "[Translation required: Error retrieving available coins. Please reload then try again.]",
-        "kyc": "[Translation required: Error retrieving KYC data. Please reload then try again.]",
-        "quote": "[Translation required: Error quoting order. Please reload then try again.]"
+        "profile": "Si è verificato un errore durante il caricamento dei dati del profilo. Ricarica e riprova.",
+        "file-upload": "Errore durante il caricamento del file. Ricarica e riprova.",
+        "bank-account": "Errore durante il recupero dei tuoi dati bancari. Ricarica e riprova per favore.",
+        "platform": "Errore durante il recupero dei dati da CCPRO. Ricarica e riprova per favore.",
+        "coins": "Errore durante il recupero del saldo disponibile. Ricarica e riprova per favore.",
+        "kyc": "Errore durante il recupero dei tuoi dati KYC. Ricarica e riprova per favore.",
+        "quote": "Errore di quotazione dell'ordine. Ricarica e riprova per favore."
       },
       "validation": {
         "first-name-required": "Il nome è richiesto.",
@@ -2934,7 +2934,7 @@
       },
       "fetch-movements-error": "Errore durante il recupero dei dati. Si prega di aggiornare la pagina.",
       "table": {
-        "fee": "[Translation required: Fee]"
+        "fee": "Commissione da pagare"
       }
     },
     "assets": {
@@ -3150,8 +3150,8 @@
         }
       },
       "receive-assets": {
-        "wallet-address": "[Translation required: Wallet address]",
-        "only-send-to": "[Translation required: Only send {{currency}} to this address!]"
+        "wallet-address": "Indirizzo portafoglio",
+        "only-send-to": "Invia solo {{currency}} a questo indirizzo!"
       },
       "transfer-info": {
         "title": "I fondi possono essere trasferiti come segue",
