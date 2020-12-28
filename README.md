@@ -25,7 +25,9 @@ The process is slightly different depending on whether your language is already 
 To find that out, check [translations.nash.io](https://translations.nash.io):
 <p align="center"><img src="./tutorial-images/live.png" width="400"/></p>
 
-### If your language is not yet activated:
+If you want to *correct* an existing translation, rather than translate an update, follow the first guide here.
+
+### If your language is not yet activated (or you want to make a correction):
 
 1) Click the link to the file for your language in the list below. 
 <p align="center"><img src="./tutorial-images/edit-1.png" width="400"/></p>
@@ -45,7 +47,7 @@ To find that out, check [translations.nash.io](https://translations.nash.io):
 That's it! You're done. We'll merge in your changes as soon as possible.
 <br>
 
-### If your language is activated ("live"):
+### If your language is activated ("live") and you want to translate updates:
 
 1) Look for a translation update on [translations.nash.io](https://translations.nash.io) and click the "Edit and add" link next to it.
 <p align="center"><img src="./tutorial-images/update1.png" width="400"/></p>
