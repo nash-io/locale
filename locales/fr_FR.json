@@ -13,7 +13,7 @@
   "or": "ou",
   "price": "Prix",
   "fee": "Frais",
-  "fee-as-suffix": "Frais",
+  "fee-as-suffix": "frais",
   "admin-link": "Devis sur Admin",
   "try-again": "Réessayer",
   "refresh": "Rafraîchir",
@@ -833,8 +833,8 @@
       "clear-studies-button-label": "Supprimer tous les indicateurs"
     },
     "update-order": {
-      "new-limit": "Saisir un nouveau prix",
-      "new-stop": "Saisir un nouveau prix stop",
+      "new-limit": "Définir un nouveau prix",
+      "new-stop": "Définir un nouveau prix stop",
       "save": "Enregistrer",
       "cancel": "Annuler"
     },
@@ -2341,9 +2341,9 @@
           "field": "Adresse électronique"
         },
         "personal-details": {
-          "edit": "Edit personal details",
-          "add": "Add personal details",
-          "label": "Personal details"
+          "edit": "Modifier des informations personnelles",
+          "add": "Ajouter des informations personnelles",
+          "label": "Informations personnelles"
         },
         "occupation": {
           "placeholder": "Gestionnaire de compte, chef d’entreprise, infirmière, etc.",
@@ -2365,14 +2365,14 @@
           "first-name-label": "Prénom",
           "last-name-label": "Nom de famille",
           "country-label": "Pays",
-          "state-label": "Etat",
-          "mobile-number": "Mobile number",
-          "mobile-number-required": "Mobile number"
+          "state-label": "État",
+          "mobile-number": "Numéro de téléphone portable",
+          "mobile-number-required": "Numéro de téléphone portable"
         },
         "address": {
           "edit": "Modifier l’adresse",
           "add": "Ajoutez l’adresse",
-          "label": "Address",
+          "label": "Addresse",
           "save": "Soumettre l’adresse",
           "warning": "Je comprends que si je change d’adresse, mon compte devra être réexaminé et je ne pourrai faire aucun achat ou vente tant que cet examen ne sera pas terminé.",
           "building-number-label": "Numéro du bâtiment",
@@ -2434,7 +2434,7 @@
           "file-update": "<0>Supprimer</0> ou <1>télécharger une nouvelle image</1>",
           "try-again": "Réessayer",
           "submit-btn": "Soumettre le document",
-          "provided": "Proof of address uploaded"
+          "provided": "Justificatif de domicile soumis"
         },
         "id": {
           "add": "Téléchargez votre document d’identité",
@@ -2826,14 +2826,14 @@
       },
       "error": {
         "invalid-data": "Données invalides.",
-        "unhandled-error": "Une erreur s’est produite. Veuillez recharger puis réessayer.",
-        "profile": "An error ocurred while loading profile data. Please reload then try again.",
-        "file-upload": "Error uploading file. Please reload then try again.",
-        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
-        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
-        "coins": "Error retrieving available coins. Please reload then try again.",
-        "kyc": "Error retrieving KYC data. Please reload then try again.",
-        "quote": "Error quoting order. Please reload then try again."
+        "unhandled-error": "Une erreur s’est produite. Veuillez rafraîchir puis réessayer.",
+        "profile": "Une erreur s’est produite pendant le chargement des données. Veuillez rafraîchir puis réessayer.",
+        "file-upload": "Erreur à la soumission du fichier. Veuillez rafraîchir puis réessayer.",
+        "bank-account": "Erreur lors de la récupération de vos comptes bancaires. Veuillez rafraîchir puis réessayer.",
+        "platform": "Erreur lors de la récupération des données de CCPRO. Veuillez rafraîchir puis réessayer.",
+        "coins": "Erreur lors de la récupération des tokens disponibles. Veuillez rafraîchir puis réessayer.",
+        "kyc": "Erreur lors de la récupération des données KYC. Veuillez rafraîchir puis réessayer.",
+        "quote": "Erreur lors de la création de la commande du devis. Veuillez rafraîchir puis réessayer."
       },
       "validation": {
         "first-name-required": "Le prénom est requis.",
@@ -2977,7 +2977,7 @@
       },
       "fetch-movements-error": "Erreur lors de la récupération de vos données. Veuillez rafraîchir la page.",
       "table": {
-        "fee": "Fee"
+        "fee": "Frais"
       }
     },
     "assets": {
@@ -3069,7 +3069,7 @@
           "contacts": {
             "label": "Destination",
             "placeholder": "Rechercher un contact ou envoyer à une nouvelle adresse…",
-            "wallet-address": "Envoyer à ‘{{address}}‘",
+            "wallet-address": "Envoyer à ‘{{address}}’",
             "button-contacts": "Contacts",
             "select-contact": {
               "no-options": "Tapez au moins trois caractères pour rechercher un contact ou une adresse de portefeuille valide",
@@ -3201,8 +3201,8 @@
         }
       },
       "receive-assets": {
-        "wallet-address": "Wallet address",
-        "only-send-to": "Only send {{currency}} to this address!"
+        "wallet-address": "Adresse du portefeuille",
+        "only-send-to": "N’envoyez rien d’autre que des {{currency}} vers cette adresse !"
       },
       "transfer-info": {
         "title": "Les fonds peuvent être transférés comme suit",
