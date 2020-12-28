@@ -219,7 +219,7 @@
       "transfers": {
         "initializing": "Avvio del transferimento in corso",
         "unlock-required": "In pausa",
-        "locked-tooltip": "Un tuo trasferimento si sta ancora avviando. I trasferimenti non possono avviarsi mentre il tuo account è  bloccato. Sblocca per continuare.",
+        "locked-tooltip": "Un tuo trasferimento si sta ancora avviando. I trasferimenti non possono avviarsi mentre il tuo account è bloccato. Sblocca per continuare.",
         "initialized": "Trasferimento avviato",
         "tooltip": "Il tuo trasferimento è stato avviato. Se chiudi Nash o esci, verrà messo in pausa finché non accedi nuovamente",
         "do-unlock": "Sblocca"
@@ -313,7 +313,7 @@
   "we-are-hiring": "Lavora con noi",
   "errors": {
     "invalid-address-title": "Indirizzo non valido nel tuo profilo",
-    "invalid-address": "Per favore <0>contatta l'assistenza</0> per aggiornare il tuo indirizzo con noi.",
+    "invalid-address": "Per favore <0>contatta l’assistenza</0> per aggiornare il tuo indirizzo con noi.",
     "location-banned-title": "Accesso bloccato",
     "location-banned": "Sfortunatamente, Nash al momento non è in grado di operare nella tua giurisdizione.",
     "invalid-clock-title": "L’orologio del tuo computer non è preciso.",
@@ -1936,7 +1936,7 @@
       "pay-with-default": "Seleziona un metodo di pagamento",
       "link-new-bank": "Aggiungi metodo di pagamento",
       "complete-nash-profile": "Completa il tuo <0>profilo Nash</0> prima di poter acquistare asset digitali",
-      "trasak-identity-verification-message": "Transak richiede la verifica dell'identità prima che questo acquisto possa essere effettuato.",
+      "trasak-identity-verification-message": "Transak richiede la verifica dell’identità prima che questo acquisto possa essere effettuato.",
       "available-balance": "Bilancio disponibile: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Aggiungi un metodo di pagamento</0> per vendere i tuoi asset digitali.]",
       "complete-nash-profile-add-method-to-sell": "Completa il tuo <0>profilo Nash</0> e <1>aggiungi un metodo di pagamento</1> per vendere i tuoi asset digitali.",
@@ -2037,7 +2037,7 @@
       "code-label": "Inserisci codice di conferma:",
       "transak-code-label": "Inserisci il tuo codice OTP monouso",
       "code-placeholder": "1234",
-      "transak-terms": "Sono d'accordo con Transak riguardo i suoi <0>Termini di utilizzo</0> e della loro <1>politica sulla riservatezza</1>.]",
+      "transak-terms": "Sono d’accordo con Transak riguardo i suoi <0>Termini di utilizzo</0> e della loro <1>politica sulla riservatezza</1>.]",
       "submit": "Verifica codice",
       "transak-submit": "Verifica codice OTP"
     },
@@ -2941,7 +2941,7 @@
           "upload-label-format": "Estensioni del file accettate: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Dimensione massima del file: 10MB."
         },
         "bank-account": {
-          "bank-address-placeholder": "Inserisci l'indirizzo della tua banca",
+          "bank-address-placeholder": "Inserisci l’indirizzo della tua banca",
           "bank-name-placeholder": "Inserisci il nome della tua Banca",
           "iban-placeholder": "e.g. IT89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. SWITFT7S"
@@ -3118,7 +3118,7 @@
           },
           "fees": {
             "eth-recommended-message": "Conserva {{amount}} ETH nel mio account personale per future commissioni di rete.",
-            "fee-shortage": "Hai bisogno di almeno <0>{{amount}}</0> {{currencySymbol}} nel tuo account personale per pagare le commissioni di rete<1></1>Bilancio: <0>{{balance}}</0> {{currencySymbol}}]"
+            "fee-shortage": "Hai bisogno di almeno <0>{{amount}}</0> {{currencySymbol}} nel tuo account personale per pagare le commissioni di rete <1></1> Bilancio: <0>{{balance}}</0> {{currencySymbol}}]"
           },
           "precision": {
             "neo-trading": "Non è possibile inviare o prelevare importi frazionati di NEO."
@@ -3158,7 +3158,7 @@
           "buttons": {
             "back": "Indietro",
             "transfer-funds": "Invia",
-            "transfer-funds-with-currency": " Invia {{currency}}",
+            "transfer-funds-with-currency": "Invia {{currency}}",
             "transfer-started": "Trasferimento iniziato",
             "confirming": "Convalida in corso…"
           }
@@ -3246,8 +3246,8 @@
           "transferred-currency": "Inviato {{currencySymbol}}",
           "transferring-currency": "Inviando {{currencySymbol}}",
           "initializing-currency": "Trasferimento di {{currencySymbol}} inizializzato",
-          "waiting-to-witness": "Attendi per il trasferimento di {{currencySymbol}} ",
-          "locked-initializing": "Per il trasferimento è necessario sbloccare la sessione",
+          "waiting-to-witness": "Attendi per il trasferimento di {{currencySymbol}}",
+          "locked-initializing": "Per il trasferimento di {{currencySymbol}} è necessario sbloccare la sessione",
           "failed-permanently": "{{currencySymbol}} trasferimento fallito"
         },
         "destination": {
@@ -3465,18 +3465,18 @@
       "receive-funds-from-external": "Ricevi fondi da un portafoglio esterno"
     },
     "available-funds": {
-      "available-amount-send": "A disposizione per l'invio",
+      "available-amount-send": "A disposizione per l’invio",
       "available-amount-nash-channels-deposit": "A disposizione per il deposito",
       "available-amount-nash-channels-withdraw": "A disposizione per il ritiro",
       "wallets": {
         "personal-account": "Account personale",
-        "nash-channels": "Canali Nash",
-        "in-orders": " In ordini ",
-        "pending": " In attesa "
+        "nash-channels": "Nash Channels",
+        "in-orders": "In ordini",
+        "pending": "In attesa"
       }
     },
     "wallet-type": {
-      "personal": "il mio portafoglio personale",
+      "personal": "Il mio portafoglio personale",
       "trading": "Contratto di trading",
       "external": "Un portafoglio esterno"
     },
