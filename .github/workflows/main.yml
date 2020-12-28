@@ -4,9 +4,11 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      ACTIONS_ALLOW_UNSECURE_COMMANDS: true
     steps:
       - uses: actions/checkout@v2
-      - uses: denolib/setup-deno@v1.3.0
+      - uses: denolib/setup-deno@v2
         with:
           deno-version: 1.0.2
       - name: Validate all locale files
