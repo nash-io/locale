@@ -6,7 +6,7 @@
   "continue": "Ga verder",
   "ok": "OK",
   "back": "Terug",
-  "help": "Help",
+  "help": "Ondersteuning",
   "and": "en",
   "from": "Van",
   "to": "Naar",
@@ -31,8 +31,8 @@
   "wallet": "Account",
   "upload": "Upload",
   "processing": "Verwerken…",
-  "over-file-limit": "Bestandsgrootte mag niet groter zijn dan {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opent in een nieuwe tab",
+  "over-file-limit": "Bestand mag niet groter zijn dan {{maxAllowedSize}}{{unit}}.",
+  "opens-new-tab": "Opent in een nieuw tabblad",
   "failed-update": "Update mislukt",
   "reported-errors": "Fouten gerapporteerd",
   "credit-card-expiry-placeholder": "MM/JJ",
@@ -50,7 +50,7 @@
     "duplicate-address-in-form": "Dit adres is reeds gewhitelist.",
     "add-address": "Voeg adres toe",
     "address-is-not-valid": "Adres is niet geldig.",
-    "whitelisting-explanation": "Je kan met deze API-sleutel enkel fondsen opnemen naar de adressen op de witte lijst. Zodra je sleutel is gegenereerd, kun je eender wanneer adressen op de witte lijst toevoegen en verwijderen.",
+    "whitelisting-explanation": "Je kan met deze API-sleutel enkel fondsen opnemen naar de adressen op de witte lijst. Zodra jouw sleutel is gegenereerd, kun je eender wanneer adressen op de witte lijst toevoegen en verwijderen.",
     "token-type": {
       "access": "Toegang",
       "kyc": "Identiteitsverificatie",
@@ -104,8 +104,8 @@
     "create-modal": {
       "credentials-step": "Gebruikersgegevens",
       "whitelist-step": "Gewhiteliste adressen",
-      "name-step": "Geef je sleutel een naam",
-      "last-step": "Back up geheim",
+      "name-step": "Geef jouw sleutel een naam",
+      "last-step": "Back-up geheim",
       "title": "Genereer een nieuwe API-sleutel"
     },
     "step1": {
@@ -143,14 +143,14 @@
     "in-trades": "In trades",
     "transfer-funds": "Verzend/Ontvang",
     "pending-transfer": "Je hebt een transactie in behandeling van {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "Bekijk je transacties hier."
+    "pending-transfer-link": "Bekijk jouw transacties hier."
   },
   "estimated-fee": "Geschatte commissie: {{fee}} {{currencySymbol}}",
   "quick-fill": {
     "max": "Max",
     "use-last": "Gebruik laatste"
   },
-  "insufficient-funds": "Onvoldoende fondsen",
+  "insufficient-funds": "Onvoldoende saldo",
   "amount-each": "{{amount}} per stuk",
   "daily-limit": {
     "title": "Totaal dagelijkse limieten",
@@ -167,7 +167,7 @@
   },
   "time-in-force-modal": {
     "title": "Time in force",
-    "subtitle": "Geef het tijdsbestek door waarin je order in het orderboek moet blijven.",
+    "subtitle": "Geef het tijdsbestek door waarin jouw order in het orderboek moet blijven.",
     "sections": {
       "gtc": {
         "header": "Good ’til canceled",
@@ -202,8 +202,8 @@
   },
   "top-nav": {
     "exchange-status": {
-      "operational": "Exchange volledig operationeel",
-      "maintenance": "Exchange in onderhoud"
+      "operational": "Handelsbeurs volledig operationeel",
+      "maintenance": "Handelsbeurs in onderhoud"
     },
     "accounts-main-menu": {
       "title": "Diensten"
@@ -219,7 +219,7 @@
       "transfers": {
         "initializing": "Initialiseren",
         "unlock-required": "Gepauzeerd",
-        "locked-tooltip": "Je hebt nog steeds een overdracht die wordt geïnitialiseerd. Overboekingen kunnen niet worden geïnitialiseerd terwijl uw account is vergrendeld. Ontgrendel om door te gaan",
+        "locked-tooltip": "Je hebt nog steeds een overdracht die wordt geïnitialiseerd. Overboekingen kunnen niet worden geïnitialiseerd terwijl jouw account is vergrendeld. Ontgrendel om door te gaan",
         "initialized": "Transactie is geïnitialiseerd",
         "tooltip": "Je hebt nog een transactie die wordt geïnitialiseerd. Als je Nash afsluit of uitlogt, wordt dit gepauzeerd totdat je weer inlogt.",
         "do-unlock": "Ontgrendel"
@@ -309,18 +309,18 @@
   "sending-approval": "Goedkeuring aan het verzenden…",
   "send-approval": "Verstuur goedkeuring",
   "submit-transfer": "Dien de transactie in",
-  "no-longer-sufficient-balance-for-tx": "U heeft niet genoeg balans meer voor deze transactie.",
+  "no-longer-sufficient-balance-for-tx": "U heeft niet genoeg saldo meer voor deze transactie.",
   "we-are-hiring": "Wij zoeken personeel",
   "errors": {
     "invalid-address-title": "Ongeldig adres op jouw profiel",
-    "invalid-address": "Neem aub <0>contact op met ondersteuning</0> om uw adres bij ons bij te werken.",
+    "invalid-address": "Neem alsjeblieft <0>contact op met ondersteuning</0> om jouw adres bij ons bij te werken.",
     "location-banned-title": "Toegang geblokkeerd",
     "location-banned": "Helaas, Nash kan op dit moment niet opereren in jouw regio.",
     "invalid-clock-title": "De klok van jouw computer is niet correct ingesteld.",
     "permissions-issue-title": "Machtigingsprobleem",
-    "invalid-clock": "Om te handelen op Nash moet je tijd correct zijn ingesteld. <0>Synchroniseer je klok</0> en <1>probeer opnieuw</1>.",
-    "network-issue-title": "Netwerk probleem",
-    "network-issue": "Er is een tijdelijk netwerk probleem. <0>Probeer opnieuw</0>.",
+    "invalid-clock": "Om te handelen op Nash moet jouw tijd correct zijn ingesteld. <0>Synchroniseer jouw klok</0> en <1>probeer opnieuw</1>.",
+    "network-issue-title": "Netwerkprobleem",
+    "network-issue": "Er is een tijdelijk netwerkprobleem. <0>Probeer opnieuw</0>.",
     "generic-error-title": "Foutmelding",
     "generic-error": "Er is iets verkeerd gegaan. Probeer het alsjeblieft opnieuw.",
     "generic-error-signout": "Een onverwacht probleem heeft zich voorgedaan. Log alsjeblieft uit en probeer het opnieuw.",
@@ -329,11 +329,11 @@
       "incorrect": "Het wachtwoord dat je hebt ingevuld klopt niet."
     },
     "2fa": {
-      "incorrect": "De twee-factor authenticatie code die je hebt ingevuld klopt niet. Je kunt het maximaal vijf keer proberen.",
+      "incorrect": "De twee-factor authenticatie code die je hebt ingevoerd klopt niet. Je kunt het maximaal vijf keer proberen.",
       "already-used": "De twee-factor authenticatie code die je hebt ingevoerd is al gebruikt. Wacht alsjeblieft en probeer het opnieuw.",
-      "code-expired": "De twee-factor authenticatie code die je hebt ingevuld is verlopen. Wacht alsjeblieft en probeer het opnieuw.",
-      "too-many-failures": "Je hebt te vaak een incorrecte code ingevoerd en je account is nu permanent vergrendeld. Neem alsjeblieft contact op met support.",
-      "too-many-failures-signout": "Je hebt te vaak een incorrecte code ingevoerd en je account is nu permanent vergrendeld. Je wordt nu uitgelogd."
+      "code-expired": "De twee-factor authenticatie code die je hebt ingevoerd is verlopen. Wacht alsjeblieft en probeer het opnieuw.",
+      "too-many-failures": "Je hebt te vaak een incorrecte code ingevoerd en jouw account is nu permanent vergrendeld. Neem alsjeblieft contact op met support.",
+      "too-many-failures-signout": "Je hebt te vaak een incorrecte code ingevoerd en jouw account is nu permanent vergrendeld. Je wordt nu uitgelogd."
     },
     "cryptography": {
       "encryption-failed": "Versleuteling is mislukt. Log alsjeblieft uit en probeer het opnieuw.",
@@ -341,11 +341,11 @@
     },
     "account-not-found": {
       "pending": {
-        "title": "Je account wordt op dit moment verwerkt!",
+        "title": "Jouw account wordt op dit moment verwerkt!",
         "message": "Probeer het over een paar minuten nog eens."
       },
       "not-found": {
-        "title": "Je account kon niet worden gevonden."
+        "title": "Jouw account kon niet worden gevonden."
       }
     }
   },
@@ -416,38 +416,38 @@
       },
       "restricted": {
         "us": {
-          "title": "Niet alle Nash-services worden momenteel ondersteund in {{usState}}. Je toegang tot sommige delen van het Nash-platform is beperkt.",
-          "title-no-state": "Niet alle Nash-serives worden momenteel ondersteund in jouw plaats. Je toegang tot sommige delen van het Nash-platform is beperkt.",
-          "message": "We sturen een melding via de mail wanneer {{usState}} volledig ondersteund is. <0>Neem alsjeblieft contact op met ons support team</0> voor elke vraag.",
-          "message-no-state": "We laten je per e-mail weten wanneer je land volledig wordt ondersteund. Neem bij vragen <0>contact op met ons ondersteuningsteam</0>."
+          "title": "Niet alle diensten van Nash worden momenteel ondersteund in {{usState}}. Jouw toegang tot sommige delen van het Nash-platform is beperkt.",
+          "title-no-state": "Niet alle diensten Nash worden momenteel ondersteund in jouw plaats. Jouw toegang tot sommige delen van het Nash-platform is beperkt.",
+          "message": "We sturen een melding via e-mail wanneer {{usState}} volledig ondersteund is. <0>Neem alsjeblieft contact op met ons ondersteuningsteam</0> voor elke vraag.",
+          "message-no-state": "We laten je per e-mail weten wanneer jouw land volledig wordt ondersteund. Neem bij vragen <0>contact op met ons ondersteuningsteam</0>."
         },
         "generic": {
-          "title": "Niet alle Nash-services worden momenteel ondersteund op uw huidige locatie. Uw toegang tot sommige delen van het Nash-platform is beperkt.",
+          "title": "Niet alle Nash diensten worden momenteel ondersteund op jouw huidige locatie. Jouw toegang tot sommige delen van het Nash-platform is beperkt.",
           "message": "Neem bij vragen <0>contact op met ons ondersteuningsteam</0>."
         }
       },
       "tier-too-low": {
-        "title": "Uw huidige verificatieniveau is niveau {{userTier}}. Als gevolg hiervan is uw toegang tot sommige delen van het Nash-platform beperkt.",
-        "message": "Om ons volledige dienstenportfolio te gebruiken, moet u <0>upgraden naar Tier {{minTier}}</0>."
+        "title": "Jouw huidige verificatieniveau is niveau {{userTier}}. Als gevolg hiervan is jouw toegang tot sommige delen van het Nash-platform beperkt.",
+        "message": "Om ons volledige dienstenportfolio te gebruiken, moet je <0>upgraden naar niveau {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
           "title": "We merken dat je je aanmeldt vanuit {{detectedCountry}}.",
-          "message": "Als je niet langer in {{accountCountry}} woont, neem dan <0>contact op met ons ondersteuningsteam</0> om je woonplaats bij te werken."
+          "message": "Als je niet langer in {{accountCountry}} woont, neem dan <0>contact op met ons ondersteuningsteam</0> om jouw woonplaats bij te werken."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
           "title": "Gebruik een desktop voor een betere ervaring.",
-          "message": "De ‘Pro’-weergave is ontworpen voor desktopgebruik. Als u op uw mobiel bent, probeer dan de <0>‘Basis’-weergave</0>."
+          "message": "De ‘Pro’-weergave is ontworpen voor desktopgebruik. Als je op jouw mobiel bent, probeer dan de <0>‘Basis’-weergave</0>."
         }
       }
     },
     "hello-mpc": {
       "title": "Vaarwel, privésleutels. Hallo, MPC!",
-      "message": "Ons nieuwe-generatie protocol is er! Uw Nash-portemonnee ondertekent nu transacties met de veilige multi-party computation (MPC)"
+      "message": "Ons nieuwe-generatie protocol is er! Uw Nash-wallet ondertekent nu transacties met de veilige multi-party computation (MPC)"
     },
     "dismiss-message": "Niet meer tonen."
   },
@@ -466,20 +466,20 @@
       "sign-in-now": "Meld je nu aan"
     },
     "form": {
-      "your-state-is": "Je staat is",
+      "your-state-is": "Jouw staat is",
       "fields": {
         "optional": "(optioneel)"
       },
       "continue": "Verder gaan",
       "errors": {
-        "generic-error": "Fout bij het aanmelden voor een account. Probeer het alstublieft opnieuw.",
+        "generic-error": "Fout bij het aanmelden voor een account. Probeer het alsjeblieft opnieuw.",
         "invalid-referral-code-can-continue": "Ongeldige verwijzingscode.",
-        "invalid-referral-code": "Ongeldige verwijzingscode. Controleer je code en probeer het opnieuw.",
-        "invalid-email-domain": "Je e-mailprovider is niet toegestaan. Gebruik een ander adres.",
+        "invalid-referral-code": "Ongeldige verwijzingscode. Controleer jouw code en probeer het opnieuw.",
+        "invalid-email-domain": "Jouw e-mailprovider is niet toegestaan. Gebruik een ander adres.",
         "duplicate-email": "Er is al een account aangemaakt voor dit e-mailadres.",
-        "password-too-short": "Je wachtwoord moet minimaal acht tekens lang zijn.",
+        "password-too-short": "Jouw wachtwoord moet minimaal acht tekens lang zijn.",
         "invalid-recaptcha": "Recaptcha verificatie is mislukt. Probeer het opnieuw.",
-        "missing-us-state": "Als je in de Verenigde Staten woont, moet je je staat invoeren."
+        "missing-us-state": "Als je in de Verenigde Staten woont, moet je jouw staat invoeren."
       }
     },
     "your-details": {
@@ -487,7 +487,7 @@
       "subheader": "Jouw gegevens",
       "disclaimer": {
         "title": "Kennisgeving voor Amerikaanse klanten",
-        "desc": "Je maakt een voorlopig Nash-account aan om deel te nemen aan het verwijzingsprogramma, maar je staat moet in aanmerking komen voor toegang tot sommige diensten van Nash. Als je hiervoor in aanmerking komt, word je later gevraagd een gebruikersovereenkomst te ondertekenen."
+        "desc": "Je maakt een voorlopige Nash-account aan om deel te nemen aan het verwijzingsprogramma, maar jouw staat moet in aanmerking komen voor toegang tot sommige diensten van Nash. Als je hiervoor in aanmerking komt, word je later gevraagd een gebruikersovereenkomst te ondertekenen."
       },
       "fields": {
         "full-name": {
@@ -507,7 +507,7 @@
       "user-messages": {
         "untrusted-ip": {
           "title": "We hebben gemerkt dat je een VPN gebruikt.",
-          "message": "Schakel alle VPN- of proxyservices uit om door te gaan. Nadat je een account hebt aangemaakt, kun je je identiteit verifiëren om in de toekomst een VPN te gebruiken."
+          "message": "Schakel alle VPN- of proxyservices uit om door te gaan. Nadat je een account hebt aangemaakt, kun je jouw identiteit verifiëren om in de toekomst een VPN te gebruiken."
         }
       }
     },
@@ -3201,8 +3201,8 @@
         }
       },
       "receive-assets": {
-        "wallet-address": "[Translation required: Wallet address]",
-        "only-send-to": "[Translation required: Only send {{currency}} to this address!]"
+        "wallet-address": "Wallet adres",
+        "only-send-to": "Stuur alleen {{currency}} naar dit adres!"
       },
       "transfer-info": {
         "title": "Fondsen kunnen als volgt worden overgedragen",
