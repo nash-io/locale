@@ -27,7 +27,7 @@
   "market-price": "Marktpreis",
   "exchange": "Börse",
   "receive": "Empfangen",
-  "send": "Sende",
+  "send": "Senden",
   "wallet": "Wallet",
   "upload": "Hochladen",
   "processing": "Wird verarbeitet",
@@ -3091,8 +3091,8 @@
           "movement": {
             "error": "Bitte warte, bis deine letzte Ethereum-Transaktion abgeschlossen ist.",
             "pending-error": "Bitte warte, bis deine ausstehende Ethereum-Transaktion abgeschlossen ist.",
-            "token-requires-approval": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieser Token in den Trading Contract überwiesen werden kann.",
-            "too-many-utxo": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieser Token in die Nash Channels überwiesen werden kann."
+            "token-requires-approval": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieses Token in den Trading Contract überwiesen werden kann.",
+            "too-many-utxo": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieses Token in die Nash Channels überwiesen werden kann."
           },
           "transfer-amount": {
             "label": "Menge",
@@ -3118,7 +3118,7 @@
           },
           "fees": {
             "eth-recommended-message": "Wir empfehlen dir, auf deinen persönlichen Konto immer einen kleinen Betrag (~{{amount}} ETH) für Ethereum-Netzwerkgebühr bereitzustellen. ‘Max.’ wird diesen Betrag einbehalten. Du kannst dein gesamtes Guthaben trotzdem manuell eingeben.",
-            "fee-shortage": "Du benötigst mindestens <0>{{amount}}</0> {{currencySymbol}} in deine Wallet, um die Transaktionsgebühren zu bezahlen. <1></1> Dein Kontostand: <0>{{balance}}</0> {{currencySymbol}}"
+            "fee-shortage": "Du benötigst mindestens <0>{{amount}}</0> {{currencySymbol}} in deiner Wallet, um die Transaktionsgebühren zu bezahlen. <1></1> Dein Kontostand: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
             "neo-trading": "Du kannst keine Teilbeträge (z.b. 0,1 NEO) von NEO versenden oder abheben."
