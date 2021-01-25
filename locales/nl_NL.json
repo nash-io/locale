@@ -25,7 +25,7 @@
   "set-price": "Stel een prijs in",
   "market": "Markt",
   "market-price": "Marktprijs",
-  "exchange": "Handelsmarkt",
+  "exchange": "Handelsplatvorm",
   "receive": "Ontvang",
   "send": "Verzend",
   "wallet": "Account",
@@ -42,15 +42,15 @@
   "dismiss-forever": "Niet meer tonen",
   "remind-me-later": "Herinner me er later aan",
   "no-limit": "Geen limiet",
-  "learn-more": "Leer meer",
+  "learn-more": "Meer informatie",
   "apikeys": {
-    "no-addresses-whitelisted": "Je hebt nog geen gewhiteliste adressen.",
-    "address-input-placeholder": "Voer een BTC, NEO of ETH-adres in om te whitelisten",
-    "add-whitelisted": "Gewhiteliste adressen",
-    "duplicate-address-in-form": "Dit adres is reeds gewhitelist.",
+    "no-addresses-whitelisted": "Je hebt nog geen goedgekeurde adressen.",
+    "address-input-placeholder": "Voer een BTC, NEO of ETH-adres in om deze toe te voegen aan de lijst van goedgekeurde addressen",
+    "add-whitelisted": "Lijst van goedgekeurde adressen",
+    "duplicate-address-in-form": "Dit adres is reeds goedgekeurd.",
     "add-address": "Voeg adres toe",
     "address-is-not-valid": "Adres is niet geldig.",
-    "whitelisting-explanation": "Je kan met deze API-sleutel enkel fondsen opnemen naar de adressen op de witte lijst. Zodra jouw sleutel is gegenereerd, kun je eender wanneer adressen op de witte lijst toevoegen en verwijderen.",
+    "whitelisting-explanation": "Je kan met deze API-sleutel enkel fondsen opnemen naar de goedgekeurde adressen. Zodra jouw sleutel is gegenereerd, kun je eender wanneer adressen op de witte lijst toevoegen en verwijderen.",
     "token-type": {
       "access": "Toegang",
       "kyc": "Identiteitsverificatie",
@@ -147,7 +147,7 @@
   },
   "estimated-fee": "Geschatte commissie: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
+    "max": "Maximum",
     "use-last": "Gebruik laatste"
   },
   "insufficient-funds": "Onvoldoende saldo",
@@ -210,7 +210,7 @@
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Portefeuille"
       },
       "notifications": {
         "label": "Meldingen",
@@ -259,7 +259,7 @@
       "funds": {
         "title": "Activa",
         "pages": {
-          "portfolio": "Portfolio",
+          "portfolio": "Portefeuille",
           "transfers": "Transacties",
           "assets": "Activa",
           "contacts": "Contacten"
@@ -288,23 +288,23 @@
         }
       },
       "staking": {
-        "title": "Staking",
+        "title": "Vastzetten voor dividenduitbetalingen",
         "pages": {
-          "all-stakes": "Alle stakes",
-          "statements": "Uittreksels"
+          "all-stakes": "Alle vastzettingen voor dividenduitbetalingen",
+          "statements": "Afschriften"
         }
       }
     }
   },
   "search": "Zoeken…",
   "loading": "Aan het laden…",
-  "pending": "In afwachting",
+  "pending": "In proces",
   "cancelling": "Aan het annuleren…",
   "authenticating": "Aan het verifiëren…",
   "decrypting": "Aan het ontsleutelen…",
   "encrypting": "Aan het versleutelen…",
   "sending": "Aan het versturen…",
-  "submit": "Indienen",
+  "submit": "Dien in",
   "retry": "Opnieuw proberen",
   "sending-approval": "Goedkeuring aan het verzenden…",
   "send-approval": "Verstuur goedkeuring",
@@ -313,7 +313,7 @@
   "we-are-hiring": "Wij zoeken personeel",
   "errors": {
     "invalid-address-title": "Ongeldig adres op jouw profiel",
-    "invalid-address": "Neem alsjeblieft <0>contact op met ondersteuning</0> om jouw adres bij ons bij te werken.",
+    "invalid-address": "Neem alsjeblieft <0>contact op met ons ondersteuningsteam</0> om jouw adres bij ons bij te werken.",
     "location-banned-title": "Toegang geblokkeerd",
     "location-banned": "Helaas, Nash kan op dit moment niet opereren in jouw regio.",
     "invalid-clock-title": "De klok van jouw computer is niet correct ingesteld.",
@@ -324,7 +324,7 @@
     "generic-error-title": "Foutmelding",
     "generic-error": "Er is iets verkeerd gegaan. Probeer het alsjeblieft opnieuw.",
     "generic-error-signout": "Een onverwacht probleem heeft zich voorgedaan. Log alsjeblieft uit en probeer het opnieuw.",
-    "within-waiting-period": "Je moet vijf minuten wachten voordat je nog een stake kunt aanmaken. Je nieuwe stake kan elk moment verschijnen.",
+    "within-waiting-period": "Je moet vijf minuten wachten voordat je nog een vastzetting van NEX voor dividenduitbetalingen kan doen. Jouw nieuwe vastzetting kan elk moment verschijnen.",
     "password": {
       "incorrect": "Het wachtwoord dat je hebt ingevuld klopt niet."
     },
@@ -353,9 +353,9 @@
   "yes": "ja",
   "no": "nee",
   "account-types": {
-    "personal": "Persoonlijk account",
+    "personal": "Persoonlijke account",
     "trading": "Handelscontract",
-    "external": "Extern account",
+    "external": "Externe account",
     "nash-channels": "Nash Channels"
   },
   "query-errors": {
@@ -384,13 +384,13 @@
   },
   "banned-country": {
     "header": "Helaas, Nash kan op dit moment niet opereren in jouw regio.",
-    "contact-support": "Neem alsjeblieft <0>Contact op met ons support team</0> als je vragen hebt."
+    "contact-support": "Neem alsjeblieft <0>contact op met ons ondersteuningsteam</0> als je vragen hebt."
   },
   "user-messages": {
     "something-wrong": "Er is iets verkeerd gegaan.",
     "go-back": "Ga terug",
-    "go-back-retry": "Probeer het opnieuw en ga terug",
-    "contact-support": "Neem alsjeblieft <0>contact op met ons support team</0> voor meer details.",
+    "go-back-retry": "Ga terug en probeer het opnieuw",
+    "contact-support": "Neem alsjeblieft <0>contact op met ons ondersteuningsteam</0> voor meer details.",
     "permissions": {
       "sandbox": {
         "title": "Niet beschikbaar in de sandbox!",
@@ -399,26 +399,26 @@
       "tier-0": {
         "location-mismatch": {
           "title": "Jouw IP-adres komt niet overeen met het land dat je hebt geselecteerd.",
-          "message": "Gebruikers met een verificatielevel van Tier 0 hebben geen toegang tot alle Nash-services tenzij dat ze verbinding maken vanuit het land waar ze woonachtig zijn. Denk erover na <0>om te upgraden naar Tier 1</0>."
+          "message": "Gebruikers met een verificatielevel van Niveau 0 hebben geen toegang tot alle Nash-services tenzij dat ze verbinding maken vanuit het land waar ze woonachtig zijn. Denk erover na <0>om te upgraden naar Niveau 1</0>."
         },
         "untrusted-ip": {
           "title": "We zien dat je een VPN gebruikt.",
-          "message": "Gebruikers met een verificatie level van Tier 0 hebben geen toegang tot alle Nash-services als ze verbinding maken via een VPN of proxy. Sluit zulke diensten alsjeblieft af of <0>upgrade naar Tier 1</0>."
+          "message": "Gebruikers met een verificatie level van Niveau 0 hebben geen toegang tot alle Nash-services als ze verbinding maken via een VPN of proxy. Sluit zulke diensten alsjeblieft af of <0>upgrade naar Niveau 1</0>."
         },
         "high-risk-country": {
-          "title": "Je huidige verificatie level is Tier 0. Het gevolg is dat sommige delen van het platform niet toegankelijk zijn voor jou.",
-          "message": "Om ons complete productaanbod te gebruiken moet je <0>upgraden naar Tier 0</0>."
+          "title": "Je huidige verificatie level is Niveau 0. Het gevolg is dat sommige delen van het platform niet toegankelijk zijn voor jou.",
+          "message": "Om ons complete productaanbod te gebruiken dien je <0>te upgraden naar Niveau 1</0>."
         },
         "duplicate-ip": {
           "title": "Er is al een account aangemaakt via dit IP adres.",
-          "message": "Om toegang te hebben tot alle Nash-services op dit account moet je <0>upgraden naar Tier 1</0>."
+          "message": "Om toegang te hebben tot alle Nash-services op deze account dien je <0>te upgraden naar Niveau 1</0>."
         }
       },
       "restricted": {
         "us": {
           "title": "Niet alle diensten van Nash worden momenteel ondersteund in {{usState}}. Jouw toegang tot sommige delen van het Nash-platform is beperkt.",
           "title-no-state": "Niet alle diensten Nash worden momenteel ondersteund in jouw plaats. Jouw toegang tot sommige delen van het Nash-platform is beperkt.",
-          "message": "We sturen een melding via e-mail wanneer {{usState}} volledig ondersteund is. <0>Neem alsjeblieft contact op met ons ondersteuningsteam</0> voor elke vraag.",
+          "message": "We sturen een melding via e-mail wanneer {{usState}} volledig ondersteund is. Neem bij vragen <0>contact op met ons ondersteuningsteam</0>.",
           "message-no-state": "We laten je per e-mail weten wanneer jouw land volledig wordt ondersteund. Neem bij vragen <0>contact op met ons ondersteuningsteam</0>."
         },
         "generic": {
@@ -428,7 +428,7 @@
       },
       "tier-too-low": {
         "title": "Jouw huidige verificatieniveau is niveau {{userTier}}. Als gevolg hiervan is jouw toegang tot sommige delen van het Nash-platform beperkt.",
-        "message": "Om ons volledige dienstenportfolio te gebruiken, moet je <0>upgraden naar niveau {{minTier}}</0>."
+        "message": "Om al onze diensten volledig te kunnen gebruiken, dien je <0>up te graden naar Niveau {{minTier}}</0>."
       }
     },
     "info": {
@@ -440,14 +440,14 @@
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Gebruik een desktop voor een betere ervaring.",
+          "title": "Gebruik een PC voor een betere ervaring.",
           "message": "De ‘Pro’-weergave is ontworpen voor desktopgebruik. Als je op jouw mobiel bent, probeer dan de <0>‘Basis’-weergave</0>."
         }
       }
     },
     "hello-mpc": {
       "title": "Vaarwel, privésleutels. Hallo, MPC!",
-      "message": "Ons nieuwe-generatie protocol is er! Uw Nash-wallet ondertekent nu transacties met de veilige multi-party computation (MPC)"
+      "message": "Ons nieuwe-generatie protocol is er! Jouw Nash-wallet ondertekent nu transacties met de veilige meervoudige-partij computatie (MPC)"
     },
     "dismiss-message": "Niet meer tonen."
   },
@@ -506,8 +506,8 @@
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We hebben gemerkt dat je een VPN gebruikt.",
-          "message": "Schakel alle VPN- of proxyservices uit om door te gaan. Nadat je een account hebt aangemaakt, kun je jouw identiteit verifiëren om in de toekomst een VPN te gebruiken."
+          "title": "We hebben gemerkt dat je een VPN-verbinding gebruikt.",
+          "message": "Schakel alle VPN-verbindingen of proxyservices uit om door te gaan. Nadat je een account hebt aangemaakt, kun je jouw identiteit verifiëren om in de toekomst een VPN-verbinding te gebruiken."
         }
       }
     },
@@ -522,14 +522,14 @@
           "label": "Land van verblijf"
         },
         "state": {
-          "label": "Staat",
+          "label": "Provincie",
           "location": "Locatie"
         },
         "confirm-country": {
           "label": "Ik bevestig dat dit mijn land van verblijf is."
         },
         "confirm-country-and-state": {
-          "label": "Hierbij bevestig ik dat ik in dit land woonachtig ben."
+          "label": "Hierbij bevestig ik dat ik woonachtig ben in dit land."
         }
       }
     },
@@ -560,17 +560,17 @@
       "modals": {
         "password-tips": {
           "title": "Tips voor een sterk wachtwoord",
-          "desc": "Een sterk wachtwoord is essentieel om uw fondsen veilig te houden. Volg deze tips om veilig te blijven:",
+          "desc": "Een sterk wachtwoord is essentieel om jouw fondsen veilig te houden. Volg deze tips om veilig te blijven:",
           "tip-index": "Tip {{index}}",
-          "tip-1": "Gebruik geen wachtwoord dat je op andere websites gebruikt, ook niet als je individuele woorden of karakters verandert. Als je gephisht of gehackt wordt, loopt je Nash-account ook risico.",
-          "tip-2": "Neem geen persoonlijke informatie op in je wachtwoord. Namen, verjaardagen en adressen zijn gemakkelijk te achterhalen en dat kan je beter vermijden.",
-          "tip-3": "Maak je wachtwoord minimaal twaalf tekens lang en gebruik een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens.",
-          "tip-4": "Overweeg een wachtwoordgenerator te gebruiken om zeer sterke wachtwoorden aan te maken en op te slaan."
+          "tip-1": "Gebruik geen wachtwoord dat je op andere websites gebruikt, ook niet als je individuele woorden of karakters verandert. Als je gephisht of gehackt wordt, loopt jouw Nash-account ook risico.",
+          "tip-2": "Neem geen persoonlijke informatie op in jouw wachtwoord. Namen, verjaardagen en adressen zijn gemakkelijk te achterhalen en dat kan je beter vermijden.",
+          "tip-3": "Maak jouw wachtwoord minimaal twaalf tekens lang en gebruik een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens.",
+          "tip-4": "Overweeg het gebruik van een wachtwoordgenerator om zeer sterke wachtwoorden te creëren en op te slaan."
         }
       },
       "password": {
         "desc": "Gebruik een combinatie van hoofdletters en kleine letters, cijfers en speciale tekens voor een sterker wachtwoord.",
-        "tips": "Tips voor het maken van wachtwoorden",
+        "tips": "Tips voor het creëren van wachtwoorden",
         "password-strength": "Wachtwoord sterkte",
         "weak": "Zwak",
         "medium": "Gemiddeld",
@@ -580,15 +580,15 @@
     },
     "verify-email": {
       "header": "We hebben je een e-mail gestuurd!",
-      "desc-1": "Controleer je e-mail en verifieer je account.",
-      "desc-2": "Als je onze e-mail niet ziet, controleer dan je ongewenste map.",
+      "desc-1": "Controleer jouw e-mail en verifieer jouw account.",
+      "desc-2": "Als je onze e-mail niet ziet, controleer dan jouw map voor ongewenste e-mail.",
       "resend": "Verzend verificatie-e-mail opnieuw",
       "resend-delay": "Wacht alsjeblieft {{count}} seconde…",
       "resend-delay_plural": "Wacht alsjeblieft {{count}} seconden…",
       "back": "Terug naar inloggen",
       "success": "Verificatie-e-mail opnieuw verzonden!",
       "errors": {
-        "generic-error": "Fout bij opnieuw verzenden van verificatie-e-mail. Probeer het alsjeblieft opnieuw."
+        "generic-error": "Fout bij het opnieuw verzenden van verificatie-e-mail. Probeer het alsjeblieft opnieuw."
       }
     }
   },
@@ -600,15 +600,15 @@
     ],
     "general-information": {
       "title": "Algemene informatie",
-      "header": "Laten we je persoonlijke account maken",
-      "desc-1": "Jouw persoonlijke account wordt gegenereerd met twaalf geheime woorden. Als je je wachtwoord kwijtraakt, heb je toegang tot jouw account en kun je je wachtwoord met deze twaalf woorden resetten. Zorg ervoor dat je een back-up maakt van jouw twaalf geheime woorden.",
+      "header": "Laten we jouw persoonlijke account aanmaken",
+      "desc-1": "Jouw persoonlijke account wordt gegenereerd met twaalf geheime woorden. Als je jouw wachtwoord kwijtraakt, heb je met deze twaalf woorden toegang tot jouw account en kun je het wachtwoord opnieuw instellen. Zorg ervoor dat je een back-up maakt van jouw twaalf geheime woorden.",
       "continue": "Genereer mijn twaalf geheime woorden",
       "skip2Fa": "Stel het later in",
       "chart": {
         "card-top": "Twaalf geheime woorden",
-        "card-top-right": "Nash accountherstel als wachtwoord vergeten is",
+        "card-top-right": "Nash-accountherstel als wachtwoord vergeten is",
         "diamond-one": "Gebruikt in",
-        "diamond-two": "Genereer uw persoonlijke account, het bevat…",
+        "diamond-two": "Genereer jouw persoonlijke account, het bevat…",
         "card-btc": "Bitcoin account",
         "card-neo": "NEO account",
         "card-eth": "Ethereum account",
@@ -617,49 +617,49 @@
     },
     "secret-words": {
       "title": "Geheime woorden",
-      "header": "Schrijf uw twaalf geheime woorden op",
-      "desc": "Deze woorden worden gebruikt om toegang te krijgen tot je fondsen. Je hebt het ook nodig om je wachtwoord opnieuw in te stellen.",
-      "popup-error": "Als je je geheime woorden wilt afdrukken, schakel dan alle pop-upblokkeringen uit en laat Nash pop-ups openen.",
+      "header": "Schrijf jouw twaalf geheime woorden op",
+      "desc": "Deze woorden worden gebruikt om toegang te krijgen tot jouw fondsen. Je hebt het ook nodig om jouw wachtwoord opnieuw in te stellen.",
+      "popup-error": "Als je jouw geheime woorden wilt afdrukken, schakel dan alle pop-upblokkeringen uit en sta Nash toe om pop-ups te openen.",
       "continue": "Ga verder",
       "go-back": "Ga terug",
       "written-down": "Ik heb mijn woorden opgeschreven.",
       "check-my-backup": "Controleer mijn back-up",
       "tips": {
-        "do": "Schrijf je geheime woorden met de hand op.",
-        "dont": "Bewaar je geheime woorden niet digitaal."
+        "do": "Schrijf jouw geheime woorden met de hand op.",
+        "dont": "Bewaar jouw geheime woorden niet digitaal."
       },
       "modals": {
         "print-warning": {
           "title": "Print jouw twaalf geheime woorden",
-          "header": "Zorg ervoor dat je printer veilig is!",
-          "body-desc": "Als je ervoor kiest om jouw woorden te printen, zorg dan dat:",
-          "body-tips-0": "Je printer is rechtstreeks op je computer aangesloten met een USB-kabel.",
-          "body-tips-1": "Je printer is niet verbonden met een netwerk van welke aard dan ook.",
-          "body-tips-2": "Het is voor anderen onmogelijk om verbinding te maken met uw printer via Bluetooth, WLAN, enz.",
+          "header": "Zorg ervoor dat jouw printer veilig is!",
+          "body-desc": "Als je ervoor kiest om jouw woorden te printen, zorg dan dat je er zeker van bent:",
+          "body-tips-0": "Jouw printer is rechtstreeks op jouw computer aangesloten met een USB-kabel.",
+          "body-tips-1": "Jouw printer is niet verbonden met een netwerk van welke aard dan ook.",
+          "body-tips-2": "Het is voor anderen onmogelijk om verbinding te maken met jouw printer via Bluetooth, WLAN, enz.",
           "button": "Ik begrijp het – print mijn woorden"
         }
       },
       "print-window-title": "Nash | Geheim woord back-up",
       "backup-print": {
         "header": "Geheim woord back-up",
-        "desc-1": "Jouw twaalf geheime woorden kunnen worden gebruikt om toegang te krijgen tot je ETH-, NEO- en andere accounts als je je Nash-wachtwoord kwijtraakt.",
-        "desc-2": "Onthoud: als iemand toegang krijgt tot jouw twaalf geheime woorden, lopen je fondsen gevaar.",
-        "desc-3": "Knip de onderstaande stukjes uit. Overweeg het te lamineren en op twee aparte locaties op te bergen."
+        "desc-1": "Jouw twaalf geheime woorden kunnen worden gebruikt om toegang te krijgen tot jouw ETH-, NEO- en andere accounts als je jouw Nash-wachtwoord kwijtraakt.",
+        "desc-2": "Onthoud: als iemand toegang krijgt tot jouw twaalf geheime woorden, lopen jouw fondsen gevaar.",
+        "desc-3": "Knip de onderstaande stukken uit. Overweeg deze te lamineren en ze op twee aparte locaties te bewaren."
       },
       "repeat-secret-words": {
         "header": "Herhaal jouw twaalf geheime woorden",
-        "desc": "We willen zeker weten dat je je geheime woorden hebt opgeschreven.",
+        "desc": "We willen zeker weten dat je jouw geheime woorden hebt opgeschreven.",
         "input-placeholder": "Woord {{index}}",
         "case-sensitive": "Alle woorden zijn in kleine letters",
         "create-my-wallet": "Maak mijn account",
         "generating-your-wallet": "Uw Nash-account genereren…",
-        "words-confirmed-continuing": "Woorden bevestigd! Doorgaan naar uw account…"
+        "words-confirmed-continuing": "Woorden bevestigd! Doorgaan naar jouw account…"
       },
       "wallet-created": {
-        "header": "Uw Nash-account is succesvol aangemaakt!",
+        "header": "Jouw Nash-account is succesvol aangemaakt!",
         "desc": "Je vindt jouw twaalf geheime woorden en individuele accountgegevens onder ‘Mijn profiel> Accounts’.",
-        "warning": "<0>We slaan je geheime woorden op geen enkele locatie op.</0> Als je je wachtwoord vergeet, heb je geen toegang tot je fondsen zonder deze woorden.",
-        "continue": "Zet twee-factor authenticatie op",
+        "warning": "<0>We slaan jouw geheime woorden op geen enkele locatie op.</0> Als je jouw wachtwoord vergeet, heb je geen toegang tot jouw fondsen zonder deze woorden.",
+        "continue": "Stel twee-factor authenticatie in",
         "continue-location": "Locatie van woonplaats instellen"
       }
     },
@@ -667,25 +667,25 @@
       "title": "Twee-factor authenticatie",
       "header": "Aanbevolen: Twee-factor authenticatie inschakelen",
       "skip": "Overslaan",
-      "desc": "Twee-factor authenticatie (2FA) voegt een extra beveiligingslaag toe aan je account.",
+      "desc": "Twee-factor authenticatie (2FA) voegt een extra beveiligingslaag toe aan jouw account.",
       "cards": {
         "1": {
-          "header": "Download en installeer een authenticator-app",
-          "desc": "Zoals <0>LastPass Authenticator</0>, <1>Authy</1> of <2>Google Authenticator</2>."
+          "header": "Download de Nash-app als jouw authenticator",
+          "desc": "Je kunt ook <0>LastPass Authenticator</0>, <1>Authy</1> of <2>Google Authenticator</2> gebruiken."
         },
         "2": {
           "header": "Scan deze QR-code met de door jouw gekozen gedownloade app",
-          "manual-2fa": "Schrijf je 2FA back-up code op"
+          "manual-2fa": "Schrijf jouw 2FA back-up code op"
         },
         "3": {
-          "header": "Voer de verificatiecode in die is gegenereerd door uw authenticator-app",
-          "input-placeholder": "Authenticatiecode",
+          "header": "Voer de verificatiecode in die is gegenereerd door jouw authenticator-app",
+          "input-placeholder": "000 000",
           "input-error": "De code die je hebt ingevoerd was onjuist."
         }
       },
       "confirm": {
         "header": "Twee-factor authenticatie is ingesteld!",
-        "desc": "Je vindt je twee-factor authenticatie instellingen onder ‘Mijn profiel> Beveiliging’ op het Nash-webplatform.",
+        "desc": "Je vindt jouw twee-factor authenticatie instellingen onder ‘Mijn profiel> Beveiliging’ op het Nash-webplatform.",
         "action": "Wat wil je nu doen?",
         "continue-deposit": "Fondsen storten",
         "continue-explore": "Verkennen"
@@ -705,7 +705,7 @@
       }
     },
     "messages": {
-      "create-order-blocked": "Je kunt in jouw regio geen orders maken op de beurs voor deze markt."
+      "create-order-blocked": "Je kunt op het handelsplatvorm geen orders creëren voor deze markt in jouw regio."
     }
   },
   "advanced-exchange": {
@@ -777,7 +777,7 @@
         "studies": {
           "title": "Indicatoren",
           "search": "Zoeken",
-          "no-results": "Geen resultaten voor uw criteria"
+          "no-results": "Geen resultaten voor jouw criteria"
         },
         "price-chart-selector": {
           "chart-iq": "Standaard grafiek",
@@ -843,8 +843,8 @@
       "sell": "Verkoop {{currencySymbol}}",
       "market-paused": "Deze markt is momenteel gepauzeerd voor onderhoud. Je kunt geen transacties uitvoeren.",
       "locked-trading-session": {
-        "information": "Je handelssessie is vergrendeld.",
-        "information-tooltip": "Sessies zijn vergrendeld wanneer je de pagina vernieuwt of het 15 minuten niet gebruikt.",
+        "information": "Jouw handelssessie is vergrendeld.",
+        "information-tooltip": "Sessies zijn vergrendeld wanneer je de pagina vernieuwt of 15 minuten niet gebruikt.",
         "enter-credentials-to-unlock": "<0>Nu ontgrendelen</0>"
       },
       "market-orders-disabled": {
@@ -873,16 +873,16 @@
       "fields": {
         "amount": {
           "label": "Bedrag",
-          "sub-label-market-buy": "Dit is een marktorder, dus we kunnen alleen het bedrag van {{currencyA}} schatten dat je zult kopen.",
-          "sub-label-market-sell": "Dit is een marktorder, dus we kunnen alleen een schatting maken van het totaal {{currencyB}} dat je zult ontvangen.",
+          "sub-label-market-buy": "Dit is een marktorder, dus we kunnen alleen een schatting maken van de hoeveelheid van {{currencyA}} die je zult kopen.",
+          "sub-label-market-sell": "Dit is een marktorder, dus we kunnen alleen een schatting maken van het totaal {{currencyB}} die je zult ontvangen.",
           "sub-label-limit-buy": "Voer het bedrag van {{currencySymbol}} in dat je wilt ontvangen.",
           "sub-label-limit-sell": "Voer het bedrag van {{currencySymbol}} in dat je wilt verkopen.",
           "estimate": "(schatting)",
           "errors": {
             "insufficient-funds": "Onvoldoende {{currencySymbol}}.",
             "maybe-insufficient-funds": "Onvoldoende {{currencySymbol}}.",
-            "order-too-small": "Min hoeveelheid {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "Dit overschrijdt je handelslimieten."
+            "order-too-small": "Minimale hoeveelheid {{orderSize}} {{currencySymbol}}.",
+            "limit-breached": "Dit overschrijdt jouw handelslimieten."
           }
         },
         "cancel-at": {
@@ -900,7 +900,7 @@
         },
         "market-price": {
           "label": "Markt",
-          "sub-label": "Wanneer je tegen marktprijs koopt of verkoopt, komt je order overeen met orders die momenteel in het boek staan."
+          "sub-label": "Wanneer je tegen marktprijs koopt of verkoopt, dan wordt jouw order gekoppeld aan orders die momenteel in het boek staan."
         },
         "show-limit": {
           "label-hide": "Stop-markt",
@@ -911,7 +911,7 @@
         },
         "limit-price": {
           "label": "Limiet",
-          "sub-label": "Je order kan overeenkomen met orders voor deze prijs of beter.",
+          "sub-label": "Jouw order kan overeenkomen met orders voor deze prijs of beter.",
           "errors": {
             "maker-match": "‘Post only’ orders die overeenkomen met het huidige orderboek worden geannuleerd."
           }
@@ -2367,7 +2367,7 @@
           "country-label": "Land",
           "state-label": "Provincie",
           "mobile-number": "Mobiel nummer",
-          "mobile-number-required": "[Translation required: Mobile number]"
+          "mobile-number-required": "Mobiel nummer"
         },
         "address": {
           "edit": "Adres bewerken",
