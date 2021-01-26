@@ -2,6 +2,7 @@
   "sandbox-warning": "Dit is een sandbox-omgeving voor het testen van de API-integratie. Stuur hier nooit echt geld naar toe!",
   "buy": "koop",
   "sell": "verkoop",
+  "cancel": "Annuleren",
   "continue": "Ga verder",
   "ok": "OK",
   "back": "Terug",
@@ -26,6 +27,7 @@
   "market-price": "Marktprijs",
   "exchange": "Handelsmarkt",
   "receive": "Ontvang",
+  "send": "Verzend",
   "wallet": "Account",
   "upload": "Upload",
   "processing": "Verwerken…",
@@ -37,6 +39,10 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
+  "dismiss-forever": "Niet meer tonen",
+  "remind-me-later": "Herinner me er later aan",
+  "no-limit": "Geen limiet",
+  "learn-more": "Leer meer",
   "apikeys": {
     "no-addresses-whitelisted": "Je hebt nog geen gewhiteliste adressen.",
     "address-input-placeholder": "Voer een BTC, NEO of ETH-adres in om te whitelisten",
@@ -212,8 +218,11 @@
       },
       "transfers": {
         "initializing": "Initialiseren",
+        "unlock-required": "Gepauzeerd",
+        "locked-tooltip": "Je hebt nog steeds een overdracht die wordt geïnitialiseerd. Overboekingen kunnen niet worden geïnitialiseerd terwijl uw account is vergrendeld. Ontgrendel om door te gaan",
         "initialized": "Transactie is geïnitialiseerd",
-        "tooltip": "Je hebt nog een transactie die wordt geïnitialiseerd. Als je Nash afsluit of uitlogt, wordt dit gepauzeerd totdat je weer inlogt."
+        "tooltip": "Je hebt nog een transactie die wordt geïnitialiseerd. Als je Nash afsluit of uitlogt, wordt dit gepauzeerd totdat je weer inlogt.",
+        "do-unlock": "Ontgrendel"
       },
       "general-menu": {
         "settings": "Mijn profiel",
@@ -303,6 +312,8 @@
   "no-longer-sufficient-balance-for-tx": "U heeft niet genoeg balans meer voor deze transactie.",
   "we-are-hiring": "Wij zoeken personeel",
   "errors": {
+    "invalid-address-title": "Ongeldig adres op jouw profiel",
+    "invalid-address": "Neem aub <0>contact op met ondersteuning</0> om uw adres bij ons bij te werken.",
     "location-banned-title": "Toegang geblokkeerd",
     "location-banned": "Helaas, Nash kan op dit moment niet opereren in jouw regio.",
     "invalid-clock-title": "De klok van jouw computer is niet correct ingesteld.",
@@ -344,7 +355,8 @@
   "account-types": {
     "personal": "Persoonlijk account",
     "trading": "Handelscontract",
-    "external": "Extern account"
+    "external": "Extern account",
+    "nash-channels": "Nash Channels"
   },
   "query-errors": {
     "failed": "Laden mislukt.",
@@ -432,6 +444,10 @@
           "message": "De ‘Pro’-weergave is ontworpen voor desktopgebruik. Als u op uw mobiel bent, probeer dan de <0>‘Basis’-weergave</0>."
         }
       }
+    },
+    "hello-mpc": {
+      "title": "Vaarwel, privésleutels. Hallo, MPC!",
+      "message": "Ons nieuwe-generatie protocol is er! Uw Nash-portemonnee ondertekent nu transacties met de veilige multi-party computation (MPC)"
     },
     "dismiss-message": "Niet meer tonen."
   },
@@ -637,9 +653,7 @@
         "case-sensitive": "Alle woorden zijn in kleine letters",
         "create-my-wallet": "Maak mijn account",
         "generating-your-wallet": "Uw Nash-account genereren…",
-        "errors": {
-          "create-wallet-failed": "Er is een fout opgetreden bij het aanmaken van je account. <0>log uit</0> en probeer het opnieuw."
-        }
+        "words-confirmed-continuing": "Woorden bevestigd! Doorgaan naar uw account…"
       },
       "wallet-created": {
         "header": "Uw Nash-account is succesvol aangemaakt!",
@@ -707,8 +721,15 @@
       "24h-volume": "Volume",
       "my-portfolio": "Mijn portfolio"
     },
+    "banners": {
+      "USDT-USDC": {
+        "remind-later": "Herinner me later",
+        "dismiss-forever": "Niet meer tonen",
+        "no-fees": "Op deze markt worden tot maart 2021 geen kosten in rekening gebracht"
+      }
+    },
     "tips": {
-      "balance": "<0>Tip</0> <1>Stuur hier fondsen naar het Trading Contract.</1><2 />"
+      "balance": "Verzend hier fondsen naar het handelscontract."
     },
     "no-markets": "Er zijn momenteel geen markten beschikbaar.",
     "auth": {
@@ -729,7 +750,7 @@
       }
     },
     "favorite-bar": {
-      "tips": "<0>Tip</0> <1>Voeg hier favoriete markten toe als links.</1> <2 />"
+      "tips": "Voeg hier favoriete markten toe als links."
     },
     "market-graphs": {
       "title": "Grafieken",
@@ -813,7 +834,9 @@
     },
     "update-order": {
       "new-limit": "Set a new price",
-      "new-stop": "Set a new stop price"
+      "new-stop": "Set a new stop price",
+      "save": "Veranderingen opslaan",
+      "cancel": "Annuleren"
     },
     "create-order": {
       "buy": "Koop {{currencySymbol}}",
@@ -1854,6 +1877,7 @@
     "limits": {
       "min-limit-message": "Minimale aankoop: <0/>",
       "min-limit": "Minimum",
+      "max-limit": "Maximum",
       "over-available": "Onvoldoende {{asset}} in handelscontract"
     },
     "currencies": {
@@ -1912,7 +1936,7 @@
       "pay-with-default": "Kies een betalingsmethode",
       "link-new-bank": "Betaalmethode toevoegen",
       "complete-nash-profile": "Voltooi uw <0>Nash profiel</0> voordat u digitale activa kunt kopen",
-      "complete-transak-profile": "Complete your <0>Transak profile</0> to buy digital assets.",
+      "trasak-identity-verification-message": "Transak vereist identiteitsverificatie voordat deze aankoop verricht kan worden.",
       "available-balance": "Beschikbaar saldo: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Voeg een betaalmethode toe</0> om digitale activa te verkopen.",
       "complete-nash-profile-add-method-to-sell": "Voltooi uw <0>Nash-profiel</0> en <1>voeg een betaalmethode toe</1> om digitale activa te verkopen.",
@@ -1926,6 +1950,7 @@
       "want-to-sell-input-label": "Ik wil verkopen",
       "spend": "Besteden",
       "purchase": "Kopen",
+      "purchase-after-fee": "Aankoop <0>(na kosten)</0>",
       "cost-me-input-label": "Ik wil besteden",
       "i-want-to-pay-input-label": "Ik wil betalen",
       "receive-input-label": "Ik wil ontvangen",
@@ -1952,6 +1977,8 @@
       "daily-remaining": "<0 /> resterend",
       "limit-exceeded": "<0 /> limiet overschreden",
       "minimum-not-reached": "Minimale aankoop is <0 />",
+      "min-amount-validation": "Minimum <0>{{value}} per order</0>",
+      "max-amount-validation": "Maximum <0>{{value}} per order</0>",
       "default-warning-message": "U moet uw <0>{{providerName}} profiel</0> voltooien en <1>een bankrekening koppelen</1> voordat {{asset}} kunt {{buy}}.",
       "bank-account-warning-message": "U moet <0>een bankrekening koppelen</0> voordat u {{asset}} kunt {{buy}}.",
       "fiat-provider-warning-message": "U moet uw <0>{{providerName}} profiel</0> voltooien voordat u {{asset}} kunt {{buy}}.",
@@ -1960,6 +1987,9 @@
       "purchase-btn": "Bekijk mijn aankoop",
       "buy": "koop",
       "sell": "verkoop",
+      "purchase-review": {
+        "message": "De getoonde cryptomunt-prijs is slechts een schatting. De werkelijke prijs wordt bepaald wanneer uw fiat-betaling is verrekend. Dit betekent dat u mogelijk minder (of meer) cryptocurrency ontvangt dan verwacht."
+      },
       "purchase-failure": {
         "title": "Er was een probleem. De aankoop is niet doorgegaan.",
         "button": "OK",
@@ -1996,14 +2026,20 @@
       "l-personal-account": "Persoonlijk account",
       "b-remind": "Herinner me er later aan",
       "b-move-to-sell": "Verplaats {{asset}} om te verkopen →",
-      "b-dismiss": "Niet meer tonen"
+      "b-dismiss": "Niet meer tonen",
+      "total-fees": "Totale kosten"
     },
     "verify-code": {
       "title": "Verify code",
-      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
+      "verify-email": "Controleer uw e-mail",
+      "message": "Controleer uw e-mail, er is een verificatiecode verzonden, bevestig de code in het onderstaande veld",
+      "transak-message": "We hebben een verificatiecode verzonden naar {{email}}",
       "code-label": "Enter confirmation code:",
+      "transak-code-label": "Voer uw eenmalige OTP-code in",
       "code-placeholder": "1234",
-      "submit": "Verify code"
+      "transak-terms": "Ik ga akkoord met de <0>Gebruiksvoorwaarden</0> en het <1>Privacybeleid</1> van Transak.",
+      "submit": "Verify code",
+      "transak-submit": "Verifieer OTP-code"
     },
     "transactions": {
       "tab-title": "Transactie",
@@ -2625,6 +2661,7 @@
       "current-exchange-rate": "Huidige wisselkoers",
       "current-global-exchange-rate": "Huidig globaal tarief: <0 /> (CoinMarketCap)",
       "exchange-rate": "Wisselkoers",
+      "fees": "Kosten",
       "rate-change-label": "Wisselkoers",
       "rate-protection-label": "Beschermd",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
@@ -2670,6 +2707,7 @@
       "l-sell-add-source": "Geef uw financieringsbron aan voor deze specifieke verkoop.",
       "l-buy-add-source": "Geef uw financieringsbron aan voor deze specifieke aankoop.",
       "quote-accepted-title": "Quote aanvaard",
+      "confirm-payment-countdown": "Deze bestelling verloopt over {{minutes}}:{{seconds}}.",
       "title": "Koop digitale activa",
       "source-of-funds-modal": {
         "title": "Bron van inkomsten",
@@ -2699,7 +2737,7 @@
       "transfer-to": "Transfereer <0 /> naar onderstaand account.",
       "transfer-to-label": "Maak dit bedrag over",
       "name-registered": "De bankrekening die u gebruikt om te betalen, moet geregistreerd zijn onder dezelfde naam als uw Nash-account.",
-      "make-transfer-soon": "Verricht zo snel mogelijk uw overschrijving. Indien we uw geld niet binnen vijf dagen ontvangen, wordt uw bestelling geannuleerd. De bankrekening die u gebruikt om te betalen, moet geregistreerd zijn onder dezelfde naam als uw Nash-account.",
+      "receive-funds-soon": "Als we uw geld niet binnen vijf dagen hebben ontvangen, wordt uw bestelling geannuleerd.",
       "reference": "Referentie",
       "need-to-include": "U moet dit toevoegen.",
       "iban": "IBAN",
@@ -2708,10 +2746,13 @@
       "decline-this-quote": "Quote afwijzen",
       "bank-name": "Banknaam",
       "recipient-name": "Naam ontvanger",
-      "must-make-payment": "Verricht zo snel mogelijk uw overschrijving. Indien we uw geld niet binnen vijf dagen ontvangen, wordt uw bestelling geannuleerd. U heeft de mogelijkheid om deze aankoop te annuleren en een terugbetaling te ontvangen voordat uw bankoverschrijving wordt uitgevoerd.",
+      "recipient": "Ontvanger",
       "btn-cancel-quote": "Quote afwijzen",
       "btn-close-quote": "Sluit",
-      "btn-made-payment": "Ik heb mijn betaling verricht"
+      "btn-made-payment": "Ik heb mijn betaling verricht",
+      "use-exact-name": "Gebruik exact deze naam.",
+      "recipient-address": "Ontvangeradres",
+      "recipient-bank-country": "Land van de ontvangende bank"
     },
     "timeout-message": "Deze wisselkoers wordt gegarandeerd en vergrendeld voor:",
     "network-error": "Netwerkfout. Probeer het a.u.b. opnieuw.",
@@ -2864,11 +2905,12 @@
         "no-transactions": "U heeft nog geen digitale activa gekocht of verkocht."
       },
       "payment-methods": {
-        "currency": "Valuta",
+        "bank-address": "Adres van de bank",
         "bank-name": "Banknaam",
+        "currency": "Valuta",
         "iban": "IBAN",
-        "swift": "SWIFT/BIC",
-        "remove-bank-account": "Verwijder {{iban}}?"
+        "remove-bank-account": "Verwijder {{iban}}?",
+        "swift": "SWIFT/BIC"
       },
       "editor": {
         "phone": {
@@ -2899,6 +2941,7 @@
           "upload-label-format": "Bestandsextensies geaccepteerd: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale bestandsgrootte: 10MB."
         },
         "bank-account": {
+          "bank-address-placeholder": "Voer het adres van uw bank in",
           "bank-name-placeholder": "Voer de naam van uw bank in",
           "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
           "swift-placeholder": "e.g. CLBABU7S"
@@ -3020,6 +3063,9 @@
             "to": "Naar"
           },
           "exchange-maintenance": "Tijdens onderhoud kunt u geen fondsen overmaken naar of van het handelscontract.",
+          "recipient": {
+            "placeholder": "Bestemming invoeren…"
+          },
           "contacts": {
             "label": "Bestemming",
             "placeholder": "Zoek een contact of stuur naar een nieuw adres…",
@@ -3045,7 +3091,8 @@
           "movement": {
             "error": "Wacht tot je laatste Ethereum-overdracht is voltooid.",
             "pending-error": "Wacht tot je lopende Ethereum-overdracht is voltooid.",
-            "token-requires-approval": "Goedkeuring van {{ amount }} {{ currency }} is vereist om dit token te transfereren naar het handelscontract."
+            "token-requires-approval": "Goedkeuring van {{ amount }} {{ currency }} is vereist om dit token te transfereren naar het handelscontract.",
+            "too-many-utxo": "Stuur uw NEO / GAS naar uzelf om de balansgegevens van uw portemonnee te vereenvoudigen. U kunt daarna dan fondsen storten op het handelscontract."
           },
           "transfer-amount": {
             "label": "Over te maken bedrag",
@@ -3070,7 +3117,8 @@
             }
           },
           "fees": {
-            "eth-recommended-message": "Bewaar {{amount}} ETH in mijn persoonlijke account voor toekomstige netwerkkosten."
+            "eth-recommended-message": "Bewaar {{amount}} ETH in mijn persoonlijke account voor toekomstige netwerkkosten.",
+            "fee-shortage": "Je hebt minstens <0>{{amount}}</0> {{currencySymbol}} nodig in jouw persoonlijk account om de netwerkkosten te betalen. <1></1> Balance: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
             "neo-trading": "U kunt geen fractionele hoeveelheden NEO verzenden of opnemen."
@@ -3086,6 +3134,7 @@
           },
           "buttons": {
             "continue": "Ga verder",
+            "review": "Controleer",
             "sent-funds": "Ik heb mijn fondsen overgemaakt"
           }
         },
@@ -3109,6 +3158,8 @@
           "buttons": {
             "back": "Terug",
             "transfer-funds": "Verzend",
+            "transfer-funds-with-currency": "Verstuur {{currency}}",
+            "transfer-started": "Transfer gestart",
             "confirming": "Bevestigen…"
           }
         },
@@ -3188,12 +3239,15 @@
           "retry-pending": "Probeer de transactie opnieuw te verzenden",
           "cancel-intent": "Annuleer transfer",
           "clear-intent": "Wis transfer",
+          "unlock-account": "Ontgrendel de sessie",
           "contact-support": "Neem contact op met support",
           "received-currency": "Ontvangen {{currencySymbol}}",
           "receiving-currency": "Ontvangen {{currencySymbol}}",
           "transferred-currency": "Verzonden {{currencySymbol}}",
           "transferring-currency": "Verzenden {{currencySymbol}}",
           "initializing-currency": "{{currencySymbol}} transfer initialiseren",
+          "waiting-to-witness": "Wachtend op {{currencySymbol}} transfer",
+          "locked-initializing": "{{currencySymbol}} Ontgrendel de sessie om te kunnen transfereren",
           "failed-permanently": "{{currencySymbol}} transfer mislukt"
         },
         "destination": {
@@ -3301,6 +3355,19 @@
       }
     }
   },
+  "fees": {
+    "title": "Netwerkkost",
+    "title_plural": "Netwerkkosten",
+    "error": {
+      "general": "Kosten konden niet geladen worden."
+    },
+    "options": {
+      "fast": "Snel",
+      "standard": "Standaard",
+      
+      "slow": "Traag (veilig)"
+    }
+  },
   "markets": {
     "title": "Markten",
     "all": "Alles",
@@ -3386,12 +3453,28 @@
       "send-funds": "Zend fondsen",
       "withdrawal-details": "Opname details",
       "to-external-address": "Naar extern adres",
-      "request-sent-to-blockchain": "Uw transferverzoek is naar de blockchain gestuurd."
+      "request-sent-to-blockchain": "Uw transferverzoek is naar de blockchain gestuurd.",
+      "no-funds": "Je hebt geen {{currency}} in jouw {{account}} om te {{movementType}}.",
+      "auto-close": {
+        "disclaimer": "Dit venster zal automatisch sluiten eens je transfer gestart is.",
+        "countdown": "Sluit in {{seconds}}…"
+      }
     },
     "receive-funds": {
       "asset-to-receive": "Te ontvangen activum",
       "address-to-receive-currency": "Dit is uw adres om {{currency}} te ontvangen",
       "receive-funds-from-external": "Ontvang fondsen van een externe portemonnee"
+    },
+    "available-funds": {
+      "available-amount-send": "Beschikbaar om te verzenden",
+      "available-amount-nash-channels-deposit": "Beschikbaar om te storten",
+      "available-amount-nash-channels-withdraw": "Beschikbaar om op te nemen",
+      "wallets": {
+        "personal-account": "Persoonlijk account",
+        "nash-channels": "Nash Channels",
+        "in-orders": "In orders",
+        "pending": "In afwachting"
+      }
     },
     "wallet-type": {
       "personal": "Mijn persoonlijke portemonnee",
@@ -3419,7 +3502,8 @@
       "you-can-lose-funds": "Indien u fondsen naar het verkeerde adres stuurt, verliest u deze fondsen voor altijd."
     },
     "password": {
-      "title": "Voer aanmeldgegevens in"
+      "title": "Voer aanmeldgegevens in",
+      "secret-title": "Ontgrendel je geheime sleutels"
     },
     "updated-terms": {
       "title": "Voorwaarden",
