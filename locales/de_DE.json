@@ -2030,15 +2030,15 @@
       "total-fees": "Gebühren gesamt"
     },
     "verify-code": {
-      "title": "Verifizierungscode",
-      "verify-email": "Bestätige deine E-Mail-Adresse",
-      "message": "Bitte verifiziere deine E-Mail-Adresse. Wir haben dir einen Code geschickt, bitte gib diesen in das Feld unten ein.",
-      "transak-message": "Wir haben einen Verifizierungscode an folgende Adresse gesendet: {{email}}",
-      "code-label": "Code eingeben:",
-      "transak-code-label": "Gib dein One-Time-Passwort ein:",
+      "title": "Verifiziere Code",
+      "message": "Bitte verifiziere deine E-Mail-Adresse. Ein Bestätigungscode wurde an deine Adresse verschickt, bitte gib diesen im Feld unten ein.",
+      "code-label": "Bestätigungscode eingeben:",
       "code-placeholder": "1234",
-      "transak-terms": "Ich bestätige Transaks <0>Nutzungsvereinbarung</0> und <1>Datenschutzerklärung</1>.",
       "submit": "Code bestätigen",
+      "verify-email": "Bestätige deine E-Mail-Adresse",
+      "transak-message": "Wir haben einen Verifizierungscode an folgende Adresse gesendet: {{email}}",
+      "transak-code-label": "Gib dein One-Time-Passwort ein:",
+      "transak-terms": "Ich bestätige Transaks <0>Nutzungsvereinbarung</0> und <1>Datenschutzerklärung</1>.",
       "transak-submit": "OTP-Code bestätigen"
     },
     "transactions": {
@@ -2366,13 +2366,13 @@
           "last-name-label": "Nachname",
           "country-label": "Land",
           "state-label": "Staat",
-          "mobile-number": "Mobilfunknummer",
-          "mobile-number-required": "Mobilfunknummer"
+          "mobile-number": "Telefonnummer",
+          "mobile-number-required": "Telefonnummer"
         },
         "address": {
           "edit": "Adresse bearbeiten",
           "add": "Adresse hinzufügen",
-          "label": "Address",
+          "label": "Adresse",
           "save": "Adresse einreichen",
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meiner Adresse noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
           "building-number-label": "Hausnummer",
@@ -2434,7 +2434,7 @@
           "file-update": "<0>Entfernen</0> oder <1>neues Bild hochladen</1>",
           "try-again": "Erneut versuchen",
           "submit-btn": "Dokument einreichen",
-          "provided": "Proof of address uploaded"
+          "provided": "Adressnachweis hochgeladen"
         },
         "id": {
           "add": "Ausweisdokument hochladen",
@@ -2827,13 +2827,13 @@
       "error": {
         "invalid-data": "Ungültige Daten.",
         "unhandled-error": "Ein unbekannter Fehler ist aufgetreten. Bitte lade deine Dokumente hoch und versuche es dann erneut.",
-        "profile": "Ein Fehler ist beim Laden der Profildaten aufgetreten. Bitte erneut versuchen.",
-        "file-upload": "Fehler beim Upload der Datei. Bitte erneut versuchen.",
-        "bank-account": "Fehler beim Laden der Bankaccounts. Bitte erneut versuchen.",
-        "platform": "Fehler beim Laden der Daten von CCPro. Bitte erneut versuchen.",
-        "coins": "Fehler beim Laden der verfügbaren Coins. Bitte erneut versuchen.",
-        "kyc": "Fehler beim Laden der KYC-Daten. Bitte erneut versuchen.",
-        "quote": "Fehler beim Laden der Order. Bitte erneut versuchen."
+        "profile": "Es ist ein Fehler beim Laden der Profildaten aufgetreten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "file-upload": "Fehler beim Hochladen der Datei. Bitte lade die Seite neu und versuche es noch einmal.",
+        "bank-account": "Fehler beim Laden deiner Bankdaten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "platform": "Fehler beim Laden der Daten von CCPro. Bitte lade die Seite neu und versuche es noch einmal.",
+        "coins": "Fehler beim Laden der verfügbaren Coins. Bitte lade die Seite neu und versuche es noch einmal.",
+        "kyc": "Fehler beim Laden deiner KYC Daten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "quote": "Fehler beim Erstellen deiner Order. Bitte lade die Seite neu und versuche es noch einmal."
       },
       "validation": {
         "first-name-required": "Vorname ist erforderlich.",
