@@ -55,12 +55,12 @@
       "access": "Zugang",
       "kyc": "Identitätsprüfung",
       "apitrade": "API Handel",
-      "twofa": "2FA"
+      "twofa": "2-Faktor-Authentifizierung"
     },
     "delete-all-tokens": {
       "body": "Bist du sicher, dass du alle deine Schlüssel widerrufen möchtest?",
       "confirm-button-label": "Widerrufe alle deine Schlüssel für immer",
-      "cancel-button-label": "Geh zurück"
+      "cancel-button-label": "Zurück"
     },
     "delete-token": {
       "body": "Bist du dir sicher, dass du diesen Vorgang rückgängig machen möchtest? ‘<0></0>’?",
@@ -81,7 +81,7 @@
       "no-tokens-exp": "<0>Generiere deinen ersten Schlüssel</0> oder lies unsere <1>API Dokumentation</1>.",
       "name": "Name",
       "never-used": "Nie benutzt",
-      "last-used": "Zuletzt verwendeten {{when}}",
+      "last-used": "Zuletzt verwendet {{when}}",
       "subtitle": "Generiere und verwalte deine API-Schlüssel. Lerne mehr über <0>unsere APIs</0>.",
       "key-info": "Informationen zu Schlüsseln",
       "api-key": "API Schlüssel",
@@ -124,9 +124,9 @@
     },
     "step4": {
       "your-secret": "Dein Geheimnis",
-      "your-secret-warning": "Dies ist das einzige Mal, dass wir das zeigen.",
+      "your-secret-warning": "Dies ist das einzige Mal, dass wir das anzeigen.",
       "api-key": "Dein API-Schlüssel",
-      "api-key-warning": "Dies ist das einzige Mal, dass wir das zeigen.",
+      "api-key-warning": "Dies ist das einzige Mal, dass wir das anzeigen.",
       "download-as-json-button-label": "API-Schlüssel und Geheimnis als JSON herunterladen",
       "i-saved-my-secret-button-label": "Ich habe mein Geheimnis gespeichert"
     }
@@ -179,7 +179,7 @@
         "desc": "Deine Order bleibt bis zu dem von dir angegebenen Zeitpunkt im Orderbuch. Wenn die Order zu diesem Zeitpunkt noch nicht gefüllt ist, wird diese storniert."
       },
       "fok": {
-        "header": "Füllen oder Stonieren",
+        "header": "Füllen oder Stornieren",
         "desc": "Wenn deine gesamte Order sofort gefüllt wird, wird diese ausgeführt. Wenn die Order nicht vollständig gefüllt werden kann, wird die gesamte Order storniert."
       },
       "ioc": {
@@ -219,7 +219,7 @@
       "transfers": {
         "initializing": "Initialisieren",
         "unlock-required": "Pausiert",
-        "locked-tooltip": "Es werden immer noch Transaktionen initialisiert. Transaktionen können nicht initialisiert werden, wenn deine Session gesperrt ist. Bitte Session entsperren um fortzufahren.",
+        "locked-tooltip": "Es werden immer noch Transaktionen initialisiert. Transaktionen können nicht initialisiert werden, wenn deine Sitzung gesperrt ist. Bitte die Sitzung entsperren, um fortzufahren.",
         "initialized": "Transaktion initialisiert",
         "tooltip": "Es wird noch immer eine Transaktion initialisiert. Wenn du Nash schließt oder dich abmeldest, wird diese angehalten, bis du dich erneut anmeldest.",
         "do-unlock": "Entsperren"
@@ -315,8 +315,8 @@
     "invalid-address-title": "Ungültige Adresse in deinem Profil",
     "invalid-address": "Bitte <0>kontaktiere den Support</0> um deine Adresse mit uns gemeinsam zu aktualisieren",
     "location-banned-title": "Zugang gesperrt",
-    "location-banned": "Leider kann Nash derzeit nicht in deinem Land operieren.",
-    "invalid-clock-title": "Die Systemzeit Ihres Computers ist nicht synchronisiert.",
+    "location-banned": "Leider kann Nash derzeit in deinem Land keine Dienste anbieten.",
+    "invalid-clock-title": "Die Systemzeit deines Computers ist nicht synchronisiert.",
     "permissions-issue-title": "Berechtigungsproblem",
     "invalid-clock": "Um auf Nash zu handeln, muss deine Systemzeit synchronisiert und aktuell sein. <0>Synchronisiere deine Uhr</0> und <1>versuche es erneut</1>.",
     "network-issue-title": "Netzwerkprobleme",
@@ -332,7 +332,7 @@
       "incorrect": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist falsch. Du hast maximal fünf Versuche.",
       "already-used": "Der eingegebene Zwei-Faktor-Authentifizierungscode wurde bereits verwendet. Bitte warten und erneut versuchen.",
       "code-expired": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist abgelaufen. Bitte warten und erneut versuchen.",
-      "too-many-failures": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Wende dich bitte an unseren Kundenservice.",
+      "too-many-failures": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Bitte wende dich an unseren Kundenservice.",
       "too-many-failures-signout": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Du wirst nun abgemeldet."
     },
     "cryptography": {
@@ -362,7 +362,7 @@
     "failed": "Laden fehlgeschlagen.",
     "failed-button": "Laden fehlgeschlagen",
     "failed-please-try": "Laden fehlgeschlagen. Bitte <0>erneut versuchen</0>.",
-    "why-this-may-happening": "Finde heraus, warum dies möglicherweise passiert ist <0>hier</0>."
+    "why-this-may-happening": "Finde <0>hier</0> heraus, warum dies möglicherweise passiert ist."
   },
   "datetime": {
     "time-in-hours": "<0>{{count}}</0> Stunde",
@@ -479,7 +479,7 @@
         "duplicate-email": "Für diese E-Mail-Adresse wurde bereits ein Konto angelegt.",
         "password-too-short": "Dein Passwort sollte mindestens acht Zeichen lang sein.",
         "invalid-recaptcha": "Recaptcha-Verifizierung fehlgeschlagen. Bitte erneut versuchen.",
-        "missing-us-state": "Wenn du in den Vereinigten Staaten wohnst, musst du deinen Bundesstaat eingeben."
+        "missing-us-state": "Wenn du in den Vereinigten Staaten wohnst, musst du deinen Bundesstaat angeben."
       }
     },
     "your-details": {
@@ -588,7 +588,7 @@
       "back": "Zurück zur Anmeldung",
       "success": "E-Mail versendet!",
       "errors": {
-        "generic-error": "Fehler bei der Versendung. Bitte versuche es erneut."
+        "generic-error": "Fehler beim Versand der E-Mail. Bitte versuche es erneut."
       }
     }
   },
@@ -618,7 +618,7 @@
     "secret-words": {
       "title": "Geheimwörter",
       "header": "Schreibe deine zwölf Geheimwörter in der richtigen Reihenfolge auf.",
-      "desc": "Diese Wörter können missbraucht werden, um auf dein Guthaben zuzugreifen. Du solltest diese sehr gut schützen.",
+      "desc": "Diese Wörter können missbraucht werden, um auf dein Guthaben zuzugreifen. Du solltest diese deshalb sehr gut schützen.",
       "popup-error": "Wenn du deine Geheimwörter drucken möchtest, deaktiviere bitte alle Pop-up-Blocker und erlaube Nash, Pop-ups zu öffnen.",
       "continue": "Ich habe meine Wörter aufgeschrieben.",
       "go-back": "Zurück",
@@ -636,7 +636,7 @@
           "body-tips-0": "Dein Drucker ist über ein USB-Kabel direkt an deinem Computer angeschlossen.",
           "body-tips-1": "Dein Drucker ist nicht mit einem Netzwerk jeglicher Art verbunden.",
           "body-tips-2": "Es ist unmöglich, dass sich andere Personen über Bluetooth, WLAN o. Ä. mit deinem Drucker verbinden.",
-          "button": "Ich verstehe. Meine Wörter drucken!"
+          "button": "Verstanden. Meine Wörter drucken!"
         }
       },
       "print-window-title": "Nash | Geheimwörter",
@@ -653,7 +653,7 @@
         "case-sensitive": "Alle Wörter sind kleingeschrieben",
         "create-my-wallet": "Mein Konto erstellen",
         "generating-your-wallet": "Dein Nash-Konto wird eingerichtet …",
-        "words-confirmed-continuing": "Wörter bestätigt! Leite weiter zum Account …"
+        "words-confirmed-continuing": "Wörter bestätigt! Weiterleitung zum Account …"
       },
       "wallet-created": {
         "header": "Dein Nash-Konto wurde erstellt!",
@@ -843,7 +843,7 @@
       "sell": "{{currencySymbol}} verkaufen",
       "market-paused": "Dieser Markt ist derzeit wegen Wartungsarbeiten pausiert. Du kannst derzeit nicht handeln.",
       "locked-trading-session": {
-        "information": "Ihre Handelssitzung ist gesperrt.",
+        "information": "Deine Sitzung ist gesperrt.",
         "information-tooltip": "Deine Sitzung wird gesperrt, wenn du die Seite aktualisierst oder 15 Minuten lang abwesend bist.",
         "enter-credentials-to-unlock": "<0>Jetzt freischalten</0>"
       },
@@ -2347,13 +2347,13 @@
         },
         "occupation": {
           "placeholder": "Kundenbetreuer, Unternehmensleiter, Krankenschwester usw.",
-          "save": "Beruf deklarieren",
+          "save": "Speichern",
           "field": "Beruf"
         },
         "source-of-funds": {
           "placeholder": "Ersparnisse von 1.000 Dollar pro Monat durch meinen Job in den letzten zwei Jahren",
-          "detailed-declaration-50-chars": "Beschreibe deine Mittelherkunft so detailliert wie möglich. Es werden mindestens 50 Zeichen benötigt.",
-          "save": "Mittelherkunft deklarieren",
+          "detailed-declaration-50-chars": "Beschreibe die Herkunft deiner Gelder so detailliert wie möglich. Es werden mindestens 50 Zeichen benötigt.",
+          "save": "Speichern",
           "field": "Woher stammen deine finanziellen Mittel?",
           "slash": "{{currentChars}}/{{minChars}}"
         },
@@ -3092,7 +3092,7 @@
             "error": "Bitte warte, bis deine letzte Ethereum-Transaktion abgeschlossen ist.",
             "pending-error": "Bitte warte, bis deine ausstehende Ethereum-Transaktion abgeschlossen ist.",
             "token-requires-approval": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieser Token in die Nash Channels überwiesen werden kann.",
-            "too-many-utxo": "Please send your NEO/GAS to yourself to simplify your wallet balance data. You will then be able to deposit to the trading contract."
+            "too-many-utxo": "Bitte sende dein NEO / GAS einmal komplett an dich selbst, um die hohe Vielzahl an UTXOs zu kombinieren. Danach kannst du problemlos in die Nash Channels transferieren."
           },
           "transfer-amount": {
             "label": "Menge",
@@ -3193,7 +3193,7 @@
           "title": "Transaktion gestartet …",
           "title-initializing": "Transaktion wird initializiert …",
           "desc": "Besuche <0>Transaktionen</0>, um den Status zu verfolgen.",
-          "warning": "Das ganz bis zu einer Stunde dauern.",
+          "warning": "Dies kann bis zu einer Stunde dauern.",
           "remain-opened": "Bitte lasse Nash geöffnet, während dein Transfer initialisiert wird. Wenn du Nash schließt oder dich abmeldest, wird der Vorgang pausiert, bis du dich erneut anmeldest.",
           "buttons": {
             "finish": "Verstanden!"
@@ -3239,7 +3239,7 @@
           "retry-pending": "Transaktion erneut senden",
           "cancel-intent": "Transaktion abbrechen",
           "clear-intent": "Fehlgeschlagene Transaktion bereinigen",
-          "unlock-account": "Session entsperren",
+          "unlock-account": "Sitzung entsperren",
           "contact-support": "Bitte kontaktiere den Kundenservice",
           "received-currency": "{{currencySymbol}} wurde empfangen",
           "receiving-currency": "{{currencySymbol}} wird noch empfangen",
@@ -3247,7 +3247,7 @@
           "transferring-currency": "{{currencySymbol}} wird noch überwiesen",
           "initializing-currency": "Initialisiere {{currencySymbol}}-Transaktion",
           "waiting-to-witness": "Warte auf {{currencySymbol}} Transfer",
-          "locked-initializing": "Die {{currencySymbol}} Transaktion benötigt eine entsperrte Session",
+          "locked-initializing": "Die {{currencySymbol}} Transaktion benötigt eine entsperrte Sitzung",
           "failed-permanently": "{{currencySymbol}}-Transaktion fehlgeschlagen"
         },
         "destination": {
