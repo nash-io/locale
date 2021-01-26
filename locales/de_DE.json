@@ -812,8 +812,8 @@
       "clear-studies-button-label": "Indikatoren entfernen"
     },
     "update-order": {
-      "new-limit": "[Translation required: Set a new price]",
-      "new-stop": "[Translation required: Set a new stop price]"
+      "new-limit": "Setze einen neuen Preis",
+      "new-stop": "Setze einen neuen Stop-Preis"
     },
     "create-order": {
       "buy": "{{currencySymbol}} kaufen",
@@ -1912,7 +1912,7 @@
       "pay-with-default": "Wähle eine Zahlungsart aus",
       "link-new-bank": "Zahlungsart hinzufügen",
       "complete-nash-profile": "Vervollständige dein <0>Nash-Profile</0> um digitale Assets zu kaufen",
-      "complete-transak-profile": "[Translation required: Complete your <0>Transak profile</0> to buy digital assets.]",
+      "complete-transak-profile": "Vervollständige dein <0>Transak Profil</0>, um digitale Assets zu kaufen.]",
       "available-balance": "Verfügbares Guthaben: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Zahlungsmethode hinzufügen</0> um digitale Assets zu verkaufen.",
       "complete-nash-profile-add-method-to-sell": "Vervollständige dein <0>Nash Profil</0> und <1>und füge eine Zahlungsmethode hinzu</1> um deine digital Assets zu verkaufen.",
@@ -1999,11 +1999,11 @@
       "b-dismiss": "Für immer ablehnen"
     },
     "verify-code": {
-      "title": "[Translation required: Verify code]",
-      "message": "[Translation required: Please verify your email, a verification code was sended, confirm the code on the below field]",
-      "code-label": "[Translation required: Enter confirmation code:]",
-      "code-placeholder": "[Translation required: 1234]",
-      "submit": "[Translation required: Verify code]"
+      "title": "Verifiziere Code",
+      "message": "Bitte verifiziere deine E-Mail-Adresse. Ein Bestätigungscode wurde an deine Adresse verschickt, bitte gib diesen im Feld unten ein.",
+      "code-label": "Bestätigungscode eingeben:",
+      "code-placeholder": "1234",
+      "submit": "Code bestätigen"
     },
     "transactions": {
       "tab-title": "Deine Order",
@@ -2305,9 +2305,9 @@
           "field": "E-Mail-Adresse"
         },
         "personal-details": {
-          "edit": "[Translation required: Edit personal details]",
-          "add": "[Translation required: Add personal details]",
-          "label": "[Translation required: Personal details]"
+          "edit": "Persönliche Daten ändern",
+          "add": "Persönliche Daten ergänzen",
+          "label": "Persönliche Daten"
         },
         "occupation": {
           "placeholder": "Kundenbetreuer, Unternehmensleiter, Krankenschwester usw.",
@@ -2330,13 +2330,13 @@
           "last-name-label": "Nachname",
           "country-label": "Land",
           "state-label": "Staat",
-          "mobile-number": "[Translation required: Mobile number]",
-          "mobile-number-required": "[Translation required: Mobile number]"
+          "mobile-number": "Telefonnummer",
+          "mobile-number-required": "Telefonnummer"
         },
         "address": {
           "edit": "Adresse bearbeiten",
           "add": "Adresse hinzufügen",
-          "label": "[Translation required: Address]",
+          "label": "Adresse",
           "save": "Adresse einreichen",
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meiner Adresse noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
           "building-number-label": "Hausnummer",
@@ -2398,7 +2398,7 @@
           "file-update": "<0>Entfernen</0> oder <1>neues Bild hochladen</1>",
           "try-again": "Erneut versuchen",
           "submit-btn": "Dokument einreichen",
-          "provided": "[Translation required: Proof of address uploaded]"
+          "provided": "Adressnachweis hochgeladen"
         },
         "id": {
           "add": "Ausweisdokument hochladen",
@@ -2786,13 +2786,13 @@
       "error": {
         "invalid-data": "Ungültige Daten.",
         "unhandled-error": "Ein unbekannter Fehler ist aufgetreten. Bitte lade deine Dokumente hoch und versuche es dann erneut.",
-        "profile": "[Translation required: An error ocurred while loading profile data. Please reload then try again.]",
-        "file-upload": "[Translation required: Error uploading file. Please reload then try again.]",
-        "bank-account": "[Translation required: Error retrieving your bank accounts. Please reload then try again.]",
-        "platform": "[Translation required: Error retrieving data from CCPRO. Please reload then try again.]",
-        "coins": "[Translation required: Error retrieving available coins. Please reload then try again.]",
-        "kyc": "[Translation required: Error retrieving KYC data. Please reload then try again.]",
-        "quote": "[Translation required: Error quoting order. Please reload then try again.]"
+        "profile": "Es ist ein Fehler beim Laden der Profildaten aufgetreten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "file-upload": "Fehler beim Hochladen der Datei. Bitte lade die Seite neu und versuche es noch einmal.",
+        "bank-account": "Fehler beim Laden deiner Bankdaten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "platform": "Fehler beim Laden der Daten von CCPro. Bitte lade die Seite neu und versuche es noch einmal.",
+        "coins": "Fehler beim Laden der verfügbaren Coins. Bitte lade die Seite neu und versuche es noch einmal.",
+        "kyc": "Fehler beim Laden deiner KYC Daten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "quote": "Fehler beim Erstellen deiner Order. Bitte lade die Seite neu und versuche es noch einmal."
       },
       "validation": {
         "first-name-required": "Vorname ist erforderlich.",
@@ -2934,7 +2934,7 @@
       },
       "fetch-movements-error": "Fehler beim Abrufen deiner Daten. Bitte aktualisiere die Seite.",
       "table": {
-        "fee": "[Translation required: Fee]"
+        "fee": "Gebühr"
       }
     },
     "assets": {
@@ -3150,8 +3150,8 @@
         }
       },
       "receive-assets": {
-        "wallet-address": "[Translation required: Wallet address]",
-        "only-send-to": "[Translation required: Only send {{currency}} to this address!]"
+        "wallet-address": "Wallet Adresse",
+        "only-send-to": "Sende nur {{currency}} to this address!]"
       },
       "transfer-info": {
         "title": "Du kannst Assets wie folgt überweisen",
