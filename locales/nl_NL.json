@@ -28,7 +28,7 @@
   "exchange": "Handelsmarkt",
   "receive": "Ontvang",
   "send": "Verzend",
-  "convert": "[Translation required: Convert]",
+  "convert": "Converteer",
   "review": "[Translation required: Review]",
   "wallet": "Account",
   "upload": "Upload",
@@ -51,23 +51,23 @@
   "review-withdraw": "[Translation required: Review withdraw]",
   "no-limit": "Geen limiet",
   "learn-more": "Leer meer",
-  "approve-currency": "[Translation required: Approve {{currency}}]",
-  "approve-currency-once": "[Translation required: You will need to approve transfers of this asset once.]",
-  "approve-currency-everytime": "[Translation required: You will need to approve transfers of this asset every time.]",
-  "approve-currency-loading": "[Translation required: This can take up to 1 minute]",
-  "verified": "[Translation required: Verified]",
-  "nash-cash": "[Translation required: Nash Cash]",
-  "nex-staking": "[Translation required: NEX staking]",
-  "available": "[Translation required: Available]",
+  "approve-currency": "Keur goed {{currency}}]",
+  "approve-currency-once": "Je zult voor overdrachten van dit activum een enkele toestemming moeten geven",
+  "approve-currency-everytime": "Je zult voor overdrachten van dit activum iedere keer toestemming moeten geven.",
+  "approve-currency-loading": "Dit kan tot 1 minuut duren.",
+  "verified": "Geverifieerd",
+  "nash-cash": "Nash Cash",
+  "nex-staking": "NEX vastzetten voor dividenduitbetalingen",
+  "available": "Beschikbaar",
   "view": "[Translation required: View]",
-  "terms-and-conditions": "[Translation required: Terms and conditions]",
-  "sign-in": "[Translation required: Sign in]",
-  "read-more": "[Translation required: Read more]",
-  "coming-soon": "[Translation required: Coming soon]",
-  "million": "[Translation required: Million]",
-  "million/short": "[Translation required: M]",
-  "volume": "[Translation required: Volume]",
-  "volume/lowercase": "[Translation required: volume]",
+  "terms-and-conditions": "Termen en condities",
+  "sign-in": "Log in",
+  "read-more": "Meer informatie",
+  "coming-soon": "Komt binnenkort",
+  "million": "Miljoen",
+  "million/short": "M",
+  "volume": "Volume",
+  "volume/lowercase": "volume",
   "apikeys": {
     "no-addresses-whitelisted": "Je hebt nog geen gewhiteliste adressen.",
     "address-input-placeholder": "Voer een BTC, NEO of ETH-adres in om te whitelisten",
@@ -323,9 +323,9 @@
   },
   "search": "Zoeken…",
   "loading": "Aan het laden…",
-  "trades-downloading": "[Translation required: Downloading trades…]",
-  "trades-found": "[Translation required: {{count}} trade found…]",
-  "trades-found_plural": "[Translation required: {{count}} trades found…]",
+  "trades-downloading": "Downloaden transacties…",
+  "trades-found": "{{count}} transactie gevonden…",
+  "trades-found_plural": "{{count}} transacties gevonden…",
   "pending": "In afwachting",
   "cancelling": "Aan het annuleren…",
   "authenticating": "Aan het verifiëren…",
@@ -911,7 +911,7 @@
             "maybe-insufficient-funds": "Onvoldoende {{currencySymbol}}.",
             "order-too-small": "Min hoeveelheid {{orderSize}} {{currencySymbol}}.",
             "limit-breached": "Dit overschrijdt je handelslimieten.",
-            "soft-limit-breached": "[Translation required: You’re close to your trading limit. <0>Upgrade</0> your verification tier to trade more.]"
+            "soft-limit-breached": "Je bent dichtbij jouw handelslimiet. <0>Upgrade</0> jouw verificatie niveau om meer te handelen.]"
           }
         },
         "cancel-at": {
@@ -1957,7 +1957,7 @@
       "daily-limits-header": "Resterende limieten na deze transactie",
       "current-price-label": "Huidige prijs | <0 />",
       "current-price-unavailable": "Huidige prijs niet beschikbaar",
-      "unavailable": "[Translation required: Price unavailable. Try again soon.]",
+      "unavailable": "Prijs niet beschikbaar. Probeer het binnenkort opnieuw.",
       "buy-with-input-label-no-cur": "Betaal met",
       "sell-with-input-label-no-cur": "Storten naar",
       "buy-with-input-label": "Betaal in {{currency}} met",
@@ -2783,10 +2783,10 @@
       "use-exact-name": "Gebruik exact deze naam.",
       "recipient-address": "Ontvangeradres",
       "recipient-bank-country": "Land van de ontvangende bank",
-      "exact-name-warning-1": "[Translation required: You <0>must</0> specify the recipient as ‘<1>Neon Exchange AG</1>’.]",
-      "exact-name-warning-2": "[Translation required: Transfers to ‘Nash’ or other names will be <0>returned at your own cost</0>.]",
-      "exact-name-warning-3": "[Translation required: Your bank account name must match the name on your Nash account. <0>Do not</0> use third-party services (e.g. TransferWise).]",
-      "btn-exact-name-warning": "[Translation required: Got it]"
+      "exact-name-warning-1": "Je <0>dient</0> de ontvanger te specificeren als ‘<1>Neon Exchange AG</1>’.",
+      "exact-name-warning-2": "Overdrachten naar ‘Nash’ of andere namen zullen worden <0>teruggestort op eigen kosten</0>.",
+      "exact-name-warning-3": "Jouw bankrekeningnaam dient overeen te komen met de naam op jouw Nash account. <0>Niet</0> diensten van derde partijen gebruiken hiervoor (e.g. TransferWise).",
+      "btn-exact-name-warning": "Ik snap het"
     },
     "timeout-message": "Deze wisselkoers wordt gegarandeerd en vergrendeld voor:",
     "network-error": "Netwerkfout. Probeer het a.u.b. opnieuw.",
@@ -2997,7 +2997,7 @@
       "success": "Hersynchronisatie geslaagd!"
     },
     "transaction-retry": {
-      "transfers-page-retry-button-title": "[Translation required: Retry transaction]",
+      "transfers-page-retry-button-title": "Probeer transactie opnieuw",
       "title": "Herprobeer transactie",
       "subtitle": "Alle lopende of mislukte stortingen of opnames",
       "actions-title": "Acties",
@@ -3039,12 +3039,12 @@
         "claim-gas": {
           "claiming": "Claimen…",
           "claim": "GAS claimen",
-          "gas-to-claim": "U kan {{amount}} GAS claimen.",
-          "no-gas-to-claim": "[Translation required: You have no GAS to claim.]",
-          "claiming-now": "U claimt momenteel GAS.",
-          "error-claiming": "[Translation required: Error claiming GAS.]",
-          "claiming-locked": "U kan opnieuw GAS claimen in ~{{count}} minuut.",
-          "claiming-locked_plural": "U kan opnieuw GAS claimen in ~{{count}} minuten."
+          "gas-to-claim": "Je kan {{amount}} GAS claimen.",
+          "no-gas-to-claim": "Je hebt geen GAS om te claimen.",
+          "claiming-now": "Je claimt momenteel GAS.",
+          "error-claiming": "Fout opgetreden tijdens het claimen van GAS.",
+          "claiming-locked": "Je kan opnieuw GAS claimen in ~{{count}} minuut.",
+          "claiming-locked_plural": "Je kan opnieuw GAS claimen in ~{{count}} minuten."
         },
         "columns": {
           "asset": {
@@ -3076,7 +3076,7 @@
             "send": "Verzend",
             "receive": "Ontvang",
             "nash-channels": "Nash Channels",
-            "nash-channels-untradable": "[Translation required: This asset isn’t tradable in Nash]"
+            "nash-channels-untradable": "Dit activum is niet verhandelbaar op Nash"
           }
         },
         "no-results": "Er zijn nog geen activa op uw Nash-account."
@@ -3239,39 +3239,39 @@
           }
         },
         "volume": {
-          "exceeds-deposit-limit": "[Translation required: Exceeds deposit limit]",
-          "upgrade-tier-or-wait": "[Translation required: <0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.]",
-          "near-deposit-limit": "[Translation required: This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!]"
+          "exceeds-deposit-limit": "Overschrijdt het stortingslimiet",
+          "upgrade-tier-or-wait": "<0>Upgrade jouw verificatie niveau</0> om meer kapitaal te storten of wacht totdat je terugvalt onder het limiet.\n\n Opnames worden nooit geblokkeerd.",
+          "near-deposit-limit": "Deze transactie overschrijdt jouw stortingslimiet, maar gaat wel door. Je zult jouw verificatie niveau binnenkort dienen te verhogen!"
         }
       },
       "nash-channels": {
         "explanation": {
           "title": "[Translation required: On our Layer-2 network\n you always control your funds]",
-          "fast-trade": "[Translation required: Lightning-fast cross-chain trading]",
-          "trade-without-fees": "[Translation required: Trade without blockchain fees]",
-          "nash-cash": "[Translation required: Buy/sell on Nash Cash at 0% fees]"
+          "fast-trade": "Bliksemsnel cross-chain handelen",
+          "trade-without-fees": "Handel zonder blockchainnetwerk kosten",
+          "nash-cash": "Koop/verkoop op Nash Cash tegen 0% kosten"
         },
         "transfer-funds": {
-          "require-approval": "[Translation required: You need to approve {{currency}} before you can deposit to Nash Channels.]",
-          "no-funds": "[Translation required: You don’t have any {{currency}} available to {{mode}}.]",
-          "no-funds-nash-cash": "[Translation required: <0>Deposit {{currency}}</0> from an external account or purchase at a 0% fee through Nash Cash.]"
+          "require-approval": "Je dient {{currency}} goed te keuren voordat je kan storten naar Nash Channels.",
+          "no-funds": "Je hebt geen {{currency}} beschikbaar voor {{mode}}.]",
+          "no-funds-nash-cash": "<0>Stort {{currency}}</0> van een externe account of koop tegen 0% kosten via Nash Cash."
         }
       },
       "nex-swap": {
         "info": {
-          "title": "[Translation required: Convert NEX between the NEO and Ethereum blockchains]",
-          "markets": "[Translation required: Gain access to secondary markets on Ethereum, e.g. Uniswap]",
-          "staking": "[Translation required: Stake NEP-5 NEX tokens to receive dividends]"
+          "title": "Converteer NEX tussen de NEO and Ethereum blockchains",
+          "markets": "Krijg toegang tot secundaire markten op Ethereum, e.g. Uniswap",
+          "staking": "Zet NEP-5 NEX tokens vast om dividenduitbetalingen te krijgen"
         },
         "tier-verification": "[Translation required: To convert NEX, please complete <0>Tier 1 verification</0>.]",
-        "minimum-amount": "[Translation required: Minimum conversion of {{amount}}]",
-        "modal-title": "[Translation required: Convert {{from}} to {{to}}]",
-        "convert-with-currency": "[Translation required: Convert {{currency}}]",
-        "conversion-started": "[Translation required: Conversion started]"
+        "minimum-amount": "Minimale omzetting van {{amount}}",
+        "modal-title": "Zet {{from}} om tot {{to}}]",
+        "convert-with-currency": "Zet {{currency}}] om",
+        "conversion-started": "Omzetting is begonnen"
       },
       "receive-assets": {
         "wallet-address": "Wallet address",
-        "only-send-to": "Only send {{currency}} to this address!"
+        "only-send-to": "Stuur alleen {{currency}} naar dit adres!"
       },
       "transfer-info": {
         "title": "Fondsen kunnen als volgt worden overgedragen",
@@ -3285,15 +3285,15 @@
         "dismiss-link": "Dit niet meer herhalen. Ga verder"
       },
       "select-asset": {
-        "search-placeholder": "[Translation required: Search over 3,000 assets…]",
-        "title-receive": "[Translation required: Select an asset to receive]",
-        "title-send": "[Translation required: Select an asset to send]",
-        "show-usd-value": "[Translation required: Show USD value]",
-        "available-balance": "[Translation required: Available balance]",
+        "search-placeholder": "Zoek meer dan 3,000 activa…",
+        "title-receive": "Selecteer een activum om te ontvangen",
+        "title-send": "Selecteer een activum om te sturen",
+        "show-usd-value": "Laat USD waarde zien]",
+        "available-balance": "Beschikbaar saldo",
         "groups": {
-          "yours": "[Translation required: Your assets]",
-          "popular": "[Translation required: Popular assets]",
-          "other": "[Translation required: Other assets]"
+          "yours": "Jouw activa",
+          "popular": "Populaire activa",
+          "other": "Andere activa"
         }
       }
     },
@@ -3550,7 +3550,7 @@
       "available-amount-send": "Beschikbaar om te verzenden",
       "available-amount-nash-channels-deposit": "Beschikbaar om te storten",
       "available-amount-nash-channels-withdraw": "Beschikbaar om op te nemen",
-      "available-amount-convert": "[Translation required: Available to convert]",
+      "available-amount-convert": "Beschikbaar om om te zetten",
       "wallets": {
         "personal-account": "Persoonlijk account",
         "nash-channels": "Nash Channels",
@@ -3923,7 +3923,7 @@
         "funds-trading-to-personal": "Ik stort geld op het handelscontract",
         "staking-stake-complete": "Een van mijn NEX stakes is voltooid",
         "staking-weekly-summary": "Een wekelijkse samenvatting van mijn staking dividend is beschikbaar",
-        "nash-channels-limit": "[Translation required: I exceed my Nash Channels deposit limit]"
+        "nash-channels-limit": "Ik overschrijd mijn Nash Channels stortingslimiet"
       }
     },
     "security": {
@@ -4063,18 +4063,18 @@
     },
     "my-limits": {
       "header": "Limieten",
-      "desc": "[Translation required: Nash never blocks withdrawals, but they count towards your Nash Channels deposit limit. <0>Learn more</0> about limits.]",
-      "24h-volume": "[Translation required: 24h trading volume]",
-      "30d-volume": "[Translation required: 30d trading volume]",
-      "1y-volume": "[Translation required: 1y trading volume]",
-      "view-fee-tiers": "[Translation required: View fee tiers]",
+      "desc": "Nash blokkeert nooit opnames, maar ze tellen mee voor jouw Nash Channels stortingslimiet. <0>Meer informatie</0> over limieten.",
+      "24h-volume": "24u handelsvolume",
+      "30d-volume": "30d handelsvolume",
+      "1y-volume": "1j handelsvolume",
+      "view-fee-tiers": "Bekijk tarievenniveau's",
       "your-taker-fee": "[Translation required: Your taker fee]",
-      "unavailable-with-tier-0": "[Translation required: Unavailable at Tier 0.]",
-      "limit-yearly-buys": "[Translation required: <0 />/yearly buys]",
-      "limit-yearly-sales": "[Translation required: <0 />/yearly sales]",
+      "unavailable-with-tier-0": "Niet beschikbaar op Niveau 0.",
+      "limit-yearly-buys": "<0 />/jaarlijkse aankopen",
+      "limit-yearly-sales": "<0 />/jaarlijkse verkopen",
       "cards": {
         "tiers": {
-          "header": "Tier {{tier}}",
+          "header": "Niveau {{tier}}",
           "personal": "Persoonlijk",
           "institutional": "Institutioneel"
         },
@@ -4086,12 +4086,12 @@
         "limits": {
           "header": "Maximum dagelijks handelsvolume",
           "unlimited": "Onbeperkt",
-          "verified": "[Translation required: Verified]",
+          "verified": "Geverifieerd",
           "in-review": "[Translation required: In review]",
-          "rejected": "[Translation required: Rejected]",
+          "rejected": "Afgekeurd",
           "try-again": "Probeer opnieuw",
           "contact-us": "Contacteer support",
-          "unavailable": "[Translation required: Unavailable in your region]"
+          "unavailable": "Niet beschikbaar in jouw regio"
         },
         "tier-1": {
           "get-started-button": "[Translation required: Get started]",
@@ -4108,7 +4108,7 @@
                 "desc": "Wanneer u de Tier 1-verificatie heeft voltooid, wordt uw resultaat hier binnen één minuut weergegeven."
               }
             },
-            "use-web-platform": "[Translation required: I’ll use the Nash web platform]",
+            "use-web-platform": "Ik zal het Nash webplatvorm gebruiken",
             "do-it-later": "Ik doe dit later"
           }
         }
@@ -4369,13 +4369,13 @@
     }
   },
   "blockchains": {
-    "btc": "[Translation required: Bitcoin]",
-    "eth": "[Translation required: Ethereum]",
-    "neo": "[Translation required: NEO]"
+    "btc": "Bitcoin",
+    "eth": "Ethereum",
+    "neo": "NEO"
   },
   "tokens": {
-    "erc20": "[Translation required: ERC-20]",
-    "nep5": "[Translation required: NEP-5]"
+    "erc20": "ERC-20",
+    "nep5": "NEP-5"
   },
   "timezones": {
     "Pacific/Niue": "(GMT-11:00) Niue",
@@ -4655,13 +4655,13 @@
       "desc-2": "[Translation required: All users are automatically registered as solo participants, but you can join a squad to improve your chances.]",
       "desc-3": "[Translation required: The more volume generated throughout the competition, the more prizes are paid out!]",
       "more-levels": "[Translation required: More levels will become available when Level {{level}} is reached!]",
-      "volume-s": "[Translation required: Volume ($)]",
-      "prizes": "[Translation required: Prizes]",
-      "winners": "[Translation required: Winners]",
+      "volume-s": "Volume ($)",
+      "prizes": "Prijzen",
+      "winners": "Winnaars",
       "default-nickname": "[Translation required: Default nickname: {{nickname}}]",
       "welcome-nickname": "[Translation required: Welcome, {{nickname}}]",
       "create-new-nickname": "[Translation required: Create new nickname]",
-      "anonymous": "[Translation required: Anonymous]",
+      "anonymous": "Anoniem",
       "set-nickname": "[Translation required: Set nickname]",
       "edit-nickname": "[Translation required: Edit nickname]",
       "maybe-later": "[Translation required: Maybe later]",
