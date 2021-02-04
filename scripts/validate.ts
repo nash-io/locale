@@ -1,4 +1,4 @@
-import { parse } from 'https://deno.land/std@0.54.0/flags/mod.ts'
+import { parse } from 'https://deno.land/std@0.84.0/flags/mod.ts'
 
 import validate from '../validator/validate.ts'
 

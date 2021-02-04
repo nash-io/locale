@@ -1,5 +1,3 @@
-import { writeFileStrSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
-
 import traverse from './traverse.ts'
 import walkLocales, { FileInfo } from './walkLocales.ts'
 import validateValue from './validateValue.ts'
@@ -68,7 +66,7 @@ export default function sync(
         ? options.destination({ localeName: fileInfo.name })
         : fileInfo.path
       const updatedTranslation = updatedTranslationTraversal.clone()
-      writeFileStrSync(
+      Deno.writeTextFileSync(
         localeDestination,
         `${JSON.stringify(updatedTranslation, null, '  ')}\n`,
       )
