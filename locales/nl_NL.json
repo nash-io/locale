@@ -29,7 +29,7 @@
   "receive": "Ontvang",
   "send": "Verzend",
   "convert": "Converteer",
-  "review": "[Translation required: Review]",
+  "review": "Herzien",
   "wallet": "Account",
   "upload": "Upload",
   "processing": "Verwerken…",
@@ -44,11 +44,11 @@
   "dismiss": "[Translation required: Dismiss]",
   "dismiss-forever": "Niet meer tonen",
   "remind-me-later": "Herinner me er later aan",
-  "got-it": "[Translation required: Got it!]",
-  "deposit": "[Translation required: Deposit]",
-  "review-deposit": "[Translation required: Review deposit]",
-  "withdraw": "[Translation required: Withdraw]",
-  "review-withdraw": "[Translation required: Review withdraw]",
+  "got-it": "Ik begrijp het!",
+  "deposit": "Storten",
+  "review-deposit": "Herzie storting",
+  "withdraw": "Opnemen",
+  "review-withdraw": "Herzie opname",
   "no-limit": "Geen limiet",
   "learn-more": "Leer meer",
   "approve-currency": "Keur goed {{currency}}]",
@@ -3024,7 +3024,7 @@
       },
       "transferring-funds": {
         "title": "Fondsen overmaken en ontvangen",
-        "desc": "[Updated translation required: Nash Channels let you trade at lightning speed with no blockchain fees and without giving up custody. Send funds to Nash Channels from your Nash wallet.] <0>Als u wilt handelen, moet u fondsen naar het handelscontract sturen.</0> <1>U mag alleen vanaf uw persoonlijke account fondsen sturen naar het handelscontract.</1>",
+        "desc": "Nash Channels laat je bliksemsnel handelen zonder blockchainnetwerkkosten en zonder controle over te dragen. Stuur kapitaal naar Nash Channels van jouw Nash wallet. <0>Als u wilt handelen, moet u fondsen naar het handelscontract sturen.</0> <1>U mag alleen vanaf uw persoonlijke account fondsen sturen naar het handelscontract.</1>",
         "learn-more-never-show": "<0>Leer meer</0> of <1>laat me dit nooit meer zien</1>.",
         "learn-more": "Leer meer",
         "never-show": "Niet meer tonen."
@@ -3072,7 +3072,7 @@
           "action-buttons": {
             "trade": "Handel",
             "transfer-funds": "Verzenden/ontvangen",
-            "convert": "[Translation required: Convert]",
+            "convert": "Wissel om",
             "send": "Verzend",
             "receive": "Ontvang",
             "nash-channels": "Nash Channels",
@@ -3246,7 +3246,7 @@
       },
       "nash-channels": {
         "explanation": {
-          "title": "[Translation required: On our Layer-2 network\n you always control your funds]",
+          "title": "Op ons Layer-2 netwerk\n heb je altijd controle over jouw kapitaal",
           "fast-trade": "Bliksemsnel cross-chain handelen",
           "trade-without-fees": "Handel zonder blockchainnetwerk kosten",
           "nash-cash": "Koop/verkoop op Nash Cash tegen 0% kosten"
@@ -3263,7 +3263,7 @@
           "markets": "Krijg toegang tot secundaire markten op Ethereum, e.g. Uniswap",
           "staking": "Zet NEP-5 NEX tokens vast om dividenduitbetalingen te krijgen"
         },
-        "tier-verification": "[Translation required: To convert NEX, please complete <0>Tier 1 verification</0>.]",
+        "tier-verification": "Om NEX om te wisselen, dient je alsjeblieft <0>Niveau 1 verificatie</0> te voltooien.",
         "minimum-amount": "Minimale omzetting van {{amount}}",
         "modal-title": "Zet {{from}} om tot {{to}}]",
         "convert-with-currency": "Zet {{currency}}] om",
@@ -3339,14 +3339,14 @@
             "personal-account": "Persoonlijk account",
             "nash-fiat-ramp": "Verkoop aan Nash",
             "staking-account": "NEX staking contract",
-            "nex-swap": "[Translation required: NEX swap contract]",
+            "nex-swap": "NEX ruilcontract",
             "fees": "Kosten"
           },
           "from": {
             "trading-account": "Vanuit het handelscontract",
             "personal-account": "Vanuit mijn persoonlijke account",
             "nash-fiat-ramp": "Kopen van Nash",
-            "nex-swap": "[Translation required: From NEX swap contract]",
+            "nex-swap": "Van het NEX ruilcontract",
             "external-address": "Van <0 />"
           }
         },
@@ -4094,7 +4094,7 @@
           "unavailable": "Niet beschikbaar in jouw regio"
         },
         "tier-1": {
-          "get-started-button": "[Translation required: Get started]",
+          "get-started-button": "Begin",
           "continue-verification-button": "Ga door met verificatie",
           "verification": {
             "header": "Hoe wilt u geverifieerd worden??",
@@ -4635,7 +4635,7 @@
     "squad": "Team",
     "squads": "Teams",
     "solo": "Solo",
-    "pl": "[Translation required: P/L]",
+    "pl": "Winst/Verlies",
     "captain": "Aanvoerder",
     "members": "Teamleden",
     "rank": "Rang",
@@ -4652,9 +4652,9 @@
       "unlock-up-to": "Open tot",
       "title": "$1 MILJOEN IN PRIJZEN",
       "desc-1": "Begin gewoon met handelen op Nash om jouw deel te krijgen!",
-      "desc-2": "[Translation required: All users are automatically registered as solo participants, but you can join a squad to improve your chances.]",
-      "desc-3": "[Translation required: The more volume generated throughout the competition, the more prizes are paid out!]",
-      "more-levels": "[Translation required: More levels will become available when Level {{level}} is reached!]",
+      "desc-2": "Alle gebruikers staan automatisch geregistreerd als soloparticipanten, maar je kunt toetreden tot een team om jouw kansen te verbeteren.",
+      "desc-3": "Des te meer volume is gegenereerd gedurende de competitie, des te meer prijzen zullen er uitbetaald worden!",
+      "more-levels": "Meer levels worden beschikbaar zodra Level {{level}} is behaald!",
       "volume-s": "Volume ($)",
       "prizes": "Prijzen",
       "winners": "Winnaars",
@@ -4674,10 +4674,10 @@
         "level-locked": "Level {{level}} op slot",
         "level-unlocked": "Level {{level}} vrijgegeven",
         "total-prize": "<0 /> in prijzen",
-        "solo-count": "{{count}} solo]",
+        "solo-count": "{{count}} solo",
         "team-count": "{{count}} team",
         "team-count_plural": "{{count}} teams",
-        "pl-count": "[Translation required: {{count}} P/L]",
+        "pl-count": "{{count}} Winst/Verlies",
         "unlocks-at": "Wordt vrijgegeven bij"
       },
       "card": {
@@ -4685,7 +4685,7 @@
         "squad-desc_plural": "Splits tussen {{count}} <0 /> <1>squads</1>",
         "solo-desc": "Splits tussen {{count}} <0 /> <1>solo</1>",
         "special-desc": "<0 /> <1>Special promotions</1>",
-        "solo-pl-desc": "Splits tussen {{count}} <0 /> <1>P/L</1>]"
+        "solo-pl-desc": "Splits tussen {{count}} <0 /> <1>P/L</1>"
       }
     },
     "create-squad": {
@@ -4705,7 +4705,7 @@
     },
     "join-squad": {
       "title": "Treed toe tot team",
-      "description": "Weet je zeker dat je toe wilt treden tot team {{squadName}} onder leiding van aanvoerder {{captainName}}?]",
+      "description": "Weet je zeker dat je toe wilt treden tot team {{squadName}} onder leiding van aanvoerder {{captainName}}?",
       "message-guaranteed": "Dit team zit gegarandeert in de competitie.",
       "message-not-guaranteed": "Het is riskant om toe te treden tot dit team, omdat het nog niet het {{minMemberCount}}-personen minimum limiet gehaald heeft.",
       "modal-check": "Zodra je toe treedt, zul je dit team niet kunnen verlaten of toetreden tot een nieuw team."
@@ -4723,7 +4723,7 @@
       "competition-ended": "Seizoen 1 van de Nash League is nu voorbij!",
       "prizes-unlocked": "Vrijgekomen prijzen",
       "next-prizes-unlocked": "Volgende vrijgekomen prijzen",
-      "prizes-split": " <0 /> splits tussen {{solo}} solo en {{team}} team]",
+      "prizes-split": "<0 /> splits tussen {{solo}} solo en {{team}} team",
       "clock-helper": {
         "days": "DAGEN",
         "hours": "UREN",
@@ -4737,7 +4737,7 @@
         "current-squad-prize": "Jouw huidige teamprijs",
         "not-in-a-squad": "Je zit niet in een team",
         "join-squad": "Treed toe tot een team voor een kans op nog meer prijzen!",
-        "rookies-title": "Welkom bij Nash, Nieuweling!]",
+        "rookies-title": "Welkom bij Nash, Nieuweling!",
         "rookies-description": "Onze top nieuwe handelaren iedere week krijgen een deel van 1,000 NEX tokens! <0>Meer informatie</0>",
         "rookies-nex-rewards": "NEX beloningen: 0.00",
         "next-tier-info-title": "Resterend volume voor het volgende level",
@@ -4754,7 +4754,7 @@
       "squad-guaranteed_plural": "Dit team heeft {{count}} teamleden en zit gegarandeert in de competitie.",
       "squad-not-guaranteed": "Dit team heeft {{count}} teamleden en zit niet gegarandeert in de competitie.",
       "squad-not-guaranteed_plural": "Dit team heeft {{count}} teamleden en zit niet gegarandeert in de competitie.",
-      "invite-to-squad": "[Translation required: Invite friends to this squad]",
+      "invite-to-squad": "Nodig vrienden uit voor dit team",
       "back-to-all": "Terug naar allen",
       "top-members": "Tophandelaren van het team",
       "others": "Anderen"
@@ -4785,7 +4785,7 @@
       },
       "competition-table": {
         "divider-squad-unsafe": "Deze teams hebben niet het 5-personen limiet behaald.",
-        "week-prize": "Week {{week}}]",
+        "week-prize": "Week {{week}}",
         "previous-week": "Vorige week",
         "next-week": "Volgende week"
       },
@@ -4793,7 +4793,7 @@
         "competition-ended": "Seizoen 2 van de Nash League is nu voorbij!",
         "welcome-rookie": "Welkom bij Nash, Nieuweling!",
         "how-it-works-rookie": "Onze tophandelaren krijgen iedere week een deel van 1,000 NEX tokens! <0>Meer informatie</0>",
-        "rewards-rokie": "NEX beloningen: {{prize}}]"
+        "rewards-rokie": "NEX prijzen: {{prize}}"
       }
     }
   }
