@@ -41,7 +41,7 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
-  "dismiss": "[Translation required: Dismiss]",
+  "dismiss": "Annulla",
   "dismiss-forever": "Non mostrare più",
   "remind-me-later": "Ricordamelo più tardi",
   "got-it": "Ho capito!",
@@ -52,20 +52,20 @@
   "no-limit": "Nessun limite",
   "learn-more": "Scopri di più",
   "approve-currency": "Approva {{currency}}",
-  "approve-currency-once": "[Translation required: You will need to approve transfers of this asset once.]",
-  "approve-currency-everytime": "[Translation required: You will need to approve transfers of this asset every time.]",
-  "approve-currency-loading": "[Translation required: This can take up to 1 minute]",
+  "approve-currency-once": "Dovrai approvare i trasferimenti di questo asset una volta.",
+  "approve-currency-everytime": "Dovrai approvare i trasferimenti di questo asset tutte le volte.",
+  "approve-currency-loading": "Questo può richiedere fino a 1 minuto.",
   "verified": "Verificato",
   "nash-cash": "Nash Cash",
-  "nex-staking": "[Translation required: NEX staking]",
+  "nex-staking": "Staking di NEX",
   "available": "Disponibile",
-  "view": "[Translation required: View]",
+  "view": "Visualizza",
   "terms-and-conditions": "Termini e condizioni",
   "sign-in": "Effettua l'accesso",
   "read-more": "Leggi di più",
   "coming-soon": "Prossimamente",
-  "million": "[Translation required: Million]",
-  "million/short": "[Translation required: M]",
+  "million": "Milioni]",
+  "million/short": "Mln.",
   "volume": "Volume",
   "volume/lowercase": "volume",
   "apikeys": {
@@ -323,7 +323,7 @@
   },
   "search": "Cerca…",
   "loading": "Caricamento in corso…",
-  "trades-downloading": "[Translation required: Downloading trades…]",
+  "trades-downloading": "Scaricando le operazioni…",
   "trades-found": "{{count}} scambio trovato…",
   "trades-found_plural": "{{count}} scambi trovati…]",
   "pending": "In attesa",
@@ -911,7 +911,7 @@
             "maybe-insufficient-funds": "Insufficiente {{currencySymbol}}.",
             "order-too-small": "Quantità minima {{orderSize}} {{currencySymbol}}.",
             "limit-breached": "Questo supera i tuoi limiti di trading.",
-            "soft-limit-breached": "[Translation required: You’re close to your trading limit. <0>Upgrade</0> your verification tier to trade more.]"
+            "soft-limit-breached": "Translation required: Ti stai avvicinando al tuo limite di trading. <0>Aggiorna</0> il tuo livello di verifica per fare più operazioni."
           }
         },
         "cancel-at": {
@@ -1957,7 +1957,7 @@
       "daily-limits-header": "Limiti rimanenti dopo questa transazione",
       "current-price-label": "Prezzo corrente | <0 />",
       "current-price-unavailable": "Prezzo corrente non disponibile",
-      "unavailable": "[Translation required: Price unavailable. Try again soon.]",
+      "unavailable": "Prezzo non disponibile. Riprova più tardi.",
       "buy-with-input-label-no-cur": "Paga con",
       "sell-with-input-label-no-cur": "Deposita a",
       "buy-with-input-label": "Paga in {{currency}} con",
@@ -2783,10 +2783,10 @@
       "use-exact-name": "Utilizza questo nome esatto.",
       "recipient-address": "Indirizzo del destinatario",
       "recipient-bank-country": "Paese della banca del destinatario",
-      "exact-name-warning-1": "[Translation required: You <0>must</0> specify the recipient as ‘<1>Neon Exchange AG</1>’.]",
-      "exact-name-warning-2": "[Translation required: Transfers to ‘Nash’ or other names will be <0>returned at your own cost</0>.]",
-      "exact-name-warning-3": "[Translation required: Your bank account name must match the name on your Nash account. <0>Do not</0> use third-party services (e.g. TransferWise).]",
-      "btn-exact-name-warning": "[Translation required: Got it]"
+      "exact-name-warning-1": "<0>Devi</0> specificare il destinatario come ‘<1>Neon Exchange AG</1>’.",
+      "exact-name-warning-2": "I trasferimenti a ‘Nash’ o ad altri nomi saranno <0>restituiti a tue spese</0>.",
+      "exact-name-warning-3": "Il nome del tuo conto bancario deve corrispondere al nome sul tuo conto Nash. <0>non</0> usare servizi di terze parti (per es. TransferWise).",
+      "btn-exact-name-warning": "Ho capito"
     },
     "timeout-message": "Questo tasso di cambio sarà garantito e bloccato per:",
     "network-error": "Errore di rete. Per favore riprova.",
@@ -3023,8 +3023,8 @@
         "search-placeholder": "Cerca oltre 3,000 asset…"
       },
       "transferring-funds": {
-        "title": "Invio e ricezione di fondi",
-        "desc": "[Updated translation required: Nash Channels let you trade at lightning speed with no blockchain fees and without giving up custody. Send funds to Nash Channels from your Nash wallet.] <0>Se vuoi fare trading, dovrai inviare fondi al contratto di trading.</0> <1>Puoi inviare fondi al contratto di trading solo dal tuo account personale.</1>",
+        "title": "Invio e ricezione dei fondi",
+        "desc": "I canali Nash ti consentono di fare trading alla velocità della luce senza commissioni blockchain e senza rinunciare alla custodia. Invia fondi ai canali Nash dal tuo portafoglio Nash. <0>Se vuoi fare trading, dovrai inviare i fondi al contratto di trading.</0> <1>Puoi inviare i fondi al contratto di trading solo dal tuo account personale.</1>",
         "learn-more-never-show": "<0>Per saperne di più</0> o <1>non mostrarmelo più</1>.",
         "learn-more": "Per saperne di più",
         "never-show": "Non mostrarmelo più."
@@ -3239,9 +3239,9 @@
           }
         },
         "volume": {
-          "exceeds-deposit-limit": "[Translation required: Exceeds deposit limit]",
-          "upgrade-tier-or-wait": "[Translation required: <0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.]",
-          "near-deposit-limit": "[Translation required: This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!]"
+          "exceeds-deposit-limit": "Limite di deposito ecceduto",
+          "upgrade-tier-or-wait": "<0>Aggiorna il tuo livello di verifica</0> per depositare più fondi o aspetta di tornare al di sotto del limite.\n\n I prelievi non vengono mai bloccati.",
+          "near-deposit-limit": "Questo trasferimento supera il limite di deposito ma andrà a buon fine. Dovrai aggiornare presto il tuo livello di verifica!"
         }
       },
       "nash-channels": {
