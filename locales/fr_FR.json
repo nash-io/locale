@@ -3239,35 +3239,35 @@
           }
         },
         "volume": {
-          "exceeds-deposit-limit": "[Translation required: Exceeds deposit limit]",
-          "upgrade-tier-or-wait": "[Translation required: <0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.]",
-          "near-deposit-limit": "[Translation required: This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!]"
+          "exceeds-deposit-limit": "Dépasse la limite de dépôt",
+          "upgrade-tier-or-wait": "<0>Augmentez votre niveau de vérification</0> afin de déposer plus de fonds ou attendez de retomber sous la limite. Notez que les retraits ne sont jamais bloqués.",
+          "near-deposit-limit": "Ce transfert dépasse votre limite de dépôt mais va quand même passer. Vous allez bientôt devoir augmenter votre niveau de vérification!"
         }
       },
       "nash-channels": {
         "explanation": {
-          "title": "[Translation required: On our Layer-2 network\n you always control your funds]",
-          "fast-trade": "[Translation required: Lightning-fast cross-chain trading]",
-          "trade-without-fees": "[Translation required: Trade without blockchain fees]",
-          "nash-cash": "[Translation required: Buy/sell on Nash Cash at 0% fees]"
+          "title": "Sur notre réseau Layer-2\n vous restez maître de vos fonds",
+          "fast-trade": "Trading cross-chaînes instantanné",
+          "trade-without-fees": "Tradez sans frais de blockchain",
+          "nash-cash": "Achetez/vendez sur Nash Cash sans frais"
         },
         "transfer-funds": {
-          "require-approval": "[Translation required: You need to approve {{currency}} before you can deposit to Nash Channels.]",
-          "no-funds": "[Translation required: You don’t have any {{currency}} available to {{mode}}.]",
-          "no-funds-nash-cash": "[Translation required: <0>Deposit {{currency}}</0> from an external account or purchase at a 0% fee through Nash Cash.]"
+          "require-approval": "Vous devez approuver {{currency}} avant de pouvoir déposer sur Nash Channels.",
+          "no-funds": "Vous n'avez pas de {{currency}} disponible pour {{mode}}.",
+          "no-funds-nash-cash": "<0>Déposez des {{currency}}</0> depuis un compte externe ou achetez-en sans frais sur Nash Cash."
         }
       },
       "nex-swap": {
         "info": {
-          "title": "[Translation required: Convert NEX between the NEO and Ethereum blockchains]",
-          "markets": "[Translation required: Gain access to secondary markets on Ethereum, e.g. Uniswap]",
-          "staking": "[Translation required: Stake NEP-5 NEX tokens to receive dividends]"
+          "title": "Convertissez NEX entre les blockchains NEO et Ethereum",
+          "markets": "Accédez aux marchés secondaires de l'Ethereum (Uniswap, etc.)",
+          "staking": "Stakez vos NEX (NEP-5) pour recevoir des dividendes"
         },
-        "tier-verification": "[Translation required: To convert NEX, please complete <0>Tier 1 verification</0>.]",
-        "minimum-amount": "[Translation required: Minimum conversion of {{amount}}]",
-        "modal-title": "[Translation required: Convert {{from}} to {{to}}]",
-        "convert-with-currency": "[Translation required: Convert {{currency}}]",
-        "conversion-started": "[Translation required: Conversion started]"
+        "tier-verification": "Pour convertir vos NEX, veuillez compléter le <0>Niveau 1 de vérification</0>.",
+        "minimum-amount": "Montant minimum à convertir",
+        "modal-title": "Convertir {{from}} en {{to}}",
+        "convert-with-currency": "Convertir {{currency}}",
+        "conversion-started": "Conversion lancée"
       },
       "receive-assets": {
         "wallet-address": "Adresse du portefeuille",
@@ -3285,15 +3285,15 @@
         "dismiss-link": "Masquer pour toujours et continuer"
       },
       "select-asset": {
-        "search-placeholder": "[Translation required: Search over 3,000 assets…]",
-        "title-receive": "[Translation required: Select an asset to receive]",
-        "title-send": "[Translation required: Select an asset to send]",
-        "show-usd-value": "[Translation required: Show USD value]",
-        "available-balance": "[Translation required: Available balance]",
+        "search-placeholder": "Rechercher parmi 3 000 actifs…",
+        "title-receive": "Sélectionner un actif à recevoir",
+        "title-send": "Sélectionner un actif à envoyer",
+        "show-usd-value": "Afficher la valeur en USD",
+        "available-balance": "Solde disponible",
         "groups": {
-          "yours": "[Translation required: Your assets]",
-          "popular": "[Translation required: Popular assets]",
-          "other": "[Translation required: Other assets]"
+          "yours": "Vos actifs",
+          "popular": "Actifs populaires",
+          "other": "Autres actifs"
         }
       }
     },
@@ -3346,7 +3346,7 @@
             "trading-account": "Depuis le contrat de trading",
             "personal-account": "Depuis mon compte personnel",
             "nash-fiat-ramp": "Achat via Nash Cash",
-            "nex-swap": "[Translation required: From NEX swap contract]",
+            "nex-swap": "Depuis le contrat de swap NEX",
             "external-address": "Depuis <0 />"
           }
         },
@@ -3550,7 +3550,7 @@
       "available-amount-send": "Disponible pour envoyer",
       "available-amount-nash-channels-deposit": "Disponible pour déposer",
       "available-amount-nash-channels-withdraw": "Disponible pour retirer",
-      "available-amount-convert": "[Translation required: Available to convert]",
+      "available-amount-convert": "Disponible pour convertir",
       "wallets": {
         "personal-account": "Compte personnel",
         "nash-channels": "Nash Channels",
@@ -3584,7 +3584,7 @@
       "you-can-lose-funds": "L’envoi de fonds à la mauvaise adresse entraînera la perte de ces fonds pour toujours."
     },
     "password": {
-      "title": "Entrez les informations d’identification pour déverrouiller la session",
+      "title": "Entrez ces informations d’identification pour déverrouiller la session",
       "secret-title": "Déverrouiller vos clés secrètes"
     },
     "updated-terms": {
@@ -3923,7 +3923,7 @@
         "funds-trading-to-personal": "Je dépose des fonds sur le contrat de trading",
         "staking-stake-complete": "Un de mes stakes arrive à expiration",
         "staking-weekly-summary": "Un résumé hebdomadaire de mes dividendes de staking est disponible",
-        "nash-channels-limit": "[Translation required: I exceed my Nash Channels deposit limit]"
+        "nash-channels-limit": "Je dépasse ma limite de dépôt sur Nash Channels"
       }
     },
     "security": {
@@ -4063,15 +4063,15 @@
     },
     "my-limits": {
       "header": "Limites",
-      "desc": "[Translation required: Nash never blocks withdrawals, but they count towards your Nash Channels deposit limit. <0>Learn more</0> about limits.]",
-      "24h-volume": "[Translation required: 24h trading volume]",
-      "30d-volume": "[Translation required: 30d trading volume]",
-      "1y-volume": "[Translation required: 1y trading volume]",
-      "view-fee-tiers": "[Translation required: View fee tiers]",
-      "your-taker-fee": "[Translation required: Your taker fee]",
-      "unavailable-with-tier-0": "[Translation required: Unavailable at Tier 0.]",
-      "limit-yearly-buys": "[Translation required: <0 />/yearly buys]",
-      "limit-yearly-sales": "[Translation required: <0 />/yearly sales]",
+      "desc": "Nash ne bloque jamais les retraits, en revanche ils comptent dans votre limite de dépôt sur Nash Channels. <0>En savoir plus</0> à propos des limites.",
+      "24h-volume": "Volume de trading sur 24h",
+      "30d-volume": "Volume de trading sur 30 jours",
+      "1y-volume": "Volume de trading annuel",
+      "view-fee-tiers": "Afficher les niveaux de frais",
+      "your-taker-fee": "Votre niveau de frais taker",
+      "unavailable-with-tier-0": "Indisponible au Niveau 0.",
+      "limit-yearly-buys": "<0 />/achats annuels",
+      "limit-yearly-sales": "<0 />/ventes annuelles",
       "cards": {
         "tiers": {
           "header": "Tier {{tier}}",
@@ -4086,15 +4086,15 @@
         "limits": {
           "header": "Volume de trading quotidien maximum",
           "unlimited": "Illimité",
-          "verified": "[Translation required: Verified]",
-          "in-review": "[Translation required: In review]",
-          "rejected": "[Translation required: Rejected]",
+          "verified": "Vérifié",
+          "in-review": "En cours de revue",
+          "rejected": "Rejeté",
           "try-again": "Réessayer",
           "contact-us": "Contacter le support",
-          "unavailable": "[Translation required: Unavailable in your region]"
+          "unavailable": "Indisponible dans votre région"
         },
         "tier-1": {
-          "get-started-button": "[Translation required: Get started]",
+          "get-started-button": "Commencer",
           "continue-verification-button": "Poursuivre la vérification",
           "verification": {
             "header": "Comment voulez-vous être vérifié?",
@@ -4108,7 +4108,7 @@
                 "desc": "Lorsque vous avez terminé la vérification de Niveau 1, votre résultat apparaîtra ici dans une minute."
               }
             },
-            "use-web-platform": "[Translation required: I’ll use the Nash web platform]",
+            "use-web-platform": "Je préfère utiliser la plateforme web de Nash",
             "do-it-later": "Je le ferai plus tard"
           }
         }
@@ -4151,7 +4151,7 @@
       "summary-title": "Toutes les déclarations",
       "export-summary": "Exporter vos stakes vers un fichier CSV",
       "export": "Déclaration d’exportation",
-      "export-detailed": "[Translation required: Export detailed statement]",
+      "export-detailed": "Exporter le relevé détaillé",
       "date-col": "Date de paiement",
       "asset-received-col": "Actif reçu",
       "assets-received-col": "Actifs reçus",
@@ -4369,13 +4369,13 @@
     }
   },
   "blockchains": {
-    "btc": "[Translation required: Bitcoin]",
-    "eth": "[Translation required: Ethereum]",
-    "neo": "[Translation required: NEO]"
+    "btc": "Bitcoin",
+    "eth": "Ethereum",
+    "neo": "NEO"
   },
   "tokens": {
-    "erc20": "[Translation required: ERC-20]",
-    "nep5": "[Translation required: NEP-5]"
+    "erc20": "ERC-20",
+    "nep5": "NEP-5"
   },
   "timezones": {
     "Pacific/Niue": "(GMT-11:00) Niue",
@@ -4630,55 +4630,55 @@
     "Pacific/Kiritimati": "(GMT+14:00) Kiritimati"
   },
   "trading-competition": {
-    "title": "[Translation required: Nash League]",
-    "competition": "[Translation required: Nash League]",
-    "squad": "[Translation required: Squad]",
-    "squads": "[Translation required: Squads]",
-    "solo": "[Translation required: Solo]",
-    "pl": "[Translation required: P/L]",
-    "captain": "[Translation required: Captain]",
-    "members": "[Translation required: Members]",
-    "rank": "[Translation required: Rank]",
-    "nickname": "[Translation required: Nickname]",
-    "volume": "[Translation required: Volume]",
-    "prize-label": "[Translation required: Prize]",
-    "max-16-characters": "[Translation required: Max 16 characters]",
-    "inappropriate-message": "[Translation required: Inappropriate names will lead to disqualification. Be polite!]",
-    "invalid-name": "[Translation required: Your name is already taken or contains invalid characters.]",
-    "terms-and-conditions": "[Translation required: By participating in Nash League you agree to the competition’s <0>Terms and Conditions</0>.]",
-    "unranked": "[Translation required: Unranked]",
-    "n-a": "[Translation required: N/A]",
+    "title": "Nash League",
+    "competition": "Nash League",
+    "squad": "Squad",
+    "squads": "Squads",
+    "solo": "Solo",
+    "pl": "P/L",
+    "captain": "Captaine",
+    "members": "Membres",
+    "rank": "Rang",
+    "nickname": "Pseudo",
+    "volume": "Volume",
+    "prize-label": "Prix",
+    "max-16-characters": "16 caractères max",
+    "inappropriate-message": "Les noms innappropriés conduiront à une disqualification.",
+    "invalid-name": "Ce nom est déja pris ou contient des caractères invalides.",
+    "terms-and-conditions": "En participant à Nash League, vous acceptez les <0>Termes et Conditions</0> de la compétition.]",
+    "unranked": "Non classé",
+    "n-a": "N/A",
     "prize": {
-      "unlock-up-to": "[Translation required: Unlock up to]",
-      "title": "[Translation required: $1 MILLION IN PRIZES]",
-      "desc-1": "[Translation required: Just trade on Nash to get your share!]",
-      "desc-2": "[Translation required: All users are automatically registered as solo participants, but you can join a squad to improve your chances.]",
-      "desc-3": "[Translation required: The more volume generated throughout the competition, the more prizes are paid out!]",
-      "more-levels": "[Translation required: More levels will become available when Level {{level}} is reached!]",
-      "volume-s": "[Translation required: Volume ($)]",
-      "prizes": "[Translation required: Prizes]",
-      "winners": "[Translation required: Winners]",
-      "default-nickname": "[Translation required: Default nickname: {{nickname}}]",
-      "welcome-nickname": "[Translation required: Welcome, {{nickname}}]",
-      "create-new-nickname": "[Translation required: Create new nickname]",
-      "anonymous": "[Translation required: Anonymous]",
-      "set-nickname": "[Translation required: Set nickname]",
-      "edit-nickname": "[Translation required: Edit nickname]",
-      "maybe-later": "[Translation required: Maybe later]",
-      "learn-more-league": "[Translation required: Learn more about Nash League]",
-      "full-prize-breakdowns": "[Translation required: Full prize breakdown for current levels]",
-      "all-levels-revealed": "[Translation required: All levels have been revealed!]",
-      "competition-ended": "[Translation required: This competition has ended.]",
-      "current-nickname": "[Translation required: Current nickname]",
+      "unlock-up-to": "Débloquer jusqu'à",
+      "title": "$1 MILLION EN PRIX",
+      "desc-1": "Tradez sur Nash pour obtenir votre part !",
+      "desc-2": "Tous les utilisateurs sont automatiquement inscrits en tant que participant solo, mais vous pouvez rejoindre une squad pour augmenter vos chances.",
+      "desc-3": "Le plus il y a de volume pendant la compétition, le plus de prix seront distribués !",
+      "more-levels": "Plus de niveaux deviendront disponibles lorsque le Niveau {{level}} sera atteint !",
+      "volume-s": "Volume ($)",
+      "prizes": "Prix",
+      "winners": "Gagnants",
+      "default-nickname": "Pseudo par défaut: {{nickname}}",
+      "welcome-nickname": "Bienvenue, {{nickname}}",
+      "create-new-nickname": "Créer un pseudo",
+      "anonymous": "Anonyme",
+      "set-nickname": "Choisir ce pseudo",
+      "edit-nickname": "Modifier ce pseudo",
+      "maybe-later": "Peut-être plus tard",
+      "learn-more-league": "En savoir plus sur Nash League",
+      "full-prize-breakdowns": "Décomposition détaillée des prix par niveau",
+      "all-levels-revealed": "Tous les niveaux ont été révélés",
+      "competition-ended": "Cette compétition est terminée.",
+      "current-nickname": "Pseudo actuel",
       "main-card": {
-        "level-locked": "[Translation required: Level {{level}} locked]",
-        "level-unlocked": "[Translation required: Level {{level}} unlocked]",
-        "total-prize": "[Translation required: <0 /> in prizes]",
-        "solo-count": "[Translation required: {{count}} solo]",
-        "team-count": "[Translation required: {{count}} squad]",
-        "team-count_plural": "[Translation required: {{count}} squads]",
-        "pl-count": "[Translation required: {{count}} P/L]",
-        "unlocks-at": "[Translation required: Unlocks at]"
+        "level-locked": "Niveau {{level}} verrouillé",
+        "level-unlocked": "Niveau {{level}} déverrouillé]",
+        "total-prize": "<0 /> en prix",
+        "solo-count": "{{count}} solo",
+        "team-count": "{{count}} squad",
+        "team-count_plural": "{{count}} squads",
+        "pl-count": "{{count}} P/L",
+        "unlocks-at": "Se débloque à"
       },
       "card": {
         "squad-desc": "[Translation required: Split between {{count}} <0 /> <1>squad</1>]",
