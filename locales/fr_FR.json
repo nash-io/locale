@@ -3339,7 +3339,7 @@
             "personal-account": "Compte personnel",
             "nash-fiat-ramp": "Vente à Nash",
             "staking-account": "Contrat de staking NEX",
-            "nex-swap": "[Translation required: NEX swap contract]",
+            "nex-swap": "Contrat de swap NEX",
             "fees": "Frais"
           },
           "from": {
@@ -4681,44 +4681,44 @@
         "unlocks-at": "Se débloque à"
       },
       "card": {
-        "squad-desc": "[Translation required: Split between {{count}} <0 /> <1>squad</1>]",
-        "squad-desc_plural": "[Translation required: Split between {{count}} <0 /> <1>squads</1>]",
-        "solo-desc": "[Translation required: Split between {{count}} <0 /> <1>solo</1>]",
-        "special-desc": "[Translation required: <0 /> <1>Special promotions</1>]",
-        "solo-pl-desc": "[Translation required: Split between {{count}} <0 /> <1>P/L</1>]"
+        "squad-desc": "Partagé entre {{count}} <0 /> <1>squad</1>",
+        "squad-desc_plural": "Partagé entre {{count}} <0 /> <1>squads</1>",
+        "solo-desc": "Partagé entre {{count}} <0 /> <1>solo</1>",
+        "special-desc": "<0 /> <1>Promotions spéciales</1>]",
+        "solo-pl-desc": "Partagé entre {{count}} <0 /> <1>P/L</1>"
       }
     },
     "create-squad": {
-      "title": "[Translation required: Captain your squad of trading pros]",
-      "sub-title": "[Translation required: We only recommend this if you already have 10+ members ready to join]",
-      "description": "[Translation required: If your squad has fewer than 10 members when the competition begins, it will be disbanded and you will compete solo.]",
-      "create-squad-button": "[Translation required: Create a squad]",
-      "create-squad-modal-desc": "[Translation required: Your squad must have at least 10 members when the competition begins, otherwise it will be disbanded.]",
-      "create-squad-modal-message": "[Translation required: Once you create your squad, you will not be able to leave it or join a new one.]",
-      "set-squad-name": "[Translation required: Set squad name]",
-      "create-a-name": "[Translation required: Create a name…]",
-      "accept-rules": "[Translation required: I understand the squad creation rules]",
-      "create-squad": "[Translation required: Create squad]",
-      "your-squad": "[Translation required: Your squad]",
-      "congrats-created-squad": "[Translation required: Congratulations! You are the captain of]",
-      "invite-your-friends": "[Translation required: Invite friends to join your squad]"
+      "title": "Soyez capitaine de votre squad de traders",
+      "sub-title": "Créer une squad n'est recommandé que si vous avez 10+ traders prêts à se joindre à vous.",
+      "description": "Si votre squad a moins de 10 membres, elle sera dissoute et vous participerez en solo.",
+      "create-squad-button": "Créer une squad",
+      "create-squad-modal-desc": "Votre squad doit comporter au moins 10 membres au début de la compétition, sans quoi elle sera dissoute.]",
+      "create-squad-modal-message": "Une fois votre squad créée, vous ne pourrez pas en partir ni rejoindre une autre squad.",
+      "set-squad-name": "Saisir un nom de squad",
+      "create-a-name": "Créer un nom…",
+      "accept-rules": "Je comprends les règles de création de squad",
+      "create-squad": "Créer une squad",
+      "your-squad": "Votre squad",
+      "congrats-created-squad": "Félicitations ! Vous êtes maintenant le capitaine de",
+      "invite-your-friends": "Invitez des amis à rejoindre votre squad"
     },
     "join-squad": {
-      "title": "[Translation required: Join squad]",
-      "description": "[Translation required: Are you sure you want to join the squad {{squadName}} under captain {{captainName}}?]",
-      "message-guaranteed": "[Translation required: This squad is guaranteed to be in the competition.]",
-      "message-not-guaranteed": "[Translation required: This squad is risky to join because it hasn’t met the {{minMemberCount}}-person minimum limit.]",
-      "modal-check": "[Translation required: Once you join, you will not be able to leave this squad or join a new one.]"
+      "title": "Rejoindre cette squad",
+      "description": "Êtes-vous sûr de vouloir rejoindre la squad {{squadName}} sous le capitanat de {{captainName}}?]",
+      "message-guaranteed": "Cette squad est garantie de participer à la compétition.",
+      "message-not-guaranteed": "Il est risqué de rejoindre cette squad car elle ne satisfait pas encore le seuil minimum de {{minMemberCount}} personnes.",
+      "modal-check": "Une fois une squad rejointe, vous ne pourrez plus en partir ni en rejoindre une autre."
     },
     "competition-table": {
-      "no-squads": "[Translation required: No squads have been created yet.]",
-      "table-message-not-started": "[Translation required: {{tabState}} rankings will appear here once the Nash League competition begins!]",
-      "divider-squad-safe": "[Translation required: These squads are safe to join because they are guaranteed to be in the competition.]",
-      "divider-squad-unsafe": "[Translation required: These squads are riskier to join because they haven’t met the 10-person minimum limit yet. A squad’s volume will be shown once it qualifies for the competition.]"
+      "no-squads": "Aucun squad créée pour l'instant.",
+      "table-message-not-started": "Le classement {{tabState}} s'affichera ici dès que le lancement de la compétition !",
+      "divider-squad-safe": "Vous pouvez rejoindre ces squads en toute sérénité car elles sont garanties de pouvoir participer à la compétition.",
+      "divider-squad-unsafe": "Il est plus risqué de rejoindre ces squads car elles ne satisfont pas encore le seuil minimum de 10 personnes. Le volume d'une squad sera affiché une fois qu'elle sera qualifiée pour la compétition."
     },
     "competition-info": {
-      "squad-desc": "[Translation required: You are currently entering the competition in the {{squadName}} <0 /> squad.]",
-      "solo-desc": "[Translation required: You are currently competing <0 /> solo – All Nash users are already registered!]",
+      "squad-desc": "Vous participez actuellement à la compétition au sein de la squad {{squadName}} <0 />.]",
+      "solo-desc": "Vous participez actuellement à la compétition <0 /> en solo – Tous les utilisateurs Nash sont déjà inscrits !",
       "not-signed": "[Translation required: <1>Sign in</1> to find yourself on the leaderboard!]",
       "competition-ended": "[Translation required: Season 1 of Nash League is now over!]",
       "prizes-unlocked": "[Translation required: Prizes unlocked]",
