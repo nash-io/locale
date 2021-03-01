@@ -41,7 +41,7 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
-  "dismiss": "Annulla",
+  "dismiss": "Chiudi",
   "dismiss-forever": "Non mostrare più",
   "remind-me-later": "Ricordamelo più tardi",
   "got-it": "Ho capito!",
@@ -157,9 +157,9 @@
     }
   },
   "terse-periods": {
-    "1h": "1o",
-    "1d": "24o",
-    "1w": "1S",
+    "1h": "1h",
+    "1d": "24h",
+    "1w": "1W",
     "1m": "1M"
   },
   "transfer": {
@@ -816,13 +816,13 @@
           "5m": "5m",
           "15m": "15m",
           "30m": "30m",
-          "1h": "1o",
+          "1h": "1h",
           "3h": "3h",
           "4h": "4h",
-          "6h": "6o",
-          "12h": "12o",
-          "1d": "1g",
-          "1w": "1S",
+          "6h": "6h",
+          "12h": "12h",
+          "1d": "1D",
+          "1w": "1W",
           "1M": "1M"
         },
         "study-overlay-menu": {
@@ -1978,7 +1978,7 @@
       "btn-move-to-sell": "Sposta {{asset}} per vendere",
       "want-to-buy-input-label": "Voglio comprare",
       "want-to-sell-input-label": "Voglio vendere",
-      "spend": "Spendere",
+      "spend": "Spendi",
       "purchase": "Acquista",
       "purchase-after-fee": "Acquista <0>(al netto delle commissioni)</0>",
       "cost-me-input-label": "Voglio spendere",
@@ -3452,7 +3452,7 @@
   "markets": {
     "title": "Mercati",
     "all": "Tutti",
-    "faves": "Favoriti",
+    "faves": "Preferiti",
     "volume-short": "vol.",
     "usd": "USD",
     "none": "Nessuno",
@@ -3638,7 +3638,7 @@
           "subtitle-20": "Con più volume, ti qualificherai come VIP e guadagnare tassi di commissione più elevati.",
           "title-25": "Invita gli amici a guadagnare più premi!",
           "subtitle-25": "Più amici hanno fatto trading, più premi 25% riceverai.",
-          "watch-video-or-learn-more": "<0>Guarda il video</0> o <1>impara di più</1>]"
+          "watch-video-or-learn-more": "<0>Guarda il video</0> o <1>scopri di più</1>]"
         }
       }
     }
@@ -4026,11 +4026,11 @@
       "unknown-blockchain": "Blockchain sconosciuta",
       "wallets": {
         "eth": {
-          "link-label": "Include token ERC-20",
+          "link-label": "Include i token ERC-20",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Include token GAS e NEP-5",
+          "link-label": "Include i token GAS e NEP-5",
           "name": "NEO"
         },
         "btc": {
@@ -4119,7 +4119,7 @@
     "cards": {
       "s-current-stakes": "NEX totali in stake",
       "s-stakes-in-progress": "Stake in corso",
-      "s-total-dividends": "Dividendi totali (da sempre)",
+      "s-total-dividends": "Dividendi totali (di sempre)",
       "s-next-payment": "Prossimo pagamento dividendi",
       "s-completed-stakes": "Stake completati"
     },
@@ -4190,7 +4190,7 @@
           },
           "par-2": {
             "title": "Come vengono calcolati i dividendi?",
-            "desc": "I dividendi dipendono: (1) dal numero di token NEX che metti in stake in proporzione ai 50.000.000 di NEX totali, e (2) dalla durata dello stake. Più token metti in stake, maggiore saranno i tuoi dividendi. Più a lungo metterai i tuoi token in stake, maggiore sarà la percentuale di commissioni che riceverai (il tuo ‘tasso di staking’)."
+            "desc": "I dividendi dipendono: (1) dal numero di token NEX che metti in stake in proporzione ai 50.000.000 di NEX totali, e (2) dalla durata dello stake. Più token metti in stake, maggiori saranno i tuoi dividendi. Più a lungo metterai i tuoi token in stake, maggiore sarà la percentuale di commissioni che riceverai (il tuo ‘tasso di staking’)."
           },
           "par-3": {
             "title": "Per quanto tempo posso mettere in stake?",
