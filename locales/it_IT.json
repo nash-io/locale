@@ -4064,11 +4064,11 @@
     "my-limits": {
       "header": "Limiti",
       "desc": "Nash non blocca mai i prelievi, ma contano ai fini del limite di deposito dei Nash Channels. <0>Ulteriori informazioni</0> sui limiti.",
-      "24h-volume": "[Translation required: 24h trading volume]",
-      "30d-volume": "[Translation required: 30d trading volume]",
-      "1y-volume": "[Translation required: 1y trading volume]",
+      "24h-volume": "Volume di trading giornal.",
+      "30d-volume": "Volume di trading mens.",
+      "1y-volume": "Volume di trading ann.",
       "view-fee-tiers": "Visualizza i livelli di commissione",
-      "your-taker-fee": "[Translation required: Your taker fee]",
+      "your-taker-fee": "Tua commisione da taker",
       "unavailable-with-tier-0": "Non disponibile al livello 0.",
       "limit-yearly-buys": "<0 />/acquisti annuali",
       "limit-yearly-sales": "<0 />/vendite annuali",
@@ -4635,7 +4635,7 @@
     "squad": "Squadra",
     "squads": "Squadre",
     "solo": "Solo",
-    "pl": "[Translation required: P/L]",
+    "pl": "P/L",
     "captain": "Captaino",
     "members": "Memberi",
     "rank": "Posizione",
@@ -4647,7 +4647,7 @@
     "invalid-name": "Il tuo nome è già in uso o contiene caratteri non validi.",
     "terms-and-conditions": "Partecipando alla competizione di Nash accetti <0>Termini e condizioni</0>.",
     "unranked": "Non classificato",
-    "n-a": "[Translation required: N/A]",
+    "n-a": "N/A",
     "prize": {
       "unlock-up-to": "Sblocca fino a",
       "title": "$1 MILIONE IN PREMI",
@@ -4677,7 +4677,7 @@
         "solo-count": "{{count}} solo",
         "team-count": "{{count}} squadra",
         "team-count_plural": "{{count}} squadre",
-        "pl-count": "[Translation required: {{count}} P/L]",
+        "pl-count": "{{count}} P/L",
         "unlocks-at": "Si sblocca al"
       },
       "card": {
@@ -4762,37 +4762,37 @@
     "s02": {
       "competition-starts": "Competizione inizia",
       "competition-ends": "Competizione finisce",
-      "rookies": "[Translation required: Rookies]",
+      "rookies": "Reclute",
       "user-welcome": "Benvenuto,",
       "prize": {
-        "title": "[Translation required: $10,000 NEW PRIZES PER $10M VOLUME]",
-        "desc-1": "[Translation required: Just trade on Nash to get your share!]",
-        "desc-2": "[Translation required: All users are automatically registered as solo participants, but you can join a squad to win an additional prize.]",
-        "desc-3": "[Translation required: The more volume generated throughout the competition, the more prizes are paid out!]",
-        "total-volume": "[Translation required: Total exchange volume]",
+        "title": "$10,000 IN PREMI PER OGNI $10M DI VOLUME",
+        "desc-1": "Basta fare trading su Nash per ottenere la tua parte!",
+        "desc-2": "Tutti gli utenti sono automaticamente registrati come partecipanti in solo, ma puoi unirti a una squadra per vincere un premio aggiuntivo.",
+        "desc-3": "Più volume generato durante la competizione, più premi vengono pagati!",
+        "total-volume": "Volume totale dell'exchange",
         "unlocked-prize": "Premi sbloccati",
-        "prize-split": "[Translation required: Prize split]",
-        "no-prizes-unlocked": "Non ci sono premi sbliccati ancora",
+        "prize-split": "Premio diviso",
+        "no-prizes-unlocked": "Ancora non ci sono premi sbliccati",
         "all-solos": "Tutti i solo",
-        "squad-prizes-split": "[Translation required: {{count}} squad]",
-        "squad-prizes-split_plural": "[Translation required: {{count}} squads]",
+        "squad-prizes-split": "{{count}} squadra",
+        "squad-prizes-split_plural": "{{count}} squadre",
         "volume-tier": "Livello di volume",
-        "volume-remainning": "[Translation required: Volume remaining for the this level]"
+        "volume-remainning": "Volume rimanente per questo livello"
       },
       "create-squad": {
-        "description": "[Translation required: Captains receive a guaranteed 5% of a squad’s prize!]",
-        "create-squad-modal-message": "[Translation required: Once you create your squad, you will not be able to leave it or join a new one. Your squad must have at least 5 members when the competition begins, otherwise it will be disbanded.]"
+        "description": "I capitani ricevono il 5% garantito del premio di una squadra!",
+        "create-squad-modal-message": "Una volta creata la tua squadra, non potrai lasciarla o unirti a una nuova. La tua squadra deve avere almeno 5 membri quando inizia la competizione, altrimenti verrà sciolta."
       },
       "competition-table": {
-        "divider-squad-unsafe": "[Translation required: These squads have not met the 5-person limit.]",
+        "divider-squad-unsafe": "Queste squadre non hanno raggiunto il limite di 5 persone.",
         "week-prize": "Settimana {{week}}",
         "previous-week": "Settimana precedente",
         "next-week": "Prossima settimana"
       },
       "competition-info": {
         "competition-ended": "La stagione 2 di Nash League è terminata!",
-        "welcome-rookie": "Benvenuto/a a Nash Rookie!",
-        "how-it-works-rookie": "[Translation required: Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>]",
+        "welcome-rookie": "Benvenuto/a a Nash Reclute!",
+        "how-it-works-rookie": "I nostri migliori nuovi trader ogni settimana ricevono una quota di 1.000 token NEX! <0>Scopri di più</0>]",
         "rewards-rokie": "Ricompense NEX: {{prize}}"
       }
     }
