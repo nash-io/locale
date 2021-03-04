@@ -4634,7 +4634,7 @@
     "competition": "Nash liga",
     "squad": "Tým",
     "squads": "Týmy",
-    "solo": "Individual",
+    "solo": "Sólo",
     "pl": "P/Z",
     "captain": "Kapitán",
     "members": "Členové",
@@ -4681,37 +4681,37 @@
         "unlocks-at": "Odemčeno při"
       },
       "card": {
-        "squad-desc": "[Translation required: Split between {{count}} <0 /> <1>squad</1>]",
-        "squad-desc_plural": "[Translation required: Split between {{count}} <0 /> <1>squads</1>]",
-        "solo-desc": "[Translation required: Split between {{count}} <0 /> <1>solo</1>]",
-        "special-desc": "[Translation required: <0 /> <1>Special promotions</1>]",
-        "solo-pl-desc": "[Translation required: Split between {{count}} <0 /> <1>P/L</1>]"
+        "squad-desc": "Rozdělit mezi {{count}} <0 /> <1>tým</1>",
+        "squad-desc_plural": "Rozdělit mezi {{count}} <0 /> <1>týmy</1>",
+        "solo-desc": "Rozdělit mezi {{count}} <0 /> <1>sólistu</1>",
+        "special-desc": "<0 /> <1>Speciální propagační akce</1>",
+        "solo-pl-desc": "Rozdělit mezi {{count}} <0 /> <1>P/Z</1>"
       }
     },
     "create-squad": {
       "title": "[Translation required: Captain your squad of trading pros]",
       "sub-title": "[Translation required: We only recommend this if you already have 10+ members ready to join]",
       "description": "[Translation required: If your squad has fewer than 10 members when the competition begins, it will be disbanded and you will compete solo.]",
-      "create-squad-button": "[Translation required: Create a squad]",
+      "create-squad-button": "Vytvořit tým",
       "create-squad-modal-desc": "[Translation required: Your squad must have at least 10 members when the competition begins, otherwise it will be disbanded.]",
       "create-squad-modal-message": "[Translation required: Once you create your squad, you will not be able to leave it or join a new one.]",
-      "set-squad-name": "[Translation required: Set squad name]",
-      "create-a-name": "[Translation required: Create a name…]",
-      "accept-rules": "[Translation required: I understand the squad creation rules]",
-      "create-squad": "[Translation required: Create squad]",
-      "your-squad": "[Translation required: Your squad]",
-      "congrats-created-squad": "[Translation required: Congratulations! You are the captain of]",
-      "invite-your-friends": "[Translation required: Invite friends to join your squad]"
+      "set-squad-name": "nastavit jméno týmu",
+      "create-a-name": "Vytvořit jméno…",
+      "accept-rules": "Rozumím pravidlům pro vytvoření týmu",
+      "create-squad": "Vytvořit tým",
+      "your-squad": "Váš tým",
+      "congrats-created-squad": "Gratulace! Jste kapitánem",
+      "invite-your-friends": "Pozvat přátele do vašeho týmu"
     },
     "join-squad": {
-      "title": "[Translation required: Join squad]",
-      "description": "[Translation required: Are you sure you want to join the squad {{squadName}} under captain {{captainName}}?]",
-      "message-guaranteed": "[Translation required: This squad is guaranteed to be in the competition.]",
-      "message-not-guaranteed": "[Translation required: This squad is risky to join because it hasn’t met the {{minMemberCount}}-person minimum limit.]",
-      "modal-check": "[Translation required: Once you join, you will not be able to leave this squad or join a new one.]"
+      "title": "Přidat se k týmu",
+      "description": "Jste si jistí, že se chcete přidat k týmu {{squadName}} vedený kapitánem {{captainName}}?",
+      "message-guaranteed": "Tento tým má jistou účast v soutěži.",
+      "message-not-guaranteed": "Tento tým prozatím nenaplnil limit počtu členů {{minMemberCount}} a proto je rizikové se k němu přidat.",
+      "modal-check": "Jakmile se přidáte k nějakému týmu, nebudete moci ho opustit ani se přídat do jiného."
     },
     "competition-table": {
-      "no-squads": "[Translation required: No squads have been created yet.]",
+      "no-squads": "Žádné týmy zatím nebyly vytvořeny",
       "table-message-not-started": "[Translation required: {{tabState}} rankings will appear here once the Nash League competition begins!]",
       "divider-squad-safe": "[Translation required: These squads are safe to join because they are guaranteed to be in the competition.]",
       "divider-squad-unsafe": "[Translation required: These squads are riskier to join because they haven’t met the 10-person minimum limit yet. A squad’s volume will be shown once it qualifies for the competition.]"
@@ -4725,59 +4725,59 @@
       "next-prizes-unlocked": "[Translation required: Next prizes unlocked]",
       "prizes-split": "[Translation required: <0 /> split between {{solo}} solo and {{team}} squad]",
       "clock-helper": {
-        "days": "[Translation required: DAYS]",
-        "hours": "[Translation required: HOURS]",
-        "minutes": "[Translation required: MINUTES]"
+        "days": "DNŮ",
+        "hours": "HODIN",
+        "minutes": "MINUT"
       },
       "cards": {
-        "register-clock-title": "[Translation required: Time left to join or create a squad]",
-        "competition-clock-title": "[Translation required: The competition begins in]",
-        "current-tier-info-title": "[Translation required: Current volume]",
-        "current-solo-prize": "[Translation required: Your current solo prize]",
-        "current-squad-prize": "[Translation required: Your current squad prize]",
-        "not-in-a-squad": "[Translation required: You are not in a squad]",
-        "join-squad": "[Translation required: Join a squad for a chance of more prizes!]",
-        "rookies-title": "[Translation required: Welcome to Nash, Rookie!]",
+        "register-clock-title": "Čas zbývající na přídání se nebo k založení týmu",
+        "competition-clock-title": "Liga začíná za",
+        "current-tier-info-title": "Aktuální objem",
+        "current-solo-prize": "Vaše dosavadní odměna za sólo",
+        "current-squad-prize": "Vaše dosavadní odměna za tým",
+        "not-in-a-squad": "Nejste v žádném týmu",
+        "join-squad": "Přidejte se k týmu a zvyšte tak šanci na větší odměny!",
+        "rookies-title": "Vítej v Nash, Nováčku!",
         "rookies-description": "[Translation required: Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>]",
-        "rookies-nex-rewards": "[Translation required: NEX rewards: 0.00]",
-        "next-tier-info-title": "[Translation required: Volume remaining for next level]",
-        "ended-title": "[Translation required: Final competition volume]"
+        "rookies-nex-rewards": "NEX odměny: 0.00",
+        "next-tier-info-title": "Zbývající objem pro další úroveň",
+        "ended-title": "Konečný objem ligy"
       }
     },
     "squad-page": {
-      "squad-rank": "[Translation required: Squad rank]",
-      "squad-volume": "[Translation required: Squad volume]",
-      "squad-prize": "[Translation required: Squad total prize]",
-      "best-contrib": "[Translation required: Leading trader]",
-      "no-contrib": "[Translation required: No contributors yet]",
+      "squad-rank": "Umístění v týmu",
+      "squad-volume": "Objem týmu",
+      "squad-prize": "Celkové odměny týmu",
+      "best-contrib": "Vedoucí obchodník",
+      "no-contrib": "Zatím žádní přispěvovatelé",
       "squad-guaranteed": "[Translation required: This squad has {{count}} member and is guaranteed to be in the competition.]",
       "squad-guaranteed_plural": "[Translation required: This squad has {{count}} members and is guaranteed to be in the competition.]",
       "squad-not-guaranteed": "[Translation required: This squad has {{count}} member and is not guaranteed to be in the competition.]",
       "squad-not-guaranteed_plural": "[Translation required: This squad has {{count}} members and is not guaranteed to be in the competition.]",
       "invite-to-squad": "[Translation required: Invite friends to this squad]",
-      "back-to-all": "[Translation required: Back to all]",
-      "top-members": "[Translation required: Squad top traders]",
-      "others": "[Translation required: Others]"
+      "back-to-all": "Zpět je všem",
+      "top-members": "Top obchodníci týmu",
+      "others": "Ostatní"
     },
     "s02": {
-      "competition-starts": "[Translation required: Competition starts]",
-      "competition-ends": "[Translation required: Competition ends]",
-      "rookies": "[Translation required: Rookies]",
-      "user-welcome": "[Translation required: Welcome,]",
+      "competition-starts": "Liga začíná",
+      "competition-ends": "Liga končí",
+      "rookies": "Nováčci",
+      "user-welcome": "Vítejte,",
       "prize": {
         "title": "[Translation required: $10,000 NEW PRIZES PER $10M VOLUME]",
         "desc-1": "[Translation required: Just trade on Nash to get your share!]",
         "desc-2": "[Translation required: All users are automatically registered as solo participants, but you can join a squad to win an additional prize.]",
         "desc-3": "[Translation required: The more volume generated throughout the competition, the more prizes are paid out!]",
-        "total-volume": "[Translation required: Total exchange volume]",
-        "unlocked-prize": "[Translation required: Unlocked prizes]",
-        "prize-split": "[Translation required: Prize split]",
-        "no-prizes-unlocked": "[Translation required: No prizes unlocked yet]",
-        "all-solos": "[Translation required: All solos]",
-        "squad-prizes-split": "[Translation required: {{count}} squad]",
-        "squad-prizes-split_plural": "[Translation required: {{count}} squads]",
-        "volume-tier": "[Translation required: Volume tier]",
-        "volume-remainning": "[Translation required: Volume remaining for the this level]"
+        "total-volume": "Celkový objem burzy",
+        "unlocked-prize": "Odemčené odměny",
+        "prize-split": "Rozdělení odměn",
+        "no-prizes-unlocked": "Odměny zatím nebyly odemčeny",
+        "all-solos": "Všichni sólisté",
+        "squad-prizes-split": "{{count}} tým",
+        "squad-prizes-split_plural": "{{count}} týmy",
+        "volume-tier": "Úroveň objemu",
+        "volume-remainning": "Zbývající objem pro tuto úroveň"
       },
       "create-squad": {
         "description": "[Translation required: Captains receive a guaranteed 5% of a squad’s prize!]",
@@ -4785,15 +4785,15 @@
       },
       "competition-table": {
         "divider-squad-unsafe": "[Translation required: These squads have not met the 5-person limit.]",
-        "week-prize": "[Translation required: Week {{week}}]",
-        "previous-week": "[Translation required: Previous week]",
-        "next-week": "[Translation required: Next week]"
+        "week-prize": "Týden {{week}}",
+        "previous-week": "Předchozí týden",
+        "next-week": "Další týden"
       },
       "competition-info": {
-        "competition-ended": "[Translation required: Season 2 of Nash League is now over!]",
-        "welcome-rookie": "[Translation required: Welcome to Nash, Rookie!]",
+        "competition-ended": "Sezóna 2 Nash Ligy je již ukončena!",
+        "welcome-rookie": "Vítej na Nash, Nováčku!",
         "how-it-works-rookie": "[Translation required: Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>]",
-        "rewards-rokie": "[Translation required: NEX rewards: {{prize}}]"
+        "rewards-rokie": "NEX odměny: {{prize}}"
       }
     }
   }
