@@ -118,227 +118,227 @@
       "usable-for": "Μπορεί να χρησιμοποιηθεί για",
       "revoke": "Ανάκληση",
       "created": "Δημιουργήθηκε",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "policy-trading": "Εμπόριο",
+      "loading": "Φόρτωση νομισμάτων…",
+      "no-tokens": "Δεν έχετε δημιουργήσει κανένα κλειδί API ακόμα.",
+      "policy-withdrawals": "Αναλήψεις και καταθέσεις",
+      "revoke-all-keys-button-label": "Ανάκληση όλων των κλειδιών",
+      "generate-new-key-button-label": "Δημιουργία νέου κλειδιού",
+      "plus-more": "+{{count}} ακόμα"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Διαπιστευτήρια χρήστη",
+      "whitelist-step": "Διευθύνσεις λίστας επιτρεπόμενων",
+      "name-step": "Ονομάστε το κλειδί σας",
+      "last-step": "Back-Up κωδικού",
+      "title": "Δημιουργία νέου κλειδιού API"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "Όνομα",
+      "continue-button-label": "Δημιουργία κλειδιού"
     },
     "step2": {
-      "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "password": "Κωδικός πρόσβασης",
+      "two-fa-code": "Κωδικός 2FA",
+      "create-api-button-label": "Συνέχεια",
+      "incorrect-password": "Λάθος κωδικός.",
+      "incorrect-2fa": "Λάθος κωδικός 2FA."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Δημιουργία κλειδιού…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Ο μυστικός κωδικός σας",
+      "your-secret-warning": "Αυτή είναι η μοναδική φορά που θα σας το δείξουμε αυτό.",
+      "api-key": "Το API κλειδί",
+      "api-key-warning": "Αυτή είναι η μοναδική φορά που θα σας το δείξουμε αυτό.",
+      "download-as-json-button-label": "Κατεβάστε το κλειδί API και τον μυστικό κωδικό σε αρχείο JSON",
+      "i-saved-my-secret-button-label": "Έχω αποθηκεύσει τον μυστικό κωδικό μου"
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
-    "1w": "1w",
-    "1m": "1M"
+    "1h": "1ώρα",
+    "1d": "24ωρο",
+    "1w": "1εβδ.",
+    "1m": "1μήν."
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "trading": "Ανταλλακτήριο",
+    "personal": "Προσωπικό",
+    "in-trades": "Σε διαδικασία ανταλλαγής",
+    "transfer-funds": "Αποστολή/Λήψη",
+    "pending-transfer": "Έχετε μια εκκρεμή μεταφορά {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Δείτε εδώ τις μεταφορές σας."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Εκτιμώμενη χρέωση: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Μέγιστο",
+    "use-last": "Χρήση πιο πρόσφατου"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Το διαθέσιμο ποσό δεν επαρκεί",
+  "amount-each": "για κάθε {{amount}}",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Συνολικό ημερήσιο όριο",
+    "link": "Θέλω να αυξήσω τα όριά μου",
+    "amount-of-max-amount": "{{amount}} απο σύνολο {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Δομή χρεώσεων",
+    "desc": "Το Nash υπολογίζει τον μέσο όρο του όγκου διακίνησης συναλλαγών 30 ημερών του χρήστη, χρησιμοποιώντας τον όγκο των συναλλαγών που σχετίζεται με τον λογαριασμό του σαν ποσοστό του συνολικού όγκου συναλλαγών του ανταλλακτηρίου.",
+    "30-day-volume": "Όγκος συναλλαγών 30 ημερών",
+    "taker-fee": "Χρέωση αγοραστή",
+    "maker-fee": "Χρέωση πωλητή",
+    "learn-more": "Μάθετε περισσότερα σχετικά με τις παραγγελίες πωλητή και αγοραστή."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Έγκυρότητα",
+    "subtitle": "Προσδιορίστε το χρονικό διάστημα για το οποίο η παραγγελία θα είναι ενεργή.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Ενεργή μέχρι ακυρώσεως",
+        "desc": "Η παραγγελία θα παραμείνει ενεργή, είτε μέχρι να ολοκληρωθεί πλήρως, είτε μέχρι να την ακυρώσετε."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Έγκυρη για συγκεκριμένο χρόνο",
+        "header-with-time": "Έγκυρη μέχρι {{cancelAt}}",
+        "desc": "Η περαγγελία θα παραμείνει ενεργή μέχρι το χρόνο που θα ορίσετε. Εάν δεν ολοκληρωθεί πλήρως μέχρι εκείνη την ώρα, τότε θα ακυρωθεί."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Ή όλα ή τίποτα!",
+        "desc": "Εάν ολόκληρη η παραγγελία μπορεί να εκπληρωθεί άμεσα, τότε θα γίνει έτσι. Εάν δε μπορεί να εκπληρωθεί άμεσα τότε θα ακυρωθεί."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Ή άμεσα ή ποτέ!",
+        "desc": "Οποιοδήποτε τμήμα της παραγγελίας μπορεί να εκπληρωθεί άμεσα, θα γίνει. Το υπόλοιπο ποσό που πιθανόν δεν εκπληρωθεί άμεσα, θα ακυρωθεί."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
+    "referrals": "Συστάσεις",
+    "funds": "Κεφάλαια",
+    "exchange": "Ανταλλακτήριο",
+    "basic-exchange": "Βασική προβολή",
+    "basic-exchange-short": "Βασική",
+    "advanced-exchange": "Προβολή για προχωρημένους",
     "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
-    "fiat-ramps": "Fiat ramps"
+    "markets": "Αγορές",
+    "settings": "Ο λογαριασμός μου",
+    "fiat-ramps": "Προσθήκη χρημάτων"
   },
   "top-nav": {
     "exchange-status": {
-      "operational": "Exchange fully operational",
-      "maintenance": "Exchange in maintenance"
+      "operational": "Ανταλλακτήριο πλήρως λειτουργικό",
+      "maintenance": "Ανταλλακτήριο σε παύση λόγω συντήρησης"
     },
     "accounts-main-menu": {
-      "title": "Services"
+      "title": "Υπηρεσίες"
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Πορτοφόλι"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Ειδοποιήσεις",
+        "clear-all": "Καθαρισμός όλων"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "unlock-required": "Paused",
-        "locked-tooltip": "You still have a transfer initializing. Transfers can not initialize while your account is locked. Unlock to continue.",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again.",
-        "do-unlock": "Unlock"
+        "initializing": "Εκκίνηση μεταφοράς",
+        "unlock-required": "Σε παύση",
+        "locked-tooltip": "Έχετε μια μεταφορά προς εκκίνηση. Οι μεταφορές δε μπορούν να εκκινήσουν όσο ο λογαριασμός σας είναι κλειδωμένος. Ξεκλειδώστε για να συνεχίσετε.",
+        "initialized": "Η μεταφορά ξεκίνησε",
+        "tooltip": "Έχετε μια μεταφορά προς εκκίνηση. Εάν κλείσετε το Nash ή αποσυνδεθείτε, θα παραμείνει σε παύση μέχρι να συνδεθείτε ξανά.",
+        "do-unlock": "Ξεκλειδώστε"
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Το προφίλ μου",
+        "support": "Υποστήριξη",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Φωτεινό",
+          "dark": "Σκοτεινό"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Αποσύνδεση",
+          "sign-in": "Σύνδεση",
+          "sign-in-create-account": "<1>Δημιουργήστε λογαριασμό</1> ή <0>Συνδεθείτε</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Γενικές ρυθμίσεις"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Εμπόριο",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Ανταλλακτήριο",
+          "markets": "Αγορές",
+          "orders": "Παραγγελίες"
         },
         "exchange": {
           "switch": {
             "pro": "Pro",
-            "simple": "Basic"
+            "simple": "Βασικό"
           }
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Κεφάλαια",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "portfolio": "Πορτοφόλι",
+          "transfers": "Μεταφορές",
+          "assets": "Νομίσματα",
+          "contacts": "Επαφές"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Συστάσεις"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Αγορά/Πώληση",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Αγορά/Πώληση",
+          "transactions": "Συναλλαγές",
+          "payment-methods": "Μέθοδοι πληρωμής",
+          "profile": "Προφίλ"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
-          "apikeys": "API keys"
+          "profile": "Προφίλ",
+          "preferences": "Προτιμήσεις",
+          "security": "Ασφάλεια",
+          "limits": "Όρια",
+          "accounts": "Λογαρισμοί",
+          "apikeys": "Κλειδιά API"
         }
       },
       "staking": {
-        "title": "Staking",
+        "title": "Κλείδωμα",
         "pages": {
-          "all-stakes": "All stakes",
-          "statements": "Statements"
+          "all-stakes": "Όλα τα κλειδώματα",
+          "statements": "Αναλυτικές Δηλώσεις"
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "trades-downloading": "Downloading trades…",
-  "trades-found": "{{count}} trade found…",
-  "trades-found_plural": "{{count}} trades found…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Το υπόλοιπό σας δεν επαρκεί πλέον για αυτή τη συναλλαγή.",
-  "we-are-hiring": "Θέσεις εργασίας",
+  "search": "Αναζήτηση…",
+  "loading": "Φόρτωση…",
+  "trades-downloading": "Λήψη αρχείου συναλλαγών…",
+  "trades-found": "Βρέθηκε {{count}} συναλλαγή…",
+  "trades-found_plural": "Βρέθηκαν {{count}} συναλλαγές…",
+  "pending": "Εκκρεμεί/ούν",
+  "cancelling": "Ακύρωση…",
+  "authenticating": "Επικύρωση…",
+  "decrypting": "Αποκρυπτογράφηση…",
+  "encrypting": "Κρυπτογράφηση…",
+  "sending": "Αποστολή…",
+  "submit": "Υποβολή",
+  "retry": "Ξαναπροσπάθεια",
+  "sending-approval": "Αποστολή έγκρισης…",
+  "send-approval": "Αποστολή έγκρισης",
+  "submit-transfer": "Υποβολή μεταφοράς",
+  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
+  "we-are-hiring": "We’re hiring",
   "errors": {
     "invalid-address-title": "Η διεύθυνση στο προφίλ σας δεν είναι έγκυρη.",
     "invalid-address": "Παρακαλούμε επικοινωνήστε με την <0>υποστήριξη</0> για να σας βοηθήσουμε να ενημερώσετε τη διεύθυνσή σας.",
