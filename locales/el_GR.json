@@ -340,106 +340,106 @@
   "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
   "we-are-hiring": "We’re hiring",
   "errors": {
-    "invalid-address-title": "Invalid address on your profile",
-    "invalid-address": "Please <0>contact support</0> to update your address with us.",
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "invalid-address-title": "Η διεύθυνση στο προφίλ σας δεν είναι έγκυρη.",
+    "invalid-address": "Παρακαλούμε επικοινωνήστε με την <0>υποστήριξη</0> για να σας βοηθήσουμε να ενημερώσετε τη διεύθυνσή σας.",
+    "location-banned-title": "Δεν επιτρέπεται η πρόσβαση",
+    "location-banned": "Δυστυχώς, το Nash δε λειτουργεί στην περιοχή σας προς στιγμήν.",
+    "invalid-clock-title": "Το ρολόι του υπολογιστή σας δεν έχει ρυθμιστεί σωστά.",
+    "permissions-issue-title": "Πρόβλημα με τα δικαιώματα",
+    "invalid-clock": "Για συναλλαγές στο Nash το ρολόι πρέπει να έχει ρυθμιστεί σωστά. <0>Ρυθμίστε το ρολόι</0> κι έπειτα <1>προσπαθήστε ξανά</1>.",
+    "network-issue-title": "Πρόβλημα με το δίκτυο",
+    "network-issue": "Υπάρχει ένα προσωρινό πρόβλημα με το δίκτυο. Παρακαλούμε <0>δοκιμάστε ξανά</0>.",
+    "generic-error-title": "Σφάλμα",
+    "generic-error": "Κάτι δεν πήγε καλά. Παρακαλούμε προσπαθήστε ξανά.",
+    "generic-error-signout": "Προέκυψε μη αναμενόμενο σφάλμα. Παρακαλούμε συνδεθείτε και δοκιμάστε ξανά.",
+    "within-waiting-period": "Πρέπει να περιμένετε πέντε λεπτά προτού δημιουργήσετε ενα νέο κλείδωμα. Το νέο σας κλείδωμα θα εμφανιστεί εντός ολίγου.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Ο κωδικός που εισάγατε δεν ήταν σωστός."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Ο κωδικός 2FA που εισάγατε δεν ήταν σωστός. Μπορείτε να προσπαθήσετε μέχρι πέντε φορές.",
+      "already-used": "Ο κωδικός 2FA που εισάγατε έχει χρησιμοποιηθεί ήδη. Παρακαλούμε περιμένετε και δοκιμάστε ξανά.",
+      "code-expired": "Ο κωδικός 2FA που εισάγατε έχει λήξει. Παρακαλούμε περιμένετε και δοκιμάστε ξανά.",
+      "too-many-failures": "Έχετε εισάγει λάθος κωδικό αρκετές φορές οπότε ο λογαρισμός σας κλειδώθηκε. Παρακαλούμε επικοινωνήστε με την υποστήριξη.",
+      "too-many-failures-signout": "Έχετε εισάγει λάθος κωδικό αρκετές φορές οπότε ο λογαρισμός σας κλειδώθηκε. Τώρα θα γίνει αποσύνδεσή σας απο τον λογαριασμό."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Η κρυπτογράφηση απέτυχε. Παρακαλούμε να αποσυνδεθείτε κι έπειτα δοκιμάστε ξανά.",
+      "decryption-failed": "Η αποκρυπτογράφηση απέτυχε. Παρακαλούμε να αποσυνδεθείτε κι έπειτα δοκιμάστε ξανά."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Επεξεργαζόμαστε τον λογαρισμό σας!",
+        "message": "Παρακαλούμε επιστρέψτε σε μερικά λεπτά."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Ο λογαριασμός σας δε βρέθηκε."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Κανένα αποτέλεσμα.",
+  "yes": "ναι",
+  "no": "όχι",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account",
+    "personal": "Προσωπικός λογαριασμός",
+    "trading": "Λογαριασμός ανταλλαγών",
+    "external": "Εξωτερικός λογαριασμός",
     "nash-channels": "Nash Channels"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "Failed to load. Please <0>retry</0>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Αποτυχία φόρτωσης.",
+    "failed-button": "Αποτυχία φόρτωσης",
+    "failed-please-try": "Αποτυχία φόρτωσης. Παρακαλούμε <0>δοκιμάστε ξανά</0>.",
+    "why-this-may-happening": "Για ποιό λόγο μπορεί να συνέβη αυτό; <0>Δείτε εδώ.</0>"
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> ώρα",
+    "time-in-hours_plural": "<0>{{count}}</0> ώρες",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "Ιανουάριος",
+      "1": "Φεβρουάριος",
+      "2": "Μάρτιος",
+      "3": "Απρίλιος",
+      "4": "Μάιος",
+      "5": "Ιούνιος",
+      "6": "Ιούλιος",
+      "7": "Αύγουστος",
+      "8": "Σεπτέμβριος",
+      "9": "Οκτώβριος",
+      "10": "Νοέμβριος",
+      "11": "Δεκέμβριος"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Δυστυχώς, το Nash δε λειτουργεί στην περιοχή σας προς το παρόν.",
+    "contact-support": "Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Κάτι πήγε στραβά.",
+    "go-back": "Επιστροφή",
+    "go-back-retry": "Δοκιμή ξανά και επιστροφή",
+    "contact-support": "Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περισσότερες πληροφορίες.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Μη διαθέσιμο στο περιβάλλον δοκιμής!",
+        "content": "Αυτή η λειτουργία έχει απενεργοποιηθεί στο περιβάλλον δοκιμής."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Η διεύθυνση IP σας δεν ταιριάζει με τη χώρα που επιλέξατε.",
+          "message": "Οι χρήστες με επίπεδο επαλήθευσης (Βαθμίδα) 0 δε μπορούν να έχουν πρόσβαση σε όλες τις υπηρεσίες του Nash, εκτός εάν συνδεθούν απο τη χώρα κατοικίας τους. Σκεφθείτε την αναβάθμιση σε <0>Βαθμίδα 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Παρατηρήσαμε οτι χρησιμοποιείτε δίκτυο VPN.",
+          "message": "Οι χρήστες με επίπεδο επαλήθευσης (Βαθμίδα) 0 δε μπορούν να έχουν πρόσβαση σε όλες τις υπηρεσίες του Nash, εάν συνδέονται μέσω VPN ή proxy. Παρακαλούμε απενεργοποιήστε τέτοιες υπηρεσίες ή αναβαθμιστείτε σε <0>Βαθμίδα 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Το τωρινό επίπεδο επαλήθευσης σας είναι η Βαθμίδα 0. Σαν αποτέλεσμα η πρόσβασή σας σε ορισμένες λειτουργίες της πλατφόρμας του Nash θα είναι περιορισμένη.",
+          "message": "Για να χρησιμοποιήσετε πλήρως τις υπηρεσίες του Nash, παρακαλούμε αναβαθμιστείτε στη <0>Βαθμίδα 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Ένας λογαριασμός έχει ήδη δημιουργηθεί με την ίδια διεύθυνση IP.",
+          "message": "Για να έχετε πρόσβαση σε όλες τις υπηρεσίες του Nash με αυτόν τον λογαριασμό, παρακαλούμε αναβαθμιστείτε στη <0>Βαθμίδα 1</0>."
         }
       },
       "restricted": {
