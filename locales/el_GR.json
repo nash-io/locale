@@ -337,8 +337,8 @@
   "sending-approval": "Αποστολή έγκρισης…",
   "send-approval": "Αποστολή έγκρισης",
   "submit-transfer": "Υποβολή μεταφοράς",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "no-longer-sufficient-balance-for-tx": "Το υπόλοιπό σας δεν επαρκεί για αυτή τη συναλλαγή.",
+  "we-are-hiring": "Θέσεις εργασίας",
   "errors": {
     "invalid-address-title": "Η διεύθυνση στο προφίλ σας δεν είναι έγκυρη.",
     "invalid-address": "Παρακαλούμε επικοινωνήστε με την <0>υποστήριξη</0> για να σας βοηθήσουμε να ενημερώσετε τη διεύθυνσή σας.",
@@ -444,191 +444,191 @@
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην πολιτεία {{usState}}. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
+          "title-no-state": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην πολιτεία σας. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
+          "message": "Θα σας ειδοποιήσουμε με email όταν η πολιτεία {{usState}} θα υποστηρίζεται πλήρως. Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις.",
+          "message-no-state": "Θα σας ειδοποιήσουμε με email όταν η πολιτεία σας θα υποστηρίζεται πλήρως. Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην τοποθεσία που βρίσκεστε τώρα. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
+          "message": "Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Το τωρινό επίπεδο επαλήθευσης σας είναι η Βαθμίδα {{userTier}}. Σαν αποτέλεσμα η πρόσβασή σας σε ορισμένες λειτουργίες της πλατφόρμας του Nash θα είναι περιορισμένη.",
+        "message": "Για να χρησιμοποιήσετε πλήρως τις υπηρεσίες του Nash, παρακαλούμε αναβαθμιστείτε στη <0>Βαθμίδα {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Παρατηρήσαμε οτι συνδέεστε απο {{detectedCountry}}.",
+          "message": "Εάν δε ζείτε πλεόν στη χώρα {{accountCountry}}, παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για να ενημερώσετε τη διεύθυνση σας."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Πλοηγηθείτε μέσω σταθερού υπολογιστή ή laptop για καλύτερη εμπειρία.",
+          "message": "Η προβολή ‘Pro’ σχεδιάστηκε για χρήση σε σταθερό υπολογιστή ή λάπτοπ. Εάν χρησιμοποιείτε κινητό, δοκιμάστε τη <0>‘Βασική’</0> προβολή."
         }
       }
     },
     "hello-mpc": {
-      "title": "Goodbye, private keys. Hello, MPC!",
-      "message": "Our next-generation protocol is here! Your Nash wallet now signs transactions with secure multi-party computation (MPC)."
+      "title": "Αντίο, ιδιωτικά κλειδιά. Καλωσορίσατε, κλειδιά MPC!",
+      "message": "Το νέο μας πρωτόκολλο επόμενης γενιάς είναι εδώ! Το πορτοφόλι σας Nash υπογράφει τώρα τις συναλλαγές σας χρησιμοποιώντας ασφάλεια multi-party computation (MPC)."
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Να μην προβληθεί ξανά."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Σωμφωνητικό χρήστη",
+    "privacy-notice": "Ιδιωτικότητα"
   },
   "account-create": {
     "steps": [
-      "Your details",
-      "Country",
-      "Account details"
+      "Προσωπικές πληροφορίες",
+      "Χώρα",
+      "Λεπτομέρειες λογαριασμού"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Έχετε ήδη λογαριασμό Nash;",
+      "sign-in-now": "Συνδεθείτε"
     },
     "form": {
-      "your-state-is": "Your state is",
+      "your-state-is": "Η πολιτεία σας είναι",
       "fields": {
-        "optional": "(optional)"
+        "optional": "(προαιρετικό)"
       },
-      "continue": "Continue",
+      "continue": "Συνέχεια",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Σφάλμα με τη δημιουργία λογαριασμού. Παρακαλούμε δοκιμάστε ξανά.",
+        "invalid-referral-code-can-continue": "Ο κωδικός σύστασης δεν ισχύει.",
+        "invalid-referral-code": "Ο κωδικός σύστασης δεν ισχύει. Παρακαλούμε ελέγξτε τον κωδικό και δοκιμάστε ξανά.",
+        "invalid-email-domain": "Ο πάροχος e-mail δεν επιτρέπεται. Παρακαλούμε δοκιμάστε διαφορετικό e-mail.",
+        "duplicate-email": "Ένας άλλος λογαριασμός έχει ήδη δημιουργηθεί με αυτή τη διεύθυνση email.",
+        "password-too-short": "Ο κωδικός σας θα πρέπει να αποτελείται απο τουλάχιστον 8 χαρακτήρες.",
+        "invalid-recaptcha": "Η επαλήθευση Recaptcha απέτυχε. Παρακαλούμε δοκιμάστε ξανά.",
+        "missing-us-state": "Εάν διαμένετε στις ΗΠΑ, θα πρέπει να συμπληρώσετε την πολιτεία σας."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Δημιουργία λογαριασμού",
+      "subheader": "Προσωπικές πληροφορίες",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Ειδοποίηση για πελάτες απο ΗΠΑ",
+        "desc": "Δημιουργείτε έναν προκαταρκτικό λογαριασμό Nash για να συμμετέχετε στο πρόγραμμα συστάσεων, αλλά η πολιτεία που διαμένετε θα πρέπει να δύναται να έχει πρόσβαση στις υπηρεσίες του Nash. Εάν αυτό ισχύει, θα σας ζητηθεί αργότερα να υπογράψετε το συμφωνητικό χρήστη."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Πλήρες όνομα"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Κωδικός σύστασης (προαιρετικό)",
+          "sub-label": "Τι είναι αυτό;"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Πρόγραμμα συστάσεων του Nash",
+          "desc": "Αυτό θα χρησιμοποιηθεί για την ιχνηλάτιση συστάσεων, για μελλοντικές προωθητικές ενέργειες του Nash."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Παρατηρήσαμε οτι χρησιμοποιείτε δίκτυο VPN.",
+          "message": "Παρακαλούμε απενεργοποιήστε όλα τα VPN ή τις υπηρεσίες proxy για να συνεχίσετε. Αφού θα έχετε δημιουργήσει λογαριασμό, μπορείτε να επαληθεύσετε την ταυτότητά σας ώστε να μπορείτε έπειτα να χρησιμοποιείτε VPN."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
-      "edit": "Edit",
-      "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "header": "Δημιουργία λογαριασμού",
+      "subheader": "Που διαμένετε;",
+      "edit": "Επεξεργασία",
+      "cancel": "Ακύρωση",
+      "save-changes": "Αποθήκευση αλλαγών",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Χώρα διαμονής"
         },
         "state": {
-          "label": "State",
-          "location": "Location"
+          "label": "Πολιτεία",
+          "location": "Τοποθεσία"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Επιβεβαιώνω οτι αυτή είναι η χώρα διαμονής μου."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Επιβεβαιώνω οτι αυτή είναι η χώρα και η πολιτεία διαμονής μου."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Δημιουργία λογαριασμού",
+      "subheader": "Στοιχεία λογαριασμού",
+      "continue": "Δημιουργία λογαριασμού",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Εισάγετε μια διεύθυνση e-mail",
+          "placeholder": "Διεύθυνση e-mail"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Δημιουργία κωδικού πρόσβασης",
+          "placeholder": "Κωδικός πρόσβασης",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Ο κωδικός είναι πολύ αδύναμος."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Επιβεβαίωση κωδικού",
+          "placeholder": "Επιβεβαίωση κωδικού",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Οι κωδικοί δεν ταιριάζουν."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "title": "Συμβουλές για δημιουργία δυνατού κωδικού πρόσβασης",
+          "desc": "Ένας δυνατός κωδικός πρόσβασης βοηθάει να διατηρήσετε τα χρήματά σας ασφαλή. Ακολουθήστε αυτές τις συμβουλές για να παραμείνετε ασφαλείς:",
+          "tip-index": "Συμβουλή {{index}}",
+          "tip-1": "Μη χρησιμοποιείτε τον ίδιο κωδικό με άλλες σελίδες, ακόμα κι αν αλλάξετε μεμονωμένους χαρακτήρες η λέξεις. Εάν σας υποκλέψουν τον κωδικό απο άλλη σελίδα, τότε εκτίθεται αυτόματα και ο λογαριασμός σας στο Nash.",
+          "tip-2": "Μη συμπεριλαμβάνετε προσωπικές πληροφορίες στον κωδικό σας. Ονόματα, γενέθλια και διευθύνσεις είναι πολύ εύκολο να ανακαλυφθούν και θα πρέπει να αποφεύγονται.",
+          "tip-3": "Δημιουργήστε κωδικό τουλάχιστον δώδεκα χαρακτήρων με μια ανάμειξη κεφαλαίων και πεζών γραμμάτων, αριθμών και ειδικών χαρακτήρων.",
+          "tip-4": "Σκεφθείτε τη χρήση γεννήτριας κωδικών για να δημιουργήσετε και να αποθηκεύσετε κωδικούς υψίστης ασφαλείας."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Χρησιμοποιήστε ανάμειξη κεφαλαίων και πεζών γραμμάτων, αριθμών και ειδικών χαρακτήρων για δυνατότερο κωδικό.",
+        "tips": "Συμβουλές για δημιουργία κωδικού",
+        "password-strength": "Ασφάλεια κωδικού",
+        "weak": "Χαμηλή",
+        "medium": "Μέτρια",
+        "strong": "Υψηλή",
+        "very-strong": "Πολύ υψηλή"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "Σας στείλαμε ενα e-mail!",
+      "desc-1": "Παρακαλούμε ελέγξτε το email σας και επιβεβαιώστε τον λογαριασμό.",
+      "desc-2": "Εάν δεν λάβατε κάποιο μήνυμα, ελέγξτε τον φάκελο ανεπιθύμητης αλληλογραφίας.",
+      "resend": "Αποστολή μηνύματος e-mail ξανά",
+      "resend-delay": "Παρακαλούμε περιμένετε {{count}} δευτερόλεπτο…",
+      "resend-delay_plural": "Παρακαλούμε περιμένετε {{count}} δευτερόλεπτα…",
+      "back": "Πίσω στη σύνδεση",
+      "success": "Το e-mail επιβεβαίωσης εστάλη επιτυχώς!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Η επαναποστολή του e-mail επιβεβαίωσης απέτυχε. Παρακαλούμε δοκιμάστε ξανά."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Ρύθμιση λογαριασμού",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Δώδεκα μυστικές λέξεις",
+      "2FA"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
+      "title": "Γενικές πληροφορίες",
+      "header": "Ας δημιουργήσουμε τον προσωπικό σας λογαριασμό",
       "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
       "continue": "Get my twelve secret words",
       "skip2Fa": "Set up it later",
