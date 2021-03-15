@@ -880,207 +880,207 @@
         "desc": "Προς το παρόν δεν υπάρχουν αρκετές παραγγελίες στο βιβλίο για να πραγματοποιηθούν οι παραγγελίες της αγοράς."
       },
       "order-type-tab": {
-        "market": "Market",
-        "limit": "Limit",
-        "stop": "Stop",
-        "stop-limit": "Stop-limit",
-        "balances": "Balances",
+        "market": "Τιμή αγοράς",
+        "limit": "Όριο",
+        "stop": "Στοπ",
+        "stop-limit": "Στοπ-όριο",
+        "balances": "Υπόλοιπα",
         "balances-table": {
           "header": {
-            "asset": "Asset",
-            "personal": "Personal",
-            "trading": "Trading",
-            "in-orders": "In orders",
-            "pending": "Pending"
+            "asset": "Νόμισμα",
+            "personal": "Προσωπικό",
+            "trading": "Σε ανταλλακτήριο",
+            "in-orders": "Σε παραγγελίες",
+            "pending": "Σε εκκρεμότητα"
           },
-          "current-market": "Current market",
-          "other-tradable-assets": "Other tradable assets"
+          "current-market": "Τρέχουσα αγορά",
+          "other-tradable-assets": "Άλλα ανταλασσόμενα νομίσματα"
         }
       },
-      "trading-limits": "Trading limits",
+      "trading-limits": "Όρια συναλλαγών",
       "fields": {
         "amount": {
-          "label": "Amount",
-          "sub-label-market-buy": "This is a market order, so we can only estimate the amount of {{currencyA}} you will buy.",
-          "sub-label-market-sell": "This is a market order, so we can only estimate of the total {{currencyB}} you will receive.",
-          "sub-label-limit-buy": "Enter the amount of {{currencySymbol}} you wish to receive.",
-          "sub-label-limit-sell": "Enter the amount of {{currencySymbol}} you wish to sell.",
-          "estimate": "(estimate)",
+          "label": "Ποσό",
+          "sub-label-market-buy": "Αυτή είναι μια παραγγελία στην τιμή της αγοράς, οπότε μπορούμε να εκτιμήσουμε στο περίπου την ποσότητα {{currencyA}} που θα αγοράσετε.",
+          "sub-label-market-sell": "Αυτή είναι μια παραγγελία στην τιμή της αγοράς, οπότε μπορούμε να εκτιμήσουμε στο περίπου το σύνολο {{currencyB}} που θα λάβετε.",
+          "sub-label-limit-buy": "Εισάγετε την ποσότητα {{currencySymbol}} που θέλετε να λάβετε.",
+          "sub-label-limit-sell": "Εισάγετε την ποσότητα {{currencySymbol}} που θέλετε να πουλήσετε.",
+          "estimate": "(προϋπολογισμός)",
           "errors": {
-            "insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "maybe-insufficient-funds": "Insufficient {{currencySymbol}}.",
-            "order-too-small": "Min size {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "This exceeds your trading limits.",
-            "soft-limit-breached": "You’re close to your trading limit. <0>Upgrade</0> your verification tier to trade more."
+            "insufficient-funds": "Δεν επαρκεί το {{currencySymbol}}.",
+            "maybe-insufficient-funds": "Δεν επαρκεί το {{currencySymbol}}.",
+            "order-too-small": "Ελάχιστη ποσότητα {{orderSize}} {{currencySymbol}}.",
+            "limit-breached": "Αυτό υπερβαίνει το όριο συναλλαγών σας.",
+            "soft-limit-breached": "Σχεδόν καλύψατε τα όρια συναλλαγών σας. <0>Αναβαθμίστε</0> τα όριά σας για περισσότερες συναλλαγές."
           }
         },
         "cancel-at": {
-          "label": "Cancel on",
-          "expires": "Expires",
+          "label": "Ακύρωση σε ημερομηνία",
+          "expires": "Ημερομηνία λήξης",
           "modal": {
-            "label-no-selection": "Select a date to continue…",
+            "label-no-selection": "Επιλέξτε ημερομηνία για συνέχεια…",
             "errors": {
-              "is-past": "You cannot enter a time in the past"
+              "is-past": "Παρελθοντική ημερομηνία δεν είναι αποδεκτή"
             }
           }
         },
         "with-currency": {
-          "label": "Total"
+          "label": "Σύνολο"
         },
         "market-price": {
-          "label": "Market",
-          "sub-label": "When you buy or sell at market price your order will match with orders currently on the book."
+          "label": "Τιμή αγοράς",
+          "sub-label": "Όταν αγοράζετε η πουλάτε στην τιμή της αγοράς, η παραγγελία σας θα ταιριάξει με τις παραγγελίες που βρίσκονται ήδη στο βιβλίο."
         },
         "show-limit": {
-          "label-hide": "Stop-market",
-          "label-show": "Stop-limit"
+          "label-hide": "Στοπ-Αγορά",
+          "label-show": "Στοπ-Όριο"
         },
         "price": {
-          "label": "Price"
+          "label": "Τιμή"
         },
         "limit-price": {
           "label": "Limit",
-          "sub-label": "Your order can match with orders at this price or better.",
+          "sub-label": "Η παραγγελία σας μπορεί να ταιριάξει με παραγγελίες σε αυτή την τιμή ή καλύτερη.",
           "errors": {
-            "maker-match": "‘Post only’ orders that match in the current order book will be canceled."
+            "maker-match": "Οι παραγγελίες ‘Μόνο δημοσίευση’ οι οποίες ταιριάζουν στο τρέχον βιβλίο παραγγελιών θα ακυρώνονται."
           }
         },
         "stop-price": {
-          "label": "Stop",
-          "sub-label": "Stop price acts as a trigger for another order.",
+          "label": "Στοπ",
+          "sub-label": "Η τιμή Στοπ δρα σα σκανδάλη για μια άλλη περαγγελία.",
           "errors": {
-            "stop-trigger-immediately": "This stop price will trigger your order immediately."
+            "stop-trigger-immediately": "Αυτή η τιμή στοπ θα ενεργοποιήσει την παραγγελία σας άμεσα."
           }
         },
         "shared": {
           "errors": {
-            "20-above": "20% above the market price.",
-            "20-below": "20% below the market price.",
-            "price-too-high": "Cannot process prices over {{maxPrice}}."
+            "20-above": "20% πάνω απο την τιμή της αγοράς.",
+            "20-below": "20% κάτω απο την τιμή της αγοράς.",
+            "price-too-high": "Δεν γίνεται επεξεργασία για τιμές πάνω απο {{maxPrice}}."
           }
         },
         "maker-only": {
-          "label": "Post only",
-          "sub-label": "‘Post only’ will place your order as a maker only, not a taker. It may not fill."
+          "label": "Μόνο δημοσίευση",
+          "sub-label": "Η επιλογή ‘Μόνο δημοσίευση’ θα τοποθετήσει την παραγγελία σας μόνο σαν πάροχο, όχι σα λήπτη. Μπορεί να μην εκπληρωθεί."
         },
         "cancellation-policy": {
-          "label": "Time in force",
-          "footer": "Learn more"
+          "label": "Έγκυρη για συγκεκριμένο χρόνο",
+          "footer": "Μάθετε περισσότερα"
         },
         "trading-balance": {
-          "label": "Available {{currency}}:"
+          "label": "Διαθέσιμο {{currency}}:"
         }
       },
       "submit": {
-        "buy": "Create buy order",
-        "sell": "Create sell order",
-        "placing": "Placing order…"
+        "buy": "Δημιουργία παραγγελίας αγοράς",
+        "sell": "Δημιουργία παραγγελίας πώλησης",
+        "placing": "Τοποθέτηση παραγγελίας…"
       },
       "errors": {
-        "order-rejected-insufficient-funds": "Your order was rejected because you lack sufficient funds.",
-        "order-rejected-daily-limit-reached": "Your order was rejected because you have reached your daily trading limit.",
-        "generic": "Error placing your order. Please try again."
+        "order-rejected-insufficient-funds": "Η παραγγελία σας απορρίφθηκε λόγω ανεπάρκειας χρημάτων.",
+        "order-rejected-daily-limit-reached": "Η παραγγελία σας απορρίφθηκε επειδή καλύψατε τα ημερήσια όρια συναλλαγών σας.",
+        "generic": "Σφάλμα στην τοποθέτηση παραγγελίας. Παρακαλούμε ξαναπροσπαθήστε."
       },
-      "signin-or-create-an-account": "<0>Sign in</0> or <1>create an account</1> to place an order."
+      "signin-or-create-an-account": "<0>Συνδεθείτε</0> ή <1>δημιουργήστε λογαριασμό</1> για να τοποθετήσετε μια παραγγελία."
     },
     "my-orders": {
-      "auth": "Sign in to view your orders.",
+      "auth": "Συνδεθείτε για να προβάλετε τις παραγγελίες σας.",
       "signed-out": {
-        "title": "<0>Get started</0> <1>with Nash</1>",
-        "subtitle": "Create an account in under a minute – no KYC required!"
+        "title": "<0>Ξεκινήστε</0> <1>με το Nash</1>",
+        "subtitle": "Δημιουργήστε λογαριασμό σε λιγότερο απο 1 λεπτό – δεν απαιτείται ταυτοποίηση (KYC)!"
       },
       "no-results": {
-        "date-range": "You have no orders in the given date range.",
-        "active": "You have no open or filled orders.",
-        "active-open-only": "You have no open orders.",
-        "trades": "You have no trade history."
+        "date-range": "Δεν έχετε παραγγελίες για το διάστημα που εισάγατε.",
+        "active": "Δεν έχετε ενεργές ή εκπληρωμένες παραγγελίες.",
+        "active-open-only": "Δεν έχετε ενεργές παραγγελίες.",
+        "trades": "Δεν έχετε ιστορικό ανταλλαγών."
       },
       "tabs": {
-        "orders": "Orders",
-        "trades": "Trade history"
+        "orders": "Παραγγελίες",
+        "trades": "Ιστορικό ανταλλαγών"
       },
       "date-range-selection": {
-        "days": "{{range}}d",
-        "weeks": "{{range}}w",
-        "months": "{{range}}M",
-        "years": "{{range}}Y",
-        "clear": "Clear",
-        "select-action": "Custom",
+        "days": "{{range}} μέρες",
+        "weeks": "{{range}} εβδομάδες",
+        "months": "{{range}} μήνες",
+        "years": "{{range}} έτη",
+        "clear": "Εκκαθάριση",
+        "select-action": "Προσαρμοσμένο",
         "popup": {
-          "no-selection": "Select a date range to continue",
-          "clear": "Clear",
-          "apply": "Apply"
+          "no-selection": "Επιλέξτε το χρονικό διάστημα για να συνεχίσετε",
+          "clear": "Εκκαθάριση",
+          "apply": "Εφαρμογή"
         }
       },
-      "open-only-checkbox": "Open only",
-      "pairs-checkbox": "All pairs",
-      "export": "Export history",
-      "export-trades": "Export trade history",
-      "export-your-trades": "Export your trades",
-      "no-trades": "You have no trades to export",
+      "open-only-checkbox": "Ενεργές μόνο",
+      "pairs-checkbox": "Όλα τα ζεύγη",
+      "export": "Εξαγωγή ιστορικού",
+      "export-trades": "Εξαγωγή ιστορικού ανταλλαγών",
+      "export-your-trades": "Εξάγετε τις ανταλλαγές σας",
+      "no-trades": "Δεν έχετε ανταλλαγές για εξαγωγή",
       "trade-history-times": {
-        "header": "Select a set timeframe to export",
-        "custom": "Custom timeframe",
-        "months": "{{count}} month",
-        "months_plural": "{{count}} months",
-        "year": "{{count}} year"
+        "header": "Επιλέξτε χρονικό εύρος για εξαγωγή",
+        "custom": "Προσαρμογή χρονικού εύρους",
+        "months": "{{count}} μήνας",
+        "months_plural": "{{count}} μήνες",
+        "year": "{{count}} έτος"
       },
-      "reset-filters": "Reset",
+      "reset-filters": "Επαναφορά",
       "side-col": {
         "filter": {
-          "buy": "Buy",
-          "sell": "Sell",
-          "both": "Both"
+          "buy": "Αγορές",
+          "sell": "Πωλήσεις",
+          "both": "Και τα δύο"
         }
       },
       "type-col": {
-        "header-title": "Type",
-        "header-title-with-currency": "{{currency}} type",
+        "header-title": "Τύπος",
+        "header-title-with-currency": "Τύπου {{currency}}",
         "filter": {
-          "market": "Market",
-          "limit": "Limit",
-          "stop-market": "Stop-market",
-          "stop-limit": "Stop-limit"
+          "market": "Τιμή αγοράς",
+          "limit": "Όριο",
+          "stop-market": "Στοπ-αγορά",
+          "stop-limit": "Στοπ-όριο"
         },
         "cell-text": {
-          "market-buy": "Market buy",
-          "market-sell": "Market sell",
-          "limit-buy": "Limit buy",
-          "limit-sell": "Limit sell",
-          "stop_limit-buy": "Stop-limit buy at <0></0>",
-          "stop_limit-sell": "Stop-limit sell at <0></0>",
-          "stop_market-buy": "Stop-market buy at <0></0>",
-          "stop_market-sell": "Stop-market sell at <0></0>"
+          "market-buy": "Αγορά στην τρέχουσα τιμή",
+          "market-sell": "Πώληση στην τρέχουσα τιμή",
+          "limit-buy": "Αγορά με όριο",
+          "limit-sell": "Πώληση με όριο",
+          "stop_limit-buy": "Αγορά με στοπ-όριο για <0></0>",
+          "stop_limit-sell": "Πώληση με στοπ-όριο για <0></0>",
+          "stop_market-buy": "Αγορά με στοπ-αγορά για <0></0>",
+          "stop_market-sell": "Πώληση με στοπ-αγορά για <0></0>"
         }
       },
       "cancel-col": {
-        "header-title": "Cancel all",
-        "partial-fill": "Partial fill",
-        "cancelled-partial-fill": "Canceled: Partial fill",
-        "cancelled-order": "Order canceled"
+        "header-title": "Ακύρωση όλων",
+        "partial-fill": "Μερική εκπλήρωση",
+        "cancelled-partial-fill": "Ακυρώθηκε: Μερική εκπλήρωση",
+        "cancelled-order": "Η παραγγελία ακυρώθηκε"
       },
       "cancelled-unfilled-col": {
-        "header-title": "Unfilled amount",
-        "header-title-with-currency": "{{currency}} unfilled amount"
+        "header-title": "Ανεκπλήρωτο ποσό",
+        "header-title-with-currency": "Ανεκπλήρωτο ποσό σε {{currency}}"
       },
       "cancelled-filled-col": {
-        "header-title": "Filled amount",
-        "header-title-with-currency": "{{currency}} filled amount"
+        "header-title": "Εκπληρωμένο ποσό",
+        "header-title-with-currency": "Εκπληρωμένο ποσό σε {{currency}}"
       },
       "status-col": {
-        "header-title": "Status",
-        "open": "Open",
-        "cancelled": "Canceled",
-        "filled": "Filled",
-        "pending": "Pending"
+        "header-title": "Κατάσταση",
+        "open": "Ενεργή",
+        "cancelled": "Ακυρωμένη",
+        "filled": "Εκπληρωμένη",
+        "pending": "Σε εκκρεμότητα"
       },
       "executed-col": {
-        "header-title": "Filled",
-        "header-title-with-currency": "{{currency}} filled"
+        "header-title": "Εκπληρωμένη",
+        "header-title-with-currency": "Εκπληρώθηκε {{currency}}"
       },
       "order-total-col": {
-        "header-title": "Total",
-        "header-title-with-currency": "{{currency}} total"
+        "header-title": "Σύνολο",
+        "header-title-with-currency": "Σύνολο {{currency}}"
       },
       "trade-total-col": {
         "header-title": "Trade total",
