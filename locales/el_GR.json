@@ -1,606 +1,634 @@
 {
-  "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
-  "buy": "buy",
-  "sell": "sell",
-  "cancel": "Cancel",
-  "continue": "Continue",
+  "sandbox-warning": "Αυτό είναι ένα περιβάλλον για τη δοκιμασία ενσωμάτωσης των API. Ποτέ μη στέλνετε πραγματικά χρήματα εδώ!",
+  "buy": "Αγορά",
+  "sell": "Πώληση",
+  "cancel": "Ακύρωση",
+  "continue": "Συνέχεια",
   "ok": "OK",
-  "back": "Back",
-  "help": "Help",
-  "and": "and",
-  "from": "From",
-  "to": "To",
-  "or": "or",
-  "price": "Price",
-  "fee": "Fee",
-  "fee-as-suffix": "fee",
-  "admin-link": "Quote on Admin",
-  "try-again": "Try again",
-  "refresh": "Refresh",
-  "finish": "Finish",
-  "price-each": "{{price}} each",
+  "back": "Πίσω",
+  "help": "Βοήθεια",
+  "and": "και",
+  "from": "από",
+  "to": "προς",
+  "or": "ή",
+  "price": "Τιμή",
+  "fee": "Χρέωση",
+  "fee-as-suffix": "Χρέωση",
+  "admin-link": "Αναφορά στον διαχειριστή",
+  "try-again": "Προσπάθησε ξανά",
+  "refresh": "Ανανέωση",
+  "finish": "Ολοκλήρωση",
+  "price-each": "{{price}} το κάθε ένα",
   "exchange-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
-  "remaining": "Remaining",
-  "not-available-short": "N/A",
-  "set-price": "Set a price",
-  "market": "Market",
-  "market-price": "Market price",
-  "exchange": "Exchange",
-  "receive": "Receive",
-  "send": "Send",
-  "wallet": "Account",
-  "upload": "Upload",
-  "processing": "Processing…",
-  "over-file-limit": "File size must not exceed {{maxAllowedSize}}{{unit}}.",
-  "opens-new-tab": "Opens in new tab",
-  "failed-update": "Failed to update",
-  "reported-errors": "Errors reported",
-  "credit-card-expiry-placeholder": "MM/YY",
+  "remaining": "Υπόλοιπο",
+  "not-available-short": "Δ/Υ",
+  "set-price": "Ορίστε την τιμή",
+  "market": "Αγορά",
+  "market-price": "Τιμή Αγοράς",
+  "exchange": "Ανταλλαγή",
+  "receive": "Λήψη",
+  "send": "Αποστολή",
+  "convert": "Μετατροπή",
+  "review": "Ανασκόπηση",
+  "wallet": "Πορτοφόλι",
+  "upload": "Ανέβασμα",
+  "processing": "Επεξεργασία…",
+  "over-file-limit": "Το μέγεθος του αρχείου δε θα πρέπει να υπερβαίνει τα {{maxAllowedSize}}{{unit}}.",
+  "opens-new-tab": "Άνοιγμα σε νέα καρτέλα",
+  "failed-update": "Αποτυχία ενημέρωσης",
+  "reported-errors": "Αναφορά σφαλμάτων",
+  "credit-card-expiry-placeholder": "Μήνας/Έτος",
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
-  "dismiss-forever": "Dismiss forever",
-  "remind-me-later": "Remind me later",
-  "no-limit": "No limit",
-  "learn-more": "Learn more",
+  "dismiss": "Απόρριψη",
+  "dismiss-forever": "Απόρριψη μόνιμα",
+  "remind-me-later": "Υπενθύμιση αργότερα",
+  "got-it": "Το κατάλαβα",
+  "deposit": "Κατάθεση",
+  "review-deposit": "Ανασκόπηση Κατάθεσης",
+  "withdraw": "Ανάληψη",
+  "review-withdraw": "Ανασκόπηση Ανάληψης",
+  "no-limit": "Χωρίς όριο",
+  "learn-more": "Μάθετε περισσότερα",
+  "approve-currency": "Έγκριση {{currency}}",
+  "approve-currency-once": "Θα πρέπει να εγκρίνετε τις μεταφορές αυτού του στοιχείου μια φορά.",
+  "approve-currency-everytime": "Θα πρέπει να εγκρίνετε τις μεταφορές αυτού του στοιχείου κάθε φορά.",
+  "approve-currency-loading": "Η διαδικασία ίσως διαρκέσει έως ένα λεπτό",
+  "verified": "Επαληθεύτηκε",
+  "nash-cash": "Nash Cash",
+  "nex-staking": "Κλείδωμα ΝΕΧ",
+  "available": "Διαθέσιμα",
+  "view": "Προβολή",
+  "terms-and-conditions": "Όροι και προϋποθέσεις",
+  "sign-in": "Σύνδεση",
+  "read-more": "Διαβάστε περισσότερα",
+  "coming-soon": "Έρχεται σύντομα",
+  "million": "Εκατομμύριο",
+  "million/short": "Εκ.",
+  "volume": "Όγκος",
+  "volume/lowercase": "όγκος",
   "apikeys": {
-    "no-addresses-whitelisted": "You haven’t whitelisted any addresses yet.",
-    "address-input-placeholder": "Enter a BTC, NEO or ETH address to whitelist",
-    "add-whitelisted": "Whitelisted addresses",
-    "duplicate-address-in-form": "This address is already whitelisted.",
-    "add-address": "Add address",
-    "address-is-not-valid": "Address is not valid.",
-    "whitelisting-explanation": "You can only withdraw funds to these whitelisted addresses with this API key. You can add and remove whitelisted addresses at any time once your key has been generated.",
+    "no-addresses-whitelisted": "Δεν έχετε προσθέσει καμία διεύθυνση στη λίστα επιτρεπόμενων.",
+    "address-input-placeholder": "Προσθέστε μια διεύθυνση BTC, NEO ή ETH στη λίστα επιτρεπόμενων",
+    "add-whitelisted": "Διευθύνσεις στη λίστα επιτρεπόμενων",
+    "duplicate-address-in-form": "Η διεύθυνση αυτή ανήκει ήδη στη λίστα επιτρεπόμενων.",
+    "add-address": "Προσθήκη διεύθυνσης",
+    "address-is-not-valid": "Η διεύθυνση δεν είναι έγκυρη.",
+    "whitelisting-explanation": "Με αυτό το κλειδί API μπορείτε να κάνετε μόνο αναλήψεις χρημάτων στις διευθύνσεις που έχετε στη λίστα επιτρεπόμενων. Μπορείτε να προσθέσετε ή/και να αφαιρέσετε διευθύνσεις οποιαδήποτε στιγμή απο τη στιγμή που το κλειδί σας έχει δημιουργηθεί.",
     "token-type": {
-      "access": "Access",
-      "kyc": "Identity verification",
-      "apitrade": "API trading",
-      "twofa": "2FA"
+      "access": "Πρόσβαση",
+      "kyc": "Επαλήθευση ταυτότητας",
+      "apitrade": "συναλλαγές API",
+      "twofa": "Επαλήθευση ταυτότητας με δυο τρόπους"
     },
     "delete-all-tokens": {
-      "body": "Are you sure you want to revoke all your keys?",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+      "body": "Είστε σίγουροι ότι θέλετε να ανακαλέσετε όλα σας τα κλειδιά;",
+      "confirm-button-label": "Ανάκληση όλων των κλειδιών για πάντα",
+      "cancel-button-label": "Επιστροφή"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": "Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "Είστε σίγουροι οτι θέλετε να ανακαλέσετε το ‘<0></0>’?",
+      "confirm-button-label": "Ανάκληση για πάντα",
+      "cancel-button-label": "Επιστροφή"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "Διεύθυνση που βρίσκεται στη λίστα επιτρεπόμενων για το {{name}}",
+      "add": "Προσθήκη κι άλλης διεύθυνσης",
+      "save-and-close": "Αποθήκευση αλλαγών και κλείσιμο",
+      "continue": "Συνέχεια"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
+      "no-addresses-whitelisted": "Δεν υπάρχουν διευθύνσεις στη λίστα επιτρεπόμενων",
+      "title": "Διαχείριση κλειδιών API",
+      "revoke-button-label": "Ανάκληση",
+      "table-header": "Τα κλειδιά σας API",
+      "no-tokens-exp": "<0>Δημιουργήστε το πρώτο σας κλειδί</0> ή διαβάστε το <1>εγχειρίδιο χρήσης API</1>.",
+      "name": "Όνομα",
+      "never-used": "Καμία χρήση",
+      "last-used": "Πιο πρόσφατη χρήση {{when}}",
+      "subtitle": "Δημιουργία και διαχείριση κλειδιών API. Μάθετε περισσότερα σχετικά με τα <0>API κλειδιά μας</0>.",
+      "key-info": "Πληροφορίες κλειδιού",
+      "api-key": "Κλειδί API",
       "blockchains": "Blockchains",
-      "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "whitelisted": "Στη λίστα επιτρεπόμενων",
+      "view-whitelist": "Προβολή λίστας επιτρεπόμενων",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "This API key can function with these blockchains.",
-      "usable-for": "Usable for",
-      "revoke": "Revoke",
-      "created": "Created",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "blockchains-hint": "Αυτό το κλειδί API μπορεί να λειτουργήσει με αυτά τα blockchains.",
+      "usable-for": "Μπορεί να χρησιμοποιηθεί για",
+      "revoke": "Ανάκληση",
+      "created": "Δημιουργήθηκε",
+      "policy-trading": "Εμπόριο",
+      "loading": "Φόρτωση νομισμάτων…",
+      "no-tokens": "Δεν έχετε δημιουργήσει κανένα κλειδί API ακόμα.",
+      "policy-withdrawals": "Αναλήψεις και καταθέσεις",
+      "revoke-all-keys-button-label": "Ανάκληση όλων των κλειδιών",
+      "generate-new-key-button-label": "Δημιουργία νέου κλειδιού",
+      "plus-more": "+{{count}} ακόμα"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Διαπιστευτήρια χρήστη",
+      "whitelist-step": "Διευθύνσεις λίστας επιτρεπόμενων",
+      "name-step": "Ονομάστε το κλειδί σας",
+      "last-step": "Back-Up κωδικού",
+      "title": "Δημιουργία νέου κλειδιού API"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "Όνομα",
+      "continue-button-label": "Δημιουργία κλειδιού"
     },
     "step2": {
-      "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "password": "Κωδικός πρόσβασης",
+      "two-fa-code": "Κωδικός 2FA",
+      "create-api-button-label": "Συνέχεια",
+      "incorrect-password": "Λάθος κωδικός.",
+      "incorrect-2fa": "Λάθος κωδικός 2FA."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Δημιουργία κλειδιού…"
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Ο μυστικός κωδικός σας",
+      "your-secret-warning": "Αυτή είναι η μοναδική φορά που θα σας το δείξουμε αυτό.",
+      "api-key": "Το API κλειδί",
+      "api-key-warning": "Αυτή είναι η μοναδική φορά που θα σας το δείξουμε αυτό.",
+      "download-as-json-button-label": "Κατεβάστε το κλειδί API και τον μυστικό κωδικό σε αρχείο JSON",
+      "i-saved-my-secret-button-label": "Έχω αποθηκεύσει τον μυστικό κωδικό μου"
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
-    "1w": "1w",
-    "1m": "1M"
+    "1h": "1ώρα",
+    "1d": "24ωρο",
+    "1w": "1εβδ.",
+    "1m": "1μήν."
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "trading": "Ανταλλακτήριο",
+    "personal": "Προσωπικό",
+    "in-trades": "Σε διαδικασία ανταλλαγής",
+    "transfer-funds": "Αποστολή/Λήψη",
+    "pending-transfer": "Έχετε μια εκκρεμή μεταφορά {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Δείτε εδώ τις μεταφορές σας."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Εκτιμώμενη χρέωση: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Μέγιστο",
+    "use-last": "Χρήση πιο πρόσφατου"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Το διαθέσιμο ποσό δεν επαρκεί",
+  "amount-each": "για κάθε {{amount}}",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Συνολικό ημερήσιο όριο",
+    "link": "Θέλω να αυξήσω τα όριά μου",
+    "amount-of-max-amount": "{{amount}} απο σύνολο {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Δομή χρεώσεων",
+    "desc": "Το Nash υπολογίζει τον μέσο όρο του όγκου διακίνησης συναλλαγών 30 ημερών του χρήστη, χρησιμοποιώντας τον όγκο των συναλλαγών που σχετίζεται με τον λογαριασμό του σαν ποσοστό του συνολικού όγκου συναλλαγών του ανταλλακτηρίου.",
+    "30-day-volume": "Όγκος συναλλαγών 30 ημερών",
+    "taker-fee": "Χρέωση αγοραστή",
+    "maker-fee": "Χρέωση πωλητή",
+    "learn-more": "Μάθετε περισσότερα σχετικά με τις παραγγελίες πωλητή και αγοραστή."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Έγκυρότητα",
+    "subtitle": "Προσδιορίστε το χρονικό διάστημα για το οποίο η παραγγελία θα είναι ενεργή.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Ενεργή μέχρι ακυρώσεως",
+        "desc": "Η παραγγελία θα παραμείνει ενεργή, είτε μέχρι να ολοκληρωθεί πλήρως, είτε μέχρι να την ακυρώσετε."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Έγκυρη για συγκεκριμένο χρόνο",
+        "header-with-time": "Έγκυρη μέχρι {{cancelAt}}",
+        "desc": "Η περαγγελία θα παραμείνει ενεργή μέχρι το χρόνο που θα ορίσετε. Εάν δεν ολοκληρωθεί πλήρως μέχρι εκείνη την ώρα, τότε θα ακυρωθεί."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Ή όλα ή τίποτα!",
+        "desc": "Εάν ολόκληρη η παραγγελία μπορεί να εκπληρωθεί άμεσα, τότε θα γίνει έτσι. Εάν δε μπορεί να εκπληρωθεί άμεσα τότε θα ακυρωθεί."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Ή άμεσα ή ποτέ!",
+        "desc": "Οποιοδήποτε τμήμα της παραγγελίας μπορεί να εκπληρωθεί άμεσα, θα γίνει. Το υπόλοιπο ποσό που πιθανόν δεν εκπληρωθεί άμεσα, θα ακυρωθεί."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
+    "referrals": "Συστάσεις",
+    "funds": "Κεφάλαια",
+    "exchange": "Ανταλλακτήριο",
+    "basic-exchange": "Βασική προβολή",
+    "basic-exchange-short": "Βασική",
+    "advanced-exchange": "Προβολή για προχωρημένους",
     "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
-    "fiat-ramps": "Fiat ramps"
+    "markets": "Αγορές",
+    "settings": "Ο λογαριασμός μου",
+    "fiat-ramps": "Προσθήκη χρημάτων"
   },
   "top-nav": {
     "exchange-status": {
-      "operational": "Exchange fully operational",
-      "maintenance": "Exchange in maintenance"
+      "operational": "Ανταλλακτήριο πλήρως λειτουργικό",
+      "maintenance": "Ανταλλακτήριο σε παύση λόγω συντήρησης"
     },
     "accounts-main-menu": {
-      "title": "Services"
+      "title": "Υπηρεσίες"
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfolio"
+        "label": "Πορτοφόλι"
       },
       "notifications": {
-        "label": "Notifications",
-        "clear-all": "Clear all"
+        "label": "Ειδοποιήσεις",
+        "clear-all": "Καθαρισμός όλων"
       },
       "transfers": {
-        "initializing": "Initializing",
-        "unlock-required": "Paused",
-        "locked-tooltip": "You still have a transfer initializing. Transfers can not initialize while your account is locked. Unlock to continue.",
-        "initialized": "Transfer initialized",
-        "tooltip": "You still have a transfer initializing. If you close Nash or sign out, it will be paused until you sign in again.",
-        "do-unlock": "Unlock"
+        "initializing": "Εκκίνηση μεταφοράς",
+        "unlock-required": "Σε παύση",
+        "locked-tooltip": "Έχετε μια μεταφορά προς εκκίνηση. Οι μεταφορές δε μπορούν να εκκινήσουν όσο ο λογαριασμός σας είναι κλειδωμένος. Ξεκλειδώστε για να συνεχίσετε.",
+        "initialized": "Η μεταφορά ξεκίνησε",
+        "tooltip": "Έχετε μια μεταφορά προς εκκίνηση. Εάν κλείσετε το Nash ή αποσυνδεθείτε, θα παραμείνει σε παύση μέχρι να συνδεθείτε ξανά.",
+        "do-unlock": "Ξεκλειδώστε"
       },
       "general-menu": {
-        "settings": "My profile",
-        "support": "Support",
+        "settings": "Το προφίλ μου",
+        "support": "Υποστήριξη",
         "theme": {
-          "light": "Light",
-          "dark": "Dark"
+          "light": "Φωτεινό",
+          "dark": "Σκοτεινό"
         },
         "auth": {
-          "sign-out": "Sign out",
-          "sign-in": "Sign in",
-          "sign-in-create-account": "<1>Create an account</1> or <0>sign in</0>"
+          "sign-out": "Αποσύνδεση",
+          "sign-in": "Σύνδεση",
+          "sign-in-create-account": "<1>Δημιουργήστε λογαριασμό</1> ή <0>Συνδεθείτε</0>"
         },
         "tabs": {
-          "general": "General"
+          "general": "Γενικές ρυθμίσεις"
         }
       }
     },
     "main-menu": {
       "trade": {
-        "title": "Trade",
+        "title": "Εμπόριο",
         "pages": {
-          "exchange": "Exchange",
-          "markets": "Markets",
-          "orders": "Orders"
+          "exchange": "Ανταλλακτήριο",
+          "markets": "Αγορές",
+          "orders": "Παραγγελίες"
         },
         "exchange": {
           "switch": {
             "pro": "Pro",
-            "simple": "Basic"
+            "simple": "Βασικό"
           }
         }
       },
       "funds": {
-        "title": "Funds",
+        "title": "Κεφάλαια",
         "pages": {
-          "portfolio": "Portfolio",
-          "transfers": "Transfers",
-          "assets": "Assets",
-          "contacts": "Contacts"
+          "portfolio": "Πορτοφόλι",
+          "transfers": "Μεταφορές",
+          "assets": "Νομίσματα",
+          "contacts": "Επαφές"
         }
       },
       "referrals": {
-        "title": "Referrals"
+        "title": "Συστάσεις"
       },
       "fiat-ramps": {
-        "title": "Buy/Sell",
+        "title": "Αγορά/Πώληση",
         "pages": {
-          "buy-sell": "Buy/Sell",
-          "transactions": "Transactions",
-          "payment-methods": "Payment methods",
-          "profile": "Profile"
+          "buy-sell": "Αγορά/Πώληση",
+          "transactions": "Συναλλαγές",
+          "payment-methods": "Μέθοδοι πληρωμής",
+          "profile": "Προφίλ"
         }
       },
       "settings": {
         "pages": {
-          "profile": "Profile",
-          "preferences": "Preferences",
-          "security": "Security",
-          "limits": "Limits",
-          "accounts": "Accounts",
-          "apikeys": "API keys"
+          "profile": "Προφίλ",
+          "preferences": "Προτιμήσεις",
+          "security": "Ασφάλεια",
+          "limits": "Όρια",
+          "accounts": "Λογαρισμοί",
+          "apikeys": "Κλειδιά API"
         }
       },
       "staking": {
-        "title": "Staking",
+        "title": "Κλείδωμα",
         "pages": {
-          "all-stakes": "All stakes",
-          "statements": "Statements"
+          "all-stakes": "Όλα τα κλειδώματα",
+          "statements": "Αναλυτικές Δηλώσεις"
         }
       }
     }
   },
-  "search": "Search…",
-  "loading": "Loading…",
-  "pending": "Pending",
-  "cancelling": "Canceling…",
-  "authenticating": "Authenticating…",
-  "decrypting": "Decrypting…",
-  "encrypting": "Encrypting…",
-  "sending": "Sending…",
-  "submit": "Submit",
-  "retry": "Retry",
-  "sending-approval": "Sending approval…",
-  "send-approval": "Send approval",
-  "submit-transfer": "Submit transfer",
-  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
-  "we-are-hiring": "We’re hiring",
+  "search": "Αναζήτηση…",
+  "loading": "Φόρτωση…",
+  "trades-downloading": "Λήψη αρχείου συναλλαγών…",
+  "trades-found": "Βρέθηκε {{count}} συναλλαγή…",
+  "trades-found_plural": "Βρέθηκαν {{count}} συναλλαγές…",
+  "pending": "Εκκρεμεί/ούν",
+  "cancelling": "Ακύρωση…",
+  "authenticating": "Επικύρωση…",
+  "decrypting": "Αποκρυπτογράφηση…",
+  "encrypting": "Κρυπτογράφηση…",
+  "sending": "Αποστολή…",
+  "submit": "Υποβολή",
+  "retry": "Ξαναπροσπάθεια",
+  "sending-approval": "Αποστολή έγκρισης…",
+  "send-approval": "Αποστολή έγκρισης",
+  "submit-transfer": "Υποβολή μεταφοράς",
+  "no-longer-sufficient-balance-for-tx": "Το υπόλοιπό σας δεν επαρκεί για αυτή τη συναλλαγή.",
+  "we-are-hiring": "Θέσεις εργασίας",
   "errors": {
-    "invalid-address-title": "Invalid address on your profile",
-    "invalid-address": "Please <0>contact support</0> to update your address with us.",
-    "location-banned-title": "Access blocked",
-    "location-banned": "Unfortunately, Nash is unable to operate in your jurisdiction at the moment.",
-    "invalid-clock-title": "Your computer’s clock is not accurate.",
-    "permissions-issue-title": "Permissions Issue",
-    "invalid-clock": "To trade on Nash your clock must be accurate. <0>Sync your clock</0> then <1>try again</1>.",
-    "network-issue-title": "Network issue",
-    "network-issue": "There is a temporary network issue. Please <0>try again</0>.",
-    "generic-error-title": "Error",
-    "generic-error": "Something went wrong. Please try again.",
-    "generic-error-signout": "An unexpected error occurred. Please sign out and try again.",
-    "within-waiting-period": "You must wait five minutes before creating another stake. Your new stake will appear shortly.",
+    "invalid-address-title": "Η διεύθυνση στο προφίλ σας δεν είναι έγκυρη.",
+    "invalid-address": "Παρακαλούμε επικοινωνήστε με την <0>υποστήριξη</0> για να σας βοηθήσουμε να ενημερώσετε τη διεύθυνσή σας.",
+    "location-banned-title": "Δεν επιτρέπεται η πρόσβαση",
+    "location-banned": "Δυστυχώς, το Nash δε λειτουργεί στην περιοχή σας προς στιγμήν.",
+    "invalid-clock-title": "Το ρολόι του υπολογιστή σας δεν έχει ρυθμιστεί σωστά.",
+    "permissions-issue-title": "Πρόβλημα με τα δικαιώματα",
+    "invalid-clock": "Για συναλλαγές στο Nash το ρολόι πρέπει να έχει ρυθμιστεί σωστά. <0>Ρυθμίστε το ρολόι</0> κι έπειτα <1>προσπαθήστε ξανά</1>.",
+    "network-issue-title": "Πρόβλημα με το δίκτυο",
+    "network-issue": "Υπάρχει ένα προσωρινό πρόβλημα με το δίκτυο. Παρακαλούμε <0>δοκιμάστε ξανά</0>.",
+    "generic-error-title": "Σφάλμα",
+    "generic-error": "Κάτι δεν πήγε καλά. Παρακαλούμε προσπαθήστε ξανά.",
+    "generic-error-signout": "Προέκυψε μη αναμενόμενο σφάλμα. Παρακαλούμε συνδεθείτε και δοκιμάστε ξανά.",
+    "within-waiting-period": "Πρέπει να περιμένετε πέντε λεπτά προτού δημιουργήσετε ενα νέο κλείδωμα. Το νέο σας κλείδωμα θα εμφανιστεί εντός ολίγου.",
     "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Ο κωδικός που εισάγατε δεν ήταν σωστός."
     },
     "2fa": {
-      "incorrect": "The two-factor authentication code you entered is incorrect. You have a maximum of five attempts.",
-      "already-used": "The two-factor authentication code you entered has already been used. Please wait and try again.",
-      "code-expired": "The two-factor authentication code you entered has expired. Please wait and try again.",
-      "too-many-failures": "You have entered an incorrect code too many times and your account is now permanently locked. Please contact support.",
-      "too-many-failures-signout": "You have entered an incorrect code too many times and your account is now permanently locked. You will now be signed out."
+      "incorrect": "Ο κωδικός 2FA που εισάγατε δεν ήταν σωστός. Μπορείτε να προσπαθήσετε μέχρι πέντε φορές.",
+      "already-used": "Ο κωδικός 2FA που εισάγατε έχει χρησιμοποιηθεί ήδη. Παρακαλούμε περιμένετε και δοκιμάστε ξανά.",
+      "code-expired": "Ο κωδικός 2FA που εισάγατε έχει λήξει. Παρακαλούμε περιμένετε και δοκιμάστε ξανά.",
+      "too-many-failures": "Έχετε εισάγει λάθος κωδικό αρκετές φορές οπότε ο λογαρισμός σας κλειδώθηκε. Παρακαλούμε επικοινωνήστε με την υποστήριξη.",
+      "too-many-failures-signout": "Έχετε εισάγει λάθος κωδικό αρκετές φορές οπότε ο λογαρισμός σας κλειδώθηκε. Τώρα θα γίνει αποσύνδεσή σας απο τον λογαριασμό."
     },
     "cryptography": {
-      "encryption-failed": "Encryption failed. Please sign out and try again.",
-      "decryption-failed": "Decryption failed. Please sign out and try again."
+      "encryption-failed": "Η κρυπτογράφηση απέτυχε. Παρακαλούμε να αποσυνδεθείτε κι έπειτα δοκιμάστε ξανά.",
+      "decryption-failed": "Η αποκρυπτογράφηση απέτυχε. Παρακαλούμε να αποσυνδεθείτε κι έπειτα δοκιμάστε ξανά."
     },
     "account-not-found": {
       "pending": {
-        "title": "Your account is currently being processed!",
-        "message": "Please check back in a few minutes."
+        "title": "Επεξεργαζόμαστε τον λογαρισμό σας!",
+        "message": "Παρακαλούμε επιστρέψτε σε μερικά λεπτά."
       },
       "not-found": {
-        "title": "Your account could not be found."
+        "title": "Ο λογαριασμός σας δε βρέθηκε."
       }
     }
   },
-  "no-results": "No results found.",
-  "yes": "yes",
-  "no": "no",
+  "no-results": "Κανένα αποτέλεσμα.",
+  "yes": "ναι",
+  "no": "όχι",
   "account-types": {
-    "personal": "Personal account",
-    "trading": "Trading contract",
-    "external": "External account",
+    "personal": "Προσωπικός λογαριασμός",
+    "trading": "Λογαριασμός ανταλλαγών",
+    "external": "Εξωτερικός λογαριασμός",
     "nash-channels": "Nash Channels"
   },
   "query-errors": {
-    "failed": "Failed to load.",
-    "failed-button": "Failed to load",
-    "failed-please-try": "Failed to load. Please <0>retry</0>.",
-    "why-this-may-happening": "Find out why this may have happened <0>here.</0>"
+    "failed": "Αποτυχία φόρτωσης.",
+    "failed-button": "Αποτυχία φόρτωσης",
+    "failed-please-try": "Αποτυχία φόρτωσης. Παρακαλούμε <0>δοκιμάστε ξανά</0>.",
+    "why-this-may-happening": "Για ποιό λόγο μπορεί να συνέβη αυτό; <0>Δείτε εδώ.</0>"
   },
   "datetime": {
-    "time-in-hours": "<0>{{count}}</0> hour",
-    "time-in-hours_plural": "<0>{{count}}</0> hours",
+    "time-in-hours": "<0>{{count}}</0> ώρα",
+    "time-in-hours_plural": "<0>{{count}}</0> ώρες",
     "months": {
-      "0": "January",
-      "1": "February",
-      "2": "March",
-      "3": "April",
-      "4": "May",
-      "5": "June",
-      "6": "July",
-      "7": "August",
-      "8": "September",
-      "9": "October",
-      "10": "November",
-      "11": "December"
+      "0": "Ιανουάριος",
+      "1": "Φεβρουάριος",
+      "2": "Μάρτιος",
+      "3": "Απρίλιος",
+      "4": "Μάιος",
+      "5": "Ιούνιος",
+      "6": "Ιούλιος",
+      "7": "Αύγουστος",
+      "8": "Σεπτέμβριος",
+      "9": "Οκτώβριος",
+      "10": "Νοέμβριος",
+      "11": "Δεκέμβριος"
     }
   },
   "banned-country": {
-    "header": "Unfortunately, Nash is unable to operate in your region at the moment.",
-    "contact-support": "Please <0>contact our support team</0> with any questions."
+    "header": "Δυστυχώς, το Nash δε λειτουργεί στην περιοχή σας προς το παρόν.",
+    "contact-support": "Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις."
   },
   "user-messages": {
-    "something-wrong": "Something went wrong.",
-    "go-back": "Go back",
-    "go-back-retry": "Retry and go back",
-    "contact-support": "Please <0>contact our support team</0> for more details.",
+    "something-wrong": "Κάτι πήγε στραβά.",
+    "go-back": "Επιστροφή",
+    "go-back-retry": "Δοκιμή ξανά και επιστροφή",
+    "contact-support": "Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περισσότερες πληροφορίες.",
     "permissions": {
       "sandbox": {
-        "title": "Not available in sandbox!",
-        "content": "This feature has been disabled in the sandbox."
+        "title": "Μη διαθέσιμο στο περιβάλλον δοκιμής!",
+        "content": "Αυτή η λειτουργία έχει απενεργοποιηθεί στο περιβάλλον δοκιμής."
       },
       "tier-0": {
         "location-mismatch": {
-          "title": "Your IP address doesn’t match the country you selected.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services unless they connect from their country of residence. Consider <0>upgrading to Tier 1</0>."
+          "title": "Η διεύθυνση IP σας δεν ταιριάζει με τη χώρα που επιλέξατε.",
+          "message": "Οι χρήστες με επίπεδο επαλήθευσης (Βαθμίδα) 0 δε μπορούν να έχουν πρόσβαση σε όλες τις υπηρεσίες του Nash, εκτός εάν συνδεθούν απο τη χώρα κατοικίας τους. Σκεφθείτε την αναβάθμιση σε <0>Βαθμίδα 1</0>."
         },
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Users with a verification level of Tier 0 cannot access all Nash services if they connect via VPN or proxy. Please disable any such services or <0>upgrade to Tier 1</0>."
+          "title": "Παρατηρήσαμε οτι χρησιμοποιείτε δίκτυο VPN.",
+          "message": "Οι χρήστες με επίπεδο επαλήθευσης (Βαθμίδα) 0 δε μπορούν να έχουν πρόσβαση σε όλες τις υπηρεσίες του Nash, εάν συνδέονται μέσω VPN ή proxy. Παρακαλούμε απενεργοποιήστε τέτοιες υπηρεσίες ή αναβαθμιστείτε σε <0>Βαθμίδα 1</0>."
         },
         "high-risk-country": {
-          "title": "Your current verification level is Tier 0. As a result, your access to some parts of the Nash platform will be restricted.",
-          "message": "To use our full portfolio of services, please <0>upgrade to Tier 1</0>."
+          "title": "Το τωρινό επίπεδο επαλήθευσης σας είναι η Βαθμίδα 0. Σαν αποτέλεσμα η πρόσβασή σας σε ορισμένες λειτουργίες της πλατφόρμας του Nash θα είναι περιορισμένη.",
+          "message": "Για να χρησιμοποιήσετε πλήρως τις υπηρεσίες του Nash, παρακαλούμε αναβαθμιστείτε στη <0>Βαθμίδα 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Ένας λογαριασμός έχει ήδη δημιουργηθεί με την ίδια διεύθυνση IP.",
+          "message": "Για να έχετε πρόσβαση σε όλες τις υπηρεσίες του Nash με αυτόν τον λογαριασμό, παρακαλούμε αναβαθμιστείτε στη <0>Βαθμίδα 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην πολιτεία {{usState}}. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
+          "title-no-state": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην πολιτεία σας. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
+          "message": "Θα σας ειδοποιήσουμε με email όταν η πολιτεία {{usState}} θα υποστηρίζεται πλήρως. Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις.",
+          "message-no-state": "Θα σας ειδοποιήσουμε με email όταν η πολιτεία σας θα υποστηρίζεται πλήρως. Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην τοποθεσία που βρίσκεστε τώρα. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
+          "message": "Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Το τωρινό επίπεδο επαλήθευσης σας είναι η Βαθμίδα {{userTier}}. Σαν αποτέλεσμα η πρόσβασή σας σε ορισμένες λειτουργίες της πλατφόρμας του Nash θα είναι περιορισμένη.",
+        "message": "Για να χρησιμοποιήσετε πλήρως τις υπηρεσίες του Nash, παρακαλούμε αναβαθμιστείτε στη <0>Βαθμίδα {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Παρατηρήσαμε οτι συνδέεστε απο {{detectedCountry}}.",
+          "message": "Εάν δε ζείτε πλεόν στη χώρα {{accountCountry}}, παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για να ενημερώσετε τη διεύθυνση σας."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Πλοηγηθείτε μέσω σταθερού υπολογιστή ή laptop για καλύτερη εμπειρία.",
+          "message": "Η προβολή ‘Pro’ σχεδιάστηκε για χρήση σε σταθερό υπολογιστή ή λάπτοπ. Εάν χρησιμοποιείτε κινητό, δοκιμάστε τη <0>‘Βασική’</0> προβολή."
         }
       }
     },
     "hello-mpc": {
-      "title": "Goodbye, private keys. Hello, MPC!",
-      "message": "Our next-generation protocol is here! Your Nash wallet now signs transactions with secure multi-party computation (MPC)."
+      "title": "Αντίο, ιδιωτικά κλειδιά. Καλωσορίσατε, κλειδιά MPC!",
+      "message": "Το νέο μας πρωτόκολλο επόμενης γενιάς είναι εδώ! Το πορτοφόλι σας Nash υπογράφει τώρα τις συναλλαγές σας χρησιμοποιώντας ασφάλεια multi-party computation (MPC)."
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Να μην προβληθεί ξανά."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Σωμφωνητικό χρήστη",
+    "privacy-notice": "Ιδιωτικότητα"
   },
   "account-create": {
     "steps": [
-      "Your details",
-      "Country",
-      "Account details"
+      "Προσωπικές πληροφορίες",
+      "Χώρα",
+      "Λεπτομέρειες λογαριασμού"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Έχετε ήδη λογαριασμό Nash;",
+      "sign-in-now": "Συνδεθείτε"
     },
     "form": {
-      "your-state-is": "Your state is",
+      "your-state-is": "Η πολιτεία σας είναι",
       "fields": {
-        "optional": "(optional)"
+        "optional": "(προαιρετικό)"
       },
-      "continue": "Continue",
+      "continue": "Συνέχεια",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Σφάλμα με τη δημιουργία λογαριασμού. Παρακαλούμε δοκιμάστε ξανά.",
+        "invalid-referral-code-can-continue": "Ο κωδικός σύστασης δεν ισχύει.",
+        "invalid-referral-code": "Ο κωδικός σύστασης δεν ισχύει. Παρακαλούμε ελέγξτε τον κωδικό και δοκιμάστε ξανά.",
+        "invalid-email-domain": "Ο πάροχος e-mail δεν επιτρέπεται. Παρακαλούμε δοκιμάστε διαφορετικό e-mail.",
+        "duplicate-email": "Ένας άλλος λογαριασμός έχει ήδη δημιουργηθεί με αυτή τη διεύθυνση email.",
+        "password-too-short": "Ο κωδικός σας θα πρέπει να αποτελείται απο τουλάχιστον 8 χαρακτήρες.",
+        "invalid-recaptcha": "Η επαλήθευση Recaptcha απέτυχε. Παρακαλούμε δοκιμάστε ξανά.",
+        "missing-us-state": "Εάν διαμένετε στις ΗΠΑ, θα πρέπει να συμπληρώσετε την πολιτεία σας."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Δημιουργία λογαριασμού",
+      "subheader": "Προσωπικές πληροφορίες",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Ειδοποίηση για πελάτες απο ΗΠΑ",
+        "desc": "Δημιουργείτε έναν προκαταρκτικό λογαριασμό Nash για να συμμετέχετε στο πρόγραμμα συστάσεων, αλλά η πολιτεία που διαμένετε θα πρέπει να δύναται να έχει πρόσβαση στις υπηρεσίες του Nash. Εάν αυτό ισχύει, θα σας ζητηθεί αργότερα να υπογράψετε το συμφωνητικό χρήστη."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Πλήρες όνομα"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Κωδικός σύστασης (προαιρετικό)",
+          "sub-label": "Τι είναι αυτό;"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Πρόγραμμα συστάσεων του Nash",
+          "desc": "Αυτό θα χρησιμοποιηθεί για την ιχνηλάτιση συστάσεων, για μελλοντικές προωθητικές ενέργειες του Nash."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Παρατηρήσαμε οτι χρησιμοποιείτε δίκτυο VPN.",
+          "message": "Παρακαλούμε απενεργοποιήστε όλα τα VPN ή τις υπηρεσίες proxy για να συνεχίσετε. Αφού θα έχετε δημιουργήσει λογαριασμό, μπορείτε να επαληθεύσετε την ταυτότητά σας ώστε να μπορείτε έπειτα να χρησιμοποιείτε VPN."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
-      "edit": "Edit",
-      "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "header": "Δημιουργία λογαριασμού",
+      "subheader": "Που διαμένετε;",
+      "edit": "Επεξεργασία",
+      "cancel": "Ακύρωση",
+      "save-changes": "Αποθήκευση αλλαγών",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Χώρα διαμονής"
         },
         "state": {
-          "label": "State",
-          "location": "Location"
+          "label": "Πολιτεία",
+          "location": "Τοποθεσία"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Επιβεβαιώνω οτι αυτή είναι η χώρα διαμονής μου."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Επιβεβαιώνω οτι αυτή είναι η χώρα και η πολιτεία διαμονής μου."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Δημιουργία λογαριασμού",
+      "subheader": "Στοιχεία λογαριασμού",
+      "continue": "Δημιουργία λογαριασμού",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Εισάγετε μια διεύθυνση e-mail",
+          "placeholder": "Διεύθυνση e-mail"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Δημιουργία κωδικού πρόσβασης",
+          "placeholder": "Κωδικός πρόσβασης",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Ο κωδικός είναι πολύ αδύναμος."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Επιβεβαίωση κωδικού",
+          "placeholder": "Επιβεβαίωση κωδικού",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Οι κωδικοί δεν ταιριάζουν."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
-          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
-          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
-          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
-          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
+          "title": "Συμβουλές για δημιουργία δυνατού κωδικού πρόσβασης",
+          "desc": "Ένας δυνατός κωδικός πρόσβασης βοηθάει να διατηρήσετε τα χρήματά σας ασφαλή. Ακολουθήστε αυτές τις συμβουλές για να παραμείνετε ασφαλείς:",
+          "tip-index": "Συμβουλή {{index}}",
+          "tip-1": "Μη χρησιμοποιείτε τον ίδιο κωδικό με άλλες σελίδες, ακόμα κι αν αλλάξετε μεμονωμένους χαρακτήρες η λέξεις. Εάν σας υποκλέψουν τον κωδικό απο άλλη σελίδα, τότε εκτίθεται αυτόματα και ο λογαριασμός σας στο Nash.",
+          "tip-2": "Μη συμπεριλαμβάνετε προσωπικές πληροφορίες στον κωδικό σας. Ονόματα, γενέθλια και διευθύνσεις είναι πολύ εύκολο να ανακαλυφθούν και θα πρέπει να αποφεύγονται.",
+          "tip-3": "Δημιουργήστε κωδικό τουλάχιστον δώδεκα χαρακτήρων με μια ανάμειξη κεφαλαίων και πεζών γραμμάτων, αριθμών και ειδικών χαρακτήρων.",
+          "tip-4": "Σκεφθείτε τη χρήση γεννήτριας κωδικών για να δημιουργήσετε και να αποθηκεύσετε κωδικούς υψίστης ασφαλείας."
         }
       },
       "password": {
-        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
-        "tips": "Password creation tips",
-        "password-strength": "Password strength",
-        "weak": "Weak",
-        "medium": "Medium",
-        "strong": "Strong",
-        "very-strong": "Very strong"
+        "desc": "Χρησιμοποιήστε ανάμειξη κεφαλαίων και πεζών γραμμάτων, αριθμών και ειδικών χαρακτήρων για δυνατότερο κωδικό.",
+        "tips": "Συμβουλές για δημιουργία κωδικού",
+        "password-strength": "Ασφάλεια κωδικού",
+        "weak": "Χαμηλή",
+        "medium": "Μέτρια",
+        "strong": "Υψηλή",
+        "very-strong": "Πολύ υψηλή"
       }
     },
     "verify-email": {
-      "header": "We’ve sent you an email!",
-      "desc-1": "Please check your email and verify your account.",
-      "desc-2": "If you don’t see our email, check your junk folder.",
-      "resend": "Resend verification email",
-      "resend-delay": "Please wait {{count}} second…",
-      "resend-delay_plural": "Please wait {{count}} seconds…",
-      "back": "Back to sign-in",
-      "success": "Verification email resent successfully!",
+      "header": "Σας στείλαμε ενα e-mail!",
+      "desc-1": "Παρακαλούμε ελέγξτε το email σας και επιβεβαιώστε τον λογαριασμό.",
+      "desc-2": "Εάν δεν λάβατε κάποιο μήνυμα, ελέγξτε τον φάκελο ανεπιθύμητης αλληλογραφίας.",
+      "resend": "Αποστολή μηνύματος e-mail ξανά",
+      "resend-delay": "Παρακαλούμε περιμένετε {{count}} δευτερόλεπτο…",
+      "resend-delay_plural": "Παρακαλούμε περιμένετε {{count}} δευτερόλεπτα…",
+      "back": "Πίσω στη σύνδεση",
+      "success": "Το e-mail επιβεβαίωσης εστάλη επιτυχώς!",
       "errors": {
-        "generic-error": "Error resending verification email. Please try again."
+        "generic-error": "Η επαναποστολή του e-mail επιβεβαίωσης απέτυχε. Παρακαλούμε δοκιμάστε ξανά."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Set up account",
+    "tab-title": "Ρύθμιση λογαριασμού",
     "steps": [
-      "Twelve secret words",
-      "Two-factor authentication"
+      "Δώδεκα μυστικές λέξεις",
+      "2FA"
     ],
     "general-information": {
-      "title": "General information",
-      "header": "Let’s create your personal account",
+      "title": "Γενικές πληροφορίες",
+      "header": "Ας δημιουργήσουμε τον προσωπικό σας λογαριασμό",
       "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
       "continue": "Get my twelve secret words",
       "skip2Fa": "Set up it later",
@@ -882,7 +910,8 @@
             "insufficient-funds": "Insufficient {{currencySymbol}}.",
             "maybe-insufficient-funds": "Insufficient {{currencySymbol}}.",
             "order-too-small": "Min size {{orderSize}} {{currencySymbol}}.",
-            "limit-breached": "This exceeds your trading limits."
+            "limit-breached": "This exceeds your trading limits.",
+            "soft-limit-breached": "You’re close to your trading limit. <0>Upgrade</0> your verification tier to trade more."
           }
         },
         "cancel-at": {
@@ -1928,6 +1957,7 @@
       "daily-limits-header": "Remaining limits after this transaction",
       "current-price-label": "Current price | <0 />",
       "current-price-unavailable": "Current price unavailable",
+      "unavailable": "Price unavailable. Try again soon.",
       "buy-with-input-label-no-cur": "Pay with",
       "sell-with-input-label-no-cur": "Deposit to",
       "buy-with-input-label": "Pay in {{currency}} with",
@@ -2752,7 +2782,11 @@
       "btn-made-payment": "I’ve made my payment",
       "use-exact-name": "Use this exact name.",
       "recipient-address": "Recipient address",
-      "recipient-bank-country": "Recipient bank country"
+      "recipient-bank-country": "Recipient bank country",
+      "exact-name-warning-1": "You <0>must</0> specify the recipient as ‘<1>Neon Exchange AG</1>’.",
+      "exact-name-warning-2": "Transfers to ‘Nash’ or other names will be <0>returned at your own cost</0>.",
+      "exact-name-warning-3": "Your bank account name must match the name on your Nash account. <0>Do not</0> use third-party services (e.g. TransferWise).",
+      "btn-exact-name-warning": "Got it"
     },
     "timeout-message": "This exchange rate will be guaranteed and locked for:",
     "network-error": "Network error. Please try again.",
@@ -2963,6 +2997,7 @@
       "success": "Resync successful!"
     },
     "transaction-retry": {
+      "transfers-page-retry-button-title": "Retry transaction",
       "title": "Retry transactions",
       "subtitle": "All pending or failed deposits or withdrawals",
       "actions-title": "Actions",
@@ -2989,7 +3024,7 @@
       },
       "transferring-funds": {
         "title": "Sending and receiving funds",
-        "desc": "<0>If you want to trade, you’ll have to send funds to the trading contract.</0> <1>You may only send funds to the trading contract from your personal account.</1>",
+        "desc": "Nash Channels let you trade at lightning speed with no blockchain fees and without giving up custody. Send funds to Nash Channels from your Nash wallet.",
         "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
         "learn-more": "Learn more",
         "never-show": "Never show me this again."
@@ -3005,7 +3040,9 @@
           "claiming": "Claiming…",
           "claim": "Claim GAS",
           "gas-to-claim": "You have {{amount}} GAS to claim.",
+          "no-gas-to-claim": "You have no GAS to claim.",
           "claiming-now": "You are currently claiming GAS.",
+          "error-claiming": "Error claiming GAS.",
           "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
           "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
         },
@@ -3035,9 +3072,11 @@
           "action-buttons": {
             "trade": "Trade",
             "transfer-funds": "Send/Receive",
+            "convert": "Convert",
             "send": "Send",
             "receive": "Receive",
-            "nash-channels": "Nash Channels"
+            "nash-channels": "Nash Channels",
+            "nash-channels-untradable": "This asset isn’t tradable in Nash"
           }
         },
         "no-results": "There are not yet any assets in your Nash account."
@@ -3198,7 +3237,37 @@
           "buttons": {
             "finish": "Got it!"
           }
+        },
+        "volume": {
+          "exceeds-deposit-limit": "Exceeds deposit limit",
+          "upgrade-tier-or-wait": "<0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.",
+          "near-deposit-limit": "This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!"
         }
+      },
+      "nash-channels": {
+        "explanation": {
+          "title": "On our Layer-2 network\n you always control your funds",
+          "fast-trade": "Lightning-fast cross-chain trading",
+          "trade-without-fees": "Trade without blockchain fees",
+          "nash-cash": "Buy/sell on Nash Cash at 0% fees"
+        },
+        "transfer-funds": {
+          "require-approval": "You need to approve {{currency}} before you can deposit to Nash Channels.",
+          "no-funds": "You don’t have any {{currency}} available to {{mode}}.",
+          "no-funds-nash-cash": "<0>Deposit {{currency}}</0> from an external account or purchase at a 0% fee through Nash Cash."
+        }
+      },
+      "nex-swap": {
+        "info": {
+          "title": "Convert NEX between the NEO and Ethereum blockchains",
+          "markets": "Gain access to secondary markets on Ethereum, e.g. Uniswap",
+          "staking": "Stake NEP-5 NEX tokens to receive dividends"
+        },
+        "tier-verification": "To convert NEX, please complete <0>Tier 1 verification</0>.",
+        "minimum-amount": "Minimum conversion of {{amount}}",
+        "modal-title": "Convert {{from}} to {{to}}",
+        "convert-with-currency": "Convert {{currency}}",
+        "conversion-started": "Conversion started"
       },
       "receive-assets": {
         "wallet-address": "Wallet address",
@@ -3214,6 +3283,18 @@
         },
         "continue-button": "OK, continue",
         "dismiss-link": "Dismiss forever and continue"
+      },
+      "select-asset": {
+        "search-placeholder": "Search over 3,000 assets…",
+        "title-receive": "Select an asset to receive",
+        "title-send": "Select an asset to send",
+        "show-usd-value": "Show USD value",
+        "available-balance": "Available balance",
+        "groups": {
+          "yours": "Your assets",
+          "popular": "Popular assets",
+          "other": "Other assets"
+        }
       }
     },
     "transactions": {
@@ -3258,12 +3339,14 @@
             "personal-account": "Personal account",
             "nash-fiat-ramp": "Sell to Nash",
             "staking-account": "NEX staking contract",
+            "nex-swap": "NEX swap contract",
             "fees": "Fees"
           },
           "from": {
             "trading-account": "From the trading contract",
             "personal-account": "From my personal account",
             "nash-fiat-ramp": "Purchase from Nash",
+            "nex-swap": "From NEX swap contract",
             "external-address": "From <0 />"
           }
         },
@@ -3276,8 +3359,7 @@
       "title": "Portfolio",
       "header": {
         "search-placeholder": "Search my assets…",
-        "search-placeholder-transfer-redesign": "Search assets…",
-        "portfolio-notice": "These assets are traded on Nash. You can use your Nash wallet to store other assets and they will appear here."
+        "search-placeholder-transfer-redesign": "Search assets…"
       },
       "table": {
         "header": {
@@ -3468,6 +3550,7 @@
       "available-amount-send": "Available to send",
       "available-amount-nash-channels-deposit": "Available to deposit",
       "available-amount-nash-channels-withdraw": "Available to withdraw",
+      "available-amount-convert": "Available to convert",
       "wallets": {
         "personal-account": "Personal account",
         "nash-channels": "Nash Channels",
@@ -3839,7 +3922,8 @@
         "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
         "funds-trading-to-personal": "I deposit funds to the trading contract",
         "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available"
+        "staking-weekly-summary": "A weekly summary of my staking dividends is available",
+        "nash-channels-limit": "I exceed my Nash Channels deposit limit"
       }
     },
     "security": {
@@ -3978,11 +4062,16 @@
       }
     },
     "my-limits": {
-      "title": "Limits",
       "header": "Limits",
-      "desc-1": "For legal reasons, we have to verify your identity if you wish to trade above certain limits.",
-      "desc-2": "Tier 0 verification is available automatically.",
-      "learn-more": "Learn more",
+      "desc": "Nash never blocks withdrawals, but they count towards your Nash Channels deposit limit. <0>Learn more</0> about limits.",
+      "24h-volume": "24h trading volume",
+      "30d-volume": "30d trading volume",
+      "1y-volume": "1y trading volume",
+      "view-fee-tiers": "View fee tiers",
+      "your-taker-fee": "Your taker fee",
+      "unavailable-with-tier-0": "Unavailable at Tier 0.",
+      "limit-yearly-buys": "<0 />/yearly buys",
+      "limit-yearly-sales": "<0 />/yearly sales",
       "cards": {
         "tiers": {
           "header": "Tier {{tier}}",
@@ -3996,50 +4085,20 @@
         },
         "limits": {
           "header": "Maximum daily trading volume",
-          "percentage-net-worth": "Custom limit",
           "unlimited": "Unlimited",
-          "tier-verified": "Tier {{tier}} verified",
-          "get-tier-verified": "Get tier {{tier}} verified",
-          "pending": "Pending",
-          "denied": "Denied",
+          "verified": "Verified",
+          "in-review": "In review",
+          "rejected": "Rejected",
           "try-again": "Try again",
-          "contact-us": "Contact support"
-        },
-        "information": {
-          "header": "Information required",
-          "desc": "This tier was automatically set when you created your Nash account.",
-          "email": "Email address",
-          "name": "Name",
-          "address": "Address",
-          "proof-of-address": "Proof of address",
-          "pep-check": "PEP check",
-          "photo-id": "Photo ID",
-          "selfie": "Selfie",
-          "date-of-birth": "Date of birth",
-          "net-worth": "Net worth",
-          "contact-number": "Contact number",
-          "tier1-info-net-worth": "Tier 1 information + Net worth",
-          "source-of-funds": "Source of funds",
-          "name-manager": "Company representative",
-          "email-institution": "Email address",
-          "name-company": "Company name",
-          "website": "Website",
-          "tin": "TIN",
-          "corporate-formation-documents": "Corporate formation documents",
-          "processing-time": "If your verification is not processed within 24 hours, please <0>contact support</0>."
+          "contact-us": "Contact support",
+          "unavailable": "Unavailable in your region"
         },
         "tier-1": {
-          "get-verified-button": "Get verified",
+          "get-started-button": "Get started",
           "continue-verification-button": "Continue verification",
           "verification": {
             "header": "How do you want to get verified?",
             "mobile": {
-              "header": "Smartphone app",
-              "desc": "Requires both high-quality front-facing and back-facing cameras.",
-              "steps": [
-                "Download the app",
-                "Scan QR code"
-              ],
               "download": {
                 "header": "Tier 1 verification is possible using our mobile app.",
                 "downloaded-app": "I’ve downloaded the app"
@@ -4049,10 +4108,7 @@
                 "desc": "When you have completed Tier 1 verification, your result will appear here within one minute."
               }
             },
-            "web": {
-              "header": "Nash web platform",
-              "desc": "Requires a high-quality webcam."
-            },
+            "use-web-platform": "I’ll use the Nash web platform",
             "do-it-later": "I’ll do this later"
           }
         }
@@ -4095,6 +4151,7 @@
       "summary-title": "All statements",
       "export-summary": "Export stakes as CSV",
       "export": "Export statement",
+      "export-detailed": "Export detailed statement",
       "date-col": "Payment date",
       "asset-received-col": "Asset received",
       "assets-received-col": "Assets received",
@@ -4310,6 +4367,15 @@
         }
       }
     }
+  },
+  "blockchains": {
+    "btc": "Bitcoin",
+    "eth": "Ethereum",
+    "neo": "NEO"
+  },
+  "tokens": {
+    "erc20": "ERC-20",
+    "nep5": "NEP-5"
   },
   "timezones": {
     "Pacific/Niue": "(GMT-11:00) Niue",
@@ -4562,5 +4628,173 @@
     "Pacific/Tongatapu": "(GMT+13:00) Tongatapu",
     "Pacific/Apia": "(GMT+14:00) Apia",
     "Pacific/Kiritimati": "(GMT+14:00) Kiritimati"
+  },
+  "trading-competition": {
+    "title": "Nash League",
+    "competition": "Nash League",
+    "squad": "Squad",
+    "squads": "Squads",
+    "solo": "Solo",
+    "pl": "P/L",
+    "captain": "Captain",
+    "members": "Members",
+    "rank": "Rank",
+    "nickname": "Nickname",
+    "volume": "Volume",
+    "prize-label": "Prize",
+    "max-16-characters": "Max 16 characters",
+    "inappropriate-message": "Inappropriate names will lead to disqualification. Be polite!",
+    "invalid-name": "Your name is already taken or contains invalid characters.",
+    "terms-and-conditions": "By participating in Nash League you agree to the competition’s <0>Terms and Conditions</0>.",
+    "unranked": "Unranked",
+    "n-a": "N/A",
+    "prize": {
+      "unlock-up-to": "Unlock up to",
+      "title": "$1 MILLION IN PRIZES",
+      "desc-1": "Just trade on Nash to get your share!",
+      "desc-2": "All users are automatically registered as solo participants, but you can join a squad to improve your chances.",
+      "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
+      "more-levels": "More levels will become available when Level {{level}} is reached!",
+      "volume-s": "Volume ($)",
+      "prizes": "Prizes",
+      "winners": "Winners",
+      "default-nickname": "Default nickname: {{nickname}}",
+      "welcome-nickname": "Welcome, {{nickname}}",
+      "create-new-nickname": "Create new nickname",
+      "anonymous": "Anonymous",
+      "set-nickname": "Set nickname",
+      "edit-nickname": "Edit nickname",
+      "maybe-later": "Maybe later",
+      "learn-more-league": "Learn more about Nash League",
+      "full-prize-breakdowns": "Full prize breakdown for current levels",
+      "all-levels-revealed": "All levels have been revealed!",
+      "competition-ended": "This competition has ended.",
+      "current-nickname": "Current nickname",
+      "main-card": {
+        "level-locked": "Level {{level}} locked",
+        "level-unlocked": "Level {{level}} unlocked",
+        "total-prize": "<0 /> in prizes",
+        "solo-count": "{{count}} solo",
+        "team-count": "{{count}} squad",
+        "team-count_plural": "{{count}} squads",
+        "pl-count": "{{count}} P/L",
+        "unlocks-at": "Unlocks at"
+      },
+      "card": {
+        "squad-desc": "Split between {{count}} <0 /> <1>squad</1>",
+        "squad-desc_plural": "Split between {{count}} <0 /> <1>squads</1>",
+        "solo-desc": "Split between {{count}} <0 /> <1>solo</1>",
+        "special-desc": "<0 /> <1>Special promotions</1>",
+        "solo-pl-desc": "Split between {{count}} <0 /> <1>P/L</1>"
+      }
+    },
+    "create-squad": {
+      "title": "Captain your squad of trading pros",
+      "sub-title": "We only recommend this if you already have 10+ members ready to join",
+      "description": "If your squad has fewer than 10 members when the competition begins, it will be disbanded and you will compete solo.",
+      "create-squad-button": "Create a squad",
+      "create-squad-modal-desc": "Your squad must have at least 10 members when the competition begins, otherwise it will be disbanded.",
+      "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one.",
+      "set-squad-name": "Set squad name",
+      "create-a-name": "Create a name…",
+      "accept-rules": "I understand the squad creation rules",
+      "create-squad": "Create squad",
+      "your-squad": "Your squad",
+      "congrats-created-squad": "Congratulations! You are the captain of",
+      "invite-your-friends": "Invite friends to join your squad"
+    },
+    "join-squad": {
+      "title": "Join squad",
+      "description": "Are you sure you want to join the squad {{squadName}} under captain {{captainName}}?",
+      "message-guaranteed": "This squad is guaranteed to be in the competition.",
+      "message-not-guaranteed": "This squad is risky to join because it hasn’t met the {{minMemberCount}}-person minimum limit.",
+      "modal-check": "Once you join, you will not be able to leave this squad or join a new one."
+    },
+    "competition-table": {
+      "no-squads": "No squads have been created yet.",
+      "table-message-not-started": "{{tabState}} rankings will appear here once the Nash League competition begins!",
+      "divider-squad-safe": "These squads are safe to join because they are guaranteed to be in the competition.",
+      "divider-squad-unsafe": "These squads are riskier to join because they haven’t met the 10-person minimum limit yet. A squad’s volume will be shown once it qualifies for the competition."
+    },
+    "competition-info": {
+      "squad-desc": "You are currently entering the competition in the {{squadName}} <0 /> squad.",
+      "solo-desc": "You are currently competing <0 /> solo – All Nash users are already registered!",
+      "not-signed": "<1>Sign in</1> to find yourself on the leaderboard!",
+      "competition-ended": "Season 1 of Nash League is now over!",
+      "prizes-unlocked": "Prizes unlocked",
+      "next-prizes-unlocked": "Next prizes unlocked",
+      "prizes-split": "<0 /> split between {{solo}} solo and {{team}} squad",
+      "clock-helper": {
+        "days": "DAYS",
+        "hours": "HOURS",
+        "minutes": "MINUTES"
+      },
+      "cards": {
+        "register-clock-title": "Time left to join or create a squad",
+        "competition-clock-title": "The competition begins in",
+        "current-tier-info-title": "Current volume",
+        "current-solo-prize": "Your current solo prize",
+        "current-squad-prize": "Your current squad prize",
+        "not-in-a-squad": "You are not in a squad",
+        "join-squad": "Join a squad for a chance of more prizes!",
+        "rookies-title": "Welcome to Nash, Rookie!",
+        "rookies-description": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
+        "rookies-nex-rewards": "NEX rewards: 0.00",
+        "next-tier-info-title": "Volume remaining for next level",
+        "ended-title": "Final competition volume"
+      }
+    },
+    "squad-page": {
+      "squad-rank": "Squad rank",
+      "squad-volume": "Squad volume",
+      "squad-prize": "Squad total prize",
+      "best-contrib": "Leading trader",
+      "no-contrib": "No contributors yet",
+      "squad-guaranteed": "This squad has {{count}} member and is guaranteed to be in the competition.",
+      "squad-guaranteed_plural": "This squad has {{count}} members and is guaranteed to be in the competition.",
+      "squad-not-guaranteed": "This squad has {{count}} member and is not guaranteed to be in the competition.",
+      "squad-not-guaranteed_plural": "This squad has {{count}} members and is not guaranteed to be in the competition.",
+      "invite-to-squad": "Invite friends to this squad",
+      "back-to-all": "Back to all",
+      "top-members": "Squad top traders",
+      "others": "Others"
+    },
+    "s02": {
+      "competition-starts": "Competition starts",
+      "competition-ends": "Competition ends",
+      "rookies": "Rookies",
+      "user-welcome": "Welcome,",
+      "prize": {
+        "title": "$10,000 NEW PRIZES PER $10M VOLUME",
+        "desc-1": "Just trade on Nash to get your share!",
+        "desc-2": "All users are automatically registered as solo participants, but you can join a squad to win an additional prize.",
+        "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
+        "total-volume": "Total exchange volume",
+        "unlocked-prize": "Unlocked prizes",
+        "prize-split": "Prize split",
+        "no-prizes-unlocked": "No prizes unlocked yet",
+        "all-solos": "All solos",
+        "squad-prizes-split": "{{count}} squad",
+        "squad-prizes-split_plural": "{{count}} squads",
+        "volume-tier": "Volume tier",
+        "volume-remainning": "Volume remaining for the this level"
+      },
+      "create-squad": {
+        "description": "Captains receive a guaranteed 5% of a squad’s prize!",
+        "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one. Your squad must have at least 5 members when the competition begins, otherwise it will be disbanded."
+      },
+      "competition-table": {
+        "divider-squad-unsafe": "These squads have not met the 5-person limit.",
+        "week-prize": "Week {{week}}",
+        "previous-week": "Previous week",
+        "next-week": "Next week"
+      },
+      "competition-info": {
+        "competition-ended": "Season 2 of Nash League is now over!",
+        "welcome-rookie": "Welcome to Nash, Rookie!",
+        "how-it-works-rookie": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
+        "rewards-rokie": "NEX rewards: {{prize}}"
+      }
+    }
   }
 }
