@@ -1076,228 +1076,228 @@
       },
       "executed-col": {
         "header-title": "Εκπληρωμένη",
-        "header-title-with-currency": "Εκπληρώθηκε {{currency}}"
+        "header-title-with-currency": "Εκπληρώθηκε σε {{currency}}"
       },
       "order-total-col": {
         "header-title": "Σύνολο",
-        "header-title-with-currency": "Σύνολο {{currency}}"
+        "header-title-with-currency": "Σύνολο σε {{currency}}"
       },
       "trade-total-col": {
-        "header-title": "Trade total",
-        "header-title-with-currency": "{{currency}} trade total"
+        "header-title": "Σύνολο συναλλαγών",
+        "header-title-with-currency": "Σύνολο συναλλαγών σε {{currency}}"
       },
       "size-col": {
-        "header-title": "Amount",
-        "header-title-with-currency": "{{currency}} amount"
+        "header-title": "Ποσό",
+        "header-title-with-currency": "Ποσό σε {{currency}}"
       },
       "price-col": {
-        "header-title": "Price",
-        "header-title-with-currency": "{{currency}} price"
+        "header-title": "Τιμή",
+        "header-title-with-currency": "Τιμή σε {{currency}}"
       },
       "pair-col": {
-        "header-title": "Pair"
+        "header-title": "Ζευγάρι"
       },
       "filled-col": {
-        "header-title": "Amount filled",
-        "header-title-with-currency": "{{currency}} amount filled"
+        "header-title": "Εκπληρωμένο ποσό",
+        "header-title-with-currency": "Εκπληρωμένο ποσό σε {{currency}}"
       },
       "fee-col": {
-        "header-title": "Fee",
-        "header-title-with-currency": "{{currency}} fee",
-        "no-fee": "No fee"
+        "header-title": "Χρέωση",
+        "header-title-with-currency": "Χρέωση σε {{currency}}",
+        "no-fee": "Χωρίς χρέωση"
       },
       "condition-col": {
-        "header-title": "Stop price",
-        "header-title-with-currency": "{{currency}} stop price"
+        "header-title": "Τιμή στοπ",
+        "header-title-with-currency": "Τιμή στοπ σε {{currency}}"
       },
       "time-col": {
-        "header-title": "Executed"
+        "header-title": "Εξετελέσθη"
       },
       "time-filled-col": {
-        "header-title": "Executed"
+        "header-title": "Εξετελέσθη"
       },
       "direction-col": {
         "cell-text": {
-          "buy": "Buy",
-          "sell": "Sell"
+          "buy": "Αγορά",
+          "sell": "Πώληση"
         }
       }
     },
     "recent-trades": {
-      "title": "Recent trades",
-      "order-size-col": "{{symbol}} size",
-      "price-col": "{{symbol}} price",
-      "time-col": "Time"
+      "title": "Πρόσφατες συναλλαγές",
+      "order-size-col": "Ποσότητα {{symbol}}",
+      "price-col": "Τιμή {{symbol}}",
+      "time-col": "Ώρα"
     },
     "orderbook": {
-      "title": "USD",
-      "title-no-fiat": "Order book",
-      "order-size-col": "{{symbol}} size",
-      "my-size-col": "My size",
-      "price-col": "{{symbol}} price",
-      "average": "Avg. price",
-      "sum-size": "{{symbol}} sum",
-      "num-decimals": "{{count}} decimal",
-      "num-decimals_plural": "{{count}} decimals",
-      "spread": "<0>{{percent}}</0> spread"
+      "title": "Δολάριο ΗΠΑ",
+      "title-no-fiat": "Βιβλίο παραγγελιών",
+      "order-size-col": "Ποσότητα {{symbol}}",
+      "my-size-col": "Η ποσότητά μου",
+      "price-col": "Τιμή {{symbol}}",
+      "average": "Μέση τιμή",
+      "sum-size": "Άθροισμα {{symbol}}",
+      "num-decimals": "{{count}} δεκαδικό",
+      "num-decimals_plural": "{{count}} δεκαδικά",
+      "spread": "Εξάπλωση <0>{{percent}}</0>"
     },
-    "spread": "Spread",
-    "learn-about-our-fees": "Learn more about our <1>fees</1>."
+    "spread": "Εξάπλωση",
+    "learn-about-our-fees": "Μάθετε περισσότερα για τις <1>χρεώσεις</1> μας."
   },
   "auth": {
-    "create-an-account": "Create an account",
-    "forgotten": "Lost 2FA?",
-    "sign-in-now": "Sign in now",
-    "sign-in": "Sign in",
-    "sign-out": "Sign out",
+    "create-an-account": "Δημιουργήστε λογαριασμό",
+    "forgotten": "Χάσατε τον κωδικό 2FA;",
+    "sign-in-now": "Συνδεθείτε τώρα",
+    "sign-in": "Συνδεθείτε",
+    "sign-out": "Αποσυνδεθείτε",
     "password-strength": {
-      "0": "Very weak",
-      "1": "Weak",
-      "2": "Medium",
-      "3": "Strong",
-      "4": "Very strong",
-      "label": "Password strength"
+      "0": "Πολύ αδύναμος",
+      "1": "Αδύναμος",
+      "2": "Μέτριος",
+      "3": "Δυνατός",
+      "4": "Πολύ δυνατός",
+      "label": "Δύναμη κωδικού πρόσβασης"
     },
     "password-form": {
       "password": {
-        "label": "Password",
-        "placeholder": "Enter your password"
+        "label": "Κωδικός πρόσβασης",
+        "placeholder": "Εισάγετε τον κωδικό σας"
       },
       "code": {
-        "label": "Two-factor authentication",
-        "placeholder": "Enter your two-factor authentication code"
+        "label": "Κωδικός 2FA",
+        "placeholder": "Εισάγετε τον κωδικό 2FA σας"
       }
     },
     "new-wallets": {
       "btc": {
-        "title": "You can now send, receive and store Bitcoin with Nash!",
-        "subtext": "We’ll notify you when Bitcoin trading pairs are available on the Nash Exchange.",
-        "btn-bitcoin": "Deposit Bitcoin",
-        "btn-funds": "Continue to portfolio"
+        "title": "Μπορείτε τώρα να στείλετε, να λάβετε και να αποθηκεύσετε Bitcoin με το Nash!",
+        "subtext": "Θα σας ειδοποιήσουμε οταν θα υπάρχουν διαθέσιμα ζεύγη ανταλλαγής Bitcoin στο ανταλλακτήριο του Nash.",
+        "btn-bitcoin": "Καταθέστε Bitcoin",
+        "btn-funds": "Συνεχίστε στο πορτοφόλι"
       }
     },
     "session-expiry-modal": {
-      "title": "Your session is about to expire",
-      "info": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} second.",
+      "title": "Η συνεδρία σας πρόκειται να λήξει",
+      "info": "Η συνεδρία σας πρόκειται να λήξει λόγω αδράνειας. Θα αποσυνδεθείτε σε {{count}} δευτερόλεπτα.",
       "info_plural": "Your session is about to expire owing to inactivity. You will be signed out in {{count}} seconds.",
-      "stay-signed-in": "Stay signed in",
-      "signing-out": "({{count}}s) Signing out…"
+      "stay-signed-in": "Θέλω να παραμείνω συνδεδεμένος",
+      "signing-out": "Αποσύνδεση σε ({{count}}s)…"
     },
     "signup": {
-      "desc": "Don’t have an account yet?",
-      "sign-up": "Create one"
+      "desc": "Δεν έχετε λογαριασμό ακόμα;",
+      "sign-up": "Δημιουργήστε έναν τώρα"
     },
     "form": {
-      "continue": "Continue"
+      "continue": "Συνέχεια"
     },
     "missing-country": {
-      "header": "Before you continue…",
-      "subheader": "Where do you live?",
+      "header": "Προτού συνεχίσετε…",
+      "subheader": "Που μένετε;",
       "messages": {
-        "vpn-warning-title": "We noticed you’re using a VPN.",
-        "vpn-warning-body": "Please disable any VPN or proxy services to continue.",
+        "vpn-warning-title": "Παρατηρήσαμε οτι χρησιμοποιείτε δίκτυο VPN.",
+        "vpn-warning-body": "Παρακαλούμε απενεργοποιήστε υπηρεσίες VPN ή/και proxy για να συνεχίσετε.",
         "update-country": {
-          "failed": "We could not update your country of residence. Please try again later or contact support."
+          "failed": "Δε μπορέσαμε να ενημερώσουμε τη χώρα διαμονής σας. Παρακαλούμε ξαναδοκιμάστε αργότερα ή επικοινωνήστε με την υποστήριξη."
         }
       },
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Χώρα διαμονής"
         },
         "state": {
-          "label": "State"
+          "label": "Πολιτεία"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Επιβεβαιώνω οτι αυτή είναι η χώρα που διαμένω."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Επιβεβαιώνω οτι αυτή είναι η χώρα και η πολιτεία που διαμένω."
         }
       }
     },
     "signin": {
-      "header": "Sign in to Nash",
-      "header-2fa": "Two-factor authentication",
+      "header": "Σύνδεση στο Nash",
+      "header-2fa": "Ταυτοποίηση δύο παραγόντων (2FA)",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "Διεύθυνση e-mail",
+          "placeholder": "Διεύθυνση e-mail"
         },
         "password": {
-          "label": "Password",
-          "sub-label": "Forgotten password?",
-          "placeholder": "Password"
+          "label": "Κωδικός πρόσβασης",
+          "sub-label": "Ξεχάσατε τον κωδικό σας;",
+          "placeholder": "Κωδικός"
         },
         "remember-me": {
-          "label": "Remember me"
+          "label": "Να με θυμάσαι"
         }
       },
       "messages": {
         "password-change": {
-          "success": "If the email address you provide matches an account already in our database, we’ll send you instructions on how to reset your password."
+          "success": "Εάν η διεύθυνση e-mail που δηλώσατε ταυτίζεται με άλλο λογαριασμό στο αρχείο μας, θα σας στείλουμε οδηγίες για να επαναφέρετε τον κωδικό σας."
         },
         "update-email": {
-          "validation-success": "We have sent a verification email to your new email address. Please click the link in that email to confirm your new address.",
-          "updated-success": "Your email address has been updated. You can now sign in using your new address."
+          "validation-success": "Σας αποστείλαμε ένα e-mail επαλήθευσης στη νέα σας διεύθυνση e-mail. Παρακαλούμε κάντε κλικ στο σύνδεσμο στο e-mail για να επιβεβαιώσετε τη νέα διεύθυνση.",
+          "updated-success": "Η διεύθυνση e-mail ενημερώθηκε. Τώρα μπορείτε να συνδεθείτε με τη νέα σας διεύθυνση."
         },
         "verify-email": {
-          "success": "Your email address has been verified. Please sign in to set up your account.",
-          "error": "Could not verify email address. The verification code may have expired. Please log in and request another verification email."
+          "success": "Η διεύθυνση e-mail επαληθεύτηκε. Παρακαλούμε συνδεθείτε για να ρυθμίσετε τον λογαριασμό σας.",
+          "error": "Η επαλήθευση απέτυχε. Ο κωδικός επαλήθευσης ίσως έχει λήξει. Παρακαλούμε συνδεθείτε και ζητήστε να σας σταλεί άλλος κωδικός με e-mail."
         }
       },
       "errors": {
-        "invalid-email": "The email address you provided is invalid.",
-        "invalid-password": "You must provide a password.",
-        "signin-failed": "It appears your email or password is incorrect.",
-        "locked": "Your account is temporarily locked. Please try again later.",
-        "revoked": "Your account is permanently locked. Please contact support."
+        "invalid-email": "Η διεύθυνση e-mail που δηλώσατε δεν είναι έγκυρη.",
+        "invalid-password": "Θα πρέπει να γράψετε έναν κωδικό πρόσβασης.",
+        "signin-failed": "Η διεύθυνση e-mail ή/και ο κωδικός πρόσβασης είναι λάθος.",
+        "locked": "Ο λογαριασμός σας κλειδώθηκε προσωρινά. Παρακαλούμε ξαναδοκιμάστε αργότερα.",
+        "revoked": "Ο λογαριασμός σας κλειδώθηκε μόνιμα. Παρακαλούμε επικοινωνήστε με την υποστήριξη."
       }
     },
     "forgot-password": {
-      "tab-title": "Forgotten password",
-      "header": "Forgotten your password?",
-      "desc": "Enter your email address below and we’ll get you back on track.",
+      "tab-title": "Ξεχασμένος κωδικός πρόσβασης",
+      "header": "Ξεχάσατε τον κωδικό σας;",
+      "desc": "Εισάγετε τη διεύθυνση e-mail σας παρακάτω και θα φροντίσουμε να σας επαναφέρουμε σύντομα!.",
       "fields": {
         "email": {
-          "label": "Email address",
-          "placeholder": "Email address"
+          "label": "Διεύθυνση e-mail",
+          "placeholder": "Διεύθυνση e-mail"
         }
       },
-      "submit": "Request reset link",
-      "success": "We’ve sent you a password reset email. If you don’t see our email, check your junk folder."
+      "submit": "Αποστολή συνδέσμου επαναφοράς",
+      "success": "Σας στείλαμε e-mail για την επαναγορά του κωδικού. Αν δεν το λάβατε, ελέγξτε επίσης τον φάκελο με τα ανεπιθύμητα μηνύματα."
     },
     "reset-password": {
-      "missing-email": "Something went wrong. Please click the link in your email again.",
-      "expired-code": "This session is no longer valid. Please click the link in your email again.",
+      "missing-email": "Κάτι πήγε στραβά. Παρακαλούμε κάντε κλικ στον σύνδεσμο στο e-mail ξανά.",
+      "expired-code": "Η συνεδρία αυτή έχει λήξει. Παρακαλούμε κάντε κλικ στον σύνδεσμο στο e-mail ξανά.",
       "steps": [
-        "Confirm secret words",
-        "New password"
+        "Επιβεβαίωση μυστικών λέξεων",
+        "Νέος κωδικός πρόσβασης"
       ],
       "secret-words": {
         "home": {
-          "header": "Do you still have your twelve secret words?",
-          "sub-header": "When you first set up your Nash account, we asked you to write these words down and keep them safe.",
-          "button-have-words": "Yes, I still have my secret words",
-          "button-lost-words": "No, I have lost my secret words",
-          "desc": "Unfortunately, if you have lost both your old password and your twelve secret words, you will be unable to recover your funds."
+          "header": "Έχετε ακόμα τις δώδεκα μυστικές λέξεις σας;",
+          "sub-header": "Όταν πρωτοδημιουργήσατε τον λογαριασμό σας στο Nash, σας ζητήσαμε να γράψετε αυτές τις λέξεις κάπου και να τις κρατήσετε ασφαλείς.",
+          "button-have-words": "Ναι, έχω ακόμα τις λέξεις",
+          "button-lost-words": "Όχι, έχω χάσει τις λέξεις",
+          "desc": "Δυστυχώς, εάν έχετε χάσει και τον παλιό σας κωδικό και τις δώδεκα μυστικές λέξεις σας, δε θα μπορέσετε να ανακτήσετε τα χρήματά σας."
         },
         "edit": {
-          "header": "Enter your twelve secret words",
-          "desc-1": "We use your secret words to regenerate your master seed and individual asset accounts.",
-          "desc-2": "If you cannot provide the twelve words for your existing accounts, <0>your funds will be lost.</0>",
-          "card-title": "All words are lowercase",
-          "card-reset": "Clear all words",
-          "mnemonic-invalid": "This combination of words is not valid. Please double-check and try again.",
-          "mnemonic-valid": "This combination of words is valid. You may now reset your password."
+          "header": "Εισάγετε τις δώδεκα μυστικές σας λέξεις",
+          "desc-1": "Θα χρησιμοποιήσουμε τις λέξεις για να επαναδημιουργήσουμε το κύριο κλειδί και τα κλειδιά όλων των λογαριασμών με τα νομίσματά σας.",
+          "desc-2": "Εάν δεν μπορείτε να παρέχετε τις δώδεκα λέξεις για τους λογαριασμούς, <0>τα χρήματά σας θα χαθούν.</0>",
+          "card-title": "Όλες οι λέξεις είναι με πεζούς χαρακτήρες",
+          "card-reset": "Εκκαθάριση όλων των λέξεων",
+          "mnemonic-invalid": "Αυτός ο συνδυασμός λέξεων δεν ισχύει. Παρακαλούμε ελέγξτε και δοκιμάστε ξανά.",
+          "mnemonic-valid": "Αυτός ο συνδυασμός λέξεων είναι έγκυρος. Μπορείτε τώρα να επαναφέρετε τον κωδικό σας."
         },
         "skip": {
-          "header": "You will lose access to your funds",
-          "desc-1": "If you have lost both your old password and your twelve secret words, <0>you will be unable to recover your funds.</0>",
-          "desc-2": "Nash is a non-custodial platform that uses decentralized technology. It is impossible for us to access your funds and we cannot recover them.",
-          "desc-3": "You can reset your old account and choose a new set of secret words. This will be like setting up a brand new account with a new password.",
-          "desc-4": "If you choose to reset your account, you will lose all access to your funds, including:",
-          "desc-5": "Please double-check and see if you can locate either your secret words or your password.",
-          "go-back": "Go back",
+          "header": "Θα χάσετε την πρόσβαση στα χρήματά σας",
+          "desc-1": "Εάν έχετε χάσει και τον παλιό σας κωδικό και τις δώδεκα μυστικές λέξεις σας, <0>δε θα μπορέσετε να ανακτήσετε τα χρήματά σας.</0>",
+          "desc-2": "Το Nash είναι μια non-custodial (μη στερητική) πλατφόρμα η οποία χρησιμοποιεί αποκεντρωμένη τεχνολογία. Μας είναι αδύνατο να έχουμε πρόσβαση στα χρήματά σας και δε μπορούμε να τα ανακτήσουμε.",
+          "desc-3": "Μπορείτε να επαναφέρετε τον παλιό σας λογαριασμό και να επιλέξετε ενα νέο σετ μυστικών λέξεων. Αυτό θα είναι σα να δημιουργείτε έναν εντελώς καινούριο λογαριασμό με νέο κωδικό πρόσβασης.",
+          "desc-4": "Εάν επιλέξετε να επαναφέρετε τον λογαριασμό σας, θα χάσετε εντελώς την πρόσβαση στα χρήματά σας, συμπεριλαμβανομένων:",
+          "desc-5": "Παρακαλούμε ελέγξτε ξανά και δείτε αν είναι δυνατό να εντοπίσετε κάπου είτε τις μυστικές λέξεις είτε τον κωδικό πρόσβασης.",
+          "go-back": "Επιστροφή",
           "checkbox-1": "I have lost both my password and my twelve secret words.",
           "checkbox-2": "I understand that I will lose all access to my funds if I reset my account.",
           "submit": "Reset my account",
