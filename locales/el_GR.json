@@ -337,8 +337,8 @@
   "sending-approval": "Αποστολή έγκρισης…",
   "send-approval": "Αποστολή έγκρισης",
   "submit-transfer": "Υποβολή μεταφοράς",
-  "no-longer-sufficient-balance-for-tx": "Το υπόλοιπό σας δεν επαρκεί για αυτή τη συναλλαγή.",
-  "we-are-hiring": "Θέσεις εργασίας",
+  "no-longer-sufficient-balance-for-tx": "Your balance is no longer sufficient for this transaction.",
+  "we-are-hiring": "We’re hiring",
   "errors": {
     "invalid-address-title": "Η διεύθυνση στο προφίλ σας δεν είναι έγκυρη.",
     "invalid-address": "Παρακαλούμε επικοινωνήστε με την <0>υποστήριξη</0> για να σας βοηθήσουμε να ενημερώσετε τη διεύθυνσή σας.",
@@ -444,440 +444,440 @@
       },
       "restricted": {
         "us": {
-          "title": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην πολιτεία {{usState}}. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
-          "title-no-state": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην πολιτεία σας. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
-          "message": "Θα σας ειδοποιήσουμε με email όταν η πολιτεία {{usState}} θα υποστηρίζεται πλήρως. Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις.",
-          "message-no-state": "Θα σας ειδοποιήσουμε με email όταν η πολιτεία σας θα υποστηρίζεται πλήρως. Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις."
+          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
+          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
+          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
+          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
         },
         "generic": {
-          "title": "Δεν υποστηρίζονται όλες οι υπηρεσίες του Nash στην τοποθεσία που βρίσκεστε τώρα. Η πρόσβαση σας σε κάποια σημεία της πλατφόρμας του Nash θα είναι περιορισμένη.",
-          "message": "Παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για περαιτέρω ερωτήσεις."
+          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
+          "message": "Please <0>contact our support team</0> with any questions."
         }
       },
       "tier-too-low": {
-        "title": "Το τωρινό επίπεδο επαλήθευσης σας είναι η Βαθμίδα {{userTier}}. Σαν αποτέλεσμα η πρόσβασή σας σε ορισμένες λειτουργίες της πλατφόρμας του Nash θα είναι περιορισμένη.",
-        "message": "Για να χρησιμοποιήσετε πλήρως τις υπηρεσίες του Nash, παρακαλούμε αναβαθμιστείτε στη <0>Βαθμίδα {{minTier}}</0>."
+        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
+        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "Παρατηρήσαμε οτι συνδέεστε απο {{detectedCountry}}.",
-          "message": "Εάν δε ζείτε πλεόν στη χώρα {{accountCountry}}, παρακαλούμε επικοινωνήστε με την <0>ομάδα υποστήριξης</0> για να ενημερώσετε τη διεύθυνση σας."
+          "title": "We noticed you’re signing in from {{detectedCountry}}.",
+          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
         }
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Πλοηγηθείτε μέσω σταθερού υπολογιστή ή laptop για καλύτερη εμπειρία.",
-          "message": "Η προβολή ‘Pro’ σχεδιάστηκε για χρήση σε σταθερό υπολογιστή ή λάπτοπ. Εάν χρησιμοποιείτε κινητό, δοκιμάστε τη <0>‘Βασική’</0> προβολή."
+          "title": "Browse on desktop for a better experience.",
+          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
         }
       }
     },
     "hello-mpc": {
-      "title": "Αντίο, ιδιωτικά κλειδιά. Καλωσορίσατε, κλειδιά MPC!",
-      "message": "Το νέο μας πρωτόκολλο επόμενης γενιάς είναι εδώ! Το πορτοφόλι σας Nash υπογράφει τώρα τις συναλλαγές σας χρησιμοποιώντας ασφάλεια multi-party computation (MPC)."
+      "title": "Goodbye, private keys. Hello, MPC!",
+      "message": "Our next-generation protocol is here! Your Nash wallet now signs transactions with secure multi-party computation (MPC)."
     },
-    "dismiss-message": "Να μην προβληθεί ξανά."
+    "dismiss-message": "Don’t tell me this again."
   },
   "terms": {
-    "user-agreement": "Σωμφωνητικό χρήστη",
-    "privacy-notice": "Ιδιωτικότητα"
+    "user-agreement": "User Agreement",
+    "privacy-notice": "Privacy Notice"
   },
   "account-create": {
     "steps": [
-      "Προσωπικές πληροφορίες",
-      "Χώρα",
-      "Λεπτομέρειες λογαριασμού"
+      "Your details",
+      "Country",
+      "Account details"
     ],
     "signin": {
-      "desc": "Έχετε ήδη λογαριασμό Nash;",
-      "sign-in-now": "Συνδεθείτε"
+      "desc": "Already have a Nash account?",
+      "sign-in-now": "Sign in now"
     },
     "form": {
-      "your-state-is": "Η πολιτεία σας είναι",
+      "your-state-is": "Your state is",
       "fields": {
-        "optional": "(προαιρετικό)"
+        "optional": "(optional)"
       },
-      "continue": "Συνέχεια",
+      "continue": "Continue",
       "errors": {
-        "generic-error": "Σφάλμα με τη δημιουργία λογαριασμού. Παρακαλούμε δοκιμάστε ξανά.",
-        "invalid-referral-code-can-continue": "Ο κωδικός σύστασης δεν ισχύει.",
-        "invalid-referral-code": "Ο κωδικός σύστασης δεν ισχύει. Παρακαλούμε ελέγξτε τον κωδικό και δοκιμάστε ξανά.",
-        "invalid-email-domain": "Ο πάροχος e-mail δεν επιτρέπεται. Παρακαλούμε δοκιμάστε διαφορετικό e-mail.",
-        "duplicate-email": "Ένας άλλος λογαριασμός έχει ήδη δημιουργηθεί με αυτή τη διεύθυνση email.",
-        "password-too-short": "Ο κωδικός σας θα πρέπει να αποτελείται απο τουλάχιστον 8 χαρακτήρες.",
-        "invalid-recaptcha": "Η επαλήθευση Recaptcha απέτυχε. Παρακαλούμε δοκιμάστε ξανά.",
-        "missing-us-state": "Εάν διαμένετε στις ΗΠΑ, θα πρέπει να συμπληρώσετε την πολιτεία σας."
+        "generic-error": "Error signing up for an account. Please try again.",
+        "invalid-referral-code-can-continue": "Invalid referral code.",
+        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
+        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
+        "duplicate-email": "An account has already been created for this email address.",
+        "password-too-short": "Your password should be at least eight characters long.",
+        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
+        "missing-us-state": "If you live in the United States, you must enter your state."
       }
     },
     "your-details": {
-      "header": "Δημιουργία λογαριασμού",
-      "subheader": "Προσωπικές πληροφορίες",
+      "header": "Create an account",
+      "subheader": "Your details",
       "disclaimer": {
-        "title": "Ειδοποίηση για πελάτες απο ΗΠΑ",
-        "desc": "Δημιουργείτε έναν προκαταρκτικό λογαριασμό Nash για να συμμετέχετε στο πρόγραμμα συστάσεων, αλλά η πολιτεία που διαμένετε θα πρέπει να δύναται να έχει πρόσβαση στις υπηρεσίες του Nash. Εάν αυτό ισχύει, θα σας ζητηθεί αργότερα να υπογράψετε το συμφωνητικό χρήστη."
+        "title": "Notice for US customers",
+        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
       },
       "fields": {
         "full-name": {
-          "label": "Πλήρες όνομα"
+          "label": "Full name"
         },
         "referral-code": {
-          "label": "Κωδικός σύστασης (προαιρετικό)",
-          "sub-label": "Τι είναι αυτό;"
+          "label": "Referral code (optional)",
+          "sub-label": "What is this?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Πρόγραμμα συστάσεων του Nash",
-          "desc": "Αυτό θα χρησιμοποιηθεί για την ιχνηλάτιση συστάσεων, για μελλοντικές προωθητικές ενέργειες του Nash."
+          "title": "Nash referral program",
+          "desc": "This will be used to track referrals for future Nash promotions."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "Παρατηρήσαμε οτι χρησιμοποιείτε δίκτυο VPN.",
-          "message": "Παρακαλούμε απενεργοποιήστε όλα τα VPN ή τις υπηρεσίες proxy για να συνεχίσετε. Αφού θα έχετε δημιουργήσει λογαριασμό, μπορείτε να επαληθεύσετε την ταυτότητά σας ώστε να μπορείτε έπειτα να χρησιμοποιείτε VPN."
+          "title": "We noticed you’re using a VPN.",
+          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
         }
       }
     },
     "country-details": {
-      "header": "Δημιουργία λογαριασμού",
-      "subheader": "Που διαμένετε;",
-      "edit": "Επεξεργασία",
-      "cancel": "Ακύρωση",
-      "save-changes": "Αποθήκευση αλλαγών",
+      "header": "Create an account",
+      "subheader": "Where do you live?",
+      "edit": "Edit",
+      "cancel": "Cancel",
+      "save-changes": "Save changes",
       "fields": {
         "country": {
-          "label": "Χώρα διαμονής"
+          "label": "Country of residence"
         },
         "state": {
-          "label": "Πολιτεία",
-          "location": "Τοποθεσία"
+          "label": "State",
+          "location": "Location"
         },
         "confirm-country": {
-          "label": "Επιβεβαιώνω οτι αυτή είναι η χώρα διαμονής μου."
+          "label": "I confirm that this is my country of residence."
         },
         "confirm-country-and-state": {
-          "label": "Επιβεβαιώνω οτι αυτή είναι η χώρα και η πολιτεία διαμονής μου."
+          "label": "I confirm that these are my country and state of residence."
         }
       }
     },
     "account-details": {
-      "header": "Δημιουργία λογαριασμού",
-      "subheader": "Στοιχεία λογαριασμού",
-      "continue": "Δημιουργία λογαριασμού",
+      "header": "Create an account",
+      "subheader": "Account details",
+      "continue": "Create account",
       "fields": {
         "email": {
-          "label": "Εισάγετε μια διεύθυνση e-mail",
-          "placeholder": "Διεύθυνση e-mail"
+          "label": "Enter an email address",
+          "placeholder": "Email address"
         },
         "password": {
-          "label": "Δημιουργία κωδικού πρόσβασης",
-          "placeholder": "Κωδικός πρόσβασης",
+          "label": "Create a password",
+          "placeholder": "Password",
           "errors": {
-            "password-too-weak": "Ο κωδικός είναι πολύ αδύναμος."
+            "password-too-weak": "The password you chose is too weak."
           }
         },
         "password-confirm": {
-          "label": "Επιβεβαίωση κωδικού",
-          "placeholder": "Επιβεβαίωση κωδικού",
+          "label": "Confirm your password",
+          "placeholder": "Confirm password",
           "errors": {
-            "passwords-do-not-match": "Οι κωδικοί δεν ταιριάζουν."
+            "passwords-do-not-match": "Passwords do not match."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Συμβουλές για δημιουργία δυνατού κωδικού πρόσβασης",
-          "desc": "Ένας δυνατός κωδικός πρόσβασης βοηθάει να διατηρήσετε τα χρήματά σας ασφαλή. Ακολουθήστε αυτές τις συμβουλές για να παραμείνετε ασφαλείς:",
-          "tip-index": "Συμβουλή {{index}}",
-          "tip-1": "Μη χρησιμοποιείτε τον ίδιο κωδικό με άλλες σελίδες, ακόμα κι αν αλλάξετε μεμονωμένους χαρακτήρες η λέξεις. Εάν σας υποκλέψουν τον κωδικό απο άλλη σελίδα, τότε εκτίθεται αυτόματα και ο λογαριασμός σας στο Nash.",
-          "tip-2": "Μη συμπεριλαμβάνετε προσωπικές πληροφορίες στον κωδικό σας. Ονόματα, γενέθλια και διευθύνσεις είναι πολύ εύκολο να ανακαλυφθούν και θα πρέπει να αποφεύγονται.",
-          "tip-3": "Δημιουργήστε κωδικό τουλάχιστον δώδεκα χαρακτήρων με μια ανάμειξη κεφαλαίων και πεζών γραμμάτων, αριθμών και ειδικών χαρακτήρων.",
-          "tip-4": "Σκεφθείτε τη χρήση γεννήτριας κωδικών για να δημιουργήσετε και να αποθηκεύσετε κωδικούς υψίστης ασφαλείας."
+          "title": "Tips for a strong password",
+          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
+          "tip-index": "Tip {{index}}",
+          "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
+          "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
+          "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
+          "tip-4": "Consider using a password generator to create and store maximally secure passwords."
         }
       },
       "password": {
-        "desc": "Χρησιμοποιήστε ανάμειξη κεφαλαίων και πεζών γραμμάτων, αριθμών και ειδικών χαρακτήρων για δυνατότερο κωδικό.",
-        "tips": "Συμβουλές για δημιουργία κωδικού",
-        "password-strength": "Ασφάλεια κωδικού",
-        "weak": "Χαμηλή",
-        "medium": "Μέτρια",
-        "strong": "Υψηλή",
-        "very-strong": "Πολύ υψηλή"
+        "desc": "Use a mixture of upper and lowercase letters, numbers and special characters for a stronger password.",
+        "tips": "Password creation tips",
+        "password-strength": "Password strength",
+        "weak": "Weak",
+        "medium": "Medium",
+        "strong": "Strong",
+        "very-strong": "Very strong"
       }
     },
     "verify-email": {
-      "header": "Σας στείλαμε ενα e-mail!",
-      "desc-1": "Παρακαλούμε ελέγξτε το email σας και επιβεβαιώστε τον λογαριασμό.",
-      "desc-2": "Εάν δεν λάβατε κάποιο μήνυμα, ελέγξτε τον φάκελο ανεπιθύμητης αλληλογραφίας.",
-      "resend": "Αποστολή μηνύματος e-mail ξανά",
-      "resend-delay": "Παρακαλούμε περιμένετε {{count}} δευτερόλεπτο…",
-      "resend-delay_plural": "Παρακαλούμε περιμένετε {{count}} δευτερόλεπτα…",
-      "back": "Πίσω στη σύνδεση",
-      "success": "Το e-mail επιβεβαίωσης εστάλη επιτυχώς!",
+      "header": "We’ve sent you an email!",
+      "desc-1": "Please check your email and verify your account.",
+      "desc-2": "If you don’t see our email, check your junk folder.",
+      "resend": "Resend verification email",
+      "resend-delay": "Please wait {{count}} second…",
+      "resend-delay_plural": "Please wait {{count}} seconds…",
+      "back": "Back to sign-in",
+      "success": "Verification email resent successfully!",
       "errors": {
-        "generic-error": "Η επαναποστολή του e-mail επιβεβαίωσης απέτυχε. Παρακαλούμε δοκιμάστε ξανά."
+        "generic-error": "Error resending verification email. Please try again."
       }
     }
   },
   "account-setup": {
-    "tab-title": "Ρύθμιση λογαριασμού",
+    "tab-title": "Set up account",
     "steps": [
-      "Δώδεκα μυστικές λέξεις",
-      "2FA"
+      "Twelve secret words",
+      "Two-factor authentication"
     ],
     "general-information": {
-      "title": "Γενικές πληροφορίες",
-      "header": "Ας δημιουργήσουμε τον προσωπικό σας λογαριασμό",
-      "desc-1": "Your personal account is generated using twelve secret words. If you lose your password, you can access your account and reset it using these words. For this reason, you absolutely must back up your twelve secret words properly.",
-      "continue": "Get my twelve secret words",
-      "skip2Fa": "Set up it later",
+      "title": "General information",
+      "header": "Let’s create your personal account",
+      "desc-1": "Ο προσωπικός σας λογαριασμός δημιουργήθηκε χρησιμοποιώντας 12 μυστικές λέξεις. Εάν χάσετε τον κωδικό σας, μπορείτε να επαναφέρετε το λογαριασμό σας χρησιμοποιώντας αυτές τις λέξεις. Οπότε, θα πρέπει να κρατήσετε οπωσδήποτε αντίγραφο ασφαλείας αυτών των λέξεων.",
+      "continue": "Δώστε μου τις μυστικές λέξεις",
+      "skip2Fa": "Ρυθμίστε το αργότερα",
       "chart": {
-        "card-top": "Twelve secret words",
-        "card-top-right": "Nash account recovery if password is forgotten",
-        "diamond-one": "Used in",
-        "diamond-two": "Generate your personal account, which contains…",
-        "card-btc": "Bitcoin account",
-        "card-neo": "NEO account",
-        "card-eth": "Ethereum account",
-        "card-future": "Any future accounts"
+        "card-top": "Δώδεκα μυστικές λέξεις",
+        "card-top-right": "Επαναφορά λογαριασμού Nash εάν χαθεί ο κωδικός πρόσβασης",
+        "diamond-one": "Χρησιμοποιείται σε",
+        "diamond-two": "Δημιουργήστε τον προσωπικό σας λογαριασμό, ο οποίος περιέχει…",
+        "card-btc": "Λογαριασμό Bitcoin",
+        "card-neo": "Λογαριασμό NEO",
+        "card-eth": "Λογαριασμό Ethereum",
+        "card-future": "Όλους τους μελλοντικούς λογαριασμούς"
       }
     },
     "secret-words": {
-      "title": "Secret words",
-      "header": "Write down your twelve secret words",
-      "desc": "These words are used to access your funds. You will also need them to reset your password.",
-      "popup-error": "If you wish to print your secret words, please disable any popup blockers and allow Nash to open popups.",
-      "continue": "Continue",
-      "go-back": "Go back",
-      "written-down": "I’ve written down my words.",
-      "check-my-backup": "Check my backup",
+      "title": "Μυστικές λέξεις",
+      "header": "Γράψτε τις δώδεκα μυστικές σας λέξεις",
+      "desc": "Αυτές οι λέξεις χρησιμοποιούνται για την πρόσβαση στα χρήματά σας. Επίσης, θα χρειαστούν σε περίπτωση απώλειας του κωδικού σας.",
+      "popup-error": "Εάν επιθυμείτε εκτύπωση των λέξεων, παρακαλούμε απενεργοποιήστε τυχόν αποκλειστές αναδυόμενων παραθύρων και επιτρέψτε στο Nash να ανοίγει αναδυόμενα παράθυρα.",
+      "continue": "Συνέχεια",
+      "go-back": "Επιστροφή",
+      "written-down": "Έχω γράψει τις λέξεις μου.",
+      "check-my-backup": "Έλεγχος του αντιγράφου ασφαλείας μου",
       "tips": {
-        "do": "Do write down your words by hand.",
-        "dont": "Don’t screengrab or store your words digitally."
+        "do": "Γράψτε τις λέξεις χειρόγραφα.",
+        "dont": "Μην αποθηκεύετε τις λέξεις ψηφιακά η με στιγμιότυπο οθόνης."
       },
       "modals": {
         "print-warning": {
-          "title": "Print your twelve secret words",
-          "header": "Please make sure your printer is secure!",
-          "body-desc": "If you choose to print your words, make sure:",
-          "body-tips-0": "Your printer is connected to your computer directly with a USB cable.",
-          "body-tips-1": "Your printer is not connected to a network of any kind.",
-          "body-tips-2": "It is impossible for others to connect to your printer via Bluetooth, WLAN, etc.",
-          "button": "I understand – print my words"
+          "title": "Εκτυπώστε τις δώδεκα μυστικές λέξεις",
+          "header": "Παρακαλούμε βεβαιωθείτε οτι ο εκτυπωτής είναι ασφαλής!",
+          "body-desc": "Εάν επιλέξετε να εκτυπώσετε τις λέξεις σας, βεβαιωθείτε πρώτα:",
+          "body-tips-0": "Ο εκτυπωτής είναι απευθείας συνδεδεμένος με τον υπολογιστή με καλώδιο USB.",
+          "body-tips-1": "Ο εκτυπωτής δεν έχει σύνδεση με κανενός είδους δίκτυο.",
+          "body-tips-2": "Είναι αδύνατο σε άλλους να συνδεθούν με τον εκτυπωτή σας μέσω Bluetooth, WLAN, κ.λ.π..",
+          "button": "Κατανοητό – εκτυπώστε τις λέξεις"
         }
       },
-      "print-window-title": "Nash | Secret word backup",
+      "print-window-title": "Nash | Αντίγραφο ασφαλείας μυστικών λέξεων",
       "backup-print": {
-        "header": "Secret word backup",
-        "desc-1": "Your twelve secret words can be used to access your ETH, NEO and other accounts if you lose your Nash password.",
-        "desc-2": "Remember: if anyone gains access to your words, your funds are in danger.",
-        "desc-3": "Cut out the slips below. Consider laminating them and storing them in two separate locations."
+        "header": "Αντίγραφο ασφαλείας μυστικών λέξεων",
+        "desc-1": "Οι δώδεκα μυστικές λέξεις μπορούν να χρησιμοποιηθούν για την πρόσβαση σε ETH, NEO και άλλους λογαριασμούς σας, εάν χάσετε τον κωδικό σας στο Nash.",
+        "desc-2": "Να θυμάστε: εάν κάποιος αποκτήσει πρόσβαση στις λέξεις σας, τα χρήματά σας βρίσκονται σε κίνδυνο.",
+        "desc-3": "Κόψτε τις λωρίδες παρακάτω. Σκεφθείτε να τις πλαστικοποιήσετε και να τις αποθηκεύσετε σε δυο ξεχωριστές τοποθεσίες."
       },
       "repeat-secret-words": {
-        "header": "Repeat your twelve secret words",
-        "desc": "We want to make sure you wrote down your secret words.",
-        "input-placeholder": "Word {{index}}",
-        "case-sensitive": "All words are lowercase",
-        "create-my-wallet": "Create my account",
-        "generating-your-wallet": "Generating your Nash account…",
-        "words-confirmed-continuing": "Words confirmed! Continuing to your account…"
+        "header": "Επανάληωη των δώδεκα μυστικών λέξεών σας",
+        "desc": "Θέλουμε να βεβαιωθούμε οτι γράψατε τις δώδεκα λέξεις σας.",
+        "input-placeholder": "Λέξη {{index}}",
+        "case-sensitive": "Όλες οι λέξεις είναι με πεζούς χαρακτήρες",
+        "create-my-wallet": "Δημιουργία λογαριασμού",
+        "generating-your-wallet": "Δημιουργία του λογαριασμού σας στο Nash…",
+        "words-confirmed-continuing": "Λέξεις επιβεβαιώθηκαν! Συνέχεια στον λογαριασμό σας…"
       },
       "wallet-created": {
-        "header": "Your Nash account was created successfully!",
-        "desc": "You can find your twelve secret words and individual account details under ‘My profile > Accounts’.",
-        "warning": "<0>We do not store your secret words in any location.</0> If you forget your password, you will not be able to access your funds without these words.",
-        "continue": "Set up two-factor authentication",
-        "continue-location": "Set location of residence"
+        "header": "Ο λογαριασμός σας στο Nash δημιουργήθηκε επιτυχώς!",
+        "desc": "Μπορείτε να βρείτε τις δώδεκα λέξεις και τις πληροφορίες του προφίλ σας στο μενού ‘Το προφίλ μου > Λογαριασμοί’.",
+        "warning": "<0>Δεν αποθηκεύουμε πουθενά τις μυστικές λέξεις σας.</0> Εάν ξεχάσετε τον κωδικό σας, δε θα έχετε πρόσβαση στα χρήματά σας χωρίς αυτές τις λέξεις.",
+        "continue": "Ρύθμιση 2FA (Ταυτοποίηση 2 παραγόντων)",
+        "continue-location": "Ρύθμιση τόπου κατοικίας"
       }
     },
     "2fa": {
-      "title": "Two-factor authentication",
-      "header": "Recommended: Enable two-factor authentication",
-      "skip": "Skip",
-      "desc": "Two-factor authentication (2FA) adds an extra layer of security to your account.",
+      "title": "Ταυτοποίηση 2 παραγόντων (2FA)",
+      "header": "Προτείνεται: Ενεργοποίηση 2FA",
+      "skip": "Παράλειψη",
+      "desc": "Ο κωδικός 2FA προσθέτει ένα επιπλέον επίπεδο ασφαλείας στο λογαριασμό σας.",
       "cards": {
         "1": {
-          "header": "Download and install an authenticator app",
-          "desc": "Such as <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+          "header": "Κατεβάστε και εγκαταστήστε μια εφαρμογή 2FA",
+          "desc": "Όπως <0> το LastPass Authenticator</0>, <1>το Authy</1> ή τον <2>Επαληθευτή Google</2>."
         },
         "2": {
-          "header": "Scan this QR code with your chosen downloaded app",
-          "manual-2fa": "Write down your 2FA backup code"
+          "header": "Σκανάρετε αυτον τον κωδικό QR με την εφαρμογή που επιλέξατε",
+          "manual-2fa": "Κρατήστε ένα αντίγραφο ασφαλείας του βασικού κωδικού για το 2FA"
         },
         "3": {
-          "header": "Enter the verification code generated by your authenticator app",
-          "input-placeholder": "Authentication code",
-          "input-error": "The code you entered was incorrect."
+          "header": "Εισάγετε τον κωδικό επαλήθευσης που δημιούργησε η εφαρμογή 2FA",
+          "input-placeholder": "Κωδικός επαλήθευσης",
+          "input-error": "Εισάγατε λάθος κωδικό."
         }
       },
       "confirm": {
-        "header": "Two-factor authentication has been set up!",
-        "desc": "You can find your two-factor authentication preferences under ‘My profile > Security’ within the Nash web platform.",
-        "action": "What do you want to do now?",
-        "continue-deposit": "Deposit funds",
-        "continue-explore": "Explore"
+        "header": "Το 2FA έχει ρυθμιστεί!",
+        "desc": "Μπορείτε να βρείτε τις ρυθμίσεις για το 2FA στο μενού ‘Το προφίλ μου > Ασφάλεια’ στην πλατφόρμα του Nash.",
+        "action": "Τι θα θέλατε να κάνετε τώρα;",
+        "continue-deposit": "Κατάθεση χρημάτων",
+        "continue-explore": "Εξερεύνηση"
       }
     }
   },
   "trade": {
     "footer": {
-      "title-limits": "Limits",
-      "title-balances-and-limits": "Balances and limits",
-      "increase-my-limits": "Increase my limits",
+      "title-limits": "Όρια",
+      "title-balances-and-limits": "Υπόλοιπα και όρια",
+      "increase-my-limits": "Αύξηση ορίων",
       "limits": {
-        "day": "Day",
-        "month": "Month",
-        "year": "Year",
-        "spend-of-limit": "of"
+        "day": "Ημέρα",
+        "month": "Μήναα",
+        "year": "Έτος",
+        "spend-of-limit": "από"
       }
     },
     "messages": {
-      "create-order-blocked": "You are unable to create orders on the exchange for this market in your region."
+      "create-order-blocked": "Δε μπορείτε να δημιουργήσετε παραγγελίες στο ανταλλακτήριο για αυτή την αγορά στην περιοχή σας."
     }
   },
   "advanced-exchange": {
-    "title": "Pro view",
+    "title": "Προβολή Pro",
     "header": {
-      "switch-to-simplified": "Switch to basic view",
-      "current-market": "Market",
-      "last-price": "Last traded price",
-      "last-24h": "Last 24h",
-      "24h-change": "change",
-      "24h-high": "High",
-      "24h-low": "Low",
-      "24h-volume": "Volume",
-      "my-portfolio": "My portfolio"
+      "switch-to-simplified": "Αλλαγή σε βασική προβολή",
+      "current-market": "Αγορά",
+      "last-price": "Τελευταία τιμή ανταλλαγής",
+      "last-24h": "Τελευταίες 24 ώρες",
+      "24h-change": "μεταβολή",
+      "24h-high": "Ανώτατο",
+      "24h-low": "Κατώτατο",
+      "24h-volume": "Όγκος",
+      "my-portfolio": "Το πορτοφόλι μου"
     },
     "banners": {
       "USDT-USDC": {
-        "remind-later": "Remind me later",
-        "dismiss-forever": "Dismiss forever",
-        "no-fees": "No fees are charged on this market until March 2021"
+        "remind-later": "Υπενθύμιση αργότερα",
+        "dismiss-forever": "Να μην εμφανιστεί ξανά",
+        "no-fees": "Οι συναλλαγές δεν χρεώνονται σε αυτή την αγορά μέχρι τον Μάρτιο του 2021"
       }
     },
     "tips": {
-      "balance": "Send funds to the trading contract here."
+      "balance": "Στείλτε χρήματα στο πορτοφόλι ανταλλαγών εδώ."
     },
-    "no-markets": "No markets are currently available.",
+    "no-markets": "Προς το παρόν δεν υπάρχουν διαθέσιμες αγορές.",
     "auth": {
-      "to-start-trading": "To start trading"
+      "to-start-trading": "Για να ξεκινήσετε τις ανταλλαγές"
     },
     "balances": {
-      "title": "Accounts"
+      "title": "Λογαριασμοί"
     },
     "market-selection": {
-      "no-results": "We couldn’t find any results for <0>{{searchTerm}}</0>.",
-      "no-favorites": "You have no favorite markets yet.",
-      "pair": "Pair",
-      "24hvol": "24h volume",
-      "24hprice": "24h change",
+      "no-results": "Κανένα αποτέλεσμα για <0>{{searchTerm}}</0>.",
+      "no-favorites": "Δεν έχετε προσθέσει αγορές στα αγαπημένα ακόμα.",
+      "pair": "Ζευγάρι",
+      "24hvol": "24ωρος όγκος",
+      "24hprice": "24ωρη μεταβολή",
       "tabs": {
-        "all": "All",
-        "favorites": "Favorites"
+        "all": "Όλα",
+        "favorites": "Αγαπημένα"
       }
     },
     "favorite-bar": {
-      "tips": "Add favorite markets as links here."
+      "tips": "Προσθέστε αγαπημένα ζεύγη εδώ σαν συνδέσμους."
     },
     "market-graphs": {
-      "title": "Graphs",
-      "market-paused": "Market paused",
+      "title": "Γραφήματα",
+      "market-paused": "Αγορά σε παύση",
       "price-chart": {
-        "title": "Price",
+        "title": "Τιμή",
         "heads-up-display": {
           "ohlc": {
-            "o": "O",
-            "h": "H",
-            "l": "L",
-            "c": "C"
+            "o": "A",
+            "h": "Y",
+            "l": "X",
+            "c": "K"
           },
-          "vol": "Volume"
+          "vol": "Όγκος"
         },
         "chart-types": {
-          "bars": "Bars",
-          "candles": "Candles",
-          "hollow-candles": "Hollow candles",
+          "bars": "Μπάρες",
+          "candles": "Κεριά",
+          "hollow-candles": "Κοίλα κεριά",
           "heikin-ashi": "Heikin-Ashi",
-          "line": "Line",
-          "area": "Area"
+          "line": "Γραμμή",
+          "area": "Περιοχή"
         },
         "studies": {
-          "title": "Indicators",
-          "search": "Search",
-          "no-results": "No results for your criteria"
+          "title": "Δείκτες",
+          "search": "Αναζήτηση",
+          "no-results": "Κανένα αποτέλεσμα για τα κριτήριά σας"
         },
         "price-chart-selector": {
-          "chart-iq": "Standard chart",
-          "trading-view": "TradingView chart"
+          "chart-iq": "Τυπικό διάγραμμα",
+          "trading-view": "Διάγραμμα προβολής ανταλλαγών"
         },
         "candle-frequency": {
-          "1m": "1m",
-          "5m": "5m",
-          "15m": "15m",
-          "30m": "30m",
-          "1h": "1h",
-          "3h": "3h",
-          "4h": "4h",
-          "6h": "6h",
-          "12h": "12h",
-          "1d": "1d",
-          "1w": "1w",
-          "1M": "1M"
+          "1m": "1λ",
+          "5m": "5λ",
+          "15m": "15λ",
+          "30m": "30λ",
+          "1h": "1ώ",
+          "3h": "3ώ",
+          "4h": "4ώ",
+          "6h": "6ώ",
+          "12h": "12ώ",
+          "1d": "1μ",
+          "1w": "1εβδ",
+          "1M": "1μήν"
         },
         "study-overlay-menu": {
-          "edit-study": "Edit settings",
-          "remove-study": "Remove indicator"
+          "edit-study": "Επεξεργασία ρυθμίσεων",
+          "remove-study": "Αφαίρεση δείκτη"
         },
         "edit-study-modal": {
           "tabs": {
             "inputs": {
-              "label": "Inputs"
+              "label": "Είσοδοι"
             },
             "outputs": {
-              "label": "Style"
+              "label": "Στυλ"
             },
             "parameters": {
-              "label": "Settings"
+              "label": "Ρυθμίσεις"
             }
           },
           "buttons": {
             "update": {
-              "label": "Update"
+              "label": "Ενημέρωση"
             },
             "cancel": {
-              "label": "Cancel"
+              "label": "Ακύρωση"
             }
           }
         }
       },
       "depth-chart": {
-        "title": "Depth",
+        "title": "Βάθος",
         "tooltip": {
-          "price": "Price: <0>{{price}}</0>",
-          "volume": "Volume: <0>{{volume}}</0>"
+          "price": "Τιμή: <0>{{price}}</0>",
+          "volume": "Όγκος: <0>{{volume}}</0>"
         }
       },
-      "clear-studies-button-label": "Clear all indicators"
+      "clear-studies-button-label": "Καθαρισμός όλων των δεικτών"
     },
     "update-order": {
-      "new-limit": "Set a new price",
-      "new-stop": "Set a new stop price",
-      "save": "Save changes",
-      "cancel": "Cancel"
+      "new-limit": "Εισάγετε νέα τιμή",
+      "new-stop": "Εισάγετε νέα τιμή στάσης",
+      "save": "Αποθήκευση αλλαγών",
+      "cancel": "Ακύρωση"
     },
     "create-order": {
-      "buy": "Buy {{currencySymbol}}",
-      "sell": "Sell {{currencySymbol}}",
-      "market-paused": "This market is currently paused for maintenance. You will be unable to make trades.",
+      "buy": "Αγορά {{currencySymbol}}",
+      "sell": "Πώληση {{currencySymbol}}",
+      "market-paused": "Η αγορά είναι σε παύση λόγω συντήρησης. Δε μπορείτε να πραγματοποιήσετε συναλλαγές.",
       "locked-trading-session": {
-        "information": "Your trading session is locked.",
-        "information-tooltip": "Sessions are locked when you refresh the page or are idle for 15 minutes.",
-        "enter-credentials-to-unlock": "<0>Unlock now</0>"
+        "information": "Η σύνδεσή σας για συναλλαγές έχει λήξει.",
+        "information-tooltip": "Οι συνδέσεις λήγουν εάν ανανεώσετε τη σελίδα η μείνετε ανενεργοί για 15 λεπτά.",
+        "enter-credentials-to-unlock": "<0>Ξεκλείδωμα</0>"
       },
       "market-orders-disabled": {
-        "header": "Insufficient market depth",
-        "desc": "There are currently not enough orders on the book for market orders to be processed."
+        "header": "Μη επαρκές βάθος αγοράς",
+        "desc": "Προς το παρόν δεν υπάρχουν αρκετές παραγγελίες στο βιβλίο για να πραγματοποιηθούν οι παραγγελίες της αγοράς."
       },
       "order-type-tab": {
         "market": "Market",
