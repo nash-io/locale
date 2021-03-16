@@ -1,6 +1,10 @@
-import { readJsonSync, walkSync } from 'https://deno.land/std@0.54.0/fs/mod.ts'
+import { walkSync } from 'https://deno.land/std@0.84.0/fs/mod.ts'
 
 import traverse, { Traversal } from './traverse.ts'
+
+function readJsonSync(path: string): object {
+  return JSON.parse(Deno.readTextFileSync(path))
+}
 
 export interface FileInfo {
   path: string
@@ -24,11 +28,11 @@ export default function walkLocales(
   walker: Walker,
 ) {
   const defaultLocaleFileName = defaultLocalePath.split('/').splice(-1)[0]
-  const defaultLocaleJson = readJsonSync(defaultLocalePath) as object
+  const defaultLocaleJson = readJsonSync(defaultLocalePath)
   const defaultTraversal = traverse(defaultLocaleJson)
 
   if (localesPath.endsWith('.json')) {
-    const translation = readJsonSync(localesPath) as object
+    const translation = readJsonSync(localesPath)
     const translationTraversal = traverse(translation)
     const translationFileName = localesPath.split('/').splice(-1)[0]
     const fileInfo = {
@@ -50,7 +54,7 @@ export default function walkLocales(
     if (!fileInfo.isFile || fileInfo.name === defaultLocaleFileName) {
       continue
     }
-    const translation = readJsonSync(fileInfo.path) as object
+    const translation = readJsonSync(fileInfo.path)
     const translationTraversal = traverse(translation)
     walker(fileInfo, {
       defaultTraversal,

@@ -28,8 +28,8 @@
   "exchange": "Börse",
   "receive": "Empfangen",
   "send": "Senden",
-  "convert": "Convert",
-  "review": "Review",
+  "convert": "Konvertieren",
+  "review": "Prüfen",
   "wallet": "Wallet",
   "upload": "Hochladen",
   "processing": "Wird verarbeitet",
@@ -41,33 +41,33 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
-  "dismiss": "Dismiss",
+  "dismiss": "Verbergen",
   "dismiss-forever": "Für immer verbergen",
   "remind-me-later": "Erinnere mich später",
-  "got-it": "Got it!",
-  "deposit": "Deposit",
-  "review-deposit": "Review deposit",
-  "withdraw": "Withdraw",
-  "review-withdraw": "Review withdraw",
+  "got-it": "Verstanden!",
+  "deposit": "Einzahlen",
+  "review-deposit": "Einzahlung prüfen",
+  "withdraw": "Abheben",
+  "review-withdraw": "Abhebung prüfen",
   "no-limit": "Keine Limits",
   "learn-more": "Erfahre mehr",
-  "approve-currency": "Approve {{currency}}",
-  "approve-currency-once": "You will need to approve transfers of this asset once.",
-  "approve-currency-everytime": "You will need to approve transfers of this asset every time.",
-  "approve-currency-loading": "This can take up to 1 minute",
-  "verified": "Verified",
+  "approve-currency": "Bestätige {{currency}}",
+  "approve-currency-once": "Du musst die Transfers für dieses Asset einmalig bestätigen.",
+  "approve-currency-everytime": "Du musst die Transfers für dieses Asset jedes mal erneut bestätigen.",
+  "approve-currency-loading": "Dies kann bis zu einer Minute dauern",
+  "verified": "Verifiziert",
   "nash-cash": "Nash Cash",
   "nex-staking": "NEX staking",
-  "available": "Available",
-  "view": "View",
-  "terms-and-conditions": "Terms and conditions",
-  "sign-in": "Sign in",
-  "read-more": "Read more",
-  "coming-soon": "Coming soon",
+  "available": "Verfügbar",
+  "view": "Anzeigen",
+  "terms-and-conditions": "Geschäftsbedingungen",
+  "sign-in": "Einloggen",
+  "read-more": "Erfahre mehr",
+  "coming-soon": "Bald verfügbar",
   "million": "Million",
-  "million/short": "M",
-  "volume": "Volume",
-  "volume/lowercase": "volume",
+  "million/short": "Mio.",
+  "volume": "Volumen",
+  "volume/lowercase": "Volumen",
   "apikeys": {
     "no-addresses-whitelisted": "Du hast noch keine Adressen auf die Whitelist gesetzt",
     "address-input-placeholder": "Gib eine BTC-, NEO- oder ETH-Adresse in die Whitelist ein",
@@ -323,9 +323,9 @@
   },
   "search": "Suchen …",
   "loading": "Laden …",
-  "trades-downloading": "Downloading trades …",
-  "trades-found": "{{count}} trade found …",
-  "trades-found_plural": "{{count}} trades found …",
+  "trades-downloading": "Lade Tradehistorie herunter …",
+  "trades-found": "{{count}} Trade gefunden …",
+  "trades-found_plural": "{{count}} Trades gefunden …",
   "pending": "Ausstehend …",
   "cancelling": "Abbrechen …",
   "authenticating": "Authentifizierung …",
@@ -911,7 +911,7 @@
             "maybe-insufficient-funds": "{{currencySymbol}} unzureichend.",
             "order-too-small": "Die Gesamtsumme muss {{orderSize}} {{currencySymbol}} überschreiten.",
             "limit-breached": "Diese Order überschreitet dein Handelslimit.",
-            "soft-limit-breached": "You’re close to your trading limit. <0>Upgrade</0> your verification tier to trade more."
+            "soft-limit-breached": "Du hast dein Tradinglimit fast erschöpft. <0>Upgrade</0> dein Verifizierungslevel, um mehr zu traden."
           }
         },
         "cancel-at": {
@@ -1957,7 +1957,7 @@
       "daily-limits-header": "Verbleibende Limits nach dieser Order.",
       "current-price-label": "Aktueller Preis | <0 />",
       "current-price-unavailable": "Aktueller Preis nicht verfügbar.",
-      "unavailable": "Price unavailable. Try again soon.",
+      "unavailable": "Preis zur Zeit nicht verfügbar. Versuche es gleich noch einmal.",
       "buy-with-input-label-no-cur": "Bezahlen mit",
       "sell-with-input-label-no-cur": "Überweisung an",
       "buy-with-input-label": "Bezahlen mit {{currency}}",
@@ -2783,10 +2783,10 @@
       "use-exact-name": "Benutze genau diesen Namen",
       "recipient-address": "Empfängeradresse",
       "recipient-bank-country": "Land der empfangenden Bank",
-      "exact-name-warning-1": "You <0>must</0> specify the recipient as ‘<1>Neon Exchange AG</1>’.",
-      "exact-name-warning-2": "Transfers to ‘Nash’ or other names will be <0>returned at your own cost</0>.",
-      "exact-name-warning-3": "Your bank account name must match the name on your Nash account. <0>Do not</0> use third-party services (e.g. TransferWise).",
-      "btn-exact-name-warning": "Got it"
+      "exact-name-warning-1": "Du <0>musst</0> die ‘<1>Neon Exchange AG</1>’ als Empfänger angeben.",
+      "exact-name-warning-2": "Überweisungen an ‘Nash’ oder andere Namen werden auf <0>deine Kosten zurücküberwiesen</0>.",
+      "exact-name-warning-3": "Der Name des Kontoinhabers muss mit dem Namen in deinem Nashaccount übereinstimmen. Benutze <0>keine</0> Third-party Services (z.B. TransferWise).",
+      "btn-exact-name-warning": "Verstanden"
     },
     "timeout-message": "Dieser Wechselkurs wird garantiert für:",
     "network-error": "Netzwerkfehler. Bitte erneut versuchen.",
@@ -2997,7 +2997,7 @@
       "success": "Erneute Synchronisierung abgeschlossen!"
     },
     "transaction-retry": {
-      "transfers-page-retry-button-title": "Retry transaction",
+      "transfers-page-retry-button-title": "Transaktion erneut starten",
       "title": "Transaktionen wiederholen",
       "subtitle": "Alle ausstehenden oder fehlgeschlagenen Transaktionen",
       "actions-title": "Aktionen",
@@ -3024,8 +3024,8 @@
       },
       "transferring-funds": {
         "title": "Assets senden und empfangen",
-        "desc": "Nash Channels let you trade at lightning speed with no blockchain fees and without giving up custody. Send funds to Nash Channels from your Nash wallet.",
-        "learn-more-never-show": "<0>Mehr erfahren</0> oder <1>nie wieder zeigen</1>.",
+        "desc": "Mit Nash Channels kannst du, ohne Blockchaingebühren und ohne die Kontrolle über deine Assets abzugeben, blitzschnell traden. Sende Assets aus deiner Nash Wallet direkt in die Nash Channels.",
+        "learn-more-never-show": "<0>Mehr erfahren</0> oder <1>nie wieder anzeigen</1>.",
         "learn-more": "Mehr erfahren",
         "never-show": "Diese Meldung nicht wieder anzeigen."
       },
@@ -3040,9 +3040,9 @@
           "claiming": "Ich beanspruche …",
           "claim": "GAS beanspruchen",
           "gas-to-claim": "Du kannst {{amount}} GAS beanspruchen.",
-          "no-gas-to-claim": "You have no GAS to claim.",
+          "no-gas-to-claim": "Kein Gas zum beanspruchen vorhanden",
           "claiming-now": "Du beanspruchst derzeit GAS.",
-          "error-claiming": "Error claiming GAS.",
+          "error-claiming": "Fehler beim GAS beanspruchen",
           "claiming-locked": "Du kannst das GAS in ~{{count}} Minute erneut beanspruchen.",
           "claiming-locked_plural": "Du kannst das GAS in ~{{count}} Minuten erneut beanspruchen."
         },
@@ -3072,11 +3072,11 @@
           "action-buttons": {
             "trade": "Handeln",
             "transfer-funds": "Senden/Empfangen",
-            "convert": "Convert",
+            "convert": "Konvertieren",
             "send": "Senden",
             "receive": "Empfangen",
             "nash-channels": "Nash Channels",
-            "nash-channels-untradable": "This asset isn’t tradable in Nash"
+            "nash-channels-untradable": "Dieses Asset kann zur Zeit nicht auf Nash getraded werden."
           }
         },
         "no-results": "Du hast noch keine Assets auf deinem Nash-Konto."
@@ -3239,35 +3239,35 @@
           }
         },
         "volume": {
-          "exceeds-deposit-limit": "Exceeds deposit limit",
-          "upgrade-tier-or-wait": "<0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.",
-          "near-deposit-limit": "This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!"
+          "exceeds-deposit-limit": "Übersteigt Einzahlungslimit",
+          "upgrade-tier-or-wait": "<0>Erhöhe dein Verifizierungslevel</0>, um mehr Assets einzuzahlen oder warte, bis du zurück unter das Limit fällst. \n\n Auszahlungen werden niemals blockiert.",
+          "near-deposit-limit": "Dieser Transfer übersteigt dein Einzahlungslimit, wird aber trotzdem deinem Account gutgeschrieben. Du wirst dein Verifikationslevel bald erhöhen müssen!"
         }
       },
       "nash-channels": {
         "explanation": {
-          "title": "On our Layer-2 network\n you always control your funds",
-          "fast-trade": "Lightning-fast cross-chain trading",
-          "trade-without-fees": "Trade without blockchain fees",
-          "nash-cash": "Buy/sell on Nash Cash at 0% fees"
+          "title": "In unserem Layer-2 Netzwerk\n hast du immer die volle Kontrolle über dein Geld",
+          "fast-trade": "Blitzschnelles Cross-Chain-Trading",
+          "trade-without-fees": "Traden ohne Blockchaingebühren",
+          "nash-cash": "Mit NashCash für 0% Gebühren kaufen und verkaufen"
         },
         "transfer-funds": {
-          "require-approval": "You need to approve {{currency}} before you can deposit to Nash Channels.",
-          "no-funds": "You don’t have any {{currency}} available to {{mode}}.",
-          "no-funds-nash-cash": "<0>Deposit {{currency}}</0> from an external account or purchase at a 0% fee through Nash Cash."
+          "require-approval": "Du musst {{currency}} bestätigen bevor du diese in die Nash Channels einzahlen kannst.",
+          "no-funds": "Du hast keine {{currency}} verfügbar um zu {{mode}}.",
+          "no-funds-nash-cash": "<0>Zahle {{currency}}</0> von einem externen Account ein oder kaufe mit 0% Gebühren via Nash Cash"
         }
       },
       "nex-swap": {
         "info": {
-          "title": "Convert NEX between the NEO and Ethereum blockchains",
-          "markets": "Gain access to secondary markets on Ethereum, e.g. Uniswap",
-          "staking": "Stake NEP-5 NEX tokens to receive dividends"
+          "title": "Konvertiere NEX zwischen der Ethereum- und der NEO-Blockchain",
+          "markets": "Erhalte Zugriff auf Secondary-Märkte wie z.B. Uniswap",
+          "staking": "Stake deine NEP-5 NEX Token, um Dividenden zu erhalten"
         },
-        "tier-verification": "To convert NEX, please complete <0>Tier 1 verification</0>.",
-        "minimum-amount": "Minimum conversion of {{amount}}",
-        "modal-title": "Convert {{from}} to {{to}}",
-        "convert-with-currency": "Convert {{currency}}",
-        "conversion-started": "Conversion started"
+        "tier-verification": "Um NEX zu konvertieren, schließe bitte das <0>Verifikationslevel 1</0> ab.",
+        "minimum-amount": "Mindestmenge für die Konvertierung: {{amount}}",
+        "modal-title": "Konvertiere {{from}} zu {{to}}",
+        "convert-with-currency": "Konvertiere {{currency}}",
+        "conversion-started": "Konvertierung gestartet"
       },
       "receive-assets": {
         "wallet-address": "Wallet Adresse",
@@ -3285,15 +3285,15 @@
         "dismiss-link": "Endgültig ausblenden und weitermachen"
       },
       "select-asset": {
-        "search-placeholder": "Search over 3,000 assets …",
-        "title-receive": "Select an asset to receive",
-        "title-send": "Select an asset to send",
-        "show-usd-value": "Show USD value",
-        "available-balance": "Available balance",
+        "search-placeholder": "Suche in über 3000 Assets …",
+        "title-receive": "Wähle ein Asset zum Empfangen aus",
+        "title-send": "Wähle ein Asset zum Senden aus",
+        "show-usd-value": "Zeige USD-Wert",
+        "available-balance": "Zeige Kontostand",
         "groups": {
-          "yours": "Your assets",
-          "popular": "Popular assets",
-          "other": "Other assets"
+          "yours": "Deine Assets",
+          "popular": "Beliebte Assets",
+          "other": "Andere Assets"
         }
       }
     },
@@ -3339,14 +3339,14 @@
             "personal-account": "Nash Wallet",
             "nash-fiat-ramp": "An Nash verkaufen",
             "staking-account": "NEX Staking Contract",
-            "nex-swap": "NEX swap contract",
+            "nex-swap": "NEX Swap Contract",
             "fees": "Gebühren"
           },
           "from": {
             "trading-account": "Von den Nash Channels",
             "personal-account": "Von meiner Wallet",
             "nash-fiat-ramp": "Kauf von Nash",
-            "nex-swap": "From NEX swap contract",
+            "nex-swap": "Aus dem NEX Swap Contract",
             "external-address": "Von <0 />"
           }
         },
@@ -3550,7 +3550,7 @@
       "available-amount-send": "Verfügbar zum Senden",
       "available-amount-nash-channels-deposit": "Verfügbar zum Einzahlen",
       "available-amount-nash-channels-withdraw": "Verfügbar zum Auszahlen",
-      "available-amount-convert": "Available to convert",
+      "available-amount-convert": "Verfügbar für Konvertierung",
       "wallets": {
         "personal-account": "Nash Wallet",
         "nash-channels": "Nash Channels",
@@ -3923,7 +3923,7 @@
         "funds-trading-to-personal": "Ich Assets aus den Nash Channels erhalte",
         "staking-stake-complete": "Ein NEX-Stake zum Ende kommt",
         "staking-weekly-summary": "Eine wöchentliche Zusammenfassung meiner Dividenden verfügbar ist",
-        "nash-channels-limit": "I exceed my Nash Channels deposit limit"
+        "nash-channels-limit": "Wenn ich das Nash Channels Einzahlungslimit übersteige"
       }
     },
     "security": {
@@ -4063,15 +4063,15 @@
     },
     "my-limits": {
       "header": "Handelslimits",
-      "desc": "Nash never blocks withdrawals, but they count towards your Nash Channels deposit limit. <0>Learn more</0> about limits.",
-      "24h-volume": "24h trading volume",
-      "30d-volume": "30d trading volume",
-      "1y-volume": "1y trading volume",
-      "view-fee-tiers": "View fee tiers",
-      "your-taker-fee": "Your taker fee",
-      "unavailable-with-tier-0": "Unavailable at Tier 0.",
-      "limit-yearly-buys": "<0 />/yearly buys",
-      "limit-yearly-sales": "<0 />/yearly sales",
+      "desc": "Nash blockiert niemals Auszahlungen, aber sie werden trotzdem zu deinen Nash Channels Limits gezählt. Erfahre <0>hier</0> mehr über Limits",
+      "24h-volume": "24 Std. Handelsvolumen",
+      "30d-volume": "30 Tage Handelsvolumen",
+      "1y-volume": "1 Jahr Handelsvolumen",
+      "view-fee-tiers": "Zeige Gebührenstruktur",
+      "your-taker-fee": "Deine Taker-Gebühr",
+      "unavailable-with-tier-0": "Nicht verfügbar in Verifizierungsstufe 0.",
+      "limit-yearly-buys": "<0 />/jährliche Käufe",
+      "limit-yearly-sales": "<0 />/hährliche Verkäufe",
       "cards": {
         "tiers": {
           "header": "Stufe {{tier}}",
@@ -4086,15 +4086,15 @@
         "limits": {
           "header": "Maximales tägliches handelbares Volumen",
           "unlimited": "Kein Limit",
-          "verified": "Verified",
-          "in-review": "In review",
-          "rejected": "Rejected",
+          "verified": "Verifiziert",
+          "in-review": "Wird geprüft",
+          "rejected": "Abgelehnt",
           "try-again": "Erneut versuchen",
           "contact-us": "Demnächst verfügbar",
-          "unavailable": "Unavailable in your region"
+          "unavailable": "In deiner Region noch nicht verfügbar"
         },
         "tier-1": {
-          "get-started-button": "Get started",
+          "get-started-button": "Starte hier",
           "continue-verification-button": "Weiter",
           "verification": {
             "header": "Wie möchtest du dich identifizieren lassen?",
@@ -4108,7 +4108,7 @@
                 "desc": "Wenn du den Verifizierungsprozess abgeschlossen hast, erscheint hier dein Ergebnis innerhalb einer Minute."
               }
             },
-            "use-web-platform": "I’ll use the Nash web platform",
+            "use-web-platform": "Ich werde die Nash Web-Plattform benutzen",
             "do-it-later": "Ich mache das später."
           }
         }
@@ -4151,7 +4151,7 @@
       "summary-title": "Alle Auszüge",
       "export-summary": "Auszüge als .csv exportieren",
       "export": "Auszug exportieren",
-      "export-detailed": "Export detailed statement",
+      "export-detailed": "Exportiere detaillierte Auszüge",
       "date-col": "Auszahlungsdatum",
       "asset-received-col": "Asset erhalten",
       "assets-received-col": "Assets erhalten",
@@ -4637,163 +4637,163 @@
     "solo": "Solo",
     "pl": "P/L",
     "captain": "Captain",
-    "members": "Members",
-    "rank": "Rank",
+    "members": "Mitglieder",
+    "rank": "Rang",
     "nickname": "Nickname",
-    "volume": "Volume",
-    "prize-label": "Prize",
-    "max-16-characters": "Max 16 characters",
-    "inappropriate-message": "Inappropriate names will lead to disqualification. Be polite!",
-    "invalid-name": "Your name is already taken or contains invalid characters.",
-    "terms-and-conditions": "By participating in Nash League you agree to the competition’s <0>Terms and Conditions</0>.",
-    "unranked": "Unranked",
-    "n-a": "N/A",
+    "volume": "Handelsvolumen",
+    "prize-label": "Preisgeld",
+    "max-16-characters": "Max. 16 Zeichen",
+    "inappropriate-message": "Unanständige Namen werden disqualifiziert. Seid freundlich!",
+    "invalid-name": "Dein Name ist bereits vergeben oder enthält ungültige Zeichen.",
+    "terms-and-conditions": "Durch deine Teilnahme an der Nash League stimmst du den <0>Geschäftsbedingungen</0> des Wettbewerbs zu.",
+    "unranked": "Ohne Rang",
+    "n-a": "Nicht verfügbar.",
     "prize": {
-      "unlock-up-to": "Unlock up to",
-      "title": "$1 MILLION IN PRIZES",
-      "desc-1": "Just trade on Nash to get your share!",
-      "desc-2": "All users are automatically registered as solo participants, but you can join a squad to improve your chances.",
-      "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
-      "more-levels": "More levels will become available when Level {{level}} is reached!",
-      "volume-s": "Volume ($)",
-      "prizes": "Prizes",
-      "winners": "Winners",
-      "default-nickname": "Default nickname: {{nickname}}",
-      "welcome-nickname": "Welcome, {{nickname}}",
-      "create-new-nickname": "Create new nickname",
+      "unlock-up-to": "Bis zu",
+      "title": "1 Mio. USD in Preisgeldern!",
+      "desc-1": "Einfach auf Nash traden, um deinen Anteil zu gewinnen",
+      "desc-2": "Alle User sind automatisch für den Solo-Wettbewerb registriert. Tritt einem Squad bei, um deine Chancen auf ein Preisgeld zu erhöhen",
+      "desc-3": "Je mehr Volumen durch den Wettbewerb generiert wird, desto höhere Preisgelder werden ausgezahlt",
+      "more-levels": "Mehr Level werden freigeschaltet, wenn Level {{level}} erreicht wurde!",
+      "volume-s": "Handelsvolumen ($)",
+      "prizes": "Preisgelder",
+      "winners": "Gewinner",
+      "default-nickname": "Standardnickname {{nickname}}",
+      "welcome-nickname": "Willkommen, {{nickname}}",
+      "create-new-nickname": "Generiere einen neuen Nickname",
       "anonymous": "Anonymous",
-      "set-nickname": "Set nickname",
-      "edit-nickname": "Edit nickname",
-      "maybe-later": "Maybe later",
-      "learn-more-league": "Learn more about Nash League",
-      "full-prize-breakdowns": "Full prize breakdown for current levels",
-      "all-levels-revealed": "All levels have been revealed!",
-      "competition-ended": "This competition has ended.",
-      "current-nickname": "Current nickname",
+      "set-nickname": "Setze Nickname",
+      "edit-nickname": "Ändere Nickname",
+      "maybe-later": "Vielleicht später",
+      "learn-more-league": "Erfahre mehr über Nash League",
+      "full-prize-breakdowns": "Vollständige Aufschlüsselung der Preisgelder für das aktuelle Level",
+      "all-levels-revealed": "Alle Levels wurden aufgedeckt!",
+      "competition-ended": "Dieser Wettbewerb ist beendet",
+      "current-nickname": "Aktueller Nickname",
       "main-card": {
-        "level-locked": "Level {{level}} locked",
-        "level-unlocked": "Level {{level}} unlocked",
-        "total-prize": "<0 /> in prizes",
-        "solo-count": "{{count}} solo",
-        "team-count": "{{count}} squad",
-        "team-count_plural": "{{count}} squads",
+        "level-locked": "Level {{level}} gesperrt",
+        "level-unlocked": "Level {{level}} erreicht",
+        "total-prize": "<0 /> in Preisgeldern",
+        "solo-count": "{{count}} Solo",
+        "team-count": "{{count}} Squad",
+        "team-count_plural": "{{count}} Squads",
         "pl-count": "{{count}} P/L",
-        "unlocks-at": "Unlocks at"
+        "unlocks-at": "Wird erreicht bei"
       },
       "card": {
-        "squad-desc": "Split between {{count}} <0 /> <1>squad</1>",
-        "squad-desc_plural": "Split between {{count}} <0 /> <1>squads</1>",
-        "solo-desc": "Split between {{count}} <0 /> <1>solo</1>",
-        "special-desc": "<0 /> <1>Special promotions</1>",
-        "solo-pl-desc": "Split between {{count}} <0 /> <1>P/L</1>"
+        "squad-desc": "Wird zwischen {{count}} <0 /> <1>Squad</1> aufgeteilt",
+        "squad-desc_plural": "Wird zwischen {{count}} <0 /> <1>Squads</1> aufgeteilt",
+        "solo-desc": "Wird zwischen {{count}} <0 /> <1>Solo</1> aufgeteilt",
+        "special-desc": "<0 /> <1>Sonderpreise</1>",
+        "solo-pl-desc": "Wird zwischen {{count}} <0 /> <1>P/L</1> aufgeteilt"
       }
     },
     "create-squad": {
-      "title": "Captain your squad of trading pros",
-      "sub-title": "We only recommend this if you already have 10+ members ready to join",
-      "description": "If your squad has fewer than 10 members when the competition begins, it will be disbanded and you will compete solo.",
-      "create-squad-button": "Create a squad",
-      "create-squad-modal-desc": "Your squad must have at least 10 members when the competition begins, otherwise it will be disbanded.",
-      "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one.",
-      "set-squad-name": "Set squad name",
-      "create-a-name": "Create a name …",
-      "accept-rules": "I understand the squad creation rules",
-      "create-squad": "Create squad",
-      "your-squad": "Your squad",
-      "congrats-created-squad": "Congratulations! You are the captain of",
-      "invite-your-friends": "Invite friends to join your squad"
+      "title": "Führe dein Squad aus Tradingprofis an",
+      "sub-title": "Wir empfehlen, nur ein Squad zu gründen, wenn du bereits 10 Mitglieder für dieses zusammen hast.",
+      "description": "Wenn dein Squad weniger als 10 Mitglieder hat, wenn der Wettbewerb beginnt, wird es aufgelöst und du nimmst solo teil.",
+      "create-squad-button": "Erstelle Squad",
+      "create-squad-modal-desc": "Dein Squad muss mindestens 10 Mitglieder haben, ansonsten wird es aufgelöst",
+      "create-squad-modal-message": "Sobald du dein Squad erstellt hast, kannst du es nicht mehr verlassen um einem anderen beizutreten",
+      "set-squad-name": "Wähle einen Namen",
+      "create-a-name": "Wähle einen Namen",
+      "accept-rules": "Ich habe die Regeln für die Erstellung eines Squads verstanden",
+      "create-squad": "Erstelle Squad",
+      "your-squad": "Dein Squad",
+      "congrats-created-squad": "Herzlichen Glückwunsch! Du bist der Captain von:",
+      "invite-your-friends": "Lade Freunde in dein Squad ein!"
     },
     "join-squad": {
-      "title": "Join squad",
-      "description": "Are you sure you want to join the squad {{squadName}} under captain {{captainName}}?",
-      "message-guaranteed": "This squad is guaranteed to be in the competition.",
-      "message-not-guaranteed": "This squad is risky to join because it hasn’t met the {{minMemberCount}}-person minimum limit.",
-      "modal-check": "Once you join, you will not be able to leave this squad or join a new one."
+      "title": "Squad beitreten",
+      "description": "Bist du dir sicher, dass du dem Squad {{squadName}} von Captain {{captainName}} beitreten möchtest?",
+      "message-guaranteed": "Dieses Squad nimmt garantiert am Wettbewerb teil",
+      "message-not-guaranteed": "Es ist riskant, diesem Squad beizutreten, weil es noch nicht die {{minMemberCount}}-Mitglieder Minimalanzahl erreicht hat.",
+      "modal-check": "Sobald du diesem Squad beigetreten bist, kannst du es nicht mehr verlassen oder einem anderen beitreten."
     },
     "competition-table": {
-      "no-squads": "No squads have been created yet.",
-      "table-message-not-started": "{{tabState}} rankings will appear here once the Nash League competition begins!",
-      "divider-squad-safe": "These squads are safe to join because they are guaranteed to be in the competition.",
-      "divider-squad-unsafe": "These squads are riskier to join because they haven’t met the 10-person minimum limit yet. A squad’s volume will be shown once it qualifies for the competition."
+      "no-squads": "Es wurden noch keine Squads erstellt",
+      "table-message-not-started": "{{tabState}} Die Ranks werden hier angezeigt, sobald der Wettbewerb beginnt.",
+      "divider-squad-safe": "Diese Squads nehmen sicher am Wettbewerb teil.",
+      "divider-squad-unsafe": "Diese Squads nehmen noch nicht sicher am Wettbewerb teil, weil sie noch nicht die Mindestanforderungen erfüllen. Ein Beitritt ist deshalb riskant! Das Handelsvolumen der Squads wird nach Beginn des Wettbewerbs angezeigt."
     },
     "competition-info": {
-      "squad-desc": "You are currently entering the competition in the {{squadName}} <0 /> squad.",
-      "solo-desc": "You are currently competing <0 /> solo – All Nash users are already registered!",
-      "not-signed": "<1>Sign in</1> to find yourself on the leaderboard!",
-      "competition-ended": "Season 1 of Nash League is now over!",
-      "prizes-unlocked": "Prizes unlocked",
-      "next-prizes-unlocked": "Next prizes unlocked",
-      "prizes-split": "<0 /> split between {{solo}} solo and {{team}} squad",
+      "squad-desc": "Du nimmst momentan mit dem Squad {{squadName}} <0 /> am Wettbewerb teil.",
+      "solo-desc": "Du nimmst momentan <0 /> solo teil – Alle Nash User wurden automatisch registriert!",
+      "not-signed": "<1>Log dich ein</1>, um dich selbst im Highscore zu finden.",
+      "competition-ended": "Season 1 der Nash League wurde beendet",
+      "prizes-unlocked": "Erreichte Preisgelder",
+      "next-prizes-unlocked": "Die nächsten erreichten Preisgelder",
+      "prizes-split": "<0 /> aufgeteilt zwischen {{solo}} solo und {{team}} Squad",
       "clock-helper": {
-        "days": "DAYS",
-        "hours": "HOURS",
-        "minutes": "MINUTES"
+        "days": "Tage",
+        "hours": "Stunden",
+        "minutes": "Minuten"
       },
       "cards": {
-        "register-clock-title": "Time left to join or create a squad",
-        "competition-clock-title": "The competition begins in",
-        "current-tier-info-title": "Current volume",
-        "current-solo-prize": "Your current solo prize",
-        "current-squad-prize": "Your current squad prize",
-        "not-in-a-squad": "You are not in a squad",
-        "join-squad": "Join a squad for a chance of more prizes!",
-        "rookies-title": "Welcome to Nash, Rookie!",
-        "rookies-description": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
-        "rookies-nex-rewards": "NEX rewards: 0.00",
-        "next-tier-info-title": "Volume remaining for next level",
-        "ended-title": "Final competition volume"
+        "register-clock-title": "Verbleibende Zeit, um einem Squad beizutreten",
+        "competition-clock-title": "Der Wettbewerb beginnt in",
+        "current-tier-info-title": "Aktuelles Volumen",
+        "current-solo-prize": "Dein aktueller Solopreis",
+        "current-squad-prize": "Dein aktueller Squadpreis",
+        "not-in-a-squad": "Du bist in keinem Squad",
+        "join-squad": "Tritt einem Squad bei, um Chancen auf weitere Preise zu haben",
+        "rookies-title": "Willkommen bei Nash, Rekrut",
+        "rookies-description": "Die Toptrader unter den Neulingen gewinnen jede Woche einen Anteil aus einem Extra-Preispool von 1000 NEX. <0>Erfahre mehr</0>",
+        "rookies-nex-rewards": "NEX Preise",
+        "next-tier-info-title": "Volumen erforderlich für das nächste Level",
+        "ended-title": "Gesamtvolumen des Wettbewerbs"
       }
     },
     "squad-page": {
-      "squad-rank": "Squad rank",
-      "squad-volume": "Squad volume",
-      "squad-prize": "Squad total prize",
-      "best-contrib": "Leading trader",
-      "no-contrib": "No contributors yet",
-      "squad-guaranteed": "This squad has {{count}} member and is guaranteed to be in the competition.",
-      "squad-guaranteed_plural": "This squad has {{count}} members and is guaranteed to be in the competition.",
-      "squad-not-guaranteed": "This squad has {{count}} member and is not guaranteed to be in the competition.",
-      "squad-not-guaranteed_plural": "This squad has {{count}} members and is not guaranteed to be in the competition.",
-      "invite-to-squad": "Invite friends to this squad",
-      "back-to-all": "Back to all",
-      "top-members": "Squad top traders",
-      "others": "Others"
+      "squad-rank": "Squad Rang",
+      "squad-volume": "Squad Volumen",
+      "squad-prize": "Squad Preisgeld",
+      "best-contrib": "Top Trader",
+      "no-contrib": "Keine Teilnehmer bisher",
+      "squad-guaranteed": "Dieses Squad hat {{count}} Mitglieder und nimmt garantiert am Wettbewerb teil.",
+      "squad-guaranteed_plural": "Dieses Squad hat {{count}} Mitglieder und nimmt garantiert am Wettbewerb teil.",
+      "squad-not-guaranteed": "Dieses Squad hat {{count}} Mitglieder und nimmt noch nicht am Wettbewerb teil.",
+      "squad-not-guaranteed_plural": "Dieses Squad hat {{count}} Mitglieder und nimmt noch nicht am Wettbewerb teil.",
+      "invite-to-squad": "Lade Freunde in dieses Squad ein",
+      "back-to-all": "Zurück",
+      "top-members": "Top Trader des Squads",
+      "others": "Andere"
     },
     "s02": {
-      "competition-starts": "Competition starts",
-      "competition-ends": "Competition ends",
-      "rookies": "Rookies",
-      "user-welcome": "Welcome,",
+      "competition-starts": "Wettbewerb startet",
+      "competition-ends": "Wettbewerb endet",
+      "rookies": "Rekruten",
+      "user-welcome": "Willkommen,",
       "prize": {
-        "title": "$10,000 NEW PRIZES PER $10M VOLUME",
-        "desc-1": "Just trade on Nash to get your share!",
-        "desc-2": "All users are automatically registered as solo participants, but you can join a squad to win an additional prize.",
-        "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
-        "total-volume": "Total exchange volume",
-        "unlocked-prize": "Unlocked prizes",
-        "prize-split": "Prize split",
-        "no-prizes-unlocked": "No prizes unlocked yet",
-        "all-solos": "All solos",
-        "squad-prizes-split": "{{count}} squad",
-        "squad-prizes-split_plural": "{{count}} squads",
-        "volume-tier": "Volume tier",
-        "volume-remainning": "Volume remaining for the this level"
+        "title": "10.000$ Preisgeld pro 10 Mio. $ Handelsvolumen",
+        "desc-1": "Einfach auf Nash traden, um deinen Anteil zu gewinnen",
+        "desc-2": "Alle User sind automatisch für den Solo-Wettbewerb registriert. Tritt einem Squad bei, um deine Chancen auf ein Preisgeld zu erhöhen",
+        "desc-3": "Je mehr Volumen durch den Wettbewerb generiert wird, desto höhere Preisgelder werden ausgezahlt",
+        "total-volume": "Handelsvolumen gesamt",
+        "unlocked-prize": "Erreichte Preisgelder",
+        "prize-split": "Preisgeldverteilung",
+        "no-prizes-unlocked": "Noch keine Preisgelder freigeschaltet",
+        "all-solos": "Alle Soloteilnehmer",
+        "squad-prizes-split": "{{count}} Squad",
+        "squad-prizes-split_plural": "{{count}} Squads",
+        "volume-tier": "Volumenlevel",
+        "volume-remainning": "Benötigtes Handelvolumen für dieses Level"
       },
       "create-squad": {
-        "description": "Captains receive a guaranteed 5% of a squad’s prize!",
-        "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one. Your squad must have at least 5 members when the competition begins, otherwise it will be disbanded."
+        "description": "Der Captain erhält einen garantierten Anteil von 5% des Squadpreisgeldes",
+        "create-squad-modal-message": "Sobald du ein Squad erstellt hast, kannst du es nicht mehr verlassen um einem anderen beizutreten. Dein Squad muss mindestens 5 Mitglieder haben, wenn der Wettbewerb startet, sonst wird es aufgelöst."
       },
       "competition-table": {
-        "divider-squad-unsafe": "These squads have not met the 5-person limit.",
-        "week-prize": "Week {{week}}",
-        "previous-week": "Previous week",
-        "next-week": "Next week"
+        "divider-squad-unsafe": "Diese Squads haben noch nicht die Mindestanzahl von 5 Mitgliedern erreicht",
+        "week-prize": "Woche {{week}}",
+        "previous-week": "Vorherige Woche",
+        "next-week": "Nächste Woche"
       },
       "competition-info": {
-        "competition-ended": "Season 2 of Nash League is now over!",
-        "welcome-rookie": "Welcome to Nash, Rookie!",
-        "how-it-works-rookie": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
-        "rewards-rokie": "NEX rewards: {{prize}}"
+        "competition-ended": "Die zweite Saison der Nash League ist vorbei",
+        "welcome-rookie": "Willkommen bei Nash, Rekrut!",
+        "how-it-works-rookie": "Die Top Trader unter den neuen Nash Mitgliedern gewinnen einen Anteil am wöchentlichen 1000 NEX Preispool! <0>Erfahre mehr</0>",
+        "rewards-rokie": "NEX Preis: {{prize}}"
       }
     }
   }
