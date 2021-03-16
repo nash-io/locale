@@ -52,9 +52,9 @@
   "no-limit": "Aucune limite",
   "learn-more": "En savoir plus",
   "approve-currency": "Approuver {{currency}}",
-  "approve-currency-once": "Vous n'aurez à approuver les transferts de cet actif qu'une seule fois.",
+  "approve-currency-once": "Vous n’aurez à approuver les transferts de cet actif qu’une seule fois.",
   "approve-currency-everytime": "Vous devrez approuver les transferts de cet actif à chaque fois.",
-  "approve-currency-loading": "Cela peut prendre jusqu'à 1 minute",
+  "approve-currency-loading": "Cela peut prendre jusqu’à 1 minute",
   "verified": "Vérifié",
   "nash-cash": "Nash Cash",
   "nex-staking": "Staking NEX",
@@ -2786,7 +2786,7 @@
       "exact-name-warning-1": "Vous <0>devez</0> absolument indiquer le destinataire comme étant ‘<1>Neon Exchange AG</1>’.",
       "exact-name-warning-2": "Les transferts vers ‘Nash’ ou tout autre nom vous seront <0>renvoyés à vos frais</0>.]",
       "exact-name-warning-3": "Le nom du titulaire de votre compte bancaire doit correspondre au nom de votre compte Nash. Veuillez <0>ne pas</0> utiliser de services tiers (comme TransferWise par exemple).",
-      "btn-exact-name-warning": "J'ai compris"
+      "btn-exact-name-warning": "J’ai compris"
     },
     "timeout-message": "Ce taux de change sera garanti et verrouillé pour:",
     "network-error": "Erreur réseau. Veuillez réessayer.",
@@ -3040,9 +3040,9 @@
           "claiming": "En cours de réclamation…",
           "claim": "Réclamer le GAS",
           "gas-to-claim": "Vous avez {{amount}} GAS à réclamer.",
-          "no-gas-to-claim": "Vous n'avez pas de GAS à réclamer.",
+          "no-gas-to-claim": "Vous n’avez pas de GAS à réclamer.",
           "claiming-now": "Vous réclamez actuellement du GAS.",
-          "error-claiming": "Une erreur s'est produite pendant la réclamation de GAS.",
+          "error-claiming": "Une erreur s’est produite pendant la réclamation de GAS.",
           "claiming-locked": "Vous pouvez réclamer à nouveau du GAS dans ~{{count}} minute.",
           "claiming-locked_plural": "Vous pouvez réclamer à nouveau du GAS dans ~{{count}} minutes."
         },
@@ -3076,7 +3076,7 @@
             "send": "Envoyer",
             "receive": "Recevoir",
             "nash-channels": "Nash Channels",
-            "nash-channels-untradable": "Cet actif n'est pas tradable sur Nash"
+            "nash-channels-untradable": "Cet actif n’est pas tradable sur Nash"
           }
         },
         "no-results": "Il n’y a pas encore d’actifs dans votre compte Nash."
@@ -3253,14 +3253,14 @@
         },
         "transfer-funds": {
           "require-approval": "Vous devez approuver {{currency}} avant de pouvoir déposer sur Nash Channels.",
-          "no-funds": "Vous n'avez pas de {{currency}} disponible pour {{mode}}.",
+          "no-funds": "Vous n’avez pas de {{currency}} disponible pour {{mode}}.",
           "no-funds-nash-cash": "<0>Déposez des {{currency}}</0> depuis un compte externe ou achetez-en sans frais sur Nash Cash."
         }
       },
       "nex-swap": {
         "info": {
           "title": "Convertissez NEX entre les blockchains NEO et Ethereum",
-          "markets": "Accédez aux marchés secondaires de l'Ethereum (Uniswap, etc.)",
+          "markets": "Accédez aux marchés secondaires de l’Ethereum (Uniswap, etc.)",
           "staking": "Stakez vos NEX (NEP-5) pour recevoir des dividendes"
         },
         "tier-verification": "Pour convertir vos NEX, veuillez compléter le <0>Niveau 1 de vérification</0>.",
@@ -4649,7 +4649,7 @@
     "unranked": "Non classé",
     "n-a": "N/A",
     "prize": {
-      "unlock-up-to": "Débloquer jusqu'à",
+      "unlock-up-to": "Débloquer jusqu’à",
       "title": "$1 MILLION EN PRIX",
       "desc-1": "Tradez sur Nash pour obtenir votre part !",
       "desc-2": "Tous les utilisateurs sont automatiquement inscrits en tant que participant solo, mais vous pouvez rejoindre une squad pour augmenter vos chances.",
@@ -4690,7 +4690,7 @@
     },
     "create-squad": {
       "title": "Soyez capitaine de votre squad de traders",
-      "sub-title": "Créer une squad n'est recommandé que si vous avez 10+ traders prêts à se joindre à vous.",
+      "sub-title": "Créer une squad n’est recommandé que si vous avez 10+ traders prêts à se joindre à vous.",
       "description": "Si votre squad a moins de 10 membres, elle sera dissoute et vous participerez en solo.",
       "create-squad-button": "Créer une squad",
       "create-squad-modal-desc": "Votre squad doit comporter au moins 10 membres au début de la compétition, sans quoi elle sera dissoute.]",
@@ -4711,10 +4711,10 @@
       "modal-check": "Une fois une squad rejointe, vous ne pourrez plus en partir ni en rejoindre une autre."
     },
     "competition-table": {
-      "no-squads": "Aucun squad créée pour l'instant.",
-      "table-message-not-started": "Le classement {{tabState}} s'affichera ici dès que le lancement de la compétition !",
+      "no-squads": "Aucun squad créée pour l’instant.",
+      "table-message-not-started": "Le classement {{tabState}} s’affichera ici dès que le lancement de la compétition !",
       "divider-squad-safe": "Vous pouvez rejoindre ces squads en toute sérénité car elles sont garanties de pouvoir participer à la compétition.",
-      "divider-squad-unsafe": "Il est plus risqué de rejoindre ces squads car elles ne satisfont pas encore le seuil minimum de 10 personnes. Le volume d'une squad sera affiché une fois qu'elle sera qualifiée pour la compétition."
+      "divider-squad-unsafe": "Il est plus risqué de rejoindre ces squads car elles ne satisfont pas encore le seuil minimum de 10 personnes. Le volume d’une squad sera affiché une fois qu’elle sera qualifiée pour la compétition."
     },
     "competition-info": {
       "squad-desc": "Vous participez actuellement à la compétition au sein de la squad {{squadName}} <0 />.]",
@@ -4735,7 +4735,7 @@
         "current-tier-info-title": "Volume actuel",
         "current-solo-prize": "Votre prix solo actuel",
         "current-squad-prize": "Votre prix squad actuel",
-        "not-in-a-squad": "Vous n'êtes pas dans une squad",
+        "not-in-a-squad": "Vous n’êtes pas dans une squad",
         "join-squad": "Rejoignez une équipe pour augmenter vos chances de gagner des prix !",
         "rookies-title": "Bienvenue sur Nash, Rookie !",
         "rookies-description": "Nos meilleurs nouveaux traders de la semaine reçoivent une part des 1 000 tokens NEX ! <0>En savoir plus</0>",
@@ -4749,11 +4749,11 @@
       "squad-volume": "Volume de la squad",
       "squad-prize": "Prix totaux de la squad",
       "best-contrib": "Trader en tête",
-      "no-contrib": "Aucun contributeur pour l'instant",
+      "no-contrib": "Aucun contributeur pour l’instant",
       "squad-guaranteed": "Cette squad a {{count}} membre et est assurée de participer à la compétition.",
       "squad-guaranteed_plural": "Cette squad a {{count}} membres et est assurée de participer à la compétition.",
-      "squad-not-guaranteed": "Cette squad a {{count}} membre et n'est pas assurée de participer à la compétition.",
-      "squad-not-guaranteed_plural": "Cette squad a {{count}} membres et n'est pas assurée de participer à la compétition.",
+      "squad-not-guaranteed": "Cette squad a {{count}} membre et n’est pas assurée de participer à la compétition.",
+      "squad-not-guaranteed_plural": "Cette squad a {{count}} membres et n’est pas assurée de participer à la compétition.",
       "invite-to-squad": "Inviter des amis dans cette squad",
       "back-to-all": "Retour",
       "top-members": "Top traders de squad",
@@ -4772,7 +4772,7 @@
         "total-volume": "Volume total de la plateforme",
         "unlocked-prize": "Prix débloqués",
         "prize-split": "Partage des prix",
-        "no-prizes-unlocked": "Aucun prix débloqué pour l'instant",
+        "no-prizes-unlocked": "Aucun prix débloqué pour l’instant",
         "all-solos": "Tous les solos",
         "squad-prizes-split": "{{count}} squad",
         "squad-prizes-split_plural": "{{count}} squads",
@@ -4784,7 +4784,7 @@
         "create-squad-modal-message": "Une fois votre squad créée, vous ne serez pas autorisé à la quitter ou en rejoindre une autre. Votre squad doit avoir au moins 5 membres quand la compétition commence, sans quoi elle sera dissoute.]"
       },
       "competition-table": {
-        "divider-squad-unsafe": "Ces squads n'ont pas atteint le seuil de 5 personnes.",
+        "divider-squad-unsafe": "Ces squads n’ont pas atteint le seuil de 5 personnes.",
         "week-prize": "Semaine {{week}}",
         "previous-week": "Semaine précédente",
         "next-week": "Semaine prochaine"
