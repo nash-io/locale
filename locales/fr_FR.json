@@ -382,7 +382,7 @@
   "no": "non",
   "account-types": {
     "personal": "Compte personnel",
-    "trading": "Contrat de trading",
+    "trading": "Compte de trading",
     "external": "Compte externe",
     "nash-channels": "Nash Channels"
   },
@@ -757,7 +757,7 @@
       }
     },
     "tips": {
-      "balance": "Envoyez des fonds vers le contrat de trading ici."
+      "balance": "Envoyez des fonds vers votre compte de trading ici."
     },
     "no-markets": "Aucun marché n’est actuellement disponible.",
     "auth": {
@@ -1302,7 +1302,7 @@
           "checkbox-2": "Je comprends que je perdrai tout accès à mes fonds si je réinitialise mon compte.",
           "submit": "Réinitialiser mon compte",
           "sub-bullet-1": "Tous les actifs de votre compte personnel.",
-          "sub-bullet-2": "Tous les actifs du contrat de trading.",
+          "sub-bullet-2": "Tous les actifs du compte de trading.",
           "sub-bullet-3": "Tous les tokens NEX stakés.",
           "sub-bullet-4": "Tous les dividendes des tokens NEX stakés.",
           "unauthorized": "La réinitialisation de votre compte ayant de sérieuses implications, vous devez d’abord contacter notre équipe support pour l’activer.",
@@ -1394,7 +1394,7 @@
     "create-order": {
       "change-markets": "Changer de marché",
       "errors": {
-        "order-rejected-insufficient-funds": "{{currencySell}} insuffisants dans le contrat de trading. Envoyez des fonds pour continuer.",
+        "order-rejected-insufficient-funds": "{{currencySell}} insuffisants dans le compte de trading. Envoyez des fonds pour continuer.",
         "order-rejected-daily-limit-reached": "Votre commande a été rejetée car vous avez atteint votre limite de trading quotidienne.",
         "generic": "Erreur lors du passage de votre ordre. Veuillez réessayer."
       },
@@ -1457,7 +1457,7 @@
             "sub-label": "{{currencySell}} disponible(s)",
             "label-button": "Sélectionnez un jeton à trader",
             "errors": {
-              "insufficient-funds": "{{currencySell}} insuffisant dans le contrat de trading. Envoyez des fonds pour continuer.",
+              "insufficient-funds": "{{currencySell}} insuffisant dans le compte de trading. Envoyez des fonds pour continuer.",
               "limit-breached": "Cet ordre dépasse vos limites de trading.",
               "order-too-small": "Le total doit dépasser {{orderSize}} {{currencySell}}.",
               "transfer": "Envoyer/recevoir"
@@ -1507,7 +1507,7 @@
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Le solde de votre contrat de trading n’est plus suffisant pour couvrir cet ordre. Cela peut se produire si vous créez des ordres dans plusieurs onglets du navigateur en même temps.",
+            "0": "Le solde de votre compte de trading n’est plus suffisant pour couvrir cet ordre. Cela peut se produire si vous créez des ordres dans plusieurs onglets du navigateur en même temps.",
             "1": "Pour une expérience de trading plus fluide, veuillez utiliser Nash dans un seul onglet de navigateur.",
             "2": "<0>Envoyez/recevez</0> des fonds si vous souhaitez passer à nouveau cet ordre"
           },
@@ -1823,7 +1823,7 @@
         "b-accept-transfer": "Commencer le transfert",
         "b-finish-transfer": "Terminer le transfert",
         "personal-account": "Compte personnel",
-        "trading-contract": "Contrat de trading"
+        "trading-contract": "Compte de trading"
       }
     },
     "provider": {
@@ -1907,7 +1907,7 @@
       "min-limit-message": "Achat minimum: <0/>",
       "min-limit": "Minimum",
       "max-limit": "Maximum",
-      "over-available": "{{asset}} insuffisant dans le contrat de trading"
+      "over-available": "{{asset}} insuffisant dans le compte de trading"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1972,7 +1972,7 @@
       "complete-nash-profile-add-method-to-sell": "Complétez votre <0>profil Nash</0> et <1>ajoutez un moyen de paiement</1> pour vendre des actifs numériques.",
       "no-funds-sell-1": "Vous n’avez aucun {{asset}} à vendre dans votre contrat",
       "no-funds-sell-2": "<0>Achetez des {{asset}}</0> via Nash Cash sans frais ou <1>virez des fonds</1>.",
-      "must-move-funds-sell": "Pour vendre des {{asset}}, vous devez les déplacer vers le contrat de trading.",
+      "must-move-funds-sell": "Pour vendre des {{asset}}, vous devez les déplacer vers le compte de trading.",
       "dismiss": "Masquer à jamais",
       "remind-me-later": "Me le rappeler plus tard",
       "btn-move-to-sell": "Déplacer des {{asset}} pour vendre",
@@ -2049,8 +2049,8 @@
         "button": "Terminer"
       },
       "sell-btn": "Revoir la vente",
-      "l-trading-account": "Contrat de trading",
-      "l-to-sell-move": "Pour vendre des {{asset}}, vous devez les déplacer vers le contrat de trading.",
+      "l-trading-account": "Compte de trading",
+      "l-to-sell-move": "Pour vendre des {{asset}}, vous devez les déplacer vers le compte de trading.",
       "l-sell": "Vendre",
       "l-receive": "Recevoir",
       "l-personal-account": "Compte personnel",
@@ -2320,7 +2320,7 @@
     "reconfirm-accept": {
       "review-header": "Vous avez accepté le nouveau devis",
       "you-recieve": "Vous allez recevoir",
-      "destination": "Contrat de trading Nash",
+      "destination": "Compte de trading Nash",
       "destination-label": "Destination",
       "arrival-label": "Heure de réception estimée",
       "arrival": "Dès que possible",
@@ -2712,7 +2712,7 @@
       "happy-btn": "Accepter le devis et effectuer le transfert",
       "user-iban-label": "IBAN utilisé",
       "payment-needed": "Paiement nécessaire",
-      "payment-status": "Statut de paiement",
+      "payment-status": "Statut du paiement",
       "payment-status-paid": "Payé",
       "sale-status": "Statut de la vente",
       "sale-status-complete": "Terminée",
@@ -2756,7 +2756,7 @@
       "b-add": "Ajouter",
       "source-of-funds": "Origine des fonds pour cet achat",
       "total-with-provider-fee": "Total avec frais",
-      "trading-contract": "Contrat de trading",
+      "trading-contract": "Compte de trading",
       "transaction-details": "Récapitulatif de la commande",
       "transaction-details-link": "Aperçu",
       "warning-msg": "J’autorise {{providerName}} à débiter le compte indiqué du montant ci-dessus à la date d’aujourd’hui. Je ne contesterai pas {{providerName}} le débit de mon compte, tant que la transaction correspond aux termes de ce formulaire en ligne et à mon accord avec {{providerName}}.",
@@ -2988,7 +2988,7 @@
     "deposit-currency": "Déposer des {{currencySymbol}}",
     "your-currency-balances": "Votre solde de {{currencySymbol}}",
     "resetting-account": {
-      "title": "Resynchronisez le solde de votre contrat de trading.",
+      "title": "Resynchronisez le solde de votre compte de trading.",
       "desc": "Cela libérera des fonds bloqués dans un état ‘En attente’. Ce processus annulera les ordres ouverts.",
       "button": "Resynchroniser le compte",
       "resyncing": "Resynchronisation…",
@@ -3054,7 +3054,7 @@
             "title": "Compte personnel"
           },
           "trading-account": {
-            "title": "Contrat de trading"
+            "title": "Compte de trading"
           },
           "nash-channels": {
             "title": "Nash Channels"
@@ -3067,7 +3067,7 @@
             "hint": "Transferts en cours de traitement par la blockchain."
           },
           "tradeable": {
-            "hint": "Cet actif n’est actuellement pas tradé sur Nash, mais vous pouvez toujours retirer si vous avez un solde dans le contrat de trading."
+            "hint": "Cet actif n’est actuellement pas tradé sur Nash, mais vous pouvez toujours retirer si vous avez un solde dans le compte de trading."
           },
           "action-buttons": {
             "trade": "Trader",
@@ -3101,7 +3101,7 @@
             "from": "De",
             "to": "À"
           },
-          "exchange-maintenance": "Pendant une maintenance, vous ne pouvez pas transférer depuis ou vers le contrat de trading.",
+          "exchange-maintenance": "Pendant une maintenance, vous ne pouvez pas transférer depuis ou vers le compte de trading.",
           "recipient": {
             "placeholder": "Saisissez la destination…"
           },
@@ -3130,8 +3130,8 @@
           "movement": {
             "error": "Veuillez attendre la fin de votre dernier transfert Ethereum.",
             "pending-error": "Veuillez attendre la fin de votre transfert Ethereum en attente.",
-            "token-requires-approval": "L’approbation de {{ amount }} {{ currency }} est nécessaire pour que ce jeton soit transféré vers le contrat de trading.",
-            "too-many-utxo": "Veuillez envoyer vos NEO/GAS à vous-même pour simplifier les données du solde de votre portefeuille. Vous serez alors en mesure de déposer sur le contrat de trading."
+            "token-requires-approval": "L’approbation de {{ amount }} {{ currency }} est nécessaire pour que ce jeton soit transféré vers le compte de trading.",
+            "too-many-utxo": "Veuillez envoyer vos NEO/GAS à vous-même pour simplifier les données du solde de votre portefeuille. Vous serez alors en mesure de déposer sur le compte de trading."
           },
           "transfer-amount": {
             "label": "Montant à transférer",
@@ -3144,7 +3144,7 @@
             }
           },
           "btc": {
-            "funds-not-confirmed": "Votre solde Bitcoin nécessite six confirmations de réseau avant de pouvoir passer au contrat de trading. Veuillez patienter pendant la confirmation des transferts récents.",
+            "funds-not-confirmed": "Votre solde Bitcoin nécessite six confirmations de réseau avant de pouvoir passer au compte de trading. Veuillez patienter pendant la confirmation des transferts récents.",
             "wait-until-external-transfer-completes": "Veuillez attendre la fin de votre dernier transfert externe avant d’effectuer un dépôt.",
             "temporary-limit": "Les transactions de Bitcoin doivent être supérieures à 0,001 BTC pendant que nous testons ce nouveau marché. La restriction sera levée dans un avenir proche."
           },
@@ -3225,8 +3225,8 @@
         "erc-20": {
           "approving": "En cours d’approbation",
           "title": "Approuver le transfert",
-          "pre-deposit-info": "Avant de déposer {{symbol}} sur le contrat de trading, vous devez d’abord approuver un virement depuis votre compte.",
-          "current-approval": "Votre approbation actuelle du contrat de trading est: {{currentErc20Approved}}"
+          "pre-deposit-info": "Avant de déposer {{symbol}} sur le compte de trading, vous devez d’abord approuver un virement depuis votre compte.",
+          "current-approval": "Votre approbation actuelle du compte de trading est: {{currentErc20Approved}}"
         },
         "started": {
           "title": "Transfert en cours…",
@@ -3275,11 +3275,11 @@
       },
       "transfer-info": {
         "title": "Les fonds peuvent être transférés comme suit",
-        "notice": "Vous ne pouvez négocier sur Nash Exchange qu’une fois que vous avez envoyé des fonds au contrat de trading.",
+        "notice": "Vous ne pouvez négocier sur Nash Exchange qu’une fois que vous avez envoyé des fonds au compte de trading.",
         "actions": {
           "action-1": "Vous <0>pouvez</0> déplacer des fonds dans les deux sens entre votre compte personnel et des comptes externes.",
-          "action-2": "De même, vous <0>pouvez</0> déplacer des fonds dans les deux sens entre votre compte personnel et le contrat de trading.",
-          "action-3": "Vous <0>ne pouvez pas</0> déplacer des fonds entre le contrat de trading et des comptes externes sans passer par votre compte personnel. Cela nous aide à garder les fonds utilisés pour le trading en toute sécurité: c’est toujours vous qui déposez et retirez."
+          "action-2": "De même, vous <0>pouvez</0> déplacer des fonds dans les deux sens entre votre compte personnel et le compte de trading.",
+          "action-3": "Vous <0>ne pouvez pas</0> déplacer des fonds entre le compte de trading et des comptes externes sans passer par votre compte personnel. Cela nous aide à garder les fonds utilisés pour le trading en toute sécurité: c’est toujours vous qui déposez et retirez."
         },
         "continue-button": "OK, continuer",
         "dismiss-link": "Masquer pour toujours et continuer"
@@ -3335,7 +3335,7 @@
           "title": "Destination",
           "nash-account": "Nash",
           "to": {
-            "trading-account": "Contrat de trading",
+            "trading-account": "Compte de trading",
             "personal-account": "Compte personnel",
             "nash-fiat-ramp": "Vente à Nash",
             "staking-account": "Contrat de staking NEX",
@@ -3343,7 +3343,7 @@
             "fees": "Frais"
           },
           "from": {
-            "trading-account": "Depuis le contrat de trading",
+            "trading-account": "Depuis le compte de trading",
             "personal-account": "Depuis mon compte personnel",
             "nash-fiat-ramp": "Achat via Nash Cash",
             "nex-swap": "Depuis le contrat de swap NEX",
@@ -3403,7 +3403,7 @@
         "total": "Total",
         "available": {
           "title": "Disponible",
-          "hint": "Vous pouvez déplacer ces fonds. Ils se trouvent soit dans votre compte personnel, soit dans le contrat de trading. Les fonds qui ne sont pas disponibles sont soit bloqués dans des ordres ouverts ou des stakes NEX, soit sont en cours de transfert."
+          "hint": "Vous pouvez déplacer ces fonds. Ils se trouvent soit dans votre compte personnel, soit dans le compte de trading. Les fonds qui ne sont pas disponibles sont soit bloqués dans des ordres ouverts ou des stakes NEX, soit sont en cours de transfert."
         },
         "transfer-funds": "Envoyer/Recevoir"
       },
@@ -3430,7 +3430,7 @@
         },
         "available-assets": "Actifs disponibles",
         "in-personal": "Compte personnel",
-        "in-trading": "Contrat de trading",
+        "in-trading": "Compte de trading",
         "in-unfilled-orders": "Ordres non remplis",
         "in-stake": "NEX stakés",
         "learn-more": "En savoir plus"
@@ -3560,7 +3560,7 @@
     },
     "wallet-type": {
       "personal": "Mon portefeuille personnel",
-      "trading": "Contrat de trading",
+      "trading": "Compte de trading",
       "external": "Un portefeuille externe"
     },
     "common": {
@@ -3920,7 +3920,7 @@
         "b-enable-all": "Tout activer",
         "b-disable-all": "Tout désactiver",
         "fiat-ramp-quote-state-change": "Je dois confirmer un nouveau taux de change de Nash Cash",
-        "funds-trading-to-personal": "Je dépose des fonds sur le contrat de trading",
+        "funds-trading-to-personal": "Je dépose des fonds sur le compte de trading",
         "staking-stake-complete": "Un de mes stakes arrive à expiration",
         "staking-weekly-summary": "Un résumé hebdomadaire de mes dividendes de staking est disponible",
         "nash-channels-limit": "Je dépasse ma limite de dépôt sur Nash Channels"
@@ -4198,7 +4198,7 @@
           },
           "par-4": {
             "title": "Comment recevoir mes dividendes?",
-            "desc": "Les dividendes sont automatiquement ajoutés au solde de votre contrat de trading. Ils sont payés quotidiennement, peu après minuit UTC. Nash fournit des relevés de staking mensuels qui regroupent ces paiements en un seul chiffre à des fins comptables. Étant donné que les frais sur une transaction sont facturés dans la devise échangée, vous recevrez des dividendes sur chaque actif actuellement négocié sur Nash."
+            "desc": "Les dividendes sont automatiquement ajoutés au solde de votre compte de trading. Ils sont payés quotidiennement, peu après minuit UTC. Nash fournit des relevés de staking mensuels qui regroupent ces paiements en un seul chiffre à des fins comptables. Étant donné que les frais sur une transaction sont facturés dans la devise échangée, vous recevrez des dividendes sur chaque actif actuellement négocié sur Nash."
           },
           "par-5": {
             "title": "Puis-je recevoir mes dividendes dans une seule devise?",
