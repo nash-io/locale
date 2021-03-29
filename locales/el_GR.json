@@ -3203,163 +3203,163 @@
           }
         },
         "hints": {
-          "btc-gas-hint": "A small network fee is required when performing transactions.",
-          "eth-gas-hint": "A small network fee is required when performing transactions. Fees for Ethereum-based tokens are paid using ETH.",
-          "neo-gas-hint": "A small network fee is usually required when performing transactions. Fees for NEO-based tokens are paid using GAS.",
-          "eth-transfer-hint": "While transfers are pending, the balance shown here may not be accurate."
+          "btc-gas-hint": "Απαιτείται μια μικρή χρέωση δικτύου κατά την εκτέλεση συναλλαγών.",
+          "eth-gas-hint": "Απαιτείται μια μικρή χρέωση δικτύου κατά την εκτέλεση συναλλαγών. Οι χρεώσεις για νομίσματα βασισμένα στο Ethereum καταβάλλονται χρησιμοποιώντας ETH.",
+          "neo-gas-hint": "Απαιτείται συνήθως μια μικρή χρέωση δικτύου κατά την εκτέλεση συναλλαγών. Οι χρεώσεις για νομίσματα βασισμένα στο NEO πληρώνονται με χρήση GAS.",
+          "eth-transfer-hint": "Ενώ εκκρεμούν μεταφορές, το υπόλοιπο που εμφανίζεται εδώ ενδέχεται να μην είναι ακριβές."
         },
         "steps": [
-          "Create a transfer",
-          "Review and start transfer"
+          "Δημιουργία μεταφοράς",
+          "Ανασκόπηση και εκκίνηση μεταφοράς"
         ],
         "maybe-approval-steps": [
-          "Create a transfer",
-          "Approval (if necessary)",
-          "Review and start transfer"
+          "Δημιουργία μεταφοράς",
+          "Έγκριση (εάν απαιτείται)",
+          "Ανασκόπηση και εκκίνηση μεταφοράς"
         ],
         "approval-steps": [
-          "Create a transfer",
-          "Approval",
-          "Review and start transfer"
+          "Δημιουργία μεταφοράς",
+          "Έγκριση",
+          "Ανασκόπηση και εκκίνηση μεταφοράς"
         ],
         "erc-20": {
-          "approving": "Approving",
-          "title": "Approve transfer",
-          "pre-deposit-info": "Before depositing {{symbol}} to the trading contract, you must first approve a transfer from your account.",
-          "current-approval": "Your current approval to the trading contract is: {{currentErc20Approved}}"
+          "approving": "Έγκριση",
+          "title": "Έγκριση μεταφοράς",
+          "pre-deposit-info": "Προτού καταθέσετε {{symbol}} στο ανταλλακτήριο, θα πρέπει πρώτα να εγκρίνετε μια μεταφορά από τον λογαριασμό σας.",
+          "current-approval": "Η τρέχουσα έγκρισή σας για το ανταλλακτήριο είναι: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transfer in progress…",
-          "title-initializing": "Transfer initializing…",
-          "desc": "Visit <0>Transfers</0> to track its status.",
-          "warning": "This can take up to one hour.",
-          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
+          "title": "Μεταφορά σε εξέλιξη…",
+          "title-initializing": "Η μεταφορά αρχίζει…",
+          "desc": "Επισκεφθείτε τις <0>Μεταφορές</0> για να παρακολουθείτε την κατάστασή τους.",
+          "warning": "Αυτό μπορεί να διαρκέσει έως και μία ώρα.",
+          "remain-opened": "Κρατήστε ανοιχτό το Nash ενώ η μεταφορά σας ξεκινάει. Εάν κλείσετε το Nash ή αποσυνδεθείτε, θα τεθεί σε παύση έως ότου συνδεθείτε ξανά.",
           "buttons": {
-            "finish": "Got it!"
+            "finish": "Κατανοητό!"
           }
         },
         "volume": {
-          "exceeds-deposit-limit": "Exceeds deposit limit",
-          "upgrade-tier-or-wait": "<0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.",
-          "near-deposit-limit": "This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!"
+          "exceeds-deposit-limit": "Υπερβαίνει το όριο κατάθεσης",
+          "upgrade-tier-or-wait": "<0>Αναβαθμίστε το επίπεδο επαλήθευσής σας</0> για να καταθέσετε περισσότερα χρήματα ή περιμένετε μέχρι να πέσετε κάτω από το όριο. Σημειώστε: Οι αναλήψεις δεν μπλοκάρονται ποτέ.",
+          "near-deposit-limit": "Αυτή η μεταφορά υπερβαίνει το όριο της κατάθεσής σας, αλλά θα προχωρήσει. Θα χρειαστεί να αναβαθμίσετε το επίπεδο επαλήθευσής σας σύντομα!"
         }
       },
       "nash-channels": {
         "explanation": {
-          "title": "On our Layer-2 network\n you always control your funds",
-          "fast-trade": "Lightning-fast cross-chain trading",
-          "trade-without-fees": "Trade without blockchain fees",
-          "nash-cash": "Buy/sell on Nash Cash at 0% fees"
+          "title": "Ακόμη και στο επίπεδο 2 του δικτύου μας, διατηρείτε πάντοτε την κατοχή των νομισμάτων σας",
+          "fast-trade": "Αστραπιαία γρήγορες ανταλλαγές μεταξύ διαφορετικών αλυσίδων",
+          "trade-without-fees": "Ανταλλάξτε χωρίς προμήθειες blockchain",
+          "nash-cash": "Αγορές/πωλήσεις με το Nash Cash με 0% χρέωση"
         },
         "transfer-funds": {
-          "require-approval": "You need to approve {{currency}} before you can deposit to Nash Channels.",
-          "no-funds": "You don’t have any {{currency}} available to {{mode}}.",
-          "no-funds-nash-cash": "<0>Deposit {{currency}}</0> from an external account or purchase at a 0% fee through Nash Cash."
+          "require-approval": "Θα πρέπει να κάνετε έγκριση {{currency}} προτού μπορέσετε να καταθέσετε στα Κανάλια Nash.",
+          "no-funds": "Δεν έχετε καθόλου {{currency}} διαθέσιμο στο {{mode}}.",
+          "no-funds-nash-cash": "<0>Καταθέστε {{currency}}</0> από κάποιον εξωτερικό λογαριασμό ή αγοράστε με 0% χρέωση μέσω του Nash Cash."
         }
       },
       "nex-swap": {
         "info": {
-          "title": "Convert NEX between the NEO and Ethereum blockchains",
-          "markets": "Gain access to secondary markets on Ethereum, e.g. Uniswap",
-          "staking": "Stake NEP-5 NEX tokens to receive dividends"
+          "title": "Μετατροπή NEX μεταξύ αλυσίδων NEO και Ethereum",
+          "markets": "Αποκτήστε πρόσβαση σε δευτερεύουσες αγορές με βάση το Ethereum, π.χ. Uniswap",
+          "staking": "Κλειδώστε νομίσματα NEX (NEP-5) για να λαμβάνετε μερίσματα"
         },
-        "tier-verification": "To convert NEX, please complete <0>Tier 1 verification</0>.",
-        "minimum-amount": "Minimum conversion of {{amount}}",
-        "modal-title": "Convert {{from}} to {{to}}",
-        "convert-with-currency": "Convert {{currency}}",
-        "conversion-started": "Conversion started"
+        "tier-verification": "Για να μετατρέψετε NEX, παρακαλούμε ολοκληρώστε την <0>επαλήθευση Βαθμίδας 1</0>.",
+        "minimum-amount": "Ελάχιστη μετατροπή {{amount}}",
+        "modal-title": "Μετατροπή {{from}} σε {{to}}",
+        "convert-with-currency": "Μετατροπή με {{currency}}",
+        "conversion-started": "Μετατροπή ξεκίνησε"
       },
       "receive-assets": {
-        "wallet-address": "Wallet address",
-        "only-send-to": "Only send {{currency}} to this address!"
+        "wallet-address": "Διεύθυνση πορτοφολιού",
+        "only-send-to": "Αποστολή μόνο {{currency}} σε αυτήν τη διεύθυνση!"
       },
       "transfer-info": {
-        "title": "Funds can be transferred as follows",
-        "notice": "You can only trade on the Nash Exchange once you have sent funds to the trading contract.",
+        "title": "Τα χρήματα μπορούν να μεταφερθούν ως εξής",
+        "notice": "Μπορείτε να κάνετε ανταλλαγές στο Nash μόνο αφού στείλετε χρήματα στο ανταλλακτήριο.",
         "actions": {
-          "action-1": "You <0>can</0> move funds back and forth between your personal account and external accounts.",
-          "action-2": "Likewise, you <0>can</0> move funds back and forth between your personal account and the trading contract.",
-          "action-3": "You <0>cannot</0> move funds between the trading contract and external accounts without going through your personal account. This helps us keep funds used for trading secure: it’s always you depositing and withdrawing."
+          "action-1": "Μπορείτε να <0>μετακινείτε</0> χρήματα μπρος-πίσω μεταξύ του προσωπικού σας πορτοφολιού στο Nash και εξωτερικών λογαριασμών.",
+          "action-2": "Παρομοίως, μπορείτε να <0>μετακινείτε</0> χρήματα μπρος-πίσω μεταξύ του προσωπικού σας πορτοφολιού στο Nash και του ανταλλακτηρίου.",
+          "action-3": "<0>Δε μπορείτε</0> να μεταφέρετε χρήματα μεταξύ του ανταλλακτηρίου και εξωτερικών λογαριασμών χωρίς να περάσουν από το προσωπικό σας πορτοφόλι στο Nash. Αυτό μας βοηθά να διατηρήσουμε τα χρήματα που χρησιμοποιούνται για διαπραγμάτευση ασφαλή: πάντα εσείς κάνετε κατάθεση ή ανάληψη."
         },
-        "continue-button": "OK, continue",
-        "dismiss-link": "Dismiss forever and continue"
+        "continue-button": "OK, συνέχεια",
+        "dismiss-link": "Να μην ξαναπροβληθεί και συνέχεια"
       },
       "select-asset": {
-        "search-placeholder": "Search over 3,000 assets…",
-        "title-receive": "Select an asset to receive",
-        "title-send": "Select an asset to send",
-        "show-usd-value": "Show USD value",
-        "available-balance": "Available balance",
+        "search-placeholder": "Αναζήτηση σε πάνω απο 3000 νομίσματα…",
+        "title-receive": "Επιλογή του νομίσματος που θα λάβετε",
+        "title-send": "Επιλογή του νομίσματος που θα στείλετε",
+        "show-usd-value": "Προβολή αξίας σε Δολάριο ΗΠΑ",
+        "available-balance": "Διαθέσιμο υπόλοιπο",
         "groups": {
-          "yours": "Your assets",
-          "popular": "Popular assets",
-          "other": "Other assets"
+          "yours": "Τα νομίσματά σας",
+          "popular": "Δημοφιλή νομίσματα",
+          "other": "Άλλα νομίσματα"
         }
       }
     },
     "transactions": {
-      "title": "Transfers",
-      "show-more-transactions": "Show more transfers",
-      "search-my-transactions": "Search my transfers…",
-      "no-transactions": "You haven’t made any transfers yet.",
+      "title": "Μεταφορές",
+      "show-more-transactions": "Εμφάνιση περισσότερων μεταφορών",
+      "search-my-transactions": "Αναζήτηση στις μεταφορές μου…",
+      "no-transactions": "Δεν έχετε πραγματοποιήσει ακόμη μεταφορές.",
       "table": {
         "header": {
-          "title": "All deposits, withdrawals and contract transfers"
+          "title": "Όλες οι καταθέσεις, αναλήψεις και μεταφορές ανταλλακτηρίου"
         },
         "when": {
-          "title": "When"
+          "title": "Πότε"
         },
         "action": {
-          "title": "Action",
+          "title": "Ενέργεια",
           "status": {
-            "completed": "Complete",
-            "pending": "Pending",
-            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmations"
+            "completed": "Ολοκληρώθηκε",
+            "pending": "Εκκρεμεί",
+            "pending-with-confirmations": "{{confirmations}}/{{denominator}} επιβεβαιώσεις"
           },
-          "view-transaction": "View transaction",
-          "retry-pending": "Retry sending transaction",
-          "cancel-intent": "Cancel transfer",
-          "clear-intent": "Clear transfer",
-          "unlock-account": "Unlock session",
-          "contact-support": "Please contact support",
-          "received-currency": "Received {{currencySymbol}}",
-          "receiving-currency": "Receiving {{currencySymbol}}",
-          "transferred-currency": "Sent {{currencySymbol}}",
-          "transferring-currency": "Sending {{currencySymbol}}",
-          "initializing-currency": "Initializing {{currencySymbol}} transfer",
-          "waiting-to-witness": "Waiting for {{currencySymbol}} transfer",
-          "locked-initializing": "{{currencySymbol}} transfer needs unlocked session",
-          "failed-permanently": "{{currencySymbol}} transfer failed"
+          "view-transaction": "Προβολή συναλλαγής",
+          "retry-pending": "Επανάληψη αποστολής συναλλαγής",
+          "cancel-intent": "Ακύρωση μεταφοράς",
+          "clear-intent": "Εκκαθάριση μεταφοράς",
+          "unlock-account": "Ξεκλείδωμα συνεδρίας",
+          "contact-support": "Παρακαλούμε επικοινωνήστε με την υποστήριξη",
+          "received-currency": "Ελήφθη {{currencySymbol}}",
+          "receiving-currency": "Λήψη {{currencySymbol}}",
+          "transferred-currency": "Απεστάλη {{currencySymbol}}",
+          "transferring-currency": "Αποστολή {{currencySymbol}}",
+          "initializing-currency": "Αρχίζει μεταφορά {{currencySymbol}}",
+          "waiting-to-witness": "Αναμονή για μεταφορά {{currencySymbol}}",
+          "locked-initializing": "Η μεταφορά {{currencySymbol}} απαιτεί ξεκλείδωτη συνεδρία",
+          "failed-permanently": "Η μεταφορά {{currencySymbol}} απέτυχε"
         },
         "destination": {
-          "title": "Destination",
+          "title": "Προορισμός",
           "nash-account": "Nash",
           "to": {
-            "trading-account": "Trading contract",
-            "personal-account": "Personal account",
-            "nash-fiat-ramp": "Sell to Nash",
-            "staking-account": "NEX staking contract",
-            "nex-swap": "NEX swap contract",
-            "fees": "Fees"
+            "trading-account": "Ανταλλακτήριο",
+            "personal-account": "Προσωπικό πορτοφόλι",
+            "nash-fiat-ramp": "Πώληση στο Nash",
+            "staking-account": "Συμβόλαιο κλειδώματος NEX",
+            "nex-swap": "Γέφυρα μετατροπής NEX",
+            "fees": "Χρεώσεις"
           },
           "from": {
-            "trading-account": "From the trading contract",
-            "personal-account": "From my personal account",
-            "nash-fiat-ramp": "Purchase from Nash",
-            "nex-swap": "From NEX swap contract",
-            "external-address": "From <0 />"
+            "trading-account": "Από το ανταλλακτήριο",
+            "personal-account": "Από το προσωπικό μου πορτοφόλι",
+            "nash-fiat-ramp": "Αγορά στο Nash",
+            "nex-swap": "Από την γέφυρα μετατροπής NEX",
+            "external-address": "Από <0 />"
           }
         },
         "amount": {
-          "title": "Amount"
+          "title": "Ποσό"
         }
       }
     },
     "portfolio": {
-      "title": "Portfolio",
+      "title": "Πορτοφόλι",
       "header": {
-        "search-placeholder": "Search my assets…",
-        "search-placeholder-transfer-redesign": "Search assets…"
+        "search-placeholder": "Αναζήτηση στα νομίσματά μου…",
+        "search-placeholder-transfer-redesign": "Αναζήτηση νομισμάτων…"
       },
       "table": {
         "header": {
