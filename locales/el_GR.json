@@ -3363,199 +3363,199 @@
       },
       "table": {
         "header": {
-          "title": "My assets",
-          "title-transfer-redesign": "Assets",
+          "title": "Τα νομίσματά μου",
+          "title-transfer-redesign": "Νομίσματα",
           "actions": {
-            "hide-small-balances": "Hide small balances"
+            "hide-small-balances": "Απόκρυψη μικρών υπολοίπων"
           }
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Νόμισμα"
           },
           "total-balance": {
-            "title": "Total",
-            "title-transfer-redesign": "Total/value",
-            "hint": "Total across all accounts, orders and stakes."
+            "title": "Σύνολο",
+            "title-transfer-redesign": "Σύνολο/αξία",
+            "hint": "Σύνολο σε όλους τους λογαριασμούς, παραγγελίες και κλειδώματα."
           },
           "fiat-value": {
-            "title": "Value ({{fiatCurrency}})"
+            "title": "Αξία σε ({{fiatCurrency}})"
           },
           "price": {
-            "title": "Price/24h change"
+            "title": "Τιμή/24ωρη μεταβολή"
           },
           "allocation-percent": {
-            "title": "Allocation",
-            "hint": "The percentage of your portfolio held in each asset."
+            "title": "Κατανομή",
+            "hint": "Το ποσοστό που αντιστοιχεί σε κάθε νόμισμα στο πορτοφόλι σας."
           },
           "action-buttons": {
-            "trade": "Trade"
+            "trade": "Ανταλλαγή"
           }
         },
-        "no-results-problem": "Your Nash account is currently empty.",
-        "no-results-solution": "<0>Send/Receive</0> funds to get started."
+        "no-results-problem": "Ο λογαριασμός σας Nash είναι προς το παρόν άδειος.",
+        "no-results-solution": "<0>Στείλτε/Λάβετε</0> χρήματα για να ξεκινήσετε."
       },
       "balances": {
         "header": {
-          "title": "Portfolio",
-          "hint": "The total value of your assets and 24-hour change."
+          "title": "Πορτοφόλι",
+          "hint": "Η συνολική αξία των νομισμάτων σας και η 24ωρη μεταβολή."
         },
-        "total": "Total",
+        "total": "Σύνολο",
         "available": {
-          "title": "Available",
-          "hint": "You are able to move these funds. They are either in your personal account or the trading contract. Funds that are not available are either locked in unfilled orders or NEX stakes, or are currently in the process of being transferred."
+          "title": "Διαθέσιμα",
+          "hint": "Μπορείτε να μεταφέρετε αυτά τα χρήματα. Βρίσκονται είτε στο προσωπικό σας πορτοφόλι είτε στο ανταλλακτήριο. Τα χρήματα που δεν είναι διαθέσιμα είναι είτε κλειδωμένα σε παραγγελίες που δεν έχουν εκπληρωθεί, είτε σε κλειδωμένα NEX ή βρίσκονται σε διαδικασία μεταφοράς."
         },
-        "transfer-funds": "Send/Receive"
+        "transfer-funds": "Αποστολή/Λήψη"
       },
       "chart": {
         "header": {
-          "title": "Total asset value",
-          "hint": "Track how the value of your portfolio has changed over time."
+          "title": "Συνολική αξία νομισμάτων",
+          "hint": "Παρακολουθήστε πώς άλλαξε η αξία του πορτοφολιού σας με την πάροδο του χρόνου."
         },
         "period": {
-          "6M": "6M",
-          "1M": "1M",
-          "7D": "1w",
-          "1D": "24h"
+          "6M": "6μήν",
+          "1M": "1μήν",
+          "7D": "1εβδ",
+          "1D": "24ωρο"
         },
         "empty": {
-          "heading": "Your portfolio is currently empty",
-          "body": "<0>Send/Receive</0> funds or <1>buy from our partners</1> to get started."
+          "heading": "Το πορτοφόλι σας είναι άδειο",
+          "body": "<0>Στείλτε/Λάβετε</0> χρήματα ή αγοράστε από <1>τους συνεργάτες μας</1> για να ξεκινήσετε."
         }
       },
       "total-balance": {
         "header": {
-          "title": "Balances",
-          "hint": "You are in complete control of all these funds."
+          "title": "Υπόλοιπα",
+          "hint": "Έχετε τον πλήρη έλεγχο όλων αυτών των κεφαλαίων."
         },
-        "available-assets": "Available assets",
-        "in-personal": "Personal account",
-        "in-trading": "Trading contract",
-        "in-unfilled-orders": "Unfilled orders",
-        "in-stake": "Staked NEX",
-        "learn-more": "Learn more"
+        "available-assets": "Διαθέσιμα νομίσματα",
+        "in-personal": "Προσωπικό πορτοφόλι",
+        "in-trading": "Ανταλλακτήριο",
+        "in-unfilled-orders": "Μη εκπληρωμένες παραγγελίες",
+        "in-stake": "Κλειδωμένα NEX",
+        "learn-more": "Μάθετε περισσότερα"
       }
     }
   },
   "fees": {
-    "title": "Network fee",
-    "title_plural": "Network fees",
+    "title": "Χρέωση δικτύου",
+    "title_plural": "Χρεώσεις δικτύου",
     "error": {
-      "general": "Could not load fees."
+      "general": "Δεν ήταν δυνατή η φόρτωση των χρεώσεων."
     },
     "options": {
-      "fast": "Fast",
-      "standard": "Standard",
-      "slow": "Slow (safe)"
+      "fast": "Γρήγορο",
+      "standard": "Κανονικό",
+      "slow": "Αργό (ασφαλές)"
     }
   },
   "markets": {
-    "title": "Markets",
-    "all": "All",
-    "faves": "Favorites",
-    "volume-short": "vol.",
-    "usd": "USD",
-    "none": "None",
+    "title": "Αγορές",
+    "all": "Όλες",
+    "faves": "Αγαπημένες",
+    "volume-short": "όγκος.",
+    "usd": "Δολ ΗΠΑ",
+    "none": "Καμία",
     "g100": ">{{value}}",
     "columns": {
-      "rank": "Rank",
-      "asset": "Asset",
-      "last-price": "Last price",
-      "change": "Change",
-      "market-cap": "Market cap",
-      "volume": "Volume",
-      "pair": "Pair",
-      "current-buy": "Current buy",
-      "current-sell": "Current sell",
-      "current-spread": "Spread",
-      "1d-change": "24h change",
-      "1d-high": "24h high",
-      "1d-low": "24h low",
-      "1d-volume": "24h volume",
-      "1d-chart": "24h chart",
-      "1w-change": "1w change",
-      "1w-high": "1w high",
-      "1w-low": "1w low",
-      "1w-volume": "1w volume",
-      "1w-chart": "1w chart",
-      "1m-change": "1M change",
-      "1m-high": "1M high",
-      "1m-low": "1M low",
-      "1m-chart": "1M chart",
-      "1m-volume": "1M volume"
+      "rank": "Κατάταξη",
+      "asset": "Νόμισμα",
+      "last-price": "Τελευταία τιμή",
+      "change": "Αλλαγή",
+      "market-cap": "Κεφαλαιοποίηση",
+      "volume": "Όγκος",
+      "pair": "Ζεύγος",
+      "current-buy": "Τρέχουσα αγορά",
+      "current-sell": "Τρέχουσα πώληση",
+      "current-spread": "Εξάπλωση τιμών",
+      "1d-change": "24ωρη μεταβολή",
+      "1d-high": "Μέγιστο 24ώρου",
+      "1d-low": "Ελάχιστο 24ώρου",
+      "1d-volume": "Όγκος 24ώρου",
+      "1d-chart": "Διάγραμμα 24ώρου",
+      "1w-change": "Μεταβολή 1εβδ.",
+      "1w-high": "Μέγιστο 1εβδ.",
+      "1w-low": "Ελάχιστο 1εβδ.",
+      "1w-volume": "Όγκος 1εβδ.",
+      "1w-chart": "Διάγραμμα 1εβδ.",
+      "1m-change": "Μεταβολή 1μήν.",
+      "1m-high": "Μέγιστο 1μήν.",
+      "1m-low": "Ελάχιστο 1μήν.",
+      "1m-chart": "Διάγραμμα 1μήν.",
+      "1m-volume": "Όγκος 1μήν."
     },
     "buttons": {
-      "trade": "Trade"
+      "trade": "Ανταλλαγή"
     },
     "trade-frequency": {
-      "1h": "1h",
-      "1m": "1m",
-      "1M": "1M",
-      "1W": "1w",
-      "24h": "24h",
-      "3M": "3M",
-      "6M": "6M"
+      "1h": "1ώρα",
+      "1m": "1λεπ",
+      "1M": "1μήν",
+      "1W": "1εβδ",
+      "24h": "24ώ",
+      "3M": "3μήν",
+      "6M": "6μήν"
     },
-    "search-placeholder": "Search for a market…",
+    "search-placeholder": "Αναζητήστε ζεύγος νομισμάτων…",
     "individual-assets": {
-      "title": "Individual assets",
-      "header": "Individual assets listed on Nash"
+      "title": "Μεμονωμένα νομίσματα",
+      "header": "Μεμονωμένα νομίσματα καταχωρημένα στο Nash"
     },
     "asset-pairs": {
-      "title": "Asset pairs",
-      "header": "All asset pairs traded on Nash Exchange"
+      "title": "Ζεύγη νομισμάτων",
+      "header": "Όλα τα ζεύγη νομισμάτων που ανταλάσσονται στο Nash"
     },
-    "no-results": "No results for this period.",
+    "no-results": "Δεν υπάρχουν αποτελέσματα για αυτήν την περίοδο.",
     "miscellaneous": {
-      "vol": "vol."
+      "vol": "όγκος"
     }
   },
   "modals": {
     "transfer-funds": {
-      "what-asset": "Which asset?",
-      "select-asset": "Select an asset",
-      "transfer-from": "From",
-      "to-destination": "To",
-      "send-only-currency": "Send only {{currency}} to this address",
-      "transfer-details": "Transfer details",
-      "you-are-transfering": "You are transferring",
-      "you-are-sending": "You are sending",
-      "enter-2fa-code": "Enter your two-factor authentication code",
-      "transfer-funds": "Send/Receive",
-      "create-transfer": "Create transfer",
-      "review-and-start-transfer": "Review and start transfer",
-      "transfer-has-started": "Your transfer has started",
-      "check-tranfer-info-part1": "You can check the progress of your transfer in the",
-      "check-tranfer-info-link": "Transactions",
-      "check-tranfer-info-part2": "section of ‘Funds’.",
-      "external-address": "External address",
-      "asset-to-transfer": "Asset to transfer",
-      "transfer-funds-to-external": "Send funds to an external address",
-      "send-funds": "Send funds",
-      "withdrawal-details": "Withdrawal details",
-      "to-external-address": "To external address",
-      "request-sent-to-blockchain": "Your transfer request has been sent to the blockchain.",
-      "no-funds": "You don’t have any {{currency}} in your {{account}} to {{movementType}}.",
+      "what-asset": "Ποιό νόμισμα;",
+      "select-asset": "Επιλέξτε νόμισμα",
+      "transfer-from": "Από",
+      "to-destination": "Προς",
+      "send-only-currency": "Στείλτε μόνο {{currency}} σε αυτήν τη διεύθυνση",
+      "transfer-details": "Λεπτομέρειες μεταφοράς",
+      "you-are-transfering": "Μεταφέρετε",
+      "you-are-sending": "Στέλνετε",
+      "enter-2fa-code": "Εισάγετε τον κωδικό 2FA σας",
+      "transfer-funds": "Αποστολή/Λήψη",
+      "create-transfer": "Δημιουργία μεταφοράς",
+      "review-and-start-transfer": "Ανασκόπηση και εκκίνηση μεταφοράς",
+      "transfer-has-started": "Η μεταφορά σας ξεκίνησε",
+      "check-tranfer-info-part1": "Μπορείτε να ελέγξετε την πρόοδο της μεταφοράς σας στις",
+      "check-tranfer-info-link": "Μεταφορές",
+      "check-tranfer-info-part2": "στον τομέα ‘Κεφάλαια’.",
+      "external-address": "Εξωτερική διεύθυνση",
+      "asset-to-transfer": "Νόμισμα προς μεταφορά",
+      "transfer-funds-to-external": "Αποστολή χρημάτων σε μια εξωτερική διεύθυνση",
+      "send-funds": "Αποστολή χρημάτων",
+      "withdrawal-details": "Λεπτομέρειες ανάληψης",
+      "to-external-address": "Προς εξωτερική διεύθυνση",
+      "request-sent-to-blockchain": "Το αίτημά μεταφοράς σας εστάλη στο blockchain.",
+      "no-funds": "Δεν έχετε καθόλου {{currency}} στο {{account}} για {{movementType}}.",
       "auto-close": {
-        "disclaimer": "This window will automatically close once your transfer has started.",
-        "countdown": "Closing in {{seconds}}…"
+        "disclaimer": "Αυτό το παράθυρο θα κλείσει αυτόματα μόλις ξεκινήσει η μεταφορά σας.",
+        "countdown": "Κλείσιμο σε {{seconds}}…"
       }
     },
     "receive-funds": {
-      "asset-to-receive": "Asset to receive",
-      "address-to-receive-currency": "This is your address to receive {{currency}}",
-      "receive-funds-from-external": "Receive funds from an external wallet"
+      "asset-to-receive": "Νόμισμα προς λήψη",
+      "address-to-receive-currency": "Αυτή είναι η διεύθυνσή σας για τη λήψη {{currency}}",
+      "receive-funds-from-external": "Λήψη χρημάτων από εξωτερικό πορτοφόλι"
     },
     "available-funds": {
-      "available-amount-send": "Available to send",
-      "available-amount-nash-channels-deposit": "Available to deposit",
-      "available-amount-nash-channels-withdraw": "Available to withdraw",
-      "available-amount-convert": "Available to convert",
+      "available-amount-send": "Διαθέσιμο προς αποστολή",
+      "available-amount-nash-channels-deposit": "Διαθέσιμο για κατάθεση",
+      "available-amount-nash-channels-withdraw": "Διαθέσιμο για ανάληψη",
+      "available-amount-convert": "Διαθέσιμο προς μετατροπή",
       "wallets": {
-        "personal-account": "Personal account",
-        "nash-channels": "Nash Channels",
-        "in-orders": "In orders",
-        "pending": "Pending"
+        "personal-account": "Προσωπικό πορτοφόλι",
+        "nash-channels": "Κανάλια Nash",
+        "in-orders": "Σε παραγγελίες",
+        "pending": "Σε εκκρεμότητα"
       }
     },
     "wallet-type": {
