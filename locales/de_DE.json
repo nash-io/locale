@@ -2,6 +2,7 @@
   "sandbox-warning": "Dies ist eine Sandbox-Umgebung zum Testen der API-Integration. Niemals echte Assets hierher transferieren!",
   "buy": "kaufen",
   "sell": "verkaufen",
+  "cancel": "Abbrechen",
   "continue": "Weiter",
   "ok": "OK",
   "back": "Zurück",
@@ -26,6 +27,9 @@
   "market-price": "Marktpreis",
   "exchange": "Börse",
   "receive": "Empfangen",
+  "send": "Senden",
+  "convert": "Konvertieren",
+  "review": "Prüfen",
   "wallet": "Wallet",
   "upload": "Hochladen",
   "processing": "Wird verarbeitet",
@@ -37,9 +41,36 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
+  "dismiss": "Verbergen",
+  "dismiss-forever": "Für immer verbergen",
+  "remind-me-later": "Erinnere mich später",
+  "got-it": "Verstanden!",
+  "deposit": "Einzahlen",
+  "review-deposit": "Einzahlung prüfen",
+  "withdraw": "Abheben",
+  "review-withdraw": "Abhebung prüfen",
+  "no-limit": "Keine Limits",
+  "learn-more": "Erfahre mehr",
+  "approve-currency": "Bestätige {{currency}}",
+  "approve-currency-once": "Du musst die Transfers für dieses Asset einmalig bestätigen.",
+  "approve-currency-everytime": "Du musst die Transfers für dieses Asset jedes mal erneut bestätigen.",
+  "approve-currency-loading": "Dies kann bis zu einer Minute dauern",
+  "verified": "Verifiziert",
+  "nash-cash": "Nash Cash",
+  "nex-staking": "NEX staking",
+  "available": "Verfügbar",
+  "view": "Anzeigen",
+  "terms-and-conditions": "Geschäftsbedingungen",
+  "sign-in": "Einloggen",
+  "read-more": "Erfahre mehr",
+  "coming-soon": "Bald verfügbar",
+  "million": "Million",
+  "million/short": "Mio.",
+  "volume": "Volumen",
+  "volume/lowercase": "Volumen",
   "apikeys": {
     "no-addresses-whitelisted": "Du hast noch keine Adressen auf die Whitelist gesetzt",
-    "address-input-placeholder": "Gebe eine BTC-, NEO- oder ETH-Adresse in die Whitelist ein",
+    "address-input-placeholder": "Gib eine BTC-, NEO- oder ETH-Adresse in die Whitelist ein",
     "add-whitelisted": "Adressen auf der Whitelist",
     "duplicate-address-in-form": "Diese Adresse ist bereits auf der Whitelist.",
     "add-address": "Adresse hinzufügen",
@@ -49,12 +80,12 @@
       "access": "Zugang",
       "kyc": "Identitätsprüfung",
       "apitrade": "API Handel",
-      "twofa": "2FA"
+      "twofa": "2-Faktor-Authentifizierung"
     },
     "delete-all-tokens": {
       "body": "Bist du sicher, dass du alle deine Schlüssel widerrufen möchtest?",
       "confirm-button-label": "Widerrufe alle deine Schlüssel für immer",
-      "cancel-button-label": "Geh zurück"
+      "cancel-button-label": "Zurück"
     },
     "delete-token": {
       "body": "Bist du dir sicher, dass du diesen Vorgang rückgängig machen möchtest? ‘<0></0>’?",
@@ -71,13 +102,13 @@
       "no-addresses-whitelisted": "Keine Adresse auf der Whitelist",
       "title": "API-Schlüssel verwalten",
       "revoke-button-label": "Zurücknehmen",
-      "table-header": "Ihre API-Schlüssel",
-      "no-tokens-exp": "<0>Generiere meinen ersten Schlüssel</0> oder lese unsere <1>API Dokumentation</1>.",
+      "table-header": "Deine API-Schlüssel",
+      "no-tokens-exp": "<0>Generiere deinen ersten Schlüssel</0> oder lies unsere <1>API Dokumentation</1>.",
       "name": "Name",
       "never-used": "Nie benutzt",
-      "last-used": "Zuletzt verwendeten {{when}}",
-      "subtitle": "Generiere und verwalte meine API-Schlüssel. Lerne mehr über <0>unsere APIs</0>.",
-      "key-info": "Schlüssel information",
+      "last-used": "Zuletzt verwendet {{when}}",
+      "subtitle": "Generiere und verwalte deine API-Schlüssel. Lerne mehr über <0>unsere APIs</0>.",
+      "key-info": "Informationen zu Schlüsseln",
       "api-key": "API Schlüssel",
       "blockchains": "Blockchains",
       "whitelisted": "Whitelist",
@@ -118,9 +149,9 @@
     },
     "step4": {
       "your-secret": "Dein Geheimnis",
-      "your-secret-warning": "Dies ist das einzige Mal, dass wir das zeigen.",
+      "your-secret-warning": "Dies ist das einzige Mal, dass wir das anzeigen.",
       "api-key": "Dein API-Schlüssel",
-      "api-key-warning": "Dies ist das einzige Mal, dass wir das zeigen.",
+      "api-key-warning": "Dies ist das einzige Mal, dass wir das anzeigen.",
       "download-as-json-button-label": "API-Schlüssel und Geheimnis als JSON herunterladen",
       "i-saved-my-secret-button-label": "Ich habe mein Geheimnis gespeichert"
     }
@@ -132,8 +163,8 @@
     "1m": "1 Mo."
   },
   "transfer": {
-    "trading": "Trading Contract",
-    "personal": "Persönliches Konto",
+    "trading": "Nash Channels",
+    "personal": "Nash Wallet",
     "in-trades": "Im Handel",
     "transfer-funds": "Senden/Empfangen",
     "pending-transfer": "Du hast eine ausstehende Transaktion von {{amount}} {{currencySymbol}}.",
@@ -161,19 +192,19 @@
   },
   "time-in-force-modal": {
     "title": "Gültig seit",
-    "subtitle": "Geben den Zeitraum an, für wie lange deine Order im Orderbuch verbleiben soll.",
+    "subtitle": "Gibt den Zeitraum an, für wie lange deine Order im Orderbuch verbleiben soll.",
     "sections": {
       "gtc": {
-        "header": "Gut bis zur Stonierung",
+        "header": "Gültig bis zur Stonierung",
         "desc": "Deine Order bleibt auf unbestimmte Zeit im Orderbuch – entweder bis sie gefüllt oder stoniert wird."
       },
       "gtt": {
-        "header": "Gut bis zu einem bestimmten Zeitpunkt",
-        "header-with-time": "Gut bis {{cancelAt}}",
+        "header": "Gültig bis zu einem bestimmten Zeitpunkt",
+        "header-with-time": "Gültig bis {{cancelAt}}",
         "desc": "Deine Order bleibt bis zu dem von dir angegebenen Zeitpunkt im Orderbuch. Wenn die Order zu diesem Zeitpunkt noch nicht gefüllt ist, wird diese storniert."
       },
       "fok": {
-        "header": "Füllen oder Stonieren",
+        "header": "Füllen oder Stornieren",
         "desc": "Wenn deine gesamte Order sofort gefüllt wird, wird diese ausgeführt. Wenn die Order nicht vollständig gefüllt werden kann, wird die gesamte Order storniert."
       },
       "ioc": {
@@ -183,7 +214,7 @@
     }
   },
   "main-navigation": {
-    "referrals": "Empfehlungsprogramm",
+    "referrals": "Affiliateprogramm",
     "funds": "Wallet & Portfolio",
     "exchange": "Börse",
     "basic-exchange": "Einsteiger-Ansicht",
@@ -197,7 +228,7 @@
   "top-nav": {
     "exchange-status": {
       "operational": "Exchange ist voll funktionsfähig",
-      "maintenance": "Exchange ist unter Wartung"
+      "maintenance": "Exchange ist im Wartungsmodus"
     },
     "accounts-main-menu": {
       "title": "Dienste"
@@ -212,8 +243,11 @@
       },
       "transfers": {
         "initializing": "Initialisieren",
-        "initialized": "Übertragung initialisiert",
-        "tooltip": "Du hast noch eine Übertragungsinitialisierung. Wenn du Nash schließt oder dich abmeldest, wird diese angehalten, bis du dich erneut anmeldest."
+        "unlock-required": "Pausiert",
+        "locked-tooltip": "Es werden immer noch Transaktionen initialisiert. Transaktionen können nicht initialisiert werden, wenn deine Sitzung gesperrt ist. Bitte die Sitzung entsperren, um fortzufahren.",
+        "initialized": "Transaktion initialisiert",
+        "tooltip": "Es wird noch immer eine Transaktion initialisiert. Wenn du Nash schließt oder dich abmeldest, wird diese angehalten, bis du dich erneut anmeldest.",
+        "do-unlock": "Entsperren"
       },
       "general-menu": {
         "settings": "Mein Profil",
@@ -257,7 +291,7 @@
         }
       },
       "referrals": {
-        "title": "Empfehlungsprogramm"
+        "title": "Affiliateprogramm"
       },
       "fiat-ramps": {
         "title": "Kauf/Verkauf",
@@ -272,7 +306,7 @@
         "pages": {
           "profile": "Profil",
           "preferences": "Einstellungen",
-          "security": "Sicherheit",
+          "security": "Accountsicherheit",
           "limits": "Handelslimits",
           "accounts": "Konten",
           "apikeys": "API Schlüssel"
@@ -289,7 +323,10 @@
   },
   "search": "Suchen …",
   "loading": "Laden …",
-  "pending": "Anstehend …",
+  "trades-downloading": "Lade Tradehistorie herunter …",
+  "trades-found": "{{count}} Trade gefunden …",
+  "trades-found_plural": "{{count}} Trades gefunden …",
+  "pending": "Ausstehend …",
   "cancelling": "Abbrechen …",
   "authenticating": "Authentifizierung …",
   "decrypting": "Entschlüsseln …",
@@ -303,13 +340,15 @@
   "no-longer-sufficient-balance-for-tx": "Dein Guthaben reicht für diese Transaktion nicht aus.",
   "we-are-hiring": "Wir stellen ein!",
   "errors": {
+    "invalid-address-title": "Ungültige Adresse in deinem Profil",
+    "invalid-address": "Bitte <0>kontaktiere den Support</0> um deine Adresse mit uns gemeinsam zu aktualisieren",
     "location-banned-title": "Zugang gesperrt",
-    "location-banned": "Leider kann Nash derzeit nicht in deinem Rechtssystem operieren.",
-    "invalid-clock-title": "Die Systemzeit Ihres Computers ist nicht synchronisiert.",
+    "location-banned": "Leider kann Nash derzeit in deinem Land keine Dienste anbieten.",
+    "invalid-clock-title": "Die Systemzeit deines Computers ist nicht synchronisiert.",
     "permissions-issue-title": "Berechtigungsproblem",
-    "invalid-clock": "Um auf Nash zu handeln, muss deine Systemzeit synchronisiert und aktuell sein. <0>Synchronisiere dein Uhr</0> und <1>versuch es erneut</1>.",
-    "network-issue-title": "Netzwerk Probleme",
-    "network-issue": "Es liegt ein vorübergehendes Netzwerkproblem vor. Bitte <0>versuch es noch einmal</0>.",
+    "invalid-clock": "Um auf Nash zu handeln, muss deine Systemzeit synchronisiert und aktuell sein. <0>Synchronisiere deine Uhr</0> und <1>versuche es erneut</1>.",
+    "network-issue-title": "Netzwerkprobleme",
+    "network-issue": "Es liegt ein vorübergehendes Netzwerkproblem vor. Bitte <0>versuche es noch einmal</0>.",
     "generic-error-title": "Ein Fehler ist aufgetreten",
     "generic-error": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
     "generic-error-signout": "Ein unerwarteter Fehler ist aufgetreten. Bitte abmelden und erneut versuchen.",
@@ -321,7 +360,7 @@
       "incorrect": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist falsch. Du hast maximal fünf Versuche.",
       "already-used": "Der eingegebene Zwei-Faktor-Authentifizierungscode wurde bereits verwendet. Bitte warten und erneut versuchen.",
       "code-expired": "Der eingegebene Zwei-Faktor-Authentifizierungscode ist abgelaufen. Bitte warten und erneut versuchen.",
-      "too-many-failures": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Wende dich bitte an unseren Kundenservice.",
+      "too-many-failures": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Bitte wende dich an unseren Kundenservice.",
       "too-many-failures-signout": "Du hast zu oft einen falschen Code eingegeben. Wir haben deshalb dein Konto gesperrt. Du wirst nun abgemeldet."
     },
     "cryptography": {
@@ -342,15 +381,16 @@
   "yes": "ja",
   "no": "nein",
   "account-types": {
-    "personal": "Persönliches Konto",
-    "trading": "Trading Contract",
-    "external": "Externes Konto"
+    "personal": "Nash Wallet",
+    "trading": "Nash Channels",
+    "external": "Externes Konto",
+    "nash-channels": "Nash Channels"
   },
   "query-errors": {
     "failed": "Laden fehlgeschlagen.",
     "failed-button": "Laden fehlgeschlagen",
     "failed-please-try": "Laden fehlgeschlagen. Bitte <0>erneut versuchen</0>.",
-    "why-this-may-happening": "Finde heraus, warum dies möglicherweise passiert ist <0>hier</0>."
+    "why-this-may-happening": "Finde <0>hier</0> heraus, warum dies möglicherweise passiert ist."
   },
   "datetime": {
     "time-in-hours": "<0>{{count}}</0> Stunde",
@@ -387,10 +427,10 @@
       "tier-0": {
         "location-mismatch": {
           "title": "Die IP-Adresse deines Systems entspricht nicht deinem angegebenen Standort.",
-          "message": "Benutzer, die sich außerhalb des angegebenen Landes ihres Wohnsitzes befinden und die Verifizierungsstufe 0 besitzen, haben keinen Zugriff auf alle Nash-Dienste. Hierfür ist es notwendig <0>die nächst höhere Verifizierungstufe 1 freizuschalten</0>."
+          "message": "Benutzer, die sich außerhalb des angegebenen Landes ihres Wohnsitzes befinden und die Verifizierungsstufe 0 besitzen, haben keinen Zugriff auf alle Nash-Dienste. Hierfür ist es notwendig <0>die nächsthöhere Verifizierungstufe 1 freizuschalten</0>."
         },
         "untrusted-ip": {
-          "title": "Wir haben festgestellt, dass du ein VPN verwendest.",
+          "title": "Wir haben festgestellt, dass du einen VPN verwendest.",
           "message": "Benutzer mit einer Verifizierungsstufe von 0 können nicht auf alle Nash-Dienste zugreifen, wenn sie sich über VPN oder Proxy verbinden. Bitte deaktiviere solche Dienste oder <0>steige auf Verifizierungsstufe 1 auf</0>."
         },
         "high-risk-country": {
@@ -433,6 +473,10 @@
         }
       }
     },
+    "hello-mpc": {
+      "title": "Tschüss, Privatekeys! Hallo, MPC!",
+      "message": "Unser next-generation Protokoll ist endlich da! Deine Nash Wallet signiert Transaktionen ab heute mit der sicheren multi-party-computation-Technik (MPC)!"
+    },
     "dismiss-message": "Diese Meldung nicht wieder anzeigen."
   },
   "terms": {
@@ -450,7 +494,7 @@
       "sign-in-now": "Jetzt anmelden"
     },
     "form": {
-      "your-state-is": "Your state is",
+      "your-state-is": "Dein Status ist",
       "fields": {
         "optional": "(fakultativ)"
       },
@@ -463,7 +507,7 @@
         "duplicate-email": "Für diese E-Mail-Adresse wurde bereits ein Konto angelegt.",
         "password-too-short": "Dein Passwort sollte mindestens acht Zeichen lang sein.",
         "invalid-recaptcha": "Recaptcha-Verifizierung fehlgeschlagen. Bitte erneut versuchen.",
-        "missing-us-state": "Wenn du in den Vereinigten Staaten wohnst, musst du deinen Bundesstaat eingeben."
+        "missing-us-state": "Wenn du in den Vereinigten Staaten wohnst, musst du deinen Bundesstaat angeben."
       }
     },
     "your-details": {
@@ -471,7 +515,7 @@
       "subheader": "Deine Daten",
       "disclaimer": {
         "title": "Hinweis für US-Kunden",
-        "desc": "Du erstellt ein vorläufiges Nash-Konto, um am Empfehlungsprogramm teilzunehmen, aber dein Bundesstaat muss berechtigt sein, auf einige Nash-Dienstleistungen zuzugreifen. Falls du hierzu berechtigt bist, wirst du später gebeten, eine Nutzungsvereinbarung zu unterzeichnen."
+        "desc": "Du erstellt ein vorläufiges Nash-Konto, um am Affiliateprogramm teilzunehmen, aber dein Bundesstaat muss berechtigt sein, auf einige Nash-Dienstleistungen zuzugreifen. Falls du hierzu berechtigt bist, wirst du später gebeten, eine Nutzungsvereinbarung zu unterzeichnen."
       },
       "fields": {
         "full-name": {
@@ -484,8 +528,8 @@
       },
       "modals": {
         "referrals": {
-          "title": "Nash Empfehlungsprogramm",
-          "desc": "Dies wird für künftige Empfehlungsprogramme benutzt."
+          "title": "Nash Affiliateprogramm",
+          "desc": "Dies wird für künftige Affiliateprogramme benutzt."
         }
       },
       "user-messages": {
@@ -498,16 +542,16 @@
     "country-details": {
       "header": "Konto erstellen",
       "subheader": "Wo wohnst du?",
-      "edit": "Edit",
-      "cancel": "Cancel",
-      "save-changes": "Save changes",
+      "edit": "Ändern",
+      "cancel": "Abbrechen",
+      "save-changes": "Änderungen speichern",
       "fields": {
         "country": {
           "label": "Wohnsitz"
         },
         "state": {
           "label": "Staat",
-          "location": "Location"
+          "location": "Standort"
         },
         "confirm-country": {
           "label": "Ich bestätige, dass ich in diesem Land meinen Wohnsitz habe."
@@ -547,7 +591,7 @@
           "desc": "Ein sicheres Passwort ist unerlässlich, um dein Guthaben zu schützen. Befolge diese Tipps, um abgesichert zu sein:",
           "tip-index": "Tipp {{index}}",
           "tip-1": "Verwende kein Passwort, das du auch auf anderen Websites nutzen, selbst wenn du einzelne Wörter oder Zeichen änderst. Wenn du von Phishing betroffen bist oder gehackt wurdest, ist dein Nash-Konto unmittelbar gefährdet.",
-          "tip-2": "Gebe in deinem Passwort keine persönlichen Daten an. Namen, Geburtstage und Adressen lassen sich leicht herausfinden. Deshalb solltest du sie meiden.",
+          "tip-2": "Gib in deinem Passwort keine persönlichen Daten an. Namen, Geburtstage und Adressen lassen sich leicht herausfinden. Deshalb solltest du sie meiden.",
           "tip-3": "Dein Passwort sollte mindestens zwölf Zeichen lang sein und sowohl Groß- und Kleinbuchstaben als auch Zahlen und Sonderzeichen enthalten.",
           "tip-4": "Verwende einen Passwort-Generator, um maximal sichere Passwörter zu erstellen und zu speichern."
         }
@@ -572,7 +616,7 @@
       "back": "Zurück zur Anmeldung",
       "success": "E-Mail versendet!",
       "errors": {
-        "generic-error": "Fehler bei der Versendung. Bitte versuche es erneut."
+        "generic-error": "Fehler beim Versand der E-Mail. Bitte versuche es erneut."
       }
     }
   },
@@ -585,7 +629,7 @@
     "general-information": {
       "title": "Allgemeine Informationen",
       "header": "Erstellen wir dein persönliches Konto",
-      "desc-1": "Dein persönliches Konto wird auf Basis von zwölf Geheimwörtern erstellt. Wenn du dein Passwort verlierst, kannst du mittels dieser Wörtern auf dein Konto zugreifen und wiederherstellen. Deshalb solltest du diese Wörter unbedingt richtig sichern.",
+      "desc-1": "Dein persönliches Konto wird auf Basis von zwölf Geheimwörtern erstellt. Wenn du dein Passwort verlierst, kannst du mittels dieser Wörtern auf dein Konto zugreifen und es wiederherstellen. Deshalb solltest du diese Wörter unbedingt richtig sichern.",
       "continue": "Zwölf Geheimwörter anfordern",
       "skip2Fa": "Später einrichten",
       "chart": {
@@ -602,7 +646,7 @@
     "secret-words": {
       "title": "Geheimwörter",
       "header": "Schreibe deine zwölf Geheimwörter in der richtigen Reihenfolge auf.",
-      "desc": "Diese Wörter können missbraucht werden, um auf dein Guthaben zuzugreifen. Du solltest diese schützen.",
+      "desc": "Diese Wörter können missbraucht werden, um auf dein Guthaben zuzugreifen. Du solltest diese deshalb sehr gut schützen.",
       "popup-error": "Wenn du deine Geheimwörter drucken möchtest, deaktiviere bitte alle Pop-up-Blocker und erlaube Nash, Pop-ups zu öffnen.",
       "continue": "Ich habe meine Wörter aufgeschrieben.",
       "go-back": "Zurück",
@@ -620,7 +664,7 @@
           "body-tips-0": "Dein Drucker ist über ein USB-Kabel direkt an deinem Computer angeschlossen.",
           "body-tips-1": "Dein Drucker ist nicht mit einem Netzwerk jeglicher Art verbunden.",
           "body-tips-2": "Es ist unmöglich, dass sich andere Personen über Bluetooth, WLAN o. Ä. mit deinem Drucker verbinden.",
-          "button": "Ich verstehe. Meine Wörter drucken!"
+          "button": "Verstanden. Meine Wörter drucken!"
         }
       },
       "print-window-title": "Nash | Geheimwörter",
@@ -637,9 +681,7 @@
         "case-sensitive": "Alle Wörter sind kleingeschrieben",
         "create-my-wallet": "Mein Konto erstellen",
         "generating-your-wallet": "Dein Nash-Konto wird eingerichtet …",
-        "errors": {
-          "create-wallet-failed": "Fehler bei der Kontoerstellung. Bitte <0>melde dich ab</0> und versuche es erneut."
-        }
+        "words-confirmed-continuing": "Wörter bestätigt! Weiterleitung zum Account …"
       },
       "wallet-created": {
         "header": "Dein Nash-Konto wurde erstellt!",
@@ -652,7 +694,7 @@
     "2fa": {
       "title": "Zwei-Faktor-Authentifizierung",
       "header": "Zwei-Faktor-Authentifizierung aktivieren",
-      "skip": "Skip",
+      "skip": "Überspringen",
       "desc": "Die Zwei-Faktor-Authentifizierung (2FA) bietet deinem Konto eine zusätzliche Sicherheitsebene. Wir empfehlen, sie zu aktivieren.",
       "cards": {
         "1": {
@@ -700,15 +742,22 @@
       "switch-to-simplified": "Einsteiger-Ansicht verwenden",
       "current-market": "Markt",
       "last-price": "Letzter Preis",
-      "last-24h": "Last 24h",
+      "last-24h": "Letzte 24 Std.",
       "24h-change": "Änderung (24 Std.)",
       "24h-high": "Höchststand (24 Std.)",
       "24h-low": "Tiefststand (24 Std.)",
       "24h-volume": "Volumen (24 Std.)",
       "my-portfolio": "Mein Portfolio"
     },
+    "banners": {
+      "USDT-USDC": {
+        "remind-later": "Erinnere mich später",
+        "dismiss-forever": "Für immer verbergen",
+        "no-fees": "Dieser Markt ist bis März 2021 gebührenfrei"
+      }
+    },
     "tips": {
-      "balance": "<0>Tipp</0> <1>Guthaben zum Trading Contract hier senden.</1> <2 />"
+      "balance": "Sende Assets in die Nash Channels"
     },
     "no-markets": "Derzeit sind keine Märkte verfügbar.",
     "auth": {
@@ -729,7 +778,7 @@
       }
     },
     "favorite-bar": {
-      "tips": "<0>Tip</0> <1>Füge hier deine favorisierten Markt als Link hinzu.</1> <2 />"
+      "tips": "Füge Märkte hier als Favoriten hinzu."
     },
     "market-graphs": {
       "title": "Charts",
@@ -812,15 +861,17 @@
       "clear-studies-button-label": "Indikatoren entfernen"
     },
     "update-order": {
-      "new-limit": "Set a new price",
-      "new-stop": "Set a new stop price"
+      "new-limit": "Setze einen neuen Preis",
+      "new-stop": "Setze einen neuen Stop-Preis",
+      "save": "Änderungen speichern",
+      "cancel": "Abbrechen"
     },
     "create-order": {
       "buy": "{{currencySymbol}} kaufen",
       "sell": "{{currencySymbol}} verkaufen",
       "market-paused": "Dieser Markt ist derzeit wegen Wartungsarbeiten pausiert. Du kannst derzeit nicht handeln.",
       "locked-trading-session": {
-        "information": "Ihre Handelssitzung ist gesperrt.",
+        "information": "Deine Sitzung ist gesperrt.",
         "information-tooltip": "Deine Sitzung wird gesperrt, wenn du die Seite aktualisierst oder 15 Minuten lang abwesend bist.",
         "enter-credentials-to-unlock": "<0>Jetzt freischalten</0>"
       },
@@ -859,7 +910,8 @@
             "insufficient-funds": "{{currencySymbol}} unzureichend.",
             "maybe-insufficient-funds": "{{currencySymbol}} unzureichend.",
             "order-too-small": "Die Gesamtsumme muss {{orderSize}} {{currencySymbol}} überschreiten.",
-            "limit-breached": "Diese Order überschreitet dein Handelslimit."
+            "limit-breached": "Diese Order überschreitet dein Handelslimit.",
+            "soft-limit-breached": "Du hast dein Tradinglimit fast erschöpft. <0>Upgrade</0> dein Verifizierungslevel, um mehr zu traden."
           }
         },
         "cancel-at": {
@@ -932,10 +984,10 @@
       "signin-or-create-an-account": "<0>Anmelden</0> oder <1>Konto anlegen</1> um eine Bestellung aufzugeben."
     },
     "my-orders": {
-      "auth": "Melde dich an, um alle Order anzusehen.",
+      "auth": "Melde dich an, um deine Orders zu sehen.",
       "signed-out": {
         "title": "<0>Lege los</0> <1>mit Nash</1>",
-        "subtitle": "Erstelle ein Konto in weniger als einer Minute – kein KYC nötig!"
+        "subtitle": "Erstelle ein Konto in weniger als einer Minute – kein KYC benötigt!"
       },
       "no-results": {
         "date-range": "Du hast keine Order in der angegebenen Zeitspanne.",
@@ -1094,7 +1146,7 @@
   },
   "auth": {
     "create-an-account": "Konto erstellen",
-    "forgotten": "Lost 2FA?",
+    "forgotten": "Kein Zugriff auf 2-Faktor-Authentifizierung mehr?",
     "sign-in-now": "Jetzt anmelden",
     "sign-in": "Anmelden",
     "sign-out": "Abmelden",
@@ -1250,8 +1302,8 @@
           "checkbox-2": "Ich verstehe, dass ich jeglichen Zugriff auf meine Assets verlieren werde, wenn ich mein Konto zurücksetze.",
           "submit": "Konto zurücksetzen",
           "sub-bullet-1": "Alle Assets in deinem persönlichen Konto.",
-          "sub-bullet-2": "Alle Allets im Trading Contract.",
-          "sub-bullet-3": "All staked NEX tokens.",
+          "sub-bullet-2": "Alle Allets in den Nash Channels",
+          "sub-bullet-3": "Alle Tokens im NEX Staking",
           "sub-bullet-4": "Alle Dividenden aus gestakten NEX-Tokens.",
           "unauthorized": "Da das Zurücksetzen deines Kontos schwerwiegende Folgen hat, musst du dich an unsern Kundenservice wenden, um es zu aktivieren.",
           "contact-support": "Kundenservice kontaktieren"
@@ -1342,7 +1394,7 @@
     "create-order": {
       "change-markets": "Markt ändern",
       "errors": {
-        "order-rejected-insufficient-funds": "Du hast nicht genug {{currencySell}} im Trading Contract. Überweise Assets, um fortzufahren.",
+        "order-rejected-insufficient-funds": "Du hast nicht genug {{currencySell}} in den Nash Channels. Überweise Assets, um fortzufahren.",
         "order-rejected-daily-limit-reached": "Deine Order wurde abgelehnt, weil du dein tägliches Handelslimit erreicht hast.",
         "generic": "Fehler bei der Ordererstellung. Bitte erneut versuchen."
       },
@@ -1383,8 +1435,8 @@
             "maintenance": "Dieses Asset befindet sich in der turnusmäßigen Wartung.",
             "deposits-withdrawals-suspended": "Transaktionen werden bis auf Weiteres gesperrt."
           },
-          "trading": "Trading Contract",
-          "personal": "Persönliches Konto",
+          "trading": "Nash Channels",
+          "personal": "Nash Wallet",
           "24-hours": "24 Stunden"
         }
       },
@@ -1405,7 +1457,7 @@
             "sub-label": "{{currencySell}} verfügbar",
             "label-button": "Welches Asset möchtest du eintauschen?",
             "errors": {
-              "insufficient-funds": "Du hast nicht genug {{currencySell}} im Trading Contract. Transferiere Assets, um fortzufahren.",
+              "insufficient-funds": "Du hast nicht genug {{currencySell}} in den Nash Channels. Transferiere Assets, um fortzufahren.",
               "limit-breached": "Diese Order überschreitet dein Handelslimit.",
               "order-too-small": "Orderwert muss {{orderSize}} {{currencySell}} überschreiten.",
               "transfer": "Senden/Empfangen"
@@ -1455,7 +1507,7 @@
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Dein Saldo im Trading Contract reicht nicht mehr aus, um diese Oder auszuführen. Das kann passieren, wenn du in mehreren Browser-Tabs gleichzeitig Orders erteilst.",
+            "0": "Dein Saldo in den Nash Channels reicht nicht mehr aus, um diese Oder auszuführen. Das kann passieren, wenn du in mehreren Browser-Tabs gleichzeitig Orders erteilst.",
             "1": "Für einen reibungslosen Handel verwende bitte Nash in einem einzigen Browser-Tab.",
             "2": "Assets <0>senden/empfangen</0>, wenn du den Order erneut erteilen möchtest."
           },
@@ -1745,13 +1797,13 @@
       "why-not": "Zur Zeit ist kein Asset Anbieter in deiner Region verfügbar."
     },
     "tier0": {
-      "buy-popular-assets": "Buy and sell popular digital assets",
-      "complete-kyc-5minute": "Upgrade to Tier 1 identity verification in just five minutes!",
-      "complete-kyc": "Verify identity",
-      "enjoy-benefits": "Other benefits of Tier 1:",
-      "higher-trading-limits": "Higher trading limits on the Nash exchange.",
-      "stake-your-nex": "Stake NEX to receive dividends.",
-      "use-with-vpn": "Access Nash through a VPN service."
+      "buy-popular-assets": "Kaufe und verkaufe beliebte digitale Assets",
+      "complete-kyc-5minute": "Erhöhe dein Verifizierungslevel auf Tier 1 in nur 5 Minuten!",
+      "complete-kyc": "Identitität verifizieren",
+      "enjoy-benefits": "Andere Vorteile des Verifizierungslevels Tier 1",
+      "higher-trading-limits": "Höhere Handelslimits auf dem Nash Exchange.",
+      "stake-your-nex": "Stake NEX um Dividenden zu erhalten.",
+      "use-with-vpn": "Benutze Nash über einen VPN Anbieter."
     },
     "move-funds": {
       "title": "{{asset}} transferieren um zu verkaufen",
@@ -1770,8 +1822,8 @@
         "l-destination": "An",
         "b-accept-transfer": "Überweisung tätigen",
         "b-finish-transfer": "Überweisung beenden",
-        "personal-account": "Persönliches Konto",
-        "trading-contract": "Trading Contract"
+        "personal-account": "Nash Wallet",
+        "trading-contract": "Nash Channels"
       }
     },
     "provider": {
@@ -1854,7 +1906,8 @@
     "limits": {
       "min-limit-message": "Mindesteinkauf: <0/>",
       "min-limit": "Minimum",
-      "over-available": "Unzureichend {{asset}} im Trading Contract"
+      "max-limit": "Maximum",
+      "over-available": "Unzureichend {{asset}} in den Nash Channels"
     },
     "currencies": {
       "btc": "Bitcoin",
@@ -1904,6 +1957,7 @@
       "daily-limits-header": "Verbleibende Limits nach dieser Order.",
       "current-price-label": "Aktueller Preis | <0 />",
       "current-price-unavailable": "Aktueller Preis nicht verfügbar.",
+      "unavailable": "Preis zur Zeit nicht verfügbar. Versuche es gleich noch einmal.",
       "buy-with-input-label-no-cur": "Bezahlen mit",
       "sell-with-input-label-no-cur": "Überweisung an",
       "buy-with-input-label": "Bezahlen mit {{currency}}",
@@ -1912,20 +1966,21 @@
       "pay-with-default": "Wähle eine Zahlungsart aus",
       "link-new-bank": "Zahlungsart hinzufügen",
       "complete-nash-profile": "Vervollständige dein <0>Nash-Profile</0> um digitale Assets zu kaufen",
-      "complete-transak-profile": "Complete your <0>Transak profile</0> to buy digital assets.",
+      "trasak-identity-verification-message": "Transak benötigt eine Identitätsverifizierung, bevor dieser Kauf getätigt werden kann.",
       "available-balance": "Verfügbares Guthaben: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Zahlungsmethode hinzufügen</0> um digitale Assets zu verkaufen.",
-      "complete-nash-profile-add-method-to-sell": "Vervollständige dein <0>Nash Profil</0> und <1>und füge eine Zahlungsmethode hinzu</1> um deine digital Assets zu verkaufen.",
+      "complete-nash-profile-add-method-to-sell": "Vervollständige dein <0>Nash Profil</0> und <1>und füge eine Zahlungsmethode hinzu</1>, um deine digital Assets zu verkaufen.",
       "no-funds-sell-1": "Du hast keine {{asset}} in deinem Account, welche du verkaufen könntest.",
       "no-funds-sell-2": "<0>Kaufe {{asset}}</0> über Nash Cash ohne Gebühren oder <1>transferiere Assets</1>.",
-      "must-move-funds-sell": "Um {{asset}} zu verkaufen, musst du diese in den Trading Contract transferieren.",
+      "must-move-funds-sell": "Um {{asset}} zu verkaufen, musst du diese in die Nash Channels transferieren.",
       "dismiss": "Für immer ausblenden",
       "remind-me-later": "Erinnere mich später",
-      "btn-move-to-sell": "Transferiere {{asset}} um zu verkaufen",
+      "btn-move-to-sell": "Transferiere {{asset}}, um zu verkaufen",
       "want-to-buy-input-label": "Ich möchte kaufen",
       "want-to-sell-input-label": "Ich möchte verkaufen",
-      "spend": "Spend",
-      "purchase": "Purchase",
+      "spend": "Ausgeben",
+      "purchase": "Kaufen",
+      "purchase-after-fee": "Kaufe <0>(nach Gebühren)</0>",
       "cost-me-input-label": "Es kostet",
       "i-want-to-pay-input-label": "Ich zahle",
       "receive-input-label": "Ich erhalte",
@@ -1952,6 +2007,8 @@
       "daily-remaining": "<0 /> noch verfügbar",
       "limit-exceeded": "<0 /> Limit überschritten",
       "minimum-not-reached": "Du musst mindestens <0 /> kaufen.",
+      "min-amount-validation": "Minimum <0>{{value}} pro Order</0>",
+      "max-amount-validation": "Maximum <0>{{value}} pro Order</0>",
       "default-warning-message": "Du musst dein <0>{{providerName}}-Profil</0> vervollständigen und ein <1>Bankkonto verbinden</1>, um {{asset}} zu {{buy}}.",
       "bank-account-warning-message": "Du musst dein Profil mit einem <0>Bankkonto verbinden</0>, um {{asset}} zu {{buy}}.",
       "fiat-provider-warning-message": "Du musst dein <0>{{providerName}}-Profil</0> vervollständigen, um {{asset}} zu {{buy}}.",
@@ -1960,6 +2017,9 @@
       "purchase-btn": "Angebot prüfen",
       "buy": "kaufen",
       "sell": "verkaufen",
+      "purchase-review": {
+        "message": "Der angezeigte Preis ist nur eine Schätzung. Der tatsächliche Preis wird ermittelt, wenn die Überweisung angekommen ist. Das bedeutet, dass du mehr oder weniger Kryptowährungen erhalten könntest, als erwartet."
+      },
       "purchase-failure": {
         "title": "Ein Problem ist aufgetreten",
         "button": "OK",
@@ -1989,21 +2049,27 @@
         "button": "Beenden"
       },
       "sell-btn": "Verkauf überprüfen",
-      "l-trading-account": "Trading Contract",
-      "l-to-sell-move": "Um {{asset}} zu verkaufen, musst die diese in den Trading Contract transferieren.",
+      "l-trading-account": "Nash Channels",
+      "l-to-sell-move": "Um {{asset}} zu verkaufen, musst die diese in die Nash Channels transferieren.",
       "l-sell": "Verkaufen",
       "l-receive": "Erhalten",
-      "l-personal-account": "Persönliches Account",
+      "l-personal-account": "Nash Wallet",
       "b-remind": "Erinnere mich später daran",
       "b-move-to-sell": "{{asset}} transferieren um zu verkaufen →",
-      "b-dismiss": "Für immer ablehnen"
+      "b-dismiss": "Für immer ablehnen",
+      "total-fees": "Gebühren gesamt"
     },
     "verify-code": {
-      "title": "Verify code",
-      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
-      "code-label": "Enter confirmation code:",
+      "title": "Verifiziere Code",
+      "verify-email": "Bestätige deine E-Mail-Adresse",
+      "message": "Bitte verifiziere deine E-Mail-Adresse. Ein Bestätigungscode wurde an deine Adresse verschickt, bitte gib diesen im Feld unten ein.",
+      "transak-message": "Wir haben einen Verifizierungscode an folgende Adresse gesendet: {{email}}",
+      "code-label": "Bestätigungscode eingeben:",
+      "transak-code-label": "Gib dein One-Time-Passwort ein:",
       "code-placeholder": "1234",
-      "submit": "Verify code"
+      "transak-terms": "Ich bestätige Transaks <0>Nutzungsvereinbarung</0> und <1>Datenschutzerklärung</1>.",
+      "submit": "Code bestätigen",
+      "transak-submit": "OTP-Code bestätigen"
     },
     "transactions": {
       "tab-title": "Deine Order",
@@ -2034,7 +2100,7 @@
         "details-title": "Details Empfängerkonto",
         "amount-asset": "Gekaufte Menge",
         "status": "Orderstatus",
-        "personal-account": "Persönliches Konto",
+        "personal-account": "Nash Wallet",
         "deposit-account": "Einzahlungskonto",
         "withdraw-account": "Auszahlungskonto",
         "created-on": "Erstellt am",
@@ -2054,8 +2120,8 @@
       "no-matching-data-header": "Keine Ergebnisse gefunden.",
       "no-matching-data-sub-header": "Deine Suche ergab keine Treffer zu Käufen oder Verkäufen.",
       "no-data-header": "Du hast noch keine Käufe/Verkäufe getätigt.",
-      "no-data-sub-header": "<0>Kaufe digitale Assets</0> um loszulegen.",
-      "no-data": "Du hast noch keine Käufe/Verkäufe getätigt. <0>Kaufe digitale Assets</0> um loszulegen.",
+      "no-data-sub-header": "<0>Kaufe digitale Assets</0>, um loszulegen.",
+      "no-data": "Du hast noch keine Käufe/Verkäufe getätigt. <0>Kaufe digitale Assets</0>, um loszulegen.",
       "search-placeholder": "Meine Orders durchsuchen …",
       "table-label": "Alle Kontobewegungen",
       "created-column": "Erstellt",
@@ -2179,7 +2245,7 @@
       },
       "nash": {
         "add-method": "Neue Zahlungsmethode hinzufügen",
-        "iban-invalid": "Gebe eine gültige IBAN an.",
+        "iban-invalid": "Gib eine gültige IBAN an.",
         "btn-add-payment-method": "Zahlungsmethode hinzufügen",
         "btn-add-payment-method-get-refund": "Füge eine Zahlungsmethode hinzu und erhalte deine Rückerstattung.",
         "add-pm-title": "Neue Zahlungsmethode hinzufügen",
@@ -2201,7 +2267,7 @@
       },
       "credit-card": {
         "continue-billing": "Weiter zu den Rechnungsdetails",
-        "enter-details": "Gebe deine Kreditkartendaten ein",
+        "enter-details": "Gib deine Kreditkartendaten ein",
         "carbon-accepts-3d-secure": "Carbon akzeptiert nur 3D Secure Kreditkarten von",
         "select-currency-placeholder": "Währung auswählen",
         "card-currency": "Kartenwährung",
@@ -2254,7 +2320,7 @@
     "reconfirm-accept": {
       "review-header": "Du hast das neue Angebot akzeptiert",
       "you-recieve": "Du erhälst",
-      "destination": "Nash Trading Contract",
+      "destination": "Nash Channels",
       "destination-label": "Ziel",
       "arrival-label": "Geschätzte Ankunftszeit",
       "arrival": "So bald wie möglich",
@@ -2305,19 +2371,19 @@
           "field": "E-Mail-Adresse"
         },
         "personal-details": {
-          "edit": "Edit personal details",
-          "add": "Add personal details",
-          "label": "Personal details"
+          "edit": "Persönliche Daten ändern",
+          "add": "Persönliche Daten hinzufügen",
+          "label": "Persönliche Daten"
         },
         "occupation": {
           "placeholder": "Kundenbetreuer, Unternehmensleiter, Krankenschwester usw.",
-          "save": "Beruf deklarieren",
+          "save": "Speichern",
           "field": "Beruf"
         },
         "source-of-funds": {
           "placeholder": "Ersparnisse von 1.000 Dollar pro Monat durch meinen Job in den letzten zwei Jahren",
-          "detailed-declaration-50-chars": "Beschreibe deine Mittelherkunft so detailliert wie möglich. Es werden mindestens 50 Zeichen benötigt.",
-          "save": "Mittelherkunft deklarieren",
+          "detailed-declaration-50-chars": "Beschreibe die Herkunft deiner Gelder so detailliert wie möglich. Es werden mindestens 50 Zeichen benötigt.",
+          "save": "Speichern",
           "field": "Woher stammen deine finanziellen Mittel?",
           "slash": "{{currentChars}}/{{minChars}}"
         },
@@ -2330,13 +2396,13 @@
           "last-name-label": "Nachname",
           "country-label": "Land",
           "state-label": "Staat",
-          "mobile-number": "Mobile number",
-          "mobile-number-required": "Mobile number"
+          "mobile-number": "Telefonnummer",
+          "mobile-number-required": "Telefonnummer"
         },
         "address": {
           "edit": "Adresse bearbeiten",
           "add": "Adresse hinzufügen",
-          "label": "Address",
+          "label": "Adresse",
           "save": "Adresse einreichen",
           "warning": "Ich verstehe, dass mein Konto nach erneuter Übermittlung meiner Adresse noch einmal überprüft werden muss und ich keine Käufe oder Verkäufe tätigen kann, bis die Überprüfung abgeschlossen ist.",
           "building-number-label": "Hausnummer",
@@ -2398,7 +2464,7 @@
           "file-update": "<0>Entfernen</0> oder <1>neues Bild hochladen</1>",
           "try-again": "Erneut versuchen",
           "submit-btn": "Dokument einreichen",
-          "provided": "Proof of address uploaded"
+          "provided": "Adressnachweis hochgeladen"
         },
         "id": {
           "add": "Ausweisdokument hochladen",
@@ -2500,11 +2566,11 @@
       "limits-not-complete": "Erkläre deinen Beruf und die Herkunft deiner Assets",
       "limits-no-occupation": "Erkläre deinen Beruf",
       "limits-no-source-of-funds": "Erkläre die Quelle deiner Assets",
-      "limits-no-source-of-wealth": "Geben deine Haupteinnahmequelle an",
+      "limits-no-source-of-wealth": "Gib deine Haupteinnahmequelle an",
       "limits-no-level-1": "Du musst die Verifizierungsstufe 1 erhalten",
       "add-occupation": "Erkläre deinen Beruf",
       "add-source-of-funds": "Erkläre die Quelle deiner Assets",
-      "add-source-of-wealth": "Gebe deine Haupteinnahmequelle an",
+      "add-source-of-wealth": "Gib deine Haupteinnahmequelle an",
       "header": "Stufe-1-Profil-Informationen",
       "contact-support-to-edit": "<0>Kundenservice kontaktieren</0> zum Bearbeiten",
       "source-of-funds": "Quelle deiner Assets",
@@ -2611,7 +2677,7 @@
       }
     },
     "review-buy-transaction": {
-      "2fa-token": "{{providerName}} 2FA-Code",
+      "2fa-token": "{{providerName}} 2-Faktor-Authentifizierung",
       "arrival-time": "Ankunftszeit der Assets",
       "arrival-time-value": "<0>{{min}}-{{max}}</0> Geschäftstage",
       "before-fee-cost": "Kosten (ohne Gebühren)",
@@ -2625,6 +2691,7 @@
       "current-exchange-rate": "Aktueller Wechselkurs",
       "current-global-exchange-rate": "Aktuelle globale Rate: <0 /> (CoinMarketCap)",
       "exchange-rate": "Wechselkurs",
+      "fees": "Gebühren",
       "rate-change-label": "Wechselkurs",
       "rate-protection-label": "Geschützt",
       "current-rate": "<0 /> / <1>{{sourceCurrency}}</1>",
@@ -2662,14 +2729,15 @@
       "status": "Status der Währung",
       "l-reason": "Grund der Rückerstattung",
       "reason-compliance": "Konformitätsprüfung fehlgeschlagen",
-      "step-payment": "Nehme deine Überweisung vor",
+      "step-payment": "Nimm deine Überweisung vor",
       "step-review": "Überprüfe dein Angebot",
       "submit-btn": "Kauf bestätigen",
       "taken-from-bank": "Vom Bankkonto übernommen",
       "taken-from-card": "Auf Karte aufgeladen",
-      "l-sell-add-source": "Bitte gebe die Mittelherkunft für diesen bestimmten Verkauf an",
-      "l-buy-add-source": "Bitte gebe die Mittelherkunft für diesen bestimmten Kauf an",
+      "l-sell-add-source": "Bitte gib die Mittelherkunft für diesen bestimmten Verkauf an",
+      "l-buy-add-source": "Bitte gib die Mittelherkunft für diesen bestimmten Kauf an",
       "quote-accepted-title": "Angebot akzeptiert",
+      "confirm-payment-countdown": "Diese Order läuft in {{minutes}}:{{seconds}} aus.",
       "title": "Digitale Assets kaufen",
       "source-of-funds-modal": {
         "title": "Mittelherkunft",
@@ -2688,7 +2756,7 @@
       "b-add": "Hinzufügen",
       "source-of-funds": "Finanzierungsquelle für diesen Kauf",
       "total-with-provider-fee": "Total mit Gebühren",
-      "trading-contract": "Trading Contract",
+      "trading-contract": "Nash Channels",
       "transaction-details": "Zusammenfassung der Bestellung",
       "transaction-details-link": "Siehe",
       "warning-msg": "Ich ermächtige {{providerName}}, das angegebene Konto mit dem oben genannten Betrag zum heutigen Datum zu belasten. Ich werde die Belastung meines Kontos durch {{providerName}} nicht bestreiten, solange die Transaktion den Bedingungen in diesem Online-Formular und meinem Einverständnis mit {{providerName}} entspricht.",
@@ -2699,7 +2767,7 @@
       "transfer-to": "Überweise <0 /> auf das unten aufgeführte Konto.",
       "transfer-to-label": "Überweise diesen Betrag",
       "name-registered": "Das Bankkonto, über das du bezahlst, muss auf den gleichen Namen wie dein Nash-Konto registriert sein.",
-      "make-transfer-soon": "Bitte nehme deine Überweisung so schnell wie möglich vor. Wenn wir deine Überweisung nicht innerhalb von fünf Tagen erhalten, wird deine Bestellung storniert. Das Bankkonto, über das du bezahlst, muss auf den gleichen Namen wie dein Nash-Konto registriert sein.",
+      "receive-funds-soon": "Wenn wir deine Überweisung nicht innerhalb von 5 Werktagen erhalten, wird deine Order abgebrochen.",
       "reference": "Referenz",
       "need-to-include": "Muss immer im Verwendungszweck angegeben werden!",
       "iban": "IBAN",
@@ -2708,10 +2776,17 @@
       "decline-this-quote": "Dieses Angebot ablehnen",
       "bank-name": "Name der Bank",
       "recipient-name": "Name des Empfängers",
-      "must-make-payment": "Bitte nehme die Überweisung so schnell wie möglich vor. Wenn wir deine Überweisung nicht innerhalb von fünf Tagen erhalten, wird deine Bestellung storniert. Du hast die Möglichkeit, diesen Kauf zu stornieren und eine Rückerstattung zu erhalten, bevor deine Banküberweisung freigegeben wird.",
+      "recipient": "Empfänger",
       "btn-cancel-quote": "Angebot ablehnen",
       "btn-close-quote": "schließen",
-      "btn-made-payment": "Ich habe die Überweisung getätigt"
+      "btn-made-payment": "Ich habe die Überweisung getätigt",
+      "use-exact-name": "Benutze genau diesen Namen",
+      "recipient-address": "Empfängeradresse",
+      "recipient-bank-country": "Land der empfangenden Bank",
+      "exact-name-warning-1": "Du <0>musst</0> die ‘<1>Neon Exchange AG</1>’ als Empfänger angeben.",
+      "exact-name-warning-2": "Überweisungen an ‘Nash’ oder andere Namen werden auf <0>deine Kosten zurücküberwiesen</0>.",
+      "exact-name-warning-3": "Der Name des Kontoinhabers muss mit dem Namen in deinem Nashaccount übereinstimmen. Benutze <0>keine</0> Third-party Services (z.B. TransferWise).",
+      "btn-exact-name-warning": "Verstanden"
     },
     "timeout-message": "Dieser Wechselkurs wird garantiert für:",
     "network-error": "Netzwerkfehler. Bitte erneut versuchen.",
@@ -2786,13 +2861,13 @@
       "error": {
         "invalid-data": "Ungültige Daten.",
         "unhandled-error": "Ein unbekannter Fehler ist aufgetreten. Bitte lade deine Dokumente hoch und versuche es dann erneut.",
-        "profile": "An error ocurred while loading profile data. Please reload then try again.",
-        "file-upload": "Error uploading file. Please reload then try again.",
-        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
-        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
-        "coins": "Error retrieving available coins. Please reload then try again.",
-        "kyc": "Error retrieving KYC data. Please reload then try again.",
-        "quote": "Error quoting order. Please reload then try again."
+        "profile": "Es ist ein Fehler beim Laden der Profildaten aufgetreten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "file-upload": "Fehler beim Hochladen der Datei. Bitte lade die Seite neu und versuche es noch einmal.",
+        "bank-account": "Fehler beim Laden deiner Bankdaten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "platform": "Fehler beim Laden der Daten von CCPro. Bitte lade die Seite neu und versuche es noch einmal.",
+        "coins": "Fehler beim Laden der verfügbaren Coins. Bitte lade die Seite neu und versuche es noch einmal.",
+        "kyc": "Fehler beim Laden deiner KYC Daten. Bitte lade die Seite neu und versuche es noch einmal.",
+        "quote": "Fehler beim Erstellen deiner Order. Bitte lade die Seite neu und versuche es noch einmal."
       },
       "validation": {
         "first-name-required": "Vorname ist erforderlich.",
@@ -2864,11 +2939,12 @@
         "no-transactions": "Du hast bisher noch keine digitalen Assets gekauft oder verkauft."
       },
       "payment-methods": {
-        "currency": "Währung",
+        "bank-address": "Adresse der Bank",
         "bank-name": "Name der Bank",
+        "currency": "Währung",
         "iban": "IBAN",
-        "swift": "SWIFT/BIC",
-        "remove-bank-account": "Entfernen {{iban}}?"
+        "remove-bank-account": "Entfernen {{iban}}?",
+        "swift": "SWIFT/BIC"
       },
       "editor": {
         "phone": {
@@ -2899,6 +2975,7 @@
           "upload-label-format": "Dateierweiterungen akzeptiert: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximale Dateigröße: 10MB."
         },
         "bank-account": {
+          "bank-address-placeholder": "Gib die Adresse deiner Bank ein",
           "bank-name-placeholder": "Gib den Namen deiner Bank ein",
           "iban-placeholder": "z.B. DE89 3704 0044 0532 0130 00",
           "swift-placeholder": "z.B. CLBABU7S"
@@ -2911,7 +2988,7 @@
     "deposit-currency": "{{currencySymbol}} einzahlen",
     "your-currency-balances": "Ihre {{currencySymbol}}-Salden",
     "resetting-account": {
-      "title": "Trading-Contract-Saldo neu synchronisieren.",
+      "title": "Nash-Channels-Saldo neu synchronisieren.",
       "desc": "Dieser Prozess wird ausstehende Assets freigeben. Dabei werden offene Orders storniert.",
       "button": "Konto neu synchronisieren",
       "resyncing": "Wird neu synchronisiert …",
@@ -2920,6 +2997,7 @@
       "success": "Erneute Synchronisierung abgeschlossen!"
     },
     "transaction-retry": {
+      "transfers-page-retry-button-title": "Transaktion erneut starten",
       "title": "Transaktionen wiederholen",
       "subtitle": "Alle ausstehenden oder fehlgeschlagenen Transaktionen",
       "actions-title": "Aktionen",
@@ -2934,7 +3012,7 @@
       },
       "fetch-movements-error": "Fehler beim Abrufen deiner Daten. Bitte aktualisiere die Seite.",
       "table": {
-        "fee": "Fee"
+        "fee": "Gebühr"
       }
     },
     "assets": {
@@ -2946,8 +3024,8 @@
       },
       "transferring-funds": {
         "title": "Assets senden und empfangen",
-        "desc": "<0>Wenn du handeln möchtest, solltest du Assets an den Trading Contract senden.</0> <1>Du darfst nur von deinem persönlichen Konto aus Assets an den Trading Contract senden.</1>",
-        "learn-more-never-show": "<0>Mehr erfahren</0> oder <1>nie wieder zeigen</1>.",
+        "desc": "Mit Nash Channels kannst du, ohne Blockchaingebühren und ohne die Kontrolle über deine Assets abzugeben, blitzschnell traden. Sende Assets aus deiner Nash Wallet direkt in die Nash Channels.",
+        "learn-more-never-show": "<0>Mehr erfahren</0> oder <1>nie wieder anzeigen</1>.",
         "learn-more": "Mehr erfahren",
         "never-show": "Diese Meldung nicht wieder anzeigen."
       },
@@ -2959,10 +3037,12 @@
           }
         },
         "claim-gas": {
-          "claiming": "Ich behaupte …",
+          "claiming": "Ich beanspruche …",
           "claim": "GAS beanspruchen",
-          "gas-to-claim": "Du hast {{amount}} GAS zu beanspruchen.",
+          "gas-to-claim": "Du kannst {{amount}} GAS beanspruchen.",
+          "no-gas-to-claim": "Kein Gas zum beanspruchen vorhanden",
           "claiming-now": "Du beanspruchst derzeit GAS.",
+          "error-claiming": "Fehler beim GAS beanspruchen",
           "claiming-locked": "Du kannst das GAS in ~{{count}} Minute erneut beanspruchen.",
           "claiming-locked_plural": "Du kannst das GAS in ~{{count}} Minuten erneut beanspruchen."
         },
@@ -2971,10 +3051,10 @@
             "title": "Asset"
           },
           "personal-account": {
-            "title": "Persönliches Konto"
+            "title": "Nash Wallet"
           },
           "trading-account": {
-            "title": "Trading Contract"
+            "title": "Nash Channels"
           },
           "nash-channels": {
             "title": "Nash Channels"
@@ -2992,9 +3072,11 @@
           "action-buttons": {
             "trade": "Handeln",
             "transfer-funds": "Senden/Empfangen",
+            "convert": "Konvertieren",
             "send": "Senden",
             "receive": "Empfangen",
-            "nash-channels": "Nash Channels"
+            "nash-channels": "Nash Channels",
+            "nash-channels-untradable": "Dieses Asset kann zur Zeit nicht auf Nash getraded werden."
           }
         },
         "no-results": "Du hast noch keine Assets auf deinem Nash-Konto."
@@ -3019,7 +3101,10 @@
             "from": "Von",
             "to": "An"
           },
-          "exchange-maintenance": "Während der Wartung kannst du keine Assets zum oder vom Trading Contract überweisen.",
+          "exchange-maintenance": "Während der Wartung kannst du keine Assets zu oder von den Nash Channels überweisen.",
+          "recipient": {
+            "placeholder": "Zieladresse eingeben …"
+          },
           "contacts": {
             "label": "Ziel",
             "placeholder": "Einen Kontakt suchen oder an eine neue Adresse senden …",
@@ -3045,7 +3130,8 @@
           "movement": {
             "error": "Bitte warte, bis deine letzte Ethereum-Transaktion abgeschlossen ist.",
             "pending-error": "Bitte warte, bis deine ausstehende Ethereum-Transaktion abgeschlossen ist.",
-            "token-requires-approval": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieser Token in den Trading Contract überwiesen werden kann."
+            "token-requires-approval": "Ein Zuschlag von {{ amount }} {{ currency }} ist erforderlich, damit dieser Token in die Nash Channels überwiesen werden kann.",
+            "too-many-utxo": "Bitte sende dein NEO / GAS einmal komplett an dich selbst, um die hohe Vielzahl an UTXOs zu kombinieren. Danach kannst du problemlos in die Nash Channels transferieren."
           },
           "transfer-amount": {
             "label": "Menge",
@@ -3058,7 +3144,7 @@
             }
           },
           "btc": {
-            "funds-not-confirmed": "Deine Bitcoin-Transaktion erfordert sechs Bestätigungen des Bitcoin Netzwerks, bevor sie in deinen Trading Contract ankommt. Bitte warte, bis die letzte Transaktion bestätigt wurde.",
+            "funds-not-confirmed": "Deine Bitcoin-Transaktion erfordert sechs Bestätigungen des Bitcoin Netzwerks, bevor sie in deinen Nash Channels ankommt. Bitte warte, bis die letzte Transaktion bestätigt wurde.",
             "wait-until-external-transfer-completes": "Bitte warte, bis deine letzte externe Transaktion abgeschlossen ist, bevor du eine Einzahlung vornimmst.",
             "temporary-limit": "Ein- und Auszahlungen von Bitcoin müssen größer als 0,001 BTC sein, während wir diesen neuen Markt testen. Die Beschränkung wird in naher Zukunft aufgehoben."
           },
@@ -3070,7 +3156,8 @@
             }
           },
           "fees": {
-            "eth-recommended-message": "Wir empfehlen dir, auf deinen persönlichen Konto immer einen kleinen Betrag (~{{amount}} ETH) für Ethereum-Netzwerkgebühr bereitzustellen. ‘Max.’ wird diesen Betrag einbehalten. Du kannst dein gesamtes Guthaben trotzdem manuell eingeben."
+            "eth-recommended-message": "Wir empfehlen dir, auf deinen persönlichen Konto immer einen kleinen Betrag (~{{amount}} ETH) für Ethereum-Netzwerkgebühr bereitzustellen. ‘Max.’ wird diesen Betrag einbehalten. Du kannst dein gesamtes Guthaben trotzdem manuell eingeben.",
+            "fee-shortage": "Du benötigst mindestens <0>{{amount}}</0> {{currencySymbol}} in deine Wallet, um die Transaktionsgebühren zu bezahlen. <1></1> Dein Kontostand: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
             "neo-trading": "Du kannst keine Teilbeträge (z.b. 0,1 NEO) von NEO versenden oder abheben."
@@ -3079,13 +3166,14 @@
             "amount": "Unzureichendes Guthaben."
           },
           "deposit": {
-            "label": "Dein persönliches Konto",
+            "label": "Deine persönliche Wallet",
             "currency-address": "{{currency}}-Adresse",
             "currency-address-qrcode": "{{currency}}-Adresse QR-Code",
             "currency-send-warning": "Andere Assets als {{currency}}, die an diese Adresse gesendet werden, gehen verloren!"
           },
           "buttons": {
             "continue": "Weiter",
+            "review": "Prüfen",
             "sent-funds": "Ich habe meine Assets überwiesen."
           }
         },
@@ -3109,6 +3197,8 @@
           "buttons": {
             "back": "Zurück",
             "transfer-funds": "Senden",
+            "transfer-funds-with-currency": "Sende {{currency}}",
+            "transfer-started": "Transaktion gestartet",
             "confirming": "Wird bestätigt …"
           }
         },
@@ -3135,34 +3225,76 @@
         "erc-20": {
           "approving": "Wird genehmigt …",
           "title": "Transaktion genehmigen",
-          "pre-deposit-info": "Um {{symbol}} auf den Trading Contract zu senden, musst du dein Transaktion von deinem Konto genehmigen.",
-          "current-approval": "Deine aktuelle Genehmigung für den Trading Contract ist: {{currentErc20Approved}}"
+          "pre-deposit-info": "Um {{symbol}} in die Nash Channels zu senden, musst du dein Transaktion von deinem Konto genehmigen.",
+          "current-approval": "Deine aktuelle Genehmigung für die Nash Channels ist: {{currentErc20Approved}}"
         },
         "started": {
           "title": "Transaktion gestartet …",
           "title-initializing": "Transaktion wird initializiert …",
           "desc": "Besuche <0>Transaktionen</0>, um den Status zu verfolgen.",
-          "warning": "Das ganz bis zu einer Stunde dauern.",
+          "warning": "Dies kann bis zu einer Stunde dauern.",
           "remain-opened": "Bitte lasse Nash geöffnet, während dein Transfer initialisiert wird. Wenn du Nash schließt oder dich abmeldest, wird der Vorgang pausiert, bis du dich erneut anmeldest.",
           "buttons": {
             "finish": "Verstanden!"
           }
+        },
+        "volume": {
+          "exceeds-deposit-limit": "Übersteigt Einzahlungslimit",
+          "upgrade-tier-or-wait": "<0>Erhöhe dein Verifizierungslevel</0>, um mehr Assets einzuzahlen oder warte, bis du zurück unter das Limit fällst. \n\n Auszahlungen werden niemals blockiert.",
+          "near-deposit-limit": "Dieser Transfer übersteigt dein Einzahlungslimit, wird aber trotzdem deinem Account gutgeschrieben. Du wirst dein Verifikationslevel bald erhöhen müssen!"
         }
       },
+      "nash-channels": {
+        "explanation": {
+          "title": "In unserem Layer-2 Netzwerk\n hast du immer die volle Kontrolle über dein Geld",
+          "fast-trade": "Blitzschnelles Cross-Chain-Trading",
+          "trade-without-fees": "Traden ohne Blockchaingebühren",
+          "nash-cash": "Mit NashCash für 0% Gebühren kaufen und verkaufen"
+        },
+        "transfer-funds": {
+          "require-approval": "Du musst {{currency}} bestätigen bevor du diese in die Nash Channels einzahlen kannst.",
+          "no-funds": "Du hast keine {{currency}} verfügbar um zu {{mode}}.",
+          "no-funds-nash-cash": "<0>Zahle {{currency}}</0> von einem externen Account ein oder kaufe mit 0% Gebühren via Nash Cash"
+        }
+      },
+      "nex-swap": {
+        "info": {
+          "title": "Konvertiere NEX zwischen der Ethereum- und der NEO-Blockchain",
+          "markets": "Erhalte Zugriff auf Secondary-Märkte wie z.B. Uniswap",
+          "staking": "Stake deine NEP-5 NEX Token, um Dividenden zu erhalten"
+        },
+        "tier-verification": "Um NEX zu konvertieren, schließe bitte das <0>Verifikationslevel 1</0> ab.",
+        "minimum-amount": "Mindestmenge für die Konvertierung: {{amount}}",
+        "modal-title": "Konvertiere {{from}} zu {{to}}",
+        "convert-with-currency": "Konvertiere {{currency}}",
+        "conversion-started": "Konvertierung gestartet"
+      },
       "receive-assets": {
-        "wallet-address": "Wallet address",
-        "only-send-to": "Only send {{currency}} to this address!"
+        "wallet-address": "Wallet Adresse",
+        "only-send-to": "Sende nur {{currency}} an diese Adresse!"
       },
       "transfer-info": {
         "title": "Du kannst Assets wie folgt überweisen",
-        "notice": "Du kannst erst an der Nash Exchange handeln, wenn du deine Assets an den Trading Contract geschickt hast.",
+        "notice": "Du kannst erst auf dem Nash Exchange handeln, wenn du deine Assets in die Nash Channels geschickt hast.",
         "actions": {
-          "action-1": "Du <0>kannst</0> Assets zwischen deinem persönlichen Konto und externen Wallets hin und her überweisen.",
-          "action-2": "Ebenso <0>kannst</0> du Assets zwischen deinem persönlichen Konto und dem Trading Contract hin und her überweisen.",
-          "action-3": "Du <0>kannst keine Assets</0> zwischen dem Trading Contract und externen Wallets hin und her überweisen. Diese Transaktionen müssen über dein persönliches Konto laufen. Dadurch können wir Assets, die für den Handel verwendet werden, sicher schützen: Du bist die einzige Person, die diese überweisen kann."
+          "action-1": "Du <0>kannst</0> Assets zwischen deiner Wallet und externen Wallets hin und her überweisen.",
+          "action-2": "Ebenso <0>kannst</0> du Assets zwischen deiner Wallet und den Nash Channels hin und her überweisen.",
+          "action-3": "Du <0>kannst aber keine Assets</0> zwischen den Nash Channels und externen Wallets hin und her überweisen. Diese Transaktionen müssen über deine Nash Wallet laufen. Dadurch können wir Assets, die für den Handel verwendet werden, sicher schützen: Du bist die einzige Person, die diese überweisen kann."
         },
         "continue-button": "OK, weiter",
         "dismiss-link": "Endgültig ausblenden und weitermachen"
+      },
+      "select-asset": {
+        "search-placeholder": "Suche in über 3000 Assets …",
+        "title-receive": "Wähle ein Asset zum Empfangen aus",
+        "title-send": "Wähle ein Asset zum Senden aus",
+        "show-usd-value": "Zeige USD-Wert",
+        "available-balance": "Zeige Kontostand",
+        "groups": {
+          "yours": "Deine Assets",
+          "popular": "Beliebte Assets",
+          "other": "Andere Assets"
+        }
       }
     },
     "transactions": {
@@ -3172,7 +3304,7 @@
       "no-transactions": "Du hast noch keine Transaktionen vorgenommen.",
       "table": {
         "header": {
-          "title": "Alle Einzahlungen, Auszahlungen und Trading-Contract-Transaktionen"
+          "title": "Alle Einzahlungen, Auszahlungen und Nash-Channels-Transaktionen"
         },
         "when": {
           "title": "Datum"
@@ -3188,28 +3320,33 @@
           "retry-pending": "Transaktion erneut senden",
           "cancel-intent": "Transaktion abbrechen",
           "clear-intent": "Fehlgeschlagene Transaktion bereinigen",
+          "unlock-account": "Sitzung entsperren",
           "contact-support": "Bitte kontaktiere den Kundenservice",
           "received-currency": "{{currencySymbol}} wurde empfangen",
           "receiving-currency": "{{currencySymbol}} wird noch empfangen",
           "transferred-currency": "{{currencySymbol}} wurde überwiesen",
           "transferring-currency": "{{currencySymbol}} wird noch überwiesen",
           "initializing-currency": "Initialisiere {{currencySymbol}}-Transaktion",
+          "waiting-to-witness": "Warte auf {{currencySymbol}} Transfer",
+          "locked-initializing": "Die {{currencySymbol}} Transaktion benötigt eine entsperrte Sitzung",
           "failed-permanently": "{{currencySymbol}}-Transaktion fehlgeschlagen"
         },
         "destination": {
           "title": "Transaktion an",
           "nash-account": "Nash",
           "to": {
-            "trading-account": "Trading Contract",
-            "personal-account": "Persönliches Konto",
+            "trading-account": "Nash Channels",
+            "personal-account": "Nash Wallet",
             "nash-fiat-ramp": "An Nash verkaufen",
             "staking-account": "NEX Staking Contract",
+            "nex-swap": "NEX Swap Contract",
             "fees": "Gebühren"
           },
           "from": {
-            "trading-account": "Vom Trading Contract",
-            "personal-account": "Von meinem persönlichen Konto",
+            "trading-account": "Von den Nash Channels",
+            "personal-account": "Von meiner Wallet",
             "nash-fiat-ramp": "Kauf von Nash",
+            "nex-swap": "Aus dem NEX Swap Contract",
             "external-address": "Von <0 />"
           }
         },
@@ -3222,8 +3359,7 @@
       "title": "Geschäftsbereich",
       "header": {
         "search-placeholder": "Meine Assets durchsuchen …",
-        "search-placeholder-transfer-redesign": "Suche Assets …",
-        "portfolio-notice": "Diese Assets werden an Nash gehandelt. Du kannst dein Nash-Wallet verwenden, um andere Assets zu speichern. Diese werden hier angezeigt."
+        "search-placeholder-transfer-redesign": "Suche Assets …"
       },
       "table": {
         "header": {
@@ -3267,7 +3403,7 @@
         "total": "Gesamt",
         "available": {
           "title": "Verfügbar",
-          "hint": "Du kannst diese Assets überweisen. Die Assets befinden sich in deinem persönlichen Konto oder im Trading Contract. Nicht verfügbare Assets sind entweder in deinen nicht abgeschlossenen Ordern, im NEX-Stake gesperrt oder werden derzeit überwiesen."
+          "hint": "Du kannst diese Assets überweisen. Die Assets befinden sich in deiner Nash Wallet oder in den Nash Channels. Nicht verfügbare Assets sind entweder in deinen nicht abgeschlossenen Ordern, im NEX-Stake gesperrt oder werden derzeit überwiesen."
         },
         "transfer-funds": "Senden/Empfangen"
       },
@@ -3293,12 +3429,24 @@
           "hint": "Du hast die volle Kontrolle über diese Assets."
         },
         "available-assets": "Verfügbare Assets",
-        "in-personal": "Persönliches Konto",
-        "in-trading": "Trading Contract",
+        "in-personal": "Nash Wallet",
+        "in-trading": "Nash Channels",
         "in-unfilled-orders": "Im Handel",
         "in-stake": "NEX in Stakes",
         "learn-more": "Mehr erfahren"
       }
+    }
+  },
+  "fees": {
+    "title": "Netzwerkgebühr",
+    "title_plural": "Netzwerkgebühren",
+    "error": {
+      "general": "Fehler beim Laden der Gebühren."
+    },
+    "options": {
+      "fast": "Schnell",
+      "standard": "Standard",
+      "slow": "Langsam (trotzdem sicher)"
     }
   },
   "markets": {
@@ -3342,11 +3490,11 @@
     "trade-frequency": {
       "1h": "1 Std.",
       "1m": "1 Mo.",
-      "1M": "1M",
-      "1W": "1w",
+      "1M": "1 Mo.",
+      "1W": "1 Wo.",
       "24h": "24 Std.",
-      "3M": "3M",
-      "6M": "6M"
+      "3M": "3 Mo.",
+      "6M": "6 Mo."
     },
     "search-placeholder": "Nach einem Markt suchen …",
     "individual-assets": {
@@ -3355,7 +3503,7 @@
     },
     "asset-pairs": {
       "title": "Asset-Paare",
-      "header": "Alle Asset-Paare, die an der Nash Exchange gehandelt werden."
+      "header": "Alle Asset-Paare, die auf dem Nash Exchange gehandelt werden."
     },
     "no-results": "Keine Ergebnisse für diesen Zeitraum.",
     "miscellaneous": {
@@ -3386,17 +3534,34 @@
       "send-funds": "Assets senden",
       "withdrawal-details": "Transaktionsdaten",
       "to-external-address": "An externes Konto",
-      "request-sent-to-blockchain": "Dein Transaktionsauftrag wurde an die Blockchain gesendet."
+      "request-sent-to-blockchain": "Dein Transaktionsauftrag wurde an die Blockchain gesendet.",
+      "no-funds": "Du hast keine {{currency}} in deinem {{account}}, um {{movementType}}.",
+      "auto-close": {
+        "disclaimer": "Dieses Fenster schließt sich automatisch, sobald die Transaktion gestartet wurde.",
+        "countdown": "Schließt in {{seconds}} …"
+      }
     },
     "receive-funds": {
       "asset-to-receive": "Du erhälst",
       "address-to-receive-currency": "Deine {{currency}}-Adresse ist",
       "receive-funds-from-external": "Assets von einem externen Wallet erhalten"
     },
+    "available-funds": {
+      "available-amount-send": "Verfügbar zum Senden",
+      "available-amount-nash-channels-deposit": "Verfügbar zum Einzahlen",
+      "available-amount-nash-channels-withdraw": "Verfügbar zum Auszahlen",
+      "available-amount-convert": "Verfügbar für Konvertierung",
+      "wallets": {
+        "personal-account": "Nash Wallet",
+        "nash-channels": "Nash Channels",
+        "in-orders": "In Orders",
+        "pending": "Ausstehend"
+      }
+    },
     "wallet-type": {
-      "personal": "Mein persönliches Wallet",
-      "trading": "Trading Contract",
-      "external": "Externes Wallet"
+      "personal": "Meine Nash Wallet",
+      "trading": "Nash Channels",
+      "external": "Externe Wallet"
     },
     "common": {
       "continue-and-review": "Weiter",
@@ -3419,7 +3584,8 @@
       "you-can-lose-funds": "Wenn du Assets an die falsche Adresse überweist, gehen die Assets unwiederbringlich verloren."
     },
     "password": {
-      "title": "Anmeldedaten eingeben"
+      "title": "Anmeldedaten eingeben",
+      "secret-title": "Entsperre deine geheimen Schlüssel"
     },
     "updated-terms": {
       "title": "Allgemeine Geschäftsbedingungen",
@@ -3428,7 +3594,7 @@
           "privacy-notice": "Datenschutzerklärung",
           "user-agreement": "Nutzungsvereinbarung"
         },
-        "desc": "Bitte lese und akzeptiere unsere aktuelle {{termsName}}.",
+        "desc": "Bitte lies und akzeptiere unsere aktuelle {{termsName}}.",
         "message": "Ich akzeptiere die aktuelle <0>{{termsName}}</0>."
       },
       "confirm-notice": "Wenn du die allgemeinen Geschäftsbedingungen nicht akzeptierst, kannst du Nash-Dienste nicht weiter nutzen.",
@@ -3447,13 +3613,13 @@
   "orders": {
     "cards": {
       "in-progress": "Laufende Aufträge",
-      "24h": "24Std",
+      "24h": "24 Std.",
       "available": "Für den Handel verfügbar",
       "reserved": "In Aufträgen"
     }
   },
   "referrals": {
-    "title": "Empfehlungsprogramm",
+    "title": "Affiliateprogramm",
     "referrals": {
       "desc": "Je mehr Lose du verdienst, desto höher ist deine Gewinnchance.",
       "affiliates-portal-link": "Gehe zum Affiliate Portal",
@@ -3468,10 +3634,10 @@
         "info": {
           "title-0": "Lade Freunde ein, um Provision zu verdienen!",
           "subtitle-0": "Mit mehr Volumen qualifizierst du dich als Rising Star und verdienst mehr Provisionen.",
-          "title-20": "Lade Freunde ein um höhere Belohnungen zu genießen!",
+          "title-20": "Lade Freunde ein, um höhere Belohnungen zu genießen!",
           "subtitle-20": "Mit mehr Volumen qualifizierst du dich als Rising Star und verdienst noch mehr Provisionen.",
-          "title-25": "Lade Freunde ein um höhere Belohnungen zu genießen!",
-          "subtitle-25": "Umso mehr Freunde von dir Traden, desto 25% Belohnungen erhälst du.",
+          "title-25": "Lade Freunde ein, um höhere Belohnungen zu genießen!",
+          "subtitle-25": "Umso mehr deiner Freunde traden, desto höhere Belohnungen erhälst du.",
           "watch-video-or-learn-more": "<0>Schaue dieses Video an</0> oder <1>erfahre mehr</1>"
         }
       }
@@ -3487,7 +3653,7 @@
       "details": {
         "missing_signature": {
           "title": "Unterschrift fehlt",
-          "content": "Ihr Ausweisdokument muss von dir unterschrieben sein."
+          "content": "Dein Ausweisdokument muss von dir unterschrieben sein."
         },
         "digital_copy": {
           "title": "Originalexemplar erforderlich",
@@ -3656,7 +3822,7 @@
       "desc-2": "",
       "cards": {
         "your-details": {
-          "label": "Personaldaten",
+          "label": "Persönliche Daten",
           "legal-name": "Vollständiger Name",
           "missing-full-name": "<0>Verifiziere deine Identität</0> für höhere Trading-Limits.",
           "update-name": "Ich möchte meinen Namen ändern",
@@ -3683,7 +3849,7 @@
           "label": "Name",
           "tier0-summary": "Um deinen Namen zu aktualisieren, beantrage bitte <0>Verifizierungsstufe 1</0>.",
           "tier0-details": "Wenn dein Antrag für Stufe 1 genehmigt wird, aktualisieren wir deinen Namen entsprechend den Dokumenten, die du uns übermittelt hast.",
-          "tier1-summary": "Wenn sich dein Name geändert hat und ihn aktualisieren möchtest, <0>kontaktiere bitte unseren Kundenservice</0>.",
+          "tier1-summary": "Wenn sich dein Name geändert hat und du ihn aktualisieren möchtest, <0>kontaktiere bitte unseren Kundenservice</0>.",
           "tier1-details": "Wir setzen deine Verifizierungsstufe zurück und bitten dich, den Verifizierungsvorgang mit deinen neuen Dokumenten zu wiederholen. Wenn dein Antrag genehmigt wird, aktualisieren wir deinen Namen entsprechend den von dir bereitgestellten Dokumenten."
         },
         "update-country": {
@@ -3754,9 +3920,10 @@
         "b-enable-all": "Alle einschalten",
         "b-disable-all": "Alle ausschalten",
         "fiat-ramp-quote-state-change": "Ich einen neuen Nash Cash-Wechselkurs bestätigen muss",
-        "funds-trading-to-personal": "Ich Assets vom Trading Contract erhalte",
+        "funds-trading-to-personal": "Ich Assets aus den Nash Channels erhalte",
         "staking-stake-complete": "Ein NEX-Stake zum Ende kommt",
-        "staking-weekly-summary": "Eine wöchentliche Zusammenfassung meiner Dividenden verfügbar ist"
+        "staking-weekly-summary": "Eine wöchentliche Zusammenfassung meiner Dividenden verfügbar ist",
+        "nash-channels-limit": "Wenn ich das Nash Channels Einzahlungslimit übersteige"
       }
     },
     "security": {
@@ -3801,8 +3968,8 @@
             "signed-out": "Abmeldung",
             "signed-in": "Anmeldung",
             "failed": "Fehlgeschlagener Anmeldeversuch",
-            "2fa": "2FA bestätigt",
-            "failed-2fa": "2FA fehlgeschlagen"
+            "2fa": "2-Faktor-Authentifizierung bestätigt",
+            "failed-2fa": "2-Faktor-Authentifizierung fehlgeschlagen"
           },
           "sign-out": "Abmelden",
           "sign-out-all-devices": "Alle Geräte abmelden"
@@ -3849,14 +4016,14 @@
       "search-assets-placeholder": "Asset nach Name oder Token suchen …",
       "public-address-label": "Öffentliche Adresse",
       "info-title": "Einige Blockchains unterstützen mehrere Tokens",
-      "info-body": "ERC-20- und NEP-5-Assets sind Tokens, die auf den Ethereum- und NEO-Blockchains ausgegeben werden. GAS ist auch ein Asset, das auf der NEO-Blockchain gespeichert ist. Du benötigst ein Ethereum-Wallet für die Speicherung von ETH und ERC-20-Tokens und ein NEO-Wallet für die Speicherung von NEO, GAS und NEP-5-Tokens.",
+      "info-body": "ERC-20- und NEP-5-Assets sind Tokens, die auf den Ethereum- und NEO-Blockchains ausgegeben werden. GAS ist auch ein Asset, das auf der NEO-Blockchain gespeichert ist. Du benötigst eine Ethereum-Wallet für die Speicherung von ETH und ERC-20-Tokens und eine NEO-Wallet für die Speicherung von NEO, GAS und NEP-5-Tokens.",
       "public-address-sub-label": "Welche Assets kann ich hierhin schicken?",
       "public-address-tooltip": "Die Blockchain-Adresse, unter der deine Assets gespeichert sind.",
       "private-key-label": "Privater Schlüssel",
       "private-key-sub-label-show": "Privaten Schlüssel anzeigen",
       "private-key-sub-label-hide": "Privaten Schlüssel verstecken",
       "private-key-tooltip": "Dieser kann verwendet werden, um auf deine Assets außerhalb von Nash Zugriff zu erhalten. Halte ihn geheim.",
-      "unknown-blockchain": "Unknown blockchain",
+      "unknown-blockchain": "Unbekannte Blockchain",
       "wallets": {
         "eth": {
           "link-label": "Speichert auch ERC-20-Tokens",
@@ -3895,11 +4062,16 @@
       }
     },
     "my-limits": {
-      "title": "Handelslimits",
       "header": "Handelslimits",
-      "desc-1": "Aus rechtlichen Gründen müssen wir deine Identität überprüfen, wenn du über bestimmte Limits hinaus handeln möchtest.",
-      "desc-2": "Verifizierungsstufe 0 erhälst automatisch.",
-      "learn-more": "Mehr erfahren",
+      "desc": "Nash blockiert niemals Auszahlungen, aber sie werden trotzdem zu deinen Nash Channels Limits gezählt. Erfahre <0>hier</0> mehr über Limits",
+      "24h-volume": "24 Std. Handelsvolumen",
+      "30d-volume": "30 Tage Handelsvolumen",
+      "1y-volume": "1 Jahr Handelsvolumen",
+      "view-fee-tiers": "Zeige Gebührenstruktur",
+      "your-taker-fee": "Deine Taker-Gebühr",
+      "unavailable-with-tier-0": "Nicht verfügbar in Verifizierungsstufe 0.",
+      "limit-yearly-buys": "<0 />/jährliche Käufe",
+      "limit-yearly-sales": "<0 />/hährliche Verkäufe",
       "cards": {
         "tiers": {
           "header": "Stufe {{tier}}",
@@ -3913,50 +4085,20 @@
         },
         "limits": {
           "header": "Maximales tägliches handelbares Volumen",
-          "percentage-net-worth": "Angepasstes Limit",
           "unlimited": "Kein Limit",
-          "tier-verified": "Stufe {{tier}} verifiziert",
-          "get-tier-verified": "Verifizierungsstufe {{tier}} beantragen",
-          "pending": "Wird überprüft",
-          "denied": "Abgelehnt",
+          "verified": "Verifiziert",
+          "in-review": "Wird geprüft",
+          "rejected": "Abgelehnt",
           "try-again": "Erneut versuchen",
-          "contact-us": "Demnächst verfügbar"
-        },
-        "information": {
-          "header": "Erforderliche Informationen",
-          "desc": "Du hast diese Stufe automatisch erhalten, als du dein Nash-Konto erstellt hast.",
-          "email": "E-Mail-Adresse",
-          "name": "Name",
-          "address": "Adresse",
-          "proof-of-address": "Adressnachweis",
-          "pep-check": "PEP-Check",
-          "photo-id": "Foto-ID",
-          "selfie": "Selfie",
-          "date-of-birth": "Geburtsdatum",
-          "net-worth": "Schätzung des Reinvermögens",
-          "contact-number": "Telefonnummer",
-          "tier1-info-net-worth": "Verifizierungsstufe 1 + Schätzung des Reinvermögens",
-          "source-of-funds": "Herkunft der Mittel",
-          "name-manager": "Firmenvertreter",
-          "email-institution": "E-Mail-Adresse",
-          "name-company": "Firmenname",
-          "website": "Website",
-          "tin": "TIN",
-          "corporate-formation-documents": "Gründungsunterlagen",
-          "processing-time": "Wenn deine Verifizierung innerhalb der nächsten 24 Stunden nicht abgeschlossen wird, bitte <0>kontaktiere unseren Kundenservice</0>."
+          "contact-us": "Demnächst verfügbar",
+          "unavailable": "In deiner Region noch nicht verfügbar"
         },
         "tier-1": {
-          "get-verified-button": "Identität verifizieren",
+          "get-started-button": "Starte hier",
           "continue-verification-button": "Weiter",
           "verification": {
             "header": "Wie möchtest du dich identifizieren lassen?",
             "mobile": {
-              "header": "Mobile App",
-              "desc": "Erfordert hochwertige Haupt- und Frontkameras.",
-              "steps": [
-                "App herunterladen",
-                "QR-Code scannen"
-              ],
               "download": {
                 "header": "Verifizierungsstufe 1 kannst du mit unserer Mobile App freischalten.",
                 "downloaded-app": "Ich habe die App heruntergeladen"
@@ -3966,10 +4108,7 @@
                 "desc": "Wenn du den Verifizierungsprozess abgeschlossen hast, erscheint hier dein Ergebnis innerhalb einer Minute."
               }
             },
-            "web": {
-              "header": "Nash Web-Plattform",
-              "desc": "Erfordert eine hochwertige Webcam."
-            },
+            "use-web-platform": "Ich werde die Nash Web-Plattform benutzen",
             "do-it-later": "Ich mache das später."
           }
         }
@@ -3995,7 +4134,7 @@
         "duration-month": "<0>{{count}}</0> Monat",
         "duration-month_plural": "<0>{{count}}</0> Monate",
         "redeem-button": {
-          "label": "NEX entsperrt",
+          "label": "NEX entsperren",
           "submitting": "Wird entsperrt …",
           "error": "Fehlgeschlagen! Bitte erneut versuchen.",
           "success": "Vorgang abgeschlossen. Tokens werden entsperrt …",
@@ -4009,9 +4148,10 @@
     },
     "statements": {
       "view-statement-button": "Auszug zeigen",
-      "summary-title": "All statements",
-      "export-summary": "Export stakes as CSV",
+      "summary-title": "Alle Auszüge",
+      "export-summary": "Auszüge als .csv exportieren",
       "export": "Auszug exportieren",
+      "export-detailed": "Exportiere detaillierte Auszüge",
       "date-col": "Auszahlungsdatum",
       "asset-received-col": "Asset erhalten",
       "assets-received-col": "Assets erhalten",
@@ -4046,7 +4186,7 @@
         "paragraphs": {
           "par-1": {
             "title": "Wie funktioniert es?",
-            "desc": "Du sperrst beliebig viele deiner NEX-Tokens in einem Staking Contract. Diese Tokens kannst du dann weder überweisen noch verkaufen. Solange dein Stake aktiv ist, erhälst du täglich Dividenden."
+            "desc": "Du sperrst beliebig viele deiner NEX-Tokens in einen Staking Contract. Diese Tokens kannst du dann weder überweisen noch verkaufen. Solange dein Stake aktiv ist, erhälst du täglich Dividenden."
           },
           "par-2": {
             "title": "Wie werden die Dividenden berechnet?",
@@ -4121,7 +4261,7 @@
       "title": "Passive Einkünfte durch NEX-Staking verdienen",
       "description-desktop": "Neu beim Staking? Erfahre mehr über <0>NEX-Staking</0> und <1>erstelle deinen ersten Stake</1>.",
       "description-mobile": "Neu beim Staking? Erfahre mehr über <0>NEX-Staking</0>.",
-      "description-modal-create-link": "erstelle deinen ersten Stake"
+      "description-modal-create-link": "Erstelle deinen ersten Stake"
     },
     "staking-view-header": {
       "stakes-in-progress": "Laufende Stakes",
@@ -4227,6 +4367,15 @@
         }
       }
     }
+  },
+  "blockchains": {
+    "btc": "Bitcoin",
+    "eth": "Ethereum",
+    "neo": "NEO"
+  },
+  "tokens": {
+    "erc20": "ERC-20",
+    "nep5": "NEP-5"
   },
   "timezones": {
     "Pacific/Niue": "(GMT-11:00) Niue",
@@ -4479,5 +4628,173 @@
     "Pacific/Tongatapu": "(GMT+13:00) Tongatapu",
     "Pacific/Apia": "(GMT+14:00) Apia",
     "Pacific/Kiritimati": "(GMT+14:00) Kiritimati"
+  },
+  "trading-competition": {
+    "title": "Nash League",
+    "competition": "Nash League",
+    "squad": "Squad",
+    "squads": "Squads",
+    "solo": "Solo",
+    "pl": "P/L",
+    "captain": "Captain",
+    "members": "Mitglieder",
+    "rank": "Rang",
+    "nickname": "Nickname",
+    "volume": "Handelsvolumen",
+    "prize-label": "Preisgeld",
+    "max-16-characters": "Max. 16 Zeichen",
+    "inappropriate-message": "Unanständige Namen werden disqualifiziert. Seid freundlich!",
+    "invalid-name": "Dein Name ist bereits vergeben oder enthält ungültige Zeichen.",
+    "terms-and-conditions": "Durch deine Teilnahme an der Nash League stimmst du den <0>Geschäftsbedingungen</0> des Wettbewerbs zu.",
+    "unranked": "Ohne Rang",
+    "n-a": "Nicht verfügbar.",
+    "prize": {
+      "unlock-up-to": "Bis zu",
+      "title": "1 Mio. USD in Preisgeldern!",
+      "desc-1": "Einfach auf Nash traden, um deinen Anteil zu gewinnen",
+      "desc-2": "Alle User sind automatisch für den Solo-Wettbewerb registriert. Tritt einem Squad bei, um deine Chancen auf ein Preisgeld zu erhöhen",
+      "desc-3": "Je mehr Volumen durch den Wettbewerb generiert wird, desto höhere Preisgelder werden ausgezahlt",
+      "more-levels": "Mehr Level werden freigeschaltet, wenn Level {{level}} erreicht wurde!",
+      "volume-s": "Handelsvolumen ($)",
+      "prizes": "Preisgelder",
+      "winners": "Gewinner",
+      "default-nickname": "Standardnickname {{nickname}}",
+      "welcome-nickname": "Willkommen, {{nickname}}",
+      "create-new-nickname": "Generiere einen neuen Nickname",
+      "anonymous": "Anonymous",
+      "set-nickname": "Setze Nickname",
+      "edit-nickname": "Ändere Nickname",
+      "maybe-later": "Vielleicht später",
+      "learn-more-league": "Erfahre mehr über Nash League",
+      "full-prize-breakdowns": "Vollständige Aufschlüsselung der Preisgelder für das aktuelle Level",
+      "all-levels-revealed": "Alle Levels wurden aufgedeckt!",
+      "competition-ended": "Dieser Wettbewerb ist beendet",
+      "current-nickname": "Aktueller Nickname",
+      "main-card": {
+        "level-locked": "Level {{level}} gesperrt",
+        "level-unlocked": "Level {{level}} erreicht",
+        "total-prize": "<0 /> in Preisgeldern",
+        "solo-count": "{{count}} Solo",
+        "team-count": "{{count}} Squad",
+        "team-count_plural": "{{count}} Squads",
+        "pl-count": "{{count}} P/L",
+        "unlocks-at": "Wird erreicht bei"
+      },
+      "card": {
+        "squad-desc": "Wird zwischen {{count}} <0 /> <1>Squad</1> aufgeteilt",
+        "squad-desc_plural": "Wird zwischen {{count}} <0 /> <1>Squads</1> aufgeteilt",
+        "solo-desc": "Wird zwischen {{count}} <0 /> <1>Solo</1> aufgeteilt",
+        "special-desc": "<0 /> <1>Sonderpreise</1>",
+        "solo-pl-desc": "Wird zwischen {{count}} <0 /> <1>P/L</1> aufgeteilt"
+      }
+    },
+    "create-squad": {
+      "title": "Führe dein Squad aus Tradingprofis an",
+      "sub-title": "Wir empfehlen, nur ein Squad zu gründen, wenn du bereits 10 Mitglieder für dieses zusammen hast.",
+      "description": "Wenn dein Squad weniger als 10 Mitglieder hat, wenn der Wettbewerb beginnt, wird es aufgelöst und du nimmst solo teil.",
+      "create-squad-button": "Erstelle Squad",
+      "create-squad-modal-desc": "Dein Squad muss mindestens 10 Mitglieder haben, ansonsten wird es aufgelöst",
+      "create-squad-modal-message": "Sobald du dein Squad erstellt hast, kannst du es nicht mehr verlassen um einem anderen beizutreten",
+      "set-squad-name": "Wähle einen Namen",
+      "create-a-name": "Wähle einen Namen",
+      "accept-rules": "Ich habe die Regeln für die Erstellung eines Squads verstanden",
+      "create-squad": "Erstelle Squad",
+      "your-squad": "Dein Squad",
+      "congrats-created-squad": "Herzlichen Glückwunsch! Du bist der Captain von:",
+      "invite-your-friends": "Lade Freunde in dein Squad ein!"
+    },
+    "join-squad": {
+      "title": "Squad beitreten",
+      "description": "Bist du dir sicher, dass du dem Squad {{squadName}} von Captain {{captainName}} beitreten möchtest?",
+      "message-guaranteed": "Dieses Squad nimmt garantiert am Wettbewerb teil",
+      "message-not-guaranteed": "Es ist riskant, diesem Squad beizutreten, weil es noch nicht die {{minMemberCount}}-Mitglieder Minimalanzahl erreicht hat.",
+      "modal-check": "Sobald du diesem Squad beigetreten bist, kannst du es nicht mehr verlassen oder einem anderen beitreten."
+    },
+    "competition-table": {
+      "no-squads": "Es wurden noch keine Squads erstellt",
+      "table-message-not-started": "{{tabState}} Die Ranks werden hier angezeigt, sobald der Wettbewerb beginnt.",
+      "divider-squad-safe": "Diese Squads nehmen sicher am Wettbewerb teil.",
+      "divider-squad-unsafe": "Diese Squads nehmen noch nicht sicher am Wettbewerb teil, weil sie noch nicht die Mindestanforderungen erfüllen. Ein Beitritt ist deshalb riskant! Das Handelsvolumen der Squads wird nach Beginn des Wettbewerbs angezeigt."
+    },
+    "competition-info": {
+      "squad-desc": "Du nimmst momentan mit dem Squad {{squadName}} <0 /> am Wettbewerb teil.",
+      "solo-desc": "Du nimmst momentan <0 /> solo teil – Alle Nash User wurden automatisch registriert!",
+      "not-signed": "<1>Log dich ein</1>, um dich selbst im Highscore zu finden.",
+      "competition-ended": "Season 1 der Nash League wurde beendet",
+      "prizes-unlocked": "Erreichte Preisgelder",
+      "next-prizes-unlocked": "Die nächsten erreichten Preisgelder",
+      "prizes-split": "<0 /> aufgeteilt zwischen {{solo}} solo und {{team}} Squad",
+      "clock-helper": {
+        "days": "Tage",
+        "hours": "Stunden",
+        "minutes": "Minuten"
+      },
+      "cards": {
+        "register-clock-title": "Verbleibende Zeit, um einem Squad beizutreten",
+        "competition-clock-title": "Der Wettbewerb beginnt in",
+        "current-tier-info-title": "Aktuelles Volumen",
+        "current-solo-prize": "Dein aktueller Solopreis",
+        "current-squad-prize": "Dein aktueller Squadpreis",
+        "not-in-a-squad": "Du bist in keinem Squad",
+        "join-squad": "Tritt einem Squad bei, um Chancen auf weitere Preise zu haben",
+        "rookies-title": "Willkommen bei Nash, Rekrut",
+        "rookies-description": "Die Toptrader unter den Neulingen gewinnen jede Woche einen Anteil aus einem Extra-Preispool von 1000 NEX. <0>Erfahre mehr</0>",
+        "rookies-nex-rewards": "NEX Preise",
+        "next-tier-info-title": "Volumen erforderlich für das nächste Level",
+        "ended-title": "Gesamtvolumen des Wettbewerbs"
+      }
+    },
+    "squad-page": {
+      "squad-rank": "Squad Rang",
+      "squad-volume": "Squad Volumen",
+      "squad-prize": "Squad Preisgeld",
+      "best-contrib": "Top Trader",
+      "no-contrib": "Keine Teilnehmer bisher",
+      "squad-guaranteed": "Dieses Squad hat {{count}} Mitglieder und nimmt garantiert am Wettbewerb teil.",
+      "squad-guaranteed_plural": "Dieses Squad hat {{count}} Mitglieder und nimmt garantiert am Wettbewerb teil.",
+      "squad-not-guaranteed": "Dieses Squad hat {{count}} Mitglieder und nimmt noch nicht am Wettbewerb teil.",
+      "squad-not-guaranteed_plural": "Dieses Squad hat {{count}} Mitglieder und nimmt noch nicht am Wettbewerb teil.",
+      "invite-to-squad": "Lade Freunde in dieses Squad ein",
+      "back-to-all": "Zurück",
+      "top-members": "Top Trader des Squads",
+      "others": "Andere"
+    },
+    "s02": {
+      "competition-starts": "Wettbewerb startet",
+      "competition-ends": "Wettbewerb endet",
+      "rookies": "Rekruten",
+      "user-welcome": "Willkommen,",
+      "prize": {
+        "title": "10.000$ Preisgeld pro 10 Mio. $ Handelsvolumen",
+        "desc-1": "Einfach auf Nash traden, um deinen Anteil zu gewinnen",
+        "desc-2": "Alle User sind automatisch für den Solo-Wettbewerb registriert. Tritt einem Squad bei, um deine Chancen auf ein Preisgeld zu erhöhen",
+        "desc-3": "Je mehr Volumen durch den Wettbewerb generiert wird, desto höhere Preisgelder werden ausgezahlt",
+        "total-volume": "Handelsvolumen gesamt",
+        "unlocked-prize": "Erreichte Preisgelder",
+        "prize-split": "Preisgeldverteilung",
+        "no-prizes-unlocked": "Noch keine Preisgelder freigeschaltet",
+        "all-solos": "Alle Soloteilnehmer",
+        "squad-prizes-split": "{{count}} Squad",
+        "squad-prizes-split_plural": "{{count}} Squads",
+        "volume-tier": "Volumenlevel",
+        "volume-remainning": "Benötigtes Handelvolumen für dieses Level"
+      },
+      "create-squad": {
+        "description": "Der Captain erhält einen garantierten Anteil von 5% des Squadpreisgeldes",
+        "create-squad-modal-message": "Sobald du ein Squad erstellt hast, kannst du es nicht mehr verlassen um einem anderen beizutreten. Dein Squad muss mindestens 5 Mitglieder haben, wenn der Wettbewerb startet, sonst wird es aufgelöst."
+      },
+      "competition-table": {
+        "divider-squad-unsafe": "Diese Squads haben noch nicht die Mindestanzahl von 5 Mitgliedern erreicht",
+        "week-prize": "Woche {{week}}",
+        "previous-week": "Vorherige Woche",
+        "next-week": "Nächste Woche"
+      },
+      "competition-info": {
+        "competition-ended": "Die zweite Saison der Nash League ist vorbei",
+        "welcome-rookie": "Willkommen bei Nash, Rekrut!",
+        "how-it-works-rookie": "Die Top Trader unter den neuen Nash Mitgliedern gewinnen einen Anteil am wöchentlichen 1000 NEX Preispool! <0>Erfahre mehr</0>",
+        "rewards-rokie": "NEX Preis: {{prize}}"
+      }
+    }
   }
 }
