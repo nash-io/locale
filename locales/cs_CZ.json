@@ -28,8 +28,8 @@
   "exchange": "Burza",
   "receive": "Receive",
   "send": "Send",
-  "convert": "Převést",
-  "review": "Zkontrolovat",
+  "convert": "Convert",
+  "review": "Review",
   "wallet": "Účet",
   "upload": "Nahrát",
   "processing": "Procesuji…",
@@ -41,33 +41,33 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
-  "dismiss": "Zavřít",
+  "dismiss": "Dismiss",
   "dismiss-forever": "Dismiss forever",
   "remind-me-later": "Remind me later",
-  "got-it": "Rozumím!",
-  "deposit": "Vklad",
-  "review-deposit": "Zontrolovat vklad",
-  "withdraw": "Výběr",
-  "review-withdraw": "Zkontrolovat výběr",
+  "got-it": "Got it!",
+  "deposit": "Deposit",
+  "review-deposit": "Review deposit",
+  "withdraw": "Withdraw",
+  "review-withdraw": "Review withdraw",
   "no-limit": "No limit",
   "learn-more": "Learn more",
-  "approve-currency": "Schválit {{currency}}",
-  "approve-currency-once": "Schválení převodu tohoto aktiva je potřeba provést pouze jednou.",
-  "approve-currency-everytime": "Schválení převodu tohoto aktiva je potřeba provést pokaždé.",
-  "approve-currency-loading": "Tato akce může trvat až 1 minutu.",
-  "verified": "Ověřeno",
+  "approve-currency": "Approve {{currency}}",
+  "approve-currency-once": "You will need to approve transfers of this asset once.",
+  "approve-currency-everytime": "You will need to approve transfers of this asset every time.",
+  "approve-currency-loading": "This can take up to 1 minute",
+  "verified": "Verified",
   "nash-cash": "Nash Cash",
   "nex-staking": "NEX staking",
-  "available": "Dostupné",
-  "view": "Zobrazit",
-  "terms-and-conditions": "Obecné zásady a podmínky",
-  "sign-in": "Přihlásit se",
-  "read-more": "Dozvědět se více",
-  "coming-soon": "Již brzy",
-  "million": "Milion",
+  "available": "Available",
+  "view": "View",
+  "terms-and-conditions": "Terms and conditions",
+  "sign-in": "Sign in",
+  "read-more": "Read more",
+  "coming-soon": "Coming soon",
+  "million": "Million",
   "million/short": "M",
-  "volume": "Objem",
-  "volume/lowercase": "objem",
+  "volume": "Volume",
+  "volume/lowercase": "volume",
   "apikeys": {
     "no-addresses-whitelisted": "Na whitelist jste zatím nepřidali žádnou adresu.",
     "address-input-placeholder": "Vložte BTC, NEO nebo ETH adresu na whitelist",
@@ -323,9 +323,9 @@
   },
   "search": "Hledat…",
   "loading": "Nahrávám…",
-  "trades-downloading": "Probíhá stahování obchodů…",
-  "trades-found": "Nalezen {{count}} obchod…]",
-  "trades-found_plural": "Nalezeno {{count}} obchodů…]",
+  "trades-downloading": "Downloading trades…",
+  "trades-found": "{{count}} trade found…",
+  "trades-found_plural": "{{count}} trades found…",
   "pending": "Čeká na vyřízení",
   "cancelling": "Ruším…",
   "authenticating": "Ověřuji…",
@@ -861,8 +861,8 @@
       "clear-studies-button-label": "Smazat všechny indikátory"
     },
     "update-order": {
-      "new-limit": "Nastavit novou cenu",
-      "new-stop": "Nastavit novou stop cenu",
+      "new-limit": "Set a new price",
+      "new-stop": "Set a new stop price",
       "save": "Save changes",
       "cancel": "Cancel"
     },
@@ -911,7 +911,7 @@
             "maybe-insufficient-funds": "Nedostatek {{currencySymbol}}.",
             "order-too-small": "Minimální velikost je {{orderSize}} {{currencySymbol}}.",
             "limit-breached": "Překračujete obchodní limity.",
-            "soft-limit-breached": "Blížíte se k limitům obchodování. <0>Navyšte</0> level svého ověření a obchodujte více."
+            "soft-limit-breached": "You’re close to your trading limit. <0>Upgrade</0> your verification tier to trade more."
           }
         },
         "cancel-at": {
@@ -1957,7 +1957,7 @@
       "daily-limits-header": "Zbývající limity po úskutečnění této transakce",
       "current-price-label": "Aktuální cena | <0 />",
       "current-price-unavailable": "Aktuální cena není k dispozici",
-      "unavailable": "Cena nedostupná. Zkuste znovu později.",
+      "unavailable": "Price unavailable. Try again soon.",
       "buy-with-input-label-no-cur": "Zaplatit s",
       "sell-with-input-label-no-cur": "Vložit do",
       "buy-with-input-label": "Zaplatit {{currency}} s",
@@ -2060,15 +2060,15 @@
       "total-fees": "Total fees"
     },
     "verify-code": {
-      "title": "Ověřit kód",
-      "message": "Ověřovací kód byl zaslán na váš email, prosím potvrďte email vložením kódu do políčka níže",
-      "code-label": "Vložit potvrzovací kód:",
-      "code-placeholder": "1234",
-      "submit": "Ověřit kód",
+      "title": "Verify code",
       "verify-email": "Verify your email",
+      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
       "transak-message": "We’ve sent a verification code to {{email}}",
+      "code-label": "Enter confirmation code:",
       "transak-code-label": "Enter your one-time OTP code",
+      "code-placeholder": "1234",
       "transak-terms": "I agree with Transak’s <0>Terms of Use</0> and <1>Privacy Policy</1>.",
+      "submit": "Verify code",
       "transak-submit": "Verify OTP code"
     },
     "transactions": {
@@ -2371,9 +2371,9 @@
           "field": "Emailová adresa"
         },
         "personal-details": {
-          "edit": "upravit osobní detaily",
-          "add": "Přidat osobní údaje",
-          "label": "Osobní detaily"
+          "edit": "Edit personal details",
+          "add": "Add personal details",
+          "label": "Personal details"
         },
         "occupation": {
           "placeholder": "Manažer, účetní, ředitel atd.",
@@ -2396,13 +2396,13 @@
           "last-name-label": "Příjmení",
           "country-label": "Země",
           "state-label": "Region",
-          "mobile-number": "Telefoní číslo",
-          "mobile-number-required": "Telefoní číslo"
+          "mobile-number": "Mobile number",
+          "mobile-number-required": "Mobile number"
         },
         "address": {
           "edit": "Změnit adresu",
           "add": "Přidat adresu",
-          "label": "Adresa",
+          "label": "Address",
           "save": "Odeslat adresu",
           "warning": "Potvrzuji, že při odeslání těchto informací bude můj účet být znovu zkontrolován a po dobu kontroly nebude možné usutečnit žádné transakce.",
           "building-number-label": "Číslo popisné",
@@ -2464,7 +2464,7 @@
           "file-update": "<0>Odstranit</0> nebo <1>narát nový obrázek</1>",
           "try-again": "Zkusit znovu",
           "submit-btn": "Odeslat dokumenty",
-          "provided": "Důkaz o místě bydliště vložen"
+          "provided": "Proof of address uploaded"
         },
         "id": {
           "add": "Přidat průkaz totožnosti",
@@ -2783,10 +2783,10 @@
       "use-exact-name": "Use this exact name.",
       "recipient-address": "Recipient address",
       "recipient-bank-country": "Recipient bank country",
-      "exact-name-warning-1": "<0>Musíte</0> specifikovat příjemce jako ‘<1>Neon Exchange AG</1>’.",
-      "exact-name-warning-2": "Převody do ‘Nash’ nebo jiných <0>budou navráceny na vaše náklady</0>.",
-      "exact-name-warning-3": "Jméno na vašem bankovním a Nash účtu se musí shodovat. <0>Nepoužívejte</0> zprostředkovatelské služby (např. TransferWise).",
-      "btn-exact-name-warning": "Rozumím"
+      "exact-name-warning-1": "You <0>must</0> specify the recipient as ‘<1>Neon Exchange AG</1>’.",
+      "exact-name-warning-2": "Transfers to ‘Nash’ or other names will be <0>returned at your own cost</0>.",
+      "exact-name-warning-3": "Your bank account name must match the name on your Nash account. <0>Do not</0> use third-party services (e.g. TransferWise).",
+      "btn-exact-name-warning": "Got it"
     },
     "timeout-message": "Tento směnný kurz bude garantován a uamčený na:",
     "network-error": "Síťová chyba. Prosím zkuste to znovu.",
@@ -2861,13 +2861,13 @@
       "error": {
         "invalid-data": "Špatná data.",
         "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu.",
-        "profile": "Nastala chyba při načítání profilu. Prosím obnovte stránku a zkuste to znovu.",
-        "file-upload": "Nastala chyba při odesílání souboru. Prosím obnovte stránku a zkuste to znovu.",
-        "bank-account": "Nastala chyba při získávání vašeho bankovního účtu. Prosím obnovte stránku a zkuste to znovu.",
-        "platform": "Nastala chyba při získávání dat z CCPRO. Prosím obnovte stránku a zkuste to znovu.",
-        "coins": "Nastala chyba při získávání dostupných aktiv. Prosím obnovte stránku a zkuste to znovu.",
-        "kyc": "Nastala chyba při získávání KYC dat. Prosím obnovte stránku a zkuste to znovu.",
-        "quote": "Nastala chyba při naceňování příkazu. Prosím obnovte stránku a zkuste to znovu."
+        "profile": "An error ocurred while loading profile data. Please reload then try again.",
+        "file-upload": "Error uploading file. Please reload then try again.",
+        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
+        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
+        "coins": "Error retrieving available coins. Please reload then try again.",
+        "kyc": "Error retrieving KYC data. Please reload then try again.",
+        "quote": "Error quoting order. Please reload then try again."
       },
       "validation": {
         "first-name-required": "Zadejte křestní jméno.",
@@ -2997,7 +2997,7 @@
       "success": "Synchronizace proběhla úspěšně!"
     },
     "transaction-retry": {
-      "transfers-page-retry-button-title": "Opakovat transakci",
+      "transfers-page-retry-button-title": "Retry transaction",
       "title": "Znovu provést transakci",
       "subtitle": "Všechny čekající a selhané vklady a výběry",
       "actions-title": "Akce",
@@ -3012,7 +3012,7 @@
       },
       "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku.",
       "table": {
-        "fee": "Poplatek"
+        "fee": "Fee"
       }
     },
     "assets": {
@@ -3024,7 +3024,7 @@
       },
       "transferring-funds": {
         "title": "Posílání a přijímání prostředků",
-        "desc": "Nash Channels vám umožňují obchodovat rychlostí blesku bez blockchain poplatků a bez vzdání se dohledu nad financemi. Odešlete finanční prostředky do Nash Channels z vaší Nash peněženky.",
+        "desc": "Nash Channels let you trade at lightning speed with no blockchain fees and without giving up custody. Send funds to Nash Channels from your Nash wallet.",
         "learn-more-never-show": "<0>Zjistit více</0> nebo <1>již nikdy neukazovat</1>.",
         "learn-more": "Zjistit více",
         "never-show": "Již nikdy neukazovat."
@@ -3040,9 +3040,9 @@
           "claiming": "Získávám…",
           "claim": "Nárokovat GAS",
           "gas-to-claim": "Máte {{amount}} GAS, které si můžete nárokovat.",
-          "no-gas-to-claim": "Nemáte řádný GAS který byste si mohli nárokovat.",
+          "no-gas-to-claim": "You have no GAS to claim.",
           "claiming-now": "Nyní si nárokujete GAS.",
-          "error-claiming": "Chyba pří nárokování GAS.",
+          "error-claiming": "Error claiming GAS.",
           "claiming-locked": "Znovu si můžete nárokovat GAS za ~{{count}} minutu.",
           "claiming-locked_plural": "Znovu si můžete nárokovat GAS za ~{{count}} minut."
         },
@@ -3072,11 +3072,11 @@
           "action-buttons": {
             "trade": "Obchodovat",
             "transfer-funds": "Poslat/Obdržet",
-            "convert": "Převést",
+            "convert": "Convert",
             "send": "Odeslat",
             "receive": "Přijmout",
             "nash-channels": "Kanály Nash",
-            "nash-channels-untradable": "Toto aktivum není obchodovatelné na Nash"
+            "nash-channels-untradable": "This asset isn’t tradable in Nash"
           }
         },
         "no-results": "Zatím nemáte žádné zůstatky na vašem Nash účtu."
@@ -3239,39 +3239,39 @@
           }
         },
         "volume": {
-          "exceeds-deposit-limit": "Překročen limit vkladu",
-          "upgrade-tier-or-wait": "<0>Navyšte úroveň verifikace</0> abyste mohli vložit více prostředků nebo vyčkejte až se opět dostanete pod limity.\n\n Výběry nejsou nikdy blokovány.",
-          "near-deposit-limit": "Tento převod překročí vaše vaše limity vkladu, ale bude i tak zpracován. Brzy budete muset navýšit úrověň vašeho ověření!"
+          "exceeds-deposit-limit": "Exceeds deposit limit",
+          "upgrade-tier-or-wait": "<0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.",
+          "near-deposit-limit": "This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!"
         }
       },
       "nash-channels": {
         "explanation": {
-          "title": "Na naší tzv. Layer-2 síti\n máte vždy kontrolu nad finančními prostředky vy a pouze vy",
-          "fast-trade": "Bleskově rychlé cross-chain obchodování",
-          "trade-without-fees": "Obchodujte bez blockchain poplatků",
-          "nash-cash": "Nakupujte/prodávejte naNash Cash s 0% poplatky"
+          "title": "On our Layer-2 network\n you always control your funds",
+          "fast-trade": "Lightning-fast cross-chain trading",
+          "trade-without-fees": "Trade without blockchain fees",
+          "nash-cash": "Buy/sell on Nash Cash at 0% fees"
         },
         "transfer-funds": {
-          "require-approval": "Měnu {{currency}} musíte nejprve schválit než ji budete moci vložit do Nash Channels.",
-          "no-funds": "Nemáte žádnou měnu {{currency}} dostupnou k {{mode}}.",
-          "no-funds-nash-cash": "<0>Vložit {{currency}}</0> z externího účtu nebo nakupujte přes Nash Cash s 0% poplatky."
+          "require-approval": "You need to approve {{currency}} before you can deposit to Nash Channels.",
+          "no-funds": "You don’t have any {{currency}} available to {{mode}}.",
+          "no-funds-nash-cash": "<0>Deposit {{currency}}</0> from an external account or purchase at a 0% fee through Nash Cash."
         }
       },
       "nex-swap": {
         "info": {
-          "title": "Převést token NEX mezi NEO a Ethereum blockchainy",
-          "markets": "Získejte přístup k dalším trhům na Ethereu, např. Uniswap",
-          "staking": "Stakujte NEP-5 NEX token a získejte dividendy"
+          "title": "Convert NEX between the NEO and Ethereum blockchains",
+          "markets": "Gain access to secondary markets on Ethereum, e.g. Uniswap",
+          "staking": "Stake NEP-5 NEX tokens to receive dividends"
         },
-        "tier-verification": "Abyste mohli převádět NEX token musíte dokončit <0>ověřování na úrovni 1</0>.",
-        "minimum-amount": "Minimální množství převodu je {{amount}}",
-        "modal-title": "Převést {{from}} do {{to}}",
-        "convert-with-currency": "Převést měnu {{currency}}",
-        "conversion-started": "Převod začal"
+        "tier-verification": "To convert NEX, please complete <0>Tier 1 verification</0>.",
+        "minimum-amount": "Minimum conversion of {{amount}}",
+        "modal-title": "Convert {{from}} to {{to}}",
+        "convert-with-currency": "Convert {{currency}}",
+        "conversion-started": "Conversion started"
       },
       "receive-assets": {
-        "wallet-address": "Adresa peněženky",
-        "only-send-to": "Na tuto adresu zasílejte pouze {{currency}}!"
+        "wallet-address": "Wallet address",
+        "only-send-to": "Only send {{currency}} to this address!"
       },
       "transfer-info": {
         "title": "Prostředky jsou posílány následovně",
@@ -3285,15 +3285,15 @@
         "dismiss-link": "Již nikdy nezobrazovat a pokračovat"
       },
       "select-asset": {
-        "search-placeholder": "Výhledávat ve více jak 3000 aktivech…",
-        "title-receive": "Vyberte aktivum které si přejete přijmout",
-        "title-send": "Vyberte aktivum které si přejete odeslat",
-        "show-usd-value": "Ukázat hodnotu v USD",
-        "available-balance": "Dostupný zůstatek",
+        "search-placeholder": "Search over 3,000 assets…",
+        "title-receive": "Select an asset to receive",
+        "title-send": "Select an asset to send",
+        "show-usd-value": "Show USD value",
+        "available-balance": "Available balance",
         "groups": {
-          "yours": "Vaše aktiva",
-          "popular": "Populární aktiva",
-          "other": "Ostatní aktiva"
+          "yours": "Your assets",
+          "popular": "Popular assets",
+          "other": "Other assets"
         }
       }
     },
@@ -3346,7 +3346,7 @@
             "trading-account": "Z obchodovacího účtu",
             "personal-account": "Z mého osobního účtu",
             "nash-fiat-ramp": "Koupeno od Nash",
-            "nex-swap": "Z NEX swap contractu",
+            "nex-swap": "From NEX swap contract",
             "external-address": "Z <0 />"
           }
         },
@@ -3550,7 +3550,7 @@
       "available-amount-send": "Available to send",
       "available-amount-nash-channels-deposit": "Available to deposit",
       "available-amount-nash-channels-withdraw": "Available to withdraw",
-      "available-amount-convert": "Dostupné k převodu",
+      "available-amount-convert": "Available to convert",
       "wallets": {
         "personal-account": "Personal account",
         "nash-channels": "Nash Channels",
@@ -3923,7 +3923,7 @@
         "funds-trading-to-personal": "Vkládám prostředky na obchodovací účet",
         "staking-stake-complete": "Jeden z mých dokončených NEX staků",
         "staking-weekly-summary": "Týdenní přehled mých stake dividend je k dizpozici",
-        "nash-channels-limit": "Překročil jsem můj Nash Channels limit vkladu"
+        "nash-channels-limit": "I exceed my Nash Channels deposit limit"
       }
     },
     "security": {
@@ -4063,15 +4063,15 @@
     },
     "my-limits": {
       "header": "Limity",
-      "desc": "Nash nikdy neblokuje výběry ale počítají se do vašich Nash Channels vkladových limitů. <0>Zjistit více</0> o limitech.]",
-      "24h-volume": "24h obchodovaný objem",
-      "30d-volume": "30d obchodovaný objem",
-      "1y-volume": "1r obchodovaný objem",
-      "view-fee-tiers": "Zobrazit úrovně poplatků",
-      "your-taker-fee": "Váš poplatek za příjemce (taker)",
-      "unavailable-with-tier-0": "Nedostupné na úrovni 0.",
-      "limit-yearly-buys": "<0 />/roční nákupy",
-      "limit-yearly-sales": "<0 />/roční prodeje",
+      "desc": "Nash never blocks withdrawals, but they count towards your Nash Channels deposit limit. <0>Learn more</0> about limits.",
+      "24h-volume": "24h trading volume",
+      "30d-volume": "30d trading volume",
+      "1y-volume": "1y trading volume",
+      "view-fee-tiers": "View fee tiers",
+      "your-taker-fee": "Your taker fee",
+      "unavailable-with-tier-0": "Unavailable at Tier 0.",
+      "limit-yearly-buys": "<0 />/yearly buys",
+      "limit-yearly-sales": "<0 />/yearly sales",
       "cards": {
         "tiers": {
           "header": "Úroveň {{tier}}",
@@ -4086,15 +4086,15 @@
         "limits": {
           "header": "Maximální obchodovací limity",
           "unlimited": "Neomezeno",
-          "verified": "Ověřeno",
-          "in-review": "Probíhá posouzení",
-          "rejected": "Odmítnuto",
+          "verified": "Verified",
+          "in-review": "In review",
+          "rejected": "Rejected",
           "try-again": "Zkusit znovu",
           "contact-us": "Kontaktujte podporu",
-          "unavailable": "Nedostupné ve vašem regionu"
+          "unavailable": "Unavailable in your region"
         },
         "tier-1": {
-          "get-started-button": "Začít",
+          "get-started-button": "Get started",
           "continue-verification-button": "Pokračovat v ověření",
           "verification": {
             "header": "jak si přejete být ověřen?",
@@ -4108,7 +4108,7 @@
                 "desc": "Až dokončíte ověřevání Úrovně 1, výsledek bude zde během 1 minuty."
               }
             },
-            "use-web-platform": "Použiji webovou platformu Nash",
+            "use-web-platform": "I’ll use the Nash web platform",
             "do-it-later": "Udělám to později"
           }
         }
@@ -4151,7 +4151,7 @@
       "summary-title": "Všechny výkazy",
       "export-summary": "Exportovat staky v CSV",
       "export": "Exportovat výkazy",
-      "export-detailed": "Exportovat detailní výpis",
+      "export-detailed": "Export detailed statement",
       "date-col": "Datum platby",
       "asset-received-col": "Obdržené aktivum",
       "assets-received-col": "Obdržená aktiva",
@@ -4630,170 +4630,170 @@
     "Pacific/Kiritimati": "(GMT+14:00) Kiritimati"
   },
   "trading-competition": {
-    "title": "Nash Liga",
-    "competition": "Nash liga",
-    "squad": "Tým",
-    "squads": "Týmy",
-    "solo": "Sólo",
-    "pl": "P/Z",
-    "captain": "Kapitán",
-    "members": "Členové",
-    "rank": "Pořadí",
-    "nickname": "Přezdívka",
-    "volume": "Objem",
-    "prize-label": "Odměna",
-    "max-16-characters": "Maximálně 16 znaků",
-    "inappropriate-message": "Nevhodná jména povedou k diskvalifikaci. Buďte zdvořilý.!",
-    "invalid-name": "Vaše jméno je již použito nebo obsahuje nedovolené znaky.",
-    "terms-and-conditions": "Účastí v Nash lize souhlasíte se <0>všeobecnými zásadami a podmínkami</0>.]",
-    "unranked": "Neumístěn/a",
+    "title": "Nash League",
+    "competition": "Nash League",
+    "squad": "Squad",
+    "squads": "Squads",
+    "solo": "Solo",
+    "pl": "P/L",
+    "captain": "Captain",
+    "members": "Members",
+    "rank": "Rank",
+    "nickname": "Nickname",
+    "volume": "Volume",
+    "prize-label": "Prize",
+    "max-16-characters": "Max 16 characters",
+    "inappropriate-message": "Inappropriate names will lead to disqualification. Be polite!",
+    "invalid-name": "Your name is already taken or contains invalid characters.",
+    "terms-and-conditions": "By participating in Nash League you agree to the competition’s <0>Terms and Conditions</0>.",
+    "unranked": "Unranked",
     "n-a": "N/A",
     "prize": {
-      "unlock-up-to": "Oděmkněte až",
-      "title": "$1 MILION V ODMĚNÁCH",
-      "desc-1": "K získání vašeho podílu stačí prostě jen obchodovat!",
-      "desc-2": "Všichni uživatelé jsou automaticky zařazeni do individuálního žebříčku, ale můžete se přidat i k jakémukoli týmu a zvýšit tak svoje šance na výšší výhru.",
-      "desc-3": "Čím více objemu odobchodujete, tím více odměn vám bude vyplaceno!",
-      "more-levels": "Více úrovní bude dostupné jakmile se dosáhne úrovně {{level}}!",
-      "volume-s": "Objem ($)",
-      "prizes": "Odměny",
-      "winners": "Vítězové",
-      "default-nickname": "Výchozí přezdívka: {{nickname}}",
-      "welcome-nickname": "Vítej, {{nickname}}",
-      "create-new-nickname": "Vytvořit novou přezdívku",
-      "anonymous": "Anonym",
-      "set-nickname": "Nastavit přezdívku",
-      "edit-nickname": "Změnit přezdívku",
-      "maybe-later": "Možná později",
-      "learn-more-league": "Dozvědět se více o Nash lize",
-      "full-prize-breakdowns": "Celý přehled odměn pro současné úrovně",
-      "all-levels-revealed": "Všechny úrovně již byly odhaleny!",
-      "competition-ended": "Tato liga již skončila.",
-      "current-nickname": "Současná přezdívka",
+      "unlock-up-to": "Unlock up to",
+      "title": "$1 MILLION IN PRIZES",
+      "desc-1": "Just trade on Nash to get your share!",
+      "desc-2": "All users are automatically registered as solo participants, but you can join a squad to improve your chances.",
+      "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
+      "more-levels": "More levels will become available when Level {{level}} is reached!",
+      "volume-s": "Volume ($)",
+      "prizes": "Prizes",
+      "winners": "Winners",
+      "default-nickname": "Default nickname: {{nickname}}",
+      "welcome-nickname": "Welcome, {{nickname}}",
+      "create-new-nickname": "Create new nickname",
+      "anonymous": "Anonymous",
+      "set-nickname": "Set nickname",
+      "edit-nickname": "Edit nickname",
+      "maybe-later": "Maybe later",
+      "learn-more-league": "Learn more about Nash League",
+      "full-prize-breakdowns": "Full prize breakdown for current levels",
+      "all-levels-revealed": "All levels have been revealed!",
+      "competition-ended": "This competition has ended.",
+      "current-nickname": "Current nickname",
       "main-card": {
-        "level-locked": "Úroveň {{level}} zamčena",
-        "level-unlocked": "Úroveň {{level}} odemčena",
-        "total-prize": "<0 /> v odměnách",
-        "solo-count": "{{count}} individuál",
-        "team-count": "{{count}} týmy",
-        "team-count_plural": "{{count}} týmů",
-        "pl-count": "{{count}} P/Z",
-        "unlocks-at": "Odemčeno při"
+        "level-locked": "Level {{level}} locked",
+        "level-unlocked": "Level {{level}} unlocked",
+        "total-prize": "<0 /> in prizes",
+        "solo-count": "{{count}} solo",
+        "team-count": "{{count}} squad",
+        "team-count_plural": "{{count}} squads",
+        "pl-count": "{{count}} P/L",
+        "unlocks-at": "Unlocks at"
       },
       "card": {
-        "squad-desc": "Rozdělit mezi {{count}} <0 /> <1>tým</1>",
-        "squad-desc_plural": "Rozdělit mezi {{count}} <0 /> <1>týmy</1>",
-        "solo-desc": "Rozdělit mezi {{count}} <0 /> <1>sólistu</1>",
-        "special-desc": "<0 /> <1>Speciální propagační akce</1>",
-        "solo-pl-desc": "Rozdělit mezi {{count}} <0 /> <1>P/Z</1>"
+        "squad-desc": "Split between {{count}} <0 /> <1>squad</1>",
+        "squad-desc_plural": "Split between {{count}} <0 /> <1>squads</1>",
+        "solo-desc": "Split between {{count}} <0 /> <1>solo</1>",
+        "special-desc": "<0 /> <1>Special promotions</1>",
+        "solo-pl-desc": "Split between {{count}} <0 /> <1>P/L</1>"
       }
     },
     "create-squad": {
-      "title": "Šéfujte vašemu týmu profi obchodníků",
-      "sub-title": "Toto doporučujeme jen pokud máte 10+ členů co se k vám přidají.",
-      "description": "Pokud váš tým bude po začátku ligy mít méně než 10 členů, tak bude rozpuštěn a všichni se budou účastnit pouze solo kategorie.",
-      "create-squad-button": "Vytvořit tým",
-      "create-squad-modal-desc": "Váš tým musí mít alespoň 10 členů na začátku ligy, jinak bude rozpuštěn.",
-      "create-squad-modal-message": "Jakmile založíte tým, nebudete ho moci opustit nebo se přidat do nějakého jiného.",
-      "set-squad-name": "nastavit jméno týmu",
-      "create-a-name": "Vytvořit jméno…",
-      "accept-rules": "Rozumím pravidlům pro vytvoření týmu",
-      "create-squad": "Vytvořit tým",
-      "your-squad": "Váš tým",
-      "congrats-created-squad": "Gratulace! Jste kapitánem",
-      "invite-your-friends": "Pozvat přátele do vašeho týmu"
+      "title": "Captain your squad of trading pros",
+      "sub-title": "We only recommend this if you already have 10+ members ready to join",
+      "description": "If your squad has fewer than 10 members when the competition begins, it will be disbanded and you will compete solo.",
+      "create-squad-button": "Create a squad",
+      "create-squad-modal-desc": "Your squad must have at least 10 members when the competition begins, otherwise it will be disbanded.",
+      "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one.",
+      "set-squad-name": "Set squad name",
+      "create-a-name": "Create a name…",
+      "accept-rules": "I understand the squad creation rules",
+      "create-squad": "Create squad",
+      "your-squad": "Your squad",
+      "congrats-created-squad": "Congratulations! You are the captain of",
+      "invite-your-friends": "Invite friends to join your squad"
     },
     "join-squad": {
-      "title": "Přidat se k týmu",
-      "description": "Jste si jistí, že se chcete přidat k týmu {{squadName}} vedený kapitánem {{captainName}}?",
-      "message-guaranteed": "Tento tým má jistou účast v soutěži.",
-      "message-not-guaranteed": "Tento tým prozatím nenaplnil limit počtu členů {{minMemberCount}} a proto je rizikové se k němu přidat.",
-      "modal-check": "Jakmile se přidáte k nějakému týmu, nebudete moci ho opustit ani se přídat do jiného."
+      "title": "Join squad",
+      "description": "Are you sure you want to join the squad {{squadName}} under captain {{captainName}}?",
+      "message-guaranteed": "This squad is guaranteed to be in the competition.",
+      "message-not-guaranteed": "This squad is risky to join because it hasn’t met the {{minMemberCount}}-person minimum limit.",
+      "modal-check": "Once you join, you will not be able to leave this squad or join a new one."
     },
     "competition-table": {
-      "no-squads": "Žádné týmy zatím nebyly vytvořeny",
-      "table-message-not-started": "{{tabState}} pořadí se objeví zde jakmile Nash liga začne!",
-      "divider-squad-safe": "Připojit se k těmto týmům je bezpečné protože mají dostatečné množství členů.",
-      "divider-squad-unsafe": "Tyto týmy jsou rizikové protože ještě nemají dostatečný počet členů. Objem týmu bude zobrazen až poté co se tým kvalifikuje do ligy."
+      "no-squads": "No squads have been created yet.",
+      "table-message-not-started": "{{tabState}} rankings will appear here once the Nash League competition begins!",
+      "divider-squad-safe": "These squads are safe to join because they are guaranteed to be in the competition.",
+      "divider-squad-unsafe": "These squads are riskier to join because they haven’t met the 10-person minimum limit yet. A squad’s volume will be shown once it qualifies for the competition."
     },
     "competition-info": {
-      "squad-desc": "Momentálně vstupujete do ligy v týmu {{squadName}} <0 />.",
-      "solo-desc": "Momentálně soutěžíte <0 /> solo – Všichni Nash uživatelé jsou automaticky zaregistrování!",
-      "not-signed": "<1>Přihlaště se</1> abyste se zobrazili v tabulce výsledků!",
-      "competition-ended": "Sezóna 1 Nash Ligy již skončila!",
-      "prizes-unlocked": "Odměny odemknuty",
-      "next-prizes-unlocked": "Další odměny odemknuty",
-      "prizes-split": "<0 /> rozděleno mezi {{solo}} solo a {{team}} tým",
+      "squad-desc": "You are currently entering the competition in the {{squadName}} <0 /> squad.",
+      "solo-desc": "You are currently competing <0 /> solo – All Nash users are already registered!",
+      "not-signed": "<1>Sign in</1> to find yourself on the leaderboard!",
+      "competition-ended": "Season 1 of Nash League is now over!",
+      "prizes-unlocked": "Prizes unlocked",
+      "next-prizes-unlocked": "Next prizes unlocked",
+      "prizes-split": "<0 /> split between {{solo}} solo and {{team}} squad",
       "clock-helper": {
-        "days": "DNŮ",
-        "hours": "HODIN",
-        "minutes": "MINUT"
+        "days": "DAYS",
+        "hours": "HOURS",
+        "minutes": "MINUTES"
       },
       "cards": {
-        "register-clock-title": "Čas zbývající na přídání se nebo k založení týmu",
-        "competition-clock-title": "Liga začíná za",
-        "current-tier-info-title": "Aktuální objem",
-        "current-solo-prize": "Vaše dosavadní odměna za sólo",
-        "current-squad-prize": "Vaše dosavadní odměna za tým",
-        "not-in-a-squad": "Nejste v žádném týmu",
-        "join-squad": "Přidejte se k týmu a zvyšte tak šanci na větší odměny!",
-        "rookies-title": "Vítej v Nash, Nováčku!",
-        "rookies-description": "Naši nejlepší obchodníci dostanou každý týden poměrnou část z 1,000 NEX tokenů! <0>Dozvědět se více</0>",
-        "rookies-nex-rewards": "NEX odměny: 0.00",
-        "next-tier-info-title": "Zbývající objem pro další úroveň",
-        "ended-title": "Konečný objem ligy"
+        "register-clock-title": "Time left to join or create a squad",
+        "competition-clock-title": "The competition begins in",
+        "current-tier-info-title": "Current volume",
+        "current-solo-prize": "Your current solo prize",
+        "current-squad-prize": "Your current squad prize",
+        "not-in-a-squad": "You are not in a squad",
+        "join-squad": "Join a squad for a chance of more prizes!",
+        "rookies-title": "Welcome to Nash, Rookie!",
+        "rookies-description": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
+        "rookies-nex-rewards": "NEX rewards: 0.00",
+        "next-tier-info-title": "Volume remaining for next level",
+        "ended-title": "Final competition volume"
       }
     },
     "squad-page": {
-      "squad-rank": "Umístění v týmu",
-      "squad-volume": "Objem týmu",
-      "squad-prize": "Celkové odměny týmu",
-      "best-contrib": "Vedoucí obchodník",
-      "no-contrib": "Zatím žádní přispěvovatelé",
-      "squad-guaranteed": "Tento tým má {{count}} členů a je kvalifikován pro ligu.",
-      "squad-guaranteed_plural": "Tento tým má {{count}} členů a je kvalifikován pro ligu.",
-      "squad-not-guaranteed": "Tento tým má {{count}} členů a není zaručeno, že bude kvalifikován pro ligu.",
-      "squad-not-guaranteed_plural": "Tento tým má {{count}} členů a není zaručeno, že bude kvalifikován pro ligu.",
-      "invite-to-squad": "Pozvěte přátele do tohoto týmu",
-      "back-to-all": "Zpět je všem",
-      "top-members": "Top obchodníci týmu",
-      "others": "Ostatní"
+      "squad-rank": "Squad rank",
+      "squad-volume": "Squad volume",
+      "squad-prize": "Squad total prize",
+      "best-contrib": "Leading trader",
+      "no-contrib": "No contributors yet",
+      "squad-guaranteed": "This squad has {{count}} member and is guaranteed to be in the competition.",
+      "squad-guaranteed_plural": "This squad has {{count}} members and is guaranteed to be in the competition.",
+      "squad-not-guaranteed": "This squad has {{count}} member and is not guaranteed to be in the competition.",
+      "squad-not-guaranteed_plural": "This squad has {{count}} members and is not guaranteed to be in the competition.",
+      "invite-to-squad": "Invite friends to this squad",
+      "back-to-all": "Back to all",
+      "top-members": "Squad top traders",
+      "others": "Others"
     },
     "s02": {
-      "competition-starts": "Liga začíná",
-      "competition-ends": "Liga končí",
-      "rookies": "Nováčci",
-      "user-welcome": "Vítejte,",
+      "competition-starts": "Competition starts",
+      "competition-ends": "Competition ends",
+      "rookies": "Rookies",
+      "user-welcome": "Welcome,",
       "prize": {
-        "title": "$10 000 NOVÝCH ODMĚN ZA $10M OBJEM",
-        "desc-1": "Prostě jen obchodujte na Nash a získejte svůj podíl!",
-        "desc-2": "Všichni uživatelé jsou automaticky zaregistrováni jako solo účastníci, ale můžete se přídat k jakémukoli týmu a vyhrát další odměny.",
-        "desc-3": "Čím více objemu odobchodujete během ligy, tím více odměn vám bude vyplaceno!",
-        "total-volume": "Celkový objem burzy",
-        "unlocked-prize": "Odemčené odměny",
-        "prize-split": "Rozdělení odměn",
-        "no-prizes-unlocked": "Odměny zatím nebyly odemčeny",
-        "all-solos": "Všichni sólisté",
-        "squad-prizes-split": "{{count}} tým",
-        "squad-prizes-split_plural": "{{count}} týmy",
-        "volume-tier": "Úroveň objemu",
-        "volume-remainning": "Zbývající objem pro tuto úroveň"
+        "title": "$10,000 NEW PRIZES PER $10M VOLUME",
+        "desc-1": "Just trade on Nash to get your share!",
+        "desc-2": "All users are automatically registered as solo participants, but you can join a squad to win an additional prize.",
+        "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
+        "total-volume": "Total exchange volume",
+        "unlocked-prize": "Unlocked prizes",
+        "prize-split": "Prize split",
+        "no-prizes-unlocked": "No prizes unlocked yet",
+        "all-solos": "All solos",
+        "squad-prizes-split": "{{count}} squad",
+        "squad-prizes-split_plural": "{{count}} squads",
+        "volume-tier": "Volume tier",
+        "volume-remainning": "Volume remaining for the this level"
       },
       "create-squad": {
-        "description": "Kapitáni obdrží garantovaných 5% z odměn pro tým!",
-        "create-squad-modal-message": "Jakmile vytvoříte tým, tak ho nebudete moci opustit nebo se přídat do nějakého jiného. Váš tým musí mít alespoň 5 členů než vyprší lhůta jinak bude rozpuštěn."
+        "description": "Captains receive a guaranteed 5% of a squad’s prize!",
+        "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one. Your squad must have at least 5 members when the competition begins, otherwise it will be disbanded."
       },
       "competition-table": {
-        "divider-squad-unsafe": "Tyto týmy prozatím nenaplnily nutný počet 5 člěnů.",
-        "week-prize": "Týden {{week}}",
-        "previous-week": "Předchozí týden",
-        "next-week": "Další týden"
+        "divider-squad-unsafe": "These squads have not met the 5-person limit.",
+        "week-prize": "Week {{week}}",
+        "previous-week": "Previous week",
+        "next-week": "Next week"
       },
       "competition-info": {
-        "competition-ended": "Sezóna 2 Nash Ligy je již ukončena!",
-        "welcome-rookie": "Vítej na Nash, Nováčku!",
-        "how-it-works-rookie": "Naši nejlepší noví obchodníci dostanou každý týden podíl z 1,000 NEX tokenů! <0>Dozvědět se více</0>",
-        "rewards-rokie": "NEX odměny: {{prize}}"
+        "competition-ended": "Season 2 of Nash League is now over!",
+        "welcome-rookie": "Welcome to Nash, Rookie!",
+        "how-it-works-rookie": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
+        "rewards-rokie": "NEX rewards: {{prize}}"
       }
     }
   }
