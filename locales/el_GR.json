@@ -2997,209 +2997,209 @@
       "success": "Επιτυχής επανασυγχρονισμός!"
     },
     "transaction-retry": {
-      "transfers-page-retry-button-title": "Retry transaction",
-      "title": "Retry transactions",
-      "subtitle": "All pending or failed deposits or withdrawals",
-      "actions-title": "Actions",
-      "button-title": "Retry",
-      "button-sending": "Sending…",
-      "button-sent": "Resent",
-      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
+      "transfers-page-retry-button-title": "Επανάληψη συναλλαγής",
+      "title": "Επανάληψη συναλλαγών",
+      "subtitle": "Όλες οι εκκρεμείς ή αποτυχημένες καταθέσεις ή αναλήψεις",
+      "actions-title": "Ενέργειες",
+      "button-title": "Δοκιμή ξανά",
+      "button-sending": "Αποστολή…",
+      "button-sent": "Εστάλη ξανά",
+      "nothing-to-retry": "Δεν έχετε εκκρεμείς καταθέσεις ή αναλήψεις.",
       "status": {
-        "title": "Status",
-        "created": "Created",
-        "pending": "Pending"
+        "title": "Κατάσταση",
+        "created": "Δημιουργήθηκε",
+        "pending": "Σε εκκρεμότητα"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page.",
+      "fetch-movements-error": "Σφάλμα κατά την ανάκτηση των δεδομένων σας. Παρακαλούμε ανανεώστε τη σελίδα.",
       "table": {
-        "fee": "Fee"
+        "fee": "Χρέωση"
       }
     },
     "assets": {
-      "title": "Assets",
-      "tabs-info-button": "Learn about sending and receiving funds",
+      "title": "Νομίσματα",
+      "tabs-info-button": "Μάθετε σχετικά με την αποστολή και τη λήψη χρημάτων",
       "header": {
-        "title": "Assets",
-        "search-placeholder": "Search over 3,000 assets…"
+        "title": "Νομίσματα",
+        "search-placeholder": "Αναζήτηση σε πάνω από 3000 νομίσματα…"
       },
       "transferring-funds": {
-        "title": "Sending and receiving funds",
-        "desc": "Nash Channels let you trade at lightning speed with no blockchain fees and without giving up custody. Send funds to Nash Channels from your Nash wallet.",
-        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
-        "learn-more": "Learn more",
-        "never-show": "Never show me this again."
+        "title": "Αποστολή και λήψη χρημάτων",
+        "desc": "Τα κανάλια Nash σάς επιτρέπουν να ανταλλάξετε με αστραπιαία ταχύτητα χωρίς χρεώσεις blockchain και χωρίς να παραιτηθείτε από την κατοχή των νομισμάτων σας. Στείλτε χρήματα στα κανάλια Nash από το προσωπικό πορτοφόλι σας στο Nash.",
+        "learn-more-never-show": "<0>Μάθετε περισσότερα</0> ή <1>να μην ξαναπροβληθεί αυτό</1>.",
+        "learn-more": "Μάθετε περισσότερα",
+        "never-show": "Να μην ξαναπροβληθεί αυτό."
       },
       "table": {
         "header": {
-          "title": "Balances",
+          "title": "Υπόλοιπα",
           "actions": {
-            "hide-zero-balances": "Hide zero balances"
+            "hide-zero-balances": "Απόκρυψη μηδενικών υπολοίπων"
           }
         },
         "claim-gas": {
-          "claiming": "Claiming…",
-          "claim": "Claim GAS",
-          "gas-to-claim": "You have {{amount}} GAS to claim.",
-          "no-gas-to-claim": "You have no GAS to claim.",
-          "claiming-now": "You are currently claiming GAS.",
-          "error-claiming": "Error claiming GAS.",
-          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
-          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
+          "claiming": "Διεκδίκηση…",
+          "claim": "Διεκδίκηση GAS",
+          "gas-to-claim": "Έχετε {{amount}} GAS προς διεκδίκηση.",
+          "no-gas-to-claim": "Δεν έχετε GAS προς διεκδίκηση.",
+          "claiming-now": "Αυτήν τη στιγμή διεκδικείτε GAS.",
+          "error-claiming": "Σφάλμα διεκδίκησης GAS.",
+          "claiming-locked": "Μπορείτε να ξαναδιεκδικήσετε GAS σε ~{{count}} λεπτό.",
+          "claiming-locked_plural": "Μπορείτε να ξαναδιεκδικήσετε GAS σε ~{{count}} λεπτά."
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Νόμισμα"
           },
           "personal-account": {
-            "title": "Personal account"
+            "title": "Προσωπικό πορτοφόλι"
           },
           "trading-account": {
-            "title": "Trading contract"
+            "title": "Ανταλλακτήριο"
           },
           "nash-channels": {
-            "title": "Nash Channels"
+            "title": "Κανάλια Nash"
           },
           "in-orders": {
-            "title": "In orders"
+            "title": "Σε παραγγελίες"
           },
           "pending": {
-            "title": "Pending",
-            "hint": "Transfers being processed by the blockchain."
+            "title": "Σε εκκρεμότητα",
+            "hint": "Μεταφορές που υπόκεινται σε επεξεργασία από το blockchain."
           },
           "tradeable": {
-            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
+            "hint": "Αυτό το νόμισμα δεν ανταλάσσεται επί του παρόντος στο Nash, αλλά μπορείτε να κάνετε ανάληψη εάν έχετε υπόλοιπο στο ανταλλακτήριο."
           },
           "action-buttons": {
-            "trade": "Trade",
-            "transfer-funds": "Send/Receive",
-            "convert": "Convert",
-            "send": "Send",
-            "receive": "Receive",
-            "nash-channels": "Nash Channels",
-            "nash-channels-untradable": "This asset isn’t tradable in Nash"
+            "trade": "Ανταλλαγή",
+            "transfer-funds": "Αποστολή/Λήψη",
+            "convert": "Μετατροπή",
+            "send": "Αποστολή",
+            "receive": "Λήψη",
+            "nash-channels": "Κανάλια Nash",
+            "nash-channels-untradable": "Αυτό το νόμισμα δεν ανταλάσσεται στο Nash"
           }
         },
-        "no-results": "There are not yet any assets in your Nash account."
+        "no-results": "Δεν υπάρχουν ακόμη νομίσματα στο λογαριασμό σας στο Nash."
       }
     },
     "modals": {
       "verify-mnemonic": {
-        "or": "or",
-        "remindme": "remind me later",
-        "dismiss": "Dismiss forever",
-        "havent-checked": "You haven’t checked your twelve word backup",
-        "will-need": "You’ll need these words to access your funds if you lose your password."
+        "or": "ή",
+        "remindme": "υπενθύμιση αργότερα",
+        "dismiss": "Απόρριψη για πάντα",
+        "havent-checked": "Δεν έχετε ελέγξει το αντίγραφο ασφαλείας των δώδεκα λέξεων",
+        "will-need": "Θα χρειαστείτε αυτές τις λέξεις για να αποκτήσετε πρόσβαση στα χρήματά σας εάν χάσετε τον κωδικό πρόσβασής σας."
       },
       "transfer-funds": {
-        "title": "Send/Receive",
+        "title": "Αποστολή/Λήψη",
         "create": {
           "asset": {
-            "label": "Which asset?",
-            "placeholder": "Search for an asset…"
+            "label": "Ποιό νόμισμα;",
+            "placeholder": "Αναζήτηση νομίσματος…"
           },
           "choose-accounts": {
-            "from": "From",
-            "to": "To"
+            "from": "Από",
+            "to": "Προς"
           },
-          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
+          "exchange-maintenance": "Κατά τη διάρκεια συντήρησης δεν μπορείτε να μεταφέρετε χρήματα από ή προς το ανταλλακτήριο.",
           "recipient": {
-            "placeholder": "Enter destination…"
+            "placeholder": "Εισάγετε προορισμό…"
           },
           "contacts": {
-            "label": "Destination",
-            "placeholder": "Search for a contact or send to a new address…",
-            "wallet-address": "Send to ‘{{address}}‘",
-            "button-contacts": "Contacts",
+            "label": "Προορισμός",
+            "placeholder": "Αναζητήστε μια επαφή ή στείλτε σε μια νέα διεύθυνση…",
+            "wallet-address": "Αποστολή προς ‘{{address}}‘",
+            "button-contacts": "Επαφές",
             "select-contact": {
-              "no-options": "Type at least three characters to search for a contact or valid wallet address",
-              "no-results": "No contacts found. This is not a valid address.",
+              "no-options": "Πληκτρολογήστε τουλάχιστον τρεις χαρακτήρες για να αναζητήσετε μια επαφή ή μια έγκυρη διεύθυνση πορτοφολιού",
+              "no-results": "Δεν βρέθηκαν επαφές. Αυτή δεν είναι έγκυρη διεύθυνση.",
               "option": {
-                "no-email": "No email",
-                "no-wallet-name": "No wallet name",
-                "no-wallet-address": "No wallet address"
+                "no-email": "Κανένα e-mail",
+                "no-wallet-name": "Κανένα όνομα πορτοφολιού",
+                "no-wallet-address": "Καμία διεύθυνση πορτοφολιού"
               }
             }
           },
           "destination-address": {
-            "label": "Destination address",
-            "placeholder": "Send only {{currency}} to this address",
+            "label": "Διεύθυνση προορισμού",
+            "placeholder": "Αποστείλετε μόνο {{currency}} σε αυτή την διεύθυνση",
             "errors": {
-              "invalid-wallet": "Invalid address"
+              "invalid-wallet": "Άκυρη διεύθυνση"
             }
           },
           "movement": {
-            "error": "Please wait until your last Ethereum transfer finishes.",
-            "pending-error": "Please wait until your pending Ethereum transfer completes.",
-            "token-requires-approval": "Approval of {{ amount }} {{ currency }} is required for this token to be transferred to the trading contract.",
-            "too-many-utxo": "Please send your NEO/GAS to yourself to simplify your wallet balance data. You will then be able to deposit to the trading contract."
+            "error": "Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η πρόσφατη μεταφορά σας σε Ethereum.",
+            "pending-error": "Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η εκκρεμούσα μεταφορά σας σε Ethereum.",
+            "token-requires-approval": "Απαιτείται έγκριση ποσού {{ amount }} {{ currency }} για να μεταφερθεί το νόμισμα αυτό στο ανταλλακτήριο.",
+            "too-many-utxo": "Παρακαλούμε στείλτε το NEO/GAS στον εαυτό σας για να απλοποιήσετε τα δεδομένα υπολοίπου του πορτοφολιού σας. Στη συνέχεια, θα μπορείτε να καταθέσετε στο ανταλλακτήριο."
           },
           "transfer-amount": {
-            "label": "Amount to transfer",
-            "network-transaction-fee": "maximum network fee",
-            "loading-fee": "Loading fee…",
+            "label": "Ποσό προς μεταφορά",
+            "network-transaction-fee": "μέγιστη χρέωση δικτύου",
+            "loading-fee": "Φόρτωση χρέωσης…",
             "errors": {
-              "gas-shortage": "You need at least {{amount}} {{currencySymbol}} in your personal account to pay network fees.",
-              "fee-shortage": "You must save {{amount}} ETH for the Ethereum network fee.",
-              "fee-shortage-trading": "You need {{amount}} ETH in your personal account for Ethereum network fees."
+              "gas-shortage": "Χρειάζεστε τουλάχιστον {{amount}} {{currencySymbol}} στον προσωπικό σας λογαριασμό για να πληρώσετε τις χρεώσεις δικτύου.",
+              "fee-shortage": "Θα πρέπει να έχετε {{amount}} ETH για τις χρεώσεις δικτύου του Ethereum.",
+              "fee-shortage-trading": "Χρειάζεστε {{amount}} ETH στο προσωπικό σας πορτοφόλι για να καλύψετε τις χρεώσεις δικτύου του Ethereum."
             }
           },
           "btc": {
-            "funds-not-confirmed": "Your Bitcoin balance requires six network confirmations before you can transfer to the trading contract. Please wait while recent transfers confirm.",
-            "wait-until-external-transfer-completes": "Please wait until your recent external transfer completes before making a deposit.",
-            "temporary-limit": "Bitcoin deposits and withdrawals must be greater than 0.001 BTC while we test this new market. The restriction will be lifted in the near future."
+            "funds-not-confirmed": "Το υπόλοιπό σας σε Bitcoin απαιτεί έξι επιβεβαιώσεις δικτύου για να μπορέσετε να το μεταφέρετε στο ανταλλακτήριο. Περιμένετε μέχρι να επιβεβαιωθούν οι πρόσφατες μεταφορές.",
+            "wait-until-external-transfer-completes": "Παρακαλούμε περιμένετε έως ότου ολοκληρωθεί η πρόσφατη εξωτερική μεταφορά σας πριν πραγματοποιήσετε μια κατάθεση.",
+            "temporary-limit": "Οι καταθέσεις και οι αναλήψεις σε Bitcoin πρέπει να είναι μεγαλύτερες από 0,001 BTC, ενώ δοκιμάζουμε αυτήν τη νέα αγορά. Ο περιορισμός θα αρθεί στο εγγύς μέλλον."
           },
           "async": {
-            "title": "Transaction update",
+            "title": "Ενημέρωση συναλλαγής",
             "errors": {
-              "syncing": "We are syncing your {{currencySymbol}} funds in our system. Please wait one minute and try again.",
-              "transaction-failed": "Your last transaction sending {{currencySymbol}} failed. Please try again."
+              "syncing": "Συγχρονίζουμε τα νομίσματά σας {{currencySymbol}} στο σύστημά μας. Παρακαλούμε περιμένετε ένα λεπτό και δοκιμάστε ξανά.",
+              "transaction-failed": "Η τελευταία σας συναλλαγή αποστολής {{currencySymbol}} απέτυχε. Παρακαλούμε δοκιμάστε ξανά."
             }
           },
           "fees": {
-            "eth-recommended-message": "Keep {{amount}} ETH in my personal account for future network fees.",
-            "fee-shortage": "You need at least <0>{{amount}}</0> {{currencySymbol}} in your personal account to pay network fees. <1></1> Balance: <0>{{balance}}</0> {{currencySymbol}}"
+            "eth-recommended-message": "Κρατήστε {{amount}} ETH στο προσωπικό σας πορτοφόλι για μελλοντικές καλύψεις χρεώσεων δικτύου.",
+            "fee-shortage": "Χρειάζεστε τουλάχιστον <0>{{amount}}</0> {{currencySymbol}} στο προσωπικό σας πορτοφόλι για κάλυψη των χρεώσεων δικτύου. <1></1> Υπόλοιπο: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
-            "neo-trading": "You cannot send or withdraw fractional amounts of NEO."
+            "neo-trading": "Δεν μπορείτε να στείλετε ή να αποσύρετε κλασματικά ποσά σε NEO."
           },
           "maximum": {
-            "amount": "Insufficient balance."
+            "amount": "Ανεπαρκές υπόλοιπο."
           },
           "deposit": {
-            "label": "Your personal account details",
-            "currency-address": "{{currency}} address",
-            "currency-address-qrcode": "{{currency}} address QR code",
-            "currency-send-warning": "Any assets other than {{currency}} sent to this address will be lost!"
+            "label": "Τα στοιχεία του προσωπικού σας λογαριασμού",
+            "currency-address": "Διεύθυνση {{currency}}",
+            "currency-address-qrcode": "Κωδικός QR διεύθυνσης {{currency}}",
+            "currency-send-warning": "Οποιοδήποτε νόμισμα εκτός από {{currency}} που θα σταλεί σε αυτή την διεύθυνση θα χαθεί!"
           },
           "buttons": {
-            "continue": "Continue",
-            "review": "Review",
-            "sent-funds": "I have sent my funds"
+            "continue": "Συνέχεια",
+            "review": "Ανασκόπηση",
+            "sent-funds": "Έχω στείλει τα χρήματα"
           }
         },
         "review": {
           "transfer-details": {
-            "title": "Transfer details",
+            "title": "Λεπτομέρειες μεταφοράς",
             "rows": {
-              "amount-label": "You are sending",
-              "from-label": "From",
-              "to-label": "To",
-              "fee-label": "Network fee"
+              "amount-label": "Στέλνετε",
+              "from-label": "Από",
+              "to-label": "Προς",
+              "fee-label": "Χρέωση δικτύου"
             }
           },
-          "confirming-balance": "Please wait while we confirm your balance.",
-          "waiting-for-sync": "Your balance is currently syncing with the blockchain. This process can take up to two hours. Please submit your transfer again in a few moments.",
+          "confirming-balance": "Παρακαλούμε περιμένετε μέχρι να επιβεβαιώσουμε το υπόλοιπό σας.",
+          "waiting-for-sync": "Το υπόλοιπό σας συγχρονίζεται με το blockchain. Αυτή η διαδικασία μπορεί να διαρκέσει έως και δύο ώρες. Υποβάλετε ξανά τη μεταφορά σας σε λίγα λεπτά.",
           "errors": {
-            "send": "Failed to send. Please try again later.",
-            "syncing": "Your last transfer requires up to two minutes to complete. Please wait and try again.",
-            "insufficient-funds": "Your current balance is insufficient for this transfer or you currently have a transfer in progress. Please wait and try again."
+            "send": "Αποτυχία αποστολής. Παρακαλούμε δοκιμάστε ξανά αργότερα.",
+            "syncing": "Η τελευταία μεταφορά σας απαιτεί έως και δύο λεπτά για να ολοκληρωθεί. Παρακαλούμε περιμένετε και δοκιμάστε ξανά.",
+            "insufficient-funds": "Το τρέχον υπόλοιπό σας δεν επαρκεί για αυτήν τη μεταφορά ή αυτήν τη στιγμή πραγματοποιείται άλλη μεταφορά. Παρακαλούμε περιμένετε και δοκιμάστε ξανά."
           },
           "buttons": {
-            "back": "Back",
-            "transfer-funds": "Send",
-            "transfer-funds-with-currency": "Send {{currency}}",
-            "transfer-started": "Transfer started",
-            "confirming": "Confirming…"
+            "back": "Επιστροφή",
+            "transfer-funds": "Αποστολή",
+            "transfer-funds-with-currency": "Αποστολή {{currency}}",
+            "transfer-started": "Η μεταφορά ξεκίνησε",
+            "confirming": "Επιβεβαίωση…"
           }
         },
         "hints": {
