@@ -861,8 +861,8 @@
       "clear-studies-button-label": "Smazat všechny indikátory"
     },
     "update-order": {
-      "new-limit": "Set a new price",
-      "new-stop": "Set a new stop price",
+      "new-limit": "Nastavit novou cenu",
+      "new-stop": "Nastavit novou stop cenu",
       "save": "Save changes",
       "cancel": "Cancel"
     },
@@ -2060,15 +2060,15 @@
       "total-fees": "Total fees"
     },
     "verify-code": {
-      "title": "Verify code",
-      "verify-email": "Verify your email",
-      "message": "Please verify your email, a verification code was sended, confirm the code on the below field",
-      "transak-message": "We’ve sent a verification code to {{email}}",
-      "code-label": "Enter confirmation code:",
-      "transak-code-label": "Enter your one-time OTP code",
+      "title": "Ověřit kód",
+      "message": "Ověřovací kód byl zaslán na váš email, prosím potvrďte email vložením kódu do políčka níže",
+      "code-label": "Vložit potvrzovací kód:",
       "code-placeholder": "1234",
+      "submit": "Ověřit kód",
+      "verify-email": "Verify your email",
+      "transak-message": "We’ve sent a verification code to {{email}}",
+      "transak-code-label": "Enter your one-time OTP code",
       "transak-terms": "I agree with Transak’s <0>Terms of Use</0> and <1>Privacy Policy</1>.",
-      "submit": "Verify code",
       "transak-submit": "Verify OTP code"
     },
     "transactions": {
@@ -2371,9 +2371,9 @@
           "field": "Emailová adresa"
         },
         "personal-details": {
-          "edit": "Edit personal details",
-          "add": "Add personal details",
-          "label": "Personal details"
+          "edit": "upravit osobní detaily",
+          "add": "Přidat osobní údaje",
+          "label": "Osobní detaily"
         },
         "occupation": {
           "placeholder": "Manažer, účetní, ředitel atd.",
@@ -2396,13 +2396,13 @@
           "last-name-label": "Příjmení",
           "country-label": "Země",
           "state-label": "Region",
-          "mobile-number": "Mobile number",
-          "mobile-number-required": "Mobile number"
+          "mobile-number": "Telefoní číslo",
+          "mobile-number-required": "Telefoní číslo"
         },
         "address": {
           "edit": "Změnit adresu",
           "add": "Přidat adresu",
-          "label": "Address",
+          "label": "Adresa",
           "save": "Odeslat adresu",
           "warning": "Potvrzuji, že při odeslání těchto informací bude můj účet být znovu zkontrolován a po dobu kontroly nebude možné usutečnit žádné transakce.",
           "building-number-label": "Číslo popisné",
@@ -2464,7 +2464,7 @@
           "file-update": "<0>Odstranit</0> nebo <1>narát nový obrázek</1>",
           "try-again": "Zkusit znovu",
           "submit-btn": "Odeslat dokumenty",
-          "provided": "Proof of address uploaded"
+          "provided": "Důkaz o místě bydliště vložen"
         },
         "id": {
           "add": "Přidat průkaz totožnosti",
@@ -2861,13 +2861,13 @@
       "error": {
         "invalid-data": "Špatná data.",
         "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu.",
-        "profile": "An error ocurred while loading profile data. Please reload then try again.",
-        "file-upload": "Error uploading file. Please reload then try again.",
-        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
-        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
-        "coins": "Error retrieving available coins. Please reload then try again.",
-        "kyc": "Error retrieving KYC data. Please reload then try again.",
-        "quote": "Error quoting order. Please reload then try again."
+        "profile": "Nastala chyba při načítání profilu. Prosím obnovte stránku a zkuste to znovu.",
+        "file-upload": "Nastala chyba při odesílání souboru. Prosím obnovte stránku a zkuste to znovu.",
+        "bank-account": "Nastala chyba při získávání vašeho bankovního účtu. Prosím obnovte stránku a zkuste to znovu.",
+        "platform": "Nastala chyba při získávání dat z CCPRO. Prosím obnovte stránku a zkuste to znovu.",
+        "coins": "Nastala chyba při získávání dostupných aktiv. Prosím obnovte stránku a zkuste to znovu.",
+        "kyc": "Nastala chyba při získávání KYC dat. Prosím obnovte stránku a zkuste to znovu.",
+        "quote": "Nastala chyba při naceňování příkazu. Prosím obnovte stránku a zkuste to znovu."
       },
       "validation": {
         "first-name-required": "Zadejte křestní jméno.",
@@ -3012,7 +3012,7 @@
       },
       "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku.",
       "table": {
-        "fee": "Fee"
+        "fee": "Poplatek"
       }
     },
     "assets": {
@@ -3270,8 +3270,8 @@
         "conversion-started": "Převod začal"
       },
       "receive-assets": {
-        "wallet-address": "Wallet address",
-        "only-send-to": "Only send {{currency}} to this address!"
+        "wallet-address": "Adresa peněženky",
+        "only-send-to": "Na tuto adresu zasílejte pouze {{currency}}!"
       },
       "transfer-info": {
         "title": "Prostředky jsou posílány následovně",
