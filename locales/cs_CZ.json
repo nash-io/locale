@@ -1,8 +1,8 @@
 {
-  "dismiss-forever": "[Translation required: Dismiss forever]",
-  "remind-me-later": "[Translation required: Remind me later]",
-  "no-limit": "[Translation required: No limit]",
-  "learn-more": "[Translation required: Learn more]",
+  "dismiss-forever": "Již nikdy nezobrazovat",
+  "remind-me-later": "Připomenout později",
+  "no-limit": "Žádný limit",
+  "learn-more": "Dozvědět se více",
   "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
   "buy": "koupit",
   "sell": "prodat",
@@ -3535,10 +3535,10 @@
       "withdrawal-details": "Detaily výberu",
       "to-external-address": "Na externí adresu",
       "request-sent-to-blockchain": "Váš požadavek k převodu byl odeslán na blockchain.",
-      "no-funds": "[Translation required: You don’t have any {{currency}} in your {{account}} to {{movementType}}.]",
+      "no-funds": "Nemáte žádnou {{currency}} na vašem {{account}} k {{movementType}}.",
       "auto-close": {
-        "disclaimer": "[Translation required: This window will automatically close once your transfer has started.]",
-        "countdown": "[Translation required: Closing in {{seconds}}…]"
+        "disclaimer": "Toto okno se automaticky zavře jakmile začne vaše transakce.",
+        "countdown": "Zavírá se za {{seconds}}…"
       }
     },
     "receive-funds": {
@@ -3547,15 +3547,15 @@
       "receive-funds-from-external": "Přijmout finanční prostředky z externí peněženky"
     },
     "available-funds": {
-      "available-amount-send": "[Translation required: Available to send]",
-      "available-amount-nash-channels-deposit": "[Translation required: Available to deposit]",
-      "available-amount-nash-channels-withdraw": "[Translation required: Available to withdraw]",
+      "available-amount-send": "Dostupné k odeslání",
+      "available-amount-nash-channels-deposit": "Dostupné pro vklad",
+      "available-amount-nash-channels-withdraw": "Dostupné k výběru",
       "available-amount-convert": "Dostupné k převodu",
       "wallets": {
-        "personal-account": "[Translation required: Personal account]",
-        "nash-channels": "[Translation required: Nash Channels]",
-        "in-orders": "[Translation required: In orders]",
-        "pending": "[Translation required: Pending]"
+        "personal-account": "Osobní účet",
+        "nash-channels": "Nash Channels",
+        "in-orders": "V příkazech",
+        "pending": "čekající"
       }
     },
     "wallet-type": {
@@ -3585,7 +3585,7 @@
     },
     "password": {
       "title": "Vložit přihlašovací údaje",
-      "secret-title": "[Translation required: Unlock your secret keys]"
+      "secret-title": "Odemknout vaše tajné klíče"
     },
     "updated-terms": {
       "title": "Pravidla a podmínky",
