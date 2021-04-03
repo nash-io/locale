@@ -4689,12 +4689,12 @@
       }
     },
     "create-squad": {
-      "title": "[Translation required: Captain your squad of trading pros]",
-      "sub-title": "[Translation required: We only recommend this if you already have 10+ members ready to join]",
-      "description": "[Translation required: If your squad has fewer than 10 members when the competition begins, it will be disbanded and you will compete solo.]",
+      "title": "Šéfujte vašemu týmu profi obchodníků",
+      "sub-title": "Toto doporučujeme jen pokud máte 10+ členů co se k vám přidají.",
+      "description": "Pokud váš tým bude po začátku ligy mít méně než 10 členů, tak bude rozpuštěn a všichni se budou účastnit pouze solo kategorie.",
       "create-squad-button": "Vytvořit tým",
-      "create-squad-modal-desc": "[Translation required: Your squad must have at least 10 members when the competition begins, otherwise it will be disbanded.]",
-      "create-squad-modal-message": "[Translation required: Once you create your squad, you will not be able to leave it or join a new one.]",
+      "create-squad-modal-desc": "Váš tým musí mít alespoň 10 členů na začátku ligy, jinak bude rozpuštěn.",
+      "create-squad-modal-message": "Jakmile založíte tým, nebudete ho moci opustit nebo se přidat do nějakého jiného.",
       "set-squad-name": "nastavit jméno týmu",
       "create-a-name": "Vytvořit jméno…",
       "accept-rules": "Rozumím pravidlům pro vytvoření týmu",
@@ -4712,18 +4712,18 @@
     },
     "competition-table": {
       "no-squads": "Žádné týmy zatím nebyly vytvořeny",
-      "table-message-not-started": "[Translation required: {{tabState}} rankings will appear here once the Nash League competition begins!]",
-      "divider-squad-safe": "[Translation required: These squads are safe to join because they are guaranteed to be in the competition.]",
-      "divider-squad-unsafe": "[Translation required: These squads are riskier to join because they haven’t met the 10-person minimum limit yet. A squad’s volume will be shown once it qualifies for the competition.]"
+      "table-message-not-started": "{{tabState}} pořadí se objeví zde jakmile Nash liga začne!",
+      "divider-squad-safe": "Připojit se k těmto týmům je bezpečné protože mají dostatečné množství členů.",
+      "divider-squad-unsafe": "Tyto týmy jsou rizikové protože ještě nemají dostatečný počet členů. Objem týmu bude zobrazen až poté co se tým kvalifikuje do ligy."
     },
     "competition-info": {
-      "squad-desc": "[Translation required: You are currently entering the competition in the {{squadName}} <0 /> squad.]",
-      "solo-desc": "[Translation required: You are currently competing <0 /> solo – All Nash users are already registered!]",
-      "not-signed": "[Translation required: <1>Sign in</1> to find yourself on the leaderboard!]",
-      "competition-ended": "[Translation required: Season 1 of Nash League is now over!]",
-      "prizes-unlocked": "[Translation required: Prizes unlocked]",
-      "next-prizes-unlocked": "[Translation required: Next prizes unlocked]",
-      "prizes-split": "[Translation required: <0 /> split between {{solo}} solo and {{team}} squad]",
+      "squad-desc": "Momentálně vstupujete do ligy v týmu {{squadName}} <0 />.",
+      "solo-desc": "Momentálně soutěžíte <0 /> solo – Všichni Nash uživatelé jsou automaticky zaregistrování!",
+      "not-signed": "<1>Přihlaště se</1> abyste se zobrazili v tabulce výsledků!",
+      "competition-ended": "Sezóna 1 Nash Ligy již skončila!",
+      "prizes-unlocked": "Odměny odemknuty",
+      "next-prizes-unlocked": "Další odměny odemknuty",
+      "prizes-split": "<0 /> rozděleno mezi {{solo}} solo a {{team}} tým",
       "clock-helper": {
         "days": "DNŮ",
         "hours": "HODIN",
@@ -4738,7 +4738,7 @@
         "not-in-a-squad": "Nejste v žádném týmu",
         "join-squad": "Přidejte se k týmu a zvyšte tak šanci na větší odměny!",
         "rookies-title": "Vítej v Nash, Nováčku!",
-        "rookies-description": "[Translation required: Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>]",
+        "rookies-description": "Naši nejlepší obchodníci dostanou každý týden poměrnou část z 1,000 NEX tokenů! <0>Dozvědět se více</0>",
         "rookies-nex-rewards": "NEX odměny: 0.00",
         "next-tier-info-title": "Zbývající objem pro další úroveň",
         "ended-title": "Konečný objem ligy"
@@ -4750,11 +4750,11 @@
       "squad-prize": "Celkové odměny týmu",
       "best-contrib": "Vedoucí obchodník",
       "no-contrib": "Zatím žádní přispěvovatelé",
-      "squad-guaranteed": "[Translation required: This squad has {{count}} member and is guaranteed to be in the competition.]",
-      "squad-guaranteed_plural": "[Translation required: This squad has {{count}} members and is guaranteed to be in the competition.]",
-      "squad-not-guaranteed": "[Translation required: This squad has {{count}} member and is not guaranteed to be in the competition.]",
-      "squad-not-guaranteed_plural": "[Translation required: This squad has {{count}} members and is not guaranteed to be in the competition.]",
-      "invite-to-squad": "[Translation required: Invite friends to this squad]",
+      "squad-guaranteed": "Tento tým má {{count}} členů a je kvalifikován pro ligu.",
+      "squad-guaranteed_plural": "Tento tým má {{count}} členů a je kvalifikován pro ligu.",
+      "squad-not-guaranteed": "Tento tým má {{count}} členů a není zaručeno, že bude kvalifikován pro ligu.",
+      "squad-not-guaranteed_plural": "Tento tým má {{count}} členů a není zaručeno, že bude kvalifikován pro ligu.",
+      "invite-to-squad": "Pozvěte přátele do tohoto týmu",
       "back-to-all": "Zpět je všem",
       "top-members": "Top obchodníci týmu",
       "others": "Ostatní"
@@ -4765,10 +4765,10 @@
       "rookies": "Nováčci",
       "user-welcome": "Vítejte,",
       "prize": {
-        "title": "[Translation required: $10,000 NEW PRIZES PER $10M VOLUME]",
-        "desc-1": "[Translation required: Just trade on Nash to get your share!]",
-        "desc-2": "[Translation required: All users are automatically registered as solo participants, but you can join a squad to win an additional prize.]",
-        "desc-3": "[Translation required: The more volume generated throughout the competition, the more prizes are paid out!]",
+        "title": "$10 000 NOVÝCH ODMĚN ZA $10M OBJEM",
+        "desc-1": "Prostě jen obchodujte na Nash a získejte svůj podíl!",
+        "desc-2": "Všichni uživatelé jsou automaticky zaregistrováni jako solo účastníci, ale můžete se přídat k jakémukoli týmu a vyhrát další odměny.",
+        "desc-3": "Čím více objemu odobchodujete během ligy, tím více odměn vám bude vyplaceno!",
         "total-volume": "Celkový objem burzy",
         "unlocked-prize": "Odemčené odměny",
         "prize-split": "Rozdělení odměn",
@@ -4780,11 +4780,11 @@
         "volume-remainning": "Zbývající objem pro tuto úroveň"
       },
       "create-squad": {
-        "description": "[Translation required: Captains receive a guaranteed 5% of a squad’s prize!]",
-        "create-squad-modal-message": "[Translation required: Once you create your squad, you will not be able to leave it or join a new one. Your squad must have at least 5 members when the competition begins, otherwise it will be disbanded.]"
+        "description": "Kapitáni obdrží garantovaných 5% z odměn pro tým!",
+        "create-squad-modal-message": "Jakmile vytvoříte tým, tak ho nebudete moci opustit nebo se přídat do nějakého jiného. Váš tým musí mít alespoň 5 členů než vyprší lhůta jinak bude rozpuštěn."
       },
       "competition-table": {
-        "divider-squad-unsafe": "[Translation required: These squads have not met the 5-person limit.]",
+        "divider-squad-unsafe": "Tyto týmy prozatím nenaplnily nutný počet 5 člěnů.",
         "week-prize": "Týden {{week}}",
         "previous-week": "Předchozí týden",
         "next-week": "Další týden"
@@ -4792,7 +4792,7 @@
       "competition-info": {
         "competition-ended": "Sezóna 2 Nash Ligy je již ukončena!",
         "welcome-rookie": "Vítej na Nash, Nováčku!",
-        "how-it-works-rookie": "[Translation required: Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>]",
+        "how-it-works-rookie": "Naši nejlepší noví obchodníci dostanou každý týden podíl z 1,000 NEX tokenů! <0>Dozvědět se více</0>",
         "rewards-rokie": "NEX odměny: {{prize}}"
       }
     }
