@@ -3872,165 +3872,165 @@
           "request-email-change-button-label": "Αίτηση αλλαγής διεύθυνσης e-mail"
         },
         "update-password": {
-          "title": "Change password",
+          "title": "Αλλαγή κωδικού",
           "fields": {
             "password": {
-              "label": "Current password",
-              "placeholder": "Enter your password"
+              "label": "Τρέχων κωδικός",
+              "placeholder": "Εισάγετε τον κωδικό σας"
             },
             "code": {
-              "label": "Two-factor authentication",
-              "placeholder": "Enter your two-factor authentication code"
+              "label": "Κωδικός 2FA",
+              "placeholder": "Εισάγετε τον κωδικό 2FA σας"
             },
             "new-password": {
-              "label": "New password",
-              "placeholder": "Enter a new password",
+              "label": "Νέος Κωδικός",
+              "placeholder": "Εισάγετε έναν νέο κωδικό πρόσβασης",
               "errors": {
-                "password-too-weak": "The password you chose is too weak."
+                "password-too-weak": "Ο κωδικός που επιλέξατε είναι πολύ αδύναμος."
               }
             },
             "new-password-confirm": {
-              "label": "Confirm new password",
-              "placeholder": "Confirm new password",
+              "label": "Επιβεβαίωση κωδικού",
+              "placeholder": "Επιβεβαίωση κωδικού πρόσβασης",
               "errors": {
-                "passwords-do-not-match": "Passwords do not match."
+                "passwords-do-not-match": "Οι κωδικοί δεν ταιριάζουν."
               }
             }
           },
-          "success": "Your password has been changed successfully.",
+          "success": "Ο κωδικός πρόσβασής σας άλλαξε με επιτυχία.",
           "errors": {
-            "password-must-change": "Your new password should be different from your old password.",
-            "password-already-used": "You used this password already. Please pick another one.",
-            "missing-key": "Missing signature keys. Please refresh this page and try again."
+            "password-must-change": "Ο νέος κωδικός πρόσβασής σας θα πρέπει να διαφέρει από τον παλιό.",
+            "password-already-used": "Χρησιμοποιήσατε ήδη αυτόν τον κωδικό πρόσβασης. Παρακαλώ επιλέξτε έναν άλλο.",
+            "missing-key": "Λείπουν τα κλειδιά υπογραφής. Ανανεώστε αυτήν τη σελίδα και δοκιμάστε ξανά."
           }
         }
       }
     },
     "preferences": {
       "general": {
-        "header": "General settings",
-        "l-decimal-type": "Decimal type",
-        "l-currency": "Currency",
-        "b-save-changes": "Save changes"
+        "header": "Γενικές ρυθμίσεις",
+        "l-decimal-type": "Δεκαδικός τύπος",
+        "l-currency": "Νόμισμα",
+        "b-save-changes": "Αποθήκευση αλλαγών"
       },
       "notifications": {
-        "header": "Notify me when",
-        "h-web": "Web notifications",
-        "h-email": "Email",
-        "b-enable-all": "Enable all",
-        "b-disable-all": "Disable all",
-        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
-        "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available",
-        "nash-channels-limit": "I exceed my Nash Channels deposit limit"
+        "header": "Ειδοποιήστε με όταν",
+        "h-web": "Ειδοποιήσεις ιστού",
+        "h-email": "E-mail",
+        "b-enable-all": "Ενεργοποίηση όλων",
+        "b-disable-all": "Απενεργοποίηση όλων",
+        "fiat-ramp-quote-state-change": "Πρέπει να επιβεβαιώσω μια νέα συναλλαγματική ισοτιμία Nash Cash",
+        "funds-trading-to-personal": "Καταθέτω χρήματα στο ανταλλακτήριο",
+        "staking-stake-complete": "Ένα απο τα κλειδώματά μου σε NEX ολοκληρωθεί",
+        "staking-weekly-summary": "Μια εβδομαδιαία περίληψη των μερισμάτων μου είναι διαθέσιμη",
+        "nash-channels-limit": "Υπερβαίνω το όριο κατάθεσης των καναλιών Nash"
       }
     },
     "security": {
-      "title": "Security",
-      "header": "Account security",
-      "desc": "Enable two-factor authentication here.",
+      "title": "Ασφάλεια",
+      "header": "Ασφάλεια λογαριασμού",
+      "desc": "Ενεργοποιήστε τον κωδικό 2FA εδώ.",
       "cards": {
         "2fa": {
-          "label": "Two-factor authentication",
-          "header": "Two-factor authentication is:",
-          "desc": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "enabled": "Enabled",
-          "disabled": "Disabled",
-          "enable": "Enable",
-          "disable": "Disable (not recommended)"
+          "label": "2FA",
+          "header": "Ο κωδικός 2FA είναι:",
+          "desc": "Σας συμβουλεύουμε να διατηρήσετε ενεργοποιημένο τον έλεγχο ταυτότητας δύο παραγόντων (2FA). Προσθέτει ένα επιπλέον επίπεδο ασφάλειας στον λογαριασμό σας.",
+          "enabled": "Ενεργός",
+          "disabled": "Μη ενεργός",
+          "enable": "Ενεργοποίηση",
+          "disable": "Απενεργοποίηση (δεν συνιστάται)"
         },
         "auto-logout": {
-          "label": "Automatic sign out",
-          "desc": "Don’t sign me out automatically"
+          "label": "Αυτόματη αποσύνδεση",
+          "desc": "Μην με αποσυνδέετε αυτόματα"
         },
         "all-account-activity": {
-          "label": "All account activity",
+          "label": "Όλη η δραστηριότητα του λογαριασμού",
           "tabs": {
-            "sessions": "Sessions",
-            "allowed-devices": "Allowed devices",
-            "history": "History"
+            "sessions": "Συνεδρίες",
+            "allowed-devices": "Επιτρεπόμενες συσκευές",
+            "history": "Ιστορικό"
           },
           "columns": {
-            "when": "When",
-            "location": "Location",
-            "ip-address": "IP address",
-            "browser-used": "Browser used",
-            "device": "Device",
-            "action": "Action"
+            "when": "Πότε",
+            "location": "Τοποθεσία",
+            "ip-address": "Διεύθυνση IP",
+            "browser-used": "Περιηγητής",
+            "device": "Συσκευή",
+            "action": "Ενέργεια"
           },
           "devices": {
-            "browser": "Browser",
-            "phone": "Phone",
-            "tablet": "Tablet"
+            "browser": "Περιηγητής",
+            "phone": "Τηλέφωνο",
+            "tablet": "Τάμπλετ"
           },
           "actions": {
-            "signed-out": "Signed out",
-            "signed-in": "Signed in",
-            "failed": "Failed sign-in attempt",
-            "2fa": "2FA confirmed",
-            "failed-2fa": "2FA failed"
+            "signed-out": "Αποσυνδέθηκε",
+            "signed-in": "Συνδέθηκε",
+            "failed": "Αποτυχημένη προσπάθεια σύνδεσης",
+            "2fa": "2FA επιβεβαιώθηκε",
+            "failed-2fa": "2FA απέτυχε"
           },
-          "sign-out": "Sign out",
-          "sign-out-all-devices": "Sign out all devices"
+          "sign-out": "Αποσύνδεση",
+          "sign-out-all-devices": "Αποσύνδεση όλων των συσκευών"
         }
       },
       "modals": {
         "enable-2fa": {
           "1": {
-            "header": "Download and install an authenticator app",
-            "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+            "header": "Κατεβάστε και εγκαταστήστε μια εφαρμογή ελέγχου ταυτότητας",
+            "desc": "Προτείνουμε το <0>LastPass Authenticator</0>, το <1>Authy</1> ή τον <2>Επαληθευτή Google</2>."
           },
           "2": {
-            "header": "Scan this QR code with your chosen authenticator app",
-            "desc": "Alternatively, you can add it manually.",
-            "manual-2fa": "Manual 2FA entry key"
+            "header": "Σαρώστε αυτόν τον κωδικό QR με την εφαρμογή ελέγχου ταυτότητας που επιλέξατε",
+            "desc": "Εναλλακτικά, μπορείτε να τον προσθέσετε χειροκίνητα.",
+            "manual-2fa": "Χειροκίνητη εισαγωγή κλειδιού 2FA"
           },
           "3": {
-            "header": "Enter the code generated by your authenticator app",
-            "input-placeholder": "Authentication code"
+            "header": "Εισάγετε τον κωδικό που δημιουργήθηκε από την εφαρμογή ελέγχου ταυτότητας",
+            "input-placeholder": "Κωδικός ελέγχου ταυτότητας"
           },
-          "enable": "Enable",
-          "title": "Set up two-factor authentication"
+          "enable": "Ενεργοποίηση",
+          "title": "Ρυθμίστε το 2FA"
         },
         "disable-2fa": {
-          "title": "Disable two-factor authentication",
-          "warning": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "disable": "Disable"
+          "title": "Απενεργοποίηση 2FA",
+          "warning": "Σας συμβουλεύουμε να διατηρήσετε ενεργοποιημένο τον έλεγχο ταυτότητας δύο παραγόντων (2FA). Προσθέτει ένα επιπλέον επίπεδο ασφάλειας στον λογαριασμό σας.",
+          "disable": "Απενεργοποίηση"
         },
         "success": {
-          "header": "Success!",
-          "enabled": "Two-factor authentication has been enabled.",
-          "disabled": "Two-factor authentication has been disabled.",
-          "back": "Got it!"
+          "header": "Επιτυχία!",
+          "enabled": "Ο έλεγχος ταυτότητας δύο παραγόντων (2FA) έχει ενεργοποιηθεί.",
+          "disabled": "Ο έλεγχος ταυτότητας δύο παραγόντων (2FA) έχει απενεργοποιηθεί.",
+          "back": "Κατανοητό!"
         }
       }
     },
     "accounts": {
-      "title": "Accounts",
-      "header": "My account information",
-      "wallets-header": "Accounts generated from my twelve secret words",
-      "show-all-private-keys-button-label": "Show all private keys",
-      "hide-all-private-keys-button-label": "Hide all private keys",
-      "desc": "Nash is non-custodial. We do not have access to your private keys.",
-      "search-assets-placeholder": "Search for a asset name or ticker…",
-      "public-address-label": "Public address",
-      "info-title": "Some blockchains support multiple assets",
-      "info-body": "ERC-20 and NEP-5 assets are tokens issued on the Ethereum and NEO blockchains, respectively. GAS is also an asset stored on the NEO blockchain. You only need one Ethereum account to store both ETH and ERC-20 tokens, and one NEO account to store NEO, GAS and NEP-5 tokens.",
-      "public-address-sub-label": "Which assets can I send here?",
-      "public-address-tooltip": "This is the blockchain address where your assets are stored.",
-      "private-key-label": "Private key",
-      "private-key-sub-label-show": "Show private key",
-      "private-key-sub-label-hide": "Hide private key",
-      "private-key-tooltip": "This can be used to access your funds outside Nash. Keep it secret.",
-      "unknown-blockchain": "Unknown blockchain",
+      "title": "Λογαριασμοί",
+      "header": "Τα στοιχεία του λογαριασμού μου",
+      "wallets-header": "Λογαριασμοί που δημιουργήθηκαν από τις δώδεκα μυστικές μου λέξεις",
+      "show-all-private-keys-button-label": "Εμφάνιση όλων των ιδιωτικών κλειδιών",
+      "hide-all-private-keys-button-label": "Απόκρυψη όλων των ιδιωτικών κλειδιών",
+      "desc": "Το Nash δεν σας στερεί τα ιδιωτικά κλειδιά σας. Αντίστοιχα δεν έχουμε πρόσβαση στα ιδιωτικά σας κλειδιά.",
+      "search-assets-placeholder": "Αναζητήστε ένα όνομα νομίσματος ή ένα σύμβολο…",
+      "public-address-label": "Δημόσια διεύθυνση",
+      "info-title": "Ορισμένα blockchain υποστηρίζουν πολλά νομίσματα",
+      "info-body": "Τα νομίσματα ERC-20 και NEP-5 είναι νομίσματα που εκδίδονται στα blockchains του Ethereum και του NEO αντίστοιχα. Το GAS είναι επίσης νόμισμα που αποθηκεύεται στην αλυσίδα του NEO. Χρειάζεστε μόνο έναν λογαριασμό Ethereum για να αποθηκεύσετε και ETH και νομίσματα ERC-20, παρομοίως μόνο έναν λογαριασμό NEO για να αποθηκεύσετε NEO, GAS και νομίσματα NEP-5.",
+      "public-address-sub-label": "Ποιά νομίσματα μπορώ να στείλω εδώ;",
+      "public-address-tooltip": "Αυτή είναι η διεύθυνση blockchain όπου αποθηκεύονται τα νομίσματά σας.",
+      "private-key-label": "Ιδιωτικό κλειδί",
+      "private-key-sub-label-show": "Εμφάνιση ιδιωτικού κλειδιού",
+      "private-key-sub-label-hide": "Απόκρυψη ιδιωτικού κλειδιού",
+      "private-key-tooltip": "Αυτό μπορεί να χρησιμοποιηθεί για πρόσβαση στα χρήματά σας εκτός του Nash. Κρατήστε το μυστικό.",
+      "unknown-blockchain": "Άγνωστο blockchain",
       "wallets": {
         "eth": {
-          "link-label": "Includes ERC-20 tokens",
+          "link-label": "Περιλαμβάνει νομίσματα ERC-20",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Includes GAS and NEP-5 tokens",
+          "link-label": "Περιλαμβάνει νομίσματα GAS και NEP-5",
           "name": "NEO"
         },
         "btc": {
@@ -4039,77 +4039,77 @@
       },
       "cards": {
         "secret-words": {
-          "label": "My twelve secret words",
-          "account": "Nash account",
-          "desc": "Twelve secret words",
-          "unlock": "Unlock and show twelve secret words",
-          "lock": "Hide and lock twelve secret words"
+          "label": "Οι δώδεκα μυστικές λέξεις μου",
+          "account": "Λογαριασμός Nash",
+          "desc": "Δώδεκα μυστικές λέξεις",
+          "unlock": "Ξεκλείδωμα και προβολή των δώδεκα μυστικών λέξεων",
+          "lock": "Απόκρυψη και κλείδωμα δώδεκα μυστικών λέξεων"
         },
         "wallets": {
-          "label": "Accounts generated from my twelve secret words",
-          "private-key": "Private key",
-          "public-address": "Public address",
-          "unlock": "Unlock and show private key",
-          "lock": "Hide and lock private key"
+          "label": "Λογαριασμοί που δημιουργήθηκαν από τις δώδεκα μυστικές μου λέξεις",
+          "private-key": "Ιδιωτικό κλειδί",
+          "public-address": "Δημόσια διεύθυνση",
+          "unlock": "Ξεκλείδωμα και προβολή ιδιωτικού κλειδιού",
+          "lock": "Απόκρυψη και κλείδωμα ιδιωτικού κλειδιού"
         }
       },
       "modals": {
         "unlock-secret-words": {
-          "title": "Unlock my twelve secret words",
-          "submit": "Unlock twelve secret words",
-          "error": "Error: Failed to decrypt secret words."
+          "title": "Ξεκλείδωμα των δώδεκα μυστικών λέξεών μου",
+          "submit": "Ξεκλείδωμα δώδεκα μυστικών λέξεων",
+          "error": "Σφάλμα: Αποτυχία αποκρυπτογράφησης μυστικών λέξεων."
         }
       }
     },
     "my-limits": {
-      "header": "Limits",
-      "desc": "Nash never blocks withdrawals, but they count towards your Nash Channels deposit limit. <0>Learn more</0> about limits.",
-      "24h-volume": "24h trading volume",
-      "30d-volume": "30d trading volume",
-      "1y-volume": "1y trading volume",
-      "view-fee-tiers": "View fee tiers",
-      "your-taker-fee": "Your taker fee",
-      "unavailable-with-tier-0": "Unavailable at Tier 0.",
-      "limit-yearly-buys": "<0 />/yearly buys",
-      "limit-yearly-sales": "<0 />/yearly sales",
+      "header": "Όρια",
+      "desc": "Το Nash δεν μπλοκάρει ποτέ τις αναλήψεις, αλλά υπολογίζονται στο όριο κατάθεσης των Καναλιών Nash. <0>Μάθετε περισσότερα</0> σχετικά με τα όρια.",
+      "24h-volume": "Όγκος συναλλαγών 24ώρου",
+      "30d-volume": "Όγκος συναλλαγών 30 ημερών",
+      "1y-volume": "Όγκος συναλλαγών 1 έτους",
+      "view-fee-tiers": "Προβολή βαθμίδων χρέωσης",
+      "your-taker-fee": "Οι χρεώσεις αγοράς σας",
+      "unavailable-with-tier-0": "Δε διατίθεται στη Βαθμίδα 0.",
+      "limit-yearly-buys": "<0 />/ετήσιες αγορές",
+      "limit-yearly-sales": "<0 />/ετήσιες πωλήσεις",
       "cards": {
         "tiers": {
-          "header": "Tier {{tier}}",
-          "personal": "Personal",
-          "institutional": "Institutional"
+          "header": "Βαθμίδα {{tier}}",
+          "personal": "Προσωπική",
+          "institutional": "Εταιρική"
         },
         "periods": {
-          "day": "day",
-          "month": "month",
-          "year": "year"
+          "day": "ημέρα",
+          "month": "μήνας",
+          "year": "έτος"
         },
         "limits": {
-          "header": "Maximum daily trading volume",
-          "unlimited": "Unlimited",
-          "verified": "Verified",
-          "in-review": "In review",
-          "rejected": "Rejected",
-          "try-again": "Try again",
-          "contact-us": "Contact support",
-          "unavailable": "Unavailable in your region"
+          "header": "Μέγιστος ημερήσιος όγκος συναλλαγών",
+          "unlimited": "Απεριόριστος",
+          "verified": "Επαληθεύτηκε",
+          "in-review": "Υπό εξέταση",
+          "rejected": "Απορρίφθηκε",
+          "try-again": "Δοκιμάστε ξανά",
+          "contact-us": "Επικοινωνήστε με την υποστήριξη",
+          "unavailable": "Μη διαθέσιμο στην περιοχή σας"
         },
         "tier-1": {
-          "get-started-button": "Get started",
-          "continue-verification-button": "Continue verification",
+          "get-started-button": "Ξεκινήστε",
+          "continue-verification-button": "Συνεχίστε την επαλήθευση",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "Πώς θα θέλατε να κάνετε επαλήθευση;",
             "mobile": {
               "download": {
-                "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "header": "Η επαλήθευση Βαθμίδας 1 είναι δυνατή μέσω της εφαρμογής μας για κινητά.",
+                "downloaded-app": "Έχω κατεβάσει την εφαρμογή"
               },
               "scan-code": {
-                "header": "Scan the following QR code with the Nash app:",
-                "desc": "When you have completed Tier 1 verification, your result will appear here within one minute."
+                "header": "Σαρώστε τον ακόλουθο κωδικό QR με την εφαρμογή Nash:",
+                "desc": "Όταν ολοκληρώσετε την επαλήθευση Βαθμίδας 1, το αποτέλεσμα θα εμφανιστεί εδώ μέσα σε ένα λεπτό."
               }
             },
-            "use-web-platform": "I’ll use the Nash web platform",
-            "do-it-later": "I’ll do this later"
+            "use-web-platform": "Θα χρησιμοποιήσω την πλατφόρμα ιστού Nash",
+            "do-it-later": "Θα το κάνω αργότερα"
           }
         }
       }
@@ -4117,104 +4117,104 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total NEX tokens staked",
-      "s-stakes-in-progress": "Stakes in progress",
-      "s-total-dividends": "Total dividends (all time)",
-      "s-next-payment": "Next dividend payment on",
-      "s-completed-stakes": "Completed stakes"
+      "s-current-stakes": "Σύνολο κλειδωμένων μετοχών NEX",
+      "s-stakes-in-progress": "Κλειδώματα σε εξέλιξη",
+      "s-total-dividends": "Σύνολο μερισμάτων (όλα τα έτη)",
+      "s-next-payment": "Επόμενη πληρωμή μερισμάτων στις",
+      "s-completed-stakes": "Ολοκληρωμένα κλειδώματα"
     },
     "stakes": {
-      "amount-staked-col": "Amount staked",
-      "duration-col": "Duration",
-      "fee-reward-col": "Staking rate",
-      "dates-active-col": "Dates active",
-      "next-payment-col": "Next payment",
-      "aggregate-dividends-col": "Aggregate dividends value",
+      "amount-staked-col": "Κλειδωμένο ποσό",
+      "duration-col": "Διάρκεια",
+      "fee-reward-col": "Ποσοστό κλειδώματος",
+      "dates-active-col": "Ισχύουσα χρονική περίοδος",
+      "next-payment-col": "Επόμενη πληρωμή",
+      "aggregate-dividends-col": "Συνολική αξία μερισμάτων",
       "row-item": {
-        "duration-month": "<0>{{count}}</0> month",
-        "duration-month_plural": "<0>{{count}}</0> months",
+        "duration-month": "<0>{{count}}</0> μήνας",
+        "duration-month_plural": "<0>{{count}}</0> μήνες",
         "redeem-button": {
-          "label": "Release NEX",
-          "submitting": "Releasing…",
-          "error": "Failed! Please try again.",
-          "success": "Success. Releasing NEX…",
-          "released": "NEX released"
+          "label": "Απελευθέρωση NEX",
+          "submitting": "Απελευθέρωση…",
+          "error": "Αποτυχία! Παρακαλούμε δοκιμάστε ξανά.",
+          "success": "Επιτυχία. Απελευθέρωση NEX…",
+          "released": "Τα NEX απελευθερώθηκαν"
         }
       }
     },
     "staking": {
-      "title": "Staking",
-      "tabs-info-button": "Learn about staking"
+      "title": "Κλείδωμα",
+      "tabs-info-button": "Μάθετε σχετικά με το κλείδωμα"
     },
     "statements": {
-      "view-statement-button": "View statement",
-      "summary-title": "All statements",
-      "export-summary": "Export stakes as CSV",
-      "export": "Export statement",
-      "export-detailed": "Export detailed statement",
-      "date-col": "Payment date",
-      "asset-received-col": "Asset received",
-      "assets-received-col": "Assets received",
-      "dividends-col": "Dividends received",
-      "usdDividend-col": "USD value",
-      "usdAggregate-col": "USD aggregate",
-      "active-stakes-col": "Active stakes",
-      "and-more": "and {{count}} more",
-      "amount-at-reward": "<0 /> at {{returnRate}} fee reward",
-      "stakes-in-progress": "In progress ({{date}})",
-      "stakes-complete": "Completed ({{date}})",
-      "total-dividends": "Total dividends ({{date}})",
-      "paid-dividend-days": "Days paid ({{date}})",
-      "all-statements": "All statements",
-      "till-ended_plural": "{{count}} days left",
-      "till-ended": "{{count}} day left",
-      "till-ended_today": "Ending today",
-      "from-active-stakes": "From <0>{{count}}</0> active stake",
-      "from-active-stakes_plural": "From <0>{{count}}</0> active stakes",
-      "period-description": "During this period",
-      "dividends-received": "In dividends received",
-      "is-ended": "Ended",
-      "no-statements": "You don’t have any dividend statements yet."
+      "view-statement-button": "Προβολή δήλωσης",
+      "summary-title": "Όλες οι δηλώσεις",
+      "export-summary": "Εξαγωγή κλειδωμάτων σε μορφή CSV",
+      "export": "Εξαγωγή δήλωσης",
+      "export-detailed": "Εξαγωγή λεπτομερούς δήλωσης",
+      "date-col": "Ημερομηνία πληρωμής",
+      "asset-received-col": "Ληφθέν νόμισμα",
+      "assets-received-col": "Ληφθέντα νομίσματα",
+      "dividends-col": "Ληφθέντα μερίσματα",
+      "usdDividend-col": "Αξία σε Δολ. ΗΠΑ",
+      "usdAggregate-col": "Συγκεντρωτικό σε Δολ. ΗΠΑ",
+      "active-stakes-col": "Ενεργά κλειδώματα",
+      "and-more": "και {{count}} ακόμη",
+      "amount-at-reward": "<0 /> με ανταμοιβή σε ποσοστό {{returnRate}}",
+      "stakes-in-progress": "Σε εξέλιξη ({{date}})",
+      "stakes-complete": "Ολοκληρώθηκε ({{date}})",
+      "total-dividends": "Σύνολο μερισμάτων ({{date}})",
+      "paid-dividend-days": "Ημέρες που πληρώθηκαν ({{date}})",
+      "all-statements": "Όλες οι δηλώσεις",
+      "till-ended_plural": "Απομένουν {{count}} ημέρες",
+      "till-ended": "Απομένει {{count}} ημέρα",
+      "till-ended_today": "Λήγει απόψε",
+      "from-active-stakes": "Από <0>{{count}}</0> ενεργό κλείδωμα",
+      "from-active-stakes_plural": "Από <0>{{count}}</0> ενεργά κλειδώματα",
+      "period-description": "Κατά τη διάρκεια αυτής της περιόδου",
+      "dividends-received": "Ελήφθησαν σε μερίσματα",
+      "is-ended": "Έληξε",
+      "no-statements": "Δεν έχετε ακόμη δηλώσεις μερισμάτων."
     },
     "modals": {
       "staking-info": {
-        "title": "Staking Nash Exchange tokens (NEX)",
+        "title": "Κλείδωμα μετοχών Nash Exchange (NEX)",
         "header": {
-          "title": "What is NEX staking?",
-          "desc": "Staking Nash Exchange tokens (NEX) is a way to earn passive income. You receive a portion of the exchange’s trading fees every day that your stake is active."
+          "title": "Τι είναι το κλείδωμα NEX;",
+          "desc": "Το κλείδωμα μετοχών Nash Exchange (NEX) είναι ένας τρόπος να αποκτήσετε παθητικό εισόδημα. Λαμβάνετε ένα μέρος των χρεώσεων συναλλαγών του ανταλλακτηρίου κάθε μέρα που το κλείδωμά σας είναι ενεργό."
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
-            "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
+            "title": "Πως λειτουργεί;",
+            "desc": "Κλειδώνετε όσες από τις μετοχές σας NEX θέλετε σε ένα συμβόλαιο κλειδώματος. Δεν θα μπορείτε να μετακινήσετε ή να πουλήσετε τις μετοχές σας ενώ είναι κλειδωμένες στο συμβόλαιο. Κάθε μέρα που το κλείδωμά σας είναι ενεργό, θα λαμβάνετε μερίσματα."
           },
           "par-2": {
-            "title": "How are dividends calculated?",
-            "desc": "Dividends depend on: (1) the number of NEX tokens you stake as a proportion of the total 50,000,000 supply, and (2) the period of time for which you stake them. The more tokens you stake, the higher your dividend will be. The longer you stake your tokens for, the greater the proportion of fees you receive will be (your ‘staking rate’)."
+            "title": "Πως υπολογίζονται τα μερίσματα;",
+            "desc": "Τα μερίσματα εξαρτώνται από: (1) τον αριθμό των μετοχών NEX που έχετε κλειδώσει σαν ποσοστό της συνολικής παροχής των 50,000,000 μετοχών, και (2) τη χρονική περίοδο που τις κλειδώνετε. Όσο περισσότερες μετοχές κλειδώνετε, τόσο μεγαλύτερα θα είναι τα μερίσματά σας. Όσο μεγαλύτερη διάρκεια κλειδώνετε τις μετοχές, τόσο μεγαλύτερο θα είναι το ποσοστό των ανταμοιβών που θα λάβετε (το ‘ποσοστό κλειδώματος’)."
           },
           "par-3": {
-            "title": "How long can I stake for?",
-            "desc": "The minimum staking period is one month, which offers a staking rate of 25%. However, if you want a higher proportion of the exchange’s fees, you can stake for any whole number of months up to a maximum of 24, which offers a staking rate of 75%."
+            "title": "Για πόσο καιρό μπορώ να κλειδώσω;",
+            "desc": "Η ελάχιστη περίοδος κλειδώματος είναι 1 μήνας, που προσφέρει ποσοστό κλειδώματος 25%. Ωστόσο, εάν θέλετε υψηλότερο ποσοστό από τις χρεώσεις συναλλαγών, μπορείτε να κλειδώσετε για όσους μήνες επιθυμείτε έως και 24 μήνες μέγιστο, το οποίο προσφέρει ποσοστό ανταμοιβής 75%."
           },
           "par-4": {
-            "title": "How do I receive my dividends?",
-            "desc": "Dividends are automatically added to your trading contract balance. They are paid out on a daily basis, shortly after midnight UTC. Nash provides monthly staking statements that aggregate these payments into a single figure for accounting purposes. Since the fees on a trade are charged in the currency being exchanged, you will receive dividends in every asset currently being traded on Nash."
+            "title": "Πως λαμβάνω τα μερίσματά μου;",
+            "desc": "Τα μερίσματα προστίθενται αυτόματα στο υπόλοιπο του πορτοφολιού ανταλλακτηρίου σας. Καταβάλλονται σε καθημερινή βάση, λίγο μετά τα μεσάνυχτα (Τοπική ώρα). Το Nash παρέχει μηνιαίες δηλώσεις κλειδώματος που συγκεντρώνουν αυτές τις πληρωμές σε ένα ενιαίο ποσό για λογιστικούς σκοπούς. Δεδομένου ότι τα τέλη για μια συναλλαγή χρεώνονται στο νόμισμα που ανταλλάσσεται, θα λάβετε μερίσματα σε κάθε νόμισμα που επί του παρόντος ανταλλάσσεται στο Nash."
           },
           "par-5": {
-            "title": "Can I receive my dividends in a single currency?",
-            "desc": "No. For legal reasons, we cannot convert your dividends for you. However, we are developing a tool to allow you to convert dividends yourself with a single click."
+            "title": "Μπορώ να λάβω τα μερίσματά μου σε ένα ενιαίο νόμισμα;",
+            "desc": "Όχι. Για νομικούς λόγους, δεν μπορούμε να μετατρέψουμε τα μερίσματά σας για εσάς. Ωστόσο, αναπτύσσουμε ένα εργαλείο που θα σας επιτρέπει να μετατρέπετε τα μερίσματά σας με ένα μόνο κλικ."
           },
           "par-6": {
-            "title": "Can I edit or cancel my stake once it’s been created?",
-            "desc": "No. Once you have created a stake you will not be able to edit or cancel it."
+            "title": "Μπορώ να επεξεργαστώ ή να ακυρώσω το κλείδωμά μου μόλις δημιουργηθεί;",
+            "desc": "Όχι. Μόλις δημιουργήσετε ένα κλείδωμα, δεν θα μπορείτε να το επεξεργαστείτε ή να το ακυρώσετε."
           },
           "par-7": {
-            "title": "Can I create multiple stakes?",
-            "desc": "Yes. If you have NEX tokens in your personal account that are not already locked in a stake, you can use them to create a new one."
+            "title": "Μπορώ να δημιουργήσω πολλά κλειδώματα;",
+            "desc": "Ναί. Εάν έχετε NEX στον προσωπικό σας λογαριασμό που δεν είναι ήδη κλειδωμένα σε ένα συμβόλαιο, μπορείτε να τα χρησιμοποιήσετε για να δημιουργήσετε ένα νέο κλείδωμα."
           },
           "par-8": {
-            "title": "How many stakes can I create?",
-            "desc": "There is no limit to the number of stakes you can create."
+            "title": "Πόσα κλειδώματα μπορώ να δημιουργήσω;",
+            "desc": "Δεν υπάρχει όριο στον αριθμό των κλειδωμάτων που μπορείτε να δημιουργήσετε."
           }
         }
       },
