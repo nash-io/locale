@@ -812,8 +812,8 @@
       "clear-studies-button-label": "Smazat všechny indikátory"
     },
     "update-order": {
-      "new-limit": "[Translation required: Set a new price]",
-      "new-stop": "[Translation required: Set a new stop price]"
+      "new-limit": "Nastavit novou cenu",
+      "new-stop": "Nastavit novou stop cenu"
     },
     "create-order": {
       "buy": "Koupit {{currencySymbol}}",
@@ -1912,7 +1912,7 @@
       "pay-with-default": "Vybrat platební metodu",
       "link-new-bank": "Přidat platební metodu",
       "complete-nash-profile": "Dokončete váš <0>Nash profil</0> než budete moci nakupovat digitální aktiva",
-      "complete-transak-profile": "[Translation required: Complete your <0>Transak profile</0> to buy digital assets.]",
+      "complete-transak-profile": "Dokončit váš <0>Transak profil</0> abyste mohli nakupovat digitání aktiva.",
       "available-balance": "Zůstatek k dispozici: <0>{{amount}}</0>",
       "no-payment-method-sell": "<0>Přidejte platební metodu</0> abyste mohli prodávat digitální aktiva.",
       "complete-nash-profile-add-method-to-sell": "Dokončete váš <0>Nash profil</0> a <1>přidejte platební metodu</1> abyste mohli prodávat digitální aktiva.",
@@ -1999,11 +1999,11 @@
       "b-dismiss": "Již nikdy nezobrazovat"
     },
     "verify-code": {
-      "title": "[Translation required: Verify code]",
-      "message": "[Translation required: Please verify your email, a verification code was sended, confirm the code on the below field]",
-      "code-label": "[Translation required: Enter confirmation code:]",
-      "code-placeholder": "[Translation required: 1234]",
-      "submit": "[Translation required: Verify code]"
+      "title": "Ověřit kód",
+      "message": "Ověřovací kód byl zaslán na váš email, prosím potvrďte email vložením kódu do políčka níže",
+      "code-label": "Vložit potvrzovací kód:",
+      "code-placeholder": "1234",
+      "submit": "Ověřit kód"
     },
     "transactions": {
       "tab-title": "Transakce",
@@ -2305,9 +2305,9 @@
           "field": "Emailová adresa"
         },
         "personal-details": {
-          "edit": "[Translation required: Edit personal details]",
-          "add": "[Translation required: Add personal details]",
-          "label": "[Translation required: Personal details]"
+          "edit": "upravit osobní detaily",
+          "add": "Přidat osobní údaje",
+          "label": "Osobní detaily"
         },
         "occupation": {
           "placeholder": "Manažer, účetní, ředitel atd.",
@@ -2330,13 +2330,13 @@
           "last-name-label": "Příjmení",
           "country-label": "Země",
           "state-label": "Region",
-          "mobile-number": "[Translation required: Mobile number]",
-          "mobile-number-required": "[Translation required: Mobile number]"
+          "mobile-number": "Telefoní číslo",
+          "mobile-number-required": "Telefoní číslo"
         },
         "address": {
           "edit": "Změnit adresu",
           "add": "Přidat adresu",
-          "label": "[Translation required: Address]",
+          "label": "Adresa",
           "save": "Odeslat adresu",
           "warning": "Potvrzuji, že při odeslání těchto informací bude můj účet být znovu zkontrolován a po dobu kontroly nebude možné usutečnit žádné transakce.",
           "building-number-label": "Číslo popisné",
@@ -2398,7 +2398,7 @@
           "file-update": "<0>Odstranit</0> nebo <1>narát nový obrázek</1>",
           "try-again": "Zkusit znovu",
           "submit-btn": "Odeslat dokumenty",
-          "provided": "[Translation required: Proof of address uploaded]"
+          "provided": "Důkaz o místě bydliště vložen"
         },
         "id": {
           "add": "Přidat průkaz totožnosti",
@@ -2786,13 +2786,13 @@
       "error": {
         "invalid-data": "Špatná data.",
         "unhandled-error": "Nastala neočekávaná chyba. Prosím obnovte stránku a zkuste to znovu.",
-        "profile": "[Translation required: An error ocurred while loading profile data. Please reload then try again.]",
-        "file-upload": "[Translation required: Error uploading file. Please reload then try again.]",
-        "bank-account": "[Translation required: Error retrieving your bank accounts. Please reload then try again.]",
-        "platform": "[Translation required: Error retrieving data from CCPRO. Please reload then try again.]",
-        "coins": "[Translation required: Error retrieving available coins. Please reload then try again.]",
-        "kyc": "[Translation required: Error retrieving KYC data. Please reload then try again.]",
-        "quote": "[Translation required: Error quoting order. Please reload then try again.]"
+        "profile": "Nastala chyba při načítání profilu. Prosím obnovte stránku a zkuste to znovu.",
+        "file-upload": "Nastala chyba při odesílání souboru. Prosím obnovte stránku a zkuste to znovu.",
+        "bank-account": "Nastala chyba při získávání vašeho bankovního účtu. Prosím obnovte stránku a zkuste to znovu.",
+        "platform": "Nastala chyba při získávání dat z CCPRO. Prosím obnovte stránku a zkuste to znovu.",
+        "coins": "Nastala chyba při získávání dostupných aktiv. Prosím obnovte stránku a zkuste to znovu.",
+        "kyc": "Nastala chyba při získávání KYC dat. Prosím obnovte stránku a zkuste to znovu.",
+        "quote": "Nastala chyba při naceňování příkazu. Prosím obnovte stránku a zkuste to znovu."
       },
       "validation": {
         "first-name-required": "Zadejte křestní jméno.",
@@ -2934,7 +2934,7 @@
       },
       "fetch-movements-error": "Chyby při získávání vašich dat. Prosím obnovte stránku.",
       "table": {
-        "fee": "[Translation required: Fee]"
+        "fee": "Poplatek"
       }
     },
     "assets": {
@@ -3150,8 +3150,8 @@
         }
       },
       "receive-assets": {
-        "wallet-address": "[Translation required: Wallet address]",
-        "only-send-to": "[Translation required: Only send {{currency}} to this address!]"
+        "wallet-address": "Adresa peněženky",
+        "only-send-to": "Na tuto adresu zasílejte pouze {{currency}}!"
       },
       "transfer-info": {
         "title": "Prostředky jsou posílány následovně",
