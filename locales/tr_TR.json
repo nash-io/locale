@@ -2249,7 +2249,7 @@
         "btn-add-payment-method": "Add payment method",
         "btn-add-payment-method-get-refund": "Ödeme yöntemi ekleyin ver geri ödeme alın",
         "add-pm-title": "Yeni bir ödeme yöntemi ekleyin",
-        "correct-name": "Bu adım için Katman1 isminizi ‘{{name}}’ kullanacağımızı unutmayın.Banka hesabınız bu isim ile kayıtlı değilse please <0>Katman1 isminizi güncelleyin</0>.",
+        "correct-name": "Bu adım için Seviye1 isminizi ‘{{name}}’ kullanacağımızı unutmayın.Banka hesabınız bu isim ile kayıtlı değilse please <0>Seviye1 isminizi güncelleyin</0>.",
         "e-payment-method-exists": "Ödeme yöntemi zaten mevcut",
         "l-name-your-account": "Hesabınızı isimlendirin",
         "p-name-your-account": "Ödeme yönteminize bir ad verin",
@@ -2562,16 +2562,16 @@
       "profile-approved-info-message": "Herhangi bir profil bilgisini düzenlemek, hesabınızın yeniden incelenmesi gerektiği anlamına gelecektir.Dijital varlıkları doğrudan satın alma ve satma imkanınız, bu inceleme tamamlanana ve bilgileriniz onaylanana kadar dondurulacaktır.",
       "limits-requirements": "Gereklilikler",
       "limits-header": "Yıllık alım limitiniz",
-      "limits-complete": "Nash platform Katman1",
+      "limits-complete": "Nash platform Seviye1",
       "limits-not-complete": "Gelir ve para kaynağınızı beyan edin",
       "limits-no-occupation": "Mesleğinizi beyan edin",
       "limits-no-source-of-funds": "Gelir kaynağınızı beyan edin",
       "limits-no-source-of-wealth": "Ana para kaynağınızı beyan edin",
-      "limits-no-level-1": "Katman1 doğrulaması yapmalısınız",
+      "limits-no-level-1": "Seviye1 doğrulaması yapmalısınız",
       "add-occupation": "Mesleğinizi beyan edin",
       "add-source-of-funds": "Gelir kaynağınızı beyan edin",
       "add-source-of-wealth": "Ana para kaynağınızı beyan edin",
-      "header": "Katman1 profil bilgileriniz",
+      "header": "Seviye1 profil bilgileriniz",
       "contact-support-to-edit": "Düzenlemek için <0>Desteğe başvurun</0>",
       "source-of-funds": "Gelir kaynağı",
       "source-of-wealth": "Ana para kaynağı",
@@ -2584,7 +2584,7 @@
       "not-verified": "Doğrulanmamış",
       "daily-limit-remaining": "{{value}} kalan günlük limit",
       "unlimited": "Günlük limit yok",
-      "tier": "Katman{{number}}",
+      "tier": "Seviye{{number}}",
       "personal-details": "Kişisel bilgiler",
       "name": "İsim",
       "create-name": "İsim ekle",
@@ -2749,464 +2749,464 @@
         "b-cancel": "İptal et",
         "b-go-back": "Kabul et"
       },
-      "total-cost": "Total cost",
-      "total-sold": "Total sold",
-      "fiat-deposited-to": "Deposited to",
-      "b-change": "Change",
-      "b-add": "Add",
-      "source-of-funds": "Source of funds for this purchase",
-      "total-with-provider-fee": "Total with fees",
-      "trading-contract": "Trading contract",
-      "transaction-details": "Order summary",
-      "transaction-details-link": "View",
-      "warning-msg": "I authorize {{providerName}} to debit the account indicated for the above amount on today’s date. I will not dispute {{providerName}} debiting my account, so long as the transaction corresponds to the terms in this online form and my agreement with {{providerName}}.",
-      "declined-exchange-rate": "Declined exchange rate",
-      "declined-amount": "Declined amount"
+      "total-cost": "Toplam tutar",
+      "total-sold": "Toplam satılan",
+      "fiat-deposited-to": "Yatırılan",
+      "b-change": "Değiştir",
+      "b-add": "Ekle",
+      "source-of-funds": "Bu satın alma için fon kaynağı",
+      "total-with-provider-fee": "Ücretli toplam tutar",
+      "trading-contract": "Ticaret sözleşmesi",
+      "transaction-details": "Sipariş özeti",
+      "transaction-details-link": "Göster",
+      "warning-msg": "{{ProviderName}} 'e,yukarıdaki tutar için belirtilen hesaptan çekim yapma yetkisi veriyorum.İşlemlerim bu çevrimiçi formdaki şartlara ve {{providerName}} ile yaptığım sözleşmeye uygun olduğu sürece, {{providerName}} hesabımdan borçlanmasına itiraz etmeyeceğim.",
+      "declined-exchange-rate": "Reddedilen döviz kuru",
+      "declined-amount": "Reddedilen miktar"
     },
     "review-transfer-funds": {
-      "transfer-to": "Transfer <0 /> to the account listed below.",
-      "transfer-to-label": "Transfer this amount",
-      "name-registered": "The bank account you use to pay must be registered under the same name as your Nash account.",
-      "receive-funds-soon": "If we do not receive your funds within five days, your order will be canceled.",
-      "reference": "Reference",
-      "need-to-include": "You need to include this.",
+      "transfer-to": "Aşağıda listelenen hesaba <0 /> aktar.",
+      "transfer-to-label": "Bu miktarı transfer et.",
+      "name-registered": "Ödeme yapmak için kullandığınız banka hesabı, Nash hesabınızla aynı adla kayıtlı olmalıdır.",
+      "receive-funds-soon": "Ödemenizi beş gün içinde alamazsak, siparişiniz iptal edilecektir.",
+      "reference": "Referans",
+      "need-to-include": "Bunu eklemeniz gerekiyor.",
       "iban": "IBAN",
-      "bank-swift": "Bank SWIFT",
-      "bank-country": "Bank country",
-      "decline-this-quote": "Decline this quote",
-      "bank-name": "Bank name",
-      "recipient-name": "Recipient name",
-      "recipient": "Recipient",
-      "btn-cancel-quote": "Decline quote",
-      "btn-close-quote": "Close",
-      "btn-made-payment": "I’ve made my payment",
-      "use-exact-name": "Use this exact name.",
-      "recipient-address": "Recipient address",
-      "recipient-bank-country": "Recipient bank country",
-      "exact-name-warning-1": "You <0>must</0> specify the recipient as ‘<1>Neon Exchange AG</1>’.",
-      "exact-name-warning-2": "Transfers to ‘Nash’ or other names will be <0>returned at your own cost</0>.",
-      "exact-name-warning-3": "Your bank account name must match the name on your Nash account. <0>Do not</0> use third-party services (e.g. TransferWise).",
-      "btn-exact-name-warning": "Got it"
+      "bank-swift": "Banka SWIFT'i",
+      "bank-country": "Banka ülkesi",
+      "decline-this-quote": "Bu teklifi reddet",
+      "bank-name": "Banka ismi",
+      "recipient-name": "Alıcı ismi",
+      "recipient": "Alıcı",
+      "btn-cancel-quote": "Teklifi reddet",
+      "btn-close-quote": "Kapat",
+      "btn-made-payment": "Ödememi gerçekleştirdim",
+      "use-exact-name": "Bu adı kullan.",
+      "recipient-address": "Alıcı adresi",
+      "recipient-bank-country": "Alıcı banka ülkesi",
+      "exact-name-warning-1": "Alıcıyı "<1> Neon Exchange AG </1>" olarak <0> belirtmelisiniz </0>.",
+      "exact-name-warning-2": " Nash' e veya diğer adlara transferler <0> kendi maliyetinize göre </0> iade edilecektir.",
+      "exact-name-warning-3": "Banka hesabı adınız, Nash hesabınızdaki adla eşleşmelidir. Üçüncü taraf hizmetleri (ör. TransferWise) <0> kullanmayın </0>.",
+      "btn-exact-name-warning": "Anladım"
     },
-    "timeout-message": "This exchange rate will be guaranteed and locked for:",
-    "network-error": "Network error. Please try again.",
+    "timeout-message": "Bu döviz kuru aşağıdakiler için garanti edilecek ve kilitlenecektir:",
+    "network-error": "Bağlantı hatası.Lütfen tekrar deneyin.",
     "ccpro": {
-      "error-no-wallet": "Wallet retrieval error. Please wait and try again.",
-      "recipient-name": "Asset Tokenization Services OÜ",
-      "drag-and-drop": "Drag and drop or",
-      "upload-a-file": "upload a file.",
-      "drop-file-here": "drop file here",
-      "recipient": "Recipient",
-      "upload-new": "Upload new",
-      "remove": "Remove",
+      "error-no-wallet": "Cüzdan alma hatası. Lütfen bekleyin ve tekrar deneyin.",
+      "recipient-name": "Varlık Tokenizasyon Hizmetleri OÜ",
+      "drag-and-drop": "Sürükle ve bırak yada",
+      "upload-a-file": "dosya yükle.",
+      "drop-file-here": "dosyayı buraya bırak",
+      "recipient": "Alıcı",
+      "upload-new": "Yeni yükle",
+      "remove": "Çıkart",
       "remaining-currency": "<0></0> / <1></1>",
-      "uploaded": "File uploaded",
-      "not-uploaded-in-time": "File not uploaded in time",
-      "street": "Street address",
-      "city": "City",
-      "country": "Country",
-      "zip": "Postcode",
-      "phone": "Phone number",
-      "not-uploaded": "Not uploaded",
-      "document": "Document",
-      "documents": "Documents",
-      "transfer-amount": "Transfer this amount",
-      "pop-upload-time": "You must upload your proof of payment within 60 minutes after sending funds for this transaction to be valid.",
-      "add-default-docs": "<0>Increase my limits</0>",
-      "overlimit-message-level1": "You need to <0>complete your profile</0> before you can buy digital assets.",
-      "overlimit-message-level2": "This transaction would exceed your monthly limit.",
-      "government-id-or-passport": "Identity document",
-      "government-id": "National ID",
-      "government-id-front": "National ID (front)",
-      "government-id-back": "National ID (back)",
-      "passport": "Passport",
-      "utility-bill": "Utility bill",
-      "selfie-with-id": "Selfie with ID",
-      "include-reference": "You need to include this.",
-      "proof-of-payment": "Proof of payment",
-      "transfer-instructions-singular": "Transfer <0>{{amount}}</0> to the following bank account:",
-      "transfer-instructions-plural": "Transfer <0>{{amount}}</0> to one of the following bank accounts:",
-      "include-payment-reference": "To complete your purchase, upload a screenshot of your transfer as proof of payment.",
-      "reference": "Reference",
-      "bank-name": "Bank name",
-      "bank-swift": "Bank SWIFT/BIC",
-      "bank-country": "Bank country",
-      "bank-address": "Bank address",
+      "uploaded": "Dosya yüklendi",
+      "not-uploaded-in-time": "Dosya zamanında yüklenmedi",
+      "street": "Sokak/cadde",
+      "city": "Şehir",
+      "country": "Ülke",
+      "zip": "Posta kodu",
+      "phone": "Telefon numarası",
+      "not-uploaded": "Yüklenmedi",
+      "document": "Döküman",
+      "documents": "Dökümanlar",
+      "transfer-amount": "Bu miktarı transfer et",
+      "pop-upload-time": "Bu işlemin geçerli olabilmesi için ödeme belgenizi para gönderdikten sonra 60 dakika içinde yüklemelisiniz.",
+      "add-default-docs": "<0>Limitlerimi arttır</0>",
+      "overlimit-message-level1": "Dijital varlıkları satın almadan önce <0> profilinizi tamamlamanız </0> gerekir.",
+      "overlimit-message-level2": "Bu işlem aylık limitinizi aşacaktır.",
+      "government-id-or-passport": "Kimlik belgesi",
+      "government-id": "Kimlik belgesi",
+      "government-id-front": "Kimlik belgesi (ön)",
+      "government-id-back": "Kimlik belgesi (arka)",
+      "passport": "Pasaport",
+      "utility-bill": "Fatura",
+      "selfie-with-id": "Kimlik belgesi ile Özçekim",
+      "include-reference": "Bunu eklemelisiniz.",
+      "proof-of-payment": "Ödeme kanıtı",
+      "transfer-instructions-singular": "<0> {{amount}} </0> 'ı aşağıdaki banka hesabına aktar:",
+      "transfer-instructions-plural": "<0> {{amount}} </0> 'ı aşağıdaki banka hesaplarından birine aktar:",
+      "include-payment-reference": "Satın alma işleminizi tamamlamak için, ödeme belgesi olarak transferinizin bir ekran görüntüsünü yükleyin.",
+      "reference": "Referans",
+      "bank-name": "Banka ismi",
+      "bank-swift": "Banka SWIFT/BIC",
+      "bank-country": "Banka ülkesi",
+      "bank-address": "Banka adresi",
       "bank-iban": "IBAN",
-      "upload-proof-of-payment": "Please upload a proof of payment, such as a transaction screenshot from your online banking platform.",
-      "proof-of-payment-file-formats": "The image must be in BMP, JPEG, PDF or PNG format.",
+      "upload-proof-of-payment": "Lütfen çevrimiçi bankacılık platformunuzdan işlem ekran görüntüsü gibi bir ödeme belgesi yükleyin.",
+      "proof-of-payment-file-formats": "Görüntü BMP, JPEG, PDF veya PNG formatında olmalıdır.",
       "create-account": {
-        "enter-registration-code": "Enter your registration code"
+        "enter-registration-code": "Kayıt kodunu gir"
       },
       "order-created": {
-        "title": "Your order has been created",
-        "description": "We will deposit your assets into your Nash personal account once your payment has cleared. This can take up to {{count}} business day. You can view the status of your deposit in the <0>Transactions</0> tab.",
-        "description_plural": "We will deposit your assets into your Nash personal account once your payment has cleared. This can take up to {{count}} business days. You can view the status of your deposit in the <0>Transactions</0> tab.",
-        "button": "Finish"
+        "title": "Sipariş oluşturuldu",
+        "description": "Ödemeniz tamamlandıktan sonra varlıklarınızı Nash kişisel hesabınıza yatıracağız.Bu, {{count}} iş günü sürebilir.Yatırmanızın durumunu <0> İşlemler </0> sekmesinde görüntüleyebilirsiniz.",
+        "description_plural": "Ödemeniz tamamlandıktan sonra varlıklarınızı Nash kişisel hesabınıza yatıracağız.Bu, {{count}} iş günü sürebilir.Yatırmanızın durumunu <0> İşlemler </0> sekmesinde görüntüleyebilirsiniz.",
+        "button": "Bitir"
       },
       "profile-details": {
-        "birth-date": "Edit my birth date",
-        "status-and-process": "Status and process",
-        "initial-account-creation": "Account creation",
-        "cellphone-and-email": "Confirm email and phone number",
-        "complete-profile": "Profile",
-        "buy-limits": "Buy limit",
-        "sell-limits": "Sell limit"
+        "birth-date": "Doğum tarihimi düzenle",
+        "status-and-process": "Durum ve süreç",
+        "initial-account-creation": "Hesap oluşturma",
+        "cellphone-and-email": "E-posta ve telefon numarası doğrula",
+        "complete-profile": "Profil",
+        "buy-limits": "Alım limiti",
+        "sell-limits": "Satım limiti"
       },
       "buy-steps": {
-        "review-quote": "Review your quote",
-        "make-payment": "Make your payment",
-        "upload-proof-of-payment": "Upload proof of payment"
+        "review-quote": "Teklifi gözden geçir",
+        "make-payment": "Ödeme yap",
+        "upload-proof-of-payment": "Ödeme kanıtını yükle"
       },
       "error": {
-        "invalid-data": "Invalid data.",
-        "unhandled-error": "An unhandled error occurred. Please reload then try again.",
-        "profile": "An error ocurred while loading profile data. Please reload then try again.",
-        "file-upload": "Error uploading file. Please reload then try again.",
-        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
-        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
-        "coins": "Error retrieving available coins. Please reload then try again.",
-        "kyc": "Error retrieving KYC data. Please reload then try again.",
-        "quote": "Error quoting order. Please reload then try again."
+        "invalid-data": "Geçersiz veri",
+        "unhandled-error": "Bilinmeyen bir hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "profile": "Profil verileri yüklenirken bir hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "file-upload": "Dosya yüklenirken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "bank-account": "Banka hesaplarınızı alırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "platform": "CCPRO'dan veri alınırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "coins": "Mevcut paralar alınırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "kyc": "KYC verileri alınırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "quote": "Sipariş alıntılanırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin."
       },
       "validation": {
-        "first-name-required": "First name is required.",
-        "first-name-characters-invalid": "First name must only contain letters and hyphens.",
-        "last-name-required": "Last name is required.",
-        "last-name-characters-invalid": "Last name must only contain letters and hyphens.",
-        "email-required": "Email is required.",
-        "email-invalid": "Email must be valid.",
-        "date": "Invalid date",
-        "month": "Invalid month",
-        "year": "Invalid year",
-        "zip": "Postcode must be between four and ten digits",
-        "verification-code-invalid": "Invalid verification code.",
-        "bank-name-required": "Bank name is required.",
-        "iban-required": "IBAN is required.",
-        "iban-too-short": "IBAN must be at least 16 characters in length.",
-        "iban-too-long": "IBAN must not exceed 34 characters in length.",
-        "iban-characters-invalid": "IBAN must only contain letters and numbers.",
-        "iban-country-code-invalid": "IBAN must begin with a valid two-letter country code.",
-        "iban-already-used": "IBAN already associated with an account.",
-        "swift-required": "SWIFT/BIC is required.",
-        "swift-length-invalid": "SWIFT/BIC must be between 8 and 11 characters."
+        "first-name-required": "İlk isim gerekiyor",
+        "first-name-characters-invalid": "İlk isim yalnızca harf ve kısa çizgi içerebilir.",
+        "last-name-required": "Soyisim gerekiyor",
+        "last-name-characters-invalid": "Soyisim yalnızca harf ve kısa çizgi içerebilir.",
+        "email-required": "E-posta adresi gerekiyor.",
+        "email-invalid": "E-posta adresi doğrulanmış olmalı.",
+        "date": "Geçersiz tarih",
+        "month": "Geçersiz ay",
+        "year": "Geçersiz yıl",
+        "zip": "Posta kodu dört ile on basamak arasında olmalıdır",
+        "verification-code-invalid": "Geçersiz doğrulama kodu",
+        "bank-name-required": "Banka ismi gerekiyor",
+        "iban-required": "IBAN gerekiyor",
+        "iban-too-short": "IBAN, en az 16 karakter uzunluğunda olmalıdır.",
+        "iban-too-long": "IBAN uzunluğu 34 karakteri geçmemelidir.",
+        "iban-characters-invalid": "IBAN yalnızca harf ve rakamlardan oluşmalıdır.",
+        "iban-country-code-invalid": "IBAN, geçerli bir iki harfli ülke koduyla başlamalıdır.",
+        "iban-already-used": "IBAN zaten bir hesapla ilişkilendirilmiş.",
+        "swift-required": "SWIFT/BIC gerekiyor.",
+        "swift-length-invalid": "SWIFT/BIC 8 ile 11 karakter arasında olmalıdır."
       },
       "profile-status": {
-        "incomplete": "Complete your profile to increase your limits.",
-        "pending": "Identity verification is pending.",
-        "succeeded": "Identity verification succeeded.",
-        "failed": "Identity verification failed."
+        "incomplete": "Limit arttırabilmek için profilinizi tamamlayın.",
+        "pending": "Kimlik doğrulaması beklemede.",
+        "succeeded": "Kimlik doğrulaması başarılı oldu.",
+        "failed": "Kimlik doğrulama başarısız oldu."
       },
       "field-status": {
-        "incomplete": "Incomplete",
-        "pending": "Pending",
-        "rejected": "Rejected",
-        "accepted": "Verified",
-        "completed": "Complete"
+        "incomplete": "Eksik",
+        "pending": "Beklemede",
+        "rejected": "Reddedildi",
+        "accepted": "Doğrulandı",
+        "completed": "Tamamlandı"
       },
       "link": {
-        "add": "Add",
-        "edit": "Edit"
+        "add": "Ekle",
+        "edit": "Düzenle"
       },
       "heading": {
-        "add-phone-number": "Add your phone number",
-        "add-residential-address": "Add your residential address",
-        "government-id-or-passport": "Upload identity document",
-        "utility-bill": "Upload utility bill",
-        "selfie-with-id": "Upload selfie with ID",
-        "upload-proof-of-payment": "Upload proof of payment",
-        "success": "Success!"
+        "add-phone-number": "Telefon numarası ekle",
+        "add-residential-address": "İkamet adresi ekle",
+        "government-id-or-passport": "Kimlik belgesi yükle",
+        "utility-bill": "Fatura yükle",
+        "selfie-with-id": "Belge ile özçekim yükle",
+        "upload-proof-of-payment": "Ödeme kanıtı yükle",
+        "success": "Başarılı!"
       },
       "button": {
-        "cancel": "Cancel",
-        "continue": "Continue",
-        "submit": "Submit",
-        "submit-verification-code": "Submit verification code",
-        "transfer-initiated": "I’ve made this transfer",
-        "submit-proof-of-payment": "Submit proof"
+        "cancel": "Çık",
+        "continue": "Devam et",
+        "submit": "Gönder",
+        "submit-verification-code": "Doğrulama kodunu gönder",
+        "transfer-initiated": "Bu transferi yaptım.",
+        "submit-proof-of-payment": "Kanıtı gönder"
       },
       "details-shared": {
-        "title": "{{ccpro}} has sent you an email!",
-        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
-        "button": "Resend verification email"
+        "title": "{{ccpro}} size bir mail gönderdi",
+        "desc": "<0> Lütfen e-postanızı kontrol edin ve hesabınızı {{ccpro}} ile doğrulayın.</0><0>E-postayı görmüyorsanız,gereksiz klasörünüzü kontrol edin.</0>",
+        "button": "Tekrar doğrulama kodu gönder"
       },
       "transactions": {
-        "order-id": "Order ID",
-        "date-created": "Created",
-        "action": "Action",
-        "cost": "Cost",
-        "amount": "Amount",
-        "no-transactions": "You haven’t bought or sold any digital assets yet."
+        "order-id": "Sipariş kimliği",
+        "date-created": "Oluşturulan",
+        "action": "Hareket",
+        "cost": "Tutar",
+        "amount": "Miktar",
+        "no-transactions": "Henüz herhangi bir dijital varlık satın almadınız veya satmadınız."
       },
       "payment-methods": {
-        "bank-address": "Bank address",
-        "bank-name": "Bank name",
-        "currency": "Currency",
+        "bank-address": "Banka adresi",
+        "bank-name": "Banka ismi",
+        "currency": "Para birimi",
         "iban": "IBAN",
-        "remove-bank-account": "Remove {{iban}}?",
+        "remove-bank-account": " {{iban}}'ı çıkart?",
         "swift": "SWIFT/BIC"
       },
       "editor": {
         "phone": {
-          "enter-phone-number": "Enter phone number",
-          "verify-phone-number": "Verify phone number",
-          "label": "Enter your phone number",
-          "desc": "A ten-digit code will be sent via SMS to verify your phone number.",
-          "code-not-received": "Didn’t receive a code via SMS? <0>Resend it</0>.",
-          "resending-code": "Resending verification code…",
-          "code-label": "Enter the verification code sent to your phone.",
-          "back": "Back",
-          "verify": "Verify"
+          "enter-phone-number": "Telefon numarası gir",
+          "verify-phone-number": "Telefon numarasını doğrula",
+          "label": "Telefon numaranızı girin",
+          "desc": "Telefon numaranızı doğrulamak için SMS yoluyla on basamaklı bir kod gönderilecektir.",
+          "code-not-received": "SMS yoluyla bir kod almadınız mı? <0>Tekrar gönder</0>.",
+          "resending-code": "Doğrulama kodu tekrar gönderiliyor...",
+          "code-label": "Gönderilen doğrulama kodunu girin",
+          "back": "Geri",
+          "verify": "Doğrula"
         },
         "national-id": {
-          "upload-label": "Upload two <0>separate photographs</0> of your national ID, one of the front and one of the back.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Ulusal kimliğinizin biri önden diğeri arkadan olmak üzere iki <0> ayrı fotoğrafı </0> yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0> .jpg </0>, <0> .jpeg </0>, <0> .bmp </0>, <0> .png </0>, <0> .pdf < / 0>. Maksimum dosya boyutu: 10 MB."
         },
         "passport": {
-          "upload-label": "Upload one photograph of your passport information.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Pasaport bilgilerinizin bir fotoğrafını yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0> .jpg </0>, <0> .jpeg </0>, <0> .bmp </0>, <0> .png </0>, <0> .pdf < / 0>. Maksimum dosya boyutu: 10 MB."
         },
         "utility-bill": {
-          "upload-label": "Upload one photograph of a recent utility bill.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Yakın tarihli faturanızın bir fotoğrafını yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0> .jpg </0>, <0> .jpeg </0>, <0> .bmp </0>, <0> .png </0>, <0> .pdf < / 0>. Maksimum dosya boyutu: 10 MB."
         },
         "selfie-with-id": {
-          "upload-label": "Upload one photograph of yourself holding both a piece of paper with ‘cryptocoin.pro’ written on it and your passport or national ID.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Üzerinde "cryptocoin.pro" yazan bir kağıt parçasını ve pasaportunuzu veya ulusal kimliğinizi tuttuğunuz bir fotoğrafınızı yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0> .jpg </0>, <0> .jpeg </0>, <0> .bmp </0>, <0> .png </0>, <0> .pdf < / 0>. Maksimum dosya boyutu: 10 MB."
         },
         "bank-account": {
-          "bank-address-placeholder": "Enter your bank’s address",
-          "bank-name-placeholder": "Enter your bank’s name",
-          "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
-          "swift-placeholder": "e.g. CLBABU7S"
+          "bank-address-placeholder": "Bankanızın adresini girin",
+          "bank-name-placeholder": "Bankanızın ismini girin",
+          "iban-placeholder": "ör TR89 3704 0044 0532 0130 00",
+          "swift-placeholder": "ör CLBABU7S"
         }
       }
     }
   },
   "funds": {
-    "title": "Funds",
-    "deposit-currency": "Deposit {{currencySymbol}}",
-    "your-currency-balances": "Your {{currencySymbol}} balances",
+    "title": "Varlıklar",
+    "deposit-currency": "{{currencySymbol}} yatır",
+    "your-currency-balances": " {{currencySymbol}} varlığınız",
     "resetting-account": {
-      "title": "Resync your trading contract balance.",
-      "desc": "This will release funds stuck in a ‘Pending’ state. This process will cancel open trade orders.",
-      "button": "Resync account",
-      "resyncing": "Resyncing…",
-      "error": "Resync failed. Please <0>contact support.</0>",
-      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
-      "success": "Resync successful!"
+      "title": "Ticaret sözleşmesi bakiyenizi senkronize edin.",
+      "desc": "Bu işlem beklemede olan fonlarınızı serbest bırakacaktır.Bu işlem, açık ticaret emirlerini iptal edecektir.",
+      "button": "Hesabı yeniden senkronize et",
+      "resyncing": "Yeniden senkronize ediliyor...",
+      "error": "Senkronizasyon hatası. Lütfen <0>desteğe başvurun.</0>",
+      "wait-error": "Lütfen bu sayfayı kullanmadan önce son para yatırma işleminizden sonra en az 2 saat bekleyin.",
+      "success": "Yeniden senkronizasyon başarılı."
     },
     "transaction-retry": {
-      "transfers-page-retry-button-title": "Retry transaction",
-      "title": "Retry transactions",
-      "subtitle": "All pending or failed deposits or withdrawals",
-      "actions-title": "Actions",
-      "button-title": "Retry",
-      "button-sending": "Sending…",
-      "button-sent": "Resent",
-      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
+      "transfers-page-retry-button-title": "İşlemi yeniden dene",
+      "title": "İşlemleri yeniden dene",
+      "subtitle": "Bekleyen veya başarısız olan tüm para yatırma veya çekme işlemleri",
+      "actions-title": "Hareketler",
+      "button-title": "Yeniden dene",
+      "button-sending": "Gönderiliyor..",
+      "button-sent": "Yeniden gönderildi",
+      "nothing-to-retry": "Bekleyen para yatırma veya çekme işleminiz yok.",
       "status": {
-        "title": "Status",
-        "created": "Created",
-        "pending": "Pending"
+        "title": "Durum",
+        "created": "Oluşturulan",
+        "pending": "Beklemede"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page.",
+      "fetch-movements-error": "Verileriniz alınırken hata oluştu. Lütfen sayfayı yenileyin.",
       "table": {
-        "fee": "Fee"
+        "fee": "Ücret"
       }
     },
     "assets": {
-      "title": "Assets",
-      "tabs-info-button": "Learn about sending and receiving funds",
+      "title": "Varlıklar",
+      "tabs-info-button": "Para gönderme ve alma hakkında bilgi edinin",
       "header": {
-        "title": "Assets",
-        "search-placeholder": "Search over 3,000 assets…"
+        "title": "Varlıklar",
+        "search-placeholder": "3.000'den fazla varlık içinde arayın…"
       },
       "transferring-funds": {
-        "title": "Sending and receiving funds",
-        "desc": "Nash Channels let you trade at lightning speed with no blockchain fees and without giving up custody. Send funds to Nash Channels from your Nash wallet.",
-        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
-        "learn-more": "Learn more",
-        "never-show": "Never show me this again."
+        "title": "Para gönderme ve alma",
+        "desc": "Nash Kanalları, blokzincir ücreti ödemeden ve velayetten vazgeçmeden yıldırım hızında işlem yapmanızı sağlar. Nash cüzdanınızdan Nash Kanallarına para gönderin.",
+        "learn-more-never-show": "<0>Daha fazlası için</0> or <1>tekrar gösterme</1>.",
+        "learn-more": "Daha fazlası için",
+        "never-show": "Tekrar gösterme."
       },
       "table": {
         "header": {
-          "title": "Balances",
+          "title": "Bakiye",
           "actions": {
-            "hide-zero-balances": "Hide zero balances"
+            "hide-zero-balances": "Boş bakiyeleri gizle"
           }
         },
         "claim-gas": {
-          "claiming": "Claiming…",
-          "claim": "Claim GAS",
-          "gas-to-claim": "You have {{amount}} GAS to claim.",
-          "no-gas-to-claim": "You have no GAS to claim.",
-          "claiming-now": "You are currently claiming GAS.",
-          "error-claiming": "Error claiming GAS.",
-          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
-          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
+          "claiming": "Talep ediliyor",
+          "claim": "GAS talep et",
+          "gas-to-claim": "Talep edebileceğiniz {{amount}} GAS'a sahipsiniz.",
+          "no-gas-to-claim": "Talep edebileceğiniz GAS bulunmuyor.",
+          "claiming-now": "Şu anda GAS talep ediyorsunuz.",
+          "error-claiming": "GAS talep etme hatası",
+          "claiming-locked": "GAS'ı ~ {{count}} dakika içinde tekrar talep edebilirsiniz.",
+          "claiming-locked_plural": "GAS'ı ~ {{count}} dakika içinde tekrar talep edebilirsiniz."
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Varlık"
           },
           "personal-account": {
-            "title": "Personal account"
+            "title": "Kişisel Hesap"
           },
           "trading-account": {
-            "title": "Trading contract"
+            "title": "Ticaret Sözleşmesi"
           },
           "nash-channels": {
-            "title": "Nash Channels"
+            "title": "Nash Kanalları"
           },
           "in-orders": {
-            "title": "In orders"
+            "title": "Siparişlerde"
           },
           "pending": {
-            "title": "Pending",
-            "hint": "Transfers being processed by the blockchain."
+            "title": "Beklemede",
+            "hint": "Blokzincire işlenmiş transferler."
           },
           "tradeable": {
-            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
+            "hint": "Bu varlık şu anda Nash'te işlem görmüyor, ancak ticaret sözleşmesinde bir bakiyeniz varsa yine de çekebilirsiniz."
           },
           "action-buttons": {
-            "trade": "Trade",
-            "transfer-funds": "Send/Receive",
-            "convert": "Convert",
-            "send": "Send",
-            "receive": "Receive",
-            "nash-channels": "Nash Channels",
-            "nash-channels-untradable": "This asset isn’t tradable in Nash"
+            "trade": "Alım/Satım",
+            "transfer-funds": "Gönder/Al",
+            "convert": "Dönüştür",
+            "send": "Gönder",
+            "receive": "Al",
+            "nash-channels": "Nash Kanalları",
+            "nash-channels-untradable": "Bu varlıkla Nash'te alım-satım yapılamıyor."
           }
         },
-        "no-results": "There are not yet any assets in your Nash account."
+        "no-results": "Nash hesabınızda henüz varlık yok."
       }
     },
     "modals": {
       "verify-mnemonic": {
-        "or": "or",
-        "remindme": "remind me later",
-        "dismiss": "Dismiss forever",
-        "havent-checked": "You haven’t checked your twelve word backup",
-        "will-need": "You’ll need these words to access your funds if you lose your password."
+        "or": "yada",
+        "remindme": "Daha sonra hatırlat",
+        "dismiss": "Tekrar gösterme",
+        "havent-checked": "On iki kelimelik yedeklemenizi henüz kontrol etmediniz",
+        "will-need": "Parolanızı kaybederseniz varlıklarınıza erişmek için bu kelimelere ihtiyacınız olacak."
       },
       "transfer-funds": {
-        "title": "Send/Receive",
+        "title": "Gönder/Al",
         "create": {
           "asset": {
-            "label": "Which asset?",
-            "placeholder": "Search for an asset…"
+            "label": "Hangi varlık ?",
+            "placeholder": "Bir varlık ara.."
           },
           "choose-accounts": {
-            "from": "From",
-            "to": "To"
+            "from": "dan",
+            "to": "a"
           },
-          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
+          "exchange-maintenance": "Bakım sırasında ticaret sözleşmesine veya ticaret sözleşmesinden para aktaramazsınız.",
           "recipient": {
-            "placeholder": "Enter destination…"
+            "placeholder": "Hedef girin.."
           },
           "contacts": {
-            "label": "Destination",
-            "placeholder": "Search for a contact or send to a new address…",
-            "wallet-address": "Send to ‘{{address}}‘",
+            "label": "Hedef",
+            "placeholder": "Kişi arayın veya yeni bir adrese gönderin…",
+            "wallet-address": "‘{{address}}‘ 'a gönder",
             "button-contacts": "Contacts",
             "select-contact": {
-              "no-options": "Type at least three characters to search for a contact or valid wallet address",
-              "no-results": "No contacts found. This is not a valid address.",
+              "no-options": "Bir kişiyi veya geçerli bir cüzdan adresini aramak için en az üç karakter yazın",
+              "no-results": "Kişi bulunamadı. Bu geçerli bir adres değil.",
               "option": {
-                "no-email": "No email",
-                "no-wallet-name": "No wallet name",
-                "no-wallet-address": "No wallet address"
+                "no-email": "E-posta yok",
+                "no-wallet-name": "Cüzdan ismi yok",
+                "no-wallet-address": "Cüzdan adresi yok"
               }
             }
           },
           "destination-address": {
-            "label": "Destination address",
-            "placeholder": "Send only {{currency}} to this address",
+            "label": "Hedef adres",
+            "placeholder": "Bu adrese yalnızca {{currency}} gönder",
             "errors": {
-              "invalid-wallet": "Invalid address"
+              "invalid-wallet": "Geçersiz adres"
             }
           },
           "movement": {
-            "error": "Please wait until your last Ethereum transfer finishes.",
-            "pending-error": "Please wait until your pending Ethereum transfer completes.",
-            "token-requires-approval": "Approval of {{ amount }} {{ currency }} is required for this token to be transferred to the trading contract.",
-            "too-many-utxo": "Please send your NEO/GAS to yourself to simplify your wallet balance data. You will then be able to deposit to the trading contract."
+            "error": "Lütfen son Ethereum transferiniz bitene kadar bekleyin.",
+            "pending-error": "Lütfen bekleyen Ethereum transferiniz tamamlanana kadar bekleyin.",
+            "token-requires-approval": "Bu varlığın ticaret sözleşmesine aktarılması için {{amount}} {{currency}} na ihtiyacınız var.",
+            "too-many-utxo": "Cüzdan bakiye verilerinizi basitleştirmek için lütfen NEO / GAS'ınızı kendinize gönderin. Daha sonra ticaret sözleşmesine para yatırabileceksiniz."
           },
           "transfer-amount": {
-            "label": "Amount to transfer",
-            "network-transaction-fee": "maximum network fee",
-            "loading-fee": "Loading fee…",
+            "label": "Transfer edilecek miktar",
+            "network-transaction-fee": "maximum ağ ücreti",
+            "loading-fee": "Yükleme ücreti",
             "errors": {
-              "gas-shortage": "You need at least {{amount}} {{currencySymbol}} in your personal account to pay network fees.",
-              "fee-shortage": "You must save {{amount}} ETH for the Ethereum network fee.",
-              "fee-shortage-trading": "You need {{amount}} ETH in your personal account for Ethereum network fees."
+              "gas-shortage": "Ağ ücretlerini ödemek için kişisel hesabınızda en az {{amount}} {{currencySymbol}} olmalıdır.",
+              "fee-shortage": "Ethereum ağ ücreti için {{amount}} ETH tutmalısınız.",
+              "fee-shortage-trading": "Ethereum ağ ücretleri için kişisel hesabınızda {{amount}} ETH'ye ihtiyacınız var."
             }
           },
           "btc": {
-            "funds-not-confirmed": "Your Bitcoin balance requires six network confirmations before you can transfer to the trading contract. Please wait while recent transfers confirm.",
-            "wait-until-external-transfer-completes": "Please wait until your recent external transfer completes before making a deposit.",
-            "temporary-limit": "Bitcoin deposits and withdrawals must be greater than 0.001 BTC while we test this new market. The restriction will be lifted in the near future."
+            "funds-not-confirmed": "Alım satım sözleşmesine geçebilmeniz için Bitcoin bakiyeniz altı ağ onayı gerektirir.Lütfen son transferler onaylanırken bekleyin.",
+            "wait-until-external-transfer-completes": "Lütfen para yatırmadan önce son harici transferinizin tamamlanmasını bekleyin.",
+            "temporary-limit": "Bu yeni pazarı test ederken, Bitcoin yatırma ve çekme işlemleri 0,001 BTC'den büyük olmalıdır.Kısıtlama yakın gelecekte kaldırılacaktır."
           },
           "async": {
-            "title": "Transaction update",
+            "title": "İşlem güncellemesi",
             "errors": {
-              "syncing": "We are syncing your {{currencySymbol}} funds in our system. Please wait one minute and try again.",
-              "transaction-failed": "Your last transaction sending {{currencySymbol}} failed. Please try again."
+              "syncing": "Sistemimizdeki {{currencySymbol}} paranızı güncelliyoruz.Lütfen 1 dakika bekleyip tekrar deneyin.",
+              "transaction-failed": "{{CurrencySymbol}} göndermeye çalıştığınız son işleminiz başarısız oldu. Lütfen tekrar deneyin."
             }
           },
           "fees": {
-            "eth-recommended-message": "Keep {{amount}} ETH in my personal account for future network fees.",
-            "fee-shortage": "You need at least <0>{{amount}}</0> {{currencySymbol}} in your personal account to pay network fees. <1></1> Balance: <0>{{balance}}</0> {{currencySymbol}}"
+            "eth-recommended-message": "Gelecekteki ağ ücretleri için kişisel hesabımda {{amount}} ETH tut.",
+            "fee-shortage": "Ağ ücretlerini ödemek için kişisel hesabınızda en az <0> {{amount}} </0> {{currencySymbol}} 'a ihtiyacınız var. <1></1> Bakiye: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
-            "neo-trading": "You cannot send or withdraw fractional amounts of NEO."
+            "neo-trading": "Kesirli miktarlarda NEO gönderemez veya çekemezsiniz."
           },
           "maximum": {
-            "amount": "Insufficient balance."
+            "amount": "Yetersiz bakiye"
           },
           "deposit": {
-            "label": "Your personal account details",
-            "currency-address": "{{currency}} address",
-            "currency-address-qrcode": "{{currency}} address QR code",
-            "currency-send-warning": "Any assets other than {{currency}} sent to this address will be lost!"
+            "label": "Kişisel hesap detaylarınız",
+            "currency-address": "{{currency}} adresi",
+            "currency-address-qrcode": "{{currency}} addresi QR kod",
+            "currency-send-warning": "Bu adrese gönderilen {{currency}} dışındaki tüm varlıklar kaybolacak!"
           },
           "buttons": {
-            "continue": "Continue",
-            "review": "Review",
-            "sent-funds": "I have sent my funds"
+            "continue": "Devam et",
+            "review": "Gözden geçir",
+            "sent-funds": "Gönderdiğim varlıklar"
           }
         },
         "review": {
           "transfer-details": {
-            "title": "Transfer details",
+            "title": "Transfer detayları",
             "rows": {
-              "amount-label": "You are sending",
-              "from-label": "From",
-              "to-label": "To",
-              "fee-label": "Network fee"
+              "amount-label": "Gönderiyorsunuz",
+              "from-label": "dan",
+              "to-label": "a",
+              "fee-label": "Ağ ücreti"
             }
           },
-          "confirming-balance": "Please wait while we confirm your balance.",
-          "waiting-for-sync": "Your balance is currently syncing with the blockchain. This process can take up to two hours. Please submit your transfer again in a few moments.",
+          "confirming-balance": "Bakiyenizi onaylarken lütfen bekleyin.",
+          "waiting-for-sync": "Bakiyeniz şu anda blokzinciri ile senkronize ediliyor.Bu işlem iki saate kadar sürebilir.Lütfen birkaç dakika sonra transferinizi tekrar deneyin.",
           "errors": {
-            "send": "Failed to send. Please try again later.",
-            "syncing": "Your last transfer requires up to two minutes to complete. Please wait and try again.",
-            "insufficient-funds": "Your current balance is insufficient for this transfer or you currently have a transfer in progress. Please wait and try again."
+            "send": "Gönderilemedi.Lütfen daha sonra tekrar deneyin.",
+            "syncing": "Son transferinizin tamamlanması iki dakika kadar sürebilir. Lütfen bekleyin ve tekrar deneyin.",
+            "insufficient-funds": "Mevcut bakiyeniz bu transfer için yetersiz veya şu anda devam eden bir transferiniz var. Lütfen bekleyin ve tekrar deneyin."
           },
           "buttons": {
-            "back": "Back",
-            "transfer-funds": "Send",
-            "transfer-funds-with-currency": "Send {{currency}}",
-            "transfer-started": "Transfer started",
-            "confirming": "Confirming…"
+            "back": "Geri",
+            "transfer-funds": "Gönder",
+            "transfer-funds-with-currency": "{{currency}} gönder",
+            "transfer-started": "Transfer başlatıldı",
+            "confirming": "Onaylanıyor.."
           }
         },
         "hints": {
-          "btc-gas-hint": "A small network fee is required when performing transactions.",
-          "eth-gas-hint": "A small network fee is required when performing transactions. Fees for Ethereum-based tokens are paid using ETH.",
-          "neo-gas-hint": "A small network fee is usually required when performing transactions. Fees for NEO-based tokens are paid using GAS.",
-          "eth-transfer-hint": "While transfers are pending, the balance shown here may not be accurate."
+          "btc-gas-hint": "İşlemleri gerçekleştirirken küçük bir ağ ücreti gereklidir.",
+          "eth-gas-hint": "İşlemleri gerçekleştirirken küçük bir ağ ücreti gereklidir. Ethereum tabanlı varlıkların ücretleri ETH kullanılarak ödenir.",
+          "neo-gas-hint": "İşlemleri gerçekleştirirken genellikle küçük bir ağ ücreti gereklidir. NEO tabanlı varlıkların ücretleri GAS kullanılarak ödenir.",
+          "eth-transfer-hint": "Transferler beklemedeyken burada gösterilen bakiye doğru olmayabilir."
         },
         "steps": [
           "Create a transfer",
@@ -3223,124 +3223,124 @@
           "Review and start transfer"
         ],
         "erc-20": {
-          "approving": "Approving",
-          "title": "Approve transfer",
-          "pre-deposit-info": "Before depositing {{symbol}} to the trading contract, you must first approve a transfer from your account.",
-          "current-approval": "Your current approval to the trading contract is: {{currentErc20Approved}}"
+          "approving": "Onaylanıyor",
+          "title": "Transferi onayla",
+          "pre-deposit-info": "Ticaret sözleşmesine {{symbol}} yatırmadan önce, öncelikle hesabınızdan bir transferi onaylamalısınız.",
+          "current-approval": "Ticaret sözleşmesi için mevcut onayınız: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transfer in progress…",
-          "title-initializing": "Transfer initializing…",
-          "desc": "Visit <0>Transfers</0> to track its status.",
-          "warning": "This can take up to one hour.",
-          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
+          "title": "Transfer devam ediyor..",
+          "title-initializing": "Transfer başlatılıyor..",
+          "desc": "Durumunu takip etmek için <0>Transferler</0> sekmesine gidin.",
+          "warning": "Bu bir saat kadar sürebilir.",
+          "remain-opened": "Transferiniz başlarken lütfen Nash'i açık tutun. Nash'i kapatırsanız veya oturumu kapatırsanız, tekrar oturum açana kadar duraklatılacaktır.",
           "buttons": {
-            "finish": "Got it!"
+            "finish": "Anladım!"
           }
         },
         "volume": {
-          "exceeds-deposit-limit": "Exceeds deposit limit",
-          "upgrade-tier-or-wait": "<0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.",
-          "near-deposit-limit": "This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!"
+          "exceeds-deposit-limit": "Para yatırma limitini aşıyor",
+          "upgrade-tier-or-wait": "Daha fazla para yatırmak için <0>Doğrulama seviyenizi yükseltin</0> yada limitinizin altına düşene kadar bekleyin.\n\n Para çekme işlemleri asla engellenmez.",
+          "near-deposit-limit": "Bu transfer, para yatırma limitinizi aşıyor ancak geçecek.Yakında doğrulama seviyenizi yükseltmeniz gerekecek!"
         }
       },
       "nash-channels": {
         "explanation": {
-          "title": "On our Layer-2 network\n you always control your funds",
-          "fast-trade": "Lightning-fast cross-chain trading",
-          "trade-without-fees": "Trade without blockchain fees",
-          "nash-cash": "Buy/sell on Nash Cash at 0% fees"
+          "title": "Katman-2 ağımızda paranızın kontrolü her zaman sizdedir.",
+          "fast-trade": "Yıldırım hızında çapraz zincir ticareti",
+          "trade-without-fees": "Blockchain ücretleri olmadan ticaret yapın",
+          "nash-cash": "Nash Cash'te %0 ücretle al/sat"
         },
         "transfer-funds": {
-          "require-approval": "You need to approve {{currency}} before you can deposit to Nash Channels.",
-          "no-funds": "You don’t have any {{currency}} available to {{mode}}.",
-          "no-funds-nash-cash": "<0>Deposit {{currency}}</0> from an external account or purchase at a 0% fee through Nash Cash."
+          "require-approval": "Nash Kanallarına para yatırmadan önce {{currency}} 'yı onaylamanız gerekir.",
+          "no-funds": "{{Mode}} için herhangi bir {{currency}}iniz yok.",
+          "no-funds-nash-cash": "Nash Cash üzerinden %0 ücret karşılığında satın al yada harici bir hesaptan <0>{{currency}} yatır</0>."
         }
       },
       "nex-swap": {
         "info": {
-          "title": "Convert NEX between the NEO and Ethereum blockchains",
-          "markets": "Gain access to secondary markets on Ethereum, e.g. Uniswap",
-          "staking": "Stake NEP-5 NEX tokens to receive dividends"
+          "title": "NEO ve Ethereum blok zincirleri arasında NEX'i dönüştürün",
+          "markets": "Ethereum'da ikincil pazarlara erişim kazanın, ör. Uniswap",
+          "staking": "Temettü almak için NEP-5 NEX tokenlerini kilitleyin."
         },
-        "tier-verification": "To convert NEX, please complete <0>Tier 1 verification</0>.",
-        "minimum-amount": "Minimum conversion of {{amount}}",
-        "modal-title": "Convert {{from}} to {{to}}",
-        "convert-with-currency": "Convert {{currency}}",
-        "conversion-started": "Conversion started"
+        "tier-verification": "NEX dönüştürmek için lütfen <0>Seviye1 doğrulama</0> tamamlayın.",
+        "minimum-amount": "Minimum dönüştürme miktarı {{amount}}",
+        "modal-title": "{{from}} {{to}} e dönüştür",
+        "convert-with-currency": "{{currency}} dönüştür",
+        "conversion-started": "Dönüşüm başladı"
       },
       "receive-assets": {
-        "wallet-address": "Wallet address",
-        "only-send-to": "Only send {{currency}} to this address!"
+        "wallet-address": "Cüzdan adresi",
+        "only-send-to": "Bu adrese yalnızca {{currency}} gönderin!"
       },
       "transfer-info": {
-        "title": "Funds can be transferred as follows",
-        "notice": "You can only trade on the Nash Exchange once you have sent funds to the trading contract.",
+        "title": "Varlıklar aşağıdaki şekilde transfer edilebilir",
+        "notice": "Sadece Ticaret sözleşmesine para gönderdikten sonra Nash Borsası'nda işlem yapabilirsiniz.",
         "actions": {
-          "action-1": "You <0>can</0> move funds back and forth between your personal account and external accounts.",
-          "action-2": "Likewise, you <0>can</0> move funds back and forth between your personal account and the trading contract.",
-          "action-3": "You <0>cannot</0> move funds between the trading contract and external accounts without going through your personal account. This helps us keep funds used for trading secure: it’s always you depositing and withdrawing."
+          "action-1": "Kişisel hesabınız ile harici hesap arasında varlıklarınızı <0>transfer edebilirsiniz</0>",
+          "action-2": "Aynı şekilde Kişisel hesabınız ile Ticaret hesabınız arasında varlıklarınızı <0>transfer edebilirsiniz</0>.",
+          "action-3": "Kişisel hesabınızdan geçmeden ticaret sözleşmesi ve harici hesaplar arasında <0>transfer edemezsiniz</0>."
         },
-        "continue-button": "OK, continue",
-        "dismiss-link": "Dismiss forever and continue"
+        "continue-button": "TAMAM,devam et.",
+        "dismiss-link": "Tekrar gösterme ve devam et."
       },
       "select-asset": {
-        "search-placeholder": "Search over 3,000 assets…",
-        "title-receive": "Select an asset to receive",
-        "title-send": "Select an asset to send",
-        "show-usd-value": "Show USD value",
-        "available-balance": "Available balance",
+        "search-placeholder": "3.000'den fazla varlık içinde arayın…",
+        "title-receive": "Almak için bir varlık seçin",
+        "title-send": "Göndermek için bir varlık seçin",
+        "show-usd-value": "USD değerini göster",
+        "available-balance": "Kalan bakiye",
         "groups": {
-          "yours": "Your assets",
-          "popular": "Popular assets",
-          "other": "Other assets"
+          "yours": "Valıklarınız",
+          "popular": "Popüler varlıklar",
+          "other": "Diğer varlıklar"
         }
       }
     },
     "transactions": {
-      "title": "Transfers",
-      "show-more-transactions": "Show more transfers",
-      "search-my-transactions": "Search my transfers…",
-      "no-transactions": "You haven’t made any transfers yet.",
+      "title": "Transferler",
+      "show-more-transactions": "Daha fazla transferi göster",
+      "search-my-transactions": "Transferlerimde ara..",
+      "no-transactions": "Henüz herhangi bir transfer yapmadınız!",
       "table": {
         "header": {
-          "title": "All deposits, withdrawals and contract transfers"
+          "title": "Tüm para yatırma,çekme ve sözleşme hesabı transferleri."
         },
         "when": {
-          "title": "When"
+          "title": "Tarih"
         },
         "action": {
-          "title": "Action",
+          "title": "Hareket",
           "status": {
-            "completed": "Complete",
-            "pending": "Pending",
-            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmations"
+            "completed": "Tamamlanan",
+            "pending": "Beklemede",
+            "pending-with-confirmations": "{{confirmations}}/{{denominator}} onaylamalar"
           },
-          "view-transaction": "View transaction",
-          "retry-pending": "Retry sending transaction",
-          "cancel-intent": "Cancel transfer",
-          "clear-intent": "Clear transfer",
-          "unlock-account": "Unlock session",
-          "contact-support": "Please contact support",
-          "received-currency": "Received {{currencySymbol}}",
-          "receiving-currency": "Receiving {{currencySymbol}}",
-          "transferred-currency": "Sent {{currencySymbol}}",
-          "transferring-currency": "Sending {{currencySymbol}}",
-          "initializing-currency": "Initializing {{currencySymbol}} transfer",
-          "waiting-to-witness": "Waiting for {{currencySymbol}} transfer",
-          "locked-initializing": "{{currencySymbol}} transfer needs unlocked session",
-          "failed-permanently": "{{currencySymbol}} transfer failed"
+          "view-transaction": "İşlemi göster",
+          "retry-pending": "Gönderme işlemini tekrar dene",
+          "cancel-intent": "Transferi iptal et",
+          "clear-intent": "Transferi temizle",
+          "unlock-account": "Oturum kilidini aç",
+          "contact-support": "Lütfen desteğe başvurun.",
+          "received-currency": "{{currencySymbol}} alındı",
+          "receiving-currency": "{{currencySymbol}} alınıyor",
+          "transferred-currency": "{{currencySymbol}} gönderildi",
+          "transferring-currency": "{{currencySymbol}} gönderiliyor",
+          "initializing-currency": "{{currencySymbol}} transferi başlatılıyor",
+          "waiting-to-witness": "{{currencySymbol}} transferi bekleniyor",
+          "locked-initializing": "{{currencySymbol}} transferi için oturumun kilidini açmalısınız",
+          "failed-permanently": "{{currencySymbol}} transferi başarısız"
         },
         "destination": {
-          "title": "Destination",
+          "title": "Hedef",
           "nash-account": "Nash",
           "to": {
-            "trading-account": "Trading contract",
-            "personal-account": "Personal account",
-            "nash-fiat-ramp": "Sell to Nash",
-            "staking-account": "NEX staking contract",
-            "nex-swap": "NEX swap contract",
-            "fees": "Fees"
+            "trading-account": "Ticaret sözleşmesi",
+            "personal-account": "Kişisel hesap",
+            "nash-fiat-ramp": "Nash'e sat",
+            "staking-account": "NEX kilit sözleşmesi",
+            "nex-swap": "NEX takas sözleşmesi",
+            "fees": "Ücretler"
           },
           "from": {
             "trading-account": "From the trading contract",
