@@ -3343,425 +3343,425 @@
             "fees": "Ücretler"
           },
           "from": {
-            "trading-account": "From the trading contract",
-            "personal-account": "From my personal account",
-            "nash-fiat-ramp": "Purchase from Nash",
-            "nex-swap": "From NEX swap contract",
-            "external-address": "From <0 />"
+            "trading-account": "Ticaret sözleşmesinden",
+            "personal-account": "Kişisel hesabımdan",
+            "nash-fiat-ramp": "Nash'ten satın al",
+            "nex-swap": "NEX takas sözleşmesinden",
+            "external-address": "<0 /> dan"
           }
         },
         "amount": {
-          "title": "Amount"
+          "title": "Miktar"
         }
       }
     },
     "portfolio": {
-      "title": "Portfolio",
+      "title": "Portföy",
       "header": {
-        "search-placeholder": "Search my assets…",
-        "search-placeholder-transfer-redesign": "Search assets…"
+        "search-placeholder": "Varlıklarımda ara..",
+        "search-placeholder-transfer-redesign": "Varlıkları ara.."
       },
       "table": {
         "header": {
-          "title": "My assets",
-          "title-transfer-redesign": "Assets",
+          "title": "Varlıklarım",
+          "title-transfer-redesign": "Varlıklar",
           "actions": {
-            "hide-small-balances": "Hide small balances"
+            "hide-small-balances": "Küçük bakiyeleri gizle"
           }
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Varlık"
           },
           "total-balance": {
-            "title": "Total",
-            "title-transfer-redesign": "Total/value",
-            "hint": "Total across all accounts, orders and stakes."
+            "title": "Toplam",
+            "title-transfer-redesign": "Toplam/Değer",
+            "hint": "Tüm hesaplar, emirler ve kilitlemeler için toplam."
           },
           "fiat-value": {
-            "title": "Value ({{fiatCurrency}})"
+            "title": "({{fiatCurrency}}) değeri"
           },
           "price": {
-            "title": "Price/24h change"
+            "title": "24S fiyat değişikliği"
           },
           "allocation-percent": {
-            "title": "Allocation",
-            "hint": "The percentage of your portfolio held in each asset."
+            "title": "Ödeme",
+            "hint": "Her bir varlıkta tutulan portföyünüzün yüzdesi."
           },
           "action-buttons": {
-            "trade": "Trade"
+            "trade": "Alım-Satım"
           }
         },
-        "no-results-problem": "Your Nash account is currently empty.",
-        "no-results-solution": "<0>Send/Receive</0> funds to get started."
+        "no-results-problem": "Nash hesabınız şu anda boş",
+        "no-results-solution": "Başlamak için varlık <0>Gönder/Al</0>"
       },
       "balances": {
         "header": {
-          "title": "Portfolio",
-          "hint": "The total value of your assets and 24-hour change."
+          "title": "Portföy",
+          "hint": "Varlıklarınızın toplam değeri ve 24 saatlik değişim."
         },
-        "total": "Total",
+        "total": "Toplam",
         "available": {
-          "title": "Available",
-          "hint": "You are able to move these funds. They are either in your personal account or the trading contract. Funds that are not available are either locked in unfilled orders or NEX stakes, or are currently in the process of being transferred."
+          "title": "Mevcut",
+          "hint": "Bu fonlarınızı taşıyabilirsiniz.Bunlar ya kişisel hesabınızda ya da ticaret sözleşmenizdedir.Kullanılamayan fonlar ya doldurulmamış siparişlerde ya da NEX hisselerinde kilitlenmiştir ya da şu anda transfer sürecindedir."
         },
-        "transfer-funds": "Send/Receive"
+        "transfer-funds": "Gönder/Al"
       },
       "chart": {
         "header": {
-          "title": "Total asset value",
-          "hint": "Track how the value of your portfolio has changed over time."
+          "title": "Toplam varlık değeri",
+          "hint": "Portföyünüzün değerinin zaman içinde nasıl değiştiğini izleyin."
         },
         "period": {
-          "6M": "6M",
-          "1M": "1M",
-          "7D": "1w",
-          "1D": "24h"
+          "6M": "6A",
+          "1M": "1A",
+          "7D": "1h",
+          "1D": "24s"
         },
         "empty": {
-          "heading": "Your portfolio is currently empty",
-          "body": "<0>Send/Receive</0> funds or <1>buy from our partners</1> to get started."
+          "heading": "Portföyünüz şu anda boş",
+          "body": "Başlamak için fon <0>Gönder/Al</0> yada <1>ortaklarımızdan al</1>."
         }
       },
       "total-balance": {
         "header": {
-          "title": "Balances",
-          "hint": "You are in complete control of all these funds."
+          "title": "Bakiyeler",
+          "hint": "Tüm bu fonların tam kontrolü sizdedir."
         },
-        "available-assets": "Available assets",
-        "in-personal": "Personal account",
-        "in-trading": "Trading contract",
-        "in-unfilled-orders": "Unfilled orders",
-        "in-stake": "Staked NEX",
-        "learn-more": "Learn more"
+        "available-assets": "Mevcut varlıklar",
+        "in-personal": "Kişisel hesap",
+        "in-trading": "Ticaret sözleşmesi",
+        "in-unfilled-orders": "Henüz dolmamış emirler",
+        "in-stake": "Kilitlenen NEX",
+        "learn-more": "Daha fazla bilgi"
       }
     }
   },
   "fees": {
-    "title": "Network fee",
-    "title_plural": "Network fees",
+    "title": "Ağ ücreti",
+    "title_plural": "Ağ ücretleri",
     "error": {
-      "general": "Could not load fees."
+      "general": "Ücretler yükelenemedi."
     },
     "options": {
-      "fast": "Fast",
-      "standard": "Standard",
-      "slow": "Slow (safe)"
+      "fast": "Hızlı",
+      "standard": "Normal",
+      "slow": "Yavaş (güvenli)"
     }
   },
   "markets": {
-    "title": "Markets",
-    "all": "All",
-    "faves": "Favorites",
-    "volume-short": "vol.",
+    "title": "Piyasalar",
+    "all": "Tümü",
+    "faves": "Favoriler",
+    "volume-short": "hac.",
     "usd": "USD",
-    "none": "None",
-    "g100": ">{{value}}",
+    "none": "Yok",
+    "g100": ">{{değer}}",
     "columns": {
-      "rank": "Rank",
-      "asset": "Asset",
-      "last-price": "Last price",
-      "change": "Change",
-      "market-cap": "Market cap",
-      "volume": "Volume",
-      "pair": "Pair",
-      "current-buy": "Current buy",
-      "current-sell": "Current sell",
-      "current-spread": "Spread",
-      "1d-change": "24h change",
-      "1d-high": "24h high",
-      "1d-low": "24h low",
-      "1d-volume": "24h volume",
-      "1d-chart": "24h chart",
-      "1w-change": "1w change",
-      "1w-high": "1w high",
-      "1w-low": "1w low",
-      "1w-volume": "1w volume",
-      "1w-chart": "1w chart",
-      "1m-change": "1M change",
-      "1m-high": "1M high",
-      "1m-low": "1M low",
-      "1m-chart": "1M chart",
-      "1m-volume": "1M volume"
+      "rank": "Sıra",
+      "asset": "Varlık",
+      "last-price": "Son fiyat",
+      "change": "Değişim",
+      "market-cap": "Market hacmi",
+      "volume": "Hacim",
+      "pair": "Çift",
+      "current-buy": "Güncel alış",
+      "current-sell": "Güncel satış",
+      "current-spread": "Sapma",
+      "1d-change": "24s değişim",
+      "1d-high": "24s en yüksek",
+      "1d-low": "24s en düşük",
+      "1d-volume": "24s hacim",
+      "1d-chart": "24s grafik",
+      "1w-change": "1h değişim",
+      "1w-high": "1h en yüksek",
+      "1w-low": "1h en düşük",
+      "1w-volume": "1h hacim",
+      "1w-chart": "1h grafik",
+      "1m-change": "1A değişim",
+      "1m-high": "1A en yüksek",
+      "1m-low": "1A en düşük",
+      "1m-chart": "1A grafik",
+      "1m-volume": "1A hacim"
     },
     "buttons": {
-      "trade": "Trade"
+      "trade": "Alım-Satım"
     },
     "trade-frequency": {
-      "1h": "1h",
-      "1m": "1m",
-      "1M": "1M",
-      "1W": "1w",
-      "24h": "24h",
-      "3M": "3M",
-      "6M": "6M"
+      "1h": "1s",
+      "1m": "1d",
+      "1M": "1A",
+      "1W": "1h",
+      "24h": "24s",
+      "3M": "3A",
+      "6M": "6A"
     },
     "search-placeholder": "Search for a market…",
     "individual-assets": {
-      "title": "Individual assets",
-      "header": "Individual assets listed on Nash"
+      "title": "Bireysel varlıklar",
+      "header": "Nash'te listelenen bireysel varlıklar"
     },
     "asset-pairs": {
-      "title": "Asset pairs",
-      "header": "All asset pairs traded on Nash Exchange"
+      "title": "Varlık çiftleri",
+      "header": "Nash Borsasında işlem gören tüm varlık çiftleri"
     },
-    "no-results": "No results for this period.",
+    "no-results": "Bu dönem için sonuç yok.",
     "miscellaneous": {
-      "vol": "vol."
+      "vol": "hac."
     }
   },
   "modals": {
     "transfer-funds": {
-      "what-asset": "Which asset?",
-      "select-asset": "Select an asset",
-      "transfer-from": "From",
-      "to-destination": "To",
-      "send-only-currency": "Send only {{currency}} to this address",
-      "transfer-details": "Transfer details",
-      "you-are-transfering": "You are transferring",
-      "you-are-sending": "You are sending",
-      "enter-2fa-code": "Enter your two-factor authentication code",
-      "transfer-funds": "Send/Receive",
-      "create-transfer": "Create transfer",
-      "review-and-start-transfer": "Review and start transfer",
-      "transfer-has-started": "Your transfer has started",
-      "check-tranfer-info-part1": "You can check the progress of your transfer in the",
-      "check-tranfer-info-link": "Transactions",
-      "check-tranfer-info-part2": "section of ‘Funds’.",
-      "external-address": "External address",
-      "asset-to-transfer": "Asset to transfer",
-      "transfer-funds-to-external": "Send funds to an external address",
-      "send-funds": "Send funds",
-      "withdrawal-details": "Withdrawal details",
-      "to-external-address": "To external address",
-      "request-sent-to-blockchain": "Your transfer request has been sent to the blockchain.",
-      "no-funds": "You don’t have any {{currency}} in your {{account}} to {{movementType}}.",
+      "what-asset": "Hangi varlık?",
+      "select-asset": "Varlık seç",
+      "transfer-from": "dan",
+      "to-destination": "a",
+      "send-only-currency": "Bu adrese yalnızca {{currency}} gönderin",
+      "transfer-details": "Transfer detayları",
+      "you-are-transfering": "Transfer ediyorsunuz",
+      "you-are-sending": "Gönderiyorsunuz",
+      "enter-2fa-code": "İki adımlı doğrulama kodunuzu girin",
+      "transfer-funds": "Gönder/Al",
+      "create-transfer": "Transfer oluştur",
+      "review-and-start-transfer": "Transferi gözden geçir ve başlat",
+      "transfer-has-started": "Trasnferiniz başlatıldı",
+      "check-tranfer-info-part1": "Transferinizin ilerleyişini buradan kontrol edebilirsiniz:",
+      "check-tranfer-info-link": "İşlemler",
+      "check-tranfer-info-part2": ""Fonlar" bölümü.",
+      "external-address": "Harici adres",
+      "asset-to-transfer": "Aktarılacak varlık",
+      "transfer-funds-to-external": "Harici bir adrese fon aktarın",
+      "send-funds": "Fonları gönder",
+      "withdrawal-details": "Çekme detayları",
+      "to-external-address": "Harici adrese",
+      "request-sent-to-blockchain": "Transfer talebiniz blokzincire gönderildi.",
+      "no-funds": "{{movementType}} için {{account}} da hiç {{currency}} yok.",
       "auto-close": {
-        "disclaimer": "This window will automatically close once your transfer has started.",
-        "countdown": "Closing in {{seconds}}…"
+        "disclaimer": "Transferiniz başladığında bu pencere otomatik olarak kapanacaktır.",
+        "countdown": "{{seconds}} içinde kapanacak…"
       }
     },
     "receive-funds": {
-      "asset-to-receive": "Asset to receive",
-      "address-to-receive-currency": "This is your address to receive {{currency}}",
-      "receive-funds-from-external": "Receive funds from an external wallet"
+      "asset-to-receive": "Alınacak varlık..",
+      "address-to-receive-currency": "{{currency}} almak için adresiniz.",
+      "receive-funds-from-external": "Harici bir cüzdandan varlık alın"
     },
     "available-funds": {
-      "available-amount-send": "Available to send",
-      "available-amount-nash-channels-deposit": "Available to deposit",
-      "available-amount-nash-channels-withdraw": "Available to withdraw",
-      "available-amount-convert": "Available to convert",
+      "available-amount-send": "Gönderilebilir",
+      "available-amount-nash-channels-deposit": "Yatırılabilir",
+      "available-amount-nash-channels-withdraw": "Çekilebilir",
+      "available-amount-convert": "Dönüştürülebilir",
       "wallets": {
-        "personal-account": "Personal account",
-        "nash-channels": "Nash Channels",
-        "in-orders": "In orders",
-        "pending": "Pending"
+        "personal-account": "Kişisel hesap",
+        "nash-channels": "Nash Kanalları",
+        "in-orders": "Emirlerde",
+        "pending": "Beklemede"
       }
     },
     "wallet-type": {
-      "personal": "My personal wallet",
-      "trading": "Trading contract",
-      "external": "An external wallet"
+      "personal": "Kişisel cüzdanım",
+      "trading": "Ticaret söleşmesi",
+      "external": "Harici cüzdan"
     },
     "common": {
-      "continue-and-review": "Continue",
-      "finish": "Finish"
+      "continue-and-review": "Devam et",
+      "finish": "Bitir"
     },
     "form-amount": {
-      "amount-to-transfer": "Amount",
-      "recipients-address": "Recipient’s address",
-      "enter-their-wallet": "Enter their wallet address",
-      "check-destination-title": "Check your destination address twice.",
-      "check-destination-description": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "amount-to-transfer": "Miktar",
+      "recipients-address": "Alıcı adresi",
+      "enter-their-wallet": "Cüzdan adresini girin",
+      "check-destination-title": "Alıcı adresinizi iki kez kontrol edin!",
+      "check-destination-description": "Fonlarınızı yanlış adrese göndermek,bu fonları sonsuza kadar kaybedeceğiniz anlamına gelir."
     },
     "form-wallet": {
-      "confirmations": "Confirmations",
-      "confirmations-count": "This token will take {{confirmationsCount}} confirmations to appear in your wallet. You can view the status of your deposit under ‘Funds > Transactions’."
+      "confirmations": "Onaylamalar",
+      "confirmations-count": "Bu tokenin cüzdanınızda görünmesi için {{confirmationsCount}} onay alacaktır.Depozitonuzun durumunu "Fonlar> İşlemler" altında görüntüleyebilirsiniz."
     },
     "send-confirmation-box": {
-      "only-send-one-asset": "Only send {{currency}} to this address.",
-      "only-send-multiple-asset": "Only send {{currenciesWithoutLast}} or {{lastCurrency}} assets to this address.",
-      "you-can-lose-funds": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "only-send-one-asset": "Bu adrese yalnızca {{currency}} gönderin.",
+      "only-send-multiple-asset": "Bu adrese yalnızca {{currenciesWithoutLast}} yada {{lastCurrency}} gönderin.",
+      "you-can-lose-funds": "Fonlarınızı yanlış adrese göndermek, bu fonları sonsuza kadar kaybedeceğiniz anlamına gelir."
     },
     "password": {
-      "title": "Enter credentials",
-      "secret-title": "Unlock your secret keys"
+      "title": "Bilgilerinizi girin",
+      "secret-title": "Gizli anahtarlarınızın kilidini açın"
     },
     "updated-terms": {
-      "title": "Terms and conditions",
+      "title": "Şartlar ve koşullar",
       "terms": {
         "names": {
-          "privacy-notice": "Privacy Notice",
-          "user-agreement": "User Agreement"
+          "privacy-notice": "Gizlilik bildirimi",
+          "user-agreement": "Kullanıcı sözleşmesi"
         },
-        "desc": "Please read and accept our latest {{termsName}}.",
-        "message": "I accept the latest <0>{{termsName}}</0>."
+        "desc": "Lütfen en son yayınlanan {{termsName}} belgemizi okuyup kabul edin.",
+        "message": "<0>{{termsName}}</0> okudum ve kabul ediyorum."
       },
-      "confirm-notice": "If you do not accept the above terms and conditions, you will not be able to continue using Nash services.",
-      "confirm-button": "Confirm",
-      "sign-out-link": "Sign me out",
+      "confirm-notice": "Yukarıdaki hüküm ve koşulları kabul etmezseniz, Nash hizmetlerini kullanmaya devam edemezsiniz.",
+      "confirm-button": "Onayla",
+      "sign-out-link": "Çıkış yap",
       "errors": {
-        "generic-error": "An error has occurred. Please retry."
+        "generic-error": "Bir hata oluştu. Lütfen tekrar deneyiniz."
       }
     },
     "search-contact": {
-      "empty-list": "You don’t have any contacts to select from!",
-      "wallet": "{{count}} wallet",
-      "wallet_plural": "{{count}} wallets"
+      "empty-list": "Seçim yapabileceğiniz kişi henüz yok!",
+      "wallet": "{{count}} cüzdan",
+      "wallet_plural": "{{count}} cüzdanlar"
     }
   },
   "orders": {
     "cards": {
-      "in-progress": "Orders in progress",
-      "24h": "24h",
-      "available": "Available to trade",
-      "reserved": "In orders"
+      "in-progress": "Devam eden emirler",
+      "24h": "24s",
+      "available": "Alım-satım için uygun",
+      "reserved": "Emirlerde"
     }
   },
   "referrals": {
-    "title": "Referral program",
+    "title": "Referans programı",
     "referrals": {
-      "desc": "The more tickets you earn, the higher chance you have of winning.",
-      "affiliates-portal-link": "Go to your Affiliates portal",
+      "desc": "Ne kadar çok bilet kazanırsanız, kazanma şansınız o kadar yüksek olur.",
+      "affiliates-portal-link": "Satış Ortakları portalınıza gidin",
       "cards": {
         "social-share": {
-          "label": "Share your referral code:",
-          "activated-count": "{{count}} activated ticket",
-          "pending-count": "{{count}} pending ticket",
-          "pending-count_plural": "{{count}} pending tickets",
-          "message": "Use my referral code {{url}} to sign up for the @nashsocial giveaway! #TrustYourselves {{ytLink}}"
+          "label": "Referans kodunuzu paylaşın:",
+          "activated-count": "{{count}} aktif bilet",
+          "pending-count": "{{count}} bekleyen bilet",
+          "pending-count_plural": "{{count}} bekleyen biletler",
+          "message": "@Nashsocial ödül sistemine kaydolmak için referans kodumu {{url}} kullanın! #TrustYourselves {{ytLink}}"
         },
         "info": {
-          "title-0": "Invite friends to earn commission sooner!",
-          "subtitle-0": "With more volume, you’ll qualify as a Rising Star and start earning commission.",
-          "title-20": "Invite friends to enjoy higher rewards!",
-          "subtitle-20": "With more volume, you’ll qualify as a VIP and earn higher commission rates.",
-          "title-25": "Invite friends to earn more rewards!",
-          "subtitle-25": "The more friends you have trading, the more 25% rewards you’ll receive.",
-          "watch-video-or-learn-more": "<0>Watch the video</0> or <1>learn more</1>"
+          "title-0": "Arkadaşlarınızı komisyon kazanmaya davet edin!",
+          "subtitle-0": "Daha fazla hacimle Yükselen Yıldız(Rising Star) olmaya hak kazanır ve komisyon kazanmaya başlarsınız.",
+          "title-20": "Arkadaşlarınızı daha yüksek ödüllerin keyfini çıkarmaya davet edin!",
+          "subtitle-20": "Daha fazla hacimle, VIP olmaya hak kazanır ve daha yüksek komisyon oranları kazanırsınız.",
+          "title-25": "Arkadaşlarınızı daha fazla ödül kazanmaya davet edin!",
+          "subtitle-25": "Ne kadar çok arkadaşın alım-satım yaparsa,%25 ödülden o kadar çok kazanırsınız.",
+          "watch-video-or-learn-more": "<0>Videoyu izleyin</0> yada <1>daha fazlasını öğrenin</1>"
         }
       }
     }
   },
   "settings": {
-    "title": "My account",
-    "save-settings": "Save settings",
+    "title": "Hesabım",
+    "save-settings": "Ayarları kaydet",
     "kyc": {
-      "state-label": "State",
-      "rejected": "Tier 1 status denied",
-      "rejected-subtitle": "Unfortunately, you will not be able to proceed any further. If you believe this is a mistake, please contact our <0>support team.</0>",
+      "state-label": "Durum",
+      "rejected": "Seviye1 reddedildi",
+      "rejected-subtitle": "Maalesef daha fazla ilerleyemeyeceksiniz.Bunun hata olduğunu düşünüyorsanız,lütfen<0>desteğe başvurun</0>",
       "details": {
         "missing_signature": {
-          "title": "Missing signature",
-          "content": "Your identity document must display your signature."
+          "title": "Eksik imza",
+          "content": "Kimlik belgeniz imzanızı göstermelidir."
         },
         "digital_copy": {
-          "title": "Original required",
-          "content": "We detected a digital copy of your identity document. Please try again with the original document."
+          "title": "Orjinali gerekir.",
+          "content": "Kimlik belgenizin dijital bir kopyasını tespit ettik. Lütfen orijinal belgeyle tekrar deneyin."
         },
         "ip_address_is_proxy": {
-          "title": "Proxy detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "Proxy algılandı",
+          "content": "Belgelerinizi bir proxy IP adresinden gönderemezsiniz. Lütfen Proxy/VPN hizmetlerini devre dışı bırakın."
         },
         "birthdate_invalid_on_id": {
-          "title": "Invalid date of birth",
-          "content": "The date of birth on your identity document is invalid."
+          "title": "Geçersiz doğum tarihi",
+          "content": "Kimlik belgenizdeki doğum tarihi geçersiz."
         },
         "no_face_present": {
-          "title": "No face detected",
-          "content": "We could not detect your face in the image your provided."
+          "title": "Yüz algılanmadı",
+          "content": "Gönderdiğiniz resimde yüzünüzü tespit edemedik."
         },
         "photocopy_black_white": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Orjinali gerekli",
+          "content": "Kimlik belgenizin bir fotokopisini/kopyasını tespit ettik. Lütfen orijinal belgeyle tekrar deneyin."
         },
         "wrong_document_page": {
-          "title": "Incorrect page",
-          "content": "Your identity document is not displaying the correct page."
+          "title": "Yanlış sayfa",
+          "content": "Kimlik belgeniz doğru sayfayı göstermiyor."
         },
         "different_persons_shown": {
-          "title": "Different people",
-          "content": "Your identity document and selfie show different people."
+          "title": "Farklı kişi",
+          "content": "Kimlik belgeniz ve özçekiminiz farklı insanları gösteriyor."
         },
         "damaged_document": {
-          "title": "Damaged document",
-          "content": "Your identity document is damaged."
+          "title": "Hasarlı belge",
+          "content": "Dökümanınız hasarlı görünüyor."
         },
         "identity_verification_too_many_attempts": {
-          "title": "Too many attempts",
-          "content": "You have submitted too many verification attempts"
+          "title": "Çok fazla deneme..",
+          "content": "Çok fazla doğrulama denemesi yaptınız."
         },
         "unknown_error": {
-          "title": "Something went wrong!",
-          "content": "We have encountered an unexpected error!"
+          "title": "Birşeyler ters gitti!",
+          "content": "Beklenmedik bir hatayla karşılaştık!"
         },
         "no_document": {
-          "title": "Document not found",
-          "content": "We could not find an identity document in the image you provided."
+          "title": "Belge bulunamadı",
+          "content": "Sağladığınız resimde bir kimlik belgesi bulamadık."
         },
         "multiple_people": {
-          "title": "Multiple people detected",
-          "content": "We detected multiple people in the image your provided. You must be the only person in the image."
+          "title": "Birden fazla kişi algılandı",
+          "content": "Sağladığınız resimde birden fazla kişi tespit ettik. Resimdeki tek kişi siz olmalısınız."
         },
         "BLURRED": {
-          "title": "Blurred image",
-          "content": "The image you provided is blurred."
+          "title": "Bulanık görüntü",
+          "content": "Sağladığınız görüntü bulanık"
         },
         "sample_document": {
-          "title": "Original required",
-          "content": "We detected that your identity document is only a sample. Please try again with an original document."
+          "title": "Orjinal gerekli",
+          "content": "Belgenizin sadece bir örnek olduğunu tespit ettik. Lütfen orijinal bir belgeyle tekrar deneyin."
         },
         "photocopy_color": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Orjinal gerekli",
+          "content": "Belgenizin bir fotokopisini tespit ettik.Lütfen orijinal belgeyle tekrar deneyin."
         },
         "liveness_failed": {
-          "title": "Liveness test failed",
-          "content": "We could not determine that a real person is present in the image your provided."
+          "title": "Canlılık testi başarısız oldu",
+          "content": "Sağladığınız resimde gerçek bir kişinin bulunduğunu belirleyemedik."
         },
         "ip_address_is_crawler": {
-          "title": "Crawler detected",
-          "content": "We identified your IP address as a web crawler. Please try again from a different IP."
+          "title": "Tarayıcı algılandı",
+          "content": "IP adresinizi bir web tarayıcısı olarak belirledik. Lütfen farklı bir IP'den tekrar deneyin."
         },
         "missing_part_document": {
-          "title": "Incomplete document",
-          "content": "Part of your identity document is missing."
+          "title": "Eksik belge",
+          "content": "Kimlik belgenizin bir kısmı eksik."
         },
         "ip_address_and_address_mismatch": {
-          "title": "IP mismatch",
-          "content": "Your IP address must match the location you provided."
+          "title": "IP uyumsuzluğu",
+          "content": "IP adresiniz, sağladığınız konumla eşleşmelidir."
         },
         "ip_address_is_tor": {
-          "title": "TOR detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "TOR tespit edildi",
+          "content": "Belgelerinizi bir proxy IP adresinden gönderemezsiniz. Lütfen Proxy/VPN hizmetlerini devre dışı bırakın."
         },
         "bad_quality": {
-          "title": "Poor quality",
-          "content": "The quality of the image you provided is too poor."
+          "title": "Kötü kalite",
+          "content": "Sağladığınız görüntünün kalitesi çok düşük."
         },
         "camera_black_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Siyah ve beyaz",
+          "content": "Kameranız siyah beyaza ayarlanmış görünüyor. Lütfen rengini değiştirin."
         },
         "not_readable_document": {
-          "title": "Document unreadable",
-          "content": "The identity document you provided is unreadable."
+          "title": "Belge okunamıyor",
+          "content": "Sağladığınız kimlik belgesi okunamıyor."
         },
         "black_and_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Siyah ve beyaz",
+          "content": "Kameranız siyah beyaza ayarlanmış görünüyor. Lütfen rengini değiştirin."
         },
         "hidden_part_document": {
-          "title": "Document obscured",
-          "content": "Part of your identity document is hidden."
+          "title": "Belge gizlenmiş",
+          "content": "Sağladığınız belgenin bir kısmı görünmüyor"
         },
         "missing_back": {
-          "title": "Document back required",
-          "content": "You did not provide an image of the back of your document."
+          "title": "Belgenin geri alınması bekleniyor.",
+          "content": "Belgenizin arka yüzünün görüntüsünü sağlamadınız."
         },
         "face_not_fully_visible": {
-          "title": "Face obscured",
-          "content": "Your face is not fully visible in the image you provided."
+          "title": "Belirsiz yüz",
+          "content": "Sağladığınız resimde yüzünüz tam olarak görünmüyor."
         }
       },
       "steps": [
@@ -3769,110 +3769,110 @@
         "Address details",
         "Confirm details"
       ],
-      "invalid-age-error": "You must enter a valid date of birth.",
-      "missing-age-error": "You must enter your date of birth.",
-      "age-restriction-error": "You must be at least eighteen years old.",
-      "name-error": "You must enter a name.",
-      "title": "We need a few details from you",
-      "topnav-back-button": "Back to limits",
-      "country": "Country",
-      "waiting": "Verifying…",
-      "waiting-subtitle": "This can take a few minutes. You may leave this page.",
-      "topnav-title": "Tier 1 verification",
-      "contact-support-label": "<0>Contact support</0> to change",
-      "confirm-button-label": "Confirm your details",
+      "invalid-age-error": "Geçerli bir doğum tarihi girmelisiniz.",
+      "missing-age-error": "Doğum tarihinizi girmelisiniz.",
+      "age-restriction-error": "En az on sekiz yaşında olmalısınız.",
+      "name-error": "Bir isim girmelisiniz.",
+      "title": "Sizinle ilgili birkaç ayrıntıya ihtiyacımız var",
+      "topnav-back-button": "Limitlere geri dön",
+      "country": "Ülke",
+      "waiting": "Doğrulanıyor..",
+      "waiting-subtitle": "Bu birkaç dakika sürebilir. Bu sayfadan ayrılabilirsiniz.",
+      "topnav-title": "Seviye1 doğrulama",
+      "contact-support-label": "Değiştirme için <0>desteğe başvurun</0>",
+      "confirm-button-label": "Bilgilerinizi onaylayın",
       "name-step": {
-        "warning": "The name you enter must match the name on the identity document you provide.",
-        "date-of-birth-label": "Date of birth",
-        "full-name-label": "Full name",
-        "continue-button-label": "Continue and enter address"
+        "warning": "Girdiğiniz ad, sağladığınız kimlik belgesindeki adla eşleşmelidir.",
+        "date-of-birth-label": "Doğum tarihi",
+        "full-name-label": "Tam isim",
+        "continue-button-label": "Devam et ve adresi gir"
       },
       "address-step": {
-        "address-label": "Enter an address",
-        "search-button-label": "Search"
+        "address-label": "Adres gir",
+        "search-button-label": "Ara"
       },
       "manual-address-step": {
-        "line1": "Address line 1",
-        "line2": "Address line 2",
-        "city": "City",
-        "zipCode": "Postcode/ZIP"
+        "line1": "Adres satırı 1",
+        "line2": "Adres satırı 2",
+        "city": "Şehir",
+        "zipCode": "Posta kodu/ZIP"
       },
       "select-address-step": {
-        "title": "Addresses found",
-        "manual-entry-label": "Enter address manually",
-        "select-label": "Select",
-        "no-results-found-title": "We couldn’t find your address",
-        "no-results-found-body": "Please make sure you include your postcode.",
-        "error-title": "We experienced an error",
-        "error-body": "Try again or use the link below.",
-        "go-back-label": "Go back"
+        "title": "Adres bulundu",
+        "manual-entry-label": "Adresi manuel olarak gir",
+        "select-label": "Seç",
+        "no-results-found-title": "Adresinizi bulamadık",
+        "no-results-found-body": "Lütfen posta kodunuzu eklediğinizden emin olun.",
+        "error-title": "Bir hatayla karşılaştık",
+        "error-body": "Tekrar deneyin veya aşağıdaki bağlantıyı kullanın.",
+        "go-back-label": "Geri dön"
       },
       "confirm-details": {
-        "begin-button-label": "These details are correct",
-        "your-details": "Personal details",
-        "address-details": "Address details",
-        "edit-label": "Edit",
-        "submission-error": "We experienced an error while submitting your data."
+        "begin-button-label": "Bu bilgiler doğru",
+        "your-details": "Kişisel bilgiler",
+        "address-details": "Adres bilgileri",
+        "edit-label": "Düzenle",
+        "submission-error": "bilgilerinizi gönderirken bir hatayla karşılaştık."
       }
     },
     "profile": {
-      "title": "Profile",
-      "header": "Profile settings",
-      "desc-1": "You can edit your profile settings below.",
+      "title": "Profil",
+      "header": "Profil ayarları",
+      "desc-1": "Profil ayarlarınızı aşağıda düzenleyebilirsiniz.",
       "desc-2": "",
       "cards": {
         "your-details": {
-          "label": "Personal details",
-          "legal-name": "Legal name",
-          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
-          "update-name": "I want to update my name",
-          "update-country": "I want to update my country of residence",
-          "gender": "Gender",
-          "male": "Male",
-          "female": "Female",
-          "other": "Other",
-          "country-of-residence": "Country of residence"
+          "label": "Kişisel bilgiler",
+          "legal-name": "Yasal isim",
+          "missing-full-name": "Yüksek limitlerle alım-satım için <0>VKimlik doğrula</0>",
+          "update-name": "İsmimi güncellemek istiyorum",
+          "update-country": "İkamet ettiğim ülkeyi güncellemek istiyorum",
+          "gender": "Cinsiyet",
+          "male": "Erkek",
+          "female": "Kadın",
+          "other": "Diğer",
+          "country-of-residence": "İkamet edilen ülke"
         },
         "account-settings": {
-          "label": "Account settings",
-          "email-address": "Email address",
-          "update-email": "Change email address",
-          "password": "Password",
-          "update-password": "Change password",
-          "two-factor": "We recommend you to enable two-factor authentication in <0>Security</0>.",
-          "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
+          "label": "Hesap ayarları",
+          "email-address": "E-posta adresi",
+          "update-email": "E-posta adresi değiştir",
+          "password": "Şifre",
+          "update-password": "Şifre değiştir",
+          "two-factor": "<0>Güvenlik</0> içinden iki adımlı kimlik doğrulamayı etkinleştirmenizi öneririz..",
+          "two-factor-enable": "<0>Güvenlik</0> kısmından iki adımlı kimlik doğrulama devre dışı bırakılabilir."
         }
       },
       "modals": {
         "update-name": {
-          "title": "Update name",
-          "label": "Name",
-          "tier0-summary": "To update your name, please complete <0>Tier 1 verification</0>.",
-          "tier0-details": "When your application for Tier 1 has been approved, we will update your name to the legal name on the documents you provided.",
-          "tier1-summary": "If your legal name has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1-details": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your name to the legal name on the documents you provided."
+          "title": "İsmi güncelle",
+          "label": "İsim",
+          "tier0-summary": "Adınızı güncellemek için lütfen <0>Seviye1 doğrulaması</0> yapın.",
+          "tier0-details": "Seviye1 başvurunuz onaylandığında, adınızı, sağladığınız belgelerdeki yasal adla güncelleyeceğiz.",
+          "tier1-summary": "Yasal adınız değiştiyse ve güncellemek istiyorsanız, lütfen <0>desteğe başvurun</0>.",
+          "tier1-details": "Doğrulama seviyenizi sıfırlayacağız ve yeni belgelerinizi kullanarak doğrulama prosedürünü tekrarlamanızı isteyeceğiz.Başvurunuz onaylandığında, isminizi verdiğiniz belgelerdeki yasal adınız ile güncelleyeceğiz."
         },
         "update-country": {
-          "title": "Update country",
-          "label": "Country",
-          "tier0": "If your country of residence has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your country of residence to the country on the documents you provided."
+          "title": "Ülkeyi güncelle",
+          "label": "Ülke",
+          "tier0": "İkamet ettiğiniz ülke değiştiyse ve ülkenizi güncellemek istiyorsanız, lütfen <0>desteğe başvurun</0>.",
+          "tier1": "Doğrulama seviyenizi sıfırlayacağız ve yeni belgelerinizi kullanarak doğrulama prosedürünü tekrarlamanızı isteyeceğiz.Başvurunuz onaylandığında, sağladığınız belgelerde ikamet ettiğiniz ülkeyi güncelleyeceğiz."
         },
         "update-email": {
-          "success-header": "We’ve sent you an email!",
-          "success-description": "We have sent you a confirmation email to start the address update process. If you don’t see our email, check your junk folder.",
-          "success-back": "Got it!",
-          "title": "Change email",
-          "current-email-label": "Your current email address",
-          "current-email": "Current email address",
-          "new-email-label": "New email address",
-          "new-email-placeholder": "Enter your new email address",
-          "twofa-label": "Two-factor authentication",
-          "twofa-label-placeholder": "Enter your two-factor authentication (2FA) code",
-          "request-email-change-button-label": "Request address change"
+          "success-header": "Size bir mail gönderdik!",
+          "success-description": "Adres güncelleme sürecini başlatmak için size bir onay e-postası gönderdik.E-postamızı görmüyorsanız, önemsiz klasörünüzü kontrol edin.",
+          "success-back": "Anladım!",
+          "title": "E-postayı değiştir",
+          "current-email-label": "Mevcut e-posta adresiniz",
+          "current-email": "Mevcut e-posta adresi",
+          "new-email-label": "Yeni e-posta adresi",
+          "new-email-placeholder": "yeni e-posta adresinizi girin",
+          "twofa-label": "İki adımlı doğrulama",
+          "twofa-label-placeholder": "İki adımlı doğrulama (2FA) kodunuzu girin",
+          "request-email-change-button-label": "Adres değişikliği talep edin"
         },
         "update-password": {
-          "title": "Change password",
+          "title": "Şifre değiştir",
           "fields": {
             "password": {
               "label": "Current password",
