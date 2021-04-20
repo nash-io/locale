@@ -3209,18 +3209,18 @@
           "eth-transfer-hint": "Transferler beklemedeyken burada gösterilen bakiye doğru olmayabilir."
         },
         "steps": [
-          "Create a transfer",
-          "Review and start transfer"
+          "Transfer oluştur",
+          "Gözden geçir ve transferi başlat"
         ],
         "maybe-approval-steps": [
-          "Create a transfer",
-          "Approval (if necessary)",
-          "Review and start transfer"
+          "Transfer oluştur",
+          "Onay (gerekirse)",
+          "Gözden geçir ve transferi başlat"
         ],
         "approval-steps": [
-          "Create a transfer",
-          "Approval",
-          "Review and start transfer"
+          "Transfer oluştur",
+          "Onay",
+          "Gözden geçir ve transferi başlat"
         ],
         "erc-20": {
           "approving": "Onaylanıyor",
@@ -3875,162 +3875,162 @@
           "title": "Şifre değiştir",
           "fields": {
             "password": {
-              "label": "Current password",
-              "placeholder": "Enter your password"
+              "label": "Mevcut şifre",
+              "placeholder": "Şifrenizi girin"
             },
             "code": {
-              "label": "Two-factor authentication",
-              "placeholder": "Enter your two-factor authentication code"
+              "label": "İki adımlı doğrulama kodu",
+              "placeholder": "İki adımlı doğrulama kodunuzu girin"
             },
             "new-password": {
-              "label": "New password",
-              "placeholder": "Enter a new password",
+              "label": "Yeni şifre",
+              "placeholder": "Yeni bir şifre girin",
               "errors": {
-                "password-too-weak": "The password you chose is too weak."
+                "password-too-weak": "Seçtiğiniz şifre çok zayıf"
               }
             },
             "new-password-confirm": {
-              "label": "Confirm new password",
-              "placeholder": "Confirm new password",
+              "label": "Yeni şifreyi onayla",
+              "placeholder": "Yeni şifreyi onayla",
               "errors": {
-                "passwords-do-not-match": "Passwords do not match."
+                "passwords-do-not-match": "Şifreler eşleşmiyor."
               }
             }
           },
-          "success": "Your password has been changed successfully.",
+          "success": "Şifreniz başarıyla değiştirildi.",
           "errors": {
-            "password-must-change": "Your new password should be different from your old password.",
-            "password-already-used": "You used this password already. Please pick another one.",
-            "missing-key": "Missing signature keys. Please refresh this page and try again."
+            "password-must-change": "Yeni şifreniz bir önceki şifrenizden farklı olmalı.",
+            "password-already-used": "Bu şifreyi daha önce kullandınız.Lütfen yenisini belirleyin.",
+            "missing-key": "Eksik imza hatası.Lütfen bu sayfayı yenileyerek tekrar deneyin."
           }
         }
       }
     },
     "preferences": {
       "general": {
-        "header": "General settings",
-        "l-decimal-type": "Decimal type",
-        "l-currency": "Currency",
-        "b-save-changes": "Save changes"
+        "header": "Genel ayarlar",
+        "l-decimal-type": "Ondalık tip",
+        "l-currency": "Birim",
+        "b-save-changes": "Değişiklikleri kaydet"
       },
       "notifications": {
-        "header": "Notify me when",
-        "h-web": "Web notifications",
-        "h-email": "Email",
-        "b-enable-all": "Enable all",
-        "b-disable-all": "Disable all",
-        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
-        "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available",
-        "nash-channels-limit": "I exceed my Nash Channels deposit limit"
+        "header": "Bana haber ver",
+        "h-web": "Web bildirimleri",
+        "h-email": "E-posta",
+        "b-enable-all": "Tümünü etkinleştir",
+        "b-disable-all": "Tümünü etkisiz hale getir",
+        "fiat-ramp-quote-state-change": "Yeni bir Nash Cash döviz kurunu onaylamam gerektiğinde",
+        "funds-trading-to-personal": "Alım-satım sözleşmesine fon yatırdığımda",
+        "staking-stake-complete": "NEX kilitlemelerimden birinin süresi dolduğunda",
+        "staking-weekly-summary": "Temettülerimin haftalık bir özeti mevcut olduğunda",
+        "nash-channels-limit": "Nash kanallarına fon yatırma limiti aştığımda"
       }
     },
     "security": {
-      "title": "Security",
-      "header": "Account security",
-      "desc": "Enable two-factor authentication here.",
+      "title": "Güvenlik",
+      "header": "Hesap güvenliği",
+      "desc": "İki adımlı doğrulamayı etkinleşti.",
       "cards": {
         "2fa": {
-          "label": "Two-factor authentication",
-          "header": "Two-factor authentication is:",
-          "desc": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "enabled": "Enabled",
-          "disabled": "Disabled",
-          "enable": "Enable",
-          "disable": "Disable (not recommended)"
+          "label": "İki adımlı doğrulama",
+          "header": "İki adımlı doğrulama:",
+          "desc": "İki adımlı kimlik doğrulamayı (2FA) etkin tutmanızı tavsiye ederiz.Hesabınıza ekstra bir güvenlik katmanı ekler.",
+          "enabled": "Etkinleştirildi",
+          "disabled": "Devre dışı bırakıldı",
+          "enable": "Etkinleştir",
+          "disable": "Devre dışı bırak (önerilmez!)"
         },
         "auto-logout": {
-          "label": "Automatic sign out",
-          "desc": "Don’t sign me out automatically"
+          "label": "Otomatik oturum kapatma",
+          "desc": "Otomatik olarak çıkış yapma!"
         },
         "all-account-activity": {
-          "label": "All account activity",
+          "label": "Tüm hesap hareketleri",
           "tabs": {
-            "sessions": "Sessions",
-            "allowed-devices": "Allowed devices",
-            "history": "History"
+            "sessions": "Oturumlar",
+            "allowed-devices": "İzin verilen cihazlar",
+            "history": "Geçmiş"
           },
           "columns": {
-            "when": "When",
-            "location": "Location",
-            "ip-address": "IP address",
-            "browser-used": "Browser used",
-            "device": "Device",
-            "action": "Action"
+            "when": "Zaman",
+            "location": "Yer",
+            "ip-address": "IP adresi",
+            "browser-used": "Kullanılan tarayıcı",
+            "device": "Cihaz",
+            "action": "Hareket"
           },
           "devices": {
-            "browser": "Browser",
-            "phone": "Phone",
+            "browser": "Tarayıcı",
+            "phone": "Telefon",
             "tablet": "Tablet"
           },
           "actions": {
-            "signed-out": "Signed out",
-            "signed-in": "Signed in",
-            "failed": "Failed sign-in attempt",
-            "2fa": "2FA confirmed",
-            "failed-2fa": "2FA failed"
+            "signed-out": "Oturum kapatıldı",
+            "signed-in": "Oturum açıldı",
+            "failed": "Başarısız oturum açma girişimi",
+            "2fa": "2FA onaylandı",
+            "failed-2fa": "2FA hatası"
           },
-          "sign-out": "Sign out",
-          "sign-out-all-devices": "Sign out all devices"
+          "sign-out": "Oturumu kapat",
+          "sign-out-all-devices": "Tüm cihazlardaki oturumu kapat"
         }
       },
       "modals": {
         "enable-2fa": {
           "1": {
-            "header": "Download and install an authenticator app",
-            "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+            "header": "Doğrulama uygulaması indir ve kaydol",
+            "desc": "<0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2> herhangi birini öneriyoruz."
           },
           "2": {
-            "header": "Scan this QR code with your chosen authenticator app",
-            "desc": "Alternatively, you can add it manually.",
-            "manual-2fa": "Manual 2FA entry key"
+            "header": "Doğrulama uygulamanızla bu QR kodunu okutun.",
+            "desc": "Alternatif olarak, manuel olarak da ekleyebilirsiniz.",
+            "manual-2fa": "Manuel 2FA giriş anahtarı"
           },
           "3": {
-            "header": "Enter the code generated by your authenticator app",
-            "input-placeholder": "Authentication code"
+            "header": "Uygulamanız tarafından oluşturulan doğrulama kodunu girin",
+            "input-placeholder": "Doğrulama kodu"
           },
-          "enable": "Enable",
-          "title": "Set up two-factor authentication"
+          "enable": "Etkin",
+          "title": "İki adımlı doğrulama kur"
         },
         "disable-2fa": {
-          "title": "Disable two-factor authentication",
-          "warning": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "disable": "Disable"
+          "title": "İki adımlı doğrulamayı devre dışı bırak",
+          "warning": "İki adımlı kimlik doğrulamayı (2FA) etkin tutmanızı tavsiye ederiz. Hesabınıza ekstra bir güvenlik katmanı ekler.",
+          "disable": "Devre dışı bırak"
         },
         "success": {
-          "header": "Success!",
-          "enabled": "Two-factor authentication has been enabled.",
-          "disabled": "Two-factor authentication has been disabled.",
-          "back": "Got it!"
+          "header": "Başarılı!",
+          "enabled": "İki adımlı doğrulama etkinleştirildi.",
+          "disabled": "İki adımlı doğrulama devre dışı bırakıldı.",
+          "back": "Anladım!"
         }
       }
     },
     "accounts": {
-      "title": "Accounts",
-      "header": "My account information",
-      "wallets-header": "Accounts generated from my twelve secret words",
-      "show-all-private-keys-button-label": "Show all private keys",
-      "hide-all-private-keys-button-label": "Hide all private keys",
-      "desc": "Nash is non-custodial. We do not have access to your private keys.",
-      "search-assets-placeholder": "Search for a asset name or ticker…",
-      "public-address-label": "Public address",
-      "info-title": "Some blockchains support multiple assets",
-      "info-body": "ERC-20 and NEP-5 assets are tokens issued on the Ethereum and NEO blockchains, respectively. GAS is also an asset stored on the NEO blockchain. You only need one Ethereum account to store both ETH and ERC-20 tokens, and one NEO account to store NEO, GAS and NEP-5 tokens.",
-      "public-address-sub-label": "Which assets can I send here?",
-      "public-address-tooltip": "This is the blockchain address where your assets are stored.",
-      "private-key-label": "Private key",
-      "private-key-sub-label-show": "Show private key",
-      "private-key-sub-label-hide": "Hide private key",
-      "private-key-tooltip": "This can be used to access your funds outside Nash. Keep it secret.",
-      "unknown-blockchain": "Unknown blockchain",
+      "title": "Hesaplar",
+      "header": "Hesap bilgilerim",
+      "wallets-header": "On iki gizli kelimeden oluşturulan hesaplar",
+      "show-all-private-keys-button-label": "Tüm gizli anahtarları göster",
+      "hide-all-private-keys-button-label": "Tüm gizli anahtarları gizle",
+      "desc": "Nash velayetsizdir. Özel anahtarlarınıza erişimimiz yok.",
+      "search-assets-placeholder": "Bir varlık adı veya sembol ara..",
+      "public-address-label": "Açık adres",
+      "info-title": "Bazı blokzincirleri birden çok varlığı destekler",
+      "info-body": "ERC-20 ve NEP-5 varlıkları, sırasıyla Ethereum ve NEO blok zincirlerinde verilen tokenlerdir.GAS ayrıca NEO blok zincirinde depolanan bir varlıktır. Hem ETH hem de ERC-20 jetonlarını depolamak için yalnızca bir Ethereum hesabına ve NEO, GAS ve NEP-5 jetonlarını depolamak için bir NEO hesabına ihtiyacınız var.",
+      "public-address-sub-label": "Buraya hangi varlıkları gönderebilirim?",
+      "public-address-tooltip": "Bu, varlıklarınızın depolandığı blok zinciri adresidir.",
+      "private-key-label": "Gizli anahtar",
+      "private-key-sub-label-show": "Gizli anahtarı göster",
+      "private-key-sub-label-hide": "Gizli anahtarı gizle",
+      "private-key-tooltip": "Bu Nash haricinde fonlarınıza erişimi sağlar. Lütfen gizli tutun.",
+      "unknown-blockchain": "Bilinmeyen blokzinciri",
       "wallets": {
         "eth": {
-          "link-label": "Includes ERC-20 tokens",
+          "link-label": "ERC-20 tokenlerini içerir",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Includes GAS and NEP-5 tokens",
+          "link-label": "GAS ve NEP-5 tokenlerini içerir",
           "name": "NEO"
         },
         "btc": {
@@ -4039,77 +4039,77 @@
       },
       "cards": {
         "secret-words": {
-          "label": "My twelve secret words",
-          "account": "Nash account",
-          "desc": "Twelve secret words",
-          "unlock": "Unlock and show twelve secret words",
-          "lock": "Hide and lock twelve secret words"
+          "label": "On-iki gizli kelimem",
+          "account": "Nash hesabı",
+          "desc": "On iki gizli kelime",
+          "unlock": "Kilidi aç ve on iki kelimeleri göster",
+          "lock": "Kapat ve on iki kelimeyi gizle"
         },
         "wallets": {
-          "label": "Accounts generated from my twelve secret words",
-          "private-key": "Private key",
-          "public-address": "Public address",
-          "unlock": "Unlock and show private key",
-          "lock": "Hide and lock private key"
+          "label": "On iki gizli kelimemden oluşturulan hesaplar",
+          "private-key": "Gizli anahtar",
+          "public-address": "Açık adres",
+          "unlock": "Kilidi aç ve gizli anahtarı göster",
+          "lock": "Kapat ve gizli anahtarı gizle"
         }
       },
       "modals": {
         "unlock-secret-words": {
-          "title": "Unlock my twelve secret words",
-          "submit": "Unlock twelve secret words",
-          "error": "Error: Failed to decrypt secret words."
+          "title": "On-iki gizli kelimenin kilidini aç",
+          "submit": "On-iki gizli kelimenin kilidini kaldır",
+          "error": "Hata: Gizli kelimelerin şifresi çözülemedi."
         }
       }
     },
     "my-limits": {
-      "header": "Limits",
-      "desc": "Nash never blocks withdrawals, but they count towards your Nash Channels deposit limit. <0>Learn more</0> about limits.",
-      "24h-volume": "24h trading volume",
-      "30d-volume": "30d trading volume",
-      "1y-volume": "1y trading volume",
-      "view-fee-tiers": "View fee tiers",
-      "your-taker-fee": "Your taker fee",
-      "unavailable-with-tier-0": "Unavailable at Tier 0.",
-      "limit-yearly-buys": "<0 />/yearly buys",
-      "limit-yearly-sales": "<0 />/yearly sales",
+      "header": "Limitler",
+      "desc": "Nash fon çekme işlemlerini asla engellemez ancak bunlar Nash Kanalları fon yatırma limitinize dahil edilir.Limitler hakkında <0>daha fazlasını öğrenin</0>",
+      "24h-volume": "24s alım-satım hacmi",
+      "30d-volume": "30g alım-satım hacmi",
+      "1y-volume": "1y alım-satım hacmi",
+      "view-fee-tiers": "Ücret seviyelerini görüntüle",
+      "your-taker-fee": "Piyasa alıcı ücretiniz",
+      "unavailable-with-tier-0": "Seviye0 da mümkün değil",
+      "limit-yearly-buys": "<0 />/yıllık alımlar",
+      "limit-yearly-sales": "<0 />/yıllık satışlar",
       "cards": {
         "tiers": {
-          "header": "Tier {{tier}}",
-          "personal": "Personal",
-          "institutional": "Institutional"
+          "header": "Seviye {{tier}}",
+          "personal": "Kişisel",
+          "institutional": "Kurumsal"
         },
         "periods": {
-          "day": "day",
-          "month": "month",
-          "year": "year"
+          "day": "gün",
+          "month": "ay",
+          "year": "yıl"
         },
         "limits": {
-          "header": "Maximum daily trading volume",
-          "unlimited": "Unlimited",
-          "verified": "Verified",
-          "in-review": "In review",
-          "rejected": "Rejected",
-          "try-again": "Try again",
-          "contact-us": "Contact support",
-          "unavailable": "Unavailable in your region"
+          "header": "Maksimum günlük işlem hacmi",
+          "unlimited": "Limitsiz",
+          "verified": "Doğrulandı",
+          "in-review": "İncelemede",
+          "rejected": "Reddedildi",
+          "try-again": "Tekrar dene",
+          "contact-us": "Desteğe başvurun",
+          "unavailable": "Konumunuzda mümkün değil"
         },
         "tier-1": {
-          "get-started-button": "Get started",
-          "continue-verification-button": "Continue verification",
+          "get-started-button": "Başla",
+          "continue-verification-button": "Doğrulamaya devam et",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "Doğrulamayı nasıl yapmak istersiniz?",
             "mobile": {
               "download": {
-                "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "header": "Mobil uygulamamızı kullanarak Seviye1 doğrulaması yapabilirsiniz.",
+                "downloaded-app": "Mobil uygulamayı indirdim."
               },
               "scan-code": {
-                "header": "Scan the following QR code with the Nash app:",
-                "desc": "When you have completed Tier 1 verification, your result will appear here within one minute."
+                "header": "Nash uygulamasıyla aşağıdaki QR kodunu tarayın:",
+                "desc": "Seviye1 doğrulamasını tamamladığınızda, sonucunuz bir dakika içinde burada görünecektir."
               }
             },
-            "use-web-platform": "I’ll use the Nash web platform",
-            "do-it-later": "I’ll do this later"
+            "use-web-platform": "Nash web platformunu kullanacağım",
+            "do-it-later": "Bunu daha sonra yapacağım"
           }
         }
       }
@@ -4117,71 +4117,71 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total NEX tokens staked",
-      "s-stakes-in-progress": "Stakes in progress",
-      "s-total-dividends": "Total dividends (all time)",
-      "s-next-payment": "Next dividend payment on",
-      "s-completed-stakes": "Completed stakes"
+      "s-current-stakes": "Kilitlenen toplam NEX tokenleri",
+      "s-stakes-in-progress": "Devam eden kilitlemeler",
+      "s-total-dividends": "Toplam temettüler (tüm zamanlar)",
+      "s-next-payment": "Bir sonraki temettü ödemesi",
+      "s-completed-stakes": "Tamamlanan kilitlemeler"
     },
     "stakes": {
-      "amount-staked-col": "Amount staked",
-      "duration-col": "Duration",
-      "fee-reward-col": "Staking rate",
-      "dates-active-col": "Dates active",
-      "next-payment-col": "Next payment",
-      "aggregate-dividends-col": "Aggregate dividends value",
+      "amount-staked-col": "Kilitlenen miktar",
+      "duration-col": "Süre",
+      "fee-reward-col": "Kilit oranı",
+      "dates-active-col": "Giriş tarihi",
+      "next-payment-col": "Gelecek ödeme zamanı",
+      "aggregate-dividends-col": "Toplam temettü değeri",
       "row-item": {
-        "duration-month": "<0>{{count}}</0> month",
-        "duration-month_plural": "<0>{{count}}</0> months",
+        "duration-month": "<0>{{count}}</0> ay",
+        "duration-month_plural": "<0>{{count}}</0> ay",
         "redeem-button": {
-          "label": "Release NEX",
-          "submitting": "Releasing…",
-          "error": "Failed! Please try again.",
-          "success": "Success. Releasing NEX…",
-          "released": "NEX released"
+          "label": "NEX serbest bırak",
+          "submitting": "Serbest bırakılıyor..",
+          "error": "Hata oluştu!Lütfen tekrar deneyin!",
+          "success": "Başarılı.NEX serbest bırakılıyor..",
+          "released": "NEX serbest bırakıldı."
         }
       }
     },
     "staking": {
-      "title": "Staking",
-      "tabs-info-button": "Learn about staking"
+      "title": "Kilitleme",
+      "tabs-info-button": "Kilitleme hakkında daha fazlası"
     },
     "statements": {
-      "view-statement-button": "View statement",
-      "summary-title": "All statements",
-      "export-summary": "Export stakes as CSV",
-      "export": "Export statement",
-      "export-detailed": "Export detailed statement",
-      "date-col": "Payment date",
-      "asset-received-col": "Asset received",
-      "assets-received-col": "Assets received",
-      "dividends-col": "Dividends received",
-      "usdDividend-col": "USD value",
-      "usdAggregate-col": "USD aggregate",
-      "active-stakes-col": "Active stakes",
-      "and-more": "and {{count}} more",
-      "amount-at-reward": "<0 /> at {{returnRate}} fee reward",
-      "stakes-in-progress": "In progress ({{date}})",
-      "stakes-complete": "Completed ({{date}})",
-      "total-dividends": "Total dividends ({{date}})",
-      "paid-dividend-days": "Days paid ({{date}})",
-      "all-statements": "All statements",
-      "till-ended_plural": "{{count}} days left",
-      "till-ended": "{{count}} day left",
-      "till-ended_today": "Ending today",
-      "from-active-stakes": "From <0>{{count}}</0> active stake",
-      "from-active-stakes_plural": "From <0>{{count}}</0> active stakes",
-      "period-description": "During this period",
-      "dividends-received": "In dividends received",
-      "is-ended": "Ended",
-      "no-statements": "You don’t have any dividend statements yet."
+      "view-statement-button": "Durumu görüntüle",
+      "summary-title": "Tüm durumlar",
+      "export-summary": "CSV formatında dışa aktar",
+      "export": "Durumu dışarı aktar",
+      "export-detailed": "Durum detaylarını dışarı aktar",
+      "date-col": "Ödeme tarihi",
+      "asset-received-col": "Alınan varlık",
+      "assets-received-col": "Alınan varlıklar",
+      "dividends-col": "Alınan temettüler",
+      "usdDividend-col": "USD değeri",
+      "usdAggregate-col": "Toplam USD değeri",
+      "active-stakes-col": "Aktif kilitlemeler",
+      "and-more": "{{count}} daha fazlası",
+      "amount-at-reward": "<0 /> at {{returnRate}} ödül tutarı",
+      "stakes-in-progress": "Devam eden ({{date}})",
+      "stakes-complete": "Tamamlanan ({{date}})",
+      "total-dividends": "Toplam temettüler ({{date}})",
+      "paid-dividend-days": "Ödenen günler ({{date}})",
+      "all-statements": "Tüm durumlar",
+      "till-ended_plural": "Kalan gün {{count}}",
+      "till-ended": "Kalan gün {{count}}",
+      "till-ended_today": "Bugün biten",
+      "from-active-stakes": "<0>{{count}}</0> aktif kilitlemeden",
+      "from-active-stakes_plural": "<0>{{count}}</0> aktif kilitlemeden",
+      "period-description": "Bu süreçte",
+      "dividends-received": "Alınan temettüler",
+      "is-ended": "Bitenler",
+      "no-statements": "Henüz temettü geliriniz yok."
     },
     "modals": {
       "staking-info": {
-        "title": "Staking Nash Exchange tokens (NEX)",
+        "title": "Nash Borsa tokenlerini (NEX) kiliteme",
         "header": {
-          "title": "What is NEX staking?",
-          "desc": "Staking Nash Exchange tokens (NEX) is a way to earn passive income. You receive a portion of the exchange’s trading fees every day that your stake is active."
+          "title": "NEX kilitleme nedir?",
+          "desc": "Pasif gelir elde etmenin bir yolu Nash Borsa tokeni (NEX) kilitlemektir.Kilitlemenizin aktif olduğu her gün borsanın işlem ücretlerinin bir kısmını alırsınız."
         },
         "paragraphs": {
           "par-1": {
