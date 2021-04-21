@@ -1,8 +1,8 @@
 {
   "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
-  "buy": "al",
-  "sell": "sat",
-  "cancel": "Cancel",
+  "buy": "Al",
+  "sell": "Sat",
+  "cancel": "İptal et",
   "continue": "Devam et",
   "ok": "Tamam",
   "back": "Geri",
@@ -13,8 +13,8 @@
   "or": "veya",
   "price": "Fiyat",
   "fee": "Ücret",
-  "fee-as-suffix": "fee",
-  "admin-link": "Quote on Admin",
+  "fee-as-suffix": "ücret",
+  "admin-link": "Yöneticiden",
   "try-again": "Tekrar dene",
   "refresh": "Yenile",
   "finish": "Bitir",
@@ -27,11 +27,11 @@
   "market-price": "Market fiyatı",
   "exchange": "Borsa",
   "receive": "Teslim al",
-  "send": "Send",
-  "convert": "Convert",
-  "review": "Review",
+  "send": "Gönder",
+  "convert": "Dönüştür",
+  "review": "Gözden geçir",
   "wallet": "Hesap",
-  "upload": "yükle",
+  "upload": "Yükle",
   "processing": "işleniyor…",
   "over-file-limit": "Dosya boyutu aşılmamallıdır {{maxAllowedSize}}{{unit}}.",
   "opens-new-tab": "Yeni sekmede aç",
@@ -41,36 +41,36 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
-  "dismiss": "Dismiss",
-  "dismiss-forever": "Dismiss forever",
-  "remind-me-later": "Remind me later",
-  "got-it": "Got it!",
-  "deposit": "Deposit",
-  "review-deposit": "Review deposit",
-  "withdraw": "Withdraw",
-  "review-withdraw": "Review withdraw",
-  "no-limit": "No limit",
-  "learn-more": "Learn more",
-  "approve-currency": "Approve {{currency}}",
-  "approve-currency-once": "You will need to approve transfers of this asset once.",
-  "approve-currency-everytime": "You will need to approve transfers of this asset every time.",
-  "approve-currency-loading": "This can take up to 1 minute",
-  "verified": "Verified",
+  "dismiss": "Görmezden gel",
+  "dismiss-forever": "Sonsuza dek görmezden gel",
+  "remind-me-later": "Daha sonra hatırlat",
+  "got-it": "Anladım!",
+  "deposit": "Yatır",
+  "review-deposit": "Yatırmayı gözden geçir",
+  "withdraw": "Çek",
+  "review-withdraw": "Çekmeyi gözden geçir",
+  "no-limit": "Limitsiz",
+  "learn-more": "Daha fazlası,",
+  "approve-currency": "{{currency}} onayla",
+  "approve-currency-once": "Bu varlığın transferlerini bir kez onaylamanız gerekecek.",
+  "approve-currency-everytime": "Bu varlığın transferlerini her seferinde onaylamanız gerekecek.",
+  "approve-currency-loading": "Bu işlem 1 dakika kadar sürebilir.",
+  "verified": "Doğrulandı",
   "nash-cash": "Nash Cash",
-  "nex-staking": "NEX staking",
-  "available": "Available",
-  "view": "View",
-  "terms-and-conditions": "Terms and conditions",
-  "sign-in": "Sign in",
-  "read-more": "Read more",
-  "coming-soon": "Coming soon",
+  "nex-staking": "NEX kilitleme",
+  "available": "Mevcut",
+  "view": "Göster",
+  "terms-and-conditions": "Şartlar ve koşullar",
+  "sign-in": "Giriş yap",
+  "read-more": "Devamını oku",
+  "coming-soon": "Çok yakında",
   "million": "Million",
   "million/short": "M",
-  "volume": "Volume",
-  "volume/lowercase": "volume",
+  "volume": "Hacim",
+  "volume/lowercase": "hacim",
   "apikeys": {
     "no-addresses-whitelisted": "Hiç beyaz adres listesi yüklemediniz.",
-    "address-input-placeholder": "Beyaz listeye BTC,NEO veya ETH adresi ekleyiniz",
+    "address-input-placeholder": "Beyaz listeye BTC, NEO veya ETH adresi ekleyiniz",
     "add-whitelisted": "Beyaz listeye eklenen adresler",
     "duplicate-address-in-form": "Bu adres beyaz listeye eklenmiş.",
     "add-address": "Adres ekle",
@@ -184,7 +184,7 @@
   },
   "fee-information-modal": {
     "title": "Ücret yapısı",
-    "desc": "Nash kullanıcının 30 günlük ortalama hacmini,hesabından yapılan işlemlerin toplam işlemlere oranlayarak belirler.",
+    "desc": "Nash kullanıcının 30 günlük ortalama hacmini, hesabından yapılan işlemlerin toplam işlemlere oranlayarak belirler.",
     "30-day-volume": "30 günlük hacim",
     "taker-fee": "Piyasa alıcı ücreti",
     "maker-fee": "Piyasa yapıcı ücreti",
@@ -205,7 +205,7 @@
       },
       "fok": {
         "header": "Hepsini karşıla yada iptal et",
-        "desc": "Siparişinizin tamamı hemen gerçekleşebilirse,gerçekleşecek.Eğer tamamı gerçekleşmeyecekse iptal olacaktır."
+        "desc": "Siparişinizin tamamı hemen gerçekleşebilirse, gerçekleşecek. Eğer tamamı gerçekleşmeyecekse iptal olacaktır."
       },
       "ioc": {
         "header": "Anında ve kalanı iptal et",
@@ -246,7 +246,7 @@
         "unlock-required": "Paused",
         "locked-tooltip": "You still have a transfer initializing. Transfers can not initialize while your account is locked. Unlock to continue.",
         "initialized": "Gerçekleşen transferler",
-        "tooltip": "Transfer işleminiz devam ediyor. Eğer Nash’i kapatır veya çıkış yaparsanız,tekrar giriş yapana kadar bekletilecektir",
+        "tooltip": "Transfer işleminiz devam ediyor. Eğer Nash’i kapatır veya çıkış yaparsanız, tekrar giriş yapana kadar bekletilecektir",
         "do-unlock": "Unlock"
       },
       "general-menu": {
@@ -343,7 +343,7 @@
     "invalid-address-title": "Invalid address on your profile",
     "invalid-address": "Please <0>contact support</0> to update your address with us.",
     "location-banned-title": "Erişim engellendi",
-    "location-banned": "Maalesef,Nash şu anda bulunduğunuz alanda hizmet vermiyor.",
+    "location-banned": "Maalesef, Nash şu anda bulunduğunuz alanda hizmet vermiyor.",
     "invalid-clock-title": "Bilgisayarınızın saati doğru değil.",
     "permissions-issue-title": "İzin problemi",
     "invalid-clock": "Nash’te ticaret yapabilmek için saatiniz doğru olmalı <0>saatinizi güncelleyin</0> ve <1>tekrar deneyin</1>.",
@@ -427,14 +427,14 @@
       "tier-0": {
         "location-mismatch": {
           "title": "IP adresiniz seçtiğiniz bölge ile eşleşmedi.",
-          "message": "Doğrulama seviyesi 0 olan kullanıcılar,ikamet ettikleri ülkeden bağlanmadıkça Nash’in hizmetlerinden faydalanamazlar. Gözden geçirin <0>doğrulama seviyesini 1’e yükseltmek için</0>."
+          "message": "Doğrulama seviyesi 0 olan kullanıcılar, ikamet ettikleri ülkeden bağlanmadıkça Nash’in hizmetlerinden faydalanamazlar. Gözden geçirin <0>doğrulama seviyesini 1’e yükseltmek için</0>."
         },
         "untrusted-ip": {
           "title": "VPN kullandığınızı fark ettik.",
-          "message": "Doğrulama seviyesi 0 olan kullanıcılar,VPN veya proxy üzerinden bağlanırlarsa Nash’in hizmetlerinden faydalanamazlar. Lütfen bu servisleri iptal edin yada <0>doğrulama seviyenizi 1’e yükseltin</0>."
+          "message": "Doğrulama seviyesi 0 olan kullanıcılar, VPN veya proxy üzerinden bağlanırlarsa Nash’in hizmetlerinden faydalanamazlar. Lütfen bu servisleri iptal edin yada <0>doğrulama seviyenizi 1’e yükseltin</0>."
         },
         "high-risk-country": {
-          "title": "Doğrulama seviyeniz şu anda 0. Bu nedenle,Nash platformunun bazı bölümlerine erişiminiz kısıtlanacak.",
+          "title": "Doğrulama seviyeniz şu anda 0. Bu nedenle, Nash platformunun bazı bölümlerine erişiminiz kısıtlanacak.",
           "message": "Tüm hizmetlerimizi kullanabilmek için, lütfen <0>doğrulama seviyenizi 1’e yükseltin</0>."
         },
         "duplicate-ip": {
@@ -447,7 +447,7 @@
           "title": "Nash platformunun tüm hizmetleri {{usState}}da desteklenmemektedir. Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
           "title-no-state": "Eyaletinizde şu anda Nash platformunun tüm hizmetleri desteklenmemektedir. Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
           "message": "{{usState}} ile çalışmaya başladığımızda sizi mail yoluyla bilgilendireceğiz. Lütfen <0>destek ile iletişim kurun</0> sorularınız için.",
-          "message-no-state": "Eyaletiniz ile çalışmaya başladığımızda sizi mail yoluyla bilgilendireceğiz.Lütfen <0>destek ile iletişim kurun</0> sorularınız için."
+          "message-no-state": "Eyaletiniz ile çalışmaya başladığımızda sizi mail yoluyla bilgilendireceğiz. Lütfen <0>destek ile iletişim kurun</0> sorularınız için."
         },
         "generic": {
           "title": "Bulunduğunuz alanda şu anda Nash platformunun tüm hizmetleri desteklenmemektedir. Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
@@ -455,7 +455,7 @@
         }
       },
       "tier-too-low": {
-        "title": "Doğrulama seviyeniz şu anda {{userTier}}. Bu nedenle,Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
+        "title": "Doğrulama seviyeniz şu anda {{userTier}}. Bu nedenle, Nash platformunun bazı bölümlerine erişiminiz kısıtlanacaktır.",
         "message": "Tüm Nash hizmetlerinden faydalanmak için, lütfen <0>doğrulama seviyenizi yükseltin{{minTier}}</0>."
       }
     },
@@ -535,7 +535,7 @@
       "user-messages": {
         "untrusted-ip": {
           "title": "VPN kullandığınızı tespit ettik.",
-          "message": "Lütfen devam edebilmek için VPN yada Proxy servislerini iptal edin.Bir hesap oluşturduktan sonra,VPN kullanmak için hesabınızı doğrulayabilirsiniz."
+          "message": "Lütfen devam edebilmek için VPN yada Proxy servislerini iptal edin. Bir hesap oluşturduktan sonra, VPN kullanmak için hesabınızı doğrulayabilirsiniz."
         }
       }
     },
@@ -590,14 +590,14 @@
           "title": "Güçlü şifre için ipuçları",
           "desc": "Varlıklarınızı korumak için şifre çok önemlidir. Güvenlik için bu adımları takip edin:",
           "tip-index": "İpuçları {{index}}",
-          "tip-1": "Diğer sitelerde kullandığınız şifreleri kullanmayınız.Başka bir yerde hesabınız saldırıya uğrarsa Nash hesabınızda tehlikeye girer.",
-          "tip-2": "Şifreniz kişisel bilgilerinizi içermemeli.İsimleri,doğumgünleri veya adresleri bulmak kolaydır,buna dikkat etmelisiniz.",
-          "tip-3": "Şifrenizde büyük ve küçük harfler,rakamlar ve özel karakterler kullanın. Ayrıca şifreniz en az 12 karakterden oluşmalıdır.",
+          "tip-1": "Diğer sitelerde kullandığınız şifreleri kullanmayınız. Başka bir yerde hesabınız saldırıya uğrarsa Nash hesabınızda tehlikeye girer.",
+          "tip-2": "Şifreniz kişisel bilgilerinizi içermemeli. İsimleri, doğumgünleri veya adresleri bulmak kolaydır, buna dikkat etmelisiniz.",
+          "tip-3": "Şifrenizde büyük ve küçük harfler, rakamlar ve özel karakterler kullanın. Ayrıca şifreniz en az 12 karakterden oluşmalıdır.",
           "tip-4": "Maksimum güvenli şifreler oluşturmak için bir şifre üreticisi kullanmayı deneyebilirsiniz."
         }
       },
       "password": {
-        "desc": "Daha güçlü bir şifre için büyük,küçük harfler,rakamlar ve özel karakterlerden oluşan bir kombinasyon kullanın.",
+        "desc": "Daha güçlü bir şifre için büyük, küçük harfler, rakamlar ve özel karakterlerden oluşan bir kombinasyon kullanın.",
         "tips": "Şifre oluşturma ipuçları",
         "password-strength": "Şifrenizin gücü",
         "weak": "Zayıf",
@@ -616,7 +616,7 @@
       "back": "Oturum açmak için geri dön",
       "success": "Doğrulama e-postası tekrar gönderildi.",
       "errors": {
-        "generic-error": "Doğrulama e-postası tekrar gönderilirken hata oluştu.Lütfen tekrar deneyin"
+        "generic-error": "Doğrulama e-postası tekrar gönderilirken hata oluştu. Lütfen tekrar deneyin"
       }
     }
   },
@@ -629,7 +629,7 @@
     "general-information": {
       "title": "Genel bilgilendirme",
       "header": "Kişisel hesabınızı oluşturun",
-      "desc-1": "Kişisel hesabınız on iki gizli kelime kullanılarak oluşturulur. Eğer şifrenizi kaybederseniz,on iki kelimeyi kullanarak hesabınıza erişebilirsiniz.Bu nedenle on iki kelimenizi saklamalısınız.",
+      "desc-1": "Kişisel hesabınız on iki gizli kelime kullanılarak oluşturulur. Eğer şifrenizi kaybederseniz, on iki kelimeyi kullanarak hesabınıza erişebilirsiniz. Bu nedenle on iki kelimenizi saklamalısınız.",
       "continue": "On iki gizli kelimemi oluştur.",
       "skip2Fa": "Daha sonra ayarla",
       "chart": {
@@ -646,8 +646,8 @@
     "secret-words": {
       "title": "Gizli kelimeler",
       "header": "On iki gizli kelimenizi yazın",
-      "desc": "Bu kelimeler fonlarınıza erişmek için kullanılacak.Aynı zamanda şifre yenileme için kullanılır.",
-      "popup-error": "Gizli kelimelerinizi yazdırmak istiyorsanız,lütfen Pop-up engelleyicileri devre dışı bırakın ve Nash’in Pop-up açmasına müsade edin.",
+      "desc": "Bu kelimeler fonlarınıza erişmek için kullanılacak. Aynı zamanda şifre yenileme için kullanılır.",
+      "popup-error": "Gizli kelimelerinizi yazdırmak istiyorsanız, lütfen Pop-up engelleyicileri devre dışı bırakın ve Nash’in Pop-up açmasına müsade edin.",
       "continue": "Devam et",
       "go-back": "Geri dön",
       "written-down": "Kelimelerimi yazdım.",
@@ -664,7 +664,7 @@
           "body-tips-0": "Yazıcınız bilgisayarınıza doğrudan kablo bağlantılı olmalıdır.",
           "body-tips-1": "Yazıcınız herhangi bir ağa bağlı değil.",
           "body-tips-2": "Başkalarının yazıcınıza Bluetooth, WLAN, vb. Yoluyla bağlanması mümkün değildir.",
-          "button": "Anladım,kelimelerimi yazdır."
+          "button": "Anladım, kelimelerimi yazdır."
         }
       },
       "print-window-title": "Nash | Gizli kelime yedekleme",
@@ -672,7 +672,7 @@
         "header": "Gizli kelime yedekleme",
         "desc-1": "Nash şifrenizi kaybederseniz, on iki gizli kelimeniz ETH, NEO ve diğer hesaplarınıza erişmek için kullanılır.",
         "desc-2": "Remember: if anyone gains access to your words, your funds are in danger.",
-        "desc-3": "Aşağıdaki kelimeleri ayırın.Bunları iki ayrı yerde saklamayı düşünün."
+        "desc-3": "Aşağıdaki kelimeleri ayırın. Bunları iki ayrı yerde saklamayı düşünün."
       },
       "repeat-secret-words": {
         "header": "On iki gizli kelimeni tekrar et",
@@ -686,7 +686,7 @@
       "wallet-created": {
         "header": "Nash hesabınız başarılı bir şekilde oluşturuldu.",
         "desc": "On iki gizli kelimenizi ve bireysel hesap ayrıntılarınızı ‘Profilim > Hesaplar’ kısmında bulabilirsiniz.",
-        "warning": "<0>On iki gizli kelimenizi,herhangi bir yerde depolamıyoruz.</0> Şifrenizi unutursanız, bu kelimeler olmadan fonlarınıza erişemezsiniz.",
+        "warning": "<0>On iki gizli kelimenizi, herhangi bir yerde depolamıyoruz.</0> Şifrenizi unutursanız, bu kelimeler olmadan fonlarınıza erişemezsiniz.",
         "continue": "İki aşamalı doğrulama ayarla",
         "continue-location": "İkamet adresi ayarla"
       }
@@ -902,7 +902,7 @@
         "amount": {
           "label": "Miktar",
           "sub-label-market-buy": "Bu bir piyasa emri, bu nedenle yalnızca {{currencyA}} kadar alacaksınız.",
-          "sub-label-market-sell": "Bu bir piyasa emri,bu nedenle {{currencyB}} tamamı kadar alacaksınız.",
+          "sub-label-market-sell": "Bu bir piyasa emri, bu nedenle {{currencyB}} tamamı kadar alacaksınız.",
           "sub-label-limit-buy": "Ne kadar {{currencySymbol}} almnak istediğinizi girin.",
           "sub-label-limit-sell": "Ne kadar {{currencySymbol}} satmak istediğinizi girin",
           "estimate": "(tahmini)",
@@ -1179,7 +1179,7 @@
     "session-expiry-modal": {
       "title": "Oturumunuzun süresi dolmak üzere",
       "info": "Hareketsizlik nedeniyle oturumunuzun süresi dolmak üzere. Oturumunuz {{count}} saniye içinde kapanacak.",
-      "info_plural": "Hareketsizlik nedeniyle oturumunuzun süresi dolmak üzere.Oturumunuz {{count}} saniye içinde kapanacak.",
+      "info_plural": "Hareketsizlik nedeniyle oturumunuzun süresi dolmak üzere. Oturumunuz {{count}} saniye içinde kapanacak.",
       "stay-signed-in": "Oturumu aktif tut",
       "signing-out": "({{count}}s) Oturum kapatılıyor…"
     },
@@ -1197,7 +1197,7 @@
         "vpn-warning-title": "VPN kullandığınızı farkettik.",
         "vpn-warning-body": "Lütfen devam edebilmek için VPN yada Proxy servislerini iptal edin.",
         "update-country": {
-          "failed": "Yaşadığınız ülke bilgisini güncelleyemedik.Lütfen destek ile iletişim kurun yada tekrar deneyin."
+          "failed": "Yaşadığınız ülke bilgisini güncelleyemedik. Lütfen destek ile iletişim kurun yada tekrar deneyin."
         }
       },
       "fields": {
@@ -1278,7 +1278,7 @@
           "header": "On iki gizli kelimeye sahip misiniz?",
           "sub-header": "Nash hesabınızı ilk oluşturduğunuzda, bu kelimeleri yazmanızı ve güvende tutmanızı istedik.",
           "button-have-words": "Evet, hala gizli kelimelerime erişimim var",
-          "button-lost-words": "Hayır,gizli kelimelerimi kaybettim",
+          "button-lost-words": "Hayır, gizli kelimelerimi kaybettim",
           "desc": "Maalesef, hem eski şifrenizi hem de on iki gizli kelimenizi kaybettiyseniz, fonlarınıza ulaşamazsınız."
         },
         "edit": {
@@ -1293,9 +1293,9 @@
         "skip": {
           "header": "Varlıklarınıza erişiminizi kaybedeceksiniz",
           "desc-1": "Hem eski şifrenizi hem de on iki gizli kelimenizi kaybettiyseniz, <0>varlıklarınızı geri alamazsınız.</0>",
-          "desc-2": "Nash, merkezi olmayan teknoloji kullanan velayetsiz bir platformdur.Varlıklarınıza erişmemiz imkansızdır ve onları kurtaramayız.",
+          "desc-2": "Nash, merkezi olmayan teknoloji kullanan velayetsiz bir platformdur. Varlıklarınıza erişmemiz imkansızdır ve onları kurtaramayız.",
           "desc-3": "Eski hesabınızı sıfırlayabilir ve yeni bir gizli kelime grubu seçebilirsiniz. Bu, yeni bir şifre ile yepyeni bir hesap oluşturmak gibi olacaktır.",
-          "desc-4": "Hesabınızı sıfırlamayı seçerseniz, varlıklarınıza tüm erişiminizi kaybedersiniz.:",
+          "desc-4": "Hesabınızı sıfırlamayı seçerseniz, varlıklarınıza tüm erişiminizi kaybedersiniz. :",
           "desc-5": "Lütfen tekrar kontrol edin ve gizli kelimelerinizi mi yoksa şifrenizi mi bulabileceğinizi görün.",
           "go-back": "Geri dön",
           "checkbox-1": "Hem şifremi hem de on iki gizli kelimemi kaybettim.",
@@ -1339,8 +1339,8 @@
         "errors": {
           "reset-wallets-locked": "Hesap sıfırlama şu anda kilitli. Lütfen desteğe başvurun.",
           "reset-locked": "Şifre sıfırlama şu anda kilitli. Lütfen desteğe başvurun.",
-          "incorrect-keys": "Gönderdiğiniz on iki kelimeden türetilen ortak anahtar kayıtlarımızla eşleşmiyor.Bu, gönderdiğiniz on iki kelimenin Nash hesabınızdan olmadığını gösterir.Lütfen yedeklemenizi tekrar kontrol edin.Sorun devam ederse,desteğe başvurun.",
-          "generic-error": "Bir şeyler ters gitti ve şifreniz sıfırlanmadı.Şifre sıfırlama bağlantınızın süresi dolmuş olabilir.Lütfen yeni bir sıfırlama bağlantısı isteyin ve tekrar deneyin."
+          "incorrect-keys": "Gönderdiğiniz on iki kelimeden türetilen ortak anahtar kayıtlarımızla eşleşmiyor. Bu, gönderdiğiniz on iki kelimenin Nash hesabınızdan olmadığını gösterir. Lütfen yedeklemenizi tekrar kontrol edin. Sorun devam ederse, desteğe başvurun.",
+          "generic-error": "Bir şeyler ters gitti ve şifreniz sıfırlanmadı. Şifre sıfırlama bağlantınızın süresi dolmuş olabilir. Lütfen yeni bir sıfırlama bağlantısı isteyin ve tekrar deneyin."
         },
         "submit": "Yeni şifre oluştur"
       }
@@ -1384,7 +1384,7 @@
       },
       "get-token": "Doğrulanıyor…",
       "log-you-in": "Giriş yapılıyor…",
-      "unknow-error-message": "Birşeyler ters gitti,tekrar deneyin."
+      "unknow-error-message": "Birşeyler ters gitti, tekrar deneyin."
     }
   },
   "basic-exchange": {
@@ -1405,15 +1405,15 @@
           "price-options-header": "Fiyatınızı seçmek için iki seçeneğiniz var:",
           "average-market-price": {
             "header": "Güncel piyasa fiyatı",
-            "desc": "Siparişinizi daha erken dolduracak şekilde mevcut piyasa fiyatından verin.Doldurulmayan siparişler 24 saat sonra otomatik olarak iptal edilir."
+            "desc": "Siparişinizi daha erken dolduracak şekilde mevcut piyasa fiyatından verin. Doldurulmayan siparişler 24 saat sonra otomatik olarak iptal edilir."
           },
           "set-a-price": {
             "header": "Bir fiyat belirleyin",
-            "desc": "Siparişiniz bu fiyattan veya daha iyisi olan siparişlerle eşleşebilir, ancak bunun ötesine geçmeyecektir.Bu seçenek, siparişinizin bir kerede doldurulamayabileceği anlamına gelir."
+            "desc": "Siparişiniz bu fiyattan veya daha iyisi olan siparişlerle eşleşebilir, ancak bunun ötesine geçmeyecektir. Bu seçenek, siparişinizin bir kerede doldurulamayabileceği anlamına gelir."
           },
           "balances": {
             "header": "Bakiyeler",
-            "desc": "Bakiyenizin ticaret yapmak için yeterli olup olmadığını size söyleyeceğiz.Hesap durumunuzu kontrol etmek ve fon göndermek / almak için ‘Bakiyeler’ i seçin."
+            "desc": "Bakiyenizin ticaret yapmak için yeterli olup olmadığını size söyleyeceğiz. Hesap durumunuzu kontrol etmek ve fon göndermek / almak için ‘Bakiyeler’ i seçin."
           }
         },
         "select-token": {
@@ -1507,7 +1507,7 @@
         },
         "desc": {
           "insufficient-funds": {
-            "0": "Ticari sözleşme bakiyeniz artık bu siparişi karşılamak için yeterli değil.Bu, aynı anda birden çok tarayıcı sekmesinde sipariş oluşturuyorsanız olabilir.",
+            "0": "Ticari sözleşme bakiyeniz artık bu siparişi karşılamak için yeterli değil. Bu, aynı anda birden çok tarayıcı sekmesinde sipariş oluşturuyorsanız olabilir.",
             "1": "For a smoother trading experience, please use Nash in a single browser tab.",
             "2": "Bu siparişi tekrar vermek istiyorsanız <0>Send/Receive</0>"
           },
@@ -1762,7 +1762,7 @@
     "VC": "Saint Vincent and the Grenadines",
     "VE": "Venezuela (Bolivarian Republic of)",
     "VG": "Virgin Islands (British)",
-    "VI": "Virgin Islands (U.S.)",
+    "VI": "Virgin Islands (U. S. )",
     "VN": "Vietnam",
     "VU": "Vanuatu",
     "WF": "Wallis and Futuna",
@@ -1865,7 +1865,7 @@
       "select-btn": "Seç",
       "have-account-header": "Hesap oluşturduğum sağlayıcılar",
       "no-account-header": "Henüz hesap oluşturmadığım sağlayıcılar",
-      "no-providers-title": "Ne yazık ki,bölgenizde şu anda dijital varlık sağlayıcısı yok.",
+      "no-providers-title": "Ne yazık ki, bölgenizde şu anda dijital varlık sağlayıcısı yok.",
       "no-providers-more-info": "Daha fazla bilgi için <0>becoming a Nash currency partner</0>.",
       "credit-cards": "Kredi kartlar:",
       "debit-cards": "Banka kartları:",
@@ -2000,7 +2000,7 @@
       "daily-asset-limit": "Günlük {{asset}} limit",
       "exceed-daily-limit": "Günlük limitinizi aştınız",
       "no-limit": "Sınırsız",
-      "current-exchange-info": "<0>Bu teklif mevcut döviz kurumuza bağlıdır.</0> Eğer {{asset}} <1 /> üstünde ise,banka havaleniz silindiğinde yeni bir ücret teklif ederiz.",
+      "current-exchange-info": "<0>Bu teklif mevcut döviz kurumuza bağlıdır.</0> Eğer {{asset}} <1 /> üstünde ise, banka havaleniz silindiğinde yeni bir ücret teklif ederiz.",
       "nash-unsupported": "Bu özellik çok yakında!",
       "carbon-unsupported": "Bu özellik henüz Carbon ile birlikte sunulmamaktadır.",
       "provider-unsupported": "Bu özellik henüz {{providerName}} ile kullanılmıyor.",
@@ -2028,7 +2028,7 @@
         "ecode-billing": "Fatura adresiyle ilgili hata.",
         "ecode-other-catchall": "Yanlış bilgi gönderildi.",
         "ecode-declined": "Bankanız işlemi reddetti.",
-        "ecode-only-visa-mastercard": "Carbon.money tarafından şu anda yalnızca Visa ve Mastercard kabul edilmektedir.",
+        "ecode-only-visa-mastercard": "Carbon. money tarafından şu anda yalnızca Visa ve Mastercard kabul edilmektedir.",
         "ecode-3ds-auth-fail": "3DS kimlik doğrulama hatası.",
         "ecode-3ds-could-not-be-performed": "3DS şu anda Carbon’da mevcut değil.",
         "ecode-3ds-performed-not-completed": "3DS çalıştı, ancak Carbon tarafından şu anda tamamlanamadı.",
@@ -2036,7 +2036,7 @@
       },
       "purchase-requires-confirm": {
         "title": "Yeni kart doğrula",
-        "message": "Güvenliğiniz için yeni kartınızı onaylamamız gerek.Carbon, banka ekstrenizde”‘Carbon-1234’ gibi dört basamaklı bir onay kodu içeren bir işlem oluşturacaktır.",
+        "message": "Güvenliğiniz için yeni kartınızı onaylamamız gerek. Carbon, banka ekstrenizde”‘Carbon-1234’ gibi dört basamaklı bir onay kodu içeren bir işlem oluşturacaktır.",
         "cancel": "Satın almayı iptal et",
         "code-from-statement": "Doğrulama kodu gir:",
         "code-placeholder": "1234",
@@ -2062,7 +2062,7 @@
     "verify-code": {
       "title": "Kodu doğrula",
       "verify-email": "Mail doğrula",
-      "message": "Doğrulama için mail adresinize kod gönderildi,aşağıdan kodu doğrulayın.",
+      "message": "Doğrulama için mail adresinize kod gönderildi, aşağıdan kodu doğrulayın.",
       "transak-message": "{{email}} adresinize bir doğrulama kodu gönderdik.",
       "code-label": "Doğrulama kodunu gir:",
       "transak-code-label": "Tek seferlik güvenlik kodunuzu(OTP) girin",
@@ -2233,7 +2233,7 @@
       "unverified-method": "Kimlik doğrulama tamamlanmadı",
       "verified-method": "Kimlik doğrulama tamamlandı",
       "delete-modal-title": "{{cardEnding}} kartı çıkarmak istediğinizden emin misiniz??",
-      "confirm-btn": "Evet,bu ödeme yöntemini kaldır.",
+      "confirm-btn": "Evet, bu ödeme yöntemini kaldır.",
       "profile-incomplete": "<0>{{providerName}} profil bilgileriniz</0> eksik",
       "cancel-label": "Hayır,çıkarma.",
       "status": {
@@ -2249,7 +2249,7 @@
         "btn-add-payment-method": "Add payment method",
         "btn-add-payment-method-get-refund": "Ödeme yöntemi ekleyin ver geri ödeme alın",
         "add-pm-title": "Yeni bir ödeme yöntemi ekleyin",
-        "correct-name": "Bu adım için Katman1 isminizi ‘{{name}}’ kullanacağımızı unutmayın.Banka hesabınız bu isim ile kayıtlı değilse please <0>Katman1 isminizi güncelleyin</0>.",
+        "correct-name": "Bu adım için Seviye1 isminizi ‘{{name}}’ kullanacağımızı unutmayın. Banka hesabınız bu isim ile kayıtlı değilse please <0>Seviye1 isminizi güncelleyin</0>.",
         "e-payment-method-exists": "Ödeme yöntemi zaten mevcut",
         "l-name-your-account": "Hesabınızı isimlendirin",
         "p-name-your-account": "Ödeme yönteminize bir ad verin",
@@ -2344,7 +2344,7 @@
         "verification-succeeded": "Kimlik doğrulaması başarılı.",
         "verification-failed": "Kimlik doğrulama başarısız oldu. Lütfen bilgilerinizi güncelleyerek, yeniden gönderin.",
         "verification-failed-permanently": "Kimlik doğrulaması başarısız. Lütfen <0>Carbon ile iletişime geçin</0>.",
-        "enable-2fa-before-proceeding": "Bu işleme devam edebilmek için,lütfen <0>Carbon için iki adımlı doğrulamayı etkinleştirin</0>"
+        "enable-2fa-before-proceeding": "Bu işleme devam edebilmek için, lütfen <0>Carbon için iki adımlı doğrulamayı etkinleştirin</0>"
       },
       "submit-kyc": {
         "required-incomplete": "Gerekli tüm alanları doldurunuz.",
@@ -2376,7 +2376,7 @@
           "label": "Kişisel bilgiler"
         },
         "occupation": {
-          "placeholder": "Avukat,Doktor,Pilot,Gayrimenkul Danışmanı vs.",
+          "placeholder": "Avukat, Doktor, Pilot, Gayrimenkul Danışmanı vs.",
           "save": "Mesleğini bildir",
           "field": "Meslek"
         },
@@ -2421,7 +2421,7 @@
           "add": "İki adımlı doğrulamayı etkinleştir",
           "disable": "İki adımlı doğrulamayı devre dışı bırak",
           "disable-button": "İki adımlı doğrulamayı devre dışı bırak",
-          "disable-warning": "İki adımlı kimlik doğrulamayı devre dışı bırakmak için Carbon iki adımlı doğrulama kodunuzu aşağıya girin.İki adımlı kimlik doğrulama devre dışıyken satın alma işlemi yapamazsınız.",
+          "disable-warning": "İki adımlı kimlik doğrulamayı devre dışı bırakmak için Carbon iki adımlı doğrulama kodunuzu aşağıya girin. İki adımlı kimlik doğrulama devre dışıyken satın alma işlemi yapamazsınız.",
           "not-set-up": "Kurulu değil",
           "to-set-up": "Bu QR kodunu bir kimlik doğrulama uygulamasıyla tarayın. Doğrulama kodunuzu aşağıya girin:",
           "enable-button": "İki adımlı kimlik doğrulamayı etkinleştirin",
@@ -2436,7 +2436,7 @@
           "capture-button": "Fotoğraf çek",
           "reset-button": "Yeniden fotoğraf çek",
           "use-button": "Bu fotoğrafı kullan",
-          "instructions": "Yüzünüzün bir fotoğrafını çekin.Güneş gözlüğü veya fiziksel görünümünüzde herhangi bir değişiklik olmaksızın yüzünüz iyi aydınlatılmış ve görünür olmalıdır.Ayrıca fotoğrafın parlama veya bulanıklık olmadan net olduğundan emin olun."
+          "instructions": "Yüzünüzün bir fotoğrafını çekin. Güneş gözlüğü veya fiziksel görünümünüzde herhangi bir değişiklik olmaksızın yüzünüz iyi aydınlatılmış ve görünür olmalıdır. Ayrıca fotoğrafın parlama veya bulanıklık olmadan net olduğundan emin olun."
         },
         "sin": {
           "edit": "Sosyal Güvenlik Numarası düzelt",
@@ -2456,9 +2456,9 @@
           ],
           "select-label": "Adres doğrulaması için hangi belgeyi yüklemek istersiniz?",
           "upload-label": "Bilgilerinizin bir fotoğrafını yükleyin.",
-          "upload-label-format": "Yalnızca JPG veya PNG formatı kabul edilmektedir.Maksimum dosya boyutu 3 MB’ı geçmemelidir.",
+          "upload-label-format": "Yalnızca JPG veya PNG formatı kabul edilmektedir. Maksimum dosya boyutu 3 MB’ı geçmemelidir.",
           "upload-policy-label": "Doğru fotoğrafı yüklemek için <0>belge yükleme detayları</0> na bakabilirsiniz.",
-          "warning": "Belgelerimi gönderirsem,hesabımın tekrar incelenmesi gerekecek ve bu inceleme tamamlanana kadar herhangi bir satın alma veya satış yapamayacağımı biliyorum.",
+          "warning": "Belgelerimi gönderirsem, hesabımın tekrar incelenmesi gerekecek ve bu inceleme tamamlanana kadar herhangi bir satın alma veya satış yapamayacağımı biliyorum.",
           "file-uploaded": "{{fileName}} yüklendi",
           "file-failed": "Yükleme hatası : {{fileName}}",
           "file-update": "<0>Çıkart</0> yada <1>yeni belge yükle</1>",
@@ -2485,14 +2485,14 @@
           },
           "select-label": "Doğrulama için hangi kimlik belgesini yüklemek istersiniz?",
           "upload-label": "Pasaport bilgilerinizin bir fotoğrafını yükleyin.",
-          "upload-label-format": "Yalnızca JPG veya PNG formatı kabul edilmektedir.Maksimum dosya boyutu 3 MB’ı geçmemelidir.",
+          "upload-label-format": "Yalnızca JPG veya PNG formatı kabul edilmektedir. Maksimum dosya boyutu 3 MB’ı geçmemelidir.",
           "upload-policy-label": "Doğru fotoğrafı yüklemek için <0>belge yükleme detayları</0> na bakabilirsiniz.",
-          "warning": "Belgelerimi gönderirsem,hesabımın tekrar incelenmesi gerekecek ve bu inceleme tamamlanana kadar herhangi bir satın alma veya satış yapamayacağımı biliyorum.",
+          "warning": "Belgelerimi gönderirsem, hesabımın tekrar incelenmesi gerekecek ve bu inceleme tamamlanana kadar herhangi bir satın alma veya satış yapamayacağımı biliyorum.",
           "national-id-upload": "Kimlik belgenizin bir önden bir arkadan olmak üzere <0>iki ayrı fotoğrafını</0> yükleyin.",
-          "national-id-upload-format": "Yatay yönlendirme, yalnızca JPG veya PNG formatı ile,maksimum dosya boyutu 4 MB,minimum dosya boyutu 500 KB.",
+          "national-id-upload-format": "Yatay yönlendirme, yalnızca JPG veya PNG formatı ile, maksimum dosya boyutu 4 MB, minimum dosya boyutu 500 KB.",
           "image-practices-msg": "Doğru fotoğrafı yüklemek için belge yükleme detayları’na bakabilirsiniz.",
           "driver-license-upload": "Sürücü belgenizin bir önden bir arkadan olmak üzere <0>iki ayrı fotoğrafını</0> yükleyin.",
-          "driver-license-upload-format": "Yalnızca JPG veya PNG formatı kabul edilmektedir.Maksimum dosya boyutu 3 MB’ı geçmemelidir.",
+          "driver-license-upload-format": "Yalnızca JPG veya PNG formatı kabul edilmektedir. Maksimum dosya boyutu 3 MB’ı geçmemelidir.",
           "file-uploaded": "{{fileName}} yüklendi",
           "file-failed": "Yükleme hatası : {{fileName}}",
           "file-update": "<0>Çıkart</0> yada <1>yeni fotoğraf yükle</1>",
@@ -2556,22 +2556,22 @@
       "profile-status-in-review": "Profil bilgileriniz inceleniyor",
       "profile-status-completed": "Profil tamamlandı",
       "profile-status-rejected": "Profil bilgileriniz reddedildi",
-      "profile-no-completed-info-message": "Limitleriniz onaylanmadan önce aşağıda istenen tüm bilgileri sağlamalısınız.Gerekli tüm bilgiler sağlandıktan sonra otomatik olarak gerçekleşecektir <0>ödeme yöntemi ekleme</0> yapabileceksiniz. Bu işlem beş iş gününe kadar sürebilir",
+      "profile-no-completed-info-message": "Limitleriniz onaylanmadan önce aşağıda istenen tüm bilgileri sağlamalısınız. Gerekli tüm bilgiler sağlandıktan sonra otomatik olarak gerçekleşecektir <0>ödeme yöntemi ekleme</0> yapabileceksiniz. Bu işlem beş iş gününe kadar sürebilir",
       "profile-pending-info-message": "Profiliniz incelenirken bilgileri düzenlemek, inceleme sürecini yeniden başlatır.",
-      "profile-rejected-error-message": "Profil bilgileriniz reddedildi.Bilgileri güncelleyerek tekrar deneyin.",
-      "profile-approved-info-message": "Herhangi bir profil bilgisini düzenlemek, hesabınızın yeniden incelenmesi gerektiği anlamına gelecektir.Dijital varlıkları doğrudan satın alma ve satma imkanınız, bu inceleme tamamlanana ve bilgileriniz onaylanana kadar dondurulacaktır.",
+      "profile-rejected-error-message": "Profil bilgileriniz reddedildi. Bilgileri güncelleyerek tekrar deneyin.",
+      "profile-approved-info-message": "Herhangi bir profil bilgisini düzenlemek, hesabınızın yeniden incelenmesi gerektiği anlamına gelecektir. Dijital varlıkları doğrudan satın alma ve satma imkanınız, bu inceleme tamamlanana ve bilgileriniz onaylanana kadar dondurulacaktır.",
       "limits-requirements": "Gereklilikler",
       "limits-header": "Yıllık alım limitiniz",
-      "limits-complete": "Nash platform Katman1",
+      "limits-complete": "Nash platform Seviye1",
       "limits-not-complete": "Gelir ve para kaynağınızı beyan edin",
       "limits-no-occupation": "Mesleğinizi beyan edin",
       "limits-no-source-of-funds": "Gelir kaynağınızı beyan edin",
       "limits-no-source-of-wealth": "Ana para kaynağınızı beyan edin",
-      "limits-no-level-1": "Katman1 doğrulaması yapmalısınız",
+      "limits-no-level-1": "Seviye1 doğrulaması yapmalısınız",
       "add-occupation": "Mesleğinizi beyan edin",
       "add-source-of-funds": "Gelir kaynağınızı beyan edin",
       "add-source-of-wealth": "Ana para kaynağınızı beyan edin",
-      "header": "Katman1 profil bilgileriniz",
+      "header": "Seviye1 profil bilgileriniz",
       "contact-support-to-edit": "Düzenlemek için <0>Desteğe başvurun</0>",
       "source-of-funds": "Gelir kaynağı",
       "source-of-wealth": "Ana para kaynağı",
@@ -2584,7 +2584,7 @@
       "not-verified": "Doğrulanmamış",
       "daily-limit-remaining": "{{value}} kalan günlük limit",
       "unlimited": "Günlük limit yok",
-      "tier": "Katman{{number}}",
+      "tier": "Seviye{{number}}",
       "personal-details": "Kişisel bilgiler",
       "name": "İsim",
       "create-name": "İsim ekle",
@@ -2618,7 +2618,7 @@
       "statement-of-worth": "Net kazanç beyanı",
       "try-again": "Tekrar dene",
       "active": "Etkin",
-      "complete-profile-title": "Nash hesap profiliniz eksik.Devam etmeden önce ikamet ettiğiniz ülkeyi girmeniz gerekiyor.",
+      "complete-profile-title": "Nash hesap profiliniz eksik. Devam etmeden önce ikamet ettiğiniz ülkeyi girmeniz gerekiyor.",
       "complete-profile-link": "İkamet ettiğiniz ülkeyi girin",
       "daily-limit": "Günlük limit",
       "weekly-limit": "Haftalık limit",
@@ -2634,7 +2634,7 @@
       "not-completed": "Tamamlanmamış",
       "in-review": "İncelemede",
       "rejected": "Reddedilen",
-      "rejected-error-message": "<0>profil bilgileriniz</0> reddedildi.Lütfen güncelleyerek tekrar deneyin",
+      "rejected-error-message": "<0>profil bilgileriniz</0> reddedildi. Lütfen güncelleyerek tekrar deneyin",
       "initial-account-creation": "Hesap oluşturma",
       "profile-label": "{{providerName}} profili",
       "per-week": "Haftalık <0>{{value}}</0>",
@@ -2653,7 +2653,7 @@
     "review-sell-transaction": {
       "title": "Satış teklifi",
       "send-asset-title": "Nash kişisel hesabınızdan aşağıdaki adrese {{assetName}} gönder.",
-      "send-asset-body-1": "Gönderdiğiniz varlık {{currencyCode}}’a dönüştürülecek ve hesabınıza alacak kaydedilecektir.İşleminizi aldığımızda piyasa döviz kurunu kullanacağız.",
+      "send-asset-body-1": "Gönderdiğiniz varlık {{currencyCode}}’a dönüştürülecek ve hesabınıza alacak kaydedilecektir. İşleminizi aldığımızda piyasa döviz kurunu kullanacağız.",
       "selling": "Satıyorum",
       "cost": "<0>(tahmini)</0> alacağım",
       "to-bank": "Bu hesaba",
@@ -2722,7 +2722,7 @@
       "quoted-exchange-rate": "Teklif edilen döviz kuru",
       "transfer-this-amount": "Bu miktarı transfer et",
       "reason-for-failure": "Başarısız olma nedeni",
-      "recipient-details": "Ödemenizi zaten gönderdiyseniz, hiçbir şey yapmanıza gerek yok.Ödemenizi göndermezseniz veya alınan miktar yukarıdaki toplam tutarla eşleşmezse, siparişinizi iptal edip size geri ödeme yapacağız.",
+      "recipient-details": "Ödemenizi zaten gönderdiyseniz, hiçbir şey yapmanıza gerek yok. Ödemenizi göndermezseniz veya alınan miktar yukarıdaki toplam tutarla eşleşmezse, siparişinizi iptal edip size geri ödeme yapacağız.",
       "recipient-details-link": "Alıcının banka bilgileri",
       "get-or-cancel": "<0>Alıcının banka bilgilerini al</0> yada <1>teklifi reddet</1>.",
       "refresh-btn": "Yeniler",
@@ -2749,1019 +2749,1019 @@
         "b-cancel": "İptal et",
         "b-go-back": "Kabul et"
       },
-      "total-cost": "Total cost",
-      "total-sold": "Total sold",
-      "fiat-deposited-to": "Deposited to",
-      "b-change": "Change",
-      "b-add": "Add",
-      "source-of-funds": "Source of funds for this purchase",
-      "total-with-provider-fee": "Total with fees",
-      "trading-contract": "Trading contract",
-      "transaction-details": "Order summary",
-      "transaction-details-link": "View",
-      "warning-msg": "I authorize {{providerName}} to debit the account indicated for the above amount on today’s date. I will not dispute {{providerName}} debiting my account, so long as the transaction corresponds to the terms in this online form and my agreement with {{providerName}}.",
-      "declined-exchange-rate": "Declined exchange rate",
-      "declined-amount": "Declined amount"
+      "total-cost": "Toplam tutar",
+      "total-sold": "Toplam satılan",
+      "fiat-deposited-to": "Yatırılan",
+      "b-change": "Değiştir",
+      "b-add": "Ekle",
+      "source-of-funds": "Bu satın alma için fon kaynağı",
+      "total-with-provider-fee": "Ücretli toplam tutar",
+      "trading-contract": "Ticaret sözleşmesi",
+      "transaction-details": "Sipariş özeti",
+      "transaction-details-link": "Göster",
+      "warning-msg": "{{providerName}}’e, yukarıdaki tutar için belirtilen hesaptan çekim yapma yetkisi veriyorum. İşlemlerim bu çevrimiçi formdaki şartlara ve {{providerName}} ile yaptığım sözleşmeye uygun olduğu sürece, {{providerName}} hesabımdan borçlanmasına itiraz etmeyeceğim.",
+      "declined-exchange-rate": "Reddedilen döviz kuru",
+      "declined-amount": "Reddedilen miktar"
     },
     "review-transfer-funds": {
-      "transfer-to": "Transfer <0 /> to the account listed below.",
-      "transfer-to-label": "Transfer this amount",
-      "name-registered": "The bank account you use to pay must be registered under the same name as your Nash account.",
-      "receive-funds-soon": "If we do not receive your funds within five days, your order will be canceled.",
-      "reference": "Reference",
-      "need-to-include": "You need to include this.",
+      "transfer-to": "Aşağıda listelenen hesaba <0 /> aktar.",
+      "transfer-to-label": "Bu miktarı transfer et.",
+      "name-registered": "Ödeme yapmak için kullandığınız banka hesabı, Nash hesabınızla aynı adla kayıtlı olmalıdır.",
+      "receive-funds-soon": "Ödemenizi beş gün içinde alamazsak, siparişiniz iptal edilecektir.",
+      "reference": "Referans",
+      "need-to-include": "Bunu eklemeniz gerekiyor.",
       "iban": "IBAN",
-      "bank-swift": "Bank SWIFT",
-      "bank-country": "Bank country",
-      "decline-this-quote": "Decline this quote",
-      "bank-name": "Bank name",
-      "recipient-name": "Recipient name",
-      "recipient": "Recipient",
-      "btn-cancel-quote": "Decline quote",
-      "btn-close-quote": "Close",
-      "btn-made-payment": "I’ve made my payment",
-      "use-exact-name": "Use this exact name.",
-      "recipient-address": "Recipient address",
-      "recipient-bank-country": "Recipient bank country",
-      "exact-name-warning-1": "You <0>must</0> specify the recipient as ‘<1>Neon Exchange AG</1>’.",
-      "exact-name-warning-2": "Transfers to ‘Nash’ or other names will be <0>returned at your own cost</0>.",
-      "exact-name-warning-3": "Your bank account name must match the name on your Nash account. <0>Do not</0> use third-party services (e.g. TransferWise).",
-      "btn-exact-name-warning": "Got it"
+      "bank-swift": "Banka SWIFT’i",
+      "bank-country": "Banka ülkesi",
+      "decline-this-quote": "Bu teklifi reddet",
+      "bank-name": "Banka ismi",
+      "recipient-name": "Alıcı ismi",
+      "recipient": "Alıcı",
+      "btn-cancel-quote": "Teklifi reddet",
+      "btn-close-quote": "Kapat",
+      "btn-made-payment": "Ödememi gerçekleştirdim",
+      "use-exact-name": "Bu adı kullan.",
+      "recipient-address": "Alıcı adresi",
+      "recipient-bank-country": "Alıcı banka ülkesi",
+      "exact-name-warning-1": "Alıcıyı ‘<1>Neon Exchange AG</1>’ olarak <0>belirtmelisiniz</0>.",
+      "exact-name-warning-2": "Nash’ e veya diğer adlara transferler <0>kendi maliyetinize göre</0> iade edilecektir.",
+      "exact-name-warning-3": "Banka hesabı adınız, Nash hesabınızdaki adla eşleşmelidir. Üçüncü taraf hizmetleri (ör. TransferWise) <0>kullanmayın</0>.",
+      "btn-exact-name-warning": "Anladım"
     },
-    "timeout-message": "This exchange rate will be guaranteed and locked for:",
-    "network-error": "Network error. Please try again.",
+    "timeout-message": "Bu döviz kuru aşağıdakiler için garanti edilecek ve kilitlenecektir:",
+    "network-error": "Bağlantı hatası. Lütfen tekrar deneyin.",
     "ccpro": {
-      "error-no-wallet": "Wallet retrieval error. Please wait and try again.",
-      "recipient-name": "Asset Tokenization Services OÜ",
-      "drag-and-drop": "Drag and drop or",
-      "upload-a-file": "upload a file.",
-      "drop-file-here": "drop file here",
-      "recipient": "Recipient",
-      "upload-new": "Upload new",
-      "remove": "Remove",
+      "error-no-wallet": "Cüzdan alma hatası. Lütfen bekleyin ve tekrar deneyin.",
+      "recipient-name": "Varlık Tokenizasyon Hizmetleri OÜ",
+      "drag-and-drop": "Sürükle ve bırak yada",
+      "upload-a-file": "dosya yükle.",
+      "drop-file-here": "dosyayı buraya bırak",
+      "recipient": "Alıcı",
+      "upload-new": "Yeni yükle",
+      "remove": "Çıkart",
       "remaining-currency": "<0></0> / <1></1>",
-      "uploaded": "File uploaded",
-      "not-uploaded-in-time": "File not uploaded in time",
-      "street": "Street address",
-      "city": "City",
-      "country": "Country",
-      "zip": "Postcode",
-      "phone": "Phone number",
-      "not-uploaded": "Not uploaded",
-      "document": "Document",
-      "documents": "Documents",
-      "transfer-amount": "Transfer this amount",
-      "pop-upload-time": "You must upload your proof of payment within 60 minutes after sending funds for this transaction to be valid.",
-      "add-default-docs": "<0>Increase my limits</0>",
-      "overlimit-message-level1": "You need to <0>complete your profile</0> before you can buy digital assets.",
-      "overlimit-message-level2": "This transaction would exceed your monthly limit.",
-      "government-id-or-passport": "Identity document",
-      "government-id": "National ID",
-      "government-id-front": "National ID (front)",
-      "government-id-back": "National ID (back)",
-      "passport": "Passport",
-      "utility-bill": "Utility bill",
-      "selfie-with-id": "Selfie with ID",
-      "include-reference": "You need to include this.",
-      "proof-of-payment": "Proof of payment",
-      "transfer-instructions-singular": "Transfer <0>{{amount}}</0> to the following bank account:",
-      "transfer-instructions-plural": "Transfer <0>{{amount}}</0> to one of the following bank accounts:",
-      "include-payment-reference": "To complete your purchase, upload a screenshot of your transfer as proof of payment.",
-      "reference": "Reference",
-      "bank-name": "Bank name",
-      "bank-swift": "Bank SWIFT/BIC",
-      "bank-country": "Bank country",
-      "bank-address": "Bank address",
+      "uploaded": "Dosya yüklendi",
+      "not-uploaded-in-time": "Dosya zamanında yüklenmedi",
+      "street": "Sokak/cadde",
+      "city": "Şehir",
+      "country": "Ülke",
+      "zip": "Posta kodu",
+      "phone": "Telefon numarası",
+      "not-uploaded": "Yüklenmedi",
+      "document": "Döküman",
+      "documents": "Dökümanlar",
+      "transfer-amount": "Bu miktarı transfer et",
+      "pop-upload-time": "Bu işlemin geçerli olabilmesi için ödeme belgenizi para gönderdikten sonra 60 dakika içinde yüklemelisiniz.",
+      "add-default-docs": "<0>Limitlerimi arttır</0>",
+      "overlimit-message-level1": "Dijital varlıkları satın almadan önce <0>profilinizi tamamlamanız</0> gerekir.",
+      "overlimit-message-level2": "Bu işlem aylık limitinizi aşacaktır.",
+      "government-id-or-passport": "Kimlik belgesi",
+      "government-id": "Kimlik belgesi",
+      "government-id-front": "Kimlik belgesi (ön)",
+      "government-id-back": "Kimlik belgesi (arka)",
+      "passport": "Pasaport",
+      "utility-bill": "Fatura",
+      "selfie-with-id": "Kimlik belgesi ile Özçekim",
+      "include-reference": "Bunu eklemelisiniz.",
+      "proof-of-payment": "Ödeme kanıtı",
+      "transfer-instructions-singular": "<0>{{amount}}</0> ’ı aşağıdaki banka hesabına aktar:",
+      "transfer-instructions-plural": "<0>{{amount}}</0> ’ı aşağıdaki banka hesaplarından birine aktar:",
+      "include-payment-reference": "Satın alma işleminizi tamamlamak için, ödeme belgesi olarak transferinizin bir ekran görüntüsünü yükleyin.",
+      "reference": "Referans",
+      "bank-name": "Banka ismi",
+      "bank-swift": "Banka SWIFT/BIC",
+      "bank-country": "Banka ülkesi",
+      "bank-address": "Banka adresi",
       "bank-iban": "IBAN",
-      "upload-proof-of-payment": "Please upload a proof of payment, such as a transaction screenshot from your online banking platform.",
-      "proof-of-payment-file-formats": "The image must be in BMP, JPEG, PDF or PNG format.",
+      "upload-proof-of-payment": "Lütfen çevrimiçi bankacılık platformunuzdan işlem ekran görüntüsü gibi bir ödeme belgesi yükleyin.",
+      "proof-of-payment-file-formats": "Görüntü BMP, JPEG, PDF veya PNG formatında olmalıdır.",
       "create-account": {
-        "enter-registration-code": "Enter your registration code"
+        "enter-registration-code": "Kayıt kodunu gir"
       },
       "order-created": {
-        "title": "Your order has been created",
-        "description": "We will deposit your assets into your Nash personal account once your payment has cleared. This can take up to {{count}} business day. You can view the status of your deposit in the <0>Transactions</0> tab.",
-        "description_plural": "We will deposit your assets into your Nash personal account once your payment has cleared. This can take up to {{count}} business days. You can view the status of your deposit in the <0>Transactions</0> tab.",
-        "button": "Finish"
+        "title": "Sipariş oluşturuldu",
+        "description": "Ödemeniz tamamlandıktan sonra varlıklarınızı Nash kişisel hesabınıza yatıracağız. Bu, {{count}} iş günü sürebilir. Yatırmanızın durumunu <0>İşlemler</0> sekmesinde görüntüleyebilirsiniz.",
+        "description_plural": "Ödemeniz tamamlandıktan sonra varlıklarınızı Nash kişisel hesabınıza yatıracağız. Bu, {{count}} iş günü sürebilir. Yatırmanızın durumunu <0>İşlemler</0> sekmesinde görüntüleyebilirsiniz.",
+        "button": "Bitir"
       },
       "profile-details": {
-        "birth-date": "Edit my birth date",
-        "status-and-process": "Status and process",
-        "initial-account-creation": "Account creation",
-        "cellphone-and-email": "Confirm email and phone number",
-        "complete-profile": "Profile",
-        "buy-limits": "Buy limit",
-        "sell-limits": "Sell limit"
+        "birth-date": "Doğum tarihimi düzenle",
+        "status-and-process": "Durum ve süreç",
+        "initial-account-creation": "Hesap oluşturma",
+        "cellphone-and-email": "E-posta ve telefon numarası doğrula",
+        "complete-profile": "Profil",
+        "buy-limits": "Alım limiti",
+        "sell-limits": "Satım limiti"
       },
       "buy-steps": {
-        "review-quote": "Review your quote",
-        "make-payment": "Make your payment",
-        "upload-proof-of-payment": "Upload proof of payment"
+        "review-quote": "Teklifi gözden geçir",
+        "make-payment": "Ödeme yap",
+        "upload-proof-of-payment": "Ödeme kanıtını yükle"
       },
       "error": {
-        "invalid-data": "Invalid data.",
-        "unhandled-error": "An unhandled error occurred. Please reload then try again.",
-        "profile": "An error ocurred while loading profile data. Please reload then try again.",
-        "file-upload": "Error uploading file. Please reload then try again.",
-        "bank-account": "Error retrieving your bank accounts. Please reload then try again.",
-        "platform": "Error retrieving data from CCPRO. Please reload then try again.",
-        "coins": "Error retrieving available coins. Please reload then try again.",
-        "kyc": "Error retrieving KYC data. Please reload then try again.",
-        "quote": "Error quoting order. Please reload then try again."
+        "invalid-data": "Geçersiz veri",
+        "unhandled-error": "Bilinmeyen bir hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "profile": "Profil verileri yüklenirken bir hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "file-upload": "Dosya yüklenirken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "bank-account": "Banka hesaplarınızı alırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "platform": "CCPRO’dan veri alınırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "coins": "Mevcut paralar alınırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "kyc": "KYC verileri alınırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin.",
+        "quote": "Sipariş alıntılanırken hata oluştu. Lütfen yeniden yükleyin ve tekrar deneyin."
       },
       "validation": {
-        "first-name-required": "First name is required.",
-        "first-name-characters-invalid": "First name must only contain letters and hyphens.",
-        "last-name-required": "Last name is required.",
-        "last-name-characters-invalid": "Last name must only contain letters and hyphens.",
-        "email-required": "Email is required.",
-        "email-invalid": "Email must be valid.",
-        "date": "Invalid date",
-        "month": "Invalid month",
-        "year": "Invalid year",
-        "zip": "Postcode must be between four and ten digits",
-        "verification-code-invalid": "Invalid verification code.",
-        "bank-name-required": "Bank name is required.",
-        "iban-required": "IBAN is required.",
-        "iban-too-short": "IBAN must be at least 16 characters in length.",
-        "iban-too-long": "IBAN must not exceed 34 characters in length.",
-        "iban-characters-invalid": "IBAN must only contain letters and numbers.",
-        "iban-country-code-invalid": "IBAN must begin with a valid two-letter country code.",
-        "iban-already-used": "IBAN already associated with an account.",
-        "swift-required": "SWIFT/BIC is required.",
-        "swift-length-invalid": "SWIFT/BIC must be between 8 and 11 characters."
+        "first-name-required": "İlk isim gerekiyor",
+        "first-name-characters-invalid": "İlk isim yalnızca harf ve kısa çizgi içerebilir.",
+        "last-name-required": "Soyisim gerekiyor",
+        "last-name-characters-invalid": "Soyisim yalnızca harf ve kısa çizgi içerebilir.",
+        "email-required": "E-posta adresi gerekiyor.",
+        "email-invalid": "E-posta adresi doğrulanmış olmalı.",
+        "date": "Geçersiz tarih",
+        "month": "Geçersiz ay",
+        "year": "Geçersiz yıl",
+        "zip": "Posta kodu dört ile on basamak arasında olmalıdır",
+        "verification-code-invalid": "Geçersiz doğrulama kodu",
+        "bank-name-required": "Banka ismi gerekiyor",
+        "iban-required": "IBAN gerekiyor",
+        "iban-too-short": "IBAN, en az 16 karakter uzunluğunda olmalıdır.",
+        "iban-too-long": "IBAN uzunluğu 34 karakteri geçmemelidir.",
+        "iban-characters-invalid": "IBAN yalnızca harf ve rakamlardan oluşmalıdır.",
+        "iban-country-code-invalid": "IBAN, geçerli bir iki harfli ülke koduyla başlamalıdır.",
+        "iban-already-used": "IBAN zaten bir hesapla ilişkilendirilmiş.",
+        "swift-required": "SWIFT/BIC gerekiyor.",
+        "swift-length-invalid": "SWIFT/BIC 8 ile 11 karakter arasında olmalıdır."
       },
       "profile-status": {
-        "incomplete": "Complete your profile to increase your limits.",
-        "pending": "Identity verification is pending.",
-        "succeeded": "Identity verification succeeded.",
-        "failed": "Identity verification failed."
+        "incomplete": "Limit arttırabilmek için profilinizi tamamlayın.",
+        "pending": "Kimlik doğrulaması beklemede.",
+        "succeeded": "Kimlik doğrulaması başarılı oldu.",
+        "failed": "Kimlik doğrulama başarısız oldu."
       },
       "field-status": {
-        "incomplete": "Incomplete",
-        "pending": "Pending",
-        "rejected": "Rejected",
-        "accepted": "Verified",
-        "completed": "Complete"
+        "incomplete": "Eksik",
+        "pending": "Beklemede",
+        "rejected": "Reddedildi",
+        "accepted": "Doğrulandı",
+        "completed": "Tamamlandı"
       },
       "link": {
-        "add": "Add",
-        "edit": "Edit"
+        "add": "Ekle",
+        "edit": "Düzenle"
       },
       "heading": {
-        "add-phone-number": "Add your phone number",
-        "add-residential-address": "Add your residential address",
-        "government-id-or-passport": "Upload identity document",
-        "utility-bill": "Upload utility bill",
-        "selfie-with-id": "Upload selfie with ID",
-        "upload-proof-of-payment": "Upload proof of payment",
-        "success": "Success!"
+        "add-phone-number": "Telefon numarası ekle",
+        "add-residential-address": "İkamet adresi ekle",
+        "government-id-or-passport": "Kimlik belgesi yükle",
+        "utility-bill": "Fatura yükle",
+        "selfie-with-id": "Belge ile özçekim yükle",
+        "upload-proof-of-payment": "Ödeme kanıtı yükle",
+        "success": "Başarılı!"
       },
       "button": {
-        "cancel": "Cancel",
-        "continue": "Continue",
-        "submit": "Submit",
-        "submit-verification-code": "Submit verification code",
-        "transfer-initiated": "I’ve made this transfer",
-        "submit-proof-of-payment": "Submit proof"
+        "cancel": "Çık",
+        "continue": "Devam et",
+        "submit": "Gönder",
+        "submit-verification-code": "Doğrulama kodunu gönder",
+        "transfer-initiated": "Bu transferi yaptım.",
+        "submit-proof-of-payment": "Kanıtı gönder"
       },
       "details-shared": {
-        "title": "{{ccpro}} has sent you an email!",
-        "desc": "<0>Please check your email and verify your account with {{ccpro}}.</0><0>If you don’t see their email, check your junk folder.</0>",
-        "button": "Resend verification email"
+        "title": "{{ccpro}} size bir mail gönderdi",
+        "desc": "<0>Lütfen e-postanızı kontrol edin ve hesabınızı {{ccpro}} ile doğrulayın.</0><0>E-postayı görmüyorsanız, gereksiz klasörünüzü kontrol edin.</0>",
+        "button": "Tekrar doğrulama kodu gönder"
       },
       "transactions": {
-        "order-id": "Order ID",
-        "date-created": "Created",
-        "action": "Action",
-        "cost": "Cost",
-        "amount": "Amount",
-        "no-transactions": "You haven’t bought or sold any digital assets yet."
+        "order-id": "Sipariş kimliği",
+        "date-created": "Oluşturulan",
+        "action": "Hareket",
+        "cost": "Tutar",
+        "amount": "Miktar",
+        "no-transactions": "Henüz herhangi bir dijital varlık satın almadınız veya satmadınız."
       },
       "payment-methods": {
-        "bank-address": "Bank address",
-        "bank-name": "Bank name",
-        "currency": "Currency",
+        "bank-address": "Banka adresi",
+        "bank-name": "Banka ismi",
+        "currency": "Para birimi",
         "iban": "IBAN",
-        "remove-bank-account": "Remove {{iban}}?",
+        "remove-bank-account": "{{iban}}’ı çıkart?",
         "swift": "SWIFT/BIC"
       },
       "editor": {
         "phone": {
-          "enter-phone-number": "Enter phone number",
-          "verify-phone-number": "Verify phone number",
-          "label": "Enter your phone number",
-          "desc": "A ten-digit code will be sent via SMS to verify your phone number.",
-          "code-not-received": "Didn’t receive a code via SMS? <0>Resend it</0>.",
-          "resending-code": "Resending verification code…",
-          "code-label": "Enter the verification code sent to your phone.",
-          "back": "Back",
-          "verify": "Verify"
+          "enter-phone-number": "Telefon numarası gir",
+          "verify-phone-number": "Telefon numarasını doğrula",
+          "label": "Telefon numaranızı girin",
+          "desc": "Telefon numaranızı doğrulamak için SMS yoluyla on basamaklı bir kod gönderilecektir.",
+          "code-not-received": "SMS yoluyla bir kod almadınız mı? <0>Tekrar gönder</0>.",
+          "resending-code": "Doğrulama kodu tekrar gönderiliyor…",
+          "code-label": "Gönderilen doğrulama kodunu girin",
+          "back": "Geri",
+          "verify": "Doğrula"
         },
         "national-id": {
-          "upload-label": "Upload two <0>separate photographs</0> of your national ID, one of the front and one of the back.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Ulusal kimliğinizin biri önden diğeri arkadan olmak üzere iki <0>ayrı fotoğrafı</0> yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maksimum dosya boyutu: 10 MB."
         },
         "passport": {
-          "upload-label": "Upload one photograph of your passport information.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Pasaport bilgilerinizin bir fotoğrafını yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maksimum dosya boyutu: 10 MB."
         },
         "utility-bill": {
-          "upload-label": "Upload one photograph of a recent utility bill.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Yakın tarihli faturanızın bir fotoğrafını yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maksimum dosya boyutu: 10 MB."
         },
         "selfie-with-id": {
-          "upload-label": "Upload one photograph of yourself holding both a piece of paper with ‘cryptocoin.pro’ written on it and your passport or national ID.",
-          "upload-label-format": "File extensions accepted: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maximum file size: 10MB."
+          "upload-label": "Üzerinde ‘cryptocoin. pro’ yazan bir kağıt parçasını ve pasaportunuzu veya ulusal kimliğinizi tuttuğunuz bir fotoğrafınızı yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf</0>. Maksimum dosya boyutu: 10 MB."
         },
         "bank-account": {
-          "bank-address-placeholder": "Enter your bank’s address",
-          "bank-name-placeholder": "Enter your bank’s name",
-          "iban-placeholder": "e.g. DE89 3704 0044 0532 0130 00",
-          "swift-placeholder": "e.g. CLBABU7S"
+          "bank-address-placeholder": "Bankanızın adresini girin",
+          "bank-name-placeholder": "Bankanızın ismini girin",
+          "iban-placeholder": "ör TR89 3704 0044 0532 0130 00",
+          "swift-placeholder": "ör CLBABU7S"
         }
       }
     }
   },
   "funds": {
-    "title": "Funds",
-    "deposit-currency": "Deposit {{currencySymbol}}",
-    "your-currency-balances": "Your {{currencySymbol}} balances",
+    "title": "Varlıklar",
+    "deposit-currency": "{{currencySymbol}} yatır",
+    "your-currency-balances": "{{currencySymbol}} varlığınız",
     "resetting-account": {
-      "title": "Resync your trading contract balance.",
-      "desc": "This will release funds stuck in a ‘Pending’ state. This process will cancel open trade orders.",
-      "button": "Resync account",
-      "resyncing": "Resyncing…",
-      "error": "Resync failed. Please <0>contact support.</0>",
-      "wait-error": "Please wait at least 2 hours after your last deposit before using this page.",
-      "success": "Resync successful!"
+      "title": "Ticaret sözleşmesi bakiyenizi senkronize edin.",
+      "desc": "Bu işlem beklemede olan fonlarınızı serbest bırakacaktır. Bu işlem, açık ticaret emirlerini iptal edecektir.",
+      "button": "Hesabı yeniden senkronize et",
+      "resyncing": "Yeniden senkronize ediliyor…",
+      "error": "Senkronizasyon hatası. Lütfen <0>desteğe başvurun.</0>",
+      "wait-error": "Lütfen bu sayfayı kullanmadan önce son para yatırma işleminizden sonra en az 2 saat bekleyin.",
+      "success": "Yeniden senkronizasyon başarılı."
     },
     "transaction-retry": {
-      "transfers-page-retry-button-title": "Retry transaction",
-      "title": "Retry transactions",
-      "subtitle": "All pending or failed deposits or withdrawals",
-      "actions-title": "Actions",
-      "button-title": "Retry",
-      "button-sending": "Sending…",
-      "button-sent": "Resent",
-      "nothing-to-retry": "You do not have any pending deposits or withdrawals.",
+      "transfers-page-retry-button-title": "İşlemi yeniden dene",
+      "title": "İşlemleri yeniden dene",
+      "subtitle": "Bekleyen veya başarısız olan tüm para yatırma veya çekme işlemleri",
+      "actions-title": "Hareketler",
+      "button-title": "Yeniden dene",
+      "button-sending": "Gönderiliyor…",
+      "button-sent": "Yeniden gönderildi",
+      "nothing-to-retry": "Bekleyen para yatırma veya çekme işleminiz yok.",
       "status": {
-        "title": "Status",
-        "created": "Created",
-        "pending": "Pending"
+        "title": "Durum",
+        "created": "Oluşturulan",
+        "pending": "Beklemede"
       },
-      "fetch-movements-error": "Error fetching your data. Please refresh the page.",
+      "fetch-movements-error": "Verileriniz alınırken hata oluştu. Lütfen sayfayı yenileyin.",
       "table": {
-        "fee": "Fee"
+        "fee": "Ücret"
       }
     },
     "assets": {
-      "title": "Assets",
-      "tabs-info-button": "Learn about sending and receiving funds",
+      "title": "Varlıklar",
+      "tabs-info-button": "Para gönderme ve alma hakkında bilgi edinin",
       "header": {
-        "title": "Assets",
-        "search-placeholder": "Search over 3,000 assets…"
+        "title": "Varlıklar",
+        "search-placeholder": "3.000’den fazla varlık içinde arayın…"
       },
       "transferring-funds": {
-        "title": "Sending and receiving funds",
-        "desc": "Nash Channels let you trade at lightning speed with no blockchain fees and without giving up custody. Send funds to Nash Channels from your Nash wallet.",
-        "learn-more-never-show": "<0>Learn more</0> or <1>never show me this again</1>.",
-        "learn-more": "Learn more",
-        "never-show": "Never show me this again."
+        "title": "Para gönderme ve alma",
+        "desc": "Nash Kanalları, blokzincir ücreti ödemeden ve velayetten vazgeçmeden yıldırım hızında işlem yapmanızı sağlar. Nash cüzdanınızdan Nash Kanallarına para gönderin.",
+        "learn-more-never-show": "<0>Daha fazlası için</0> or <1>tekrar gösterme</1>.",
+        "learn-more": "Daha fazlası için",
+        "never-show": "Tekrar gösterme."
       },
       "table": {
         "header": {
-          "title": "Balances",
+          "title": "Bakiye",
           "actions": {
-            "hide-zero-balances": "Hide zero balances"
+            "hide-zero-balances": "Boş bakiyeleri gizle"
           }
         },
         "claim-gas": {
-          "claiming": "Claiming…",
-          "claim": "Claim GAS",
-          "gas-to-claim": "You have {{amount}} GAS to claim.",
-          "no-gas-to-claim": "You have no GAS to claim.",
-          "claiming-now": "You are currently claiming GAS.",
-          "error-claiming": "Error claiming GAS.",
-          "claiming-locked": "You can claim GAS again in ~{{count}} minute.",
-          "claiming-locked_plural": "You can claim GAS again in ~{{count}} minutes."
+          "claiming": "Talep ediliyor",
+          "claim": "GAS talep et",
+          "gas-to-claim": "Talep edebileceğiniz {{amount}} GAS’a sahipsiniz.",
+          "no-gas-to-claim": "Talep edebileceğiniz GAS bulunmuyor.",
+          "claiming-now": "Şu anda GAS talep ediyorsunuz.",
+          "error-claiming": "GAS talep etme hatası",
+          "claiming-locked": "GAS’ı ~ {{count}} dakika içinde tekrar talep edebilirsiniz.",
+          "claiming-locked_plural": "GAS’ı ~ {{count}} dakika içinde tekrar talep edebilirsiniz."
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Varlık"
           },
           "personal-account": {
-            "title": "Personal account"
+            "title": "Kişisel Hesap"
           },
           "trading-account": {
-            "title": "Trading contract"
+            "title": "Ticaret Sözleşmesi"
           },
           "nash-channels": {
-            "title": "Nash Channels"
+            "title": "Nash Kanalları"
           },
           "in-orders": {
-            "title": "In orders"
+            "title": "Siparişlerde"
           },
           "pending": {
-            "title": "Pending",
-            "hint": "Transfers being processed by the blockchain."
+            "title": "Beklemede",
+            "hint": "Blokzincire işlenmiş transferler."
           },
           "tradeable": {
-            "hint": "This asset is not currently traded on Nash, but you can still withdraw if you have a balance in the trading contract."
+            "hint": "Bu varlık şu anda Nash’te işlem görmüyor, ancak ticaret sözleşmesinde bir bakiyeniz varsa yine de çekebilirsiniz."
           },
           "action-buttons": {
-            "trade": "Trade",
-            "transfer-funds": "Send/Receive",
-            "convert": "Convert",
-            "send": "Send",
-            "receive": "Receive",
-            "nash-channels": "Nash Channels",
-            "nash-channels-untradable": "This asset isn’t tradable in Nash"
+            "trade": "Alım/Satım",
+            "transfer-funds": "Gönder/Al",
+            "convert": "Dönüştür",
+            "send": "Gönder",
+            "receive": "Al",
+            "nash-channels": "Nash Kanalları",
+            "nash-channels-untradable": "Bu varlıkla Nash’te alım-satım yapılamıyor."
           }
         },
-        "no-results": "There are not yet any assets in your Nash account."
+        "no-results": "Nash hesabınızda henüz varlık yok."
       }
     },
     "modals": {
       "verify-mnemonic": {
-        "or": "or",
-        "remindme": "remind me later",
-        "dismiss": "Dismiss forever",
-        "havent-checked": "You haven’t checked your twelve word backup",
-        "will-need": "You’ll need these words to access your funds if you lose your password."
+        "or": "yada",
+        "remindme": "Daha sonra hatırlat",
+        "dismiss": "Tekrar gösterme",
+        "havent-checked": "On iki kelimelik yedeklemenizi henüz kontrol etmediniz",
+        "will-need": "Parolanızı kaybederseniz varlıklarınıza erişmek için bu kelimelere ihtiyacınız olacak."
       },
       "transfer-funds": {
-        "title": "Send/Receive",
+        "title": "Gönder/Al",
         "create": {
           "asset": {
-            "label": "Which asset?",
-            "placeholder": "Search for an asset…"
+            "label": "Hangi varlık ?",
+            "placeholder": "Bir varlık ara…"
           },
           "choose-accounts": {
-            "from": "From",
-            "to": "To"
+            "from": "dan",
+            "to": "a"
           },
-          "exchange-maintenance": "During maintenance you cannot transfer funds to or from the trading contract.",
+          "exchange-maintenance": "Bakım sırasında ticaret sözleşmesine veya ticaret sözleşmesinden para aktaramazsınız.",
           "recipient": {
-            "placeholder": "Enter destination…"
+            "placeholder": "Hedef girin…"
           },
           "contacts": {
-            "label": "Destination",
-            "placeholder": "Search for a contact or send to a new address…",
-            "wallet-address": "Send to ‘{{address}}‘",
+            "label": "Hedef",
+            "placeholder": "Kişi arayın veya yeni bir adrese gönderin…",
+            "wallet-address": "‘{{address}}‘ ’a gönder",
             "button-contacts": "Contacts",
             "select-contact": {
-              "no-options": "Type at least three characters to search for a contact or valid wallet address",
-              "no-results": "No contacts found. This is not a valid address.",
+              "no-options": "Bir kişiyi veya geçerli bir cüzdan adresini aramak için en az üç karakter yazın",
+              "no-results": "Kişi bulunamadı. Bu geçerli bir adres değil.",
               "option": {
-                "no-email": "No email",
-                "no-wallet-name": "No wallet name",
-                "no-wallet-address": "No wallet address"
+                "no-email": "E-posta yok",
+                "no-wallet-name": "Cüzdan ismi yok",
+                "no-wallet-address": "Cüzdan adresi yok"
               }
             }
           },
           "destination-address": {
-            "label": "Destination address",
-            "placeholder": "Send only {{currency}} to this address",
+            "label": "Hedef adres",
+            "placeholder": "Bu adrese yalnızca {{currency}} gönder",
             "errors": {
-              "invalid-wallet": "Invalid address"
+              "invalid-wallet": "Geçersiz adres"
             }
           },
           "movement": {
-            "error": "Please wait until your last Ethereum transfer finishes.",
-            "pending-error": "Please wait until your pending Ethereum transfer completes.",
-            "token-requires-approval": "Approval of {{ amount }} {{ currency }} is required for this token to be transferred to the trading contract.",
-            "too-many-utxo": "Please send your NEO/GAS to yourself to simplify your wallet balance data. You will then be able to deposit to the trading contract."
+            "error": "Lütfen son Ethereum transferiniz bitene kadar bekleyin.",
+            "pending-error": "Lütfen bekleyen Ethereum transferiniz tamamlanana kadar bekleyin.",
+            "token-requires-approval": "Bu varlığın ticaret sözleşmesine aktarılması için {{ amount }} {{ currency }} na ihtiyacınız var.",
+            "too-many-utxo": "Cüzdan bakiye verilerinizi basitleştirmek için lütfen NEO / GAS’ınızı kendinize gönderin. Daha sonra ticaret sözleşmesine para yatırabileceksiniz."
           },
           "transfer-amount": {
-            "label": "Amount to transfer",
-            "network-transaction-fee": "maximum network fee",
-            "loading-fee": "Loading fee…",
+            "label": "Transfer edilecek miktar",
+            "network-transaction-fee": "maximum ağ ücreti",
+            "loading-fee": "Yükleme ücreti",
             "errors": {
-              "gas-shortage": "You need at least {{amount}} {{currencySymbol}} in your personal account to pay network fees.",
-              "fee-shortage": "You must save {{amount}} ETH for the Ethereum network fee.",
-              "fee-shortage-trading": "You need {{amount}} ETH in your personal account for Ethereum network fees."
+              "gas-shortage": "Ağ ücretlerini ödemek için kişisel hesabınızda en az {{amount}} {{currencySymbol}} olmalıdır.",
+              "fee-shortage": "Ethereum ağ ücreti için {{amount}} ETH tutmalısınız.",
+              "fee-shortage-trading": "Ethereum ağ ücretleri için kişisel hesabınızda {{amount}} ETH’ye ihtiyacınız var."
             }
           },
           "btc": {
-            "funds-not-confirmed": "Your Bitcoin balance requires six network confirmations before you can transfer to the trading contract. Please wait while recent transfers confirm.",
-            "wait-until-external-transfer-completes": "Please wait until your recent external transfer completes before making a deposit.",
-            "temporary-limit": "Bitcoin deposits and withdrawals must be greater than 0.001 BTC while we test this new market. The restriction will be lifted in the near future."
+            "funds-not-confirmed": "Alım satım sözleşmesine geçebilmeniz için Bitcoin bakiyeniz altı ağ onayı gerektirir. Lütfen son transferler onaylanırken bekleyin.",
+            "wait-until-external-transfer-completes": "Lütfen para yatırmadan önce son harici transferinizin tamamlanmasını bekleyin.",
+            "temporary-limit": "Bu yeni pazarı test ederken, Bitcoin yatırma ve çekme işlemleri 0,001 BTC’den büyük olmalıdır. Kısıtlama yakın gelecekte kaldırılacaktır."
           },
           "async": {
-            "title": "Transaction update",
+            "title": "İşlem güncellemesi",
             "errors": {
-              "syncing": "We are syncing your {{currencySymbol}} funds in our system. Please wait one minute and try again.",
-              "transaction-failed": "Your last transaction sending {{currencySymbol}} failed. Please try again."
+              "syncing": "Sistemimizdeki {{currencySymbol}} paranızı güncelliyoruz. Lütfen 1 dakika bekleyip tekrar deneyin.",
+              "transaction-failed": "{{currencySymbol}} göndermeye çalıştığınız son işleminiz başarısız oldu. Lütfen tekrar deneyin."
             }
           },
           "fees": {
-            "eth-recommended-message": "Keep {{amount}} ETH in my personal account for future network fees.",
-            "fee-shortage": "You need at least <0>{{amount}}</0> {{currencySymbol}} in your personal account to pay network fees. <1></1> Balance: <0>{{balance}}</0> {{currencySymbol}}"
+            "eth-recommended-message": "Gelecekteki ağ ücretleri için kişisel hesabımda {{amount}} ETH tut.",
+            "fee-shortage": "Ağ ücretlerini ödemek için kişisel hesabınızda en az <0>{{amount}}</0> {{currencySymbol}} ’a ihtiyacınız var. <1></1> Bakiye: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
-            "neo-trading": "You cannot send or withdraw fractional amounts of NEO."
+            "neo-trading": "Kesirli miktarlarda NEO gönderemez veya çekemezsiniz."
           },
           "maximum": {
-            "amount": "Insufficient balance."
+            "amount": "Yetersiz bakiye"
           },
           "deposit": {
-            "label": "Your personal account details",
-            "currency-address": "{{currency}} address",
-            "currency-address-qrcode": "{{currency}} address QR code",
-            "currency-send-warning": "Any assets other than {{currency}} sent to this address will be lost!"
+            "label": "Kişisel hesap detaylarınız",
+            "currency-address": "{{currency}} adresi",
+            "currency-address-qrcode": "{{currency}} addresi QR kod",
+            "currency-send-warning": "Bu adrese gönderilen {{currency}} dışındaki tüm varlıklar kaybolacak!"
           },
           "buttons": {
-            "continue": "Continue",
-            "review": "Review",
-            "sent-funds": "I have sent my funds"
+            "continue": "Devam et",
+            "review": "Gözden geçir",
+            "sent-funds": "Gönderdiğim varlıklar"
           }
         },
         "review": {
           "transfer-details": {
-            "title": "Transfer details",
+            "title": "Transfer detayları",
             "rows": {
-              "amount-label": "You are sending",
-              "from-label": "From",
-              "to-label": "To",
-              "fee-label": "Network fee"
+              "amount-label": "Gönderiyorsunuz",
+              "from-label": "dan",
+              "to-label": "a",
+              "fee-label": "Ağ ücreti"
             }
           },
-          "confirming-balance": "Please wait while we confirm your balance.",
-          "waiting-for-sync": "Your balance is currently syncing with the blockchain. This process can take up to two hours. Please submit your transfer again in a few moments.",
+          "confirming-balance": "Bakiyenizi onaylarken lütfen bekleyin.",
+          "waiting-for-sync": "Bakiyeniz şu anda blokzinciri ile senkronize ediliyor. Bu işlem iki saate kadar sürebilir. Lütfen birkaç dakika sonra transferinizi tekrar deneyin.",
           "errors": {
-            "send": "Failed to send. Please try again later.",
-            "syncing": "Your last transfer requires up to two minutes to complete. Please wait and try again.",
-            "insufficient-funds": "Your current balance is insufficient for this transfer or you currently have a transfer in progress. Please wait and try again."
+            "send": "Gönderilemedi. Lütfen daha sonra tekrar deneyin.",
+            "syncing": "Son transferinizin tamamlanması iki dakika kadar sürebilir. Lütfen bekleyin ve tekrar deneyin.",
+            "insufficient-funds": "Mevcut bakiyeniz bu transfer için yetersiz veya şu anda devam eden bir transferiniz var. Lütfen bekleyin ve tekrar deneyin."
           },
           "buttons": {
-            "back": "Back",
-            "transfer-funds": "Send",
-            "transfer-funds-with-currency": "Send {{currency}}",
-            "transfer-started": "Transfer started",
-            "confirming": "Confirming…"
+            "back": "Geri",
+            "transfer-funds": "Gönder",
+            "transfer-funds-with-currency": "{{currency}} gönder",
+            "transfer-started": "Transfer başlatıldı",
+            "confirming": "Onaylanıyor…"
           }
         },
         "hints": {
-          "btc-gas-hint": "A small network fee is required when performing transactions.",
-          "eth-gas-hint": "A small network fee is required when performing transactions. Fees for Ethereum-based tokens are paid using ETH.",
-          "neo-gas-hint": "A small network fee is usually required when performing transactions. Fees for NEO-based tokens are paid using GAS.",
-          "eth-transfer-hint": "While transfers are pending, the balance shown here may not be accurate."
+          "btc-gas-hint": "İşlemleri gerçekleştirirken küçük bir ağ ücreti gereklidir.",
+          "eth-gas-hint": "İşlemleri gerçekleştirirken küçük bir ağ ücreti gereklidir. Ethereum tabanlı varlıkların ücretleri ETH kullanılarak ödenir.",
+          "neo-gas-hint": "İşlemleri gerçekleştirirken genellikle küçük bir ağ ücreti gereklidir. NEO tabanlı varlıkların ücretleri GAS kullanılarak ödenir.",
+          "eth-transfer-hint": "Transferler beklemedeyken burada gösterilen bakiye doğru olmayabilir."
         },
         "steps": [
-          "Create a transfer",
-          "Review and start transfer"
+          "Transfer oluştur",
+          "Gözden geçir ve transferi başlat"
         ],
         "maybe-approval-steps": [
-          "Create a transfer",
-          "Approval (if necessary)",
-          "Review and start transfer"
+          "Transfer oluştur",
+          "Onay (gerekirse)",
+          "Gözden geçir ve transferi başlat"
         ],
         "approval-steps": [
-          "Create a transfer",
-          "Approval",
-          "Review and start transfer"
+          "Transfer oluştur",
+          "Onay",
+          "Gözden geçir ve transferi başlat"
         ],
         "erc-20": {
-          "approving": "Approving",
-          "title": "Approve transfer",
-          "pre-deposit-info": "Before depositing {{symbol}} to the trading contract, you must first approve a transfer from your account.",
-          "current-approval": "Your current approval to the trading contract is: {{currentErc20Approved}}"
+          "approving": "Onaylanıyor",
+          "title": "Transferi onayla",
+          "pre-deposit-info": "Ticaret sözleşmesine {{symbol}} yatırmadan önce, öncelikle hesabınızdan bir transferi onaylamalısınız.",
+          "current-approval": "Ticaret sözleşmesi için mevcut onayınız: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transfer in progress…",
-          "title-initializing": "Transfer initializing…",
-          "desc": "Visit <0>Transfers</0> to track its status.",
-          "warning": "This can take up to one hour.",
-          "remain-opened": "Please keep Nash open while your transfer initializes. If you close Nash or sign out, it will be paused until you sign in again.",
+          "title": "Transfer devam ediyor…",
+          "title-initializing": "Transfer başlatılıyor…",
+          "desc": "Durumunu takip etmek için <0>Transferler</0> sekmesine gidin.",
+          "warning": "Bu bir saat kadar sürebilir.",
+          "remain-opened": "Transferiniz başlarken lütfen Nash’i açık tutun. Nash’i kapatırsanız veya oturumu kapatırsanız, tekrar oturum açana kadar duraklatılacaktır.",
           "buttons": {
-            "finish": "Got it!"
+            "finish": "Anladım!"
           }
         },
         "volume": {
-          "exceeds-deposit-limit": "Exceeds deposit limit",
-          "upgrade-tier-or-wait": "<0>Upgrade your verification tier</0> to deposit more funds or wait until you fall back below the limit.\n\n Withdrawals are never blocked.",
-          "near-deposit-limit": "This transfer exceeds your deposit limit but will go through. You’ll need to upgrade your verification tier soon!"
+          "exceeds-deposit-limit": "Para yatırma limitini aşıyor",
+          "upgrade-tier-or-wait": "Daha fazla para yatırmak için <0>Doğrulama seviyenizi yükseltin</0> yada limitinizin altına düşene kadar bekleyin. \n\n Para çekme işlemleri asla engellenmez.",
+          "near-deposit-limit": "Bu transfer, para yatırma limitinizi aşıyor ancak geçecek. Yakında doğrulama seviyenizi yükseltmeniz gerekecek!"
         }
       },
       "nash-channels": {
         "explanation": {
-          "title": "On our Layer-2 network\n you always control your funds",
-          "fast-trade": "Lightning-fast cross-chain trading",
-          "trade-without-fees": "Trade without blockchain fees",
-          "nash-cash": "Buy/sell on Nash Cash at 0% fees"
+          "title": "Katman-2 ağımızda paranızın kontrolü her zaman sizdedir.",
+          "fast-trade": "Yıldırım hızında çapraz zincir ticareti",
+          "trade-without-fees": "Blockchain ücretleri olmadan ticaret yapın",
+          "nash-cash": "Nash Cash’te %0 ücretle al/sat"
         },
         "transfer-funds": {
-          "require-approval": "You need to approve {{currency}} before you can deposit to Nash Channels.",
-          "no-funds": "You don’t have any {{currency}} available to {{mode}}.",
-          "no-funds-nash-cash": "<0>Deposit {{currency}}</0> from an external account or purchase at a 0% fee through Nash Cash."
+          "require-approval": "Nash Kanallarına para yatırmadan önce {{currency}} ’yı onaylamanız gerekir.",
+          "no-funds": "{{mode}} için herhangi bir {{currency}}iniz yok.",
+          "no-funds-nash-cash": "Nash Cash üzerinden %0 ücret karşılığında satın al yada harici bir hesaptan <0>{{currency}} yatır</0>."
         }
       },
       "nex-swap": {
         "info": {
-          "title": "Convert NEX between the NEO and Ethereum blockchains",
-          "markets": "Gain access to secondary markets on Ethereum, e.g. Uniswap",
-          "staking": "Stake NEP-5 NEX tokens to receive dividends"
+          "title": "NEO ve Ethereum blok zincirleri arasında NEX’i dönüştürün",
+          "markets": "Ethereum’da ikincil pazarlara erişim kazanın, ör. Uniswap",
+          "staking": "Temettü almak için NEP-5 NEX tokenlerini kilitleyin."
         },
-        "tier-verification": "To convert NEX, please complete <0>Tier 1 verification</0>.",
-        "minimum-amount": "Minimum conversion of {{amount}}",
-        "modal-title": "Convert {{from}} to {{to}}",
-        "convert-with-currency": "Convert {{currency}}",
-        "conversion-started": "Conversion started"
+        "tier-verification": "NEX dönüştürmek için lütfen <0>Seviye1 doğrulama</0> tamamlayın.",
+        "minimum-amount": "Minimum dönüştürme miktarı {{amount}}",
+        "modal-title": "{{from}} {{to}} e dönüştür",
+        "convert-with-currency": "{{currency}} dönüştür",
+        "conversion-started": "Dönüşüm başladı"
       },
       "receive-assets": {
-        "wallet-address": "Wallet address",
-        "only-send-to": "Only send {{currency}} to this address!"
+        "wallet-address": "Cüzdan adresi",
+        "only-send-to": "Bu adrese yalnızca {{currency}} gönderin!"
       },
       "transfer-info": {
-        "title": "Funds can be transferred as follows",
-        "notice": "You can only trade on the Nash Exchange once you have sent funds to the trading contract.",
+        "title": "Varlıklar aşağıdaki şekilde transfer edilebilir",
+        "notice": "Sadece Ticaret sözleşmesine para gönderdikten sonra Nash Borsası’nda işlem yapabilirsiniz.",
         "actions": {
-          "action-1": "You <0>can</0> move funds back and forth between your personal account and external accounts.",
-          "action-2": "Likewise, you <0>can</0> move funds back and forth between your personal account and the trading contract.",
-          "action-3": "You <0>cannot</0> move funds between the trading contract and external accounts without going through your personal account. This helps us keep funds used for trading secure: it’s always you depositing and withdrawing."
+          "action-1": "Kişisel hesabınız ile harici hesap arasında varlıklarınızı <0>transfer edebilirsiniz</0>",
+          "action-2": "Aynı şekilde Kişisel hesabınız ile Ticaret hesabınız arasında varlıklarınızı <0>transfer edebilirsiniz</0>.",
+          "action-3": "Kişisel hesabınızdan geçmeden ticaret sözleşmesi ve harici hesaplar arasında <0>transfer edemezsiniz</0>."
         },
-        "continue-button": "OK, continue",
-        "dismiss-link": "Dismiss forever and continue"
+        "continue-button": "TAMAM, devam et.",
+        "dismiss-link": "Tekrar gösterme ve devam et."
       },
       "select-asset": {
-        "search-placeholder": "Search over 3,000 assets…",
-        "title-receive": "Select an asset to receive",
-        "title-send": "Select an asset to send",
-        "show-usd-value": "Show USD value",
-        "available-balance": "Available balance",
+        "search-placeholder": "3.000’den fazla varlık içinde arayın…",
+        "title-receive": "Almak için bir varlık seçin",
+        "title-send": "Göndermek için bir varlık seçin",
+        "show-usd-value": "USD değerini göster",
+        "available-balance": "Kalan bakiye",
         "groups": {
-          "yours": "Your assets",
-          "popular": "Popular assets",
-          "other": "Other assets"
+          "yours": "Valıklarınız",
+          "popular": "Popüler varlıklar",
+          "other": "Diğer varlıklar"
         }
       }
     },
     "transactions": {
-      "title": "Transfers",
-      "show-more-transactions": "Show more transfers",
-      "search-my-transactions": "Search my transfers…",
-      "no-transactions": "You haven’t made any transfers yet.",
+      "title": "Transferler",
+      "show-more-transactions": "Daha fazla transferi göster",
+      "search-my-transactions": "Transferlerimde ara…",
+      "no-transactions": "Henüz herhangi bir transfer yapmadınız!",
       "table": {
         "header": {
-          "title": "All deposits, withdrawals and contract transfers"
+          "title": "Tüm para yatırma,çekme ve sözleşme hesabı transferleri."
         },
         "when": {
-          "title": "When"
+          "title": "Tarih"
         },
         "action": {
-          "title": "Action",
+          "title": "Hareket",
           "status": {
-            "completed": "Complete",
-            "pending": "Pending",
-            "pending-with-confirmations": "{{confirmations}}/{{denominator}} confirmations"
+            "completed": "Tamamlanan",
+            "pending": "Beklemede",
+            "pending-with-confirmations": "{{confirmations}}/{{denominator}} onaylamalar"
           },
-          "view-transaction": "View transaction",
-          "retry-pending": "Retry sending transaction",
-          "cancel-intent": "Cancel transfer",
-          "clear-intent": "Clear transfer",
-          "unlock-account": "Unlock session",
-          "contact-support": "Please contact support",
-          "received-currency": "Received {{currencySymbol}}",
-          "receiving-currency": "Receiving {{currencySymbol}}",
-          "transferred-currency": "Sent {{currencySymbol}}",
-          "transferring-currency": "Sending {{currencySymbol}}",
-          "initializing-currency": "Initializing {{currencySymbol}} transfer",
-          "waiting-to-witness": "Waiting for {{currencySymbol}} transfer",
-          "locked-initializing": "{{currencySymbol}} transfer needs unlocked session",
-          "failed-permanently": "{{currencySymbol}} transfer failed"
+          "view-transaction": "İşlemi göster",
+          "retry-pending": "Gönderme işlemini tekrar dene",
+          "cancel-intent": "Transferi iptal et",
+          "clear-intent": "Transferi temizle",
+          "unlock-account": "Oturum kilidini aç",
+          "contact-support": "Lütfen desteğe başvurun.",
+          "received-currency": "{{currencySymbol}} alındı",
+          "receiving-currency": "{{currencySymbol}} alınıyor",
+          "transferred-currency": "{{currencySymbol}} gönderildi",
+          "transferring-currency": "{{currencySymbol}} gönderiliyor",
+          "initializing-currency": "{{currencySymbol}} transferi başlatılıyor",
+          "waiting-to-witness": "{{currencySymbol}} transferi bekleniyor",
+          "locked-initializing": "{{currencySymbol}} transferi için oturumun kilidini açmalısınız",
+          "failed-permanently": "{{currencySymbol}} transferi başarısız"
         },
         "destination": {
-          "title": "Destination",
+          "title": "Hedef",
           "nash-account": "Nash",
           "to": {
-            "trading-account": "Trading contract",
-            "personal-account": "Personal account",
-            "nash-fiat-ramp": "Sell to Nash",
-            "staking-account": "NEX staking contract",
-            "nex-swap": "NEX swap contract",
-            "fees": "Fees"
+            "trading-account": "Ticaret sözleşmesi",
+            "personal-account": "Kişisel hesap",
+            "nash-fiat-ramp": "Nash’e sat",
+            "staking-account": "NEX kilit sözleşmesi",
+            "nex-swap": "NEX takas sözleşmesi",
+            "fees": "Ücretler"
           },
           "from": {
-            "trading-account": "From the trading contract",
-            "personal-account": "From my personal account",
-            "nash-fiat-ramp": "Purchase from Nash",
-            "nex-swap": "From NEX swap contract",
-            "external-address": "From <0 />"
+            "trading-account": "Ticaret sözleşmesinden",
+            "personal-account": "Kişisel hesabımdan",
+            "nash-fiat-ramp": "Nash’ten satın al",
+            "nex-swap": "NEX takas sözleşmesinden",
+            "external-address": "<0 /> dan"
           }
         },
         "amount": {
-          "title": "Amount"
+          "title": "Miktar"
         }
       }
     },
     "portfolio": {
-      "title": "Portfolio",
+      "title": "Portföy",
       "header": {
-        "search-placeholder": "Search my assets…",
-        "search-placeholder-transfer-redesign": "Search assets…"
+        "search-placeholder": "Varlıklarımda ara…",
+        "search-placeholder-transfer-redesign": "Varlıkları ara…"
       },
       "table": {
         "header": {
-          "title": "My assets",
-          "title-transfer-redesign": "Assets",
+          "title": "Varlıklarım",
+          "title-transfer-redesign": "Varlıklar",
           "actions": {
-            "hide-small-balances": "Hide small balances"
+            "hide-small-balances": "Küçük bakiyeleri gizle"
           }
         },
         "columns": {
           "asset": {
-            "title": "Asset"
+            "title": "Varlık"
           },
           "total-balance": {
-            "title": "Total",
-            "title-transfer-redesign": "Total/value",
-            "hint": "Total across all accounts, orders and stakes."
+            "title": "Toplam",
+            "title-transfer-redesign": "Toplam/Değer",
+            "hint": "Tüm hesaplar, emirler ve kilitlemeler için toplam."
           },
           "fiat-value": {
-            "title": "Value ({{fiatCurrency}})"
+            "title": "({{fiatCurrency}}) değeri"
           },
           "price": {
-            "title": "Price/24h change"
+            "title": "24S fiyat değişikliği"
           },
           "allocation-percent": {
-            "title": "Allocation",
-            "hint": "The percentage of your portfolio held in each asset."
+            "title": "Ödeme",
+            "hint": "Her bir varlıkta tutulan portföyünüzün yüzdesi."
           },
           "action-buttons": {
-            "trade": "Trade"
+            "trade": "Alım-Satım"
           }
         },
-        "no-results-problem": "Your Nash account is currently empty.",
-        "no-results-solution": "<0>Send/Receive</0> funds to get started."
+        "no-results-problem": "Nash hesabınız şu anda boş",
+        "no-results-solution": "Başlamak için varlık <0>Gönder/Al</0>"
       },
       "balances": {
         "header": {
-          "title": "Portfolio",
-          "hint": "The total value of your assets and 24-hour change."
+          "title": "Portföy",
+          "hint": "Varlıklarınızın toplam değeri ve 24 saatlik değişim."
         },
-        "total": "Total",
+        "total": "Toplam",
         "available": {
-          "title": "Available",
-          "hint": "You are able to move these funds. They are either in your personal account or the trading contract. Funds that are not available are either locked in unfilled orders or NEX stakes, or are currently in the process of being transferred."
+          "title": "Mevcut",
+          "hint": "Bu fonlarınızı taşıyabilirsiniz. Bunlar ya kişisel hesabınızda ya da ticaret sözleşmenizdedir. Kullanılamayan fonlar ya doldurulmamış siparişlerde ya da NEX hisselerinde kilitlenmiştir ya da şu anda transfer sürecindedir."
         },
-        "transfer-funds": "Send/Receive"
+        "transfer-funds": "Gönder/Al"
       },
       "chart": {
         "header": {
-          "title": "Total asset value",
-          "hint": "Track how the value of your portfolio has changed over time."
+          "title": "Toplam varlık değeri",
+          "hint": "Portföyünüzün değerinin zaman içinde nasıl değiştiğini izleyin."
         },
         "period": {
-          "6M": "6M",
-          "1M": "1M",
-          "7D": "1w",
-          "1D": "24h"
+          "6M": "6A",
+          "1M": "1A",
+          "7D": "1h",
+          "1D": "24s"
         },
         "empty": {
-          "heading": "Your portfolio is currently empty",
-          "body": "<0>Send/Receive</0> funds or <1>buy from our partners</1> to get started."
+          "heading": "Portföyünüz şu anda boş",
+          "body": "Başlamak için fon <0>Gönder/Al</0> yada <1>ortaklarımızdan al</1>."
         }
       },
       "total-balance": {
         "header": {
-          "title": "Balances",
-          "hint": "You are in complete control of all these funds."
+          "title": "Bakiyeler",
+          "hint": "Tüm bu fonların tam kontrolü sizdedir."
         },
-        "available-assets": "Available assets",
-        "in-personal": "Personal account",
-        "in-trading": "Trading contract",
-        "in-unfilled-orders": "Unfilled orders",
-        "in-stake": "Staked NEX",
-        "learn-more": "Learn more"
+        "available-assets": "Mevcut varlıklar",
+        "in-personal": "Kişisel hesap",
+        "in-trading": "Ticaret sözleşmesi",
+        "in-unfilled-orders": "Henüz dolmamış emirler",
+        "in-stake": "Kilitlenen NEX",
+        "learn-more": "Daha fazla bilgi"
       }
     }
   },
   "fees": {
-    "title": "Network fee",
-    "title_plural": "Network fees",
+    "title": "Ağ ücreti",
+    "title_plural": "Ağ ücretleri",
     "error": {
-      "general": "Could not load fees."
+      "general": "Ücretler yükelenemedi."
     },
     "options": {
-      "fast": "Fast",
-      "standard": "Standard",
-      "slow": "Slow (safe)"
+      "fast": "Hızlı",
+      "standard": "Normal",
+      "slow": "Yavaş (güvenli)"
     }
   },
   "markets": {
-    "title": "Markets",
-    "all": "All",
-    "faves": "Favorites",
-    "volume-short": "vol.",
+    "title": "Piyasalar",
+    "all": "Tümü",
+    "faves": "Favoriler",
+    "volume-short": "hac.",
     "usd": "USD",
-    "none": "None",
+    "none": "Yok",
     "g100": ">{{value}}",
     "columns": {
-      "rank": "Rank",
-      "asset": "Asset",
-      "last-price": "Last price",
-      "change": "Change",
-      "market-cap": "Market cap",
-      "volume": "Volume",
-      "pair": "Pair",
-      "current-buy": "Current buy",
-      "current-sell": "Current sell",
-      "current-spread": "Spread",
-      "1d-change": "24h change",
-      "1d-high": "24h high",
-      "1d-low": "24h low",
-      "1d-volume": "24h volume",
-      "1d-chart": "24h chart",
-      "1w-change": "1w change",
-      "1w-high": "1w high",
-      "1w-low": "1w low",
-      "1w-volume": "1w volume",
-      "1w-chart": "1w chart",
-      "1m-change": "1M change",
-      "1m-high": "1M high",
-      "1m-low": "1M low",
-      "1m-chart": "1M chart",
-      "1m-volume": "1M volume"
+      "rank": "Sıra",
+      "asset": "Varlık",
+      "last-price": "Son fiyat",
+      "change": "Değişim",
+      "market-cap": "Market hacmi",
+      "volume": "Hacim",
+      "pair": "Çift",
+      "current-buy": "Güncel alış",
+      "current-sell": "Güncel satış",
+      "current-spread": "Sapma",
+      "1d-change": "24s değişim",
+      "1d-high": "24s en yüksek",
+      "1d-low": "24s en düşük",
+      "1d-volume": "24s hacim",
+      "1d-chart": "24s grafik",
+      "1w-change": "1h değişim",
+      "1w-high": "1h en yüksek",
+      "1w-low": "1h en düşük",
+      "1w-volume": "1h hacim",
+      "1w-chart": "1h grafik",
+      "1m-change": "1A değişim",
+      "1m-high": "1A en yüksek",
+      "1m-low": "1A en düşük",
+      "1m-chart": "1A grafik",
+      "1m-volume": "1A hacim"
     },
     "buttons": {
-      "trade": "Trade"
+      "trade": "Alım-Satım"
     },
     "trade-frequency": {
-      "1h": "1h",
-      "1m": "1m",
-      "1M": "1M",
-      "1W": "1w",
-      "24h": "24h",
-      "3M": "3M",
-      "6M": "6M"
+      "1h": "1s",
+      "1m": "1d",
+      "1M": "1A",
+      "1W": "1h",
+      "24h": "24s",
+      "3M": "3A",
+      "6M": "6A"
     },
     "search-placeholder": "Search for a market…",
     "individual-assets": {
-      "title": "Individual assets",
-      "header": "Individual assets listed on Nash"
+      "title": "Bireysel varlıklar",
+      "header": "Nash’te listelenen bireysel varlıklar"
     },
     "asset-pairs": {
-      "title": "Asset pairs",
-      "header": "All asset pairs traded on Nash Exchange"
+      "title": "Varlık çiftleri",
+      "header": "Nash Borsasında işlem gören tüm varlık çiftleri"
     },
-    "no-results": "No results for this period.",
+    "no-results": "Bu dönem için sonuç yok.",
     "miscellaneous": {
-      "vol": "vol."
+      "vol": "hac."
     }
   },
   "modals": {
     "transfer-funds": {
-      "what-asset": "Which asset?",
-      "select-asset": "Select an asset",
-      "transfer-from": "From",
-      "to-destination": "To",
-      "send-only-currency": "Send only {{currency}} to this address",
-      "transfer-details": "Transfer details",
-      "you-are-transfering": "You are transferring",
-      "you-are-sending": "You are sending",
-      "enter-2fa-code": "Enter your two-factor authentication code",
-      "transfer-funds": "Send/Receive",
-      "create-transfer": "Create transfer",
-      "review-and-start-transfer": "Review and start transfer",
-      "transfer-has-started": "Your transfer has started",
-      "check-tranfer-info-part1": "You can check the progress of your transfer in the",
-      "check-tranfer-info-link": "Transactions",
-      "check-tranfer-info-part2": "section of ‘Funds’.",
-      "external-address": "External address",
-      "asset-to-transfer": "Asset to transfer",
-      "transfer-funds-to-external": "Send funds to an external address",
-      "send-funds": "Send funds",
-      "withdrawal-details": "Withdrawal details",
-      "to-external-address": "To external address",
-      "request-sent-to-blockchain": "Your transfer request has been sent to the blockchain.",
-      "no-funds": "You don’t have any {{currency}} in your {{account}} to {{movementType}}.",
+      "what-asset": "Hangi varlık?",
+      "select-asset": "Varlık seç",
+      "transfer-from": "dan",
+      "to-destination": "a",
+      "send-only-currency": "Bu adrese yalnızca {{currency}} gönderin",
+      "transfer-details": "Transfer detayları",
+      "you-are-transfering": "Transfer ediyorsunuz",
+      "you-are-sending": "Gönderiyorsunuz",
+      "enter-2fa-code": "İki adımlı doğrulama kodunuzu girin",
+      "transfer-funds": "Gönder/Al",
+      "create-transfer": "Transfer oluştur",
+      "review-and-start-transfer": "Transferi gözden geçir ve başlat",
+      "transfer-has-started": "Trasnferiniz başlatıldı",
+      "check-tranfer-info-part1": "Transferinizin ilerleyişini buradan kontrol edebilirsiniz:",
+      "check-tranfer-info-link": "İşlemler",
+      "check-tranfer-info-part2": "‘Fonlar’ bölümü.",
+      "external-address": "Harici adres",
+      "asset-to-transfer": "Aktarılacak varlık",
+      "transfer-funds-to-external": "Harici bir adrese fon aktarın",
+      "send-funds": "Fonları gönder",
+      "withdrawal-details": "Çekme detayları",
+      "to-external-address": "Harici adrese",
+      "request-sent-to-blockchain": "Transfer talebiniz blokzincire gönderildi.",
+      "no-funds": "{{movementType}} için {{account}} da hiç {{currency}} yok.",
       "auto-close": {
-        "disclaimer": "This window will automatically close once your transfer has started.",
-        "countdown": "Closing in {{seconds}}…"
+        "disclaimer": "Transferiniz başladığında bu pencere otomatik olarak kapanacaktır.",
+        "countdown": "{{seconds}} içinde kapanacak…"
       }
     },
     "receive-funds": {
-      "asset-to-receive": "Asset to receive",
-      "address-to-receive-currency": "This is your address to receive {{currency}}",
-      "receive-funds-from-external": "Receive funds from an external wallet"
+      "asset-to-receive": "Alınacak varlık…",
+      "address-to-receive-currency": "{{currency}} almak için adresiniz.",
+      "receive-funds-from-external": "Harici bir cüzdandan varlık alın"
     },
     "available-funds": {
-      "available-amount-send": "Available to send",
-      "available-amount-nash-channels-deposit": "Available to deposit",
-      "available-amount-nash-channels-withdraw": "Available to withdraw",
-      "available-amount-convert": "Available to convert",
+      "available-amount-send": "Gönderilebilir",
+      "available-amount-nash-channels-deposit": "Yatırılabilir",
+      "available-amount-nash-channels-withdraw": "Çekilebilir",
+      "available-amount-convert": "Dönüştürülebilir",
       "wallets": {
-        "personal-account": "Personal account",
-        "nash-channels": "Nash Channels",
-        "in-orders": "In orders",
-        "pending": "Pending"
+        "personal-account": "Kişisel hesap",
+        "nash-channels": "Nash Kanalları",
+        "in-orders": "Emirlerde",
+        "pending": "Beklemede"
       }
     },
     "wallet-type": {
-      "personal": "My personal wallet",
-      "trading": "Trading contract",
-      "external": "An external wallet"
+      "personal": "Kişisel cüzdanım",
+      "trading": "Ticaret söleşmesi",
+      "external": "Harici cüzdan"
     },
     "common": {
-      "continue-and-review": "Continue",
-      "finish": "Finish"
+      "continue-and-review": "Devam et",
+      "finish": "Bitir"
     },
     "form-amount": {
-      "amount-to-transfer": "Amount",
-      "recipients-address": "Recipient’s address",
-      "enter-their-wallet": "Enter their wallet address",
-      "check-destination-title": "Check your destination address twice.",
-      "check-destination-description": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "amount-to-transfer": "Miktar",
+      "recipients-address": "Alıcı adresi",
+      "enter-their-wallet": "Cüzdan adresini girin",
+      "check-destination-title": "Alıcı adresinizi iki kez kontrol edin!",
+      "check-destination-description": "Fonlarınızı yanlış adrese göndermek, bu fonları sonsuza kadar kaybedeceğiniz anlamına gelir."
     },
     "form-wallet": {
-      "confirmations": "Confirmations",
-      "confirmations-count": "This token will take {{confirmationsCount}} confirmations to appear in your wallet. You can view the status of your deposit under ‘Funds > Transactions’."
+      "confirmations": "Onaylamalar",
+      "confirmations-count": "Bu tokenin cüzdanınızda görünmesi için {{confirmationsCount}} onay alacaktır. Depozitonuzun durumunu ‘Fonlar> İşlemler’ altında görüntüleyebilirsiniz."
     },
     "send-confirmation-box": {
-      "only-send-one-asset": "Only send {{currency}} to this address.",
-      "only-send-multiple-asset": "Only send {{currenciesWithoutLast}} or {{lastCurrency}} assets to this address.",
-      "you-can-lose-funds": "Sending funds to the wrong address will mean that you lose those funds forever."
+      "only-send-one-asset": "Bu adrese yalnızca {{currency}} gönderin.",
+      "only-send-multiple-asset": "Bu adrese yalnızca {{currenciesWithoutLast}} yada {{lastCurrency}} gönderin.",
+      "you-can-lose-funds": "Fonlarınızı yanlış adrese göndermek, bu fonları sonsuza kadar kaybedeceğiniz anlamına gelir."
     },
     "password": {
-      "title": "Enter credentials",
-      "secret-title": "Unlock your secret keys"
+      "title": "Bilgilerinizi girin",
+      "secret-title": "Gizli anahtarlarınızın kilidini açın"
     },
     "updated-terms": {
-      "title": "Terms and conditions",
+      "title": "Şartlar ve koşullar",
       "terms": {
         "names": {
-          "privacy-notice": "Privacy Notice",
-          "user-agreement": "User Agreement"
+          "privacy-notice": "Gizlilik bildirimi",
+          "user-agreement": "Kullanıcı sözleşmesi"
         },
-        "desc": "Please read and accept our latest {{termsName}}.",
-        "message": "I accept the latest <0>{{termsName}}</0>."
+        "desc": "Lütfen en son yayınlanan {{termsName}} belgemizi okuyup kabul edin.",
+        "message": "<0>{{termsName}}</0> okudum ve kabul ediyorum."
       },
-      "confirm-notice": "If you do not accept the above terms and conditions, you will not be able to continue using Nash services.",
-      "confirm-button": "Confirm",
-      "sign-out-link": "Sign me out",
+      "confirm-notice": "Yukarıdaki hüküm ve koşulları kabul etmezseniz, Nash hizmetlerini kullanmaya devam edemezsiniz.",
+      "confirm-button": "Onayla",
+      "sign-out-link": "Çıkış yap",
       "errors": {
-        "generic-error": "An error has occurred. Please retry."
+        "generic-error": "Bir hata oluştu. Lütfen tekrar deneyiniz."
       }
     },
     "search-contact": {
-      "empty-list": "You don’t have any contacts to select from!",
-      "wallet": "{{count}} wallet",
-      "wallet_plural": "{{count}} wallets"
+      "empty-list": "Seçim yapabileceğiniz kişi henüz yok!",
+      "wallet": "{{count}} cüzdan",
+      "wallet_plural": "{{count}} cüzdanlar"
     }
   },
   "orders": {
     "cards": {
-      "in-progress": "Orders in progress",
-      "24h": "24h",
-      "available": "Available to trade",
-      "reserved": "In orders"
+      "in-progress": "Devam eden emirler",
+      "24h": "24s",
+      "available": "Alım-satım için uygun",
+      "reserved": "Emirlerde"
     }
   },
   "referrals": {
-    "title": "Referral program",
+    "title": "Referans programı",
     "referrals": {
-      "desc": "The more tickets you earn, the higher chance you have of winning.",
-      "affiliates-portal-link": "Go to your Affiliates portal",
+      "desc": "Ne kadar çok bilet kazanırsanız, kazanma şansınız o kadar yüksek olur.",
+      "affiliates-portal-link": "Satış Ortakları portalınıza gidin",
       "cards": {
         "social-share": {
-          "label": "Share your referral code:",
-          "activated-count": "{{count}} activated ticket",
-          "pending-count": "{{count}} pending ticket",
-          "pending-count_plural": "{{count}} pending tickets",
-          "message": "Use my referral code {{url}} to sign up for the @nashsocial giveaway! #TrustYourselves {{ytLink}}"
+          "label": "Referans kodunuzu paylaşın:",
+          "activated-count": "{{count}} aktif bilet",
+          "pending-count": "{{count}} bekleyen bilet",
+          "pending-count_plural": "{{count}} bekleyen biletler",
+          "message": "@Nashsocial ödül sistemine kaydolmak için referans kodumu {{url}} kullanın! #TrustYourselves {{ytLink}}"
         },
         "info": {
-          "title-0": "Invite friends to earn commission sooner!",
-          "subtitle-0": "With more volume, you’ll qualify as a Rising Star and start earning commission.",
-          "title-20": "Invite friends to enjoy higher rewards!",
-          "subtitle-20": "With more volume, you’ll qualify as a VIP and earn higher commission rates.",
-          "title-25": "Invite friends to earn more rewards!",
-          "subtitle-25": "The more friends you have trading, the more 25% rewards you’ll receive.",
-          "watch-video-or-learn-more": "<0>Watch the video</0> or <1>learn more</1>"
+          "title-0": "Arkadaşlarınızı komisyon kazanmaya davet edin!",
+          "subtitle-0": "Daha fazla hacimle Yükselen Yıldız(Rising Star) olmaya hak kazanır ve komisyon kazanmaya başlarsınız.",
+          "title-20": "Arkadaşlarınızı daha yüksek ödüllerin keyfini çıkarmaya davet edin!",
+          "subtitle-20": "Daha fazla hacimle, VIP olmaya hak kazanır ve daha yüksek komisyon oranları kazanırsınız.",
+          "title-25": "Arkadaşlarınızı daha fazla ödül kazanmaya davet edin!",
+          "subtitle-25": "Ne kadar çok arkadaşın alım-satım yaparsa,%25 ödülden o kadar çok kazanırsınız.",
+          "watch-video-or-learn-more": "<0>Videoyu izleyin</0> yada <1>daha fazlasını öğrenin</1>"
         }
       }
     }
   },
   "settings": {
-    "title": "My account",
-    "save-settings": "Save settings",
+    "title": "Hesabım",
+    "save-settings": "Ayarları kaydet",
     "kyc": {
-      "state-label": "State",
-      "rejected": "Tier 1 status denied",
-      "rejected-subtitle": "Unfortunately, you will not be able to proceed any further. If you believe this is a mistake, please contact our <0>support team.</0>",
+      "state-label": "Durum",
+      "rejected": "Seviye1 reddedildi",
+      "rejected-subtitle": "Maalesef daha fazla ilerleyemeyeceksiniz. Bunun hata olduğunu düşünüyorsanız, lütfen <0>desteğe başvurun</0>",
       "details": {
         "missing_signature": {
-          "title": "Missing signature",
-          "content": "Your identity document must display your signature."
+          "title": "Eksik imza",
+          "content": "Kimlik belgeniz imzanızı göstermelidir."
         },
         "digital_copy": {
-          "title": "Original required",
-          "content": "We detected a digital copy of your identity document. Please try again with the original document."
+          "title": "Orjinali gerekir.",
+          "content": "Kimlik belgenizin dijital bir kopyasını tespit ettik. Lütfen orijinal belgeyle tekrar deneyin."
         },
         "ip_address_is_proxy": {
-          "title": "Proxy detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "Proxy algılandı",
+          "content": "Belgelerinizi bir proxy IP adresinden gönderemezsiniz. Lütfen Proxy/VPN hizmetlerini devre dışı bırakın."
         },
         "birthdate_invalid_on_id": {
-          "title": "Invalid date of birth",
-          "content": "The date of birth on your identity document is invalid."
+          "title": "Geçersiz doğum tarihi",
+          "content": "Kimlik belgenizdeki doğum tarihi geçersiz."
         },
         "no_face_present": {
-          "title": "No face detected",
-          "content": "We could not detect your face in the image your provided."
+          "title": "Yüz algılanmadı",
+          "content": "Gönderdiğiniz resimde yüzünüzü tespit edemedik."
         },
         "photocopy_black_white": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Orjinali gerekli",
+          "content": "Kimlik belgenizin bir fotokopisini/kopyasını tespit ettik. Lütfen orijinal belgeyle tekrar deneyin."
         },
         "wrong_document_page": {
-          "title": "Incorrect page",
-          "content": "Your identity document is not displaying the correct page."
+          "title": "Yanlış sayfa",
+          "content": "Kimlik belgeniz doğru sayfayı göstermiyor."
         },
         "different_persons_shown": {
-          "title": "Different people",
-          "content": "Your identity document and selfie show different people."
+          "title": "Farklı kişi",
+          "content": "Kimlik belgeniz ve özçekiminiz farklı insanları gösteriyor."
         },
         "damaged_document": {
-          "title": "Damaged document",
-          "content": "Your identity document is damaged."
+          "title": "Hasarlı belge",
+          "content": "Dökümanınız hasarlı görünüyor."
         },
         "identity_verification_too_many_attempts": {
-          "title": "Too many attempts",
-          "content": "You have submitted too many verification attempts"
+          "title": "Çok fazla deneme…",
+          "content": "Çok fazla doğrulama denemesi yaptınız."
         },
         "unknown_error": {
-          "title": "Something went wrong!",
-          "content": "We have encountered an unexpected error!"
+          "title": "Birşeyler ters gitti!",
+          "content": "Beklenmedik bir hatayla karşılaştık!"
         },
         "no_document": {
-          "title": "Document not found",
-          "content": "We could not find an identity document in the image you provided."
+          "title": "Belge bulunamadı",
+          "content": "Sağladığınız resimde bir kimlik belgesi bulamadık."
         },
         "multiple_people": {
-          "title": "Multiple people detected",
-          "content": "We detected multiple people in the image your provided. You must be the only person in the image."
+          "title": "Birden fazla kişi algılandı",
+          "content": "Sağladığınız resimde birden fazla kişi tespit ettik. Resimdeki tek kişi siz olmalısınız."
         },
         "BLURRED": {
-          "title": "Blurred image",
-          "content": "The image you provided is blurred."
+          "title": "Bulanık görüntü",
+          "content": "Sağladığınız görüntü bulanık"
         },
         "sample_document": {
-          "title": "Original required",
-          "content": "We detected that your identity document is only a sample. Please try again with an original document."
+          "title": "Orjinal gerekli",
+          "content": "Belgenizin sadece bir örnek olduğunu tespit ettik. Lütfen orijinal bir belgeyle tekrar deneyin."
         },
         "photocopy_color": {
-          "title": "Original required",
-          "content": "We detected a photocopy of your identity document. Please try again with the original document."
+          "title": "Orjinal gerekli",
+          "content": "Belgenizin bir fotokopisini tespit ettik. Lütfen orijinal belgeyle tekrar deneyin."
         },
         "liveness_failed": {
-          "title": "Liveness test failed",
-          "content": "We could not determine that a real person is present in the image your provided."
+          "title": "Canlılık testi başarısız oldu",
+          "content": "Sağladığınız resimde gerçek bir kişinin bulunduğunu belirleyemedik."
         },
         "ip_address_is_crawler": {
-          "title": "Crawler detected",
-          "content": "We identified your IP address as a web crawler. Please try again from a different IP."
+          "title": "Tarayıcı algılandı",
+          "content": "IP adresinizi bir web tarayıcısı olarak belirledik. Lütfen farklı bir IP’den tekrar deneyin."
         },
         "missing_part_document": {
-          "title": "Incomplete document",
-          "content": "Part of your identity document is missing."
+          "title": "Eksik belge",
+          "content": "Kimlik belgenizin bir kısmı eksik."
         },
         "ip_address_and_address_mismatch": {
-          "title": "IP mismatch",
-          "content": "Your IP address must match the location you provided."
+          "title": "IP uyumsuzluğu",
+          "content": "IP adresiniz, sağladığınız konumla eşleşmelidir."
         },
         "ip_address_is_tor": {
-          "title": "TOR detected",
-          "content": "You may not submit your documents from a proxy IP address. Please deactivate proxy/VPN services."
+          "title": "TOR tespit edildi",
+          "content": "Belgelerinizi bir proxy IP adresinden gönderemezsiniz. Lütfen Proxy/VPN hizmetlerini devre dışı bırakın."
         },
         "bad_quality": {
-          "title": "Poor quality",
-          "content": "The quality of the image you provided is too poor."
+          "title": "Kötü kalite",
+          "content": "Sağladığınız görüntünün kalitesi çok düşük."
         },
         "camera_black_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Siyah ve beyaz",
+          "content": "Kameranız siyah beyaza ayarlanmış görünüyor. Lütfen rengini değiştirin."
         },
         "not_readable_document": {
-          "title": "Document unreadable",
-          "content": "The identity document you provided is unreadable."
+          "title": "Belge okunamıyor",
+          "content": "Sağladığınız kimlik belgesi okunamıyor."
         },
         "black_and_white": {
-          "title": "Black and white",
-          "content": "Your camera appears to be set to black and white. Please change it to color."
+          "title": "Siyah ve beyaz",
+          "content": "Kameranız siyah beyaza ayarlanmış görünüyor. Lütfen rengini değiştirin."
         },
         "hidden_part_document": {
-          "title": "Document obscured",
-          "content": "Part of your identity document is hidden."
+          "title": "Belge gizlenmiş",
+          "content": "Sağladığınız belgenin bir kısmı görünmüyor"
         },
         "missing_back": {
-          "title": "Document back required",
-          "content": "You did not provide an image of the back of your document."
+          "title": "Belgenin geri alınması bekleniyor.",
+          "content": "Belgenizin arka yüzünün görüntüsünü sağlamadınız."
         },
         "face_not_fully_visible": {
-          "title": "Face obscured",
-          "content": "Your face is not fully visible in the image you provided."
+          "title": "Belirsiz yüz",
+          "content": "Sağladığınız resimde yüzünüz tam olarak görünmüyor."
         }
       },
       "steps": [
@@ -3769,268 +3769,268 @@
         "Address details",
         "Confirm details"
       ],
-      "invalid-age-error": "You must enter a valid date of birth.",
-      "missing-age-error": "You must enter your date of birth.",
-      "age-restriction-error": "You must be at least eighteen years old.",
-      "name-error": "You must enter a name.",
-      "title": "We need a few details from you",
-      "topnav-back-button": "Back to limits",
-      "country": "Country",
-      "waiting": "Verifying…",
-      "waiting-subtitle": "This can take a few minutes. You may leave this page.",
-      "topnav-title": "Tier 1 verification",
-      "contact-support-label": "<0>Contact support</0> to change",
-      "confirm-button-label": "Confirm your details",
+      "invalid-age-error": "Geçerli bir doğum tarihi girmelisiniz.",
+      "missing-age-error": "Doğum tarihinizi girmelisiniz.",
+      "age-restriction-error": "En az on sekiz yaşında olmalısınız.",
+      "name-error": "Bir isim girmelisiniz.",
+      "title": "Sizinle ilgili birkaç ayrıntıya ihtiyacımız var",
+      "topnav-back-button": "Limitlere geri dön",
+      "country": "Ülke",
+      "waiting": "Doğrulanıyor…",
+      "waiting-subtitle": "Bu birkaç dakika sürebilir. Bu sayfadan ayrılabilirsiniz.",
+      "topnav-title": "Seviye1 doğrulama",
+      "contact-support-label": "Değiştirme için <0>desteğe başvurun</0>",
+      "confirm-button-label": "Bilgilerinizi onaylayın",
       "name-step": {
-        "warning": "The name you enter must match the name on the identity document you provide.",
-        "date-of-birth-label": "Date of birth",
-        "full-name-label": "Full name",
-        "continue-button-label": "Continue and enter address"
+        "warning": "Girdiğiniz ad, sağladığınız kimlik belgesindeki adla eşleşmelidir.",
+        "date-of-birth-label": "Doğum tarihi",
+        "full-name-label": "Tam isim",
+        "continue-button-label": "Devam et ve adresi gir"
       },
       "address-step": {
-        "address-label": "Enter an address",
-        "search-button-label": "Search"
+        "address-label": "Adres gir",
+        "search-button-label": "Ara"
       },
       "manual-address-step": {
-        "line1": "Address line 1",
-        "line2": "Address line 2",
-        "city": "City",
-        "zipCode": "Postcode/ZIP"
+        "line1": "Adres satırı 1",
+        "line2": "Adres satırı 2",
+        "city": "Şehir",
+        "zipCode": "Posta kodu/ZIP"
       },
       "select-address-step": {
-        "title": "Addresses found",
-        "manual-entry-label": "Enter address manually",
-        "select-label": "Select",
-        "no-results-found-title": "We couldn’t find your address",
-        "no-results-found-body": "Please make sure you include your postcode.",
-        "error-title": "We experienced an error",
-        "error-body": "Try again or use the link below.",
-        "go-back-label": "Go back"
+        "title": "Adres bulundu",
+        "manual-entry-label": "Adresi manuel olarak gir",
+        "select-label": "Seç",
+        "no-results-found-title": "Adresinizi bulamadık",
+        "no-results-found-body": "Lütfen posta kodunuzu eklediğinizden emin olun.",
+        "error-title": "Bir hatayla karşılaştık",
+        "error-body": "Tekrar deneyin veya aşağıdaki bağlantıyı kullanın.",
+        "go-back-label": "Geri dön"
       },
       "confirm-details": {
-        "begin-button-label": "These details are correct",
-        "your-details": "Personal details",
-        "address-details": "Address details",
-        "edit-label": "Edit",
-        "submission-error": "We experienced an error while submitting your data."
+        "begin-button-label": "Bu bilgiler doğru",
+        "your-details": "Kişisel bilgiler",
+        "address-details": "Adres bilgileri",
+        "edit-label": "Düzenle",
+        "submission-error": "bilgilerinizi gönderirken bir hatayla karşılaştık."
       }
     },
     "profile": {
-      "title": "Profile",
-      "header": "Profile settings",
-      "desc-1": "You can edit your profile settings below.",
+      "title": "Profil",
+      "header": "Profil ayarları",
+      "desc-1": "Profil ayarlarınızı aşağıda düzenleyebilirsiniz.",
       "desc-2": "",
       "cards": {
         "your-details": {
-          "label": "Personal details",
-          "legal-name": "Legal name",
-          "missing-full-name": "<0>Verify your identity</0> to enjoy higher trading limits.",
-          "update-name": "I want to update my name",
-          "update-country": "I want to update my country of residence",
-          "gender": "Gender",
-          "male": "Male",
-          "female": "Female",
-          "other": "Other",
-          "country-of-residence": "Country of residence"
+          "label": "Kişisel bilgiler",
+          "legal-name": "Yasal isim",
+          "missing-full-name": "Yüksek limitlerle alım-satım için <0>VKimlik doğrula</0>",
+          "update-name": "İsmimi güncellemek istiyorum",
+          "update-country": "İkamet ettiğim ülkeyi güncellemek istiyorum",
+          "gender": "Cinsiyet",
+          "male": "Erkek",
+          "female": "Kadın",
+          "other": "Diğer",
+          "country-of-residence": "İkamet edilen ülke"
         },
         "account-settings": {
-          "label": "Account settings",
-          "email-address": "Email address",
-          "update-email": "Change email address",
-          "password": "Password",
-          "update-password": "Change password",
-          "two-factor": "We recommend you to enable two-factor authentication in <0>Security</0>.",
-          "two-factor-enable": "Two-factor authentication can be disabled in <0>Security</0>."
+          "label": "Hesap ayarları",
+          "email-address": "E-posta adresi",
+          "update-email": "E-posta adresi değiştir",
+          "password": "Şifre",
+          "update-password": "Şifre değiştir",
+          "two-factor": "<0>Güvenlik</0> içinden iki adımlı kimlik doğrulamayı etkinleştirmenizi öneririz…",
+          "two-factor-enable": "<0>Güvenlik</0> kısmından iki adımlı kimlik doğrulama devre dışı bırakılabilir."
         }
       },
       "modals": {
         "update-name": {
-          "title": "Update name",
-          "label": "Name",
-          "tier0-summary": "To update your name, please complete <0>Tier 1 verification</0>.",
-          "tier0-details": "When your application for Tier 1 has been approved, we will update your name to the legal name on the documents you provided.",
-          "tier1-summary": "If your legal name has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1-details": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your name to the legal name on the documents you provided."
+          "title": "İsmi güncelle",
+          "label": "İsim",
+          "tier0-summary": "Adınızı güncellemek için lütfen <0>Seviye1 doğrulaması</0> yapın.",
+          "tier0-details": "Seviye1 başvurunuz onaylandığında, adınızı, sağladığınız belgelerdeki yasal adla güncelleyeceğiz.",
+          "tier1-summary": "Yasal adınız değiştiyse ve güncellemek istiyorsanız, lütfen <0>desteğe başvurun</0>.",
+          "tier1-details": "Doğrulama seviyenizi sıfırlayacağız ve yeni belgelerinizi kullanarak doğrulama prosedürünü tekrarlamanızı isteyeceğiz. Başvurunuz onaylandığında, isminizi verdiğiniz belgelerdeki yasal adınız ile güncelleyeceğiz."
         },
         "update-country": {
-          "title": "Update country",
-          "label": "Country",
-          "tier0": "If your country of residence has changed and you would like to update it, please <0>contact support</0>.",
-          "tier1": "We will reset your verification tier and ask you to repeat the verification procedure using your new documents. When your application has been approved, we will update your country of residence to the country on the documents you provided."
+          "title": "Ülkeyi güncelle",
+          "label": "Ülke",
+          "tier0": "İkamet ettiğiniz ülke değiştiyse ve ülkenizi güncellemek istiyorsanız, lütfen <0>desteğe başvurun</0>.",
+          "tier1": "Doğrulama seviyenizi sıfırlayacağız ve yeni belgelerinizi kullanarak doğrulama prosedürünü tekrarlamanızı isteyeceğiz. Başvurunuz onaylandığında, sağladığınız belgelerde ikamet ettiğiniz ülkeyi güncelleyeceğiz."
         },
         "update-email": {
-          "success-header": "We’ve sent you an email!",
-          "success-description": "We have sent you a confirmation email to start the address update process. If you don’t see our email, check your junk folder.",
-          "success-back": "Got it!",
-          "title": "Change email",
-          "current-email-label": "Your current email address",
-          "current-email": "Current email address",
-          "new-email-label": "New email address",
-          "new-email-placeholder": "Enter your new email address",
-          "twofa-label": "Two-factor authentication",
-          "twofa-label-placeholder": "Enter your two-factor authentication (2FA) code",
-          "request-email-change-button-label": "Request address change"
+          "success-header": "Size bir mail gönderdik!",
+          "success-description": "Adres güncelleme sürecini başlatmak için size bir onay e-postası gönderdik. E-postamızı görmüyorsanız, önemsiz klasörünüzü kontrol edin.",
+          "success-back": "Anladım!",
+          "title": "E-postayı değiştir",
+          "current-email-label": "Mevcut e-posta adresiniz",
+          "current-email": "Mevcut e-posta adresi",
+          "new-email-label": "Yeni e-posta adresi",
+          "new-email-placeholder": "yeni e-posta adresinizi girin",
+          "twofa-label": "İki adımlı doğrulama",
+          "twofa-label-placeholder": "İki adımlı doğrulama (2FA) kodunuzu girin",
+          "request-email-change-button-label": "Adres değişikliği talep edin"
         },
         "update-password": {
-          "title": "Change password",
+          "title": "Şifre değiştir",
           "fields": {
             "password": {
-              "label": "Current password",
-              "placeholder": "Enter your password"
+              "label": "Mevcut şifre",
+              "placeholder": "Şifrenizi girin"
             },
             "code": {
-              "label": "Two-factor authentication",
-              "placeholder": "Enter your two-factor authentication code"
+              "label": "İki adımlı doğrulama kodu",
+              "placeholder": "İki adımlı doğrulama kodunuzu girin"
             },
             "new-password": {
-              "label": "New password",
-              "placeholder": "Enter a new password",
+              "label": "Yeni şifre",
+              "placeholder": "Yeni bir şifre girin",
               "errors": {
-                "password-too-weak": "The password you chose is too weak."
+                "password-too-weak": "Seçtiğiniz şifre çok zayıf"
               }
             },
             "new-password-confirm": {
-              "label": "Confirm new password",
-              "placeholder": "Confirm new password",
+              "label": "Yeni şifreyi onayla",
+              "placeholder": "Yeni şifreyi onayla",
               "errors": {
-                "passwords-do-not-match": "Passwords do not match."
+                "passwords-do-not-match": "Şifreler eşleşmiyor."
               }
             }
           },
-          "success": "Your password has been changed successfully.",
+          "success": "Şifreniz başarıyla değiştirildi.",
           "errors": {
-            "password-must-change": "Your new password should be different from your old password.",
-            "password-already-used": "You used this password already. Please pick another one.",
-            "missing-key": "Missing signature keys. Please refresh this page and try again."
+            "password-must-change": "Yeni şifreniz bir önceki şifrenizden farklı olmalı.",
+            "password-already-used": "Bu şifreyi daha önce kullandınız. Lütfen yenisini belirleyin.",
+            "missing-key": "Eksik imza hatası. Lütfen bu sayfayı yenileyerek tekrar deneyin."
           }
         }
       }
     },
     "preferences": {
       "general": {
-        "header": "General settings",
-        "l-decimal-type": "Decimal type",
-        "l-currency": "Currency",
-        "b-save-changes": "Save changes"
+        "header": "Genel ayarlar",
+        "l-decimal-type": "Ondalık tip",
+        "l-currency": "Birim",
+        "b-save-changes": "Değişiklikleri kaydet"
       },
       "notifications": {
-        "header": "Notify me when",
-        "h-web": "Web notifications",
-        "h-email": "Email",
-        "b-enable-all": "Enable all",
-        "b-disable-all": "Disable all",
-        "fiat-ramp-quote-state-change": "I need to confirm a new Nash Cash exchange rate",
-        "funds-trading-to-personal": "I deposit funds to the trading contract",
-        "staking-stake-complete": "One of my NEX stakes completes",
-        "staking-weekly-summary": "A weekly summary of my staking dividends is available",
-        "nash-channels-limit": "I exceed my Nash Channels deposit limit"
+        "header": "Bana haber ver",
+        "h-web": "Web bildirimleri",
+        "h-email": "E-posta",
+        "b-enable-all": "Tümünü etkinleştir",
+        "b-disable-all": "Tümünü etkisiz hale getir",
+        "fiat-ramp-quote-state-change": "Yeni bir Nash Cash döviz kurunu onaylamam gerektiğinde",
+        "funds-trading-to-personal": "Alım-satım sözleşmesine fon yatırdığımda",
+        "staking-stake-complete": "NEX kilitlemelerimden birinin süresi dolduğunda",
+        "staking-weekly-summary": "Temettülerimin haftalık bir özeti mevcut olduğunda",
+        "nash-channels-limit": "Nash kanallarına fon yatırma limiti aştığımda"
       }
     },
     "security": {
-      "title": "Security",
-      "header": "Account security",
-      "desc": "Enable two-factor authentication here.",
+      "title": "Güvenlik",
+      "header": "Hesap güvenliği",
+      "desc": "İki adımlı doğrulamayı etkinleşti.",
       "cards": {
         "2fa": {
-          "label": "Two-factor authentication",
-          "header": "Two-factor authentication is:",
-          "desc": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "enabled": "Enabled",
-          "disabled": "Disabled",
-          "enable": "Enable",
-          "disable": "Disable (not recommended)"
+          "label": "İki adımlı doğrulama",
+          "header": "İki adımlı doğrulama:",
+          "desc": "İki adımlı kimlik doğrulamayı (2FA) etkin tutmanızı tavsiye ederiz. Hesabınıza ekstra bir güvenlik katmanı ekler.",
+          "enabled": "Etkinleştirildi",
+          "disabled": "Devre dışı bırakıldı",
+          "enable": "Etkinleştir",
+          "disable": "Devre dışı bırak (önerilmez!)"
         },
         "auto-logout": {
-          "label": "Automatic sign out",
-          "desc": "Don’t sign me out automatically"
+          "label": "Otomatik oturum kapatma",
+          "desc": "Otomatik olarak çıkış yapma!"
         },
         "all-account-activity": {
-          "label": "All account activity",
+          "label": "Tüm hesap hareketleri",
           "tabs": {
-            "sessions": "Sessions",
-            "allowed-devices": "Allowed devices",
-            "history": "History"
+            "sessions": "Oturumlar",
+            "allowed-devices": "İzin verilen cihazlar",
+            "history": "Geçmiş"
           },
           "columns": {
-            "when": "When",
-            "location": "Location",
-            "ip-address": "IP address",
-            "browser-used": "Browser used",
-            "device": "Device",
-            "action": "Action"
+            "when": "Zaman",
+            "location": "Yer",
+            "ip-address": "IP adresi",
+            "browser-used": "Kullanılan tarayıcı",
+            "device": "Cihaz",
+            "action": "Hareket"
           },
           "devices": {
-            "browser": "Browser",
-            "phone": "Phone",
+            "browser": "Tarayıcı",
+            "phone": "Telefon",
             "tablet": "Tablet"
           },
           "actions": {
-            "signed-out": "Signed out",
-            "signed-in": "Signed in",
-            "failed": "Failed sign-in attempt",
-            "2fa": "2FA confirmed",
-            "failed-2fa": "2FA failed"
+            "signed-out": "Oturum kapatıldı",
+            "signed-in": "Oturum açıldı",
+            "failed": "Başarısız oturum açma girişimi",
+            "2fa": "2FA onaylandı",
+            "failed-2fa": "2FA hatası"
           },
-          "sign-out": "Sign out",
-          "sign-out-all-devices": "Sign out all devices"
+          "sign-out": "Oturumu kapat",
+          "sign-out-all-devices": "Tüm cihazlardaki oturumu kapat"
         }
       },
       "modals": {
         "enable-2fa": {
           "1": {
-            "header": "Download and install an authenticator app",
-            "desc": "We recommend <0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2>."
+            "header": "Doğrulama uygulaması indir ve kaydol",
+            "desc": "<0>LastPass Authenticator</0>, <1>Authy</1> or <2>Google Authenticator</2> herhangi birini öneriyoruz."
           },
           "2": {
-            "header": "Scan this QR code with your chosen authenticator app",
-            "desc": "Alternatively, you can add it manually.",
-            "manual-2fa": "Manual 2FA entry key"
+            "header": "Doğrulama uygulamanızla bu QR kodunu okutun.",
+            "desc": "Alternatif olarak, manuel olarak da ekleyebilirsiniz.",
+            "manual-2fa": "Manuel 2FA giriş anahtarı"
           },
           "3": {
-            "header": "Enter the code generated by your authenticator app",
-            "input-placeholder": "Authentication code"
+            "header": "Uygulamanız tarafından oluşturulan doğrulama kodunu girin",
+            "input-placeholder": "Doğrulama kodu"
           },
-          "enable": "Enable",
-          "title": "Set up two-factor authentication"
+          "enable": "Etkin",
+          "title": "İki adımlı doğrulama kur"
         },
         "disable-2fa": {
-          "title": "Disable two-factor authentication",
-          "warning": "We advise you to keep two-factor authentication (2FA) activated. It adds an extra layer of security to your account.",
-          "disable": "Disable"
+          "title": "İki adımlı doğrulamayı devre dışı bırak",
+          "warning": "İki adımlı kimlik doğrulamayı (2FA) etkin tutmanızı tavsiye ederiz. Hesabınıza ekstra bir güvenlik katmanı ekler.",
+          "disable": "Devre dışı bırak"
         },
         "success": {
-          "header": "Success!",
-          "enabled": "Two-factor authentication has been enabled.",
-          "disabled": "Two-factor authentication has been disabled.",
-          "back": "Got it!"
+          "header": "Başarılı!",
+          "enabled": "İki adımlı doğrulama etkinleştirildi.",
+          "disabled": "İki adımlı doğrulama devre dışı bırakıldı.",
+          "back": "Anladım!"
         }
       }
     },
     "accounts": {
-      "title": "Accounts",
-      "header": "My account information",
-      "wallets-header": "Accounts generated from my twelve secret words",
-      "show-all-private-keys-button-label": "Show all private keys",
-      "hide-all-private-keys-button-label": "Hide all private keys",
-      "desc": "Nash is non-custodial. We do not have access to your private keys.",
-      "search-assets-placeholder": "Search for a asset name or ticker…",
-      "public-address-label": "Public address",
-      "info-title": "Some blockchains support multiple assets",
-      "info-body": "ERC-20 and NEP-5 assets are tokens issued on the Ethereum and NEO blockchains, respectively. GAS is also an asset stored on the NEO blockchain. You only need one Ethereum account to store both ETH and ERC-20 tokens, and one NEO account to store NEO, GAS and NEP-5 tokens.",
-      "public-address-sub-label": "Which assets can I send here?",
-      "public-address-tooltip": "This is the blockchain address where your assets are stored.",
-      "private-key-label": "Private key",
-      "private-key-sub-label-show": "Show private key",
-      "private-key-sub-label-hide": "Hide private key",
-      "private-key-tooltip": "This can be used to access your funds outside Nash. Keep it secret.",
-      "unknown-blockchain": "Unknown blockchain",
+      "title": "Hesaplar",
+      "header": "Hesap bilgilerim",
+      "wallets-header": "On iki gizli kelimeden oluşturulan hesaplar",
+      "show-all-private-keys-button-label": "Tüm gizli anahtarları göster",
+      "hide-all-private-keys-button-label": "Tüm gizli anahtarları gizle",
+      "desc": "Nash velayetsizdir. Özel anahtarlarınıza erişimimiz yok.",
+      "search-assets-placeholder": "Bir varlık adı veya sembol ara…",
+      "public-address-label": "Açık adres",
+      "info-title": "Bazı blokzincirleri birden çok varlığı destekler",
+      "info-body": "ERC-20 ve NEP-5 varlıkları, sırasıyla Ethereum ve NEO blok zincirlerinde verilen tokenlerdir. GAS ayrıca NEO blok zincirinde depolanan bir varlıktır. Hem ETH hem de ERC-20 jetonlarını depolamak için yalnızca bir Ethereum hesabına ve NEO, GAS ve NEP-5 jetonlarını depolamak için bir NEO hesabına ihtiyacınız var.",
+      "public-address-sub-label": "Buraya hangi varlıkları gönderebilirim?",
+      "public-address-tooltip": "Bu, varlıklarınızın depolandığı blok zinciri adresidir.",
+      "private-key-label": "Gizli anahtar",
+      "private-key-sub-label-show": "Gizli anahtarı göster",
+      "private-key-sub-label-hide": "Gizli anahtarı gizle",
+      "private-key-tooltip": "Bu Nash haricinde fonlarınıza erişimi sağlar. Lütfen gizli tutun.",
+      "unknown-blockchain": "Bilinmeyen blokzinciri",
       "wallets": {
         "eth": {
-          "link-label": "Includes ERC-20 tokens",
+          "link-label": "ERC-20 tokenlerini içerir",
           "name": "Ethereum"
         },
         "neo": {
-          "link-label": "Includes GAS and NEP-5 tokens",
+          "link-label": "GAS ve NEP-5 tokenlerini içerir",
           "name": "NEO"
         },
         "btc": {
@@ -4039,77 +4039,77 @@
       },
       "cards": {
         "secret-words": {
-          "label": "My twelve secret words",
-          "account": "Nash account",
-          "desc": "Twelve secret words",
-          "unlock": "Unlock and show twelve secret words",
-          "lock": "Hide and lock twelve secret words"
+          "label": "On-iki gizli kelimem",
+          "account": "Nash hesabı",
+          "desc": "On iki gizli kelime",
+          "unlock": "Kilidi aç ve on iki kelimeleri göster",
+          "lock": "Kapat ve on iki kelimeyi gizle"
         },
         "wallets": {
-          "label": "Accounts generated from my twelve secret words",
-          "private-key": "Private key",
-          "public-address": "Public address",
-          "unlock": "Unlock and show private key",
-          "lock": "Hide and lock private key"
+          "label": "On iki gizli kelimemden oluşturulan hesaplar",
+          "private-key": "Gizli anahtar",
+          "public-address": "Açık adres",
+          "unlock": "Kilidi aç ve gizli anahtarı göster",
+          "lock": "Kapat ve gizli anahtarı gizle"
         }
       },
       "modals": {
         "unlock-secret-words": {
-          "title": "Unlock my twelve secret words",
-          "submit": "Unlock twelve secret words",
-          "error": "Error: Failed to decrypt secret words."
+          "title": "On-iki gizli kelimenin kilidini aç",
+          "submit": "On-iki gizli kelimenin kilidini kaldır",
+          "error": "Hata: Gizli kelimelerin şifresi çözülemedi."
         }
       }
     },
     "my-limits": {
-      "header": "Limits",
-      "desc": "Nash never blocks withdrawals, but they count towards your Nash Channels deposit limit. <0>Learn more</0> about limits.",
-      "24h-volume": "24h trading volume",
-      "30d-volume": "30d trading volume",
-      "1y-volume": "1y trading volume",
-      "view-fee-tiers": "View fee tiers",
-      "your-taker-fee": "Your taker fee",
-      "unavailable-with-tier-0": "Unavailable at Tier 0.",
-      "limit-yearly-buys": "<0 />/yearly buys",
-      "limit-yearly-sales": "<0 />/yearly sales",
+      "header": "Limitler",
+      "desc": "Nash fon çekme işlemlerini asla engellemez ancak bunlar Nash Kanalları fon yatırma limitinize dahil edilir. Limitler hakkında <0>daha fazlasını öğrenin</0>",
+      "24h-volume": "24s alım-satım hacmi",
+      "30d-volume": "30g alım-satım hacmi",
+      "1y-volume": "1y alım-satım hacmi",
+      "view-fee-tiers": "Ücret seviyelerini görüntüle",
+      "your-taker-fee": "Piyasa alıcı ücretiniz",
+      "unavailable-with-tier-0": "Seviye0 da mümkün değil",
+      "limit-yearly-buys": "<0 />/yıllık alımlar",
+      "limit-yearly-sales": "<0 />/yıllık satışlar",
       "cards": {
         "tiers": {
-          "header": "Tier {{tier}}",
-          "personal": "Personal",
-          "institutional": "Institutional"
+          "header": "Seviye {{tier}}",
+          "personal": "Kişisel",
+          "institutional": "Kurumsal"
         },
         "periods": {
-          "day": "day",
-          "month": "month",
-          "year": "year"
+          "day": "gün",
+          "month": "ay",
+          "year": "yıl"
         },
         "limits": {
-          "header": "Maximum daily trading volume",
-          "unlimited": "Unlimited",
-          "verified": "Verified",
-          "in-review": "In review",
-          "rejected": "Rejected",
-          "try-again": "Try again",
-          "contact-us": "Contact support",
-          "unavailable": "Unavailable in your region"
+          "header": "Maksimum günlük işlem hacmi",
+          "unlimited": "Limitsiz",
+          "verified": "Doğrulandı",
+          "in-review": "İncelemede",
+          "rejected": "Reddedildi",
+          "try-again": "Tekrar dene",
+          "contact-us": "Desteğe başvurun",
+          "unavailable": "Konumunuzda mümkün değil"
         },
         "tier-1": {
-          "get-started-button": "Get started",
-          "continue-verification-button": "Continue verification",
+          "get-started-button": "Başla",
+          "continue-verification-button": "Doğrulamaya devam et",
           "verification": {
-            "header": "How do you want to get verified?",
+            "header": "Doğrulamayı nasıl yapmak istersiniz?",
             "mobile": {
               "download": {
-                "header": "Tier 1 verification is possible using our mobile app.",
-                "downloaded-app": "I’ve downloaded the app"
+                "header": "Mobil uygulamamızı kullanarak Seviye1 doğrulaması yapabilirsiniz.",
+                "downloaded-app": "Mobil uygulamayı indirdim."
               },
               "scan-code": {
-                "header": "Scan the following QR code with the Nash app:",
-                "desc": "When you have completed Tier 1 verification, your result will appear here within one minute."
+                "header": "Nash uygulamasıyla aşağıdaki QR kodunu tarayın:",
+                "desc": "Seviye1 doğrulamasını tamamladığınızda, sonucunuz bir dakika içinde burada görünecektir."
               }
             },
-            "use-web-platform": "I’ll use the Nash web platform",
-            "do-it-later": "I’ll do this later"
+            "use-web-platform": "Nash web platformunu kullanacağım",
+            "do-it-later": "Bunu daha sonra yapacağım"
           }
         }
       }
@@ -4117,253 +4117,253 @@
   },
   "staking": {
     "cards": {
-      "s-current-stakes": "Total NEX tokens staked",
-      "s-stakes-in-progress": "Stakes in progress",
-      "s-total-dividends": "Total dividends (all time)",
-      "s-next-payment": "Next dividend payment on",
-      "s-completed-stakes": "Completed stakes"
+      "s-current-stakes": "Kilitlenen toplam NEX tokenleri",
+      "s-stakes-in-progress": "Devam eden kilitlemeler",
+      "s-total-dividends": "Toplam temettüler (tüm zamanlar)",
+      "s-next-payment": "Bir sonraki temettü ödemesi",
+      "s-completed-stakes": "Tamamlanan kilitlemeler"
     },
     "stakes": {
-      "amount-staked-col": "Amount staked",
-      "duration-col": "Duration",
-      "fee-reward-col": "Staking rate",
-      "dates-active-col": "Dates active",
-      "next-payment-col": "Next payment",
-      "aggregate-dividends-col": "Aggregate dividends value",
+      "amount-staked-col": "Kilitlenen miktar",
+      "duration-col": "Süre",
+      "fee-reward-col": "Kilit oranı",
+      "dates-active-col": "Giriş tarihi",
+      "next-payment-col": "Gelecek ödeme zamanı",
+      "aggregate-dividends-col": "Toplam temettü değeri",
       "row-item": {
-        "duration-month": "<0>{{count}}</0> month",
-        "duration-month_plural": "<0>{{count}}</0> months",
+        "duration-month": "<0>{{count}}</0> ay",
+        "duration-month_plural": "<0>{{count}}</0> ay",
         "redeem-button": {
-          "label": "Release NEX",
-          "submitting": "Releasing…",
-          "error": "Failed! Please try again.",
-          "success": "Success. Releasing NEX…",
-          "released": "NEX released"
+          "label": "NEX serbest bırak",
+          "submitting": "Serbest bırakılıyor…",
+          "error": "Hata oluştu!Lütfen tekrar deneyin!",
+          "success": "Başarılı. NEX serbest bırakılıyor…",
+          "released": "NEX serbest bırakıldı."
         }
       }
     },
     "staking": {
-      "title": "Staking",
-      "tabs-info-button": "Learn about staking"
+      "title": "Kilitleme",
+      "tabs-info-button": "Kilitleme hakkında daha fazlası"
     },
     "statements": {
-      "view-statement-button": "View statement",
-      "summary-title": "All statements",
-      "export-summary": "Export stakes as CSV",
-      "export": "Export statement",
-      "export-detailed": "Export detailed statement",
-      "date-col": "Payment date",
-      "asset-received-col": "Asset received",
-      "assets-received-col": "Assets received",
-      "dividends-col": "Dividends received",
-      "usdDividend-col": "USD value",
-      "usdAggregate-col": "USD aggregate",
-      "active-stakes-col": "Active stakes",
-      "and-more": "and {{count}} more",
-      "amount-at-reward": "<0 /> at {{returnRate}} fee reward",
-      "stakes-in-progress": "In progress ({{date}})",
-      "stakes-complete": "Completed ({{date}})",
-      "total-dividends": "Total dividends ({{date}})",
-      "paid-dividend-days": "Days paid ({{date}})",
-      "all-statements": "All statements",
-      "till-ended_plural": "{{count}} days left",
-      "till-ended": "{{count}} day left",
-      "till-ended_today": "Ending today",
-      "from-active-stakes": "From <0>{{count}}</0> active stake",
-      "from-active-stakes_plural": "From <0>{{count}}</0> active stakes",
-      "period-description": "During this period",
-      "dividends-received": "In dividends received",
-      "is-ended": "Ended",
-      "no-statements": "You don’t have any dividend statements yet."
+      "view-statement-button": "Durumu görüntüle",
+      "summary-title": "Tüm durumlar",
+      "export-summary": "CSV formatında dışa aktar",
+      "export": "Durumu dışarı aktar",
+      "export-detailed": "Durum detaylarını dışarı aktar",
+      "date-col": "Ödeme tarihi",
+      "asset-received-col": "Alınan varlık",
+      "assets-received-col": "Alınan varlıklar",
+      "dividends-col": "Alınan temettüler",
+      "usdDividend-col": "USD değeri",
+      "usdAggregate-col": "Toplam USD değeri",
+      "active-stakes-col": "Aktif kilitlemeler",
+      "and-more": "{{count}} daha fazlası",
+      "amount-at-reward": "<0 /> at {{returnRate}} ödül tutarı",
+      "stakes-in-progress": "Devam eden ({{date}})",
+      "stakes-complete": "Tamamlanan ({{date}})",
+      "total-dividends": "Toplam temettüler ({{date}})",
+      "paid-dividend-days": "Ödenen günler ({{date}})",
+      "all-statements": "Tüm durumlar",
+      "till-ended_plural": "Kalan gün {{count}}",
+      "till-ended": "Kalan gün {{count}}",
+      "till-ended_today": "Bugün biten",
+      "from-active-stakes": "<0>{{count}}</0> aktif kilitlemeden",
+      "from-active-stakes_plural": "<0>{{count}}</0> aktif kilitlemeden",
+      "period-description": "Bu süreçte",
+      "dividends-received": "Alınan temettüler",
+      "is-ended": "Bitenler",
+      "no-statements": "Henüz temettü geliriniz yok."
     },
     "modals": {
       "staking-info": {
-        "title": "Staking Nash Exchange tokens (NEX)",
+        "title": "Nash Borsa tokenlerini (NEX) kiliteme",
         "header": {
-          "title": "What is NEX staking?",
-          "desc": "Staking Nash Exchange tokens (NEX) is a way to earn passive income. You receive a portion of the exchange’s trading fees every day that your stake is active."
+          "title": "NEX kilitleme nedir?",
+          "desc": "Pasif gelir elde etmenin bir yolu Nash Borsa tokeni (NEX) kilitlemektir. Kilitlemenizin aktif olduğu her gün borsanın işlem ücretlerinin bir kısmını alırsınız."
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
-            "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
+            "title": "Nasıl çalışır?",
+            "desc": "Bir kilit sözleşmesinde istediğiniz kadar NEX tokeninizi kilitlersiniz. Tokenlerinizi sözleşmede kilitli haldeyken taşıyamaz veya satamazsınız. Payınızın aktif olduğu her gün temettü alacaksınız."
           },
           "par-2": {
-            "title": "How are dividends calculated?",
-            "desc": "Dividends depend on: (1) the number of NEX tokens you stake as a proportion of the total 50,000,000 supply, and (2) the period of time for which you stake them. The more tokens you stake, the higher your dividend will be. The longer you stake your tokens for, the greater the proportion of fees you receive will be (your ‘staking rate’)."
+            "title": "Temettüler nasıl hesaplanır?",
+            "desc": "Temettüler şunlara bağlıdı: (1) toplam 50.000.000 arzın bir oranı olarak kitlediğiniz NEX token sayısı ve (2) onları kilitlediğiniz zaman dilimi. Ne kadar çok token kilitlerseniz, kar payınız o kadar yüksek olur. Tokenlerinizi ne kadar uzun süre kilitlerseniz, alacağınız ücretlerin oranı o kadar büyük olacaktır (’temettü gelir oranı’)."
           },
           "par-3": {
-            "title": "How long can I stake for?",
-            "desc": "The minimum staking period is one month, which offers a staking rate of 25%. However, if you want a higher proportion of the exchange’s fees, you can stake for any whole number of months up to a maximum of 24, which offers a staking rate of 75%."
+            "title": "Ne kadar süreyle kilitleyebilirim?",
+            "desc": "Minimum kilit süresi 1 aydır, ve bu kilitleme %25 lik bir gelir oranı sunar. Bununla birlikte, borsa ücretlerinin daha yüksek bir oranını istiyorsanız, maksimum 24 aya kadar kilitleme yapabilirsiniz, bu da %75’lik bir gelir oranı sunar."
           },
           "par-4": {
-            "title": "How do I receive my dividends?",
-            "desc": "Dividends are automatically added to your trading contract balance. They are paid out on a daily basis, shortly after midnight UTC. Nash provides monthly staking statements that aggregate these payments into a single figure for accounting purposes. Since the fees on a trade are charged in the currency being exchanged, you will receive dividends in every asset currently being traded on Nash."
+            "title": "Temettülerimi nasıl alırım?",
+            "desc": "Temettüler, ticaret sözleşmesi bakiyenize otomatik olarak eklenir. (UTC) gece yarısından kısa bir süre sonra günlük olarak ödenir. Nash platformunda kullanılan para birimleri üzerinden hesaplama yaparak kilitleyenlere ödemeleri yine aynı para birimleriyle yapar."
           },
           "par-5": {
-            "title": "Can I receive my dividends in a single currency?",
-            "desc": "No. For legal reasons, we cannot convert your dividends for you. However, we are developing a tool to allow you to convert dividends yourself with a single click."
+            "title": "Temettülerimi tek bir para biriminde alabilir miyim?",
+            "desc": "Hayır. Yasal nedenlerden dolayı, temettülerinizi dönüştürme hakkımız yoktur. Ancak temettülerinizi tek bir tuşla dönüştürmenizi sağlayak bir araç geliştiriyoruz."
           },
           "par-6": {
-            "title": "Can I edit or cancel my stake once it’s been created?",
-            "desc": "No. Once you have created a stake you will not be able to edit or cancel it."
+            "title": "Kilitlememi oluşturduktan sonra düzeltebilir veya iptal edebilir miyim?",
+            "desc": "Hayır. Kilit oluşturduğunuzda onu düzenlyemez yada iptal edemezsiniz. Süresinin bitmesini beklemelisiniz."
           },
           "par-7": {
-            "title": "Can I create multiple stakes?",
-            "desc": "Yes. If you have NEX tokens in your personal account that are not already locked in a stake, you can use them to create a new one."
+            "title": "Birden fazla kilitleme oluşturabilir miyim ?",
+            "desc": "Evet. Kişisel hesabınızda halihazırda bir kilitlenmemiş NEX tokenleriniz varsa, bunları yeni bir tane oluşturmak için kullanabilirsiniz."
           },
           "par-8": {
-            "title": "How many stakes can I create?",
-            "desc": "There is no limit to the number of stakes you can create."
+            "title": "Kaç adet kilitleme oluşturabilirim?",
+            "desc": "Oluşturabileceğiniz kilit sayısında bir sınır yoktur."
           }
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "I understand that staked NEX only pays dividends if the Nash Exchange generates revenue.",
-        "title": "Create your stake",
-        "amount-to-stake": "Amount of NEX to stake",
-        "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
-        "available-balance": "Available balance to stake ⋅",
-        "quick-fill-label": "Max",
-        "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
-        "set-date-dividends-label": "Set a date to receive your dividends",
-        "set-date-dividends-value": "Date ⋅ {{date}} of every month",
-        "stake-details-title": "Your stake details",
-        "currency-to-stake": "NEX to stake",
-        "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
-        "fee-reward": "Staking rate",
-        "first-payment": "First payment",
-        "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
-        "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
-        "create-stake-button": "Create stake",
-        "create-stake-sending-button": "Sending data…",
-        "create-stake-sending-text": "Sending data. Please keep this window open. This can take up to one minute.",
-        "create-stake-error": "There was either an error or a delay while creating your stake. Please check again in five minutes and resubmit if your stake was not created.",
-        "create-stake-auth-error": "Authentication error. Please try again.",
-        "learn-more": "Learn more about",
-        "footer-desc": "staking NEX",
-        "amount-error-message": "This amount exceeds your available balance.",
+        "create-stake-disclaimer-label": "Kilitli NEX tokenlerim için, yalnızca Nash plaformu gelir elde ederse ödeme alacağımın farkındayım ve bunu kabul ediyorum.",
+        "title": "Kilit oluştur",
+        "amount-to-stake": "Kilitlenecek NEX miktarı",
+        "amount-to-stake-tooltip": "Kilitleme oranı, Nash platformundan elde ettiğiniz orantılı gelir payınızın boyutunu belirler. NEX’inizi ne kadar uzun süre kilitlerseniz, maksimum için iki yıllık bir kilitleme %75 oranla gelir dağılıma katılırsınız. \n\n<0>Örnek temettü</0>\n Ödemeler günlük olarak yapılır. Nash’in son 24 saatte 1.000.000 $ ’a eşdeğer ücretler ürettiğini ve bir kullanıcının toplam 50.000.000 arzdan 1.000 NEX tokenine sahip olduğunu varsayalım. Kullanıcı, NEX’i iki yıllık %75 oranından kilitlediyse,1.000.000 $ ∗ 1.000 / 50.000.000 ∗ 0,75 = 15 $ değerinde bir temettü almaya hak kazanırlar.",
+        "available-balance": "Kilitleme için mevcut bakiye⋅",
+        "quick-fill-label": "Maks.",
+        "set-stake-duration-label": "Kilit süresi belirleyin",
+        "selected-duration": "Süre seçildi ⋅",
+        "selected-duration-month": "<0>{{count}}</0> ay",
+        "selected-duration-month_plural": "<0>{{count}}</0> ay",
+        "set-date-dividends-label": "Temettülerinizi almak için bir tarih belirleyin",
+        "set-date-dividends-value": "Tarih ⋅ Her ayın {{date}}",
+        "stake-details-title": "Kilit detaylarınız",
+        "currency-to-stake": "Kilitlenen NEX",
+        "stake-duration": "DKilit süresi",
+        "duration-value": "<0>{{count}}</0> ay",
+        "duration-value_plural": "<0>{{count}}</0> ay",
+        "fee-reward": "Kilit oranı",
+        "first-payment": "İlk ödeme",
+        "agreed-to-non-cancellation-label": "Bu kilitlemeyi oluşturduktan sonra iptal edemeyeceğimi veya düzenleyemeyeceğimi biliyorum.",
+        "agreed-to-locked-tokens-label": "Bu kilit süresi tamamlanana kadar NEX tokenlerimin kilitleneceğini anlıyorum.",
+        "create-stake-button": "Kilit oluştur",
+        "create-stake-sending-button": "Bilgiler gönderiliyor…",
+        "create-stake-sending-text": "Bilgiler gönderiliyor. Lütfen bu pencereyi açık tutun. Bu işlem bir dakika kadar sürebilir.",
+        "create-stake-error": "Kilitlemenizi oluştururken bir hata veya gecikme oldu. Lütfen beş dakika içinde tekrar kontrol edin ve kilitlemeniz oluşturulmadıysa yeniden gönderin.",
+        "create-stake-auth-error": "Doğrulama hatası. Lütfen tekrar deneyin.",
+        "learn-more": "Daha fazla bilgi",
+        "footer-desc": "NEX kilitleme",
+        "amount-error-message": "Bu miktar, mevcut bakiyenizi aşıyor.",
         "stake-success": {
-          "header": "Stake created!",
-          "stake-details": "You created a stake of {{amount}} NEX for a period of {{count}} month. Your stake will appear in the dashboard shortly.",
-          "stake-details_plural": "You created a stake of {{amount}} NEX for a period of {{count}} months. Your stake will appear in the dashboard shortly.",
-          "stake-time-description": "You will receive your first dividends in:",
-          "finish-button-label": "Finish"
+          "header": "Kilit oluşturuldu!",
+          "stake-details": "{{count}} ay boyunca {{amount}} NEX kilitlemesi oluşturdunuz. Kilitlemeniz kısa süre içerisinde hesabınızda görünecektir.",
+          "stake-details_plural": "{{count}} ay boyunca {{amount}} NEX kilitlemesi oluşturdunuz. Kilitlemeniz kısa süre içerisinde hesabınızda görünecektir.",
+          "stake-time-description": "Şu süre içinde ilk ödemenizi alacaksınız:",
+          "finish-button-label": "Bitir"
         }
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
-      "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
-      "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
-      "description-modal-create-link": "Create your first stake"
+      "title": "NEX tokenlerinizi kilitleyerek pasif gelir elde edin.",
+      "description-desktop": "Kilitleme konusunda yeni misiniz? Daha fazlası için <0>NEX token kilitleme</0> ve <1>ilk kilitlemenizi oluşturun</1>.",
+      "description-mobile": "Kilitleme konusunda yeni misiniz? Daha fazlası için <0>NEX token kilitleme</0>.",
+      "description-modal-create-link": "İlk kilitlemenizi oluşturun"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Stakes in progress",
-      "completed-stakes": "Completed stakes",
-      "create-stake-paused": "Staking is paused during Nash maintenance.",
-      "create-stake-button": "Create a new stake",
-      "learn-stake-button": "Learn about staking"
+      "stakes-in-progress": "Devam eden kilitlemeler",
+      "completed-stakes": "Tamamlanan kilitlemeler",
+      "create-stake-paused": "Nash bakımı sırasında kilitleme duraklatılır.",
+      "create-stake-button": "Yeni bir kilit oluştur.",
+      "learn-stake-button": "Kilitleme hakkında daha fazlası"
     },
     "max-stakes": {
-      "message": "You have created {{amount}} out of a possible {{maxAmount}} stakes. The maximum you can create is {{maxAmount}}.",
-      "dismiss": "Dismiss"
+      "message": "Olası {{maxAmount}} kilit etme sayınızdan {{amount}} kadarını oluşturdunuz. Oluşturabileceğiniz maksimum kilit adedi {{maxAmount}}.",
+      "dismiss": "Reddet!"
     }
   },
   "contacts": {
-    "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "contact-fallback-name": "Contact",
-    "create-new": "Create new",
+    "title": "{{count}} Kişiler",
+    "title_plural": "{{count}} Kişiler",
+    "search-my-contacts": "Kişilerimde ara…",
+    "no-contacts": "Henüz herhangi bir kişi eklemediniz veya içe aktarmadınız.",
+    "contact-fallback-name": "Kişi",
+    "create-new": "Yeni oluştur",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Gönder",
+      "send-disabled-tooltip": "Kişilerinize para göndermek için bir cüzdan adresi ekleyin.",
+      "request": "Talep et",
+      "edit": "Düzenle",
+      "delete": "Sil"
     },
     "headers": {
-      "name": "Name",
-      "email": "Email",
-      "phone-number": "Phone number",
-      "wallets": "Wallets"
+      "name": "İsim",
+      "email": "E-posta",
+      "phone-number": "Telefon numarası",
+      "wallets": "Cüzdanlar"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Kişi oluştur",
+        "button": "Kişi oluştur"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Kişiyi düzenle",
+        "button": "Değişklikleri kaydet"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Fonları{{contactName}}’a gönder",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Hangi varlık",
+          "wallet": "Hedef"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Varlıklarınızı yalnızca kişisel hesabınızdan gönderebilirsiniz."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Varlıklarda ara…",
+          "destination": "Cüzdan adresi ara…"
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "{{contactName}} bu kişiyi silmek istediğinizden emin misiniz?",
+        "notice-text": "Bu kişiyle ilişkili tüm bilgiler kalıcı olarak silinecektir.",
+        "button": "Evet, sil",
+        "cancel": "Çıkış yap",
+        "error": "Kişi silinirken hata oluştu. Lütfen tekrar deneyin.",
+        "success": "Kişi silindi",
+        "success-button": "Kişilere dön"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Kişi kaydedildi!",
+        "error": "Kişi kaydedilirken hata oluştu. Lütfen tekrar deneyin.",
+        "invalid-input": "Geçersiz Giriş. Lütfen tekrar deneyin."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "İsim",
+          "placeholder": "İsim"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Soyisim",
+          "placeholder": "Soysisim"
         },
         "email": {
-          "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "label": "E-posta",
+          "placeholder": "E-posta adresi",
+          "error": "Geçersiz e-posta adresi"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Telefon",
+          "error": "{{country}} için yanlış telefon numarası"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Cüzdanlar",
+          "delete": "Sil",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Cüzdan adresi"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Cüzdan ismi"
           },
-          "add": "Add another"
+          "add": "Yeni ekle"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Lütfen geçerli bir {{blockchain}} adresi girin.",
+          "unique-address": "Bu cüzdan adresiyle zaten başka bir kişiniz var."
         }
       }
     }
@@ -4630,170 +4630,170 @@
     "Pacific/Kiritimati": "(GMT+14:00) Kiritimati"
   },
   "trading-competition": {
-    "title": "Nash League",
-    "competition": "Nash League",
-    "squad": "Squad",
-    "squads": "Squads",
-    "solo": "Solo",
+    "title": "Nash Lig",
+    "competition": "Nash Lig",
+    "squad": "Takım",
+    "squads": "Takımlar",
+    "solo": "Bireysel",
     "pl": "P/L",
-    "captain": "Captain",
-    "members": "Members",
-    "rank": "Rank",
-    "nickname": "Nickname",
-    "volume": "Volume",
-    "prize-label": "Prize",
-    "max-16-characters": "Max 16 characters",
-    "inappropriate-message": "Inappropriate names will lead to disqualification. Be polite!",
-    "invalid-name": "Your name is already taken or contains invalid characters.",
-    "terms-and-conditions": "By participating in Nash League you agree to the competition’s <0>Terms and Conditions</0>.",
-    "unranked": "Unranked",
+    "captain": "Kaptan",
+    "members": "Üyeler",
+    "rank": "Rütbe",
+    "nickname": "Takma ad",
+    "volume": "Hacim",
+    "prize-label": "Ödül",
+    "max-16-characters": "Maks 16 karakter",
+    "inappropriate-message": "Uygun olmayan isimler diskalifiye edilmeye neden olacaktır. Kibar ol!",
+    "invalid-name": "Adınız zaten alınmış veya geçersiz karakterler içeriyor.",
+    "terms-and-conditions": "Nash Lig’e katılarak, yarışmanın <0>şartlar ve koşulları.</0>.",
+    "unranked": "Rütbesiz",
     "n-a": "N/A",
     "prize": {
-      "unlock-up-to": "Unlock up to",
-      "title": "$1 MILLION IN PRIZES",
-      "desc-1": "Just trade on Nash to get your share!",
-      "desc-2": "All users are automatically registered as solo participants, but you can join a squad to improve your chances.",
-      "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
-      "more-levels": "More levels will become available when Level {{level}} is reached!",
-      "volume-s": "Volume ($)",
-      "prizes": "Prizes",
-      "winners": "Winners",
-      "default-nickname": "Default nickname: {{nickname}}",
-      "welcome-nickname": "Welcome, {{nickname}}",
-      "create-new-nickname": "Create new nickname",
+      "unlock-up-to": "Kilidi aç",
+      "title": "1 MİLYON DOLARLIK ÖDÜLLER",
+      "desc-1": "Payınızı almak için sadece Nash platformunda işlem yapın!",
+      "desc-2": "Tüm kullanıcılar otomatikman bireysel olarak kaydedilir, ancak şansınızı artırmak için bir takıma katılabilirsiniz.",
+      "desc-3": "Yarışma boyunca ne kadar fazla hacim oluşturulursa, o kadar çok ödül ödenir!",
+      "more-levels": "{{level}} seviyeye ulaşınca, yeni seviyeler gelecektir!",
+      "volume-s": "Hacim ($)",
+      "prizes": "Ödüller",
+      "winners": "Kazananlar",
+      "default-nickname": "Takma ad: {{nickname}}",
+      "welcome-nickname": "Hoşgeldin, {{nickname}}",
+      "create-new-nickname": "yeni takma ad oluştur",
       "anonymous": "Anonymous",
-      "set-nickname": "Set nickname",
-      "edit-nickname": "Edit nickname",
-      "maybe-later": "Maybe later",
-      "learn-more-league": "Learn more about Nash League",
-      "full-prize-breakdowns": "Full prize breakdown for current levels",
-      "all-levels-revealed": "All levels have been revealed!",
-      "competition-ended": "This competition has ended.",
-      "current-nickname": "Current nickname",
+      "set-nickname": "Takma ad oluştur",
+      "edit-nickname": "Takma adı düzenle",
+      "maybe-later": "Belki sonra",
+      "learn-more-league": "Nash Lig hakkında daha fazlasını öğren.",
+      "full-prize-breakdowns": "Mevcut seviyeler için olası tüm ödül dökümü",
+      "all-levels-revealed": "Tüm seviyeler açıldı!",
+      "competition-ended": "Yarışma sona erdi.",
+      "current-nickname": "Güncel takma ad",
       "main-card": {
-        "level-locked": "Level {{level}} locked",
-        "level-unlocked": "Level {{level}} unlocked",
-        "total-prize": "<0 /> in prizes",
-        "solo-count": "{{count}} solo",
-        "team-count": "{{count}} squad",
-        "team-count_plural": "{{count}} squads",
-        "pl-count": "{{count}} P/L",
-        "unlocks-at": "Unlocks at"
+        "level-locked": "{{level}} seviye kilitlendi.",
+        "level-unlocked": "{{level}} seviyenin kilidi açıldı",
+        "total-prize": "<0 /> ödül",
+        "solo-count": "{{count}} bireysel",
+        "team-count": "{{count}} takım",
+        "team-count_plural": "{{count}} takımlar",
+        "pl-count": "{{count}} K/Z",
+        "unlocks-at": "Kilit açılması"
       },
       "card": {
-        "squad-desc": "Split between {{count}} <0 /> <1>squad</1>",
-        "squad-desc_plural": "Split between {{count}} <0 /> <1>squads</1>",
-        "solo-desc": "Split between {{count}} <0 /> <1>solo</1>",
-        "special-desc": "<0 /> <1>Special promotions</1>",
-        "solo-pl-desc": "Split between {{count}} <0 /> <1>P/L</1>"
+        "squad-desc": "Arasında dağıtılır {{count}} <0 /> <1>squad</1>",
+        "squad-desc_plural": "Aralarında dağıtılır {{count}} <0 /> <1>squads</1>",
+        "solo-desc": "Arasında dağıtılır {{count}} <0 /> <1>solo</1>",
+        "special-desc": "<0 /> <1>Özel promostonlar</1>",
+        "solo-pl-desc": "Aralarında dağıtılır {{count}} <0 /> <1>P/L</1>"
       }
     },
     "create-squad": {
-      "title": "Captain your squad of trading pros",
-      "sub-title": "We only recommend this if you already have 10+ members ready to join",
-      "description": "If your squad has fewer than 10 members when the competition begins, it will be disbanded and you will compete solo.",
-      "create-squad-button": "Create a squad",
-      "create-squad-modal-desc": "Your squad must have at least 10 members when the competition begins, otherwise it will be disbanded.",
-      "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one.",
-      "set-squad-name": "Set squad name",
-      "create-a-name": "Create a name…",
-      "accept-rules": "I understand the squad creation rules",
-      "create-squad": "Create squad",
-      "your-squad": "Your squad",
-      "congrats-created-squad": "Congratulations! You are the captain of",
-      "invite-your-friends": "Invite friends to join your squad"
+      "title": "Alım-satım takımınıza kaptanlık yapın !",
+      "sub-title": "Bunu yalnızca katılmaya hazır 10’dan fazla üyeniz varsa öneririz.",
+      "description": "Lig başladığında kadronuzun 10’dan az üyesi varsa, dağıtılacak ve tek başınıza yarışacaksınız.",
+      "create-squad-button": "Takım oluştur",
+      "create-squad-modal-desc": "Lig başladığında kadronuzun en az 10 üyesi olmalıdır, aksi takdirde dağıtılacaktır.",
+      "create-squad-modal-message": "Kadronuzu oluşturduğunuzda, kadrodan ayrılamaz veya yeni bir kadroya katılamazsınız.",
+      "set-squad-name": "Takım ismi ayarla",
+      "create-a-name": "İsim oluştur",
+      "accept-rules": "Takım oluşturma kurallarını biliyorum.",
+      "create-squad": "Takım oluştur",
+      "your-squad": "Takımınız",
+      "congrats-created-squad": "Tebrikler! Artık kaptansınız.",
+      "invite-your-friends": "Takımına katılmaları için arkadaşlarını davet et."
     },
     "join-squad": {
-      "title": "Join squad",
-      "description": "Are you sure you want to join the squad {{squadName}} under captain {{captainName}}?",
-      "message-guaranteed": "This squad is guaranteed to be in the competition.",
-      "message-not-guaranteed": "This squad is risky to join because it hasn’t met the {{minMemberCount}}-person minimum limit.",
-      "modal-check": "Once you join, you will not be able to leave this squad or join a new one."
+      "title": "Takıma katıl",
+      "description": "{{captainName}} kaptanınız olacak. {{squadName}} takımına katılmak istediğinden emin misin?",
+      "message-guaranteed": "Bu kadronun rekabette olması garantilidir.",
+      "message-not-guaranteed": "Bu takıma katılmak riskli çünkü {{minMemberCount}} – minimum kişi sınırını karşılamadı.",
+      "modal-check": "Katıldığınızda, bu takımdan ayrılamayacak veya yeni bir kadroya katılamayacaksınız."
     },
     "competition-table": {
-      "no-squads": "No squads have been created yet.",
-      "table-message-not-started": "{{tabState}} rankings will appear here once the Nash League competition begins!",
-      "divider-squad-safe": "These squads are safe to join because they are guaranteed to be in the competition.",
-      "divider-squad-unsafe": "These squads are riskier to join because they haven’t met the 10-person minimum limit yet. A squad’s volume will be shown once it qualifies for the competition."
+      "no-squads": "Henüz takımlar oluşturulmadı.",
+      "table-message-not-started": "Nash Lig başladığında sıralamalar burada görünecek! {{tabState}}",
+      "divider-squad-safe": "Bu takımlara katılmak güvenlidir çünkü rekabette olmaları garantilidir.",
+      "divider-squad-unsafe": "Bu takımlar 10 kişilik minimum limiti henüz karşılamadıkları için katılmak daha riskli. Bir takımın hacmi, yarışmaya uygun hale geldiğinde gösterilecektir."
     },
     "competition-info": {
-      "squad-desc": "You are currently entering the competition in the {{squadName}} <0 /> squad.",
-      "solo-desc": "You are currently competing <0 /> solo – All Nash users are already registered!",
-      "not-signed": "<1>Sign in</1> to find yourself on the leaderboard!",
-      "competition-ended": "Season 1 of Nash League is now over!",
-      "prizes-unlocked": "Prizes unlocked",
-      "next-prizes-unlocked": "Next prizes unlocked",
-      "prizes-split": "<0 /> split between {{solo}} solo and {{team}} squad",
+      "squad-desc": "Şu anda {{squadName}} <0 /> takımında yarışmaya katılıyorsunuz.",
+      "solo-desc": "Şu anda <0 /> bireysel yarışıyorsunuz– Tüm Nash kullanıcıları zaten kayıt yaptırmış olur!",
+      "not-signed": "Kendinizi liderlik tablosunda bulmak için <1>Giriş yapın</1>!",
+      "competition-ended": "Nash Lig’in 1. Sezonu sona erdi!",
+      "prizes-unlocked": "Ödüllerin kilidi açıldı!",
+      "next-prizes-unlocked": "Sonraki ödüllerin kilidi açıldı!",
+      "prizes-split": "<0 /> {{solo}} bireysel ve {{team}} kadrosu arasında bölündü",
       "clock-helper": {
-        "days": "DAYS",
-        "hours": "HOURS",
-        "minutes": "MINUTES"
+        "days": "GÜN",
+        "hours": "SAAT",
+        "minutes": "DAKİKA"
       },
       "cards": {
-        "register-clock-title": "Time left to join or create a squad",
-        "competition-clock-title": "The competition begins in",
-        "current-tier-info-title": "Current volume",
-        "current-solo-prize": "Your current solo prize",
-        "current-squad-prize": "Your current squad prize",
-        "not-in-a-squad": "You are not in a squad",
-        "join-squad": "Join a squad for a chance of more prizes!",
-        "rookies-title": "Welcome to Nash, Rookie!",
-        "rookies-description": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
-        "rookies-nex-rewards": "NEX rewards: 0.00",
-        "next-tier-info-title": "Volume remaining for next level",
-        "ended-title": "Final competition volume"
+        "register-clock-title": "Bir kadroya katılmak veya bir kadro oluşturmak için kalan süre",
+        "competition-clock-title": "Yarışma başlıyor.",
+        "current-tier-info-title": "Güncel hacim",
+        "current-solo-prize": "Güncel bireysel ödülünüz",
+        "current-squad-prize": "Güncel takım ödülünüz",
+        "not-in-a-squad": "Herhangi bir takımda değilsiniz",
+        "join-squad": "Daha fazla ödül kazanma şansı için bir takıma katılın!",
+        "rookies-title": "Nash’e hoşgeldin Çaylak!",
+        "rookies-description": "Her hafta en iyi yeni tüccarlarımız 1.000 NEX tokeninden pay alıyor! <0>Daha fazlası için</0>",
+        "rookies-nex-rewards": "NEX ödülleri: 0.00",
+        "next-tier-info-title": "Sonraki seviye için kalan hacim",
+        "ended-title": "Nihai yarışma hacmi!"
       }
     },
     "squad-page": {
-      "squad-rank": "Squad rank",
-      "squad-volume": "Squad volume",
-      "squad-prize": "Squad total prize",
-      "best-contrib": "Leading trader",
-      "no-contrib": "No contributors yet",
-      "squad-guaranteed": "This squad has {{count}} member and is guaranteed to be in the competition.",
-      "squad-guaranteed_plural": "This squad has {{count}} members and is guaranteed to be in the competition.",
-      "squad-not-guaranteed": "This squad has {{count}} member and is not guaranteed to be in the competition.",
-      "squad-not-guaranteed_plural": "This squad has {{count}} members and is not guaranteed to be in the competition.",
-      "invite-to-squad": "Invite friends to this squad",
-      "back-to-all": "Back to all",
-      "top-members": "Squad top traders",
-      "others": "Others"
+      "squad-rank": "Takım sıralaması",
+      "squad-volume": "Takım hacmi",
+      "squad-prize": "toplam takım ödülü",
+      "best-contrib": "Lider takım üyesi",
+      "no-contrib": "Henüz katkıda bulunan yok",
+      "squad-guaranteed": "Bu takımın {{count}} üyesi var ve turnuvada olması garantili.",
+      "squad-guaranteed_plural": "Bu takımın {{count}} üyesi var ve turnuvada yer alması garantilidir.",
+      "squad-not-guaranteed": "Bu takımın {{count}} üyesi var ve turnuvada yer alacağı garanti edilmiyor.",
+      "squad-not-guaranteed_plural": "Bu takımın {{count}} üyesi var ve turnuvada yer alacağı garanti edilmiyor.",
+      "invite-to-squad": "Arkadaşlarınızı bu takıma davet edin",
+      "back-to-all": "Geri dön",
+      "top-members": "Takımın en iyi tüccarları",
+      "others": "Diğerleri"
     },
     "s02": {
-      "competition-starts": "Competition starts",
-      "competition-ends": "Competition ends",
-      "rookies": "Rookies",
-      "user-welcome": "Welcome,",
+      "competition-starts": "Turnuva başlar",
+      "competition-ends": "Turnuva biter",
+      "rookies": "Çaylaklar",
+      "user-welcome": "Hoşgeldiniz,",
       "prize": {
-        "title": "$10,000 NEW PRIZES PER $10M VOLUME",
-        "desc-1": "Just trade on Nash to get your share!",
-        "desc-2": "All users are automatically registered as solo participants, but you can join a squad to win an additional prize.",
-        "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
-        "total-volume": "Total exchange volume",
-        "unlocked-prize": "Unlocked prizes",
-        "prize-split": "Prize split",
-        "no-prizes-unlocked": "No prizes unlocked yet",
-        "all-solos": "All solos",
-        "squad-prizes-split": "{{count}} squad",
-        "squad-prizes-split_plural": "{{count}} squads",
-        "volume-tier": "Volume tier",
-        "volume-remainning": "Volume remaining for the this level"
+        "title": "10 MİLYON DOLARLIK HACİM BAŞINA 10.000 $ YENİ ÖDÜL",
+        "desc-1": "Payınızı almak için sadece Nash platformunda işlem yapın!",
+        "desc-2": "Tüm kullanıcılar otomatik olarak tek kişilik katılımcılar olarak kaydedilir, ancak ek bir ödül kazanmak için bir takıma katılabilirsiniz.",
+        "desc-3": "Yarışma boyunca ne kadar fazla hacim oluşturulursa, o kadar çok ödül ödenir!",
+        "total-volume": "Toplam borsa hacmi",
+        "unlocked-prize": "Kilidi açılan ödüller",
+        "prize-split": "Bölünen ödül",
+        "no-prizes-unlocked": "Henüz açılmamış ödül yok",
+        "all-solos": "Tüm bireyseller",
+        "squad-prizes-split": "{{count}} takım",
+        "squad-prizes-split_plural": "{{count}} takım",
+        "volume-tier": "Hacim seviyesi",
+        "volume-remainning": "Bu seviye için kalan hacim"
       },
       "create-squad": {
-        "description": "Captains receive a guaranteed 5% of a squad’s prize!",
-        "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one. Your squad must have at least 5 members when the competition begins, otherwise it will be disbanded."
+        "description": "Kaptanlar, bir takımın ödülünün% 5’ini garantili olarak alır!",
+        "create-squad-modal-message": "Takımınızı oluşturduğunuzda, takımdan ayrılamaz veya yeni bir takıma katılamazsınız. Turnuva başladığında takımınızın en az 5 üyesi olmalıdır, aksi takdirde dağıtılacaktır."
       },
       "competition-table": {
-        "divider-squad-unsafe": "These squads have not met the 5-person limit.",
-        "week-prize": "Week {{week}}",
-        "previous-week": "Previous week",
-        "next-week": "Next week"
+        "divider-squad-unsafe": "Bu takımlar 5 kişilik sınırı karşılamadı.",
+        "week-prize": "{{week}} hafta",
+        "previous-week": "Geçen hafta",
+        "next-week": "Gelecek hafta"
       },
       "competition-info": {
-        "competition-ended": "Season 2 of Nash League is now over!",
-        "welcome-rookie": "Welcome to Nash, Rookie!",
-        "how-it-works-rookie": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
-        "rewards-rokie": "NEX rewards: {{prize}}"
+        "competition-ended": "Nash Lig’in 2. Sezonu sona erdi!",
+        "welcome-rookie": "Nash’e hoşgeldin, Çaylak!",
+        "how-it-works-rookie": "Her hafta en iyi yeni tüccarlarımız 1.000 NEX tokeninden pay alıyor! <0>Daha fazlası için</0>",
+        "rewards-rokie": "NEX ödülleri: {{prize}}"
       }
     }
   }
