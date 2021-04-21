@@ -2783,9 +2783,9 @@
       "use-exact-name": "Bu adı kullan.",
       "recipient-address": "Alıcı adresi",
       "recipient-bank-country": "Alıcı banka ülkesi",
-      "exact-name-warning-1": "Alıcıyı ‘<1> Neon Exchange AG </1>’ olarak <0> belirtmelisiniz </0>.",
-      "exact-name-warning-2": " Nash’ e veya diğer adlara transferler <0> kendi maliyetinize göre </0> iade edilecektir.",
-      "exact-name-warning-3": "Banka hesabı adınız, Nash hesabınızdaki adla eşleşmelidir. Üçüncü taraf hizmetleri (ör. TransferWise) <0> kullanmayın </0>.",
+      "exact-name-warning-1": "Alıcıyı ‘<1> Neon Exchange AG </1>’ olarak <0>belirtmelisiniz</0>.",
+      "exact-name-warning-2": " Nash’ e veya diğer adlara transferler <0>kendi maliyetinize göre</0> iade edilecektir.",
+      "exact-name-warning-3": "Banka hesabı adınız, Nash hesabınızdaki adla eşleşmelidir. Üçüncü taraf hizmetleri (ör. TransferWise) <0>kullanmayın</0>.",
       "btn-exact-name-warning": "Anladım"
     },
     "timeout-message": "Bu döviz kuru aşağıdakiler için garanti edilecek ve kilitlenecektir:",
@@ -2813,7 +2813,7 @@
       "transfer-amount": "Bu miktarı transfer et",
       "pop-upload-time": "Bu işlemin geçerli olabilmesi için ödeme belgenizi para gönderdikten sonra 60 dakika içinde yüklemelisiniz.",
       "add-default-docs": "<0>Limitlerimi arttır</0>",
-      "overlimit-message-level1": "Dijital varlıkları satın almadan önce <0> profilinizi tamamlamanız </0> gerekir.",
+      "overlimit-message-level1": "Dijital varlıkları satın almadan önce <0>profilinizi tamamlamanız</0> gerekir.",
       "overlimit-message-level2": "Bu işlem aylık limitinizi aşacaktır.",
       "government-id-or-passport": "Kimlik belgesi",
       "government-id": "Kimlik belgesi",
@@ -2824,8 +2824,8 @@
       "selfie-with-id": "Kimlik belgesi ile Özçekim",
       "include-reference": "Bunu eklemelisiniz.",
       "proof-of-payment": "Ödeme kanıtı",
-      "transfer-instructions-singular": "<0> {{amount}} </0> ’ı aşağıdaki banka hesabına aktar:",
-      "transfer-instructions-plural": "<0> {{amount}} </0> ’ı aşağıdaki banka hesaplarından birine aktar:",
+      "transfer-instructions-singular": "<0>{{amount}}</0> ’ı aşağıdaki banka hesabına aktar:",
+      "transfer-instructions-plural": "<0>{{amount}}</0> ’ı aşağıdaki banka hesaplarından birine aktar:",
       "include-payment-reference": "Satın alma işleminizi tamamlamak için, ödeme belgesi olarak transferinizin bir ekran görüntüsünü yükleyin.",
       "reference": "Referans",
       "bank-name": "Banka ismi",
@@ -2840,8 +2840,8 @@
       },
       "order-created": {
         "title": "Sipariş oluşturuldu",
-        "description": "Ödemeniz tamamlandıktan sonra varlıklarınızı Nash kişisel hesabınıza yatıracağız.Bu, {{count}} iş günü sürebilir.Yatırmanızın durumunu <0> İşlemler </0> sekmesinde görüntüleyebilirsiniz.",
-        "description_plural": "Ödemeniz tamamlandıktan sonra varlıklarınızı Nash kişisel hesabınıza yatıracağız.Bu, {{count}} iş günü sürebilir.Yatırmanızın durumunu <0> İşlemler </0> sekmesinde görüntüleyebilirsiniz.",
+        "description": "Ödemeniz tamamlandıktan sonra varlıklarınızı Nash kişisel hesabınıza yatıracağız.Bu, {{count}} iş günü sürebilir.Yatırmanızın durumunu <0>İşlemler</0> sekmesinde görüntüleyebilirsiniz.",
+        "description_plural": "Ödemeniz tamamlandıktan sonra varlıklarınızı Nash kişisel hesabınıza yatıracağız.Bu, {{count}} iş günü sürebilir.Yatırmanızın durumunu <0>İşlemler</0> sekmesinde görüntüleyebilirsiniz.",
         "button": "Bitir"
       },
       "profile-details": {
@@ -2927,7 +2927,7 @@
       },
       "details-shared": {
         "title": "{{ccpro}} size bir mail gönderdi",
-        "desc": "<0> Lütfen e-postanızı kontrol edin ve hesabınızı {{ccpro}} ile doğrulayın.</0><0>E-postayı görmüyorsanız,gereksiz klasörünüzü kontrol edin.</0>",
+        "desc": "<0>Lütfen e-postanızı kontrol edin ve hesabınızı {{ccpro}} ile doğrulayın.</0><0>E-postayı görmüyorsanız,gereksiz klasörünüzü kontrol edin.</0>",
         "button": "Tekrar doğrulama kodu gönder"
       },
       "transactions": {
@@ -2953,26 +2953,26 @@
           "label": "Telefon numaranızı girin",
           "desc": "Telefon numaranızı doğrulamak için SMS yoluyla on basamaklı bir kod gönderilecektir.",
           "code-not-received": "SMS yoluyla bir kod almadınız mı? <0>Tekrar gönder</0>.",
-          "resending-code": "Doğrulama kodu tekrar gönderiliyor...",
+          "resending-code": "Doğrulama kodu tekrar gönderiliyor…",
           "code-label": "Gönderilen doğrulama kodunu girin",
           "back": "Geri",
           "verify": "Doğrula"
         },
         "national-id": {
-          "upload-label": "Ulusal kimliğinizin biri önden diğeri arkadan olmak üzere iki <0> ayrı fotoğrafı </0> yükleyin.",
-          "upload-label-format": "Kabul edilen dosya uzantıları: <0> .jpg </0>, <0> .jpeg </0>, <0> .bmp </0>, <0> .png </0>, <0> .pdf < / 0>. Maksimum dosya boyutu: 10 MB."
+          "upload-label": "Ulusal kimliğinizin biri önden diğeri arkadan olmak üzere iki <0>ayrı fotoğrafı</0> yükleyin.",
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf < / 0>. Maksimum dosya boyutu: 10 MB."
         },
         "passport": {
           "upload-label": "Pasaport bilgilerinizin bir fotoğrafını yükleyin.",
-          "upload-label-format": "Kabul edilen dosya uzantıları: <0> .jpg </0>, <0> .jpeg </0>, <0> .bmp </0>, <0> .png </0>, <0> .pdf < / 0>. Maksimum dosya boyutu: 10 MB."
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf < / 0>. Maksimum dosya boyutu: 10 MB."
         },
         "utility-bill": {
           "upload-label": "Yakın tarihli faturanızın bir fotoğrafını yükleyin.",
-          "upload-label-format": "Kabul edilen dosya uzantıları: <0> .jpg </0>, <0> .jpeg </0>, <0> .bmp </0>, <0> .png </0>, <0> .pdf < / 0>. Maksimum dosya boyutu: 10 MB."
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf < / 0>. Maksimum dosya boyutu: 10 MB."
         },
         "selfie-with-id": {
           "upload-label": "Üzerinde ‘cryptocoin.pro’ yazan bir kağıt parçasını ve pasaportunuzu veya ulusal kimliğinizi tuttuğunuz bir fotoğrafınızı yükleyin.",
-          "upload-label-format": "Kabul edilen dosya uzantıları: <0> .jpg </0>, <0> .jpeg </0>, <0> .bmp </0>, <0> .png </0>, <0> .pdf < / 0>. Maksimum dosya boyutu: 10 MB."
+          "upload-label-format": "Kabul edilen dosya uzantıları: <0>.jpg</0>, <0>.jpeg</0>, <0>.bmp</0>, <0>.png</0>, <0>.pdf < / 0>. Maksimum dosya boyutu: 10 MB."
         },
         "bank-account": {
           "bank-address-placeholder": "Bankanızın adresini girin",
@@ -2991,7 +2991,7 @@
       "title": "Ticaret sözleşmesi bakiyenizi senkronize edin.",
       "desc": "Bu işlem beklemede olan fonlarınızı serbest bırakacaktır.Bu işlem, açık ticaret emirlerini iptal edecektir.",
       "button": "Hesabı yeniden senkronize et",
-      "resyncing": "Yeniden senkronize ediliyor...",
+      "resyncing": "Yeniden senkronize ediliyor…",
       "error": "Senkronizasyon hatası. Lütfen <0>desteğe başvurun.</0>",
       "wait-error": "Lütfen bu sayfayı kullanmadan önce son para yatırma işleminizden sonra en az 2 saat bekleyin.",
       "success": "Yeniden senkronizasyon başarılı."
@@ -3002,7 +3002,7 @@
       "subtitle": "Bekleyen veya başarısız olan tüm para yatırma veya çekme işlemleri",
       "actions-title": "Hareketler",
       "button-title": "Yeniden dene",
-      "button-sending": "Gönderiliyor..",
+      "button-sending": "Gönderiliyor…",
       "button-sent": "Yeniden gönderildi",
       "nothing-to-retry": "Bekleyen para yatırma veya çekme işleminiz yok.",
       "status": {
@@ -3095,7 +3095,7 @@
         "create": {
           "asset": {
             "label": "Hangi varlık ?",
-            "placeholder": "Bir varlık ara.."
+            "placeholder": "Bir varlık ara…"
           },
           "choose-accounts": {
             "from": "dan",
@@ -3103,7 +3103,7 @@
           },
           "exchange-maintenance": "Bakım sırasında ticaret sözleşmesine veya ticaret sözleşmesinden para aktaramazsınız.",
           "recipient": {
-            "placeholder": "Hedef girin.."
+            "placeholder": "Hedef girin…"
           },
           "contacts": {
             "label": "Hedef",
@@ -3157,7 +3157,7 @@
           },
           "fees": {
             "eth-recommended-message": "Gelecekteki ağ ücretleri için kişisel hesabımda {{amount}} ETH tut.",
-            "fee-shortage": "Ağ ücretlerini ödemek için kişisel hesabınızda en az <0> {{amount}} </0> {{currencySymbol}} ’a ihtiyacınız var. <1></1> Bakiye: <0>{{balance}}</0> {{currencySymbol}}"
+            "fee-shortage": "Ağ ücretlerini ödemek için kişisel hesabınızda en az <0>{{amount}}</0> {{currencySymbol}} ’a ihtiyacınız var. <1></1> Bakiye: <0>{{balance}}</0> {{currencySymbol}}"
           },
           "precision": {
             "neo-trading": "Kesirli miktarlarda NEO gönderemez veya çekemezsiniz."
@@ -3199,7 +3199,7 @@
             "transfer-funds": "Gönder",
             "transfer-funds-with-currency": "{{currency}} gönder",
             "transfer-started": "Transfer başlatıldı",
-            "confirming": "Onaylanıyor.."
+            "confirming": "Onaylanıyor…"
           }
         },
         "hints": {
@@ -3229,8 +3229,8 @@
           "current-approval": "Ticaret sözleşmesi için mevcut onayınız: {{currentErc20Approved}}"
         },
         "started": {
-          "title": "Transfer devam ediyor..",
-          "title-initializing": "Transfer başlatılıyor..",
+          "title": "Transfer devam ediyor…",
+          "title-initializing": "Transfer başlatılıyor…",
           "desc": "Durumunu takip etmek için <0>Transferler</0> sekmesine gidin.",
           "warning": "Bu bir saat kadar sürebilir.",
           "remain-opened": "Transferiniz başlarken lütfen Nash’i açık tutun. Nash’i kapatırsanız veya oturumu kapatırsanız, tekrar oturum açana kadar duraklatılacaktır.",
@@ -3300,7 +3300,7 @@
     "transactions": {
       "title": "Transferler",
       "show-more-transactions": "Daha fazla transferi göster",
-      "search-my-transactions": "Transferlerimde ara..",
+      "search-my-transactions": "Transferlerimde ara…",
       "no-transactions": "Henüz herhangi bir transfer yapmadınız!",
       "table": {
         "header": {
@@ -3358,8 +3358,8 @@
     "portfolio": {
       "title": "Portföy",
       "header": {
-        "search-placeholder": "Varlıklarımda ara..",
-        "search-placeholder-transfer-redesign": "Varlıkları ara.."
+        "search-placeholder": "Varlıklarımda ara…",
+        "search-placeholder-transfer-redesign": "Varlıkları ara…"
       },
       "table": {
         "header": {
@@ -3542,7 +3542,7 @@
       }
     },
     "receive-funds": {
-      "asset-to-receive": "Alınacak varlık..",
+      "asset-to-receive": "Alınacak varlık…",
       "address-to-receive-currency": "{{currency}} almak için adresiniz.",
       "receive-funds-from-external": "Harici bir cüzdandan varlık alın"
     },
@@ -3688,7 +3688,7 @@
           "content": "Dökümanınız hasarlı görünüyor."
         },
         "identity_verification_too_many_attempts": {
-          "title": "Çok fazla deneme..",
+          "title": "Çok fazla deneme…",
           "content": "Çok fazla doğrulama denemesi yaptınız."
         },
         "unknown_error": {
@@ -3776,7 +3776,7 @@
       "title": "Sizinle ilgili birkaç ayrıntıya ihtiyacımız var",
       "topnav-back-button": "Limitlere geri dön",
       "country": "Ülke",
-      "waiting": "Doğrulanıyor..",
+      "waiting": "Doğrulanıyor…",
       "waiting-subtitle": "Bu birkaç dakika sürebilir. Bu sayfadan ayrılabilirsiniz.",
       "topnav-title": "Seviye1 doğrulama",
       "contact-support-label": "Değiştirme için <0>desteğe başvurun</0>",
@@ -3839,7 +3839,7 @@
           "update-email": "E-posta adresi değiştir",
           "password": "Şifre",
           "update-password": "Şifre değiştir",
-          "two-factor": "<0>Güvenlik</0> içinden iki adımlı kimlik doğrulamayı etkinleştirmenizi öneririz..",
+          "two-factor": "<0>Güvenlik</0> içinden iki adımlı kimlik doğrulamayı etkinleştirmenizi öneririz…",
           "two-factor-enable": "<0>Güvenlik</0> kısmından iki adımlı kimlik doğrulama devre dışı bırakılabilir."
         }
       },
@@ -4013,7 +4013,7 @@
       "show-all-private-keys-button-label": "Tüm gizli anahtarları göster",
       "hide-all-private-keys-button-label": "Tüm gizli anahtarları gizle",
       "desc": "Nash velayetsizdir. Özel anahtarlarınıza erişimimiz yok.",
-      "search-assets-placeholder": "Bir varlık adı veya sembol ara..",
+      "search-assets-placeholder": "Bir varlık adı veya sembol ara…",
       "public-address-label": "Açık adres",
       "info-title": "Bazı blokzincirleri birden çok varlığı destekler",
       "info-body": "ERC-20 ve NEP-5 varlıkları, sırasıyla Ethereum ve NEO blok zincirlerinde verilen tokenlerdir.GAS ayrıca NEO blok zincirinde depolanan bir varlıktır. Hem ETH hem de ERC-20 jetonlarını depolamak için yalnızca bir Ethereum hesabına ve NEO, GAS ve NEP-5 jetonlarını depolamak için bir NEO hesabına ihtiyacınız var.",
@@ -4135,9 +4135,9 @@
         "duration-month_plural": "<0>{{count}}</0> ay",
         "redeem-button": {
           "label": "NEX serbest bırak",
-          "submitting": "Serbest bırakılıyor..",
+          "submitting": "Serbest bırakılıyor…",
           "error": "Hata oluştu!Lütfen tekrar deneyin!",
-          "success": "Başarılı.NEX serbest bırakılıyor..",
+          "success": "Başarılı.NEX serbest bırakılıyor…",
           "released": "NEX serbest bırakıldı."
         }
       }
@@ -4241,7 +4241,7 @@
         "agreed-to-non-cancellation-label": "Bu kilitlemeyi oluşturduktan sonra iptal edemeyeceğimi veya düzenleyemeyeceğimi biliyorum.",
         "agreed-to-locked-tokens-label": "Bu kilit süresi tamamlanana kadar NEX tokenlerimin kilitleneceğini anlıyorum.",
         "create-stake-button": "Kilit oluştur",
-        "create-stake-sending-button": "Bilgiler gönderiliyor..",
+        "create-stake-sending-button": "Bilgiler gönderiliyor…",
         "create-stake-sending-text": "Bilgiler gönderiliyor. Lütfen bu pencereyi açık tutun. Bu işlem bir dakika kadar sürebilir.",
         "create-stake-error": "Kilitlemenizi oluştururken bir hata veya gecikme oldu. Lütfen beş dakika içinde tekrar kontrol edin ve kilitlemeniz oluşturulmadıysa yeniden gönderin.",
         "create-stake-auth-error": "Doğrulama hatası. Lütfen tekrar deneyin.",
@@ -4278,7 +4278,7 @@
   "contacts": {
     "title": "{{count}} Kişiler",
     "title_plural": "{{count}} Kişiler",
-    "search-my-contacts": "Kişilerimde ara...",
+    "search-my-contacts": "Kişilerimde ara…",
     "no-contacts": "Henüz herhangi bir kişi eklemediniz veya içe aktarmadınız.",
     "contact-fallback-name": "Kişi",
     "create-new": "Yeni oluştur",
@@ -4314,8 +4314,8 @@
           "currency": "Varlıklarınızı yalnızca kişisel hesabınızdan gönderebilirsiniz."
         },
         "placeholders": {
-          "currency": "Varlıklarda ara..",
-          "destination": "Cüzdan adresi ara.."
+          "currency": "Varlıklarda ara…",
+          "destination": "Cüzdan adresi ara…"
         }
       },
       "delete": {
@@ -4707,7 +4707,7 @@
       "title": "Takıma katıl",
       "description": "{{captainName}} kaptanınız olacak.{{squadName}} takımına katılmak istediğinden emin misin?",
       "message-guaranteed": "Bu kadronun rekabette olması garantilidir.",
-      "message-not-guaranteed": "Bu takıma katılmak riskli çünkü {{minMemberCount}} - minimum kişi sınırını karşılamadı.",
+      "message-not-guaranteed": "Bu takıma katılmak riskli çünkü {{minMemberCount}} – minimum kişi sınırını karşılamadı.",
       "modal-check": "Katıldığınızda, bu takımdan ayrılamayacak veya yeni bir kadroya katılamayacaksınız."
     },
     "competition-table": {
