@@ -1,8 +1,8 @@
 {
   "sandbox-warning": "This is a sandbox environment for testing API integration. Never send real funds here!",
-  "buy": "al",
-  "sell": "sat",
-  "cancel": "Cancel",
+  "buy": "Al",
+  "sell": "Sat",
+  "cancel": "İptal et",
   "continue": "Devam et",
   "ok": "Tamam",
   "back": "Geri",
@@ -13,8 +13,8 @@
   "or": "veya",
   "price": "Fiyat",
   "fee": "Ücret",
-  "fee-as-suffix": "fee",
-  "admin-link": "Quote on Admin",
+  "fee-as-suffix": "ücret",
+  "admin-link": "Yöneticiden",
   "try-again": "Tekrar dene",
   "refresh": "Yenile",
   "finish": "Bitir",
@@ -27,11 +27,11 @@
   "market-price": "Market fiyatı",
   "exchange": "Borsa",
   "receive": "Teslim al",
-  "send": "Send",
-  "convert": "Convert",
-  "review": "Review",
+  "send": "Gönder",
+  "convert": "Dönüştür",
+  "review": "Gözden geçir",
   "wallet": "Hesap",
-  "upload": "yükle",
+  "upload": "Yükle",
   "processing": "işleniyor…",
   "over-file-limit": "Dosya boyutu aşılmamallıdır {{maxAllowedSize}}{{unit}}.",
   "opens-new-tab": "Yeni sekmede aç",
@@ -41,33 +41,33 @@
   "google-play": "<0/> Google Play",
   "apple-store": "<0/> App Store",
   "qr": "<0/> QR <1/>",
-  "dismiss": "Dismiss",
-  "dismiss-forever": "Dismiss forever",
-  "remind-me-later": "Remind me later",
-  "got-it": "Got it!",
-  "deposit": "Deposit",
-  "review-deposit": "Review deposit",
-  "withdraw": "Withdraw",
-  "review-withdraw": "Review withdraw",
-  "no-limit": "No limit",
-  "learn-more": "Learn more",
-  "approve-currency": "Approve {{currency}}",
-  "approve-currency-once": "You will need to approve transfers of this asset once.",
-  "approve-currency-everytime": "You will need to approve transfers of this asset every time.",
-  "approve-currency-loading": "This can take up to 1 minute",
-  "verified": "Verified",
+  "dismiss": "Görmezden gel",
+  "dismiss-forever": "Sonsuza dek görmezden gel",
+  "remind-me-later": "Daha sonra hatırlat",
+  "got-it": "Anladım!",
+  "deposit": "Yatır",
+  "review-deposit": "Yatırmayı gözden geçir",
+  "withdraw": "Çek",
+  "review-withdraw": "Çekmeyi gözden geçir",
+  "no-limit": "Limitsiz",
+  "learn-more": "Daha fazlası,",
+  "approve-currency": "{{currency}} onayla",
+  "approve-currency-once": "Bu varlığın transferlerini bir kez onaylamanız gerekecek.",
+  "approve-currency-everytime": "Bu varlığın transferlerini her seferinde onaylamanız gerekecek.",
+  "approve-currency-loading": "Bu işlem 1 dakika kadar sürebilir.",
+  "verified": "Doğrulandı",
   "nash-cash": "Nash Cash",
-  "nex-staking": "NEX staking",
-  "available": "Available",
-  "view": "View",
-  "terms-and-conditions": "Terms and conditions",
-  "sign-in": "Sign in",
-  "read-more": "Read more",
-  "coming-soon": "Coming soon",
+  "nex-staking": "NEX kilitleme",
+  "available": "Mevcut",
+  "view": "Göster",
+  "terms-and-conditions": "Şartlar ve koşullar",
+  "sign-in": "Giriş yap",
+  "read-more": "Devamını oku",
+  "coming-soon": "Çok yakında",
   "million": "Million",
   "million/short": "M",
-  "volume": "Volume",
-  "volume/lowercase": "volume",
+  "volume": "Hacim",
+  "volume/lowercase": "hacim",
   "apikeys": {
     "no-addresses-whitelisted": "Hiç beyaz adres listesi yüklemediniz.",
     "address-input-placeholder": "Beyaz listeye BTC,NEO veya ETH adresi ekleyiniz",
@@ -4185,185 +4185,185 @@
         },
         "paragraphs": {
           "par-1": {
-            "title": "How does it work?",
-            "desc": "You lock as many of your NEX tokens as you want in a staking contract. You will not be able to move or sell your tokens while they are locked in the contract. Every day that your stake is active you will receive dividends."
+            "title": "Nasıl çalışır?",
+            "desc": "Bir kilit sözleşmesinde istediğiniz kadar NEX tokeninizi kilitlersiniz.Tokenlerinizi sözleşmede kilitli haldeyken taşıyamaz veya satamazsınız.Payınızın aktif olduğu her gün temettü alacaksınız."
           },
           "par-2": {
-            "title": "How are dividends calculated?",
-            "desc": "Dividends depend on: (1) the number of NEX tokens you stake as a proportion of the total 50,000,000 supply, and (2) the period of time for which you stake them. The more tokens you stake, the higher your dividend will be. The longer you stake your tokens for, the greater the proportion of fees you receive will be (your ‘staking rate’)."
+            "title": "Temettüler nasıl hesaplanır?",
+            "desc": "Temettüler şunlara bağlıdı: (1) toplam 50.000.000 arzın bir oranı olarak kitlediğiniz NEX token sayısı ve (2) onları kilitlediğiniz zaman dilimi. Ne kadar çok token kilitlerseniz, kar payınız o kadar yüksek olur.Tokenlerinizi ne kadar uzun süre kilitlerseniz, alacağınız ücretlerin oranı o kadar büyük olacaktır ('temettü gelir oranı')."
           },
           "par-3": {
-            "title": "How long can I stake for?",
-            "desc": "The minimum staking period is one month, which offers a staking rate of 25%. However, if you want a higher proportion of the exchange’s fees, you can stake for any whole number of months up to a maximum of 24, which offers a staking rate of 75%."
+            "title": "Ne kadar süreyle kilitleyebilirim?",
+            "desc": "Minimum kilit süresi 1 aydır,ve bu kilitleme %25 lik bir gelir oranı sunar.Bununla birlikte, borsa ücretlerinin daha yüksek bir oranını istiyorsanız, maksimum 24 aya kadar kilitleme yapabilirsiniz, bu da %75'lik bir gelir oranı sunar."
           },
           "par-4": {
-            "title": "How do I receive my dividends?",
-            "desc": "Dividends are automatically added to your trading contract balance. They are paid out on a daily basis, shortly after midnight UTC. Nash provides monthly staking statements that aggregate these payments into a single figure for accounting purposes. Since the fees on a trade are charged in the currency being exchanged, you will receive dividends in every asset currently being traded on Nash."
+            "title": "Temettülerimi nasıl alırım?",
+            "desc": "Temettüler,ticaret sözleşmesi bakiyenize otomatik olarak eklenir.(UTC) gece yarısından kısa bir süre sonra günlük olarak ödenir.Nash platformunda kullanılan para birimleri üzerinden hesaplama yaparak kilitleyenlere ödemeleri yine aynı para birimleriyle yapar."
           },
           "par-5": {
-            "title": "Can I receive my dividends in a single currency?",
-            "desc": "No. For legal reasons, we cannot convert your dividends for you. However, we are developing a tool to allow you to convert dividends yourself with a single click."
+            "title": "Temettülerimi tek bir para biriminde alabilir miyim?",
+            "desc": "Hayır.Yasal nedenlerden dolayı,temettülerinizi dönüştürme hakkımız yoktur.Ancak temettülerinizi tek bir tuşla dönüştürmenizi sağlayak bir araç geliştiriyoruz."
           },
           "par-6": {
-            "title": "Can I edit or cancel my stake once it’s been created?",
-            "desc": "No. Once you have created a stake you will not be able to edit or cancel it."
+            "title": "Kilitlememi oluşturduktan sonra düzeltebilir veya iptal edebilir miyim?",
+            "desc": "Hayır.Kilit oluşturduğunuzda onu düzenlyemez yada iptal edemezsiniz.Süresinin bitmesini beklemelisiniz."
           },
           "par-7": {
-            "title": "Can I create multiple stakes?",
-            "desc": "Yes. If you have NEX tokens in your personal account that are not already locked in a stake, you can use them to create a new one."
+            "title": "Birden fazla kilitleme oluşturabilir miyim ?",
+            "desc": "Evet.Kişisel hesabınızda halihazırda bir kilitlenmemiş NEX tokenleriniz varsa, bunları yeni bir tane oluşturmak için kullanabilirsiniz."
           },
           "par-8": {
-            "title": "How many stakes can I create?",
-            "desc": "There is no limit to the number of stakes you can create."
+            "title": "Kaç adet kilitleme oluşturabilirim?",
+            "desc": "Oluşturabileceğiniz kilit sayısında bir sınır yoktur."
           }
         }
       },
       "create-stake": {
-        "create-stake-disclaimer-label": "I understand that staked NEX only pays dividends if the Nash Exchange generates revenue.",
-        "title": "Create your stake",
-        "amount-to-stake": "Amount of NEX to stake",
-        "amount-to-stake-tooltip": "Staking rate determines the size of your proportionate share of revenue from the Nash Exchange. The longer you stake your NEX, the higher your staking rate will be, with a maximum rate of 75% for a two-year stake.\n\n<0>An example dividend</0>\nDividends are paid out daily. Say that Nash has generated fees equivalent to $1,000,000 in the last 24 hours and that a user owns 1,000 NEX tokens out of the total 50,000,000 supply. If the user has staked NEX at the two-year staking rate of 75%, they are eligible for a dividend worth: $1,000,000 ∗ 1,000 / 50,000,000 ∗ 0.75 = $15.",
-        "available-balance": "Available balance to stake ⋅",
-        "quick-fill-label": "Max",
-        "set-stake-duration-label": "Set a stake duration",
-        "selected-duration": "Selected duration ⋅",
-        "selected-duration-month": "<0>{{count}}</0> month",
-        "selected-duration-month_plural": "<0>{{count}}</0> months",
-        "set-date-dividends-label": "Set a date to receive your dividends",
-        "set-date-dividends-value": "Date ⋅ {{date}} of every month",
-        "stake-details-title": "Your stake details",
-        "currency-to-stake": "NEX to stake",
-        "stake-duration": "Duration of stake",
-        "duration-value": "<0>{{count}}</0> month",
-        "duration-value_plural": "<0>{{count}}</0> months",
-        "fee-reward": "Staking rate",
-        "first-payment": "First payment",
-        "agreed-to-non-cancellation-label": "I understand that I cannot cancel or edit this stake once I have created it.",
-        "agreed-to-locked-tokens-label": "I understand that my NEX tokens will be locked until this stake is complete.",
-        "create-stake-button": "Create stake",
-        "create-stake-sending-button": "Sending data…",
-        "create-stake-sending-text": "Sending data. Please keep this window open. This can take up to one minute.",
-        "create-stake-error": "There was either an error or a delay while creating your stake. Please check again in five minutes and resubmit if your stake was not created.",
-        "create-stake-auth-error": "Authentication error. Please try again.",
-        "learn-more": "Learn more about",
-        "footer-desc": "staking NEX",
-        "amount-error-message": "This amount exceeds your available balance.",
+        "create-stake-disclaimer-label": "Kilitli NEX tokenlerim için,yalnızca Nash plaformu gelir elde ederse ödeme alacağımın farkındayım ve bunu kabul ediyorum.",
+        "title": "Kilit oluştur",
+        "amount-to-stake": "Kilitlenecek NEX miktarı",
+        "amount-to-stake-tooltip": "Kilitleme oranı, Nash platformundan elde ettiğiniz orantılı gelir payınızın boyutunu belirler. NEX'inizi ne kadar uzun süre kilitlerseniz,maksimum için iki yıllık bir kilitleme %75 oranla gelir dağılıma katılırsınız.\n\n<0>Örnek temettü</0>\n Ödemeler günlük olarak yapılır.Nash'in son 24 saatte 1.000.000 $ 'a eşdeğer ücretler ürettiğini ve bir kullanıcının toplam 50.000.000 arzdan 1.000 NEX tokenine sahip olduğunu varsayalım.Kullanıcı, NEX'i iki yıllık %75 oranından kilitlediyse,1.000.000 $ ∗ 1.000 / 50.000.000 ∗ 0,75 = 15 $ değerinde bir temettü almaya hak kazanırlar.",
+        "available-balance": "Kilitleme için mevcut bakiye⋅",
+        "quick-fill-label": "Maks.",
+        "set-stake-duration-label": "Kilit süresi belirleyin",
+        "selected-duration": "Süre seçildi ⋅",
+        "selected-duration-month": "<0>{{count}}</0> ay",
+        "selected-duration-month_plural": "<0>{{count}}</0> ay",
+        "set-date-dividends-label": "Temettülerinizi almak için bir tarih belirleyin",
+        "set-date-dividends-value": "Tarih ⋅ Her ayın {{date}}",
+        "stake-details-title": "Kilit detaylarınız",
+        "currency-to-stake": "Kilitlenen NEX",
+        "stake-duration": "DKilit süresi",
+        "duration-value": "<0>{{count}}</0> ay",
+        "duration-value_plural": "<0>{{count}}</0> ay",
+        "fee-reward": "Kilit oranı",
+        "first-payment": "İlk ödeme",
+        "agreed-to-non-cancellation-label": "Bu kilitlemeyi oluşturduktan sonra iptal edemeyeceğimi veya düzenleyemeyeceğimi biliyorum.",
+        "agreed-to-locked-tokens-label": "Bu kilit süresi tamamlanana kadar NEX tokenlerimin kilitleneceğini anlıyorum.",
+        "create-stake-button": "Kilit oluştur",
+        "create-stake-sending-button": "Bilgiler gönderiliyor..",
+        "create-stake-sending-text": "Bilgiler gönderiliyor. Lütfen bu pencereyi açık tutun. Bu işlem bir dakika kadar sürebilir.",
+        "create-stake-error": "Kilitlemenizi oluştururken bir hata veya gecikme oldu. Lütfen beş dakika içinde tekrar kontrol edin ve kilitlemeniz oluşturulmadıysa yeniden gönderin.",
+        "create-stake-auth-error": "Doğrulama hatası. Lütfen tekrar deneyin.",
+        "learn-more": "Daha fazla bilgi",
+        "footer-desc": "NEX kilitleme",
+        "amount-error-message": "Bu miktar, mevcut bakiyenizi aşıyor.",
         "stake-success": {
-          "header": "Stake created!",
-          "stake-details": "You created a stake of {{amount}} NEX for a period of {{count}} month. Your stake will appear in the dashboard shortly.",
-          "stake-details_plural": "You created a stake of {{amount}} NEX for a period of {{count}} months. Your stake will appear in the dashboard shortly.",
-          "stake-time-description": "You will receive your first dividends in:",
-          "finish-button-label": "Finish"
+          "header": "Kilit oluşturuldu!",
+          "stake-details": "{{count}} ay boyunca {{amount}} NEX kilitlemesi oluşturdunuz. Kilitlemeniz kısa süre içerisinde hesabınızda görünecektir.",
+          "stake-details_plural": "{{count}} ay boyunca {{amount}} NEX kilitlemesi oluşturdunuz. Kilitlemeniz kısa süre içerisinde hesabınızda görünecektir.",
+          "stake-time-description": "Şu süre içinde ilk ödemenizi alacaksınız:",
+          "finish-button-label": "Bitir"
         }
       }
     },
     "no-stakes": {
-      "title": "Earn passive income by staking NEX tokens",
-      "description-desktop": "New to staking? Learn more about <0>staking NEX tokens</0> and <1>create your first stake</1>.",
-      "description-mobile": "New to staking? Learn more about <0>staking NEX tokens</0>.",
-      "description-modal-create-link": "Create your first stake"
+      "title": "NEX tokenlerinizi kilitleyerek pasif gelir elde edin.",
+      "description-desktop": "Kilitleme konusunda yeni misiniz? Daha fazlası için <0>NEX token kilitleme</0> ve <1>ilk kilitlemenizi oluşturun</1>.",
+      "description-mobile": "Kilitleme konusunda yeni misiniz? Daha fazlası için <0>NEX token kilitleme</0>.",
+      "description-modal-create-link": "İlk kilitlemenizi oluşturun"
     },
     "staking-view-header": {
-      "stakes-in-progress": "Stakes in progress",
-      "completed-stakes": "Completed stakes",
-      "create-stake-paused": "Staking is paused during Nash maintenance.",
-      "create-stake-button": "Create a new stake",
-      "learn-stake-button": "Learn about staking"
+      "stakes-in-progress": "Devam eden kilitlemeler",
+      "completed-stakes": "Tamamlanan kilitlemeler",
+      "create-stake-paused": "Nash bakımı sırasında kilitleme duraklatılır.",
+      "create-stake-button": "Yeni bir kilit oluştur.",
+      "learn-stake-button": "Kilitleme hakkında daha fazlası"
     },
     "max-stakes": {
-      "message": "You have created {{amount}} out of a possible {{maxAmount}} stakes. The maximum you can create is {{maxAmount}}.",
-      "dismiss": "Dismiss"
+      "message": "Olası {{maxAmount}} kilit etme sayınızdan {{amount}} kadarını oluşturdunuz. Oluşturabileceğiniz maksimum kilit adedi {{maxAmount}}.",
+      "dismiss": "Reddet!"
     }
   },
   "contacts": {
-    "title": "{{count}} contact",
-    "title_plural": "{{count}} contacts",
-    "search-my-contacts": "Search my contacts…",
-    "no-contacts": "You haven’t added or imported any contacts yet.",
-    "contact-fallback-name": "Contact",
-    "create-new": "Create new",
+    "title": "{{count}} Kişiler",
+    "title_plural": "{{count}} Kişiler",
+    "search-my-contacts": "Kişilerimde ara...",
+    "no-contacts": "Henüz herhangi bir kişi eklemediniz veya içe aktarmadınız.",
+    "contact-fallback-name": "Kişi",
+    "create-new": "Yeni oluştur",
     "buttons": {
-      "send": "Send",
-      "send-disabled-tooltip": "Add a wallet address to your contacts to send them funds.",
-      "request": "Request",
-      "edit": "Edit",
-      "delete": "Delete"
+      "send": "Gönder",
+      "send-disabled-tooltip": "Kişilerinize para göndermek için bir cüzdan adresi ekleyin.",
+      "request": "Talep et",
+      "edit": "Düzenle",
+      "delete": "Sil"
     },
     "headers": {
-      "name": "Name",
-      "email": "Email",
-      "phone-number": "Phone number",
-      "wallets": "Wallets"
+      "name": "İsim",
+      "email": "E-posta",
+      "phone-number": "Telefon numarası",
+      "wallets": "Cüzdanlar"
     },
     "modals": {
       "create": {
-        "title": "Create contact",
-        "button": "Create contact"
+        "title": "Kişi oluştur",
+        "button": "Kişi oluştur"
       },
       "edit": {
-        "title": "Edit this contact",
-        "button": "Save changes"
+        "title": "Kişiyi düzenle",
+        "button": "Değişklikleri kaydet"
       },
       "send": {
-        "title": "Send funds to {{contactName}}",
+        "title": "Fonları{{contactName}}'a gönder",
         "labels": {
-          "currency": "Which asset?",
-          "wallet": "Destination"
+          "currency": "Hangi varlık",
+          "wallet": "Hedef"
         },
         "sublabels": {
-          "currency": "You can only send assets from your personal account."
+          "currency": "Varlıklarınızı yalnızca kişisel hesabınızdan gönderebilirsiniz."
         },
         "placeholders": {
-          "currency": "Search for an asset…",
-          "destination": "Search for a wallet address…"
+          "currency": "Varlıklarda ara..",
+          "destination": "Cüzdan adresi ara.."
         }
       },
       "delete": {
-        "confirm-text": "Are you sure you want to delete {{contactName}}?",
-        "notice-text": "All information associated with this contact will be permanently removed.",
-        "button": "Yes, delete",
-        "cancel": "Cancel",
-        "error": "Error deleting contact. Please try again.",
-        "success": "Contact deleted.",
-        "success-button": "Return to contacts"
+        "confirm-text": "{{contactName}} bu kişiyi silmek istediğinizden emin misiniz?",
+        "notice-text": "Bu kişiyle ilişkili tüm bilgiler kalıcı olarak silinecektir.",
+        "button": "Evet,sil",
+        "cancel": "Çıkış yap",
+        "error": "Kişi silinirken hata oluştu. Lütfen tekrar deneyin.",
+        "success": "Kişi silindi",
+        "success-button": "Kişilere dön"
       },
       "results": {
-        "success": "Contact saved!",
-        "error": "Error saving contact. Please try again.",
-        "invalid-input": "Invalid input. Please try again."
+        "success": "Kişi kaydedildi!",
+        "error": "Kişi kaydedilirken hata oluştu. Lütfen tekrar deneyin.",
+        "invalid-input": "Geçersiz Giriş. Lütfen tekrar deneyin."
       },
       "fields": {
         "first-name": {
-          "label": "First name",
-          "placeholder": "First name"
+          "label": "İsim",
+          "placeholder": "İsim"
         },
         "last-name": {
-          "label": "Last name",
-          "placeholder": "Last name"
+          "label": "Soyisim",
+          "placeholder": "Soysisim"
         },
         "email": {
-          "label": "Email",
-          "placeholder": "Email address",
-          "error": "Invalid email address"
+          "label": "E-posta",
+          "placeholder": "E-posta adresi",
+          "error": "Geçersiz e-posta adresi"
         },
         "phone": {
-          "label": "Phone",
-          "error": "Invalid phone number for {{country}}"
+          "label": "Telefon",
+          "error": "{{country}} için yanlış telefon numarası"
         },
         "wallets": {
-          "label": "Wallets",
-          "delete": "Delete",
+          "label": "Cüzdanlar",
+          "delete": "Sil",
           "address": {
-            "placeholder": "Wallet address"
+            "placeholder": "Cüzdan adresi"
           },
           "name": {
-            "placeholder": "Wallet name"
+            "placeholder": "Cüzdan ismi"
           },
-          "add": "Add another"
+          "add": "Yeni ekle"
         },
         "validation": {
-          "address": "Please enter a valid {{blockchain}} address.",
-          "unique-address": "You already have another contact with this wallet address."
+          "address": "Lütfen geçerli bir {{blockchain}} adresi girin.",
+          "unique-address": "Bu cüzdan adresiyle zaten başka bir kişiniz var."
         }
       }
     }
@@ -4630,170 +4630,170 @@
     "Pacific/Kiritimati": "(GMT+14:00) Kiritimati"
   },
   "trading-competition": {
-    "title": "Nash League",
-    "competition": "Nash League",
-    "squad": "Squad",
-    "squads": "Squads",
-    "solo": "Solo",
+    "title": "Nash Lig",
+    "competition": "Nash Lig",
+    "squad": "Takım",
+    "squads": "Takımlar",
+    "solo": "Bireysel",
     "pl": "P/L",
-    "captain": "Captain",
-    "members": "Members",
-    "rank": "Rank",
-    "nickname": "Nickname",
-    "volume": "Volume",
-    "prize-label": "Prize",
-    "max-16-characters": "Max 16 characters",
-    "inappropriate-message": "Inappropriate names will lead to disqualification. Be polite!",
-    "invalid-name": "Your name is already taken or contains invalid characters.",
-    "terms-and-conditions": "By participating in Nash League you agree to the competition’s <0>Terms and Conditions</0>.",
-    "unranked": "Unranked",
+    "captain": "Kaptan",
+    "members": "Üyeler",
+    "rank": "Rütbe",
+    "nickname": "Takma ad",
+    "volume": "Hacim",
+    "prize-label": "Ödül",
+    "max-16-characters": "Maks 16 karakter",
+    "inappropriate-message": "Uygun olmayan isimler diskalifiye edilmeye neden olacaktır. Kibar ol!",
+    "invalid-name": "Adınız zaten alınmış veya geçersiz karakterler içeriyor.",
+    "terms-and-conditions": "Nash Lig'e katılarak, yarışmanın <0>şartlar ve koşulları.</0>.",
+    "unranked": "Rütbesiz",
     "n-a": "N/A",
     "prize": {
-      "unlock-up-to": "Unlock up to",
-      "title": "$1 MILLION IN PRIZES",
-      "desc-1": "Just trade on Nash to get your share!",
-      "desc-2": "All users are automatically registered as solo participants, but you can join a squad to improve your chances.",
-      "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
-      "more-levels": "More levels will become available when Level {{level}} is reached!",
-      "volume-s": "Volume ($)",
-      "prizes": "Prizes",
-      "winners": "Winners",
-      "default-nickname": "Default nickname: {{nickname}}",
-      "welcome-nickname": "Welcome, {{nickname}}",
-      "create-new-nickname": "Create new nickname",
+      "unlock-up-to": "Kilidi aç",
+      "title": "1 MİLYON DOLARLIK ÖDÜLLER",
+      "desc-1": "Payınızı almak için sadece Nash platformunda işlem yapın!",
+      "desc-2": "Tüm kullanıcılar otomatikman bireysel olarak kaydedilir, ancak şansınızı artırmak için bir takıma katılabilirsiniz.",
+      "desc-3": "Yarışma boyunca ne kadar fazla hacim oluşturulursa, o kadar çok ödül ödenir!",
+      "more-levels": "{{level}} seviyeye ulaşınca,yeni seviyeler gelecektir!",
+      "volume-s": "Hacim ($)",
+      "prizes": "Ödüller",
+      "winners": "Kazananlar",
+      "default-nickname": "Takma ad: {{nickname}}",
+      "welcome-nickname": "Hoşgeldin, {{nickname}}",
+      "create-new-nickname": "yeni takma ad oluştur",
       "anonymous": "Anonymous",
-      "set-nickname": "Set nickname",
-      "edit-nickname": "Edit nickname",
-      "maybe-later": "Maybe later",
-      "learn-more-league": "Learn more about Nash League",
-      "full-prize-breakdowns": "Full prize breakdown for current levels",
-      "all-levels-revealed": "All levels have been revealed!",
-      "competition-ended": "This competition has ended.",
-      "current-nickname": "Current nickname",
+      "set-nickname": "Takma ad oluştur",
+      "edit-nickname": "Takma adı düzenle",
+      "maybe-later": "Belki sonra",
+      "learn-more-league": "Nash Lig hakkında daha fazlasını öğren.",
+      "full-prize-breakdowns": "Mevcut seviyeler için olası tüm ödül dökümü",
+      "all-levels-revealed": "Tüm seviyeler açıldı!",
+      "competition-ended": "Yarışma sona erdi.",
+      "current-nickname": "Güncel takma ad",
       "main-card": {
-        "level-locked": "Level {{level}} locked",
-        "level-unlocked": "Level {{level}} unlocked",
-        "total-prize": "<0 /> in prizes",
-        "solo-count": "{{count}} solo",
-        "team-count": "{{count}} squad",
-        "team-count_plural": "{{count}} squads",
-        "pl-count": "{{count}} P/L",
-        "unlocks-at": "Unlocks at"
+        "level-locked": "{{level}} seviye kilitlendi.",
+        "level-unlocked": "{{level}} seviyenin kilidi açıldı",
+        "total-prize": "<0 /> ödül",
+        "solo-count": "{{count}} bireysel",
+        "team-count": "{{count}} takım",
+        "team-count_plural": "{{count}} takımlar",
+        "pl-count": "{{count}} K/Z",
+        "unlocks-at": "Kilit açılması"
       },
       "card": {
-        "squad-desc": "Split between {{count}} <0 /> <1>squad</1>",
-        "squad-desc_plural": "Split between {{count}} <0 /> <1>squads</1>",
-        "solo-desc": "Split between {{count}} <0 /> <1>solo</1>",
-        "special-desc": "<0 /> <1>Special promotions</1>",
-        "solo-pl-desc": "Split between {{count}} <0 /> <1>P/L</1>"
+        "squad-desc": "Arasında dağıtılır {{count}} <0 /> <1>squad</1>",
+        "squad-desc_plural": "Aralarında dağıtılır {{count}} <0 /> <1>squads</1>",
+        "solo-desc": "Arasında dağıtılır {{count}} <0 /> <1>solo</1>",
+        "special-desc": "<0 /> <1>Özel promostonlar</1>",
+        "solo-pl-desc": "Aralarında dağıtılır {{count}} <0 /> <1>P/L</1>"
       }
     },
     "create-squad": {
-      "title": "Captain your squad of trading pros",
-      "sub-title": "We only recommend this if you already have 10+ members ready to join",
-      "description": "If your squad has fewer than 10 members when the competition begins, it will be disbanded and you will compete solo.",
-      "create-squad-button": "Create a squad",
-      "create-squad-modal-desc": "Your squad must have at least 10 members when the competition begins, otherwise it will be disbanded.",
-      "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one.",
-      "set-squad-name": "Set squad name",
-      "create-a-name": "Create a name…",
-      "accept-rules": "I understand the squad creation rules",
-      "create-squad": "Create squad",
-      "your-squad": "Your squad",
-      "congrats-created-squad": "Congratulations! You are the captain of",
-      "invite-your-friends": "Invite friends to join your squad"
+      "title": "Alım-satım takımınıza kaptanlık yapın !",
+      "sub-title": "Bunu yalnızca katılmaya hazır 10'dan fazla üyeniz varsa öneririz.",
+      "description": "Lig başladığında kadronuzun 10'dan az üyesi varsa, dağıtılacak ve tek başınıza yarışacaksınız.",
+      "create-squad-button": "Takım oluştur",
+      "create-squad-modal-desc": "Lig başladığında kadronuzun en az 10 üyesi olmalıdır, aksi takdirde dağıtılacaktır.",
+      "create-squad-modal-message": "Kadronuzu oluşturduğunuzda, kadrodan ayrılamaz veya yeni bir kadroya katılamazsınız.",
+      "set-squad-name": "Takım ismi ayarla",
+      "create-a-name": "İsim oluştur",
+      "accept-rules": "Takım oluşturma kurallarını biliyorum.",
+      "create-squad": "Takım oluştur",
+      "your-squad": "Takımınız",
+      "congrats-created-squad": "Tebrikler! Artık kaptansınız.",
+      "invite-your-friends": "Takımına katılmaları için arkadaşlarını davet et."
     },
     "join-squad": {
-      "title": "Join squad",
-      "description": "Are you sure you want to join the squad {{squadName}} under captain {{captainName}}?",
-      "message-guaranteed": "This squad is guaranteed to be in the competition.",
-      "message-not-guaranteed": "This squad is risky to join because it hasn’t met the {{minMemberCount}}-person minimum limit.",
-      "modal-check": "Once you join, you will not be able to leave this squad or join a new one."
+      "title": "Takıma katıl",
+      "description": "{{captainName}} kaptanınız olacak.{{squadName}} takımına katılmak istediğinden emin misin?",
+      "message-guaranteed": "Bu kadronun rekabette olması garantilidir.",
+      "message-not-guaranteed": "Bu takıma katılmak riskli çünkü {{minMemberCount}} - minimum kişi sınırını karşılamadı.",
+      "modal-check": "Katıldığınızda, bu takımdan ayrılamayacak veya yeni bir kadroya katılamayacaksınız."
     },
     "competition-table": {
-      "no-squads": "No squads have been created yet.",
-      "table-message-not-started": "{{tabState}} rankings will appear here once the Nash League competition begins!",
-      "divider-squad-safe": "These squads are safe to join because they are guaranteed to be in the competition.",
-      "divider-squad-unsafe": "These squads are riskier to join because they haven’t met the 10-person minimum limit yet. A squad’s volume will be shown once it qualifies for the competition."
+      "no-squads": "Henüz takımlar oluşturulmadı.",
+      "table-message-not-started": "Nash Lig başladığında sıralamalar burada görünecek! {{tabState}}",
+      "divider-squad-safe": "Bu takımlara katılmak güvenlidir çünkü rekabette olmaları garantilidir.",
+      "divider-squad-unsafe": "Bu takımlar 10 kişilik minimum limiti henüz karşılamadıkları için katılmak daha riskli.Bir takımın hacmi, yarışmaya uygun hale geldiğinde gösterilecektir."
     },
     "competition-info": {
-      "squad-desc": "You are currently entering the competition in the {{squadName}} <0 /> squad.",
-      "solo-desc": "You are currently competing <0 /> solo – All Nash users are already registered!",
-      "not-signed": "<1>Sign in</1> to find yourself on the leaderboard!",
-      "competition-ended": "Season 1 of Nash League is now over!",
-      "prizes-unlocked": "Prizes unlocked",
-      "next-prizes-unlocked": "Next prizes unlocked",
-      "prizes-split": "<0 /> split between {{solo}} solo and {{team}} squad",
+      "squad-desc": "Şu anda {{squadName}} <0 /> takımında yarışmaya katılıyorsunuz.",
+      "solo-desc": "Şu anda <0 /> bireysel yarışıyorsunuz– Tüm Nash kullanıcıları zaten kayıt yaptırmış olur!",
+      "not-signed": "Kendinizi liderlik tablosunda bulmak için <1>Giriş yapın</1>!",
+      "competition-ended": "Nash Lig'in 1. Sezonu sona erdi!",
+      "prizes-unlocked": "Ödüllerin kilidi açıldı!",
+      "next-prizes-unlocked": "Sonraki ödüllerin kilidi açıldı!",
+      "prizes-split": "<0 /> {{solo}} bireysel ve {{team}} kadrosu arasında bölündü",
       "clock-helper": {
-        "days": "DAYS",
-        "hours": "HOURS",
-        "minutes": "MINUTES"
+        "days": "GÜN",
+        "hours": "SAAT",
+        "minutes": "DAKİKA"
       },
       "cards": {
-        "register-clock-title": "Time left to join or create a squad",
-        "competition-clock-title": "The competition begins in",
-        "current-tier-info-title": "Current volume",
-        "current-solo-prize": "Your current solo prize",
-        "current-squad-prize": "Your current squad prize",
-        "not-in-a-squad": "You are not in a squad",
-        "join-squad": "Join a squad for a chance of more prizes!",
-        "rookies-title": "Welcome to Nash, Rookie!",
-        "rookies-description": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
-        "rookies-nex-rewards": "NEX rewards: 0.00",
-        "next-tier-info-title": "Volume remaining for next level",
-        "ended-title": "Final competition volume"
+        "register-clock-title": "Bir kadroya katılmak veya bir kadro oluşturmak için kalan süre",
+        "competition-clock-title": "Yarışma başlıyor.",
+        "current-tier-info-title": "Güncel hacim",
+        "current-solo-prize": "Güncel bireysel ödülünüz",
+        "current-squad-prize": "Güncel takım ödülünüz",
+        "not-in-a-squad": "Herhangi bir takımda değilsiniz",
+        "join-squad": "Daha fazla ödül kazanma şansı için bir takıma katılın!",
+        "rookies-title": "Nash'e hoşgeldin Çaylak!",
+        "rookies-description": "Her hafta en iyi yeni tüccarlarımız 1.000 NEX tokeninden pay alıyor! <0>Daha fazlası için</0>",
+        "rookies-nex-rewards": "NEX ödülleri: 0.00",
+        "next-tier-info-title": "Sonraki seviye için kalan hacim",
+        "ended-title": "Nihai yarışma hacmi!"
       }
     },
     "squad-page": {
-      "squad-rank": "Squad rank",
-      "squad-volume": "Squad volume",
-      "squad-prize": "Squad total prize",
-      "best-contrib": "Leading trader",
-      "no-contrib": "No contributors yet",
-      "squad-guaranteed": "This squad has {{count}} member and is guaranteed to be in the competition.",
-      "squad-guaranteed_plural": "This squad has {{count}} members and is guaranteed to be in the competition.",
-      "squad-not-guaranteed": "This squad has {{count}} member and is not guaranteed to be in the competition.",
-      "squad-not-guaranteed_plural": "This squad has {{count}} members and is not guaranteed to be in the competition.",
-      "invite-to-squad": "Invite friends to this squad",
-      "back-to-all": "Back to all",
-      "top-members": "Squad top traders",
-      "others": "Others"
+      "squad-rank": "Takım sıralaması",
+      "squad-volume": "Takım hacmi",
+      "squad-prize": "toplam takım ödülü",
+      "best-contrib": "Lider takım üyesi",
+      "no-contrib": "Henüz katkıda bulunan yok",
+      "squad-guaranteed": "Bu takımın {{count}} üyesi var ve turnuvada olması garantili.",
+      "squad-guaranteed_plural": "Bu takımın {{count}} üyesi var ve turnuvada yer alması garantilidir.",
+      "squad-not-guaranteed": "Bu takımın {{count}} üyesi var ve turnuvada yer alacağı garanti edilmiyor.",
+      "squad-not-guaranteed_plural": "Bu takımın {{count}} üyesi var ve turnuvada yer alacağı garanti edilmiyor.",
+      "invite-to-squad": "Arkadaşlarınızı bu takıma davet edin",
+      "back-to-all": "Geri dön",
+      "top-members": "Takımın en iyi tüccarları",
+      "others": "Diğerleri"
     },
     "s02": {
-      "competition-starts": "Competition starts",
-      "competition-ends": "Competition ends",
-      "rookies": "Rookies",
-      "user-welcome": "Welcome,",
+      "competition-starts": "Turnuva başlar",
+      "competition-ends": "Turnuva biter",
+      "rookies": "Çaylaklar",
+      "user-welcome": "Hoşgeldiniz,",
       "prize": {
-        "title": "$10,000 NEW PRIZES PER $10M VOLUME",
-        "desc-1": "Just trade on Nash to get your share!",
-        "desc-2": "All users are automatically registered as solo participants, but you can join a squad to win an additional prize.",
-        "desc-3": "The more volume generated throughout the competition, the more prizes are paid out!",
-        "total-volume": "Total exchange volume",
-        "unlocked-prize": "Unlocked prizes",
-        "prize-split": "Prize split",
-        "no-prizes-unlocked": "No prizes unlocked yet",
-        "all-solos": "All solos",
-        "squad-prizes-split": "{{count}} squad",
-        "squad-prizes-split_plural": "{{count}} squads",
-        "volume-tier": "Volume tier",
-        "volume-remainning": "Volume remaining for the this level"
+        "title": "10 MİLYON DOLARLIK HACİM BAŞINA 10.000 $ YENİ ÖDÜL",
+        "desc-1": "Payınızı almak için sadece Nash platformunda işlem yapın!",
+        "desc-2": "Tüm kullanıcılar otomatik olarak tek kişilik katılımcılar olarak kaydedilir, ancak ek bir ödül kazanmak için bir takıma katılabilirsiniz.",
+        "desc-3": "Yarışma boyunca ne kadar fazla hacim oluşturulursa, o kadar çok ödül ödenir!",
+        "total-volume": "Toplam borsa hacmi",
+        "unlocked-prize": "Kilidi açılan ödüller",
+        "prize-split": "Bölünen ödül",
+        "no-prizes-unlocked": "Henüz açılmamış ödül yok",
+        "all-solos": "Tüm bireyseller",
+        "squad-prizes-split": "{{count}} takım",
+        "squad-prizes-split_plural": "{{count}} takım",
+        "volume-tier": "Hacim seviyesi",
+        "volume-remainning": "Bu seviye için kalan hacim"
       },
       "create-squad": {
-        "description": "Captains receive a guaranteed 5% of a squad’s prize!",
-        "create-squad-modal-message": "Once you create your squad, you will not be able to leave it or join a new one. Your squad must have at least 5 members when the competition begins, otherwise it will be disbanded."
+        "description": "Kaptanlar, bir takımın ödülünün% 5'ini garantili olarak alır!",
+        "create-squad-modal-message": "Takımınızı oluşturduğunuzda, takımdan ayrılamaz veya yeni bir takıma katılamazsınız.Turnuva başladığında takımınızın en az 5 üyesi olmalıdır, aksi takdirde dağıtılacaktır."
       },
       "competition-table": {
-        "divider-squad-unsafe": "These squads have not met the 5-person limit.",
-        "week-prize": "Week {{week}}",
-        "previous-week": "Previous week",
-        "next-week": "Next week"
+        "divider-squad-unsafe": "Bu takımlar 5 kişilik sınırı karşılamadı.",
+        "week-prize": "{{week}} hafta",
+        "previous-week": "Geçen hafta",
+        "next-week": "Gelecek hafta"
       },
       "competition-info": {
-        "competition-ended": "Season 2 of Nash League is now over!",
-        "welcome-rookie": "Welcome to Nash, Rookie!",
-        "how-it-works-rookie": "Our top new traders each week get a share of 1,000 NEX tokens! <0>Learn more</0>",
-        "rewards-rokie": "NEX rewards: {{prize}}"
+        "competition-ended": "Nash Lig'in 2. Sezonu sona erdi!",
+        "welcome-rookie": "Nash'e hoşgeldin, Çaylak!",
+        "how-it-works-rookie": "Her hafta en iyi yeni tüccarlarımız 1.000 NEX tokeninden pay alıyor! <0>Daha fazlası için</0>",
+        "rewards-rokie": "NEX ödülleri: {{prize}}"
       }
     }
   }
