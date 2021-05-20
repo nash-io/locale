@@ -243,8 +243,8 @@
       },
       "transfers": {
         "initializing": "Gerçekleştiriliyor",
-        "unlock-required": "Paused",
-        "locked-tooltip": "You still have a transfer initializing. Transfers can not initialize while your account is locked. Unlock to continue.",
+        "unlock-required": "Durdurulan",
+        "locked-tooltip": "Bekleyen bir transferiniz var.Hesabınız kilitliyken transferler başlatılamaz.Devam etmek için kilidi açın.",
         "initialized": "Gerçekleşen transferler",
         "tooltip": "Transfer işleminiz devam ediyor. Eğer Nash’i kapatır veya çıkış yaparsanız, tekrar giriş yapana kadar bekletilecektir",
         "do-unlock": "Unlock"
@@ -323,9 +323,9 @@
   },
   "search": "Ara…",
   "loading": "Yükleniyor…",
-  "trades-downloading": "Downloading trades…",
-  "trades-found": "{{count}} trade found…",
-  "trades-found_plural": "{{count}} trades found…",
+  "trades-downloading": "Alım-satımlar indiriliyor..",
+  "trades-found": "{{count}} alım-satımı bulundu..",
+  "trades-found_plural": "{{count}} alım-satımı bulundu..",
   "pending": "Bekliyor",
   "cancelling": "İptal ediliyor…",
   "authenticating": "Doğrulanıyor…",
@@ -337,11 +337,11 @@
   "sending-approval": "Gönderme onaylanıyor…",
   "send-approval": "Gönderme onaylandı",
   "submit-transfer": "Transferi uygula",
-  "no-longer-sufficient-balance-for-tx": "bu işlem için yeterli bakiyeniz yok.",
+  "no-longer-sufficient-balance-for-tx": "Bu işlem için yeterli bakiyeniz yok.",
   "we-are-hiring": "Çalışma arkadaşları arıyoruz",
   "errors": {
-    "invalid-address-title": "Invalid address on your profile",
-    "invalid-address": "Please <0>contact support</0> to update your address with us.",
+    "invalid-address-title": "Geçersiz adres bilgisi.",
+    "invalid-address": "Adresinizi güncellemek için lütfen <0>desteğe başvurun</0>.",
     "location-banned-title": "Erişim engellendi",
     "location-banned": "Maalesef, Nash şu anda bulunduğunuz alanda hizmet vermiyor.",
     "invalid-clock-title": "Bilgisayarınızın saati doğru değil.",
@@ -681,7 +681,7 @@
         "case-sensitive": "Tüm kelimeler küçük harftir",
         "create-my-wallet": "Hesabımı oluştur",
         "generating-your-wallet": "Nash hesabınız oluşturuluyor…",
-        "words-confirmed-continuing": "Words confirmed! Continuing to your account…"
+        "words-confirmed-continuing": "Kelimeler onaylandı! Hesabınıza devam ediliyor…"
       },
       "wallet-created": {
         "header": "Nash hesabınız başarılı bir şekilde oluşturuldu.",
@@ -751,13 +751,13 @@
     },
     "banners": {
       "USDT-USDC": {
-        "remind-later": "Remind me later",
-        "dismiss-forever": "Dismiss forever",
-        "no-fees": "No fees are charged on this market until March 2021"
+        "remind-later": "Daha sonra hatırlat",
+        "dismiss-forever": "Görmezden gel",
+        "no-fees": "Mart 2021'e kadar bu pazarda herhangi bir ücret alınmaz."
       }
     },
     "tips": {
-      "balance": "Send funds to the trading contract here."
+      "balance": "Buradan ticaret sözleşmesine para gönderin."
     },
     "no-markets": "Piyasalar şu anda müsait değil.",
     "auth": {
@@ -778,11 +778,11 @@
       }
     },
     "favorite-bar": {
-      "tips": "Add favorite markets as links here."
+      "tips": "Favori pazarları buraya bağlantı olarak ekleyin."
     },
     "market-graphs": {
       "title": "Grafikler",
-      "market-paused": "Market paused",
+      "market-paused": "Market durduruldu",
       "price-chart": {
         "title": "fiyat",
         "heads-up-display": {
@@ -861,17 +861,17 @@
       "clear-studies-button-label": "Tüm indikatörleri temizle"
     },
     "update-order": {
-      "new-limit": "Set a new price",
-      "new-stop": "Set a new stop price",
-      "save": "Save changes",
-      "cancel": "Cancel"
+      "new-limit": "Yeni fiyat ayarla",
+      "new-stop": "Yeni bir stop fiyat ayarla",
+      "save": "Değişiklikleri kaydet",
+      "cancel": "Iptal et"
     },
     "create-order": {
       "buy": "Al {{currencySymbol}}",
       "sell": "Sat {{currencySymbol}}",
-      "market-paused": "This market is currently paused for maintenance. You will be unable to make trades.",
+      "market-paused": "Bu pazar şu anda bakım nedeniyle duraklatılmış durumda. Alım satım yapamayacaksınız.",
       "locked-trading-session": {
-        "information": "Your trading session is locked.",
+        "information": "Ticaret seansınız kilitlendi.",
         "information-tooltip": "Sayfayı yenilediğinizde veya 15 dakika boşta kaldığınızda oturumlar kilitlenir.",
         "enter-credentials-to-unlock": "<0>Şimdi kilidi aç</0>"
       },
@@ -911,7 +911,7 @@
             "maybe-insufficient-funds": "Yetersiz {{currencySymbol}}.",
             "order-too-small": "Min miktar {{orderSize}} {{currencySymbol}}.",
             "limit-breached": "Bu işlem limitlerinizi aşıyor.",
-            "soft-limit-breached": "You’re close to your trading limit. <0>Upgrade</0> your verification tier to trade more."
+            "soft-limit-breached": "Ticaret limitinize yaklaştınız.Daha fazla ticaret yapmak için doğrulama seviyenizi <0>yükseltin</0>."
           }
         },
         "cancel-at": {
